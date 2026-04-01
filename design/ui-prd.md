@@ -13,7 +13,7 @@ Two surfaces. One layout. Always visible simultaneously.
 ┌──────────────────────┬────────────────────────────────────────┐
 │                      │                                        │
 │   Run Feed           │   Output Panel                         │
-│   dark · terminal    │   warm light · editorial               │
+│   muted · quiet      │   warm light · editorial               │
 │                      │                                        │
 │   38%                │   62%                                  │
 │                      │                                        │
@@ -29,7 +29,7 @@ Two surfaces. One layout. Always visible simultaneously.
 └───────────────────────────────────────────────────────────────┘
 ```
 
-- Left panel: own scroll, dark
+- Left panel: own scroll, muted — reads as a quieter companion to the right, not a jarring contrast
 - Right panel: own scroll, persists after run — this is the deliverable
 - QueryBar: always visible, fixed at bottom
 - When a card is clicked → it expands to fill the right panel, back arrow to return to deck
@@ -55,23 +55,25 @@ Two registers, never mixed across surfaces.
 --frosted-bg:       rgba(242, 239, 233, 0.72)   ← glassmorphic card overlay
 ```
 
-### Run feed — dark terminal
+### Run feed — muted companion
 ```
---bg-dark:          #0F0F11
---surface-dark:     #161618
---text-on-dark:     #E8E6E0
---text-dim:         #888680
---text-faint-dark:  #555350
---border-dark:      rgba(232, 230, 224, 0.07)
---glyph-active:     #D4955A   ← ✦ spinner, active phase dot
---glyph-complete:   #6A9A6A   ← ✓ checkmarks
---glyph-pending:    #555350   ← ○ hollow dots
+--bg-feed:          #E4DFD8   ← desaturated warm — pulls from the same family as --bg-warm, just dimmer
+--surface-feed:     #DDD8D0   ← slightly deeper, for result block backgrounds
+--text-feed:        #3A3530   ← dark warm brown — readable but not sharp black
+--text-feed-dim:    #7A7470   ← for phase labels, commands, secondary info
+--text-feed-faint:  #A8A09A   ← for pending states, timestamps
+--border-feed:      rgba(58, 53, 48, 0.10)
+--glyph-active:     #B86E32   ← same amber as --accent-amber — active phase, spinner
+--glyph-complete:   #4A7A4A   ← same green as --accent-green — ✓ checkmarks
+--glyph-pending:    #A8A09A   ← ○ hollow dots
 ```
 
+The left panel is a desaturated sibling of the right — same warm family, lower brightness. The boundary between panels reads as a tonal shift, not a collision between two different design systems.
+
 ### What we are not doing
+- No pure black, no `#0F0F11` terminal dark — that's Notte's register, not ours
 - No neo-brutalism borders or box-shadow offsets
 - No Archivo Black — not in the Framer template register
-- No pure black or pure white backgrounds
 - No emojis as phase indicators — use dot/glyph vocabulary
 
 ---
@@ -97,7 +99,7 @@ src/components/
 │   ├── OutputPanel.tsx       ← right surface container
 │   └── QueryBar.tsx          ← bottom input bar
 ├── run/
-│   ├── PipelineBlock.tsx     ← PIPELINE 2/9 · running + phase list
+│   ├── PipelineBlock.tsx     ← adaptive phase feed — grows as orchestrator spawns phases
 │   ├── ThinkingSpinner.tsx   ← ✦ Triangulating... (18s)  [built]
 │   ├── ClarificationGate.tsx ← pause-and-ask for tangential results
 │   ├── PhaseLabel.tsx        ← ⟳ phase vcro-extract
@@ -126,36 +128,35 @@ src/components/
 
 ### 5.1 PipelineBlock
 
-The top-level phase tracker. Shows pipeline progress while the run is live.
+Phases are not known in advance. The orchestrator decides which skills to invoke based on what the query requires — a pricing question skips extract/signal/rank, a bounty query adds broker and CRO tracks, a feasibility question might not need contacts. The UI reflects what has happened and what is currently happening, never a predetermined checklist.
 
 ```
-PIPELINE  3 / 9  ·  running
+  ✓ understanding your request
+  ✓ searching literature
+  ● extracting intelligence        ← filled amber dot = currently active
+  → ADNI lipidomics: ether lipid decline replicated in ASPREE
+  → Michigan ALS: AUC 0.94, strongest diagnostic signal found so far
 
-  ✓ vcro-understand          ← check = complete
-  ✓ vcro-cohort-map (search)
-  ● vcro-validate            ← filled amber = active
-  ○ vcro-cohort-map (extract)
-  ○ vcro-signal
-  ○ vcro-contacts
-  ○ vcro-rank
-  ○ vcro-deliver
-
-  Findings so far:
-  → ADNI lipidomics: longitudinal LC/MS plasma, n=985
-  → ALS Michigan cohort: AUC 0.94 in two independent cohorts
 ```
+
+Phases appear as they are initiated — not as a list that was known at the start. There is no total count ("2/9"). The user sees what's done, what's active, and what's been found. That's all.
 
 **Props:**
 ```ts
 interface PipelineBlockProps {
-  phases: { name: string; status: "pending" | "running" | "complete" }[];
-  findings: string[];   // outcome-focused strings from progress.jsonl
-  totalPhases: number;
-  currentPhase: number;
+  phases: PipelinePhase[];  // append-only — grows as orchestrator spawns phases
+  findings: string[];       // outcome-focused strings from progress.jsonl, interleaved
+}
+
+interface PipelinePhase {
+  id: string;               // e.g. "vcro-cohort-map-extract"
+  label: string;            // human label: "extracting intelligence"
+  status: "running" | "complete";
+  // "pending" is never shown — phases only appear once initiated
 }
 ```
 
-**Design:** monospace, `--bg-dark`, dot vocabulary: `✓` `●` `○`. Findings appear inline under the block, not in a separate section.
+**Design:** JetBrains Mono, `--bg-feed`. Dot vocabulary: `✓` `●`. Findings (`→`) interleave between phase lines as they arrive from progress.jsonl. No phase list shown ahead of time. No total count. No "○ pending" entries.
 
 ---
 
@@ -573,16 +574,15 @@ Cards are always present from the moment of extraction. Data arrives on top prog
 Triggered when the query contains a budget figure and desired outcome.
 
 ### Left surface (RunFeed)
-Same PipelineBlock but phases map to bounty skill phases:
+Same PipelineBlock — adaptive. Phases appear as the bounty orchestrator spawns them. A fast feasibility check that fails early might only produce two phase lines. A full three-leg procurement plan produces more. The UI never predicts what's coming.
+
 ```
-  ✓ bounty_parse
-  ✓ feasibility_check
-  ● source_discovery (Track A + B + C parallel)
-  ○ cost_stack
-  ○ bundle_optimization
-  ○ [user gate — bundle review]
-  ○ action_map
-  ○ bounty_contract
+  ✓ understanding your bounty
+  ✓ checking feasibility
+  ● discovering sources
+
+  → Lifelines: 150 plasma samples, EUR 3.70–28/sample, volume discount at 500+
+  → BioIVT supplies from Michigan ALS clinic — direct bypass possible
 ```
 
 ### Right surface (OutputPanel)
