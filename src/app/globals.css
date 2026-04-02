@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand — cyan-teal family */
+  --color-brand-primary: #00a5b4;
+  --color-brand-mid: #00b4c3;
+  --color-brand-vivid: #00d2e1;
+  --color-brand-light: #87e1f0;
+  --color-brand-pale: #a5e1f0;
+  --color-brand-faint: #c3f0f0;
+
+  /* Output panel — warm light */
+  --color-bg-warm: #F2EFE9;
+  --color-bg-surface: #ECEAE4;
+  --color-text-primary: #1A1814;
+  --color-text-secondary: #6B6560;
+  --color-text-faint: #A09890;
+
+  /* Run feed — dark terminal */
+  --color-feed-bg: #0F0F11;
+  --color-feed-surface: #161618;
+  --color-feed-text: #E8E6E0;
+  --color-feed-secondary: #888680;
+  --color-feed-faint: #555350;
+
+  /* Glyphs / accents */
+  --color-glyph-active: #B86E32;
+  --color-accent-confirm: #4A7A4A;
+
+  /* Fonts */
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+}
+
+:root {
+  /* Raw CSS vars for use in SVG, inline styles, and non-Tailwind contexts */
+  --brand-primary:    #00a5b4;
+  --brand-mid:        #00b4c3;
+  --brand-vivid:      #00d2e1;
+  --brand-light:      #87e1f0;
+  --brand-pale:       #a5e1f0;
+  --brand-faint:      #c3f0f0;
+
+  --bg-warm:          #F2EFE9;
+  --bg-surface:       #ECEAE4;
+  --text-primary:     #1A1814;
+  --text-secondary:   #6B6560;
+  --text-faint:       #A09890;
+  --border:           rgba(26, 24, 20, 0.08);
+
+  --feed-bg:          #0F0F11;
+  --feed-surface:     #161618;
+  --feed-text:        #E8E6E0;
+  --feed-secondary:   #888680;
+  --feed-faint:       #555350;
+  --feed-border:      rgba(232, 230, 224, 0.08);
+
+  --glyph-active:     #B86E32;
+  --accent-confirm:   #4A7A4A;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--bg-warm);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Phase complete animation */
+@keyframes phase-confirm {
+  0%   { color: var(--accent-confirm); opacity: 0; }
+  20%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+.phase-confirm-enter {
+  animation: phase-confirm 400ms ease forwards;
+}
+
+/* Card appear */
+@keyframes card-appear {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-appear {
+  animation: card-appear 300ms ease forwards;
+}
+
+/* Thinking glyph pulse */
+@keyframes glyph-pulse {
+  from { opacity: 0.5; transform: scale(0.95); }
+  to   { opacity: 1;   transform: scale(1.05); }
+}
+
+.glyph-pulse {
+  animation: glyph-pulse 600ms ease-in-out infinite alternate;
+}
