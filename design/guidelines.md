@@ -29,43 +29,68 @@ Not Notte (pure developer terminal). Not HuggingFace (dense catalog). Not a gene
 
 ## 3. The Card System
 
-### Paintings / gradients as card heroes
+### ZelijHero — the card hero technique
 
-Every result card has a full-bleed image as its hero. Not a photo, not an illustration — an **abstract gradient field** or a **painterly nature image**. The image is atmosphere, not content.
+Every result card has a **zelij-aquarelle hero**: a sharp Islamic khatem (8-pointed star) geometric lattice overlaid on a soft watercolor wash. Fully programmatic SVG — no images, no external API.
 
-Technique (from ara.so, confirmed by Galilee's glassmorphic cards):
-```css
-.card-hero {
-  background-size: cover;
-  background-position: center;
-  transform: scale(1.05);
-  filter: blur(1px) saturate(0.9);
-}
+**Reference prototype:** `/tmp/zelij-final.html`
+**What zelij-test.html got right (keep exactly):**
+- Khatem pattern: `<polygon>` (octagon) + `<rect rotate(45)>` as SVG `<pattern>`, white stroke at `opacity: 0.15`. Sharp, crisp, geometric.
+- Aquarelle wash: 3–4 `<ellipse>` elements behind the pattern, rendered through a blur filter.
+- Bottom fade: `linearGradient` from transparent → `--bg-warm`.
 
-.card-overlay {
-  background: linear-gradient(180deg,
-    transparent 0%,
-    rgba(10, 10, 12, 0.6) 55%,
-    rgba(10, 10, 12, 0.88) 100%
-  );
+**The one improvement in zelij-final.html:**
+```svg
+<!-- Old (zelij-test): just blur — smooth perfect circles -->
+<filter id="f"><feGaussianBlur stdDeviation="14"/></filter>
+
+<!-- New (zelij-final): displace THEN blur — organic, paint-like blobs -->
+<filter id="f" x="-20%" y="-20%" width="140%" height="140%">
+  <feTurbulence type="turbulence" baseFrequency="0.009 0.007" numOctaves="5" seed="{n}" result="noise"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="22" xChannelSelector="R" yChannelSelector="G" result="disp"/>
+  <feGaussianBlur in="disp" stdDeviation="13"/>
+</filter>
+```
+
+**Confidence encoding — hue stays teal, saturation changes:**
+| Confidence | Filter treatment |
+|---|---|
+| High — large N, replicated | `saturate: 1.0`, blur `stdDeviation="13"` |
+| Medium | `saturate: 0.85`, blur `stdDeviation="15"` |
+| Low | `saturate: 0.55`, blur `stdDeviation="18"` |
+| Tangential | `saturate: 0.14`, blur `stdDeviation="22"`, lattice `opacity: 0.10` |
+
+**Hue stays in the brand teal family across all sample types** — this is deliberate. The zelij is a unifying visual, not a per-type differentiation signal. Confidence differentiation is done through saturation + blur depth, not hue shifts.
+
+**Programmatic parameters (`resolveZelij.ts`):**
+```ts
+interface ZelijParams {
+  ellipses: Array<{ cx,cy,rx,ry: number; hsl: [number,number,number]; opacity: number }>
+  filterSeed: number      // deterministic from cohortId hash
+  displacementScale: number  // 18–24 based on confidence
+  blurStdDev: number         // 13–22 based on confidence
+  patternRotation: 0|15|30|45  // rotates the khatem grid, from cohortId hash
+  latticeOpacity: number     // 0.10–0.15 based on confidence
 }
 ```
 
-**The gradient encodes confidence (from our concept work):**
-- High confidence, large N, replicated → warm, saturated, clear
-- Medium confidence → standard treatment
-- Tangential / uncertain → desaturated, near grayscale, heavy blur
+**Usage:**
+```tsx
+<ZelijHero
+  cohortId="PMC12269576"
+  confidence="high"
+  height={160}       // card hero: 160px (40% of 400px card)
+  fadeInto="--bg-warm"
+/>
 
-**Gradient tone mapped to sample type:**
-| Sample type | Gradient direction |
-|---|---|
-| Blood / plasma | Warm — amber, ochre, rust |
-| Tissue / FFPE | Deep — forest green, dark umber |
-| CSF / neurological | Cool — blue-gray, silver, slate |
-| Urine / metabolic | Soft — sand, pale gold |
-| Multi-modal | Abstract — layered, shifting |
-
-Gradients are generated programmatically from the sample type and cohort ID — same run always renders the same card the same way. Stable identity.
+<ZelijHero
+  cohortId={runId}
+  confidence="high"
+  height={280}       // session hero: 280px
+  fullBleed
+  fadeInto="--bg-warm"
+/>
+```
 
 ### Card anatomy
 
@@ -204,41 +229,59 @@ Key descriptor in accent color inline with the title:
 
 ## 6. Color System
 
-Two registers, used by two surfaces:
+### Brand palette — sourced from `real-tiles/main-colors.png`
 
-### Output panel (right) — warm light register
+The brand color is **cyan-teal** — hsl(185, 100%, 35%). Every interactive element, zelij card hero, and accent in the UI draws from this family. Extracted from the real zelij watercolor tile reference images.
+
 ```
-Background:     #F7F4EF  (warm off-white, not pure white)
-Surface:        #EFEAE2  (slightly deeper warm)
-Text primary:   #1A1814
-Text secondary: #6B6560
-Text faint:     #A09890
-Border:         rgba(26, 24, 20, 0.08)
-Accent warm:    #C4763A  (amber — access routes, open data)
-Accent cool:    #4A7FA5  (steel blue — platform/provider cards)
-Stat positive:  #4A7A4A  (muted green — up arrows, confirmed)
+--brand-primary:    #00a5b4   hsl(185,100%,35%)   deep teal — CTAs, active states, links
+--brand-mid:        #00b4c3   hsl(185,100%,38%)   mid teal — hover states
+--brand-vivid:      #00d2e1   hsl(184,100%,44%)   bright cyan — highlights, badges
+--brand-light:      #87e1f0   hsl(189, 78%,74%)   sky — light backgrounds, tints
+--brand-pale:       #a5e1f0   hsl(192, 71%,79%)   pale wash — very subtle tints
+--brand-faint:      #c3f0f0   hsl(180, 60%,85%)   near-white teal — hairlines, dividers
 ```
 
-### Run feed (left) — dark terminal register
+### Surfaces
+
 ```
-Background:     #0F0F11
-Surface:        #161618
-Text primary:   #E8E6E0
-Text secondary: #888680
-Text faint:     #555350
-Border:         rgba(232, 230, 224, 0.08)
-Active glyph:   #D4955A  (warm amber — the ✦ glyph when thinking)
-Phase complete: #6A9A6A  (muted green — ✓ checkmarks)
-Phase active:   #D4955A  (warm amber — ● filled dot)
-Phase pending:  #555350  (gray — ○ hollow dot)
+--bg-warm:          #F2EFE9   output panel background (warm off-white)
+--bg-feed:          #E4DFD8   run feed background (muted warm)
+--bg-surface:       #ECEAE4   card surface inside output panel
+```
+
+### Text
+
+```
+--text-primary:     #1A1814   main body text
+--text-secondary:   #6B6560   metadata, secondary labels
+--text-faint:       #A09890   placeholders, disabled
+```
+
+### Accents
+
+```
+--glyph-active:     #B86E32   amber — thinking glyph ✦, active phase dot, open access badge
+--accent-confirm:   #4A7A4A   muted green — ✓ phase complete, confirmed replication
+--border:           rgba(26,24,20,0.08)
+```
+
+### Run feed — dark terminal
+
+```
+--feed-bg:          #0F0F11
+--feed-surface:     #161618
+--feed-text:        #E8E6E0
+--feed-secondary:   #888680
+--feed-faint:       #555350
+--feed-border:      rgba(232,230,224,0.08)
 ```
 
 ### What we are NOT doing
-- Not Notte's cyan blue for active states
-- Not ara.so's exact gold `#e8b84b`
-- Not Prologue's bright orange
+- Not using the brand teal for backgrounds — it lives in the zelij hero and interactive elements only
+- Not ara.so's gold `#e8b84b`
 - Not pure black or pure white backgrounds
-- No HuggingFace yellow
+- The warm surface (`#F2EFE9`) and the brand teal (`#00a5b4`) never appear simultaneously at large scale — they are on different surfaces
 
 ---
 
@@ -294,7 +337,7 @@ src/
 │   │   ├── SignalCard.tsx          ← feasibility / proof-point results
 │   │   ├── ProviderCard.tsx        ← platform comparison results
 │   │   ├── BountyCard.tsx          ← pricing / access results
-│   │   ├── CardGradient.tsx        ← the painting/gradient hero
+│   │   ├── ZelijHero.tsx           ← zelij-aquarelle SVG hero (replaces CardGradient)
 │   │   ├── CardDeck.tsx            ← stacked ranked deck
 │   │   └── CardExpanded.tsx        ← full-panel expanded view
 │   ├── run/
@@ -308,12 +351,50 @@ src/
 │   │   ├── OutputPanel.tsx         ← right surface
 │   │   └── QueryBar.tsx            ← bottom input
 │   └── session/
-│       └── SessionHero.tsx         ← full-bleed gradient header in output panel
+│       └── SessionHero.tsx         ← uses ZelijHero at height=280, fullBleed
 ├── lib/
 │   └── layout/
 │       ├── resolveCards.ts         ← reads endpoint_schema, picks card types
-│       └── resolveGradient.ts      ← maps sample type + PMID → gradient params
+│       └── resolveZelij.ts         ← maps cohortId + confidence → ZelijParams
 ```
+
+---
+
+## 12. UI Build Instructions
+
+### What to build, in order
+
+**Phase 1 — Shell (no data)**
+1. `RunFeed` left surface at `--bg-feed` (#E4DFD8), `OutputPanel` right at `--bg-warm` (#F2EFE9)
+2. `QueryBar` pinned to bottom, full width
+3. `ThinkingSpinner` (already built) — verify it uses `--glyph-active: #B86E32`
+4. Static `PipelineBlock` with hardcoded phases — no data needed, just the layout
+
+**Phase 2 — ZelijHero + cards (fixture data)**
+1. Build `resolveZelij.ts` — pure function, no DOM. Input: `cohortId`, `confidence`. Output: `ZelijParams`.
+   - `filterSeed` = sum of char codes of `cohortId` mod 97
+   - `patternRotation` = `[0,15,30,45][seed % 4]`
+   - Ellipse positions from seed (4–5 ellipses, hsl from `--brand-primary` family)
+2. Build `ZelijHero.tsx` — SVG component. Exact structure from `/tmp/zelij-final.html`. No clipPath. Three layers: blurred wash → khatem pattern → fade gradient.
+3. Wire into `CohortCard` at `height={160}`, `SessionHero` at `height={280}`
+4. Test with fixture run IDs: `fixture_cohort`, `fixture_bounty`
+
+**Phase 3 — Run feed live (SSE)**
+1. `GET /api/runs/[runId]/progress` SSE route
+2. `PipelineBlock` subscribes — phases append as events arrive
+3. `ClarificationGate` blocks on `type: clarification` events
+
+**Phase 4 — Data wiring**
+1. Connect `CohortCard` to real `extracted_cohorts.json` via `store_query.py`
+2. Wire confidence from `signal_summary.json` → `ZelijHero` confidence prop
+3. `CardDeck` stacking with colored edges (edge color = `--brand-vivid` at varying opacity per rank)
+
+### Key constraints to hold
+- `ZelijHero` SVG must be `overflow: hidden` — the khatem pattern tiles beyond card edges
+- The zelij lattice `<pattern>` must be defined in `<defs>` — do not inline per card
+- `resolveZelij` must be deterministic: same `cohortId` always produces same visual
+- Never use `Math.random()` in `resolveZelij` — use the hash-based seed only
+- The brand teal never appears as a large background — only in the zelij wash, interactive elements, and small accent chips
 
 ---
 
