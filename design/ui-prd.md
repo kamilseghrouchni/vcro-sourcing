@@ -1,7 +1,7 @@
 # vCRO Webapp — UI Product Requirements Document
 
 _Source of truth for component design, data contracts, and visual behaviour._
-_Design register: Framer templates (ara.so, Galilee, Anastasis, Prologue, Athos) for visual identity. Notte Labs for run feed structure only._
+_Design register: zelij-aquarelle (programmatic SVG — khatem lattice + watercolor wash). Framer templates for layout/editorial register. Notte Labs for run feed structure only._
 
 ---
 
@@ -13,7 +13,7 @@ Two surfaces. One layout. Always visible simultaneously.
 ┌──────────────────────┬────────────────────────────────────────┐
 │                      │                                        │
 │   Run Feed           │   Output Panel                         │
-│   muted · quiet      │   warm light · editorial               │
+│   warm · muted       │   warm light · editorial               │
 │                      │                                        │
 │   38%                │   62%                                  │
 │                      │                                        │
@@ -39,42 +39,56 @@ Two surfaces. One layout. Always visible simultaneously.
 
 ## 2. Color System
 
-Two registers, never mixed across surfaces.
+Two registers, never mixed across surfaces. Single source of truth — all components reference these vars, never raw hex.
+
+### Brand palette — sourced from `real-tiles/main-colors.png`
+
+The zelij tile reference images define the entire brand palette. All hues sit in `hsl(180–192)` — the cyan-teal family.
+
+```
+--brand-primary:    #00a5b4   hsl(185,100%,35%)   deep teal — CTAs, active states, links
+--brand-mid:        #00b4c3   hsl(185,100%,38%)   hover states
+--brand-vivid:      #00d2e1   hsl(184,100%,44%)   badges, highlights
+--brand-light:      #87e1f0   hsl(189, 78%,74%)   light tints
+--brand-pale:       #a5e1f0   hsl(192, 71%,79%)   very subtle tints
+--brand-faint:      #c3f0f0   hsl(180, 60%,85%)   hairlines, dividers
+```
 
 ### Output panel — warm light
 ```
---bg-warm:          #F2EFE9   ← parchment-cream (Framer pastel direction)
---surface-warm:     #E9E4DC   ← slightly deeper
+--bg-warm:          #F2EFE9   parchment-cream
+--bg-surface:       #E9E4DC   card surface
 --text-primary:     #1A1814
 --text-secondary:   #6B6560
 --text-faint:       #A09890
---border-warm:      rgba(26, 24, 20, 0.07)
---accent-amber:     #B86E32   ← access routes, open data badges
---accent-blue:      #4A7FA5   ← platform/provider cards
---accent-green:     #4A7A4A   ← confirmed, replicated, open access
---frosted-bg:       rgba(242, 239, 233, 0.72)   ← glassmorphic card overlay
+--border:           rgba(26,24,20,0.08)
 ```
 
-### Run feed — muted companion
+### Run feed — warm muted
+
+The left panel is a desaturated sibling of the right — same warm family, lower brightness. The boundary reads as a tonal shift, not a collision between two design systems.
+
 ```
---bg-feed:          #E4DFD8   ← desaturated warm — pulls from the same family as --bg-warm, just dimmer
---surface-feed:     #DDD8D0   ← slightly deeper, for result block backgrounds
---text-feed:        #3A3530   ← dark warm brown — readable but not sharp black
---text-feed-dim:    #7A7470   ← for phase labels, commands, secondary info
---text-feed-faint:  #A8A09A   ← for pending states, timestamps
---border-feed:      rgba(58, 53, 48, 0.10)
---glyph-active:     #B86E32   ← same amber as --accent-amber — active phase, spinner
---glyph-complete:   #4A7A4A   ← same green as --accent-green — ✓ checkmarks
---glyph-pending:    #A8A09A   ← ○ hollow dots
+--bg-feed:          #E4DFD8   desaturated warm — sibling of --bg-warm
+--surface-feed:     #DDD8D0   slightly deeper, result block backgrounds
+--text-feed:        #3A3530   dark warm brown — readable but not sharp black
+--text-feed-dim:    #7A7470   phase labels, commands, secondary info
+--text-feed-faint:  #A8A09A   pending states, timestamps
+--border-feed:      rgba(58,53,48,0.10)
 ```
 
-The left panel is a desaturated sibling of the right — same warm family, lower brightness. The boundary between panels reads as a tonal shift, not a collision between two different design systems.
+### Accents
+```
+--glyph-active:     #B86E32   amber — ✦ thinking, active phase dot, open access badge
+--accent-confirm:   #4A7A4A   muted green — ✓ phase complete, confirmed replication
+```
 
-### What we are not doing
-- No pure black, no `#0F0F11` terminal dark — that's Notte's register, not ours
+### What we are NOT doing
+- No `#0F0F11` dark terminal — that's Notte's register, not ours
+- No brand teal as a large background — teal lives in zelij heroes and interactive elements only
+- No sample-type hue mapping (blood=amber, CSF=blue-gray) — zelij hue is unified teal across all query types
 - No neo-brutalism borders or box-shadow offsets
-- No Archivo Black — not in the Framer template register
-- No emojis as phase indicators — use dot/glyph vocabulary
+- No emojis as phase indicators — dot/glyph vocabulary only
 
 ---
 
@@ -107,7 +121,7 @@ src/components/
 │   ├── ProgressFeed.tsx      ← SSE reader for progress.jsonl
 │   └── RunSummary.tsx        ← collapsed state when run ends
 ├── cards/
-│   ├── CardGradient.tsx      ← painting/gradient hero generator
+│   ├── ZelijHero.tsx         ← zelij-aquarelle SVG hero (khatem lattice + watercolor wash)
 │   ├── CardDeck.tsx          ← stacked ranked deck (Athos-style)
 │   ├── CardExpanded.tsx      ← full-panel expanded view
 │   ├── CohortCard.tsx        ← cohort sourcing results
@@ -276,74 +290,74 @@ RUN COMPLETE  ·  3m 42s
 
 ### 6.1 SessionHero
 
-Full-bleed gradient at the top of the output panel. One per session. Stays fixed while cards assemble below.
+Full-bleed ZelijHero at the top of the output panel. One per session. Stays fixed while cards assemble below.
 
-The gradient encodes the query:
-- Blood/plasma query → warm amber-ochre
-- Neurological/CSF query → cool blue-gray
-- FFPE/tissue query → deep forest green
-- Multi-modal → layered, shifting
+Uses `<ZelijHero cohortId={runId} confidence="high" height={280} fullBleed fadeInto="var(--bg-warm)"/>`.
+
+The zelij encodes the run identity — hue stays brand teal across all query types. Sample type does not change the color. Confidence encoding (saturation + blur) applies if the overall run confidence is known.
 
 **Props:**
 ```ts
 interface SessionHeroProps {
-  indication: string;   // from request.json
-  sampleType: string;   // drives gradient palette
-  queryOneLiner: string;
+  runId: string;         // passed as cohortId to ZelijHero — deterministic seed
+  indication?: string;   // from request.json — rendered as text overlay
+  queryOneLiner?: string;
 }
 ```
 
-**Design:** 280px tall, full-bleed. `filter: blur(0.5px) saturate(0.88)`. Gradient overlay fades top-to-bottom into `--bg-warm`.
+**Design:** 280px tall, full-bleed. Bottom fades into `--bg-warm`. Indication + query text sit in the lower portion of the hero, above the fade zone.
 
 ---
 
-### 6.2 CardGradient
+### 6.2 ZelijHero
 
-The painting/gradient hero for each card. Generated programmatically — deterministic by `cohortId` so the same run always renders the same card the same way.
+The zelij-aquarelle hero for every card and session header. Fully programmatic SVG — no images, no external API. Deterministic: same `cohortId` always produces the same visual.
 
-**Gradient encodes confidence:**
-- High confidence (replicated, large N) → warm, saturated, clear
-- Medium → standard treatment
-- Tangential / uncertain → desaturated, near grayscale, heavy blur
+**Three layers:**
+1. **Aquarelle wash** — 4–5 teal ellipses passed through `feTurbulence → feDisplacementMap → feGaussianBlur`. Displacement before blur creates organic paint-blob texture (not smooth circles).
+2. **Khatem lattice** — SVG `<pattern>`: octagon polygon + rotated rect, white stroke, low opacity. Sharp geometric grid.
+3. **Bottom fade** — `linearGradient` transparent → `--bg-warm`.
 
-**Gradient tone mapped to sample type:**
-| Sample type | Gradient |
-|---|---|
-| Blood / plasma | Warm — amber, ochre, rust |
-| Tissue / FFPE | Deep — forest green, dark umber |
-| CSF / neurological | Cool — blue-gray, silver, slate |
-| Urine / metabolic | Soft — sand, pale gold |
-| Multi-modal | Abstract — layered, shifting |
+**Confidence encoding** — hue stays brand teal across all confidence levels and all sample types. Only saturation and blur depth vary:
+
+| Confidence | CSS saturate | blurStdDev | latticeOpacity |
+|---|---|---|---|
+| high | 1.0 | 4.5 | 0.35 |
+| medium | 0.85 | 5.5 | 0.25 |
+| low | 0.55 | 7.0 | 0.18 |
+| tangential | 0.14 | 9.0 | 0.10 |
+
+**`resolveZelij.ts`** — pure function, no Math.random(), no DOM:
+```ts
+interface ZelijParams {
+  ellipses: Array<{ cx,cy,rx,ry: number; hsl: [number,number,number]; opacity: number }>
+  flatPolygons: Array<{ points: string; fill: string; opacity: number }>  // Moabtx mixed-cell layer
+  filterSeed: number          // djb2 hash of cohortId mod 97
+  displacementScale: number   // 6–9 (calibrated for 100×100 viewBox)
+  blurStdDev: number          // 4.5–9 (calibrated for 100×100 viewBox)
+  patternRotation: 0|15|30|45
+  latticeOpacity: number
+  cssSaturate: number
+}
+```
+
+**SVG viewBox note:** ZelijHero uses `viewBox="0 0 100 100"`. Filter values (`blurStdDev`, `displacementScale`, `baseFrequency`) are calibrated for this 100-unit space — approximately 3× smaller than the zelij-final.html prototype which used 280×160px. Do not copy prototype pixel values directly.
 
 **Props:**
 ```ts
-interface CardGradientProps {
-  cohortId: string;      // seed for deterministic generation
-  sampleType: string;    // drives palette
-  confidence: "high" | "medium" | "low" | "tangential";
-  height?: number;
+interface ZelijHeroProps {
+  cohortId: string;       // seed — never pass empty string
+  confidence?: "high" | "medium" | "low" | "tangential";
+  height?: number;        // 160 for card hero, 280 for session hero, 320 for empty state
+  fadeInto?: string;      // default "var(--bg-warm)"
+  fullBleed?: boolean;    // no border-radius (session hero, empty state)
 }
 ```
 
-CSS technique:
-```css
-.card-hero {
-  background-size: cover;
-  background-position: center;
-  transform: scale(1.05);
-  filter: blur(1px) saturate(0.9);
-}
-.card-overlay {
-  background: linear-gradient(180deg,
-    transparent 0%,
-    rgba(242, 239, 233, 0.0) 40%,
-    rgba(242, 239, 233, 0.85) 80%,
-    rgba(242, 239, 233, 1.0) 100%
-  );
-}
-```
-
-Note: overlay fades into `--bg-warm`, not into black — this is the Framer register, not the Notte dark.
+**Constraints:**
+- `overflow: hidden` required on wrapper — khatem pattern tiles beyond card edges
+- `<pattern>` defined in `<defs>` — do not inline per card
+- Never use `Math.random()` in resolveZelij
 
 ---
 
@@ -370,7 +384,7 @@ For cohort sourcing queries. Data from: `ranking.json` + `extracted_cohorts.json
 
 ```
 ┌─────────────────────────────────────────┐
-│  [CardGradient hero — ~40% card height] │
+│  [ZelijHero height={160}]               │
 │                                         │
 ├─────────────────────────────────────────┤
 │  ADNI                    [OPEN ACCESS]  │
@@ -405,7 +419,7 @@ interface CohortCardProps {
 ```
 
 **Card reveal sequence** (assembles as pipeline runs):
-1. `CardGradient` + cohort name appear first (after extraction)
+1. `ZelijHero` + cohort name appear first (after extraction)
 2. Institution strip populates (after extraction)
 3. Evidence quote fades in (after signal phase)
 4. Stat footer fills in last (after rank + access phases)
@@ -488,7 +502,7 @@ Full-panel expanded view. Triggered by clicking any card. Back arrow returns to 
 ┌────────────────────────────────────────────────────────────┐
 │  ← Back to results                                         │
 │                                                            │
-│  [CardGradient — scales up, less blur, more visible]       │
+│  [ZelijHero confidence="high" height={240} fullBleed]       │
 │                                                            │
 │  ADNI Cohort  ·  Open Access   (Instrument Serif, large)   │
 │  University of Southern California · USA · Est. 2004       │
@@ -605,7 +619,7 @@ Instead of CardDeck, renders BountyContract view:
 - **Card appear:** `opacity 0→1, translateY 8px→0` over 300ms, staggered 80ms per card
 - **Card hover:** gradient brightens slightly, border becomes slightly more visible
 - **Card expand:** scales up + panel crossfades, 250ms cubic-bezier
-- **Gradient on confidence change:** filter transition over 400ms when confidence is reassessed
+- **Zelij confidence change:** CSS saturate + blur transitions over 400ms when confidence is reassessed
 - **Phase complete:** `✓` fades in with brief green flash, settles to `--glyph-complete`
 - **CardDeck reorder (rank arrives):** cards animate to new positions over 400ms
 - **ThinkingSpinner:** pulse scale 0.95↔1.05 at 600ms
@@ -633,19 +647,29 @@ Bounty mode is auto-detected when the message contains a budget figure + scienti
 
 ## 12. EmptyState
 
-Shown when no messages. Three clickable prompt chips:
+Shown when no run is active. The OutputPanel is not blank — it carries the full brand identity via a large ZelijHero backdrop.
 
 ```
-┌──────────────────────┐  ┌──────────────────────┐  ┌──────────────────────┐
-│  Cohort Intelligence │  │  Pricing Estimate     │  │  Procurement Bounty  │
-│                      │  │                       │  │                      │
-│  "What cohorts exist │  │  "How much would 200  │  │  "I have €50K and    │
-│  for AD plasma       │  │   plasma samples cost  │  │   need 150 FFPE      │
-│  metabolomics?"      │  │   for metabolomics?"   │  │   samples for..."    │
-└──────────────────────┘  └──────────────────────┘  └──────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│  [ZelijHero cohortId="vcro-identity" height={320} fullBleed]    │
+│                                                                  │
+│         Cohort Intelligence    ← Instrument Serif italic,        │
+│                                   white, sits above the fade    │
+├──────────────────────────────────────────────�───────────────────┤
+│  Life sciences cohort sourcing, feasibility, and procurement.   │
+│                                                                  │
+│  ┌──────────────────────┐  ┌──────────────────────┐  ┌────────┐ │
+│  │  COHORT INTELLIGENCE │  │  PRICING ESTIMATE     │  │ BOUNTY │ │
+│  │  "What cohorts exist │  │  "How much would 200  │  │  ...   │ │
+│  │  for AD plasma..."   │  │   plasma samples..."  │  │        │ │
+│  └──────────────────────┘  └──────────────────────┘  └────────┘ │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-Each chip sets the QueryBar input on click and focuses.
+- ZelijHero fills the full OutputPanel width at height 320px
+- "Cohort Intelligence" headline (Instrument Serif, italic, white) positioned in the lower third of the hero above the fade
+- Subtitle and chips appear below in the warm `--bg-warm` zone
+- Each chip sets the QueryBar input on click and focuses
 
 ---
 
@@ -697,7 +721,7 @@ src/
 │   │   ├── ProgressFeed.tsx      [hook, not component]
 │   │   └── RunSummary.tsx
 │   ├── cards/
-│   │   ├── CardGradient.tsx
+│   │   ├── ZelijHero.tsx
 │   │   ├── CardDeck.tsx
 │   │   ├── CardExpanded.tsx
 │   │   ├── CohortCard.tsx
@@ -713,5 +737,6 @@ src/
 └── lib/
     └── layout/
         ├── resolveCards.ts     ← reads endpoint_schema, picks card type
-        └── resolveGradient.ts  ← maps sample type + cohort ID → gradient params
+        ├── resolveZelij.ts     ← maps cohortId + confidence → ZelijParams (deterministic, no Math.random)
+        └── resolveCards.ts     ← reads endpoint_schema, picks card type
 ```
