@@ -1,0 +1,167 @@
+{
+  "source": {
+    "pmid": "37721161",
+    "pmc": "PMC10834248",
+    "doi": "10.1093/brain/awad306",
+    "title": "Gut microbiome correlates with plasma lipids in amyotrophic lateral sclerosis",
+    "year": 2024,
+    "paper_path": "store/raw/papers/PMC10834248/paper.md"
+  },
+  "entity_hints": {
+    "cohorts": [
+      {
+        "candidate_name": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+        "aliases": ["UM ALS microbiome cohort", "Goutman/Feldman ALS longitudinal cohort"],
+        "parent_institution_hint": "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor",
+        "evidence_quote": "Here, gut microbiome changes were longitudinally profiled in ALS and correlated to plasma metabolome.",
+        "rationale": "The abstract describes a single longitudinally profiled ALS case-control cohort at the University of Michigan with paired 16S gut microbiome and plasma metabolomics data; no second cohort is mentioned and a single institutional home is implied.",
+        "signal": "published_cohort"
+      }
+    ],
+    "institutions": [
+      {
+        "candidate_name": "Department of Neurology, University of Michigan",
+        "evidence_quote": "Department of Neurology, University of Michigan, Ann Arbor, MI 48109, USA",
+        "role": "collection site"
+      },
+      {
+        "candidate_name": "NeuroNetwork for Emerging Therapies, University of Michigan",
+        "evidence_quote": "NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor, MI 48109, USA",
+        "role": "sponsor"
+      },
+      {
+        "candidate_name": "Department of Biomedical Sciences, University of North Dakota",
+        "evidence_quote": "Department of Biomedical Sciences, University of North Dakota, Grand Forks, ND 58202, USA",
+        "role": "data provider"
+      }
+    ],
+    "investigators": [
+      {
+        "name": "Eva L. Feldman",
+        "affiliation": "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan",
+        "role": "corresponding"
+      },
+      {
+        "name": "Stephen A. Goutman",
+        "affiliation": "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan",
+        "role": "senior author"
+      },
+      {
+        "name": "Junguk Hur",
+        "affiliation": "Department of Biomedical Sciences, University of North Dakota",
+        "role": "lead PI"
+      },
+      {
+        "name": "Kai Guo",
+        "affiliation": "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan",
+        "role": "lead PI"
+      },
+      {
+        "name": "Claudia Figueroa-Romero",
+        "affiliation": "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan",
+        "role": "lead PI"
+      }
+    ],
+    "platforms": [
+      {
+        "candidate_name": "16S rRNA gut microbiome sequencing",
+        "evidence_quote": "16S rRNA sequencing"
+      },
+      {
+        "candidate_name": "Plasma metabolomics / lipidomics (platform not specified in abstract)",
+        "evidence_quote": "correlated to plasma metabolome"
+      }
+    ],
+    "trials_referenced": []
+  },
+  "fragments": [
+    {
+      "entity_hint": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+      "dimension": 6,
+      "dimension_name": "co_modalities",
+      "fact": "Cohort has both gut 16S rRNA microbiome profiling and plasma metabolomics on the same participants, enabling microbe-metabolite correlation analysis.",
+      "source_quote": "Gut microbiome and plasma metabolome have been separately investigated in ALS, but little is known about gut microbe-plasma metabolite correlations, which could identify robust disease biomarkers and potentially shed mechanistic insight.",
+      "section": "Abstract",
+      "implication": "Paired microbiome and plasma metabolomics data on the same ALS individuals is rare; a buyer with a multi-omics or gut-brain axis hypothesis can leverage both data layers without needing to source two independent cohorts.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+      "dimension": 3,
+      "dimension_name": "longitudinal_structure",
+      "fact": "Microbiome data were collected longitudinally in ALS participants; number of timepoints and interval not stated in abstract.",
+      "source_quote": "Here, gut microbiome changes were longitudinally profiled in ALS and correlated to plasma metabolome.",
+      "section": "Abstract",
+      "implication": "Longitudinal design is confirmed, which means the cohort can support trajectory or progression modelling; however, without knowing the number of timepoints or visit intervals (not reported in the abstract), a buyer cannot yet judge whether the longitudinal depth is sufficient for their model.",
+      "confidence": "medium"
+    },
+    {
+      "entity_hint": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+      "dimension": 7,
+      "dimension_name": "effect_sizes_and_model_performance",
+      "fact": "Gut microbial structure at phylum level differed in ALS versus controls; several genera showed differential abundance; microbe-metabolite network modules differed significantly between ALS and controls; Mendelian randomization indicated possible causality from lipids related to fatty acid and acylcarnitine metabolism.",
+      "source_quote": "Gut microbial structure at the phylum level differed in ALS versus control participants, with differential abundance of several distinct genera. Unsupervised clustering of microbe and metabolite levels identified modules, which differed significantly in ALS versus control participants.",
+      "section": "Abstract",
+      "implication": "Statistically significant case-control separation in microbiome and lipidome modules has been demonstrated, but no AUC, odds ratio, or fold-change magnitudes are given in the abstract; a buyer cannot pre-judge signal strength from this paper alone and should treat effect size as unknown pending full-text access.",
+      "confidence": "medium"
+    },
+    {
+      "entity_hint": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+      "dimension": 11,
+      "dimension_name": "negative_results",
+      "fact": "Mendelian randomization indicates only 'possible' causality, not confirmed; the authors qualify findings as correlations rather than proven causal mechanisms.",
+      "source_quote": "Mendelian randomization indicated possible causality from specific lipids related to fatty acid and acylcarnitine metabolism.",
+      "section": "Abstract",
+      "implication": "The causal direction between gut microbiome and plasma lipids in ALS is not established; a buyer building a mechanistic claim or regulatory-grade biomarker argument will need additional experimental validation beyond what this cohort alone can provide.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+      "dimension": 17,
+      "dimension_name": "sponsor_and_funding",
+      "fact": "Funded by NIH (NINDS R01NS127188, NIEHS R01ES030049, NIEHS K23ES027221, UL1TR002240), CDC / Agency for Toxic Substances and Disease Registry (National ALS Registry R01TS000289, R01TS000339), Michigan Institute for Clinical and Health Research, and multiple University of Michigan internal funds.",
+      "source_quote": "National Institutes of Health10.13039/100000002 UL1TR002240NINDS R01NS127188, NIEHS R01ES030049NIEHS K23ES027221",
+      "section": "Funding",
+      "implication": "Multi-agency NIH and federal CDC funding with data-sharing obligations built into grants means the cohort is likely to have a data access mechanism (DUA or institutional agreement); a buyer can approach the PI or NCATS portal rather than relying solely on informal PI request.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+      "dimension": 9,
+      "dimension_name": "access_and_consent_scope",
+      "fact": "No data availability statement found in the captured content; data sharing policy and consent terms are not stated in the abstract or available metadata.",
+      "source_quote": "© The Author(s) 2023. Published by Oxford University Press on behalf of the Guarantors of Brain. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com",
+      "section": "Permissions",
+      "implication": "Access terms are unknown from the captured content; a buyer would need to contact the corresponding author (Eva L. Feldman, efeldman@umich.edu) or check whether the NIH grants mandate data deposition in a public repository before committing to a timeline.",
+      "confidence": "low"
+    },
+    {
+      "entity_hint": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+      "dimension": 1,
+      "dimension_name": "sample_usability",
+      "fact": "Sample type is plasma for metabolomics; gut microbiome profiled from stool (implied by 16S rRNA sequencing keyword); storage conditions, tube type, fasting status, and freeze-thaw count are not reported in the abstract.",
+      "source_quote": "correlated to plasma metabolome",
+      "section": "Abstract",
+      "implication": "Plasma metabolomics data exist but pre-analytical protocol details (fasting, tube type, storage) are absent from available text; a buyer running LC/MS metabolomics cannot confirm compatibility without accessing the full Methods section, which is publisher-restricted for this paper.",
+      "confidence": "low"
+    },
+    {
+      "entity_hint": "University of Michigan ALS gut microbiome and plasma metabolomics cohort",
+      "dimension": 2,
+      "dimension_name": "real_numbers",
+      "fact": "Total N of ALS cases and controls, breakdown by group, and number of longitudinal samples are not reported in the abstract.",
+      "source_quote": "Here, gut microbiome changes were longitudinally profiled in ALS and correlated to plasma metabolome.",
+      "section": "Abstract",
+      "implication": "Sample size is unknown from available content; the buyer cannot assess statistical power or subgroup feasibility without full-text access or direct inquiry to the PI.",
+      "confidence": "low"
+    }
+  ],
+  "open_questions": [
+    "Full text is publisher-restricted (Oxford University Press / Brain journal; XML not released). Methods, Results tables, and Data Availability sections are inaccessible. All fragments with confidence 'low' or 'medium' should be re-evaluated once full-text access is obtained.",
+    "Total N (ALS cases and controls), number of longitudinal timepoints, visit intervals, and dropout rate are not stated in the abstract. These are critical for real_numbers (dim 2) and longitudinal_structure (dim 3) and must be retrieved from the full Methods.",
+    "The metabolomics platform vendor (e.g. Metabolon, Biocrates, in-house LC/MS) is not named in the abstract. Platform identity determines whether raw data may already exist and which assay a buyer could reuse.",
+    "Freeze-thaw cycle count, tube type, and fasting status for plasma collection are not stated. These determine sample usability for LC/MS re-analysis.",
+    "Data availability statement is empty in meta.json. Whether raw 16S and metabolomics data are deposited in a public repository (e.g. NCBI SRA, Metabolomics Workbench) is unknown and must be verified before access planning.",
+    "APOE genotype and ethnicity/ancestry breakdown are not reported in the abstract. Demographic transferability of findings to non-White ALS populations is unknown."
+  ]
+}

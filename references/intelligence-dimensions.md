@@ -279,9 +279,75 @@ whether the study is still enrolling.
 
 ---
 
+## 19. Provenance chain
+
+Where the samples actually came from. Which institution
+collected them, whether a broker or intermediary was involved,
+which prior dataset or study this builds on. The chain from
+patient to freezer to assay to data.
+
+**Extraction cues**: "samples were obtained from", "purchased
+from", "provided by", "as previously described [ref]",
+acknowledgements naming providers or biobanks, references to
+parent studies.
+
+**Why it matters**: provenance depth is the transparency
+differentiator. A buyer can only trust results when the chain
+is documented end to end. Hidden chains are the broker moat
+the platform exists to dissolve.
+
+**Format**: chain of custody as a sequence (patient → site →
+biobank → broker → buyer), each link with a source citation
+or marked UNKNOWN. Implication: how trustworthy is the result
+given which links are documented vs. inferred.
+
+## 20. Collection protocol detail
+
+The specific operational steps that determine whether the sample
+will produce signal. Tube type with catalog number, centrifugation
+protocol (speed, time, temperature), time from venipuncture to
+freeze, aliquot volume, number of aliquots per subject, storage
+rack or box system, QC steps applied at collection.
+
+**Extraction cues**: supplementary methods, detailed methods
+subsections, protocol papers cited in methods (e.g. ADNI
+biospecimen protocol), PDF appendices, "biospecimens were
+processed according to".
+
+**Why it matters**: pre-analytical variability dominates assay
+noise. A buyer running LC/MS metabolomics needs to know fasting
+status and freeze-thaw count, not just "plasma was collected".
+
+**Format**: structured list of protocol attributes with values
+or UNKNOWN. Implication: which downstream assays this protocol
+is fit for, which it is not.
+
+## 21. Institutional capacity
+
+How active and how equipped this institution is as a sample
+source. Trial count in this indication, publication count,
+clinic patient volume estimates, presence of a dedicated biobank
+with staff, whether they have processed commercial requests
+before.
+
+**Extraction cues**: count of trials at the same institution,
+publication volume from author affiliations, web search for
+biobank pages, references to "our institutional biobank".
+
+**Why it matters**: capacity sets the realistic ceiling on what
+can be sourced from this institution and how fast. A high-output
+clinic with no biobank infrastructure is a different bet than a
+moderate-output clinic with a dedicated biorepository.
+
+**Format**: counts (trials, papers, estimated patient volume),
+biobank status (yes / no / partial), commercial readiness signal
+(prior commercial DUAs / unknown / academic only). Implication:
+realistic order of magnitude for sourceable samples and the
+expected friction of working with this institution.
+
 ## How to use this file
 
-These 18 dimensions are a vocabulary, not a checklist. Do NOT
+These 21 dimensions are a vocabulary, not a checklist. Do NOT
 extract all 18 for every cohort. That produces noise.
 
 The extraction subagent reads the `scope_notes` from request.json

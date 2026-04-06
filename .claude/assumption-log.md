@@ -26,3 +26,23 @@ Each entry: date, decision/assumption, why, how to revisit.
   2. Verifier walked sub-article bodies, conflating peer-review correspondence with main paper content (one paper's coverage went from 0.59 to ~1.0 after scoping).
 - **Revisit if**: a downstream extract step shows the compiler missing facts that exist in source.xml — we may need to revisit `text_of()` whitespace insertion.
 
+## 2026-04-06 — Dimensions 19 (provenance chain) and 20 (collection protocol detail) validated on real data
+
+- First extract run on PMC10103184 emitted a provenance_chain fragment AND surfaced 5 open questions: tube type, fasting, freeze-thaw cycle count, ethnicity breakdown, commercial DUA scope.
+- Three of the five open questions are exactly the dimension-20 attributes (tube/fasting/freeze-thaw). The model knew to ask because the dimension exists; without dim 20 it would have shrugged at "plasma lipidomics" as if that were enough.
+- This is the first real-data validation that the three new dimensions are pulling weight, not just adding paperwork. The open questions become the lint queue.
+- **Revisit if**: across the first 20 extracts, dim 19 or 20 produces fragments on fewer than 30% of papers. That would mean the cues are too narrow.
+
+## 2026-04-06 — Resolve skill: two slug nits caught on first dry run
+
+First resolve dry run on PMC10103184 + PMC12269576 + PMC10834248 produced two minor issues, both fixed in `compile/resolve/SKILL.md` before merge ever sees the plan:
+
+1. **Investigator slug used the consortium, not the home institution.** Plan emitted `michael-weiner-adni`. Should have been `michael-weiner-ucsf` (his actual UCSF affiliation). Risk: a future paper that names his UCSF affiliation directly would create a second entity and fail to MERGE_INTO. Fix: tightened slug rule to "primary affiliation, never the cohort/consortium". Added explicit Michael Weiner counter-example in the skill.
+
+2. **`collection_platform` relation conflated institution and instrument.** Plan emitted both `uc-davis-metabolomics-center` (institution) and `uc-davis-lipidomics-uhplc-qtof` (assay platform) with the SAME relation `collection_platform`. Risk: downstream queries that filter by "papers using the UC Davis instrument" would surface the institution, and vice versa. Fix: split the enum into `collection_site` (institution that held samples) and `assay_platform` (instrument). Locked the relation enum to a closed list of nine values; merge will reject anything outside it.
+
+Re-run resolve on the same three papers immediately after the fix and confirm the diff is exactly: Weiner slug change + UC Davis relation split. No other deltas should appear; if they do, the prompt change had unintended scope.
+
+
+
+
