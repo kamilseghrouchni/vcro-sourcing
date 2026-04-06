@@ -1,0 +1,2161 @@
+{
+  "nct_id": "NCT00676143",
+  "title": "A Phase Iii, Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel Group, Efficacy And Safety Trial Of Bapineuzumab (Aab 001, Eln115727) In Subjects With Mild To Moderate Alzheimer Disease Who Are Apolipoprotein E 4 Carriers",
+  "brief_title": "Study Evaluating the Safety and Efficacy of Bapineuzumab in Alzheimer Disease Patients",
+  "status": "TERMINATED",
+  "phase": "PHASE3",
+  "study_type": "INTERVENTIONAL",
+  "enrollment": 1100,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Alzheimer Disease"
+  ],
+  "keywords": [
+    "antibody",
+    "immunotherapy"
+  ],
+  "sponsor": "Pfizer",
+  "sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2008-01",
+  "completion_date": "2012-11",
+  "primary_completion_date": "2012-10",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Center for Psychiatric Medicine",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Participant and Clinical Interactions Resources",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "UAB Clinical Research Pharmacy-Russell Clinic",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Alabama-Birmingham",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Dedicated Clinical Research",
+      "city": "Goodyear",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Banner Alzheimer's Institute",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Jeffrey S. Gitt, DO, PC",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Compounding Center",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "HOPE Research Institute",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Clinical Trials, Inc.",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "AC Institute, Incorporated",
+      "city": "Carson",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Collaborative Neuroscience Network, Inc",
+      "city": "Long Beach",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "San Francisco Clinical Research Center",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Alpine Clinical Research Center, Inc.",
+      "city": "Boulder",
+      "state": "Colorado",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Associated Neurologists, PC",
+      "city": "Boulder",
+      "state": "Colorado",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mile HIgh Research Center",
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Associated Neurologists of Southern Connecticut, P.C.",
+      "city": "Fairfield",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Bendheim Cancer Center",
+      "city": "Greenwich",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Center for Healthy Aging",
+      "city": "Greenwich",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Alzheimer's Disease Research Unit",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Hospital Research Unit",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Investigational Drug Service",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Moshe Hasbani, MD",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Norman S. Werdiger, MD",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "MR Research Center",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Yale PET Center",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Research Center for Clinical Studies, Inc.",
+      "city": "Norwalk",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "JEM Research Institute, LLC",
+      "city": "Atlantis",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "JEM Research Institute",
+      "city": "Atlantis",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Medical Specialist of the Palm Beaches",
+      "city": "Atlantis",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brain Matters Research",
+      "city": "Delray Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Compass Research, LLC",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Palm Beach Neurological Center",
+      "city": "Palm Beach Gardens",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Neurostudies Inc",
+      "city": "Port Charlotte",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Roskamp Institute",
+      "city": "Sarasota",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of South Florida",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Dekalb Neurology Associates, LLC/NeuroStudies.net, LLC",
+      "city": "Decatur",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Neurostudies.net",
+      "city": "Decatur",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "NeuroStudies.net",
+      "city": "Lawrenceville",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Alexian Brothers Medical Center",
+      "city": "Elk Grove Village",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Southern Illinois University School of Medicine Department",
+      "city": "Springfield",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Memorial Medical Center",
+      "city": "Springfield",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Kansas Medical Center",
+      "city": "Kansas City",
+      "state": "Kansas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Lake Charles Clinical Trials",
+      "city": "Lake Charles",
+      "state": "Louisiana",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Massachusetts General Hosptial",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brigham & Womens Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brigham and Women's Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Boston Univeristy ADCRP",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "General Clincial Research Center (Infusion Location)",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "IDS Pharmacy (Drug Receipt). Attn:Hyesson Hong",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Neuroscience Research of the Berkshires",
+      "city": "Pittsfield",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Shields MRI",
+      "city": "Russells Mills",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Springfield Neurology Associates, LLC",
+      "city": "Springfield",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Michigan Hospital and Health System",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Michigan Health System",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Michigan Health System",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Michigan Health System",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Michigan State University",
+      "city": "East Lansing",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Hattiesburg Clinic",
+      "city": "Hattiesburg",
+      "state": "Mississippi",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Center for Pharmaceutical Research P.C.",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Memory Enhancement Center of America, Inc.",
+      "city": "Eatontown",
+      "state": "New Jersey",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Pharmcare USA",
+      "city": "Edison",
+      "state": "New Jersey",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Alzheimer's Research Corp./Merician Institute for Aging",
+      "city": "Paterson",
+      "state": "New Jersey",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Neurological Care of Central New York",
+      "city": "Liverpool",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Carolina Neuropsychological Services, Inc",
+      "city": "Raleigh",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Healthsouth Blue Ridge Surgery Center",
+      "city": "Raleigh",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Raleigh Neurology Associates",
+      "city": "Raleigh",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Wake Radiology Associates",
+      "city": "Raleigh",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Ohio State University Imaging@Martha Moorehouse",
+      "city": "Columbs",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Ohio State University",
+      "city": "Columbs",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Ohio State University",
+      "city": "Columbus",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Summit Research Network(Oregon) Inc.",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Providence Brain Institute",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Providence Cognitive Assessment Clinic",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Providence St. Vincent Medical Center",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Dr. Michael Gabe (Clinic)",
+      "city": "Silverton",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Abington Memorial Hosptial",
+      "city": "Abington",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Abington Neurological Associates",
+      "city": "Abington",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Abington Neurological Assoc",
+      "city": "Abington",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Andorra MRI of Flourtown",
+      "city": "Flourtown",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Clinical Trial Center, LLC",
+      "city": "Jenkintown",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Hospital of the University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Investigational New Drug Services",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Pennsylvania-Penn Memory Center",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "UPENN Clinical and Transitional Research Center",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Jefferson Hospital for Neuroscience",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Thomas Jefferson University Hospital",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Abington Neurological Associates",
+      "city": "Willow Grove",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Rhode Island Mood and Memory Research Institute",
+      "city": "East Providence",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Simpson's Pharmacy",
+      "city": "Pawtucket",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Butler Hospital",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Medical University of South Carolina Hospitals and Clinics",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Medical University of South Carolina",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "MUSC",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Medical University of South Carolina",
+      "city": "North Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Texas Neurology, P.A.",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Innovative Clinical Trials",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Integra Clinical Research",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Integra Clinical Research, LLC",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Integra Clinical Research",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Vista Infusions",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Inventive Infusion Solutions",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Inventive Infusions Solutions",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Memory Clinic",
+      "city": "Bennington",
+      "state": "Vermont",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Pharmacy",
+      "city": "Bennington",
+      "state": "Vermont",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Waisman Center (PET only)",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Wisconsin School of Medicine and Public Health",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Wm S. Middleton Memorial Veterans Hospital",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Wisconsin Hospitals and Clinics",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Wisconsin School of Medicine and Public Health",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Instituto Medico Congreso",
+      "city": "Buenos Aires",
+      "state": "Buenos Aires",
+      "country": "Argentina",
+      "status": ""
+    },
+    {
+      "name": "Instituto Medico Congreso",
+      "city": "Buenos Aires",
+      "state": "",
+      "country": "Argentina",
+      "status": ""
+    },
+    {
+      "name": "Cemic University Hospital",
+      "city": "Buenos Aires",
+      "state": "",
+      "country": "Argentina",
+      "status": ""
+    },
+    {
+      "name": "Hospital Italiano de Buenos Aires",
+      "city": "Buenos Aires",
+      "state": "",
+      "country": "Argentina",
+      "status": ""
+    },
+    {
+      "name": "Instituto Kremer",
+      "city": "Córdoba",
+      "state": "",
+      "country": "Argentina",
+      "status": ""
+    },
+    {
+      "name": "Gosford Hospital; Pharmacy Dept",
+      "city": "Gosford",
+      "state": "New South Wales",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Gosford Hospital",
+      "city": "Gosford",
+      "state": "New South Wales",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Hornsby Kuringai Hospital",
+      "city": "Hornsby",
+      "state": "New South Wales",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Royal Adelaide Hospital",
+      "city": "Adelaide",
+      "state": "South Australia",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "The Queen Elizabeth Hospital",
+      "city": "Woodville South",
+      "state": "South Australia",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "CDAMS Ballarat Base Hospital",
+      "city": "Ballarat",
+      "state": "Victoria",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Heidelberg Repatriation Hospital",
+      "city": "West Heidelberg",
+      "state": "Victoria",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Hollywood Hospital; Pharmacy Dept",
+      "city": "Nedlands",
+      "state": "Western Australia",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "McCusker Alzheimer's Research Foundation, Inc.",
+      "city": "Nedlands",
+      "state": "Western Australia",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Medizinische Universitaet Graz",
+      "city": "Graz",
+      "state": "",
+      "country": "Austria",
+      "status": ""
+    },
+    {
+      "name": "Landeskrankenhaus Klagenfurt",
+      "city": "Klagenfurt",
+      "state": "",
+      "country": "Austria",
+      "status": ""
+    },
+    {
+      "name": "Allg. Krankenhaus der Stadt Wien",
+      "city": "Vienna",
+      "state": "",
+      "country": "Austria",
+      "status": ""
+    },
+    {
+      "name": "SZ Sued - Kaiser-Franz-Josef-Spital",
+      "city": "Vienna",
+      "state": "",
+      "country": "Austria",
+      "status": ""
+    },
+    {
+      "name": "Donauspital",
+      "city": "Vienna",
+      "state": "",
+      "country": "Austria",
+      "status": ""
+    },
+    {
+      "name": "ZNA Middelheim",
+      "city": "Antwerp",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "Az. St. Jan Ruddershove 35",
+      "city": "Bruges",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "Cliniques Universitaires St Luc",
+      "city": "Brussels",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "Universitair Ziekenhuis Antwerpen",
+      "city": "Edegem",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "Universitair Ziekenhuis Gasthuisberg",
+      "city": "Leuven",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "H.-Hartziekenhuis Roeselare-Menen",
+      "city": "Roeselare",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "Psicomedica Research Group",
+      "city": "Santiago",
+      "state": "Chile",
+      "country": "Chile",
+      "status": ""
+    },
+    {
+      "name": "Especialidades Medicas LyS",
+      "city": "Santiago",
+      "state": "",
+      "country": "Chile",
+      "status": ""
+    },
+    {
+      "name": "University Hospital Center Zagreb",
+      "city": "Zagreb",
+      "state": "",
+      "country": "Croatia",
+      "status": ""
+    },
+    {
+      "name": "Ita-Suomen Yliopisto",
+      "city": "Kuopio",
+      "state": "",
+      "country": "Finland",
+      "status": ""
+    },
+    {
+      "name": "University of Turku / CRST",
+      "city": "Turku",
+      "state": "",
+      "country": "Finland",
+      "status": ""
+    },
+    {
+      "name": "CHU de Dijon",
+      "city": "Dijon",
+      "state": "France",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU Pellegrin",
+      "city": "Bordeaux",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hopital neurologique du Pr A. Vighetto",
+      "city": "Bron",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Centre d'Imagerie medicale de Basse Normandie",
+      "city": "Caen",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU de Caen",
+      "city": "Caen",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpitaux Civils de Colmar",
+      "city": "Colmar",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHRU de Lille",
+      "city": "Lille",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital la Timone",
+      "city": "Marseille",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU Hôpital Gui de Chaulliac",
+      "city": "Montpellier",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU Nord - Hôpital Guillaume et René Laënnec",
+      "city": "Nantes - Saint Herblain",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital Cimiez C.M.R.R.",
+      "city": "Nice",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Service d'Imagerie Medicale",
+      "city": "Nice",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Groupe Hospitalier Broca-La Rochefoucauld",
+      "city": "Paris",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital Pitié-Salpétrière",
+      "city": "Paris",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hospital Jean Bernard CIC",
+      "city": "Poitiers",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "C.H.U de Reims",
+      "city": "Reims",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU de Rennes",
+      "city": "Rennes",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU - Hopital Charles Nicolle",
+      "city": "Rouen",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital Purpan",
+      "city": "Toulouse",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU Toulouse - Site Casselardit",
+      "city": "Toulouse",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Charite-Universitätsmedizin Berlin",
+      "city": "Berlin",
+      "state": "State of Berlin",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "St. Josef-Klinikum",
+      "city": "Bochum",
+      "state": "",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Universitaetsklinikum Dresden",
+      "city": "Dresden",
+      "state": "",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Klinikum der Albert-Ludwigs-Universitaet Freiburg",
+      "city": "Freiburg im Breisgau",
+      "state": "",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Ortenau Klinikum Offenburg",
+      "city": "Offenburg",
+      "state": "",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Universitaetsklinikum Ulm",
+      "city": "Ulm",
+      "state": "",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "A.O. Umberto I",
+      "city": "Ancona",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Sezione di Neurologia - Dipartimento di Neuroscienze",
+      "city": "Ancona",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Clinica Neurologica - II Neurologia",
+      "city": "Brescia",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Dipartimento di Neuroscienze,",
+      "city": "Catania",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Unita' Operativa Complessa di Neurologia",
+      "city": "Catania",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "CeSI (Centro di Scienze dell'invecchiamento) -",
+      "city": "Chieti",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Fondazione IRCCS- Istituto Neurologico Carlo Besta",
+      "city": "Milan",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Ospedale S. Gerardo",
+      "city": "Monza",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Clinica Neurologica",
+      "city": "Roma",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Unita' Operativa C - Riabilitazione Neurologica",
+      "city": "Roma",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Universita degli Studi di Siena",
+      "city": "Siena",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Nagoya City University Hospital",
+      "city": "Nagoya",
+      "state": "Aichi-ken",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Tokyo National Hospital",
+      "city": "Kiyose",
+      "state": "Tokyo",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Yachiyo Hospital",
+      "city": "Aichi",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Kashiwado Hospital",
+      "city": "Chiba",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Chiba-East Hospital",
+      "city": "Chiba",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Nippon Medical School Chiba Hokusoh Hospital",
+      "city": "Chiba",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Kokura Medical Center",
+      "city": "Fukuoka",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Maebashi Red Cross Hospital",
+      "city": "Gunma",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Gunma University Hospital",
+      "city": "Gunma",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Shinozuka Hospital",
+      "city": "Gunma",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Hiroshima-nishi Medical Ctr.",
+      "city": "Hiroshima",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Kobe University Hospital",
+      "city": "Hyōgo",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Nishi-Kobe Medical Center",
+      "city": "Hyōgo",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Kobe City Hospital Org Kobe City Medical Cente West Hp",
+      "city": "Hyōgo",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Kagawa University Hospital",
+      "city": "Kagawa",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Nippon Medical School Musashi Kosugi Hospital",
+      "city": "Kanagawa",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Yokohama City University Medical Center",
+      "city": "Kanagawa",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Shonan Atsugi Hospital",
+      "city": "Kanagawa",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Rakuwakai Otowa Hospital",
+      "city": "Kyoto",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Minami-Kyoto Hospital",
+      "city": "Kyoto",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Maizuru Medical Center",
+      "city": "Kyoto",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Matsumoto Medical Center",
+      "city": "Nagano",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Niigata National Hospital",
+      "city": "Niigata",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Iwate Medical University Hospital",
+      "city": "Numakunai",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Okayama University Hospital",
+      "city": "Okayama",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National Hospital Organization Minami-Okayama Medical Center",
+      "city": "Okayama",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Osaka City University Hospital",
+      "city": "Osaka",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Osaka University Hospital",
+      "city": "Osaka",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Kansai Medical University Takii Hospital",
+      "city": "Osaka",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "National HP.Org.Shizuoka Inst.Epilepsy,Neurological Disorder",
+      "city": "Shizuoka",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Juntendo University Hospital",
+      "city": "Tokyo",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Juntendo Tokyo Koto Geriatric Medical Center",
+      "city": "Tokyo",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Tokyo Metropolitan Health and Med. Treatment Co. Ebara Hosp",
+      "city": "Tokyo",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Tokyo Medical University Hospital",
+      "city": "Tokyo",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Tokyo Medical University Hachioji Medical Center",
+      "city": "Tokyo",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "OCA Hospital",
+      "city": "Monterrey",
+      "state": "Nuevo León",
+      "country": "Mexico",
+      "status": ""
+    },
+    {
+      "name": "Instituto Biomedico de Investigacion A.C",
+      "city": "Aguascalientes",
+      "state": "",
+      "country": "Mexico",
+      "status": ""
+    },
+    {
+      "name": "Amphia Ziekenhuis",
+      "city": "Breda",
+      "state": "North Brabant",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Tergooi Ziekenhuizen",
+      "city": "Hilversum",
+      "state": "North Holland",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Kennemer Gasthuis",
+      "city": "Haarlem",
+      "state": "The Netherlands",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Jeroen Bosch Ziekenhuis",
+      "city": "'s-Hertogenbosch",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Medisch Centrum Alkmaar",
+      "city": "Alkmaar",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Vrije Universiteit Medisch Centrum",
+      "city": "Amsterdam",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Catharina Ziekenhuis",
+      "city": "Eindhoven",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Medisch Centrum Leeuwarden",
+      "city": "Leeuwarden",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Erasmus MC",
+      "city": "Rotterdam",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "The Memory Clinic",
+      "city": "Auckland",
+      "state": "NZ",
+      "country": "New Zealand",
+      "status": ""
+    },
+    {
+      "name": "Signet Research",
+      "city": "Christchurch",
+      "state": "",
+      "country": "New Zealand",
+      "status": ""
+    },
+    {
+      "name": "Szpital Uniwersytecki, Oddzial Kliniczny Klinik Chorob Wewnetrznych i",
+      "city": "Krakow",
+      "state": "Poland",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "NZOZ \"NEURO-KARD\" \"ILKOWSKI I PARTNERZY\" Spolka Partnerska Lekarzy",
+      "city": "Poznan",
+      "state": "Poland",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "NZOZ Dom Suer Ryder, Pallmed Sp. z o.o.",
+      "city": "Bydgoszcz",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Oddzial Neurologiczny i Udarowy Szpital Wolski im. dr Anny Gostynskiej,",
+      "city": "Warsaw",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Samodzielny Publiczny Centralny Szpital Kliniczny, Katedra i Klinika",
+      "city": "Warsaw",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Hospital Fernando da Fonseca",
+      "city": "Amadora",
+      "state": "Amadora",
+      "country": "Portugal",
+      "status": ""
+    },
+    {
+      "name": "Hospitais Da Universidade De Coimbra",
+      "city": "Coimbra",
+      "state": "Coimbra District",
+      "country": "Portugal",
+      "status": ""
+    },
+    {
+      "name": "Hospital Santa Maria",
+      "city": "Lisbon",
+      "state": "Lisbon District",
+      "country": "Portugal",
+      "status": ""
+    },
+    {
+      "name": "Klinicki centar Srbije",
+      "city": "Belgrade",
+      "state": "",
+      "country": "Serbia",
+      "status": ""
+    },
+    {
+      "name": "Diagnostic Imaging Center",
+      "city": "Kamenitz",
+      "state": "",
+      "country": "Serbia",
+      "status": ""
+    },
+    {
+      "name": "Institute for Cardiovascular Diseases of Vojvodina",
+      "city": "Kamenitz",
+      "state": "",
+      "country": "Serbia",
+      "status": ""
+    },
+    {
+      "name": "Clinical Centre Kragujevac, Clinic of Psichiatry",
+      "city": "Kragujevac",
+      "state": "",
+      "country": "Serbia",
+      "status": ""
+    },
+    {
+      "name": "Klinicki Centar Vojvodina",
+      "city": "Novi Sad",
+      "state": "",
+      "country": "Serbia",
+      "status": ""
+    },
+    {
+      "name": "Psychiatricka ambulancia",
+      "city": "Bratislava",
+      "state": "",
+      "country": "Slovakia",
+      "status": ""
+    },
+    {
+      "name": "Univerzitna nemocnica Bratislava",
+      "city": "Bratislava",
+      "state": "",
+      "country": "Slovakia",
+      "status": ""
+    },
+    {
+      "name": "Psychiatricka nemocnica Michalovce, n.o.",
+      "city": "Michalovce",
+      "state": "",
+      "country": "Slovakia",
+      "status": ""
+    },
+    {
+      "name": "Vseobecna nemocnica Rimavska Sobota",
+      "city": "Rimavská Sobota",
+      "state": "",
+      "country": "Slovakia",
+      "status": ""
+    },
+    {
+      "name": "Boithuso Caregivers",
+      "city": "Johannesburg",
+      "state": "Gauteng",
+      "country": "South Africa",
+      "status": ""
+    },
+    {
+      "name": "The Osteoporosis and Memory Centre",
+      "city": "Johannesburg",
+      "state": "Gauteng",
+      "country": "South Africa",
+      "status": ""
+    },
+    {
+      "name": "Denmar Clinic",
+      "city": "Pretoria",
+      "state": "Gauteng",
+      "country": "South Africa",
+      "status": ""
+    },
+    {
+      "name": "St Augustine's Medical Centre 2",
+      "city": "Durban",
+      "state": "KwaZulu-Natal",
+      "country": "South Africa",
+      "status": ""
+    },
+    {
+      "name": "Flexivest Fourteen Research Center",
+      "city": "Bellville",
+      "state": "Western Cape",
+      "country": "South Africa",
+      "status": ""
+    },
+    {
+      "name": "Panorama Psychiatry and Memory Clinic",
+      "city": "Panorama",
+      "state": "Western Cape",
+      "country": "South Africa",
+      "status": ""
+    },
+    {
+      "name": "Hospital General Universitario de Elche",
+      "city": "Elche",
+      "state": "Alicante",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Universitario Son Espases",
+      "city": "Palma de Mallorca",
+      "state": "Balearic Islands",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "CLONUS",
+      "city": "Palma de Mallorca",
+      "state": "Balearic Islands",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital del Mar",
+      "city": "Barcelona",
+      "state": "Barcelona",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital de la Santa Creu i Sant Pau",
+      "city": "Barcelona",
+      "state": "Barcelona",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Mutua de Terrassa",
+      "city": "Terrassa",
+      "state": "Barcelona",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital de Donostia",
+      "city": "Donostia / San Sebastian",
+      "state": "Basque Country",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Divino Valles",
+      "city": "Burgos",
+      "state": "Burgos",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Virgen del Puerto",
+      "city": "Plasencia",
+      "state": "Caceres",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Universitario Ramon y Cajal",
+      "city": "Madrid",
+      "state": "Madrid",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Clinico San Carlos",
+      "city": "Madrid",
+      "state": "Madrid",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital 12 de Octubre",
+      "city": "Madrid",
+      "state": "Madrid",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Universitario La Paz",
+      "city": "Madrid",
+      "state": "Madrid",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital de Cruces",
+      "city": "Barakaldo",
+      "state": "Vizcalla",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Fundacio ACE Institut Catala de Neurociences Aplicades",
+      "city": "Barcelona",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Centro Internacional de Medicina Avanzda (CIMA)",
+      "city": "Barcelona",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital de la Princesa",
+      "city": "Madrid",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Universitario Virgen de la Arrixaca",
+      "city": "Murcia",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Malmo University Hospital",
+      "city": "Malmo",
+      "state": "",
+      "country": "Sweden",
+      "status": ""
+    },
+    {
+      "name": "Uppsala Imanet AB",
+      "city": "Uppsala",
+      "state": "",
+      "country": "Sweden",
+      "status": ""
+    },
+    {
+      "name": "Akademiska Sjukhuset",
+      "city": "Uppsala",
+      "state": "",
+      "country": "Sweden",
+      "status": ""
+    },
+    {
+      "name": "ORKI, enheten for radiologi",
+      "city": "Uppsala",
+      "state": "",
+      "country": "Sweden",
+      "status": ""
+    },
+    {
+      "name": "Memory Clinic Neuro-Psychologie Zentrum",
+      "city": "Basel",
+      "state": "Canton of Basel-City",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "Hopitaux Universitaires de Geneve",
+      "city": "Les Acacias",
+      "state": "Canton of Geneva",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "CHUV Lausanne",
+      "city": "Lausanne",
+      "state": "Canton of Vaud",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "Hopitaux Universitaires de Geneve",
+      "city": "Thonex-Geneva",
+      "state": "",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "Glasgow Memory Clinic",
+      "city": "Glasgow",
+      "state": "Glasgow",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "MAC UK Neuroscience Ltd",
+      "city": "Blackpool",
+      "state": "Lancashire",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Kings College Hospital",
+      "city": "London",
+      "state": "London",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "MAC UK Neuroscience, Research Assessment Centre",
+      "city": "Trafford Park",
+      "state": "Manchester",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Pollard Park Health Centre",
+      "city": "Bradford",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Clinical Investigation and Research Unit (CIRU)",
+      "city": "Brighton",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Dept. of Neurosciences Charing Cross Hospital",
+      "city": "London",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Newcastle General Hospital",
+      "city": "Newcastle upon Tyne",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Northampton General Hospital",
+      "city": "Northampton",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Llandough Hospital",
+      "city": "Penarth",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Royal Hallamshire Hospital",
+      "city": "Sheffield",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Grenoside Grange Hospital",
+      "city": "Sheffield",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Victoria Hospital",
+      "city": "Swindon",
+      "state": "",
+      "country": "United Kingdom",
+      "status": ""
+    }
+  ],
+  "facilities_count": 288,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of probable AD, with MMSE score of 16-26, and brain MRI consistent with the diagnosis of AD\n* Concurrent use of cholinesterase inhibitor or memantine allowed, if stable.\n* Caregiver will participate and be able to attend clinic visits with patient.\n\nExclusion Criteria:\n\n* Significant neurological disease other than AD, or a major psychiatric disorder\n* Contraindication to undergo brain MRI (e.g., pacemaker, CSF shunt, or foreign metal objects in the body)\n* Woman of childbearing potential",
+  "eligibility_min_age": "50 Years",
+  "eligibility_max_age": "88 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Change From Baseline in Alzheimer's Disease Assessment Scale-Cognitive (ADAS-Cog)/11 Subscale Total Score at Week 78",
+      "description": "The ADAS-Cog is a multi-item, objective measure of cognitive function. The scale evaluates memory, language, and praxis with items such as orientation, word recall, word recognition, object identification, comprehension, and the completion of simple tasks. Analysis of the ADAS-Cog for this study was based upon an 11 item score from the following items 1) word recall task, 2) naming objects and fingers, 3) following commands, 4) constructional praxis, 5) ideational praxis, 6) orientation, 7) word recognition, 8) remembering test instructions, 9) spoken language ability, 10) word finding difficulty in spontaneous speech, and 11) comprehension.\n\nThis scale had to be administered by a trained and certified psychometric rater who did not have access to any information regarding adverse events experienced.\n\nThe ADAS-Cog/11 ranged from 0 to 70 points, with higher scores indicating a greater degree of impairment. A negative change from baseline indicates a decrease in cognitive impairment.",
+      "timeFrame": "Baseline and 78 weeks"
+    },
+    {
+      "measure": "Change From Baseline in Disability Assessment for Dementia (DAD) Total Score at Week 78",
+      "description": "The DAD measures instrumental and basic activities of daily living in participants with Alzheimer's Disease (AD). The DAD is administered to the participants'caregiver in the form of an interview. This scale had to be administered by a trained and certified psychometric rater who did not have access to any information regarding adverse events experienced by the participant.\n\nThis scale assesses a participants' ability to initiate, plan, and perform activities related to hygiene, dressing, continence, eating, meal preparation, telephoning, going on an outing, finance and correspondence, medications, leisure, and housework. Each item can be scored as 1 = yes, 0 = no, non applicable = NA. A total score is obtained by adding the rating for each question and converting this total score out of 100. Higher scores indicate better function; a positive change from baseline indicates an improvement.",
+      "timeFrame": "Baseline and 78 weeks"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Change From Baseline in Brain Amyloid Burden at Week 71",
+      "description": "Brain amyloid burden as imaged by 11C-Pittsburgh compound B (PIB) positron emission tomography (PET). The latter is a semi-quantitative measure of the extent of fibrillar amyloid in the brain. PIB PET measurements were made in cortical regions found to have the highest burden of fibrillar amyloid at autopsy in participants diagnosed as having Alzheimer's pathology, and also regions reported to have the highest average retention of PIB signal in previous PET studies enrolling participants with probable AD. This parameter reflects overall brain amyloid deposition as indexed by imaging. The change from baseline was measured as average standard uptake value ratio (SUVr) in prespecified regions of interest (ROI) assessed by PIB PET imaging in a subset of participants.",
+      "timeFrame": "Baseline and 71 weeks"
+    },
+    {
+      "measure": "Change From Baseline in Cerebrospinal Fluid (CSF) Phospho-tau Levels at Week 71",
+      "description": "Biomarkers CSF phospho-tau is an indicator of neuronal injury and neurodegeneration. An elevation in levels of tau, as well as specific p-tau species, is thought to be a marker for progressive cellular degeneration in AD. Accordingly, a reduction from baseline in levels of CSF tau in participants who received bapineuzumab compared with participants who received placebo may be indicative of a reduction in neuronal loss in participants treated with bapineuzumab.",
+      "timeFrame": "Baseline and 71 Weeks"
+    },
+    {
+      "measure": "Change From Baseline in Brain Volume, as Assessed by Magnetic Resonance Imaging Brain Boundary Shift Integral (MRI BBSI), at Week 71",
+      "description": "Cerebral atrophy correlates closely with the gradual cognitive decline in AD and can be visualized by MRI. The BBSI technique involves positional matching of serial 3-dimensional MRI brain images, such that brain MRI-image volumes were first registered and then subtracted from each other. Atrophy rates would generally be expected to be lower if the underlying disease was attenuated by effective treatment.",
+      "timeFrame": "Baseline and 71 Weeks"
+    },
+    {
+      "measure": "Divergence of Effect on the ADAS-Cog/11 Total Scores From Week 39 to Week 78",
+      "description": "Treatment differences are estimated using least-squares (LS) means with factor levels weighted according to overall analysis population proportions. ADAS-Cog/11 total score range is 0 (least impairment) to 70 (most impairment); a negative treatment difference (bapineuzumab minus placebo) favors bapineuzumab. Within the MMRMs for ADAS-Cog/11 described for the primary analyses, linear contrasts were formed to test increasing trend of the differences between bapineuzumab and placebo from Week 39 (the 9-month visit) through Week 78 (the 18 -month visit) for each variable, which is equivalent to testing a positive slope of the differences between each bapineuzumab dose group and placebo from Week 39 through Week 78. Results are from a restricted maximum likelihood (REML)-based mixed model for MMRM.",
+      "timeFrame": "Week 39 to Week 78"
+    },
+    {
+      "measure": "Divergence of Effect on the DAD Total Scores From Week 39 to Week 78",
+      "description": "Treatment differences are estimated using least-squares (LS) means with factor levels weighted according to overall analysis population proportions. DAD total score range is 0 to 100; a positive treatment difference (bapineuzumab minus placebo) favors bapineuzumab. Within the MMRMs for ADAS-Cog/11 described for the primary analyses, linear contrasts were formed to test increasing trend of the differences between bapineuzumab and placebo from Week 39 (the 9-month visit) through Week 78 (the 18 -month visit) for each variable, which is equivalent to testing a positive slope of the differences between each bapineuzumab dose group and placebo from Week 39 through Week 78. Results are from a restricted maximum likelihood (REML)-based mixed model for MMRM.",
+      "timeFrame": "Week 39 to Week 78"
+    },
+    {
+      "measure": "Time to First Median Placebo Deterioration on ADAS-Cog/11 Total Score (European Union [EU] Analysis Plan)",
+      "description": "The time to first median placebo deterioration, defined as the first time a participant experienced an increase (worsening) from baseline in ADAS-Cog/11 total score greater than or equal to the median worsening observed at Week 78 in the placebo group. The Kaplan Meier estimate of median time to first median placebo deterioration was presented.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Time to First Clinically Meaningful Deterioration on ADAS-Cog/11 Total Score (United States [US] Analysis Plan)",
+      "description": "The time to first clinically meaningful deterioration was defined as the first time a participant experienced an increase (worsening) from baseline in ADAS-Cog/11 total score of \\>=7.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Time to First Median Placebo Deterioration on DAD Total Score (EU Analysis Plan)",
+      "description": "The time to first median placebo deterioration was defined as the first time a participant experienced a decrease (worsening) in DAD total score greater than or equal to the median worsening at Week 78 in the placebo group.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Time to First Clinically Meaningful Deterioration on DAD Total Score (US Analysis)",
+      "description": "The time to first clinically meaningful deterioration was defined as the first time a participant experienced a decrease (worsening) from baseline in DAD total score of \\>=12.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Change From Baseline in Dependence Scale Total Score at Week 78",
+      "description": "The Dependence Scale (DS) is a 13-item, caregiver-rated instrument for determining the amount of support required by a participant with AD. The DS total score ranges from 0 to 15, with higher scores indicating more need for assistance. The DS was administered as an interview to the caregiver at scheduled study visits.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Percentage of Participants With Worsening From Baseline in ADAS-Cog/11 Total Score at Week 78 (EU Analysis Plan)",
+      "description": "Percentage of participants with worsening from baseline to Week 78 in ADAS-Cog/11 total score of ≤0, ≤3, and ≤7 points were reported. In order to calculate time to first median placebo deterioration in ADAS-Cog/11, the median change from baseline to Week 78 among the placebo participants of the mITT analysis population were determined. The median changes were used as the cutpoints for determining \"deterioration\" for Alzheimer's disease participants in the study. If the median change from baseline to Week 78 in the ADAS-Cog/11 total score among the placebo participants of the mITT Analysis Population is 7 points, then the first median placebo deterioration is the first time where there is a worsening on the ADAS-Cog/11 total score of 7 points or more and the worsening is confirmed by the ADAS-Cog/11 assessment at the next non-missing visit.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Percentage of Responders for ADAS-Cog/11 Total Score at Week 78 (US Analysis Plan)",
+      "description": "Percentage of participants whose increase (worsening) from baseline to Week 78 in ADAS-Cog/11 total score was \\<7.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Percentage of Participants With Worsening From Baseline in DAD Total Score at Week 78 (EU Analysis Plan)",
+      "description": "Percentage of participants whose decrease (worsening) from baseline to Week 78 in DAD total score of ≤ 0, ≤ 6, and ≤ 12 points. In order to calculate time to first median placebo deterioration in DAD, the median change from baseline to Week 78 among the placebo participants of the mITT analysis population were determined. The median changes were used as the cutpoints for determining \"deterioration\" for Alzheimer's disease participants in the study. If the median change from baseline to Week 78 in the DAD total score among the placebo participants of the mITT Analysis Population is 7 points, then the first median placebo deterioration is the first time where there is a worsening on the DAD total score of 7 points or more and the worsening is confirmed by the DAD assessment at the next non-missing visit.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Percentage of Responders for DAD Total Score at Week 78 (US Analysis Plan)",
+      "description": "Percentage of participants whose decrease (worsening) from baseline to Week 78 in DAD total score was \\<12.",
+      "timeFrame": "Baseline and 78 Weeks"
+    },
+    {
+      "measure": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SOB) Total Score at Week 78",
+      "description": "The CDR-SOB is a global clinical staging instrument that sums 6 clinical ratings: 1) memory, 2) orientation, 3) judgment and problem solving, 4) involvement in community affairs, 5) home and hobbies, and 6) personal care based on the Clinical Dementia Rating Scale (CDR) interview. The CDR includes discussions with the participant and caregiver using a structured format. This scale had to be administered by a trained and certified global rater who did not have access to any information regarding adverse events experienced by the participant. CDR-SOB total score range is 0 (least impairment) to 18 (most impairment); a negative change from baseline indicates an improvement.",
+      "timeFrame": "Baseline and 78 Weeks"
+    }
+  ],
+  "has_results": true,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "This is a study to evaluate the efficacy and safety of multiple doses of bapineuzumab in patients with mild to moderate Alzheimer Disease. Patients will receive either bapineuzumab or placebo. Each patient's participation will last approximately 1.5 years.",
+  "detailed_description": "",
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "bapineuzumab",
+      "description": "Bapineuzumab 0.5 mg/kg administered by IV infusion approximately every 13 weeks through week 65."
+    },
+    {
+      "type": "DRUG",
+      "name": "placebo",
+      "description": "Placebo will be administered by IV infusion approximately every 13 weeks through week 65."
+    }
+  ],
+  "converted_at": "2026-04-06T21:26:43.404065+00:00"
+}

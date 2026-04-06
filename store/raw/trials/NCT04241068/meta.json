@@ -1,0 +1,2155 @@
+{
+  "nct_id": "NCT04241068",
+  "title": "Phase 3b Open-Label, Multicenter, Safety Study of BIIB037 (Aducanumab) in Subjects With Alzheimer's Disease Who Had Previously Participated in the Aducanumab Studies 221AD103, 221AD301, 221AD302 and 221AD205",
+  "brief_title": "A Study to Evaluate Safety and Tolerability of Aducanumab in Participants With Alzheimer's Disease Who Had Previously Participated in the Aducanumab Studies 221AD103, 221AD301, 221AD302 and 221AD205",
+  "status": "TERMINATED",
+  "phase": "PHASE3",
+  "study_type": "INTERVENTIONAL",
+  "enrollment": 1696,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Alzheimer's Disease"
+  ],
+  "keywords": [],
+  "sponsor": "Biogen",
+  "sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2020-03-02",
+  "completion_date": "2024-07-22",
+  "primary_completion_date": "2024-07-22",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "YES",
+  "ipd_sharing_description": "In accordance with Biogen's Clinical Trial Transparency and Data Sharing Policy on https://www.biogentrialtransparency.com/",
+  "ipd_sharing_url": "https://vivli.org/",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "University of Alabama at Birmingham",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Banner Alzheimer's Institute",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Dignity Health",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Banner Sun Health Research Institute",
+      "city": "Sun City",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Center for Neurosciences",
+      "city": "Tucson",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Neurology Center of North Orange County",
+      "city": "Fullerton",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "UCI MIND",
+      "city": "Irvine",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of California San Diego Medical Center",
+      "city": "La Jolla",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Senior Clinical Trials, Inc.",
+      "city": "Laguna Hills",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "USC Keck School of Medicine",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mary S. Easton Center for Alzheimer's Disease Research, UCLA",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Pacific Neuroscience Medical Group",
+      "city": "Oxnard",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Stanford Hospital and Clinics",
+      "city": "Palo Alto",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Anderson Clinical Research",
+      "city": "Redlands",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Pacific Research Network, Inc",
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "UCSF - Memory and Aging Center",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Syrentis Clinical Research",
+      "city": "Santa Ana",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "California Neuroscience Research Medical Group Inc.",
+      "city": "Sherman Oaks",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Colorado Denver",
+      "city": "Aurora",
+      "state": "Colorado",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "IMMUNOe International Research Centers",
+      "city": "Centennial",
+      "state": "Colorado",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Yale University",
+      "city": "Fairfield",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Invicro",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Yale University School Of Medicine",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Research Center for Clinical Studies, Inc.",
+      "city": "Norwalk",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Georgetown University Clinical Research Unit (CRU)",
+      "city": "Washington D.C.",
+      "state": "District of Columbia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "JEM Research",
+      "city": "Atlantis",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Bradenton Research Center, Inc",
+      "city": "Bradenton",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brain Matters Research",
+      "city": "Delray Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Neuropsychiatric Research Center of Southwest Florida",
+      "city": "Fort Myers",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Infinity Clinical Research, LLC",
+      "city": "Hollywood",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Jacksonville Center for Clinical Research",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mayo Clinic in Florida",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Miami Jewish Health System, Inc",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Renstar Medical Research",
+      "city": "Ocala",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Accelerated Enrollment Solutions (AES)",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Clinical Neuroscience Solutions, Inc.",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Accelerated Enrollment Solutions (AES)",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Palm Beach Neurological Center",
+      "city": "Palm Beach Gardens",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Quantum Laboratories Inc.",
+      "city": "Pompano Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Axiom Clinical Research of Florida",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Stedman Clinical Trials, LLC",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "USF Health Byrd Institute",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Meridien Research",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Premiere Research Institute",
+      "city": "West Palm Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Cleveland Clinic Florida - Weston",
+      "city": "Weston",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Emory University Cognitive Neurology Clinic & ADRC",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Medical Research Health and Education Foundation, Inc",
+      "city": "Columbus",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "NeuroStudies.net, LLC",
+      "city": "Decatur",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Alexian Brothers Medical Center - Neuroscience Research Institute",
+      "city": "Elk Grove Village",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Advocate Lutheran General Hospital",
+      "city": "Park Ridge",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Fort Wayne Neurological Center",
+      "city": "Fort Wayne",
+      "state": "Indiana",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Indiana University School of Medicine",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Josephson, Wallack, Munshower Neurology, P.C.",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Kansas Medical Center Research Institute, Inc.",
+      "city": "Fairway",
+      "state": "Kansas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Ascension Via Christi Research, a division of Ascension Via Christi Hospitals Wichita, Inc.",
+      "city": "Wichita",
+      "state": "Kansas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Baptist Health Lexington",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "McLean Hospital",
+      "city": "Belmont",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Beth Israel Deaconess Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brigham and Women's Hospital Department of Neurology",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "ActivMed Practices & Research, Inc.",
+      "city": "Methuen",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Boston Center for Memory",
+      "city": "Newton",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Donald S. Marks, M.D., P.C.",
+      "city": "Plymouth",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Hattiesburg Clinic, PA",
+      "city": "Hattiesburg",
+      "state": "Mississippi",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Washington University",
+      "city": "St Louis",
+      "state": "Missouri",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Cleveland Clinic Lou Ruvo Center for Brain Health",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Las Vegas Medical Research",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "ActivMed Practices & Research, Inc.",
+      "city": "Portsmouth",
+      "state": "New Hampshire",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Advanced Memory Research Inst. of NJ, PC",
+      "city": "Toms River",
+      "state": "New Jersey",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Albany Medical College",
+      "city": "Albany",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Empire Neurology, PC",
+      "city": "Latham",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "New York University Medical Center PRIME",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Weill Cornell Medical College (WCMC) - Judith Jaffe Multiple Sclerosis Center (JJMSC)",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mount Sinai School of Medicine",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Rochester",
+      "city": "Rochester",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "AMC Research, LLC",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Raleigh Neurology Associates",
+      "city": "Raleigh",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Gastroenterology Associates of the Piedmont",
+      "city": "Winston-Salem",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Wake Forest Baptist Health",
+      "city": "Winston-Salem",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Cleveland Clinic Foundation",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Ohio State University Wexner Medical Center",
+      "city": "Columbus",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Lynn Health Science Institute",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Lehigh Center for Clinical Research, LLC",
+      "city": "Allentown",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Clinical Trial Center, LLC",
+      "city": "Jenkintown",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Penn Memory Center",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Pittsburgh",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Northeastern Pennsylvania Memory and Alzheimer's Center",
+      "city": "Wilkes-Barre",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Rhode Island Mood & Memory Research Institute",
+      "city": "East Providence",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Rhode Island Hospital",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Butler Hospital",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Roper St. Francis Healthcare",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Medical University of South Carolina (MUSC)",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Neurology Clinic, PC",
+      "city": "Cordova",
+      "state": "Tennessee",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Senior Adult Specialty Research",
+      "city": "Austin",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "UT Southwestern Medical Center",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Baylor College of Medicine",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Clinical Trial Network",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Utah Health Sciences Center",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Memory Clinic",
+      "city": "Bennington",
+      "state": "Vermont",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "National Clinical Research Inc.-Richmond",
+      "city": "Richmond",
+      "state": "Virginia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Washington Medical Centre",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Kingfisher Cooperative, LLC",
+      "city": "Spokane",
+      "state": "Washington",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Medical College of Wisconsin, Inc.",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "The Prince Charles Hospital",
+      "city": "Chermside",
+      "state": "New South Wales",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "St Vincent's Hospital Sydney",
+      "city": "Darlinghurst",
+      "state": "New South Wales",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Central Coast Neurosciences Research (Erina)",
+      "city": "Erina",
+      "state": "New South Wales",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "KaRa Institute of Neurological Diseases",
+      "city": "Macquarie Park",
+      "state": "New South Wales",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Box Hill Hospital",
+      "city": "Box Hill",
+      "state": "Victoria",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Austin Health",
+      "city": "Heidelberg West",
+      "state": "Victoria",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Royal Melbourne Hospital",
+      "city": "Parkville",
+      "state": "Victoria",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "Australian Alzheimer's Research Foundation",
+      "city": "Nedlands",
+      "state": "Western Australia",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "LKH - Universitaetsklinikum Graz",
+      "city": "Graz",
+      "state": "",
+      "country": "Austria",
+      "status": ""
+    },
+    {
+      "name": "Christian-Doppler-Klinik - Universitätsklinikum Salzburg",
+      "city": "Salzburg",
+      "state": "",
+      "country": "Austria",
+      "status": ""
+    },
+    {
+      "name": "AKH - Medizinische Universität Wien",
+      "city": "Vienna",
+      "state": "",
+      "country": "Austria",
+      "status": ""
+    },
+    {
+      "name": "AZ Klina",
+      "city": "Brasschaat",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "AZ Sint-Jan",
+      "city": "Bruges",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "Universitair Ziekenhuis Brussel",
+      "city": "Brussels",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "Universitair Ziekenhuis Gent",
+      "city": "Ghent",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "AZ Groeninge",
+      "city": "Kortrijk",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "UZ Leuven",
+      "city": "Leuven",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "AZ Delta",
+      "city": "Roeselare",
+      "state": "",
+      "country": "Belgium",
+      "status": ""
+    },
+    {
+      "name": "University of Calgary - Heritage Medical Research Clinic",
+      "city": "Calgary",
+      "state": "Alberta",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "The Medical Arts Health Research Group",
+      "city": "Kamloops",
+      "state": "British Columbia",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "The Medical Arts Health Research Group",
+      "city": "Penticton",
+      "state": "British Columbia",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "UBC Hospital",
+      "city": "Vancouver",
+      "state": "British Columbia",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Medical Arts Health Research Group",
+      "city": "West Vancouver",
+      "state": "British Columbia",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "True North Clinical Research - Halifax Inc.",
+      "city": "Halifax",
+      "state": "Nova Scotia",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "True North Clinical Research",
+      "city": "Kentville",
+      "state": "Nova Scotia",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "St. Joseph's HC- Parkwood Institute",
+      "city": "London",
+      "state": "Ontario",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Bruyere Continuing Care",
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Kawartha Centre - Redefining Healthy Aging",
+      "city": "Peterborough",
+      "state": "Ontario",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Toronto Memory Program (Neurology Research Inc.)",
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Toronto Sunnybrook Hospital",
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Toronto Western Hospital",
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Clinique de la Memoire de l'Outaouais",
+      "city": "Gatineau",
+      "state": "Quebec",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Institut et Clinique MoCA",
+      "city": "Greenfield Park",
+      "state": "Quebec",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Montreal Neurological Institute Clinical Research Unit",
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "CHU de Quebec - Hôpital de l' Enfant Jésus",
+      "city": "Québec",
+      "state": "",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "CCBR - Ålborg - DK",
+      "city": "Aalborg",
+      "state": "",
+      "country": "Denmark",
+      "status": ""
+    },
+    {
+      "name": "Danish Dementia Research Centre",
+      "city": "Copenhagen",
+      "state": "",
+      "country": "Denmark",
+      "status": ""
+    },
+    {
+      "name": "CCBR - Vejle - DK",
+      "city": "Vejle",
+      "state": "",
+      "country": "Denmark",
+      "status": ""
+    },
+    {
+      "name": "Terveystalo Ruoholahti",
+      "city": "Helsinki",
+      "state": "",
+      "country": "Finland",
+      "status": ""
+    },
+    {
+      "name": "Itä-Suomen yliopisto, Aivotutkimusyksikkö",
+      "city": "Kuopio",
+      "state": "",
+      "country": "Finland",
+      "status": ""
+    },
+    {
+      "name": "CRST, Clinical Research Services Turku",
+      "city": "Turku",
+      "state": "",
+      "country": "Finland",
+      "status": ""
+    },
+    {
+      "name": "CHU Strasbourg - Hôpital Hautepierre",
+      "city": "Strasbourg",
+      "state": "Bas Rhin",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital de la Timone",
+      "city": "Marseille",
+      "state": "Bouches-du-Rhône",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Groupe Hospitalier Pellegrin - Hôpital Pellegrin",
+      "city": "Bordeaux",
+      "state": "Gironde",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hopital Purpan",
+      "city": "Toulouse",
+      "state": "Haute Garonne",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital La Grave",
+      "city": "Toulouse",
+      "state": "Haute Garonne",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hopital Gui de Chauliac",
+      "city": "Montpellier",
+      "state": "Herault",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU Rennes - Pontchaillou",
+      "city": "Rennes",
+      "state": "Ille Et Vilaine",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU Nantes - Hopital Nord Laënnec",
+      "city": "Nantes",
+      "state": "Loire Atlantique",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU Reims - Hôpital Maison Blanche",
+      "city": "Reims",
+      "state": "Marne",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU Lille - Hopital Roger Salengro",
+      "city": "Lille",
+      "state": "Nord",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital Lariboisière",
+      "city": "Paris",
+      "state": "Paris",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "CHU de Lyon - Hopital Neurologique Pierre Wertheimer",
+      "city": "Bron",
+      "state": "Rhone",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital des Chapennes",
+      "city": "Villeurbanne",
+      "state": "Rhone",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Groupe Hospitalier Pitie-Salpetriere",
+      "city": "Paris",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Hôpital Broca",
+      "city": "Paris",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Studienzentrum fur Neurologie und Psychiatrie",
+      "city": "Böblingen",
+      "state": "Baden-Wurttemberg",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "ISPG - Institut fuer Studien zur Psychischen Gesundheit",
+      "city": "Mannheim",
+      "state": "Baden-Wurttemberg",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "mind mvz GmbH",
+      "city": "Stuttgart",
+      "state": "Baden-Wurttemberg",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Neuropoint Studienzentrum",
+      "city": "Ulm",
+      "state": "Baden-Wurttemberg",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Universitaetsklinikum Ulm",
+      "city": "Ulm",
+      "state": "Baden-Wurttemberg",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Klinikum Bayreuth GmbH- Hohe Warte",
+      "city": "Bayreuth",
+      "state": "Bavaria",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Bezirkskrankenhaus Guenzburg",
+      "city": "Günzburg",
+      "state": "Bavaria",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Klinikum rechts der Isar der TU Muenchen",
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Institut fuer Schlaganfall- und Demenzforschung (ISD)",
+      "city": "München",
+      "state": "Bavaria",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Neuropraxis Muenchen Sued",
+      "city": "Unterhaching",
+      "state": "Bavaria",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Neuro Centrum Science GmbH, Geschaftführende Gesellschafterin Barbara Unsorg und Prüfarzt Dr. med. G",
+      "city": "Erbach im Odenwald",
+      "state": "Hesse",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Neurologische Gemeinschaftspraxis Kassel",
+      "city": "Kassel",
+      "state": "Hesse",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Klinische Forschung Hannover-Mitte GmbH",
+      "city": "Hanover",
+      "state": "Lower Saxony",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Universitaetsklinikum Aachen AOeR",
+      "city": "Aachen",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Neurozentrum Bielefeld",
+      "city": "Bielefeld",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Universitaetsklinikum Koeln",
+      "city": "Cologne",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Universitaetsklinikum Duesseldorf AoeR",
+      "city": "Düsseldorf",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Zentrum f. Neurologisch- Psychiatrische Studien und Begutachtung",
+      "city": "Siegen",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Klinikum Altenburger Land GmbH",
+      "city": "Altenburg",
+      "state": "Thuringia",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Emovis GmbH",
+      "city": "Berlin",
+      "state": "",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Neurologie im Tempelhofer Hafen",
+      "city": "Berlin",
+      "state": "",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Charite Universitaetsmedizin Berlin - Campus Berlin Buch",
+      "city": "Berlin",
+      "state": "",
+      "country": "Germany",
+      "status": ""
+    },
+    {
+      "name": "Ospedale degli Infermi",
+      "city": "Ponderano",
+      "state": "Biella",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Azienda Ospedaliera Card. G. Panico",
+      "city": "Tricase",
+      "state": "Lecce",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "ASST di Monza",
+      "city": "Monza",
+      "state": "Milano",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Fondazione Istituto G.Giglio di Cefalù",
+      "city": "Cefalù",
+      "state": "Palermo",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Azienda Socio Sanitaria Territoriale degli Spedali Civili di Brescia (Presidio Spedali Civili)",
+      "city": "Brescia",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Azienda Ospedaliero Universitaria San Martino",
+      "city": "Genova",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Ospedale San Raffaele",
+      "city": "Milan",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Fondazione IRCCS Istituto Neurologico Carlo Besta",
+      "city": "Milan",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "AOU dell'Università degli studi della Campania Luigi Vanvitelli",
+      "city": "Naples",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Azienda Ospedaliera e Universitaria di Perugia",
+      "city": "Perugia",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Azienda Ospedaliero Universitaria Pisana",
+      "city": "Pisa",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Azienda Ospedaliera Universitaria Policlinico Umberto I - Università di Roma La Sapienza",
+      "city": "Roma",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+      "city": "Roma",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Fondazione Santa Lucia IRCCS",
+      "city": "Roma",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Azienda Ospedaliera Universitaria OO. RR. S. Giovanni di Dio e Ruggi D'Aragona",
+      "city": "Salerno",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "A.O.U. Senese Policlinico Santa Maria alle Scotte",
+      "city": "Siena",
+      "state": "",
+      "country": "Italy",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Obu-shi",
+      "state": "Aichi-ken",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Chiba",
+      "state": "Chiba",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Chiba",
+      "state": "Chiba",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Inzai-shi",
+      "state": "Chiba",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Toon-shi",
+      "state": "Ehime",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Fukuoka",
+      "state": "Fukuoka",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kurume-shi",
+      "state": "Fukuoka",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Aizu-Wakamatsu",
+      "state": "Fukushima",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Otake-shi",
+      "state": "Hiroshima",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Asahikawa-shi",
+      "state": "Hokkaido",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Sapporo",
+      "state": "Hokkaido",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Amagasaki-shi",
+      "state": "Hyōgo",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Himeji-shi",
+      "state": "Hyōgo",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Himeji-shi",
+      "state": "Hyōgo",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kobe",
+      "state": "Hyōgo",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kita-gun",
+      "state": "Kagawa-ken",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kamakura-shi",
+      "state": "Kanagawa",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kyoto",
+      "state": "Kyoto",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kyoto",
+      "state": "Kyoto",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Tsu",
+      "state": "Mie-ken",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Togitsu",
+      "state": "Nagasaki",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Nagaoka-shi",
+      "state": "Niigata",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Yufu-shi",
+      "state": "Oita Prefecture",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kurashiki-shi",
+      "state": "Okayama-ken",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Okayama",
+      "state": "Okayama-ken",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Tsukuba",
+      "state": "Okayama-ken",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Osaka",
+      "state": "Osaka",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Suita-shi",
+      "state": "Osaka",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Iruma-gun",
+      "state": "Saitama",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kasukabe-shi",
+      "state": "Saitama",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Shizuka-shi",
+      "state": "Shizuoka",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Shizuoka",
+      "state": "Shizuoka",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Bunkyō City",
+      "state": "Tokyo-To",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kiyose-shi",
+      "state": "Tokyo-To",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Kodaira-shi",
+      "state": "Tokyo-To",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Research Site",
+      "city": "Yamagata",
+      "state": "Yamagata",
+      "country": "Japan",
+      "status": ""
+    },
+    {
+      "name": "Brain Research Center",
+      "city": "Amsterdam",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Amphia Ziekenhuis, Molengracht",
+      "city": "Breda",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Erasmus Medisch Centrum",
+      "city": "Rotterdam",
+      "state": "",
+      "country": "Netherlands",
+      "status": ""
+    },
+    {
+      "name": "Podlaskie Centrum Psychogeriatrii",
+      "city": "Bialystok",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "PALLMED Sp. z o.o.",
+      "city": "Bydgoszcz",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Klinika Psychiatrii Doroslych UCK",
+      "city": "Gdansk",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Novo-Med Zielinski i wspolnicy Sp. j.",
+      "city": "Katowice",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "SPZOZ Centralny Szpital Kliniczny UM w Lodzi",
+      "city": "Lodz",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Samodzielny Publiczny Szpital Kliniczny Nr 4 w Lublinie",
+      "city": "Lublin",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "NZOZ \"NEURO-KARD\", \"Ilkowski i Partnerzy\" Sp. Partn. Lek.",
+      "city": "Poznan",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Neuro-Care Gabriela Klodowska",
+      "city": "Siemianowice Śląskie",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Centrum Medyczne Senior",
+      "city": "Sopot",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Osrodek Badan Klinicznych EUROMEDIS",
+      "city": "Szczecin",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Centrum Medyczne NeuroProtect",
+      "city": "Warsaw",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "NZOZ Wroclawskie Centrum Alzheimerowskie",
+      "city": "Wroclaw",
+      "state": "",
+      "country": "Poland",
+      "status": ""
+    },
+    {
+      "name": "Hospital de Braga",
+      "city": "Braga",
+      "state": "",
+      "country": "Portugal",
+      "status": ""
+    },
+    {
+      "name": "Centro Hospitalar e Universitário de Coimbra E.P.E - Hospitais da Universidade de Coimbra",
+      "city": "Coimbra",
+      "state": "",
+      "country": "Portugal",
+      "status": ""
+    },
+    {
+      "name": "Hospital Beatriz Ângelo",
+      "city": "Loures",
+      "state": "",
+      "country": "Portugal",
+      "status": ""
+    },
+    {
+      "name": "CNS-Campus Neurologico Senior",
+      "city": "Torres Vedras",
+      "state": "",
+      "country": "Portugal",
+      "status": ""
+    },
+    {
+      "name": "Inha University Hospital",
+      "city": "Incheon",
+      "state": "Gyeonggi-do",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Seoul National University Bundang Hospital",
+      "city": "Seongnam-si",
+      "state": "Gyeonggi-do",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Gachon University Gil Medical Center",
+      "city": "Incheon",
+      "state": "",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Konkuk University Medical Center",
+      "city": "Seoul",
+      "state": "",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Asan Medical Center",
+      "city": "Seoul",
+      "state": "",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Samsung Medical Center",
+      "city": "Seoul",
+      "state": "",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Hospital General Universitario de Elche",
+      "city": "Elche",
+      "state": "Alicante",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Universitario Reina Sofia",
+      "city": "Córdoba",
+      "state": "Córdoba",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Policlinica Gipuzkoa",
+      "city": "Donostia / San Sebastian",
+      "state": "Guipuzcoa",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Clinica Universidad de Navarra",
+      "city": "Pamplona",
+      "state": "Navarre",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "CAE Oroitu",
+      "city": "Getxo",
+      "state": "Vizcaya",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital del Mar",
+      "city": "Barcelona",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital de la Santa Creu i Sant Pau",
+      "city": "Barcelona",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Fundacio ACE",
+      "city": "Barcelona",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Clinic de Barcelona",
+      "city": "Barcelona",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Universitari de Santa Maria",
+      "city": "Lleida",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Complejo Hospitalario Ruber Juan Bravo",
+      "city": "Madrid",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Victoria Eugenia",
+      "city": "Seville",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Universitario Dr. Peset",
+      "city": "Valencia",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Hospital Universitari i Politecnic La Fe",
+      "city": "Valencia",
+      "state": "",
+      "country": "Spain",
+      "status": ""
+    },
+    {
+      "name": "Skånes Universitetssjukhus",
+      "city": "Malmo",
+      "state": "",
+      "country": "Sweden",
+      "status": ""
+    },
+    {
+      "name": "Sahlgrenska Universitetssjukhuset, Mölndal Sjukhus",
+      "city": "Mölndal",
+      "state": "",
+      "country": "Sweden",
+      "status": ""
+    },
+    {
+      "name": "Karolinska Universitetssjukhuset, Huddinge",
+      "city": "Stockholm",
+      "state": "",
+      "country": "Sweden",
+      "status": ""
+    },
+    {
+      "name": "Akademiska Sjukhuset",
+      "city": "Uppsala",
+      "state": "",
+      "country": "Sweden",
+      "status": ""
+    },
+    {
+      "name": "Spitalzentrum Biel",
+      "city": "Biel/Bienne",
+      "state": "",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "Hôpitaux Universitaires de Geneve- HUG",
+      "city": "Geneva",
+      "state": "",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "Centre Hospitalier Universitaire Vaudois",
+      "city": "Lausanne",
+      "state": "",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "Ospedale Regionale di Lugano",
+      "city": "Lugano",
+      "state": "",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "Institut fur Regenerative Medizin-IREM Universitat Zurich, Campus Schlieren",
+      "city": "Schlieren",
+      "state": "",
+      "country": "Switzerland",
+      "status": ""
+    },
+    {
+      "name": "Changhua Christian Medical Foundation Changhua Christian Hospital",
+      "city": "Changhua",
+      "state": "",
+      "country": "Taiwan",
+      "status": ""
+    },
+    {
+      "name": "Kaohsiung Chang Gung Memorial Hospital",
+      "city": "Kaohsiung City",
+      "state": "",
+      "country": "Taiwan",
+      "status": ""
+    },
+    {
+      "name": "National Cheng Kung University Hospital",
+      "city": "Tainan",
+      "state": "",
+      "country": "Taiwan",
+      "status": ""
+    },
+    {
+      "name": "Taipei Veterans General Hospital",
+      "city": "Taipei",
+      "state": "",
+      "country": "Taiwan",
+      "status": ""
+    },
+    {
+      "name": "Chang Gung Memorial Hospital, Linkou",
+      "city": "Taoyuan",
+      "state": "",
+      "country": "Taiwan",
+      "status": ""
+    },
+    {
+      "name": "Re:Cognition Health Ltd (London)",
+      "city": "London",
+      "state": "Greater London",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Charing Cross Hospital",
+      "city": "London",
+      "state": "Greater London",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "The National Hospital for Neurology and Neurosurgery Centre",
+      "city": "London",
+      "state": "Greater London",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Manchester Royal Infirmary",
+      "city": "Manchester",
+      "state": "Greater Manchester",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "The University of Edinburgh",
+      "city": "Edinburgh",
+      "state": "Lothian Region",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "The RICE Centre",
+      "city": "Bath",
+      "state": "Somerset",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Queen Elizabeth University Hospital Campus",
+      "city": "Glasgow",
+      "state": "Strathclyde",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Glasgow Memory Clinic Ltd",
+      "city": "Motherwell",
+      "state": "Strathclyde",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Ninewells Hospital",
+      "city": "Dundee",
+      "state": "Tayside Region",
+      "country": "United Kingdom",
+      "status": ""
+    },
+    {
+      "name": "Newcastle University",
+      "city": "Newcastle upon Tyne",
+      "state": "Tyne & Wear",
+      "country": "United Kingdom",
+      "status": ""
+    }
+  ],
+  "facilities_count": 297,
+  "eligibility_criteria": "Key Inclusion Criteria:\n\nCore Treatment Period:\n\n* Participant was participating in an aducanumab clinical study at the time of the announcement of early termination (feeder studies).\n* Has one care partner who, in the Investigator's opinion, has adequate contact with the participant as to be able to provide accurate information about the participant's cognitive and functional abilities.\n\nLTE Treatment Period:\n\n* Participant must have completed the Core study period (Week 102) and adequately tolerated 10 mg/kg of aducanumab during the Core study period in the opinion of the Investigator.\n* Has one informant/care partner who, in the Investigator's opinion, has frequent and sufficient contact with the participant as to be able to provide accurate information about the participant's cognitive and functional abilities.\n\nKey Exclusion Criteria:\n\nCore Treatment Period:\n\n* Any medical or neurological condition (other than Alzheimer's Disease) that might be a contributing cause of the participant's cognitive impairment.\n* Stroke or any unexplained loss of consciousness within 1 year prior to Screening.\n* Clinically significant unstable psychiatric illness in past 6 months.\n* History of unstable angina, myocardial infarction, advanced chronic heart failure, or clinically significant conduction abnormalities within 1 year prior to Screening.\n* A seizure event that occurred after the last visit of the feeder study and before Screening for this study.\n* Evidence of impaired liver function as shown by an abnormal liver function profile at Screening.\n* History of or known seropositivity for HIV.\n* Clinically significant systemic illness or serious infection within 30 days prior to or during Screening.\n* Contraindications to having a brain magnetic resonance imaging (MRI).\n\nLTE Treatment Period:\n\n* Any medical or psychiatric contraindication or clinically significant abnormality that, in the opinion of the Investigator, will substantially increase the risk associated with the participant's enrollment in and completion of the study.\n\nNote- Other protocol defined Inclusion/Exclusion criteria may apply.",
+  "eligibility_min_age": "50 Years",
+  "eligibility_max_age": "90 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Core Treatment Period: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious TEAEs",
+      "description": "An AE is any untoward medical occurrence in a participant/clinical investigation participant administered a pharmaceutical product and that does not necessarily have a causal relationship with this treatment. An AE can be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with use of medicinal(investigational) product, whether or not related to medicinal (investigational) product. An SAE is any untoward medical occurrence that at any dose results in death, is a life-threatening event, requires inpatient hospitalization or prolongation of existing hospitalization, results in significant disability/incapacity or congenital anomaly, is medically important event. TEAE or Serious TEAEs are defined as any AE that has an onset date and time that is on or after date and time of first dose of study treatment, or that has worsened after date and time of first dose of study treatment.",
+      "timeFrame": "From the first dose of study drug to end of follow-up (up to Week 118)"
+    },
+    {
+      "measure": "Core Treatment Period: Number of Participants With AEs Leading to Treatment Discontinuation (TD) and Study Withdrawal (SW)",
+      "description": "An AE is any untoward medical occurrence in a participant or clinical investigation participant administered a pharmaceutical product and that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product.",
+      "timeFrame": "From the first dose of study drug to end of follow-up (up to Week 118)"
+    },
+    {
+      "measure": "Core Treatment Period: Number of Participants With Amyloid-Related Imaging Abnormality-Edema (ARIA-E)",
+      "description": "Number of participants diagnosed with ARIA edema are reported.",
+      "timeFrame": "Up to Week 118"
+    },
+    {
+      "measure": "Core Treatment Period: Number of Participants With Amyloid-Related Imaging Abnormality- Hemorrhage or Superficial Siderosis (ARIA-H)",
+      "description": "Number of participants diagnosed with ARIA hemmorrhage or superficial siderosis are reported.",
+      "timeFrame": "Up to Week 118"
+    },
+    {
+      "measure": "Core Treatment Period: Number of Participants With Positive Antidrug Antibodies (ADAs) in Serum",
+      "description": "The presence of serum ADAs was determined using a validated assay. A standard 3-tiered approach was used including screening assay, confirmatory assay, and titration assay. The number of participants with a positive response to ADAs are reported.",
+      "timeFrame": "Up to Week 102"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": true,
+  "fda_regulated_drug": true,
+  "fda_regulated_device": false,
+  "brief_summary": "The primary objective is to evaluate the safety and tolerability of aducanumab over 100 weeks of treatment after a wash-out period imposed by discontinuation of feeder studies in participants who had previously received aducanumab (i.e. previously treated participants) or who had previously received placebo (i.e. treatment-naïve participants).",
+  "detailed_description": "",
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Aducanumab",
+      "description": "Administered as specified in the treatment arm."
+    }
+  ],
+  "converted_at": "2026-04-06T21:26:43.619626+00:00"
+}
