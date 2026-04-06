@@ -1,0 +1,141 @@
+{
+  "pmid": "30397248",
+  "pmc": "PMC6218542",
+  "doi": "10.1038/s41598-018-34642-x",
+  "title": "Machine Learning Reveals Protein Signatures in CSF and Plasma Fluids of Clinical Value for ALS",
+  "journal": "Scientific Reports",
+  "year": 2018,
+  "authors": [
+    {
+      "name": "Bereman Michael S.",
+      "affiliations": [
+        "0000 0001 2173 6074grid.40803.3fDepartment of Biological Sciences, North Carolina State University, Raleigh, NC 27695 USA",
+        "0000 0001 2173 6074grid.40803.3fDepartment of Chemistry, North Carolina State University, Raleigh, NC 27695 USA",
+        "0000 0001 2173 6074grid.40803.3fCenter for Human Health and the Environment, North Carolina State University, Raleigh, NC 27695 USA"
+      ]
+    },
+    {
+      "name": "Beri Joshua",
+      "affiliations": [
+        "0000 0001 2173 6074grid.40803.3fDepartment of Chemistry, North Carolina State University, Raleigh, NC 27695 USA"
+      ]
+    },
+    {
+      "name": "Enders Jeffrey R.",
+      "affiliations": [
+        "0000 0001 2173 6074grid.40803.3fCenter for Human Health and the Environment, North Carolina State University, Raleigh, NC 27695 USA"
+      ]
+    },
+    {
+      "name": "Nash Tara",
+      "affiliations": [
+        "0000 0001 2173 6074grid.40803.3fCenter for Human Health and the Environment, North Carolina State University, Raleigh, NC 27695 USA"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/100000066U.S. Department of Health &amp; Human Services | NIH | National Institute of Environmental Health Sciences (NIEHS)P30ES025128P30ES025128P30ES025128BeremanMichael S.EndersJeffrey R.NashTara"
+  ],
+  "data_availability_text": "Data AvailabilityAll raw data are freely available via public repositories as noted in Methods.",
+  "license": "OpenAccess",
+  "received": "2018-06-19",
+  "accepted": "2018-10-23",
+  "reference_pmids": [
+    "28700839",
+    "17924236",
+    "28382000",
+    "26629397",
+    "27933485",
+    "29356625",
+    "19081518",
+    "15540204",
+    "22970211",
+    "16313519",
+    "16481598",
+    "19853641",
+    "26401960",
+    "18466055",
+    "19670321",
+    "27134134",
+    "27178705",
+    "20721349",
+    "12488461",
+    "20636062",
+    "21057983",
+    "21829620",
+    "24198230",
+    "3800708",
+    "24496601",
+    "27700092",
+    "28483925",
+    "19029910",
+    "24942700",
+    "22577014",
+    "27348712",
+    "19673146",
+    "15994189",
+    "14597658",
+    "4050318",
+    "2017904",
+    "16516157",
+    "17463094",
+    "12176325",
+    "16388307",
+    "19131956",
+    "22528833",
+    "21930926",
+    "24550511",
+    "21082368",
+    "21151566",
+    "24381160",
+    "18036157",
+    "19519313",
+    "25683350",
+    "26723986",
+    "15405679",
+    "8639063",
+    "25830513",
+    "16361549",
+    "16456816",
+    "22183936",
+    "28989002",
+    "29331073",
+    "21546088",
+    "20540736",
+    "24447103",
+    "15530656",
+    "21375489",
+    "27790057",
+    "23616620"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "materials",
+    "methods",
+    "sample preparation",
+    "lc ms/ms",
+    "database search",
+    "targeted protein method development & analysis",
+    "univariate statistics",
+    "multivariate statistics",
+    "pathway analysis",
+    "results and discussion",
+    "univariate analysis",
+    "multivariate analysis",
+    "validation of chitinase 3 like 1 protein and alpha-1 antichymotrypsin via targeted proteomics",
+    "conclusions",
+    "electronic supplementary material",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8544,
+  "converted_at": "2026-04-06T22:39:47.824693+00:00"
+}

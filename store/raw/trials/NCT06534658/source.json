@@ -1,0 +1,376 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06534658",
+      "orgStudyIdInfo": {
+        "id": "BP-MIMI"
+      },
+      "organization": {
+        "fullName": "Ruijin Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Study on Multimodal Imaging and Molecular Imaging Techniques in Degenerative Dementia",
+      "officialTitle": "Study on Multimodal Imaging and Molecular Imaging Techniques in Degenerative Dementia",
+      "acronym": "MIMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-07-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-07-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-08-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-07-18",
+      "studyFirstSubmitQcDate": "2024-07-30",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-07-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ruijin Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This project is a multicenter observational study that establishes a longitudinal cohort of patients with Alzheimer's disease and other dementias based on neuroimaging, molecular imaging, biological and digital markers to explore new solutions such as dementia disease mechanism, diagnosis, condition evaluation, and prognosis assessment.",
+      "detailedDescription": "This project will build a longitudinal database based on multimodal MRI imaging information of dementia subjects, various body fluid or digital markers, and a cohort. The convolutional neural network algorithm will be used to explore the imaging characteristics of healthy controls, AD, FTD, and DLB, develop an early prediction model for degenerative dementia, and achieve early differential diagnosis of different dementia subtypes. This study further performed GE180, ASEM, and exendin-4 radionuclide imaging on some subjects who completed conventional PET (AV45, Tauvir, and FDG) imaging to explore the diagnostic efficacy of these three probes as new diagnostic probes for early AD. In addition, through longitudinal follow-up of Aβ-positive MCI patients, multimodal MRI and PET image fusion technology were used to explore the changes in fused images during their conversion to AD in order to obtain early and accurate diagnostic markers."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Image"
+      ],
+      "keywords": [
+        "Alzheimer Disease",
+        "molecular imaging"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "5 Years",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The change of incidence of cognitive impairment",
+          "description": "Number of participants who covert to AD or mild cognitive impairment (MCI) will be recorded to calculate the incidence.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The change of Mini-Mental State Examination (MMSE)",
+          "description": "MMSE is a brief screening instrument used to assess cognitive function (orientation, memory, attention, ability to name objects, follow verbal/written commands, write a sentence, and copy figures) in elderly participants. Total score ranges from 0 to 30; lower score indicates greater disease severity.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of Montreal cognitive assessment-Basic (MoCA)",
+          "description": "MoCA is a brief screening instrument used to assess cognitive function (orientation, memory, attention, ability to name objects, follow verbal/written commands, write a sentence, and copy figures) in elderly participants. Total score ranges from 0 to 30; lower score indicates greater disease severity.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of Auditory verbal learning test (AVLT)",
+          "description": "AVLT is a screening instrument used to assess the function of memory. The score in long-term memory (N5) ranges from 0 to 12, with lower scores indicating greater disease severity.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of structural MRI",
+          "description": "Structural MRI data will be acquired and analyzed through high-resolution T1-weighted MRI and diffusion tensor imaging (DTI).",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of functional MRI",
+          "description": "Functional MRI data will be acquired and analyzed through blood oxygenation level dependent (BOLD) imaging.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of magnetic susceptibility",
+          "description": "Magnetic susceptibility data will be acquired and analyzed through quantitative susceptibility mapping (QSM)",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of perfusion MR imaging",
+          "description": "Perfusion imaging data will be acquired and analyzed through arterial spin labeling (ASL).",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "Positron emission tomography (PET)-MRI",
+          "description": "Including AV45-PET, FDG-PET, Tau-PET, GLP-1R PET, Cholinergic receptor probe (ASEM) PET will be used to detect the amyloid, Tau burden and AD related GLP-1R as well as Cholinergic receptor change",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of blood biomarker",
+          "description": "Blood serum p-tau 181, p-tau 217, Aβ40, pEAβ3-42 and Aβ42 , GFAP, NFL at baseline will be tested. The higher blood p-tau is a strong predictor for AD.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of speech information",
+          "description": "Voice data collection, use a voice recorder to collect the patient's description of \"stealing biscuit map\" language, and save it in SWV format. And use self-developed ASR speech analysis software (China software copyright number: 2016RS164680) for speech analysis.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of Activities of daily living (ADL)",
+          "description": "ADL is a scale used in healthcare to refer to people's daily self-care activities. Eight factors are rated to produce an overall score on a point scale of 0 to 100. The lower the score the more independence in living.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of Geriatric Depression Scale (GDS)",
+          "description": "GDS is a neuropsychological scale used to assess the level of depression. The total score ranges from 0 to 30, with higher scores indicating greater disease severity.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        },
+        {
+          "measure": "The change of electroencephalogram (EEG)",
+          "description": "Electroencephalogram (EEG) is used to measure electrical activity in the brain using small, metal discs (electrodes) attached to the scalp. Recorded frequencies include alpha, beta, delta and theta band power. The EEG signatures of people with cognitive impairment will be further analyzed, and its longitudinal changes will be observed.",
+          "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients aged ≥50 and ≤85 years old, male or female;\n* Meet the diagnostic criteria for dementia or MCI;\n* Neuropsychological score: MMSE 15-28 points, CDR ≤ 1 point; ④ Patients and their families are informed and sign the informed consent form\n\nExclusion Criteria:\n\n* The presence of other neurological diseases that may cause brain dysfunction (such as depression, brain tumors, Parkinson's disease, metabolic encephalopathy, encephalitis, multiple sclerosis, epilepsy, brain trauma, normal intracranial pressure hydrocephalus, etc.);\n* The presence of other systemic diseases that may cause cognitive impairment (such as liver dysfunction, renal dysfunction, thyroid dysfunction, severe anemia, folic acid or vitamin B12 deficiency, syphilis, HIV infection, alcohol and drug abuse, etc.);\n* Suffering from a disease that makes it impossible to cooperate with cognitive examinations;\n* The presence of contraindications to MRI;\n* The presence of mental and neurological retardation;\n* Refusing to draw blood;\n* Refusing to sign the informed consent form.",
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The population in this study includes the cognitive impairment patients in Ruijin Hospital, Renji Hospital, The First Hospital of Zhejiang University School of Medicine, The First Hospital of China Medical University.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jintao Wang",
+          "role": "CONTACT",
+          "phone": "18221457023",
+          "phoneExt": "86",
+          "email": "jt_wang@sjtu.edu.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Gang Wang, PhD. MD.",
+          "affiliation": "RenJi Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Chinese People's Liberation Army General Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yan Chang",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "First Affiliated Hospital of Zhejiang University School of Medicine",
+          "status": "RECRUITING",
+          "city": "Hanzhong",
+          "state": "Hangzhou",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Guoping Peng",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.07507,
+            "lon": 107.02214
+          }
+        },
+        {
+          "facility": "Cangzhou Hospital of Integrated Traditional Chinese and Western Medicine",
+          "status": "RECRUITING",
+          "city": "Cangzhou",
+          "state": "Hebei",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Ronghua Dou",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.31124,
+            "lon": 116.85334
+          }
+        },
+        {
+          "facility": "The Second Hospital of Hebei Medical University",
+          "status": "RECRUITING",
+          "city": "Shijiazhuang",
+          "state": "Hebei",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.04139,
+            "lon": 114.47861
+          }
+        },
+        {
+          "facility": "Qilu Hospital of Shandong University, Qingdao Branch",
+          "status": "RECRUITING",
+          "city": "Qingdao",
+          "state": "Shandong",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Fang Yuan",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.06488,
+            "lon": 120.38042
+          }
+        },
+        {
+          "facility": "Ruijin Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200025",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jintao Wang",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Xinhua Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200025",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yafu Yin",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "The First Affiliated Hospital of China Medical University",
+          "status": "RECRUITING",
+          "city": "Shenyang",
+          "state": "Shenyang",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xuena Li",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

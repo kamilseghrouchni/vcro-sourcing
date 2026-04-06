@@ -1,0 +1,311 @@
+{
+  "pmid": "39994231",
+  "pmc": "PMC11850607",
+  "doi": "10.1038/s41467-025-57032-0",
+  "title": "Individual bioenergetic capacity as a potential source of resilience to Alzheimer’s disease",
+  "journal": "Nature Communications",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Arnold Matthias",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Computational Biology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Buyukozkan Mustafa",
+      "affiliations": [
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Doraiswamy P. Murali",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Duke Institute of Brain Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Medicine, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Nho Kwangsik",
+      "affiliations": [
+        "https://ror.org/02ets8c940000 0001 2296 1126Department of Radiology and Imaging Sciences and Indiana Alzheimer’s Disease Research Center, Indiana University School of Medicine, Indianapolis, IN USA"
+      ]
+    },
+    {
+      "name": "Wu Tong",
+      "affiliations": [
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Computational Biology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Gudnason Vilmundur",
+      "affiliations": [
+        "https://ror.org/01db6h964grid.14013.370000 0004 0640 0021Faculty of Medicine, University of Iceland, Reykjavik, Iceland",
+        "https://ror.org/051snsd81grid.420802.c0000 0000 9458 5898Icelandic Heart Association, Kopavogur, Iceland"
+      ]
+    },
+    {
+      "name": "Launer Lenore J.",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Laboratory of Epidemiology and Population Science, National Institute on Aging, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Wang-Sattler Rui",
+      "affiliations": [
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Research Unit of Molecular Epidemiology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Adamski Jerzy",
+      "affiliations": [
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Experimental Genetics, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany",
+        "https://ror.org/01tgyzw49grid.4280.e0000 0001 2180 6431Department of Biochemistry, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+        "https://ror.org/05njb9z20grid.8954.00000 0001 0721 6013Institute of Biochemistry, Faculty of Medicine, University of Ljubljana, Ljubljana, Slovenia"
+      ]
+    },
+    {
+      "name": "The Alzheimer’s Disease Neuroimaging InitiativeDoraiswamyP. Murali145NhoKwangsik6http://orcid.org/0000-0002-1376-8532SaykinAndrew J.6http://orcid.org/0000-0003-1858-5732Kaddurah-DaoukRima145",
+      "affiliations": []
+    },
+    {
+      "name": "Alzheimer’s Disease Metabolomics Consortiumhttp://orcid.org/0000-0002-4666-0923ArnoldMatthiasmatthias.arnold@helmholtz-muenchen.de12DoraiswamyP. Murali145NhoKwangsik6BennettDavid A.16http://orcid.org/0000-0002-1376-8532SaykinAndrew J.6http://orcid.org/0000-0001-9638-3912SuhreKarsten21http://orcid.org/0000-0003-1858-5732Kaddurah-DaoukRima145http://orcid.org/0000-0002-2368-7322KastenmüllerGabi2http://orcid.org/0000-0003-4734-3791KrumsiekJanjak2043@med.cornell.edu3",
+      "affiliations": []
+    },
+    {
+      "name": "De Jager Philip L.",
+      "affiliations": [
+        "https://ror.org/01esghr10grid.239585.00000 0001 2285 2675Department of Neurology, Center for Translational & Computational Neuroimmunology, Taub Institute, Columbia University Irving Medical Center, New York Presbyterian Hospital, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Ertekin-Taner Nilüfer",
+      "affiliations": [
+        "https://ror.org/02qp3tb03grid.66875.3a0000 0004 0459 167XDepartments of Neuroscience and Neurology, Mayo Clinic, Jacksonville, FL USA"
+      ]
+    },
+    {
+      "name": "Bennett David A.",
+      "affiliations": [
+        "https://ror.org/01j7c0b24grid.240684.c0000 0001 0705 3621Rush Alzheimer’s Disease Center, Rush University Medical Center, Chicago, IL USA"
+      ]
+    },
+    {
+      "name": "Saykin Andrew J.",
+      "affiliations": [
+        "https://ror.org/02ets8c940000 0001 2296 1126Department of Radiology and Imaging Sciences and Indiana Alzheimer’s Disease Research Center, Indiana University School of Medicine, Indianapolis, IN USA"
+      ]
+    },
+    {
+      "name": "Peters Annette",
+      "affiliations": [
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Epidemiology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany",
+        "https://ror.org/05591te55grid.5252.00000 0004 1936 973XIBE, Medical Faculty, Ludwig-Maximilians-Universität, Munich, Germany",
+        "https://ror.org/04qq88z54grid.452622.5German Center for Diabetes Research (DZD e.V.), Munich, Germany",
+        "https://ror.org/031t5w623grid.452396.f0000 0004 5937 5237German Center for Cardiovascular Disease (DZHK e.V.), Munich Heart Alliance, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Suhre Karsten",
+      "affiliations": [
+        "https://ror.org/05v5hg569grid.416973.e0000 0004 0582 4340Department of Physiology and Biophysics, Weill Cornell Medicine-Qatar, Education City, Doha, Qatar"
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Duke Institute of Brain Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Medicine, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Kastenmüller Gabi",
+      "affiliations": [
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Computational Biology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Krumsiek Jan",
+      "affiliations": [
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "Metabolomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data availabilityKORA data can be accessed upon request at https://helmholtz-muenchen.managed-otrs.com/external/. AGES-RS data can be accessed upon request according to informed consent at https://hjarta.is/en/research/ages-phase-1/. All other omics datasets are available via the AD Knowledge Portal (https://adknowledgeportal.org). The AD Knowledge Portal is a platform for accessing data, analyses, and tools generated by the Accelerating Medicines Partnership (AMP-AD) Target Discovery Program and other National Institute on Aging (NIA)-supported programs to enable open-science practices and accelerate translational learning. The data, analyses, and tools are shared early in the research cycle without a publication embargo on secondary use. Data are available for general research use according to the following requirements for data access and data attribution (https://adknowledgeportal.org/DataAccess/Instructions). For access to the content described in this manuscript see: ADNI metabolomics data from the AbsoluteIDQ-p180 kit is available at the AD Knowledge Portal under 10.7303/syn5592519 (ADNI-1) and 10.7303/syn9705278 (ADNI-GO/-2), the full complement of clinical and demographic data for the ADNI cohorts are hosted on the LONI data sharing platform and can be requested at https://adni.loni.usc.edu/data-samples/adni-data/#AccessData. ROS/MAP imputed genotype data are available at the AD Knowledge Portal under 10.7303/syn3157329, study meta-data, basic covariates, and clinical variables are available under 10.7303/syn3157322. The full complement of clinical and demographic data for the ROS/MAP cohorts is hosted on the Rush Alzheimer’s Disease Center data-sharing platform and can be requested at www.radc.rush.edu. MayoLOAD genotyping data are available at the AD Knowledge Portal under 10.7303/syn3157238, study meta-data and covariates are available under 10.7303/syn3205821.6. Source data are provided with this paper.",
+  "license": "",
+  "received": "2023-11-19",
+  "accepted": "2025-02-04",
+  "reference_pmids": [
+    "20182025",
+    "20182025",
+    "2674513",
+    "2674513",
+    "1776760",
+    "1776760",
+    "2057055",
+    "2057055",
+    "29950970",
+    "29950970",
+    "30406052",
+    "30406052",
+    "9329716",
+    "9329716",
+    "28275702",
+    "28275702",
+    "30605407",
+    "30605407",
+    "31507410",
+    "31507410",
+    "27114851",
+    "27114851",
+    "24323910",
+    "24323910",
+    "18281923",
+    "18281923",
+    "15580734",
+    "28263315",
+    "28263315",
+    "24816252",
+    "24816252",
+    "21886157",
+    "21886157",
+    "26068415",
+    "26068415",
+    "29436377",
+    "29436377",
+    "23258903",
+    "23258903",
+    "19356713",
+    "19356713",
+    "32554854",
+    "32554854",
+    "26942670",
+    "26942670",
+    "22834969",
+    "22834969",
+    "36436355",
+    "36436355",
+    "24608097",
+    "24608097",
+    "26806385",
+    "26806385",
+    "27255810",
+    "27255810",
+    "27196316",
+    "27196316",
+    "28341160",
+    "28341160",
+    "31779690",
+    "31779690",
+    "32123170",
+    "32123170",
+    "34529048",
+    "34529048",
+    "29653606",
+    "23633211",
+    "23633211",
+    "20634953",
+    "20634953",
+    "37099355",
+    "37099355",
+    "25268144",
+    "25268144",
+    "31365104",
+    "31365104",
+    "19369366",
+    "19369366",
+    "25027320",
+    "25027320",
+    "30851100",
+    "30851100",
+    "37183523",
+    "37183523",
+    "38065226",
+    "38065226",
+    "35034957",
+    "35034957",
+    "25417152",
+    "25417152",
+    "32747792",
+    "32747792",
+    "32333835",
+    "32333835",
+    "33510216",
+    "33510216",
+    "28149263",
+    "28149263",
+    "29865057",
+    "22054870",
+    "22054870",
+    "19136949",
+    "19136949",
+    "26432245",
+    "26432245",
+    "23269371",
+    "23269371",
+    "22384356",
+    "22384356",
+    "16032513",
+    "16032513",
+    "21852955",
+    "21852955",
+    "17351290",
+    "17351290",
+    "20042704",
+    "20042704",
+    "30820047",
+    "30820047",
+    "27884101",
+    "27884101",
+    "22782295",
+    "22782295",
+    "22644789",
+    "22644789",
+    "31266904",
+    "31266904"
+  ],
+  "tables_count": 1,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "bioenergetic subgroups in ad and their determining factors",
+    "bioenergetic age correlates with alzheimer’s disease pathology",
+    "bioenergetic age and succinylcarnitine-linked genotypes modulate future cognitive decline",
+    "interventions targeting the bioenergetic capacity might be as effective as amyloid antibodies",
+    "discussion",
+    "methods",
+    "adni study",
+    "ros/map study",
+    "mayoload study",
+    "kora study",
+    "ages-reykjavik study",
+    "comparability of ad case ascertainment in adni and ages-rs",
+    "subgroup identification analysis (sgi)",
+    "collection of snps and snp combinations associated with blood acylcarnitine levels",
+    "epistatic analysis",
+    "analysis of explained variance",
+    "normalization of acylcarnitine levels across cohorts",
+    "computation and analysis of bioenergetic age",
+    "analysis of longitudinal cognitive trajectories",
+    "simulated clinical trial to estimate the potential treatment effects targeting the bioenergetic capacity",
+    "reporting summary",
+    "supplementary information",
+    "source data",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14147,
+  "converted_at": "2026-04-06T22:36:40.887562+00:00"
+}

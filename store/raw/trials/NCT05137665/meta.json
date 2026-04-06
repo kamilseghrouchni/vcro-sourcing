@@ -1,0 +1,153 @@
+{
+  "nct_id": "NCT05137665",
+  "title": "Target ALS Biomarker Study; Longitudinal Biofluids, Clinical Measures, and At - Home Measures",
+  "brief_title": "Target ALS Biomarker Study; Longitudinal Biofluids, Clinical Measures, and At Home Measures",
+  "status": "RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 1000,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis",
+    "Movement Disorders",
+    "Degenerative Disorder",
+    "Motor Neuron Disease"
+  ],
+  "keywords": [
+    "Amyotrophic Lateral Sclerosis",
+    "ALS Amyotrophic Lateral Sclerosis",
+    "Target ALS",
+    "Longitudinal Biofluids",
+    "Barrow Neurological Institute",
+    "New York Genome Center",
+    "Biofluids Biorepository",
+    "Genomic-wide association studies",
+    "observational study",
+    "Biofluid Samples"
+  ],
+  "sponsor": "Target ALS Foundation, Inc.",
+  "sponsor_class": "OTHER",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2021-06-01",
+  "completion_date": "2031-12-31",
+  "primary_completion_date": "2031-12-31",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "Participating sites will label and freeze up to two blood tubes collected from each study participant for DNA extraction and analysis. DNA extraction and sequencing will be performed at the New York Genome Center (NYGC), Psomagen, or another central lab that Target ALS partners with. DNA may be stored, used in genome-wide association studies (GWAS), whole genome sequencing, exome sequencing, or for any other known or as yet undiscovered DNA analysis applicable to understanding or targeting disease, with a particular emphasis on ALS. The information from these genetic studies may be made available to collaborators in academia, not-for-profit settings, or industry for appropriate research. Results of DNA testing from this study will not go into the participant's medical record.",
+  "ipd_sharing": "YES",
+  "ipd_sharing_description": "These samples and clinical information will be stored in a de-identified manner and made available for investigators to use in future research studies.\n\nIt is expected to take approximately 5 years to complete all sample and data collection for the study. The first phase of the study will involve activating all sites participating in the study, and will take about 4 months to complete. The enrollment period is expected to be about 5 years. Active assessment for each subject will be for 16-18 months from the time of enrollment. After the end of active assessment period (5 years), the bio-samples and clinical information from the study will be made available for future research.",
+  "ipd_sharing_url": "https://www.targetals.org/resource/longitudinal-biofluids-core",
+  "ipd_sharing_info_types": [
+    "STUDY_PROTOCOL",
+    "SAP",
+    "ICF",
+    "CSR"
+  ],
+  "facilities": [
+    {
+      "name": "Barrow Neurological Institute",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "University of California San Diego",
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Georgetown University",
+      "city": "Georgetown",
+      "state": "District of Columbia",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Mayo Clinic",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Northwestern University",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Washington University",
+      "city": "St Louis",
+      "state": "Missouri",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Columbia University",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Baylor College of Medicine",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "University of Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Instituto Roosevelt",
+      "city": "Bogotá",
+      "state": "",
+      "country": "Colombia",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "CHALS-CCT UPR MScience",
+      "city": "San Juan",
+      "state": "",
+      "country": "Puerto Rico",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 12,
+  "eligibility_criteria": "ALS Participants:\n\n1. Age 18 or older.\n2. A diagnosis of ALS in accordance with Gold Coast criteria.\n3. Full Vital Capacity (FVC) of ≥30% or at the discretion of the Principal Investigator for the participant's predicted value for gender, height, and age at the time of screening.\n4. Ability to provide informed consent and understand the purpose and risks of the study.\n5. Ability to comply with study procedures and assessments, in the opinion of the Principal Investigator.\n\nHealthy Control Participants:\n\n1. Age 18 or older.\n2. No history of neurological disease, in the opinion of the Principal Investigator.\n3. No known ALS- associated genetic mutations at the time of consent.\n4. Ability to provide informed consent and understand the purpose and risks of the study.\n5. Ability to comply with study procedures and assessments, in the opinion of the Principal Investigator.",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Biofluid Biorepository",
+      "description": "This project will create a biorepository of longitudinal biofluid samples, linked to clinical measures, and at home measures",
+      "timeFrame": "+ 3.5 Years"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "The goal of the study is to generate a biorepository of longitudinal biofluids-blood (plasma and serum), cerebral spinal fluid (CSF) and urine linked to genetics and longitudinal clinical information that are made available to the research community. To accomplish these goals, we will enroll 800 Amyotrophic Lateral Sclerosis (ALS) patients and 200 healthy controls from sites globally, over a 5 year time frame. Additionally, speech and motor function and spirometry measures will be collected bi-weekly in a subset of participants. ALS participants will be asked to come to the clinic for 5 study visits approximately every 4 months. Healthy participants will be coming for 2 study visits with a 12-month interval between visits. These samples and clinical information will be stored in a de-identified manner and made available for investigators to use in future research studies.",
+  "detailed_description": "An industry wide survey performed by Dr. Lyle Ostrow at Johns Hopkins University indicated that longitudinal biofluids linked to detailed clinical information are critical to continued drug development for amyotrophic lateral sclerosis (ALS), with CSF being the top biofluid often lacking in longitudinal sample biorepositories. There have been prior efforts for longitudinal collection of biofluids matched to clinical information, but those sample sets are limited in size and quickly utilized by the research community. Based upon input from industry leaders, we propose the creation of a Target ALS longitudinal biofluids biorepository linked to patient genetic and clinical information.\n\nGiven the heterogeneous clinical and biologic nature of ALS, a repository of longitudinal samples linked to clinical and genetic information is essential to help identify and verify ALS biomarkers (1,2). Recent studies to identify ALS biomarkers have used longitudinal samples from either the sporadic patient population or from those that harbor genetic mutations known to cause ALS but are not yet symptomatic (3,4). Beyond exploring the relationship between known causative genes and candidate biomarkers, the Target ALS Postmortem Core has collected postmortem ALS tissue samples that have been used to generate large transcriptomic databases that are linked to whole genome sequencing information. These data have been valuable at finding new subtypes of ALS linked to transcriptomic profiles from the tissue samples (5). The current study utilizes some of the medical centers participating in the Target ALS Postmortem Core to create a longitudinal biofluids repository form living ALS patients and health controls. A select number of participating sites will have a portion of ALS participants (approx. 150) have the option to take part in at home speech measures. Additionally, a select number of participating sites will also take part in at- home spirometry measures for approximately 100 ALS participants and approximately 50 healthy case control participants, for a total of 150 participants. The added feature of these at- home measures are to further evaluate the potential for at home measures in future clinical trials and ability to obtain enriched speech and vital capacity measures to correlate to downstream biomarker studies using biofluid or genetic data. There is a growing interest in the use of at home speech analytics to classify and monitor ALS patients, with recent studies indicating the value for these at home measures in both clinical research and clinical trial settings (6-8). Our study will not only expand upon these early findings but also include at home spirometry measures of vital capacity to evaluate the ability to obtain reliable vital capacity measures at home.\n\nOur proposed study will provide valuable longitudinal biofluids linked to clinical information, genetic data, at-home speech measures, and vital capacity measures for use in future research studies. Target ALS has planned to generate proteomic, lipidomic and metabolomic datasets using the longitudinal biofluids collected in this study. Inclusion of samples with racial and ethnic diversity will further strengthen study outcomes to be applied to ALS communities more broadly. These de-identified samples and clinical information will be available to investigators throughout the world to enhance ALS research and ultimately improved treatments for ALS. There is a long history of benefit for biorepositories with linked clinical data to be instrumental in research progress. Most studies that identify biomarkers or validate biomarkers for human diseases typically require banked samples that are linked to clinical information to determine sensitivity and specificity of the biomarker for that disease or to demonstrate change over the course of the disease.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:56.770509+00:00"
+}

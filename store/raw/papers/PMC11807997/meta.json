@@ -1,0 +1,113 @@
+{
+  "pmid": "39931229",
+  "pmc": "PMC11807997",
+  "doi": "10.3389/fnagi.2025.1530046",
+  "title": "Untargeted urine metabolomics reveals dynamic metabolic differences and key biomarkers across different stages of Alzheimer’s disease",
+  "journal": "Frontiers in Aging Neuroscience",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Feng Xiaoya",
+      "affiliations": [
+        "1Department of Neurology, Shandong Provincial Third Hospital, Jinan, China"
+      ]
+    },
+    {
+      "name": "Zhao Shenglan",
+      "affiliations": [
+        "2Department of Psychiatry and Psychology, Shandong Provincial Third Hospital, Jinan, China"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "mild cognitive impairment",
+    "urine metabolomics",
+    "biomarkers",
+    "key biomarkers"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "The author(s) declare that no financial support was received for the research, authorship, and/or publication of this article."
+  ],
+  "data_availability_text": "Data availability statementPublicly available datasets were analyzed in this study. This data can be found at: https://www.genome.jp/kegg/; https://hmdb.ca/.",
+  "license": "",
+  "received": "2024-11-18",
+  "accepted": "2025-01-09",
+  "reference_pmids": [
+    "31034802",
+    "31286586",
+    "27148576",
+    "28650104",
+    "38382645",
+    "38962750",
+    "36059469",
+    "33458891",
+    "29653606",
+    "29357799",
+    "33016906",
+    "27653867",
+    "30651152",
+    "29282327",
+    "38172602",
+    "38187356",
+    "32878308",
+    "37971328",
+    "21514250",
+    "21514249",
+    "39141935",
+    "36927447",
+    "36996971",
+    "34884615",
+    "34969660",
+    "17375980",
+    "39441506",
+    "32924835",
+    "37930232",
+    "34790112",
+    "32966186",
+    "11443025",
+    "33671099",
+    "27472311",
+    "29031967",
+    "35395415",
+    "23571809",
+    "29848236",
+    "34635103",
+    "35870032",
+    "35715983",
+    "31582197",
+    "32357260",
+    "36608589",
+    "37039942",
+    "35276958",
+    "33637005",
+    "37619773",
+    "37125532"
+  ],
+  "tables_count": 3,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "highlights:",
+    "introduction",
+    "materials and methods",
+    "data source and metabolite identification",
+    "differential metabolite screening and classification",
+    "pathway enrichment and construction of a key metabolite prediction model",
+    "statistical analysis",
+    "results",
+    "metabolite identification results",
+    "differential metabolite screening results",
+    "metabolic pathways associated with ad progression",
+    "identification of key metabolites in ad progression",
+    "construction and validation of ad progression prediction model",
+    "discussion",
+    "conclusion",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 6748,
+  "converted_at": "2026-04-06T22:36:40.195888+00:00"
+}

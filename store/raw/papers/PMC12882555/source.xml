@@ -1,0 +1,1056 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz71164" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12882555</article-id><article-id pub-id-type="pmcid-ver">PMC12882555.1</article-id><article-id pub-id-type="pmcaid">12882555</article-id><article-id pub-id-type="pmcaiid">12882555</article-id><article-id pub-id-type="pmid">41653107</article-id><article-id pub-id-type="doi">10.1002/alz.71164</article-id><article-id pub-id-type="publisher-id">ALZ71164</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Analyses of plasma multi‐omic data across ancestries identify novel pathways implicated in Alzheimer's disease</article-title><alt-title alt-title-type="left-running-head">YANG <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz71164-cr-0001" contrib-type="author"><name name-style="western"><surname>Yang</surname><given-names initials="C">Chengran</given-names></name><xref rid="alz71164-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71164-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71164-cr-0002" contrib-type="author"><name name-style="western"><surname>Timsina</surname><given-names initials="J">Jigyasha</given-names></name><xref rid="alz71164-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71164-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71164-cr-0003" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="M">Menghan</given-names></name><xref rid="alz71164-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71164-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71164-cr-0004" contrib-type="author"><name name-style="western"><surname>Budde</surname><given-names initials="J">John</given-names></name><xref rid="alz71164-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71164-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71164-cr-0005" contrib-type="author"><name name-style="western"><surname>Kohlfeld</surname><given-names initials="P">Pat</given-names></name><xref rid="alz71164-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71164-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71164-cr-0006" contrib-type="author"><name name-style="western"><surname>Brock</surname><given-names initials="W">William</given-names></name><xref rid="alz71164-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71164-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71164-cr-0007" contrib-type="author"><name name-style="western"><surname>Morris</surname><given-names initials="JC">John C.</given-names></name><xref rid="alz71164-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz71164-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz71164-cr-0008" contrib-type="author"><name name-style="western"><surname>Holtzman</surname><given-names initials="DM">David M.</given-names></name><xref rid="alz71164-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz71164-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="alz71164-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz71164-cr-0009" contrib-type="author"><name name-style="western"><surname>Sung</surname><given-names initials="YJ">Yun Ju</given-names></name><xref rid="alz71164-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71164-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71164-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz71164-cr-0010" contrib-type="author" corresp="yes"><name name-style="western"><surname>Cruchaga</surname><given-names initials="C">Carlos</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0276-2899</contrib-id><xref rid="alz71164-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71164-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71164-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz71164-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="alz71164-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><address><email>cruchagac@wustl.edu</email></address></contrib></contrib-group><aff id="alz71164-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Psychiatry</named-content>
+<institution>Washington University School of Medicine</institution>
+<city>St. Louis</city>
+<named-content content-type="country-part">Missouri</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71164-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">NeuroGenomics and Informatics Center</named-content>
+<institution>Washington University School of Medicine</institution>
+<city>St. Louis</city>
+<named-content content-type="country-part">Missouri</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71164-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Washington University School of Medicine</institution>
+<city>St. Louis</city>
+<named-content content-type="country-part">Missouri</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71164-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Charles F. and Joanne Knight Alzheimer Disease Research Center</named-content>
+<institution>Washington University School of Medicine</institution>
+<city>St. Louis</city>
+<named-content content-type="country-part">Missouri</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71164-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Hope Center for Neurological Disorders</named-content>
+<institution>Washington University School of Medicine</institution>
+<city>St. Louis</city>
+<named-content content-type="country-part">Missouri</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71164-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Division of Biostatistics</named-content>
+<institution>Washington University School of Medicine</institution>
+<city>St. Louis</city>
+<named-content content-type="country-part">Missouri</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Carlos Cruchaga, Department of Psychiatry, Washington University School of Medicine, 425 South Euclid Avenue, BJC Institute of Health, Box 8134, St. Louis, MO 63110, USA.<break/> Email: <email>cruchagac@wustl.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>07</day><month>2</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2026</year></pub-date><volume>22</volume><issue seq="370">2</issue><issue-id pub-id-type="pmc-issue-id">506440</issue-id><issue-id pub-id-type="doi">10.1002/alz.v22.2</issue-id><elocation-id>e71164</elocation-id><history><date date-type="rev-recd"><day>20</day><month>11</month><year>2025</year></date><date date-type="received"><day>10</day><month>7</month><year>2025</year></date><date date-type="accepted"><day>30</day><month>12</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>07</day><month>02</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>08</day><month>02</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-02-08 10:25:13.147"><day>08</day><month>02</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-22-e71164.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-22-e71164.pdf"/><abstract><title>Abstract</title><sec id="alz71164-sec-0010"><title>INTRODUCTION</title><p>Few genetic studies on Alzheimer's disease (AD) have incorporated multiple ancestries and omic datasets to pinpoint actionable AD risk effectors for each ancestry.</p></sec><sec id="alz71164-sec-0020"><title>METHODS</title><p>Here, we first performed genetic colocalization between molecular phenotypes (proteomics and metabolomics) from two ancestral groups (European [EUR] and African [AFR]) and the two largest EUR AD genome‐wide association studies. We next performed pathway enrichment analyses to identify biological mechanisms.</p></sec><sec id="alz71164-sec-0030"><title>RESULTS</title><p>We found 21 proteins and one metabolite colocalized with AD risk that were shared between the EUR and AFR ancestry groups. We also identified 25% AFR and 60% EUR proteins; 50% AFR and 10% EUR metabolites were unique. The pathway enrichment analyses nominated interleukin‐1 production and lipid pathway were shared underlying proteomic and metabolomic findings, respectively.</p></sec><sec id="alz71164-sec-0040"><title>DISCUSSION</title><p>Our findings indicate that these four plasma datasets may pinpoint different effectors of AD risk in diverse populations; findings from AFR participants require validation with AFR‐based genome‐wide association study data.</p></sec><sec id="alz71164-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz71164-list-0001"><list-item><p>For proteomics, 61% of findings for European (EUR) ancestry and 72% for African (AFR) ancestry were not previously reported.</p></list-item><list-item><p>For metabolomics, 83% of findings for EUR ancestry and 50% AFR ancestry were not previously reported.</p></list-item><list-item><p>Both convergent and divergent pathways were identified in EUR‐ and AFR‐ancestry stratified analyses in either proteomics or metabolomics findings.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz71164-kwd-0001">Alzheimer's disease</kwd><kwd id="alz71164-kwd-0002">genetic ancestry</kwd><kwd id="alz71164-kwd-0003">genetic variants</kwd><kwd id="alz71164-kwd-0004">metabolomics</kwd><kwd id="alz71164-kwd-0005">omics</kwd><kwd id="alz71164-kwd-0006">plasma</kwd><kwd id="alz71164-kwd-0007">proteomics</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Institutes of Health</institution><institution-id institution-id-type="doi">10.13039/100000002</institution-id></institution-wrap>
+</funding-source><award-id>R01AG044546</award-id><award-id>RF1AG053303</award-id><award-id>RF1AG058501</award-id><award-id>U01AG058922</award-id><award-id>RF1AG074007</award-id><award-id>P30AG066444</award-id><award-id>P01AG03991</award-id><award-id>P01AG026276</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Chan Zuckerberg Initiative</institution><institution-id institution-id-type="doi">10.13039/100014989</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Alzheimer's Association Zenith Fellows Award</institution></institution-wrap>
+</funding-source><award-id>ZEN‐22‐848604</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>National Institute on Aging</institution><institution-id institution-id-type="doi">10.13039/100000049</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><page-count count="15"/><word-count count="9546"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.8 mode:remove_FC converted:07.02.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz71164-cite-0001">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Timsina</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Analyses of plasma multi‐omic data across ancestries identify novel pathways implicated in Alzheimer's disease</article-title>. <source>Alzheimer's Dement</source>. <year>2026</year>;<volume>22</volume>:00‐00<elocation-id>e71164</elocation-id>. <pub-id pub-id-type="doi">10.1002/alz.71164</pub-id>
+</mixed-citation>
+</p></notes></front><body><sec id="alz71164-sec-0060"><label>1</label><title>BACKGROUND</title><p>To our knowledge, few genetic studies on Alzheimer's disease (AD) have included more than one molecular layer from more than one genetic ancestry when prioritizing functional molecular traits underlying AD risk loci. For example, the latest two AD genome‐wide association studies (GWASs)<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> mostly included participants of European (EUR) ancestry. Recently, using cerebrospinal fluid (CSF) tissue, we have identified novel proteins<xref rid="alz71164-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> and metabolites<xref rid="alz71164-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> that are part of the causal pathways of AD, but focused only on the proteomic and metabolomic datasets from participants of EUR ancestry. It remains unclear whether these findings apply to other ancestries. Moreover, as we demonstrated in a smaller scale study,<xref rid="alz71164-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> tissues can exhibit specific effects on protein measures; thus, plasma may nominate different effector proteins than CSF.</p><p>Previous studies have found that proteins and metabolites implicated in AD are enriched in pathways underlying AD pathogenesis, such as microglial efferocytosis,<xref rid="alz71164-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> lysosomal dysfunction,<xref rid="alz71164-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> or the lipid super‐pathway (phosphatidyl‐choline sub‐pathway).<xref rid="alz71164-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> These pathways, in addition to individual genes, may represent another druggable tier for AD treatment. However, because multi‐ancestry GWASs cannot adequately distinguish ancestry‐stratified biological contexts, precision medicine for AD has not yet been fully realized.</p><p>There are several approaches to link the genetic architecture of molecular traits, such as mRNA, protein, and metabolite levels, with diseases, which allows us to identify potential effect genes and proteins, and metabolites implicated in disease. Those methods include genetic colocalization<xref rid="alz71164-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="alz71164-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz71164-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz71164-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="alz71164-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz71164-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz71164-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> or transcriptome/proteome/metabolome‐wide association studies (TWAS for mRNA levels, PWAS for protein levels, MWAS for metabolite levels)<xref rid="alz71164-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz71164-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="alz71164-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> approaches. Colocalization methods proved to be useful in identifying the key effectors underlying a complex region of a disease. Moreover, given no pleiotropy assumption in the colocalization framework, it can be used to nominate more biologically meaningful molecular features than other methods, such as Mendelian randomization.<xref rid="alz71164-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> Additionally, colocalization analysis is also used as a complementary approach after TWAS analyses to reduce false positives. However, as these TWAS approaches only consider the <italic toggle="yes">cis</italic> region of a gene, this limits their application to accounting for the <italic toggle="yes">trans</italic> region of the same gene.</p><p>Here, in this study (Figure <xref rid="alz71164-fig-0001" ref-type="fig">1</xref>), we used four xQTL (quantitative trait locus) datasets that include two omic layers (proteomics and metabolomics) in two ancestral groups<xref rid="alz71164-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> (EUR and African [AFR], Table <xref rid="alz71164-supinfo-0001" ref-type="">S1–S4</xref>) to identify key proteins and metabolites associated with AD risk by integrating summary statistics–level data from the two recent EUR ancestry–based AD GWASs<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> to date (Table <xref rid="alz71164-supinfo-0001" ref-type="">S5</xref>). By applying genetic colocalization approaches that assume single‐variant (coloc.abf<xref rid="alz71164-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>) and multi‐variant (coloc.susie<xref rid="alz71164-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>) models, we nominated AD effector molecular phenotypes in an ancestry‐stratified manner. Finally, we explored aggregated pathways and conducted cross‐tissue comparisons of these features.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz71164-sec-0070"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz71164-list-0002"><list-item><p>
+<bold>Systematic review</bold>: The authors reviewed the literature using PubMed. Few genetic studies on Alzheimer's disease (AD) have incorporated multiple ancestries and omic datasets to pinpoint actionable AD risk genes for non‐European ancestry. Mixed multi‐ancestry studies alone are insufficient to distinguish ancestry‐specific biological contexts, and thus, the promise of precision medicine for AD remains unfulfilled.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Our findings indicated that these four plasma‐based proteomic and metabolomic datasets may pinpoint different effectors of AD risk in European and African ancestral populations.</p></list-item><list-item><p>
+<bold>Future directions</bold>: (a) Expand the throughput for metabolome profiling and further integrate with proteomics underlying AD risk loci. (b) Examine the potential mechanisms of the apolipoprotein E locus linked with trans‐associated proteins. (c) Examine the potential mechanisms of the <italic toggle="yes">ADAM10</italic> locus associated with metabolites from the glycero–phosphatidyl–ethanolamine sub‐pathway. (d) Additional studies using AD genome‐wide association studies from African ancestry would be needed to validate these findings.</p></list-item></list>
+</p></sec></boxed-text><fig position="float" fig-type="FIGURE" id="alz71164-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Schematic of study design to identify ancestry‐aware AD risk effector proteins and metabolites by integrating EUR and AFR genetic ancestry stratified pQTL and mQTL datasets (left) using pairwise‐trait genetic colocalization methods (middle). Biological functions (right) were annotated with pathway enrichment analyses, cross‐tissue comparisons, and protein–protein interaction network (specific to proteomic findings). AD, Alzheimer's disease; AFR, African; EUR, European; mQTL, metabolite quantitative trait locus; pQTL, protein quantitative trait locus.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-22-e71164-g005.jpg"/></fig></sec><sec id="alz71164-sec-0080"><label>2</label><title>METHODS</title><sec id="alz71164-sec-0090"><label>2.1</label><title>Ethics declarations</title><p>This project<xref rid="alz71164-fig-0001" ref-type="fig"> </xref> was approved by the ethics committee of the Washington University School of Medicine in St. Louis. We certified that the study was performed in accordance with the ethical standards as laid down in the 1964 Declaration of Helsinki and its later amendments or comparable ethical standards.</p></sec><sec id="alz71164-sec-0100"><label>2.2</label><title>Cohort information</title><p>All participants were recruited at the Knight Alzheimer Disease Research Center (Knight ADRC). In total, 3170 participants from all genetic ancestries were selected for both proteomics and metabolomics profiling. Here, we followed the Trans‐Omics for Precision Medicine (TOPMed) recommendations<xref rid="alz71164-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> to define ancestries based on genetic information (see section 2.3.3).</p><p>The plasma proteomic and metabolomic datasets were generated from participants, which included 1254 AD patients, 1720 healthy controls, 34 frontotemporal dementia patients, and 162 individuals with an unclassified neurodegenerative disease. The cohort was a subset of the participants recruited from the Knight ADRC,<xref rid="alz71164-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> which includes community‐dwelling adults &gt; 27 years old via prospective studies of memory and aging since 1979. All participants recruited from the Knight ADRC are required to participate in core study procedures, including annual longitudinal clinical assessments, neuropsychological testing, neuroimaging, and biofluid biomarker studies. If such a participant was genotyped already in our cohort, we prioritized them for multi‐omics profiling. The corresponding genotype was a priori to choosing participants for profiling proteomics and metabolomics, specifically in this study. Plasma samples were collected in the morning after an overnight fast, immediately centrifuged, and stored at −80°C.</p></sec><sec id="alz71164-sec-0110"><label>2.3</label><title>Data quality control (proteomics, metabolomics, genotype data quality control)</title><sec id="alz71164-sec-0120"><label>2.3.1</label><title>Proteomics data quality control</title><p>In brief, 3132 participants and 6907 aptamers passed proteomics quality control (QC). Seven thousand five hundred eighty‐four aptamers were measured before proteomics QC using the SomaScan 7k platform.<xref rid="alz71164-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> Plasma proteomics data from all genetic ancestries were QCed<xref rid="alz71164-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> with seven steps. Step (1)—Limit of detection, scale factor difference, and coefficient of variation: we kept proteins/aptamers with <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="inline"><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:math> 85% limit of detection, <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="inline"><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:math> 0.5 scale factor difference, <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline"><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:math>0.15 coefficient of variation. Step (2)—Interquartile range (IQR)‐based outlier expression level detections: we log10‐transformed the values and detection the outlier per the first and third quantile for larger than 1.5‐fold of IQR. Step (3)—Remove analytes and samples with &lt; 65% call rate. Step (4)—Recalculate call rate for analytes and remove analytes with call rate &lt; 85%. Step (5)—Recalculate missing rate for subjects and remove subjects with &lt; 85% call rate cut‐off. Step (6)—Back transform into raw values from log10‐scale. Step (7)—Remove non‐human and analytes without protein targets and output the final matrix.</p></sec><sec id="alz71164-sec-0130"><label>2.3.2</label><title>Metabolomics data QC</title><p>Briefly, 3169 participants and 1508 metabolites passed metabolomics QC. One thousand seven hundred eighteen metabolites were measured before QC with the Metabolon HD4 platform.<xref rid="alz71164-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> Plasma metabolomics data from all genetic ancestries were QCed<xref rid="alz71164-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> with 11 steps. Step (1)—Normalize volume. Step (2)—Sample missingness: we kept samples &lt; 50% missingness. Step (3)—Metabolite missingness: we kept metabolites from non‐xenobiotics groups &lt; 80% missingness. Step (4)—Perform Fisher exact test and differential expression check to recover metabolites if their missingness was associated with disease status. Step (5)—Perform minimum value imputation on non‐xenobiotic group of metabolites. Step (6)—Remove non‐informative metabolites after log10‐transformation: non‐informative metabolites were defined as IQR = 0 and variance &lt; 0.001. Step (7)—Perform IQR‐based outlier detection: remove outlier values based on if they exceed the first and third quantile for &gt; 1.5 x IQR. Step (8)—Remove metabolites with &lt; 50 data points. Step (9)—Remove sample outliers based on metabolite principal component analysis (PCA): &gt; 5 standard deviation of the PC1 and PC2. Step (10)—Batch effects of metabolomics data: Post QC, two different batches were identified. The batch effect was found by sample drawing year, such that samples drawn from 1998 to 2006 clustered together, whereas those from other years were clustered into separate groups. But after adjusting the metabolite PC1 and PC2, the batch effects can be corrected. Based on the model test, it was decided that PC1 and PC2 would be used as covariates in downstream analyses. Step (11)—Output the final matrix and back transform metabolite levels. Notably, for step 5, missing values were imputed. However, as mentioned earlier, xenobiotics are indeed expected to be missing, and imputing their values could skew the results. So, imputation is performed only for the non‐xenobiotic group of metabolites.</p></sec><sec id="alz71164-sec-0140"><label>2.3.3</label><title>Genotype QC, imputation, and ancestral group stratification</title><p>At the pre‐imputation stage, the directly genotyped variants were kept, agreeing to three criteria: (1) genotyping success rate <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="inline"><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:math> 98% per variant or per individual; (2) minor allele frequency (MAF) <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="inline"><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:math> 0.01; and (3) Hardy–Weinberg equilibrium (HWE; <italic toggle="yes">p</italic>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="inline"><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:math> 1×10<sup>−6</sup>). Imputation was performed on the TOPMed<xref rid="alz71164-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> imputation server using the hg38 Version R2 reference panel. The TOPMed Imputation Reference panel contains information from 97,256 deeply sequenced human genomes. Imputed genotypes with an imputation quality of R2 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-7" display="inline"><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:math> 0.3 were kept. At the post‐imputation stage, the genotyped and imputed variants remained on the two criteria: (1) genotyping missing rate <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-8" display="inline"><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:math>90% per variant; (2) MAF <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-9" display="inline"><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:math> 0.0005. Multiple genotyping arrays were included for this cohort, including CoreEx, GSA_v1, GSA_v2, GSA_v3, Human1M.Duov3, NeuroX2, OmniEx, quad660. For each genotype array, we performed pre‐imputation, imputation, and post‐imputation separately. We merged into one dataset before performing the QTL analyses. Thus, the final number of genetic variants located on autosomal chromosomes was 10,448,203. In total, 3081 out of 3170 participants had corresponding genotype data.</p><p>Ancestral group stratification was performed using Plink1.9<xref rid="alz71164-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> pca function (after linkage disequilibrium [LD] pruning); 2598 participants were classified as EUR and 433 as AFR per PCA with the reference by the 1000 Genome Project.<xref rid="alz71164-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> We defined the genetic ancestry per genotype PCA anchored with participants from the 1000 Genome Project within the boundary with the mean ± 3 times the standard deviation of each PC. Moreover, we noted that &gt; 400 AFR participants we defined as AFR were within three standard deviations of the AFR participants in the 1000 Genome Project, we cannot omit the admixed ancestral groups within these participants. Relatedness was performed using plink1.9<xref rid="alz71164-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> genome function on the IBD. Unrelated participants were defined as PI_HAT &lt; 0.25; 2395 EUR and 418 AFR participants were kept as unrelated participants.</p></sec></sec><sec id="alz71164-sec-0150"><label>2.4</label><title>Integration of proteomics and metabolomics with genotype data</title><p>The four sets of plasma protein QTL (pQTL; EUR and AFR) and metabolite QTL (mQTL; EUR and AFR) were generated with an additive linear regression model from the plink2<xref rid="alz71164-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> glm function. Details for deriving the ancestry‐stratified xQTL sets were documented in Yang <italic toggle="yes">et al</italic>.<xref rid="alz71164-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> Briefly, we identified 2400 proteins with 2848 significant pQTLs from the EUR set and 881 proteins with 954 significant pQTLs from the AFR set. We identified 490 significant mQTLs associated with 403 metabolites from the EUR set and 65 significant mQTLs associated with 60 metabolites from the AFR set.</p></sec><sec id="alz71164-sec-0160"><label>2.5</label><title>AD risk GWAS</title><p>We used the latest population‐scale AD risk GWAS of EUR ancestry by Bellenguez <italic toggle="yes">et al</italic>.<xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> The study contained 111,326 clinically diagnosed/“proxy” AD cases and 677,663 controls. The proxy‐AD is defined per questionnaire data in which participants are asked whether their parents had dementia. The summary statistics file of the Stage 1 dataset was downloaded from the GWAS catalog.</p><p>We used another relatively recent population‐scale AD risk GWAS of EUR ancestry by Kunkle <italic toggle="yes">et al</italic>.<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> The study contained 35,274 clinically diagnosed AD cases and 59,163 controls. The summary statistics file was downloaded after requesting both Stage 1 and Stage 2 data.</p><p>In Table <xref rid="alz71164-supinfo-0001" ref-type="">S5</xref>, we summarized the AD risk locus information by Bellenguez <italic toggle="yes">et al.</italic>
+<xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> If the locus was old (defined as the locus was identified in earlier vs. the most recent study in 2022), we kept the results using the study by Kunkle <italic toggle="yes">et al</italic>.;<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> if the locus was new (defined as the locus was not identified in earlier vs. the most recent study in 2022), we kept the results using the study by Bellenguez <italic toggle="yes">et al</italic>. The findings related to the apolipoprotein E (<italic toggle="yes">APOE</italic>) locus as the most significant AD risk locus were kept, considering that both studies gave variants nearby that were not complete in either study.</p></sec><sec id="alz71164-sec-0170"><label>2.6</label><title>Colocalization of molecular traits and AD</title><p>To rigorously test the variant sharing between proteins/metabolites and AD, we performed pairwise colocalization analysis using both coloc.abf function from the R package coloc v3.1<xref rid="alz71164-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> and coloc.susie function from the R package coloc v5.1<xref rid="alz71164-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> with a wrapper for the susie_rss function from the susieR<xref rid="alz71164-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="alz71164-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> package. We next set the window size to ± 1Mb, centering on IV per trait–AD pair. We used default priors, with p1 as 1×10<sup>−4</sup>, p2 as 1×10<sup>−4</sup>, and p12 as 1×10<sup>−5</sup>. Evidence for colocalization was assessed using the posterior probability (PP) for hypothesis 4 (indicating there is an association for both protein and disease, and they are driven by the same causal variant[s]). We used PP.H4_final &gt; 80% as a threshold to suggest that two traits were highly colocalized. Under the assumption of only a single causal variant, we used the PP.H4 from coloc.abf output of the trait–disease pair. Under the assumption that multiple causal variants exist, we used the maximum PP.H4 of multiple credible sets from coloc.susie output.</p><p>Geni.plot R package<xref rid="alz71164-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> was used to draw the customized stacked regional plot given a single AD locus.</p></sec><sec id="alz71164-sec-0180"><label>2.7</label><title>Pathway and cell type enrichment of proteins in <italic toggle="yes">trans</italic> association with the AD loci</title><p>To test the biological pathway enrichment of proteins pinpointed via colocalization in EUR and AFR stratified analyses, given a <italic toggle="yes">trans</italic> association, we used the enrichGO function from the ClusterProfiler package.<xref rid="alz71164-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> The background list contained all SomaScan 7k proteins that passed QC. The top three ranked pathways being enriched were selected based on <italic toggle="yes">p</italic> value. False discovery rate (FDR)–based <italic toggle="yes">q</italic> value &lt; 0.05 was used as a significance threshold in both EUR‐ and AFR‐stratified analyses.</p><p>To test the cell type enrichment of the proteins pinpointed via colocalization in EUR‐ and AFR‐stratified analyses, given a <italic toggle="yes">trans</italic> association, we used the gene expression information curated from two recent single‐nuclei RNA‐seq datasets<xref rid="alz71164-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, <xref rid="alz71164-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> containing &gt; 700 participants. We computed the cell type proportion of each gene using the pseudo‐bulk strategy across all seven major cell types. To define the protein as cell type specific, we required its corresponding gene expression to have at least a half‐fold higher in one cell type compared to any other cell type. To test for the enrichment, we calculated the odds ratio via Fisher exact test for each cell type within each locus. The top‐ranked cell type being enriched was mentioned based on the <italic toggle="yes">p</italic> value. FDR <italic toggle="yes">q</italic> value &lt; 0.1 was used as a significance threshold in both EUR‐ and AFR‐stratified analyses.</p></sec><sec id="alz71164-sec-0190"><label>2.8</label><title>Identification of <italic toggle="yes">APOE</italic> ε4 conditional pQTLs and colocalization with AD</title><p>An additive linear regression model was used from plink2<xref rid="alz71164-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> glm function for each protein showed high colocalization with AD and <italic toggle="yes">trans</italic>‐associated a pQTL near the <italic toggle="yes">APOE</italic> locus. Protein abundances were log‐10 transformed first, and <italic toggle="yes">z</italic> scale normalized next, as consistent with the pre‐conditional pQTL identification per Yang <italic toggle="yes">et a</italic>l.<xref rid="alz71164-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> Covariates were the <italic toggle="yes">APOE</italic> ε4 variant rs429358, along with the original age, sex, genotyping array types, genotype PC 1–10, and proteomics PC 1–2 per Yang <italic toggle="yes">et al</italic>. For the <italic toggle="yes">trans</italic>‐pQTL analysis, we used the same study‐wide significance as pre‐conditional pQTL identification for EUR was 3.40×10<sup>−11</sup> and for AFR was 1.49×10<sup>−10</sup>.</p><p>Colocalization analyses were performed using the post‐conditional pQTL summary statistics and AD risk following the same thresholds of PP.H4_final &gt; 80% to suggest that two traits were highly colocalized.</p></sec><sec id="alz71164-sec-0200"><label>2.9</label><title>Pathway enrichment of proteins and metabolites implicated in AD</title><p>To test the pathway enrichment of proteins pinpointed via colocalization in EUR‐ and AFR‐stratified analyses, we used enrichGO and enrichDO functions from the ClusterProfiler package.<xref rid="alz71164-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> The background list contained all SomaScan 7k proteins that passed QC. The significance threshold of the pathway being enriched was determined by FDR‐based <italic toggle="yes">q</italic> value: EUR proteins with <italic toggle="yes">q</italic> value &lt; 0.1 and AFR proteins with <italic toggle="yes">q</italic> value &lt; 0.2 (if using <italic toggle="yes">q</italic> value &lt; 0.1 for AFR proteins, only the top 2 Disease Ontology terms [syphilis and frontotemporal dementia] remained significant). Treemap plots were drawn using the function from the rrvgo R package<xref rid="alz71164-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> when clustering different clusters of terms.</p><p>To test the pathway enrichment of metabolites pinpointed via colocalization in EUR‐ and AFR‐stratified analyses, we used the Fisher exact test testing against Metabolon's officially annotated sub‐pathway information.<xref rid="alz71164-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> The outcome was tested based on the odds ratio of the metabolite highly colocalized (sub‐pathway A alone over all other pathways) over the metabolite passed QC (sub‐pathway A alone over all other pathways). FDR‐based <italic toggle="yes">q</italic> value &lt; 0.1 was used as a significance threshold in both EUR‐ and AFR‐stratified analyses. PathBank<xref rid="alz71164-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> was used for visualizing the metabolites in the corresponding pathways.</p></sec><sec id="alz71164-sec-0210"><label>2.10</label><title>Protein–protein interaction prediction of proteins implicated in AD</title><p>The protein–protein interaction (PPI) networks were obtained using the STRING database.<xref rid="alz71164-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> The network plots were visualized with rbioapi R package.<xref rid="alz71164-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> The combined score, as well as gene neighborhood score, gene fusion score, phylogenetic profile score, co‐expression score, experimental score, database score, and textmining score, were included. The confidence score was used to determine how likely STRING concludes an interaction to be true. A default of medium confidence, ≥ 0.4, was chosen.</p></sec><sec id="alz71164-sec-0220"><label>2.11</label><title>Cross‐tissue comparisons of proteins and metabolites implicated in AD</title><p>To compare the protein and metabolite findings in this study, we queried the output from two previous (also from our lab) studies of CSF pQTL<xref rid="alz71164-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> and mQTL<xref rid="alz71164-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> on AD, separately, against the plasma EUR and AFR protein/metabolite lists.</p></sec></sec><sec id="alz71164-sec-0230"><label>3</label><title>RESULTS</title><sec id="alz71164-sec-0240"><label>3.1</label><title>Genetic colocalization of proteins and AD</title><p>To pinpoint which proteins are key effectors of AD risk, we conducted genetic colocalization of AD risk GWAS loci with the plasma pQTLs, focusing on all proteins with at least one study‐wide signal, either <italic toggle="yes">cis</italic> or <italic toggle="yes">trans</italic> (Figure <xref rid="alz71164-fig-0002" ref-type="fig">2</xref>; Tables <xref rid="alz71164-supinfo-0001" ref-type="">S6</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S7</xref>). To achieve this, we first leveraged two ancestry‐stratified pQTL atlases derived from 2338 EUR and 414 AFR participants separately from the Knight ADRC cohort at Washington University.<xref rid="alz71164-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> In this previous study, we identified 2848 pQTLs from the EUR participants and 954 pQTLs from the AFR participants. Colocalization analyses were next performed between proteins from both ancestries and the AD risk GWAS by Bellenguez <italic toggle="yes">et a</italic>l.,<xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> and Kunkle <italic toggle="yes">et a</italic>l.,<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> as Bellenguez <italic toggle="yes">et al</italic>. only shared their Stage 1 summary statistics, and we found several disease‐associated loci were reducing the reported negative log10‐base <italic toggle="yes">p</italic> value by 50% given both Stage 1 and Stage 2 participants (Figure <xref rid="alz71164-supinfo-0001" ref-type="">S1</xref>), including variants near the locus of <italic toggle="yes">APOE</italic>, <italic toggle="yes">MS4A</italic>, <italic toggle="yes">ACE</italic>, and <italic toggle="yes">CD33</italic>. Thus, for all 84 indexed loci defined by Bellenguez <italic toggle="yes">et al.</italic>, if the locus was previoulsy reported as old (Table <xref rid="alz71164-supinfo-0001" ref-type="">S5</xref>), we used the study by Kunkle <italic toggle="yes">et al</italic>., instead. In theory, analyses using AFR ancestry omics datasets will be ideal, integrating with larger AFR‐matched GWAS equivalent to the sample size of EUR GWAS (see <xref rid="alz71164-sec-0310" ref-type="sec">Discussion</xref> for details).</p><fig position="float" fig-type="FIGURE" id="alz71164-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Genetic colocalization results between proteins and AD. A, Venn diagram of EUR and AFR proteomics findings. B, Dotplot of seven proteins specific to AFR set with <italic toggle="yes">X</italic> axis as the protein chromosome location and <italic toggle="yes">Y</italic> axis as the genetic variant chromosome location within the AD risk locus ID. The shape represents the type of pQTL (used for centering the colocalization) as <italic toggle="yes">cis</italic> a circle, and <italic toggle="yes">trans</italic> as a triangle; the dot color represents the PP.H4 value, the darker the higher. C, Stacked regional plot of protein GLDN as one of the AFR‐specific findings from the EUR set, AFR set, and the AD risk GWAS by Kunkle <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> given that it was an old locus. The <italic toggle="yes">X</italic> axis represents the genetic variant chromosome location within the AD risk locus ID, and the <italic toggle="yes">Y</italic> axis as the negative log10 <italic toggle="yes">p</italic> value for each variant association. The color code corresponds to the linkage disequilibrium <italic toggle="yes">r</italic>
+<sup>2</sup> value relative to the index variants. D, Dotplot of 21 proteins shared between the AFR and EUR set. The PP.H4 value for each protein locus is based on a larger value from the EUR and AFR sets (but both passed &gt; 0.8 threshold). E, Stacked regional plot of protein CD33 as one of the EUR and AFR shared findings from the EUR set, AFR set, and the AD risk GWAS by Kunkle <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> given that it was an old locus. F, Dotplot of 31 proteins specific to the EUR set. Note: PP13G is labeled None as aptamer ID X24423.9 per SomaScan7k metadata. G, Stacked regional plot of protein CTSH as one of the EUR‐specific findings from the EUR set, AFR set, and the AD risk GWAS by Bellenguez <italic toggle="yes">et a</italic>l.<xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> given it was a new locus. AD, Alzheimer's disease; AFR, African; CTSH, cathepsin H; EUR, European; GLDN, gliomedin; GWAS, genome‐wide association study; pQTL, protein quantitative trait locus.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-22-e71164-g001.jpg"/></fig><p>Using this approach, we identified 21 proteins that highly colocalized in both EUR and AFR ancestry groups (genetic colocalization's posterior probability of two traits sharing the same genetic signal [PP.H4] &gt; 0.8; Figure <xref rid="alz71164-fig-0002" ref-type="fig">2A</xref>; Tables <xref rid="alz71164-supinfo-0001" ref-type="">S6</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S7</xref>). These 21 ancestry‐shared proteins (Figure <xref rid="alz71164-fig-0002" ref-type="fig">2A,D</xref>) included NEFL, LRRN1, TBCA, CTF1, PHGDH, ST8SIA1, FOXO1, SPC25, DCUN1D5, TREM2, DHRS9, CDA, CD33, SNRPF, ZW10, OTULIN, DIPK1C, MOB4, S100A13, and PILRA (two aptamers as X10816.150 and X6402.8). Specifically, the colocalized association of CD33 (Figure <xref rid="alz71164-fig-0002" ref-type="fig">2E</xref>), TREM2, and PILRA (two aptamers) with AD risk was driven by <italic toggle="yes">cis</italic> pQTLs and the other 17 proteins by <italic toggle="yes">trans</italic> pQTL at a known locus, the <italic toggle="yes">APOE</italic> region.</p><p>We also identified seven ancestry‐specific proteins that colocalized with AD in AFR (Figure <xref rid="alz71164-fig-0002" ref-type="fig">2A,B</xref> and Table <xref rid="alz71164-supinfo-0001" ref-type="">S6</xref>) and 31 proteins in EUR (Figure <xref rid="alz71164-fig-0002" ref-type="fig">2A,F</xref> and Table <xref rid="alz71164-supinfo-0001" ref-type="">S7</xref>). The seven AFR‐specific proteins associated with AD risk included BIRC2, DCAF5, BCDIN3D, HBQ1, GLDN, PPM1G, and PCLAF. Only GLDN (Figure <xref rid="alz71164-fig-0002" ref-type="fig">2C</xref>) was driven by a <italic toggle="yes">cis</italic> signal near the AD locus <italic toggle="yes">SPPL2A</italic>. For the other six proteins associated with <italic toggle="yes">trans</italic> loci: BIRC2, BCDIN3D, HBQ1, PPM1G, and PCLAF were driven by variants in <italic toggle="yes">APOE</italic>, and DCAF5 by variants in <italic toggle="yes">CR1</italic>. These proteomic findings observed in participants of AFR ancestry warrant validation with AFR‐matched GWAS.</p><p>Among the 31 unique proteins highly colocalized in the EUR‐stratified analysis, 11 (CTSH [Figure <xref rid="alz71164-fig-0002" ref-type="fig">2G</xref>], apoE, AGFG2, EPHA1, SCN3B, TREM2 [two aptamers X5635.66 and X16300.4], TMEM106B, SHARPIN, GRN, and LILRB2) were driven by <italic toggle="yes">cis</italic> signals, and 21 by <italic toggle="yes">trans</italic> signals, mainly due to <italic toggle="yes">APOE</italic> (locus ID as 77, in association with 16 proteins, in Table <xref rid="alz71164-supinfo-0001" ref-type="">S6</xref>). TREM2 colocalized with AD via a <italic toggle="yes">cis</italic> signal, but also with <italic toggle="yes">trans</italic> signals in the <italic toggle="yes">MS4A</italic> region, as reported previously in CSF.<xref rid="alz71164-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>, <xref rid="alz71164-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+</p><p>To determine which proteins had been previously reported to be associated with AD, we reviewed the literature on plasma protein effects on AD. In a recent study by Yao <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> the authors used a new method of Mendelian randomization (termed MR‐SPI after selecting valid pQTL IVs and then performing robust post‐selection inference), identifying seven proteins significantly associated with AD. The proteins were measured using the Olink platform (912 proteins included) from the UK Biobank Pharma Proteomics Project<xref rid="alz71164-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> and used Jansen <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> for the AD GWAS. The proteins identified by Yao <italic toggle="yes">et al.</italic>, included CD33, CD55, EPHA1, PILRA, PILRB, RET, and TREM2. Of those, our findings replicated four proteins (EPHA1, TREM2, PILRA, and CD33) in the EUR‐stratified analyses and three proteins (TREM2, CD33, and PILRA) in the AFR‐stratified analyses.</p><p>In total, our study identified 52 novel proteins compared to the study by Yao <italic toggle="yes">et al</italic>. Of these, 45 were found in the EUR findings and 23 in the AFR findings. The differences may be due to four reasons: (1) analytical methods were different: we used colocalization, while Yao <italic toggle="yes">et al</italic>. used Mendelian randomization. This major difference suggested the variants used in the analyses were different, as Mendelian randomization had a strict assumption of no pleiotropy, while colocalization has no such assumption. (2) The AD GWAS were two different studies: we used Bellenguez <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> and Kunkle <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> while Yao <italic toggle="yes">et al</italic>. used Jansen <italic toggle="yes">et al</italic>.<xref rid="alz71164-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> (3) The proteomic platform was different (we used SomaScan, Yao <italic toggle="yes">et al</italic>. used Olink), and the coverage was different (we used 7k proteins, Yao <italic toggle="yes">et al</italic>., used &lt; 1k). (4) The power given the sample size of the UKB‐PPP preprint version is much larger than our study (20‐fold).</p></sec><sec id="alz71164-sec-0250"><label>3.2</label><title>Comparisons of reported AD effector genes identified proteins as alternative effectors</title><p>In the AD‐GWAS by Bellenguez <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> and Kunkle <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> the authors reported a total of 84 index variants (75 independent loci) containing ≈ 600 potential functional genes, each supported by at least one piece of evidence from colocalization and transcriptome‐wide association studies (TWASs) with multi‐tissue expression QTL (eQTLs), multi‐tissue splicing QTL (sQTLs), and brain pQTLs.</p><p>Our analyses support some of the effector genes nominated by Bellenguez <italic toggle="yes">et al</italic>., and Kunkle <italic toggle="yes">et al</italic>. For the AFR‐stratified analyses (Table <xref rid="alz71164-supinfo-0001" ref-type="">S6</xref>), we nominated four functional genes (<italic toggle="yes">PILRA, TREM2 [X11851.21], CD33, OTULIN</italic>) that align with those reported by Bellenguez <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> and Kunkle <italic toggle="yes">et al</italic>.<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> In our EUR proteomic analysis (Table <xref rid="alz71164-supinfo-0001" ref-type="">S7</xref>), we nominated 13 functional genes (<italic toggle="yes">APOE, EPHA1, TREM2 [X11851.21, X5635.66, and X16300.4], SHARPIN, CD33, GRN, PILRA, OTULIN, CTSH, TMEM106B, LILRB2, CASS4, AGFG2</italic>) that overlap with those previously reported.</p><p>To investigate which proteins were nominated as alternative effector genes (rather than the nearest gene), we searched all functional genes for each AD risk locus from these two GWASs. From the EUR findings, we identified three alternative proteins located near the known loci in <italic toggle="yes">cis</italic>: For the <italic toggle="yes">NYAP1</italic> locus, two proteins, PILRA (two aptamers) and AGFG2, colocalized in our analyses, suggesting that these could be the effector genes. From the AFR findings, we identified three alternative proteins located near the known loci in <italic toggle="yes">cis</italic>: the <italic toggle="yes">NYAP1</italic> locus had the PILRA protein (two aptamers). We also nominated 36 novel proteins from EUR and 23 from AFR not reported by the original GWAS papers (Tables <xref rid="alz71164-supinfo-0001" ref-type="">S6</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S7</xref>). Most of these findings were in <italic toggle="yes">trans</italic> associations, driven by ten unique pleiotropic loci, seven in EUR (Figures <xref rid="alz71164-supinfo-0001" ref-type="">S2A,B</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S3</xref>) and three in AFR (Figures <xref rid="alz71164-supinfo-0001" ref-type="">S2C,D</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S4</xref>). These loci that colocalized with AD risk in EUR (Figures <xref rid="alz71164-supinfo-0001" ref-type="">S2A</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S3</xref>) included <italic toggle="yes">CTSB</italic> (locusID as 33 with one protein: LIRB4), <italic toggle="yes">MS4A</italic> (locusID as 44 with one protein: GLTD2), two loci near <italic toggle="yes">SORL1</italic> (locusID as 46 and 47 each with one protein: SCN3B), two loci near <italic toggle="yes">IGH</italic> (locusID as 52 and 53 each with two proteins: KLRB1 and AXIN2), and <italic toggle="yes">APOE</italic> (locusID as 77 with 31 proteins, Table <xref rid="alz71164-supinfo-0001" ref-type="">S7</xref>). There were three genetic loci associated with 23 proteins from the AFR findings (Figures <xref rid="alz71164-supinfo-0001" ref-type="">S2C</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S4</xref>): <italic toggle="yes">CR1</italic> (locusID as 2 with one protein: DCAF5), <italic toggle="yes">SPPL2A</italic> (locusID as 54 with one protein: GLDN), and <italic toggle="yes">APOE</italic> (locusID as 77 with 21 proteins).</p><p>These newly reported associated proteins were enriched in various biological pathways. For the EUR‐stratified findings (Figure <xref rid="alz71164-supinfo-0001" ref-type="">S2B</xref>), the protein associated with <italic toggle="yes">CTSB</italic> (locusID 33) was found to be enriched in the T cell tolerance induction pathway; <italic toggle="yes">MS4A</italic> (locusID 44) was enriched in processes involving lipid transfer or transport; <italic toggle="yes">SORL1</italic> (locusID 46 and 47) was enriched in positive regulation of heart rate; and near <italic toggle="yes">IGH</italic> (locusID 52 and 53) were both enriched in heart field specification. For the AFR proteins (Figure <xref rid="alz71164-supinfo-0001" ref-type="">S2D</xref>), <italic toggle="yes">CR1</italic> (locusID 2) was involved in the negative regulation of fatty acid metabolic or lipid biosynthesis processes; <italic toggle="yes">SPPL2A</italic> (locusID 54) was overrepresented in pathways of microvillus organization and neuron maturation. These proteins were also enriched in diverse cell types (Figures <xref rid="alz71164-supinfo-0001" ref-type="">S3</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S4</xref>). The EUR protein associated with <italic toggle="yes">CTSB</italic>, LIRB4, was found to be enriched in microglia or immune cells (FDR = 0.09); the EUR protein <italic toggle="yes">SORL1</italic> was enriched in excitatory neurons (FDR = 0.088). Both EUR and AFR proteins associated with <italic toggle="yes">APOE</italic> were enriched in vascular cell types (FDR = 3.4×10<sup>−8</sup> for EUR and 0.06 for AFR).</p></sec><sec id="alz71164-sec-0260"><label>3.3</label><title>
+<italic toggle="yes">APOE</italic> ε4 variant rs429358 conditional analyses</title><p>To determine which <italic toggle="yes">APOE</italic>‐driven <italic toggle="yes">trans</italic>‐pQTLs remain after accounting for <italic toggle="yes">APOE</italic> ε4 variant directly, we performed conditional analyses of <italic toggle="yes">APOE</italic> ε4 variant rs429358 on the 33 EUR proteins and 22 AFR proteins reported in this study that showed high colocalization results with AD risk (Figure <xref rid="alz71164-supinfo-0001" ref-type="">S5</xref>). Of the 33 EUR proteins, 26 pQTLs remained study‐wide significant; of the 22 AFR proteins, six pQTLs remained study‐wide significant. These still‐significant proteins may have direct effects independent of the <italic toggle="yes">APOE</italic> ε4 variant. Additionally, we performed colocalization analyses using the post‐conditional pQTL summary statistics with the AD risk GWAS and found that 14 EUR and 4 AFR proteins remained highly colocalized with AD.</p></sec><sec id="alz71164-sec-0270"><label>3.4</label><title>Genetic colocalization of metabolites and AD</title><p>In parallel, we examined which metabolite QTLs also colocalize with AD risk loci in an ancestry‐stratified manner. We considered all metabolites with at least one mQTL (Figure <xref rid="alz71164-fig-0003" ref-type="fig">3A,B</xref>; Tables <xref rid="alz71164-supinfo-0001" ref-type="">S8</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S9</xref>). Metabolite levels were measured in 2392 EUR and 417 AFR participants from the same cohort as proteomics. In the same previous study<xref rid="alz71164-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> that included ancestry‐stratified pQTLs mentioned above, we identified a total of 65 AFR and 490 EUR mQTLs.</p><fig position="float" fig-type="FIGURE" id="alz71164-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Genetic colocalization results between metabolites and AD. A, Venn diagram of EUR and AFR metabolomics findings. B, Table summarizing highly colocalized metabolites from the EUR and AFR metabolomics integration with AD risk. <italic toggle="yes">Note</italic>: X‐24309 was annotated with no pathway information as an unknown category per Metabolon. C, Stacked regional plot of metabolite 1‐palmitoyl‐2‐arachidonoyl‐GPE (16:0/20:4) as the only EUR–AFR shared finding from the EUR set, AFR set, and the AD risk GWAS by Kunkle <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> given that it was an old locus. D, Stacked regional plot of metabolite 6‐oxopiperidine‐2‐carboxylate as the only AFR‐specific finding from the EUR set, AFR set, and the AD risk GWAS by Bellenguez <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> given that it was a new locus. AD, Alzheimer's disease; AFR, African; EUR, European; GWAS, genome‐wide association study.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-22-e71164-g004.jpg"/></fig><p>Overall, among the metabolites that colocalized with AD risk (PP.H4 &gt; 0.8), we found one shared metabolite, 1‐palmitoyl‐2‐arachidonoyl‐glycero‐phosphatidyl‐ethanolamine (GPE; 16:0/20:4), between the EUR and AFR ancestry groups (Figure <xref rid="alz71164-fig-0003" ref-type="fig">3C</xref>). For the ancestry‐specific findings, we nominated 11 metabolites from the EUR‐specific analyses (Figure 3A,B) and 1 metabolite for AFR (Figure <xref rid="alz71164-fig-0003" ref-type="fig">3A,B</xref>). Moreover, for the 11 EUR metabolite findings, all 9 GPEs were associated with the locus colocalized with <italic toggle="yes">ADAM10</italic> (AD‐locusID as 55). An unknown metabolite, X‐24309, was associated with two other AD loci near <italic toggle="yes">PTK2B</italic> and <italic toggle="yes">CLU</italic>. For the AFR metabolite finding (6‐oxopiperidine‐2‐carboxylate), the only locus colocalized with AD was <italic toggle="yes">SHARPIN</italic> (locusID as 36). The nine EUR known metabolites associated with AD (Table <xref rid="alz71164-supinfo-0001" ref-type="">S9</xref>) were annotated as part of the phosphatidyl–ethanolamine (PE biochemical sub‐pathway, which is under the lipid super‐pathway (Figure <xref rid="alz71164-fig-0003" ref-type="fig">3B</xref>). The metabolite identified in the AFR‐specific analyses (Figure <xref rid="alz71164-fig-0003" ref-type="fig">3B</xref>) was 6‐oxopiperidine‐2‐carboxylate (Figure <xref rid="alz71164-fig-0003" ref-type="fig">3D</xref>), classified under the lysine metabolism biochemical sub‐pathway, belonging to the amino acid super‐pathway. Additional studies using AD GWASs from AFR ancestry would be needed to validate these findings.</p><p>To determine whether our metabolic findings had been previously reported, we compared our results to a recent study by Chen <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> who measured 13 metabolites using an in‐house mass spectrometry platform. None of the 12 metabolites identified in our EUR and AFR sets were were measured by Chen <italic toggle="yes">et al</italic>. For the metabolites from the lipid super‐pathway, we used an additional lipidomic profiling study by Liu <italic toggle="yes">et al</italic>.<xref rid="alz71164-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> From our EUR set, 5 of 10 lipids were measured in Liu <italic toggle="yes">et al.</italic> Two lipids, 1‐palmitoyl‐2‐arachidonoyl‐GPE (16:0/20:4) and 1‐palmitoyl‐2‐oleoyl‐GPE (16:0/18:1), were significantly different between AD and controls. From the AFR set, only lipid 1‐palmitoyl‐2‐arachidonoyl‐GPE (16:0/20:4) was significantly different between AD and controls. Additionally, we found no common genetic loci between the AD‐colocalized metabolites and proteins in both the EUR and AFR sets (Figures <xref rid="alz71164-fig-0002" ref-type="fig">2</xref> and <xref rid="alz71164-fig-0003" ref-type="fig">3</xref>). No AD risk loci were shared between metabolites and proteins. This negative observation may be attributed to the smaller coverage of the metabolomics dataset (≈ 1.5k metabolites) compared to the proteomics dataset (≈ 7k proteins).</p></sec><sec id="alz71164-sec-0280"><label>3.5</label><title>Biological insights of proteins implicated in AD</title><p>To elucidate the potential mechanisms by which the identified proteins contribute to AD risk, we conducted two in silico analyses: pathway enrichment analysis, PPI analysis. For the pathway enrichment analysis of the EUR‐stratified proteins (Figures <xref rid="alz71164-fig-0004" ref-type="fig">4A,B</xref>, and <xref rid="alz71164-supinfo-0001" ref-type="">S6A</xref>; Table <xref rid="alz71164-supinfo-0001" ref-type="">S10</xref>), the most significant (<italic toggle="yes">q</italic> value &lt; 0.1) pathways included the immune system, with three clustered Gene Ontology (GO) terms as negative regulation of interleukin‐1 production (four proteins: TREM2, CD33, IL10, LILRB4), negative regulation of cell activation (seven proteins: TREM2, CD33, IL10, LILRB4, GRN, LILRB2, apoE), neuroinflammatory response (six proteins: OTULIN, TREM2, IL10, SHARPIN, GRN, apoE), along with disease enrichment terms such as abdominal obesity‐metabolic syndrome, frontotemporal dementia, and syphilis.</p><fig position="float" fig-type="FIGURE" id="alz71164-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Biological insights of proteins implicated in AD. A, Bar plots of the significant GO and DO terms (<italic toggle="yes">q</italic> value &lt; 0.1) enriched by proteins highly colocalized with AD risk from the EUR set (ranked by <italic toggle="yes">p</italic> value). The color code represents the ontology categories as gene ontology‐BP as green, gene ontology‐MF as blue, or disease ontology as red. B, Heatmap of the specific proteins as the <italic toggle="yes">X</italic> axis and the significant GO and DO terms as in (A). C, Same as (A), but proteins from the AFR set (<italic toggle="yes">q</italic> value &lt; 0.2). D, Same as (C), but proteins from the AFR set (<italic toggle="yes">q</italic> value &lt; 0.2). E, Network plot of all proteins highly colocalized with AD risk from the EUR set based on protein–protein interaction. F, Same as (E), but proteins are from the AFR set. The edges represent protein–protein associations, and the legend of the color is listed with different information from string‐db. AD, Alzheimer's disease; AFR, African; DO, Disease Ontology; EUR, European; GO, Gene Ontology; GWAS, genome‐wide association study.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-22-e71164-g002.jpg"/></fig><p>In contrast, for the AFR proteins (Figures <xref rid="alz71164-fig-0004" ref-type="fig">4C,D</xref>, and <xref rid="alz71164-supinfo-0001" ref-type="">S6B</xref>; Table <xref rid="alz71164-supinfo-0001" ref-type="">S11</xref>), the most significant terms were from the disease enrichment analysis (<italic toggle="yes">q</italic> value &lt; 0.1): syphilis and frontotemporal dementia, both with the same two proteins, NEFL and TREM2, as input. Instead, all the biological pathway terms were significant with a <italic toggle="yes">q</italic> value &lt; 0.2, clustered into three categories: attachment of spindle microtubules to kinetochore (two proteins: SPC25, ZW10), negative regulation of interleukin‐1 beta production (two proteins: TREM2, CD33), and regulation of small molecule metabolic process (four proteins: FOXO1, DCAF5, TREM2, CDA). The PPI analysis, in the EUR‐stratified findings (Figure <xref rid="alz71164-fig-0004" ref-type="fig">4E</xref>; Table <xref rid="alz71164-supinfo-0001" ref-type="">S12</xref>), revealed that apoE interacted with its receptors (LILRB2, LILRB4) and the immune axis (TREM2, CD33, IL10). TREM2 was found on the cell membrane or released into the extracellular space. apoE was released into the extracellular space or found in the endosome. CD33, LILRB2, and LILRB4 were exclusively located on the cell membrane. apoE and TREM2 interacted through co‐expression and experimental/biochemical data. apoE and LILRB4/LILRB2 interacted through co‐expression. apoE and CD33 interacted through phylogenetics.</p><p>The PPI analyses based on the AFR‐stratified findings (Figure <xref rid="alz71164-fig-0004" ref-type="fig">4F</xref>; Table <xref rid="alz71164-supinfo-0001" ref-type="">S13</xref>) indicate that TREM2 was interacting with CD33, NEFL, and PILRA. These interactions centered on TREM2 through co‐expression. Moreover, SPC25 and PCLAF interacted with each other via co‐expression as well.</p></sec><sec id="alz71164-sec-0290"><label>3.6</label><title>Biological insights of metabolites implicated in AD</title><p>To gain further biological insights for metabolites implicated in AD risk, we performed the pathway enrichment analyses on the highly colocalized metabolite–AD pairs. For the pathway enrichment analysis of EUR metabolites (Figure <xref rid="alz71164-fig-0005" ref-type="fig">5A</xref>; Table <xref rid="alz71164-supinfo-0001" ref-type="">S14</xref>), we found enrichment in the lipid super pathway. The metabolites underlying this pathway included 1‐palmitoyl‐2‐linoleoyl‐GPE (16:0/18:2), 1‐stearoyl‐2‐linoleoyl‐GPE (18:0/18:2), 1‐stearoyl‐2‐arachidonoyl‐GPE (18:0/20:4), 1‐palmitoyl‐2‐arachidonoyl‐GPE (16:0/20:4), 1‐palmitoyl‐2‐docosahexaenoyl‐GPE (16:0/22:6), 1‐stearoyl‐2‐docosahexaenoyl‐GPE (18:0/22:6), 1‐oleoyl‐2‐linoleoyl‐GPE (18:1/18:2), 1‐stearoyl‐2‐dihomo‐linolenoyl‐GPE (18:0/20:3n3 or 6), 1‐oleoyl‐2‐arachidonoyl‐GPE (18:1/20:4), 1‐palmitoyl‐2‐oleoyl‐GPE (16:0/18:1). PE as the second most abundant glycerophospholipid played essential roles in mammalian cells (Figure <xref rid="alz71164-fig-0005" ref-type="fig">5B</xref>): acting as a precursor for phosphatidylcholine, autophagy, and mitochondrial biogenesis. The PE metabolism has been reported in association with multiple diseases,<xref rid="alz71164-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> such as AD, Parkinson's disease, and non‐alcoholic liver disease.</p><fig position="float" fig-type="FIGURE" id="alz71164-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Biological insights of metabolites implicated in AD. A, Bar plot of the significant sub‐pathway enriched by metabolites highly colocalized with AD risk from the EUR set (<italic toggle="yes">Y</italic> axis as –log10 [<italic toggle="yes">p</italic> value], <italic toggle="yes">X</italic> axis as the metabolite name). The color code represents the super‐pathway annotated by Metabolon. B, PathBank view of the PE pathway enriched by the EUR metabolite findings. C, Same as (A), but metabolites from the AFR set. AD, Alzheimer's disease; AFR, African; EUR, European; PE, phosphatidyl–ethanolamine</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ALZ-22-e71164-g003.jpg"/></fig><p>For the AFR‐metabolite findings (Figure <xref rid="alz71164-fig-0005" ref-type="fig">5C</xref>; Table <xref rid="alz71164-supinfo-0001" ref-type="">S15</xref>), 6‐oxopiperidine‐2‐carboxylate was enriched in the lysine metabolism super‐pathway, whereas 1‐palmitoyl‐2‐arachidonoyl‐GPE (16:0/20:4) was enriched in the lipid super‐pathway. This indicates that the two ancestral groups share the PE sub‐pathway under the lipid super pathway as a common enriched metabolite pathway.</p></sec><sec id="alz71164-sec-0300"><label>3.7</label><title>Comparison of plasma findings with the CSF findings on AD</title><p>To investigate whether there is a tissue‐specific effect of the same molecular features on AD, we turned to cross‐reference the EUR findings<xref rid="alz71164-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="alz71164-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> from CSF. In brief, the CSF proteomic finding was based on 3506 samples and 7008 protein aptamers, while the CSF metabolomic finding was based on 2602 samples and 440 metabolites. Especially for the AD‐related findings, 37 proteins and 5 metabolites were pinpointed with the same colocalization evidence (PP.H4 &gt; 0.8).</p><p>In the CSF–plasma proteomic comparison, we found nine proteins in the EUR‐stratified analyses (Table <xref rid="alz71164-supinfo-0001" ref-type="">S16</xref>) and three in the AFR analyses (Table <xref rid="alz71164-supinfo-0001" ref-type="">S17</xref>) that overlapped with the EUR CSF proteins nominated based on the AD risk GWAS by Bellenguez <italic toggle="yes">et al</italic>., alone. In the cross‐tissue metabolomic comparison, we found no overlap between EUR or AFR plasma metabolites and EUR CSF metabolites nominated for the same AD risk GWAS.</p></sec></sec><sec id="alz71164-sec-0310"><label>4</label><title>DISCUSSION</title><p>In this study, we implemented a systematic biology approach to identify proteins and metabolites implicated in AD by integrating four xQTL datasets with AD GWASs via colocalization. We identified 28 proteins in the AFR‐stratified analyses and 52 proteins in EUR that colocalized with the AD risk, with 21 proteins common to both groups. Additionally, one metabolite in the AFR group and ten metabolites in the EUR group were uniquely colocalized with AD risk, with one metabolite being shared across ancestries. These identified proteins and metabolites were found to be enriched in convergent pathways across the AFR and EUR groups. More than half of our protein (Table <xref rid="alz71164-supinfo-0001" ref-type="">S6</xref>, AFR: 72%; Table <xref rid="alz71164-supinfo-0001" ref-type="">S7</xref>, EUR: 61%) and metabolite (Table <xref rid="alz71164-supinfo-0001" ref-type="">S8</xref>, AFR: 50%; Table <xref rid="alz71164-supinfo-0001" ref-type="">S9</xref>, EUR: 83%) findings, irrespective of ancestry stratification, have not been previously reported, demonstrating the strength of our study. It is worth noting that these findings observed in participants of AFR ancestry require validation with AFR‐matched GWAS.</p><p>Plasma is the most widely used tissue type, given its greater availability compared to CSF or other body fluids. Consequently, current AD biomarker studies<xref rid="alz71164-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> are increasingly based on plasma rather than CSF. In our study, we provided evidence that plasma proteins and metabolites can be used to identify AD effectors underlying disease risk loci. The EUR plasma proteomic analysis revealed 46 proteins (7 in <italic toggle="yes">cis</italic> and 39 in <italic toggle="yes">trans</italic>, Table <xref rid="alz71164-supinfo-0001" ref-type="">S18</xref>) that were not detected in the CSF, whereas the AFR plasma proteomic analysis identified 25 proteins (2 in <italic toggle="yes">cis</italic> and 23 in <italic toggle="yes">trans</italic>, Table <xref rid="alz71164-supinfo-0001" ref-type="">S19</xref>) that were also not found in the CSF. For the metabolites, neither EUR nor AFR plasma findings were observed in the CSF. These additional proteins and metabolites helped bridge the gap from the genetic variants to AD. These molecular phenotypes serve as the product of the upstream functional genes, as well as the effectors of the downstream disease endpoint. As only limited samples were from AFR ancestry, no AFR‐stratified analyses in both proteomics and metabolomics were performed in CSF to date. We thus cannot perform ancestry‐matched comparisons between the plasma and CSF findings from the AFR ancestry.</p><p>We identified 21 ancestry‐shared proteins, including <italic toggle="yes">cis</italic>‐associated proteins CD33, TREM2, and PILRA, as well as <italic toggle="yes">trans</italic>‐associated proteins, encompassing NEFL, ZW10, OTULIN, and TREM2. The shared proteomic pathways involved in the regulation of interleukin‐1 production and disease ontology terms related to infectious diseases and frontotemporal dementia. One metabolite was shared between the two ancestral groups, and the lipid pathway was shared.</p><p>The extent of ancestry‐specific molecular phenotypes may be attributed to the sample size (N_EUR ≈ 2300; N_AFR ≈ 400), as the EUR ancestry findings were four times higher than the AFR ancestry proteomic findings and seven times higher in metabolites. In total, we identified 2848 EUR and 954 AFR pQTLs. Additionally, we found 954 EUR and 65 AFR mQTLs. Using these xQTLs as anchors, we performed colocalization with all AD GWAS loci. Overall, we identified 60% (31/52) EUR‐specific and 25% (7/28) AFR‐specific proteomic findings and 91% (10/11) EUR‐ and 50% (1/2) AFR‐specific metabolomic findings. The ancestry‐specific findings could also be attributed to variant frequency, as similar observations have been reported by other groups in different molecular phenotypes, such as gene expression.<xref rid="alz71164-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="alz71164-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>
+</p><p>One important caveat of this study is that even though we used ancestry‐stratified xQTL sets, we linked those with AD risk via GWAS that included only EUR‐ancestry individuals. A more proper analysis would involve conducting colocalization studies of AFR‐specific xQTLs with AFR‐specific AD GWAS loci, and similarly for EUR. We performed the AFR‐stratified findings using the AFR AD risk GWAS by Kunkle <italic toggle="yes">et al</italic>.<xref rid="alz71164-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> This study included only 2784 AD cases and 5222 healthy controls (total <italic toggle="yes">N</italic> = 8006), which is ≈ 1% of Bellenguez <italic toggle="yes">et al</italic>. (encompassing 111,326 clinically diagnosed or proxy AD cases and 677,663 controls, total <italic toggle="yes">N</italic> = 788,989), and thus identified one genome‐wide locus near <italic toggle="yes">APOE</italic> (<italic toggle="yes">p</italic> value = 1.8×10<sup>−25</sup>). When performing these analyses, we were not able to identify any proteins (Figure <xref rid="alz71164-supinfo-0001" ref-type="">S7</xref>) or metabolites (Figure <xref rid="alz71164-supinfo-0001" ref-type="">S8</xref>). The absence of findings is probably due to the significantly reduced power resulting from the 100‐fold smaller sample size. We also want to note that a more recent and larger scale study by Sherva <italic toggle="yes">et al</italic>.,<xref rid="alz71164-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref> cannot be used here, as the full summary statistics on all variants with both effect size and <italic toggle="yes">p</italic> value have not been released due to restrictions from the Million Veteran Program, as of November 18, 2025 (only <italic toggle="yes">p</italic> value for variants with <italic toggle="yes">p</italic> &lt; 1×10<sup>−4</sup> were released). However, we expect that AFR‐stratified analyses will lead to the identification of additional proteins and metabolites implicated in AD that otherwise would not be identified using only EUR populations.</p><p>In the protein enrichment pathway analyses, we found both convergence and divergence between the EUR and AFR sets. For the convergent pathways: both EUR and AFR protein findings on AD were enriched in negative regulation of interleukin‐1 production through proteins TREM2 and CD33; both ancestral groups showed disease enrichment in frontotemporal dementia and infectious diseases, given the proteins of NEFL and TREM2. For the divergent pathways, EUR proteins were enriched in neuroinflammatory response (per six proteins: OTULIN, TREM2, IL10, SHARPIN, GRN, apoE) and abdominal obesity‐metabolic syndrome (per four proteins: IL10, CTF1, NEIL1, apoE), whereas AFR proteins were enriched in: attachment of spindle microtubules to kinetochore (by two proteins: SPC25 and ZW10) and regulation of small molecule metabolic process (by four proteins: FOXO1, DCAF5, TREM2, CDA). This indicates that both shared and unique pathways may contribute to AD pathogenesis in different genetic ancestral groups. Similar observations were found in metabolite pathway enrichment analyses. Both the EUR and AFR metabolomic findings on AD shared the PE sub‐pathway, though for the EUR set, more metabolites were identified. For the AFR set, another significant pathway was lysine metabolism. Furthermore, both the plasma metabolite and CSF metabolite sets highlighted the lipid super pathway, with the plasma focusing on PE and the CSF on phosphatidyl–choline (PC) or sterol. This may indicate tissue‐dependent effects on AD.</p><p>For the PPI result, we found an interaction between LILRB2 and TREM2. A recent study<xref rid="alz71164-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref> dissected the molecular mechanisms of how LILRB2 mediates the TREM2 inhibition in human microglia. Moreover, the authors blocked <italic toggle="yes">LILRB2</italic> with an antibody, Ab29, and rescued the TREM2 signaling inhibition. Similarly, we found another interaction between LILRB4 and apoE, and another more recent study<xref rid="alz71164-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref> revealed that an antibody targeting the human LILRB4 blocked its interaction with mouse apoE in a mouse model. Moreover, we identified a GRN–TMEM106B interaction. Notably, three studies<xref rid="alz71164-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref>, <xref rid="alz71164-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>, <xref rid="alz71164-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref> reported that knocking out both GRN and TMEM106B in a mouse model exacerbated multiple phenotypes of neurodegeneration.<xref rid="alz71164-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref>
+</p><p>To provide clinical relevance to our findings, we discussed the implications for drug development (Tables <xref rid="alz71164-supinfo-0001" ref-type="">S20</xref> and <xref rid="alz71164-supinfo-0001" ref-type="">S21</xref>) and biomarkers (Tables <xref rid="alz71164-supinfo-0001" ref-type="">S22–S24</xref>). See Supplementary Notes in supporting information for details.</p><p>Our study has several limitations: First, our AFR set did not fully match the LD structure of the AD GWAS. We noted the rationale for not using the AFR‐based AD risk studies<xref rid="alz71164-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref>, <xref rid="alz71164-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref> above. Second, our results do not encompass all genomic features, as the proteomics technology used in our study captured 7000 proteins with 2000 genes for the EUR set and 1000 genes for the AFR set used for disease integration. Metabolomics quantification further reduced the features to 1500, linking only hundreds or even tens of genes through metabolite–gene associations. Third, our study was underpowered in the AFR‐stratified analyses due to a 6‐fold difference in sample sizes between the EUR and AFR sets. Fourth, our study did not examine AD risk loci nor pass genome‐wide significance. This may indeed miss some variants with strong xQTL evidence but with weaker AD risk association. We chose the strategy due to a much heavier computational burden than the <italic toggle="yes">cis</italic>‐only eQTL studies. Fifth, we did not merge proteomics and metabolomics data before colocalizing with AD risk. Instead, we could still integrate two omic layers by comparing our pairwise trait analyses (namely, protein–AD and metabolite–AD) using locus ID as an anchor. Sixth, we did not conduct colocalization analyses of CSF versus plasma xQTLs to obtain tissue‐shared/specific xQTL findings before integrating with the disease. Instead, our current strategy focuses on post hoc comparisons of proteins and metabolites prioritized for AD with the consistent threshold (PP.H4 &gt; 0.8 per colocalization) rather than genetic variants. While this strategy might overlook tissue‐specific QTLs, it avoids biases related to sample size between tissues. Seventh, our pQTL identified did not adjust for AD case–control status. This may bias <italic toggle="yes">trans</italic> findings driven by <italic toggle="yes">APOE</italic>; however, we found the three largest plasma pQTL studies<xref rid="alz71164-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>, <xref rid="alz71164-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref>, <xref rid="alz71164-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref> from other non‐AD cohorts also identify the <italic toggle="yes">APOE</italic> pleiotropy region associated with 90 to 200 proteins. We argue that disease status did not play a major role in identifying such a pleiotropic region of <italic toggle="yes">APOE</italic>.</p><p>Taken together, our multi‐ancestry, multi‐omic findings on AD reveal both convergent and divergent molecular pathways between two ancestral populations at protein and metabolite levels. Our study underscores the importance of including participants of non‐European ancestry, given the distinct proteomic and metabolomic findings observed in the African ancestral group.</p></sec><sec sec-type="COI-statement" id="alz71164-sec-0330"><title>CONFLICT OF INTEREST STATEMENT</title><p>C.C. has received research support from GSK and EISAI and is a member of the advisory board of Circular Genomics and owns stocks. The funders of the study had no role in the collection, analysis or interpretation of data; in the writing of the report; or in the decision to submit the paper for publication. D.M.H. co‐founded, has equity, and is on the scientific advisory board of C2N Diagnostics. He is on the scientific advisory boards of Denali, Genentech, Cajal Neuroscience, and Switch Therapeutics and consults for Asteroid and Pfizer. All other authors have no conflicts of interest. Author disclosures are available in the <xref rid="alz71164-supinfo-0001" ref-type="">supporting information</xref>.</p></sec><sec id="alz71164-sec-0340"><title>CONSENT STATEMENT</title><p>The institutional review board of Washington University School of Medicine in St. Louis approved this study. All participants provided informed consent for the datasets being used in the present study.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz71164-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz71164-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71164-s003.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz71164-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71164-s002.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz71164-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71164-s001.docx" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz71164-sec-0320"><title>ACKNOWLEDGMENTS</title><p>We thank Ciyang Wang for the helpful discussion on metabolomics‐relevant findings. We thank all the participants and their families for giving consent for the research purpose. This work was supported by access to equipment made possible by the Hope Center for Neurological Disorders, the Neurogenomics and Informatics Center (NGI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://neurogenomics.wustl.edu/" ext-link-type="uri">https://neurogenomics.wustl.edu/</ext-link>), and the Departments of Neurology and Psychiatry at Washington University School of Medicine. This work was supported by grants from the National Institutes of Health (NIH; R01AG044546 to C.C., RF1AG053303 to C.C., RF1AG058501 to C.C., U01AG058922 to C.C., and RF1AG074007 to Y.J.S.), the Chan Zuckerberg Initiative, and the Alzheimer's Association Zenith Fellows Award (ZEN‐22‐848604, C.C.). The recruitment and clinical characterization of research participants at Washington University were supported by P30AG066444 (J.C.M., D.M.H.), P01AG03991 (J.C.M.), and P01AG026276 (J.C.M.).</p></ack><ref-list id="alz71164-bibl-0001"><title>REFERENCES</title><ref id="alz71164-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz71164-cite-0002">
+<string-name name-style="western">
+<surname>Kunkle</surname>
+<given-names>BW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grenier‐Boley</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sims</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Genetic meta‐analysis of diagnosed Alzheimer's disease identifies new risk loci and implicates Abeta, tau, immunity and lipid processing</article-title>. <source>Nat Genet</source>. <year>2019</year>;<volume>51</volume>(<issue>3</issue>):<fpage>414</fpage>‐<lpage>430</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41588-019-0358-2" ext-link-type="uri">10.1038/s41588‐019‐0358‐2</ext-link>
+<pub-id pub-id-type="pmid">30820047</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-019-0358-2</pub-id><pub-id pub-id-type="pmcid">PMC6463297</pub-id></mixed-citation></ref><ref id="alz71164-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz71164-cite-0003">
+<string-name name-style="western">
+<surname>Bellenguez</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kucukali</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jansen</surname>
+<given-names>IE</given-names>
+</string-name>, et al. <article-title>New insights into the genetic etiology of Alzheimer's disease and related dementias</article-title>. <source>Nat Genet</source>. <year>2022</year>;<volume>54</volume>(<issue>4</issue>):<fpage>412</fpage>‐<lpage>436</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41588-022-01024-z" ext-link-type="uri">10.1038/s41588‐022‐01024‐z</ext-link>
+<pub-id pub-id-type="pmid">35379992</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-022-01024-z</pub-id><pub-id pub-id-type="pmcid">PMC9005347</pub-id></mixed-citation></ref><ref id="alz71164-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz71164-cite-0004">
+<string-name name-style="western">
+<surname>Western</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Timsina</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Proteogenomic analysis of human cerebrospinal fluid identifies neurologically relevant regulation and implicates causal proteins for Alzheimer's disease</article-title>. <source>Nat Genet</source>. <year>2024</year>;<volume>56</volume>(<issue>12</issue>):<fpage>2672</fpage>‐<lpage>84</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41588-024-01972-8" ext-link-type="uri">10.1038/s41588‐024‐01972‐8</ext-link>
+<pub-id pub-id-type="pmid">39528825</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-024-01972-8</pub-id><pub-id pub-id-type="pmcid">PMC11831731</pub-id></mixed-citation></ref><ref id="alz71164-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz71164-cite-0005">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Western</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Genetic architecture of cerebrospinal fluid and brain metabolite levels and the genetic colocalization of metabolites with human traits</article-title>. <source>Nat Genet</source>. <year>2024</year>;<volume>56</volume>(<issue>12</issue>):<fpage>2685</fpage>‐<lpage>95</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41588-024-01973-7" ext-link-type="uri">10.1038/s41588‐024‐01973‐7</ext-link>
+<pub-id pub-id-type="pmid">39528826</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-024-01973-7</pub-id><pub-id pub-id-type="pmcid">PMC12090064</pub-id></mixed-citation></ref><ref id="alz71164-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz71164-cite-0006">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farias</surname>
+<given-names>FHG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ibanez</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Genomic atlas of the proteome from brain, CSF and plasma prioritizes proteins implicated in neurological disorders</article-title>. <source>Nat Neurosci</source>. <year>2021</year>;<volume>24</volume>(<issue>9</issue>):<fpage>1302</fpage>‐<lpage>1312</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41593-021-00886-6" ext-link-type="uri">10.1038/s41593‐021‐00886‐6</ext-link>
+<pub-id pub-id-type="pmid">34239129</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41593-021-00886-6</pub-id><pub-id pub-id-type="pmcid">PMC8521603</pub-id></mixed-citation></ref><ref id="alz71164-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz71164-cite-0007">
+<string-name name-style="western">
+<surname>Andrews</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Renton</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fulton‐Howard</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Podlesny‐Drabiniok</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcora</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goate</surname>
+<given-names>AM</given-names>
+</string-name>. <article-title>The complex genetic architecture of Alzheimer's disease: novel insights and future directions</article-title>. <source>EBioMedicine</source>. <year>2023</year>;<volume>90</volume>:<elocation-id>104511</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.ebiom.2023.104511" ext-link-type="uri">10.1016/j.ebiom.2023.104511</ext-link>
+<pub-id pub-id-type="pmid">36907103</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ebiom.2023.104511</pub-id><pub-id pub-id-type="pmcid">PMC10024184</pub-id></mixed-citation></ref><ref id="alz71164-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz71164-cite-0008">
+<string-name name-style="western">
+<surname>Giambartolomei</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vukcevic</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schadt</surname>
+<given-names>EE</given-names>
+</string-name>, et al. <article-title>Bayesian test for colocalisation between pairs of genetic association studies using summary statistics</article-title>. <source>PLoS Genet</source>. <year>2014</year>;<volume>10</volume>(<issue>5</issue>):<elocation-id>e1004383</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1371/journal.pgen.1004383" ext-link-type="uri">10.1371/journal.pgen.1004383</ext-link>
+<pub-id pub-id-type="pmid">24830394</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1004383</pub-id><pub-id pub-id-type="pmcid">PMC4022491</pub-id></mixed-citation></ref><ref id="alz71164-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz71164-cite-0009">
+<string-name name-style="western">
+<surname>Hormozdiari</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van de Bunt</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Segre</surname>
+<given-names>AV</given-names>
+</string-name>, et al. <article-title>Colocalization of GWAS and eQTL signals detects target genes</article-title>. <source>Am J Hum Genet</source>. <year>2016</year>;<volume>99</volume>(<issue>6</issue>):<fpage>1245</fpage>‐<lpage>1260</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.ajhg.2016.10.003" ext-link-type="uri">10.1016/j.ajhg.2016.10.003</ext-link>
+<pub-id pub-id-type="pmid">27866706</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajhg.2016.10.003</pub-id><pub-id pub-id-type="pmcid">PMC5142122</pub-id></mixed-citation></ref><ref id="alz71164-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz71164-cite-0010">
+<string-name name-style="western">
+<surname>Hukku</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pividori</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Luca</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pique‐Regi</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Im</surname>
+<given-names>HK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wen</surname>
+<given-names>X</given-names>
+</string-name>. <article-title>Probabilistic colocalization of genetic variants from complex and molecular traits: promise and limitations</article-title>. <source>Am J Hum Genet</source>. <year>2021</year>;<volume>108</volume>(<issue>1</issue>):<fpage>25</fpage>‐<lpage>35</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.ajhg.2020.11.012" ext-link-type="uri">10.1016/j.ajhg.2020.11.012</ext-link>
+<pub-id pub-id-type="pmid">33308443</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajhg.2020.11.012</pub-id><pub-id pub-id-type="pmcid">PMC7820626</pub-id></mixed-citation></ref><ref id="alz71164-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz71164-cite-0011">
+<string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>A more accurate method for colocalisation analysis allowing for multiple causal variants</article-title>. <source>PLoS Genet</source>. <year>2021</year>;<volume>17</volume>(<issue>9</issue>):<elocation-id>e1009440</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1371/journal.pgen.1009440" ext-link-type="uri">10.1371/journal.pgen.1009440</ext-link>
+<pub-id pub-id-type="pmid">34587156</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1009440</pub-id><pub-id pub-id-type="pmcid">PMC8504726</pub-id></mixed-citation></ref><ref id="alz71164-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz71164-cite-0012">
+<string-name name-style="western">
+<surname>Wen</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pique‐Regi</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Luca</surname>
+<given-names>F</given-names>
+</string-name>. <article-title>Integrating molecular QTL data into genome‐wide genetic association analysis: probabilistic assessment of enrichment and colocalization</article-title>. <source>PLoS Genet</source>. <year>2017</year>;<volume>13</volume>(<issue>3</issue>):<elocation-id>e1006646</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1371/journal.pgen.1006646" ext-link-type="uri">10.1371/journal.pgen.1006646</ext-link>
+<pub-id pub-id-type="pmid">28278150</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1006646</pub-id><pub-id pub-id-type="pmcid">PMC5363995</pub-id></mixed-citation></ref><ref id="alz71164-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz71164-cite-0013">
+<string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haberland</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baird</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Phenome‐wide Mendelian randomization mapping the influence of the plasma proteome on complex diseases</article-title>. <source>Nat Genet</source>. <year>2020</year>;<volume>52</volume>(<issue>10</issue>):<fpage>1122</fpage>‐<lpage>1131</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41588-020-0682-6" ext-link-type="uri">10.1038/s41588‐020‐0682‐6</ext-link>
+<pub-id pub-id-type="pmid">32895551</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-020-0682-6</pub-id><pub-id pub-id-type="pmcid">PMC7610464</pub-id></mixed-citation></ref><ref id="alz71164-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz71164-cite-0014">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sladek</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Najafabadi</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dupuis</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>SharePro: an accurate and efficient genetic colocalization method accounting for multiple causal signals</article-title>. <source>Bioinformatics</source>. <year>2024</year>;<volume>40</volume>(<issue>5</issue>):<elocation-id>btae295</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/bioinformatics/btae295" ext-link-type="uri">10.1093/bioinformatics/btae295</ext-link>
+<pub-id pub-id-type="pmid">38688586</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btae295</pub-id><pub-id pub-id-type="pmcid">PMC11105950</pub-id></mixed-citation></ref><ref id="alz71164-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz71164-cite-0015">
+<string-name name-style="western">
+<surname>Gusev</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ko</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Integrative approaches for large‐scale transcriptome‐wide association studies</article-title>. <source>Nat Genet</source>. <year>Mar 2016</year>;<volume>48</volume>(<issue>3</issue>):<fpage>245</fpage>‐<lpage>252</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/ng.3506" ext-link-type="uri">10.1038/ng.3506</ext-link>
+<pub-id pub-id-type="pmid">26854917</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3506</pub-id><pub-id pub-id-type="pmcid">PMC4767558</pub-id></mixed-citation></ref><ref id="alz71164-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz71164-cite-0016">
+<string-name name-style="western">
+<surname>Gamazon</surname>
+<given-names>ER</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wheeler</surname>
+<given-names>HE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shah</surname>
+<given-names>KP</given-names>
+</string-name>, et al. <article-title>A gene‐based association method for mapping traits using reference transcriptome data</article-title>. <source>Nat Genet</source>. <year>2015</year>;<volume>47</volume>(<issue>9</issue>):<fpage>1091</fpage>‐<lpage>1098</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/ng.3367" ext-link-type="uri">10.1038/ng.3367</ext-link>
+<pub-id pub-id-type="pmid">26258848</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3367</pub-id><pub-id pub-id-type="pmcid">PMC4552594</pub-id></mixed-citation></ref><ref id="alz71164-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz71164-cite-0017">
+<string-name name-style="western">
+<surname>Hemani</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elsworth</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>The MR‐Base platform supports systematic causal inference across the human phenome</article-title>. <source>Elife</source>. <year>2018</year>;<volume>7</volume>:<elocation-id>e34408</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.7554/eLife.34408" ext-link-type="uri">10.7554/eLife.34408</ext-link>
+<pub-id pub-id-type="pmid">29846171</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.34408</pub-id><pub-id pub-id-type="pmcid">PMC5976434</pub-id></mixed-citation></ref><ref id="alz71164-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz71164-cite-0018">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gorijala</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Timsina</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>European and African ancestry‐specific plasma protein‐QTL and metabolite‐QTL analyses identify ancestry‐specific T2D effector proteins and metabolites</article-title>. <source>Nat Commun</source>. <year>2025</year>;<volume>16</volume>(<issue>1</issue>):<fpage>7412</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41467-025-62463-w" ext-link-type="uri">10.1038/s41467‐025‐62463‐w</ext-link>
+<pub-id pub-id-type="pmid">40789849</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-025-62463-w</pub-id><pub-id pub-id-type="pmcid">PMC12339932</pub-id></mixed-citation></ref><ref id="alz71164-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz71164-cite-0019">
+<string-name name-style="western">
+<surname>Khan</surname>
+<given-names>AT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gogarten</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McHugh</surname>
+<given-names>CP</given-names>
+</string-name>, et al. <article-title>Recommendations on the use and reporting of race, ethnicity, and ancestry in genetic research: experiences from the NHLBI TOPMed program</article-title>. <source>Cell Genom</source>. <year>2022</year>;<volume>2</volume>(<issue>8</issue>):<elocation-id>100155</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.xgen.2022.100155" ext-link-type="uri">10.1016/j.xgen.2022.100155</ext-link>
+<pub-id pub-id-type="pmid">36119389</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.xgen.2022.100155</pub-id><pub-id pub-id-type="pmcid">PMC9481067</pub-id></mixed-citation></ref><ref id="alz71164-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz71164-cite-0020">
+<string-name name-style="western">
+<surname>Fernandez</surname>
+<given-names>MV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beric</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Genetic and multi‐omic resources for Alzheimer disease and related dementia from the Knight Alzheimer Disease Research Center</article-title>. <source>Sci Data</source>. <year>2024</year>;<volume>11</volume>(<issue>1</issue>):<fpage>768</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41597-024-03485-9" ext-link-type="uri">10.1038/s41597‐024‐03485‐9</ext-link>
+<pub-id pub-id-type="pmid">38997326</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41597-024-03485-9</pub-id><pub-id pub-id-type="pmcid">PMC11245521</pub-id></mixed-citation></ref><ref id="alz71164-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz71164-cite-0021">
+<string-name name-style="western">
+<surname>Gold</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ayers</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bertino</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Aptamer‐based multiplexed proteomic technology for biomarker discovery</article-title>. <source>PLoS One</source>. <year>2010</year>;<volume>5</volume>(<issue>12</issue>):<elocation-id>e15004</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1371/journal.pone.0015004" ext-link-type="uri">10.1371/journal.pone.0015004</ext-link>
+<pub-id pub-id-type="pmid">21165148</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0015004</pub-id><pub-id pub-id-type="pmcid">PMC3000457</pub-id></mixed-citation></ref><ref id="alz71164-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz71164-cite-0022">
+<string-name name-style="western">
+<surname>Evans</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>DeHaven</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barrett</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mitchell</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milgram</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Integrated, nontargeted ultrahigh performance liquid chromatography/electrospray ionization tandem mass spectrometry platform for the identification and relative quantification of the small‐molecule complement of biological systems</article-title>. <source>Anal Chem</source>. <year>2009</year>;<volume>81</volume>(<issue>16</issue>):<fpage>6656</fpage>‐<lpage>6667</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1021/ac901536h" ext-link-type="uri">10.1021/ac901536h</ext-link>
+<pub-id pub-id-type="pmid">19624122</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ac901536h</pub-id></mixed-citation></ref><ref id="alz71164-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz71164-cite-0023">
+<string-name name-style="western">
+<surname>Taliun</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harris</surname>
+<given-names>DN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kessler</surname>
+<given-names>MD</given-names>
+</string-name>, et al. <article-title>Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program</article-title>. <source>Nature</source>. <year>2021</year>;<volume>590</volume>(<issue>7845</issue>):<fpage>290</fpage>‐<lpage>299</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41586-021-03205-y" ext-link-type="uri">10.1038/s41586‐021‐03205‐y</ext-link>
+<pub-id pub-id-type="pmid">33568819</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-021-03205-y</pub-id><pub-id pub-id-type="pmcid">PMC7875770</pub-id></mixed-citation></ref><ref id="alz71164-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz71164-cite-0024">
+<string-name name-style="western">
+<surname>Chang</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chow</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tellier</surname>
+<given-names>LC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vattikuti</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Purcell</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>JJ</given-names>
+</string-name>. <article-title>Second‐generation PLINK: rising to the challenge of larger and richer datasets</article-title>. <source>Gigascience</source>. <year>2015</year>;<volume>4</volume>:<fpage>7</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s13742-015-0047-8" ext-link-type="uri">10.1186/s13742‐015‐0047‐8</ext-link>
+<pub-id pub-id-type="pmid">25722852</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13742-015-0047-8</pub-id><pub-id pub-id-type="pmcid">PMC4342193</pub-id></mixed-citation></ref><ref id="alz71164-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz71164-cite-0025">
+<string-name name-style="western">
+<surname>Genomes Project</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Auton</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brooks</surname>
+<given-names>LD</given-names>
+</string-name>, et al. <article-title>A global reference for human genetic variation</article-title>. <source>Nature</source>. <year>2015</year>;<volume>526</volume>(<issue>7571</issue>):<fpage>68</fpage>‐<lpage>74</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/nature15393" ext-link-type="uri">10.1038/nature15393</ext-link>
+<pub-id pub-id-type="pmid">26432245</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature15393</pub-id><pub-id pub-id-type="pmcid">PMC4750478</pub-id></mixed-citation></ref><ref id="alz71164-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz71164-cite-0026">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sarkar</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carbonetto</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stephens</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>A simple new approach to variable selection in regression, with application to genetic fine mapping</article-title>. <source>J R Stat Soc Series B Stat Methodol</source>. <year>2020</year>;<volume>82</volume>(<issue>5</issue>):<fpage>1273</fpage>‐<lpage>1300</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1111/rssb.12388" ext-link-type="uri">10.1111/rssb.12388</ext-link>
+<pub-id pub-id-type="pmid">37220626</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/rssb.12388</pub-id><pub-id pub-id-type="pmcid">PMC10201948</pub-id></mixed-citation></ref><ref id="alz71164-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz71164-cite-0027">
+<string-name name-style="western">
+<surname>Zou</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carbonetto</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stephens</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Fine‐mapping from summary data with the “sum of single effects” model</article-title>. <source>PLoS Genet</source>. <year>2022</year>;<volume>18</volume>(<issue>7</issue>):<elocation-id>e1010299</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1371/journal.pgen.1010299" ext-link-type="uri">10.1371/journal.pgen.1010299</ext-link>
+<pub-id pub-id-type="pmid">35853082</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1010299</pub-id><pub-id pub-id-type="pmcid">PMC9337707</pub-id></mixed-citation></ref><ref id="alz71164-bib-0027"><label>27</label><mixed-citation publication-type="miscellaneous" id="alz71164-cite-0028">
+<string-name name-style="western">
+<surname>Staley</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palmer</surname>
+<given-names>T</given-names>
+</string-name>, <article-title>GENI plots</article-title>.</mixed-citation></ref><ref id="alz71164-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz71164-cite-0029">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>clusterProfiler 4.0: a universal enrichment tool for interpreting omics data</article-title>. <source>Innovation</source>. <year>2021</year>;<volume>2</volume>(<issue>3</issue>):<elocation-id>100141</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.xinn.2021.100141" ext-link-type="uri">10.1016/j.xinn.2021.100141</ext-link>
+<pub-id pub-id-type="pmid">34557778</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.xinn.2021.100141</pub-id><pub-id pub-id-type="pmcid">PMC8454663</pub-id></mixed-citation></ref><ref id="alz71164-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz71164-cite-0030">
+<string-name name-style="western">
+<surname>Fujita</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zeng</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Cell subtype‐specific effects of genetic variation in the Alzheimer's disease brain</article-title>. <source>Nat Genet</source>. <year>2024</year>;<volume>56</volume>(<issue>4</issue>):<fpage>605</fpage>‐<lpage>614</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41588-024-01685-y" ext-link-type="uri">10.1038/s41588‐024‐01685‐y</ext-link>
+<pub-id pub-id-type="pmid">38514782</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-024-01685-y</pub-id><pub-id pub-id-type="pmcid">PMC12288883</pub-id></mixed-citation></ref><ref id="alz71164-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz71164-cite-0031">
+<string-name name-style="western">
+<surname>Hoffman</surname>
+<given-names>GE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bendl</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Efficient differential expression analysis of large‐scale single cell transcriptomics data using dreamlet</article-title>. <source>bioRxiv</source>. <year>2024</year>;<volume>20</volume>:<fpage>2023</fpage>‐<lpage>03</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1101/2023.03.17.533005" ext-link-type="uri">10.1101/2023.03.17.533005</ext-link>
+</mixed-citation></ref><ref id="alz71164-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz71164-cite-0032">
+<string-name name-style="western">
+<surname>Sayols</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>rrvgo: a Bioconductor package for interpreting lists of gene ontology terms</article-title>. <source>MicroPubl Biol</source>. <year>2023</year>;<volume>2023</volume>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.17912/micropub.biology.000811" ext-link-type="uri">10.17912/micropub.biology.000811</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.17912/micropub.biology.000811</pub-id><pub-id pub-id-type="pmcid">PMC10155054</pub-id><pub-id pub-id-type="pmid">37151216</pub-id></mixed-citation></ref><ref id="alz71164-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz71164-cite-0033">
+<string-name name-style="western">
+<surname>Pietzner</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stewart</surname>
+<given-names>ID</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raffler</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Plasma metabolites to profile pathways in noncommunicable disease multimorbidity</article-title>. <source>Nat Med</source>. <year>2021</year>;<volume>27</volume>(<issue>3</issue>):<fpage>471</fpage>‐<lpage>479</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41591-021-01266-0" ext-link-type="uri">10.1038/s41591‐021‐01266‐0</ext-link>
+<pub-id pub-id-type="pmid">33707775</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-021-01266-0</pub-id><pub-id pub-id-type="pmcid">PMC8127079</pub-id></mixed-citation></ref><ref id="alz71164-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="alz71164-cite-0034">
+<string-name name-style="western">
+<surname>Wishart</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kruger</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sivakumaran</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>PathBank 2.0‐the pathway database for model organism metabolomics</article-title>. <source>Nucleic Acids Res</source>. <year>2024</year>;<volume>52</volume>(<issue>D1</issue>):<fpage>D654</fpage>‐<lpage>D662</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/nar/gkad1041" ext-link-type="uri">10.1093/nar/gkad1041</ext-link>
+<pub-id pub-id-type="pmid">37962386</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkad1041</pub-id><pub-id pub-id-type="pmcid">PMC10767802</pub-id></mixed-citation></ref><ref id="alz71164-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="alz71164-cite-0035">
+<string-name name-style="western">
+<surname>Szklarczyk</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirsch</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koutrouli</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>The STRING database in 2023: protein‐protein association networks and functional enrichment analyses for any sequenced genome of interest</article-title>. <source>Nucleic Acids Res</source>. <year>2023</year>;<volume>51</volume>(<issue>D1</issue>):<fpage>D638</fpage>‐<lpage>D646</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/nar/gkac1000" ext-link-type="uri">10.1093/nar/gkac1000</ext-link>
+<pub-id pub-id-type="pmid">36370105</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkac1000</pub-id><pub-id pub-id-type="pmcid">PMC9825434</pub-id></mixed-citation></ref><ref id="alz71164-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="alz71164-cite-0036">
+<string-name name-style="western">
+<surname>Rezwani</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pourfathollah</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Noorbakhsh</surname>
+<given-names>F</given-names>
+</string-name>. <article-title>rbioapi: user‐friendly R interface to biologic web services' API</article-title>. <source>Bioinformatics</source>. <year>2022</year>;<volume>38</volume>(<issue>10</issue>):<fpage>2952</fpage>‐<lpage>2953</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/bioinformatics/btac172" ext-link-type="uri">10.1093/bioinformatics/btac172</ext-link>
+<pub-id pub-id-type="pmid">35561170</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btac172</pub-id></mixed-citation></ref><ref id="alz71164-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="alz71164-cite-0037">
+<string-name name-style="western">
+<surname>Deming</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Filipello</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cignarella</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>The MS4A gene cluster is a key modulator of soluble TREM2 and Alzheimer's disease risk</article-title>. <source>Sci Transl Med</source>. <year>2019</year>;<volume>11</volume>(<issue>505</issue>):<elocation-id>eaau2291</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1126/scitranslmed.aau2291" ext-link-type="uri">10.1126/scitranslmed.aau2291</ext-link>
+<pub-id pub-id-type="pmid">31413141</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.aau2291</pub-id><pub-id pub-id-type="pmcid">PMC6697053</pub-id></mixed-citation></ref><ref id="alz71164-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="alz71164-cite-0038">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nykanen</surname>
+<given-names>NP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Western</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Proteo‐genomics of soluble TREM2 in cerebrospinal fluid provides novel insights and identifies novel modulators for Alzheimer's disease</article-title>. <source>Mol Neurodegener</source>. <year>2024</year>;<volume>19</volume>(<issue>1</issue>):<fpage>1</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s13024-023-00687-4" ext-link-type="uri">10.1186/s13024‐023‐00687‐4</ext-link>
+<pub-id pub-id-type="pmid">38172904</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13024-023-00687-4</pub-id><pub-id pub-id-type="pmcid">PMC10763080</pub-id></mixed-citation></ref><ref id="alz71164-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="alz71164-cite-0039">
+<string-name name-style="western">
+<surname>Yao</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>
+<given-names>GW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vardarajan</surname>
+<given-names>BN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baccarelli</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z</given-names>
+</string-name>. <article-title>Deciphering proteins in Alzheimer's disease: a new Mendelian randomization method integrated with AlphaFold3 for 3D structure prediction</article-title>. <source>Cell Genom</source>. <year>2024</year>;<volume>4</volume>(<issue>12</issue>):<elocation-id>100700</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.xgen.2024.100700" ext-link-type="uri">10.1016/j.xgen.2024.100700</ext-link>
+<pub-id pub-id-type="pmid">39637861</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.xgen.2024.100700</pub-id><pub-id pub-id-type="pmcid">PMC11701259</pub-id></mixed-citation></ref><ref id="alz71164-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="alz71164-cite-0040">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>BB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chiou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Traylor</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Plasma proteomic associations with genetics and health in the UK Biobank</article-title>. <source>Nature</source>. <year>2023</year>;<volume>622</volume>(<issue>7982</issue>):<fpage>329</fpage>‐<lpage>338</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41586-023-06592-6" ext-link-type="uri">10.1038/s41586‐023‐06592‐6</ext-link>
+<pub-id pub-id-type="pmid">37794186</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-023-06592-6</pub-id><pub-id pub-id-type="pmcid">PMC10567551</pub-id></mixed-citation></ref><ref id="alz71164-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="alz71164-cite-0041">
+<string-name name-style="western">
+<surname>Jansen</surname>
+<given-names>IE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Savage</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Watanabe</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Genome‐wide meta‐analysis identifies new loci and functional pathways influencing Alzheimer's disease risk</article-title>. <source>Nat Genet</source>. <year>2019</year>;<volume>51</volume>(<issue>3</issue>):<fpage>404</fpage>‐<lpage>413</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41588-018-0311-9" ext-link-type="uri">10.1038/s41588‐018‐0311‐9</ext-link>
+<pub-id pub-id-type="pmid">30617256</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-018-0311-9</pub-id><pub-id pub-id-type="pmcid">PMC6836675</pub-id></mixed-citation></ref><ref id="alz71164-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="alz71164-cite-0042">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pan</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>Q</given-names>
+</string-name>, et al. <article-title>Metabolic phenotyping reveals an emerging role of ammonia abnormality in Alzheimer's disease</article-title>. <source>Nat Commun</source>. <year>2024</year>;<volume>15</volume>(<issue>1</issue>):<fpage>3796</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41467-024-47897-y" ext-link-type="uri">10.1038/s41467‐024‐47897‐y</ext-link>
+<pub-id pub-id-type="pmid">38714706</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-024-47897-y</pub-id><pub-id pub-id-type="pmcid">PMC11076546</pub-id></mixed-citation></ref><ref id="alz71164-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="alz71164-cite-0043">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thalamuthu</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mather</surname>
+<given-names>KA</given-names>
+</string-name>, et al. <article-title>Plasma lipidome is dysregulated in Alzheimer's disease and is associated with disease risk genes</article-title>. <source>Transl Psychiatry</source>. <year>2021</year>;<volume>11</volume>(<issue>1</issue>):<fpage>344</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41398-021-01362-2" ext-link-type="uri">10.1038/s41398‐021‐01362‐2</ext-link>
+<pub-id pub-id-type="pmid">34092785</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41398-021-01362-2</pub-id><pub-id pub-id-type="pmcid">PMC8180517</pub-id></mixed-citation></ref><ref id="alz71164-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="alz71164-cite-0044">
+<string-name name-style="western">
+<surname>Calzada</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Onguka</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claypool</surname>
+<given-names>SM</given-names>
+</string-name>. <article-title>Phosphatidylethanolamine metabolism in health and disease</article-title>. <source>Int Rev Cell Mol Biol</source>. <year>2016</year>;<volume>321</volume>:<fpage>29</fpage>‐<lpage>88</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/bs.ircmb.2015.10.001" ext-link-type="uri">10.1016/bs.ircmb.2015.10.001</ext-link>
+<pub-id pub-id-type="pmid">26811286</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/bs.ircmb.2015.10.001</pub-id><pub-id pub-id-type="pmcid">PMC4778737</pub-id></mixed-citation></ref><ref id="alz71164-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="alz71164-cite-0045">
+<string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galasko</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perneczky</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>The potential clinical value of plasma biomarkers in Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>12</issue>):<fpage>5805</fpage>‐<lpage>5816</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.13455" ext-link-type="uri">10.1002/alz.13455</ext-link>
+<pub-id pub-id-type="pmid">37694991</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13455</pub-id></mixed-citation></ref><ref id="alz71164-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="alz71164-cite-0046">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ren</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Cross‐ancestry analysis of brain QTLs enhances interpretation of schizophrenia genome‐wide association studies</article-title>. <source>Am J Hum Genet</source>. <year>2024</year>;<volume>111</volume>(<issue>11</issue>):<fpage>2444</fpage>‐<lpage>2457</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.ajhg.2024.09.001" ext-link-type="uri">10.1016/j.ajhg.2024.09.001</ext-link>
+<pub-id pub-id-type="pmid">39362218</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajhg.2024.09.001</pub-id><pub-id pub-id-type="pmcid">PMC11568756</pub-id></mixed-citation></ref><ref id="alz71164-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="alz71164-cite-0047">
+<string-name name-style="western">
+<surname>Saitou</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dahl</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>X</given-names>
+</string-name>. <article-title>Allele frequency impacts the cross‐ancestry portability of gene expression prediction in lymphoblastoid cell lines</article-title>. <source>Am J Hum Genet</source>. <year>2024</year>;<volume>111</volume>(<issue>12</issue>):<fpage>2814</fpage>‐<lpage>2825</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.ajhg.2024.10.009" ext-link-type="uri">10.1016/j.ajhg.2024.10.009</ext-link>
+<pub-id pub-id-type="pmid">39549695</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajhg.2024.10.009</pub-id><pub-id pub-id-type="pmcid">PMC11639078</pub-id></mixed-citation></ref><ref id="alz71164-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="alz71164-cite-0048">
+<string-name name-style="western">
+<surname>Kunkle</surname>
+<given-names>BW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schmidt</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klein</surname>
+<given-names>HU</given-names>
+</string-name>, et al. <article-title>Novel Alzheimer disease risk loci and pathways in African American individuals using the African genome resources panel: a meta‐analysis</article-title>. <source>JAMA Neurol</source>. <year>2021</year>;<volume>78</volume>(<issue>1</issue>):<fpage>102</fpage>‐<lpage>113</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2020.3536" ext-link-type="uri">10.1001/jamaneurol.2020.3536</ext-link>
+<pub-id pub-id-type="pmid">33074286</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2020.3536</pub-id><pub-id pub-id-type="pmcid">PMC7573798</pub-id></mixed-citation></ref><ref id="alz71164-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="alz71164-cite-0049">
+<string-name name-style="western">
+<surname>Sherva</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sahelijo</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>African ancestry GWAS of dementia in a large military cohort identifies significant risk loci</article-title>. <source>Mol Psychiatry</source>. <year>Mar 2023</year>;<volume>28</volume>(<issue>3</issue>):<fpage>1293</fpage>‐<lpage>1302</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41380-022-01890-3" ext-link-type="uri">10.1038/s41380‐022‐01890‐3</ext-link>
+<pub-id pub-id-type="pmid">36543923</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41380-022-01890-3</pub-id><pub-id pub-id-type="pmcid">PMC10066923</pub-id></mixed-citation></ref><ref id="alz71164-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="alz71164-cite-0050">
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>LL</given-names>
+</string-name>, et al. <article-title>LILRB2‐mediated TREM2 signaling inhibition suppresses microglia functions</article-title>. <source>Mol Neurodegener</source>. <year>2022</year>;<volume>17</volume>(<issue>1</issue>):<fpage>44</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s13024-022-00550-y" ext-link-type="uri">10.1186/s13024‐022‐00550‐y</ext-link>
+<pub-id pub-id-type="pmid">35717259</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13024-022-00550-y</pub-id><pub-id pub-id-type="pmcid">PMC9206387</pub-id></mixed-citation></ref><ref id="alz71164-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="alz71164-cite-0051">
+<string-name name-style="western">
+<surname>Hou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cai</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Antibody‐mediated targeting of human microglial leukocyte Ig‐like receptor B4 attenuates amyloid pathology in a mouse model</article-title>. <source>Sci Transl Med</source>. <year>2024</year>;<volume>16</volume>(<issue>741</issue>):<elocation-id>eadj9052</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1126/scitranslmed.adj9052" ext-link-type="uri">10.1126/scitranslmed.adj9052</ext-link>
+<pub-id pub-id-type="pmid">38569016</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/scitranslmed.adj9052</pub-id><pub-id pub-id-type="pmcid">PMC11977387</pub-id></mixed-citation></ref><ref id="alz71164-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="alz71164-cite-0052">
+<string-name name-style="western">
+<surname>Feng</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mai</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roscoe</surname>
+<given-names>JM</given-names>
+</string-name>, et al. <article-title>Loss of TMEM106B and PGRN leads to severe lysosomal abnormalities and neurodegeneration in mice</article-title>. <source>EMBO Rep</source>. <year>2020</year>;<volume>21</volume>(<issue>10</issue>):<elocation-id>e50219</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.15252/embr.202050219" ext-link-type="uri">10.15252/embr.202050219</ext-link>
+<pub-id pub-id-type="pmid">32852886</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/embr.202050219</pub-id><pub-id pub-id-type="pmcid">PMC7534636</pub-id></mixed-citation></ref><ref id="alz71164-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="alz71164-cite-0053">
+<string-name name-style="western">
+<surname>Werner</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Damme</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schludi</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Loss of TMEM106B potentiates lysosomal and FTLD‐like pathology in progranulin‐deficient mice</article-title>. <source>EMBO Rep</source>. <year>2020</year>;<volume>21</volume>(<issue>10</issue>):<elocation-id>e50241</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.15252/embr.202050241" ext-link-type="uri">10.15252/embr.202050241</ext-link>
+<pub-id pub-id-type="pmid">32929860</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/embr.202050241</pub-id><pub-id pub-id-type="pmcid">PMC7534633</pub-id></mixed-citation></ref><ref id="alz71164-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="alz71164-cite-0054">
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brooks</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Loss of Tmem106b exacerbates FTLD pathologies and causes motor deficits in progranulin‐deficient mice</article-title>. <source>EMBO Rep</source>. <year>2020</year>;<volume>21</volume>(<issue>10</issue>):<elocation-id>e50197</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.15252/embr.202050197" ext-link-type="uri">10.15252/embr.202050197</ext-link>
+<pub-id pub-id-type="pmid">32761777</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/embr.202050197</pub-id><pub-id pub-id-type="pmcid">PMC7534638</pub-id></mixed-citation></ref><ref id="alz71164-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="alz71164-cite-0055">
+<string-name name-style="western">
+<surname>Clayton</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Isaacs</surname>
+<given-names>AM</given-names>
+</string-name>. <article-title>Progranulin and TMEM106B: when two become wan</article-title>. <source>EMBO Rep</source>. <year>2020</year>;<volume>21</volume>(<issue>10</issue>):<elocation-id>e51668</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.15252/embr.202051668" ext-link-type="uri">10.15252/embr.202051668</ext-link>
+<pub-id pub-id-type="pmid">32985120</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/embr.202051668</pub-id><pub-id pub-id-type="pmcid">PMC7534635</pub-id></mixed-citation></ref><ref id="alz71164-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="alz71164-cite-0056">
+<string-name name-style="western">
+<surname>Ferkingstad</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sulem</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atlason</surname>
+<given-names>BA</given-names>
+</string-name>, et al. <article-title>Large‐scale integration of the plasma proteome with genetics and disease</article-title>. <source>Nat Genet</source>. <year>2021</year>;<volume>53</volume>(<issue>12</issue>):<fpage>1712</fpage>‐<lpage>1721</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41588-021-00978-w" ext-link-type="uri">10.1038/s41588‐021‐00978‐w</ext-link>
+<pub-id pub-id-type="pmid">34857953</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-021-00978-w</pub-id></mixed-citation></ref><ref id="alz71164-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="alz71164-cite-0057">
+<string-name name-style="western">
+<surname>Pietzner</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wheeler</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carrasco‐Zanini</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Mapping the proteo‐genomic convergence of human diseases</article-title>. <source>Science</source>. <year>2021</year>;<volume>374</volume>(<issue>6569</issue>):<elocation-id>eabj1541</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1126/science.abj1541" ext-link-type="uri">10.1126/science.abj1541</ext-link>
+<pub-id pub-id-type="pmid">34648354</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.abj1541</pub-id><pub-id pub-id-type="pmcid">PMC9904207</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

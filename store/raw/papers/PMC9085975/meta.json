@@ -1,0 +1,323 @@
+{
+  "pmid": "34757660",
+  "pmc": "PMC9085975",
+  "doi": "10.1002/alz.12468",
+  "title": "Integrative metabolomics‐genomics approach reveals key metabolic pathways and regulators of Alzheimer's disease",
+  "journal": "Alzheimer's & Dementia",
+  "year": 2021,
+  "authors": [
+    {
+      "name": "Horgusluoglu Emrin",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Neff Ryan",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Song Won‐Min",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Wang Minghui",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Wang Qian",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Arnold Matthias",
+      "affiliations": [
+        "Institute of Computational Biology Helmholtz Zentrum München German Research Center for Environmental Health Neuherberg Germany",
+        "Department of Psychiatry and Behavioral Sciences Duke University Durham North Carolina USA"
+      ]
+    },
+    {
+      "name": "Krumsiek Jan",
+      "affiliations": [
+        "Department of Physiology and Biophysics Weill Cornell Medicine Institute for Computational Biomedicine Englander Institute for Precision Medicine New York New York USA"
+      ]
+    },
+    {
+      "name": "Galindo‐Prieto Beatriz",
+      "affiliations": [
+        "Department of Physiology and Biophysics Weill Cornell Medicine Institute for Computational Biomedicine Englander Institute for Precision Medicine New York New York USA",
+        "Helen and Robert Appel Alzheimer's Disease Research Institute Brain and Mind Research Institute Weill Cornell Medicine New York New York USA"
+      ]
+    },
+    {
+      "name": "Ming Chen",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Nho Kwangsik",
+      "affiliations": [
+        "Department of Radiology and Imaging Sciences; Indiana Alzheimer Disease Center Indiana University School of Medicine Indianapolis Indiana USA"
+      ]
+    },
+    {
+      "name": "Kastenmüller Gabi",
+      "affiliations": [
+        "Institute of Computational Biology Helmholtz Zentrum München German Research Center for Environmental Health Neuherberg Germany"
+      ]
+    },
+    {
+      "name": "Han Xianlin",
+      "affiliations": [
+        "Barshop Institute for Longevity and Aging Studies University of Texas Health Science Center at San Antonio San Antonio Texas USA"
+      ]
+    },
+    {
+      "name": "Baillie Rebecca",
+      "affiliations": [
+        "Rosa & Co LLC San Carlos California USA"
+      ]
+    },
+    {
+      "name": "Zeng Qi",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Andrews Shea",
+      "affiliations": [
+        "Department of Neuroscience Ronald M. Loeb Center for Alzheimer's Disease Icahn School of Medicine at Mount Sinai New York New York USA"
+      ]
+    },
+    {
+      "name": "Cheng Haoxiang",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Hao Ke",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "Goate Alison",
+      "affiliations": [
+        "Department of Neuroscience Ronald M. Loeb Center for Alzheimer's Disease Icahn School of Medicine at Mount Sinai New York New York USA"
+      ]
+    },
+    {
+      "name": "Bennett David A.",
+      "affiliations": [
+        "Rush Alzheimer's Disease Center Rush University Medical Center Chicago Illinois USA"
+      ]
+    },
+    {
+      "name": "Saykin Andrew J.",
+      "affiliations": [
+        "Department of Radiology and Imaging Sciences; Indiana Alzheimer Disease Center Indiana University School of Medicine Indianapolis Indiana USA"
+      ]
+    },
+    {
+      "name": "Kaddurah‐Daouk Rima",
+      "affiliations": [
+        "Department of Psychiatry and Behavioral Sciences Duke University Durham North Carolina USA",
+        "Duke Institute of Brain Sciences Duke University Durham North Carolina USA",
+        "Department of Medicine Duke University Durham North Carolina USA"
+      ]
+    },
+    {
+      "name": "Zhang Bin",
+      "affiliations": [
+        "Department of Genetics and Genomic Sciences Mount Sinai Center for Transformative Disease Modeling Icahn School of Medicine at Mount Sinai Icahn Institute of Genomics and Multiscale Biology New York New York USA"
+      ]
+    },
+    {
+      "name": "for the Alzheimer's Disease Neuroimaging Initiative (ADNI)",
+      "affiliations": []
+    },
+    {
+      "name": "the Alzheimer Disease Metabolomics Consortium",
+      "affiliations": []
+    }
+  ],
+  "keywords": [
+    "ABCA1",
+    "acylcarnitines",
+    "adiponectin",
+    "Alzheimer's disease",
+    "amino acids",
+    "CPT1A",
+    "genetic",
+    "metabolomics",
+    "multiscale metabolite co‐expression network",
+    "risk factors"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "DATA AND CODE AVAILABILITYThe multi‐omics data in the ADNI are available at http://adni.loni.usc.edu/. The brain metabolomic data, analyses outputs, and codes are available via the AD Knowledge Portal (https://adknowledgeportal.org). The AD Knowledge Portal is a platform for accessing data, analyses, and tools generated by the Accelerating Medicines Partnership (AMP‐AD) Target Discovery Program and other National Institute on Aging (NIA)‐supported programs to enable open‐science practices and accelerate translational learning. The data, analyses, and tools are shared early in the research cycle without a publication embargo on secondary use. Data are available for general research use according to the following requirements for data access and data attribution (https://adknowledgeportal.org/DataAccess/Instructions). For access to content described in this manuscript see: https://doi.org/10.7303/syn25257534.",
+  "license": "",
+  "received": "2020-07-28",
+  "accepted": "2021-04-17",
+  "reference_pmids": [
+    "24092460",
+    "27570871",
+    "14615052",
+    "21295552",
+    "30321505",
+    "30793475",
+    "30738892",
+    "31078433",
+    "22832349",
+    "28652377",
+    "24655299",
+    "29731746",
+    "29539432",
+    "24608097",
+    "21779331",
+    "31517024",
+    "30457571",
+    "28341160",
+    "29370177",
+    "29375465",
+    "31890857",
+    "17432931",
+    "18552845",
+    "30283032",
+    "19270708",
+    "23622250",
+    "33238137",
+    "32770063",
+    "22806142",
+    "18822406",
+    "20168994",
+    "21685093",
+    "31578326",
+    "24658329",
+    "27498839",
+    "20461071",
+    "33003305",
+    "27828769",
+    "24746857",
+    "22545122",
+    "28800113",
+    "25761244",
+    "28179471",
+    "31218445",
+    "29914354",
+    "22560213",
+    "25307860",
+    "24284228",
+    "32056779",
+    "29039849",
+    "31624257",
+    "29865057",
+    "28323825",
+    "26618778",
+    "22562439",
+    "22782295",
+    "29780876",
+    "26346644",
+    "26194313",
+    "30204156",
+    "22471860",
+    "22471867",
+    "27727239",
+    "27799057",
+    "30084846",
+    "30204156",
+    "23894628",
+    "27019110",
+    "29500431",
+    "29022597",
+    "29891976",
+    "23382694",
+    "28628103",
+    "32123170",
+    "33005893",
+    "24830394",
+    "11257506",
+    "11802770",
+    "23258903",
+    "26041663",
+    "20111019",
+    "20488992",
+    "10918065",
+    "15210959",
+    "28478047",
+    "20413849",
+    "26079414",
+    "22675311",
+    "14578311",
+    "27196316",
+    "25755733",
+    "21920460",
+    "24844148",
+    "22323736",
+    "23704553",
+    "23704554",
+    "23704555",
+    "29674640",
+    "28526869",
+    "31191682",
+    "31391546",
+    "29482657",
+    "28852383",
+    "30349450",
+    "30689776",
+    "29177679",
+    "24443560",
+    "17936760",
+    "29038028",
+    "24386594",
+    "23300647",
+    "17942819"
+  ],
+  "tables_count": 3,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "narrative",
+    "contextual background",
+    "study conclusions, future directions, and limitations",
+    "research in context",
+    "consolidated results and study design",
+    "detailed methods and results",
+    "methods",
+    "study participants",
+    "construction of multiscale metabolite co‐expression network",
+    "cognitive and neuropathological traits",
+    "correlation analysis of the metabolite modules and neuropathological traits",
+    "identification of genes correlated with metabolite co‐expression network",
+    "construction of",
+    "identification of proteins correlated with metabolite co‐expression network",
+    "mendelian randomization analysis",
+    "major computational tools analyzing and integrating metabolomics and other types of omics data",
+    "results",
+    "a multiscale metabolite co‐expression network (mmcen) revealed that acylcarnitines and amines are highly associated with ad worse outcomes in blood",
+    "acylcarnitines and amines are significantly associated with ad pathology in the brain",
+    "co‐expression metabolite transcriptome network analysis establishes a link between metabolites and a blood transcriptional network associated with ad",
+    "",
+    "co‐expression metabolite protein network analysis establishes a link between metabolites and protein network associated with ad",
+    "conclusion",
+    "data and code availability",
+    "conflicts of interest",
+    "author contributions",
+    "supporting information",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 15741,
+  "converted_at": "2026-04-06T22:40:12.099998+00:00"
+}

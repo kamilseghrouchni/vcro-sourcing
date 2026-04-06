@@ -1,0 +1,270 @@
+{
+  "pmid": "41675591",
+  "pmc": "PMC12886218",
+  "doi": "10.1186/s44477-026-00018-z",
+  "title": "Distinct CSF lipidomic profiles are associated with five proteomic subtypes in patients with Alzheimer’s disease",
+  "journal": "Molecular Neurodegeneration Advances",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Malliou Georgia",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Alzheimer Center Amsterdam, Neurology, Vrije Universiteit Amsterdam, Amsterdam UMC Location VUmc, Amsterdam, the Netherlands",
+        "https://ror.org/01x2d9f70grid.484519.5Amsterdam Neuroscience, Neurodegeneration, Amsterdam, the Netherlands"
+      ]
+    },
+    {
+      "name": "Reus Lianne M.",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Alzheimer Center Amsterdam, Neurology, Vrije Universiteit Amsterdam, Amsterdam UMC Location VUmc, Amsterdam, the Netherlands",
+        "https://ror.org/01x2d9f70grid.484519.5Amsterdam Neuroscience, Neurodegeneration, Amsterdam, the Netherlands",
+        "https://ror.org/046rm7j60grid.19006.3e0000 0000 9632 6718Center for Neurobehavioral Genetics, David Geffen School of Medicine, Semel Institute for Neuroscience and Human Behavior, University of California, Los Angeles, CA USA"
+      ]
+    },
+    {
+      "name": "Pijnenburg Yolande. A. L.",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Alzheimer Center Amsterdam, Neurology, Vrije Universiteit Amsterdam, Amsterdam UMC Location VUmc, Amsterdam, the Netherlands",
+        "https://ror.org/01x2d9f70grid.484519.5Amsterdam Neuroscience, Neurodegeneration, Amsterdam, the Netherlands"
+      ]
+    },
+    {
+      "name": "van der Flier Wiesje M.",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Epidemiology & Data Science, Vrije Universiteit Amsterdam, Amsterdam UMC Location VUmc, Amsterdam, the Netherlands"
+      ]
+    },
+    {
+      "name": "de Wit Nienke M.",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Department of Molecular Cell Biology and Immunology, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam Neuroscience, Amsterdam, the Netherlands"
+      ]
+    },
+    {
+      "name": "Chornyi Serhii",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Department of Molecular Cell Biology and Immunology, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam Neuroscience, Amsterdam, the Netherlands"
+      ]
+    },
+    {
+      "name": "Kooij Gijs",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Department of Molecular Cell Biology and Immunology, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam Neuroscience, Amsterdam, the Netherlands"
+      ]
+    },
+    {
+      "name": "de Vries Helga E.",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Department of Molecular Cell Biology and Immunology, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam Neuroscience, Amsterdam, the Netherlands"
+      ]
+    },
+    {
+      "name": "Teunissen Charlotte E.",
+      "affiliations": [
+        "https://ror.org/01x2d9f70grid.484519.5Amsterdam Neuroscience, Neurodegeneration, Amsterdam, the Netherlands",
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Neurochemistry Laboratory, Department of Laboratory Medicine, Vrije Universiteit Amsterdam, Amsterdam UMC Location VUmc, Amsterdam, the Netherlands"
+      ]
+    },
+    {
+      "name": "Visser P. J.",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Alzheimer Center Amsterdam, Neurology, Vrije Universiteit Amsterdam, Amsterdam UMC Location VUmc, Amsterdam, the Netherlands",
+        "https://ror.org/01x2d9f70grid.484519.5Amsterdam Neuroscience, Neurodegeneration, Amsterdam, the Netherlands",
+        "https://ror.org/02jz4aj89grid.5012.60000 0001 0481 6099Alzheimer Center Limburg, School for Mental Health and Neuroscience, Maastricht University, Maastricht, the Netherlands",
+        "https://ror.org/056d84691grid.4714.60000 0004 1937 0626Department of Neurobiology, Care Sciences and Society, Division of Neurogeriatrics, Karolinska Institutet, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Ophoff Roel A.",
+      "affiliations": [
+        "https://ror.org/046rm7j60grid.19006.3e0000 0000 9632 6718Center for Neurobehavioral Genetics, David Geffen School of Medicine, Semel Institute for Neuroscience and Human Behavior, University of California, Los Angeles, CA USA",
+        "https://ror.org/046rm7j60grid.19006.3e0000 0001 2167 8097Department of Human Genetics, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA USA"
+      ]
+    },
+    {
+      "name": "Tijms Betty M.",
+      "affiliations": [
+        "https://ror.org/008xxew50grid.12380.380000 0004 1754 9227Alzheimer Center Amsterdam, Neurology, Vrije Universiteit Amsterdam, Amsterdam UMC Location VUmc, Amsterdam, the Netherlands",
+        "https://ror.org/01x2d9f70grid.484519.5Amsterdam Neuroscience, Neurodegeneration, Amsterdam, the Netherlands"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "Lipidomics",
+    "Lipid metabolism",
+    "Heterogeneity",
+    "Molecular subtypes"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "MODEM, a Dutch national consortium part of the Dementia Research Program of ZonMw#10510032120006"
+  ],
+  "data_availability_text": "Data availabilityThe datasets used and/or analysed during the current study are available from the corresponding author upon reasonable request.",
+  "license": "",
+  "received": "2025-07-17",
+  "accepted": "2026-01-14",
+  "reference_pmids": [
+    "29653606",
+    "29653606",
+    "32778792",
+    "32778792",
+    "21456963",
+    "21456963",
+    "38195725",
+    "38195725",
+    "33439986",
+    "33439986",
+    "8346443",
+    "8346443",
+    "36348357",
+    "36348357",
+    "18987181",
+    "18987181",
+    "35099509",
+    "35099509",
+    "37251912",
+    "38659717",
+    "34125126",
+    "34125126",
+    "33814423",
+    "33814423",
+    "35448464",
+    "35448464",
+    "32360155",
+    "32360155",
+    "19439966",
+    "19439966",
+    "29562540",
+    "29562540",
+    "30477432",
+    "30477432",
+    "17254420",
+    "17254420",
+    "32010920",
+    "21514247",
+    "21514247",
+    "21514249",
+    "21514249",
+    "21514250",
+    "21514250",
+    "19833838",
+    "19833838",
+    "25938372",
+    "25938372",
+    "28225594",
+    "28225594",
+    "24614907",
+    "24614907",
+    "18281723",
+    "18281723",
+    "30758187",
+    "30758187",
+    "23817071",
+    "23817071",
+    "33969169",
+    "33969169",
+    "38587201",
+    "38587201",
+    "21627334",
+    "21627334",
+    "33582095",
+    "33582095",
+    "34133922",
+    "16040805",
+    "16040805",
+    "29692406",
+    "29692406",
+    "26742060",
+    "26742060",
+    "35831869",
+    "35831869",
+    "35409406",
+    "35409406",
+    "28522961",
+    "28522961",
+    "32475683",
+    "32475683",
+    "34095105",
+    "34095105",
+    "25108040",
+    "25108040",
+    "24008580",
+    "24008580",
+    "37999871",
+    "37999871",
+    "37211318",
+    "37211318",
+    "12529927",
+    "12529927",
+    "31832778",
+    "31832778",
+    "35303786",
+    "35303786",
+    "38777251",
+    "38777251",
+    "20493784",
+    "20493784",
+    "18640080",
+    "18640080",
+    "35806040",
+    "35806040",
+    "34569265",
+    "34569265",
+    "33016915",
+    "33016915",
+    "38642715",
+    "38642715",
+    "34385305",
+    "36552756",
+    "36552756",
+    "34997690",
+    "34997690",
+    "20965421",
+    "20965421",
+    "20452460",
+    "20452460",
+    "12515826",
+    "12515826",
+    "36325603",
+    "36325603",
+    "33868013",
+    "33868013",
+    "38866484",
+    "38866484",
+    "33173055",
+    "33173055",
+    "36251323",
+    "36251323",
+    "35351864",
+    "35351864",
+    "20416362",
+    "20416362",
+    "20164599",
+    "20164599"
+  ],
+  "tables_count": 0,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods",
+    "participants",
+    "csf collection",
+    "csf untargeted lipidomics",
+    "statistical and pathway enrichment analyses",
+    "results",
+    "participant characteristics",
+    "csf lipidomic profiling",
+    "discussion",
+    "study limitations and strengths",
+    "conclusion",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10961,
+  "converted_at": "2026-04-06T22:39:05.981994+00:00"
+}

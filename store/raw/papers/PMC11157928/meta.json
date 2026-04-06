@@ -1,0 +1,308 @@
+{
+  "pmid": "38849944",
+  "pmc": "PMC11157928",
+  "doi": "10.1186/s13195-024-01482-z",
+  "title": "Effects of intensive lifestyle changes on the progression of mild cognitive impairment or early dementia due to Alzheimer’s disease: a randomized, controlled clinical trial",
+  "journal": "Alzheimer's Research & Therapy",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Ornish Dean",
+      "affiliations": [
+        "https://ror.org/05nq8z503grid.417528.dPreventive Medicine Research Institute, 900 Bridgeway, Sausalito, CA USA",
+        "grid.266100.30000 0001 2107 4242University of California, San Francisco and University of California, San Diego, USA"
+      ]
+    },
+    {
+      "name": "Madison Catherine",
+      "affiliations": [
+        "https://ror.org/05nq8z503grid.417528.dPreventive Medicine Research Institute, 900 Bridgeway, Sausalito, CA USA",
+        "https://ror.org/02bjh0167grid.17866.3e0000 0000 9823 4542Ray Dolby Brain Health Center, California Pacific Medical Center, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Kivipelto Miia",
+      "affiliations": [
+        "https://ror.org/056d84691grid.4714.60000 0004 1937 0626Division of Clinical Geriatrics, Department of Neurobiology, Care Sciences and Society, Karolinska Institute, Karolinska vägen 37 A, SE-171 64 Solna, Sweden",
+        "https://ror.org/00m8d6786grid.24381.3c0000 0000 9241 5705Theme Inflammation and Aging, Karolinska University Hospital, Karolinska vägen 37 A, SE-171 64 Stockholm, Solna Sweden",
+        "grid.7445.20000 0001 2113 8111The Ageing Epidemiology (AGE) Research Unit, School of Public Health, Imperial College London, St Mary’s Hospital, Norfolk Place, London, W2 1PG United Kingdom",
+        "https://ror.org/00cyydd11grid.9668.10000 0001 0726 2490Institute of Public Health and Clinical Nutrition, University of Eastern Finland, Yliopistonranta 8, 70210 Kuopio, Finland"
+      ]
+    },
+    {
+      "name": "Kemp Colleen",
+      "affiliations": [
+        "https://ror.org/05nq8z503grid.417528.dClinical Services, Preventive Medicine Research Institute, Bridgeway, Sausalito, CA 900 USA"
+      ]
+    },
+    {
+      "name": "McCulloch Charles E.",
+      "affiliations": [
+        "grid.266102.10000 0001 2297 6811Division of Biostatistics, Department of Epidemiology & Biostatistics, UCSF, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Galasko Douglas",
+      "affiliations": [
+        "https://ror.org/05t99sp05grid.468726.90000 0004 0486 2046Neurosciences, University of California, San Diego, CA USA"
+      ]
+    },
+    {
+      "name": "Artz Jon",
+      "affiliations": [
+        "grid.266818.30000 0004 1936 914XClinical Neurology, School of Medicine, University of Nevada, Reno, USA",
+        "grid.429897.90000 0004 0458 3610Renown Health Institute of Neurosciences, Reno, NV USA"
+      ]
+    },
+    {
+      "name": "Rentz Dorene",
+      "affiliations": [
+        "grid.38142.3c000000041936754XHarvard Medical School, Boston, MA USA",
+        "",
+        "grid.32224.350000 0004 0386 9924Mass General Brigham Alzheimer Disease Research Center, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Lin Jue",
+      "affiliations": [
+        "grid.266102.10000 0001 2297 6811Elizabeth Blackburn Lab, UCSF, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Norman Kim",
+      "affiliations": [
+        "grid.266102.10000 0001 2297 6811UCSF, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Ornish Anne",
+      "affiliations": [
+        "https://ror.org/05nq8z503grid.417528.dPreventive Medicine Research Institute, 900 Bridgeway, Sausalito, CA USA"
+      ]
+    },
+    {
+      "name": "Tranter Sarah",
+      "affiliations": [
+        "https://ror.org/05nq8z503grid.417528.dClinical Services, Preventive Medicine Research Institute, Bridgeway, Sausalito, CA 900 USA"
+      ]
+    },
+    {
+      "name": "DeLamarter Nancy",
+      "affiliations": [
+        "https://ror.org/05nq8z503grid.417528.dPreventive Medicine Research Institute, 900 Bridgeway, Sausalito, CA USA"
+      ]
+    },
+    {
+      "name": "Wingers Noel",
+      "affiliations": [
+        "https://ror.org/05nq8z503grid.417528.dPreventive Medicine Research Institute, 900 Bridgeway, Sausalito, CA USA"
+      ]
+    },
+    {
+      "name": "Richling Carra",
+      "affiliations": [
+        "https://ror.org/05nq8z503grid.417528.dPreventive Medicine Research Institute, 900 Bridgeway, Sausalito, CA USA"
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima",
+      "affiliations": [
+        "https://ror.org/04bct7p84grid.189509.c0000 0001 0024 1216Departments of Medicine and Psychiatry, Duke University Medical Center and Member, Duke Institute of Brain Sciences, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Knight Rob",
+      "affiliations": [
+        "https://ror.org/05t99sp05grid.468726.90000 0004 0486 2046Department of Pediatrics; Department of Computer Science & Engineering; Department of Bioengineering; Center for Microbiome Innovation, Halıcıoğlu Data Science Institute, University of California, San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "McDonald Daniel",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics and Scientific Director, American Gut Project and The Microsetta Initiative, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Patel Lucas",
+      "affiliations": [
+        "https://ror.org/05t99sp05grid.468726.90000 0004 0486 2046Bioinformatics and Systems Biology Program; Rob Knight Lab; Medical Scientist Training Program, University of California, San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Verdin Eric",
+      "affiliations": [
+        "https://ror.org/050sv4x28grid.272799.00000 0000 8687 5377Buck Institute for Research on Aging, San Francisco, CA USA",
+        "grid.266102.10000 0001 2297 6811University of California, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "E. Tanzi Rudolph",
+      "affiliations": [
+        "grid.38142.3c000000041936754XHarvard Medical School, Boston, MA USA",
+        "",
+        "https://ror.org/002pd6e78grid.32224.350000 0004 0386 9924Massachusetts General Hospital, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Arnold Steven E.",
+      "affiliations": [
+        "grid.38142.3c000000041936754XHarvard Medical School, Boston, MA USA",
+        "https://ror.org/002pd6e78grid.32224.350000 0004 0386 9924Interdisciplinary Brain Center, Massachusetts General Hospital, Boston, MA USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s",
+    "Diet",
+    "Nutrition",
+    "Exercise",
+    "Stress management",
+    "Lifestyle medicine",
+    "Social support"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "The Alzheimer’s Drug Discovery FoundationGC-202102-2021459GC-202102-2021459GC-202102-2021459OrnishDeanE. TanziRudolphArnoldSteven E.",
+    "Leonard A. Lauder & Judith Glickman Lauder",
+    "Gary & Laura Lauder",
+    "Mary Bucksbaum Scanlan Family Foundation",
+    "Laurene Powell Jobs/Silicon Valley Community Foundation",
+    "Pierre & Pamela Omidyar Fund/Silicon Valley Community Foundation",
+    "George Vradenburg Foundation/Us Against Alzheimer’s",
+    "American Endowment Foundation (Anna & James McKelvey)",
+    "http://dx.doi.org/10.13039/100029005Arthur M. Blank Family Foundation",
+    "DeJoria Peace Love & Happiness Foundation",
+    "Maria Shriver/Women’s Alzheimer’s Movement",
+    "Mark Pincus Family Fund/Silicon Valley Community Foundation",
+    "http://dx.doi.org/10.13039/100001244Milken Family Foundation",
+    "The Cleveland Clinic Foundation",
+    "Greenbaum Foundation",
+    "R. Martin Chavez",
+    "Wonderful Company Foundation",
+    "Daniel Socolow",
+    "Anthony J. Robbins/Tony Robbins Foundation",
+    "John Mackey",
+    "John & Lisa Pritzker and the Lisa Stone Pritzker Family Foundation",
+    "Ken Hubbard",
+    "Greater Houston Community Foundation (Jenard & Gail Gross)",
+    "Henry Groppe",
+    "Brock & Julie Leach Family Charitable Foundation",
+    "Bucksbaum/Baum Foundation",
+    "YPO Gold Los Angeles",
+    "Lisa Holland/Betty Robertson",
+    "The Each Foundation",
+    "Moby Charitable Fund",
+    "California Relief Program",
+    "Gary & Lisa Schildhorn",
+    "McNabb Foundation (Ricky Rafner)",
+    "Renaissance Charitable Foumdation (Stephen & Karen Slinkard)",
+    "Around the Table Foundation",
+    "Network for Good",
+    "Ken & Kim Raisler Foundation",
+    "Buckmaster Foundation",
+    "Miner Foundation",
+    "Craiglist Charitable Fund",
+    "Gaurav Kapadia",
+    "Healing Works Foundation/Wayne Jonas",
+    "the Center for Innovative Medicine (CIMED) at the Karolinska Institutet, Hjärnfonden, Stockholms Sjukhem, Research Council for Health Working Life and Welfare (FORTE)",
+    "Alzheimer Gut Microbiome Projectfunded by NIA U19AG063744 & U01AG061359 & R01AG081322funded by NIA U19AG063744 & U01AG061359 & R01AG081322Kaddurah-DaoukRimaKnightRob"
+  ],
+  "data_availability_text": "Availability of data and materialsThe datasets used and/or analyzed during the current study may be available from the corresponding author on reasonable request. Requesters will be asked to submit a study protocol, including the research question, planned analysis, and data required. The authors will evaluate this plan (i.e., relevance of the research question, suitability of the data, quality of the proposed analysis, planned or ongoing analysis, and other matters) on a case-by-case basis.",
+  "license": "",
+  "received": "2024-02-21",
+  "accepted": "2024-05-15",
+  "reference_pmids": [
+    "32738937",
+    "38315471",
+    "17060562",
+    "12580703",
+    "32690803",
+    "30568005",
+    "25771249",
+    "29055814",
+    "29356827",
+    "35051281",
+    "32627328",
+    "38010725",
+    "9863851",
+    "6336794",
+    "7674504",
+    "32554763",
+    "21514250",
+    "21514249",
+    "37013558",
+    "25257144",
+    "12873849",
+    "31560864",
+    "23107780",
+    "25602242",
+    "34596729",
+    "22366772",
+    "35053277",
+    "35082658",
+    "31413233",
+    "18844328",
+    "35185522",
+    "36975407",
+    "33008395",
+    "37002253",
+    "36877047",
+    "36449413",
+    "9863851",
+    "16094059",
+    "24051140",
+    "1973470"
+  ],
+  "tables_count": 5,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods",
+    "participants and methods",
+    "oversight",
+    "setting",
+    "patient recruitment",
+    "intensive multimodal lifestyle intervention",
+    "diet",
+    "exercise",
+    "stress management",
+    "group support",
+    "supplements",
+    "primary outcome measures: cognition and function testing",
+    "secondary outcome measures: biomarkers and microbiome",
+    "statistical methods",
+    "results",
+    "cognition and function testing: primary analysis",
+    "secondary sensitivity analyses",
+    "sensitivity analysis (with outlier excluded)",
+    "biomarker results",
+    "correlation of lifestyle index and cognitive function",
+    "adas-cog",
+    "cdr-sb",
+    "cdr-global",
+    "cgic",
+    "correlation of lifestyle index and biomarker data",
+    "plasma aβ42/40 ratio",
+    "glyc-a",
+    "ldl-cholesterol",
+    "beta-hydroxybutyrate (ketones)",
+    "ptau 181",
+    "gfap/glial fibrillary acidic protein",
+    "what degree of lifestyle change is correlated with improvement in cognitive function tests?",
+    "adas-cog",
+    "cdr-sb",
+    "cdr-global:",
+    "microbiome results",
+    "discussion",
+    "limitations",
+    "conclusions",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10307,
+  "converted_at": "2026-04-06T22:36:20.851149+00:00"
+}

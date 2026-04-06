@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT06147843",
+  "title": "French-German Cohort Study to Determine Factors Associated With Weight Loss in Amyotrophic Lateral Sclerosis",
+  "brief_title": "French-German Cohort Study to Determine Factors Associated With Weight Loss in Amyotrophic Lateral Sclerosis",
+  "status": "RECRUITING",
+  "phase": "NA",
+  "study_type": "INTERVENTIONAL",
+  "enrollment": 1000,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+  ],
+  "keywords": [
+    "Amyotrophic lateral sclerosis",
+    "Weight Loss",
+    "Genetics",
+    "Nutrition",
+    "Prognosis",
+    "Metabolomics",
+    "Inflammation"
+  ],
+  "sponsor": "University Hospital, Limoges",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "National Research Agency, France",
+    "Centre de Recherche en biomédecine de Strasbourg INSERM UMR-S1118",
+    "Institut du Cerveau et de la Moelle épinière",
+    "Institut National de la Santé et de la Recherche Médical - délégation Grand Ouest INSERM U1253",
+    "Klinik für Neurologie, Universitäts- und Rehabilitationskliniken Ulm (RKU)",
+    "Centre de Données Cliniques et de Recherche CDCR",
+    "UMR Inserm U1253-IBRain-Neurogénétique et Physiopathologie Neuronale",
+    "France Cohorte"
+  ],
+  "lead_pi": {
+    "name": "Philippe COURATIER, Professor",
+    "affiliation": "University Hospital, Limoges"
+  },
+  "start_date": "2024-09-17",
+  "completion_date": "2029-09-30",
+  "primary_completion_date": "2027-09-30",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "YES",
+  "ipd_sharing_description": "The FG-CoALS project is part of the 11 cohorts of rare diseases of the National Research Agency (ANR) in France. The ANR has entrusted \"France Cohortes\" with the task of supporting 11 projects on rare diseases.\n\nWith the implementation of a FAIR approach right from the data collection phase, the national research infrastructure dedicated to \"France cohortes\" will contribute to the management, dissemination and re-use of data, while guaranteeing the strict protection of the data.",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "CHU de Lille",
+      "city": "Lille",
+      "state": "",
+      "country": "France",
+      "status": "NOT_YET_RECRUITING"
+    },
+    {
+      "name": "Limoges University Hospital",
+      "city": "Limoges",
+      "state": "",
+      "country": "France",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Hôpital de la Timone",
+      "city": "Marseille",
+      "state": "",
+      "country": "France",
+      "status": "NOT_YET_RECRUITING"
+    },
+    {
+      "name": "Hôpital Gui Chauliac",
+      "city": "Montpellier",
+      "state": "",
+      "country": "France",
+      "status": "NOT_YET_RECRUITING"
+    },
+    {
+      "name": "CHU de Nice",
+      "city": "Nice",
+      "state": "",
+      "country": "France",
+      "status": "NOT_YET_RECRUITING"
+    },
+    {
+      "name": "Hôpital de la Pitié Salpêtrière",
+      "city": "Paris",
+      "state": "",
+      "country": "France",
+      "status": "NOT_YET_RECRUITING"
+    },
+    {
+      "name": "CHU de Tours",
+      "city": "Tours",
+      "state": "",
+      "country": "France",
+      "status": "NOT_YET_RECRUITING"
+    }
+  ],
+  "facilities_count": 7,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Incident cases included at the time of diagnosis with a definite, probable, probable laboratory-supported, or possible ALS according to El Escorial revised criteria and Gold Coast criteria for early diagnosis.\n* Incident ALS cases identified and followed-up in the participant ALS \\& Other Motor Neuron Diseases Referral Centres: seven in France and two in Germany.\n* Patients who signed the informed consent form.\n* Adults aged \\>18 years old\n\nExclusion Criteria:\n\n* Inability to understand the requirements of the protocol.\n* Cognitive inability to sign and comprehend the informed consent form.\n* Patients who will not accept Riluzole therapy during their follow-up.",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Survival",
+      "description": "Survival evaluated in month since diagnosis",
+      "timeFrame": "every 6 month until 18 months of follow up"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Disease progression (ALSFRS-R slope)",
+      "description": "The ALSFRS-R is a validated rating instrument for monitoring the progression of disability in patients with amyotrophic lateral sclerosis (ALS)",
+      "timeFrame": "every 6 month until 18 months of follow up"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease. Studies have shown the importance of weight loss at the time of diagnosis and during the progression of the disease. However, the pathophysiological mechanisms behind weight loss remain unknown. Identifying these mechanisms could make it possible to propose an effective therapeutic strategy against weight loss for ALS patients, which could improve their survival and quality of life. In this context, the investigators are proposing an innovative multidisciplinary project aimed at structuring a large Franco-German cohort to identify the markers associated with weight loss in ALS.\n\nParticipants will undergo high quality standard care for ALS patients. In addition, participants will be asked to respond different questionnaires and blood samples will be taken for analysis to identify biological markers.",
+  "detailed_description": "ALS is the most frequent adult onset motor neuron disease and is highly variable in terms of clinical features, genetics, and neuropathology. A large body of evidence has demonstrated the importance of weight loss at the time of diagnosis and during disease progression. Weight loss affects between one and two-thirds of patients and is adversely associated with survival. High caloric nutrition was able to slow weight loss and prolong survival in fast progressing ALS patients. Pathophysiological mechanisms underlying weight loss remain unknown because high-quality cohort data collecting clinical features, genetics, omics, and imaging related to the metabolic and disease status of patients are lacking. The investigators hypothesize that weight loss in ALS patients is biologically driven through specific pathways. The investigators propose an innovative and ambitious multidisciplinary project to structure a large French-German cohort to identify markers associated with weight loss. The investigators aim at identifying the biological correlates of weight loss to disentangle the mechanistic basis of this critical symptom and to determine clinical and biological profiles along with their impact on disease progression and survival.",
+  "interventions": [
+    {
+      "type": "OTHER",
+      "name": "Blood sample",
+      "description": "Blood sample will be taken to identify Genomic, metabolomic, metabolic, neurofilaments, and inflammation markers associated to weight loss"
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:58.127274+00:00"
+}

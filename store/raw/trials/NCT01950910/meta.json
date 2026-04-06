@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT01950910",
+  "title": "Establishment of a Tissue Bank (Blood, CSF) for the Understanding of the Disease Progression and Early Diagnosis of Motor Neuron Disease (MND).",
+  "brief_title": "Establishment of a Tissue Bank (Blood, CSF) for the Understanding of Motor Neuron Disease (MND)",
+  "status": "TERMINATED",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 766,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+  ],
+  "keywords": [
+    "Amyotrophic lateral sclerosis",
+    "motor neuron disease",
+    "biological markers",
+    "biomarkers"
+  ],
+  "sponsor": "Wake Forest University Health Sciences",
+  "sponsor_class": "OTHER",
+  "collaborators": [],
+  "lead_pi": {
+    "name": "Benjamin R Brooks, MD",
+    "affiliation": "Neurosciences Institute, Neurology - Charlotte"
+  },
+  "start_date": "2004-03-29",
+  "completion_date": "2020-10-29",
+  "primary_completion_date": "2017-12-31",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "blood samples (serum and protein/RNA/DNA from blood cells) and CSF",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Neurosciences Institute, Neurology - Charlotte",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* 18 years old or older\n\nExclusion Criteria:\n\n* less than 18 years old",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Levels of ALS biomarkers in blood",
+      "description": "Blood samples will be processed to obtain serum samples and to isolate peripheral blood mononuclear cells (PBMC's). Serum samples will be analyzed for biochemical and metabolic markers of interest and future cell culture as needed. PBMCs will be processed for RNA, DNA or protein isolation. Aliquots of all samples will be stored for future study.",
+      "timeFrame": "After blood is collected from study subjects. Data will be analyzed at one year."
+    },
+    {
+      "measure": "Levels of ALS biomarkers in CSF",
+      "description": "CSF samples will be processed and assayed for biomarkers of interest. An aliquot of CSF sample will be stored for future study.",
+      "timeFrame": "After CSF is collected from study subject. Data will be analyzed at one year."
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "Biomarkers are essential for the identification of disease states. There are no early diagnostic or prognostic markers for ALS. The purpose of this study is to identify a panel of biomarkers from blood or spinal fluid of ALS patients and to collect data to better understand disease progression.",
+  "detailed_description": "Amyotrophic lateral sclerosis (ALS) is a motor neuron disease characterized by progressive degeneration of motor neurons, muscle atrophy and paralysis. There is no reliable early diagnostic test for ALS making identification of the disease difficult at its earliest stages. Early detection is critical to the initiation of early neuroprotective therapy. By the time a reliable diagnosis can be made, substantial damage to motor neurons and muscle has already occurred. The purpose of the current project is to establish a bank of blood samples (serum and protein/RNA/DNA from blood cells) and CSF for use in the development of an early diagnostic test for ALS and to better understand the progression of this disease.\n\nSamples from patients that have a confirmed or unknown diagnosis of motor neuron disease will be examined. ALS and suspected neuromuscular disease (control) samples will be collected for comparison. Investigators will examine various biochemical, metabolic and genetic markers from these samples in hopes of finding differences in the expression between control subjects and ALS patients and how these biomarkers vary during disease progression. Participants will be asked to complete an optional questionnaire to collect data including medication and vitamin use and medical and disease history. This data will be linked to the patient's samples; however, all samples will be deidentified and coded to avoid the possibility of linking results to the patient. Results will not be stored in the patient's medical record.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:54.819643+00:00"
+}

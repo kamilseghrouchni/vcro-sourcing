@@ -1,0 +1,215 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04961450",
+      "orgStudyIdInfo": {
+        "id": "M2020461"
+      },
+      "organization": {
+        "fullName": "Peking University Third Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Explore Biomarkers of Motor Neuron Disease/Frontal Dementia Spectrum Disease in China",
+      "officialTitle": "A Study on the Biomarkers of Motor Neuron Disease/Frontal Dementia Spectrum Disease in China"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-06",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-06-24",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-06-24",
+      "studyFirstSubmitQcDate": "2021-07-13",
+      "studyFirstPostDateStruct": {
+        "date": "2021-07-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-07-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-07-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Peking University Third Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "1. To investigate the biomarkers of MND/FTD spectrum disease\n2. To explore the possible pathogenesis of MND/FTD",
+      "detailedDescription": "Motor neuron disease (MND) is a group of disease characterized by motor neuron disorders and neurodegeneration. MND and frontotemporal dementia (FTD) were believed to comprise a neurodegenerative disease spectrum. The prognosis of the disease spectrum varies according to the type of disease, and the diagnosis of patients is often delayed due to insufficient diagnostic biomarkers. In recent years, the academic community has made significant progress in the study of biomarkers of the disease, but there is still a lack of specific biomarkers with strong diagnostic value. Besides, the low prevalence makes it difficult to carry out studies with large samples. The aim of this study was to explore diagnostic biomarkers of the disease spectrum by collecting variable samples from a large group of patients. The findings will both offer a better understanding of MND/FTD spectrum disease and also support the development of a model to study other rare diseases."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis",
+        "Frontotemporal Dementia",
+        "Motor Neuron Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Samples with DNA, proteins, miRNA or other biochemical substances Serum, plasma, salvia, excrement, cerebrospinal fluid, peripheral nerves or muscle tissue if it's available"
+      },
+      "enrollmentInfo": {
+        "count": 2500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Patients",
+          "description": "Inclusion Criteria:\n\n1. Patients aged 18-80 years who visit Peking University Third Hospital, Beijing, China from December 2020.\n\n   Patients who diagnosis MND/FTD spectrum disease (including ALS, FAS, FLS, PLS, PBP, PMA, FTD, MND-FTD) by an experienced neurologist strictly according to a list of diagnosis criteria and clinical guidelines\n2. Informed consent signed\n\nExclusion Criteria\n\n1. Patients who receive alternative diagnoses during the follow-up.\n2. Patients who refuse to sign informed consent."
+        },
+        {
+          "label": "Control",
+          "description": "Control group consists of individuals matched for gender and age with the patients who are mainly the caregivers of the patients, including but not limited to the patients' spouses and their long-term nurses.\n\nExclusion criteria:\n\n1. Suffering from neurological disease, including but not limited to motor neuron disease/frontotemporal dementia spectrum disease, dementia, Alzheimer's disease, Parkinson's disease, multiple sclerosis, neuromyelitis and so on.\n2. Individuals who refuse to sign informed consent."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Biomarker differences of the spectrum disease",
+          "description": "Biomarkers including specific protein, miRNA, DNA , which was obtained by collecting blood, saliva, feces, cerebrospinal fluid, muscle tissue and nerve tissue. The differences of biomarkers between patients and healthy subjects were analyzed statistically in general.",
+          "timeFrame": "through study completion, less than 10 years."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Patients:\n\nInclusion Criteria:\n\n1. Patients aged 18-80 years who visit Peking University Third Hospital, Beijing, China from December 2020.\n\n   Patients who diagnosis MND/FTD spectrum disease (including ALS, FAS, FLS, PLS, PBP, PMA, FTD, MND-FTD) by an experienced neurologist strictly according to a list of diagnosis criteria and clinical guidelines\n2. Informed consent signed Exclusion Criteria\n\n   * Patients who receive alternative diagnoses during the follow-up.\n   * Patients who refuse to sign informed consent.\n\nControl group:\n\nControl group consists of individuals matched for gender and age with the patients who are mainly the caregivers of the patients, including but not limited to the patients' spouses and their long-term nurses.\n\nExclusion criteria:\n\n1. Suffering from neurological disease, including but not limited to motor neuron disease/frontotemporal dementia spectrum disease, dementia, Alzheimer's disease, Parkinson's disease, multiple sclerosis, neuromyelitis and so on.\n2. Individuals who refuse to sign informed consent.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "MND/FTD patients in China",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Dongsheng Fan",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100191",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "D057180",
+          "term": "Frontotemporal Dementia"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D057174",
+          "term": "Frontotemporal Lobar Degeneration"
+        },
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,372 @@
+{
+  "pmid": "40551285",
+  "pmc": "PMC12185245",
+  "doi": "10.1002/alz.14573",
+  "title": "Diagnostic performance of plasma Aβ42/40 ratio, p‐tau181, GFAP, and NfL along the continuum of Alzheimer's disease and non‐AD dementias: An international multi‐center study",
+  "journal": "Alzheimer's & Dementia",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Doecke James D.",
+      "affiliations": [
+        "Australian E‐Health Research Centre CSIRO Herston Queensland Australia"
+      ]
+    },
+    {
+      "name": "Bellomo Giovanni",
+      "affiliations": [
+        "Section of Neurology Laboratory of Clinical Neurochemistry Department of Medicine and Surgery University of Perugia Perugia Italy"
+      ]
+    },
+    {
+      "name": "Vermunt Lisa",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands",
+        "Alzheimer Center Amsterdam Department of Neurology Amsterdam Neuroscience Amsterdam University Medical Centers Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Alcolea Daniel",
+      "affiliations": [
+        "Department of Neurology Institut d'Investigacions Biomèdiques Sant Pau ‐ Hospital de Sant Pau Universitat Autònoma de Barcelona Hospital de la Santa Creu i Sant Pau Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Halbgebauer Steffen",
+      "affiliations": [
+        "Department of Neurology University of Ulm Ulm Germany"
+      ]
+    },
+    {
+      "name": "in ’t Veld Sjors",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands",
+        "Translational AI in Laboratory Medicine Department of Laboratory Medicine Location VUmc Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Mattsson‐Carlgren Niklas",
+      "affiliations": [
+        "Clinical Memory Research Unit Department of Clinical Sciences Malmö Faculty of Medicine Lund University Lund Sweden",
+        "Neurology Clinic Skåne University Hospital Malmö Sweden",
+        "Wallenberg Center for Molecular Medicine Lund University Lund Sweden"
+      ]
+    },
+    {
+      "name": "Veverova Katerina",
+      "affiliations": [
+        "Memory Clinic Department of Neurology Charles University Second Faculty of Medicine and Motol University Hospital Prague Czech Republic"
+      ]
+    },
+    {
+      "name": "Fowler Christopher J.",
+      "affiliations": [
+        "The University of Melbourne The Florey Institute Victoria Melbourne Australia"
+      ]
+    },
+    {
+      "name": "Boonkamp Lynn",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Houtkamp Isabel M.",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands",
+        "Translational AI in Laboratory Medicine Department of Laboratory Medicine Location VUmc Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Koel‐Simmerlink Marleen",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Verberk Inge M. W.",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Gaetani Lorenzo",
+      "affiliations": [
+        "Section of Neurology Laboratory of Clinical Neurochemistry Department of Medicine and Surgery University of Perugia Perugia Italy"
+      ]
+    },
+    {
+      "name": "Toja Andrea",
+      "affiliations": [
+        "Section of Neurology Laboratory of Clinical Neurochemistry Department of Medicine and Surgery University of Perugia Perugia Italy"
+      ]
+    },
+    {
+      "name": "Wojdała Anna Lidia",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Fortea Juan",
+      "affiliations": [
+        "Department of Neurology Institut d'Investigacions Biomèdiques Sant Pau ‐ Hospital de Sant Pau Universitat Autònoma de Barcelona Hospital de la Santa Creu i Sant Pau Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Pijnenburg Yolande",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Department of Neurology Amsterdam Neuroscience Amsterdam University Medical Centers Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Lemstra Afina",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Department of Neurology Amsterdam Neuroscience Amsterdam University Medical Centers Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "van der Flier Wiesje",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Department of Neurology Amsterdam Neuroscience Amsterdam University Medical Centers Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Hort Jakub",
+      "affiliations": [
+        "Memory Clinic Department of Neurology Charles University Second Faculty of Medicine and Motol University Hospital Prague Czech Republic"
+      ]
+    },
+    {
+      "name": "Otto Markus",
+      "affiliations": [
+        "Department of Neurology University of Ulm Ulm Germany"
+      ]
+    },
+    {
+      "name": "Hansson Oskar",
+      "affiliations": [
+        "Clinical Memory Research Unit Department of Clinical Sciences Malmö Faculty of Medicine Lund University Lund Sweden",
+        "Memory Clinic Skåne University Hospital Malmö Sweden"
+      ]
+    },
+    {
+      "name": "Parnetti Lucilla",
+      "affiliations": [
+        "Section of Neurology Laboratory of Clinical Neurochemistry Department of Medicine and Surgery University of Perugia Perugia Italy"
+      ]
+    },
+    {
+      "name": "Masters Colin L.",
+      "affiliations": [
+        "The University of Melbourne The Florey Institute Victoria Melbourne Australia"
+      ]
+    },
+    {
+      "name": "Lleó Alberto",
+      "affiliations": [
+        "Department of Neurology Institut d'Investigacions Biomèdiques Sant Pau ‐ Hospital de Sant Pau Universitat Autònoma de Barcelona Hospital de la Santa Creu i Sant Pau Barcelona Spain"
+      ]
+    },
+    {
+      "name": "González‐Escalante Armand",
+      "affiliations": [
+        "Barcelonaβeta Brain Research Center (BBRC) Pasqual Maragall Foundation Sant Martí Barcelona Spain",
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain",
+        "Faculty of Medicine and Life Sciences Universitat Pompeu Fabra Carrer de la Mercè Ciutat Vella Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Contador José",
+      "affiliations": [
+        "Barcelonaβeta Brain Research Center (BBRC) Pasqual Maragall Foundation Sant Martí Barcelona Spain",
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain",
+        "Cognitive and Behavioural Neurology Unit Department of Neurology Hospital del Mar Ciutat Vella Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Suárez‐Calvet Marc",
+      "affiliations": [
+        "Barcelonaβeta Brain Research Center (BBRC) Pasqual Maragall Foundation Sant Martí Barcelona Spain",
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain",
+        "Faculty of Medicine and Life Sciences Universitat Pompeu Fabra Carrer de la Mercè Ciutat Vella Barcelona Spain",
+        "Centro de Investigación Biomédica en Red de Fragilidad y Envejecimiento Saludable (CIBERFES) Instituto de Salud Carlos III Madrid Spain"
+      ]
+    },
+    {
+      "name": "Fernández‐Lebrero Aida",
+      "affiliations": [
+        "Barcelonaβeta Brain Research Center (BBRC) Pasqual Maragall Foundation Sant Martí Barcelona Spain",
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain",
+        "Faculty of Medicine and Life Sciences Universitat Pompeu Fabra Carrer de la Mercè Ciutat Vella Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Puig‐Pijoan Albert",
+      "affiliations": [
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain",
+        "Faculty of Medicine and Life Sciences Universitat Pompeu Fabra Carrer de la Mercè Ciutat Vella Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Ortiz‐Romero Paula",
+      "affiliations": [
+        "Barcelonaβeta Brain Research Center (BBRC) Pasqual Maragall Foundation Sant Martí Barcelona Spain",
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Jiménez‐Moyano Esther",
+      "affiliations": [
+        "Barcelonaβeta Brain Research Center (BBRC) Pasqual Maragall Foundation Sant Martí Barcelona Spain",
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Minguillón Carolina",
+      "affiliations": [
+        "Barcelonaβeta Brain Research Center (BBRC) Pasqual Maragall Foundation Sant Martí Barcelona Spain",
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain",
+        "Centro de Investigación Biomédica en Red de Fragilidad y Envejecimiento Saludable (CIBERFES) Instituto de Salud Carlos III Madrid Spain",
+        "Departamento de Ciencias Farmacéuticas y de la Salud Facultad de Farmacia Universidad San Pablo‐CEU CEU Universities, Urbanización Montepríncipe Fuencarral‐El Pardo Spain"
+      ]
+    },
+    {
+      "name": "del Campo Marta",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands",
+        "Barcelonaβeta Brain Research Center (BBRC) Pasqual Maragall Foundation Sant Martí Barcelona Spain",
+        "Department of Neurology Hospital del Mar Research Institute Ciutat Vella Barcelona Spain",
+        "Cognitive and Behavioural Neurology Unit Department of Neurology Hospital del Mar Ciutat Vella Barcelona Spain"
+      ]
+    },
+    {
+      "name": "Teunissen Charlotte",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Amsterdam University Medical Center Vrije Universiteit Amsterdam the Netherlands"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "amyloid beta",
+    "dementia with Lewy bodies",
+    "frontotemporal dementia",
+    "plasma biomarkers"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "European Research Council 10.13039/501100000781ADG‐101096455",
+    "GHR Foundation 10.13039/100015595",
+    "Swedish Research Council 10.13039/5011000043592022‐00775",
+    "ERA PerMedERAPERMED2021‐184",
+    "Knut and Alice Wallenberg foundation2022‐0231",
+    "Strategic Research Area MultiPark",
+    "Lund University 10.13039/501100003252",
+    "Swedish Alzheimer FoundationAF‐980907",
+    "Swedish Brain Foundation 10.13039/501100003792FO2021‐0293",
+    "Parkinson foundation of Sweden1412/22",
+    "Cure Alzheimer's fund",
+    "Rönström Family Foundation",
+    "Konung Gustaf V:s och Drottning Victorias Frimurarestiftelse 10.13039/501100006129",
+    "Skåne University Hospital Foundation2020‐O000028",
+    "Regionalt Forskningsstöd2022‐12592022‐Projekt0080",
+    "LCF/PR/GN17/50300004TriBEKa‐17‐519007SGR 00913",
+    "European Commission 10.13039/501100000780",
+    "Marie Curie International Training Network)",
+    "Innovative Medicines Initiatives 3TR",
+    "European Union's Horizon Europe Research",
+    "Innovation Programme",
+    "Alzheimer Association",
+    "Health Holland",
+    "Dutch Research Council",
+    "Alzheimer Drug Discovery Foundation",
+    "The Selfridges Group Foundation",
+    "Alzheimer Netherlands 10.13039/501100010969",
+    "Dutch National Dementia Strategy"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2024-07-23",
+  "accepted": "2024-12-28",
+  "reference_pmids": [
+    "31796674",
+    "34101795",
+    "29878075",
+    "28592453",
+    "35182511",
+    "31481163",
+    "34838239",
+    "36607770",
+    "29653606",
+    "38934362",
+    "36576155",
+    "36221099",
+    "31650016",
+    "34807233",
+    "38830138",
+    "29562540",
+    "33867925",
+    "32101007",
+    "26948379",
+    "34368630",
+    "37977432",
+    "35903119",
+    "32573951",
+    "29067295",
+    "36370462",
+    "24798886",
+    "21514249",
+    "17616482",
+    "16237129",
+    "23359374",
+    "8710059",
+    "21810890",
+    "19949037",
+    "30406175",
+    "29208658",
+    "24721526",
+    "35961506",
+    "33184233",
+    "37874105",
+    "20495550",
+    "37557955",
+    "36447478",
+    "35953717",
+    "32161412",
+    "36087307",
+    "38866966",
+    "34845818",
+    "37243891",
+    "37932961"
+  ],
+  "tables_count": 3,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "background",
+    "research in context",
+    "methods",
+    "participants",
+    "plasma biomarker measurements",
+    "statistical methods",
+    "results",
+    "sample demographics",
+    "biomarker measurements across centers",
+    "biomarker combinations to detect amyloid positivity within the ad continuum",
+    "controls versus dlb continuum",
+    "controls versus frontotemporal dementia continuum",
+    "ad versus non‐ad dementias",
+    "cut‐off derivation via the dual cut‐off model for controls versus ad",
+    "external cross‐validations of the cut‐offs",
+    "discussion",
+    "conflict of interest statement",
+    "consent statement",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 11801,
+  "converted_at": "2026-04-06T22:37:03.201791+00:00"
+}

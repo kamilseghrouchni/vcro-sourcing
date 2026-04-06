@@ -1,0 +1,295 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02759913",
+      "orgStudyIdInfo": {
+        "id": "IronHorseDx001"
+      },
+      "organization": {
+        "fullName": "Iron Horse Diagnostics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate the Performance of a Diagnostic Test in ALS",
+      "officialTitle": "A Study to Evaluate the Sensitivity, Specificity, and Overall Accuracy of an Amyotrophic Lateral Sclerosis Diagnostic Test Developed by Iron Horse Diagnostics"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2016-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-04-04",
+      "studyFirstSubmitQcDate": "2016-04-29",
+      "studyFirstPostDateStruct": {
+        "date": "2016-05-03",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-04-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-05-03",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Andreas Jeromin",
+        "investigatorTitle": "Chief Scientific Officer",
+        "investigatorAffiliation": "Iron Horse Diagnostics, Inc."
+      },
+      "leadSponsor": {
+        "name": "Iron Horse Diagnostics, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Prospective multicenter study of subjects who were recently diagnosed with amyotrophic lateral sclerosis (ALS) or another neurodegenerative disease (including spinal cord diseases, muscle diseases and neurological diseases such as multiple sclerosis, multifocal motor neuropathy, myasthenia gravis and spinal muscular atrophy) or who are currently undergoing diagnostic procedures for the aforementioned diseases.\n\nApproximately 300 subjects will be enrolled. Subjects will undergo a lumbar puncture (LP) for cerebro-spinal fluid (CSF) collection; blood collection for serum, plasma, RNA, and DNA (optional); urine collection (optional); and skin biopsy (optional) in a single visit. No study treatment will be administered.\n\nSubjects will be managed and treated by their respective physicians; choice of therapy or laboratory tests will not be impacted by the study. Clinical diagnosis may be confirmed by the subject's physician and communicated to the study's Principal Investigator (PI) by scheduled telephone calls.",
+      "detailedDescription": "ALS, also known as Lou Gehrig's disease, is a rapidly progressive, degenerative disease of motor neurons in the brain and spinal cord that leads to muscle atrophy and spasticity in limb and bulbar muscles. Clinical presentations of this fatal disease include weakness, loss of ambulation, oropharyngeal dysfunction, weight loss, and ultimately respiratory failure. Average survival is approximately 3 years after symptom onset. The initial symptoms are similar to other neuropathies (e.g., motor neuropathy, progressive muscle atrophy, etc.) and include limb weakness leading to partial or total paralysis, and increasing difficulties in speech and breathing. ALS clinical diagnosis typically takes 12 months from symptom onset and relies on exclusion of other potential causes of the clinical symptoms. To date there are no FDA-approved diagnostic tests for ALS. Diagnostic tools for accurate and early diagnosis are under investigation. These tools would not only permit early intervention, but also would improve clinical trial design for new drug therapies.\n\nAxonal degeneration and inflammation are among proposed pathogenic mechanisms for ALS; therefore, proteins that function within these pathways are being evaluated as potential biomarkers. Iron Horse Diagnostics, Inc. (Iron Horse) has focused its ALS diagnostic efforts on studying the levels of cytoskeletal and inflammatory proteins in the cerebrospinal fluid (CSF) of ALS patients.\n\nCytoskeletal proteins, including neurofilament proteins and tau, have been shown to be elevated in the CSF of patients with various neurodegenerative diseases. Interestingly, levels of phosphorylated neurofilament heavy subunit (pNfH) have been found to be significantly increased in the CSF of ALS patients as compared with healthy subjects, Alzheimer's disease patients or disease mimics Numerous inflammatory proteins, including cytokines and complement proteins, have been shown to be altered in ALS; complement proteins, including complement c3 (C3), have been found to be increased in the CSF of ALS patients.\n\nIron Horse has evaluated CSF samples from 106 subjects (45 ALS patients, 25 disease controls with a range of neurodegenerative conditions, and 36 healthy controls.CSF levels of pNfH, tau, C3, and C reactive protein (CRP) were measured. pNfH was significantly elevated in CSF from ALS subjects as compared with healthy and disease controls; there were no significant differences for CRP or tau. To further distinguish between ALS subjects and disease controls, data from cytoskeletal and inflammatory pathways were combined. A ratio of CSF levels of pNfH and C3 showed significant differences between ALS and both the disease and healthy control groups. Results were verified on a separate test set of CSF samples. Overall, the predictive pNfH/C3 ratio identified ALS with 87.3 % sensitivity and 94.6% specificity in a total of 71 ALS subjects, 52 disease control subjects, and 40 healthy subjects.\n\nIn the same study, it was observed that plasma levels of pNfH were significantly elevated in ALS subjects as compared with healthy controls; however there was no significant difference between ALS and disease controls. Comparison of pNfH levels between the CSF and plasma for each study subject revealed a weak correlation between plasma and CSF pNfH levels.\n\nThe accuracy of pNfH and pNfH/C3 ratio as ALS predictors has also been tested by Iron Horse in a recent prospective, blinded study in collaboration with the Northeast ALS Consortium (NEALS) \\[unpublished data\\]. CSF (n=126) and plasma (n=220) samples were collected from subjects from 30 medical centers across the United States (US) who were undergoing diagnostic assessment for neurodegenerative conditions or who were recently diagnosed with ALS. Accuracy for predicting ALS diagnosis was 93% for CSF pNfH/C3 ratio and 82% for pNfH plasma levels.\n\nThe prospective study proposed in this concept will test the sensitivity, specificity, and overall accuracy of pNfH and pNfH/C3 ratio as ALS predictors on a separate sample set. CSF and matching plasma samples will be collected at up to 6 neurodegenerative clinics from up to 300 subjects who were recently diagnosed with ALS or another similar neurologic disease or who are currently undergoing diagnostic procedures."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "keywords": [
+        "neuromuscular diseases"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Cerebrospinal fluid, EDTA plasma, serum, whole blood (optional) and PAX gene tubes will be collected"
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Amyotrophic lateral sclerosis",
+          "description": "Participants recently diagnosed with ALS in a neuromuscular clinic, using the ALS functional rating scale (ALSFRS-R). Lumbar puncture (LP) for cerebro-spinal fluid (CSF) collection The ALSFRS-R is a quickly administered (5 min) ordinal rating scale used to determine a subject's assessment of their capability and independence in 12 functional activities. There are 12 questions, graded by the subject 0-4 (4 is normal). Score of 0 (worst) to 48 (best). Reflects speech and swallowing, fine motor skills, large motor skills, and breathing.",
+          "interventionNames": [
+            "Procedure: Lumbar puncture"
+          ]
+        },
+        {
+          "label": "ALS mimics",
+          "description": "Other motorneuron disorders, isolated upper and lower motoneuron disorders Lumbar puncture (LP) for cerebro-spinal fluid (CSF) collection",
+          "interventionNames": [
+            "Procedure: Lumbar puncture"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Lumbar puncture",
+          "description": "Collection of biofluids to determine the accuracy, sensitivity and specificity of a diagnostic test developed by Iron Horse Diagnostics",
+          "armGroupLabels": [
+            "ALS mimics",
+            "Amyotrophic lateral sclerosis"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Biomarker Measurement of phosphorylated neurofilament heavy chain (pNfH) and complement C3 in CSF",
+          "description": "Sensitivity, specificity, and overall accuracy of cerebro-spinal fluid (CSF) phosphorylated neurofilament (pNfH) pNfH/C3 ratio to identify ALS in a cohort of subjects who were recently diagnosed with ALS or another neurodegenerative disease or who are currently undergoing diagnostic procedures in the US. These are quantitative measurements of 2 proteins (pNfH) and C3 in cerebrospinal fluid (CSF), pNfH and C3 measurements will be reported in ng/ml and a single quantitative protein measurement of pNfH in ng/ml in plasma. In CS. The ratio of pNfH to C3 will be determined, both measurements for pNfH and C3 in CSF were made in ng/ml. In addition, the single biomarker measurements of pNfH and C3 in ng/ml will be presented. These biomarkers will be measured post-hoc and not for diagnostic decisions.",
+          "timeFrame": "Baseline"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "ALS Functional Rating Scale (ALSFRS-R)",
+          "description": "ALSFRS-R is a quickly administered (5 min) ordinal rating scale used to determine a subject's assessment of their capability and independence in 12 functional activities. There are 12 questions, graded by the subject 0-4 (4 is normal). Score of 0 (worst) to 48 (best). Reflects speech and swallowing, fine motor skills, large motor skills, and breathing.",
+          "timeFrame": "At baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* To be eligible to participate in this study, candidates must meet the following eligibility criteria at the Screening Visit:\n\n  1. Ability to understand the purpose and risks of the study and provide signed and dated informed consent and authorization to use protected health information (PHI) in accordance with national and local subject privacy regulations.\n  2. Aged 21 to 80 years old, inclusive.\n  3. Must meet one of the following:\n\n     * Recent diagnosis of sporadic or familial ALS (within 18 months of first visit for ALS symptoms) according to the World Federation of Neurology El Escorial criteria (revised according to the Airlie House Conference 1998 \\[Brooks 1999\\] ).\n     * Recent diagnosis of neuromuscular disease other than ALS (within 12 months of first visit for neurologic symptoms).\n     * Undergoing diagnostic procedures for neuromuscular disease.\n  4. Willingness and medical ability to comply with scheduled visits, LP for CSF collection, laboratory tests, and other study procedures.\n\nExclusion Criteria:\n\n* Candidates will be excluded from study entry if any of the following exclusion criteria exist at the Screening Visit:\n\n  1. Any contraindications to having an LP, including but not limited to:\n\n     * Platelet count \\<100,000/µL.\n     * History of bleeding disorder.\n     * Use of platelet antiaggregant or anticoagulant drugs, including but not limited to clopidogrel, dipyridamole, ticlopidine , and warfarin. Use of aspirin at a prophylactic dose of 75-325 mg r less is acceptable.\n     * History of intolerance to the LP procedure.\n     * Evidence of topical or other skin infection at the LP site.\n     * Prior spinal fusion surgery or other spinal surgery at the LP site.\n  2. If undergoing skin biopsy, evidence of topical or other skin infection at the biopsy site.\n  3. History of allergy or other adverse reaction to local anesthetics used in the study.\n  4. History of traumatic central nervous system injury or stroke.\n  5. History of chronic liver or renal failure.\n  6. Requirement for artificial respiration, including tracheostomy and any use of bilevel positive airway pressure (BiPAP) therapy.\n  7. Female subjects who are pregnant or currently breastfeeding.\n  8. Current enrollment in any other investigational drug, medical devices, or disease study.\n  9. Other unspecified reasons that, in the opinion of the Investigator or Iron Horse, make the subject unsuitable for enrollment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "ALS and other motoneuron diseases (ALS mimics)",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Andreas Jeromin, PhD",
+          "role": "CONTACT",
+          "phone": "3526727358",
+          "email": "andreasjeromin@ironhorsedx.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Andreas Jeromin, PhD",
+          "affiliation": "Iron Horse Diagnostics",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cleveland Clinic",
+          "status": "RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Irys Caristo",
+              "role": "CONTACT",
+              "phone": "261-444-0173",
+              "email": "caristi@ccf.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013129",
+          "term": "Spinal Puncture"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001706",
+          "term": "Biopsy"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D003943",
+          "term": "Diagnostic Techniques, Neurological"
+        },
+        {
+          "id": "D011677",
+          "term": "Punctures"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

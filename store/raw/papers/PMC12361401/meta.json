@@ -1,0 +1,546 @@
+{
+  "pmid": "40825784",
+  "pmc": "PMC12361401",
+  "doi": "10.1038/s41467-025-63031-y",
+  "title": "Investigational eIF2B activator DNL343 modulates the integrated stress response in preclinical models of TDP-43 pathology and individuals with ALS in a randomized clinical trial",
+  "journal": "Nature Communications",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Flores Brittany N.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        "https://ror.org/02evt3n510000 0005 0975 8106Present Address: insitro, South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Yu Seungyoon B.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Cohen Isaac V.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Fanok Melania H.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Luan Wei",
+      "affiliations": [
+        "https://ror.org/00rqy9422grid.1003.20000 0000 9320 7537Neurodegeneration Pathobiology Laboratory, Clem Jones Centre for Ageing Dementia Research, Queensland Brain Institute, The University of Queensland, St Lucia, QLD 4072 Australia"
+      ]
+    },
+    {
+      "name": "Maciuca Romeo D.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Sun Linus D.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        "https://ror.org/02f51rf24grid.418961.30000 0004 0472 2713Present Address: Regeneron Pharmaceuticals Inc., Tarrytown, NY 10591 USA"
+      ]
+    },
+    {
+      "name": "Tsai Richard M.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Vissers Maurits",
+      "affiliations": [
+        "https://ror.org/044hshx49grid.418011.d0000 0004 0646 7664Centre for Human Drug Research; Zernikedreef 8, 2333 CL Leiden, the Netherlands"
+      ]
+    },
+    {
+      "name": "Smits Lars",
+      "affiliations": [
+        "https://ror.org/044hshx49grid.418011.d0000 0004 0646 7664Centre for Human Drug Research; Zernikedreef 8, 2333 CL Leiden, the Netherlands",
+        "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Leiden University Medical Center; Albinusdreef 2, 2333 ZA Leiden, the Netherlands"
+      ]
+    },
+    {
+      "name": "Bunte Tommy M.",
+      "affiliations": [
+        "https://ror.org/0575yy874grid.7692.a0000 0000 9012 6352The University Medical Center Utrecht; Heidelberglaan 100, 3584 CX Utrecht, the Netherlands"
+      ]
+    },
+    {
+      "name": "Bakardjiev Anna",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        "https://ror.org/056546b03grid.418227.a0000 0004 0402 1634Present Address: Gilead Sciences Inc., Foster City, CA 94404 USA"
+      ]
+    },
+    {
+      "name": "Balasundar Srijana",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Calvert Meredith E. K.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Chin Marcus Y.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Dobbins Sarah K.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Dowdle William E.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        "https://ror.org/05467hx490000 0005 0774 3285Present Address: Altos Labs, Redwood City, CA 94065 USA"
+      ]
+    },
+    {
+      "name": "Fang Meng",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Heuberger Jules A. A. C.",
+      "affiliations": [
+        "https://ror.org/044hshx49grid.418011.d0000 0004 0646 7664Centre for Human Drug Research; Zernikedreef 8, 2333 CL Leiden, the Netherlands"
+      ]
+    },
+    {
+      "name": "Ha Connie L.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Huang Fen",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        ""
+      ]
+    },
+    {
+      "name": "Miyamoto Takashi",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Osipov Maksim",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        ""
+      ]
+    },
+    {
+      "name": "Madrid San Martin Lidia",
+      "affiliations": [
+        "https://ror.org/00rqy9422grid.1003.20000 0000 9320 7537Neurodegeneration Pathobiology Laboratory, Clem Jones Centre for Ageing Dementia Research, Queensland Brain Institute, The University of Queensland, St Lucia, QLD 4072 Australia"
+      ]
+    },
+    {
+      "name": "Saund Katie",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Tatarakis David",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Vu Anthony Q.",
+      "affiliations": [
+        "https://ror.org/05t99sp05grid.468726.90000 0004 0486 2046Dept of Cellular and Molecular Medicine, University of California; San Diego, La Jolla, CA 92037 USA"
+      ]
+    },
+    {
+      "name": "Xiong Chenling",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        "https://ror.org/056546b03grid.418227.a0000 0004 0402 1634Present Address: Gilead Sciences Inc., Foster City, CA 94404 USA"
+      ]
+    },
+    {
+      "name": "Yeo Gene W.",
+      "affiliations": [
+        "https://ror.org/05t99sp05grid.468726.90000 0004 0486 2046Dept of Cellular and Molecular Medicine, University of California; San Diego, La Jolla, CA 92037 USA",
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Sanford Stem Cell Institute and Stem Cell Program, UC San Diego, La Jolla, CA 92037 USA",
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Institute for Genomic Medicine, UC San Diego, La Jolla, CA 92037 USA",
+        ""
+      ]
+    },
+    {
+      "name": "Groeneveld Geert Jan",
+      "affiliations": [
+        "https://ror.org/044hshx49grid.418011.d0000 0004 0646 7664Centre for Human Drug Research; Zernikedreef 8, 2333 CL Leiden, the Netherlands",
+        "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Leiden University Medical Center; Albinusdreef 2, 2333 ZA Leiden, the Netherlands"
+      ]
+    },
+    {
+      "name": "van den Berg Leonard H.",
+      "affiliations": [
+        "https://ror.org/0575yy874grid.7692.a0000 0000 9012 6352The University Medical Center Utrecht; Heidelberglaan 100, 3584 CX Utrecht, the Netherlands"
+      ]
+    },
+    {
+      "name": "Dhuria Shyeilla",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Estrada Anthony A.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        ""
+      ]
+    },
+    {
+      "name": "Jennings Danna",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Sandmann Thomas",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Ho Carole",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Scearce-Levie Kimberly",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        ""
+      ]
+    },
+    {
+      "name": "Yulyaningsih Ernie",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA",
+        ""
+      ]
+    },
+    {
+      "name": "Walker Adam K.",
+      "affiliations": [
+        "https://ror.org/00rqy9422grid.1003.20000 0000 9320 7537Neurodegeneration Pathobiology Laboratory, Clem Jones Centre for Ageing Dementia Research, Queensland Brain Institute, The University of Queensland, St Lucia, QLD 4072 Australia",
+        "https://ror.org/0384j8v12grid.1013.30000 0004 1936 834XSydney Pharmacy School, Faculty of Medicine and Health, The University of Sydney, Sydney, NSW 2006 Australia"
+      ]
+    },
+    {
+      "name": "Di Paolo Gilbert",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Kane Lesley A.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Troyer Matthew D.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    },
+    {
+      "name": "Lewcock Joseph W.",
+      "affiliations": [
+        "https://ror.org/00pprn321grid.491115.90000 0004 5912 9212Denali Therapeutics Inc.; 161 Oyster Point Blvd., South San Francisco, CA 94080 USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Diagnostic markers",
+    "Amyotrophic lateral sclerosis",
+    "Mechanisms of disease",
+    "Drug development",
+    "Phase I trials"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data availabilityData associated with this research is present in the paper or in the Supplementary Information. Raw RNA-seq data (FASTQ files) and metadata for tissue samples were originally downloaded from the NY Genome Center’s Collaborator Portal on 2021/09/09. The TargetALS consortium has since made this data publicly available via the NCBI GEO repository as part of Superseries GSE137810. Bulk RNA-seq data from in vitro models has been deposited at the NCBI GEO repository as Superseries GSE281960. DNL343 analogs can be made available through a material transfer agreement by submitting a request at https://denalitherapeutics.com/contact. All individual participant data collected during the clinical trials, that underlie the results of this manuscript that do not include identifying information, will be available to investigators whose proposed use of the data has been approved by the study sponsor. The data is available beginning 9 months and ending 36 months following the publication of this manuscript. Proposals may be submitted directly to the study sponsor at data-requests@dnli.com. The study protocol will be available upon request to the study sponsor. Source data are provided with this paper.",
+  "license": "",
+  "received": "2025-03-31",
+  "accepted": "2025-08-07",
+  "reference_pmids": [
+    "32931756",
+    "32931756",
+    "31866818",
+    "31866818",
+    "35334234",
+    "35334234",
+    "29916020",
+    "29916020",
+    "35905138",
+    "35905138",
+    "27015757",
+    "27015757",
+    "35101542",
+    "35101542",
+    "17023659",
+    "17023659",
+    "17084815",
+    "17084815",
+    "35197626",
+    "35197626",
+    "26250685",
+    "26250685",
+    "35197628",
+    "35197628",
+    "30643298",
+    "30643298",
+    "36922834",
+    "36922834",
+    "35567447",
+    "35567447",
+    "36927019",
+    "36927019",
+    "37996528",
+    "37996528",
+    "23931993",
+    "23931993",
+    "29118263",
+    "29118263",
+    "34759799",
+    "34759799",
+    "24336168",
+    "24336168",
+    "37012334",
+    "37012334",
+    "29302060",
+    "29302060",
+    "29222490",
+    "29222490",
+    "29507424",
+    "29507424",
+    "29942091",
+    "29942091",
+    "30617154",
+    "30617154",
+    "37073950",
+    "37073950",
+    "32690681",
+    "32690681",
+    "20948999",
+    "20948999",
+    "22306778",
+    "22306778",
+    "21819629",
+    "21819629",
+    "19765185",
+    "19765185",
+    "21173160",
+    "21173160",
+    "21257637",
+    "21257637",
+    "38744273",
+    "38744273",
+    "30948513",
+    "30948513",
+    "19465477",
+    "19465477",
+    "23629963",
+    "23629963",
+    "30893049",
+    "30893049",
+    "28405022",
+    "28405022",
+    "29373831",
+    "29373831",
+    "31272829",
+    "31272829",
+    "31402619",
+    "31402619",
+    "35579296",
+    "35579296",
+    "30624206",
+    "30624206",
+    "29489452",
+    "29489452",
+    "39287504",
+    "39287504",
+    "35887167",
+    "35887167",
+    "17716997",
+    "17716997",
+    "36543887",
+    "36543887",
+    "24312274",
+    "24312274",
+    "32327570",
+    "32327570",
+    "23741617",
+    "23741617",
+    "28696288",
+    "28696288",
+    "33258451",
+    "33258451",
+    "29599213",
+    "29599213",
+    "29599245",
+    "29599245",
+    "30024379",
+    "30024379",
+    "38511649",
+    "38511649",
+    "32310257",
+    "32310257",
+    "23354059",
+    "23354059",
+    "24154603",
+    "24154603",
+    "26197969",
+    "26197969",
+    "27629041",
+    "27629041",
+    "29992704",
+    "29992704",
+    "33031577",
+    "33031577",
+    "18396105",
+    "18396105",
+    "18372902",
+    "18372902",
+    "18309045",
+    "18309045",
+    "30355151",
+    "30355151",
+    "31320759",
+    "31320759",
+    "33021824",
+    "33021824",
+    "23333938",
+    "23333938",
+    "26627716",
+    "26627716",
+    "25875391",
+    "25875391",
+    "33531382",
+    "33531382",
+    "30605685",
+    "30605685",
+    "25806427",
+    "25806427",
+    "31422865",
+    "31422865",
+    "32093728",
+    "32093728",
+    "33362237",
+    "33362237",
+    "17076895",
+    "17076895",
+    "24925680",
+    "24925680",
+    "23104886",
+    "23104886",
+    "28263959",
+    "28263959",
+    "24485249",
+    "24485249",
+    "25605792",
+    "25605792",
+    "26121170",
+    "26121170"
+  ],
+  "tables_count": 0,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "dnl343 prevents isr induced by expression of cytoplasmic tdp-43 and",
+    "dnl343 prevents de novo stress granule formation and dissolves preformed stress granules",
+    "dnl343 prevents stress granule formation in als-linked human ipsc-derived neurons",
+    "acute dosing of a cns penetrant eif2b activator reduces isr activation in an als mouse model",
+    "chronic dosing of a cns penetrant eif2b activator reduces isr and transiently delays progression of locomotor deficits in an als mouse model",
+    "isr activation is detectable in the spinal cord and csf of individuals with als",
+    "human pbmcs can be used to model isr pathway activation",
+    "dnl343 clinical trials in healthy participants and participants with als",
+    "dnl343 plasma pharmacokinetics and csf distribution in healthy participants and participants with als",
+    "dnl343 inhibits isr activity in healthy participants and participants with als",
+    "dnl343 is generally well tolerated in healthy participants and participants with als",
+    "discussion",
+    "methods",
+    "study design",
+    "small molecules eif2b activators",
+    "cell line development and maintenance",
+    "chemical stressors and dnl343 treatments in h4 inducible cells and hek293 cells",
+    "maintenance and generation of ipsc-derived motor neurons",
+    "generation of ipsc-derived ngn2 neurons",
+    "generation of ipsc-derived forebrain neurons",
+    "stress and eif2b compound treatments in ineurons",
+    "immunocytochemistry",
+    "electrochemiluminescence-based detection (eclia) for the quantification of atf4 protein",
+    "rna-sequencing in h4 and hek293 cells",
+    "microscopy and image analysis",
+    "high-content confocal microscopy for fixed and live cells",
+    "super resolution microscopy",
+    "animals",
+    "nonclinical drug (dn9058) formulation and dosing experimental procedures",
+    "mouse plasma and tissue collection procedure",
+    "dn9058 pharmacokinetics",
+    "qpcr gene expression analysis from mouse brain tissue",
+    "protein extraction and immunoblotting analysis from mouse brain tissue",
+    "mouse monitoring for body weight and neurological score evaluation",
+    "rotarod test",
+    "inverted grid suspension test",
+    "detection of mouse plasma nfl",
+    "gene expression in human als spinal cord samples",
+    "isr gsea analysis of bulk rna-seq from spinal cord tissue of als vs healthy controls (target als)",
+    "preclinical isr gene expression in pbmcs from freshly collected whole blood",
+    "preclinical isr gene expression in cryopreserved pbmcs from als patients",
+    "fluidigm assays",
+    "preclinical isr gene expression analysis in pbmcs and als spinal cord samples",
+    "phase 1 study design",
+    "phase 1b study design",
+    "study outcomes",
+    "pharmacokinetic assessments from clinical trials",
+    "clinical pd pbmc assays",
+    "clinical isr gene expression analysis in human pbmcs",
+    "clinical atf4 protein level analysis in human pbmcs",
+    "gdf-15 protein level measurements and analysis in human csf",
+    "statistics and reproducibility",
+    "preclinical studies",
+    "clinical studies",
+    "reporting summary",
+    "supplementary information",
+    "source data",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 25209,
+  "converted_at": "2026-04-06T22:37:19.957619+00:00"
+}

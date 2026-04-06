@@ -1,0 +1,145 @@
+{
+  "pmid": "41383880",
+  "pmc": "PMC12689267",
+  "doi": "10.1002/dad2.70228",
+  "title": "Machine learning models of Alzheimer's disease spectrum using blood tests",
+  "journal": "Alzheimer's & Dementia : Diagnosis, Assessment & Disease Monitoring",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Falasca Nicola Walter",
+      "affiliations": [
+        "Department of Neuroscience, Imaging, and Clinical Sciences G. d'Annunzio University of Chieti‐Pescara Chieti Italy"
+      ]
+    },
+    {
+      "name": "Ferretti Antonio",
+      "affiliations": [
+        "Department of Neuroscience, Imaging, and Clinical Sciences G. d'Annunzio University of Chieti‐Pescara Chieti Italy",
+        "UdA‐TechLab Research Center University \"G. d'Annunzio\" of Chieti‐Pescara Chieti Italy",
+        "Institute for Advanced Biomedical Technologies G. d'Annunzio University of Chieti‐Pescara Chieti Italy"
+      ]
+    },
+    {
+      "name": "Granzotto Alberto",
+      "affiliations": [
+        "Department of Neuroscience, Imaging, and Clinical Sciences G. d'Annunzio University of Chieti‐Pescara Chieti Italy",
+        "Center for Advanced Studies and Technology – CAST G. d'Annunzio University of Chieti‐Pescara Chieti Italy"
+      ]
+    },
+    {
+      "name": "Sensi Stefano L.",
+      "affiliations": [
+        "Department of Neuroscience, Imaging, and Clinical Sciences G. d'Annunzio University of Chieti‐Pescara Chieti Italy",
+        "Institute for Advanced Biomedical Technologies G. d'Annunzio University of Chieti‐Pescara Chieti Italy",
+        "Center for Advanced Studies and Technology – CAST G. d'Annunzio University of Chieti‐Pescara Chieti Italy",
+        "Institute of Neurology SS Annunziata University Hospital, Chieti, University of Chieti‐Pescara Chieti Italy"
+      ]
+    },
+    {
+      "name": "Franciotti Raffaella",
+      "affiliations": [
+        "Department of Neuroscience, Imaging, and Clinical Sciences G. d'Annunzio University of Chieti‐Pescara Chieti Italy",
+        "UdA‐TechLab Research Center University \"G. d'Annunzio\" of Chieti‐Pescara Chieti Italy",
+        "Institute for Advanced Biomedical Technologies G. d'Annunzio University of Chieti‐Pescara Chieti Italy"
+      ]
+    },
+    {
+      "name": "for the Alzheimer's Disease Neuroimaging Initiative (ADNI)",
+      "affiliations": []
+    }
+  ],
+  "keywords": [
+    "apolipoprotein E (APOE) ε4 allele",
+    "cholesterol‐related analytes",
+    "circulating peripheral biomarkers",
+    "fatty acids",
+    "glycolysis‐related metabolites",
+    "mild cognitive impairment (MCI)",
+    "supervised support vector machine (SVM) algorithm"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "European Union – NextGenerationEU, Mission 4, Component1, under the Italian Ministry and Research (MUR) National Innovation Ecosystem ECS00000041 ‐ Vitality ‐ CUP D73C22000840006"
+  ],
+  "data_availability_text": "DATA AVAILABILITY STATEMENTThe original data used in this manuscript are available for download in the ADNI database (https://adni.loni.usc.edu).",
+  "license": "",
+  "received": "2025-06-11",
+  "accepted": "2025-11-06",
+  "reference_pmids": [
+    "32126274",
+    "33672696",
+    "37202517",
+    "37202514",
+    "33427736",
+    "24951455",
+    "40665049",
+    "36348357",
+    "33340485",
+    "34815562",
+    "38065226",
+    "32050773",
+    "18824671",
+    "21149810",
+    "32365816",
+    "30820047",
+    "40117001",
+    "38750570",
+    "36850682",
+    "37838690",
+    "28740125",
+    "27177774",
+    "34958023",
+    "37357100",
+    "12657430",
+    "7783869",
+    "10439121",
+    "32358220",
+    "39075118",
+    "35156387",
+    "19885299",
+    "15750215",
+    "35104494",
+    "24747741",
+    "21376239",
+    "30383244",
+    "25501348",
+    "37063328",
+    "38659706",
+    "18547682",
+    "21841258",
+    "22521584",
+    "36209301",
+    "22258513",
+    "31467258",
+    "31059801",
+    "23700429"
+  ],
+  "tables_count": 3,
+  "figures_count": 3,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods",
+    "participants",
+    "research in context",
+    "peripheral biomarkers",
+    "statistical analysis",
+    "ml algorithms",
+    "predictive features",
+    "results",
+    "statistical results",
+    "machine learning results",
+    "diagnostic features",
+    "discussion",
+    "conflict of interest statement",
+    "consent statement",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 9019,
+  "converted_at": "2026-04-06T22:38:17.811610+00:00"
+}

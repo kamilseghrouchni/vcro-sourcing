@@ -1,0 +1,244 @@
+{
+  "pmid": "29370177",
+  "pmc": "PMC5784884",
+  "doi": "10.1371/journal.pmed.1002482",
+  "title": "Brain and blood metabolite signatures of pathology and progression in Alzheimer disease: A targeted metabolomics study",
+  "journal": "PLoS Medicine",
+  "year": 2018,
+  "authors": [
+    {
+      "name": "Varma Vijay R.",
+      "affiliations": [
+        "Clinical and Translational Neuroscience Unit, Laboratory of Behavioral Neuroscience, National Institute on Aging (NIA), National Institutes of Health (NIH), Baltimore, Maryland, United States of America"
+      ]
+    },
+    {
+      "name": "Oommen Anup M.",
+      "affiliations": [
+        "Consilience Research Advisors LLP, Bengaluru, Karnataka, India"
+      ]
+    },
+    {
+      "name": "Varma Sudhir",
+      "affiliations": [
+        "HiThru Analytics, Laurel, Maryland, United States of America"
+      ]
+    },
+    {
+      "name": "Casanova Ramon",
+      "affiliations": [
+        "Department of Biostatistical Science, Wake Forest School of Medicine, Winston-Salem, North Carolina, United States of America"
+      ]
+    },
+    {
+      "name": "An Yang",
+      "affiliations": [
+        "Clinical and Translational Neuroscience Unit, Laboratory of Behavioral Neuroscience, National Institute on Aging (NIA), National Institutes of Health (NIH), Baltimore, Maryland, United States of America"
+      ]
+    },
+    {
+      "name": "Andrews Ryan M.",
+      "affiliations": [
+        "Department of Mental Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland, United States of America"
+      ]
+    },
+    {
+      "name": "O’Brien Richard",
+      "affiliations": [
+        "Department of Neurology, Duke University School of Medicine, Durham, North Carolina, United States of America"
+      ]
+    },
+    {
+      "name": "Pletnikova Olga",
+      "affiliations": [
+        "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States of America"
+      ]
+    },
+    {
+      "name": "Troncoso Juan C.",
+      "affiliations": [
+        "Department of Pathology, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States of America"
+      ]
+    },
+    {
+      "name": "Toledo Jon",
+      "affiliations": [
+        "Department of Neurology, Houston Methodist Hospital, Houston, Texas, United States of America"
+      ]
+    },
+    {
+      "name": "Baillie Rebecca",
+      "affiliations": [
+        "Rosa & Co LLC, San Carlos, California, United States of America"
+      ]
+    },
+    {
+      "name": "Arnold Matthias",
+      "affiliations": [
+        "Institute of Bioinformatics and Systems Biology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany",
+        "German Center for Diabetes Research (DZD), Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Kastenmueller Gabi",
+      "affiliations": [
+        "Institute of Bioinformatics and Systems Biology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany",
+        "German Center for Diabetes Research (DZD), Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Nho Kwangsik",
+      "affiliations": [
+        "Department of Radiology and Imaging Sciences and the Indiana Alzheimer Disease Center, Indiana University School of Medicine, Indianapolis, Indiana, United States of America"
+      ]
+    },
+    {
+      "name": "Doraiswamy P. Murali",
+      "affiliations": [
+        "Department of Psychiatry and Behavioral Sciences, Duke University, Durham, North Carolina, United States of America",
+        "Department of Medicine, Duke University, Durham, North Carolina, United States of America"
+      ]
+    },
+    {
+      "name": "Saykin Andrew J.",
+      "affiliations": [
+        "Department of Radiology and Imaging Sciences and the Indiana Alzheimer Disease Center, Indiana University School of Medicine, Indianapolis, Indiana, United States of America"
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima",
+      "affiliations": [
+        "Department of Psychiatry and Behavioral Sciences, Duke University, Durham, North Carolina, United States of America",
+        "Department of Medicine, Duke University, Durham, North Carolina, United States of America"
+      ]
+    },
+    {
+      "name": "Legido-Quigley Cristina",
+      "affiliations": [
+        "IPS, Faculty of Life Sciences and Medicine, King's College London, London, United Kingdom"
+      ]
+    },
+    {
+      "name": "Thambisetty Madhav",
+      "affiliations": [
+        "Clinical and Translational Neuroscience Unit, Laboratory of Behavioral Neuroscience, National Institute on Aging (NIA), National Institutes of Health (NIH), Baltimore, Maryland, United States of America"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100000049National Institute on AgingIntramural",
+    "National Institutes of Health (US)U01 AG024904",
+    "U.S. Department of Defense (US)W81XWH-12-2-0012"
+  ],
+  "data_availability_text": "",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "received": "2017-04-21",
+  "accepted": "2017-11-27",
+  "reference_pmids": [
+    "23816564",
+    "18554316",
+    "24608097",
+    "24898638",
+    "25463194",
+    "17934472",
+    "26806385",
+    "20387303",
+    "19126858",
+    "16443497",
+    "19661626",
+    "17060561",
+    "2011243",
+    "1759558",
+    "18496870",
+    "24607960",
+    "10851365",
+    "6610841",
+    "15324362",
+    "24586991",
+    "22194632",
+    "28323825",
+    "28341160",
+    "18302232",
+    "19416949",
+    "23408997",
+    "18366602",
+    "26806385",
+    "9553006",
+    "25123062",
+    "16868315",
+    "24334113",
+    "23899502",
+    "26090071",
+    "18539594",
+    "19635838",
+    "12691738",
+    "20452460",
+    "18455839",
+    "16843432",
+    "18216770",
+    "24613671",
+    "20456020",
+    "18547682",
+    "1402910",
+    "22134919",
+    "21779331",
+    "22832349",
+    "28054030",
+    "25860537",
+    "23435938",
+    "24041970",
+    "26661209",
+    "24853933",
+    "24828044"
+  ],
+  "tables_count": 3,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "participants",
+    "neuropathological studies: brain tissue samples in blsa (step 1)",
+    "determining cognitive status in blsa and adni (step 2)",
+    "blood samples in blsa and adni (step 2)",
+    "brain and blood metabolomics in blsa and adni (steps 1 and 2)",
+    "cognitive assessments in blsa (step 2)",
+    "structural mri measures in adni (step 2)",
+    "csf measures of ad pathology in adni (step 2)",
+    "statistical analysis",
+    "step 1: identifying a brain metabolite signature of ad",
+    "step 1: identifying a brain metabolite signature of ad: differences by group and associations with ad pathology",
+    "step 2: testing blood metabolite associations with ad endophenotypes: risk of conversion to incident ad in cognitively normal older adults (blsa)",
+    "step 2: testing blood metabolite associations with ad endophenotypes: associations with cognitive performance (blsa)",
+    "step 2: testing blood metabolite associations with ad endophenotypes in blsa (sensitivity analyses)",
+    "step 2: testing blood metabolite associations with ad endophenotypes: associations with ad-like brain atrophy patterns and csf biomarkers of ad pathology (adni)",
+    "step 2: testing blood metabolite associations with ad endophenotypes: associations with risk of conversion to incident ad (adni)",
+    "step 3: summarizing results: calculating the ease-ad score",
+    "step 4: mapping biological pathways",
+    "results",
+    "participants: demographic characteristics",
+    "step 1: identifying a brain metabolite signature of ad",
+    "step 1: identifying a brain metabolite signature of ad: differences by group and associations with ad pathology",
+    "step 2: testing blood metabolite associations with ad endophenotypes: risk of conversion to incident ad in cognitively normal older adults (blsa)",
+    "step 2: exploring associations in blood with ad endophenotypes: associations with cognitive performance (blsa)",
+    "step 2: testing blood metabolite associations with ad endophenotypes: associations with ad-like brain atrophy patterns and csf biomarkers of ad pathology (adni)",
+    "step 2: testing blood metabolite associations with ad endophenotypes: associations with risk of conversion to incident ad (adni)",
+    "step 3: summarizing results: calculating the ease-ad score",
+    "step 4: mapping biological pathways: exploring metabolite interactions and their impact on ad pathology",
+    "gene symbol and name",
+    "discussion",
+    "sphingolipids and ad",
+    "glycerophospholipids and ad",
+    "network biology: metabolic pathway alterations in ad",
+    "limitations",
+    "conclusions",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 15480,
+  "converted_at": "2026-04-06T22:39:47.283696+00:00"
+}

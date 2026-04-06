@@ -1,0 +1,454 @@
+{
+  "pmid": "40665048",
+  "pmc": "PMC12353841",
+  "doi": "10.1038/s41591-025-03834-0",
+  "title": "The Global Neurodegeneration Proteomics Consortium: biomarker and drug target discovery for common neurodegenerative diseases and aging",
+  "journal": "Nature Medicine",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Imam Farhad",
+      "affiliations": [
+        "https://ror.org/04kxtb734Gates Ventures, Seattle, WA USA"
+      ]
+    },
+    {
+      "name": "Saloner Rowan",
+      "affiliations": [
+        "https://ror.org/043mz5j54grid.266102.10000 0001 2297 6811Department of Neurology, University of California, San Francisco, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Vogel Jacob W.",
+      "affiliations": [
+        "https://ror.org/012a77v79grid.4514.40000 0001 0930 2361Department of Clinical Sciences Malmö, SciLifeLab, Lund University, Lund, Sweden"
+      ]
+    },
+    {
+      "name": "Krish Varsha",
+      "affiliations": [
+        "https://ror.org/04kxtb734Gates Ventures, Seattle, WA USA"
+      ]
+    },
+    {
+      "name": "Abdel-Azim Gamal",
+      "affiliations": [
+        "https://ror.org/03qd7mz70grid.417429.dJohnson & Johnson, Spring House, PA USA"
+      ]
+    },
+    {
+      "name": "Ali Muhammad",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "An Lijun",
+      "affiliations": [
+        "https://ror.org/012a77v79grid.4514.40000 0001 0930 2361Department of Clinical Sciences Malmö, SciLifeLab, Lund University, Lund, Sweden"
+      ]
+    },
+    {
+      "name": "Anastasi Federica",
+      "affiliations": [
+        "https://ror.org/01nry9c15grid.430077.7Barcelonaβeta Brain Research Center (BBRC), Pasqual Maragall Foundation, Barcelona, Spain",
+        "https://ror.org/042nkmz09grid.20522.370000 0004 1767 9005Hospital del Mar Research Institute, Barcelona, Spain",
+        "https://ror.org/03wyzt892grid.11478.3bCentre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), Barcelona, Spain"
+      ]
+    },
+    {
+      "name": "Bennett David",
+      "affiliations": [
+        "https://ror.org/01j7c0b24grid.240684.c0000 0001 0705 3621Department of Neurological Sciences, Rush Alzheimer’s Disease Center, Chicago, IL USA"
+      ]
+    },
+    {
+      "name": "Pichet Binette Alexa",
+      "affiliations": [
+        "https://ror.org/012a77v79grid.4514.40000 0001 0930 2361Clinical Memory Research Unit, Department of Clinical Sciences Malmö, Lund University, Lund, Sweden",
+        "https://ror.org/0161xgx34grid.14848.310000 0001 2104 2136Department of Physiology and Pharmacology, Université de Montréal, Montreal, Quebec Canada",
+        ""
+      ]
+    },
+    {
+      "name": "Boxer Adam L.",
+      "affiliations": [
+        "https://ror.org/043mz5j54grid.266102.10000 0001 2297 6811Department of Neurology, University of California, San Francisco, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Bringmann Martin",
+      "affiliations": [
+        "https://ror.org/03qd7mz70grid.417429.dJohnson & Johnson, Spring House, PA USA"
+      ]
+    },
+    {
+      "name": "Burns Jeffrey M.",
+      "affiliations": [
+        "https://ror.org/001tmjg57grid.266515.30000 0001 2106 0692University of Kansas Alzheimer’s Disease Research Center, Kansas City, KS USA",
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375Department of Neurology, University of Kansas Medical Center, Kansas City, KS USA"
+      ]
+    },
+    {
+      "name": "Cruchaga Carlos",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Neurology, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Dage Jeff L.",
+      "affiliations": [
+        "https://ror.org/05gxnyn08grid.257413.60000 0001 2287 3919Indiana Alzheimer’s Disease Research Center, Indianapolis, IN USA",
+        "https://ror.org/02ets8c940000 0001 2296 1126Department of Neurology, Indiana University School of Medicine, Indianapolis, IN USA"
+      ]
+    },
+    {
+      "name": "Farinas Amelia",
+      "affiliations": [
+        "https://ror.org/00f54p054grid.168010.e0000 0004 1936 8956Graduate Program in Neuroscience, Stanford University, Stanford, CA USA",
+        "https://ror.org/00f54p054grid.168010.e0000 0004 1936 8956The Phil and Penny Knight Initiative for Brain Resilience, Stanford University, Stanford, CA USA",
+        "https://ror.org/00f54p054grid.168010.e0000 0004 1936 8956Wu Tsai Neurosciences Institute, Stanford University, Stanford, CA USA"
+      ]
+    },
+    {
+      "name": "Ferrucci Luigi",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Translational Gerontology Branch, National Institute on Aging, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Finney Caitlin A.",
+      "affiliations": [
+        "https://ror.org/04zj3ra44grid.452919.20000 0001 0436 7430Neurodegeneration and Precision Medicine Research Group, Westmead Institute for Medical Research, Westmead, New South Wales Australia",
+        "https://ror.org/0384j8v12grid.1013.30000 0004 1936 834XFaculty of Medicine and Health, University of Sydney School of Medical Sciences, Westmead, New South Wales Australia"
+      ]
+    },
+    {
+      "name": "Frasier Mark",
+      "affiliations": [
+        "https://ror.org/03arq3225grid.430781.90000 0004 5907 0388Michael J. Fox Foundation, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Hansson Oskar",
+      "affiliations": [
+        "https://ror.org/012a77v79grid.4514.40000 0001 0930 2361Clinical Memory Research Unit, Department of Clinical Sciences Malmö, Lund University, Lund, Sweden"
+      ]
+    },
+    {
+      "name": "Hohman Timothy J.",
+      "affiliations": [
+        "https://ror.org/05dq2gs74grid.412807.80000 0004 1936 9916Vanderbilt Memory & Alzheimer’s Disease, Department of Neurology, Vanderbilt University Medical Center, Nashville, TN USA",
+        "https://ror.org/05dq2gs74grid.412807.80000 0004 1936 9916Vanderbilt Genetics Institute, Vanderbilt Medical Center, Nashville, TN USA"
+      ]
+    },
+    {
+      "name": "Johnson Erik C. B.",
+      "affiliations": [
+        "https://ror.org/03czfpz43grid.189967.80000 0001 0941 6502Emory University School of Medicine, Atlanta, GA USA",
+        "https://ror.org/03czfpz43grid.189967.80000 0001 0941 6502Department of Neurology, Emory University School of Medicine, Atlanta, GA USA"
+      ]
+    },
+    {
+      "name": "Kivimaki Mika",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000 0001 2190 1201UCL Brain Sciences, University College London, London, UK",
+        "https://ror.org/040af2s02grid.7737.40000 0004 0410 2071University of Helsinki, Clinicum, Helsinki, Finland"
+      ]
+    },
+    {
+      "name": "Korologou-Linden Roxanna",
+      "affiliations": [
+        "https://ror.org/041kmwe10grid.7445.20000 0001 2113 8111Ageing & Epidemiology (AGE) Research Unit, School of Public Health, Imperial College London, London, UK"
+      ]
+    },
+    {
+      "name": "Ruiz Laza Agustin",
+      "affiliations": [
+        "https://ror.org/00tse2b39grid.410675.10000 0001 2325 3084Ace Alzheimer Center Barcelona, Universitat Internacional de Catalunya, Barcelona, Spain",
+        "https://ror.org/00zca7903grid.418264.d0000 0004 1762 4012Biomedical Research Networking Centre in Neurodegenerative Diseases (CIBERNED), National Institute of Health Carlos III, Madrid, Spain",
+        "https://ror.org/02f6dcw23grid.267309.90000 0001 0629 5880Glenn Biggs Institute for Alzheimer’s & Neurodegenerative Diseases and Department of Microbiology, Immunology and Molecular Genetics, Long School of Medicine, The University of Texas Health Science Center, San Antonio, TX USA"
+      ]
+    },
+    {
+      "name": "Levey Allan I.",
+      "affiliations": [
+        "https://ror.org/03czfpz43grid.189967.80000 0001 0941 6502Emory University School of Medicine, Atlanta, GA USA",
+        "https://ror.org/03czfpz43grid.189967.80000 0001 0941 6502Department of Neurology, Emory University School of Medicine, Atlanta, GA USA"
+      ]
+    },
+    {
+      "name": "Liepelt-Scarfone Inga",
+      "affiliations": [
+        "https://ror.org/04zzwzx41grid.428620.aNeurodegenerative Diseases, Hertie Institute for Clinical Brain Research, Tübingen, Germany",
+        "https://ror.org/043j0f473grid.424247.30000 0004 0438 0426Department of Neurodegenerative Diseases, German Center of Neurodegenerative Diseases, Tübingen, Germany",
+        "https://ror.org/01bk2mc10IB Hochschule für Gesundheit und Soziales, Standort Stuttgart, Germany"
+      ]
+    },
+    {
+      "name": "Lu Lina",
+      "affiliations": [
+        "https://ror.org/012a77v79grid.4514.40000 0001 0930 2361Clinical Memory Research Unit, Department of Clinical Sciences Malmö, Lund University, Lund, Sweden"
+      ]
+    },
+    {
+      "name": "Mattsson-Carlgren Niklas",
+      "affiliations": [
+        "https://ror.org/012a77v79grid.4514.40000 0001 0930 2361Clinical Memory Research Unit, Department of Clinical Sciences Malmö, Lund University, Lund, Sweden",
+        "https://ror.org/02z31g829grid.411843.b0000 0004 0623 9987Memory Clinic, Skåne University Hospital, Malmö, Sweden"
+      ]
+    },
+    {
+      "name": "Middleton Lefkos T.",
+      "affiliations": [
+        "https://ror.org/041kmwe10grid.7445.20000 0001 2113 8111Ageing & Epidemiology (AGE) Research Unit, School of Public Health, Imperial College London, London, UK"
+      ]
+    },
+    {
+      "name": "Nho Kwangsik",
+      "affiliations": [
+        "https://ror.org/02ets8c940000 0001 2296 1126Department of Radiology & Imaging Sciences, Indiana University School of Medicine, Indianapolis, IN USA"
+      ]
+    },
+    {
+      "name": "Oh Hamilton Se-Hwee",
+      "affiliations": [
+        "https://ror.org/00f54p054grid.168010.e0000 0004 1936 8956The Phil and Penny Knight Initiative for Brain Resilience, Stanford University, Stanford, CA USA",
+        "https://ror.org/00f54p054grid.168010.e0000 0004 1936 8956Wu Tsai Neurosciences Institute, Stanford University, Stanford, CA USA",
+        "https://ror.org/04a9tmd77grid.59734.3c0000 0001 0670 2351Mount Sinai, Icahn School of Medicine at Mount Sinai, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Petersen Ronald C.",
+      "affiliations": [
+        "https://ror.org/02qp3tb03grid.66875.3a0000 0004 0459 167XDepartment of Neurology, Mayo Clinic, Rochester, MN USA"
+      ]
+    },
+    {
+      "name": "Reiman Eric M.",
+      "affiliations": [
+        "https://ror.org/023jwkg52Banner Alzheimer’s Institute, Phoenix, AZ USA"
+      ]
+    },
+    {
+      "name": "Robinson Oliver",
+      "affiliations": [
+        "https://ror.org/041kmwe10grid.7445.20000 0001 2113 8111Ageing & Epidemiology (AGE) Research Unit, School of Public Health, Imperial College London, London, UK",
+        "https://ror.org/041kmwe10grid.7445.20000 0001 2113 8111Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK"
+      ]
+    },
+    {
+      "name": "Rothstein Jeffrey D.",
+      "affiliations": [
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Robert Packard Center for ALS Research, Johns Hopkins University, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Saykin Andrew J.",
+      "affiliations": [
+        "https://ror.org/05gxnyn08grid.257413.60000 0001 2287 3919Indiana Alzheimer’s Disease Research Center, Indianapolis, IN USA",
+        "https://ror.org/02ets8c940000 0001 2296 1126Department of Neurology, Indiana University School of Medicine, Indianapolis, IN USA"
+      ]
+    },
+    {
+      "name": "Shvetcov Artur",
+      "affiliations": [
+        "https://ror.org/04zj3ra44grid.452919.20000 0001 0436 7430Neurodegeneration and Precision Medicine Research Group, Westmead Institute for Medical Research, Westmead, New South Wales Australia",
+        "https://ror.org/0384j8v12grid.1013.30000 0004 1936 834XFaculty of Medicine and Health, University of Sydney School of Medical Sciences, Westmead, New South Wales Australia"
+      ]
+    },
+    {
+      "name": "Slawson Chad",
+      "affiliations": [
+        "https://ror.org/001tmjg57grid.266515.30000 0001 2106 0692University of Kansas Alzheimer’s Disease Research Center, Kansas City, KS USA",
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS USA"
+      ]
+    },
+    {
+      "name": "Smets Bart",
+      "affiliations": [
+        "https://ror.org/04yzcpd71grid.419619.20000 0004 0623 0341Johnson & Johnson, Beerse, Belgium"
+      ]
+    },
+    {
+      "name": "Suárez-Calvet Marc",
+      "affiliations": [
+        "https://ror.org/01nry9c15grid.430077.7Barcelonaβeta Brain Research Center (BBRC), Pasqual Maragall Foundation, Barcelona, Spain",
+        "https://ror.org/042nkmz09grid.20522.370000 0004 1767 9005Hospital del Mar Research Institute, Barcelona, Spain",
+        "https://ror.org/03a8gac78grid.411142.30000 0004 1767 8811Department of Neurology, Hospital del Mar, Barcelona, Spain"
+      ]
+    },
+    {
+      "name": "Tijms Betty M.",
+      "affiliations": [
+        "https://ror.org/00q6h8f30grid.16872.3a0000 0004 0435 165XDepartment of Neurology, Alzheimer Center Amsterdam, Amsterdam, The Netherlands",
+        "https://ror.org/01x2d9f70grid.484519.5Amsterdam Neuroscience, Amsterdam, The Netherlands"
+      ]
+    },
+    {
+      "name": "Timmers Maarten",
+      "affiliations": [
+        "https://ror.org/04yzcpd71grid.419619.20000 0004 0623 0341Johnson & Johnson, Beerse, Belgium"
+      ]
+    },
+    {
+      "name": "Vieira Fernando",
+      "affiliations": [
+        "https://ror.org/04khs0d04grid.417436.30000 0004 5899 1898ALS Therapy Development Institute, Cambridge, MA USA"
+      ]
+    },
+    {
+      "name": "Vilor-Tejedor Natalia",
+      "affiliations": [
+        "https://ror.org/01nry9c15grid.430077.7Barcelonaβeta Brain Research Center (BBRC), Pasqual Maragall Foundation, Barcelona, Spain",
+        "https://ror.org/03wyzt892grid.11478.3bCentre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), Barcelona, Spain",
+        "https://ror.org/05wg1m734grid.10417.330000 0004 0444 9382Department of Human Genetics, Radboud University Medical Center, Nijmegen, The Netherlands"
+      ]
+    },
+    {
+      "name": "Visser Pieter Jelle",
+      "affiliations": [
+        "https://ror.org/00q6h8f30grid.16872.3a0000 0004 0435 165XDepartment of Neurology, Alzheimer Center Amsterdam, Amsterdam, The Netherlands",
+        "https://ror.org/01x2d9f70grid.484519.5Amsterdam Neuroscience, Amsterdam, The Netherlands",
+        "https://ror.org/02jz4aj89grid.5012.60000 0001 0481 6099Alzheimer Center Limburg, School for Mental Health and Neuroscience, Maastricht University, Maastricht, The Netherlands"
+      ]
+    },
+    {
+      "name": "Walker Keenan A.",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Laboratory of Behavioral Neuroscience, National Institute on Aging, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Winchester Laura M.",
+      "affiliations": [
+        "https://ror.org/052gg0110grid.4991.50000 0004 1936 8948Department of Psychiatry, Oxford University, Oxford, UK"
+      ]
+    },
+    {
+      "name": "Wyss-Coray Tony",
+      "affiliations": [
+        "https://ror.org/00f54p054grid.168010.e0000 0004 1936 8956The Phil and Penny Knight Initiative for Brain Resilience, Stanford University, Stanford, CA USA",
+        "https://ror.org/00f54p054grid.168010.e0000 0004 1936 8956Wu Tsai Neurosciences Institute, Stanford University, Stanford, CA USA",
+        "https://ror.org/00f54p054grid.168010.e0000000419368956Department of Neurology and Neurological Sciences, Stanford University School of Medicine, Standford, CA USA"
+      ]
+    },
+    {
+      "name": "Yang Chengran",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Bose Niranjan",
+      "affiliations": [
+        "https://ror.org/04kxtb734Gates Ventures, Seattle, WA USA"
+      ]
+    },
+    {
+      "name": "Lovestone Simon",
+      "affiliations": [
+        "https://ror.org/03qwpn290grid.424118.aJohnson & Johnson, London, UK"
+      ]
+    },
+    {
+      "name": "The Global Neurodegeneration Proteomics Consortium (GNPC)http://orcid.org/0000-0003-2854-2568ImamFarhadfarhad.imam@gatesventures.com1http://orcid.org/0000-0002-1351-6183SalonerRowan2http://orcid.org/0000-0001-6394-9940VogelJacob W.3KrishVarsha1Abdel-AzimGamal4http://orcid.org/0000-0002-1399-6631AliMuhammad56http://orcid.org/0000-0003-1030-4625AnLijun3http://orcid.org/0000-0002-9304-5421AnastasiFederica789BennettDavid10Pichet BinetteAlexa111213http://orcid.org/0000-0002-1215-5064BoxerAdam L.2http://orcid.org/0000-0003-4289-7605BringmannMartin4http://orcid.org/0000-0001-7609-8954BurnsJeffrey M.1415http://orcid.org/0000-0002-0276-2899CruchagaCarlos5616DageJeff L.1718http://orcid.org/0000-0002-6697-8883FarinasAmelia192021FerrucciLuigi22http://orcid.org/0000-0002-9357-8316FinneyCaitlin A.2324FrasierMark25http://orcid.org/0000-0001-8467-7286HanssonOskar11http://orcid.org/0000-0002-3377-7014HohmanTimothy J.2627http://orcid.org/0000-0002-0604-2944JohnsonErik C. B.2829http://orcid.org/0000-0002-4699-5627KivimakiMika3031Korologou-LindenRoxanna32http://orcid.org/0000-0003-2633-2495Ruiz LazaAgustin333435http://orcid.org/0000-0002-3153-502XLeveyAllan I.2829Liepelt-ScarfoneInga363738LuLina11http://orcid.org/0000-0002-8885-7724Mattsson-CarlgrenNiklas1139http://orcid.org/0000-0002-2176-403XMiddletonLefkos T.32NhoKwangsik40OhHamilton Se-Hwee202141PetersenRonald C.42http://orcid.org/0000-0002-0705-3696ReimanEric M.43http://orcid.org/0000-0002-4735-0468RobinsonOliver3244RothsteinJeffrey D.45http://orcid.org/0000-0002-1376-8532SaykinAndrew J.1718ShvetcovArtur2324http://orcid.org/0000-0002-6886-4847SlawsonChad1446SmetsBart47Suárez-CalvetMarc7848http://orcid.org/0000-0002-2612-1797TijmsBetty M.4950TimmersMaarten47http://orcid.org/0000-0003-2996-6418VieiraFernando51Vilor-TejedorNatalia7952VisserPieter Jelle495053http://orcid.org/0000-0002-5989-9853WalkerKeenan A.54WinchesterLaura M.55http://orcid.org/0000-0001-5893-0831Wyss-CorayTony202156http://orcid.org/0000-0003-4577-5590YangChengran56http://orcid.org/0000-0002-1301-7827BoseNiranjan1LovestoneSimon57",
+      "affiliations": []
+    }
+  ],
+  "keywords": [
+    "Neurodegenerative diseases",
+    "Dementia",
+    "Biomarkers"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/100004331Johnson and Johnson (Johnson & Johnson)"
+  ],
+  "data_availability_text": "Data availabilityThe harmonized GNPC data used to generate these findings were provided to consortium members in June 2024 and will be made available for public request by the AD Data Initiative in July 2025. Members of the global research community will be able to access the metadata and place a data use request via the AD Discovery Portal (https://discover.alzheimersdata.org/). Access is contingent upon adherence to the GNPC Data Use Agreement and the Publication Policies.",
+  "license": "",
+  "received": "2025-04-24",
+  "accepted": "2025-06-16",
+  "reference_pmids": [
+    "34998485",
+    "37784171",
+    "12076411",
+    "12076411",
+    "37848035",
+    "37848035",
+    "37251912",
+    "37202515",
+    "30051512",
+    "31244593",
+    "38934362",
+    "39293391",
+    "39293391",
+    "33288742",
+    "40387289",
+    "40387289",
+    "40665052",
+    "40665050",
+    "40665049",
+    "37304174",
+    "40164724",
+    "40394224",
+    "40394224",
+    "39169269",
+    "39169269",
+    "31857451",
+    "32139519",
+    "23868113",
+    "23868113",
+    "40163513",
+    "40163513",
+    "36989373",
+    "36989373",
+    "38057571",
+    "38057571",
+    "39722190",
+    "39722190"
+  ],
+  "tables_count": 1,
+  "figures_count": 3,
+  "sections_present": [
+    "abstract",
+    "main",
+    "results",
+    "initial findings from the gnpc harmonized dataset",
+    "vignette 1: human blood proteomic profiles are robustly associated with neurodegenerative diseases and clinical severity",
+    "vignette 2: organ age analysis reveals neurodegenerative disease-specific patterns of premature aging",
+    "vignette 3: human blood proteomic signatures reflect",
+    "discussion",
+    "methods",
+    "somascan proteomics data processing",
+    "clinical and phenotypic data harmonization",
+    "vignette approach",
+    "vignette 1 methods: disease-specific differential abundance",
+    "sample selection and inclusion criteria",
+    "protein data processing",
+    "cohort-specific differential abundance and meta-analysis",
+    "pathway enrichment analysis",
+    "development of transdiagnostic signature of cognitive decline",
+    "vignette 2 methods: organ aging across diseases",
+    "sample selection and inclusion criteria",
+    "protein data processing",
+    "organ age estimation and disease associations",
+    "vignette 3 methods:",
+    "sample selection and inclusion criteria",
+    "machine learning classification of",
+    "overlap of",
+    "reporting summary",
+    "online content",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 13236,
+  "converted_at": "2026-04-06T22:37:19.393964+00:00"
+}

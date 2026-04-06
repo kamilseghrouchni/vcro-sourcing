@@ -1,0 +1,689 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz70989" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12706123</article-id><article-id pub-id-type="pmcid-ver">PMC12706123.1</article-id><article-id pub-id-type="pmcaid">12706123</article-id><article-id pub-id-type="pmcaiid">12706123</article-id><article-id pub-id-type="pmid">41399249</article-id><article-id pub-id-type="doi">10.1002/alz.70989</article-id><article-id pub-id-type="publisher-id">ALZ70989</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Detection of TDP‐43 seeds in CSF of presymptomatic and symptomatic genetic FTD/ALS</article-title><alt-title alt-title-type="left-running-head">DELLAROLE <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz70989-cr-0001" contrib-type="author"><name name-style="western"><surname>Dellarole</surname><given-names initials="IL">Ilaria Linda</given-names></name><xref rid="alz70989-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70989-cr-0002" contrib-type="author"><name name-style="western"><surname>Aprea</surname><given-names initials="V">Vittoria</given-names></name><xref rid="alz70989-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70989-cr-0003" contrib-type="author"><name name-style="western"><surname>Catania</surname><given-names initials="M">Marcella</given-names></name><xref rid="alz70989-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70989-cr-0004" contrib-type="author"><name name-style="western"><surname>Battipaglia</surname><given-names initials="C">Claudia</given-names></name><xref rid="alz70989-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70989-cr-0005" contrib-type="author"><name name-style="western"><surname>Romeo</surname><given-names initials="A">Aurora</given-names></name><xref rid="alz70989-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70989-cr-0006" contrib-type="author"><name name-style="western"><surname>Villa</surname><given-names initials="C">Cristina</given-names></name><xref rid="alz70989-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70989-cr-0007" contrib-type="author"><name name-style="western"><surname>Burato</surname><given-names initials="A">Anna</given-names></name><xref rid="alz70989-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz70989-cr-0008" contrib-type="author"><name name-style="western"><surname>Celauro</surname><given-names initials="L">Luigi</given-names></name><xref rid="alz70989-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz70989-cr-0009" contrib-type="author"><name name-style="western"><surname>Bella</surname><given-names initials="ED">Eleonora Dalla</given-names></name><xref rid="alz70989-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz70989-cr-0010" contrib-type="author"><name name-style="western"><surname>Riva</surname><given-names initials="N">Nilo</given-names></name><xref rid="alz70989-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz70989-cr-0011" contrib-type="author"><name name-style="western"><surname>Salvi</surname><given-names initials="E">Erika</given-names></name><xref rid="alz70989-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz70989-cr-0012" contrib-type="author"><name name-style="western"><surname>Rossi</surname><given-names initials="G">Giacomina</given-names></name><xref rid="alz70989-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70989-cr-0013" contrib-type="author"><name name-style="western"><surname>Fede</surname><given-names initials="GD">Giuseppe Di</given-names></name><xref rid="alz70989-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70989-cr-0014" contrib-type="author"><name name-style="western"><surname>Legname</surname><given-names initials="G">Giuseppe</given-names></name><xref rid="alz70989-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz70989-cr-0015" contrib-type="author"><name name-style="western"><surname>De Houwer</surname><given-names initials="JFH">Julie F H</given-names></name><xref rid="alz70989-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz70989-cr-0016" contrib-type="author"><name name-style="western"><surname>Alberici</surname><given-names initials="A">Antonella</given-names></name><xref rid="alz70989-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz70989-cr-0017" contrib-type="author"><name name-style="western"><surname>Borroni</surname><given-names initials="B">Barbara</given-names></name><xref rid="alz70989-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref><xref rid="alz70989-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="alz70989-cr-0018" contrib-type="author"><name name-style="western"><surname>Seelaar</surname><given-names initials="H">Harro</given-names></name><xref rid="alz70989-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz70989-cr-0019" contrib-type="author"><name name-style="western"><surname>van Swieten</surname><given-names initials="JC">John C</given-names></name><xref rid="alz70989-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz70989-cr-0020" contrib-type="author" corresp="yes"><name name-style="western"><surname>Moda</surname><given-names initials="F">Fabio</given-names></name><xref rid="alz70989-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz70989-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref><address><email>fabio.moda@unimi.it</email></address></contrib><contrib id="alz70989-cr-0021" contrib-type="author"><name name-style="western"><surname>Caroppo</surname><given-names initials="P">Paola</given-names></name><xref rid="alz70989-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="alz70989-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">SSD Laboratory Medicine‐Laboratory of Clinical Pathology</named-content>
+<institution>Fondazione IRCCS Istituto Neurologico Carlo Besta</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70989-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Neurology 8 – Dementias and degenerative diseases of CNS Unit</named-content>
+<institution>Fondazione IRCCS Istituto Neurologico Carlo Besta</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70989-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Laboratory of Prion Biology</named-content>
+<named-content content-type="organisation-division">Department of Neuroscience</named-content>
+<institution>Scuola Internazionale Superiore Di Studi Avanzati (SISSA)</institution>
+<city>Trieste</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70989-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Neurology 3 – Neuroalgology Unit</named-content>
+<institution>Fondazione IRCCS Istituto Neurologico Carlo Besta</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70989-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Data Science Center and Computational multi‐Omics of Neurological Disorders (MIND) Lab</named-content>
+<institution>Fondazione IRCCS Istituto Neurologico Carlo Besta</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70989-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology and Alzheimer Centre</named-content>
+<institution>Erasmus MC University Medical Centre (Erasmus MC)</institution>
+<city>Rotterdam</city>
+<country country="NL">The Netherlands</country>
+</aff><aff id="alz70989-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Continuity of Care and Frailty</named-content>
+<institution>ASST Spedali Civili Brescia Hospital</institution>
+<city>Brescia</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70989-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Department of Clinical and Experimental Sciences</named-content>
+<institution>University of Brescia</institution>
+<city>Brescia</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70989-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Molecular Markers Laboratory</named-content>
+<institution>IRCCS Istituto Centro San Giovanni di Dio Fatebenefratelli</institution>
+<city>Brescia</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70989-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medical Biotechnology and Translational Medicine</named-content>
+<institution>University of Milan</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Dr Fabio Moda, Department of Medical Biotechnology and Translational Medicine, University of Milan, Via Fratelli Cervi 93 20054 Segrate MI.<break/> Email: <email>fabio.moda@unimi.it</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>15</day><month>12</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2025</year></pub-date><volume>21</volume><issue seq="440">12</issue><issue-id pub-id-type="pmc-issue-id">501523</issue-id><issue-id pub-id-type="doi">10.1002/alz.v21.12</issue-id><elocation-id>e70989</elocation-id><history><date date-type="rev-recd"><day>29</day><month>10</month><year>2025</year></date><date date-type="received"><day>11</day><month>6</month><year>2025</year></date><date date-type="accepted"><day>09</day><month>11</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>15</day><month>12</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>17</day><month>12</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-12-17 13:25:13.063"><day>17</day><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-21-e70989.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-21-e70989.pdf"/><abstract><title>Abstract</title><sec id="alz70989-sec-0010"><title>INTRODUCTION</title><p>Seed amplification assays (SAAs) have shown promising results in detecting misfolded transactive response (TAR) DNA‐binding protein 43 (TDP‐43) in cerebrospinal fluid (CSF) of genetic frontotemporal dementia (FTD). To date, the use of SAA has yet to be evaluated in presymptomatic individuals.</p></sec><sec id="alz70989-sec-0020"><title>METHODS</title><p>Thirty patients carrying <italic toggle="yes">GRN</italic> or <italic toggle="yes">C9orf72</italic> mutations, 2 microtubule‐associated protein tau (<italic toggle="yes">MAPT</italic>) carriers, 14 presymptomatic subjects, and 27 controls underwent CSF collection. We used SAA for detecting misfolded TDP‐43 (TDP‐43_SAA) and single molecule array (SIMOA) technology for neurofilament light chain (NfL) dosage.</p></sec><sec id="alz70989-sec-0030"><title>RESULTS</title><p>TDP‐43 seeding activity was detected in 67% of TDP‐43‐linked symptomatic patients, with a specificity of 93%. Almost half of presymptomatic subjects tested positive, mostly <italic toggle="yes">GRN</italic> carriers. Interestingly, among TDP‐43_SAA positive presymptomatic individuals, two <italic toggle="yes">GRN</italic> carriers underwent phenoconversion.</p></sec><sec id="alz70989-sec-0040"><title>DISCUSSION</title><p>TDP‐43_SAA can also detect misfolded TDP‐43 in the CSF of presymptomatic individuals. A possible link exists between positive TDP‐43_SAA and conversion to the symptomatic phase.</p></sec><sec id="alz70989-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz70989-list-0001"><list-item><p>Seed amplification assay of transactive response (TAR) DNA‐binding protein 43 (TDP‐43_SAA) can detect misfolded TDP‐43 in the cerebrospinal fluid (CSF) of patients with genetic frontotemporal dementia (FTD), linked to <italic toggle="yes">GRN</italic> and <italic toggle="yes">C9orf72</italic> mutations.</p></list-item><list-item><p>TDP‐43_SAA can detect misfolded TDP‐43 also in the CSF of presymptomatic individuals.</p></list-item><list-item><p>In both groups, most TDP‐43_SAA positive cases were carriers of <italic toggle="yes">GRN</italic> mutation.</p></list-item><list-item><p>Two <italic toggle="yes">GRN</italic> carriers that resulted TDP‐43_SAA positive converted to the symptomatic phase of the disease.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz70989-kwd-0001">amyotrophic lateral sclerosis</kwd><kwd id="alz70989-kwd-0002">CSF</kwd><kwd id="alz70989-kwd-0003">frontotemporal dementia</kwd><kwd id="alz70989-kwd-0004">SAA</kwd><kwd id="alz70989-kwd-0005">seed amplification assays</kwd><kwd id="alz70989-kwd-0006">TDP‐43</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Ministero della Salute</institution><institution-id institution-id-type="doi">10.13039/501100003196</institution-id></institution-wrap>
+</funding-source><award-id>PNRR‐MCNT2‐2023‐12377336</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>JPND</institution><institution-id institution-id-type="doi">10.13039/100013278</institution-id></institution-wrap>
+</funding-source><award-id>2021‐650‐104</award-id></award-group></funding-group><counts><fig-count count="2"/><table-count count="2"/><page-count count="9"/><word-count count="5546"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:16.12.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz70989-cite-0001">
+<string-name name-style="western">
+<surname>Dellarole</surname>
+<given-names>IL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aprea</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Catania</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Detection of TDP‐43 seeds in CSF of presymptomatic and symptomatic genetic FTD/ALS</article-title>. <source>Alzheimer's Dement</source>. <year>2025</year>;<volume>21</volume>:<elocation-id>e70989</elocation-id>. <pub-id pub-id-type="doi">10.1002/alz.70989</pub-id>
+<pub-id pub-id-type="pmid">41399249</pub-id></mixed-citation>
+</p><fn-group><fn id="alz70989-note-0001" fn-type="equal"><p>laria Linda Dellarole and Vittoria Aprea contributed equally to the work.</p></fn></fn-group></notes></front><body><sec id="alz70989-sec-0060"><label>1</label><title>BACKGROUND</title><p>Frontotemporal dementias (FTDs) are a group of neurodegenerative diseases (NDs) characterized by high clinical heterogeneity, including progressive language deterioration and behavioral abnormalities, and degeneration of frontotemporal lobes (FTLD). Amyotrophic lateral sclerosis (ALS) is an ND that primarily affects the motor neurons but in about 50% of cases phenotypically overlaps with FTD.<xref rid="alz70989-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="alz70989-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="alz70989-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="alz70989-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> About 20%–25% of FTD cases are caused by mutations occurring primarily in three genes: <italic toggle="yes">MAPT</italic> (encoding microtubule‐associated protein tau), <italic toggle="yes">GRN</italic> (encoding progranulin), and <italic toggle="yes">C9orf72</italic>. Patients with <italic toggle="yes">C9orf72</italic> expansion may present with isolated FTD, ALS, or both. In contrast, patients carrying <italic toggle="yes">GRN</italic> mutations are more frequently associated with a phenotype of behavioral FTD (bvFTD) or primary progressive aphasia (PPA), while ALS is not typically considered part of the phenotypic spectrum associated with <italic toggle="yes">GRN</italic> mutations.<xref rid="alz70989-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="alz70989-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> From a neuropathological point of view, both <italic toggle="yes">GRN</italic> mutations and <italic toggle="yes">C9orf72</italic> repeat expansion lead to FLTD‐TDP which is characterized by loss of nuclear transactive response (TAR) DNA‐binding protein 43 (TDP‐43) localization and aggregation in neuronal cytoplasm, dendrites, axons and, less frequently, in glial cells such as oligodendrocytes. <italic toggle="yes">GRN</italic> mutations typically lead to FTLD‐TDP type A, while <italic toggle="yes">C9orf72</italic> hexanucleotide repeat expansion leads to FLTD‐TDP type B associated with dipeptide‐repeat protein inclusions.<xref rid="alz70989-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="alz70989-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz70989-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz70989-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> ALS also pathologically overlaps with FTD with most of the patients presenting TDP‐43 pathology, suggesting a <italic toggle="yes">continuum</italic> between these diseases.<xref rid="alz70989-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="alz70989-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="alz70989-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="alz70989-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="alz70989-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Neuropathological differences, as well as the involvement of different brain regions and potential genetic and environmental modifiers, may account for the phenotypical heterogeneity in these disorders. To date, there are no diagnostic markers to detect TDP‐43 proteinopathy in vivo, and the confirmation of the underlying TDP‐43 pathology remains a <italic toggle="yes">post mortem</italic> diagnosis. Indeed, antibody‐based detection of TDP‐43, either the full‐length protein or its post‐translationally modified isoforms, in plasma/serum and CSF has not yielded consistent results.<xref rid="alz70989-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz70989-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> The limitations of direct plasma analysis have recently been overcome through the use of the extracellular vesicles (EVs). A recent study by Chatterjee et al. demonstrated successful detection of elevated TDP‐43 levels, quantified using the SIMOA assay, in plasma EVs derived from patients with behavioral FTD due to TDP‐43 pathology and ALS, relative to controls.<xref rid="alz70989-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> Compared to the methods described above, seed amplification assays (SAAs) enable the ultrasensitive detection of pathological aggregates of misfolded proteins in neurodegenerative proteinopathies. These techniques are currently used in the diagnostic workup of prion diseases on the PrP protein<xref rid="alz70989-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> and synucleinopathies<xref rid="alz70989-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="alz70989-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> where they have shown strong reproducibility across laboratories, along with high sensitivity and specificity. Recently, promising results emerged from the application of SAA to cerebrospinal fluid (CSF) and olfactory mucosa (OM) samples of genetic TDP‐43 proteinopathies (TDP‐43_SAA).<xref rid="alz70989-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="alz70989-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> The work of Scialò et al. showed the ability of SAA to amplify TDP‐43 aggregates in CSF samples of patients with <italic toggle="yes">GRN</italic> and <italic toggle="yes">C9orf72</italic> mutations with a total sensitivity of 94% and a specificity of 85%, suggesting its potential as a diagnostic tool.<xref rid="alz70989-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>
+</p><p>To date, TDP‐43_SAA has never been applied in a cohort of presymptomatic individuals to test the possibility of detecting pathological changes years before the onset of clinical symptoms. Here, we applied TDP‐43_SAA to a cohort of individuals carrying <italic toggle="yes">GRN</italic> and <italic toggle="yes">C9orf72</italic> mutations to confirm its ability to detect TDP‐43 pathology in vivo. Since TDP‐43 pathology can currently only be confirmed <italic toggle="yes">post mortem</italic>, we decided to analyze CSF exclusively from patients carrying TDP‐43‐related genetic mutations, in whom the presence of TDP‐43 pathology is highly probable. This approach overcomes the pathological uncertainty behind clinical presentation, which is typically observed in sporadic cases.<xref rid="alz70989-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> For the first time, we also evaluated whether TDP‐43_SAA could identify TDP‐43 seeding activity in presymptomatic carriers. Additionally, we measured CSF neurofilament light chain (NfL) levels using single molecule array (SIMOA) technology to explore a potential correlation between (1) NfL, as a marker of neurodegeneration and disease progression, and (2) TDP‐43 seeding activity.</p></sec><sec id="alz70989-sec-0070"><label>2</label><title>METHODS</title><sec id="alz70989-sec-0080"><label>2.1</label><title>Cohort description</title><p>A total of 73 subjects, comprising 32 patients with genetic FTD, FTD‐ALS, or ALS due to <italic toggle="yes">GRN</italic> mutations (<italic toggle="yes">n</italic> = 11), <italic toggle="yes">C9orf72</italic> expansion (<italic toggle="yes">n</italic> = 19) and microtubule‐associated protein tau (<italic toggle="yes">MAPT</italic>) mutations (<italic toggle="yes">n</italic> = 2), 14 presymptomatic carriers (6 <italic toggle="yes">GRN</italic> and 8 <italic toggle="yes">C9orf72</italic>), and 27 cognitively healthy controls (CTRLs) (neuropathy = 10, major depression = 3, subjective cognitive complaint (SCC) = 11, hereditary spastic paraplegia = 1, and healthy controls = 2) were included (Table <xref rid="alz70989-tbl-0001" ref-type="table">1</xref>). All controls were cognitively unimpaired, and CSF biomarkers including p‐Tau, total Tau, and the Aβ42/40 ratio, yielded results within normal ranges in controls with SCC, major depression, and hereditary spastic paraplegia. Alzheimer's disease (AD) biomarkers were not available for patients with neuropathy. All included individuals are Caucasian (either from Italy or Netherlands), except for one African descent. All subjects underwent both CSF TDP‐43_SAA and NfL levels detection via SIMOA.</p><table-wrap position="float" id="alz70989-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Demographic, clinical data, and NfL dosages of the study population.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Study population</th><th align="left" rowspan="1" colspan="1">
+<p>
+<italic toggle="yes">GRN</italic>
+</p>
+<p>
+<italic toggle="yes">n</italic> = 11</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>
+<italic toggle="yes">MAPT</italic>
+</p>
+<p>
+<italic toggle="yes">n</italic> = 2</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>
+<italic toggle="yes">C9orf72</italic>
+</p>
+<p>
+<italic toggle="yes">n</italic> = 19</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>Total cases</p>
+<p>
+<italic toggle="yes">n</italic> = 32</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>CTRLs</p>
+<p>
+<italic toggle="yes">n</italic> = 27</p>
+</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐value (patients vs CTRLs)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Demographic features</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Age at CSF collection, years, mean ± SD (range)</td><td align="left" rowspan="1" colspan="1">
+<p>59 ± 6</p>
+<p>(45–68)</p>
+</td><td align="left" rowspan="1" colspan="1">50 ± 12 (42‐59)</td><td align="left" rowspan="1" colspan="1">
+<p>61 ± 7</p>
+<p>(43–73)</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>60 ± 7</p>
+<p>(42–73)</p>
+</td><td align="left" rowspan="1" colspan="1">63 ± 10 (40–79)</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> &gt; 0.05 ns</td></tr><tr><td align="left" rowspan="1" colspan="1">Age at onset, years, mean ± SD</td><td align="left" rowspan="1" colspan="1">56 ± 7</td><td align="left" rowspan="1" colspan="1">47 ± 14</td><td align="left" rowspan="1" colspan="1">60 ± 8</td><td align="left" rowspan="1" colspan="1">57 ± 9</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">Disease duration at CSF collection, months, mean ± SD</td><td align="left" rowspan="1" colspan="1">20 ± 10</td><td align="left" rowspan="1" colspan="1">36 ± 16</td><td align="left" rowspan="1" colspan="1">20 ± 15</td><td align="left" rowspan="1" colspan="1">22 ± 14</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Sex (F/M) n</bold>.</td><td align="left" rowspan="1" colspan="1">3/8</td><td align="left" rowspan="1" colspan="1">2/0</td><td align="left" rowspan="1" colspan="1">5/14</td><td align="left" rowspan="1" colspan="1">10/22</td><td align="left" rowspan="1" colspan="1">10/17</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Clinical phenotype n</bold>.</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Pure ALS</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">ALS plus cognitive decline</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">FTD‐ALS</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">bvFTD</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">nfvPPA</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">svPPA</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">PD</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">CBS</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<p>NfL (pg/mL)</p>
+<p>median (IQR)</p>
+</td><td align="left" rowspan="1" colspan="1">4381 (3215.46–5026.86)</td><td align="left" rowspan="1" colspan="1">2247.88 (2042–2454)</td><td align="left" rowspan="1" colspan="1">2360 (1582.21–4436.26)</td><td align="left" rowspan="1" colspan="1">3423.02 (1870.77–4628.04)</td><td align="left" rowspan="1" colspan="1">649.76 (397.73–909)</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> ≤ 0.0001 ****</td></tr><tr><td align="left" rowspan="1" colspan="1">TDP‐43_SAA (+/tot) n.</td><td align="left" rowspan="1" colspan="1">8/11</td><td align="left" rowspan="1" colspan="1">0/2</td><td align="left" rowspan="1" colspan="1">12/19</td><td align="left" rowspan="1" colspan="1">20/32</td><td align="left" rowspan="1" colspan="1">2/27</td><td align="left" rowspan="1" colspan="1">–</td></tr></tbody></table><table-wrap-foot><fn id="alz70989-tbl1-note-0001"><p>Abbreviations: ALS, amyotrophic lateral sclerosis; bvFTD, behavioral variant of frontotemporal dementia; CBS, corticobasal syndrome; CTRLs, controls; F, female; FTD, frontotemporal dementia; IQR, interquartile range; M, male; NfL, neurofilament light chain; nfvPPA, non‐fluent variant of primary progressive aphasia; PD, Parkinson's disease; SAA, seed amplification assay; SD, standard deviation; svPPA, semantic variant of primary progressive aphasia; TDP‐43, transactive response (TAR) DNA‐binding protein 43.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>All patients and CTRLs underwent to a standard clinical assessment following local guidelines with neuropsychological evaluation and neurological examination.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz70989-sec-0090"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz70989-list-0002"><list-item><p>
+<bold>Systematic review</bold>: Seed amplification assays (SAAs) have already shown promising results in detecting misfolded proteins in cerebrospinal fluid (CSF) and other easily accessible tissues collected from patients with different neurodegenerative disorders, including prion diseases, and alpha‐synucleinopathies. Limited research activities have been carried out in the field of transactive response (TAR) DNA‐binding protein 43 (TDP‐43) proteinopathies. Interestingly, misfolded TDP‐43 was found in the CSF of patients with genetic frontotemporal dementia (FTD), linked to <italic toggle="yes">GRN</italic> and <italic toggle="yes">C9orf72</italic> mutations. However, the CSF of presymptomatic carriers of TDP‐43 pathology has yet to be evaluated using SAA.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Our preliminary findings suggest that the detectability of TDP‐43 by SAA may be influenced by genetic background and phenotype. In particular, we found that TDP‐43_SAA can detect TDP‐43 in 67% of patients of our cohort with genetic mutations linked to TDP‐43 proteinopathies, with high specificity especially in <italic toggle="yes">GRN</italic> mutation carriers. Data from presymptomatic individuals (43% of whom tested positive for TDP‐43_SAA) were consistent with those from symptomatic patients. In both groups, most TDP‐43_SAA positive cases were carriers of <italic toggle="yes">GRN</italic> mutation, and two positive presymtomatic <italic toggle="yes">GRN</italic> carriers converted to the symptomatic phase of the disease.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Future research involving larger cohorts of both symptomatic and presymptomatic individuals is urgently needed, particularly in light of recent advancements in experimental therapies targeting genetic forms of FTD. Early detection of the pathology and the ability to monitor disease progression are critical for accurately assessing the efficacy of these treatments.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="alz70989-sec-0100"><label>2.2</label><title>CSF collection</title><p>CSF has been collected by lumbar puncture, following a standard procedure. The samples were centrifuged at 1000 × g for 10 min and finally stored in polypropylene tubes at −80°C. Samples were provided by Fondazione IRCCS Istituto Neurologico Carlo Besta, Milano, Italy, University of Brescia, Italy and Erasmus Medical Centre, Rotterdam, the Netherlands.</p><p>The study has been approved by the Ethical Commitee of CET Lombardia 4 (approval obtained on November 24, 2023) and Erasmus MC. All patients included in the study signed a written informed consent for samples collection for research.</p></sec><sec id="alz70989-sec-0110"><label>2.3</label><title>TDP‐43_SAA analysis</title><p>Recombinant human truncated TDP‐43 protein (HuTDP‐43(263‐414)) was produced as previously described<xref rid="alz70989-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> and is referred to as rec TDP‐43. For TDP‐43_SAA, CSF samples were analyzed in black 96‐well optical flat bottom plates (ThermoScientific). Each well was preloaded with one low‐binding glass bead (3 mm, Sigma) and 85 µL of reaction mix prepared as follows: 40 mM Tris at pH 8, 500 mM GdnHCl (pH 8), 10 uM thioflavin T (ThT), 0.002% of sodium dodecyl sulfate (SDS), and 0.05 mg/mL of rec TDP‐43. All solutions were filtered before use with 22 µm sterile filters.</p><p>Fifteen µL of CSF samples were added to each well. Samples were tested in triplicate. The plates were sealed with a sealing film and inserted into a FLUOstar CLARIOSTAR microplate reader (BMG Labtech), subsequently incubated at 42°C and subjected to cycles of shaking (15 s, 100 rpm, double orbital) and incubation (30 min). Aggregation was monitored via ThT fluorescence, with readings taken at 480 ± 10 nm emission, expressed in arbitrary units (AU), every 30 min (30 flashes per well at 450 nm excitation). To be considered positive (TDP‐43_SAA+), at least two out of three replicates were required to cross predetermined thresholds of fluorescence (20000 AU) and time (20 h). Negative patients are indicated as TDP‐43_SAA−.<xref rid="alz70989-tbl-0001" ref-type="table"> </xref>
+</p></sec><sec id="alz70989-sec-0120"><label>2.4</label><title>NfL dosage by SIMOA</title><p>CSF NfL measurement was performed by SIMOA technology on the SR‐X Analyzer (Quanterix), using the commercially available kit (Neuro 4‐Plex A) according to the manufacturer's instructions. CSF samples were thawed for 60 min at room temperature (RT), vortexed for 10 s and centrifuged for 5 min at 10,000 × g to remove any impurities before use. CSF samples were diluted 40× to a total volume of 152 µL per well. Two quality controls, provided by the manufacturer, were included in each plate. Calibrators were run in triplicates, while samples and controls were run in duplicates, displaying an intra‐assay variation lower than 20%, as assessed statistically. All samples were anonymized and analyzed blindly.</p></sec><sec id="alz70989-sec-0130"><label>2.5</label><title>Statistical analyses</title><p>Data were analyzed using R (version 4.1.2) and GraphPad Prism 8.0.1 (GraphPad Software). Statistical analyses were performed both for the clinical groups (patients, presymptomatic individuals, and healthy controls) and according to TDP‐43_SAA status (positive vs negative). Categorical variables (genotype, sex, and geographical origin) were compared across groups using Pearson's <italic toggle="yes">χ</italic>
+<sup>2</sup> or Fisher's exact tests, as appropriate. Continuous variables (age and CSF NfL levels) were tested for normality using the Shapiro–Wilk test. As CSF NfL levels were highly skewed, they were log‐transformed prior to parametric analyses. Between‐group differences were evaluated using Kruskal–Wallis tests, followed by Dunn's post hoc tests with Benjamini–Hochberg correction for multiple comparisons. When only two groups were analyzed, a Mann–Whitney test for non‐parametric data was applied. Associations between NfL levels and age were assessed using Spearman's rank correlation coefficient. To account for potential confounders, multivariable linear regression models were fitted with log‐transformed NfL as the dependent variable and age, sex, origin, and clinical status (control, presymptomatic, patient) as fixed effect. Regression coefficients (<italic toggle="yes">β</italic>) were exponentiated to report percent changes relative to the reference group. Models were rerun using presymptomatic carriers as the reference category to enable direct comparisons between patients and presymptomatic individuals. Receiver operating characteristic (ROC) curve analysis (calculating the area under the curve [AUC] ± standard error [SE]) and its 95% confidence interval (CI) was used to assess the diagnostic accuracy of NfL for the discrimination of patients from controls. Statistical significance is denoted as follows: **** <italic toggle="yes">p</italic>‐value &lt; 0.0001; *** <italic toggle="yes">p</italic>‐value &lt; 0.001; and * <italic toggle="yes">p</italic>‐value &lt; 0.05; <italic toggle="yes">p</italic>‐values below 0.05 were considered statistically significant.</p></sec></sec><sec id="alz70989-sec-0140"><label>3</label><title>RESULTS</title><p>Demographic data, clinical features, SIMOA‐measured NfL levels and results of TDP‐43_SAA are summarized in Table <xref rid="alz70989-tbl-0001" ref-type="table">1</xref> and Table <xref rid="alz70989-supinfo-0001" ref-type="">S1</xref> for patients and controls, while characteristics of presymptomatic carriers are shown in Table <xref rid="alz70989-tbl-0002" ref-type="table">2</xref>. Although patients tended to be older than controls and presymptomatic carriers, age at CSF collection did not differ significantly among all study groups (Kruskal–Wallis H = 5.41, p = 0.067). Sex distribution was balanced across groups (Pearson's chi‐squared test, p = 0.524), with males representing 62% of the cohort. Regarding clinical phenotypes, the <italic toggle="yes">C9orf72</italic> patients included 10 bvFTD, 1 nfvPPA, 1 corticobasal syndrome (CBS), 4 FTD‐ALS, 2 pure ALS (1 bulbar and 1 spinal onset), and 1 ALS with cognitive impairment (not meeting criteria for FTD diagnosis), <italic toggle="yes">MAPT</italic> carriers included 1 bvFTD and 1 svFTD, 6 <italic toggle="yes">GRN</italic> mutations carriers were diagnosed with bvFTD, 5 with nfvPPA, and 1 with Parkinson's disease (PD) phenotype associated with prodromal FTD (Table <xref rid="alz70989-tbl-0001" ref-type="table">1</xref>, Tables <xref rid="alz70989-supinfo-0001" ref-type="">S1</xref> and <xref rid="alz70989-supinfo-0001" ref-type="">S2</xref>). This patient presented with rigid‐akinetic form of PD, responsive to L‐DOPA treatment, with a positive DaTSCAN, associated with mild cognitive executive impairment and mild behavioral disorders. All patients were diagnosed according to the current diagnostic criteria.<xref rid="alz70989-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="alz70989-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="alz70989-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>
+</p><table-wrap position="float" id="alz70989-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Demographic data of the presymptomatic cohort.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Presymptomatic carriers</th><th align="left" rowspan="1" colspan="1">
+<p>
+<italic toggle="yes">GRN</italic>
+</p>
+<p>
+<italic toggle="yes">n</italic> = 6</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>
+<italic toggle="yes">C9orf72</italic>
+</p>
+<p>
+<italic toggle="yes">n</italic> = 8</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>Total</p>
+<p>
+<italic toggle="yes">n</italic> = 14</p>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Demographic features</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Age at CSF collection, years, mean ± SD (range)</td><td align="left" rowspan="1" colspan="1">56 ± 9 (41–67)</td><td align="left" rowspan="1" colspan="1">53 ± 12 (39–70)</td><td align="left" rowspan="1" colspan="1">55 ± 11 (39–70)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Sex (F/M)</bold>
+</td><td align="left" rowspan="1" colspan="1">3/3</td><td align="left" rowspan="1" colspan="1">4/4</td><td align="left" rowspan="1" colspan="1">7/7</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>SAA_TDP‐43</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">SAA+ <italic toggle="yes">n</italic>. (%)</td><td align="left" rowspan="1" colspan="1">4 (67)</td><td align="left" rowspan="1" colspan="1">2 (25)</td><td align="left" rowspan="1" colspan="1">6 (43)</td></tr><tr><td align="left" rowspan="1" colspan="1">SAA− <italic toggle="yes">n</italic>. (%)</td><td align="left" rowspan="1" colspan="1">2 (33)</td><td align="left" rowspan="1" colspan="1">6 (75)</td><td align="left" rowspan="1" colspan="1">8 (57)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>NfL (pg/ml) median (IQR)</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<p>520.80</p>
+<p>(406.145–1520.60)</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>488.5</p>
+<p>(400.55–691.93)</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>496.15</p>
+<p>(400.18–738.18)</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="alz70989-tbl2-note-0001"><p>
+<italic toggle="yes">Note</italic>: TDP‐43_SAA results (+ positive;—negative) and NfL dosages are reported.</p></fn><fn id="alz70989-tbl2-note-0002"><p>Abbreviations: CSF, cerebrospinal fluid; F, female; IQR, interquartile range; M, male; NfL, neurofilament light chain; SAA, seed amplification assay; SD, standard deviation; TDP‐43, transactive response (TAR) DNA‐binding protein 43.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><sec id="alz70989-sec-0150"><label>3.1</label><title>TDP‐43 seeding activity in symptomatic patients</title><p>To evaluate the ability of TDP‐43_SAA to detect TDP‐43 proteinopathies, we compared 30 patients with <italic toggle="yes">GRN</italic> and <italic toggle="yes">C9orf72</italic> mutations with the other 29 subjects of the cohort (including the 27 CTRLs and the 2 patients with <italic toggle="yes">MAPT</italic> mutations).</p><p>TDP‐43_SAA was positive in 20 out of 30 samples (67%) from FTD/ALS patients with either <italic toggle="yes">GRN</italic> or <italic toggle="yes">C</italic>
+<italic toggle="yes">9orf72</italic> mutations (Figure <xref rid="alz70989-fig-0001" ref-type="fig">1</xref>). The age at CSF collection for the 10 patients who tested negative was comparable to that of remaining patient population (<italic toggle="yes">p</italic> &gt; 0.05). Similarly, the latency between the onset of symptoms and CSF collection did not differ significantly between these patients and the rest of the cohort (<italic toggle="yes">p</italic> &gt; 0.05).</p><fig position="float" fig-type="FIGURE" id="alz70989-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>TDP‐43_SAA analyses of CSF from genetic <italic toggle="yes">C9orf72</italic> and <italic toggle="yes">GRN</italic> FTD and FTD‐ALS patients and presymptomatic carriers. Kinetic curves of TDP‐43 seeding activity in CSF from subjects with (A) <italic toggle="yes">C</italic>
+<italic toggle="yes">9orf72</italic> mutation, (B) <italic toggle="yes">GRN</italic> mutation, (C) presymptomatic carriers, and (D) controls (CTRLs + <italic toggle="yes">MAPT</italic> carriers). (A, B) The kinetic curves are indicated by purple lines for positive CSF from FTD/FTD‐ALS, ALS, and ALS‐FTD patients. (C) Presymptomatic carriers are divided into two groups, depending on the mutation. The green lines indicate <italic toggle="yes">C</italic>
+<italic toggle="yes">9orf72</italic> carriers, and the orange lines <italic toggle="yes">GRN</italic> carriers. All the samples that tested negative are indicated in gray. (D) The two positive controls are indicated in black, whereas all the samples that resulted negative are indicated in gray. The dotted lines indicate the fluorescence (AU) and time (h) thresholds. ALS, amyotrophic lateral sclerosis; CSF, cerebrospinal fluid; FTD, frontotemporal dementia; MAPT, microtubule‐associated protein tau; SAA, seed amplification assay; TDP‐43, transactive response (TAR) DNA‐binding protein 43.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-21-e70989-g001.jpg"/></fig><p>Considering the specific genotypes, in the group of <italic toggle="yes">C9orf72</italic> carriers (Figure <xref rid="alz70989-fig-0001" ref-type="fig">1A</xref>), 12/19 (63%) patients tested positive; specifically, two diagnosed with ALS, 1 with FTD‐ALS and 9 diagnosed with FTD. In the group of <italic toggle="yes">GRN</italic> carriers, 8/11 (73%) FTD patients (Figure <xref rid="alz70989-fig-0001" ref-type="fig">1B</xref>) were positive. In the group of CTRLs and <italic toggle="yes">MAPT</italic> patients, 2 out of 29 CSF tested positive (2 CTRLs), yielding a specificity of 93% (Figure <xref rid="alz70989-fig-0001" ref-type="fig">1D</xref>).</p></sec><sec id="alz70989-sec-0160"><label>3.2</label><title>TDP‐43 seeding activity in presymptomatic carriers</title><p>TDP‐43_SAA was positive in 6 out of 14 CSF (43%) from <italic toggle="yes">C9orf72</italic> (2 out of 8 presymptomatic) and <italic toggle="yes">GRN</italic> (4 out of 6 presymptomatic) carriers. The age at CSF collection did not significantly differ between TDP‐43_SAA+ and TDP‐43_SAA− presymptomatc carriers (<italic toggle="yes">p</italic> &gt; 0.05). Remarkably, although not statistically significant, we have found that the fluorescence intensities reached by these samples were lower than those observed in symptomatic patients (Figure <xref rid="alz70989-fig-0001" ref-type="fig">
+<bold>1C</bold>
+</xref>).</p></sec><sec id="alz70989-sec-0170"><label>3.3</label><title>CSF NfL levels and TDP‐43_SAA in the study population</title><p>CSF NfL levels were significantly increased in all patients compared to controls and to presymptomatic carriers as well. Kruskal–Wallis (<italic toggle="yes">H</italic> = 43.7, <italic toggle="yes">p</italic> &lt; 0.001) and post hoc Dunn's tests confirmed higher NfL in patients compared with both controls (<italic toggle="yes">p</italic> &lt; 0.001) and presymptomatic carriers (<italic toggle="yes">p</italic> &lt; 0.001), whereas no difference was found between controls and presymptomatic individuals (<italic toggle="yes">p</italic> = 0.84) (Figure <xref rid="alz70989-fig-0002" ref-type="fig">2A</xref>). Additionally, NfL showed an excellent discrimination efficiency between patients and controls (AUC value of 0.98 ± 0.01 SE) (Figure <xref rid="alz70989-supinfo-0001" ref-type="">S1a</xref>). Spearman's correlation showed a weak, non‐significant association between age and NfL levels (<italic toggle="yes">ρ</italic> = 0.125, <italic toggle="yes">p</italic> = 0.30). In multivariable regression adjusting for age, sex, and geographical origin, patient status remained strongly associated with higher log‐transformed NfL (<italic toggle="yes">β</italic> = 1.722, <italic toggle="yes">p</italic> &lt; 0.001; +460% vs controls), while presymptomatic carriers showed a non‐significant trend (+67%, <italic toggle="yes">β</italic> = 0.511, <italic toggle="yes">p</italic> = 0.091). The same results were obtained using presymptomatic carriers as reference, with NfL significantly higher in patients (<italic toggle="yes">β</italic> = 1.211, <italic toggle="yes">p</italic> &lt; 0.001; +236%), and the difference between presymptomatic carriers and controls remained non‐significant (<italic toggle="yes">β</italic> = −0.511, <italic toggle="yes">p</italic> = 0.09). Age had a modest independent effect (+1.9% per year, <italic toggle="yes">β</italic> = 0.019, <italic toggle="yes">p</italic> = 0.023), whereas sex and origin were not significant predictors.</p><fig position="float" fig-type="FIGURE" id="alz70989-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>CSF NfL levels by SIMOA in our study population. (A) Statistically significant increase in NfL levels was observed in patients compared to CTRLs and presymptomatic carriers (Pre‐sym) (Kruskal–Wallis test **** <italic toggle="yes">p</italic> &lt; 0.0001). CSF NfL levels and SAA_ TDP‐43 in our study population. (B) NfL levels did not significantly differ between SAA+ and SAA‐ patients (Mann–Whitney test <italic toggle="yes">p</italic> = 0,8889). (C) SAA+ presymptomatic carriers (Presym_SAA+) presented higher NfL levels compared with SAA‐ presymptomatic carriers (Presym_SAA‐) (Mann–Whitney test *p = 0,0426), however the difference was no longer significant after adjusting for age (<italic toggle="yes">p</italic> = 0,097); red arrows show the two <italic toggle="yes">GRN</italic> carriers who underwent phenoconversion. CSF, cerebrospinal fluid; CTRL, control; NfL, neurofilament light chain; SAA, seed amplification assay; SIMOA, single molecule array.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-21-e70989-g002.jpg"/></fig><p>We also compared NfL levels in both patients and presymptomatic carriers according to the genetic background; interestingly, <italic toggle="yes">GRN</italic> mutated subjects, both patients and presymptomatic carriers, presented higher levels of CSF NfL (Table <xref rid="alz70989-tbl-0001" ref-type="table">1</xref>) but they did not significantly differ from those of <italic toggle="yes">C9orf72</italic> expansion carriers (Figure <xref rid="alz70989-supinfo-0001" ref-type="">S1b,c</xref>).</p><p>We then compared the results of TDP‐43_SAA and the CSF NfL levels measured by SIMOA (Figure <xref rid="alz70989-fig-0002" ref-type="fig">2</xref>). In the patient group, the Mann–Whitney test did not identify differences in CSF NfL levels of patients tested positive (TDP‐43_SAA+) and those of patients tested negative (TDP‐43_SAA−) (Figure <xref rid="alz70989-fig-0002" ref-type="fig">2B</xref>). In the presymptomatic carriers subcohort, we found higher levels of CSF NfL in those who tested positive at TDP‐43_SAA compared to presymptomatic carriers who tested negative at TDP‐43_SAA (p &lt; 0.05) (Figure <xref rid="alz70989-fig-0002" ref-type="fig">2C</xref>), however this difference was no longer significant after adjusting for age.</p></sec></sec><sec id="alz70989-sec-0180"><label>4</label><title>DISCUSSION</title><p>The primary aim of our study was to assess the ability of TDP‐43_SAA to detect misfolded TDP‐43 across genetic forms of FTD, and correlate TDP‐43_SAA with different clinical phenotypes, focusing on its potential in presymptomatic individuals.</p><p>To this aim, we analyzed the CSF of subjects carrying both <italic toggle="yes">C9orf72</italic> expansion and <italic toggle="yes">GRN</italic> mutations collected at clinical and preclinical disease stages. Considering that the frequency of TDP‐43 pathology increases with age, independently of cognitive status,<xref rid="alz70989-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> we compared age at CSF collection among our study groups (controls, patients, and presymptomatic carriers) and found no significant difference.</p><p>Regarding the distinction of <italic toggle="yes">GRN</italic> and <italic toggle="yes">C9orf72</italic> patients from CTRL group and <italic toggle="yes">MAPT</italic> carriers, TDP‐43_SAA reached a sensitivity of 67% and a specificity of 93%.</p><p>Interestingly, in the presymptomatic subgroup, 6 out of 14 subjects tested positive for TDP‐43_SAA (Figure <xref rid="alz70989-fig-0001" ref-type="fig">1</xref>), corresponding to a sensitivity of 43%. The observed sensitivity in the presymptomatic cohort may reflect the inherent heterogeneity of this group, as presymptomatic carriers could be at different stages of the disease process, with some approaching symptom onset, while others may be further from phenoconversion.</p><p>When considering genetic background, we found that most of SAA+ presymptomatic carriers are <italic toggle="yes">GRN</italic> carriers (four out of six (67%) <italic toggle="yes">GRN</italic> tested positive, while only two out of eight (25%) <italic toggle="yes">C9orf72</italic> presymptomatic carriers tested positive). Remarkably, two of <italic toggle="yes">GRN</italic> TDP‐43_SAA+ presymptomatic carriers underwent phenoconversion developing bvFTD after 2 and 3 years of follow‐up, at 62 and 65 years of age, respectively (Figure <xref rid="alz70989-fig-0002" ref-type="fig">2C</xref>), while to date, the other carriers remain asymptomatic and continue clinical follow‐up. Therefore, the SAA positivity in the presymptomatic phase of the disease, at least in <italic toggle="yes">GRN</italic> carriers of our cohort, could be more easily detected when the symptomatic phase approaches. In CTRL group, two subjects tested positive at the TDP‐43_SAA. One was a 72‐year‐old woman diagnosed with hereditary spastic paraplegia (HSP) due to <italic toggle="yes">SPG3A</italic> mutation. Notably, HSP is characterized by involvement of the corticospinal motor neurons similarly to ALS, and TDP‐43 pathology has also been found in the HSP subtype SPG6 (caused by mutations in <italic toggle="yes">NIPA1</italic>).<xref rid="alz70989-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> The other subject was a 77‐year‐old man diagnosed with idiopathic neuropathy, a condition in which phosphorylated TDP‐43 aggregates have previously been described in peripheral nerve biopsies.<xref rid="alz70989-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> Given that TDP‐43_SAA detects ongoing pathological TDP‐43 seeding activity, a positive assay result may indicate the presence of coexisting pathology. Moreover, in the absence of neuropathological confirmation, it cannot be excluded that control subjects in whom pathological TDP‐43 seeds were detected, may eventually develop a TDP‐43‐related disorder over time.</p><p>Regarding the clinical phenotypes of our patients, 73% of bvFTD and 66% of nfvPPA tested positive at TDP‐43_SAA. Considering the three patients with ALS at onset, two of them tested positive at TDP‐43_SAA while most FTD‐ALS patients tested negative (Table <xref rid="alz70989-tbl-0001" ref-type="table">1</xref> and Tables <xref rid="alz70989-supinfo-0001" ref-type="">S1</xref> and <xref rid="alz70989-supinfo-0001" ref-type="">S2</xref>). However, given the small sample size of subgroups, is not possible to elucidate a clear association of TDP43_SAA positivity with ALS or FTD phenotypes.</p><p>In relation to the genotype, in patients we found that most of <italic toggle="yes">GRN</italic> carriers (73%) resulted positive by TDP‐43_SAA (Table <xref rid="alz70989-tbl-0001" ref-type="table">1</xref> and Table <xref rid="alz70989-supinfo-0001" ref-type="">S1</xref>), similarly to our findings in presymptomatic individuals. According to these observations, differences in genotype or in TDP‐43 filaments between FTLD‐TDP type A and B pathologies could influence the seeding and the propagation of the protein, and consequently the sensitivity of SAA, as already described for other proteinopathies.<xref rid="alz70989-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="alz70989-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> Consistent with previous findings, NfL levels were significantly higher in patients when compared to presymptomatic carriers and controls.<xref rid="alz70989-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> Although in our sample age showed a modest association with NfL in multivariable models, the mean age did not differ significantly among groups. Moreover, sex and geographical origin were not significantly associated with NfL levels, indicating that these variables did not exert a confounding effect. As already described among familial FTD cases, <italic toggle="yes">GRN</italic> mutation carriers usually exhibit higher NfL levels and faster rates of increase compared to <italic toggle="yes">C9orf72</italic> carriers over time.<xref rid="alz70989-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> In our study, when comparing NfL levels between <italic toggle="yes">GRN</italic> and <italic toggle="yes">C9orf72</italic> patients, we identified a tendency, still non‐significant difference, with <italic toggle="yes">GRN</italic> patients generally presenting higher NfL levels (Figure <xref rid="alz70989-supinfo-0001" ref-type="">S1b</xref>). Considering the presymptomatic group, NfL levels did not significantly differ from those of controls, consistently with previous findings.<xref rid="alz70989-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> In relation to the genetic background, we found nominally higher NfL levels in <italic toggle="yes">GRN</italic> presymptomatic carriers compared to <italic toggle="yes">C9orf72</italic> carriers, reproducing the trend seen in symptomatic patients (Figure <xref rid="alz70989-supinfo-0001" ref-type="">S1c</xref>). As we were able to detect TDP‐43 seeding activity in 43% of our presymptomatic carriers, we wondered whether the presence of TDP‐43 aggregates might be associated with the development of neurodegeneration, prior to the onset of clinical symptoms. To test this potential association, we compared NfL levels between TDP‐43_SAA+ and TDP‐43_SAA− presymptomatic carriers, detecting higher NfL levels in TDP‐43_SAA+ presymptomatic subjects; however, in this case, the difference lost significance after adjusting for age (Figure <xref rid="alz70989-fig-0002" ref-type="fig">2C</xref>), despite the absence of a statistically significant difference in age between the two groups. Although neuropathological confirmation is not available and our number of presymptomatic carriers is limited, this finding could potentially suggest that neurodegeneration process may have already begun in those presymptomatic individuals who tested positive at TDP‐43_SAA. These subjects presented nominally higher levels of NfL and were older (median age 60 years), compared to the rest of the presymptomatic individuals (median age 53.5 years), which is in line with the evidence that the risk of phenoconversion increases with age.</p><p>In the patients, no significant difference in NfL levels was observed between TDP‐43_SAA+ and TDP‐43_SAA− (Figure <xref rid="alz70989-fig-0002" ref-type="fig">2A</xref>). Indeed, all patients presented high NfL levels, consistent with previous reports showing that both serum and CSF NfL levels in symptomatic mutation carriers do not change significantly over time and remain elevated.<xref rid="alz70989-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="alz70989-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+</p><p>This study has some limitations. First, in the absence of <italic toggle="yes">post mortem</italic> confirmation, we decided to include only patients with TDP‐43 related mutations; while this approach overcame the neuropathological uncertainty associated with sporadic FTD cases, it also limited our sample size. Second, in the <italic toggle="yes">C9orf72</italic> carriers, the presence of poly‐glycine‐proline (poly‐GP) pathology that could contribute to better define the presymptomatic stage of the disease in this genetic form, has not been evaluated. Third, these are cross‐sectional data, therefore the prognostic relevance of our findings in the presymptomatic cohort, particularly in distinguishing between converters and non‐converters, should be validated through serial markers measurements and clinical follow‐up.</p></sec><sec sec-type="COI-statement" id="alz70989-sec-0200"><title>CONFLICT OF INTEREST STATEMENT</title><p>Harro Seleelar: Gieskes‐Strijbis Fonds, Alzheimer Nederland (WE.03‐2022‐07); ZonMW [#10510032120003; #10510032120006, # 10510032120002] Bluefield Project to cure FTD; EU‐Horizon project PREDICTFTD (grant agreement n° 101156175) Erasmus Foundation. Nilo Riva: DOD—Department of Defence of the USA; Giovanni Marazzina Foundation; Italian Ministry of Health—PNRR, AriSLA. Barbara Borroni: Medical advisor for Denali, Wave, AviadoBio, Lilly, and UCB. Ilaria Linda Dellarole, Vittoria Aprea, Marcella Catania, Claudia Battipaglia, Aurora Romeo, Cristina Villa, Anna Burato, Luigi Celauro, Eleonora Dalla Bella, Erika Salvi, Giacomina Rossi, Giuseppe Di Fede, Giuseppe Legname<sub>,</sub> Julie F H De Houwer, Antonella Alberici, John C van Swieten, Fabio Moda and Paola Caroppo reported no disclosures. Author disclosures are available in the <xref rid="alz70989-supinfo-0001" ref-type="">supporting information</xref>.</p></sec><sec id="alz70989-sec-0210"><title>CONSENT STATEMENT</title><p>This study was approved by approved by the Ethical Commitee of CET Lombardia 4 (approval obtained on November 24, 2023) and Erasmus MC. All subjects were included according to the study protocol and gave written informed consent.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz70989-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz70989-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e70989-s001.docx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz70989-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e70989-s002.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz70989-sec-0190"><title>ACKNOWLEDGMENT</title><p>The work was supported by the project JPND—MINDFACE—MIcroglial early Neuroinflammatory Dysfunction in Frontotemporal Dementia and Amyotrophic Lateral Sclerosis due to C9orf72 repeat Expansions (Coordinator, Prof John Van Swieten). Paola Caroppo has received funding from Italian Ministry of Health. The work was partially supported by the Italian Ministry of Health (RRC and PNRR‐ MCNT2‐2023‐12377336) to Fabio Moda.</p><p>Open access funding provided by BIBLIOSAN.</p></ack><ref-list id="alz70989-bibl-0001"><title>REFERENCES</title><ref id="alz70989-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz70989-cite-0002">
+<string-name name-style="western">
+<surname>Burrell</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kiernan</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vucic</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>. <article-title>Motor Neuron dysfunction in frontotemporal dementia</article-title>. <source>Brain</source>. <year>2011</year>;<volume>134</volume>:<fpage>2582</fpage>‐<lpage>2594</lpage>.<pub-id pub-id-type="pmid">21840887</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awr195</pub-id></mixed-citation></ref><ref id="alz70989-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz70989-cite-0003">
+<string-name name-style="western">
+<surname>Ringholz</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Appel</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bradshaw</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooke</surname>
+<given-names>NA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mosnik</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schulz</surname>
+<given-names>PE</given-names>
+</string-name>. <article-title>Prevalence and patterns of cognitive impairment in sporadic ALS</article-title>. <source>Neurology</source>. <year>2005</year>;<volume>65</volume>:<fpage>586</fpage>‐<lpage>590</lpage>.<pub-id pub-id-type="pmid">16116120</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/01.wnl.0000172911.39167.b6</pub-id></mixed-citation></ref><ref id="alz70989-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz70989-cite-0004">
+<string-name name-style="western">
+<surname>Feldman</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Amyotrophic lateral sclerosis</article-title>. <source>Lancet</source>. <year>2022</year>;<volume>400</volume>:<fpage>1363</fpage>‐<lpage>1380</lpage>.<pub-id pub-id-type="pmid">36116464</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(22)01272-7</pub-id><pub-id pub-id-type="pmcid">PMC10089700</pub-id></mixed-citation></ref><ref id="alz70989-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz70989-cite-0005">
+<string-name name-style="western">
+<surname>Ling</surname>
+<given-names>S‐C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Polymenidou</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cleveland</surname>
+<given-names>DW</given-names>
+</string-name>. <article-title>Converging Mechanisms in ALS and FTD: disrupted RNA and Protein Homeostasis</article-title>. <source>Neuron</source>. <year>2013</year>;<volume>79</volume>:<fpage>416</fpage>‐<lpage>438</lpage>.<pub-id pub-id-type="pmid">23931993</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neuron.2013.07.033</pub-id><pub-id pub-id-type="pmcid">PMC4411085</pub-id></mixed-citation></ref><ref id="alz70989-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz70989-cite-0006">
+<string-name name-style="western">
+<surname>Snowden</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Neary</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mann</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Frontotemporal lobar degeneration: clinical and pathological relationships</article-title>. <source>Acta Neuropathol</source>. <year>2007</year>;<volume>114</volume>:<fpage>31</fpage>‐<lpage>38</lpage>.<pub-id pub-id-type="pmid">17569065</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00401-007-0236-3</pub-id></mixed-citation></ref><ref id="alz70989-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz70989-cite-0007">
+<string-name name-style="western">
+<surname>Le Ber</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Camuzat</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hannequin</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Phenotype variability in progranulin mutation carriers: a clinical, neuropsychological, imaging and genetic study</article-title>. <source>Brain</source>. <year>2008</year>;<volume>131</volume>:<fpage>732</fpage>‐<lpage>746</lpage>.<pub-id pub-id-type="pmid">18245784</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awn012</pub-id></mixed-citation></ref><ref id="alz70989-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz70989-cite-0008">
+<string-name name-style="western">
+<surname>Neumann</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>EB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mackenzie</surname>
+<given-names>IR</given-names>
+</string-name>. <article-title>Frontotemporal lobar degeneration TDP‐43‐immunoreactive pathological subtypes: clinical and mechanistic significance</article-title>. <source>Adv Exp Med Biol</source>. <year>2021</year>:<fpage>201</fpage>‐<lpage>217</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-3-030-51140-1_13</pub-id><pub-id pub-id-type="pmcid">PMC8183578</pub-id><pub-id pub-id-type="pmid">33433877</pub-id></mixed-citation></ref><ref id="alz70989-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz70989-cite-0009">
+<string-name name-style="western">
+<surname>Simón‐Sánchez</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dopper</surname>
+<given-names>EGP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cohn‐Hokke</surname>
+<given-names>PE</given-names>
+</string-name>, et al. <article-title>The clinical and pathological phenotype of C9ORF72 hexanucleotide repeat expansions</article-title>. <source>Brain</source>. <year>2012</year>;<volume>135</volume>:<fpage>723</fpage>‐<lpage>735</lpage>.<pub-id pub-id-type="pmid">22300876</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awr353</pub-id></mixed-citation></ref><ref id="alz70989-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz70989-cite-0010">
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>EB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Porta</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Michael Baer</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Expansion of the classification of FTLD‐TDP: distinct pathology associated with rapidly progressive frontotemporal degeneration</article-title>. <source>Acta Neuropathol</source>. <year>2017</year>;<volume>134</volume>:<fpage>65</fpage>‐<lpage>78</lpage>.<pub-id pub-id-type="pmid">28130640</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00401-017-1679-9</pub-id><pub-id pub-id-type="pmcid">PMC5521959</pub-id></mixed-citation></ref><ref id="alz70989-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz70989-cite-0011">
+<string-name name-style="western">
+<surname>Mori</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weng</surname>
+<given-names>S‐M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arzberger</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>The C9orf72 GGGGCC repeat is translated into aggregating dipeptide‐repeat proteins in FTLD/ALS</article-title>. <source>Science</source>. <year>2013</year>;<volume>339</volume>:<fpage>1335</fpage>‐<lpage>1338</lpage>.<pub-id pub-id-type="pmid">23393093</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1232927</pub-id></mixed-citation></ref><ref id="alz70989-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz70989-cite-0012">
+<string-name name-style="western">
+<surname>Scotter</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>H‐J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>CE</given-names>
+</string-name>. <article-title>TDP‐43 proteinopathy and ALS: insights into disease mechanisms and therapeutic targets</article-title>. <source>Neurotherapeutics</source>. <year>2015</year>;<volume>12</volume>:<fpage>352</fpage>‐<lpage>363</lpage>.<pub-id pub-id-type="pmid">25652699</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s13311-015-0338-x</pub-id><pub-id pub-id-type="pmcid">PMC4404432</pub-id></mixed-citation></ref><ref id="alz70989-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz70989-cite-0013">
+<string-name name-style="western">
+<surname>Irwin</surname>
+<given-names>KE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sheth</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wong</surname>
+<given-names>PC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gendron</surname>
+<given-names>TF</given-names>
+</string-name>. <article-title>Fluid biomarkers for amyotrophic lateral sclerosis: a review</article-title>. <source>Mol Neurodegener</source>. <year>2024</year>;<volume>19</volume>:<fpage>9</fpage>.<pub-id pub-id-type="pmid">38267984</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13024-023-00685-6</pub-id><pub-id pub-id-type="pmcid">PMC10809579</pub-id></mixed-citation></ref><ref id="alz70989-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz70989-cite-0014">
+<string-name name-style="western">
+<surname>López‐Carbonero</surname>
+<given-names>JI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>García‐Toledo</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fernández‐Hernández</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>In vivo diagnosis of TDP‐43 proteinopathies: in search of biomarkers of clinical use</article-title>. <source>Transl Neurodegener</source>. <year>2024</year>;<volume>13</volume>:<fpage>29</fpage>.<pub-id pub-id-type="pmid">38831349</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s40035-024-00419-8</pub-id><pub-id pub-id-type="pmcid">PMC11149336</pub-id></mixed-citation></ref><ref id="alz70989-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz70989-cite-0015">
+<string-name name-style="western">
+<surname>Chatterjee</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Özdemir</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fritz</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Plasma extracellular vesicle tau and TDP‐43 as diagnostic biomarkers in FTD and ALS</article-title>. <source>Nat Med</source>. <year>2024</year>;<volume>30</volume>:<fpage>1771</fpage>‐<lpage>8315</lpage>.<pub-id pub-id-type="pmid">38890531</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-024-02937-4</pub-id><pub-id pub-id-type="pmcid">PMC11186765</pub-id></mixed-citation></ref><ref id="alz70989-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz70989-cite-0016">
+<string-name name-style="western">
+<surname>Cazzaniga</surname>
+<given-names>FA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bistaffa</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Luca</surname>
+<given-names>CMG</given-names>
+</string-name>, et al. <article-title>PMCA‐Based detection of prions in the olfactory mucosa of patients with sporadic Creutzfeldt–Jakob disease</article-title>. <source>Front Aging Neurosci</source>. <year>2022</year>;<volume>14</volume>:<elocation-id>848991</elocation-id>.<pub-id pub-id-type="pmid">35401151</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fnagi.2022.848991</pub-id><pub-id pub-id-type="pmcid">PMC8990253</pub-id></mixed-citation></ref><ref id="alz70989-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz70989-cite-0017">
+<string-name name-style="western">
+<surname>De Luca</surname>
+<given-names>CMG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elia</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Portaleone</surname>
+<given-names>SM</given-names>
+</string-name>, et al. <article-title>Efficient RT‐QuIC seeding activity for α‐synuclein in olfactory mucosa samples of patients with Parkinson's disease and multiple system atrophy</article-title>. <source>Transl Neurodegener</source>. <year>2019</year>;<volume>8</volume>:<fpage>24</fpage>.<pub-id pub-id-type="pmid">31406572</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s40035-019-0164-x</pub-id><pub-id pub-id-type="pmcid">PMC6686411</pub-id></mixed-citation></ref><ref id="alz70989-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz70989-cite-0018">
+<string-name name-style="western">
+<surname>Quadalti</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Calandra‐Buonaura</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baiardi</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Neurofilament light chain and α‐synuclein RT‐QuIC as differential diagnostic biomarkers in parkinsonisms and related syndromes</article-title>. <source>npj Park Dis</source>. <year>2021</year>;<volume>7</volume>:<fpage>93</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41531-021-00232-4</pub-id><pub-id pub-id-type="pmcid">PMC8505434</pub-id><pub-id pub-id-type="pmid">34635674</pub-id></mixed-citation></ref><ref id="alz70989-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz70989-cite-0019">
+<string-name name-style="western">
+<surname>Fontana</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bongianni</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benussi</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Detection of TDP‐43 seeding activity in the olfactory mucosa from patients with frontotemporal dementia</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>20</volume>:<fpage>1156</fpage>‐<lpage>1165</lpage>.<pub-id pub-id-type="pmid">37908186</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13541</pub-id><pub-id pub-id-type="pmcid">PMC10917048</pub-id></mixed-citation></ref><ref id="alz70989-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz70989-cite-0020">
+<string-name name-style="western">
+<surname>Scialò</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tran</surname>
+<given-names>TH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salzano</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>TDP‐43 real‐time quaking induced conversion reaction optimization and detection of seeding activity in CSF of amyotrophic lateral sclerosis and frontotemporal dementia patients</article-title>. <source>Brain Commun</source>. <year>2020</year>;<volume>2</volume>:<elocation-id>caa142</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/braincomms/fcaa142</pub-id><pub-id pub-id-type="pmcid">PMC7566418</pub-id><pub-id pub-id-type="pmid">33094285</pub-id></mixed-citation></ref><ref id="alz70989-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz70989-cite-0021">
+<string-name name-style="western">
+<surname>Antonioni</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raho</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Granieri</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koch</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Frontotemporal dementia. How to deal with its diagnostic complexity?</article-title>. <source>Expert Rev Neurother</source>. <year>2025</year>;<volume>25</volume>:<fpage>323</fpage>‐<lpage>357</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/14737175.2025.2461758</pub-id><pub-id pub-id-type="pmid">39911129</pub-id></mixed-citation></ref><ref id="alz70989-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz70989-cite-0022">
+<string-name name-style="western">
+<surname>Brooks</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swash</surname>
+<given-names>M</given-names>
+</string-name>, <article-title>Revised criteria for the diagnosis of amyotrophic lateral sclerosis</article-title>. <source>Amyotroph Lateral Scler Other Mot Neuron Disord</source>. <year>2000</year>;<volume>1</volume>:<fpage>293</fpage>‐<lpage>299</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/146608200300079536</pub-id><pub-id pub-id-type="pmid">11464847</pub-id></mixed-citation></ref><ref id="alz70989-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz70989-cite-0023">
+<string-name name-style="western">
+<surname>Gorno‐Tempini</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hillis</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weintraub</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Classification of primary progressive aphasia and its variants</article-title>. <source>Neurology</source>. <year>2011</year>;<volume>76</volume>:<fpage>1006</fpage>‐<lpage>1014</lpage>.<pub-id pub-id-type="pmid">21325651</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0b013e31821103e6</pub-id><pub-id pub-id-type="pmcid">PMC3059138</pub-id></mixed-citation></ref><ref id="alz70989-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz70989-cite-0024">
+<string-name name-style="western">
+<surname>Rascovsky</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knopman</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia</article-title>. <source>Brain</source>. <year>2011</year>;<volume>134</volume>:<fpage>2456</fpage>‐<lpage>2477</lpage>.<pub-id pub-id-type="pmid">21810890</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awr179</pub-id><pub-id pub-id-type="pmcid">PMC3170532</pub-id></mixed-citation></ref><ref id="alz70989-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz70989-cite-0025">
+<string-name name-style="western">
+<surname>Carlos</surname>
+<given-names>AF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tosakulwong</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weigand</surname>
+<given-names>SD</given-names>
+</string-name>, et al. <article-title>Frequency of TAR DNA‐binding protein 43 (TDP‐43) increases linearly with age in the demented and non‐demented elderly population</article-title>. <source>Alzheimers Dement</source>. <year>2022</year>;<volume>18</volume>:<elocation-id>e067190</elocation-id>.</mixed-citation></ref><ref id="alz70989-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz70989-cite-0026">
+<string-name name-style="western">
+<surname>Martinez‐Lage</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Molina‐Porcel</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Falcone</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>TDP‐43 pathology in a case of hereditary spastic paraplegia with a NIPA1/SPG6 mutation</article-title>. <source>Acta Neuropathol</source>. <year>2012</year>;<volume>124</volume>:<fpage>285</fpage>‐<lpage>291</lpage>.<pub-id pub-id-type="pmid">22302102</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00401-012-0947-y</pub-id><pub-id pub-id-type="pmcid">PMC3361549</pub-id></mixed-citation></ref><ref id="alz70989-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz70989-cite-0027">
+<string-name name-style="western">
+<surname>Riva</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gentile</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cerri</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>Phosphorylated TDP‐43 aggregates in peripheral motor nerves of patients with amyotrophic lateral sclerosis</article-title>. <source>Brain</source>. <year>2022</year>;<volume>145</volume>:<fpage>276</fpage>‐<lpage>284</lpage>.<pub-id pub-id-type="pmid">35076694</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awab285</pub-id><pub-id pub-id-type="pmcid">PMC8967102</pub-id></mixed-citation></ref><ref id="alz70989-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="alz70989-cite-0028">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>J‐J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Su</surname>
+<given-names>J‐H</given-names>
+</string-name>, et al. <article-title>Differential seeding and propagating efficiency of α‐synuclein strains generated in different conditions</article-title>. <source>Transl Neurodegener</source>. <year>2021</year>;<volume>10</volume>:<fpage>20</fpage>.<pub-id pub-id-type="pmid">34148543</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s40035-021-00242-5</pub-id><pub-id pub-id-type="pmcid">PMC8215826</pub-id></mixed-citation></ref><ref id="alz70989-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz70989-cite-0029">
+<string-name name-style="western">
+<surname>Arseni</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murzin</surname>
+<given-names>AG</given-names>
+</string-name>, et al. <article-title>TDP‐43 forms amyloid filaments with a distinct fold in type A FTLD‐TDP</article-title>. <source>Nature</source>. <year>2023</year>;<volume>620</volume>:<fpage>898</fpage>‐<lpage>903</lpage>.<pub-id pub-id-type="pmid">37532939</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-023-06405-w</pub-id><pub-id pub-id-type="pmcid">PMC10447236</pub-id></mixed-citation></ref><ref id="alz70989-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz70989-cite-0030">
+<string-name name-style="western">
+<surname>Meeter</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dopper</surname>
+<given-names>EG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiskoot</surname>
+<given-names>LC</given-names>
+</string-name>, et al. <article-title>Neurofilament light chain: a biomarker for genetic frontotemporal dementia</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2016</year>;<volume>3</volume>:<fpage>623</fpage>‐<lpage>636</lpage>.<pub-id pub-id-type="pmid">27606344</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.325</pub-id><pub-id pub-id-type="pmcid">PMC4999594</pub-id></mixed-citation></ref><ref id="alz70989-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz70989-cite-0031">
+<string-name name-style="western">
+<surname>Saracino</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dorgham</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Camuzat</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Plasma NfL levels and longitudinal change rates in C9orf72 and GRN ‐associated diseases: from tailored references to clinical applications</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2021</year>;<volume>92</volume>:<fpage>1278</fpage>‐<lpage>1288</lpage>.<pub-id pub-id-type="pmid">34349004</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/jnnp-2021-326914</pub-id><pub-id pub-id-type="pmcid">PMC8606463</pub-id></mixed-citation></ref><ref id="alz70989-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz70989-cite-0032">
+<string-name name-style="western">
+<surname>Ljubenkov</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Staffaroni</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rojas</surname>
+<given-names>JC</given-names>
+</string-name>, et al. <article-title>Cerebrospinal fluid biomarkers predict frontotemporal dementia trajectory</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2018</year>;<volume>5</volume>:<fpage>1250</fpage>‐<lpage>1263</lpage>.<pub-id pub-id-type="pmid">30349860</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.643</pub-id><pub-id pub-id-type="pmcid">PMC6186942</pub-id></mixed-citation></ref><ref id="alz70989-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz70989-cite-0033">
+<string-name name-style="western">
+<surname>Rohrer</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Woollacott</surname>
+<given-names>IOC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dick</surname>
+<given-names>KM</given-names>
+</string-name>, et al. <article-title>Serum neurofilament light chain protein is a measure of disease intensity in frontotemporal dementia</article-title>. <source>Neurology</source>. <year>2016</year>;<volume>87</volume>:<fpage>1329</fpage>‐<lpage>1336</lpage>.<pub-id pub-id-type="pmid">27581216</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000003154</pub-id><pub-id pub-id-type="pmcid">PMC5047041</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

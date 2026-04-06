@@ -1,0 +1,179 @@
+{
+  "pmid": "38365930",
+  "pmc": "PMC10873397",
+  "doi": "10.1038/s41598-024-54569-w",
+  "title": "Life course plasma metabolomic signatures of genetic liability to Alzheimer’s disease",
+  "journal": "Scientific Reports",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Compton Hannah",
+      "affiliations": [
+        "https://ror.org/0524sp257grid.5337.20000 0004 1936 7603Bristol Medical School, Population Health Sciences, University of Bristol, Bristol, UK"
+      ]
+    },
+    {
+      "name": "Smith Madeleine L.",
+      "affiliations": [
+        "https://ror.org/0524sp257grid.5337.20000 0004 1936 7603Bristol Medical School, Population Health Sciences, University of Bristol, Bristol, UK",
+        "grid.5337.20000 0004 1936 7603Medical Research Council Integrative Epidemiology Unit, University of Bristol, Bristol, UK"
+      ]
+    },
+    {
+      "name": "Bull Caroline",
+      "affiliations": [
+        "https://ror.org/0524sp257grid.5337.20000 0004 1936 7603Bristol Medical School, Population Health Sciences, University of Bristol, Bristol, UK",
+        "grid.5337.20000 0004 1936 7603Medical Research Council Integrative Epidemiology Unit, University of Bristol, Bristol, UK",
+        "https://ror.org/0524sp257grid.5337.20000 0004 1936 7603School of Translational Health Sciences, University of Bristol, Bristol, UK"
+      ]
+    },
+    {
+      "name": "Korologou-Linden Roxanna",
+      "affiliations": [
+        "https://ror.org/0524sp257grid.5337.20000 0004 1936 7603Bristol Medical School, Population Health Sciences, University of Bristol, Bristol, UK",
+        "grid.5337.20000 0004 1936 7603Medical Research Council Integrative Epidemiology Unit, University of Bristol, Bristol, UK"
+      ]
+    },
+    {
+      "name": "Ben-Shlomo Yoav",
+      "affiliations": [
+        "https://ror.org/0524sp257grid.5337.20000 0004 1936 7603Bristol Medical School, Population Health Sciences, University of Bristol, Bristol, UK"
+      ]
+    },
+    {
+      "name": "Bell Joshua A.",
+      "affiliations": [
+        "https://ror.org/0524sp257grid.5337.20000 0004 1936 7603Bristol Medical School, Population Health Sciences, University of Bristol, Bristol, UK",
+        "grid.5337.20000 0004 1936 7603Medical Research Council Integrative Epidemiology Unit, University of Bristol, Bristol, UK"
+      ]
+    },
+    {
+      "name": "Williams Dylan M.",
+      "affiliations": [
+        "grid.83440.3b0000000121901201MRC Unit for Lifelong Health & Ageing at UCL, University College London, London, UK"
+      ]
+    },
+    {
+      "name": "Anderson Emma L.",
+      "affiliations": [
+        "https://ror.org/0524sp257grid.5337.20000 0004 1936 7603Bristol Medical School, Population Health Sciences, University of Bristol, Bristol, UK",
+        "grid.5337.20000 0004 1936 7603Medical Research Council Integrative Epidemiology Unit, University of Bristol, Bristol, UK",
+        "https://ror.org/02jx3x895grid.83440.3b0000 0001 2190 1201Division of Psychiatry, University College London, 149 Tottenham Court Road, London, W1T 7NF UK"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "APOE",
+    "Polygenic risk score",
+    "Mendelian randomization",
+    "Metabolism",
+    "NMR",
+    "Epidemiology",
+    "ALSPAC",
+    "UK Biobank",
+    "Neurological disorders",
+    "Genomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Medical Research CouncilMC_UU_12013/1MC_UU_00011/1BellJoshua A.",
+    "Wellcome Trust218495/Z/19/Z215193/Z18/ZSmithMadeleine L.Korologou-LindenRoxanna",
+    "NIHR17/0005587Ben-ShlomoYoav",
+    "World Cancer Research FundIIG_2019_2009Ben-ShlomoYoav",
+    "UKRI Future Leaders FellowshipMR/W011581/1"
+  ],
+  "data_availability_text": "Data availabilityIndividual-level ALSPAC data are available following application. This process of managed access is detailed at www.bristol.ac.uk/alspac/researchers/access. Summary-level GWAS results can be accessed through the IEU-OpenGWAS platform, accessible at https://gwas.mrcieu.ac.uk/datasets/?gwas_id__icontains=met-d. Summary statistics for the Kunkle et al. meta-analysis are available at: https://www.niagads.org/datasets/ng00075.",
+  "license": "",
+  "received": "2023-11-13",
+  "accepted": "2024-02-14",
+  "reference_pmids": [
+    "30135715",
+    "20139996",
+    "31785839",
+    "27068280",
+    "35379992",
+    "33679311",
+    "23296339",
+    "25835424",
+    "28341160",
+    "14688411",
+    "28626469",
+    "31308797",
+    "22507743",
+    "22507742",
+    "28531320",
+    "30659178",
+    "22463865",
+    "27548312",
+    "30820047",
+    "35090530",
+    "29106475",
+    "30692117",
+    "30002074",
+    "31953392",
+    "30039250",
+    "29846171",
+    "27749700",
+    "27061298",
+    "30413934",
+    "24378418",
+    "33879569",
+    "31714636",
+    "20919643",
+    "20571935",
+    "29370177",
+    "32358220",
+    "31487233",
+    "32727331",
+    "28323825",
+    "33868373",
+    "32326995",
+    "32075060",
+    "30480236",
+    "27392855",
+    "31931141",
+    "28189423",
+    "32345654",
+    "29051501",
+    "21124030",
+    "31779690",
+    "29800128",
+    "33563987"
+  ],
+  "tables_count": 0,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "study participants",
+    "assessment of genetic liability to alzheimer’s disease",
+    "assessment of metabolites",
+    "statistical approach",
+    "primary analysis: effects of the ad grs of the life course plasma metabolome",
+    "additional analysis: comparing metabolic profiles of",
+    "ethics approval",
+    "results",
+    "primary analysis: effects of ad liability on the life course plasma metabolome",
+    "genetic liability to ad and lipid traits",
+    "genetic liability to ad and fatty acids",
+    "genetic liability to ad and non-lipid traits",
+    "glycolysis-related traits",
+    "amino acids and inflammation",
+    "additional analysis: comparing metabolic profiles of ε4 and ε2 carriers with ε3 homozygotes",
+    "lipids",
+    "fatty acids",
+    "non-lipids",
+    "discussion",
+    "strengths and limitations",
+    "conclusions",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7825,
+  "converted_at": "2026-04-06T22:36:13.788413+00:00"
+}

@@ -1,0 +1,247 @@
+{
+  "pmid": "37543540",
+  "pmc": "PMC10404194",
+  "doi": "10.1007/s00018-023-04885-7",
+  "title": "Multi-omics profiling of CSF from spinal muscular atrophy type 3 patients after nusinersen treatment: a 2-year follow-up multicenter retrospective study",
+  "journal": "Cellular and Molecular Life Sciences: CMLS",
+  "year": 2023,
+  "authors": [
+    {
+      "name": "Faravelli Irene",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Gagliardi Delia",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, University of Milan, Milan, Italy",
+        "grid.414818.00000 0004 1757 8749Neurology Unit, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Abati Elena",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, University of Milan, Milan, Italy",
+        "grid.414818.00000 0004 1757 8749Neurology Unit, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Meneri Megi",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, University of Milan, Milan, Italy",
+        "grid.414818.00000 0004 1757 8749Neurology Unit, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Ongaro Jessica",
+      "affiliations": [
+        "grid.414818.00000 0004 1757 8749Neurology Unit, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Magri Francesca",
+      "affiliations": [
+        "grid.414818.00000 0004 1757 8749Neurology Unit, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Parente Valeria",
+      "affiliations": [
+        "grid.414818.00000 0004 1757 8749Neurology Unit, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Petrozzi Lucia",
+      "affiliations": [
+        "grid.5395.a0000 0004 1757 3729Department of Clinical and Experimental Medicine, Neurological Clinics, University of Pisa, Pisa, Italy"
+      ]
+    },
+    {
+      "name": "Ricci Giulia",
+      "affiliations": [
+        "grid.5395.a0000 0004 1757 3729Department of Clinical and Experimental Medicine, Neurological Clinics, University of Pisa, Pisa, Italy"
+      ]
+    },
+    {
+      "name": "Farè Fiorenza",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Unitech OMICs, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Garrone Giulia",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Unitech OMICs, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Fontana Manuela",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Unitech OMICs, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Caruso Donatella",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Unitech OMICs, University of Milan, Milan, Italy",
+        "grid.4708.b0000 0004 1757 2822Department of Pharmacological and Biomolecular Sciences, Università degli Studi di Milano, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Siciliano Gabriele",
+      "affiliations": [
+        "grid.5395.a0000 0004 1757 3729Department of Clinical and Experimental Medicine, Neurological Clinics, University of Pisa, Pisa, Italy"
+      ]
+    },
+    {
+      "name": "Comi Giacomo Pietro",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, University of Milan, Milan, Italy",
+        "grid.414818.00000 0004 1757 8749Neurology Unit, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Govoni Alessandra",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Corti Stefania",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, University of Milan, Milan, Italy",
+        "grid.414818.00000 0004 1757 8749Neurology Unit, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Ottoboni Linda",
+      "affiliations": [
+        "grid.4708.b0000 0004 1757 2822Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, University of Milan, Milan, Italy"
+      ]
+    }
+  ],
+  "keywords": [
+    "Spinal muscular atrophy",
+    "Antisense oligonucleotides",
+    "Proteomic",
+    "Metabolomic"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/501100003196Ministero della SaluteRF-2019-12370334ComiGiacomo Pietro",
+    "http://dx.doi.org/10.13039/501100009882Regione LombardiaTRANS-ALSComiGiacomo Pietro",
+    "Università degli Studi di Milano"
+  ],
+  "data_availability_text": "Data availabilityAll data are available in the main text or the supplementary materials.",
+  "license": "",
+  "received": "2023-04-02",
+  "accepted": "2023-07-17",
+  "reference_pmids": [
+    "29149772",
+    "26332103",
+    "7813012",
+    "25986506",
+    "26681261",
+    "32294521",
+    "12076672",
+    "10339583",
+    "22047105",
+    "11791208",
+    "29434670",
+    "28229309",
+    "29091570",
+    "32199097",
+    "34645478",
+    "35178673",
+    "35115230",
+    "35861914",
+    "33369268",
+    "27858735",
+    "28491897",
+    "30593463",
+    "26468953",
+    "34776417",
+    "31552549",
+    "31671515",
+    "31139691",
+    "36035258",
+    "31594243",
+    "33792208",
+    "32032473",
+    "31205491",
+    "35833245",
+    "33660868",
+    "36513962",
+    "37238925",
+    "22558154",
+    "31903607",
+    "33919289",
+    "35318785",
+    "33808177",
+    "36291640",
+    "30677148",
+    "28231823",
+    "25482511",
+    "31228281",
+    "31019106",
+    "32917822",
+    "14978219",
+    "31402618",
+    "32554047",
+    "20607718",
+    "15720294",
+    "23732511",
+    "36077261",
+    "33114553",
+    "34045951",
+    "8269517",
+    "18088409",
+    "18629520",
+    "18075747",
+    "22777942",
+    "27170316",
+    "19706404",
+    "36050898",
+    "21325354",
+    "9489754",
+    "28058526",
+    "30277078",
+    "27694351",
+    "27958387",
+    "28369175",
+    "30944313",
+    "19541911",
+    "14597658",
+    "29087512",
+    "12525261",
+    "28358118"
+  ],
+  "tables_count": 1,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "motor performances do not change significantly over the 2-year treatment course",
+    "proteomic profiling of csf reveals distinct clusters of proteins remodeled by treatment",
+    "pathway analysis of deregulated proteins",
+    "clinical and proteomic profiling correlation",
+    "metabolome profiling of csf reveals distinct clusters of analytes deregulated by the treatment",
+    "discussion",
+    "methods",
+    "neurological assessment",
+    "csf mass spectrometry analysis",
+    "metabolomic analysis",
+    "normalizerde and differential analysis",
+    "functional enrichment analysis and interactome analysis",
+    "combiroc analysis",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10604,
+  "converted_at": "2026-04-06T22:36:04.029326+00:00"
+}

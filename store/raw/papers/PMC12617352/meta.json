@@ -1,0 +1,239 @@
+{
+  "pmid": "41236724",
+  "pmc": "PMC12617352",
+  "doi": "10.1002/alz.70898",
+  "title": "Genetic regulation of the metabolome differs by sex, Alzheimer's disease stage, and plasma biomarker status",
+  "journal": "Alzheimer's & Dementia",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Eissman Jaclyn M.",
+      "affiliations": [
+        "The Taub Institute for Research on Alzheimer's Disease and the Aging Brain Columbia University New York New York USA",
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Qiao Min",
+      "affiliations": [
+        "The Taub Institute for Research on Alzheimer's Disease and the Aging Brain Columbia University New York New York USA",
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Kalia Vrinda",
+      "affiliations": [
+        "Mailman School of Public Health Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Zerlin‐Esteves Marielba",
+      "affiliations": [
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Reyes‐Dumeyer Dolly",
+      "affiliations": [
+        "The Taub Institute for Research on Alzheimer's Disease and the Aging Brain Columbia University New York New York USA",
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Piriz Angel",
+      "affiliations": [
+        "The Taub Institute for Research on Alzheimer's Disease and the Aging Brain Columbia University New York New York USA",
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Dubey Saurabh",
+      "affiliations": [
+        "Mailman School of Public Health Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Nandakumar Renu",
+      "affiliations": [
+        "Mailman School of Public Health Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Lee Annie J.",
+      "affiliations": [
+        "The Taub Institute for Research on Alzheimer's Disease and the Aging Brain Columbia University New York New York USA",
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Lantigua Rafael A.",
+      "affiliations": [
+        "Vagelos College of Physicians and Surgeons Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Medrano Martin",
+      "affiliations": [
+        "Pontificia Universidad Católica Madre y Maestra Santiago República Dominicana"
+      ]
+    },
+    {
+      "name": "Mejia Diones Rivera",
+      "affiliations": [
+        "CEDIMAT, Plaza de la Salud, Dr. Juan Manuel Taveras Rodríguez C/Pepillo Salcedo esq. Arturo Logroño Santo Domingo República Dominicana",
+        "Universidad Nacional Pedro Henriquez Ureña Santo Domingo República Dominicana"
+      ]
+    },
+    {
+      "name": "Honig Lawrence S.",
+      "affiliations": [
+        "The Taub Institute for Research on Alzheimer's Disease and the Aging Brain Columbia University New York New York USA",
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA",
+        "Vagelos College of Physicians and Surgeons Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Dalgard Clifton L.",
+      "affiliations": [
+        "Department of Anatomy Physiology and Genetics Uniformed Services University of the Health Sciences Bethesda Maryland USA",
+        "The American Genome Center Center for Military Precision Health Uniformed Services University of the Health Sciences Bethesda Maryland USA"
+      ]
+    },
+    {
+      "name": "Miller Gary W.",
+      "affiliations": [
+        "Mailman School of Public Health Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Mayeux Richard",
+      "affiliations": [
+        "The Taub Institute for Research on Alzheimer's Disease and the Aging Brain Columbia University New York New York USA",
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA",
+        "Vagelos College of Physicians and Surgeons Columbia University New York New York USA"
+      ]
+    },
+    {
+      "name": "Vardarajan Badri N.",
+      "affiliations": [
+        "The Taub Institute for Research on Alzheimer's Disease and the Aging Brain Columbia University New York New York USA",
+        "Gertrude H. Sergievsky Center Columbia University New York New York USA",
+        "Vagelos College of Physicians and Surgeons Columbia University New York New York USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "genetic regulation",
+    "genomics",
+    "metabolites",
+    "metabolomics",
+    "quantitative trait loci"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "NIA10.13039/100000049 R56AG063908R01AG067501RF1AG0154735UL1TR001873",
+    "National Center for Advancing Translational Sciences10.13039/100006108"
+  ],
+  "data_availability_text": "DATA AVAILABILITY STATEMENTAll results are included in the main text or in the supplementary materials of the present manuscript. The raw whole genome sequencing, metabolomics and biomarker data can be shared with qualified investigators using the request form available here: https://cumc.co1.qualtrics.com/jfe/form/SV_dmck0uV3A91pmzb. The WGS data are also available via the Alzheimer's Disease Sequencing Project: https://dss.niagads.org/datasets/ng00067/. Code from this study is made available on GitHub: https://github.com/jaclyn‐eissman/Metabolome‐Wide‐QTL‐Analysis.",
+  "license": "",
+  "received": "2025-06-05",
+  "accepted": "2025-10-09",
+  "reference_pmids": [
+    "35445209",
+    "29375465",
+    "32123170",
+    "35253754",
+    "23700429",
+    "32007958",
+    "37693649",
+    "28323825",
+    "24816252",
+    "36635386",
+    "35347128",
+    "35050183",
+    "28263315",
+    "33414548",
+    "39528826",
+    "38689398",
+    "32377558",
+    "15939846",
+    "30334074",
+    "37598068",
+    "36293327",
+    "35552371",
+    "37984853",
+    "31360619",
+    "31497858",
+    "29967939",
+    "24425039",
+    "23056202",
+    "2268457",
+    "21514250",
+    "17035694",
+    "6610841",
+    "7104545",
+    "8232972",
+    "9191756",
+    "2341813",
+    "7847867",
+    "30279509",
+    "20644199",
+    "38057664",
+    "37079306",
+    "21879300",
+    "23809844",
+    "19414529",
+    "27977166",
+    "22257669",
+    "24476540",
+    "22492648",
+    "35379992",
+    "20601685",
+    "40021830",
+    "22033876",
+    "24869773",
+    "34931308",
+    "38316767",
+    "30593770",
+    "27196316",
+    "19428144"
+  ],
+  "tables_count": 1,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods",
+    "study participants",
+    "whole genome sequencing data collection",
+    "wgs quality control",
+    "research in context",
+    "plasma metabolomics data generation",
+    "metabolite annotation",
+    "statistical analyses",
+    "metabolome qtl analyses",
+    "candidate met‐qtl analysis of published ad gwas loci",
+    "prioritization of met‐qtls",
+    "validation of significant qtls from met‐qtl analyses",
+    "results",
+    "study participants",
+    "genome‐wide metabolite qtl analysis",
+    "genome‐wide metabolite qtl subgroup analysis",
+    "sex‐stratified genome‐wide metabolite quantitative trait loci analysis",
+    "discussion",
+    "top met‐qtls are implicated in ad pathogenesis",
+    "genetic regulation of the metabolome differs by sex",
+    "strengths and limitations",
+    "conclusions",
+    "conflict of interest statement",
+    "consent statement",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8897,
+  "converted_at": "2026-04-06T22:37:58.515335+00:00"
+}

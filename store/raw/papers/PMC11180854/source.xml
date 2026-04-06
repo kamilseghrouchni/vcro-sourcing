@@ -1,0 +1,853 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz13851" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11180854</article-id><article-id pub-id-type="pmcid-ver">PMC11180854.1</article-id><article-id pub-id-type="pmcaid">11180854</article-id><article-id pub-id-type="pmcaiid">11180854</article-id><article-id pub-id-type="pmid">38676929</article-id><article-id pub-id-type="doi">10.1002/alz.13851</article-id><article-id pub-id-type="publisher-id">ALZ13851</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Metabolomics profiling reveals distinct, sex‐specific signatures in serum and brain metabolomes in mouse models of Alzheimer's disease</article-title><alt-title alt-title-type="left-running-head">PANDEY <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz13851-cr-0001" contrib-type="author"><name name-style="western"><surname>Pandey</surname><given-names initials="RS">Ravi S.</given-names></name><xref rid="alz13851-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz13851-cr-0002" contrib-type="author"><name name-style="western"><surname>Arnold</surname><given-names initials="M">Mattias</given-names></name><xref rid="alz13851-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz13851-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz13851-cr-0003" contrib-type="author"><name name-style="western"><surname>Batra</surname><given-names initials="R">Richa</given-names></name><xref rid="alz13851-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz13851-cr-0004" contrib-type="author"><name name-style="western"><surname>Krumsiek</surname><given-names initials="J">Jan</given-names></name><xref rid="alz13851-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz13851-cr-0005" contrib-type="author"><name name-style="western"><surname>Kotredes</surname><given-names initials="KP">Kevin P.</given-names></name><xref rid="alz13851-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz13851-cr-0006" contrib-type="author"><name name-style="western"><surname>Garceau</surname><given-names initials="D">Dylan</given-names></name><xref rid="alz13851-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz13851-cr-0007" contrib-type="author"><name name-style="western"><surname>Williams</surname><given-names initials="H">Harriet</given-names></name><xref rid="alz13851-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz13851-cr-0008" contrib-type="author"><name name-style="western"><surname>Sasner</surname><given-names initials="M">Michael</given-names></name><xref rid="alz13851-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz13851-cr-0009" contrib-type="author"><name name-style="western"><surname>Howell</surname><given-names initials="GR">Gareth R.</given-names></name><xref rid="alz13851-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz13851-cr-0010" contrib-type="author"><name name-style="western"><surname>Kaddurah‐Daouk</surname><given-names initials="R">Rima</given-names></name><xref rid="alz13851-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz13851-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><xref rid="alz13851-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz13851-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Carter</surname><given-names initials="GW">Gregory W.</given-names></name><xref rid="alz13851-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz13851-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><address><email>gregory.carter@jax.org</email></address></contrib></contrib-group><aff id="alz13851-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>The Jackson Laboratory for Genomic Medicine</institution>
+<city>Farmington</city>
+<named-content content-type="country-part">Connecticut</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz13851-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Psychiatry and Behavioral Sciences</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz13851-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Computational Biology</named-content>
+<named-content content-type="organisation-division">Helmholtz Zentrum München</named-content>
+<institution>German Research Center for Environmental Health, Ingolstädter Landstraße 1</institution>
+<city>Oberschleißheim</city>
+<country country="DE">Germany</country>
+</aff><aff id="alz13851-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Physiology and Biophysics</named-content>
+<named-content content-type="organisation-division">Institute for Computational Biomedicine</named-content>
+<named-content content-type="organisation-division">Englander Institute for Precision Medicine</named-content>
+<institution>Weill Cornell Medicine</institution>
+<city>New York</city>
+<named-content content-type="country-part">New York</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz13851-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>The Jackson Laboratory</institution>
+<city>Bar Harbor</city>
+<named-content content-type="country-part">Maine</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz13851-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Duke Institute of Brain Sciences</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz13851-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Gregory W. Carter, The Jackson Laboratory, 600 Main Street, Bar Harbor, ME 04609, USA.<break/> Email: <email>gregory.carter@jax.org</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>27</day><month>4</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2024</year></pub-date><volume>20</volume><issue seq="140">6</issue><issue-id pub-id-type="pmc-issue-id">464970</issue-id><issue-id pub-id-type="doi">10.1002/alz.v20.6</issue-id><fpage>3987</fpage><lpage>4001</lpage><history><date date-type="rev-recd"><day>19</day><month>3</month><year>2024</year></date><date date-type="received"><day>12</day><month>12</month><year>2023</year></date><date date-type="accepted"><day>19</day><month>3</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>27</day><month>04</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>18</day><month>06</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-06-18 00:25:14.867"><day>18</day><month>06</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Authors. <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-20-3987.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-20-3987.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="preprint" xml:lang="en" xlink:title="research-article" journal-id="bioRxiv" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC10769366"><article-title>Metabolomics profiling reveals distinct, sex-specific signatures in the serum and brain metabolomes in the mouse models of Alzheimer’s disease</article-title><date><day>22</day><month>12</month><year>2023</year></date><elocation-id>2023.12.22.573059</elocation-id><source>bioRxiv</source><pub-id pub-id-type="doi">10.1101/2023.12.22.573059</pub-id><pub-id pub-id-type="pmcid">PMC10769366</pub-id><pub-id pub-id-type="pmid">38187571</pub-id></related-article><abstract><title>Abstract</title><sec id="alz13851-sec-0010"><title>INTRODUCTION</title><p>Increasing evidence suggests that metabolic impairments contribute to early Alzheimer's disease (AD) mechanisms and subsequent dementia. Signals in metabolic pathways conserved across species can facilitate translation.</p></sec><sec id="alz13851-sec-0020"><title>METHODS</title><p>We investigated differences in serum and brain metabolites between the early‐onset 5XFAD and late‐onset LOAD1 (APOE4.Trem2*R47H) mouse models of AD to C57BL/6J controls at 6 months of age.</p></sec><sec id="alz13851-sec-0030"><title>RESULTS</title><p>We identified sex differences for several classes of metabolites, such as glycerophospholipids, sphingolipids, and amino acids. Metabolic signatures were notably different between brain and serum in both mouse models. The 5XFAD mice exhibited stronger differences in brain metabolites, whereas LOAD1 mice showed more pronounced differences in serum.</p></sec><sec id="alz13851-sec-0040"><title>DISCUSSION</title><p>Several of our findings were consistent with results in humans, showing glycerophospholipids reduction in serum of apolipoprotein E (apoE) ε4 carriers and replicating the serum metabolic imprint of the <italic toggle="yes">APOE</italic> ε4 genotype. Our work thus represents a significant step toward translating metabolic dysregulation from model organisms to human AD.</p></sec><sec id="alz13851-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz13851-list-0001"><list-item><p>This was a metabolomic assessment of two mouse models relevant to Alzheimer's disease.</p></list-item><list-item><p>Mouse models exhibit broad sex‐specific metabolic differences, similar to human study cohorts.</p></list-item><list-item><p>The early‐onset 5XFAD mouse model primarily alters brain metabolites while the late‐onset LOAD1 model primarily changes serum metabolites.</p></list-item><list-item><p>Apolipoprotein E (apoE) ε4 mice recapitulate glycerophospolipid signatures of human <italic toggle="yes">APOE</italic> ε4 carriers in both brain and serum.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz13851-kwd-0001">5XFAD</kwd><kwd id="alz13851-kwd-0002">Alzheimer's disease</kwd><kwd id="alz13851-kwd-0003">animal models</kwd><kwd id="alz13851-kwd-0004">apolipoprotein E</kwd><kwd id="alz13851-kwd-0005">metabolomics</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Institute on Aging
+</institution><institution-id institution-id-type="doi">10.13039/100000049</institution-id></institution-wrap></funding-source><award-id>U54 AG054345</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="1"/><page-count count="15"/><word-count count="9361"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.4 mode:remove_FC converted:17.06.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz13851-cit-0050">
+<string-name name-style="western">
+<surname>Pandey</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Batra</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Metabolomics profiling reveals distinct, sex‐specific signatures in serum and brain metabolomes in mouse models of Alzheimer's disease</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>20</volume>:<fpage>3987</fpage>–<lpage>4001</lpage>. <pub-id pub-id-type="doi">10.1002/alz.13851</pub-id>
+<pub-id pub-id-type="pmcid">PMC11180854</pub-id><pub-id pub-id-type="pmid">38676929</pub-id></mixed-citation>
+</p><fn-group><fn id="alz13851-note-0001"><p>Ravi S. Pandey, Mattias Arnold, Rima Kaddurah‐Daouk, and Gregory W. Carter are equal contributors.</p></fn></fn-group></notes></front><body><sec id="alz13851-sec-0060"><label>1</label><title>BACKGROUND</title><p>Alzheimer's disease (AD) is the leading cause of dementia, characterized by the accumulation of amyloid plaques and tau fibrillary tangles in the brain.<xref rid="alz13851-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="alz13851-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="alz13851-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Early‐onset Alzheimer's disease (EOAD, familial AD or FAD) is often caused by mutations in genes coding for amyloid precursor protein (<italic toggle="yes">APP</italic>), presenilin 1 (<italic toggle="yes">PSEN1</italic>), and presenilin 2 (<italic toggle="yes">PSEN2</italic>).<xref rid="alz13851-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="alz13851-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Sporadic or late‐onset AD (LOAD) is more common (&gt; 95% prevalence), with symptoms arising after age 65.<xref rid="alz13851-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="alz13851-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> Its risk factors include age, the apolipoprotein E (<italic toggle="yes">APOE</italic>) ε4 allele, and point mutations in triggering receptor expressed on myeloid cells 2 (<italic toggle="yes">TREM2</italic>).<xref rid="alz13851-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="alz13851-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="alz13851-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz13851-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz13851-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> Females are at higher risk<xref rid="alz13851-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> and comprise the majority of cases,<xref rid="alz13851-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> and female <italic toggle="yes">APOE</italic> ε4 carriers are at greater risk of developing AD compared to male carriers.<xref rid="alz13851-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="alz13851-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz13851-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>
+</p><p>Pathophysiological changes associated with AD begin decades before clinical symptoms.<xref rid="alz13851-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Metabolic decline is among the earliest symptoms, with reduced glucose uptake in patients with mild cognitive impairment (MCI).<xref rid="alz13851-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> Furthermore, disruption in glucose metabolism is associated with early mitochondrial dysfunction in animal models and AD‐affected individuals.<xref rid="alz13851-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> Perturbations in multiple metabolic networks such as lysine metabolism, tricarboxylic acid cycle, and lipid metabolism were reported in MCI individuals compared to healthy individuals.<xref rid="alz13851-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> This suggests that metabolic dysfunction could play an important role in early disease stages.</p><p>Metabolic dysregulation is one of the hallmarks of AD, and is known to result from three major AD risk factors: age, <italic toggle="yes">APOE</italic> genotype in European cohorts, and sex.<xref rid="alz13851-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="alz13851-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="alz13851-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="alz13851-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> A recent study in the Alzheimer's Disease Neuroimaging Initiative (ADNI) identified the effects of sex and <italic toggle="yes">APOE</italic> ε4 on metabolic alterations and AD biomarkers.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Even in mouse models of AD, changes in metabolic pathways related to energetic stress were more pronounced in female mice compared to males.<xref rid="alz13851-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="alz13851-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> However, the molecular mechanisms underlying these sex‐linked differences remain undetermined.</p><p>Heterogeneity in humans complicates the molecular study of disease mechanisms.<xref rid="alz13851-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> For human studies, experimental design is often limited by sample availability, reducing confidence in inferences.<xref rid="alz13851-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Animal models have been critical for understanding the development and progression of AD and enable the study of disease‐related risk factors in a controlled environment.<xref rid="alz13851-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="alz13851-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> Inbred mouse models of AD facilitate the collection of cross‐sectional sampling at multiple ages and analysis of metabolic changes during various life stages. Signals in conserved metabolic pathways could thus provide a method to translate experimental findings in preclinical mouse models to humans.<xref rid="alz13851-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Transgenic mouse models with gene mutations for <italic toggle="yes">APP</italic> and <italic toggle="yes">PSEN1</italic> were widely used to investigate the biofluids and brain metabolome and observed significant overlap in the affected metabolic pathways identified in AD patients.<xref rid="alz13851-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>, <xref rid="alz13851-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="alz13851-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> However, these mouse models were limited to fAD transgenic models that represent a small number of AD cases, and previous studies did not interrogate the influence of sex‐specific differences in metabolic changes.</p><p>To fill this gap, we comprehensively profiled the serum and brain metabolomes of APOE4.Trem2*R47H mice (a genetic model for LOAD), the 5XFAD mice (a transgenic amyloid model), and C57BL/6J (control) mice at 6 months of age in both sexes. A total of 142 metabolites were measured in both brain and serum, including glycerophospholipids, sphingolipids, amino acids, biogenic amines, and acylcarnitines. The LOAD1 strain carries two primary risk alleles, humanized <italic toggle="yes">APOE</italic> ε4/ε4 and the homozygous Trem2*R47H variant on the C57BL/6J (B6) background.<xref rid="alz13851-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> The 5XFAD transgenic mice overexpress human <italic toggle="yes">APP</italic> with three FAD mutations and human <italic toggle="yes">PSEN1</italic> with two FAD mutations on the B6 background.<xref rid="alz13851-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> We investigated the sex differences in metabolic effects for the 5XFAD and the <italic toggle="yes">APOE</italic> ε4/ε4 genotype in both blood and serum metabolomes as well as the correspondence between brain and serum metabolite levels in mouse models. We compared our findings to recent results from ADNI<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> and Rush Religious Order Study and Memory and Aging Project (ROS/MAP) cohorts.<xref rid="alz13851-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> All datasets described in this study are available through the AD Knowledge Portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adknowledgeportal.synapse.org/" ext-link-type="uri">https://adknowledgeportal.synapse.org/</ext-link>).</p></sec><sec id="alz13851-sec-0070"><label>2</label><title>METHODS AND MATERIALS</title><sec id="alz13851-sec-0080"><label>2.1</label><title>Animal models</title><p>All animal models were obtained from The Jackson Laboratory. All experiments were approved by the Animal Care and Use Committee at The Jackson Laboratory. LOAD1 mice (JAX #28709) carry a humanized version of the prominent <italic toggle="yes">APOE</italic> ε4/ε4 genetic risk factor for LOAD, and a relatively rare deleterious variant R47H allele of the Trem2 gene,<xref rid="alz13851-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> while the 5XFAD transgenic mice (JAX #8730) overexpress five FAD mutations: the APP(695) transgene contains the Swedish (K670N, M671L), Florida (I716V), and London (V7171) mutations and the PSEN1 transgene contains the M146L and L286V FAD mutations.<xref rid="alz13851-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>, <xref rid="alz13851-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> Cohort of male and female LOAD1, 5XFAD, and C57BL/6J (B6) control mice were assayed for serum and brain metabolomics at 6 months of age (Table <xref rid="alz13851-tbl-0001" ref-type="table">1</xref>).</p><table-wrap position="float" id="alz13851-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Number of biological replicates for mouse serum and brain tissue metabolomics.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Female</th><th align="left" rowspan="1" colspan="1">Male</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">5XFAD</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">13</td></tr><tr><td align="left" rowspan="1" colspan="1">LOAD1</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">10</td></tr><tr><td align="left" rowspan="1" colspan="1">C57BL/6J</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">12</td></tr></tbody></table><table-wrap-foot><fn id="alz13851-tbl1-note-0001"><p>
+<italic toggle="yes">Note</italic>: Serum and brain samples were obtained from the same mice.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="alz13851-sec-0090"><label>2.2</label><title>Metabolomics data acquisition and processing</title><p>A uniform technical approach was used for both mouse and human metabolomics processing. Full sample preparation and analysis protocols are described on the AD Knowledge Portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn22313528" ext-link-type="uri">https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn22313528</ext-link>). In brief, metabolites were measured with the targeted AbsoluteIDQ‐p180 metabolomics kit (Biocrates Life Sciences AG), with an ultra‐performance liquid chromatography‐tandem mass spectrometry (MS/MS) system (Acquity UPLC [Waters], TQ‐S triple quadrupole MS/MS [Waters]), which provides measurements of up to 186 endogenous metabolites. Sample extraction, metabolite measurement, identification, quantification, and primary quality control (QC) followed standard procedures.<xref rid="alz13851-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> In the serum metabolome, 27 metabolites were removed due to missing values in &gt; 20% of samples and four metabolites were excluded due to &gt; 20% coefficient of variation. In the brain metabolome, 20 metabolites were removed due to missing values and one metabolite was excluded due to higher coefficient of variation. After median‐based batch correction, metabolite concentrations were log2‐transformed and missing values for 79 serum metabolites and seven brain metabolites were imputed using kNN (k‐nearest‐neighbor, k = 10) method.<xref rid="alz13851-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>
+</p></sec><sec id="alz13851-sec-0100"><label>2.3</label><title>ADNI and ROS/MAP metabolomics data</title><p>Processing of ADNI<xref rid="alz13851-tbl-0001" ref-type="table"> </xref> P180 measurements has been described in detail.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> In brief, metabolites with &gt; 20% missing values were excluded and batch correction was performed using a cross‐plate mean normalization procedure using National Institute of Standards and Technology standard plasma metabolite concentrations. Metabolites having a coefficient of variation &gt; 20% or an intraclass correlation &lt; 65% in replicate samples were removed. Missing values were imputed using minimum imputation (set to half of the plate‐specific lower limit of detection). Metabolite levels were log2‐transformed and multivariate sample outliers were excluded. Finally, metabolites were adjusted for significant medication effects using stepwise backward selection.</p><p>In ROS/MAP, brain and serum metabolites and samples with &gt; 25% missing values were filtered out. Quotient normalization was used to correct for sample‐wise variation across the metabolites.<xref rid="alz13851-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> Metabolite values were subsequently log2‐transformed, and the remaining missing values were imputed using kNN as for the mouse data. Data processing was performed using standardized pipelines in the toolbox maplet.<xref rid="alz13851-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>
+</p><p>Mouse experiments were carried out following the human assays in both ADNI and ROS/MAP, generated using the Biocrates AbsoluteIDQ‐p180 metabolomics kit. This ensured an identical targeted quantification across species.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz13851-sec-0110"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz13851-list-0002"><list-item><p>
+<bold>Systematic review</bold>: The authors reviewed the literature using traditional (e.g., PubMed) sources and meeting abstracts and presentations. Several recent publications have suggested metabolic dysregulation as a major hallmark in early stages of Alzheimer's disease (AD). The relevant studies are appropriately cited.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Our findings indicate that metabolomic signatures were notably different between brain and serum in the mouse models of AD. We were able to identify patterns of metabolic changes related to human AD risk in our mouse models, which strengthen the translational utility of mouse models for studying metabolic changes that appear in early‐stage AD.</p></list-item><list-item><p>
+<bold>Future directions</bold>: The article proposes to investigate metabolomics profiles of the late‐onset mouse models over different extended ages to study progressive metabolic changes associated with AD pathology. Our findings suggest such aging studies can model the different phases of metabolic disturbances that may occur in human AD.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="alz13851-sec-0120"><label>2.4</label><title>Principal component analysis</title><p>We analyzed a total of 142 metabolites present in both serum and brain metabolome from 74 samples originating from different mouse models. We extracted the principal components using singular value decomposition for both metabolomes separately and plotted results using the ggplot2 visualization package in R.</p></sec><sec id="alz13851-sec-0130"><label>2.5</label><title>Association analyses for the mouse metabolomic data</title><p>Association analyses of AD risk factors with metabolite levels were conducted using standard linear regression. The stratification variable sex was excluded as a covariate in the sex‐stratified analyses. We transformed covariate‐adjusted effect sizes to sample size‐weighted standardized effects (Cohen <italic toggle="yes">d</italic>). For identifying metabolic sex differences, we used linear regression with metabolite levels as the dependent variable and sex as explanatory variable. To adjust for multiple testing, we used the threshold of Bonferroni significance of 9.09 × 10<sup>−4</sup> as determined in a recent study.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> We performed two‐sample <italic toggle="yes">t</italic> tests to identify significant sexual dimorphisms for metabolites with the standardized effect sizes observed in the pooled mouse samples at Bonferroni significance in B6, LOAD1, and 5XFAD mouse models. To assess the significance of heterogeneity between strata, we used methodology similar to the determination of study heterogeneity in an inverse‐weighted meta‐analysis.<xref rid="alz13851-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> We further provide a scaled (0%–100%) index of percent heterogeneity, similar to the <italic toggle="yes">I</italic>
+<sup>2</sup> statistic.</p></sec><sec id="alz13851-sec-0140"><label>2.6</label><title>Association analysis for the ADNI cohort</title><p>Association analysis of the cerebrospinal fluid (CSF) amyloid beta (Aβ)<sub>1‐42</sub> pathology with blood metabolite levels from the ADNI cohort followed published protocols in Arnold et al.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> with a few adjustments. We performed the multivariable linear regression analysis using metabolite concentrations as the dependent variable to test associations of the CSF Aβ<sub>1‐42</sub> pathology with concentrations of 139 blood metabolites in place of the logistic regression approach used by Arnold et al.,<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> ensuring consistency with the approach used for mouse metabolomics data.</p></sec><sec id="alz13851-sec-0150"><label>2.7</label><title>Correlation analysis</title><p>First, we performed the multivariable linear regression analysis using metabolite concentrations of 70 glycerophospholipids (PC species) as dependent variables to determine the effect of <italic toggle="yes">APOE</italic> ε4 in serum metabolomics data from mouse, ADNI, and ROS/MAP carriers. We also fit a multivariable linear regression model for brain metabolomics data from mouse models and ROS/MAP individuals to measure the effect of <italic toggle="yes">APOE</italic> ε4 on glycerophospholipids (PCs) levels. For serum and brain metabolomics data from mouse models, we used the 5XFAD genotype and male sex as a covariate. For serum metabolomics data from the ADNI cohort, we used pathological CSF Aβ<sub>1‐42</sub>, age, male sex, cohort, and body mass index (BMI) as covariates. For serum metabolomics data from the ROSMAP cohort, we used pathological amyloid levels, fasting status, age at visit, sex, education, and BMI as covariates. For brain metabolomics data from the ROS/MAP cohort, we used pathological amyloid levels, age, sex, education, and BMI as covariates. Finally, we measured the Pearson correlation between effects of <italic toggle="yes">APOE</italic> ε4 on glycerophospholipids (PCs) metabolite levels in human and mouse models. We also measured Pearson correlations between the effects of <italic toggle="yes">APOE</italic> ε4 presence on glycerophospholipids (PCs) metabolite levels in mouse serum and brain metabolomes.</p></sec></sec><sec id="alz13851-sec-0160"><label>3</label><title>RESULTS</title><sec id="alz13851-sec-0170"><label>3.1</label><title>Sex is a separator in both serum and brain metabolome</title><p>Principal component analysis indicated serum metabolites separated samples by sex of the mice along the first principal component (45% of total variance), whereas we observed a slight gradient of discrimination by genotype along the second principal component (13% of total variance; Figure <xref rid="alz13851-fig-0001" ref-type="fig">1A</xref>). Specifically, LOAD1 mice were segregated from B6 and 5XFAD mice. In brain metabolomes, principal component analysis did not reveal any clear separation between groups (sex or genotype). However, a gradient of discrimination separated 5XFAD samples from B6 and LOAD1 samples along the first principal component (46% of total variance), whereas most of the male and female samples were separated along the second principal component (Figure <xref rid="alz13851-fig-0001" ref-type="fig">1B</xref>). Overall, this suggested global sex‐specific differences in both serum and brain metabolomes.</p><fig position="float" fig-type="FIGURE" id="alz13851-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Principal components analysis of serum and brain metabolomes from mouse models of Alzheimer's disease. A, In the serum metabolome, we observed a slight gradient of discrimination of the LOAD1 samples from B6 and 5XFAD samples along the second principal component. B, In the brain metabolome, we found a gradient of discrimination of the 5XFAD samples from B6 and LOAD1 samples along the first principal component.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-20-3987-g001.jpg"/></fig></sec><sec id="alz13851-sec-0180"><label>3.2</label><title>Sex‐associated differences significantly differ in AD mouse models</title><p>Next, we investigated sex‐specific associations of metabolites in all mice together, as well as in each mouse model (B6, LOAD1, and 5XFAD) separately. We then tested whether these sex‐specific differences were altered in LOAD1 and 5XFAD mice compared to B6 mice to determine strain‐specific sex differences.</p><p>Throughout this article, metabolites belonging to glycerophospholipid (phosphatidylcholines and lyso‐phosphatidylcholines) class will be referred to as PC. In addition, ethers containing glycerophospholipids (PCs) will be denoted by PC ae Cx:z, diacyl‐PCs will be denoted by PC aa Cx:z, and acyl containing lyso‐phosphatidylcholines will be denoted as lysoPC a Cxy:z. Sphingomyelins will be denoted as SM Cxy:z and hydroxy sphingomyelins will be denoted as SM (OH) Cxy:z. Metabolites belonging to acylcarnitines class will be denoted as Cx or Cxy:z.</p><sec id="alz13851-sec-0190"><label>3.2.1</label><title>Mouse serum metabolome</title><p>In the complete cohort (<italic toggle="yes">N</italic> = 74), 73 out of 142 metabolites were significantly associated with sex after multiple testing corrections (<italic toggle="yes">P</italic> &lt; 9.09 × 10<sup>−4</sup>) while adjusting for genotypes (Figure <xref rid="alz13851-fig-0002" ref-type="fig">2A</xref>, Table <xref rid="alz13851-supitem-0002" ref-type="supplementary-material">S1</xref> in supporting information). Fifty‐six of these metabolites had higher levels in males, and 17 metabolites had higher levels in females (Figure <xref rid="alz13851-fig-0002" ref-type="fig">2B</xref>). The majority of glycerophospholipids (PCs) were more abundant in male mice, while levels of a few amino acids (alanine, isoleucine, serine, and threonine) and the majority of sphingolipids (SMs) were more abundant in female mice (Figure <xref rid="alz13851-fig-0002" ref-type="fig">2B</xref>, Table <xref rid="alz13851-supitem-0002" ref-type="supplementary-material">S1</xref>). Notably, 54 of these sex‐specific associations were also observed in a recent study from the ADNI cohort.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Further, stratification by genotypes revealed that 13 of the 73 metabolites showing significant sex differences in the complete cohort were also significant in each of the three genotypes (B6, LOAD1, and 5XFAD) separately, whereas 14 metabolites showed no significant difference in any genotype (Table <xref rid="alz13851-supitem-0002" ref-type="supplementary-material">S1</xref>, Figure <xref rid="alz13851-fig-0002" ref-type="fig">2A</xref>). Significant sex differences limited to one genotype were found for three metabolites (lyso‐phosphatidylcholine acyl C20:4 [lysoPC a C20:4], SM [OH] C24:1, asymmetric dimethylarginine [ADMA]) in LOAD1 mice, for two metabolites (C3‐DC [C4‐OH], PC ae C30:1) in the 5XFAD mice, and for 21 metabolites in B6 mice. Every significant sex difference found in each genotype alone was also significant in the full cohort except one: PC aa C38:4 showed a significant sex difference only in the LOAD1 genotype, with higher levels in females (Table <xref rid="alz13851-supitem-0002" ref-type="supplementary-material">S1</xref>).</p><fig position="float" fig-type="FIGURE" id="alz13851-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Sex‐metabolite associations in mouse models. We identified metabolites significantly associated with sex in the full mouse cohort after multiple testing corrections (<italic toggle="yes">P</italic> &lt; 9.09 × 10<sup>−4</sup>) while adjusting for genotypes and each of the three strains (B6, LOAD1, and 5XFAD). A, An UpSet plot showing intersection between sex‐associated serum metabolites across full cohort (ALL) and each of the three strains. Horizontal bars on the left represent number of metabolites significantly associated with sex and vertical bars represent number of sex‐associated metabolites shared across full cohort and each of the three genotypes. Each black dot represents the group and connecting lines represent the group being compared. In serum metabolome, we found 73 out of 142 metabolites significantly associated with sex in the full cohort. Every significant sex difference found in each genotype alone was also significant in full cohort except one that showed significant sex difference in only LOAD1 genotype. B, Pie charts representing classes of altered metabolites in each sex in the full cohort for serum metabolome. Colors in each chart represents distinct classes of metabolites (red: acylcarnitines, blue: amino acids, green: biogenic amines, purple: glycerophospholipids, and orange: sphingolipids). The majority of glycerophospholipids were more abundant in male mice, while amino acids and sphingolipids were more abundant in female mice. C, An UpSet plot showing intersection between sex‐associated brain metabolites across full cohort and each of the three strains. In the brain metabolome, we found 34 out of 142 metabolites to be significantly associated with sex in the full cohort. D, Pie charts representing classes of abundant metabolites in each sex in the full cohort. The sphingolipids were more abundant in male mice, while amino acids and acylcarnitines were more abundant in female mice.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-20-3987-g003.jpg"/></fig><p>Further, comparisons of beta estimates for sex between 5XFAD and B6 groups showed significant effect heterogeneity (<italic toggle="yes">P</italic>
+<sub>HET</sub> &lt; 0.05) for five metabolites (C18:1, C18:2, PC aa C34:2, PC aa C36:2, asymmetric dimethylarginine [SDMA]). All five metabolites reversed their direction of abundance change between sexes in the 5XFAD mice compared to B6 mice. Notably, none of these metabolites showed significant sex‐specific differences either in combined mouse samples or separated by genotypes. Similarly, comparisons of beta estimates for sex between LOAD1 and B6 groups showed significant effect heterogeneity (<italic toggle="yes">P</italic>
+<sub>HET</sub> &lt; 0.05) for 31 metabolites, out of which 23 were glycerophospholipids and three were amino acids (valine, arginine, and phenylalanine; Table <xref rid="alz13851-supitem-0003" ref-type="supplementary-material">S2</xref> in supporting information). Most of these metabolites had opposite changes in direction between sexes in LOAD1 compared to B6 controls. These observations indicated that sex differences in serum metabolite levels were significantly affected in the late‐onset AD model compared to control mice.</p></sec><sec id="alz13851-sec-0200"><label>3.2.2</label><title>Mouse brain metabolome</title><p>Next, we investigated sex‐specific associations of metabolites and sex‐associated differences in brain metabolomes of mouse models. In the complete cohort (<italic toggle="yes">N</italic> = 74), 34 out of 142 metabolites were significantly associated with sex after multiple testing correction (P &lt; 9.09 × 10<sup>−4</sup>) when adjusting for genotypes (Figure <xref rid="alz13851-fig-0002" ref-type="fig">2C</xref>, Table <xref rid="alz13851-supitem-0002" ref-type="supplementary-material">S1</xref>). A total of 15 metabolites had higher levels in males including 10 glycerophospholipids, 4 sphingolipids (SMs), and 1 biogenic amine, while 19 metabolites had higher levels in females including 9 glycerophospholipids, 4 amino acids, and 6 acylcarnitines (Figure <xref rid="alz13851-fig-0002" ref-type="fig">2D</xref>, Table <xref rid="alz13851-supitem-0002" ref-type="supplementary-material">S1</xref>). Stratification by genotypes revealed 14 of the 34 metabolites with significant sex differences were significant in at least one of the genotypes (B6, LOAD1, and 5XFAD) when analyzed separately, whereas 20 showed no significant sex difference in any genotype. Significant sex differences limited to one genotype were found for four metabolites (C18:1, PC aa C32:3, PC ae C36:4, t4‐OH‐Pro) in LOAD1 mice, for three metabolites (C18, PC aa C40:4, PC ae C36:5) in the 5XFAD mice, and for four metabolites (PC ae C42:2, SM C24:0, SM [OH] C22:1, SM [OH] C24:1) in the B6 mice. Significant sex differences for two metabolites (spermidine and spermine) in 5XFAD and seven metabolites (PC ae C30:0, PC ae C30:1, PC ae C30:2, PC ae C34:0, PC ae C36:0, SM C16:0, and SM C18:0) in B6 were not significant in the full cohort (Table <xref rid="alz13851-supitem-0002" ref-type="supplementary-material">S1</xref>, Figure <xref rid="alz13851-fig-0002" ref-type="fig">2C</xref>).</p><p>Comparisons of beta estimates for sex between 5XFAD and B6 groups showed significant effect heterogeneity (<italic toggle="yes">P</italic>
+<sub>HET</sub> &lt; 0.05) for 29 metabolites, which include 21 PCs (most of which were ester‐containing PCs), 5 SMs, and 3 biogenic amines (Table <xref rid="alz13851-supitem-0004" ref-type="supplementary-material">S3</xref> in supporting information). All but two metabolites showed a change in direction of abundance between sex (higher levels in females compared to males) in the 5XFAD mice compared to B6 mice. Similarly, comparisons of beta estimates for sex between LOAD1 and B6 groups showed significant effect heterogeneity (<italic toggle="yes">P</italic>
+<sub>HET</sub> &lt; 0.05) for 13 metabolites, which included 9 glycerophospholipids (the majority of which were ether‐containing PCs), 2 long‐chain acylcartines (C16:1, C18:2), 1 biogenic amine (SDMA), and 1 hydroxy‐SM (SM [OH] C22:1; Table <xref rid="alz13851-supitem-0004" ref-type="supplementary-material">S3</xref>). All but three metabolites exhibited a change in direction of abundance between sexes (higher levels in females compared to males) in LOAD1 mice compared to B6 mice. Moreover, three metabolites (PC aa C38:6, PC ae C32:1, PC ae C44:6) showed significant heterogeneity in both 5XFAD and LOAD1 mouse models compared to controls. In summary, we found that sex differences in brain metabolite levels varied by genotype in mouse models, with more pronounced effects in 5XFAD.</p><p>Moreover, we identified 19 metabolites that showed sex‐specific differences in both serum and brain metabolomes in the combined analysis of all mice. Notably, none of the metabolites showed sex differences in both serum and brain metabolomes of the LOAD1 mice, while only one metabolite, PC aa C40:4, showed sex differences in both serum and brain metabolomes of the 5XFAD mice. Levels of PC aa C40:4 were higher in males and females in serum and brain metabolomes, respectively.</p></sec></sec><sec id="alz13851-sec-0210"><label>3.3</label><title>Sex‐stratified associations of metabolites with AD risk factors</title><p>Next, we investigated the association of metabolites with AD risk factors and whether sex modifies the associations between AD risk factors and metabolite concentrations. We tested for associations of 5XFAD and LOAD1 genotypes with concentrations of each of the 142 metabolites in both serum and brain metabolomes from the same 74 individual animals. We did this in the full cohort and separately in each sex using multivariable linear regression, followed by analysis of heterogeneity of effects between sexes. All metabolite–genotype associations were deemed significant, which fulfilled at least one of the three criteria as described in Arnold et al.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>: (1) associations Bonferroni significant (at a threshold of <italic toggle="yes">P</italic> &lt; 9.09 × 10<sup>−4</sup>) in the full cohort, (2) associations Bonferroni significant in one sex, (3) associations that showed suggestive significance (<italic toggle="yes">P</italic> &lt; 0.05) in one sex coupled with significance for effect heterogeneity between female and male effect estimates. These significant associations were further classified into homogeneous (metabolites with similar effects in their association to the risk factors for both sexes), heterogeneous (metabolites with different effects in both sexes leading to significant heterogeneity), and sex‐specific effects (effects that were Bonferroni significant in only one sex with significant effect heterogeneity between males and females). We compared our findings in mouse models to recent results from the ADNI cohort,<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> and therefore examined the association of metabolites with each genotype for our mice cohort using similar methods.</p><sec id="alz13851-sec-0220"><label>3.3.1</label><title>Mouse serum metabolome</title><p>In the mouse serum metabolome, we identified 83 metabolites significantly associated with the LOAD1 genotype, while only 7 metabolites were significantly associated with the 5XFAD genotype (Table <xref rid="alz13851-supitem-0005" ref-type="supplementary-material">S4</xref> in supporting information, Figure <xref rid="alz13851-fig-0003" ref-type="fig">3A</xref>). Among the LOAD1 genotype‐associated metabolites, we found 32 metabolites (24 PCs and 8 SMs) with homogeneous associations (Figure <xref rid="alz13851-fig-0003" ref-type="fig">3A</xref>, top panel). Next, we identified seven associations with heterogeneous effects: one acylcarnitine (C16‐OH), one biogenic amine (alpha.AAA), and four amino acids (isoleucine, phenylalanin, tyrosine, and valine) have larger effect size in males, whereas ADMA showed stronger associations with females (all <italic toggle="yes">I</italic>
+<sup>2</sup> &gt; 50%). Further, male‐specific effects were seen for 36 metabolites associated with LOAD1, which included 32 PCs, 3 SMs, and 1 acylcarnitine (C14:1‐OH) (Figure <xref rid="alz13851-fig-0003" ref-type="fig">3A</xref>, top panel). Overall, serum levels of these significant metabolites were reduced in LOAD1 mice compared to B6 controls, except for the four amino acids (isoleucine, phenylalanin, tyrosine, and valine) and one biogenic amine (alpha.AAA).</p><fig position="float" fig-type="FIGURE" id="alz13851-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Metabolite associations with LOAD1 and 5XFAD genotype stratified by sex in mouse models. Bar charts (A‐B) showing classification of significant metabolite–genotype associations into three types of effects: homogeneous (metabolites with similar effects in their association to the risk factors for both sexes), heterogeneous (metabolites with different effects in both sexes leading to significant heterogeneity), and sex‐specific effects (effects that were Bonferroni significant [<italic toggle="yes">P</italic> &lt; 9.09 × 10<sup>−4</sup>] in only one sex with significant effect heterogeneity between males and females). Different colors in the bar chart represent distinct classes of metabolites (acylcarnitines: red, amino acids: blue, biogenic amines: green, glycerophospholipids: purple, and sphingolipids: orange). A, Distribution of serum metabolites significantly associated with LOAD1 (top panel) and 5XFAD (bottom panel) strains. In serum, we identified more metabolites significantly associated with LOAD1 than 5XFAD. B, Distribution of brain metabolites significantly associated with LOAD1 and 5XFAD genotypes. In the brain metabolome, we identified more metabolites significantly associated with 5XFAD genotype then LOAD1 genotype. C‐D, Boxplots showing levels of valine and isoleucine levels for stratification by sex across each of the three strains (B6, LOAD1, and 5XFAD). Male and female groups are plotted in separate panels, with strains distinguished by color (light blue: B6, dark blue: 5XFAD, green: LOAD1). Levels of these amino acids in serum metabolome were significantly higher (<italic toggle="yes">P</italic> &lt; 0.05) in male LOAD1 compared to male B6 controls.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-20-3987-g002.jpg"/></fig><p>For 5XFAD, we found five metabolites with heterogenous effects (Figure <xref rid="alz13851-fig-0003" ref-type="fig">3A</xref>, bottom panel): acylcarnitines (C18:1, and C18:2) showed stronger associations with females, whereas PC aa C34:2, PC aa C36:2, and one biogenic amine (SDMA) yielded stronger associations with males (all <italic toggle="yes">I</italic>
+<sup>2</sup> &gt; 50%). One male‐specific effect was seen for PC ae C38:1 with significant negative association with 5XFAD.</p><p>Another metabolite (PC aa C32:1) met the Bonferroni threshold for males but failed to meet the threshold for sex effect heterogeneity. Serum levels of these 5XFAD‐associated metabolites were also reduced in 5XFAD mice compared to B6 controls, except for one biogenic amine (SDMA). Further, we did not observe female‐specific effects for any metabolite associated with either genotype.</p></sec><sec id="alz13851-sec-0230"><label>3.3.2</label><title>Mouse brain metabolome</title><p>In the mouse brain metabolome, we identified 12 metabolites significantly associated with LOAD1, while 65 metabolites were significantly associated with the 5XFAD genotype (Table <xref rid="alz13851-supitem-0005" ref-type="supplementary-material">S4</xref>, Figure <xref rid="alz13851-fig-0003" ref-type="fig">3B</xref>). Out of 12 metabolites associated with LOAD1 (Figure <xref rid="alz13851-fig-0003" ref-type="fig">3B</xref>, top panel), two had homogenous effects (PC aa C42:4, PC ae C34:3) with strong positive associations. Next, we identified six associations with heterogeneous effects: acylcarnitine (C18:2) and biogenic amine (SDMA), with larger effect size in males, whereas PCs (PC aa C28:1, PC ae C40:1, PC ae C44:6) and one hydroxy sphingolipid (SM [OH] C22:1) showed stronger positive association with females (all <italic toggle="yes">I</italic>
+<sup>2</sup> &gt; 50%). Further, female‐specific effects were seen for three ether‐containing PCs (PC ae C32:1, PC ae C34:0, PC ae C36:0), with significant positive correlations with the LOAD1 genotype. Levels of these significant metabolites with homogenous and female‐specific effects were increased in LOAD1 mice compared to B6 controls, while levels of metabolites with heterogenous effects were reduced in males and increased in females. Overall, we observed increased levels of these metabolites in female LOAD1 mice compared to female B6.</p><p>Out of 65 metabolites associated with the 5XFAD genotype (Figure <xref rid="alz13851-fig-0003" ref-type="fig">3B</xref>, bottom panel), we found 19 metabolites with homogenous effects, which includes 15 PCs, 1 SM (SM C16:1), 1 amino acid (lysine), and 2 biogenic amines (creatinine and t4‐OH‐Pro). Six PCs and one hydroxy sphingolipid (SM [OH] C22:2) showed heterogenous effects with stronger positive associations with females (<italic toggle="yes">I</italic>
+<sup>2</sup> &gt; 50%). We also identified 30 metabolites with female‐specific effects: 21 PCs, 7 SMs (including four hydroxy SMs), 1 biogenic amine (putrescine), and 1 acylcarnitine (C18; Figure <xref rid="alz13851-fig-0003" ref-type="fig">3B</xref>, bottom panel). Levels of these 5XFAD‐associated metabolites were higher in 5XFAD mice compared to B6 controls. Male‐specific effects were also seen for two biogenic amines (spermidine, spermine), with strong negative associations with 5XFAD.</p><p>Upon comparing these brain associations to associations in the serum metabolome, we observed that out of 65 metabolites associated with 5XFAD in the brain metabolome, only 3 metabolites were associated with serum in 5XFAD, while 43 were associated with serum in LOAD1. This suggests that AD‐related effects present in different tissues in the different mouse models. Similarly, out of 12 metabolites associated with LOAD1 in the brain, 10 were associated with LOAD1 and 2 were associated with 5XFAD in serum. Metabolites commonly associated with either genotype across serum and brain metabolomes were generally glycerophospholipids and sphingolipids. Some amino acids such as valine and isoleucine were significantly associated with the LOAD1 genotype in serum metabolome with larger effect size in males (Figure <xref rid="alz13851-fig-0003" ref-type="fig">3C‐D</xref>, Table <xref rid="alz13851-supitem-0004" ref-type="supplementary-material">S3</xref>), while two amino acids (lysine and arginine) and five biogenic amines (spermidine, spermine, creatinine, putrescine, and t4‐OH‐Pro) were specifically significantly associated with 5XFAD in brain metabolome. Notably, levels of the significantly associated metabolites were higher in the brain metabolome and reduced in the serum metabolome compared to respective controls. We compared the effect of LOAD1 on glycerophospholipids (the largest class of metabolites in panel) levels for serum and brain metabolomes and observed a significant negative correlation (<italic toggle="yes">r</italic> = −0.31, <italic toggle="yes">P</italic> = 0.01) between tissues (Figure <xref rid="alz13851-fig-0004" ref-type="fig">4A</xref>).</p><fig position="float" fig-type="FIGURE" id="alz13851-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Correlation between human and mouse metabolomic signatures in <italic toggle="yes">APOE</italic> ε4 carriers. <italic toggle="yes">APOE</italic> ε4 effects on glycerophospholipids levels were measured between mouse and human metabolomes with Pearson correlation (<italic toggle="yes">R</italic>) and statistical significance. Each point is an effect estimate for a single glycerophospholipid species. A, Mouse serum and brain effects showing significant negative correlation in LOAD1 mice. B, ADNI human and mouse serum effects showing significant positive correlation. C, ROS/MAP human and mouse serum effects showing significant positive correlation. D, ROS/MAP human and mouse brain effects showing significant positive correlation. ADNI, Alzheimer's Disease Neuroimaging Initiative; <italic toggle="yes">APOE</italic>, apolipoprotein E; ROS/MAP, Religious Orders Study Rush Memory and Aging Project.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-20-3987-g004.jpg"/></fig></sec></sec><sec id="alz13851-sec-0240"><label>3.4</label><title>Comparison of mouse metabolome profile to human metabolome study</title><p>Next, we compared our results to human metabolomic profiles from two independent studies: (1) the ADNI cohort, for which we have serum metabolomics data from 1517 participants<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> and (2) the ROS/MAP,<xref rid="alz13851-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> for which we had p180 metabolites data from both serum and brain from 92 participants.</p></sec><sec id="alz13851-sec-0250"><label>3.5</label><title>The ADNI cohort</title><p>We investigated whether serum metabolites reported to be significantly associated with AD biomarkers in the ADNI cohorts<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> were also associated with AD risk factors in mouse serum metabolome. Arnold et al.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> used multivariable logistic regression to measure associations of pathological Aβ<sub>1‐42</sub> with metabolite concentrations as explanatory variables. For uniformity with our mouse data analysis, we re‐assessed the association analysis for the ADNI human serum metabolomics data using a multivariable linear regression approach using metabolite concentrations as the dependent variable to test associations of the CSF Aβ<sub>1‐42</sub> pathology with concentrations of 139 serum metabolites. We recovered the same metabolites significantly associated with CSF Aβ<sub>1‐42</sub> pathology as reported in the study.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>
+</p><p>Interestingly, we observed that four metabolites significantly associated with CSF Aβ<sub>1‐42</sub> pathology (PC ae C44:4, PC ae C44:5, PC ae C44:6, and valine) were also significantly associated with the LOAD1 genotype (Table <xref rid="alz13851-supitem-0004" ref-type="supplementary-material">S3</xref>). Three out of these four metabolites (PC ae C44:4, PC ae C44:5, and PC ae C44:6) also showed Bonferroni‐significant associations with pathological CSF Aβ<sub>1‐42</sub> in <italic toggle="yes">APOE</italic> ε4 carriers.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Further, we noticed a similar decrease in these metabolite levels in serum of <italic toggle="yes">APOE</italic> ε4 carriers (without CSF Aβ<sub>1‐42</sub> pathology), as we have seen in LOAD1 mice that carry the ε4 variant but do not exhibit amyloid plaques (Figure <xref rid="alz13851-fig-0005" ref-type="fig">5</xref>). However, none of the significant associations reported for pathological CSF Aβ<sub>1‐42</sub> was significantly associated with the 5XFAD genotype in mouse serum metabolome.</p><fig position="float" fig-type="FIGURE" id="alz13851-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Levels of metabolites significantly associated with CSF Aβ<sub>1‐42</sub> pathology in humans and LOAD1 genotype in mouse models. Boxplots showing levels for serum metabolites significantly associated with both LOAD1 genotype in mouse models (left panels) and CSF Aβ<sub>1‐42</sub> pathology in human subjects (right panels). In humans, subjects were stratified by sex, <italic toggle="yes">APOE</italic> ε4 carriers, and CSF Aβ<sub>1‐42</sub> pathology and mouse models were stratified by sex and genotypes. In left panels the mouse model's genotype specificity is illustrated by a color scale (light blue: B6, dark blue: 5XFAD, light green: LOAD1). In right panels stratification is illustrated by a color scale (light blue: without CSF Aβ<sub>1‐42</sub> pathology without <italic toggle="yes">APOE</italic> ε4 carriers, dark blue: CSF Aβ<sub>1‐42</sub> pathology without <italic toggle="yes">APOE</italic> ε4 carriers, light green: <italic toggle="yes">APOE</italic> ε4 carriers without CSF Aβ<sub>1‐42</sub> pathology, dark green: <italic toggle="yes">APOE</italic> ε4 carriers with CSF Aβ<sub>1‐42</sub> pathology). Levels of (A) phosphatidylcholine acyl‐alkyl C44:4 (PC ae C44:4); (B) phosphatidylcholine acyl‐alkyl C44:5 (PC ae C44:5); and (C) phosphatidylcholine acyl‐alkyl C44:6 (PC ae C44:6). Levels of these metabolites are reduced in serum of LOAD1 mice (left panels) (that carry the ε4 variant but do not exhibit amyloid plaques) as well as in serum of <italic toggle="yes">APOE</italic> ε4 carriers in humans (without CSF Aβ<sub>1‐42</sub> pathology) (right panels). D, Levels of valine are increased in serum of LOAD1 male mice (left panel) in a similar fashion to <italic toggle="yes">APOE</italic> ε4 carriers in humans without CSF Aβ<sub>1‐42</sub> pathology (right panel). Note that mouse data are identical to those in Figure <xref rid="alz13851-fig-0003" ref-type="fig">3C</xref>. Aβ, amyloid beta; <italic toggle="yes">APOE</italic>, apolipoprotein E; CSF, cerebrospinal fluid.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ALZ-20-3987-g005.jpg"/></fig><p>Furthermore, we measured correlations between the effects of <italic toggle="yes">APOE</italic> ε4 on glycerophospholipid levels in serum metabolomics from the ADNI cohort and mouse models. We found a significant positive correlation (<italic toggle="yes">r</italic> = 0.31, <italic toggle="yes">P</italic> = 0.008) between the effects of <italic toggle="yes">APOE</italic> ε4 on glycerophospholipid levels in human and mouse serum, suggesting a similar decrease in the serum of <italic toggle="yes">APOE</italic> ε4 carriers compared to non‐carriers (Figure <xref rid="alz13851-fig-0004" ref-type="fig">4B</xref>).</p></sec><sec id="alz13851-sec-0260"><label>3.6</label><title>ROS/MAP cohort</title><p>Next, we carried out multivariable linear regression analysis on ROS/MAP serum and brain metabolomics data using metabolite concentrations of glycerophospholipids as dependent variables to measure the effects of the <italic toggle="yes">APOE</italic> ε4 genotype versus other <italic toggle="yes">APOE</italic> alleles. We then assessed the correlation between <italic toggle="yes">APOE</italic> ε4 effects on glycerophospholipid levels in serum metabolomics data from ROS/MAP carriers and APOE ε4 mouse models (i.e., LOAD1 mice). We observed a significant positive correlation (<italic toggle="yes">r</italic> = 0.44, <italic toggle="yes">P</italic> = 0.0001) between the effects of <italic toggle="yes">APOE</italic> ε4 on glycerophospholipids levels in human and mouse serum, suggesting a similar decrease in the glycerophospholipids in serum of <italic toggle="yes">APOE</italic> ε4 carriers compared to non‐carriers (Figure <xref rid="alz13851-fig-0004" ref-type="fig">4C</xref>). We also measured the correlation between the effects of <italic toggle="yes">APOE</italic> ε4 on glycerophospholipids levels in brain metabolomics data from ROS/MAP and mouse model carriers and found a significant positive correlation (<italic toggle="yes">r</italic> = 0.40, <italic toggle="yes">P</italic> = 0.0008; Figure <xref rid="alz13851-fig-0004" ref-type="fig">4D</xref>), suggesting an increase in the same metabolites in the brain that was consistent across humans and mice. We also compared the effects of <italic toggle="yes">APOE</italic> ε4 on glycerophospholipids levels from human serum and brain metabolomes in the ROS/MAP cohort, but we did not observe a significant negative correlation (<italic toggle="yes">r</italic> = 0.11, <italic toggle="yes">P</italic> = 0.4) as we observed in mouse models. In summary, we observed the same effect directions in humans and mice from both serum and brain metabolites when compared separately, while human serum‐to‐brain comparisons may suffer from limited power.</p></sec></sec><sec id="alz13851-sec-0270"><label>4</label><title>DISCUSSION</title><sec id="alz13851-sec-0280"><label>4.1</label><title>Summary</title><p>In this study, we have systematically investigated alterations in abundances of 142 metabolites in the serum and brain metabolome of the 5XFAD amyloid mouse model and a more recently created LOAD1 (APOE4.Trem2<sup>R47H</sup>) mouse model with LOAD genetics. We assessed the sex differences for metabolic associations in each mouse model and investigated changes in sexual dimorphisms of metabolic levels compared to B6 control mice. A complex pattern of sex and genotype effects was observed, with the most significant effects occurring in the brain of 5XFAD mice and serum of LOAD1 mice. To assess the translational relevance of the mouse models, we compared our findings to recent metabolomic studies from two human cohorts.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz13851-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> We observed similar glycerophospholipid signatures in human and mouse <italic toggle="yes">APOE</italic> ε4 carriers in both brain and serum.</p></sec><sec id="alz13851-sec-0290"><label>4.2</label><title>The two mouse strains exhibit distinct sex‐specific biology, both with potential relevance to dementia</title><p>Overall, we observed distinct sex differences for the two mouse strains. Significant sexual dimorphism of serum metabolic levels was observed in LOAD1 mice carrying the <italic toggle="yes">APOE</italic> ε4/ε4 variant. In the serum metabolome, we observed that most glycerophospholipids were significantly associated with males and showed elevated levels compared to females, while few sphingomyelins and amino acids were more abundant in females. Multiple serum metabolites with significantly higher levels in B6 (controls) females (specifically amino acids including valine and arginine) showed reduced levels in female mice carrying <italic toggle="yes">APOE</italic> ε4/ε4 (LOAD1) compared to their male counterparts, while other metabolites such as glycerophospholipids and some long chain acylcarnitines showed reduced levels in male mice carrying <italic toggle="yes">APOE</italic> ε4/ε4 compared to females. Brain metabolomes showed more significant sexual dimorphisms in 5XFAD mice and brain metabolites such as some biogenic amines, glycerophospholipids, and sphingomyelins that had greater abundance in B6 males showed higher levels in the 5XFAD females. This suggests that metabolic sex differences changed owing to presence of the <italic toggle="yes">APOE</italic> ε4/ε4 allele and 5XFAD transgene. However, amino acids such as alanine, serine, threonine, and tryptophan exhibited significant increased levels in both brain and serum metabolome of female mice compared to male mice in all three strains, while some glycerophospholipids were significantly elevated in the brain and serum metabolome of male mice compared to female mice in all strains. We note that all mice were 6 months of age, unlike the human samples from aged individuals, and that sex‐specific metabolite profiles may evolve differently with aging. These results suggest that even though both mouse models are intended for use in AD research, the two strains have different sex‐specific biology with potentially distinct relevance to dementia.</p></sec><sec id="alz13851-sec-0300"><label>4.3</label><title>The LOAD1 mouse model is appropriate for the study of AD metabolite biology</title><p>Our analysis of both brain and serum metabolomes from each animal suggests distinct tissues of action for the two genetic constructs. Sex‐stratified metabolite associations with genotypes identified that serum metabolites were more significantly associated with LOAD1 genotype, while brain metabolites were more significantly associated with 5XFAD. These outcomes are potentially due to 5XFAD amyloid accumulation primarily affecting the brain while the <italic toggle="yes">APOE</italic> ε4/ε4 in the LOAD1 strain affects lipid metabolism, potentially throughout the body. Notably, we identified a heterogenous association of valine in the LOAD1 genotype, with reduced levels in female mice but increased levels in males. Studies have associated the reduced level of valine in serum with cognitive decline and brain atrophy in AD,<xref rid="alz13851-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> and also suggested valine as a marker for increased female vulnerability to AD.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz13851-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> We also observed increased levels of biogenic amine putrescine, specifically in the brain of female 5XFAD. As significant increased levels of putrescine have been reported in brain tissue from AD patients,<xref rid="alz13851-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> similar elevations were also observed in the APP/PS1 mice at 6 months of age,<xref rid="alz13851-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> suggesting Aβ causes upregulation of polyamine uptake and increased ornithine decarboxylase activity, which leads to increased polyamine synthesis,<xref rid="alz13851-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>, <xref rid="alz13851-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> which in turn causes dysfunction of the N‐methyl‐D‐aspartate receptor leading to the neuronal excitotoxicity which occurs in AD.<xref rid="alz13851-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> Two other biogenic amines (spermidine, spermine) also exhibit increased but insignificant level in the 5XFAD female brain. Pan et al.<xref rid="alz13851-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> reported that putrescine precedes both spermidine and spermine in the biochemical pathway and observed significant increase in both spermidine and spermine in female brain at later time point. This suggests that our relatively young mice (6 months of age) may exhibit more significant changes in these biogenic amines at later ages. The metabolite asymmetric dimethylarginine (ADMA), which is an endogenous inhibitor of nitric oxide synthase, has been found to be higher in plasma from AD patients.<xref rid="alz13851-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> Inhibition of endothelial nitric oxide synthesis by ADMA impairs cerebral blood flow, which may contribute to the development of AD.<xref rid="alz13851-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> We also observed a significant positive association of ADMA with female LOAD1 in serum metabolome, suggesting that the LOAD1 mouse model is appropriate for the study of relevant AD biology.</p></sec><sec id="alz13851-sec-0310"><label>4.4</label><title>The 5XFAD amyloidogenic mouse is a relevant model for acylcarnitine alterations in AD</title><p>We identified both female‐specific and heterogeneous increases in sphingomyelins in the brain metabolome of 5XFAD mice. Sphingomyelins are precursors for ceramide production and their accumulation suggests the induction of apoptosis, further driving neurodegeneration by increasing Aβ biosynthesis and promoting gamma‐secretase processing of amyloid precursor protein.<xref rid="alz13851-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>, <xref rid="alz13851-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="alz13851-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> Higher levels of sphingomyelins and glycerophospholipids in 6‐month‐old mouse brains are indicative of early neurodegeneration and loss of membrane functions. Acylcarnitines have important functions in the brain such as mitochondrial function, energetics, and neurotransmission and have been linked with AD‐related pathology.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz13851-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref>, <xref rid="alz13851-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref> We observed a significant female‐specific association of higher levels of acylcarnitine C18 with the 5XFAD, suggesting sex‐specific accumulation of long‐chain fatty acids in females. Increased levels of C18 have been also previously reported in MCI patients with CSF Aβ<sub>1‐42</sub> pathology.<xref rid="alz13851-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> These findings suggest the 5XFAD amyloidogenic mouse as a relevant model for acylcarnitine alterations in AD.</p></sec><sec id="alz13851-sec-0320"><label>4.5</label><title>Serum biomarkers are informative, but their effects in the brain cannot be directly extrapolated</title><p>Glycerophospholipids (PCs and LysoPCs) are the major class of complex lipids playing essential roles in neural membrane formation and intraneuronal signal transduction.<xref rid="alz13851-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref> We identified that serum levels of glycerophospholipids were reduced in LOAD1 mice compared to B6 controls, while levels of these metabolites in the same animals were greater in both male and female brains of LOAD1 and 5XFAD mice. We also compared the LOAD1 genotype effects on glycerophospholipid levels between serum and brain metabolomes and observed a significant negative correlation. This suggests a correspondence between brain and serum glycerophospholipid levels, but a negative rather than positive correlation. Similar patterns of contrast concentration level of glycerophospholipids in brain and blood metabolome were also observed in the APP/PS1 mouse.<xref rid="alz13851-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> These findings imply that although the serum biomarker is informative, effects in the brain cannot be directly extrapolated from those in blood.</p></sec><sec id="alz13851-sec-0330"><label>4.6</label><title>The translational utility of mouse models for metabolomic studies of AD</title><p>We observed translational relevance for these results in two human AD studies. Our observed effect of LOAD1 on serum glycerophospholipids levels was significantly correlated with serum effects of the <italic toggle="yes">APOE</italic> ε4 variant in ADNI, showing a similar decrease in the same metabolites in serum of <italic toggle="yes">APOE</italic> ε4 carriers compared to non‐carriers and indicating a serum‐based effect of <italic toggle="yes">APOE</italic> genotype. We also identified Bonferroni‐significant associations of PC ae C44:4, PC ae C44:5, and PC ae C44:6 with <italic toggle="yes">APOE</italic> ε4 genotype in mouse models as in the ADNI cohort with consistent effect directions. While all three PCs showed homozygous associations in the ADNI cohort, in mice only PC ae C44:5 showed a homogeneous effect, while associations of PC ae C44:4 and PC ae C44:6 were male specific. We also confirmed tissue‐specific effects of the LOAD1 genotype on metabolite levels for <italic toggle="yes">APOE</italic> ε4 carriers in the ROS/MAP cohort, finding significant correlations between carriers and LOAD1 mice in both brain and serum metabolome. Altogether, this suggests similar effects of the <italic toggle="yes">APOE</italic> ε4 variant in mouse models to those observed in human AD carriers. However, we did not observe consistent sex differences between mice and humans. Contrary to the mouse models, PCs were higher in female humans and amino acids were (with few exceptions like serine and glycine) higher in males.<xref rid="alz13851-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Despite these dissimilarities of some sex differences, we still observed an overlap in associations with mouse genotype and the related human phenotypes, which indicates that the sex differences do not mask associations on the phenotypic/genotypic level. This suggests that, while there is a difference in the metabolic patterns for sex in mice and humans, there is translational utility in mouse models for metabolomic studies of AD.</p></sec></sec><sec id="alz13851-sec-0340"><label>5</label><title>CONCLUSION</title><p>In conclusion, metabolomic signatures were notably different between brain and serum in two mouse models of AD at 6 months of age. The early‐onset 5XFAD mice exhibited stronger effects in brain, whereas the late‐onset LOAD1 mouse showed more pronounced effects in serum. These findings are consistent with the high levels of neuropathology in 5XFAD mouse brains and the modifications of serum biomarkers in LOAD1 mice. We were able to identify patterns of metabolic changes related to human AD risk in our mouse models. These findings strengthen the utility of mouse models for studying metabolic changes that occur in human AD at early stages. However, there are some limitations in this study. First, we evaluated metabolomic data from only 6‐month‐old mice, which did not allow to study of progressive metabolic changes associated with AD. Studies using transgenic APP/PS1 mice observed that metabolic changes associated with AD pathology appeared first in the brain and later in blood.<xref rid="alz13851-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> Therefore, it will be interesting to investigate metabolomics profiles of the LOAD1 and other late‐onset mouse models over different extended ages to study progressive metabolic changes associated with AD pathology. We have also used a targeted approach, potentially missing broader alterations in mouse model metabolomes. Our findings suggest such aging studies can model the different phases of metabolic disturbances which may occur in human AD.</p></sec><sec sec-type="COI-statement" id="alz13851-sec-0360"><title>CONFLICT OF INTEREST STATEMENT</title><p>MA and RKD are co‐inventors (through Duke University/Helmholtz Zentrum München) on patents on applications of metabolomics in diseases of the central nervous system. RKD hold equity in Metabolon Inc., Chymia LLC, and PsyProtix. GWC has consulted for Astrex Pharmaceuticals. RSP, RB, JK, KPK, DG, HW, MS, and GRH have no conflicts to disclose. Author disclosures are available in the <xref rid="alz13851-supitem-0001" ref-type="supplementary-material">supporting information</xref>.</p></sec><sec id="alz13851-sec-0390"><title>CONSENT STATEMENT</title><p>No consent was required as all human subjects data were reused under controlled access with an active AD Knowledge Portal Data Use Certificate (v7.3). All data were anonymized by original sources with no possibility of deanonymization.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz13851-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-3987-s002.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz13851-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-3987-s005.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz13851-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-3987-s003.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz13851-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-3987-s004.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz13851-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-3987-s001.xlsx" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz13851-sec-0350"><title>ACKNOWLEDGMENTS</title><p>The results published here are in whole or in part based on data obtained from the AD Knowledge Portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adknowledgeportal.org" ext-link-type="uri">https://adknowledgeportal.org</ext-link>). The IU/JAX/PITT MODEL‐AD Center was established with funding from The National Institute on Aging (U54 AG054345). Metabolomics data are provided by the Alzheimer's Disease Metabolomics Consortium (ADMC) and funded wholly or in part by the following grants and supplements thereto: NIA R01AG046171, RF1AG051550, RF1AG057452, R01AG059093, RF1AG058942, U01AG061359, U19AG063744 and FNIH: #DAOU16AMPA awarded to Dr. Kaddurah‐Daouk at Duke University in partnership with a large number of academic institutions. As such, the investigators within the ADMC, not listed specifically in this publication's author's list, provided data along with its pre‐processing and prepared it for analysis, but did not participate in analysis or writing of this manuscript. A complete listing of ADMC investigators can be found at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sites.duke.edu/adnimetab/team/" ext-link-type="uri">https://sites.duke.edu/adnimetab/team/</ext-link>. Data were generated by the Duke Metabolomics and Proteomics Shared Resource, a member of the ADMC, using protocols published previously for blood samples (Toledo et al., <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.1016/j.jalz.2017.01.020" ext-link-type="uri">https://doi.org/10.1016/j.jalz.2017.01.020</ext-link>; St. John‐Williams et al., <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.1038/sdata.2017.140" ext-link-type="uri">https://doi.org/10.1038/sdata.2017.140</ext-link>; Arnold et al., <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.1101/585455" ext-link-type="uri">https://doi.org/10.1101/585455</ext-link>). MA, RKD, JK, and RB are additionally supported by the National Institute on Aging of the National Institutes of Health under awards NIA 1U19AG063744 and R01AG069901‐01. The IU/JAX/PITT MODEL‐AD Center was supported through funding by NIA grant U54AG054345. <bold>ADNI</bold>: Data collection and sharing for this project was funded by the Alzheimer's Disease Neuroimaging Initiative (ADNI; National Institutes of Health Grant U01 AG024904) and DOD ADNI (Department of Defense award number W81XWH‐12‐2‐0012). ADNI is funded by the National Institute on Aging, the National Institute of Biomedical Imaging and Bioengineering, and through generous contributions from the following: AbbVie; Alzheimer's Association; Alzheimer's Drug Discovery Foundation; Araclon Biotech; BioClinica, Inc.; Biogen; Bristol‐Myers Squibb Company; CereSpir, Inc.; Cogstate; Eisai Inc.; Elan Pharmaceuticals, Inc.; Eli Lilly and Company; EuroImmun; F. Hoffmann‐La Roche Ltd and its affiliated company Genentech, Inc.; Fujirebio; GE Healthcare; IXICO Ltd.; Janssen Alzheimer Immunotherapy Research &amp; Development, LLC; Johnson &amp; Johnson Pharmaceutical Research &amp; Development LLC; Lumosity; Lundbeck; Merck &amp; Co., Inc.; Meso Scale Diagnostics, LLC; NeuroRx Research; Neurotrack Technologies; Novartis Pharmaceuticals Corporation; Pfizer Inc.; Piramal Imaging; Servier; Takeda Pharmaceutical Company; and Transition Therapeutics. The Canadian Institutes of Health Research is providing funds to support ADNI clinical sites in Canada. Private sector contributions are facilitated by the Foundation for the National Institutes of Health (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.fnih.org" ext-link-type="uri">www.fnih.org</ext-link>). The grantee organization is the Northern California Institute for Research and Education, and the study is coordinated by the Alzheimer's Therapeutic Research Institute at the University of Southern California. ADNI data are disseminated by the Laboratory for Neuro Imaging at the University of Southern California. <bold>ROS/MAP</bold>: Study data provided through NIA grant 3R01AG046171‐02S2 was awarded to Rima Kaddurah‐Daouk at Duke University, based on specimens provided by the Rush Alzheimer's Disease Center, Rush University Medical Center, Chicago. Data collection was supported through funding by NIA grants P30AG10161 (ROS), R01AG15819 (ROSMAP; genomics and RNAseq), R01AG17917 (MAP), R01AG30146, R01AG36042 (5hC methylation, ATACseq), RC2AG036547 (H3K9Ac), R01AG36836 (RNAseq), R01AG48015 (monocyte RNAseq) RF1AG57473 (single nucleus RNAseq), U01AG32984 (genomic and whole exome sequencing), U01AG46152 (ROSMAP AMP‐AD, targeted proteomics), U01AG46161(TMT proteomics), U01AG61356 (whole genome sequencing, targeted proteomics, ROSMAP AMP‐AD), the Illinois Department of Public Health (ROSMAP), and the Translational Genomics Research Institute (genomic). Additional phenotypic data can be requested at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.radc.rush.edu" ext-link-type="uri">www.radc.rush.edu</ext-link>.</p></ack><sec sec-type="data-availability" id="alz13851-sec-0380"><title>DATA AVAILABILITY STATEMENT</title><p>Metabolomics datasets are available via the AD Knowledge Portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adknowledgeportal.org" ext-link-type="uri" specific-use="software is-supplemented-by">https://adknowledgeportal.org</ext-link>). The AD Knowledge Portal is a platform for accessing data, analyses, and tools generated by the Accelerating Medicines Partnership (AMP‐AD) Target Discovery Program and other National Institute on Aging (NIA)‐supported programs to enable open‐science practices and accelerate translational learning. The data, analyses, and tools are shared early in the research cycle without a publication embargo on secondary use. Data are available for general research use according to the following requirements for data access and data attribution (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adknowledgeportal.org/DataAccess/Instructions" ext-link-type="uri" specific-use="software is-supplemented-by">https://adknowledgeportal.org/DataAccess/Instructions</ext-link>). For access to content described in this manuscript see: Jax.IU.Pitt Metabolomics (p180): <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.synapse.org/#!Synapse:syn22313586" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.synapse.org/#!Synapse:syn22313586</ext-link>. ADNI p180: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.synapse.org/#!Synapse:syn7440346" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.synapse.org/#!Synapse:syn7440346</ext-link>. ROS/MAP p180: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.synapse.org/#!Synapse:syn26007829" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.synapse.org/#!Synapse:syn26007829</ext-link>.</p></sec><ref-list id="alz13851-bibl-0001"><title>REFERENCES</title><ref id="alz13851-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz13851-cit-0001">
+<string-name name-style="western">
+<surname>Karch</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cruchaga</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goate</surname>
+<given-names>AM</given-names>
+</string-name>. <article-title>Alzheimer's disease genetics: from the bench to the clinic</article-title>. <source>Neuron</source>. <year>2014</year>;<volume>83</volume>(<issue>1</issue>):<fpage>11</fpage>‐<lpage>26</lpage>.<pub-id pub-id-type="pmid">24991952</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neuron.2014.05.041</pub-id><pub-id pub-id-type="pmcid">PMC4120741</pub-id></mixed-citation></ref><ref id="alz13851-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz13851-cit-0002">
+<string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Leon</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Alzheimer's disease</article-title>. <source>Lancet</source>. <year>2006</year>;<volume>368</volume>(<issue>9533</issue>):<fpage>387</fpage>‐<lpage>403</lpage>.<pub-id pub-id-type="pmid">16876668</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(06)69113-7</pub-id></mixed-citation></ref><ref id="alz13851-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz13851-cit-0003">
+<string-name name-style="western">
+<surname>Jankowsky</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Practical considerations for choosing a mouse model of Alzheimer's disease</article-title>. <source>Mol Neurodegener</source>. <year>2017</year>;<volume>12</volume>(<issue>1</issue>):<fpage>89</fpage>.<pub-id pub-id-type="pmid">29273078</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13024-017-0231-7</pub-id><pub-id pub-id-type="pmcid">PMC5741956</pub-id></mixed-citation></ref><ref id="alz13851-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz13851-cit-0004">
+<string-name name-style="western">
+<surname>Bertram</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tanzi</surname>
+<given-names>RE</given-names>
+</string-name>. <article-title>Thirty years of Alzheimer's disease genetics: the implications of systematic meta‐analyses</article-title>. <source>Nat Rev Neurosci</source>. <year>2008</year>;<volume>9</volume>(<issue>10</issue>):<fpage>768</fpage>‐<lpage>778</lpage>.<pub-id pub-id-type="pmid">18802446</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrn2494</pub-id></mixed-citation></ref><ref id="alz13851-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz13851-cit-0005">
+<string-name name-style="western">
+<surname>Ibanez</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cruchaga</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fernandez</surname>
+<given-names>MV</given-names>
+</string-name>. <article-title>Advances in genetic and molecular understanding of Alzheimer's disease</article-title>. <source>Genes (Basel)</source>. <year>2021</year>;<volume>12</volume>(<issue>8</issue>):1247.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/genes12081247</pub-id><pub-id pub-id-type="pmcid">PMC8394321</pub-id><pub-id pub-id-type="pmid">34440421</pub-id></mixed-citation></ref><ref id="alz13851-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz13851-cit-0006">
+<string-name name-style="western">
+<surname>Isik</surname>
+<given-names>AT</given-names>
+</string-name>. <article-title>Late onset Alzheimer's disease in older people</article-title>. <source>Clin Interv Aging</source>. <year>2010</year>;<volume>5</volume>:<fpage>307</fpage>‐<lpage>311</lpage>.<pub-id pub-id-type="pmid">21103401</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/CIA.S11718</pub-id><pub-id pub-id-type="pmcid">PMC2981103</pub-id></mixed-citation></ref><ref id="alz13851-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz13851-cit-0007">
+<string-name name-style="western">
+<surname>Corder</surname>
+<given-names>EH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saunders</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strittmatter</surname>
+<given-names>WJ</given-names>
+</string-name>, et al. <article-title>Gene dose of apolipoprotein E type 4 allele and the risk of Alzheimer's disease in late onset families</article-title>. <source>Science</source>. <year>1993</year>;<volume>261</volume>(<issue>5123</issue>):<fpage>921</fpage>‐<lpage>923</lpage>.<pub-id pub-id-type="pmid">8346443</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.8346443</pub-id></mixed-citation></ref><ref id="alz13851-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz13851-cit-0008">
+<string-name name-style="western">
+<surname>Allen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carrasquillo</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Funk</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Human whole genome genotype and transcriptome data for Alzheimer's and other neurodegenerative diseases</article-title>. <source>Sci Data</source>. <year>2016</year>;<volume>3</volume>:<elocation-id>160089</elocation-id>.<pub-id pub-id-type="pmid">27727239</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sdata.2016.89</pub-id><pub-id pub-id-type="pmcid">PMC5058336</pub-id></mixed-citation></ref><ref id="alz13851-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz13851-cit-0009">
+<string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Danao</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Talreja</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>TREM2‐activating antibodies abrogate the negative pleiotropic effects of the Alzheimer's disease variant Trem2(R47H) on murine myeloid cell function</article-title>. <source>J Biol Chem</source>. <year>2018</year>;<volume>293</volume>(<issue>32</issue>):<fpage>12620</fpage>‐<lpage>12633</lpage>.<pub-id pub-id-type="pmid">29599291</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.RA118.001848</pub-id><pub-id pub-id-type="pmcid">PMC6093249</pub-id></mixed-citation></ref><ref id="alz13851-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz13851-cit-0010">
+<string-name name-style="western">
+<surname>Guerreiro</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hardy</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Genetics of Alzheimer's disease</article-title>. <source>Neurotherapeutics</source>. <year>2014</year>;<volume>11</volume>(<issue>4</issue>):<fpage>732</fpage>‐<lpage>737</lpage>.<pub-id pub-id-type="pmid">25113539</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s13311-014-0295-9</pub-id><pub-id pub-id-type="pmcid">PMC4362699</pub-id></mixed-citation></ref><ref id="alz13851-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz13851-cit-0011">
+<string-name name-style="western">
+<surname>Wilkins</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trushina</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Application of metabolomics in Alzheimer's disease</article-title>. <source>Front Neurol</source>. <year>2017</year>;<volume>8</volume>:<fpage>719</fpage>.<pub-id pub-id-type="pmid">29375465</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fneur.2017.00719</pub-id><pub-id pub-id-type="pmcid">PMC5770363</pub-id></mixed-citation></ref><ref id="alz13851-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz13851-cit-0012">
+<string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kueider‐Paisley</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Sex and APOE ε4 genotype modify the Alzheimer's disease serum metabolome</article-title>. <source>Nat Commun</source>. <year>2020</year>;<volume>11</volume>(<issue>1</issue>):<fpage>1148</fpage>.<pub-id pub-id-type="pmid">32123170</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-020-14959-w</pub-id><pub-id pub-id-type="pmcid">PMC7052223</pub-id></mixed-citation></ref><ref id="alz13851-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz13851-cit-0013">
+<article-title>2018 Alzheimer's disease facts and figures</article-title>. <source>Alzheimers Dement</source>. <year>2018</year>;<volume>14</volume>(<issue>3</issue>):<fpage>367</fpage>‐<lpage>429</lpage>.</mixed-citation></ref><ref id="alz13851-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz13851-cit-0014">
+<string-name name-style="western">
+<surname>Altmann</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tian</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Henderson</surname>
+<given-names>VW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greicius</surname>
+<given-names>MD</given-names>
+</string-name>, <collab collab-type="authors">Alzheimer's Disease Neuroimaging Initiative Investigators</collab>
+. <article-title>Sex modifies the APOE‐related risk of developing Alzheimer disease</article-title>. <source>Ann Neurol</source>. <year>2014</year>;<volume>75</volume>(<issue>4</issue>):<fpage>563</fpage>‐<lpage>573</lpage>.<pub-id pub-id-type="pmid">24623176</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.24135</pub-id><pub-id pub-id-type="pmcid">PMC4117990</pub-id></mixed-citation></ref><ref id="alz13851-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz13851-cit-0015">
+<string-name name-style="western">
+<surname>Beydoun</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boueiz</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abougergi</surname>
+<given-names>MS</given-names>
+</string-name>, et al. <article-title>Sex differences in the association of the apolipoprotein E epsilon 4 allele with incidence of dementia, cognitive impairment, and decline</article-title>. <source>Neurobiol Aging</source>. <year>2012</year>;<volume>33</volume>(<issue>4</issue>):<fpage>720</fpage>‐<lpage>731</lpage>. e4.<pub-id pub-id-type="pmid">20619505</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2010.05.017</pub-id><pub-id pub-id-type="pmcid">PMC2974952</pub-id></mixed-citation></ref><ref id="alz13851-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz13851-cit-0016">
+<string-name name-style="western">
+<surname>Neu</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pa</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kukull</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Apolipoprotein E genotype and sex risk factors for Alzheimer disease: a meta‐analysis</article-title>. <source>JAMA Neurol</source>. <year>2017</year>;<volume>74</volume>(<issue>10</issue>):<fpage>1178</fpage>‐<lpage>1189</lpage>.<pub-id pub-id-type="pmid">28846757</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2017.2188</pub-id><pub-id pub-id-type="pmcid">PMC5759346</pub-id></mixed-citation></ref><ref id="alz13851-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz13851-cit-0017">
+<string-name name-style="western">
+<surname>Pagani</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nobili</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morbelli</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Early identification of MCI converting to AD: a FDG PET study</article-title>. <source>Eur J Nucl Med Mol Imaging</source>. <year>2017</year>;<volume>44</volume>(<issue>12</issue>):<fpage>2042</fpage>‐<lpage>2052</lpage>.<pub-id pub-id-type="pmid">28664464</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00259-017-3761-x</pub-id></mixed-citation></ref><ref id="alz13851-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz13851-cit-0018">
+<string-name name-style="western">
+<surname>Tonnies</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trushina</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Oxidative stress, synaptic dysfunction, and Alzheimer's disease</article-title>. <source>J Alzheimers Dis</source>. <year>2017</year>;<volume>57</volume>(<issue>4</issue>):<fpage>1105</fpage>‐<lpage>1121</lpage>.<pub-id pub-id-type="pmid">28059794</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-161088</pub-id><pub-id pub-id-type="pmcid">PMC5409043</pub-id></mixed-citation></ref><ref id="alz13851-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz13851-cit-0019">
+<string-name name-style="western">
+<surname>Trushina</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dutta</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Persson</surname>
+<given-names>XM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mielke</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>RC</given-names>
+</string-name>. <article-title>Identification of altered metabolic pathways in plasma and CSF in mild cognitive impairment and Alzheimer's disease using metabolomics</article-title>. <source>PLOS ONE</source>. <year>2013</year>;<volume>8</volume>(<issue>5</issue>):<elocation-id>e63644</elocation-id>.<pub-id pub-id-type="pmid">23700429</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0063644</pub-id><pub-id pub-id-type="pmcid">PMC3658985</pub-id></mixed-citation></ref><ref id="alz13851-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz13851-cit-0020">
+<string-name name-style="western">
+<surname>Procaccini</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Santopaolo</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Faicchia</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Role of metabolism in neurodegenerative disorders</article-title>. <source>Metabolism</source>. <year>2016</year>;<volume>65</volume>(<issue>9</issue>):<fpage>1376</fpage>‐<lpage>1390</lpage>.<pub-id pub-id-type="pmid">27506744</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.metabol.2016.05.018</pub-id></mixed-citation></ref><ref id="alz13851-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz13851-cit-0021">
+<string-name name-style="western">
+<surname>Krumsiek</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mittelstrass</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Do</surname>
+<given-names>KT</given-names>
+</string-name>, et al. <article-title>Gender‐specific pathway differences in the human serum metabolome</article-title>. <source>Metabolomics</source>. <year>2015</year>;<volume>11</volume>(<issue>6</issue>):<fpage>1815</fpage>‐<lpage>1833</lpage>.<pub-id pub-id-type="pmid">26491425</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11306-015-0829-0</pub-id><pub-id pub-id-type="pmcid">PMC4605991</pub-id></mixed-citation></ref><ref id="alz13851-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz13851-cit-0022">
+<string-name name-style="western">
+<surname>Menni</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kastenmüller</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>AK</given-names>
+</string-name>, et al. <article-title>Metabolomic markers reveal novel pathways of ageing and early development in human populations</article-title>. <source>Int J Epidemiol</source>. <year>2013</year>;<volume>42</volume>(<issue>4</issue>):<fpage>1111</fpage>‐<lpage>1119</lpage>.<pub-id pub-id-type="pmid">23838602</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ije/dyt094</pub-id><pub-id pub-id-type="pmcid">PMC3781000</pub-id></mixed-citation></ref><ref id="alz13851-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz13851-cit-0023">
+<string-name name-style="western">
+<surname>Cai</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cong</surname>
+<given-names>WN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ji</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rothman</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maudsley</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martin</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>Metabolic dysfunction in Alzheimer's disease and related neurodegenerative disorders</article-title>. <source>Curr Alzheimer Res</source>. <year>2012</year>;<volume>9</volume>(<issue>1</issue>):<fpage>5</fpage>‐<lpage>17</lpage>.<pub-id pub-id-type="pmid">22329649</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/156720512799015064</pub-id><pub-id pub-id-type="pmcid">PMC4097094</pub-id></mixed-citation></ref><ref id="alz13851-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz13851-cit-0024">
+<string-name name-style="western">
+<surname>Trushina</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nemutlu</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Defects in mitochondrial dynamics and metabolomic signatures of evolving energetic stress in mouse models of familial Alzheimer's disease</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>(<issue>2</issue>):<elocation-id>e32737</elocation-id>.<pub-id pub-id-type="pmid">22393443</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0032737</pub-id><pub-id pub-id-type="pmcid">PMC3290628</pub-id></mixed-citation></ref><ref id="alz13851-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz13851-cit-0025">
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ren</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamazaki</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Alzheimer's risk factors age, APOE genotype, and sex drive distinct molecular pathways</article-title>. <source>Neuron</source>. <year>2020</year>;<volume>106</volume>(<issue>5</issue>):<fpage>727</fpage>‐<lpage>742</lpage>. e6.<pub-id pub-id-type="pmid">32199103</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neuron.2020.02.034</pub-id><pub-id pub-id-type="pmcid">PMC7388065</pub-id></mixed-citation></ref><ref id="alz13851-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz13851-cit-0026">
+<string-name name-style="western">
+<surname>Pan</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nasaruddin</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elliott</surname>
+<given-names>CT</given-names>
+</string-name>, et al. <article-title>Alzheimer's disease‐like pathology has transient effects on the brain and blood metabolome</article-title>. <source>Neurobiol Aging</source>. <year>2016</year>;<volume>38</volume>:<fpage>151</fpage>‐<lpage>163</lpage>.<pub-id pub-id-type="pmid">26827653</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2015.11.014</pub-id></mixed-citation></ref><ref id="alz13851-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="alz13851-cit-0027">
+<string-name name-style="western">
+<surname>Pan</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elliott</surname>
+<given-names>CT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGuinness</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Metabolomic profiling of bile acids in clinical and experimental samples of Alzheimer's disease</article-title>. <source>Metabolites</source>. <year>2017</year>;<volume>7</volume>(<issue>2</issue>):<elocation-id>28</elocation-id>.<pub-id pub-id-type="pmid">28629125</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/metabo7020028</pub-id><pub-id pub-id-type="pmcid">PMC5487999</pub-id></mixed-citation></ref><ref id="alz13851-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz13851-cit-0028">
+<string-name name-style="western">
+<surname>Gonzalez‐Dominguez</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>García‐Barrera</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vitorica</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gómez‐Ariza</surname>
+<given-names>JL</given-names>
+</string-name>. <article-title>Application of metabolomics based on direct mass spectrometry analysis for the elucidation of altered metabolic pathways in serum from the APP/PS1 transgenic model of Alzheimer's disease</article-title>. <source>J Pharm Biomed Anal</source>. <year>2015</year>;<volume>107</volume>:<fpage>378</fpage>‐<lpage>385</lpage>.<pub-id pub-id-type="pmid">25656489</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jpba.2015.01.025</pub-id></mixed-citation></ref><ref id="alz13851-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz13851-cit-0029">
+<string-name name-style="western">
+<surname>Kotredes</surname>
+<given-names>KP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oblak</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pandey</surname>
+<given-names>RS</given-names>
+</string-name>, et al. <article-title>Uncovering disease mechanisms in a novel mouse model expressing humanized APOEε4 and Trem2*R47H</article-title>. <source>Front Aging Neurosci</source>. <year>2021</year>;<volume>13</volume>:<elocation-id>735524</elocation-id>.<pub-id pub-id-type="pmid">34707490</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fnagi.2021.735524</pub-id><pub-id pub-id-type="pmcid">PMC8544520</pub-id></mixed-citation></ref><ref id="alz13851-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz13851-cit-0030">
+<string-name name-style="western">
+<surname>Oblak</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>PB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kotredes</surname>
+<given-names>KP</given-names>
+</string-name>, et al. <article-title>Comprehensive evaluation of the 5XFAD mouse model for preclinical testing applications: a MODEL‐AD study</article-title>. <source>Front Aging Neurosci</source>. <year>2021</year>;<volume>13</volume>:<fpage>713726</fpage>‐<lpage>713726</lpage>.<pub-id pub-id-type="pmid">34366832</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fnagi.2021.713726</pub-id><pub-id pub-id-type="pmcid">PMC8346252</pub-id></mixed-citation></ref><ref id="alz13851-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz13851-cit-0031">
+<string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buchman</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boyle</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barnes</surname>
+<given-names>LL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>JA</given-names>
+</string-name>. <article-title>Religious orders study and rush memory and aging project</article-title>. <source>J Alzheimers Dis</source>. <year>2018</year>;<volume>64</volume>(<issue>s1</issue>):<fpage>S161</fpage>‐<lpage>S189</lpage>.<pub-id pub-id-type="pmid">29865057</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-179939</pub-id><pub-id pub-id-type="pmcid">PMC6380522</pub-id></mixed-citation></ref><ref id="alz13851-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz13851-cit-0032">
+<string-name name-style="western">
+<surname>Oakley</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cole</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Logan</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Intraneuronal beta‐amyloid aggregates, neurodegeneration, and neuron loss in transgenic mice with five familial Alzheimer's disease mutations: potential factors in amyloid plaque formation</article-title>. <source>J Neurosci</source>. <year>2006</year>;<volume>26</volume>(<issue>40</issue>):<fpage>10129</fpage>‐<lpage>10140</lpage>.<pub-id pub-id-type="pmid">17021169</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1523/JNEUROSCI.1202-06.2006</pub-id><pub-id pub-id-type="pmcid">PMC6674618</pub-id></mixed-citation></ref><ref id="alz13851-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="alz13851-cit-0033">
+<string-name name-style="western">
+<surname>St John‐Williams</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blach</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Toledo</surname>
+<given-names>JB</given-names>
+</string-name>, et al. <article-title>Targeted metabolomics and medication classification data from participants in the ADNI1 cohort</article-title>. <source>Scientific Data</source>. <year>2017</year>;<volume>4</volume>(<issue>1</issue>):<elocation-id>170140</elocation-id>.<pub-id pub-id-type="pmid">29039849</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sdata.2017.140</pub-id><pub-id pub-id-type="pmcid">PMC5644370</pub-id></mixed-citation></ref><ref id="alz13851-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="alz13851-cit-0034">
+<string-name name-style="western">
+<surname>Do</surname>
+<given-names>KT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wahl</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raffler</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Characterization of missing values in untargeted MS‐based metabolomics data and evaluation of missing data handling strategies</article-title>. <source>Metabolomics</source>. <year>2018</year>;<volume>14</volume>(<issue>10</issue>):<fpage>128</fpage>.<pub-id pub-id-type="pmid">30830398</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11306-018-1420-2</pub-id><pub-id pub-id-type="pmcid">PMC6153696</pub-id></mixed-citation></ref><ref id="alz13851-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="alz13851-cit-0035">
+<string-name name-style="western">
+<surname>Dieterle</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ross</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schlotterbeck</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Senn</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Probabilistic quotient normalization as robust method to account for dilution of complex biological mixtures. Application in 1H NMR metabonomics</article-title>. <source>Anal Chem</source>. <year>2006</year>;<volume>78</volume>(<issue>13</issue>):<fpage>4281</fpage>‐<lpage>4290</lpage>.<pub-id pub-id-type="pmid">16808434</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ac051632c</pub-id></mixed-citation></ref><ref id="alz13851-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="alz13851-cit-0036">
+<string-name name-style="western">
+<surname>Chetnik</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benedetti</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gomari</surname>
+<given-names>DP</given-names>
+</string-name>, et al. <article-title>maplet: an extensible R toolbox for modular and reproducible omics pipelines</article-title>. <source>arXiv preprint arXiv:210504305</source>. <year>2021</year>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btab741</pub-id><pub-id pub-id-type="pmcid">PMC8796365</pub-id><pub-id pub-id-type="pmid">34694386</pub-id></mixed-citation></ref><ref id="alz13851-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="alz13851-cit-0037">
+<string-name name-style="western">
+<surname>Mittelstrass</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ried</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Discovery of sexual dimorphisms in metabolic and genetic biomarkers</article-title>. <source>PLoS Genet</source>. <year>2011</year>;<volume>7</volume>(<issue>8</issue>):<elocation-id>e1002215</elocation-id>.<pub-id pub-id-type="pmid">21852955</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1002215</pub-id><pub-id pub-id-type="pmcid">PMC3154959</pub-id></mixed-citation></ref><ref id="alz13851-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="alz13851-cit-0038">
+<string-name name-style="western">
+<surname>Tynkkynen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chouraki</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van der Lee</surname>
+<given-names>SJ</given-names>
+</string-name>, et al. <article-title>Association of branched‐chain amino acids and other circulating metabolites with risk of incident dementia and Alzheimer's disease: a prospective study in eight cohorts</article-title>. <source>Alzheimers Dement</source>. <year>2018</year>;<volume>14</volume>(<issue>6</issue>):<fpage>723</fpage>‐<lpage>733</lpage>.<pub-id pub-id-type="pmid">29519576</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2018.01.003</pub-id><pub-id pub-id-type="pmcid">PMC6082422</pub-id></mixed-citation></ref><ref id="alz13851-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="alz13851-cit-0039">
+<string-name name-style="western">
+<surname>Inoue</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tsutsui</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Akatsu</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Metabolic profiling of Alzheimer's disease brains</article-title>. <source>Sci Rep</source>. <year>2013</year>;<volume>3</volume>:<fpage>2364</fpage>.<pub-id pub-id-type="pmid">23917584</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep02364</pub-id><pub-id pub-id-type="pmcid">PMC3734482</pub-id></mixed-citation></ref><ref id="alz13851-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="alz13851-cit-0040">
+<string-name name-style="western">
+<surname>Yatin</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yatin</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Varadarajan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ain</surname>
+<given-names>KB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Butterfield</surname>
+<given-names>DA</given-names>
+</string-name>. <article-title>Role of spermine in amyloid beta‐peptide‐associated free radical‐induced neurotoxicity</article-title>. <source>J Neurosci Res</source>. <year>2001</year>;<volume>63</volume>(<issue>5</issue>):<fpage>395</fpage>‐<lpage>401</lpage>.<pub-id pub-id-type="pmid">11223914</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/1097-4547(20010301)63:5&lt;395::AID-JNR1034&gt;3.0.CO;2-Q</pub-id></mixed-citation></ref><ref id="alz13851-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="alz13851-cit-0041">
+<string-name name-style="western">
+<surname>Yatin</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yatin</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aulick</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ain</surname>
+<given-names>KB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Butterfield</surname>
+<given-names>DA</given-names>
+</string-name>. <article-title>Alzheimer's amyloid beta‐peptide associated free radicals increase rat embryonic neuronal polyamine uptake and ornithine decarboxylase activity: protective effect of vitamin E</article-title>. <source>Neurosci Lett</source>. <year>1999</year>;<volume>263</volume>(<issue>1</issue>):<fpage>17</fpage>‐<lpage>20</lpage>.<pub-id pub-id-type="pmid">10218900</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0304-3940(99)00101-9</pub-id></mixed-citation></ref><ref id="alz13851-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="alz13851-cit-0042">
+<string-name name-style="western">
+<surname>Cacabelos</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Takeda</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Winblad</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>The glutamatergic system and neurodegeneration in dementia: preventive strategies in Alzheimer's disease</article-title>. <source>Int J Geriatr Psychiatry</source>. <year>1999</year>;<volume>14</volume>(<issue>1</issue>):<fpage>3</fpage>‐<lpage>47</lpage>.<pub-id pub-id-type="pmid">10029935</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(sici)1099-1166(199901)14:1&lt;3::aid-gps897&gt;3.0.co;2-7</pub-id></mixed-citation></ref><ref id="alz13851-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="alz13851-cit-0043">
+<string-name name-style="western">
+<surname>Selley</surname>
+<given-names>ML</given-names>
+</string-name>. <article-title>Increased concentrations of homocysteine and asymmetric dimethylarginine and decreased concentrations of nitric oxide in the plasma of patients with Alzheimer's disease</article-title>. <source>Neurobiol Aging</source>. <year>2003</year>;<volume>24</volume>(<issue>7</issue>):<fpage>903</fpage>‐<lpage>907</lpage>.<pub-id pub-id-type="pmid">12928048</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0197-4580(03)00007-1</pub-id></mixed-citation></ref><ref id="alz13851-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="alz13851-cit-0044">
+<string-name name-style="western">
+<surname>Grimm</surname>
+<given-names>MO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grimm</surname>
+<given-names>HS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pätzold</surname>
+<given-names>AJ</given-names>
+</string-name>, et al. <article-title>Regulation of cholesterol and sphingomyelin metabolism by amyloid‐beta and presenilin</article-title>. <source>Nat Cell Biol</source>. <year>2005</year>;<volume>7</volume>(<issue>11</issue>):<fpage>1118</fpage>‐<lpage>1123</lpage>.<pub-id pub-id-type="pmid">16227967</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncb1313</pub-id></mixed-citation></ref><ref id="alz13851-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="alz13851-cit-0045">
+<string-name name-style="western">
+<surname>Cutler</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelly</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Storie</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Involvement of oxidative stress‐induced abnormalities in ceramide and cholesterol metabolism in brain aging and Alzheimer's disease</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2004</year>;<volume>101</volume>(<issue>7</issue>):<fpage>2070</fpage>‐<lpage>2075</lpage>.<pub-id pub-id-type="pmid">14970312</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0305799101</pub-id><pub-id pub-id-type="pmcid">PMC357053</pub-id></mixed-citation></ref><ref id="alz13851-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="alz13851-cit-0046">
+<string-name name-style="western">
+<surname>Puglielli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ellis</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saunders</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kovacs</surname>
+<given-names>DM</given-names>
+</string-name>. <article-title>Ceramide stabilizes beta‐site amyloid precursor protein‐cleaving enzyme 1 and promotes amyloid beta‐peptide biogenesis</article-title>. <source>J Biol Chem</source>. <year>2003</year>;<volume>278</volume>(<issue>22</issue>):<fpage>19777</fpage>‐<lpage>19783</lpage>.<pub-id pub-id-type="pmid">12649271</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.M300466200</pub-id></mixed-citation></ref><ref id="alz13851-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="alz13851-cit-0047">
+<string-name name-style="western">
+<surname>Toledo</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kastenmüller</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Metabolic network failures in Alzheimer's disease: a biochemical road map</article-title>. <source>Alzheimers Dement</source>. <year>2017</year>;<volume>13</volume>(<issue>9</issue>):<fpage>965</fpage>‐<lpage>984</lpage>.<pub-id pub-id-type="pmid">28341160</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2017.01.020</pub-id><pub-id pub-id-type="pmcid">PMC5866045</pub-id></mixed-citation></ref><ref id="alz13851-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="alz13851-cit-0048">
+<string-name name-style="western">
+<surname>Sharma</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Black</surname>
+<given-names>SM</given-names>
+</string-name>. <article-title>Carnitine homeostasis, mitochondrial function, and cardiovascular disease</article-title>. <source>Drug Discov Today Dis Mech</source>. <year>2009</year>;<volume>6</volume>(<issue>1‐4</issue>):<fpage>e31</fpage>‐<lpage>e39</lpage>.<pub-id pub-id-type="pmid">20648231</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ddmec.2009.02.001</pub-id><pub-id pub-id-type="pmcid">PMC2905823</pub-id></mixed-citation></ref><ref id="alz13851-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="alz13851-cit-0049">
+<string-name name-style="western">
+<surname>Farooqui</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horrocks</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farooqui</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Glycerophospholipids in brain: their metabolism, incorporation into membranes, functions, and involvement in neurological disorders</article-title>. <source>Chem Phys Lipids</source>. <year>2000</year>;<volume>106</volume>(<issue>1</issue>):<fpage>1</fpage>‐<lpage>29</lpage>.<pub-id pub-id-type="pmid">10878232</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0009-3084(00)00128-6</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

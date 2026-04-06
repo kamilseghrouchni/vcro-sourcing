@@ -1,0 +1,199 @@
+{
+  "pmid": "35367211",
+  "pmc": "PMC9052153",
+  "doi": "10.1016/j.jbc.2022.101885",
+  "title": "Human constitutive androstane receptor represses liver cancer development and hepatoma cell proliferation by inhibiting erythropoietin signaling",
+  "journal": "The Journal of Biological Chemistry",
+  "year": 2022,
+  "authors": [
+    {
+      "name": "Li Zhihui",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kwon So Mee",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Li Daochuan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Li Linhao",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Peng Xiwei",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhang Junran",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sueyoshi Tatsuya",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Raufman Jean-Pierre",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Negishi Masahiko",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang Xin Wei",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang Hongbing",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "human CAR",
+    "HCC",
+    "hepatoma cell proliferation",
+    "EPO",
+    "HNF4α",
+    "CAR, constitutive androstane receptor",
+    "cDNA, complementary DNA",
+    "Dox, doxycycline",
+    "DR2, direct repeat 2",
+    "EPO, erythropoietin",
+    "EPOR, EPO receptor",
+    "ERK1/2, extracellular signal–regulated kinase 1/2",
+    "hCAR, human CAR",
+    "HCC, hepatocellular carcinoma",
+    "HEK293T, human embryonic kidney 293T cell line",
+    "HIF, hypoxia-inducible factor",
+    "HNF4α, hepatocyte nuclear factor 4 alpha",
+    "LBD, ligand-binding domain",
+    "PB, phenobarbital",
+    "STAT, signal transducer and activator of transcription",
+    "TCGA, The Cancer Genome Atlas",
+    "Tet, tetracycline"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data availabilityAll representative data are contained within this published article and its supporting information files.",
+  "license": "",
+  "received": "2022-02-07",
+  "accepted": "",
+  "reference_pmids": [
+    "22202459",
+    "32133645",
+    "32071906",
+    "16929323",
+    "22789748",
+    "11027630",
+    "16101572",
+    "3345509",
+    "1330346",
+    "25404284",
+    "15492232",
+    "15831521",
+    "25045103",
+    "29759961",
+    "14674787",
+    "11981033",
+    "1705168",
+    "25145657",
+    "7812960",
+    "26275810",
+    "24798303",
+    "24066126",
+    "19196842",
+    "16099843",
+    "22909100",
+    "16204462",
+    "27774607",
+    "25426117",
+    "9510530",
+    "7891708",
+    "26877237",
+    "24180433",
+    "31912902",
+    "24959746",
+    "27440862",
+    "9742082",
+    "11088052",
+    "30367150",
+    "22395661",
+    "17312332",
+    "10477715",
+    "16492670",
+    "22296760",
+    "18219389",
+    "21159642",
+    "12925520",
+    "28655760",
+    "19820207",
+    "12571232",
+    "25628225",
+    "12590264",
+    "17045208"
+  ],
+  "tables_count": 0,
+  "figures_count": 8,
+  "sections_present": [
+    "abstract",
+    "results",
+    "downregulation of hcar in hcc is associated with poor patient outcomes",
+    "overexpression of hcar inhibits the viability of hepatoma cells",
+    "overexpression of hcar represses cell cycle progression in hepg2 and hep3b cells",
+    "hcar inhibits colony formation of hepatoma cells",
+    "genome-wide transcriptome analysis identifies epo as a novel hcar target gene contributing to hcar-mediated suppression of hepatoma cell growth",
+    "epo is inversely correlated to hcar expression in hcc and promotes proliferation of hepg2 and hep3b cells",
+    "overexpression of hcar represses epo downstream signaling",
+    "hcar downregulates epo expression through suppression of hnf4α",
+    "discussion",
+    "experimental procedures",
+    "chemicals and biological reagents",
+    "transcriptome profiling and data analysis",
+    "plasmid constructs",
+    "cell culture and lentiviral infection",
+    "generation of dox-inducible hcar stable cell lines",
+    "cell viability analysis",
+    "soft-agar assay",
+    "animal experiments",
+    "transient transfection assays",
+    "flow cytometry analysis",
+    "rna-seq",
+    "emsas",
+    "rt–pcr analysis",
+    "western blot analysis",
+    "statistical analysis",
+    "data availability",
+    "supporting information",
+    "conflict of interest",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10802,
+  "converted_at": "2026-04-06T22:40:10.485999+00:00"
+}

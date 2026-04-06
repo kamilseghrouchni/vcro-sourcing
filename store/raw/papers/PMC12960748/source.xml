@@ -1,0 +1,813 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="mi7919308" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Mediators Inflamm</journal-id><journal-id journal-id-type="iso-abbrev">Mediators Inflamm</journal-id><journal-id journal-id-type="pmc-domain-id">324</journal-id><journal-id journal-id-type="pmc-domain">moi</journal-id><journal-id journal-id-type="publisher-id">MI</journal-id><journal-title-group><journal-title>Mediators of Inflammation</journal-title></journal-title-group><issn pub-type="ppub">0962-9351</issn><issn pub-type="epub">1466-1861</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12960748</article-id><article-id pub-id-type="pmcid-ver">PMC12960748.1</article-id><article-id pub-id-type="pmcaid">12960748</article-id><article-id pub-id-type="pmcaiid">12960748</article-id><article-id pub-id-type="pmid">41800109</article-id><article-id pub-id-type="doi">10.1155/mi/7919308</article-id><article-id pub-id-type="publisher-id">MI7919308</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>The Mediating Factor of Immune Cell in the Causal Relationship Between Cardiovascular Disease‐Related Plasma Proteins and Parkinson’s Disease: A Network Mendelian Randomization Analysis</article-title></title-group><contrib-group><contrib id="cr-0001" contrib-type="author"><name name-style="western"><surname>Yao</surname><given-names initials="R">Ruotong</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0009-0748-6756</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0002" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="S">Siyao</given-names></name><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0003" contrib-type="author"><name name-style="western"><surname>Lu</surname><given-names initials="Y">Yangguang</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-5327-3963</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0004" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="Y">Yiquan</given-names></name><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cr-0005" contrib-type="author"><name name-style="western"><surname>Yu</surname><given-names initials="B">Bohuai</given-names></name><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0006" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="Y">Yingying</given-names></name><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0007" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="T">Tingxuan</given-names></name><xref rid="aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="cr-0008" contrib-type="author"><name name-style="western"><surname>Zhu</surname><given-names initials="Y">Yusheng</given-names></name><xref rid="aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cr-0009" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="F">Feng</given-names></name><xref rid="aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cr-0010" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="Y">Yuhan</given-names></name><xref rid="aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cr-0011" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Y">Yukai</given-names></name><xref rid="aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Li</surname><given-names initials="C">Cai</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0009-9345-2156</contrib-id><xref rid="aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>licai@enzemed.com</email></address></contrib></contrib-group><contrib-group><contrib id="cr-0013" contrib-type="editor"><name name-style="western"><surname>RSS</surname><given-names initials="MI">MI</given-names></name><address><email>andari.sarasati@fkg.unair.ac.id</email></address></contrib></contrib-group><aff id="aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>, <named-content content-type="organisation-division">Taizhou Hospital of Zhejiang Province</named-content>, <institution>Wenzhou Medical University</institution>, 150 Ximen Road Linhai City, <city>Taizhou</city>, <named-content content-type="country-part">Zhejiang</named-content>, <country>China</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wmu.edu.cn" ext-link-type="uri">wmu.edu.cn</ext-link>
+</aff><aff id="aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>The First School of Medicine</institution>, <institution>School of Information and Engineering</institution>, <institution>Wenzhou Medical University</institution>, <city>Wenzhou</city>, <named-content content-type="country-part">Zhejiang</named-content>, <country>China</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wmu.edu.cn" ext-link-type="uri">wmu.edu.cn</ext-link>
+</aff><aff id="aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Renji College</institution>, <institution>Wenzhou Medical University</institution>, <city>Wenzhou</city>, <named-content content-type="country-part">Zhejiang</named-content>, <country>China</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wmu.edu.cn" ext-link-type="uri">wmu.edu.cn</ext-link>
+</aff><aff id="aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>The Second School of Medicine</institution>, <institution>Wenzhou Medical University</institution>, <city>Wenzhou</city>, <named-content content-type="country-part">Zhejiang</named-content>, <country>China</country>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wmu.edu.cn" ext-link-type="uri">wmu.edu.cn</ext-link>
+</aff><pub-date pub-type="epub"><day>04</day><month>3</month><year>2026</year></pub-date><pub-date pub-type="collection"><year>2026</year></pub-date><volume>2026</volume><issue-id pub-id-type="pmc-issue-id">504218</issue-id><elocation-id>7919308</elocation-id><history><date date-type="rev-recd"><day>24</day><month>11</month><year>2025</year></date><date date-type="received"><day>19</day><month>2</month><year>2025</year></date><date date-type="accepted"><day>16</day><month>2</month><year>2026</year></date></history><pub-history><event event-type="pmc-release"><date><day>04</day><month>03</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>06</day><month>03</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-03-09 15:25:15.153"><day>09</day><month>03</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">Copyright © 2026 Ruotong Yao et al. Mediators of Inflammation published by John Wiley &amp; Sons Ltd.</copyright-statement><copyright-year>2026</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="MI-2026-7919308.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:MI-2026-7919308.pdf"/><abstract><sec id="sec-0001"><title>Background</title><p>Cardiovascular diseases (CVDs) and their associated plasma proteins exhibit significant correlations with immunity and Parkinson’s disease (PD). However, the specific contributions to the risk of developing PD remain unclear. This study aims to investigate the potential causal relationship between CVD‐related plasma proteins and the risk of PD and explore the significant mediating role of immune cell phenotypes.</p></sec><sec id="sec-0002"><title>Methods</title><p>Using publicly available genetic data, we conducted Mendelian randomization (MR) analysis using the inverse variance weighting method to explore the causal relationship between 83 CVD‐related plasma proteins and PD. Various MR analysis models were employed for sensitivity analysis. Concurrently, we utilized bioinformatics methods such as protein–protein interaction networks and pathway enrichment analysis to investigate the potential associations between CVD‐related plasma proteins and PD‐related genes. Finally, we employed a mediator MR design to identify the mediating effects of 731 immune cell phenotypes in the onset of PD.</p></sec><sec id="sec-0003"><title>Results</title><p>Elevated levels of Fas cell surface death receptors (<italic toggle="yes">p</italic> = 0.015) and nerve growth factor (<italic toggle="yes">p</italic> = 0.026) are associated with a reduced risk of PD, while increased levels of thrombomodulin (<italic toggle="yes">p</italic> = 0.028) are a risk factor for PD. Four immune phenotypes play a significant mediating role in the association between CVD‐related proteins and the pathogenesis of PD. Sensitivity analysis indicates that the results are robust.</p></sec><sec id="sec-0004"><title>Conclusions</title><p>Our study elucidates the close genetic association between CVD‐related plasma proteins and PD and identifies the significant mediating role of immune cells, thereby providing valuable insights for future research and clinical applications.</p></sec></abstract><kwd-group><title>Keywords</title><kwd id="kwd-0001">cardiovascular disease</kwd><kwd id="kwd-0002">immune phenotype</kwd><kwd id="kwd-0003">Mendelian randomization</kwd><kwd id="kwd-0004">Parkinson’s disease</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National College Students Innovation and Entrepreneurship Training Program</institution><institution-id institution-id-type="doi">10.13039/501100013254</institution-id></institution-wrap>
+</funding-source><award-id>202510343038</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Wenzhou Medical University</institution><institution-id institution-id-type="doi">10.13039/100007835</institution-id></institution-wrap>
+</funding-source><award-id>wyx2023101112</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="2"/><ref-count count="46"/><page-count count="10"/><word-count count="5351"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.1 mode:remove_FC converted:05.03.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="mi7919308-cit-2001">
+<string-name name-style="western">
+<surname>Yao</surname>, <given-names>Ruotong</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Siyao</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lu</surname>, <given-names>Yangguang</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Yiquan</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yu</surname>, <given-names>Bohuai</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Yingying</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Tingxuan</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>Yusheng</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Feng</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>Yuhan</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Yukai</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Cai</given-names>
+</string-name>, 
+<article-title>The Mediating Factor of Immune Cell in the Causal Relationship Between Cardiovascular Disease‐Related Plasma Proteins and Parkinson’s Disease: A Network Mendelian Randomization Analysis</article-title>, 
+<source>Mediators of Inflammation</source>, <volume>2026</volume>, <elocation-id>7919308</elocation-id>, 10 pages, <year>2026</year>. 
+<pub-id pub-id-type="doi">10.1155/mi/7919308</pub-id>
+</mixed-citation>
+</p><fn-group><fn id="note-0001" fn-type="other"><p>Ruotong Yao, Siyao Chen, and Yangguang Lu should be listed as cofirst authors.</p></fn><fn id="note-0002"><p>
+<bold>Academic Editor:</bold> MI RSS</p></fn></fn-group></notes></front><body><sec id="sec-0005"><title>1. Introduction</title><p>Parkinson’s disease (PD) is the second most common neurodegenerative disorder, characterized by the loss of dopaminergic neurons in the substantia nigra and the accumulation of α‐synuclein, along with hallmark motor symptoms such as tremors, bradykinesia, and rigidity [<xref rid="bib-0001" ref-type="bibr">1</xref>]. Over the past generation, the global burden of PD has more than doubled due to an increase in the elderly population [<xref rid="bib-0002" ref-type="bibr">2</xref>], making it crucial to thoroughly explore the pathogenesis of PD and its contributing factors. Meanwhile, cardiovascular diseases (CVDs) predominantly manifest as age‐associated conditions. A systematic analysis highlighted CVDs as prominent contributors to the burden of noncommunicable diseases [<xref rid="bib-0003" ref-type="bibr">3</xref>].</p><p>Li et al. [<xref rid="bib-0004" ref-type="bibr">4</xref>] reported the prevalence of stroke and coronary artery disease in two distinct population cohorts, revealing that these conditions may be potential components of the PD pathogenesis. Furthermore, a recent study further demonstrated a causal relationship between PD and increased risk of CVDs and stroke, indicating a significant association between these diseases [<xref rid="bib-0005" ref-type="bibr">5</xref>]. Such findings intimate that PD may not only coexist with cardiovascular issues but also actively promote their development. The global disease burden of PD and CVDs cannot be underestimated, stimulating a burgeoning interest in the interplay between these two diseases, hinting at a potential correlation.</p><p>Folkersen et al. [<xref rid="bib-0006" ref-type="bibr">6</xref>] proposed 83 plasma proteins associated with CVDs in 2017, suggesting their potential as biomarkers for predicting cardiovascular risk. Regarding the relationship between PD and plasma proteins, a recent study analyzed data from the UK Biobank and identified a set of 22 plasma proteins that significantly improved the prediction of PD onset, indicating their potential utility in early identification of high‐risk individuals [<xref rid="bib-0007" ref-type="bibr">7</xref>]. Plasma proteins as biomarkers hold significant promise, potentially enhancing early diagnosis and informing treatment strategies. Combining proteomics data with clinical assessments can significantly enhance the identification of high‐risk individuals for PD and CVDs, leading to a better understanding of the underlying mechanisms of the diseases.</p><p>Previous studies have elucidated the potential correlation of the immune‐inflammation axis in neurological disorders such as epilepsy [<xref rid="bib-0008" ref-type="bibr">8</xref>], multiple sclerosis [<xref rid="bib-0009" ref-type="bibr">9</xref>], and Alzheimer’s disease (AD) [<xref rid="bib-0010" ref-type="bibr">10</xref>]. In the context of PD, PD is characterized by a low level of systemic inflammation, which may be due to the aberrant activation of the immune system [<xref rid="bib-0011" ref-type="bibr">11</xref>]. Neuroinflammation emerges as a pivotal player in the pathophysiology of PD, and many immune cells, including but not limited to microglia, T cells, B cells, and NK cells, contribute to neuroinflammation by releasing inflammatory mediators and interacting with each other. This cascade ultimately culminates in the demise of neuronal cells, directly or indirectly, significantly influencing the progression of PD [<xref rid="bib-0012" ref-type="bibr">12</xref>, <xref rid="bib-0013" ref-type="bibr">13</xref>]. The cardiovascular system contains a variety of immune cells, including macrophages, T cells, and B cells, which contribute to homeostasis and pathology [<xref rid="bib-0014" ref-type="bibr">14</xref>]. Past research has definitively established the profound causal link between these immune cells and the onset as well as the prognosis of CVDs, underscoring the pivotal importance of balancing these immune responses [<xref rid="bib-0015" ref-type="bibr">15</xref>, <xref rid="bib-0016" ref-type="bibr">16</xref>].</p><p>Based on the aforementioned evidence, we hypothesize that there is a significant causal relationship between CVD‐related proteins and PD, which is mediated by specific immune cell phenotypes. Given the undeniable role of immune cells in both realms, delving deeper into their potential mediating role between the two becomes imperative. In this study, we comprehensively explore the potential causal relationship between cardiovascular and cerebrovascular disease‐related proteins and the risk of PD and investigate the significant mediating role of immune cell phenotypes.</p></sec><sec id="sec-0006"><title>2. Materials and Methods</title><sec id="sec-0007"><title>2.1. Study Design</title><p>This study is designed using Mendelian randomization (MR). MR is a research method that uses genetic variations as natural experiments to provide evidence regarding the presumed causal relationships between modifiable risk factors and diseases [<xref rid="bib-0017" ref-type="bibr">17</xref>]. This method minimizes the potential bias from confounding and reverse causality in epidemiological studies [<xref rid="bib-0018" ref-type="bibr">18</xref>]. This study adhered to the Strengthening the Reporting of Observational Studies in Epidemiology Using MR (STROBE‐MR) guidelines [<xref rid="bib-0018" ref-type="bibr">18</xref>].</p><p>We utilized summary data from published genome‐wide association studies (GWAS), including 731 immune cell phenotypes and 83 CVD‐related proteins, and selected appropriate single nucleotide polymorphisms (SNPs) as instrumental variables (IVs) for MR analysis to investigate their bidirectional causal relationships (Figure <xref rid="fig-0001" ref-type="fig">1</xref>). The application of IVs in MR analysis depends on meeting three key assumptions: (i) the selected IVs show a strong association with the exposure of interest, (ii) the IVs are not confounded by factors that affect the outcome other than exposure, and (iii) the selected IVs affect the outcome only through exposure. All data in this study are derived from previously published studies and public databases; thus, no additional ethical approval is required.</p><fig position="float" fig-type="Figure" id="fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Flowchart of study design.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="MI-2026-7919308-g005.jpg"/></fig></sec><sec id="sec-0008"><title>2.2. GWAS Data Sources</title><p>Immune cell data were derived from the GWAS study conducted by Dr. Orrù et al. [<xref rid="bib-0019" ref-type="bibr">19</xref>], which involved 3757 individuals from Sardinia (Table <xref rid="tbl-0001" ref-type="table">1</xref>). The study encompassed 731 immune phenotypes, including 118 absolute cell counts (ACs), 389 median fluorescence intensities (MFIs) reflecting the levels of surface antigens, 32 morphological parameters (MPs), and 192 relative cell counts (RCs). The MFI, AC, and RC features included B cells, CD clusters (CDCs), mature T cells, monocytes, myelocytes, TBNK (T cells, B cells, and natural killer cells), and Treg cells, while the MP features included CDC and TBNK cells. Comprehensive details of the study procedures can be found in the published research. Summary statistics for each immune trait GWAS are publicly available from the GWAS Catalog (registration numbers GCST90001391 to GCST90002121).</p><table-wrap position="float" id="tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Information on the GWAS data cohort used to conduct the MR analysis.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead><tr><th align="left" rowspan="1" colspan="1">Data source</th><th align="center" rowspan="1" colspan="1">Population</th><th align="center" rowspan="1" colspan="1">Phenotype</th><th align="center" rowspan="1" colspan="1">Sample size</th><th align="center" rowspan="1" colspan="1">No. of cases</th><th align="center" rowspan="1" colspan="1">No. of controls</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">FinnGen R10 (2024)</td><td align="center" rowspan="1" colspan="1">European (Finnish)</td><td align="center" rowspan="1" colspan="1">Parkinson’s disease</td><td align="center" rowspan="1" colspan="1">412,181</td><td align="center" rowspan="1" colspan="1">4681</td><td align="center" rowspan="1" colspan="1">407,500</td></tr><tr><td align="left" rowspan="1" colspan="1">Folkersen et al. [<xref rid="bib-0006" ref-type="bibr">6</xref>]</td><td align="center" rowspan="1" colspan="1">European (Swede et al.)</td><td align="center" rowspan="1" colspan="1">83 plasma protein biomarkers in cardiovascular disease</td><td align="center" rowspan="1" colspan="1">2639</td><td align="center" rowspan="1" colspan="1">N.A.</td><td align="center" rowspan="1" colspan="1">N.A.</td></tr><tr><td align="left" rowspan="1" colspan="1">Orrù et al. [<xref rid="bib-0019" ref-type="bibr">19</xref>]</td><td align="center" rowspan="1" colspan="1">European (Sardinian)</td><td align="center" rowspan="1" colspan="1">731 immunophenotypes (AC/MFI/MP/RC)</td><td align="center" rowspan="1" colspan="1">3394</td><td align="center" rowspan="1" colspan="1">N.A.</td><td align="center" rowspan="1" colspan="1">N.A.</td></tr></tbody></table><table-wrap-foot><fn id="note-0003"><p>Abbreviations: ACs, absolute cell counts; MFI, median fluorescence intensity; MPs, morphological parameters; RCs, relative cell counts.</p></fn></table-wrap-foot></table-wrap><p>Genetic data related to PD were obtained from the FinnGen Consortium (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://r10.finngen.fi/" ext-link-type="uri">https://r10.finngen.fi/</ext-link>, accessed on September 10, 2024). The study cohort comprises individuals of European descent who provided informed consent. The FinnGen research project integrates genetic data related to disease endpoints from the Finnish Biobank and Finnish National Registers (Table <xref rid="tbl-0001" ref-type="table">1</xref>). Case identification is based on the International Classification of Diseases, Tenth Revision (ICD‐10) codes. For detailed information on participant characteristics, genotyping, imputation, and quality control, please visit the FinnGen website (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://finngen.gitbook" ext-link-type="uri">https://finngen.gitbook</ext-link>).</p><p>CVD‐related plasma protein data come from a study conducted by Folkersen et al. [<xref rid="bib-0006" ref-type="bibr">6</xref>] in 2017. The study reported the results of a GWAS of 83 proteins considered to be related to CVD, involving a total of 3394 European subjects who had at least three established CVD risk factors (Table <xref rid="tbl-0001" ref-type="table">1</xref>). Comprehensive details of the study procedures can be found in the published research.</p></sec><sec id="sec-0009"><title>2.3. Instrumental Variable Selection</title><p>To ensure the robustness and reliability of the MR analysis, we applied the following criteria for IV selection. For SNP to be associated with the exposure, we set the IV significance level to 1 × 10<sup>−5</sup>. Additionally, we eliminated linkage disequilibrium (LD) among SNPs, as strong LD can introduce bias (<italic toggle="yes">r</italic>
+<sup>2</sup> &lt; 0.001 and clumping distance = 10,000 kb). In cases of LD genetic variants, we selected the variant with the lowest <italic toggle="yes">p</italic>‐value associated with the exposure. Subsequently, we filtered out weak instrument variables (<italic toggle="yes">F</italic> &gt; 10) to ensure a strong association between the IVs and the exposure. Finally, we harmonized the SNPs for the exposure and outcome to ensure consistency in the effect estimates for the same effect allele and excluded palindrome SNPs or SNPs with incompatible alleles with intermediate effect allele frequencies.</p></sec><sec id="sec-0010"><title>2.4. Statistical Analysis</title><p>We employed the inverse variance weighted (IVW) method to assess the correlation between exposure and outcome. The IVW method provides accurate and stable estimates when all IVs meet the three important assumptions. We presented our results in the form of beta values (<italic toggle="yes">β</italic>) with their standard errors (SEs) or odds ratios (ORs) with their 95% confidence intervals (CIs). Heterogeneity was measured using Cochrane’s <italic toggle="yes">Q</italic> test. Potential horizontal pleiotropy was assessed through the intercept of MR‐Egger regression and the MR pleiotropy residual sum and outlier (MR‐PRESSO). To ensure the robustness of the results, we conducted sensitivity analyses using a leave‐one‐out approach to identify any potentially influential SNPs. Furthermore, for outcomes with <italic toggle="yes">p</italic> &lt; 0.10 in previous MR analyses, we used other MR analysis models to validate the significance of the conclusions, including the MR‐Egger method, weighted median method, and simple median method. The MR‐Egger regression adjusts for potential horizontal pleiotropy at the expense of estimation precision, while the weighted median method provides accurate estimates under the assumption that at least 50% of the IVs are valid. For CVD‐related plasma proteins and PD suggested to have a causal relationship by MR analysis, we further conducted reverse MR analysis to further infer the bidirectional causal relationship.</p><p>For loci meeting the <italic toggle="yes">α</italic> = 1e–5 significance level in the GWAS data of exposure or outcome, we extracted the gene seat information at that locus as the target gene and used the KOBAS tool for GO and KEGG enrichment analyses of the target genes (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://bioinfo.org/kobas/" ext-link-type="uri">http://bioinfo.org/kobas/</ext-link>), visualizing the most significant pathways to explore related biological processes, cellular components, molecular functions, and signaling pathways. In addition, we imported these target genes into the String platform (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.string-db.org" ext-link-type="uri">https://www.string-db.org</ext-link>) for protein–protein interaction analysis and to construct a PPI network.</p><p>In the tests for heterogeneity and horizontal pleiotropy, <italic toggle="yes">p</italic> &lt; 0.05 is considered statistically significant. All statistical analyses were conducted using R version 4.3.2.</p></sec></sec><sec id="sec-0011"><title>3. Results</title><sec id="sec-0012"><title>3.1. The Bidirectional Causal Effect of CVD‐Related Plasma Proteins and PD</title><p>Through a two‐sample MR analysis, we identified three CVD‐related plasma proteins associated with PD (Supporting Information: Table <xref rid="sec-0026" ref-type="sec">S1</xref>). The IVW model results showed that the Fas cell surface death receptor (OR = 0.929, 95%CI: 0.876−0.986, and <italic toggle="yes">p</italic> = 0.015) was negatively associated with an increased risk of PD. After adjusting for thrombomodulin, the causal relationship between the Fas cell surface death receptor and PD remained (OR = 0.940, 95%CI: 0.917−0.963, and <italic toggle="yes">p</italic> &lt; 0.001). However, after adjusting for nerve growth factor (OR = 0.962, 95%CI: 0.872−1.061, and <italic toggle="yes">p</italic> = 0.442) or both (OR = 0.925, 95%CI: 0.850−1.008, and <italic toggle="yes">p</italic> = 0.074), the protective effect trend remained, but the causal association was no longer significant. Additionally, nerve growth factor (OR = 0.983, 95%CI: 0.968−0.998, and <italic toggle="yes">p</italic> = 0.026) was negatively associated with an increased risk of PD. After adjusting for thrombomodulin (OR = 0.923, 95%CI: 0.878−0.988, and <italic toggle="yes">p</italic> = 0.010) or the Fas cell surface death receptor and thrombomodulin (OR = 0.933, 95%CI: 0.898−0.988, and <italic toggle="yes">p</italic> = 0.008), the causal relationship between nerve growth factor and PD remained, but it was no longer significant after adjusting for the Fas cell surface death receptor (OR = 0.983, 95%CI: 0.958−1.028, and <italic toggle="yes">p</italic> = 0.449). Finally, thrombomodulin was positively associated with the risk of PD (OR = 1.107, 95%CI: 1.011−1.203, and <italic toggle="yes">p</italic> = 0.028). After adjusting for the Fas cell surface death receptor (OR = 1.109, 95%CI: 1.075−1.144, and <italic toggle="yes">p</italic> &lt; 0.001) or the Fas cell surface death receptor and nerve growth factor (OR = 1.130, 95%CI: 1.028−1.241, and <italic toggle="yes">p</italic> = 0.011), the causal relationship between thrombomodulin and PD remained, but it was no longer significant after adjusting for nerve growth factor (OR = 1.104, 95%CI: 0.993−1.228, and <italic toggle="yes">p</italic> = 0.067) (Figure <xref rid="fig-0002" ref-type="fig">2</xref>A).</p><fig position="float" fig-type="Figure" id="fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Results of Mendelian randomization with cardiovascular disease‐related proteins as exposure. (A) Forest plot of forward MR and multivariate MR results. (B) Circular heat map of sensitivity analysis using multiple MR models. (C) Forest plot of reverse Mendelian randomization.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="MI-2026-7919308-g004.jpg"/></fig><p>In all analysis processes, there was no significant heterogeneity and horizontal pleiotropy among the IVs (Table <xref rid="tbl-0002" ref-type="table">2</xref>). Even when switching to other MR models for sensitivity analysis, the statistical effects did not change significantly in terms of significance and direction, indicating robust analysis results (Figure <xref rid="fig-0002" ref-type="fig">2</xref>B). In further reverse MR analysis, no reverse causal effects of PD occurrence on these three CVD‐related proteins were found (Figure <xref rid="fig-0002" ref-type="fig">2</xref>C).</p><table-wrap position="float" id="tbl-0002" content-type="Table" orientation="portrait"><label>Table 2</label><caption><p>Heterogeneity and horizontal pleiotropy of positive results of MR analysis with cardiovascular disease‐related plasma proteins as exposure and Parkinson’s disease as outcome.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead><tr><th rowspan="2" align="left" colspan="1">Exposure</th><th colspan="3" align="center" rowspan="1">Heterogeneity</th><th colspan="3" align="center" rowspan="1">Horizontal pleiotropy</th></tr><tr><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">Q</italic>
+</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">Q</italic> df</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐Value</th><th align="center" rowspan="1" colspan="1">Egger intercept</th><th align="center" rowspan="1" colspan="1">SE</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐Value</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Fas cell surface death receptor</td><td align="center" rowspan="1" colspan="1">7.79</td><td align="center" rowspan="1" colspan="1">9</td><td align="center" rowspan="1" colspan="1">0.556</td><td align="center" rowspan="1" colspan="1">−0.023</td><td align="center" rowspan="1" colspan="1">0.014</td><td align="center" rowspan="1" colspan="1">0.158</td></tr><tr><td align="left" rowspan="1" colspan="1">Nerve growth factor</td><td align="center" rowspan="1" colspan="1">42.62</td><td align="center" rowspan="1" colspan="1">39</td><td align="center" rowspan="1" colspan="1">0.318</td><td align="center" rowspan="1" colspan="1">0.025</td><td align="center" rowspan="1" colspan="1">0.012</td><td align="center" rowspan="1" colspan="1">0.054</td></tr><tr><td align="left" rowspan="1" colspan="1">Thrombomodulin</td><td align="center" rowspan="1" colspan="1">5.40</td><td align="center" rowspan="1" colspan="1">5</td><td align="center" rowspan="1" colspan="1">0.369</td><td align="center" rowspan="1" colspan="1">0.000</td><td align="center" rowspan="1" colspan="1">0.034</td><td align="center" rowspan="1" colspan="1">0.994</td></tr></tbody></table><table-wrap-foot><fn id="note-0004"><p>Abbreviation: SE, standard error.</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec-0013"><title>3.2. Network Effects Between CVD‐Related Plasma Proteins and PD</title><p>From the positive CVD‐related plasma proteins and the exposure or outcome GWAS data with a threshold of <italic toggle="yes">α</italic> = 1e–5, we extracted information on the gene region where the SNP locus is located (Supporting Information: Table <xref rid="sec-0026" ref-type="sec">S2</xref>). Through PPI network analysis and KEGG pathway enrichment analysis, we assessed the network causal relationship between the identified positive CVD‐related plasma proteins and PD. We found that the three CVD‐related positive plasma proteins have a complex interactive network relationship with PD‐related genes, among which MAPT has the highest association with other genes (Figure <xref rid="fig-0003" ref-type="fig">3</xref>A). It was also demonstrated that the pathways of these three plasma proteins are related to multiple sclerosis, depression, Notch pathway, and retinol metabolism, which are closely related to the occurrence of PD (Figure <xref rid="fig-0003" ref-type="fig">3</xref>B).</p><fig-group position="float" id="fig-0003" content-type="Figure" orientation="portrait"><label>Figure 3</label><caption><p>Results of biological analyses carried out with PD‐related genes and cardiovascular disease–related protein‐related genes as targets. (A) Network diagram of protein–protein interaction analysis. (B) Bar graph of KEGG pathway enrichment analysis.</p></caption><fig position="anchor" fig-type="Figure" id="figpt-0001" orientation="portrait"><caption><p>(A)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="MI-2026-7919308-g003.jpg"/></fig><fig position="anchor" fig-type="Figure" id="figpt-0002" orientation="portrait"><caption><p>(B)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="MI-2026-7919308-g002.jpg"/></fig></fig-group></sec><sec id="sec-0014"><title>3.3. The Mediating Effect of Immunophenotype on the Relationship Between CVD‐Related Plasma Proteins and PD Pathogenesis</title><p>We explored the univariate causal relationships between 731 different immune phenotypes and PD (Supporting Information: Table <xref rid="sec-0026" ref-type="sec">S3</xref>). Through mediation analysis (Supporting Information: Tables <xref rid="sec-0026" ref-type="sec">S4</xref>–<xref rid="sec-0026" ref-type="sec">S6</xref>), we identified four immune phenotypes, including CD28+CD45RA+CD8+T cell AC, that play a significant mediating role in the association between CVD‐related plasma proteins and the pathogenesis of PD. Specifically, CD28+ CD45RA+ CD8+ T cell AC had a competitive mediating effect (OR = 1.001 and 95%CI: 0.989−1.013), while CD19 on CD24+ CD27+ B cell had a partial mediating effect (OR = 0.955 and 95%CI: 0.913−0.998), accounting for −0.267% and 2.898% of the association between the Fas cell surface death receptor and PD, respectively (mediation effect = 0.0002 and −0.0021) (Figure <xref rid="fig-0004" ref-type="fig">4</xref>A). For the association between nerve growth factor and PD, CD27 on CD20‐ B cell had a competitive mediating effect (OR = 1.088 and 95%CI: 1.037−1.142), accounting for −10.628% of the association (mediation effect = 0.0021) (Figure <xref rid="fig-0004" ref-type="fig">4</xref>B). Additionally, HLA DR on CD33‐ HLA DR+ mediated the association between thrombomodulin and PD through a competitive mediating effect, accounting for −12.691% of the association (mediation effect = −0.0148) (Figure <xref rid="fig-0004" ref-type="fig">4</xref>C).</p><fig position="float" fig-type="Figure" id="fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Flowchart of the potential mediation process. (A) Possible mediating pathways using Fas cell surface death receptor as an exposure. (B) Possible mediating pathways using nerve growth factor as an exposure. (C) Possible mediating pathways using thrombomodulin as an exposure.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="MI-2026-7919308-g001.jpg"/></fig></sec></sec><sec id="sec-0015"><title>4. Discussion</title><p>Based on a large amount of publicly available GWAS data, we explored the causal relationship between CVD‐related plasma proteins and PD at the genetic level while scrutinizing the mediating impact of 731 immune cell phenotypes. To our knowledge, this is the first MR analysis to explore the causal relationship between CVD‐related plasma proteins and PD, alongside an exploration of the mediating influence of immune cell phenotypes. Our study results identified two CVD‐related plasma proteins that have a negative causal relationship with PD and determined the significant mediating role of four immune cell phenotypes.</p><p>The Fas receptor, also known as CD95 or APO‐1, is a member of the tumor necrosis factor receptor superfamily, primarily involved in mediating apoptosis and playing a key role in the regulation of the immune system [<xref rid="bib-0020" ref-type="bibr">20</xref>]. Our MR analysis results suggest a negative correlation between the Fas cell surface death receptor and an escalated risk of PD. Studies have shown that the involvement of the Fas receptor can protect dopaminergic neurons from neurotoxin‐induced damage, and treatment with Fas ligand (FasL) can significantly reduce the toxicity induced by 1‐methyl‐4‐phenyl‐1,2,3,6‐tetrahydropyridine (MPTP) in cultured mesencephalic neurons, indicating that Fas signaling has a protective effect independent of its apoptotic function [<xref rid="bib-0021" ref-type="bibr">21</xref>]. Additionally, research has indicated that neuroinflammation is an important molecular mechanism in the pathogenesis of PD [<xref rid="bib-0022" ref-type="bibr">22</xref>]. Microglia, the main immune cells in the central nervous system (CNS), express Fas, allowing them to respond to FasL signaling [<xref rid="bib-0023" ref-type="bibr">23</xref>]. Activation of Fas has been linked to the suppression of microglial activation and a decrease in the secretion of proinflammatory cytokines [<xref rid="bib-0024" ref-type="bibr">24</xref>], suggesting that Fas signaling may help to mitigate excessive inflammation in the CNS. Given its dual role in mediating apoptosis and neuroprotection, targeting the Fas signaling pathway could provide therapeutic opportunities for neurodegenerative diseases characterized by inflammation and neuronal loss. For example, small peptide antagonists that inhibit Fas activation have shown promise in providing neuroprotection in glaucoma and other disease models [<xref rid="bib-0025" ref-type="bibr">25</xref>, <xref rid="bib-0026" ref-type="bibr">26</xref>].</p><p>Nerve growth factor has long played a critical role in both developmental and adult neurobiology, exerting crucial regulatory functions essential for the survival, growth, and differentiation of neural cells across the peripheral and CNSs [<xref rid="bib-0027" ref-type="bibr">27</xref>]. Considered a promising therapeutic candidate for conditions like AD and PD, nerve growth factor exhibits regenerative properties specifically targeting cholinergic neurons in the basal forebrain and striatum [<xref rid="bib-0028" ref-type="bibr">28</xref>]. Furthermore, nerve growth factor can stimulate mitochondrial activity and biogenesis by activating peroxisome proliferator‐activated receptor γ coactivator 1‐α (PGC‐1α) [<xref rid="bib-0029" ref-type="bibr">29</xref>], a potential mechanism that is particularly important in neurodegenerative diseases where mitochondrial dysfunction is a key pathological feature [<xref rid="bib-0030" ref-type="bibr">30</xref>]. Our study confirms the protective effect of nerve growth factor on PD, and continued research on the role of nerve growth factor in PD is expected to develop new therapeutic strategies aimed at slowing disease progression and improving patient outcomes.</p><p>Disruption of the blood‐brain barrier (BBB) is a hallmark of many neurodegenerative diseases, including PD and AD [<xref rid="bib-0031" ref-type="bibr">31</xref>]. Notably, a prior investigation on biomarkers indicative of BBB function in AD spotlighted the heightened levels of soluble thrombomodulin (sTM) antigen and activity in AD patients, denoting BBB impairment [<xref rid="bib-0032" ref-type="bibr">32</xref>]. TM may play a negative role in the pathogenesis of PD by contributing to the destruction of the integrity of the BBB. These potential mechanisms align with our MR‐derived finding indicating a positive correlation between thrombomodulin and the risk of PD. Such insights underscore the plausible impact of thrombomodulin on PD susceptibility, potentially through its involvement in BBB integrity disruption.</p><p>Through KEGG pathway enrichment analysis of genes related to three CVD‐related plasma proteins, it is possible to identify pathways that are associated with these plasma proteins and are related to amyotrophic lateral sclerosis (ALS), as well as depression, the Notch pathway, and vitamin A metabolism. ALS is also a common neurodegenerative disease [<xref rid="bib-0033" ref-type="bibr">33</xref>], the Notch pathway present in the hippocampus can affect the manifestation and progression of depression [<xref rid="bib-0034" ref-type="bibr">34</xref>], and vitamin A may exert a protective effect on neurons and be beneficial for neurodegenerative diseases such as PD [<xref rid="bib-0035" ref-type="bibr">35</xref>]. These findings hint at a close interconnection between CVD‐related plasma proteins and neuropsychiatric ailments, warranting in‐depth exploration of the underlying mechanisms. Furthermore, the identification of antigen processing and presentation content within these pathways, linked to immunity, prompts a deeper inquiry into the potential mediating effects of immune cells. This intricate interplay underscores the need for further investigation into the intricate relationships between cardiovascular health, neuropsychiatric conditions, immune responses, and neurodegenerative diseases.</p><p>T cells and B cells are important lymphocytes in the body’s immune system. Our mediation analysis results indicate that CD28+CD45RA+ CD8+ T cell AC has a competitive mediating effect in the relationship between the Fas cell surface death receptor and PD, while CD19 on CD24+ CD27+ B cell has a partial mediating effect. CD28 provides an important second signal required for T cell activation, in addition to the primary signal from the T cell receptor (TCR), which is crucial for the full activation of T cells and promotes the proliferation and differentiation of naive T cells into effector cells [<xref rid="bib-0036" ref-type="bibr">36</xref>]. T cells play a significant role in PD. Infiltration of CD8+ T cells in the CNS of patients with PD is associated with neuroinflammatory processes that can lead to neuronal damage and may exacerbate neurodegeneration [<xref rid="bib-0037" ref-type="bibr">37</xref>, <xref rid="bib-0038" ref-type="bibr">38</xref>]. Similarly, T cells, as key mediators in CVDs, secrete proinflammatory cytokines that promote vascular pathology [<xref rid="bib-0039" ref-type="bibr">39</xref>]. This underscores the multifaceted roles of T cells in both neurodegenerative disorders like PD and cardiovascular health, elucidating their impact on immune responses and disease progression in diverse physiological contexts.</p><p>CD19 is a B cell–specific transmembrane glycoprotein that, with its extensive cytoplasmic domain, establishes the endogenous B cell signaling threshold and may play a key role in enhancing signal transduction in multiple receptor signaling pathways [<xref rid="bib-0040" ref-type="bibr">40</xref>]. Regulatory B cells (Bregs) that produce anti‐inflammatory cytokines such as IL‐10 appear to have a protective role in PD, and a higher proportion of these cells is associated with better motor scores in PD patients, suggesting that they may help to reduce inflammation and dopaminergic cell loss [<xref rid="bib-0041" ref-type="bibr">41</xref>]. Yanamandra et al. [<xref rid="bib-0042" ref-type="bibr">42</xref>] found that patients with PD have higher levels of antibodies against monomeric α‐synuclein in serum than controls. This suggests a potential protective role of B cell–related humoral immunity in maintaining homeostasis and clearing protein species. B cells are increasingly recognized as important players in the pathogenesis of PD. Their altered populations, potential autoimmune responses to α‐synuclein, and involvement in neuroinflammatory processes highlight their dual role as contributors to pathology and potential protectors against neurodegeneration. Further research is needed to clarify the exact mechanisms by which B cells influence the progression of PD and to explore their potential as therapeutic targets.</p><p>Additionally, we found that CD27 on CD20‐B cell has a competitive mediating effect in the relationship between nerve growth factor and PD. CD27, a costimulatory molecule, enhances B cell activation when bound to its ligand CD70, facilitating the survival, proliferation, and differentiation of activated B cells [<xref rid="bib-0043" ref-type="bibr">43</xref>]. The involvement of B cells in neuroinflammation is significant, and previous studies have found that the proportion of B lymphocytes producing proinflammatory cytokines is increased in patients with PD, which may contribute to an inflammatory environment characteristic of PD pathology [<xref rid="bib-0044" ref-type="bibr">44</xref>].</p><p>HLA‐DR is a major histocompatibility complex (MHC) class II molecule that plays a key role in the immune system by presenting antigens to CD4+ T cells [<xref rid="bib-0045" ref-type="bibr">45</xref>]. The expression of HLA‐DR on CD33‐negative cells implies a potential involvement of these cells in antigen presentation and T cell activation, necessitating further exploration to delineate their specific functions. In CVDs, the activation of the immune system has a negative impact on patient prognosis [<xref rid="bib-0046" ref-type="bibr">46</xref>], further supporting the potential mediating role of immunity between CVD‐related plasma proteins and PD.</p><p>To our knowledge, this is the first study that combines multiple bioinformatics methods to analyze the mediating role of immune cells in the association between CVD‐related plasma proteins and PD. Our study is based on published large cohort GWAS studies, including a large sample of ~200,000 individuals, which provides a high statistical power. The robustness of the IVW estimates in our study is supported by multiple MR sensitivity analyses. Stringent criteria have been implemented in our mediation analysis to mitigate potential reverse causal relationships between CVD‐related plasma proteins and to ensure the integrity and validity of the model we have constructed to elucidate the mediating effects.</p><p>However, it is necessary to acknowledge the undeniable limitations of our study. Firstly, the large GWAS studies on immune cells are currently only conducted in European populations, thereby imposing racial constraints on our research conclusions. Given the genetic diversity across various racial groups, the mediating role of immune cells ascertained in our study may manifest differently in non‐European populations. Secondly, we need to point out that MR analysis is only based on genetic level observations and causal relationship inferences and cannot replace clinical trials within the objective field. Meanwhile, due to the limitations of the MR study method, the role of time in the process of PD is ignored, and potential confounding factors may not be fully resolved. Lastly, while our study provides strong evidence for potential causal relationships at the population level, it does not elucidate the underlying biological mechanisms and lacks validation from functional studies. Future research utilizing in vitro and in vivo models is essential to verify these interactions and uncover their precise molecular pathways. Our findings can serve as key hypotheses for subsequent investigations.</p><p>Our study has important clinical application values. First, our study can provide new biomarker references for the early diagnosis and prevention of PD, such as the elevation of certain markers like TM level signaling the onset and progression of PD. Furthermore, our research underscores the intricate link between PD and CVDs, emphasizing the need for heightened attention to the potential development of cardiovascular conditions in the management and care of individuals with PD. By recognizing and addressing this interplay, there is an opportunity to enhance patient outcomes and prognosis through a comprehensive approach that considers both neurological and cardiovascular health. Moreover, the immune cell mediation analysis conducted in our study unveils promising targets and strategies for immune‐based therapies in PD, offering fresh insights into the pathogenesis and genetic underpinnings of the disease. These findings pave the way for innovative approaches to immune modulation in PD treatment and open avenues for further exploration of immune cell phenotypes in mediating other risk factors for PD across diverse racial populations. Moving forward, future researchers are encouraged to validate and extend our findings by investigating the mediating roles of immune cell phenotypes in relation to various risk factors for PD within broader and more diverse racial demographics.</p></sec><sec id="sec-0016"><title>5. Conclusion</title><p>In summary, we determined the complex causal relationship between PD and CVD‐related plasma proteins at the genetic level through comprehensive MR analysis. We identified three significant correlations between CVD‐related plasma proteins and PD and further conducted mediation analysis on 731 immune phenotypes, identifying four important mediating roles of immune phenotypes and emphasizing the complex pattern of interactions between CVD‐related plasma proteins and PD. Our research provides new biomarkers and therapeutic targets for the clinical practice of preventing and treating PD and also offers new avenues for researchers to explore the correlation between PD and CVD.</p></sec><sec id="sec-0017"><title>Author Contributions</title><p>Conceptualization and design: Cai Li. Methodology: Ruotong Yao, Siyao Chen, and Yangguang Lu. Validation: Ruotong Yao, Siyao Chen, and Yangguang Lu. Formal analysis: Ruotong Yao, Siyao Chen, Yangguang Lu, Yiquan Li, and Bohuai Yu. Investigation: Cai Li, Ruotong Yao, and Yangguang Lu. Resources: Cai Li. Data curation: Ruotong Yao, Siyao Chen, Yangguang Lu, Yiquan Li, Bohuai Yu, Yingying Liu, Tingxuan Zhang, Yusheng Zhu, Feng Chen, Yuhan Lin, and Yukai Wang. Writing – original draft preparation: Ruotong Yao, Siyao Chen, and Yangguang Lu. Writing – review and editing: Cai Li, Ruotong Yao, Siyao Chen, Yangguang Lu, Yiquan Li, Bohuai Yu, Yingying Liu, Tingxuan Zhang, Yusheng Zhu, Feng Chen, Yuhan Lin, and Yukai Wang. Visualization: Ruotong Yao, Siyao Chen, and Yangguang Lu. Supervision: Cai Li. Project administration: Cai Li.</p></sec><sec id="sec-0019"><title>Funding</title><p>This study was supported by the National Innovation and Entrepreneurship Training Program for College Students (Grant 202510343038) and the Student Research Project Funding Program of Wenzhou Medical University (Grant wyx2023101112).</p></sec><sec id="sec-0020"><title>Disclosure</title><p>All authors read and approved the final manuscript.</p></sec><sec id="sec-0021"><title>Ethics Statement</title><p>The authors have nothing to report.</p></sec><sec id="sec-0022"><title>Consent</title><p>The authors have nothing to report.</p></sec><sec sec-type="COI-statement" id="sec-0023"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec id="sec-0026"><title>Supporting Information</title><p>Additional supporting information can be found online in the Supporting Information section.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="link-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information</bold> Table S1: Results of a Mendelian randomization analysis with 83 cardiovascular disease‐related plasma proteins as exposure and Parkinson’s disease as outcome. Table S2: Information on the gene region where the SNP locus is located extracted from positive cardiovascular disease‐associated plasma proteins and outcome Parkinson’s disease GWAS data at a threshold of <italic toggle="yes">α</italic> = 1e–5. Table S3: Results of a Mendelian randomization analysis with 731 immune cell phenotypes as exposure and Parkinson’s disease as outcome. Table S4: Results of a Mendelian randomization analysis of immunophenotypes with the Fas cell surface death receptor as exposure and positive causality with Parkinson’s disease as the outcome. Table S5: Results of a Mendelian randomization analysis of immunophenotypes with nerve growth factor as exposure and positive causality with Parkinson’s disease as the outcome. Table S6: Results of a Mendelian randomization analysis of immunophenotypes with thrombomodulin as exposure and positive causality with Parkinson’s disease as the outcome.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MI-2026-7919308-s001.xlsx" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="sec-0018"><title>Acknowledgments</title><p>We gratefully acknowledge FigDraw Platform for its role in our production of the graphic abstract. We acknowledge investigators and participants in the FinnGen consortium for providing individual data and summary‐level data resources. This study was supported by the National Innovation and Entrepreneurship Training Program for College Students (Grant 202510343038) and the Student Research Project Funding Program of Wenzhou Medical University (Grant wyx2023101112).</p></ack><sec sec-type="data-availability" id="sec-0025"><title>Data Availability Statement</title><p>Publicly available datasets were analyzed in this study. The raw data for this study can be obtained from FinnGen R10 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://r10.finngen.fi/" ext-link-type="uri" specific-use="software is-supplemented-by">https://r10.finngen.fi/</ext-link>), OpenGWAS (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://gwas.mrcieu.ac.uk/" ext-link-type="uri" specific-use="software is-supplemented-by">https://gwas.mrcieu.ac.uk/</ext-link>), and David databases (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://david.ncifcrf.gov/" ext-link-type="uri" specific-use="software is-supplemented-by">https://david.ncifcrf.gov/</ext-link>).</p></sec><ref-list><ref id="bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cit-0001">
+<string-name name-style="western">
+<surname>MacMahon Copas</surname>
+<given-names>A. N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>McComish</surname>
+<given-names>S. F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fletcher</surname>
+<given-names>J. M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Caldwell</surname>
+<given-names>M. A.</given-names>
+</string-name>, <article-title>The Pathogenesis of Parkinson’s Disease: A Complex Interplay Between Astrocytes, Microglia, and T Lymphocytes?</article-title>, <source>Frontiers in Neurology</source>. (<year>2021</year>) <volume>12</volume>, <pub-id pub-id-type="doi">10.3389/fneur.2021.666737</pub-id>, <elocation-id>666737</elocation-id>.<pub-id pub-id-type="pmid">34122308</pub-id>
+<pub-id pub-id-type="pmcid">PMC8189423</pub-id></mixed-citation></ref><ref id="bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cit-0002">
+<string-name name-style="western">
+<surname>Collaborators GBDPsD</surname>
+</string-name>, <article-title>Global, Regional, and National Burden of Parkinson’s Disease, 1990-2016: A Systematic Analysis for the Global Burden of Disease Study 2016</article-title>, <source>The Lancet Neurology</source>. (<year>2018</year>) <volume>17</volume>, no. 11, <fpage>939</fpage>–<lpage>953</lpage>, <pub-id pub-id-type="doi">10.1016/S1474-4422(18)30295-3</pub-id>, 2-s2.0-85055021376.<pub-id pub-id-type="pmid">30287051</pub-id>
+<pub-id pub-id-type="pmcid">PMC6191528</pub-id></mixed-citation></ref><ref id="bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cit-0003">
+<string-name name-style="western">
+<surname>Kassebaum</surname>
+<given-names>N. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Arora</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Barber</surname>
+<given-names>R. M.</given-names>
+</string-name>, et al.<article-title>Global, Regional, and National Disability-Adjusted Life-Years (DALYs) for 315 Diseases and Injuries and Healthy Life Expectancy (HALE), 1990-2015: A Systematic Analysis for the Global Burden of Disease Study 2015</article-title>, <source>The Lancet</source>. (<year>2016</year>) <volume>388</volume>, no. 10053, <fpage>1603</fpage>–<lpage>1658</lpage>, <pub-id pub-id-type="doi">10.1016/S0140-6736(16)31460-X</pub-id>, 2-s2.0-84994165705.<pub-id pub-id-type="pmcid">PMC5388857</pub-id><pub-id pub-id-type="pmid">27733283</pub-id></mixed-citation></ref><ref id="bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cit-0004">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Q.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tang</surname>
+<given-names>H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>S.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>Stroke and Coronary Artery Disease are Associated With Parkinson’s Disease</article-title>, <source>Canadian Journal of Neurological Sciences/Journal Canadien des Sciences Neurologiques</source>. (<year>2018</year>) <volume>45</volume>, no. 5, <fpage>559</fpage>–<lpage>565</lpage>, <pub-id pub-id-type="doi">10.1017/cjn.2018.56</pub-id>, 2-s2.0-85054725926.<pub-id pub-id-type="pmid">30001757</pub-id></mixed-citation></ref><ref id="bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cit-0005">
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fang</surname>
+<given-names>Q.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>J.</given-names>
+</string-name>, <article-title>Relationship Between Parkinson’s Disease and Cardio-Cerebrovascular Diseases: A Mendelian Randomized Study</article-title>, <source>Scientific Reports</source>. (<year>2023</year>) <volume>13</volume>, no. 1, <pub-id pub-id-type="doi">10.1038/s41598-023-47708-2</pub-id>.<pub-id pub-id-type="pmcid">PMC10665329</pub-id><pub-id pub-id-type="pmid">37993489</pub-id></mixed-citation></ref><ref id="bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cit-0006">
+<string-name name-style="western">
+<surname>Folkersen</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Fauman</surname>
+<given-names>E.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Sabater-Lleal</surname>
+<given-names>M.</given-names>
+</string-name>, et al.<article-title>Mapping of 79 Loci for 83 Plasma Protein Biomarkers in Cardiovascular Disease</article-title>, <source>PLOS Genetics</source>. (<year>2017</year>) <volume>13</volume>, no. 4, <pub-id pub-id-type="doi">10.1371/journal.pgen.1006706</pub-id>, 2-s2.0-85018264409, <elocation-id>e1006706</elocation-id>.<pub-id pub-id-type="pmid">28369058</pub-id>
+<pub-id pub-id-type="pmcid">PMC5393901</pub-id></mixed-citation></ref><ref id="bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cit-0007">
+<string-name name-style="western">
+<surname>You</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y.</given-names>
+</string-name>, et al.<article-title>Prediction of Future Parkinson Disease Using Plasma Proteins Combined With Clinical-Demographic Measures</article-title>, <source>Neurology</source>. (<year>2024</year>) <volume>103</volume>, no. 3, <pub-id pub-id-type="doi">10.1212/WNL.0000000000209531</pub-id>, <elocation-id>e209531</elocation-id>.<pub-id pub-id-type="pmid">38976826</pub-id>
+</mixed-citation></ref><ref id="bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cit-0008">
+<string-name name-style="western">
+<surname>Zawadzka</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Pietruszka</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Krygier</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Mazurkiewicz-Bełdzińska</surname>
+<given-names>M.</given-names>
+</string-name>, <article-title>Role of Neuroinflammation Factors as Potential Biomarkers of Epilepsy: A Narrative Review</article-title>, <source>Neurologia I Neurochirurgia Polska</source>. (<year>2025</year>) <volume>59</volume>, no. 3, <fpage>210</fpage>–<lpage>220</lpage>, <pub-id pub-id-type="doi">10.5603/pjnns.102426</pub-id>.<pub-id pub-id-type="pmid">39950421</pub-id>
+</mixed-citation></ref><ref id="bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cit-0009">
+<string-name name-style="western">
+<surname>Zaic</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>König</surname>
+<given-names>T.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Ponleitner</surname>
+<given-names>M.</given-names>
+</string-name>, et al.<article-title>Dynamic Relationship Between Cerebrospinal Fluid Immune Cells and Tissue Damage Markers in Multiple Sclerosis</article-title>, <source>Brain Communications</source>. (<year>2025</year>) <volume>7</volume>, no. 6, <pub-id pub-id-type="doi">10.1093/braincomms/fcaf387</pub-id>, <elocation-id>fcaf387</elocation-id>.<pub-id pub-id-type="pmid">41221125</pub-id>
+<pub-id pub-id-type="pmcid">PMC12598767</pub-id></mixed-citation></ref><ref id="bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cit-0010">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kuang</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>X.</given-names>
+</string-name>, et al.<article-title>Effect of the Plasma Lipidome, Immune Cells, Inflammatory Proteins, Gut Microbiota, and Plasma Metabolites on Alzheimer’s Disease: A Two-Sample Mendelian Randomized Study and Mediation Analysis</article-title>, <source>Brain Research</source>. (<year>2025</year>) <volume>1869</volume>, <pub-id pub-id-type="doi">10.1016/j.brainres.2025.150009</pub-id>, <elocation-id>150009</elocation-id>.<pub-id pub-id-type="pmid">41151745</pub-id>
+</mixed-citation></ref><ref id="bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cit-0011">
+<string-name name-style="western">
+<surname>Goldeck</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Maetzler</surname>
+<given-names>W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Berg</surname>
+<given-names>D.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Oettinger</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Pawelec</surname>
+<given-names>G.</given-names>
+</string-name>, <article-title>Altered Dendritic Cell Subset Distribution in Patients With Parkinson’s Disease: Impact of CMV Serostatus</article-title>, <source>Journal of Neuroimmunology</source>. (<year>2016</year>) <volume>290</volume>, <fpage>60</fpage>–<lpage>65</lpage>, <pub-id pub-id-type="doi">10.1016/j.jneuroim.2015.11.008</pub-id>, 2-s2.0-84955107377.<pub-id pub-id-type="pmid">26711571</pub-id>
+</mixed-citation></ref><ref id="bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cit-0012">
+<string-name name-style="western">
+<surname>Tansey</surname>
+<given-names>M. G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wallings</surname>
+<given-names>R. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Houser</surname>
+<given-names>M. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Herrick</surname>
+<given-names>M. K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Keating</surname>
+<given-names>C. E.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Joers</surname>
+<given-names>V.</given-names>
+</string-name>, <article-title>Inflammation and Immune Dysfunction in Parkinson Disease</article-title>, <source>Nature Reviews Immunology</source>. (<year>2022</year>) <volume>22</volume>, no. 11, <fpage>657</fpage>–<lpage>673</lpage>, <pub-id pub-id-type="doi">10.1038/s41577-022-00684-6</pub-id>.<pub-id pub-id-type="pmcid">PMC8895080</pub-id><pub-id pub-id-type="pmid">35246670</pub-id></mixed-citation></ref><ref id="bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cit-0013">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>X. Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>R. R.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>T. H.</given-names>
+</string-name>, <article-title>The Role of Immune Cells in the Course of Parkinson’s Disease</article-title>, <source>Ibrain</source>. (<year>2021</year>) <volume>7</volume>, no. 2, <fpage>146</fpage>–<lpage>151</lpage>, <pub-id pub-id-type="doi">10.1002/j.2769-2795.2021.tb00077.x</pub-id>.<pub-id pub-id-type="pmid">37786903</pub-id>
+<pub-id pub-id-type="pmcid">PMC10529156</pub-id></mixed-citation></ref><ref id="bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cit-0014">
+<string-name name-style="western">
+<surname>Steffens</surname>
+<given-names>S.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Nahrendorf</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Madonna</surname>
+<given-names>R.</given-names>
+</string-name>, <article-title>Immune Cells in Cardiac Homeostasis and Disease: Emerging Insights from Novel Technologies</article-title>, <source>European Heart Journal</source>. (<year>2022</year>) <volume>43</volume>, no. 16, <fpage>1533</fpage>–<lpage>1541</lpage>, <pub-id pub-id-type="doi">10.1093/eurheartj/ehab842</pub-id>.<pub-id pub-id-type="pmid">34897403</pub-id>
+<pub-id pub-id-type="pmcid">PMC9020986</pub-id></mixed-citation></ref><ref id="bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cit-0015">
+<string-name name-style="western">
+<surname>Su</surname>
+<given-names>X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>N.</given-names>
+</string-name>, et al.<article-title>Immune Heterogeneity in Cardiovascular Diseases from a Single-Cell Perspective</article-title>, <source>Frontiers in Cardiovascular Medicine</source>. (<year>2023</year>) <volume>10</volume>, <pub-id pub-id-type="doi">10.3389/fcvm.2023.1057870</pub-id>, <elocation-id>1057870</elocation-id>.<pub-id pub-id-type="pmid">37180791</pub-id>
+<pub-id pub-id-type="pmcid">PMC10167030</pub-id></mixed-citation></ref><ref id="bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cit-0016">
+<string-name name-style="western">
+<surname>Rurik</surname>
+<given-names>J. G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Aghajanian</surname>
+<given-names>H.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Epstein</surname>
+<given-names>J. A.</given-names>
+</string-name>, <article-title>Immune Cells and Immunotherapy for Cardiac Injury and Repair</article-title>, <source>Circulation Research</source>. (<year>2021</year>) <volume>128</volume>, no. 11, <fpage>1766</fpage>–<lpage>1779</lpage>, <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.121.318005</pub-id>.<pub-id pub-id-type="pmid">34043424</pub-id>
+<pub-id pub-id-type="pmcid">PMC8171813</pub-id></mixed-citation></ref><ref id="bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cit-0017">
+<string-name name-style="western">
+<surname>Davies</surname>
+<given-names>N. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Holmes</surname>
+<given-names>M. V.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Davey Smith</surname>
+<given-names>G.</given-names>
+</string-name>, <article-title>Reading Mendelian Randomisation Studies: A Guide, Glossary, and Checklist for Clinicians</article-title>, <source>British Medical Journal</source>. (<year>2018</year>) <volume>362</volume>, <pub-id pub-id-type="doi">10.1136/bmj.k601</pub-id>, 2-s2.0-85050202541, <elocation-id>k601</elocation-id>.<pub-id pub-id-type="pmid">30002074</pub-id>
+<pub-id pub-id-type="pmcid">PMC6041728</pub-id></mixed-citation></ref><ref id="bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cit-0018">
+<string-name name-style="western">
+<surname>Skrivankova</surname>
+<given-names>V. W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Richmond</surname>
+<given-names>R. C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Woolf</surname>
+<given-names>B. A. R.</given-names>
+</string-name>, et al.<article-title>Strengthening the Reporting of Observational Studies in Epidemiology Using Mendelian Randomization: The STROBE-MR Statement</article-title>, <source>JAMA</source>. (<year>2021</year>) <volume>326</volume>, no. 16, <fpage>1614</fpage>–<lpage>1621</lpage>, <pub-id pub-id-type="doi">10.1001/jama.2021.18236</pub-id>.<pub-id pub-id-type="pmid">34698778</pub-id>
+</mixed-citation></ref><ref id="bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cit-0019">
+<string-name name-style="western">
+<surname>Orru</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Steri</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Sidore</surname>
+<given-names>C.</given-names>
+</string-name>, et al.<article-title>Complex Genetic Signatures in Immune Cells Underlie Autoimmunity and Inform Therapy</article-title>, <source>Nature Genetics</source>. (<year>2020</year>) <volume>52</volume>, no. 10, <fpage>1036</fpage>–<lpage>1045</lpage>, <pub-id pub-id-type="doi">10.1038/s41588-020-0684-4</pub-id>.<pub-id pub-id-type="pmid">32929287</pub-id>
+<pub-id pub-id-type="pmcid">PMC8517961</pub-id></mixed-citation></ref><ref id="bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cit-0020">
+<string-name name-style="western">
+<surname>Kaufmann</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Strasser</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Jost</surname>
+<given-names>P. J.</given-names>
+</string-name>, <article-title>Fas Death Receptor Signalling: Roles of Bid and XIAP</article-title>, <source>Cell Death &amp; Differentiation</source>. (<year>2012</year>) <volume>19</volume>, no. 1, <fpage>42</fpage>–<lpage>50</lpage>, <pub-id pub-id-type="doi">10.1038/cdd.2011.121</pub-id>, 2-s2.0-84856718606.<pub-id pub-id-type="pmid">21959933</pub-id>
+<pub-id pub-id-type="pmcid">PMC3252833</pub-id></mixed-citation></ref><ref id="bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cit-0021">
+<string-name name-style="western">
+<surname>Landau</surname>
+<given-names>A. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Luk</surname>
+<given-names>K. C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Jones</surname>
+<given-names>M. L.</given-names>
+</string-name>, et al.<article-title>Defective Fas Expression Exacerbates Neurotoxicity in a Model of Parkinson’s Disease</article-title>, <source>The Journal of Experimental Medicine</source>. (<year>2005</year>) <volume>202</volume>, no. 5, <fpage>575</fpage>–<lpage>581</lpage>, <pub-id pub-id-type="doi">10.1084/jem.20050163</pub-id>, 2-s2.0-24344455580.<pub-id pub-id-type="pmid">16129703</pub-id>
+<pub-id pub-id-type="pmcid">PMC2212882</pub-id></mixed-citation></ref><ref id="bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cit-0022">
+<string-name name-style="western">
+<surname>Jankovic</surname>
+<given-names>J.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Tan</surname>
+<given-names>E. K.</given-names>
+</string-name>, <article-title>Parkinson’s Disease: Etiopathogenesis and Treatment</article-title>, <source>Journal of Neurology, Neurosurgery &amp; Psychiatry</source>. (<year>2020</year>) <volume>91</volume>, no. 8, <fpage>795</fpage>–<lpage>808</lpage>, <pub-id pub-id-type="doi">10.1136/jnnp-2019-322338</pub-id>.<pub-id pub-id-type="pmid">32576618</pub-id>
+</mixed-citation></ref><ref id="bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cit-0023">
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>S. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Choi</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Benveniste</surname>
+<given-names>E. N.</given-names>
+</string-name>, <article-title>Differential Regulation and Function of Fas Expression on Glial Cells</article-title>, <source>The Journal of Immunology</source>. (<year>2000</year>) <volume>164</volume>, no. 3, <fpage>1277</fpage>–<lpage>1285</lpage>, <pub-id pub-id-type="doi">10.4049/jimmunol.164.3.1277</pub-id>, 2-s2.0-0000146587.<pub-id pub-id-type="pmid">10640741</pub-id>
+</mixed-citation></ref><ref id="bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cit-0024">
+<string-name name-style="western">
+<surname>Krzyzowska</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kowalczyk</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Skulska</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Thorn</surname>
+<given-names>K.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Eriksson</surname>
+<given-names>K.</given-names>
+</string-name>, <article-title>Fas/FasL Contributes to HSV-1 Brain Infection and Neuroinflammation</article-title>, <source>Frontiers in Immunology</source>. (<year>2021</year>) <volume>12</volume>, <pub-id pub-id-type="doi">10.3389/fimmu.2021.714821</pub-id>, <elocation-id>714821</elocation-id>.<pub-id pub-id-type="pmid">34526992</pub-id>
+<pub-id pub-id-type="pmcid">PMC8437342</pub-id></mixed-citation></ref><ref id="bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cit-0025">
+<string-name name-style="western">
+<surname>Krishnan</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kocab</surname>
+<given-names>A. J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zacks</surname>
+<given-names>D. N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Marshak-Rothstein</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Gregory-Ksander</surname>
+<given-names>M.</given-names>
+</string-name>, <article-title>A Small Peptide Antagonist of the Fas Receptor Inhibits Neuroinflammation and Prevents Axon Degeneration and Retinal Ganglion Cell Death in an Inducible Mouse Model of Glaucoma</article-title>, <source>Journal of Neuroinflammation</source>. (<year>2019</year>) <volume>16</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s12974-019-1576-3</pub-id>, 2-s2.0-85072765098.<pub-id pub-id-type="pmcid">PMC6767653</pub-id><pub-id pub-id-type="pmid">31570110</pub-id></mixed-citation></ref><ref id="bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cit-0026">
+<string-name name-style="western">
+<surname>Zacks</surname>
+<given-names>D. N.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Boehlke</surname>
+<given-names>C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Richards</surname>
+<given-names>A. L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>Q. D.</given-names>
+</string-name>, <article-title>Role of the Fas-Signaling Pathway in Photoreceptor Neuroprotection</article-title>, <source>Archives of Ophthalmology</source>. (<year>2007</year>) <volume>125</volume>, no. 10, <fpage>1389</fpage>–<lpage>1395</lpage>, <pub-id pub-id-type="doi">10.1001/archopht.125.10.1389</pub-id>, 2-s2.0-35348929461.<pub-id pub-id-type="pmid">17923548</pub-id>
+</mixed-citation></ref><ref id="bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cit-0027">
+<string-name name-style="western">
+<surname>Rocco</surname>
+<given-names>M. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Soligo</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Manni</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Aloe</surname>
+<given-names>L.</given-names>
+</string-name>, <article-title>Nerve Growth Factor: Early Studies and Recent Clinical Trials</article-title>, <source>Current Neuropharmacology</source>. (<year>2018</year>) <volume>16</volume>, no. 10, <fpage>1455</fpage>–<lpage>1465</lpage>, <pub-id pub-id-type="doi">10.2174/1570159X16666180412092859</pub-id>, 2-s2.0-85056419826.<pub-id pub-id-type="pmid">29651949</pub-id>
+<pub-id pub-id-type="pmcid">PMC6295934</pub-id></mixed-citation></ref><ref id="bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cit-0028">
+<string-name name-style="western">
+<surname>Xhima</surname>
+<given-names>K.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Aubert</surname>
+<given-names>I.</given-names>
+</string-name>, <article-title>The Therapeutic Potential of Nerve Growth Factor Combined With Blood-Brain Barrier Modulation by Focused Ultrasound for Neurodegenerative Disorders</article-title>, <source>Neural Regeneration Research</source>. (<year>2021</year>) <volume>16</volume>, no. 9, <fpage>1783</fpage>–<lpage>1785</lpage>, <pub-id pub-id-type="doi">10.4103/1673-5374.306076</pub-id>.<pub-id pub-id-type="pmid">33510076</pub-id>
+<pub-id pub-id-type="pmcid">PMC8328756</pub-id></mixed-citation></ref><ref id="bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cit-0029">
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>Y. W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>S. X.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>C. J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>X.</given-names>
+</string-name>, <article-title>NGF Promotes Mitochondrial Function by Activating PGC-1Alpha in TM4 Sertoli Cells</article-title>, <source>Andrologia</source>. (<year>2018</year>) <volume>50</volume>, no. 1, <pub-id pub-id-type="doi">10.1111/and.12837</pub-id>, 2-s2.0-85018363082.<pub-id pub-id-type="pmid">28470720</pub-id></mixed-citation></ref><ref id="bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cit-0030">
+<string-name name-style="western">
+<surname>Gao</surname>
+<given-names>X. Y.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>T.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gu</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>X. H.</given-names>
+</string-name>, <article-title>Mitochondrial Dysfunction in Parkinson’s Disease: From Mechanistic Insights to Therapy</article-title>, <source>Frontiers in Aging Neuroscience</source>. (<year>2022</year>) <volume>14</volume>, <pub-id pub-id-type="doi">10.3389/fnagi.2022.885500</pub-id>.<pub-id pub-id-type="pmcid">PMC9250984</pub-id><pub-id pub-id-type="pmid">35795234</pub-id></mixed-citation></ref><ref id="bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cit-0031">
+<string-name name-style="western">
+<surname>Knox</surname>
+<given-names>E. G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Aburto</surname>
+<given-names>M. R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Clarke</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Cryan</surname>
+<given-names>J. F.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>O’Driscoll</surname>
+<given-names>C. M.</given-names>
+</string-name>, <article-title>The Blood-Brain Barrier in Aging and Neurodegeneration</article-title>, <source>Molecular Psychiatry</source>. (<year>2022</year>) <volume>27</volume>, no. 6, <fpage>2659</fpage>–<lpage>2673</lpage>, <pub-id pub-id-type="doi">10.1038/s41380-022-01511-z</pub-id>.<pub-id pub-id-type="pmid">35361905</pub-id>
+<pub-id pub-id-type="pmcid">PMC9156404</pub-id></mixed-citation></ref><ref id="bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cit-0032">
+<string-name name-style="western">
+<surname>Festoff</surname>
+<given-names>B. W.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sajja</surname>
+<given-names>R. K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>van Dreden</surname>
+<given-names>P.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Cucullo</surname>
+<given-names>L.</given-names>
+</string-name>, <article-title>HMGB1 and Thrombin Mediate the Blood-Brain Barrier Dysfunction Acting as Biomarkers of Neuroinflammation and Progression to Neurodegeneration in Alzheimer’s Disease</article-title>, <source>Journal of Neuroinflammation</source>. (<year>2016</year>) <volume>13</volume>, no. 1, <pub-id pub-id-type="doi">10.1186/s12974-016-0670-z</pub-id>, 2-s2.0-84983354553.<pub-id pub-id-type="pmcid">PMC4995775</pub-id><pub-id pub-id-type="pmid">27553758</pub-id></mixed-citation></ref><ref id="bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cit-0033">
+<string-name name-style="western">
+<surname>Feldman</surname>
+<given-names>E. L.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>S. A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Petri</surname>
+<given-names>S.</given-names>
+</string-name>, et al.<article-title>Amyotrophic Lateral Sclerosis</article-title>, <source>The Lancet</source>. (<year>2022</year>) <volume>400</volume>, no. 10360, <fpage>1363</fpage>–<lpage>1380</lpage>, <pub-id pub-id-type="doi">10.1016/S0140-6736(22)01272-7</pub-id>.<pub-id pub-id-type="pmcid">PMC10089700</pub-id><pub-id pub-id-type="pmid">36116464</pub-id></mixed-citation></ref><ref id="bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cit-0034">
+<string-name name-style="western">
+<surname>You</surname>
+<given-names>J.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>J.</given-names>
+</string-name>, et al.<article-title>Role of Adiponectin-Notch Pathway in Cognitive Dysfunction Associated With Depression and in the Therapeutic Effect of Physical Exercise</article-title>, <source>Aging Cell</source>. (<year>2021</year>) <volume>20</volume>, no. 6, <pub-id pub-id-type="doi">10.1111/acel.13387</pub-id>, <elocation-id>e13387</elocation-id>.<pub-id pub-id-type="pmid">34053165</pub-id>
+<pub-id pub-id-type="pmcid">PMC8208781</pub-id></mixed-citation></ref><ref id="bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cit-0035">
+<string-name name-style="western">
+<surname>Marie</surname>
+<given-names>A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Darricau</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Touyarot</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Parr-Brownlie</surname>
+<given-names>L. C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Bosch-Bouju</surname>
+<given-names>C.</given-names>
+</string-name>, <article-title>Role and Mechanism of Vitamin A Metabolism in the Pathophysiology of Parkinson’s Disease</article-title>, <source>Journal of Parkinson’s Disease</source>. (<year>2021</year>) <volume>11</volume>, no. 3, <fpage>949</fpage>–<lpage>970</lpage>, <pub-id pub-id-type="doi">10.3233/JPD-212671</pub-id>.<pub-id pub-id-type="pmcid">PMC8461657</pub-id><pub-id pub-id-type="pmid">34120916</pub-id></mixed-citation></ref><ref id="bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cit-0036">
+<string-name name-style="western">
+<surname>Esensten</surname>
+<given-names>J. H.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Helou</surname>
+<given-names>Y. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chopra</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Weiss</surname>
+<given-names>A.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Bluestone</surname>
+<given-names>J. A.</given-names>
+</string-name>, <article-title>CD28 Costimulation: From Mechanism to Therapy</article-title>, <source>Immunity</source>. (<year>2016</year>) <volume>44</volume>, no. 5, <fpage>973</fpage>–<lpage>988</lpage>, <pub-id pub-id-type="doi">10.1016/j.immuni.2016.04.020</pub-id>, 2-s2.0-84967205692.<pub-id pub-id-type="pmid">27192564</pub-id>
+<pub-id pub-id-type="pmcid">PMC4932896</pub-id></mixed-citation></ref><ref id="bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cit-0037">
+<string-name name-style="western">
+<surname>Sanchez-Guajardo</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Febbraro</surname>
+<given-names>F.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kirik</surname>
+<given-names>D.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Romero-Ramos</surname>
+<given-names>M.</given-names>
+</string-name>, <article-title>Microglia Acquire Distinct Activation Profiles Depending on the Degree of Alpha-Synuclein Neuropathology in a rAAV Based Model of Parkinson’s Disease</article-title>, <source>PLoS ONE</source>. (<year>2010</year>) <volume>5</volume>, no. 1, <pub-id pub-id-type="doi">10.1371/journal.pone.0008784</pub-id>, 2-s2.0-77649294300, <elocation-id>e8784</elocation-id>.<pub-id pub-id-type="pmid">20098715</pub-id>
+<pub-id pub-id-type="pmcid">PMC2808388</pub-id></mixed-citation></ref><ref id="bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cit-0038">
+<string-name name-style="western">
+<surname>Contaldi</surname>
+<given-names>E.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Magistrelli</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Comi</surname>
+<given-names>C.</given-names>
+</string-name>, et al.<article-title>T Lymphocytes in Parkinson’s Disease</article-title>, <source>Journal of Parkinson’s Disease</source>. (<year>2022</year>) <volume>12</volume>, no. s1, <fpage>S65</fpage>–<lpage>S74</lpage>, <pub-id pub-id-type="doi">10.3233/JPD-223152</pub-id>.<pub-id pub-id-type="pmcid">PMC9535550</pub-id><pub-id pub-id-type="pmid">35253782</pub-id></mixed-citation></ref><ref id="bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cit-0039">
+<string-name name-style="western">
+<surname>Schwartz</surname>
+<given-names>D. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Burma</surname>
+<given-names>A. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Kitakule</surname>
+<given-names>M. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Luo</surname>
+<given-names>Y.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Mehta</surname>
+<given-names>N. N.</given-names>
+</string-name>, <article-title>T Cells in Autoimmunity-Associated Cardiovascular Diseases</article-title>, <source>Frontiers in Immunology</source>. (<year>2020</year>) <volume>11</volume>, <pub-id pub-id-type="doi">10.3389/fimmu.2020.588776</pub-id>, <elocation-id>588776</elocation-id>.<pub-id pub-id-type="pmid">33117403</pub-id>
+<pub-id pub-id-type="pmcid">PMC7576936</pub-id></mixed-citation></ref><ref id="bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cit-0040">
+<string-name name-style="western">
+<surname>Fujimoto</surname>
+<given-names>M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Poe</surname>
+<given-names>J. C.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Inaoki</surname>
+<given-names>M.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Tedder</surname>
+<given-names>T. F.</given-names>
+</string-name>, <article-title>CD19 Regulates B Lymphocyte Responses to Transmembrane Signals</article-title>, <source>Seminars in Immunology</source>. (<year>1998</year>) <volume>10</volume>, no. 4, <fpage>267</fpage>–<lpage>277</lpage>, <pub-id pub-id-type="doi">10.1006/smim.1998.9999</pub-id>, 2-s2.0-0032147183.<pub-id pub-id-type="pmid">9695183</pub-id>
+</mixed-citation></ref><ref id="bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cit-0041">
+<string-name name-style="western">
+<surname>Scott</surname>
+<given-names>K. M.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Chong</surname>
+<given-names>Y. T.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Park</surname>
+<given-names>S.</given-names>
+</string-name>, et al.<article-title>B Lymphocyte Responses in Parkinson’s Disease and Their Possible Significance in Disease Progression</article-title>, <source>Brain Communications</source>. (<year>2023</year>) <volume>5</volume>, no. 2, <pub-id pub-id-type="doi">10.1093/braincomms/fcad060</pub-id>, <elocation-id>fcad060</elocation-id>.<pub-id pub-id-type="pmid">36993946</pub-id>
+<pub-id pub-id-type="pmcid">PMC10042276</pub-id></mixed-citation></ref><ref id="bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cit-0042">
+<string-name name-style="western">
+<surname>Yanamandra</surname>
+<given-names>K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Gruden</surname>
+<given-names>M. A.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Casaite</surname>
+<given-names>V.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Meskys</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Forsgren</surname>
+<given-names>L.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Morozova-Roche</surname>
+<given-names>L. A.</given-names>
+</string-name>, <article-title>Alpha-Synuclein Reactive Antibodies as Diagnostic Biomarkers in Blood Sera of Parkinson’s Disease Patients</article-title>, <source>PLoS ONE</source>. (<year>2011</year>) <volume>6</volume>, no. 4, <pub-id pub-id-type="doi">10.1371/journal.pone.0018513</pub-id>, 2-s2.0-79955554760, <elocation-id>e18513</elocation-id>.<pub-id pub-id-type="pmid">21541339</pub-id>
+<pub-id pub-id-type="pmcid">PMC3081826</pub-id></mixed-citation></ref><ref id="bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cit-0043">
+<string-name name-style="western">
+<surname>Han</surname>
+<given-names>B. K.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Olsen</surname>
+<given-names>N. J.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Bottaro</surname>
+<given-names>A.</given-names>
+</string-name>, <article-title>The CD27–CD70 Pathway and Pathogenesis of Autoimmune Disease</article-title>, <source>Seminars in Arthritis and Rheumatism</source>. (<year>2016</year>) <volume>45</volume>, no. 4, <fpage>496</fpage>–<lpage>501</lpage>, <pub-id pub-id-type="doi">10.1016/j.semarthrit.2015.08.001</pub-id>, 2-s2.0-84959478969.<pub-id pub-id-type="pmid">26359318</pub-id>
+</mixed-citation></ref><ref id="bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cit-0044">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>R.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Tropea</surname>
+<given-names>T. F.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Baratta</surname>
+<given-names>L. R.</given-names>
+</string-name>, et al.<article-title>Abnormal B-Cell and Tfh-Cell Profiles in Patients With Parkinson Disease: A Cross-Sectional Study</article-title>, <source>Neurology Neuroimmunology &amp; Neuroinflammation</source>. (<year>2022</year>) <volume>9</volume>, no. 2, <pub-id pub-id-type="doi">10.1212/NXI.0000000000001125</pub-id>.<pub-id pub-id-type="pmcid">PMC8711073</pub-id><pub-id pub-id-type="pmid">34955458</pub-id></mixed-citation></ref><ref id="bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cit-0045">
+<string-name name-style="western">
+<surname>Tsai</surname>
+<given-names>S.</given-names>
+</string-name> and 
+<string-name name-style="western">
+<surname>Santamaria</surname>
+<given-names>P.</given-names>
+</string-name>, <article-title>MHC Class II Polymorphisms, Autoreactive T-Cells, and Autoimmunity</article-title>, <source>Frontiers in Immunology</source>. (<year>2013</year>) <volume>4</volume>, <pub-id pub-id-type="doi">10.3389/fimmu.2013.00321</pub-id>, 2-s2.0-84885415450.<pub-id pub-id-type="pmcid">PMC3794362</pub-id><pub-id pub-id-type="pmid">24133494</pub-id></mixed-citation></ref><ref id="bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cit-0046">
+<string-name name-style="western">
+<surname>García-Rivas</surname>
+<given-names>G.</given-names>
+</string-name>, 
+<string-name name-style="western">
+<surname>Castillo</surname>
+<given-names>E. C.</given-names>
+</string-name>, and 
+<string-name name-style="western">
+<surname>Gonzalez-Gil</surname>
+<given-names>A. M.</given-names>
+</string-name>, et al.<article-title>The Role of B Cells in Heart Failure and Implications for Future Immunomodulatory Treatment Strategies</article-title>, <source>ESC Heart Failure</source>. (<year>2020</year>) <volume>7</volume>, no. 4, <fpage>1387</fpage>–<lpage>1399</lpage>, <pub-id pub-id-type="doi">10.1002/ehf2.12744</pub-id>.<pub-id pub-id-type="pmid">32533765</pub-id>
+<pub-id pub-id-type="pmcid">PMC7373901</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

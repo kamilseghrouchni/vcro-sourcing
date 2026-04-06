@@ -1,0 +1,901 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="dad270240" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement (Amst)</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement (Amst)</journal-id><journal-id journal-id-type="pmc-domain-id">3002</journal-id><journal-id journal-id-type="pmc-domain">dadm</journal-id><journal-id journal-id-type="publisher-id">DAD2</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia : Diagnosis, Assessment &amp; Disease Monitoring</journal-title></journal-title-group><issn pub-type="epub">2352-8729</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12756045</article-id><article-id pub-id-type="pmcid-ver">PMC12756045.1</article-id><article-id pub-id-type="pmcaid">12756045</article-id><article-id pub-id-type="pmcaiid">12756045</article-id><article-id pub-id-type="pmid">41488805</article-id><article-id pub-id-type="doi">10.1002/dad2.70240</article-id><article-id pub-id-type="publisher-id">DAD270240</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Increased transmembrane protein 119 (TMEM119) levels in the cerebrospinal fluid of patients with mild cognitive impairment due to Alzheimer's disease suggest early microglial involvement</article-title><alt-title alt-title-type="left-running-head">KLASSEN <sc>et al</sc>.</alt-title></title-group><contrib-group><contrib id="dad270240-cr-0001" contrib-type="author"><name name-style="western"><surname>Klassen</surname><given-names initials="P">Paula</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-5244-9576</contrib-id><xref rid="dad270240-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="dad270240-cr-0002" contrib-type="author"><name name-style="western"><surname>Alexudis</surname><given-names initials="C">Christoforos</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0003" contrib-type="author"><name name-style="western"><surname>Klose</surname><given-names initials="V">Veronika</given-names></name><xref rid="dad270240-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="dad270240-cr-0004" contrib-type="author"><name name-style="western"><surname>de San José</surname><given-names initials="NG">Nerea Gómez</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0005" contrib-type="author"><name name-style="western"><surname>Huss</surname><given-names initials="A">André</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0006" contrib-type="author"><name name-style="western"><surname>Bachhuber</surname><given-names initials="F">Franziska</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0007" contrib-type="author"><name name-style="western"><surname>Soylu</surname><given-names initials="Ö">Önder</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0008" contrib-type="author"><name name-style="western"><surname>Fazeli</surname><given-names initials="B">Badrieh</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0009" contrib-type="author"><name name-style="western"><surname>Erhart</surname><given-names initials="D">Deborah</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0010" contrib-type="author"><name name-style="western"><surname>Laible</surname><given-names initials="M">Mona</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0011" contrib-type="author"><name name-style="western"><surname>Anderl‐Straub</surname><given-names initials="S">Sarah</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0012" contrib-type="author"><name name-style="western"><surname>Jesse</surname><given-names initials="S">Sarah</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0013" contrib-type="author"><name name-style="western"><surname>Otto</surname><given-names initials="M">Markus</given-names></name><xref rid="dad270240-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="dad270240-cr-0014" contrib-type="author"><name name-style="western"><surname>Ludolph</surname><given-names initials="AC">Albert C.</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad270240-cr-0015" contrib-type="author" corresp="yes"><name name-style="western"><surname>Tumani</surname><given-names initials="H">Hayrettin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1647-6201</contrib-id><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>hayrettin.tumani@uni-ulm.de</email></address></contrib><contrib id="dad270240-cr-0016" contrib-type="author"><name name-style="western"><surname>Halbgebauer</surname><given-names initials="S">Steffen</given-names></name><xref rid="dad270240-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="dad270240-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>German Center for Neurodegenerative Diseases (DZNE e.V.)</institution>
+<city>Ulm</city>
+<country country="DE">Germany</country>
+</aff><aff id="dad270240-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Ulm University Hospital</institution>
+<city>Ulm</city>
+<country country="DE">Germany</country>
+</aff><aff id="dad270240-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>University Hospital Halle</institution>
+<city>Halle (Saale)</city>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Hayrettin Tumani, Department of Neurology, Ulm University Hospital, Oberer Eselsberg 45, Ulm, 89081, Germany.<break/> Email: <email>hayrettin.tumani@uni-ulm.de</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>31</day><month>12</month><year>2025</year></pub-date><pub-date pub-type="collection"><season>Jan-Mar</season><year>2026</year></pub-date><volume>18</volume><issue seq="30">1</issue><issue-id pub-id-type="pmc-issue-id">503316</issue-id><issue-id pub-id-type="doi">10.1002/dad2.v18.1</issue-id><elocation-id>e70240</elocation-id><history><date date-type="rev-recd"><day>25</day><month>11</month><year>2025</year></date><date date-type="received"><day>12</day><month>7</month><year>2025</year></date><date date-type="accepted"><day>26</day><month>11</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>31</day><month>12</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>02</day><month>01</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-01-05 09:25:15.180"><day>05</day><month>01</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring</italic> published by Wiley Periodicals, LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="DAD2-18-e70240.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:DAD2-18-e70240.pdf"/><abstract><title>Abstract</title><sec id="dad270240-sec-0010"><title>Introduction</title><p>We aimed to evaluate the potential of the microglial marker transmembrane protein 119 (TMEM119) in the cerebrospinal fluid (CSF) as a (differential) diagnostic biomarker for neurodegenerative diseases.</p></sec><sec id="dad270240-sec-0020"><title>Methods</title><p>Following assay validation, we used enzyme‐linked immunosorbent assay to measure CSF TMEM119 in 174 patients from six diagnostic groups: Alzheimer's disease (AD, <italic toggle="yes">n </italic>= 35), amyotrophic lateral sclerosis (ALS, <italic toggle="yes">n </italic>= 33), cerebral microangiopathy (CM, <italic toggle="yes">n </italic>= 25), frontotemporal lobar degeneration (FTLD, <italic toggle="yes">n </italic>= 28), Lewy body diseases (<italic toggle="yes">n </italic>= 21), and non‐neurodegenerative controls (<italic toggle="yes">n </italic>= 33).</p></sec><sec id="dad270240-sec-0030"><title>Results</title><p>CSF TMEM119 levels were elevated in the AD group compared to the control (<italic toggle="yes">p </italic>= 0.004), CM (<italic toggle="yes">p </italic>= 0.005), and FTLD (<italic toggle="yes">p </italic>= 0.023) groups. Levels were higher in both mild cognitive impairment (MCI‐AD) and dementia (ADD) subgroups when compared to controls. For the discrimination of AD from controls, the area under the curve (AUC) was 0.78.</p></sec><sec id="dad270240-sec-0040"><title>Discussion</title><p>Our results indicate that CSF TMEM119 may have potential as a biomarker representing microglial involvement in early and later stages of AD.</p></sec><sec id="dad270240-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="dad270240-list-0001"><list-item><p>Elevated levels of TMEM119 were observed in the CSF of patients with AD.</p></list-item><list-item><p>Increased CSF TMEM119 was seen in MCI‐AD patients compared to controls.</p></list-item><list-item><p>Elevated levels in MCI‐AD underscore early microglial involvement in AD.</p></list-item><list-item><p>In the AD group, an association was found between CSF TMEM119 and CSF total tau.</p></list-item><list-item><p>CSF TMEM119 may provide valuable information on neuroinflammation.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="dad270240-kwd-0001">Alzheimer's disease</kwd><kwd id="dad270240-kwd-0002">biomarkers</kwd><kwd id="dad270240-kwd-0003">cerebrospinal fluid</kwd><kwd id="dad270240-kwd-0004">microglia</kwd><kwd id="dad270240-kwd-0005">neuroinflammation</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>German Center for Neurodegenerative Diseases</institution><institution-id institution-id-type="doi">10.13039/501100005224</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Ulm University, and Chemische Fabrik Karl Bucher GmbH</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>German Federal Ministry of Education and Research</institution></institution-wrap>
+</funding-source><award-id>01GI1007A</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>EU Joint Programme‐Neurodegenerative Disease Networks Genfi‐Prox</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>EU (MOODMARKER, PREDICT‐FTD)</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0006"><funding-source>
+<institution-wrap><institution>German Research Foundation/DFG</institution></institution-wrap>
+</funding-source><award-id>SFB1279</award-id></award-group><award-group id="funding-0007"><funding-source>
+<institution-wrap><institution>Baden‐Württemberg</institution></institution-wrap>
+</funding-source><award-id>D.3830</award-id></award-group><award-group id="funding-0008"><funding-source>
+<institution-wrap><institution>Boehringer Ingelheim Ulm University BioCenter</institution></institution-wrap>
+</funding-source><award-id>D.5009</award-id></award-group><award-group id="funding-0009"><funding-source>
+<institution-wrap><institution>Thierry Latran Foundation</institution><institution-id institution-id-type="doi">10.13039/501100007495</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="3"/><table-count count="2"/><page-count count="10"/><word-count count="6289"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January/March 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:31.12.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="dad270240-cite-0001">
+<string-name name-style="western">
+<surname>Klassen</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alexudis</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klose</surname>
+<given-names>V</given-names>
+</string-name>, et al. <article-title>Increased transmembrane protein 119 (TMEM119) levels in the cerebrospinal fluid of patients with mild cognitive impairment due to Alzheimer's disease suggest early microglial involvement</article-title>. <source>Alzheimer's Dement</source>. <year>2026</year>;<volume>18</volume>:<elocation-id>e70240</elocation-id>. <pub-id pub-id-type="doi">10.1002/dad2.70240</pub-id>
+</mixed-citation>
+</p><fn-group><fn id="dad270240-note-0001" fn-type="equal"><p>Hayrettin Tumani and Steffen Halbgebauer contributed equally to this study and share senior authorship.</p></fn></fn-group></notes></front><body><sec id="dad270240-sec-0060"><label>1</label><title>BACKGROUND</title><p>Alzheimer's disease (AD) is recognized as the most common cause of dementia.<xref rid="dad270240-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> It is characterized by memory impairment and progressive cognitive decline and has been shown to have a preclinical phase that can last several decades.<xref rid="dad270240-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="dad270240-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Major pathological hallmarks of AD include the accumulation of amyloid beta (Aβ) plaques and neurofibrillary tangles.<xref rid="dad270240-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> The measurement of levels of Aβ peptide 1–42 (Aβ1–42) and tau protein in cerebrospinal fluid (CSF) has been incorporated into the current diagnostic criteria for AD.<xref rid="dad270240-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Although these markers of amyloid and tau are indicative of the major features of the disease, they do not represent the full spectrum of pathological processes occurring in the brains of individuals with AD, such as neuroinflammation mediated by astro‐ and microglial activation. Neuroinflammation has emerged as a key player in AD pathogenesis.<xref rid="dad270240-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> Microglia, the resident immune cells of the brain, contribute to the maintenance of homeostasis in the brain and mediate inflammatory processes.<xref rid="dad270240-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> In early AD, it has been suggested that microglia become activated and assist in the clearance of Aβ from the brain, thereby playing a protective role.<xref rid="dad270240-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> However, it is hypothesized that in AD, dystrophic microglia may also contribute to synaptic loss and neurodegeneration.<xref rid="dad270240-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> A number of genetic mutations related to microglia have been identified as potential risk factors for AD, indicating that microglial function can play a role in the development of the disease.<xref rid="dad270240-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="dad270240-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Mutations in triggering receptor expressed in myeloid cells 2 (TREM2), expressed by microglia and other macrophages, have been linked to an increased risk of AD,<xref rid="dad270240-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> and several studies on the soluble form of the protein TREM2 (sTREM2) have revealed increased CSF concentrations in patients with AD compared to controls.<xref rid="dad270240-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="dad270240-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="dad270240-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="dad270240-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> The development of fluid‐based biomarkers related to microglia could therefore provide valuable information about another important facet of AD pathology.</p><p>Transmembrane protein 119 (TMEM119) is a cell‐surface protein that has been identified as a predominantly microglia‐specific marker in the central nervous system (CNS).<xref rid="dad270240-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="dad270240-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> Its specificity can help to distinguish microglia from peripherally derived macrophages that may also express TREM2.<xref rid="dad270240-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="dad270240-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> TMEM119 is associated with homeostatic microglia, as a downregulation of its expression has been shown in disease‐associated microglia (DAM) states.<xref rid="dad270240-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="dad270240-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> In the brain parenchyma, an increase in <italic toggle="yes">TMEM119</italic> mRNA expression levels has been observed in AD brains when compared to non‐AD brains, though this has not been reflected at the protein level.<xref rid="dad270240-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="dad270240-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="dad270240-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="dad270240-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> A significant increase in the density of TMEM119‐positive cells has been observed in the motor cortex and subcortical white matter of patients with amyotrophic lateral sclerosis (ALS) compared to controls.<xref rid="dad270240-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> In the CSF, TMEM119‐positive cells have been detected using immunocytochemistry in patients with aneurysmal subarachnoid hemorrhage and individuals who died as a result of traumatic brain injury.<xref rid="dad270240-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="dad270240-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> It remains an open question whether the differences in mRNA and protein expression at the tissue level may be reflected in the CSF.</p><p>In this study, a commercially available enzyme‐linked immunosorbent assay (ELISA) kit was used to quantify levels of TMEM119 in the CSF of patients with AD, Lewy body diseases (LBD), ALS, frontotemporal lobar degeneration (FTLD), cerebral microangiopathy (CM), and in individuals with no known neurodegenerative diseases, to determine whether group differences in CSF TMEM119 may be observable. To our knowledge, this is the first study in which an immunoassay was used to compare CSF levels of TMEM119 in patients with AD and other neurological diseases.</p></sec><sec id="dad270240-sec-0070"><label>2</label><title>MATERIALS AND METHODS</title><sec id="dad270240-sec-0080"><label>2.1</label><title>Patient selection</title><p>In this study, CSF samples from 174 patients from six diagnostic groups were examined. The samples were collected between 2011 and 2021 in the Department of Neurology in Ulm. The study was approved by the Ethics Committee of Ulm University (approval number 20/10) and conducted following the Declaration of Helsinki. All patients or their legal proxies gave their written informed consent for inclusion in the study. For the quantification of CSF levels of TMEM119, samples from patients with AD (<italic toggle="yes">n </italic>= 35), ALS (<italic toggle="yes">n </italic>= 33), CM (<italic toggle="yes">n </italic>= 25), FTLD (<italic toggle="yes">n </italic>= 28), LBD (<italic toggle="yes">n </italic>= 21), and non‐neurodegenerative controls (<italic toggle="yes">n </italic>= 33) were selected.</p><p>AD patients were diagnosed according to the International Working Group 2 criteria.<xref rid="dad270240-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> AD inclusion criteria included CSF Aβ 1–42 levels &lt; 550 pg/mL and CSF phosphorylated tau 181 (p‐tau181) levels ≥ 62 pg/mL. The cutpoints were derived using a standardized in‐house optimization procedure based on a well‐characterized cohort consisting of (i) clinically and biomarker‐validated AD cases and (ii) age‐matched symptomatic controls without neurodegenerative or inflammatory CNS pathology (e.g., tension‐type headache, benign paroxysmal positional vertigo, and non‐specific sensory symptoms), all with normal brain MRI and unremarkable routine CSF findings. Receiver operating characteristic (ROC) analyses were performed using AD versus non‐neurodegenerative controls as the classification contrast, and Youden's Index (sensitivity + specificity – 1) was used to determine optimal thresholds. Patients in the ALS group had been diagnosed with definite or probable ALS according to the revised El Escorial criteria.<xref rid="dad270240-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> The CM group consisted of patients who had no known neurodegenerative disease, but who were given a Fazekas score of 2 to 3 following magnetic resonance imaging (MRI).<xref rid="dad270240-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> The 28 patients with FTLD consisted of 15 patients with confirmed or probable behavioral variant FTLD (bvFTLD) and 13 with primary progressive aphasia (PPA). The patients in the FTLD group were diagnosed according to accepted international criteria.<xref rid="dad270240-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>, <xref rid="dad270240-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> The LBD spectrum group comprised patients who had been diagnosed by specialists according to the UK PD Society Brain Bank criteria.<xref rid="dad270240-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> The individuals included in the control group displayed no clinical or radiological signs of neurodegeneration. All patients underwent a lumbar puncture in order to exclude acute inflammation of the central nervous system.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="dad270240-sec-0090"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="dad270240-list-0002"><list-item><p>
+<bold>Systematic review</bold>: Previous studies identified TMEM119 as a predominantly microglia‐specific marker in the CNS, with changes in mRNA expression seen in the brains of individuals with AD. However, there are limited reports assessing its utility as a biomarker in cerebrospinal fluid.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Our findings position TMEM119 as a promising candidate biomarker that may complement the established ATN framework by capturing neuroinflammatory dynamics. Beyond its diagnostic utility, TMEM119 holds potential as a translational tool for patient stratification and for monitoring therapeutic responses targeting microglial pathways in AD.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Further research may include longitudinal studies and comparisons with other microglial markers to help discern the potential benefit of using cerebrospinal fluid (CSF) TMEM119 as a microglial biomarker in AD.</p></list-item></list>
+</p></sec></boxed-text><p>For part of the analysis, the AD group was stratified into AD‐dementia (ADD, <italic toggle="yes">n </italic>= 23) and mild cognitive impairment (MCI‐AD, <italic toggle="yes">n </italic>= 12) subgroups. The stratification into either subgroup was based on the clinical dementia rating sum of boxes score (CDR‐SOB).<xref rid="dad270240-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> Patients with a CDR‐SOB below 2.5 were classified as having MCI‐AD, while those with scores of 2.5 or higher were classified as having ADD.<xref rid="dad270240-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>
+</p></sec><sec id="dad270240-sec-0100"><label>2.2</label><title>CSF collection and analysis</title><p>The CSF samples used in this study were collected via lumbar puncture and centrifuged at 2000 × g for 10 min. Supernatants were aliquoted and stored at –80°C within 30 min. CSF levels of total tau (t‐tau), p‐tau181, and Aβ1–42 for the patients in the AD group were quantified using commercially available ELISA kits (Fujirebio, Hanover, Germany). The albumin quotient (QAlb), representing the ratio of CSF albumin to serum albumin, was determined as part of routine diagnostics.</p><p>The quantification of CSF TMEM119 was done using a commercially available ELISA kit (abx549911, Abbexa, Cambridge, UK). The assay was performed according to the manufacturer's instructions apart from the wash steps, where a volume of 300 µL was used. CSF samples were diluted using a dilution factor of 1:4. Two CSF quality control samples were included on each plate for the cohort measurement.</p></sec><sec id="dad270240-sec-0110"><label>2.3</label><title>Partial validation of commercial ELISA kit</title><p>In addition to the cohort measurement, a partial validation of the ELISA kit for use with CSF samples was completed based on previously described guidelines.<xref rid="dad270240-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> Inter‐ and intra‐assay reproducibility were assessed by the analysis of two CSF samples run in sextuplicate on one plate and duplicate on two others. The limit of detection (LOD) and lower limit of quantification (LLOQ) were determined by running 16 blank samples. The LOD and LLOQ were calculated as three standard deviations (SD) and 10 SD above the mean of the blanks, respectively. Two samples were measured undiluted and diluted 1:2, 1:4, 1:6, 1:8, 1:16, and 1:32 in order to assess parallelism. Three concentrations (300, 800, and 1500 pg/mL) of the standard protein from the ELISA kit were spiked into CSF samples in order to evaluate the recovery of the spiked protein. Recovery was calculated according to the formula described by Andreasson et al.<xref rid="dad270240-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+</p><p>To test for cross‐reactivity to highly abundant proteins, CSF samples were spiked with physiological CSF concentrations of human immunoglobulin G (IgG, 30 µg/mL) and human albumin (200 µg/mL). TMEM119 concentrations were compared between the spiked and unspiked samples. Stability testing at 4°C and room temperature and for up to five additional freeze‐and‐thaw cycles was additionally performed.</p></sec><sec id="dad270240-sec-0120"><label>2.4</label><title>Statistical analysis</title><p>All statistical analyses were performed using R Statistical Software (version 4.3.1; R Core Team, 2023) on RStudio (version 2023.9.0.463). The Shapiro‐Wilk tests were used to determine the distribution of data among the different diagnostic groups. For comparisons between multiple groups, a Kruskal–Wallis test followed by Dunn's post hoc test with Bonferroni correction was applied. Following log<sub>2</sub> transformation of CSF TMEM119 levels, an analysis of covariance (ANCOVA) and post hoc Tukey Honestly Significant Difference (HSD) test were performed to control for the influence of sex. A Wilcoxon rank‐sum test was used for comparisons between two groups. A χ<sup>2</sup> test was used to determine differences in sex distribution between groups. Spearman's rank correlation coefficient was calculated, and simple linear regression was conducted to evaluate associations between various parameters. ROC analysis was performed to visualize the potential of TMEM119 for discrimination between patients with AD and the other diagnostic groups. Youden's Index was maximized in order to determine optimal cut‐off levels. A <italic toggle="yes">p</italic> value &lt; 0.05 was considered statistically significant for all analyses.</p></sec></sec><sec id="dad270240-sec-0130"><label>3</label><title>RESULTS</title><sec id="dad270240-sec-0140"><label>3.1</label><title>Performance of TMEM119 ELISA kit</title><p>The intra‐ and inter‐assay coefficients of variation for CSF TMEM119 were determined to be 3.6% and 3.8%, respectively. A LOD of 0.110 ng/mL and a LLOQ of 0.135 ng/mL were calculated based on the mean and standard deviation of 16 blank samples. The evaluation of the assay for parallelism revealed that CSF samples were stable between dilutions of 1:2 and 1:8 (Figure <xref rid="dad270240-supinfo-0001" ref-type="">S1</xref>). The recovery rates for the three spiking concentrations fell between 89.6% and 94.9% (Table <xref rid="dad270240-supinfo-0001" ref-type="">S1</xref>). No evidence of a cross‐reaction was detected with either human IgG or human albumin. Finally, stability testing of CSF samples showed that TMEM119 levels remained within a deviation of 20% when compared to a reference sample after up to 5 days at 4°C or room temperature and for up to five additional freeze‐and‐thaw cycles (Figure <xref rid="dad270240-supinfo-0001" ref-type="">S2</xref>).</p></sec><sec id="dad270240-sec-0150"><label>3.2</label><title>Demographic and clinical features</title><p>In this study, the CSF of a total of 174 patients was evaluated. Patient samples were divided based on diagnosis, with 35 AD, 33 ALS, 24 CM, 28 FTLD, 21 LBD, and 33 control patients making up the different groups. The clinical and demographic parameters of the diagnostic groups are summarized in Table <xref rid="dad270240-tbl-0001" ref-type="table">1</xref>. No significant difference in age (<italic toggle="yes">p = </italic>0.368) or QAlb (<italic toggle="yes">p = </italic>0.136) was observed among the different diagnostic groups. The overall sex distribution was found to differ significantly between diagnostic groups (<italic toggle="yes">p = </italic>0.026). In the control group, there was no significant correlation of CSF TMEM119 with age (<italic toggle="yes">R</italic> = 0.30, <italic toggle="yes">p = </italic>0.092) or QAlb (<italic toggle="yes">R</italic> = 0.23, <italic toggle="yes">p = </italic>0.206), and no significant difference was observed between males and females (<italic toggle="yes">p = </italic>0.769). Associations between CSF TMEM119 and age, QAlb, and sex are shown for each of the diagnostic groups, as well as for the overall cohort in Figures <xref rid="dad270240-supinfo-0001" ref-type="">S3–S5</xref>, respectively. No significant association with age or QAlb was found in any of the diagnostic groups. CSF TMEM119 was significantly higher in males than females in the ALS group (<italic toggle="yes">p </italic>= 0.018) but did not differ significantly between sexes in the other diagnostic groups.</p><table-wrap position="float" id="dad270240-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Demographic and clinical characteristics of the diagnostic groups.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Control (<italic toggle="yes">n </italic>= 33<xref rid="dad270240-tbl1-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">AD (<italic toggle="yes">n </italic>= 35<xref rid="dad270240-tbl1-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">ALS (<italic toggle="yes">n </italic>= 33<xref rid="dad270240-tbl1-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">CM (<italic toggle="yes">n </italic>= 24<xref rid="dad270240-tbl1-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">FTLD (<italic toggle="yes">n </italic>= 28<xref rid="dad270240-tbl1-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">LBD (<italic toggle="yes">n </italic>= 21<xref rid="dad270240-tbl1-note-0004" ref-type="table-fn">
+<sup>**</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐value<xref rid="dad270240-tbl1-note-0004" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Age [years]</td><td align="left" rowspan="1" colspan="1">67 (62, 75)</td><td align="left" rowspan="1" colspan="1">73 (65, 78)</td><td align="left" rowspan="1" colspan="1">68 (64, 73)</td><td align="left" rowspan="1" colspan="1">71 (64, 79)</td><td align="left" rowspan="1" colspan="1">68 (64, 72)</td><td align="left" rowspan="1" colspan="1">71 (67, 73)</td><td align="left" rowspan="1" colspan="1">0.368</td></tr><tr><td align="left" rowspan="1" colspan="1">Sex</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">0.026</td></tr><tr><td align="left" rowspan="1" colspan="1">Female</td><td align="left" rowspan="1" colspan="1">23 (70%)</td><td align="left" rowspan="1" colspan="1">21 (60%)</td><td align="left" rowspan="1" colspan="1">13 (39%)</td><td align="left" rowspan="1" colspan="1">15 (63%)</td><td align="left" rowspan="1" colspan="1">15 (54%)</td><td align="left" rowspan="1" colspan="1">6 (29%)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Male</td><td align="left" rowspan="1" colspan="1">10 (30%)</td><td align="left" rowspan="1" colspan="1">14 (40%)</td><td align="left" rowspan="1" colspan="1">20 (61%)</td><td align="left" rowspan="1" colspan="1">9 (38%)</td><td align="left" rowspan="1" colspan="1">13 (46%)</td><td align="left" rowspan="1" colspan="1">15 (71%)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">CSF TMEM119 [ng/mL]</td><td align="left" rowspan="1" colspan="1">2.04 (1.64, 2.54)</td><td align="left" rowspan="1" colspan="1">2.74 (2.44, 3.38)</td><td align="left" rowspan="1" colspan="1">2.53 (1.79, 3.09)</td><td align="left" rowspan="1" colspan="1">1.86 (1.65, 2.40)</td><td align="left" rowspan="1" colspan="1">2.16 (1.87, 2.49)</td><td align="left" rowspan="1" colspan="1">2.21 (1.83, 2.69)</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">QAlb × 10<sup>−3</sup>
+</td><td align="left" rowspan="1" colspan="1">5.75 (4.53, 6.57)</td><td align="left" rowspan="1" colspan="1">5.52 (4.41, 7.29)</td><td align="left" rowspan="1" colspan="1">6.52 (5.48, 8.14)</td><td align="left" rowspan="1" colspan="1">6.48 (4.72, 7.65)</td><td align="left" rowspan="1" colspan="1">6.66 (5.26, 8.21)</td><td align="left" rowspan="1" colspan="1">6.66 (5.34, 8.41)</td><td align="left" rowspan="1" colspan="1">0.136</td></tr><tr><td align="left" rowspan="1" colspan="1">CSF Aβ1–42 [pg/mL]</td><td align="left" rowspan="1" colspan="1">1009 (828, 1167)</td><td align="left" rowspan="1" colspan="1">435 (359, 500)</td><td align="left" rowspan="1" colspan="1">1103 (884, 1234)</td><td align="left" rowspan="1" colspan="1">1078 (805, 1239)</td><td align="left" rowspan="1" colspan="1">969 (678, 1155)</td><td align="left" rowspan="1" colspan="1">900 (613, 1100)</td><td align="left" rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">CSF t‐tau [pg/mL]</td><td align="left" rowspan="1" colspan="1">253 (209, 327)</td><td align="left" rowspan="1" colspan="1">727 (634, 991)</td><td align="left" rowspan="1" colspan="1">278 (192, 380)</td><td align="left" rowspan="1" colspan="1">266 (186, 313)</td><td align="left" rowspan="1" colspan="1">381 (277, 595)</td><td align="left" rowspan="1" colspan="1">297 (251, 376)</td><td align="left" rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">CSF p‐tau [pg/mL]</td><td align="left" rowspan="1" colspan="1">58 (44, 81)</td><td align="left" rowspan="1" colspan="1">118 (97, 144)</td><td align="left" rowspan="1" colspan="1">41 (27, 60)</td><td align="left" rowspan="1" colspan="1">45 (32, 70)</td><td align="left" rowspan="1" colspan="1">48 (39, 59)</td><td align="left" rowspan="1" colspan="1">53 (46, 62)</td><td align="left" rowspan="1" colspan="1">&lt;0.001</td></tr></tbody></table><table-wrap-foot><fn id="dad270240-tbl1-note-0001"><p>
+<italic toggle="yes">Note</italic>: CSF Aβ1–42 and CSF t‐tau data were missing for 12 controls, two ALS, eight CM, and three FTD patients. CSF p‐tau data were missing for 13 controls, two ALS, eight CM, four FTD, and five LBD patients.</p></fn><fn id="dad270240-tbl1-note-0002"><p>Abbreviations: AD, Alzheimer's disease; ALS, amyotrophic lateral sclerosis; CM, cerebral microangiopathy; CSF, cerebrospinal fluid; FTLD, frontotemporal lobar degeneration; IQR, interquartile range; LBD, Lewy body diseases; QAlb, albumin CSF/serum quotient; TMEM119, transmembrane protein 119.</p></fn><fn id="dad270240-tbl1-note-0003"><label>*</label><p>Median (IQR); <italic toggle="yes">n</italic> (%).</p></fn><fn id="dad270240-tbl1-note-0004"><label>**</label><p>Kruskal–Wallis rank‐sum test, Pearson's chi‐squared test.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="dad270240-sec-0160"><label>3.3</label><title>CSF TMEM119 concentrations in the diagnostic groups</title><p>CSF TMEM119 levels were found to be significantly higher in the AD group when compared to the control (<italic toggle="yes">p = </italic>0.004), CM (<italic toggle="yes">p = </italic>0.005), and FTLD (<italic toggle="yes">p = </italic>0.023) groups (Figure <xref rid="dad270240-fig-0001" ref-type="fig">1</xref>). The second‐highest CSF TMEM119 levels were observed in the ALS group, with a median concentration of 2.53 ng/mL (IQR: 1.79 to 3.09). When the AD group was stratified into MCI‐AD and ADD groups, the CSF TMEM119 concentration was found to be significantly higher in both the MCI‐AD (<italic toggle="yes">p = </italic>0.018) and ADD (<italic toggle="yes">p </italic>= 0.001) groups compared to the control group. An ANCOVA was conducted on log<sub>2</sub>‐transformed CSF TMEM119 levels to control for sex, <italic toggle="yes">F</italic>(5, 167) = 3.89, <italic toggle="yes">p </italic>= 0.002 (Table <xref rid="dad270240-supinfo-0001" ref-type="">S2</xref>). A post hoc Tukey HSD test revealed significantly higher levels of CSF TMEM119 in the AD group compared to the control (<italic toggle="yes">p = </italic>0.008), CM (<italic toggle="yes">p = </italic>0.008), and FTLD (<italic toggle="yes">p = </italic>0.013) groups (Table <xref rid="dad270240-supinfo-0001" ref-type="">S3</xref>). For the comparison between the control and AD subgroups, sex was not shown to have a significant effect on the outcome, <italic toggle="yes">F</italic>(1, 64) = 0.10, <italic toggle="yes">p </italic>= 0.748 (Table <xref rid="dad270240-supinfo-0001" ref-type="">S4</xref>).</p><fig position="float" fig-type="FIGURE" id="dad270240-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Levels of CSF TMEM119 across diagnostic groups. (A) CSF TMEM119 levels in all diagnostic groups. Levels in the AD group were significantly different than in the control (<italic toggle="yes">p</italic> = 0.004), CM (<italic toggle="yes">p</italic> = 0.005), and FTLD (<italic toggle="yes">p</italic> = 0.023) groups. (B) CSF TMEM119 levels in control and stratified AD groups. TMEM119 levels were elevated in the MCI‐AD group (<italic toggle="yes">n</italic> = 12) compared to controls (<italic toggle="yes">p</italic> = 0.018) and in the ADD group (<italic toggle="yes">n</italic> = 23) compared to controls (<italic toggle="yes">p</italic> = 0.001). Concentrations are displayed as box plots, with points representing individual patients. The median and IQR are illustrated, with whiskers extending to ±1.5 × IQR. AD, Alzheimer's disease; ADD, Alzheimer's disease dementia; ALS, amyotrophic lateral sclerosis; CSF, cerebrospinal fluid; CM, cerebral microangiopathy; FTLD, frontotemporal lobar degeneration; IQR, interquartile range; LBD, Lewy body diseases; MCI‐AD, mild cognitive impairment‐Alzheimer's disease; TMEM119, transmembrane protein 119.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="DAD2-18-e70240-g002.jpg"/></fig></sec><sec id="dad270240-sec-0170"><label>3.4</label><title>Association of TMEM119 with dementia scores and AD biomarkers (AD groups only)</title><p>The AD group was subdivided into MCI‐AD and ADD groups. Clinical characteristics of the overall group specific to AD are summarized in Table <xref rid="dad270240-tbl-0002" ref-type="table">2</xref>. Linear regression analysis was performed to identify associations between CSF TMEM119 and specific AD parameters in the overall group and in the MCI‐AD and ADD subgroups (Figure <xref rid="dad270240-fig-0002" ref-type="fig">2</xref>). In the overall AD group, CDR‐SOB (<italic toggle="yes">β </italic>= 0.103, <italic toggle="yes">p </italic>= 0.013, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.174), CSF t‐tau (<italic toggle="yes">β </italic>= 0.001, <italic toggle="yes">p </italic>= 0.001, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.275), and CSF p‐tau (<italic toggle="yes">β </italic>= 0.008, <italic toggle="yes">p </italic>= 0.049, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.113) were significantly associated with CSF TMEM119 levels. In the ADD subgroup, there was a significant association between CSF TMEM119 and CDR‐SOB (<italic toggle="yes">β </italic>= 0.130, <italic toggle="yes">p </italic>= 0.024, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.221) and CSF t‐tau (<italic toggle="yes">β </italic>= 0.001, <italic toggle="yes">p </italic>= 0.008, <italic toggle="yes">R</italic>
+<sup>2</sup> = 0.293). No significant associations between CSF TMEM119 and specific AD parameters were observed in the MCI‐AD subgroup (Figure <xref rid="dad270240-fig-0002" ref-type="fig">2</xref>).</p><table-wrap position="float" id="dad270240-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Clinical characteristics of the Alzheimer's disease group.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Overall (<italic toggle="yes">n </italic>= 35<xref rid="dad270240-tbl2-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">MCI‐AD (<italic toggle="yes">n </italic>= 12<xref rid="dad270240-tbl2-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">ADD (<italic toggle="yes">n </italic>= 23<xref rid="dad270240-tbl2-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>)</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic> value<xref rid="dad270240-tbl2-note-0004" ref-type="table-fn">
+<sup>**</sup>
+</xref> (MCI‐AD vs ADD)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Age [years]</td><td align="left" rowspan="1" colspan="1">73 (65, 78)</td><td align="left" rowspan="1" colspan="1">71 (66, 78)</td><td align="left" rowspan="1" colspan="1">74 (66, 78)</td><td align="left" rowspan="1" colspan="1">0.745</td></tr><tr><td align="left" rowspan="1" colspan="1">Sex</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">0.884</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Female</td><td align="left" rowspan="1" colspan="1">21 (60%)</td><td align="left" rowspan="1" colspan="1">7 (58%)</td><td align="left" rowspan="1" colspan="1">14 (61%)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Male</td><td align="left" rowspan="1" colspan="1">14 (40%)</td><td align="left" rowspan="1" colspan="1">5 (42%)</td><td align="left" rowspan="1" colspan="1">9 (39%)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">CDR‐SOB</td><td align="left" rowspan="1" colspan="1">3.5 (2.0, 5.8)</td><td align="left" rowspan="1" colspan="1">1.8 (1.3, 2.0)</td><td align="left" rowspan="1" colspan="1">4.0 (3.5, 7.0)</td><td align="left" rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">MMSE</td><td align="left" rowspan="1" colspan="1">19 (16, 25)</td><td align="left" rowspan="1" colspan="1">24 (19, 25)</td><td align="left" rowspan="1" colspan="1">18 (13, 24)</td><td align="left" rowspan="1" colspan="1">0.062</td></tr><tr><td align="left" rowspan="1" colspan="1">CSF t‐tau [pg/mL]</td><td align="left" rowspan="1" colspan="1">727 (634, 991)</td><td align="left" rowspan="1" colspan="1">803 (625, 955)</td><td align="left" rowspan="1" colspan="1">706 (634, 998)</td><td align="left" rowspan="1" colspan="1">0.960</td></tr><tr><td align="left" rowspan="1" colspan="1">CSF p‐tau181 [pg/mL]</td><td align="left" rowspan="1" colspan="1">118 (97, 144)</td><td align="left" rowspan="1" colspan="1">132 (99, 150)</td><td align="left" rowspan="1" colspan="1">109 (97, 140)</td><td align="left" rowspan="1" colspan="1">0.614</td></tr><tr><td align="left" rowspan="1" colspan="1">CSF Aβ1–42 [pg/mL]</td><td align="left" rowspan="1" colspan="1">435 (359, 500)</td><td align="left" rowspan="1" colspan="1">451 (381, 507)</td><td align="left" rowspan="1" colspan="1">424 (350, 487)</td><td align="left" rowspan="1" colspan="1">0.504</td></tr></tbody></table><table-wrap-foot><fn id="dad270240-tbl2-note-0001"><p>
+<italic toggle="yes">Note</italic>: Overall refers to all AD patients.</p></fn><fn id="dad270240-tbl2-note-0002"><p>Abbreviations: AD, Alzheimer's disease; ADD, Alzheimer's disease dementia; Aβ, amyloid beta; CDR‐SOB, clinical dementia rating sum of boxes; CSF, cerebrospinal fluid; IQR, interquartile range; MCI‐AD, mild cognitive impairment‐Alzheimer's disease; MMSE, Mini‐Mental State Examination; p‐tau181, phosphorylated tau 181; TMEM119, transmembrane protein 119; t‐tau, total tau.</p></fn><fn id="dad270240-tbl2-note-0003"><label>*</label><p>Median (IQR); <italic toggle="yes">n</italic> (%).</p></fn><fn id="dad270240-tbl2-note-0004"><label>**</label><p>Wilcoxon rank‐sum exact test, Pearson's chi‐squared test, Wilcoxon rank‐sum test.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><fig position="float" fig-type="FIGURE" id="dad270240-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Simple linear regression analysis between CSF, TMEM119, and AD parameters in 35 AD patients. Regression lines and statistics are in black for the overall cohort (<italic toggle="yes">n</italic> = 35), pink for the MCI‐AD subgroup (<italic toggle="yes">n</italic> = 12), and blue for the ADD subgroup (<italic toggle="yes">n</italic> = 23). Numbers in brackets represent the 95% CI. (A) Association between CSF, TMEM119, and CSF t‐tau. (B) Association between CSF, TMEM119, and CSF p‐tau181. (C) Association between CSF, TMEM119, and CSF Aβ1‐42. (D) Association between CSF, TMEM119, and CDR‐SOB score. (E) Association between CSF, TMEM119, and MMSE score. Aβ, amyloid‐β; AD, Alzheimer's disease; ADD, Alzheimer's disease dementia; CDR‐SOB, clinical dementia rating sum of boxes; CSF, cerebrospinal fluid; CI, confidence interval; MCI‐AD, mild cognitive impairment‐Alzheimer's disease; MMSE, Mini‐Mental State Examination; p‐tau181, phosphorylated tau 181; t‐tau, total tau; TMEM119, transmembrane protein 119.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="DAD2-18-e70240-g003.jpg"/></fig></sec><sec id="dad270240-sec-0180"><label>3.5</label><title>ROC analysis of CSF TMEM119</title><p>A ROC analysis was performed in order to determine the potential of CSF TMEM119 to discriminate between the overall AD and control groups (Figure <xref rid="dad270240-fig-0003" ref-type="fig">3</xref>). Using Youden's Index, the optimal cut‐off value was determined to be 2.596 ng/mL, corresponding to a specificity of 84.8% and a sensitivity of 65.7%. The results of ROC analysis for the discrimination between the AD and other diagnostic groups may be found in Figure <xref rid="dad270240-supinfo-0001" ref-type="">S6</xref> and Table <xref rid="dad270240-supinfo-0001" ref-type="">S5</xref>. The lowest area under the curve (AUC) was for the discrimination between AD and ALS (0.618), while the AUC for the discrimination between AD and all other diagnostic groups was 0.721.</p><fig position="float" fig-type="FIGURE" id="dad270240-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>ROC curve for CSF TMEM119 when used to discriminate AD patients from controls. AD, Alzheimer's disease; AUC, area under the curve; CSF, cerebrospinal fluid; ROC, receiver operating characteristic; TMEM119, transmembrane protein 119; t‐tau, total tau.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="DAD2-18-e70240-g001.jpg"/></fig></sec></sec><sec id="dad270240-sec-0190"><label>4</label><title>DISCUSSION</title><p>In this study, we report on the measurement of CSF levels of the microglial marker TMEM119. Testing of assay performance demonstrated results indicative of high reliability and stability. Following validation, the ELISA was used to determine the levels of TMEM119 in the CSF of patients across six diagnostic groups. Elevated levels of CSF TMEM119 were seen in the AD group compared to the control, CM, and FTLD groups. It has been shown that <italic toggle="yes">TMEM119</italic> mRNA expression can be increased in the frontal cortex of AD brains compared to non‐AD brains.<xref rid="dad270240-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> So far, immunohistochemistry staining has shown either no significant difference in protein expression of TMEM119 between AD and non‐AD brains or even a reduction in the number of TMEM119‐positive cells in AD brains.<xref rid="dad270240-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="dad270240-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="dad270240-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="dad270240-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> A recent study using AD mouse models showed that the expression of TMEM119 seems to be spatiotemporally regulated, with reduced expression in microglia in close proximity to Aβ plaques and time‐lapse imaging showing a gradual decrease of TMEM119 fluorescence intensity in the presence of Aβ.<xref rid="dad270240-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> It has been proposed that TMEM119 is part of the transcriptional signature for homeostatic microglia, with a downregulation being observed in DAM states.<xref rid="dad270240-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="dad270240-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> TMEM119 deficiency has been shown to lead to an accelerated transition of microglia to a DAM state, whereas overexpression led to ameliorated cognitive deficits and a reduction in Aβ deposition in an AD mouse model.<xref rid="dad270240-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>
+</p><p>It has been suggested that the discrepancy between mRNA and protein expression determined by immunohistochemistry at the tissue level may be explained by the cleavage of the protein into extracellular and intracellular domain fragments, resulting in the secreted extracellular domain becoming detectable in CSF.<xref rid="dad270240-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> The upregulation of mRNA and subsequent cleavage of the protein into intra‐ and extracellular domains could account for the increase in TMEM119 that was observed in the CSF of AD patients. An alternative explanation could be the degeneration of microglia resulting in an increased release of TMEM119 into the interstitial fluid and, subsequently, the CSF. This interpretation is supported by evidence of microglial degeneration in certain brain regions at later Braak stages of AD.<xref rid="dad270240-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> Changes to levels of CSF TMEM119 may therefore be indicative of a transition away from a homeostatic state. In future experiments, it would be advantageous to determine which exact epitopes of TMEM119 are detected in the CSF in order to gain a better understanding of the measured protein (fragment).</p><p>Interestingly, the second‐highest TMEM119 CSF levels were found in the ALS group corroborating data from a recent study showing an increase in TMEM119‐positive cells in the brains of patients with ALS compared to controls.<xref rid="dad270240-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>
+</p><p>When the AD group was stratified into ADD and MCI‐AD subgroups, higher levels of CSF TMEM119 were seen in both of the subgroups when compared to the controls. The observation of higher levels in not only the ADD group but also the MCI‐AD group may indicate that changes in microglial activity already occur in earlier stages of the disease. This notion is supported by evidence that proinflammatory proteins associated with microglia have been demonstrated to be elevated in MCI.<xref rid="dad270240-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> Levels of sTREM2, another microglial marker, have also been shown to be increased in MCI‐AD and even in presymptomatic gene carriers, indicating early microglial changes.<xref rid="dad270240-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="dad270240-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>
+</p><p>As CSF levels of TMEM119 were elevated in the AD cohort, we analyzed the association between CSF TMEM119 and the ATN biomarkers CSF t‐tau, p‐tau181, and Aβ1–42.43 CSF levels of TMEM119 were found to be weakly associated with CSF levels of t‐tau and p‐tau181 but not Aβ1–42 in the overall cohort. The positive association with t‐tau and p‐tau181 in the overall AD group support a potential link between neuroinflammation and the processes of neurodegeneration and tau pathology and mirrors what has been observed in several studies on sTREM2.<xref rid="dad270240-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="dad270240-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> However, the weak relationship also reflects the differences between the neuroinflammatory microglia marker TMEM119 and the established AD biomarkers. It has been shown that tau pathology can induce microglial activation, and it has been additionally suggested that activated microglia may lead to an exacerbation of tau pathology by damaging axons and dendrites.<xref rid="dad270240-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>, <xref rid="dad270240-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref> Examining biomarkers for both tau pathology and microglia together may therefore help to give a clearer picture of pathological processes occurring in neurodegenerative diseases. Analysis of the individual MCI‐AD and ADD subgroups revealed a significant relationship between CSF TMEM119 and CDR‐SOB and CSF t‐tau in the ADD subgroup, but not in the MCI‐AD subgroup. The discrepancy between the subgroups and overall AD cohort may be due to the small sample size of the subgroups.</p><p>ROC analysis and the optimization of the Youden Index was used to calculate a cut‐off value of 2.596 ng/mL for the discrimination between patients with AD and controls. A sensitivity of 65.7% and specificity of 84.8% were determined when using this concentration. The AUC was determined to be 0.777. ROC analysis revealed a lower AUC for CSF TMEM119 than what was previously reported for core ATN biomarkers,<xref rid="dad270240-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> indicating that on its own CSF TMEM119 may not provide substantial diagnostic value. The AUC was 0.721 for the discrimination between AD and all other diagnostic groups and was the lowest (0.618) for the discrimination between AD and ALS, underlining that CSF TMEM119 may not be suitable for differentiating between different neurodegenerative diseases. However, a recent study evaluating a variety of CSF and plasma biomarkers found that protein aptamers of TREM2 also showed a predictive ability for AD status, supporting the idea that microglial markers may have additional value in the differential diagnosis of AD.<xref rid="dad270240-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> In future analyses, it may be beneficial to evaluate the discrimination potential of CSF TMEM119 when used in conjunction with other established biomarkers to evaluate whether the predictive power could be improved. Furthermore, CSF TMEM119 could be used as an objective readout on microglia activity/stability in AD therapeutic studies and the monitoring of AD patients already receiving US Food and Drug Administration‐ and European Medicines Agency‐approved therapies, complementing the panel of fluid neuronal and astrocytic markers currently in use. Further validation of CSF TMEM119 could be done with comparisons to <italic toggle="yes">post mortem</italic> data, and it will be important in future studies to assess the relationship of TMEM119 with other microglial biomarkers such as sTREM2 and TSPO PET.<xref rid="dad270240-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="dad270240-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>, <xref rid="dad270240-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>
+</p><p>The strengths of our study include (i) the validation and application of an easy‐to‐use ELISA kit to measure CSF levels of the microglial marker TMEM119, (ii) the measurement of CSF TMEM119 levels in patients with a variety of neurodegenerative diseases, and (iii) the comparison of CSF levels of TMEM119 with other AD biomarkers.</p><p>Some limitations include having a lower number of MCI patients compared to those with ADD and a lack of longitudinal samples that would allow for the observation of changes in CSF TMEM119 in the same patients over the course of disease. The lack of cognitive assessment and measurement of AD biomarkers for patients in all diagnostic groups represents another limitation. It is also important to note that although TMEM119 is expressed in the CNS predominantly by microglia, it is also known to be expressed in several peripheral tissues, such as bone and brown adipose tissue.<xref rid="dad270240-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>, <xref rid="dad270240-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref> While it is assumed that the group differences in CSF are driven by microglial expression, the development of a blood‐based assay sensitive enough to detect TMEM119 would help to exclude the possibility that they were influenced by peripheral expression.</p><p>In conclusion, we observed increased CSF TMEM119 levels in AD patients at both early MCI and later ADD stages compared to controls, indicating that it may have use as a fluid biomarker for microglia status in AD. The measurement of TMEM119 and other microglial markers could be used to expand upon the current ATN biomarkers and provide valuable information on inflammation, another pertinent aspect of AD pathology.</p></sec><sec sec-type="COI-statement" id="dad270240-sec-0210"><title>CONFLICT OF INTEREST STATEMENT</title><p>Mona Laible received lecture fees from AstraZeneca and was a member of an advisory board of Servier, outside the submitted work. Hayrettin Tumani received honoraria as a consultant/speaker and/or for events sponsored by Alexion, Bayer, Biogen, Bristol Myers Squibb, Celgene, Diamed, Fresenius, Fujirebio, GlaxoSmithKline, Horizon, Janssen‐Cilag, Merck, Novartis, Roche, Sanofi‐Genzyme, Siemens, Teva, and Viatris. No conflicts are relevant to the present study. All other authors report no competing interests.</p></sec><sec id="dad270240-sec-0220"><title>CONSENT STATEMENT</title><p>The study was approved by the Ethics Committee of Ulm University (approval number 20/10) and conducted following the Declaration of Helsinki. All patients or their legal proxies gave their written informed consent for inclusion in the study.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="dad270240-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="dad270240-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="DAD2-18-e70240-s002.zip" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="dad270240-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="DAD2-18-e70240-s001.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="dad270240-sec-0200"><title>ACKNOWLEDGMENTS</title><p>We are grateful to all patients participating in this study, to their caregivers, and to the healthcare professionals involved in the care of patients. We also thank the technicians of the biobank of the Department of Neurology in Ulm (Alice Beer, Sandra Hübsch, and Dagmar Schattauer) for their help with providing the samples. The study was supported in part by the German Center for Neurodegenerative Diseases (DZNE), Ulm University, and Chemische Fabrik Karl Bucher GmbH. Markus Otto received support from German Federal Ministry of Education and Research (FTLDc 01GI1007A), the EU Joint Programme‐Neurodegenerative Disease Networks Genfi‐Prox, the EU (MOODMARKER, PREDICT‐FTD), the German Research Foundation/DFG (SFB1279), the foundation of the state Baden‐Württemberg (D.3830), Boehringer Ingelheim Ulm University BioCenter (D.5009), and the Thierry Latran Foundation.</p><p>Open access funding enabled and organized by Projekt DEAL.</p></ack><ref-list id="dad270240-bibl-0001"><title>REFERENCES</title><ref id="dad270240-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="dad270240-cite-0002">
+<string-name name-style="western">
+<surname>Winblad</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amouyel</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andrieu</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Defeating Alzheimer's disease and other dementias: a priority for European science and society</article-title>. <source>Lancet Neurol</source>. <year>2016</year>;<volume>15</volume>(<issue>5</issue>):<fpage>455</fpage>–<lpage>532</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(16)00062-4</pub-id>
+<pub-id pub-id-type="pmid">26987701</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="dad270240-cite-0003">
+<string-name name-style="western">
+<surname>Aisen</surname>
+<given-names>PS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cummings</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jack</surname>
+<given-names>CR</given-names>
+</string-name>, et al. <article-title>On the path to 2025: understanding the Alzheimer's disease continuum</article-title>. <source>Alzheimers Res Ther</source>. <year>2017</year>;<volume>9</volume>(<issue>1</issue>):<fpage>60</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13195-017-0283-5</pub-id>
+<pub-id pub-id-type="pmid">28793924</pub-id>
+<pub-id pub-id-type="pmcid">PMC5549378</pub-id></mixed-citation></ref><ref id="dad270240-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="dad270240-cite-0004">
+<string-name name-style="western">
+<surname>Rafii</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aisen</surname>
+<given-names>PS</given-names>
+</string-name>. <article-title>Detection and treatment of Alzheimer's disease in its preclinical stage</article-title>. <source>Nat Aging</source>. <year>2023</year>;<volume>3</volume>(<issue>5</issue>):<fpage>520</fpage>–<lpage>531</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s43587-023-00410-4</pub-id>
+<pub-id pub-id-type="pmid">37202518</pub-id>
+<pub-id pub-id-type="pmcid">PMC11110912</pub-id></mixed-citation></ref><ref id="dad270240-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="dad270240-cite-0005">
+<string-name name-style="western">
+<surname>Braak</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Braak</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Neuropathological staging of Alzheimer‐related changes</article-title>. <source>Acta Neuropathol</source>. <year>1991</year>;<volume>82</volume>(<issue>4</issue>):<fpage>239</fpage>–<lpage>259</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF00308809</pub-id>
+<pub-id pub-id-type="pmid">1759558</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="dad270240-cite-0006">
+<string-name name-style="western">
+<surname>Jack</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andrews</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beach</surname>
+<given-names>TG</given-names>
+</string-name>, et al. <article-title>Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>20</volume>(<issue>8</issue>):<fpage>5143</fpage>–<lpage>5169</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alz.13859</pub-id>
+<pub-id pub-id-type="pmid">38934362</pub-id>
+<pub-id pub-id-type="pmcid">PMC11350039</pub-id></mixed-citation></ref><ref id="dad270240-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="dad270240-cite-0007">
+<string-name name-style="western">
+<surname>Heneka</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carson</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>El Khoury</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Neuroinflammation in Alzheimer's disease</article-title>. <source>Lancet Neurol</source>. <year>2015</year>;<volume>14</volume>(<issue>4</issue>):<fpage>388</fpage>–<lpage>405</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(15)70016-5</pub-id>
+<pub-id pub-id-type="pmid">25792098</pub-id>
+<pub-id pub-id-type="pmcid">PMC5909703</pub-id></mixed-citation></ref><ref id="dad270240-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="dad270240-cite-0008">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barres</surname>
+<given-names>BA</given-names>
+</string-name>. <article-title>Microglia and macrophages in brain homeostasis and disease</article-title>. <source>Nat Rev Immunol</source>. <year>2018</year>;<volume>18</volume>(<issue>4</issue>):<fpage>225</fpage>–<lpage>242</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nri.2017.125</pub-id>
+<pub-id pub-id-type="pmid">29151590</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="dad270240-cite-0009">
+<string-name name-style="western">
+<surname>Hamelin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lagarde</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dorothée</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Early and protective microglial activation in Alzheimer's disease: a prospective study using 18F‐DPA‐714 PET imaging</article-title>. <source>Brain</source>. <year>2016</year>;<volume>139</volume>(<issue>4</issue>):<fpage>1252</fpage>–<lpage>1264</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/aww017</pub-id>
+<pub-id pub-id-type="pmid">26984188</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="dad270240-cite-0010">
+<string-name name-style="western">
+<surname>Leng</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Edison</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Neuroinflammation and microglial activation in Alzheimer disease: where do we go from here?</article-title>
+<source>Nat Rev Neurol</source>. <year>2021</year>;<volume>17</volume>(<issue>3</issue>):<fpage>157</fpage>–<lpage>172</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41582-020-00435-y</pub-id>
+<pub-id pub-id-type="pmid">33318676</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="dad270240-cite-0011">
+<string-name name-style="western">
+<surname>Karch</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goate</surname>
+<given-names>AM</given-names>
+</string-name>. <article-title>Alzheimer's disease risk genes and mechanisms of disease pathogenesis</article-title>. <source>Biol Psychiatry</source>. <year>2015</year>;<volume>77</volume>(<issue>1</issue>):<fpage>43</fpage>–<lpage>51</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.biopsych.2014.05.006</pub-id>
+<pub-id pub-id-type="pmid">24951455</pub-id>
+<pub-id pub-id-type="pmcid">PMC4234692</pub-id></mixed-citation></ref><ref id="dad270240-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="dad270240-cite-0012">
+<string-name name-style="western">
+<surname>Pumo</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Legeay</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>The dichotomous activities of microglia: a potential driver for phenotypic heterogeneity in Alzheimer's disease</article-title>. <source>Brain Res</source>. <year>2024</year>;<volume>1832</volume>:<elocation-id>148817</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.brainres.2024.148817</pub-id>
+<pub-id pub-id-type="pmid">38395249</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="dad270240-cite-0013">
+<string-name name-style="western">
+<surname>Guerreiro</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wojtas</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bras</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>TREM2 variants in AD</article-title>. <source>N Engl J Med</source>. <year>2013</year>;<volume>368</volume>(<issue>2</issue>):<fpage>117</fpage>–<lpage>127</lpage>. doi:<pub-id pub-id-type="doi">10.1056/NEJMoa1211851.TREM2</pub-id>
+<pub-id pub-id-type="pmid">23150934</pub-id>
+<pub-id pub-id-type="pmcid">PMC3631573</pub-id></mixed-citation></ref><ref id="dad270240-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="dad270240-cite-0014">
+<string-name name-style="western">
+<surname>Heslegrave</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heywood</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paterson</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Increased cerebrospinal fluid soluble TREM2 concentration in Alzheimer's disease</article-title>. <source>Mol Neurodegener</source>. <year>2016</year>;<volume>11</volume>(<issue>1</issue>):<fpage>3</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13024-016-0071-x</pub-id>
+<pub-id pub-id-type="pmid">26754172</pub-id>
+<pub-id pub-id-type="pmcid">PMC4709982</pub-id></mixed-citation></ref><ref id="dad270240-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="dad270240-cite-0015">
+<string-name name-style="western">
+<surname>Piccio</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deming</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Del‐Águila</surname>
+<given-names>JL</given-names>
+</string-name>, et al. <article-title>Cerebrospinal fluid soluble TREM2 is higher in Alzheimer disease and associated with mutation status</article-title>. <source>Acta Neuropathol</source>. <year>2016</year>;<volume>131</volume>(<issue>6</issue>):<fpage>925</fpage>–<lpage>933</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00401-016-1533-5</pub-id>
+<pub-id pub-id-type="pmid">26754641</pub-id>
+<pub-id pub-id-type="pmcid">PMC4867123</pub-id></mixed-citation></ref><ref id="dad270240-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="dad270240-cite-0016">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhan</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pei</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Association of soluble TREM2 with Alzheimer's disease and mild cognitive impairment: a systematic review and meta‐analysis</article-title>. <source>Front Aging Neurosci</source>. <year>2024</year>;<volume>16</volume>:<elocation-id>1407980</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fnagi.2024.1407980</pub-id>
+<pub-id pub-id-type="pmid">38841103</pub-id>
+<pub-id pub-id-type="pmcid">PMC11150578</pub-id></mixed-citation></ref><ref id="dad270240-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="dad270240-cite-0017">
+<string-name name-style="western">
+<surname>Silvin</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Uderhardt</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piot</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Dual ontogeny of disease‐associated microglia and disease inflammatory macrophages in aging and neurodegeneration</article-title>. <source>Immunity</source>. <year>2022</year>;<volume>55</volume>(<issue>8</issue>):<fpage>1448</fpage>–<lpage>1465</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.immuni.2022.07.004</pub-id>
+<pub-id pub-id-type="pmid">35931085</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="dad270240-cite-0018">
+<string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>FC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liddelow</surname>
+<given-names>SA</given-names>
+</string-name>, et al. <article-title>New tools for studying microglia in the mouse and human CNS</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2016</year>;<volume>113</volume>(<issue>12</issue>):<fpage>e1738</fpage>–<lpage>e1746</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1525528113</pub-id>
+<pub-id pub-id-type="pmid">26884166</pub-id>
+<pub-id pub-id-type="pmcid">PMC4812770</pub-id></mixed-citation></ref><ref id="dad270240-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="dad270240-cite-0019">
+<string-name name-style="western">
+<surname>Satoh</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kino</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Asahina</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>TMEM119 marks a subset of microglia in the human brain</article-title>. <source>Neuropathology</source>. <year>2016</year>;<volume>36</volume>(<issue>1</issue>):<fpage>39</fpage>–<lpage>49</lpage>. doi:<pub-id pub-id-type="doi">10.1111/neup.12235</pub-id>
+<pub-id pub-id-type="pmid">26250788</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="dad270240-cite-0020">
+<string-name name-style="western">
+<surname>Jay</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>PJ</given-names>
+</string-name>, et al. <article-title>TREM2 deficiency eliminates TREM2+ inflammatory macrophages and ameliorates pathology in Alzheimer's disease mouse models</article-title>. <source>J Exp Med</source>. <year>2015</year>;<volume>212</volume>(<issue>3</issue>):<fpage>287</fpage>–<lpage>295</lpage>. doi:<pub-id pub-id-type="doi">10.1084/jem.20142322</pub-id>
+<pub-id pub-id-type="pmid">25732305</pub-id>
+<pub-id pub-id-type="pmcid">PMC4354365</pub-id></mixed-citation></ref><ref id="dad270240-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="dad270240-cite-0021">
+<string-name name-style="western">
+<surname>Haage</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Semtner</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vidal</surname>
+<given-names>RO</given-names>
+</string-name>, et al. <article-title>Comprehensive gene expression meta‐analysis identifies signature genes that distinguish microglia from peripheral monocytes/macrophages in health and glioma</article-title>. <source>Acta Neuropathol Commun</source>. <year>2019</year>;<volume>7</volume>(<issue>1</issue>):<fpage>20</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s40478-019-0665-y</pub-id>
+<pub-id pub-id-type="pmid">30764877</pub-id>
+<pub-id pub-id-type="pmcid">PMC6376799</pub-id></mixed-citation></ref><ref id="dad270240-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="dad270240-cite-0022">
+<string-name name-style="western">
+<surname>Keren‐Shaul</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spinrad</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>A unique microglia type associated with restricting development of Alzheimer's disease</article-title>. <source>Cell</source>. <year>2017</year>;<volume>169</volume>(<issue>7</issue>):<fpage>1276</fpage>–<lpage>1290</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cell.2017.05.018</pub-id>
+<pub-id pub-id-type="pmid">28602351</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="dad270240-cite-0023">
+<string-name name-style="western">
+<surname>Paolicelli</surname>
+<given-names>RC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sierra</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stevens</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Microglia states and nomenclature: a field at its crossroads</article-title>. <source>Neuron</source>. <year>2022</year>;<volume>110</volume>(<issue>21</issue>):<fpage>3458</fpage>–<lpage>3483</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuron.2022.10.020</pub-id>
+<pub-id pub-id-type="pmid">36327895</pub-id>
+<pub-id pub-id-type="pmcid">PMC9999291</pub-id></mixed-citation></ref><ref id="dad270240-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="dad270240-cite-0024">
+<string-name name-style="western">
+<surname>Satoh</surname>
+<given-names>JI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kino</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yanaizu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ishida</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saito</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Microglia express TMEM119 in the brains of Nasu‐Hakola disease</article-title>. <source>Intractable Rare Dis Res</source>. <year>2019</year>;<volume>8</volume>(<issue>4</issue>):<fpage>260</fpage>–<lpage>265</lpage>. doi:<pub-id pub-id-type="doi">10.5582/irdr.2019.01123</pub-id>
+<pub-id pub-id-type="pmid">31890453</pub-id>
+<pub-id pub-id-type="pmcid">PMC6929589</pub-id></mixed-citation></ref><ref id="dad270240-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="dad270240-cite-0025">
+<string-name name-style="western">
+<surname>Kenkhuis</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Somarakis</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kleindouwel</surname>
+<given-names>LRT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Roon‐Mom</surname>
+<given-names>WMC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Höllt</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van der Weerd</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Co‐expression patterns of microglia markers Iba1, TMEM119, and P2RY12 in Alzheimer's disease</article-title>. <source>Neurobiol Dis</source>. <year>2022</year>;<volume>167</volume>:<elocation-id>105684</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.nbd.2022.105684</pub-id>
+<pub-id pub-id-type="pmid">35247551</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="dad270240-cite-0026">
+<string-name name-style="western">
+<surname>Swanson</surname>
+<given-names>MEV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scotter</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smyth</surname>
+<given-names>LCD</given-names>
+</string-name>, et al. <article-title>Identification of a dysfunctional microglial population in human Alzheimer's disease cortex using novel single‐cell histology image analysis</article-title>. <source>Acta Neuropathol Commun</source>. <year>2020</year>;<volume>8</volume>(<issue>1</issue>):<fpage>170</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s40478-020-01047-9</pub-id>
+<pub-id pub-id-type="pmid">33081847</pub-id>
+<pub-id pub-id-type="pmcid">PMC7576851</pub-id></mixed-citation></ref><ref id="dad270240-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="dad270240-cite-0027">
+<string-name name-style="western">
+<surname>Togawa</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ayaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yoshii</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sawamoto</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Takahashi</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>TMEM119‐positive microglia were increased in the brains of patients with amyotrophic lateral sclerosis</article-title>. <source>Neurosci Lett</source>. <year>2024</year>;<volume>833</volume>:<elocation-id>137829</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.neulet.2024.137829</pub-id>
+<pub-id pub-id-type="pmid">38788796</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="dad270240-cite-0028">
+<string-name name-style="western">
+<surname>Bohnert</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seiffert</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trella</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>TMEM119 as a specific marker of microglia reaction in traumatic brain injury in postmortem examination</article-title>. <source>Int J Legal Med</source>. <year>2020</year>;<volume>134</volume>(<issue>6</issue>):<fpage>2167</fpage>–<lpage>2176</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00414-020-02384-z</pub-id>
+<pub-id pub-id-type="pmid">32719959</pub-id>
+<pub-id pub-id-type="pmcid">PMC7578160</pub-id></mixed-citation></ref><ref id="dad270240-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="dad270240-cite-0029">
+<string-name name-style="western">
+<surname>Cattaneo</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Messinger</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lamllari</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>TMEM119‐positive microglial cells in cerebrospinal fluid, a potential new marker for neuroinflammatory response after aneurysmal subarachnoid hemorrhage</article-title>. <source>J Neural Transm</source>. <year>2025</year>;<volume>132</volume>(<issue>5</issue>):<fpage>689</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00702-025-02886-3</pub-id>
+<pub-id pub-id-type="pmid">39904881</pub-id>
+<pub-id pub-id-type="pmcid">PMC12043730</pub-id></mixed-citation></ref><ref id="dad270240-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="dad270240-cite-0030">
+<string-name name-style="western">
+<surname>Dubois</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feldman</surname>
+<given-names>HH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jacova</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Advancing research diagnostic criteria for Alzheimer's disease: the IWG‐2 criteria</article-title>. <source>Lancet Neurol</source>. <year>2014</year>;<volume>13</volume>(<issue>6</issue>):<fpage>614</fpage>–<lpage>629</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(14)70090-0</pub-id>
+<pub-id pub-id-type="pmid">24849862</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="dad270240-cite-0031">
+<string-name name-style="western">
+<surname>Brooks</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swash</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Munsat</surname>
+<given-names>TL</given-names>
+</string-name>. <article-title>El escorial revisited: revised criteria for the diagnosis of amyotrophic lateral sclerosis</article-title>. <source>Amyotroph Lateral Scler</source>. <year>2000</year>;<volume>1</volume>(<issue>5</issue>):<fpage>293</fpage>–<lpage>299</lpage>. doi:<pub-id pub-id-type="doi">10.1080/146608200300079536</pub-id>
+<pub-id pub-id-type="pmid">11464847</pub-id></mixed-citation></ref><ref id="dad270240-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="dad270240-cite-0032">
+<string-name name-style="western">
+<surname>Fazekas</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chawluk</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alavi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hurtig</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zimmerman</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>MR signal abnormalities at 1.5 T in Alzheimer's dementia and normal aging</article-title>. <source>Am J Roentgenol</source>. <year>1987</year>;<volume>149</volume>(<issue>2</issue>):<fpage>351</fpage>–<lpage>356</lpage>. doi:<pub-id pub-id-type="doi">10.2214/ajr.149.2.351</pub-id>
+<pub-id pub-id-type="pmid">3496763</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="dad270240-cite-0033">
+<string-name name-style="western">
+<surname>Rascovsky</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knopman</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Sensitivity of revised diagnostic criteria for the behavioral variant of frontotemporal dementia</article-title>. <source>Brain</source>. <year>2011</year>;<volume>134</volume>(<issue>9</issue>):<fpage>2456</fpage>–<lpage>2477</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/awr179</pub-id>
+<pub-id pub-id-type="pmid">21810890</pub-id>
+<pub-id pub-id-type="pmcid">PMC3170532</pub-id></mixed-citation></ref><ref id="dad270240-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="dad270240-cite-0034">
+<string-name name-style="western">
+<surname>Gorno‐Tempini</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hillis</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weintraub</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Classification of primary progressive aphasia and its variants</article-title>. <source>Neurology</source>. <year>2011</year>;<volume>76</volume>(<issue>11</issue>):<fpage>1006</fpage>–<lpage>1014</lpage>. doi:<pub-id pub-id-type="doi">10.1212/WNL.0b013e31821103e6</pub-id>
+<pub-id pub-id-type="pmid">21325651</pub-id>
+<pub-id pub-id-type="pmcid">PMC3059138</pub-id></mixed-citation></ref><ref id="dad270240-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="dad270240-cite-0035">
+<string-name name-style="western">
+<surname>Hughes</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Daniel</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kilford</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lees</surname>
+<given-names>AJ</given-names>
+</string-name>. <article-title>Accuracy of clinical diagnosis of idiopathic Parkinson's disease: a clinico‐pathological study of 100 cases</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>1992</year>;<volume>55</volume>(<issue>3</issue>):<fpage>181</fpage>–<lpage>184</lpage>. doi:<pub-id pub-id-type="doi">10.1136/jnnp.55.3.181</pub-id>
+<pub-id pub-id-type="pmid">1564476</pub-id>
+<pub-id pub-id-type="pmcid">PMC1014720</pub-id></mixed-citation></ref><ref id="dad270240-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="dad270240-cite-0036">
+<string-name name-style="western">
+<surname>O'Bryant</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waring</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cullum</surname>
+<given-names>CM</given-names>
+</string-name>, et al. <article-title>Staging dementia using clinical dementia rating scale sum of boxes scores: a Texas Alzheimer's research consortium study</article-title>. <source>Arch Neurol</source>. <year>2008</year>;<volume>65</volume>(<issue>8</issue>):<fpage>1091</fpage>–<lpage>1095</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archneur.65.8.1091</pub-id>
+<pub-id pub-id-type="pmid">18695059</pub-id>
+<pub-id pub-id-type="pmcid">PMC3409562</pub-id></mixed-citation></ref><ref id="dad270240-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="dad270240-cite-0037">
+<string-name name-style="western">
+<surname>O'Bryant</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lacritz</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hall</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Validation of the new interpretive guidelines for the clinical dementia rating scale sum of boxes score in the National Alzheimer's Coordinating Center Database</article-title>. <source>Arch Neurol</source>. <year>2010</year>;<volume>67</volume>(<issue>6</issue>):<fpage>746</fpage>–<lpage>749</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archneurol.2010.115</pub-id>
+<pub-id pub-id-type="pmid">20558394</pub-id>
+<pub-id pub-id-type="pmcid">PMC2888493</pub-id></mixed-citation></ref><ref id="dad270240-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="dad270240-cite-0038">
+<string-name name-style="western">
+<surname>Andreasson</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perret‐Liaudet</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Waalwijk van Doorn</surname>
+<given-names>LJC</given-names>
+</string-name>, et al. <article-title>A practical guide to immunoassay method validation</article-title>. <source>Front Neurol</source>. <year>2015</year>;<volume>6</volume>:<fpage>179</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2015.00179</pub-id>
+<pub-id pub-id-type="pmid">26347708</pub-id>
+<pub-id pub-id-type="pmcid">PMC4541289</pub-id></mixed-citation></ref><ref id="dad270240-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="dad270240-cite-0039">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liang</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Microglial TMEM119 binds to amyloid‐β to promote its clearance in an Aβ‐depositing mouse model of Alzheimer's disease</article-title>. <source>Immunity</source>. <year>2025</year>;<volume>58</volume>(<issue>7</issue>):<fpage>1830</fpage>–<lpage>1846</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.immuni.2025.04.018</pub-id>
+<pub-id pub-id-type="pmid">40373772</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="dad270240-cite-0040">
+<string-name name-style="western">
+<surname>Ruan</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elyaman</surname>
+<given-names>W</given-names>
+</string-name>. <article-title>A new understanding of TMEM119 as a marker of microglia</article-title>. <source>Front Cell Neurosci</source>. <year>2022</year>;<volume>16</volume>:<elocation-id>902372</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fncel.2022.902372</pub-id>
+<pub-id pub-id-type="pmid">35769325</pub-id>
+<pub-id pub-id-type="pmcid">PMC9234454</pub-id></mixed-citation></ref><ref id="dad270240-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="dad270240-cite-0041">
+<string-name name-style="western">
+<surname>Navarro</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sanchez‐Mejias</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jimenez</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Microglia in Alzheimer's disease: activated, dysfunctional or degenerative</article-title>. <source>Front Aging Neurosci</source>. <year>2018</year>;<volume>10</volume>:<fpage>140</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnagi.2018.00140</pub-id>
+<pub-id pub-id-type="pmid">29867449</pub-id>
+<pub-id pub-id-type="pmcid">PMC5958192</pub-id></mixed-citation></ref><ref id="dad270240-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="dad270240-cite-0042">
+<string-name name-style="western">
+<surname>Doroszkiewicz</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kulczyńska‐Przybik</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dulewicz</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Associations between microglia and astrocytic proteins and tau biomarkers across the continuum of Alzheimer's disease</article-title>. <source>Int J Mol Sci</source>. <year>2024</year>;<volume>25</volume>(<issue>14</issue>):<fpage>7543</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms25147543</pub-id>
+<pub-id pub-id-type="pmid">39062786</pub-id>
+<pub-id pub-id-type="pmcid">PMC11277045</pub-id></mixed-citation></ref><ref id="dad270240-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="dad270240-cite-0043">
+<string-name name-style="western">
+<surname>Morenas‐Rodríguez</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nuscher</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Soluble TREM2 in CSF and its association with other biomarkers and cognition in autosomal‐dominant Alzheimer's disease: a longitudinal observational study</article-title>. <source>Lancet Neurol</source>. <year>2022</year>;<volume>21</volume>(<issue>4</issue>):<fpage>329</fpage>–<lpage>341</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(22)00027-8</pub-id>
+<pub-id pub-id-type="pmid">35305339</pub-id>
+<pub-id pub-id-type="pmcid">PMC8926925</pub-id></mixed-citation></ref><ref id="dad270240-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="dad270240-cite-0044">
+<string-name name-style="western">
+<surname>Halbgebauer</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Steinacker</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Riedel</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Visinin‐like protein 1 levels in blood and CSF as emerging markers for Alzheimer's and other neurodegenerative diseases</article-title>. <source>Alzheimers Res Ther</source>. <year>2022</year>;<volume>14</volume>(<issue>1</issue>):<fpage>175</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13195-022-01122-4</pub-id>
+<pub-id pub-id-type="pmid">36419075</pub-id>
+<pub-id pub-id-type="pmcid">PMC9682835</pub-id></mixed-citation></ref><ref id="dad270240-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="dad270240-cite-0045">
+<string-name name-style="western">
+<surname>Španić</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Langer Horvat</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hof</surname>
+<given-names>PR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Šimić</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Role of microglial cells in Alzheimer's disease tau propagation</article-title>. <source>Front Aging Neurosci</source>. <year>2019</year>;<volume>11</volume>:<fpage>271</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnagi.2019.00271</pub-id>
+<pub-id pub-id-type="pmid">31636558</pub-id>
+<pub-id pub-id-type="pmcid">PMC6787141</pub-id></mixed-citation></ref><ref id="dad270240-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="dad270240-cite-0046">
+<string-name name-style="western">
+<surname>Yoshiyama</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Higuchi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Synapse loss and microglial activation precede tangles in a P301S tauopathy mouse model</article-title>. <source>Neuron</source>. <year>2007</year>;<volume>53</volume>(<issue>3</issue>):<fpage>337</fpage>–<lpage>351</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuron.2007.01.010</pub-id>
+<pub-id pub-id-type="pmid">17270732</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="dad270240-cite-0047">
+<string-name name-style="western">
+<surname>Höglund</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fourier</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perret‐Liaudet</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Portelius</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Alzheimer's disease—recent biomarker developments in relation to updated diagnostic criteria</article-title>. <source>Clin Chim Acta</source>. <year>2015</year>;<volume>449</volume>:<fpage>3</fpage>–<lpage>8</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cca.2015.01.041</pub-id>
+<pub-id pub-id-type="pmid">25668231</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="dad270240-cite-0048">
+<string-name name-style="western">
+<surname>Marsh</surname>
+<given-names>TW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Western</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Timsina</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>A genetic and proteomic comparison of key AD biomarkers across tissues</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>20</volume>:<fpage>6423</fpage>–<lpage>6440</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alz.14139</pub-id>
+<pub-id pub-id-type="pmid">39077866</pub-id>
+<pub-id pub-id-type="pmcid">PMC11633343</pub-id></mixed-citation></ref><ref id="dad270240-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="dad270240-cite-0049">
+<string-name name-style="western">
+<surname>Rossano</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Microglia measured by TSPO PET are associated with Alzheimer's disease pathology and mediate key steps in a disease progression model</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>20</volume>(<issue>4</issue>):<fpage>2397</fpage>–<lpage>2407</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alz.13699</pub-id>
+<pub-id pub-id-type="pmid">38298155</pub-id>
+<pub-id pub-id-type="pmcid">PMC11032543</pub-id></mixed-citation></ref><ref id="dad270240-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="dad270240-cite-0050">
+<string-name name-style="western">
+<surname>Vankriekelsvenne</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chrzanowski</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manzhula</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Transmembrane protein 119 is neither a specific nor a reliable marker for microglia</article-title>. <source>Glia</source>. <year>2022</year>;<volume>70</volume>(<issue>6</issue>):<fpage>1170</fpage>–<lpage>1190</lpage>. doi:<pub-id pub-id-type="doi">10.1002/glia.24164</pub-id>
+<pub-id pub-id-type="pmid">35246882</pub-id>
+</mixed-citation></ref><ref id="dad270240-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="dad270240-cite-0051">
+<string-name name-style="western">
+<surname>Tanaka</surname>
+<given-names>KI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Inoue</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hendy</surname>
+<given-names>GN</given-names>
+</string-name>, et al. <article-title>Interaction of TMEM119 and the bone morphogenetic protein pathway in the commitment of myoblastic into osteoblastic cells</article-title>. <source>Bone</source>. <year>2012</year>;<volume>51</volume>(<issue>1</issue>):<fpage>158</fpage>–<lpage>167</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bone.2012.04.017</pub-id>
+<pub-id pub-id-type="pmid">22579779</pub-id>
+</mixed-citation></ref></ref-list></back></article></pmc-articleset>

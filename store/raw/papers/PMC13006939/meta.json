@@ -1,0 +1,187 @@
+{
+  "pmid": "41789732",
+  "pmc": "PMC13006939",
+  "doi": "10.1021/acsami.5c23366",
+  "title": "3D Artificial Skin Model As a Novel Strategy for the Detection of Pyroptosis-Cascade Activation in Amyotrophic Lateral Sclerosis",
+  "journal": "ACS Applied Materials & Interfaces",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Scarpa Enrico",
+      "affiliations": [
+        "119618Institute of Polymers, Composites and Biomaterials − National Research Council (IPCB-CNR), Viale Kennedy 54, Mostra d’Oltremare pad. 20, 80125 Naples, Italy"
+      ]
+    },
+    {
+      "name": "D’Amora Ugo",
+      "affiliations": [
+        "119618Institute of Polymers, Composites and Biomaterials − National Research Council (IPCB-CNR), Viale Kennedy 54, Mostra d’Oltremare pad. 20, 80125 Naples, Italy"
+      ]
+    },
+    {
+      "name": "De Cesare Noemi",
+      "affiliations": [
+        "119618Institute of Polymers, Composites and Biomaterials − National Research Council (IPCB-CNR), Viale Kennedy 54, Mostra d’Oltremare pad. 20, 80125 Naples, Italy"
+      ]
+    },
+    {
+      "name": "Bonadies Irene",
+      "affiliations": [
+        "Institute of Polymers, Composites and Biomaterials − National Research Council (IPCB-CNR), Via Campi Flegrei 34, 80078 Pozzuoli, Italy"
+      ]
+    },
+    {
+      "name": "Dubbioso Raffaele",
+      "affiliations": [
+        "Department of Neurosciences, Reproductive Sciences and Odontostomatology, 9307University of Naples Federico II, Via Sergio Pansini, 5, 80131 Naples, Italy"
+      ]
+    },
+    {
+      "name": "Nolano Maria",
+      "affiliations": [
+        "Laboratorio Biopsie di Cute, Istituti Clinici Scientifici Maugeri Spa SB − IRCCS Telese Terme, Via Bagni Vecchi, 1, 82037 Telese Terme (BN), Italy"
+      ]
+    },
+    {
+      "name": "Dardano Principia",
+      "affiliations": [
+        "Institute of Applied Sciences and Intelligent Systems − National Research Council (ISASI-CNR), Via Pietro Castellino, 111, 80131 Naples, Italy"
+      ]
+    },
+    {
+      "name": "De Stefano Luca",
+      "affiliations": [
+        "Institute of Applied Sciences and Intelligent Systems − National Research Council (ISASI-CNR), Via Pietro Castellino, 111, 80131 Naples, Italy"
+      ]
+    },
+    {
+      "name": "Fasolino Alessandra",
+      "affiliations": [
+        "Clinical Neurophysiology Unit “A. Cardarelli Hospital”, 9, 80131 Naples, Italy"
+      ]
+    },
+    {
+      "name": "Zeppetelli Stefania",
+      "affiliations": [
+        "119618Institute of Polymers, Composites and Biomaterials − National Research Council (IPCB-CNR), Viale Kennedy 54, Mostra d’Oltremare pad. 20, 80125 Naples, Italy"
+      ]
+    },
+    {
+      "name": "Silvestri Alessandro",
+      "affiliations": [
+        "Department of Molecular Sciences and Nanosystems, Ca’Foscari University of Venice, via Torino 155, 30172 Venezia, Italy"
+      ]
+    },
+    {
+      "name": "Zanardi Chiara",
+      "affiliations": [
+        "Department of Molecular Sciences and Nanosystems, Ca’Foscari University of Venice, via Torino 155, 30172 Venezia, Italy"
+      ]
+    },
+    {
+      "name": "Milella Evelina",
+      "affiliations": [
+        "119618Institute of Polymers, Composites and Biomaterials − National Research Council (IPCB-CNR), Viale Kennedy 54, Mostra d’Oltremare pad. 20, 80125 Naples, Italy"
+      ]
+    },
+    {
+      "name": "Fasolino Ines",
+      "affiliations": [
+        "119618Institute of Polymers, Composites and Biomaterials − National Research Council (IPCB-CNR), Viale Kennedy 54, Mostra d’Oltremare pad. 20, 80125 Naples, Italy"
+      ]
+    }
+  ],
+  "keywords": [
+    "pyroptosis",
+    "nerve degeneration",
+    "3D printed artificial skin",
+    "ALS",
+    "diagnosis"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "European Commission10.13039/100031478 P20229JNTM",
+    "Ministero dell'Universit?? e della Ricerca10.13039/501100021856 2022BNZLMN",
+    "Ministero dell'Universit?? e della Ricerca10.13039/501100021856 P20229JNTM"
+  ],
+  "data_availability_text": "The authors declare that all data supporting the findings of this study are available within the paper; source data for the figures in this study are available from the authors upon request.",
+  "license": "",
+  "received": "2025-11-20",
+  "accepted": "2026-02-22",
+  "reference_pmids": [
+    "36116464",
+    "28552366",
+    "37358634",
+    "38123494",
+    "28747449",
+    "21576030",
+    "23678877",
+    "24300178",
+    "32875285",
+    "31015277",
+    "26200799",
+    "27880990",
+    "31596526",
+    "26222336",
+    "35076694",
+    "33802349",
+    "29804146",
+    "25683764",
+    "27288647",
+    "38062461",
+    "35891601",
+    "39904018",
+    "32259809",
+    "36736264",
+    "36704884",
+    "22350618",
+    "36912580",
+    "29083852",
+    "35518130",
+    "31620307",
+    "38272418",
+    "25379176",
+    "39852011",
+    "31938860",
+    "35867112",
+    "34880495",
+    "40002468",
+    "40683217",
+    "38775430"
+  ],
+  "tables_count": 0,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "collection of skin biopsies, fibroblast isolation,\nand",
+    "3d skin\nmodel design and characterization",
+    "3d\nprinting of methacrylated hyaluronic\nacid and electrospinning of polylactic acid",
+    "morphological, physicochemical, and mechanical\ncharacterization of plla@meha skin model",
+    "biological and biochemical\ncharacterization\nof plla@meha skin model",
+    "3d skin model biocompatibility",
+    "pyroptosis and neurodegenerative\n(nlrp-3\nand p-tdp-43) marker expression",
+    "nitrites and pyroptosis\ncytokine levels",
+    "statistical analysis",
+    "results and discussions",
+    "synthesis\nand characterization of 3d skin\nmodel",
+    "3d\nprinting of methacrylated hyaluronic\nacid (meha)",
+    "electrospinning of polylactic acid (plla)",
+    "swelling/stability and mechanical behavior\nof plla@meha model",
+    "biological\ncharacterization of 3d skin model",
+    "cell\ngrowth and morphology in 2d conditions",
+    "fibroblast marker expression\nin 2d conditions",
+    "3d skin tissue biocompatibility",
+    "evaluation of inflammasome marker (nlrp-3)\nrelated to neurodegeneration (p-tdp-43)",
+    "cytokines production\nrelated to nlrp-3 inflammasome\nactivation on isf",
+    "conclusions",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10501,
+  "converted_at": "2026-04-06T22:39:36.841909+00:00"
+}

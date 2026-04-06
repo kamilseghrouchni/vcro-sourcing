@@ -1,0 +1,742 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz70844" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12572818</article-id><article-id pub-id-type="pmcid-ver">PMC12572818.1</article-id><article-id pub-id-type="pmcaid">12572818</article-id><article-id pub-id-type="pmcaiid">12572818</article-id><article-id pub-id-type="pmid">41164885</article-id><article-id pub-id-type="doi">10.1002/alz.70844</article-id><article-id pub-id-type="publisher-id">ALZ70844</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Plasma and feces multiomics unveil cognition‐associated perturbations of chronic inflammatory pathways of the gut‐microbiota–brain axis</article-title><alt-title alt-title-type="left-running-head">HOSSEINKHANI <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz70844-cr-0001" contrib-type="author"><name name-style="western"><surname>Hosseinkhani</surname><given-names initials="F">Farideh</given-names></name><xref rid="alz70844-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70844-cr-0002" contrib-type="author"><name name-style="western"><surname>Chevalier</surname><given-names initials="C">Claire</given-names></name><xref rid="alz70844-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz70844-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz70844-cr-0003" contrib-type="author"><name name-style="western"><surname>Marizzoni</surname><given-names initials="M">Moira</given-names></name><xref rid="alz70844-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz70844-cr-0004" contrib-type="author"><name name-style="western"><surname>Park</surname><given-names initials="R">Rahel</given-names></name><xref rid="alz70844-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz70844-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz70844-cr-0005" contrib-type="author"><name name-style="western"><surname>Bos</surname><given-names initials="S">Sabine</given-names></name><xref rid="alz70844-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70844-cr-0006" contrib-type="author"><name name-style="western"><surname>Dunjko</surname><given-names initials="AK">Alida Kindt</given-names></name><xref rid="alz70844-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70844-cr-0007" contrib-type="author"><name name-style="western"><surname>van Duijn</surname><given-names initials="CM">Cornelia M.</given-names></name><xref rid="alz70844-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz70844-cr-0008" contrib-type="author"><name name-style="western"><surname>Harms</surname><given-names initials="AC">Amy C.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2931-4295</contrib-id><xref rid="alz70844-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70844-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Frisoni</surname><given-names initials="GB">Giovanni B.</given-names></name><xref rid="alz70844-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz70844-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>giovanni.frisoni@unige.ch</email></address></contrib><contrib id="alz70844-cr-0010" contrib-type="author" corresp="yes"><name name-style="western"><surname>Hankemeier</surname><given-names initials="T">Thomas</given-names></name><xref rid="alz70844-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>hankemeier@lacdr.leidenuniv.nl</email></address></contrib></contrib-group><aff id="alz70844-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Leiden Academic Centre for Drug Research</named-content>
+<institution>Leiden University</institution>
+<city>Leiden</city>
+<country country="NL">Netherlands</country>
+</aff><aff id="alz70844-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Laboratory of Neuroimaging of Aging (LANVIE)</named-content>
+<institution>University of Geneva</institution>
+<city>Geneva</city>
+<country country="CH">Switzerland</country>
+</aff><aff id="alz70844-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Geneva Memory Center, Department of Rehabilitation and Geriatrics</named-content>
+<institution>Geneva University Hospitals</institution>
+<city>Geneva</city>
+<country country="CH">Switzerland</country>
+</aff><aff id="alz70844-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Laboratory of Biological Psychiatry</named-content>
+<institution>IRCCS Istituto Centro San Giovanni Di Dio Fatebenefratelli</institution>
+<city>Brescia</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz70844-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Epidemiology</named-content>
+<institution>Erasmus University Medical Center</institution>
+<city>Rotterdam</city>
+<country country="NL">Netherlands</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Giovanni B. Frisoni, Laboratory of Neuroimaging of Aging (LANVIE), University of Geneva, Geneva, Switzerland.<break/> Email: <email>giovanni.frisoni@unige.ch</email>
+<break/>Thomas Hankemeier, Leiden Academic Centre for Drug Research, Leiden University, Leiden, Netherlands.<break/> Email: <email>hankemeier@lacdr.leidenuniv.nl</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>30</day><month>10</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>10</month><year>2025</year></pub-date><volume>21</volume><issue seq="1330">10</issue><issue-id pub-id-type="pmc-issue-id">497699</issue-id><issue-id pub-id-type="doi">10.1002/alz.v21.10</issue-id><elocation-id>e70844</elocation-id><history><date date-type="rev-recd"><day>30</day><month>9</month><year>2025</year></date><date date-type="received"><day>16</day><month>6</month><year>2025</year></date><date date-type="accepted"><day>30</day><month>9</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>30</day><month>10</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>31</day><month>10</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-10-31 05:25:14.570"><day>31</day><month>10</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-21-e70844.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-21-e70844.pdf"/><abstract><title>Abstract</title><sec id="alz70844-sec-0010"><title>INTRODUCTION</title><p>Gut‐microbiota dysbiosis has been linked to cognitive decline. Given its role in metabolism, immunity, and environmental interactions, broader molecular signaling alterations are likely.</p></sec><sec id="alz70844-sec-0020"><title>METHODS</title><p>We analyzed gut microbiota composition, plasma and fecal metabolites, and inflammatory cytokines across cognitive stages, from healthy controls to dementia.</p></sec><sec id="alz70844-sec-0030"><title>RESULTS</title><p>Alpha diversity declined with increasing cognitive impairment severity. Short‐chain fatty acid–producing Firmicutes and Bacteroidota decreased from 76% and 17% in controls to 59% and 11% in dementia, respectively. Proteobacteria (e.g., Escherichia‐Shigella) rose from &lt; 2% to 4%, and Verrucomicrobiota from 3% to 11%. Despite overall Firmicutes decline, <italic toggle="yes">Ruminococcus gnavus</italic>, a mucus‐degrading species, increased in dementia. These shifts correlated with elevated plasma cytokines, suggesting a link between gut dysbiosis and systemic inflammation. Bacteria‐associated metabolites, including bile acids, trimethylamine N‐oxide, oxylipins, sugars, and fatty acids were significantly altered. Changes were seen as early as subjective cognitive decline.</p></sec><sec id="alz70844-sec-0040"><title>DISCUSSION</title><p>Larger studies are needed to validate these findings and explore microbiome‐based interventions.</p></sec><sec id="alz70844-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz70844-list-0001"><list-item><p>Examined gut microbiota, inflammation, and metabolic changes in cognitive impairment stages</p></list-item><list-item><p>Early metabolic changes in feces detected before plasma alterations</p></list-item><list-item><p>Observed shifts in gut microbiota and inflammation associated with cognitive decline</p></list-item><list-item><p>Suggests potential for early biomarkers based on gut metabolites</p></list-item><list-item><p>Calls for larger, longitudinal studies to validate findings</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz70844-kwd-0001">Alzheimer's disease</kwd><kwd id="alz70844-kwd-0002">gut microbiota</kwd><kwd id="alz70844-kwd-0003">gut‐brain axis</kwd><kwd id="alz70844-kwd-0004">metabolomics</kwd><kwd id="alz70844-kwd-0005">metagenomics</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Dutch Research Council (NWO)</institution></institution-wrap>
+</funding-source><award-id>184.034.019</award-id><award-id>175.2019.032</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Private Foundation of Geneva University Hospitals: A.P.R.A.—Association Suisse pour la Recherche sur la Maladie d'Alzheimer, Genève</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Fondation Segré, Genève</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Race Against Dementia Foundation, London, UK</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>Fondation Child Care, Genève</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0006"><funding-source>
+<institution-wrap><institution>Fondation Edmond J. Safra, Genève</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0007"><funding-source>
+<institution-wrap><institution>Fondation Minkoff, Genève</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0008"><funding-source>
+<institution-wrap><institution>Fondazione Agusta, Lugano</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0009"><funding-source>
+<institution-wrap><institution>McCall Macbain Foundation, Canada</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0010"><funding-source>
+<institution-wrap><institution>Nicole et René Keller, Genève</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0011"><funding-source>
+<institution-wrap><institution>Fondation AETAS, Genève</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0012"><funding-source>
+<institution-wrap><institution>Clinical Research Center, University Hospital and Faculty of Medicine</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0013"><funding-source>
+<institution-wrap><institution>Italian Ministry of Health (Ricerca Corrente)</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0014"><funding-source>
+<institution-wrap><institution>Hôpitaux Universitaires de Genève</institution><institution-id institution-id-type="doi">10.13039/501100006388</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0015"><funding-source>
+<institution-wrap><institution>Nederlandse Organisatie voor Wetenschappelijk Onderzoek</institution><institution-id institution-id-type="doi">10.13039/501100003246</institution-id></institution-wrap>
+</funding-source><award-id>175.2019.032</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="1"/><page-count count="10"/><word-count count="5903"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.4 mode:remove_FC converted:30.10.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz70844-cite-0001">
+<string-name name-style="western">
+<surname>Hosseinkhani</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chevalier</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marizzoni</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Plasma and feces multiomics unveil cognition‐associated perturbations of chronic inflammatory pathways of the gut‐microbiota–brain axis</article-title>. <source>Alzheimer's Dement</source>. <year>2025</year>;<volume>21</volume>:<elocation-id>e70844</elocation-id>. <pub-id pub-id-type="doi">10.1002/alz.70844</pub-id>
+<pub-id pub-id-type="pmid">41164885</pub-id>
+<pub-id pub-id-type="pmcid">PMC12572818</pub-id></mixed-citation>
+</p></notes></front><body><sec id="alz70844-sec-0060"><label>1</label><title>INTRODUCTION</title><p>Cognitive impairment (CI) and dementia affecting millions worldwide, pose significant challenges for diagnosis, prognosis, and prevention.<xref rid="alz70844-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> Current research recognizes diverse pathophysiological factors, including inflammation, neurological damage, and metabolic changes, all influencing CI development.<xref rid="alz70844-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> The gut microbiota, comprising trillions of microbes in the human gastrointestinal tract, has emerged as a significant dimension in this complex neurological condition.</p><p>Extensive evidence links gut microbiota dysbiosis to CI.<xref rid="alz70844-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Analyses of 16S ribosomal RNA (16S rRNA) sequences consistently reveal an altered Bacteroidetes‐to‐Firmicutes ratios and reduced overall microbial diversity in CI patients.<xref rid="alz70844-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="alz70844-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Additionally, correlations exist between apolipoproteint E (ApoE) genotypes, a known CI risk factor, and specific gut bacterial composition, including Prevotellaceae and Ruminococcaceae families.<xref rid="alz70844-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> Furthermore, mouse models show microbiota modulation can mitigate neurodegeneration, often ApoE isoform dependent, highlight the possible intricate link between genetics, gut microbiota, and CI pathogenesis.<xref rid="alz70844-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>
+</p><p>In the past decade, analytical advances have unveiled the bidirectional molecular communication between gut microbiota and host metabolism, impacting CI pathology. Marizzoni et al.<xref rid="alz70844-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> demonstrated links between amyloid pathology, plasma pro‐inflammatory cytokines, and bacterial‐derived short‐chain fatty acids (SCFAs) in individuals with CI. Changes in bile acids composition, including secondary bile acids produced through microbial enzymatic activity in the gut, have been reported.<xref rid="alz70844-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz70844-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> Baloni et al. supported these findings, proposing the intriguing transport of secondary bile acids from the gut to the brain, as their presence cannot be solely explained by enzymatic activity within the brain.<xref rid="alz70844-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Additionally, microbial‐derived neurotransmitters like serotonin, dopamine, and gamma‐aminobutyric acid (GABA) have been implicated in CI, influencing inflammatory signaling and cognitive function.<xref rid="alz70844-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>
+</p><p>The microbiota's responsiveness to environmental factors, such as diet, suggests its influence extends across multiple signaling pathways. Unravelling these interactions could clarify mechanisms and guide gut‐brain axis therapy. While metabolic dysregulation in dementia and mild cognitive impairment (MCI) has been extensively studied, less attention has been given to subjective cognitive decline (SCD), a mixed population with cognitive complaints not yet objectified by neuropsychological tests, but at risk for developing CI.<xref rid="alz70844-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> Early microbial and metabolic signatures in SCD could reveal preventive targets.</p><p>In this study, we aimed to gather immune status, microbiome composition, metabolome data, and clinical metadata from individuals across cognitive stages. We analyzed metabolites from both feces and plasma in the same individuals to gain insight into systemic molecular changes and examined how these changes correlate with the gut microbiota profile. Additionally, by including individuals with SCD, we investigated early alterations in metabolism and gut microbiota that might contribute to the onset of CI. The physiological mechanisms linking the gut microbiota to the observed metabolic alterations should be further investigated in larger cohorts to elucidate their potential therapeutic implications.</p></sec><sec id="alz70844-sec-0070"><label>2</label><title>MATERIALS AND METHODS</title><sec id="alz70844-sec-0080"><label>2.1</label><title>Sample information</title><p>Participants in this study come from the Geneva Memory Center, representing a range of cognitive states, from unimpaired to dementia. This research project includes healthy volunteers and Memory clinic patients with cognitive complaints. Patients received diagnostic assessments, including clinical, neuropsychological evaluations, and relevant biomarker investigations.<xref rid="alz70844-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> Participants were categorized into different cognitive stages: cognitively unimpaired (referred to as healthy control [HC] in this study), SCD<xref rid="alz70844-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, MCI<xref rid="alz70844-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, and dementia.<xref rid="alz70844-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> The criteria for SCD, MCI, and dementia stages were based on their respective clinical diagnostic criteria. Sociodemographic data, including age and sex, were collected for all participants. Global cognition was assessed using the Mini‐Mental State Examination (MMSE). Additionally, participants provided blood and fecal samples, totaling 278 plasma samples and 267 fecal samples for this analysis (Table <xref rid="alz70844-tbl-0001" ref-type="table">1</xref>). Written informed consent was obtained from all participants, and the study received approval from the Geneva Ethics Committee (CCER_2016‐01346 and CCER_2020_00403).</p><table-wrap position="float" id="alz70844-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Demographic characteristics of participants</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Parameter</th><th align="left" rowspan="1" colspan="1">HC</th><th align="left" rowspan="1" colspan="1">SCD</th><th align="left" rowspan="1" colspan="1">MCI</th><th align="left" rowspan="1" colspan="1">Dementia</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Age</td><td align="left" rowspan="1" colspan="1">63 ± 10</td><td align="left" rowspan="1" colspan="1">69 ± 7</td><td align="left" rowspan="1" colspan="1">71 ± 8</td><td align="left" rowspan="1" colspan="1">69 ± 8</td></tr><tr><td align="left" rowspan="1" colspan="1">Gender (F/M)</td><td align="left" rowspan="1" colspan="1">57/29</td><td align="left" rowspan="1" colspan="1">37/ 26</td><td align="left" rowspan="1" colspan="1">51/60</td><td align="left" rowspan="1" colspan="1">8/9</td></tr><tr><td align="left" rowspan="1" colspan="1">MMSE score</td><td align="left" rowspan="1" colspan="1">29 ± 2</td><td align="left" rowspan="1" colspan="1">28 ± 2</td><td align="left" rowspan="1" colspan="1">26 ± 2</td><td align="left" rowspan="1" colspan="1">21 ± 4</td></tr><tr><td align="left" rowspan="1" colspan="1">Plasma (no.)</td><td align="left" rowspan="1" colspan="1">87</td><td align="left" rowspan="1" colspan="1">63</td><td align="left" rowspan="1" colspan="1">111</td><td align="left" rowspan="1" colspan="1">17</td></tr><tr><td align="left" rowspan="1" colspan="1">Feces (no.)</td><td align="left" rowspan="1" colspan="1">83</td><td align="left" rowspan="1" colspan="1">63</td><td align="left" rowspan="1" colspan="1">107</td><td align="left" rowspan="1" colspan="1">14</td></tr></tbody></table><table-wrap-foot><fn id="alz70844-tbl1-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data have been presented in Mean ± standard deviation unless otherwise mentioned.</p></fn><fn id="alz70844-tbl1-note-0002"><p>Abbreviations: HC, healthy control; MCI, mild cognitive impairment; MMSE, Mini‐Mental State Examination; SCD, subjective cognitive decline.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="alz70844-sec-0090"><label>2.2</label><title>Metagenomics</title><p>DNA was extracted from 180 to 200 mg of frozen feces with a MagPurix Bacterial DNA extraction kit (cat ZP 02006, Zinexts) according to the manufacturer instructions. Prior to DNA extraction, fecal samples were mechanically disrupted<xref rid="alz70844-tbl-0001" ref-type="table"> </xref> with bead‐beating using Precellys lysing kit soil grinding SK38, 3 × 40 s at 6000 rpm, followed by 5 min at 95°C shaking at 600 rpm. DNA was quantified using a NanoDrop ND‐1000 spectrophotometer, and then stored at −20°C until subsequent analyses. The regions V3 and V4<xref rid="alz70844-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> of the bacterial 16S rRNA gene was amplified and purified according to 16S Metagenomic Sequencing Library Preparation protocol by Illumina. The sequencing was performed on an Illumina Miseq Sequencer with 300 bp paired‐end run using MiSeq V3 reagent with 10% PhiX and loading concentration of 6pM. Raw sequencing data from the bacterial assay (fastq format) was demultiplexed and processed into amplicon sequence variants (ASVs) with qiime2 (version 2021.8.0)<xref rid="alz70844-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> using dada2 (v1.24.0)<xref rid="alz70844-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> for reads quality filtering and merging. Silva138.1 SSU Ref NR99 database was formatted with QIIME2 rescript plugin and adapted to 16S V3‐V4 region and thereafter used to classify the reads with feature‐classifier plugin from QIIME2 (classifysklearn method).<xref rid="alz70844-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> Sequences classified as mitochondria, chloroplasts or eukaryota, and ASVs without phylum level assignment were filtered out from the data sets.</p></sec><sec id="alz70844-sec-0100"><label>2.3</label><title>Immunoassay</title><p>To quantify plasma circulating cytokine levels, we employed the analytically validated Meso Scale Discovery (MSD) V‐PLEX Human Proinflammatory Panel II (4‐PLEX) kit (IL‐1β, IL‐6, IL‐8, TNF‐α, #K15053D‐1), following the manufacturer's protocol. All plasma samples were measured after a two‐fold dilution in a single assay. Assay reproducibility was evaluated through analysis of standard replicates and pooled quality controls (QCs) plasma samples were run across four measured batches to better capture biological variability. The system exhibited excellent well‐to‐well reproducibility and sensitivity, as evidenced by standard deviation of replicates (%CVs) below 10% and the lower and upper limits of detection (Table <xref rid="alz70844-supinfo-0001" ref-type="">S1</xref> and Figure <xref rid="alz70844-supinfo-0001" ref-type="">S1</xref>). To analyze the multiplex data, we utilized the MSD Discovery Workbench analysis software.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz70844-sec-0110"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz70844-list-0002"><list-item><p>
+<bold>Systematic review</bold>: A thorough review of existing literature was conducted to understand the role of gut microbiota, inflammatory cytokines, and metabolic pathways in cognitive impairment. While previous studies have focused on individual factors, there is limited research examining the interplay between these elements at various stages of cognitive decline especially early stage of subjective cognitive dementia (SCD).</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Our findings indicate that changes in gut microbiota, inflammatory markers, and metabolic pathways occur as cognitive decline progresses and detectable in SCD stage. In particular, we observed early alterations in fecal metabolites compared to plasma, which may suggest the potential of gut‐related markers in early diagnosis or disease monitoring.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Future studies should focus on validating these findings with larger cohorts and over longer timeframes. Longitudinal studies could further explore whether gut microbiota and metabolic changes could serve as early biomarkers for cognitive decline and Alzheimer's disease.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="alz70844-sec-0120"><label>2.4</label><title>Metabolomics</title><sec id="alz70844-sec-0130"><label>2.4.1</label><title>Chemicals and reagents</title><p>Analytical grade methanol (MeOH) was purchased from Biosolve (Biosolve BV, Valkenswaard, The Netherlands). Ethyl acetate, methyl tert‐butyl ether (MTBE), butanol, ammonium formate (≥99.995%), ammonium hydroxide (28−30 wt % solution of ammonia in water) sodium chloride (≥99.0%), and sodium hydroxide were obtained from Sigma–Aldrich (Sigma–Aldrich, Burlington, WV, USA). MilliQ water was sourced from a Merck Milli‐pore A10 purification system (Raleigh, NC, USA). Information regarding the stable isotope‐labeled standards and their respective supplier has been provided in our previous publications.<xref rid="alz70844-bib-0021" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="alz70844-bib-0022" ref-type="bibr">
+<sup>23</sup>
+</xref>
+</p></sec><sec id="alz70844-sec-0140"><label>2.4.2</label><title>Sample extraction</title><p>Fecal matter and plasma samples were aliquoted into smaller volumes and subjected to extraction for metabolome analyses. Liquid‐liquid extraction, as previously described by our research group<xref rid="alz70844-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> with minor modifications for plasma samples, was employed for processing polar metabolites. In‐house standard operational procedures were followed for the extraction of lipids. Additional information regarding the extraction methods for each specific biospecimen can be found in the <xref rid="alz70844-supinfo-0001" ref-type="">Supplementary File</xref>.</p></sec><sec id="alz70844-sec-0150"><label>2.4.3</label><title>Analytical measurements</title><p>To perform the chromatographic separation of polar metabolites, we utilized the SeQuant ZIC‐c HILIC HPLC column (2.1 mm × 100 mm, 3.0 µm, Merck, Darmstadt, Germany) on a Waters Acquity Ultra high‐performance liquid chromatograph (LC) (Duisburg, Germany). The chromatography method was adapted from a previously described procedure.<xref rid="alz70844-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> Mobile phase A consisted of 90% acetonitrile and 10% water with 5 mM ammonium formate, while mobile phase B comprised 10% acetonitrile and 90% water with 5 mM ammonium formate. An injection volume of 3 µL was used, with a flow rate of 0.5 mL/min. The gradient for the separation was as follows: 0 min−0% B, 2 min−15% B, 5 min−21% B, 7.5 min−26% B, from 10 to 11 min−40% B, followed by re‐equilibration at 0% B from 11.5 to 18 min to restore column conditions. Mass spectrometry experiments were performed using a quadrupole‐time of flight (TOF) instrument (SCIEX 6600+ TripleTOF, AB SCIEX, Foster City, CA). Electrospray ionization (ESI) was utilized in both positive and negative ion modes, with the following ESI source parameters (positive/negative ion mode): spray voltage ± 4.5 kV, capillary temperature 400°C, sheath gas 20, auxiliary gas 25, and curtain gas 25. Full scan mode was employed for data acquisition across a m/z range of 50–900 Da.</p><p>For profiling signaling lipids, an in‐house validated analytical assay was employed with minor adjustments to the flow rate (0.1 mL/min). The LC‐MS/MS protocol allowed for the relative quantitation of oxylipins derived from the conversion of omega‐6 polyunsaturated fatty acids (PUFAs), including linoleic acid (LA), dihomo‐γ‐linolenic acid (DGLA), and arachidonic acid (AA), as well as omega‐3 PUFAs such as α‐linolenic acid (ALA), eicosapentaenoic acid (EPA), and docosahexaenoic acid (DHA).<xref rid="alz70844-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>
+</p><p>To ensure data quality, the in‐house developed mzQuality workflow was utilized to correct for inter‐batch variations, with QC and blank samples were injected alongside the study samples in all measurements. Metabolites exhibiting a relative standard deviation of no more than 30% in the corrected peak area of QC samples were selected for export and subsequent analysis.</p></sec></sec></sec><sec id="alz70844-sec-0160"><label>3</label><title>DATA PROCESSING, STATISTICS, AND VISUALIZATION</title><p>All statistical data analysis and plots were performed using R (version 4.2.1). For sequencing data, the phyloseq (v1.40.0) were used.<xref rid="alz70844-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> A prevalence threshold of 10% was implemented, retaining only those ASVs that are present in a minimum of 10% of the overall samples. Alpha diversity was estimated on ASV level using Shannon's and Chao1 index, and significance (<italic toggle="yes">p</italic>‐value &lt; 0.05) was assessed using non‐parametric Wilcoxon tests. Shannon index represents microbial diversity within samples, while Chao1 index estimates species richness. To estimate beta diversity, abundances (counts) were centered log‐ratio transformed (clr), and distances were calculated. Principal Coordinates Analysis (PCoA) was performed using the Weighted UniFrac metric, which considers both taxonomic composition and relative abundance of ASVs. To identify taxa with differential abundance between each cognitive decline status and HC, the Linear Discriminant Analysis Effect Size (LEfSe) algorithm was employed (<italic toggle="yes">p</italic>‐value &lt;  0.05 and LDA  &gt;  2). LEfSe combines Kruskal–Wallis and Wilcoxon rank‐sum tests to detect significant differences in relative abundance, followed by linear discriminant analysis to estimate effect size of each differentially abundant taxon.</p><p>Metabolomics data were imputed using predictive mean matching from the “mice” package (version 3.15.0), accessible at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://rdocumentation.org/packages/mice/versions/3.15.0" ext-link-type="uri">https://rdocumentation.org/packages/mice/versions/3.15.0</ext-link>. The parameters for number of imputations and iterations were 20 and 15, respectively. Fisher's exact test was used to evaluate the significance of missing values across various cognitive statuses before imputation. Additionally, samples with over 50% missing metabolite data were excluded from further analysis (Table <xref rid="alz70844-supinfo-0001" ref-type="">S2</xref>). Furthermore, the variables underwent normalization, log (log 2 scale)‐transformation, with normality assessed through Normal Q‐Q and Residuals versus Fitted value plots.</p><p>Group comparisons were performed using analysis of variance (ANOVA) with Bonferroni correction for continuous Gaussian variables, Kruskal–Wallis test followed by Dunn's correction for non‐Gaussian variables, and chi‐squared test for categorical data. Significant differences between each CI status and HC were further evaluated using linear regression models adjusted for age and gender as covariates. Differential metabolite expression between each CI group and HC was visualized using volcano plots. Metabolites with an absolute estimate greater than 1.25 and a <italic toggle="yes">p</italic>‐value below 0.05 were selected for further analysis. To control the false discovery rate (FDR) in these multiple metabolite comparisons, the Benjamini–Hochberg procedure was applied with an FDR threshold of 0.15.</p><p>To assess the correlation between plasma and feces metabolites, Spearman correlation coefficients were calculated. Additionally, linear regression models were utilized to evaluate the correlation between immune cytokines and the metadata listed in Table <xref rid="alz70844-tbl-0001" ref-type="table">1</xref>. The correlation analysis between metabolites, immune cytokines, and differentiative bacteria (average relative abundance more than 0.1%) was conducted using the Spearman correlation coefficient.</p></sec><sec id="alz70844-sec-0170"><label>4</label><title>RESULTS</title><p>In total, 278 plasma and 267 feces samples were included in this study. The clinical characteristics of the study population are presented in Table <xref rid="alz70844-tbl-0001" ref-type="table">1</xref>.</p><sec id="alz70844-sec-0180"><label>4.1</label><title>Plasma inflammatory cytokines</title><p>We assessed the inflammatory status by measuring four pro‐inflammatory cytokines: Tumor necrosis factor alpha (TNF‐α), interleukin (IL) ‐6, IL‐8, and IL‐1β (Figure <xref rid="alz70844-fig-0001" ref-type="fig">1A</xref> and Tables <xref rid="alz70844-supinfo-0001" ref-type="">S1</xref> and <xref rid="alz70844-supinfo-0001" ref-type="">S3</xref>). Cytokine levels increased progressively from the SCD stage, though not significantly compared to the HC. In the MCI group, all four cytokines were significantly higher (<italic toggle="yes">p</italic> &lt; 0.05) than in HC. In dementia, only IL‐1β showed a marginal significant increase (<italic toggle="yes">p</italic> = 0.08). Linear regression analyses revealed no significant correlations between cytokines levels, age, or MMSE scores (Figure <xref rid="alz70844-fig-0001" ref-type="fig">1B</xref>; Figure <xref rid="alz70844-supinfo-0001" ref-type="">S2</xref>). Effect sizes were modest, potentially limited by sample size in advanced stages.</p><fig position="float" fig-type="FIGURE" id="alz70844-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(A) Plasma proinflammatory cytokine levels in different states of cognitive impairment in comparison to healthy control (B) Linear regression analysis of age and circulating cytokines concentrations; (C) Linear regression analysis of clinical MMSE score and circulation cytokines concentrations. q‐Values were calculated by using Kruskal–Wallis test followed by Dunn's post hoc correction for multiple comparisons. HC, healthy control; IL, interleukin; MCI, mild cognitive impairment; MMSE, Mini‐Mental State Examination; SCD, subjective cognitive decline; TNF.a: tumor necrosis factor‐alpha. *** <italic toggle="yes">q</italic>‐value &lt; 0.001, ** <italic toggle="yes">q</italic>‐value &lt; 0.01, * <italic toggle="yes">q</italic>‐value &lt; 0.05</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-21-e70844-g003.jpg"/></fig></sec><sec id="alz70844-sec-0190"><label>4.2</label><title>Gut microbiota community</title><p>16S rRNA analysis revealed varying total bacterial taxa abundances across CI stages (Supplementary Table <xref rid="alz70844-supinfo-0001" ref-type="">S4</xref>). Alpha diversity metrics (Shannon and Chao1), declined significantly in CI groups versus HC, indicating reduced gut microbiota richness (Figure <xref rid="alz70844-fig-0002" ref-type="fig">2A</xref>). Beta diversity analysis via PCoA with the Weighted Unifrac metric showed no significant compositional differences between groups (Figure <xref rid="alz70844-fig-0002" ref-type="fig">2B</xref>). The distribution of the five dominant phyla showed a progressive decline in Firmicutes from 76% in HC to 59% in dementia, while Actinobacteria (2% to 15%), Verrucomicrobiota (3% to 11%), and Proteobacteria (2% to 4%) increased, starting from the SCD stage (Figure <xref rid="alz70844-fig-0002" ref-type="fig">2C</xref>, Figure <xref rid="alz70844-supinfo-0001" ref-type="">S3</xref>).</p><fig position="float" fig-type="FIGURE" id="alz70844-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Microbiome compositional analysis of individuals in different status of cognitive impairment. (A) The Shannon and Chao1 index representing significant decrease of species richness between different states of cognitive impairment in comparison to healthy control. (B) Beta diversity based on weighted UniFrac visualized using Principal Coordinates Analysis (PCoA) which shows differences in microbial community composition across samples. (C) Linear Discriminant Analysis (LDA) Effect Size (LEfSe) between HC (blue) and SCD (yellow), where the LDA score indicates the magnitude of group differences in bacterial taxa.), (D) LEfSe between HC and MCI (red), (E) LEfSe between HC and dementia (green). HC, healthy control; MCI, mild cognitive impairment; SCD, subjective cognitive decline. *** <italic toggle="yes">p</italic>‐value &lt; 0.001, ** <italic toggle="yes">p</italic>‐value &lt; 0.01, * <italic toggle="yes">p</italic>‐value &lt; 0.05</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-21-e70844-g001.jpg"/></fig><p>The LEfSe analysis identified taxa with differential abundance (Figure <xref rid="alz70844-fig-0002" ref-type="fig">2D–F</xref>). HC exhibited higher abundance of SCFA‐producing genera in Firmicutes (UCG‐002, <italic toggle="yes">Faecalibacterium</italic>, Ruminococcaceae, <italic toggle="yes">Butyrivibrio</italic>, <italic toggle="yes">Subdoligranulum</italic>) and Prevotella_9 (Bacteroidota). Conversely, opportunistic pathogens such as <italic toggle="yes">Escherichia‐Shigella</italic> and <italic toggle="yes">R. gnavus</italic> increased with CI severity.</p></sec><sec id="alz70844-sec-0200"><label>4.3</label><title>Metabolomics</title><p>Targeted metabolomic profiling of plasma and feces identified 183 metabolites in plasma and 141 in feces, spanning various chemical classes including bile acids, fatty acids, oxylipins, endocannabinoids, amino acids, sugars, organic acids, etc. Metabolites alterations are illustrated in Figure <xref rid="alz70844-fig-0003" ref-type="fig">3</xref> (see Tables <xref rid="alz70844-supinfo-0001" ref-type="">S5</xref> and <xref rid="alz70844-supinfo-0001" ref-type="">S6</xref>). Significant alterations were observed in metabolites associated with bacterial enzymatic activities, including bile acids, trimethylamine N‐oxide (TMAO, plasma only), and tryptophan, with changes evident from the SCD stage (<italic toggle="yes">p</italic> &lt; 0.05). As CI progressed, pronounced alterations occurred in fatty acids, oxylipins, sugars, and amino acids, with similarities between plasma and fecal samples. Notably, significant alterations in conjugated bile acids, fatty acids, and oxylipins (e.g., x‐DiHETEs, x‐HDOHEs) were observed in fecal samples during the SCD stage, preceding corresponding changes in plasma.</p><fig position="float" fig-type="FIGURE" id="alz70844-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Volcano plots utilizing linear model estimate to compare metabolites identified in both plasma and fecal matrices of individuals across different cognitive impairment statuses against the HC group. Metabolites meeting the criteria of having <italic toggle="yes">p</italic>‐values below 0.05 and an absolute Estimate greater than 1.25‐fold are highlighted and labeled in red. Notably, metabolites increased in the respective cognitive impairment statuses are represented by red dots on the right side of each plot, while metabolites that decreased compared to HC are represented by red dots on the left side. HC, healthy control; MCI, mild cognitive impairment; SCD, subjective cognitive decline</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-21-e70844-g004.jpg"/></fig><p>Spearman correlation analysis revealed positive correlations between fecal and plasma metabolite levels, particularly for oxylipins, secondary bile acids, long‐chain fatty acids, and glucose (Figure <xref rid="alz70844-supinfo-0001" ref-type="">S4</xref>). Specific long‐chain fatty acids (e.g., 22:4n‐6, 22:5n‐6 in plasma; 20:3n‐3, 20:5n‐3, 22:5n‐3, 22:6n‐3 in feces) increased, while dietary fatty acids (linoleic acid, α‐linolenic acid, oleic acid) decreased with CI progression. Elevated levels of lipoxygenase (LOX)‐derived oxylipins such as HDOHEs, HETEs, HEPEs were consistent in both matrices. Endocannabinoids, including acyl‐glycerols (2‐AGs, 2‐OG, 2‐LG), showed significant changes only in fecal samples.</p></sec><sec id="alz70844-sec-0210"><label>4.4</label><title>Association of microbial genera with inflammatory cytokines and metabolic alteration in plasma and feces</title><p>Spearman correlation analyses explored associations between plasma and fecal metabolites, plasma cytokine levels, and bacterial genera with significant changes across CI statuses (Figure <xref rid="alz70844-fig-0004" ref-type="fig">4A–B</xref>, Tables <xref rid="alz70844-supinfo-0001" ref-type="">S7</xref> and <xref rid="alz70844-supinfo-0001" ref-type="">S8</xref>). Elevated plasma cytokines were associated with reduced SCFA‐producing bacteria (<italic toggle="yes">Faecalibacterium</italic>, <italic toggle="yes">Coprococcus</italic>, <italic toggle="yes">Bacteroides</italic>, <italic toggle="yes">Roseburia</italic>, <italic toggle="yes">Ruminococcus</italic>) and increased opportunistic bacteria (<italic toggle="yes">Escherichia‐Shigella</italic>, <italic toggle="yes">R</italic>. <italic toggle="yes">gnavus)</italic>. These microbial shifts correlated significantly with metabolic changes in oxylipins, long‐chain fatty acids, and glucose in both plasma and fecal samples.</p><fig position="float" fig-type="FIGURE" id="alz70844-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Spearman correlation analyses investigating associations between alterations in plasma (4A) and fecal metabolites (4B), along with plasma cytokine levels, and the abundance of bacteria exhibiting significant changes within each cognitive impairment status</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-21-e70844-g002.jpg"/></fig></sec></sec><sec id="alz70844-sec-0220"><label>5</label><title>DISCUSSION</title><p>This study illuminates the complex relationships among gut microbiota dysbiosis, systemic inflammation, and metabolic alterations across cognitive CI stages, from SCD to dementia. Our observed reduction in gut microbiota richness, evidenced by decreased alpha diversity, aligns with prior research linking loss of microbial diversity to neurodegenerative disorders.<xref rid="alz70844-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> We found a progressive shift in gut microbial composition, characterized by reduced Firmicutes and increased Actinobacteria, Verrucomicrobiota, and Proteobacteria. Such patterns, particularly the expansion of Proteobacteria and Verrucomicrobiota (e.g., <italic toggle="yes">Akkermansia</italic>) alongside the loss of SCFA‐producing Firmicutes genera are consistently associated with a pro‐inflammatory gut environment in dementia and related models. In our cohort, CI groups showed enrichment of opportunistic pathogens (<italic toggle="yes">Escherichia–Shigella</italic>, <italic toggle="yes">R. gnavus</italic>), further supporting a shift toward a pro‐inflammatory microbial profile.<xref rid="alz70844-bib-0026" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="alz70844-bib-0027" ref-type="bibr">
+<sup>28</sup>
+</xref> Although <italic toggle="yes">R. gnavus</italic> is a natural member of the Firmicutes phylum, it can bloom under inflammatory conditions, highlighting the importance of considering strain‐level differences when assessing microbial contributions to disease.<xref rid="alz70844-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>
+</p><p>Our previous work on this sample set demonstrated reduced fecal concentrations of SCFAs such as butyrate and propionate in CI compared with HCs. This functional loss complements the observed decline in SCFA‐producing taxa and reinforces the proposed role of SCFAs in maintaining gut barrier integrity, modulating neuroinflammation, and supporting gut–brain axis communication.<xref rid="alz70844-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz70844-bib-0029" ref-type="bibr">
+<sup>30</sup>
+</xref>
+</p><p>We observed significant elevations of pro‐inflammatory cytokines in the MCI group, whereas changes in dementia were less consistent. This pattern may be influenced by the smaller dementia sample size, but it may also reflect stage‐specific immune dynamics. While some studies<xref rid="alz70844-bib-0030" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="alz70844-bib-0031" ref-type="bibr">
+<sup>32</sup>
+</xref>, <xref rid="alz70844-bib-0032" ref-type="bibr">
+<sup>33</sup>
+</xref> have reported inverse associations between cytokine levels and cognitive performance, our cohort showed no such relationship, underscoring the need for larger, longitudinal cohorts with harmonized immunophenotyping to determine whether peripheral cytokines predict progression or reflect disease stage.</p><p>Metabolomic profiling revealed distinct patterns of change across biofluids and cognitive stages. Alterations in bile acids were evident in both plasma and feces from the SCD stage, whereas plasma alteration in other metabolites appeared later, from MCI onward. Other fecal metabolites, including fatty acids, amino acids, tryptophan derivatives, and organic acids, were altered from SCD, suggesting that shifts in the gut lumen metabolome occur early in the CI continuum. The earlier and more pronounced changes in feces compared to plasma, along with the positive associations between plasma and fecal metabolites, support the idea that the intestinal environment may be a primary site of metabolic perturbation. Prior studies have linked altered bile acid metabolism to CI and proposed microbiome–bile acid interactions as potential contributors to brain pathology, although the mechanistic pathways remain incompletely understood.<xref rid="alz70844-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz70844-bib-0033" ref-type="bibr">
+<sup>34</sup>
+</xref>, <xref rid="alz70844-bib-0034" ref-type="bibr">
+<sup>35</sup>
+</xref>
+</p><p>A central mechanistic thread emerging from our data is the altered fatty acid landscape and its downstream conversion into oxylipins, bioactive lipid mediators with immunomodulatory and vascular effects. Dietary and structural fatty acids (linoleic acid, α‐linolenic acid, oleic acid) decreased with CI progression, while several longer‐chain fatty acids (e.g., 22:4n‐6, 22:5n‐6 in plasma; 20:3n‐3, 22:6n‐3 in feces) increased. One possible interpretation is that neuronal and membrane injury releases long‐chain PUFAs from phospholipids into circulation and the gut lumen, where they become substrates for COX‐, LOX‐, and CYP‐mediated oxygenation to oxylipins. In line with this, LOX‐derived oxylipins (HDOHEs, HETEs, HEPEs) were elevated in both plasma and feces, consistent with previous work linking these products to neuroinflammatory and vascular processes in dementia.<xref rid="alz70844-bib-0035" ref-type="bibr">
+<sup>36</sup>
+</xref>, <xref rid="alz70844-bib-0036" ref-type="bibr">
+<sup>37</sup>
+</xref>
+</p><p>Emerging evidence indicates that gut microbiota, particularly opportunistic Proteobacteria, can influence oxylipin profiles by modulating host lipid‐metabolizing enzymes and by directly transforming PUFAs into LOX‐mediated oxylipins within the gut lumen. Such microbial contributions could help explain the oxylipin shifts observed here and suggest another pathway through which dysbiosis may influence inflammatory tone.<xref rid="alz70844-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+</p><p>We also detected changes in fecal endocannabinoids (e.g., 2‐AGs, 2‐OG, 2‐LG), pointing to alterations in the gut endocannabinoid (eCB) system, which is involved in barrier integrity, immune modulation, and gut‐brain signaling.<xref rid="alz70844-bib-0038" ref-type="bibr">
+<sup>39</sup>
+</xref>, <xref rid="alz70844-bib-0039" ref-type="bibr">
+<sup>40</sup>
+</xref> Given the bidirectional interactions between microbiota and eCB pathways, these findings may represent an additional link between microbial composition and host lipid signaling, but further work is needed to define their functional significance.</p><p>Correlation analyses showed that reductions in SCFA‐producing bacteria and increases in opportunistic taxa were associated with higher cytokine levels and with metabolic changes including oxylipins, long‐chain fatty acids, and glucose. This pattern is consistent with a feedback loop in which dysbiosis reduces protective SCFAs, compromises barrier function, increases luminal substrates for pro‐inflammatory lipid mediator production, and promotes peripheral inflammation with potential downstream effects on the brain.</p><p>In conclusion, several large‐scale CI metabolomic and microbiome studies have reported consistent patterns, including altered bile acid, TMAO, tryptophan metabolism, oxylipin dysregulation, reduced SCFA producers, and Proteobacteria expansion. The present findings align with this broader literature, suggesting that fecal lipid mediator and bile acid changes can be detected as early as the SCD stage, indicating that metabolic alterations begin at this stage. This highlights the importance of paying attention to SCD as a potential window for prognosis and preventive interventions. Moreover, the observed correlations between altered microbial composition, inflammatory responses, and systemic metabolic changes underscore the potential for therapeutic strategies targeting the gut‐brain axis. Confirmation in larger longitudinal cohorts will be essential to establish timing, causality, and clinical relevance. Future studies integrating metadata and dietary information (exposome) will be critical for fully understanding the interactions influencing dementia progression and for identifying pathways that could inform interventions to manage this complex neurological disorder.</p><sec id="alz70844-sec-0230"><label>5.1</label><title>Limitation and further work</title><p>While this study is among the few that examine different stages of cognitive impairment, from SCD to dementia, and investigate both fecal and plasma metabolites in relation to gut microbiota alterations, it also has limitations. This is a small observational study and should be considered with caution. Its limited sample size may have impacted the generalizability of the findings, and the small number of participants involved in the study limits the statistical power and may introduce potential biases or confounding factors. Moreover, some of the study information was not available for all study participants. While acknowledging its limitations, this study implies that the interactions between the microbiota, the gut, and the brain are considerably more intricate than previously presumed. To corroborate and build upon our results, it is imperative that further research be conducted with larger and more diverse study populations, accompanied by more comprehensive metadata information. Moreover, it may be valuable to stratify the SCD group in future studies into those who will develop cognitive impairment and those who won't. This could help identify specific microbial or metabolic markers that differentiate these subgroups and provide early insights into cognitive decline progression.</p></sec></sec><sec sec-type="COI-statement" id="alz70844-sec-0250"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec id="alz70844-sec-0260"><title>CONSENT STATEMENT</title><p>Written informed consent was obtained from all participants, and the study received approval from the Geneva Ethics Committee (CCER_2016‐01346 and CCER_2020_00403)</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz70844-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz70844-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>The following are available online, Table S1: Plasma Immunoassays, Table S2: Metabolomics Data analysis and Missing values, Table S3: Non‐Parametric analysis of plasma proinflammatory cytokine levels across cognitive impairment states versus healthy controls, Table S4: The total abundance of various bacterial taxa in fecal samples from individuals with different cognitive impairment statuses, Table S5: Conducting linear model estimates analysis on plasma metabolites in various cognitive impairment statuses compared to a healthy control group, Table S6: Conducting linear model estimates analysis on feces metabolites in various cognitive impairment statuses compared to a healthy control group, Table S7: Spearman correlation analyses investigating associations between alterations in plasma metabolites, along with plasma cytokine levels, and the abundance of bacteria, Table S8: Spearman correlation analyses investigating associations between alterations in fecal metabolites and the abundance of bacteria.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e70844-s003.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz70844-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Figure S1: Lower and upper limits of detection for four cytokine standards measured using the Meso Scale Discovery (MSD) platform, Figure S2: Linear regression analysis of inflammatory cytokines with age and MMSE score in different statues of cognitive impairment, Figure S3: Microbiome compositional analysis of individuals in different status of cognitive impairment (based on Phylum abundance), Figure S4: Spearman correlation between the levels of metabolites in feces and their corresponding levels in plasma.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e70844-s002.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz70844-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e70844-s001.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz70844-sec-0240"><title>ACKNOWLEDGMENTS</title><p>We especially thank the technical support from the Metabolic and Analytic Centre: Lieke Lamont and Jelte Geerlings. The first author wishes to thank Deborah Decrop (Meso Scale Discovery) and Johan van der Reijden (Department of Gastroenterology and Hepatology, Leiden University Medical Center) for technical support of the immunoassay used in this study.</p><p>This work was partially supported by the Netherlands X‐omics Initiative (funded by NWO project 184.034.019); and the “Building the Infrastructure for Exposome Research: Exposome‐Scan” project (project number 175.2019.032) within the “Investment Grant NWO Large” program, funded by the Dutch Research Council (NWO).</p><p>The Centre de la mémoire is funded by the following private donors under the supervision of the Private Foundation of Geneva University Hospitals: A.P.R.A.—Association Suisse pour la Recherche sur la Maladie d'Alzheimer, Genève; Fondation Segré, Genève; Race Against Dementia Foundation, London, UK; Fondation Child Care, Genève; Fondation Edmond J. Safra, Genève; Fondation Minkoff, Genève; Fondazione Agusta, Lugano; McCall Macbain Foundation, Canada; Nicole et René Keller, Genève; Fondation AETAS, Genève. The Clinical Research Center, University Hospital and Faculty of Medicine, Geneva provides valuable support for regulatory submissions and data management. The IRCCS Fatebenefratelli is partially supported by the Italian Ministry of Health (Ricerca Corrente).</p></ack><ref-list id="alz70844-bibl-0001"><title>REFERENCES</title><ref id="alz70844-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz70844-cite-0002">
+<string-name name-style="western">
+<surname>van der Flier</surname>
+<given-names>WM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Vugt</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smets</surname>
+<given-names>EMA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blom</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teunissen</surname>
+<given-names>CE</given-names>
+</string-name>. <article-title>Towards a future where Alzheimer's disease pathology is stopped before the onset of dementia</article-title>. <source>Nat Aging</source>. <year>2023</year>;<volume>3</volume>:<fpage>494</fpage>‐<lpage>505</lpage>.<pub-id pub-id-type="pmid">37202515</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s43587-023-00404-2</pub-id></mixed-citation></ref><ref id="alz70844-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz70844-cite-0003">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xin</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Genetic and environmental factors in Alzheimer's and Parkinson's diseases and promising therapeutic intervention via fecal microbiota transplantation</article-title>. <source>NPJ Parkinsons Dis</source>. <year>2021</year>;<volume>7</volume>:<fpage>70</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41531-021-00213-7" ext-link-type="uri">10.1038/s41531‐021‐00213‐7</ext-link>
+<pub-id pub-id-type="pmid">34381040</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41531-021-00213-7</pub-id><pub-id pub-id-type="pmcid">PMC8357954</pub-id></mixed-citation></ref><ref id="alz70844-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz70844-cite-0004">
+<string-name name-style="western">
+<surname>Hou</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>XY</given-names>
+</string-name>, et al. <article-title>Microbiota in health and diseases</article-title>. <source>Signal Transduct Target Ther</source>. <year>2022</year>;<volume>7</volume>:<fpage>135</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41392-022-00974-4</pub-id>
+<pub-id pub-id-type="pmid">35461318</pub-id>
+<pub-id pub-id-type="pmcid">PMC9034083</pub-id></mixed-citation></ref><ref id="alz70844-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz70844-cite-0005">
+<string-name name-style="western">
+<surname>Vogt</surname>
+<given-names>NM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kerby</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dill‐McFarland</surname>
+<given-names>KA</given-names>
+</string-name>, et al. <article-title>Gut microbiome alterations in Alzheimer's disease</article-title>. <source>Sci Rep</source>. <year>2017</year>;<volume>7</volume>:<elocation-id>13537</elocation-id>. doi:<pub-id pub-id-type="doi">10.1038/s41598-017-13601-y</pub-id>
+<pub-id pub-id-type="pmid">29051531</pub-id>
+<pub-id pub-id-type="pmcid">PMC5648830</pub-id></mixed-citation></ref><ref id="alz70844-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz70844-cite-0006">
+<string-name name-style="western">
+<surname>Sheng</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Han</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Altered gut microbiota in adults with subjective cognitive decline: the SILCODE study</article-title>. <source>J Alzheimers Dis</source>. <year>2021</year>;<volume>82</volume>:<fpage>513</fpage>‐<lpage>526</lpage>.<pub-id pub-id-type="pmid">34024839</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-210259</pub-id></mixed-citation></ref><ref id="alz70844-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz70844-cite-0007">
+<string-name name-style="western">
+<surname>Tran</surname>
+<given-names>TTT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corsini</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kellingray</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>APOE genotype influences the gut microbiome structure and function in humans and mice: relevance for Alzheimer's disease pathophysiology</article-title>. <source>FASEB J</source>. <year>2019</year>;<volume>33</volume>:<fpage>8221</fpage>‐<lpage>8231</lpage>.<pub-id pub-id-type="pmid">30958695</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1096/fj.201900071R</pub-id><pub-id pub-id-type="pmcid">PMC6593891</pub-id></mixed-citation></ref><ref id="alz70844-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz70844-cite-0008">
+<string-name name-style="western">
+<surname>Seo</surname>
+<given-names>DO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Donnell</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jain</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>ApoE isoform‐ and microbiota‐dependent progression of neurodegeneration in a mouse model of tauopathy</article-title>. <source>Science</source>. <year>2023</year>;<volume>379</volume>:<elocation-id>eadd1236</elocation-id>.<pub-id pub-id-type="pmid">36634180</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.add1236</pub-id><pub-id pub-id-type="pmcid">PMC9901565</pub-id></mixed-citation></ref><ref id="alz70844-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz70844-cite-0009">
+<string-name name-style="western">
+<surname>Marizzoni</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cattaneo</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mirabelli</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Short‐chain fatty acids and lipopolysaccharide as mediators between gut dysbiosis and amyloid pathology in Alzheimer's disease</article-title>. <source>J Alzheimers Dis</source>. <year>2020</year>;<volume>78</volume>:<fpage>683</fpage>‐<lpage>697</lpage>.<pub-id pub-id-type="pmid">33074224</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-200306</pub-id></mixed-citation></ref><ref id="alz70844-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz70844-cite-0010">
+<string-name name-style="western">
+<surname>MahmoudianDehkordi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Altered bile acid profile associates with cognitive impairment in Alzheimer's disease—an emerging role for gut microbiome</article-title>. <source>Alzheimers Dement</source>. <year>2019</year>;<volume>15</volume>:<fpage>76</fpage>‐<lpage>92</lpage>.<pub-id pub-id-type="pmid">30337151</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2018.07.217</pub-id><pub-id pub-id-type="pmcid">PMC6487485</pub-id></mixed-citation></ref><ref id="alz70844-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz70844-cite-0011">
+<string-name name-style="western">
+<surname>Labus</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blach</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaddurah‐Daouk</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayer</surname>
+<given-names>EA</given-names>
+</string-name>. <article-title>Interactions between brain and bile acid ratio profiles predict baseline cognitive status</article-title>. <source>Alzheimers Dement</source>. <year>2022</year>;<volume>18</volume>:<elocation-id>e067272</elocation-id>. doi:<pub-id pub-id-type="doi">10.1002/alz.067272</pub-id>
+</mixed-citation></ref><ref id="alz70844-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz70844-cite-0012">
+<string-name name-style="western">
+<surname>Baloni</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Funk</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yan</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Metabolic network analysis reveals altered bile acid synthesis and metabolism in Alzheimer's disease</article-title>. <source>Cell Rep Med</source>. <year>2020</year>;<volume>1</volume>:<elocation-id>100138</elocation-id>.<pub-id pub-id-type="pmid">33294859</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.xcrm.2020.100138</pub-id><pub-id pub-id-type="pmcid">PMC7691449</pub-id></mixed-citation></ref><ref id="alz70844-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz70844-cite-0013">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Regulation of neurotransmitters by the gut microbiota and effects on cognition in neurological disorders</article-title>. <source>Nutrients</source>. <year>2021</year>;<volume>13</volume>:<fpage>2099</fpage>. doi:<pub-id pub-id-type="doi">10.3390/nu13062099</pub-id>
+<pub-id pub-id-type="pmid">34205336</pub-id>
+<pub-id pub-id-type="pmcid">PMC8234057</pub-id></mixed-citation></ref><ref id="alz70844-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz70844-cite-0014">
+<string-name name-style="western">
+<surname>Diaz‐Galvan</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferreira</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cedres</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Comparing different approaches for operationalizing subjective cognitive decline: impact on syndromic and biomarker profiles</article-title>. <source>Sci Rep</source>. <year>2021</year>;<volume>11</volume>:<fpage>4356</fpage>.<pub-id pub-id-type="pmid">33623075</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-021-83428-1</pub-id><pub-id pub-id-type="pmcid">PMC7902653</pub-id></mixed-citation></ref><ref id="alz70844-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz70844-cite-0015">
+<string-name name-style="western">
+<surname>Ribaldi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Altomare</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garibotto</surname>
+<given-names>V</given-names>,</string-name> et al. <article-title>Brain connectivity and metacognition in persons with subjective cognitive decline (COSCODE): retrospective analyses on the Geneva Memory Clinic cohort</article-title>. <source>Alzheimers Dement</source>. <year>2020</year>;<volume>16</volume>:<elocation-id>e045436</elocation-id>.</mixed-citation></ref><ref id="alz70844-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz70844-cite-0016">
+<string-name name-style="western">
+<surname>Jessen</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amariglio</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buckley</surname>
+<given-names>RF</given-names>
+</string-name>, et al. <article-title>The characterisation of subjective cognitive decline</article-title>. <source>Lancet Neurol</source>. <year>2020</year>;<volume>19</volume>:<fpage>271</fpage>‐<lpage>278</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(19)30368-0</pub-id>
+<pub-id pub-id-type="pmid">31958406</pub-id>
+<pub-id pub-id-type="pmcid">PMC7062546</pub-id></mixed-citation></ref><ref id="alz70844-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz70844-cite-0017">
+<string-name name-style="western">
+<surname>Albert</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>DeKosky</surname>
+<given-names>ST</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dickson</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>The diagnosis of mild cognitive impairment due to Alzheimer's disease: recommendations from the National Institute on Aging‐Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2011</year>;<volume>7</volume>:<fpage>270</fpage>‐<lpage>279</lpage>.<pub-id pub-id-type="pmid">21514249</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2011.03.008</pub-id><pub-id pub-id-type="pmcid">PMC3312027</pub-id></mixed-citation></ref><ref id="alz70844-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz70844-cite-0018">
+<string-name name-style="western">
+<surname>McKhann</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knopman</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chertkow</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>The diagnosis of dementia due to Alzheimer's disease: recommendations from the National Institute on Aging‐Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2011</year>;<volume>7</volume>:<fpage>263</fpage>‐<lpage>269</lpage>.<pub-id pub-id-type="pmid">21514250</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2011.03.005</pub-id><pub-id pub-id-type="pmcid">PMC3312024</pub-id></mixed-citation></ref><ref id="alz70844-bib-0040"><label>18</label><mixed-citation publication-type="journal" id="alz70844-cite-0041">
+<string-name name-style="western">
+<surname>Klindworth</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pruesse</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schweer</surname>
+<given-names>T</given-names>
+</string-name>, et al., <article-title>Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next‐generation sequencing‐based diversity studies</article-title>. <source>Nucleic Acids Res</source>. <year>2013</year>;<volume>41</volume>(<issue>1</issue>):<elocation-id>e1</elocation-id>. doi:<pub-id pub-id-type="doi">10.1093/nar/gks808</pub-id>
+<pub-id pub-id-type="pmid">22933715</pub-id>
+<pub-id pub-id-type="pmcid">PMC3592464</pub-id></mixed-citation></ref><ref id="alz70844-bib-0018"><label>19</label><mixed-citation publication-type="journal" id="alz70844-cite-0019">
+<string-name name-style="western">
+<surname>Bolyen</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rideout</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dillon</surname>
+<given-names>MR</given-names>
+</string-name>, et al. <article-title>Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2</article-title>. <source>Nat Biotechnol</source>. <year>2019</year>;<volume>37</volume>:<fpage>852</fpage>‐<lpage>857</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41587-019-0209-9</pub-id>
+<pub-id pub-id-type="pmid">31341288</pub-id>
+<pub-id pub-id-type="pmcid">PMC7015180</pub-id></mixed-citation></ref><ref id="alz70844-bib-0019"><label>20</label><mixed-citation publication-type="journal" id="alz70844-cite-0020">
+<string-name name-style="western">
+<surname>Callahan</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McMurdie</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosen</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Han</surname>
+<given-names>AW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>AJA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holmes</surname>
+<given-names>SP</given-names>
+</string-name>. <article-title>DADA2: high‐resolution sample inference from Illumina amplicon data</article-title>. <source>Nat Methods</source>. <year>2016</year>;<volume>13</volume>:<fpage>581</fpage>‐<lpage>583</lpage>.<pub-id pub-id-type="pmid">27214047</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.3869</pub-id><pub-id pub-id-type="pmcid">PMC4927377</pub-id></mixed-citation></ref><ref id="alz70844-bib-0020"><label>21</label><mixed-citation publication-type="journal" id="alz70844-cite-0021">
+<string-name name-style="western">
+<surname>Bokulich</surname>
+<given-names>NA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaehler</surname>
+<given-names>BD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rideout</surname>
+<given-names>JR</given-names>
+</string-name>, et al. <article-title>Optimizing taxonomic classification of marker‐gene amplicon sequences with QIIME 2's q2‐feature‐classifier plugin</article-title>. <source>Microbiome</source>. <year>2018</year>;<volume>6</volume>:<fpage>90</fpage>.<pub-id pub-id-type="pmid">29773078</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s40168-018-0470-z</pub-id><pub-id pub-id-type="pmcid">PMC5956843</pub-id></mixed-citation></ref><ref id="alz70844-bib-0021"><label>22</label><mixed-citation publication-type="journal" id="alz70844-cite-0022">
+<string-name name-style="western">
+<surname>Jurado‐Fasoli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kohler</surname>
+<given-names>I</given-names>
+</string-name>, et al. <article-title>Omega‐6 and omega‐3 oxylipins as potential markers of cardiometabolic risk in young adults</article-title>. <source>Obesity</source>. <year>2022</year>;<volume>30</volume>:<fpage>50</fpage>‐<lpage>61</lpage>.<pub-id pub-id-type="pmid">34898010</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/oby.23282</pub-id><pub-id pub-id-type="pmcid">PMC9299871</pub-id></mixed-citation></ref><ref id="alz70844-bib-0022"><label>23</label><mixed-citation publication-type="journal" id="alz70844-cite-0023">
+<string-name name-style="western">
+<surname>Hosseinkhani</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dubbelman</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guled</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harms</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hankemeier</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Systematic evaluation of HILIC stationary phases for global metabolomics of human plasma</article-title>. <source>Metabolites</source>. <year>2022</year>;<volume>12</volume>:<fpage>165</fpage>.<pub-id pub-id-type="pmid">35208239</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/metabo12020165</pub-id><pub-id pub-id-type="pmcid">PMC8875576</pub-id></mixed-citation></ref><ref id="alz70844-bib-0023"><label>24</label><mixed-citation publication-type="journal" id="alz70844-cite-0024">
+<string-name name-style="western">
+<surname>Hosseinkhani</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dubbelman</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karu</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harms</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hankemeier</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Towards standards for human fecal sample preparation in targeted and untargeted lc‐hrms studies</article-title>. <source>Metabolites</source>. <year>2021</year>;<volume>11</volume>:<fpage>364</fpage>.<pub-id pub-id-type="pmid">34200487</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/metabo11060364</pub-id><pub-id pub-id-type="pmcid">PMC8230323</pub-id></mixed-citation></ref><ref id="alz70844-bib-0024"><label>25</label><mixed-citation publication-type="journal" id="alz70844-cite-0025">
+<string-name name-style="western">
+<surname>McMurdie</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holmes</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data</article-title>. <source>PLoS One</source>. <year>2013</year>;<volume>8</volume>:<elocation-id>e61217</elocation-id>.<pub-id pub-id-type="pmid">23630581</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0061217</pub-id><pub-id pub-id-type="pmcid">PMC3632530</pub-id></mixed-citation></ref><ref id="alz70844-bib-0025"><label>26</label><mixed-citation publication-type="journal" id="alz70844-cite-0026">
+<string-name name-style="western">
+<surname>Jemimah</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chabib</surname>
+<given-names>CMM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hadjileontiadis</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>AlShehhi</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Gut microbiome dysbiosis in Alzheimer's disease and mild cognitive impairment: a systematic review and meta‐analysis</article-title>. <source>PLoS One</source>. <year>2023</year>;<volume>18</volume>:<elocation-id>e0285346</elocation-id>.<pub-id pub-id-type="pmid">37224131</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0285346</pub-id><pub-id pub-id-type="pmcid">PMC10208513</pub-id></mixed-citation></ref><ref id="alz70844-bib-0026"><label>27</label><mixed-citation publication-type="journal" id="alz70844-cite-0027">
+<string-name name-style="western">
+<surname>Henke</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kenny</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cassilly</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vlamakis</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xavier</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clardy</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>
+<italic toggle="yes">Ruminococcus gnavus</italic>, a member of the human gut microbiome associated with Crohn's disease, produces an inflammatory polysaccharide</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2019</year>;<volume>116</volume>:<fpage>12672</fpage>‐<lpage>12677</lpage>.<pub-id pub-id-type="pmid">31182571</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1904099116</pub-id><pub-id pub-id-type="pmcid">PMC6601261</pub-id></mixed-citation></ref><ref id="alz70844-bib-0027"><label>28</label><mixed-citation publication-type="journal" id="alz70844-cite-0028">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Gut microbiota dysbiosis in patients with Alzheimer's disease and correlation with multiple cognitive domains</article-title>. <source>Front Aging Neurosci</source>. <year>2024</year>;<volume>16</volume>:<elocation-id>1478557</elocation-id>.<pub-id pub-id-type="pmid">39665039</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fnagi.2024.1478557</pub-id><pub-id pub-id-type="pmcid">PMC11632125</pub-id></mixed-citation></ref><ref id="alz70844-bib-0028"><label>29</label><mixed-citation publication-type="journal" id="alz70844-cite-0029">
+<string-name name-style="western">
+<surname>Sokolovskaya</surname>
+<given-names>OM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Uzunovic</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peng</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Dysbiosis‐associated gut bacterium <italic toggle="yes">Ruminococcus gnavus</italic> varies at the strain level in its ability to utilize key mucin component sialic acid</article-title>. <source>Microbiology Spectrum</source>. <year>2025</year>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/spectrum.03090-24</pub-id><pub-id pub-id-type="pmcid">PMC12323340</pub-id><pub-id pub-id-type="pmid">40642981</pub-id></mixed-citation></ref><ref id="alz70844-bib-0029"><label>30</label><mixed-citation publication-type="journal" id="alz70844-cite-0030">
+<string-name name-style="western">
+<surname>Marizzoni</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coppola</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Festari</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Circulating short chain fatty acids in Alzheimer's disease: a cross‐sectional observational study</article-title>. <source>J Alzheimers Dis</source>. <year>2025</year>;<volume>106</volume>:<fpage>38</fpage>‐<lpage>43</lpage>.<pub-id pub-id-type="pmid">40501283</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/13872877251337773</pub-id><pub-id pub-id-type="pmcid">PMC12231880</pub-id></mixed-citation></ref><ref id="alz70844-bib-0030"><label>31</label><mixed-citation publication-type="journal" id="alz70844-cite-0031">
+<string-name name-style="western">
+<surname>Pomara</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Plaska</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bruno</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Higher plasma proinflammatory cytokines and reduced microglial TREM2 signaling in Late‐life Major Depression</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>:<elocation-id>e067334</elocation-id>.</mixed-citation></ref><ref id="alz70844-bib-0031"><label>32</label><mixed-citation publication-type="journal" id="alz70844-cite-0032">
+<string-name name-style="western">
+<surname>Khemka</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ganguly</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bagchi</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Raised serum proinflammatory cytokines in Alzheimer's disease with depression</article-title>. <source>Aging Dis</source>. <year>2014</year>;<volume>5</volume>:<fpage>170</fpage>‐<lpage>176</lpage>.<pub-id pub-id-type="pmid">24900939</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.14336/AD.2014.0500170</pub-id><pub-id pub-id-type="pmcid">PMC4037308</pub-id></mixed-citation></ref><ref id="alz70844-bib-0032"><label>33</label><mixed-citation publication-type="journal" id="alz70844-cite-0033">
+<string-name name-style="western">
+<surname>Cattaneo</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cattane</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galluzzi</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Association of brain amyloidosis with pro‐inflammatory gut bacterial taxa and peripheral inflammation markers in cognitively impaired elderly</article-title>. <source>Neurobiol Aging</source>. <year>2017</year>;<volume>49</volume>:<fpage>60</fpage>‐<lpage>68</lpage>.<pub-id pub-id-type="pmid">27776263</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2016.08.019</pub-id></mixed-citation></ref><ref id="alz70844-bib-0033"><label>34</label><mixed-citation publication-type="journal" id="alz70844-cite-0034">
+<string-name name-style="western">
+<surname>Vogt</surname>
+<given-names>NM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Romano</surname>
+<given-names>KA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Darst</surname>
+<given-names>BF</given-names>
+</string-name>, et al. <article-title>The gut microbiota‐derived metabolite trimethylamine N‐oxide is elevated in Alzheimer's disease</article-title>. <source>Alzheimers Res Ther</source>. <year>2018</year>;<volume>10</volume>:<fpage>124</fpage>.<pub-id pub-id-type="pmid">30579367</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-018-0451-2</pub-id><pub-id pub-id-type="pmcid">PMC6303862</pub-id></mixed-citation></ref><ref id="alz70844-bib-0034"><label>35</label><mixed-citation publication-type="journal" id="alz70844-cite-0035">
+<string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hess</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weimer</surname>
+<given-names>BC</given-names>
+</string-name>. <article-title>Microbial‐Derived tryptophan metabolites and their role in neurological disease: anthranilic acid and anthranilic acid derivatives</article-title>. <source>Microorganisms</source>. <year>2023</year>;<volume>11</volume>:<fpage>1825</fpage>. doi:<pub-id pub-id-type="doi">10.3390/microorganisms11071825</pub-id>
+<pub-id pub-id-type="pmid">37512997</pub-id>
+<pub-id pub-id-type="pmcid">PMC10384668</pub-id></mixed-citation></ref><ref id="alz70844-bib-0035"><label>36</label><mixed-citation publication-type="journal" id="alz70844-cite-0036">
+<string-name name-style="western">
+<surname>Shen</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Patten</surname>
+<given-names>KT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Valenzuela</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lein</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taha</surname>
+<given-names>AY</given-names>
+</string-name>. <article-title>Probing changes in brain esterified oxylipin concentrations during the early stages of pathogenesis in Alzheimer's disease transgenic rats</article-title>. <source>Neurosci Lett</source>. <year>2022</year>;<volume>791</volume>:<elocation-id>136921</elocation-id>.<pub-id pub-id-type="pmid">36270451</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neulet.2022.136921</pub-id><pub-id pub-id-type="pmcid">PMC9839422</pub-id></mixed-citation></ref><ref id="alz70844-bib-0036"><label>37</label><mixed-citation publication-type="journal" id="alz70844-cite-0037">
+<string-name name-style="western">
+<surname>Devassy</surname>
+<given-names>JG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leng</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gabbs</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Monirujjaman</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aukema</surname>
+<given-names>HM</given-names>
+</string-name>. <article-title>Omega‐3 polyunsaturated fatty acids and oxylipins in neuroinflammation and management of Alzheimer disease</article-title>. <source>Adv Nutr</source>. <year>2016</year>;<volume>7</volume>:<fpage>905</fpage>‐<lpage>916</lpage>. doi:<pub-id pub-id-type="doi">10.3945/an.116.012187</pub-id>
+<pub-id pub-id-type="pmid">27633106</pub-id>
+<pub-id pub-id-type="pmcid">PMC5015035</pub-id></mixed-citation></ref><ref id="alz70844-bib-0037"><label>38</label><mixed-citation publication-type="journal" id="alz70844-cite-0038">
+<string-name name-style="western">
+<surname>Ávila‐Román</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arreaza‐Gil</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cortés‐Espinar</surname>
+<given-names>AJ</given-names>
+</string-name>, et al. <article-title>Impact of gut microbiota on plasma oxylipins profile under healthy and obesogenic conditions</article-title>. <source>Clin Nutr</source>. <year>2021</year>;<volume>40</volume>:<fpage>1475</fpage>‐<lpage>1486</lpage>.<pub-id pub-id-type="pmid">33743282</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.clnu.2021.02.035</pub-id></mixed-citation></ref><ref id="alz70844-bib-0038"><label>39</label><mixed-citation publication-type="journal" id="alz70844-cite-0039">
+<string-name name-style="western">
+<surname>Rahaman</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ganguly</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Endocannabinoids in immune regulation and immunopathologies</article-title>. <source>Immunology</source>. <year>2021</year>;<volume>164</volume>:<fpage>242</fpage>‐<lpage>252</lpage>. doi:<pub-id pub-id-type="doi">10.1111/imm.13378</pub-id>
+<pub-id pub-id-type="pmid">34053085</pub-id>
+<pub-id pub-id-type="pmcid">PMC8442232</pub-id></mixed-citation></ref><ref id="alz70844-bib-0039"><label>40</label><mixed-citation publication-type="journal" id="alz70844-cite-0040">
+<string-name name-style="western">
+<surname>Bisogno</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lauritano</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piscitelli</surname>
+<given-names>F</given-names>
+</string-name>. <article-title>The endocannabinoid system: a bridge between Alzheimer's disease and gut microbiota</article-title>. <source>Life</source>. <year>2021</year>;<volume>11</volume>:<fpage>934</fpage>.<pub-id pub-id-type="pmid">34575083</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/life11090934</pub-id><pub-id pub-id-type="pmcid">PMC8470731</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

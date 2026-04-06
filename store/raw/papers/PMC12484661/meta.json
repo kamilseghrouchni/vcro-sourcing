@@ -1,0 +1,261 @@
+{
+  "pmid": "41028049",
+  "pmc": "PMC12484661",
+  "doi": "10.1038/s41598-025-11466-0",
+  "title": "Proteomic analysis of brain and spinal cord tissue reveals distinct immune and mitochondrial processes between human and mouse ALS models",
+  "journal": "Scientific Reports",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Spiteri Alanna G.",
+      "affiliations": [
+        "https://ror.org/03a2tac74grid.418025.a0000 0004 0606 5526The Florey Institute of Neuroscience and Mental Health, Parkville, VIC 3052 Australia"
+      ]
+    },
+    {
+      "name": "Steele Joel R.",
+      "affiliations": [
+        "https://ror.org/02bfwt286grid.1002.30000 0004 1936 7857Monash Proteomics and Metabolomics Platform, Department of Biochemistry and Molecular Biology, Monash Biomedicine Discovery Institute, Monash University, Clayton, VIC 3168 Australia"
+      ]
+    },
+    {
+      "name": "Lee Han-Chung",
+      "affiliations": [
+        "https://ror.org/02bfwt286grid.1002.30000 0004 1936 7857Monash Proteomics and Metabolomics Platform, Department of Biochemistry and Molecular Biology, Monash Biomedicine Discovery Institute, Monash University, Clayton, VIC 3168 Australia"
+      ]
+    },
+    {
+      "name": "Zhang Haijian",
+      "affiliations": [
+        "https://ror.org/02bfwt286grid.1002.30000 0004 1936 7857Monash Proteomics and Metabolomics Platform, Department of Biochemistry and Molecular Biology, Monash Biomedicine Discovery Institute, Monash University, Clayton, VIC 3168 Australia"
+      ]
+    },
+    {
+      "name": "Sun Jiaqi",
+      "affiliations": [
+        "https://ror.org/03a2tac74grid.418025.a0000 0004 0606 5526The Florey Institute of Neuroscience and Mental Health, Parkville, VIC 3052 Australia",
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XFlorey Department of Neuroscience and Mental Health, The University of Melbourne, Parkville, VIC 3052 Australia"
+      ]
+    },
+    {
+      "name": "Schittenhelm Ralf B.",
+      "affiliations": [
+        "https://ror.org/02bfwt286grid.1002.30000 0004 1936 7857Monash Proteomics and Metabolomics Platform, Department of Biochemistry and Molecular Biology, Monash Biomedicine Discovery Institute, Monash University, Clayton, VIC 3168 Australia"
+      ]
+    },
+    {
+      "name": "Yu Chien-Hsiung",
+      "affiliations": [
+        "https://ror.org/03a2tac74grid.418025.a0000 0004 0606 5526The Florey Institute of Neuroscience and Mental Health, Parkville, VIC 3052 Australia",
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XFlorey Department of Neuroscience and Mental Health, The University of Melbourne, Parkville, VIC 3052 Australia"
+      ]
+    },
+    {
+      "name": "McLean Catriona",
+      "affiliations": [
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XFlorey Department of Neuroscience and Mental Health, The University of Melbourne, Parkville, VIC 3052 Australia"
+      ]
+    },
+    {
+      "name": "Masters Colin L.",
+      "affiliations": [
+        "https://ror.org/03a2tac74grid.418025.a0000 0004 0606 5526The Florey Institute of Neuroscience and Mental Health, Parkville, VIC 3052 Australia"
+      ]
+    },
+    {
+      "name": "Goudey Benjamin",
+      "affiliations": [
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XFlorey Department of Neuroscience and Mental Health, The University of Melbourne, Parkville, VIC 3052 Australia",
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XThe ARC Training Centre in Cognitive Computing for Medical Technologies, University of Melbourne, Carlton, VIC 3052 Australia",
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XAustralia BioCommons, University of Melbourne, VIC 3052 Melbourne, Australia"
+      ]
+    },
+    {
+      "name": "Jin Liang",
+      "affiliations": [
+        "https://ror.org/03a2tac74grid.418025.a0000 0004 0606 5526The Florey Institute of Neuroscience and Mental Health, Parkville, VIC 3052 Australia",
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XFlorey Department of Neuroscience and Mental Health, The University of Melbourne, Parkville, VIC 3052 Australia",
+        "https://ror.org/02bfwt286grid.1002.30000 0004 1936 7857 School of Translational Medicine, Monash University, Melbourne, Australia"
+      ]
+    },
+    {
+      "name": "Pan Yijun",
+      "affiliations": [
+        "https://ror.org/03a2tac74grid.418025.a0000 0004 0606 5526The Florey Institute of Neuroscience and Mental Health, Parkville, VIC 3052 Australia",
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XFlorey Department of Neuroscience and Mental Health, The University of Melbourne, Parkville, VIC 3052 Australia",
+        "https://ror.org/02bfwt286grid.1002.30000 0004 1936 7857 School of Translational Medicine, Monash University, Melbourne, Australia"
+      ]
+    }
+  ],
+  "keywords": [
+    "Motor neurone disease",
+    "Amyotrophic lateral sclerosis",
+    "Immune-mediated pathology",
+    "Mitochondrial dysfunction",
+    "Neurodegeneration",
+    "TMT-proteomics",
+    "Motor neuron disease",
+    "Immunology",
+    "Proteomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Health and Medical Research CouncilGNT2007912",
+    "NHMRC-AMED 2022 Dementia Collaborative ResearchGNT2022203",
+    "Alzheimer’s Association grantAARF1020292"
+  ],
+  "data_availability_text": "Data availabilityAll data analysed during this study are included in supplementary information files. The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE [1] partner repository with the dataset identifier PXD062542.",
+  "license": "",
+  "received": "2025-03-21",
+  "accepted": "2025-07-10",
+  "reference_pmids": [
+    "34153344",
+    "34153344",
+    "35103515",
+    "35103515",
+    "39343443",
+    "38386047",
+    "38386047",
+    "30663610",
+    "30663610",
+    "37480213",
+    "37480213",
+    "28687523",
+    "28687523",
+    "32344665",
+    "32344665",
+    "37024676",
+    "37024676",
+    "28968365",
+    "28968365",
+    "26108367",
+    "26108367",
+    "34404845",
+    "34404845",
+    "38415587",
+    "38415587",
+    "36559296",
+    "36559296",
+    "39254081",
+    "39254081",
+    "31657565",
+    "31657565",
+    "37584946",
+    "37584946",
+    "37624922",
+    "37624922",
+    "34557778",
+    "10802651",
+    "10802651",
+    "36866529",
+    "36866529",
+    "10592173",
+    "10592173",
+    "37941124",
+    "32907876",
+    "32907876",
+    "36370099",
+    "36370099",
+    "33277362",
+    "33277362",
+    "37779364",
+    "37779364",
+    "38849340",
+    "38849340",
+    "38374041",
+    "29099853",
+    "29099853",
+    "28645171",
+    "28645171",
+    "29191947",
+    "29191947",
+    "26870889",
+    "26870889",
+    "27633977",
+    "27633977",
+    "38451707",
+    "38451707",
+    "27507246",
+    "27507246",
+    "18088371",
+    "18088371",
+    "37542825",
+    "37542825",
+    "33134918",
+    "33134918",
+    "30872628",
+    "30872628",
+    "19307024",
+    "19307024",
+    "36347843",
+    "36347843",
+    "29463850",
+    "29463850",
+    "37081987",
+    "37081987",
+    "38552326",
+    "38552326",
+    "37716523",
+    "37716523",
+    "38256249",
+    "38256249",
+    "33679725",
+    "33679725",
+    "32277967",
+    "32277967",
+    "34217896",
+    "34217896",
+    "32805223",
+    "32805223",
+    "37164984",
+    "37164984",
+    "9147377",
+    "9147377",
+    "28939905",
+    "28939905",
+    "29803222",
+    "29803222",
+    "36038262",
+    "36038262",
+    "29859100",
+    "29859100",
+    "16741123",
+    "16741123",
+    "34638637",
+    "34638637",
+    "23827948",
+    "23827948",
+    "27348499",
+    "27348499",
+    "37143081",
+    "37143081",
+    "34853891",
+    "34853891"
+  ],
+  "tables_count": 2,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "human postmortem tissues",
+    "animals and tissue collection",
+    "proteomics",
+    "data analysis",
+    "results",
+    "mitochondrial and muscle functionality are dysregulated in tdp-43 mice",
+    "overlapping responses across human tissues affected by als",
+    "immune and mitochondrial functions are differentially regulated in als",
+    "tdp-43 mice do not recapitulate immune responses in als",
+    "enrichment analysis of multiple mouse models identifies those that exhibit higher concordance with human als",
+    "discussion",
+    "conclusions",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11212,
+  "converted_at": "2026-04-06T22:37:39.911949+00:00"
+}

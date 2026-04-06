@@ -1,0 +1,1105 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06583395",
+      "orgStudyIdInfo": {
+        "id": "20211477A"
+      },
+      "organization": {
+        "fullName": "VitaMed Research LLC",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Quest to Analyze One Thousand Humans Meditating",
+      "officialTitle": "Effects Of Meditation On The Gut Microbiome And Human Health and Disease",
+      "acronym": "QUANTUM"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-12-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-25",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-03-25",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-11-29",
+      "studyFirstSubmitQcDate": "2024-08-30",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Tobias Moeller-Bertram",
+        "investigatorTitle": "President",
+        "investigatorAffiliation": "VitaMed Research LLC"
+      },
+      "leadSponsor": {
+        "name": "Tobias Moeller-Bertram",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Metamorphosis, LLC",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "University of California, San Diego",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will be focused on assessing the molecular, physiological, and emotional correlates of an intensive meditation experience in the context of a retreat setting in a large 2000 plus-person cohort comprised of healthy and clinical populations.",
+      "detailedDescription": "Meditation and other mind-body interventions (MBIs) have been shown to have a range of health benefits, including an improved stress response, a reduction in inflammatory processes, and an enhanced innate immune response. While several studies on MBIs have been carried out to assess metabolomic, transcriptomic, epigenomic, or physiological outcomes, comprehensive studies including all of these components have not been reported. In addition, most studies have been small, comprised of less than 100 research subjects.\n\nOne particular area of meditation research that remains largely unexplored is the gut. A bi-directional communication occurs between the gut and the brain, thus, the gut microbiota can influence behavior, resulting in psychosocial stress and negatively impacting the microbiome. One would predict, then, that meditation-based reductions in stress would have positive effects on gut microbial makeup. Importantly, diseased states are characterized by specific gut microbiome profiles, thus, one can use the microbiome to assay for meditation-induced changes in these states.\n\nIn this study, a comprehensive multi-omic analysis will be carried out to determine the effect of an immersive 7-day meditation experience in a retreat setting in a large 2000+ person cohort. Metagenomic analysis will be performed on the gut microbiome, including healthy and clinical populations, to assess disease-specific improvements (Phase 1). In addition, Garmin wearable technology will be used to collect biometric health data, including heart rate, sleep, stress, and activity, for up to 10 months after the meditation retreat (Phase 1). In Phase 2 of this study, the biological analyses will be expanded to include blood and urine. Taken together, these data will be coupled with self-report surveys of physical and emotional health and integrated into a machine-learning platform to assess microbiome shifts tied with epigenetics, proteomics, metabolomics, transformational language, and improvements in health.\n\nThe advanced week-long meditation retreat will include approximately 25 hours of instruction and 35 hours of meditation. The meditations will include elements of focused attention, non-dual awareness, and loving kindness compassion techniques. While these meditations are unique to this meditation teacher, they are centered around Kundalini and Vipassana techniques. The meditations will be carried out seated, standing, lying down, and walking. The retreat setting allows for controlling many variables, including sleep schedule, meditation schedule, and diet."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis (ALS)",
+        "Angina, Stable",
+        "Anxiety",
+        "Asthma",
+        "Atrial Fibrillation",
+        "Cancer Brain",
+        "Cancer, Breast",
+        "Cancer Colon",
+        "Cancer, Lung",
+        "Cancer, Ovarian",
+        "Cancer Prostate",
+        "Cancer Skin",
+        "Throat Cancer",
+        "Lymphoma",
+        "Cancer, Thyroid",
+        "Cancer, Other",
+        "Cerebral Palsy",
+        "Chronic Fatigue Syndrome",
+        "Cluster Headache",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Chronic Kidney Diseases",
+        "Crohn Disease",
+        "Deafness",
+        "Depression",
+        "Diabetes",
+        "Eczema",
+        "Epilepsy",
+        "Fibroids",
+        "Fibromyalgia",
+        "Heart Failure",
+        "Hypertension",
+        "Hyperthyroidism",
+        "Hypothyroidism",
+        "Irritable Bowel Syndrome (IBS)",
+        "Infertility",
+        "Lyme Disease",
+        "Macular Degeneration",
+        "Migraine",
+        "Multiple Allergies",
+        "Multiple Sclerosis",
+        "Osteoarthritis",
+        "Osteoporosis",
+        "Ovarian Cysts",
+        "Parkinson Disease",
+        "Phantom Limb Pain",
+        "Psoriasis",
+        "Post Traumatic Stress Disorder (PTSD)",
+        "Rheumatoid Arthritis",
+        "Sjogrens Disease",
+        "Spinal Cord Injury",
+        "Spinal Stenosis",
+        "Stroke",
+        "Tension Headache",
+        "Tinnitus",
+        "Ulcerative Colitis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Whole blood, blood plasma, buccal cells, stool, urine, tears"
+      },
+      "enrollmentInfo": {
+        "count": 3000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Advanced multi-component meditation practice",
+          "description": "The study intervention is a multi-component advanced guided meditation practice that incorporates elements of focused attention, non-dual, and loving kindness and compassion meditation techniques as well as breathwork components. The practice includes sitting, lying down, standing, and walking components and is carried out at 7-day advanced meditation retreats lead by Joe Dispenza, D.C. These retreats include lecture-based instruction and up to 35 hours of meditation practice."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Effect of Meditation in an Advanced Retreat Setting on Heart Rate Variability in a Global Population",
+          "description": "In Phases 1, 2, and 3 of this study, heart rate data will be collected using a Garmin wrist device at the beginning of the meditation retreat and continuously for up to ten months after the retreat. Beat-to-beat interval data will be used to calculate heart rate variability. Time domain measures will include the mean of R-R intervals (mRR), standard deviation of all R-R intervals (SDRR), root mean square of successive R-R differences (RMSSD), and the percentage of R-R intervals that vary by at least 50 ms (pRR50). Frequency domain measures will include very low frequency (VLF), low frequency (LF), and high frequency (HF) measures.",
+          "timeFrame": "4 years"
+        },
+        {
+          "measure": "Effect of Meditation in an Advanced Retreat Setting on the Gut Microbiome and Metabolites in a Global Population.",
+          "description": "In Phases 1, 2, and 3 of this study, metagenomic analysis will be carried out on stool samples collected before and after the retreat. This analysis will assess changes in gut microbes and metabolites as a function of multiple variables, including age and sex.",
+          "timeFrame": "4 years"
+        },
+        {
+          "measure": "Effect of Meditation in an Advanced Retreat Setting on the Multi-omic Expression of Genes, Proteins, and Metabolites in the Blood in a Global Population",
+          "description": "In Phases 2 and 3 of this study, an integrative analysis of multi-omic assessments will be carried out in whole blood and plasma samples collected before and after the retreat. Whole blood will be analyzed for gene expression while proteomic and metabolomic analysis will be carried out in blood plasma.",
+          "timeFrame": "4 years"
+        },
+        {
+          "measure": "Effect of Meditation in an Advanced Retreat Setting on Physical and Emotional Health outcomes in a global population.",
+          "description": "In Phases 1, 2, and 3 of this study, physical and emotional states will be assessed using the Short Form (SF)-36 self-report survey instrument. This scale includes measures for the following domains: bodily pain, general health, mental health, physical functioning, role emotional, role physical, social functioning, and vitality. Data will be reported as the average percent change from baseline to follow-up for each domain. When necessary, data will be rescaled such that positive values will indicate improvement from pre- to post-retreat.",
+          "timeFrame": "4 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Assess the Effect of Meditation in an Advanced Retreat Setting on Physical and Emotional Health for Multiple Disease States",
+          "description": "In Phases 1, 2, and 3 of this study, demographic data will be collected to assess the health status of each study subject including all physical and emotional conditions. Physical and emotional health will be assessed using the Short Form (SF)-36 self-report survey instrument. This scale includes measures for the following domains: bodily pain, general health, mental health, physical functioning, role emotional, role physical, social functioning, and vitality. Data will be reported as the average percent change from baseline to follow-up for each domain. When necessary, data will be rescaled such that positive values will indicate improvement from pre- to post-retreat.",
+          "timeFrame": "4 years"
+        },
+        {
+          "measure": "Assess the Effect of Meditation in an Advanced Retreat Setting on the Gut Microbiome and Metabolites for Multiple Disease States",
+          "description": "In Phases 1, 2, and 3 of this study, metagenomic data generated in Primary Outcome #2 will be stratified by health condition. These data will highlight specific changes in gut microbes and metabolites resulting from the meditation retreat.",
+          "timeFrame": "4 years"
+        },
+        {
+          "measure": "Assess the Effect of Meditation in an Advanced Retreat Setting on the Differential Expression of Genes, Proteins, and Metabolites in Blood for Multiple Disease States",
+          "description": "In Phases 2 and 3 of this study, transcriptomic, proteomic, and metabolomic data generated in Primary Outcome #3 will be stratified by health condition. These data will highlight specific changes in gene expression, protein expression, and metabolites resulting from the meditation retreat.",
+          "timeFrame": "4 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Must be at 21 years of age or older\n2. Must speak English\n3. Must be a registered attendee of the advanced 7-Day meditation retreat\n4. Must be willing to wear a Garmin device for the entire retreat\n5. Must complete the research consent to participate in the study\n6. Must be willing to complete self-report surveys for physical and emotional well-being\n\nExclusion Criteria:\n\n1. Younger than 21 years of age\n2. Non-English speaking\n3. Not a registered attendee of the advanced 7-Day meditation retreat\n4. Not willing to wear a Garmin device for the entire meditation retreat\n5. Did not complete the research consent\n6. Not willing or able to complete all self-report surveys",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "All study participants are registered for the advanced meditation retreat.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Tobias Moeller-Bertram, MD",
+          "affiliation": "VitaMed Research LLC",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "VitaMed Research, LLC",
+          "city": "Palm Desert",
+          "state": "California",
+          "zip": "92260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.72255,
+            "lon": -116.37697
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "19432513",
+          "type": "BACKGROUND",
+          "citation": "Chiesa A, Serretti A. Mindfulness-based stress reduction for stress management in healthy people: a review and meta-analysis. J Altern Complement Med. 2009 May;15(5):593-600. doi: 10.1089/acm.2008.0495."
+        },
+        {
+          "pmid": "28670311",
+          "type": "BACKGROUND",
+          "citation": "Buric I, Farias M, Jong J, Mee C, Brazil IA. What Is the Molecular Signature of Mind-Body Interventions? A Systematic Review of Gene Expression Changes Induced by Meditation and Related Practices. Front Immunol. 2017 Jun 16;8:670. doi: 10.3389/fimmu.2017.00670. eCollection 2017."
+        },
+        {
+          "pmid": "28017838",
+          "type": "BACKGROUND",
+          "citation": "Muehsam D, Lutgendorf S, Mills PJ, Rickhi B, Chevalier G, Bat N, Chopra D, Gurfein B. The embodied mind: A review on functional genomic and neurological correlates of mind-body therapies. Neurosci Biobehav Rev. 2017 Feb;73:165-181. doi: 10.1016/j.neubiorev.2016.12.027. Epub 2016 Dec 23."
+        },
+        {
+          "pmid": "24799686",
+          "type": "BACKGROUND",
+          "citation": "Kox M, van Eijk LT, Zwaag J, van den Wildenberg J, Sweep FC, van der Hoeven JG, Pickkers P. Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans. Proc Natl Acad Sci U S A. 2014 May 20;111(20):7379-84. doi: 10.1073/pnas.1322174111. Epub 2014 May 5."
+        },
+        {
+          "pmid": "34907015",
+          "type": "BACKGROUND",
+          "citation": "Chandran V, Bermudez ML, Koka M, Chandran B, Pawale D, Vishnubhotla R, Alankar S, Maturi R, Subramaniam B, Sadhasivam S. Large-scale genomic study reveals robust activation of the immune system following advanced Inner Engineering meditation retreat. Proc Natl Acad Sci U S A. 2021 Dec 21;118(51):e2110455118. doi: 10.1073/pnas.2110455118."
+        },
+        {
+          "pmid": "23650531",
+          "type": "BACKGROUND",
+          "citation": "Bhasin MK, Dusek JA, Chang BH, Joseph MG, Denninger JW, Fricchione GL, Benson H, Libermann TA. Relaxation response induces temporal transcriptome changes in energy metabolism, insulin secretion and inflammatory pathways. PLoS One. 2013 May 1;8(5):e62817. doi: 10.1371/journal.pone.0062817. Print 2013."
+        },
+        {
+          "pmid": "22088795",
+          "type": "BACKGROUND",
+          "citation": "Antoni MH, Lutgendorf SK, Blomberg B, Carver CS, Lechner S, Diaz A, Stagl J, Arevalo JM, Cole SW. Cognitive-behavioral stress management reverses anxiety-related leukocyte transcriptional dynamics. Biol Psychiatry. 2012 Feb 15;71(4):366-72. doi: 10.1016/j.biopsych.2011.10.007. Epub 2011 Nov 16."
+        },
+        {
+          "pmid": "22795617",
+          "type": "BACKGROUND",
+          "citation": "Black DS, Cole SW, Irwin MR, Breen E, St Cyr NM, Nazarian N, Khalsa DS, Lavretsky H. Yogic meditation reverses NF-kappaB and IRF-related transcriptome dynamics in leukocytes of family dementia caregivers in a randomized controlled trial. Psychoneuroendocrinology. 2013 Mar;38(3):348-55. doi: 10.1016/j.psyneuen.2012.06.011. Epub 2012 Jul 15."
+        },
+        {
+          "pmid": "28865488",
+          "type": "BACKGROUND",
+          "citation": "Ohnishi J, Ayuzawa S, Nakamura S, Sakamoto S, Hori M, Sasaoka T, Takimoto-Ohnishi E, Tanatsugu M, Murakami K. Distinct transcriptional and metabolic profiles associated with empathy in Buddhist priests: a pilot study. Hum Genomics. 2017 Sep 2;11(1):21. doi: 10.1186/s40246-017-0117-3."
+        },
+        {
+          "pmid": "31733290",
+          "type": "BACKGROUND",
+          "citation": "Chaix R, Fagny M, Cosin-Tomas M, Alvarez-Lopez M, Lemee L, Regnault B, Davidson RJ, Lutz A, Kaliman P. Differential DNA methylation in experienced meditators after an intensive day of mindfulness-based practice: Implications for immune-related pathways. Brain Behav Immun. 2020 Feb;84:36-44. doi: 10.1016/j.bbi.2019.11.003. Epub 2019 Nov 13."
+        },
+        {
+          "pmid": "32849047",
+          "type": "BACKGROUND",
+          "citation": "Venditti S, Verdone L, Reale A, Vetriani V, Caserta M, Zampieri M. Molecules of Silence: Effects of Meditation on Gene Expression and Epigenetics. Front Psychol. 2020 Aug 11;11:1767. doi: 10.3389/fpsyg.2020.01767. eCollection 2020."
+        },
+        {
+          "pmid": "35818436",
+          "type": "BACKGROUND",
+          "citation": "Alvarez-Lopez MJ, Conklin QA, Cosin-Tomas M, Shields GS, King BG, Zanesco AP, Kaliman P, Saron CD. Changes in the expression of inflammatory and epigenetic-modulatory genes after an intensive meditation retreat. Compr Psychoneuroendocrinol. 2022 Jun 23;11:100152. doi: 10.1016/j.cpnec.2022.100152. eCollection 2022 Aug."
+        },
+        {
+          "pmid": "29306937",
+          "type": "BACKGROUND",
+          "citation": "Househam AM, Peterson CT, Mills PJ, Chopra D. The Effects of Stress and Meditation on the Immune System, Human Microbiota, and Epigenetics. Adv Mind Body Med. 2017 Fall;31(4):10-25."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-04-01",
+          "uploadDate": "2023-11-29T13:18",
+          "filename": "Prot_000.pdf",
+          "size": 473844
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2023-08-28",
+          "uploadDate": "2023-11-29T13:19",
+          "filename": "ICF_001.pdf",
+          "size": 103143
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "D060050",
+          "term": "Angina, Stable"
+        },
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        },
+        {
+          "id": "D001249",
+          "term": "Asthma"
+        },
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        },
+        {
+          "id": "D001932",
+          "term": "Brain Neoplasms"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D003110",
+          "term": "Colonic Neoplasms"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D010051",
+          "term": "Ovarian Neoplasms"
+        },
+        {
+          "id": "D011471",
+          "term": "Prostatic Neoplasms"
+        },
+        {
+          "id": "D012878",
+          "term": "Skin Neoplasms"
+        },
+        {
+          "id": "D008223",
+          "term": "Lymphoma"
+        },
+        {
+          "id": "D013964",
+          "term": "Thyroid Neoplasms"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D002547",
+          "term": "Cerebral Palsy"
+        },
+        {
+          "id": "D015673",
+          "term": "Fatigue Syndrome, Chronic"
+        },
+        {
+          "id": "D003027",
+          "term": "Cluster Headache"
+        },
+        {
+          "id": "D029424",
+          "term": "Pulmonary Disease, Chronic Obstructive"
+        },
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        },
+        {
+          "id": "D003424",
+          "term": "Crohn Disease"
+        },
+        {
+          "id": "D003638",
+          "term": "Deafness"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D004485",
+          "term": "Eczema"
+        },
+        {
+          "id": "D004827",
+          "term": "Epilepsy"
+        },
+        {
+          "id": "D007889",
+          "term": "Leiomyoma"
+        },
+        {
+          "id": "D005356",
+          "term": "Fibromyalgia"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D006980",
+          "term": "Hyperthyroidism"
+        },
+        {
+          "id": "D007037",
+          "term": "Hypothyroidism"
+        },
+        {
+          "id": "D043183",
+          "term": "Irritable Bowel Syndrome"
+        },
+        {
+          "id": "D007246",
+          "term": "Infertility"
+        },
+        {
+          "id": "D008193",
+          "term": "Lyme Disease"
+        },
+        {
+          "id": "D008268",
+          "term": "Macular Degeneration"
+        },
+        {
+          "id": "D008881",
+          "term": "Migraine Disorders"
+        },
+        {
+          "id": "D009103",
+          "term": "Multiple Sclerosis"
+        },
+        {
+          "id": "D010003",
+          "term": "Osteoarthritis"
+        },
+        {
+          "id": "D010024",
+          "term": "Osteoporosis"
+        },
+        {
+          "id": "D010048",
+          "term": "Ovarian Cysts"
+        },
+        {
+          "id": "D010300",
+          "term": "Parkinson Disease"
+        },
+        {
+          "id": "D010591",
+          "term": "Phantom Limb"
+        },
+        {
+          "id": "D011565",
+          "term": "Psoriasis"
+        },
+        {
+          "id": "D013313",
+          "term": "Stress Disorders, Post-Traumatic"
+        },
+        {
+          "id": "D001172",
+          "term": "Arthritis, Rheumatoid"
+        },
+        {
+          "id": "D013119",
+          "term": "Spinal Cord Injuries"
+        },
+        {
+          "id": "D013130",
+          "term": "Spinal Stenosis"
+        },
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        },
+        {
+          "id": "D018781",
+          "term": "Tension-Type Headache"
+        },
+        {
+          "id": "D014012",
+          "term": "Tinnitus"
+        },
+        {
+          "id": "D003093",
+          "term": "Colitis, Ulcerative"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001982",
+          "term": "Bronchial Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012130",
+          "term": "Respiratory Hypersensitivity"
+        },
+        {
+          "id": "D006969",
+          "term": "Hypersensitivity, Immediate"
+        },
+        {
+          "id": "D006967",
+          "term": "Hypersensitivity"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D016543",
+          "term": "Central Nervous System Neoplasms"
+        },
+        {
+          "id": "D009423",
+          "term": "Nervous System Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D007414",
+          "term": "Intestinal Neoplasms"
+        },
+        {
+          "id": "D005770",
+          "term": "Gastrointestinal Neoplasms"
+        },
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005767",
+          "term": "Gastrointestinal Diseases"
+        },
+        {
+          "id": "D003108",
+          "term": "Colonic Diseases"
+        },
+        {
+          "id": "D007410",
+          "term": "Intestinal Diseases"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D004701",
+          "term": "Endocrine Gland Neoplasms"
+        },
+        {
+          "id": "D010049",
+          "term": "Ovarian Diseases"
+        },
+        {
+          "id": "D000291",
+          "term": "Adnexal Diseases"
+        },
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D005833",
+          "term": "Genital Neoplasms, Female"
+        },
+        {
+          "id": "D014565",
+          "term": "Urogenital Neoplasms"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D006058",
+          "term": "Gonadal Disorders"
+        },
+        {
+          "id": "D005834",
+          "term": "Genital Neoplasms, Male"
+        },
+        {
+          "id": "D005832",
+          "term": "Genital Diseases, Male"
+        },
+        {
+          "id": "D011469",
+          "term": "Prostatic Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D008232",
+          "term": "Lymphoproliferative Disorders"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D007160",
+          "term": "Immunoproliferative Disorders"
+        },
+        {
+          "id": "D006258",
+          "term": "Head and Neck Neoplasms"
+        },
+        {
+          "id": "D013959",
+          "term": "Thyroid Diseases"
+        },
+        {
+          "id": "D001925",
+          "term": "Brain Damage, Chronic"
+        },
+        {
+          "id": "D009135",
+          "term": "Muscular Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D004679",
+          "term": "Encephalomyelitis"
+        },
+        {
+          "id": "D000090862",
+          "term": "Neuroinflammatory Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D051303",
+          "term": "Trigeminal Autonomic Cephalalgias"
+        },
+        {
+          "id": "D051270",
+          "term": "Headache Disorders, Primary"
+        },
+        {
+          "id": "D020773",
+          "term": "Headache Disorders"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D015212",
+          "term": "Inflammatory Bowel Diseases"
+        },
+        {
+          "id": "D005759",
+          "term": "Gastroenteritis"
+        },
+        {
+          "id": "D034381",
+          "term": "Hearing Loss"
+        },
+        {
+          "id": "D006311",
+          "term": "Hearing Disorders"
+        },
+        {
+          "id": "D004427",
+          "term": "Ear Diseases"
+        },
+        {
+          "id": "D010038",
+          "term": "Otorhinolaryngologic Diseases"
+        },
+        {
+          "id": "D012678",
+          "term": "Sensation Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D003872",
+          "term": "Dermatitis"
+        },
+        {
+          "id": "D017443",
+          "term": "Skin Diseases, Eczematous"
+        },
+        {
+          "id": "D009379",
+          "term": "Neoplasms, Muscle Tissue"
+        },
+        {
+          "id": "D018204",
+          "term": "Neoplasms, Connective and Soft Tissue"
+        },
+        {
+          "id": "D012216",
+          "term": "Rheumatic Diseases"
+        },
+        {
+          "id": "D003109",
+          "term": "Colonic Diseases, Functional"
+        },
+        {
+          "id": "D016905",
+          "term": "Gram-Negative Bacterial Infections"
+        },
+        {
+          "id": "D001424",
+          "term": "Bacterial Infections"
+        },
+        {
+          "id": "D001423",
+          "term": "Bacterial Infections and Mycoses"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D001899",
+          "term": "Borrelia Infections"
+        },
+        {
+          "id": "D013145",
+          "term": "Spirochaetales Infections"
+        },
+        {
+          "id": "D017282",
+          "term": "Tick-Borne Diseases"
+        },
+        {
+          "id": "D000079426",
+          "term": "Vector Borne Diseases"
+        },
+        {
+          "id": "D012162",
+          "term": "Retinal Degeneration"
+        },
+        {
+          "id": "D012164",
+          "term": "Retinal Diseases"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        },
+        {
+          "id": "D020278",
+          "term": "Demyelinating Autoimmune Diseases, CNS"
+        },
+        {
+          "id": "D020274",
+          "term": "Autoimmune Diseases of the Nervous System"
+        },
+        {
+          "id": "D003711",
+          "term": "Demyelinating Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D001851",
+          "term": "Bone Diseases, Metabolic"
+        },
+        {
+          "id": "D001847",
+          "term": "Bone Diseases"
+        },
+        {
+          "id": "D003560",
+          "term": "Cysts"
+        },
+        {
+          "id": "D020734",
+          "term": "Parkinsonian Disorders"
+        },
+        {
+          "id": "D001480",
+          "term": "Basal Ganglia Diseases"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D000080874",
+          "term": "Synucleinopathies"
+        },
+        {
+          "id": "D010468",
+          "term": "Perceptual Disorders"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D010149",
+          "term": "Pain, Postoperative"
+        },
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        },
+        {
+          "id": "D017444",
+          "term": "Skin Diseases, Papulosquamous"
+        },
+        {
+          "id": "D040921",
+          "term": "Stress Disorders, Traumatic"
+        },
+        {
+          "id": "D000068099",
+          "term": "Trauma and Stressor Related Disorders"
+        },
+        {
+          "id": "D003240",
+          "term": "Connective Tissue Diseases"
+        },
+        {
+          "id": "D020196",
+          "term": "Trauma, Nervous System"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        },
+        {
+          "id": "D013122",
+          "term": "Spinal Diseases"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D003092",
+          "term": "Colitis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

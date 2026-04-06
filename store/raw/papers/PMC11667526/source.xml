@@ -1,0 +1,1035 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz14319" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11667526</article-id><article-id pub-id-type="pmcid-ver">PMC11667526.1</article-id><article-id pub-id-type="pmcaid">11667526</article-id><article-id pub-id-type="pmcaiid">11667526</article-id><article-id pub-id-type="pmid">39511865</article-id><article-id pub-id-type="doi">10.1002/alz.14319</article-id><article-id pub-id-type="publisher-id">ALZ14319</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Assessing polyomic risk to predict Alzheimer's disease using a machine learning model</article-title><alt-title alt-title-type="left-running-head">NGAI <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz14319-cr-0001" contrib-type="author"><name name-style="western"><surname>Ngai</surname><given-names initials="T">Tiffany</given-names></name><xref rid="alz14319-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz14319-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz14319-cr-0002" contrib-type="author"><name name-style="western"><surname>Willett</surname><given-names initials="J">Julian</given-names></name><xref rid="alz14319-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz14319-cr-0003" contrib-type="author"><name name-style="western"><surname>Waqas</surname><given-names initials="M">Mohammad</given-names></name><xref rid="alz14319-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz14319-cr-0004" contrib-type="author"><name name-style="western"><surname>Fishbein</surname><given-names initials="LH">Lucas H.</given-names></name><xref rid="alz14319-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz14319-cr-0005" contrib-type="author"><name name-style="western"><surname>Choi</surname><given-names initials="Y">Younjung</given-names></name><xref rid="alz14319-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz14319-cr-0006" contrib-type="author"><name name-style="western"><surname>Hahn</surname><given-names initials="G">Georg</given-names></name><xref rid="alz14319-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz14319-cr-0007" contrib-type="author"><name name-style="western"><surname>Mullin</surname><given-names initials="K">Kristina</given-names></name><xref rid="alz14319-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz14319-cr-0008" contrib-type="author"><name name-style="western"><surname>Lange</surname><given-names initials="C">Christoph</given-names></name><xref rid="alz14319-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="alz14319-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz14319-cr-0009" contrib-type="author"><name name-style="western"><surname>Hecker</surname><given-names initials="J">Julian</given-names></name><xref rid="alz14319-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz14319-cr-0010" contrib-type="author"><name name-style="western"><surname>Tanzi</surname><given-names initials="RE">Rudolph E.</given-names></name><xref rid="alz14319-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz14319-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Prokopenko</surname><given-names initials="D">Dmitry</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1844-5652</contrib-id><xref rid="alz14319-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>dprokopenko@mgh.harvard.edu</email></address></contrib></contrib-group><aff id="alz14319-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<named-content content-type="organisation-division">Genetics and Aging Research Unit and the McCance Center for Brain Health</named-content>
+<institution>Massachusetts General Hospital and Harvard Medical School</institution>
+<city>Charlestown</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz14319-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Systems Design Engineering</named-content>
+<institution>University of Waterloo</institution>
+<city>Waterloo</city>
+<named-content content-type="country-part">Ontario</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="alz14319-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Division of Pharmacoepidemiology and Pharmacoeconomics</named-content>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<institution>Brigham and Women's Hospital and Harvard Medical School</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz14319-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Channing Division of Network Medicine</named-content>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<institution>Brigham and Women's Hospital and Harvard Medical School</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz14319-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biostatistics</named-content>
+<institution>Harvard T.H. Chan School of Public Health</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Dmitry Prokopenko, Department of Neurology, Genetics and Aging Research Unit and the McCance Center for Brain Health, Massachusetts General Hospital and Harvard Medical School, 114 16th Street, Charlestown, MA 02129, USA.<break/> Email: <email>dprokopenko@mgh.harvard.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>07</day><month>11</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2024</year></pub-date><volume>20</volume><issue seq="370">12</issue><issue-id pub-id-type="pmc-issue-id">477664</issue-id><issue-id pub-id-type="doi">10.1002/alz.v20.12</issue-id><fpage>8700</fpage><lpage>8714</lpage><history><date date-type="rev-recd"><day>11</day><month>9</month><year>2024</year></date><date date-type="received"><day>22</day><month>4</month><year>2024</year></date><date date-type="accepted"><day>13</day><month>9</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>07</day><month>11</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>25</day><month>12</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-03-21 22:25:13.280"><day>21</day><month>03</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-20-8700.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-20-8700.pdf"/><abstract><title>Abstract</title><sec id="alz14319-sec-0010"><title>INTRODUCTION</title><p>Alzheimer's disease (AD) is the most common form of dementia in the elderly. Given that AD neuropathology begins decades before symptoms, there is a dire need for effective screening tools for early detection of AD to facilitate early intervention.</p></sec><sec id="alz14319-sec-0020"><title>METHODS</title><p>Here, we used tree‐based and deep learning methods to train polyomic prediction models for AD affection status and age at onset, employing genomic, proteomic, metabolomic, and drug use data from UK Biobank. We used SHAP to determine the feature's importance.</p></sec><sec id="alz14319-sec-0030"><title>RESULTS</title><p>Our best‐performing polyomic model achieved an area under the receiver operating characteristics curve (AUROC) of 0.87. We identified GFAP and CXCL17 proteins to be the strongest predictors of AD, besides <italic toggle="yes">apolipoprotein E</italic> (<italic toggle="yes">APOE)</italic> alleles. Increasing the number of cases by including “AD‐by‐proxy” cases did not improve AD prediction.</p></sec><sec id="alz14319-sec-0040"><title>DISCUSSION</title><p>Among the four modalities, genomics, and proteomics were the most informative modality based on AUROC (area under the receiver operating characteristic curve). Our data suggest that two blood‐based biomarkers (glial fibrillary acidic protein [GFAP] and CXCL17) may be effective for early presymptomatic prediction of AD.</p></sec><sec id="alz14319-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz14319-list-0001"><list-item><p>We developed a polyomic model to predict AD and age‐at‐onset using omics and medication use data from EHR.</p></list-item><list-item><p>We identified GFAP and CXCL17 proteins to be the strongest predictors of AD, besides <italic toggle="yes">APOE</italic> alleles.</p></list-item><list-item><p>“AD‐by‐proxy” cases, if used in training, do not improve AD prediction.</p></list-item><list-item><p>Proteomics was the most informative modality overall for affection status and AAO prediction.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz14319-kwd-0001">Alzheimer's disease</kwd><kwd id="alz14319-kwd-0002">machine learning</kwd><kwd id="alz14319-kwd-0003">omics</kwd><kwd id="alz14319-kwd-0004">polyomic model</kwd><kwd id="alz14319-kwd-0005">prediction</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Cure Alzheimer's Fund
+</institution><institution-id institution-id-type="doi">10.13039/100007625</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>NIH
+</institution><institution-id institution-id-type="doi">10.13039/100000002</institution-id></institution-wrap></funding-source><award-id>T32GM007748</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="5"/><page-count count="15"/><word-count count="9455"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.1 mode:remove_FC converted:24.12.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz14319-cit-0062">
+<string-name name-style="western">
+<surname>Ngai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Willett</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waqas</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Assessing polyomic risk to predict Alzheimer's disease using a machine learning model</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>20</volume>:<fpage>8700</fpage>–<lpage>8714</lpage>. <pub-id pub-id-type="doi">10.1002/alz.14319</pub-id>
+<pub-id pub-id-type="pmcid">PMC11667526</pub-id><pub-id pub-id-type="pmid">39511865</pub-id></mixed-citation>
+</p></notes></front><body><sec id="alz14319-sec-0060"><label>1</label><title>INTRODUCTION</title><p>Alzheimer's disease (AD) is the most common form of dementia. It is estimated that 22% of all persons aged 50 and above are in the AD continuum worldwide, and there are more than 50 million dementia patients globally, costing more than a trillion US dollars per year.<xref rid="alz14319-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> The number of people with dementia is expected to reach 152.8 million cases in 2050.<xref rid="alz14319-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> AD pathological changes arise decades before symptom onset<xref rid="alz14319-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>; hence, the most promising therapeutic approach to preventing AD would require early detection and early intervention, presymptomatically. Most AD patients remain undiagnosed in the early stages of the disease due to limited testing for presymptomatic neuropathology and limited ability to predict the lifelong risk of AD, which is currently based on genetic testing alone.<xref rid="alz14319-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="alz14319-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> While AD screening via positron emission tomography (PET) and cerebrospinal fluid (CSF) has promise,<xref rid="alz14319-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> their cost and invasiveness are limiting broader use. Diagnostic blood‐based biomarkers for the presence of AD neuropathology, for example, amyloid‐β42:40 ratio and phospho‐Tau (pTau217) now provide more accessible screening solutions.<xref rid="alz14319-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>
+</p><p>Despite progress in our ability to diagnose AD neuropathology presymptomatically, the field is currently lacking the means to accurately predict risk for AD beyond genetic assessments utilizing <italic toggle="yes">apolipoprotein E</italic> (<italic toggle="yes">APOE</italic>) genotyping and limited polygenic risk scores. Combining “omics” modalities (genomics, proteomics, metabolomics) with electronic health record (EHR) data could enable superior predictions. Genomics describes the complete sequence of DNA in an organism and is fixed from birth. Proteomics is a set of expressed proteins that helps to characterize the information flow within the cell and organism in the form of protein pathways and networks. Metabolomics provides information about the effects of metabolism and some closely link it to phenotype.<xref rid="alz14319-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz14319-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz14319-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> By integrating and analyzing different omics data together with EHR data, a more holistic picture of biological mechanisms may be unraveled, and novel biomarkers identified.</p><p>With advancements in computing resources, algorithms, and new datasets, efficient machine learning (ML) methods that can process multiple data modalities show promise in translational research. ML can recognize complex patterns and capture nonlinear relationships for a broad range of tasks, including disease and patient outcome predictions.<xref rid="alz14319-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz14319-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz14319-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Deep learning multimodal models and logistic regression models focusing on a single modality have been done for AD case–control prediction, incorporating genetic and phenotypic data<xref rid="alz14319-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> with gene expression and DNA methylation data.<xref rid="alz14319-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="alz14319-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> In broader investigations, ML models have been used to predict affection status or age at onset (AAO) for multiple diseases using metabolomic and genomic data,<xref rid="alz14319-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> EHR and genomic data,<xref rid="alz14319-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> as well as single layers of omics data.<xref rid="alz14319-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="alz14319-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="alz14319-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+</p><p>In addition, there were attempts to use multiple omics data to predict AD and/or gain insight related to AD in cohorts other than UK Biobank (UKB). For example, RNAseq, metabolomics, and lipidomics<xref rid="alz14319-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>; proteomics, metabolomics, lipidomics, one‐carbon metabolism, and neuroinflammation‐related molecules<xref rid="alz14319-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="alz14319-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>; metabolomics and proteomics<xref rid="alz14319-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="alz14319-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>; genomics, methylation (CpG), RNAseq, and proteomics.<xref rid="alz14319-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> Specifically, Vacher et al. found that genomics and proteomics,<xref rid="alz14319-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> and Gómez‐Pascual et al. found that metabolomics and proteomics<xref rid="alz14319-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> produced similar results for AD affection status prediction. Others have used hazard models and multiomic data to predict disease‐free survival for AD.<xref rid="alz14319-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>, <xref rid="alz14319-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>
+</p><p>Here, we used multiple omics layers, specifically genomics, proteomics and metabolomics, together with medication use data from UKB, to classify subjects with and without AD and predict AD AAO using ML methods. Specifically, we focused on gradient boosting tree‐based algorithms. Our developed polyomic models performed better than our single modality models. Importantly, we also found that using AD‐by‐proxy phenotype to label AD cases degraded model performance. We found that the early fusion polyomic model, which combined genomic and proteomic data at the feature level was the best model for AD affection status based on ROC AUC (highest area under the receiver operating characteristic curve), the early fusion polyomic model which combined all modalities (genomic, proteomic, metabolomic, and medication use data) was the best model for AD affection status based on PR AUC (area under the precision recall curve), the early fusion polyomic model which combined genomic, proteomic, and medication use data was the best model for AAO prediction (lowest mean squared error [MSE]) and highlighted the most predictive features in each layer.</p></sec><sec id="alz14319-sec-0070"><label>2</label><title>METHODOLOGY</title><sec id="alz14319-sec-0080"><label>2.1</label><title>Data collection</title><p>The UKB dataset, a large‐scale biomedical database with health information from half a million UK participants, in which 94% of the participants are of white ethnicity,<xref rid="alz14319-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> was used for training, testing, and validation of the model. Among genomic data, whole genome sequencing data, whole exome sequencing data, and array genotyped data are available in the UKB. In this study, we analyzed imputed array genotypes from 487,084 participants using the TOPMed R2 panel.<xref rid="alz14319-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, <xref rid="alz14319-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> With regard to metabolomic data, a high‐throughput NMR metabolomics platform from Nightingale was used to undertake metabolomic profiling for 249 metabolites in blood samples collected from 275,347 UKB participants,<xref rid="alz14319-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>, <xref rid="alz14319-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="alz14319-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> where 5.7% of them have repeated visits. In these cases, only data from the latest visit was included in the study. For proteomic data, the Olink Explore 1536 platform was used to perform proteomic profiling for 1463 unique proteins in blood samples collected from 54,306 UKB participants<xref rid="alz14319-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> 46,673 participants were randomly selected at baseline visit, 6385 participants were selected by the UKB‐PPP consortium at baseline visit, and 1268 participants participated in the coronavirus disease 2019 (COVID‐19) repeat imaging study at multiple visits.<xref rid="alz14319-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> The proteomic readings from multiple visits of the 1268 participants who enrolled in the COVID‐19 study were excluded in this study to remove duplicates. We extracted medication use data from EHR. There were 6745 medication categories for approximately 377,180 participants; information was collected via touchscreen and verbal interview, and some participants had drug use data from multiple visits,<xref rid="alz14319-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> drugs from multiple visits were combined across visits to form the final list of drugs being used in the analysis. The overall workflow of the study is described in Figure <xref rid="alz14319-fig-0001" ref-type="fig">1</xref>.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz14319-sec-0090"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz14319-list-0002"><list-item><p>
+<bold>Systematic review</bold>: The authors reviewed the previous literature on machine learning methods and models that have been used to predict Alzheimer's disease (AD). While there are several publications that have utilized different modalities to predict AD, only a limited number of studies have investigated the combinations of different modalities to predict AD. These relevant citations are appropriately cited.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: We identified that combining several layers of omics data with electronic health records improves AD prediction. Besides <italic toggle="yes">apolipoprotein E (APOE)</italic> alleles, glial fibrillary acidic protein (GFAP) and CXCL17 proteins were the strongest predictors of AD. Increasing the number of cases by including “AD‐by‐proxy” cases did not improve AD prediction.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Our developed polyomic machine learning model could inform early presymptomatic prediction which can potentially lead to early intervention of AD. Future studies should be aimed at extension, evaluation, and model finetuning by using additional modalities (e.g., imaging data), and other large independent datasets with well‐defined AD cases and multiomics.</p></list-item></list>
+</p></sec></boxed-text><fig position="float" fig-type="FIGURE" id="alz14319-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Workflow. Genomic, proteomic, metabolomic, and medication use data were extracted from the UKB and preprocessed. Next, we trained various models to find the best‐performing model trained on the intersection dataset (see also Figure <xref rid="alz14319-fig-0002" ref-type="fig">2</xref>). The best machine learning models were used for feature importance evaluation using SHAP. UKB, UK Biobank.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-20-8700-g005.jpg"/></fig></sec><sec id="alz14319-sec-0100"><label>2.2</label><title>Data preprocessing</title><p>To obtain a clean dataset that could be used to train different ML models, multiple preprocessing steps were performed. Data for different modalities were extracted and preprocessed separately, but the label assignment step was similar across modalities. Below, we describe how different omics datasets were preprocessed.</p><p>Essential EHR data of all 502,364 UKB participants were first extracted using the DNANexus Spark Cluster tool (Spark). This extracted dataset contained information that could be used to assign labels for both case–control (disease status) and AAO prediction models. Three different phenotypic definitions for AD cases were investigated in this study: International Classification of Diseases, 10<sup>th</sup> revision (ICD10), AD‐by‐proxy, and both combined. ICD10 cases were defined to be participants who were reported to have dementia in AD (F00) or AD (G30).<xref rid="alz14319-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> AD‐by‐proxy cases definition as described in Jansen et al. was based on the individual's diagnosis, parents’ diagnosis, and parents’ ages.<xref rid="alz14319-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> The ICD10 and AD‐by‐proxy cases were defined to be cases when any of the above was true (ICD10 or AD‐by‐proxy). For the ICD10 and AD‐by‐proxy definitions, since the AD‐by‐proxy definition includes participants diagnosed with AD based on ICD10 codes when quality control (QC) is performed on the AD‐by‐proxy cohort, ICD10 cases might be excluded. However, to maximize the number of cases, ICD10 cases being filtered out were re‐included in the analysis dataset. However, if the filtered data point was not an ICD10 case, it would not be re‐included in the analysis.</p><p>QC criteria were based on data validity, availability, and missingness, specifically, subjects with no parental history or invalid response, were removed from the dataset (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S1</xref>). Having both phenotypes for investigation allows us to explore the effect of QC on AD prediction. For affection status prediction results, if no phenotype definition was explicitly stated in the results, specifically in the tables/graphs/charts, we used the ICD10 definition by default. Controls aged 65 or less (genomic and medication/drug data use the age at recruitment, metabolomic and proteomic data use the age at which the blood sample is taken) were removed from the dataset. For fusion models, current age (i.e., age of birth to the day of analysis) is being used as the predictor. In addition, AD‐by‐proxy cases were also removed from controls when using the ICD10 case definition. These filtering steps were aimed at lowering the possibility of having mislabeled data, to increase the specificity of the model to AD. These steps also help counteract data imbalance between cases and controls and lower the risk of employing a model that is heavily biased toward inferring controls. The AAO label was only available for the ICD10 phenotype definition. Controls were removed from the ICD10 dataset, and the AAO date used was the reported date that was earlier for F00 and G30. Different modalities data were extracted using the DNANexus platform, and the extracted data were merged with the essential EHR dataset and preprocessed.</p><p>After the preliminary filtering step described above, additional preprocessing steps were performed for each modality. With regard to genomic data (<italic toggle="yes">n</italic> = 65,214), 26 single nucleotide polymorphisms (SNPs) from the imputed genotype data were extracted. The 26 SNPs included the two APOE SNPs (rs429358 and rs7412)<xref rid="alz14319-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> and 24 SNPs, representing genome‐wide significant variants described in Kunkle et al.<xref rid="alz14319-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> For metabolomic data (<italic toggle="yes">n</italic> = 35,808), some preprocessing steps were performed to transform the rows arranged by participants to by visits, and the data from the last visit is being used. After that, visits with no metabolite reading were dropped. As for proteomic data (<italic toggle="yes">n</italic> = 7932), subjects with no proteomic data were dropped. For EHR data (UKB Date‐Field 20003), the list of medications/drugs from multiple visits was combined into a single list and transformed to one‐hot encodings. If a particular medication was taken by less than 10 subjects, it was excluded. Subjects that did not have any medication intake information were also dropped, resulting in a total number of 3815 drugs and 57,947 subjects. After preparing single modality datasets, single modalities were inner‐joined to form an intersection dataset (<italic toggle="yes">n</italic> = 3727), this means the intersection dataset only contains subjects with data from all modalities available. The intersection dataset was used to train the fusion models (Figure <xref rid="alz14319-fig-0002" ref-type="fig">2</xref>). The mean percentage of missingness across metabolites and proteins was 0.12% and 2.89%, respectively. The missingness percentage of both of these modalities was below 5%, which is often ruled as insignificant.<xref rid="alz14319-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>, <xref rid="alz14319-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> A sensitivity analysis was completed using paired <italic toggle="yes">t</italic>‐tests as well as Wilcoxon signed‐rank tests to understand the impact that various imputation strategies had on the analysis outcomes with no significant difference found between the various strategies used, in this case, mean, median and K‐Nearest Neighbor imputation. Therefore, missing values were imputed with the training means during the training, testing, and validation process for simplicity.</p><fig position="float" fig-type="FIGURE" id="alz14319-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Data distribution for different modalities using the ICD10 phenotype definition following data preprocessing. The intersection dataset was referred to as the intersection of all four single modalities—genomic, proteomic, metabolomic, and EHR/drug. Single modality datasets were referred to as the entire dataset available for each modality (i.e., the entire circle). EHR, electronic health record; ICD10, International Classification of Diseases, 10<sup>th</sup> revision.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-20-8700-g004.jpg"/></fig></sec><sec id="alz14319-sec-0110"><label>2.3</label><title>Models used</title><p>Six models, namely light gradient‐boosting machine (LGBM), CatBoost, XGB (eXtreme Gradient Boosting), TabNet, logistic regression, and linear regression were evaluated in this study. LGBM, CatBoost, and XGB are all gradient boosting tree‐based algorithms,<xref rid="alz14319-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> while TabNet is a deep tabular data learning architecture.<xref rid="alz14319-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> Gradient‐boosting trees have shown outstanding performance for tabular data in small or medium datasets (with data points less than 1 m).<xref rid="alz14319-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> Hence, most models were gradient‐boosting trees. Logistic regression and linear regression models served as baseline models. Specifically, the sex and age logistic regression was used as the baseline model for case–control prediction, and the sex linear regression was used as the baseline model for AAO prediction.</p><p>With regard to the hyperparameters, we mostly use the default hyperparameters. In general, if the positive weighting hyperparameter is available, we use a weighting of 10, and we use 0.3 for regularization if the regularization flag is set for the training process. If early stopping is set to be true, we specify the iteration and early_stopping_rounds to be 1000 and 100, respectively for the gradient boosting trees; patience of 20, and maximum number of epochs of 200 for TabNet. For XGB, we used “binary:logistic” as the optimization objective, “logloss” for eval_metric, 42 for the random state. For TabNet, a batch size of 256 is being used.</p></sec><sec id="alz14319-sec-0120"><label>2.4</label><title>Metrics used</title><p>The area under the receiver operating characteristic curve (AUROC/AUC/ROC AUC) is the metric used to determine the best model for case–control prediction,<xref rid="alz14319-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="alz14319-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="alz14319-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> and the MSE is the metric used to determine the best model for AAO prediction.<xref rid="alz14319-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref> For case–control prediction, other metrics including accuracy, precision, recall, and precision‐recall area under the curve (AUPRC/PR AUC) provided additional information about the model performance.</p></sec><sec id="alz14319-sec-0130"><label>2.5</label><title>Training on multiple data modalities (multimodal training)</title><p>To study the effect of different data modalities, the intersection dataset was used to train multimodal models. The intersection dataset was randomly split into a training, a test, and a validation set with a 0.8, 0.1, and 0.1 ratio, respectively. For gradient‐boosting trees, the gradient values of the positive class (cases) were set to be 10 times higher than the negative class (control) (scale_pos_weight = 10) to help address the class imbalance.<xref rid="alz14319-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> The weighting is applied to the ICD10 phenotype definition only, not to the AD‐by‐proxy or AD‐by‐proxy+ICD10 phenotype definitions due to the huge class imbalance for the ICD10 phenotype definition. Even if positive weighting is applied during training, we still expect the model to be biased toward predicting controls because the dataset is relatively imbalanced. In addition, the validation set was used for early stopping for the deep learning model. For the case–control model, stratified splitting was incorporated to ensure different datasets had a similar case–control ratio, and both sex and age were concatenated to the dataset since they are strong indicators for AD.</p><p>For the AAO model, only cases in the intersection dataset were used, and only sex was concatenated to the dataset because AD AAO should be independent of the actual age of the subject. After splitting the datasets, missing values were imputed using the mean of the training set, and the features were normalized using <italic toggle="yes">z</italic>‐score standardization. Other normalization methods, including min–max scaling,<xref rid="alz14319-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> power transformation,<xref rid="alz14319-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref> and no transformation, showed similar performance when evaluated on a subset of the data. The training pipeline first trains the model with the training set, tunes the hyperparameters with the validation set, and finally evaluates the model performance with the test set. The same training process is applied to single‐modality datasets (Figure <xref rid="alz14319-fig-0002" ref-type="fig">2</xref>) to obtain the single‐modality results (Table <xref rid="alz14319-supinfo-0001" ref-type="">S1</xref>).</p><p>Early and late fusion methods are two of the most common methods to combine different modalities. Early fusion integrates modalities at the feature level. Different data modalities are combined prior to training, and the combined dataset is used for training, testing, and validation. Late fusion integrates modalities at the outcome level. A model is trained separately on each data modality, then the predicted outcomes (i.e., the affection status or AAO predictions from different models) are combined using a meta‐model to predict the final outcome.<xref rid="alz14319-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>
+</p><p>For early fusion models, different modality combinations were trained with the four modalities: genomics, proteomics, metabolomics, and medication use data. The combinations included all the pairwise, triplet, and quadruplet combinations, resulting in a total of 11 combinations. Modalities that were not considered were dropped from the intersection dataset, and this new dataset was used for training. For example, to train the early fusion model that fuses the genomics, proteomics, and metabolomics modality, drug modality in the intersection dataset was dropped, and this dataset was used in the training pipeline (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S2</xref>).</p><p>As for late fusion models, an additional step was required. The best performing (based on AUROC) single modality model trained on the intersection dataset was first identified for each modality. The prediction from the best model of each modality was concatenated, and a meta‐model was trained. The output of the meta‐model was the prediction for the late fusion model. For example, to train the late fusion model that fuses the genomics, proteomics, and metabolomics modality, the best model out of all the listed models mentioned in the “Model Used” section was identified for each omics modality (genomic, metabolomic, and proteomic). Then, predictions from the best model for each omics modality were gathered and concatenated, and this concatenated array was the input for the meta‐model (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S3</xref>). For the meta‐model, we used the same prediction models and the best one was determined by performing the training pipeline, iteratively. The same combinations used for early fusion models were used for late fusion models.</p></sec><sec id="alz14319-sec-0140"><label>2.6</label><title>AD‐by‐proxy investigation</title><p>Besides using the ICD10 phenotype definition, the effect of using AD‐by‐proxy phenotype and the combination of both ICD10 and AD‐by‐proxy was studied. The training steps described in the multimodal training section for early fusion, single modality, and late fusion models were repeated for the AD‐by‐proxy intersection dataset and the ICD10 and AD‐by‐proxy intersection dataset. To ensure the testing was fair, we used the same ICD10 test set for both AD‐by‐proxy and AD‐by‐proxy+ICD10 phenotypes. The case–control distribution of the intersection dataset for all three phenotype definitions is described in Table <xref rid="alz14319-supinfo-0001" ref-type="">S2</xref>.</p></sec><sec id="alz14319-sec-0150"><label>2.7</label><title>Feature importance</title><p>SHAP was used to identify important features.<xref rid="alz14319-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref>, <xref rid="alz14319-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref> SHAP is a popular explainable AI library used to increase ML model transparency. It uses Shapley values from cooperative game theory to fairly allocate the result contribution of each feature, with TreeExplainer enabling exact computation of Shapley values for tree‐based models. We evaluated feature importance in the best ML models for each modality based on the entire dataset for the corresponding modality. For the polyomic early fusion model that fuses all modalities, we used the intersection dataset as described in the training pipeline in the multimodal training section. Shapley values were calculated for the best single modality models and the best early fusion model using SHAP. Since we had already identified the best model, all data were used to evaluate the feature importance (i.e., train, test, validation split is not performed). We have not used sex and age variables when performing SHAP.</p><p>We used Shapley values to identify the features contributing the most to the prediction. We calculated Shapley values on the best‐performing shallow learners for each modality (Table <xref rid="alz14319-supinfo-0001" ref-type="">S1</xref>) and the overall best‐performing polyomic model and further evaluated the features using traditional regression‐based association analysis. We performed regression between the feature values and the Shapley values for each feature to obtain the correlation relationship between the two variables. The <italic toggle="yes">r</italic>‐value from this regression tells us the association or correlation relationship of the feature. A positive <italic toggle="yes">r</italic>‐value for the affection status prediction means the feature is positively associated with AD, while a positive <italic toggle="yes">r</italic>‐value for the AAO prediction means a higher feature value is associated with later AAO. We also performed regression between the feature values and the labels (affection status and AAO) for each feature to obtain the statistical significance of the associated feature. The significance threshold was 0.05 divided by the number of features. Specifically, the thresholds were 1.39e‐5 for early fusion with 3585 features (feature num = 3585), 1.92e‐3 for genomics (feature num = 26), 3.42e‐5 for proteomics (feature num = 1463), 2.01e‐4 for metabolomics (feature num = 249), 2.71e‐5 for EHR/drug (feature num = 1847), and 3.36e‐5 for the best model (feature num = 1489).</p></sec></sec><sec id="alz14319-sec-0160"><label>3</label><title>RESULTS</title><p>It is known that volunteer cohorts, such as UKB, likely suffer from the healthy volunteer bias.<xref rid="alz14319-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref> Subjects between the ages of 40 and 69 were recruited from across the UK from 2006 to 2010. The UKB cohort has a low prevalence of AD at only 0.89%, when compared to the estimated 5% of Europe<xref rid="alz14319-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref> that are afflicted with the disease. As AD is an age‐related disease and prevalence of AD increases sharply after age 65,<xref rid="alz14319-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref> we have filtered our control group to consist only of those aged 65 and up. Statistics related to the data distribution of the single modality and intersection datasets can be found in (Tables <xref rid="alz14319-tbl-0001" ref-type="table">1</xref>, <xref rid="alz14319-tbl-0002" ref-type="table">2</xref>, <xref rid="alz14319-tbl-0003" ref-type="table">3</xref>), where the case–control ratio, mean and standard deviation of age, gender split, ethnicity, mean, and standard deviation of AAO are mapped out in detail for the dataset overall (Table <xref rid="alz14319-tbl-0001" ref-type="table">1</xref>), cases alone (Table <xref rid="alz14319-tbl-0002" ref-type="table">2</xref>), and controls alone (Table <xref rid="alz14319-tbl-0003" ref-type="table">3</xref>). Specifically, the case to control ratios are all 1 to 9 or above, usually around 97% of the participants in the datasets are of white ethnicity, female proportion of cases are higher than that of controls, the mean ages of cases are lower than that of controls, as controls aged less 65 or less were excluded, age standard deviation of cases are higher than that of controls, and the age means are 4–6 years above AAO means. A detailed description on how the phenotypes are defined can be found in the Methodology section.</p><table-wrap position="float" id="alz14319-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Data distribution of the single modality datasets and the intersection dataset using the ICD10 phenotype definition.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Modality</th><th align="left" rowspan="1" colspan="1">Case</th><th align="left" rowspan="1" colspan="1">Control</th><th align="left" rowspan="1" colspan="1">Case to control ratio</th><th align="left" rowspan="1" colspan="1">Age mean</th><th align="left" rowspan="1" colspan="1">Age stdev</th><th align="left" rowspan="1" colspan="1">Female proportion</th><th align="left" rowspan="1" colspan="1">Ethnicity</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genomic</td><td align="char" rowspan="1" colspan="1">4305</td><td align="char" rowspan="1" colspan="1">60909</td><td align="left" rowspan="1" colspan="1">1:14</td><td align="left" rowspan="1" colspan="1">82.19</td><td align="left" rowspan="1" colspan="1">1.95</td><td align="left" rowspan="1" colspan="1">0.5003</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.32%</p>
+<p>Asian or Asian British: 1.43%</p>
+<p>Black or Black British: 0.98%</p>
+<p>Mixed: 0.26%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomic</td><td align="char" rowspan="1" colspan="1">2379</td><td align="char" rowspan="1" colspan="1">33429</td><td align="left" rowspan="1" colspan="1">1:14</td><td align="left" rowspan="1" colspan="1">82.05</td><td align="left" rowspan="1" colspan="1">2.08</td><td align="left" rowspan="1" colspan="1">0.5062</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.66%</p>
+<p>Asian or Asian British: 1.18%</p>
+<p>Black or Black British: 0.90%</p>
+<p>Mixed: 0.26%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Proteomic</td><td align="char" rowspan="1" colspan="1">739</td><td align="char" rowspan="1" colspan="1">7193</td><td align="left" rowspan="1" colspan="1">1:10</td><td align="left" rowspan="1" colspan="1">82.26</td><td align="left" rowspan="1" colspan="1">2.24</td><td align="left" rowspan="1" colspan="1">0.4968</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.31%</p>
+<p>Asian or Asian British: 1.25%</p>
+<p>Black or Black British: 1.19%</p>
+<p>Mixed: 0.26%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Drug</td><td align="char" rowspan="1" colspan="1">3885</td><td align="char" rowspan="1" colspan="1">54062</td><td align="left" rowspan="1" colspan="1">1:14</td><td align="left" rowspan="1" colspan="1">82.24</td><td align="left" rowspan="1" colspan="1">1.94</td><td align="left" rowspan="1" colspan="1">0.5056</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.17%</p>
+<p>Asian or Asian British: 1.48%</p>
+<p>Black or Black British: 1.08%</p>
+<p>Mixed: 0.27%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Intersection</td><td align="char" rowspan="1" colspan="1">371</td><td align="char" rowspan="1" colspan="1">3356</td><td align="left" rowspan="1" colspan="1">1:9</td><td align="left" rowspan="1" colspan="1">82.31</td><td align="left" rowspan="1" colspan="1">2.14</td><td align="left" rowspan="1" colspan="1">0.5025</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.75%</p>
+<p>Black or Black British: 1.19%</p>
+<p>Asian or Asian British: 0.87%</p>
+<p>Mixed: 0.19%</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="alz14319-tbl1-note-0001"><p>Abbreviation: ICD10, International Classification of Diseases, 10th revision.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><table-wrap position="float" id="alz14319-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Case distribution of the single modality datasets and the intersection dataset using the ICD10 phenotype definition.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Modality (cases only)</th><th align="left" rowspan="1" colspan="1">Age mean</th><th align="left" rowspan="1" colspan="1">Age stdev</th><th align="left" rowspan="1" colspan="1">Female proportion</th><th align="left" rowspan="1" colspan="1">AAO mean</th><th align="left" rowspan="1" colspan="1">AAO stdev</th><th align="left" rowspan="1" colspan="1">Ethnicity</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genomic</td><td align="left" rowspan="1" colspan="1">79.70</td><td align="left" rowspan="1" colspan="1">4.29</td><td align="left" rowspan="1" colspan="1">0.5264</td><td align="left" rowspan="1" colspan="1">75.20</td><td align="left" rowspan="1" colspan="1">5.31</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.15%</p>
+<p>Black or Black British: 1.30%</p>
+<p>Asian or Asian British: 1.27%</p>
+<p>Mixed: 0.28%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomic</td><td align="left" rowspan="1" colspan="1">79.84</td><td align="left" rowspan="1" colspan="1">4.17</td><td align="left" rowspan="1" colspan="1">0.5200</td><td align="left" rowspan="1" colspan="1">75.32</td><td align="left" rowspan="1" colspan="1">5.24</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.36%</p>
+<p>Black or Black British: 1.19%</p>
+<p>Asian or Asian British: 1.15%</p>
+<p>Mixed: 0.30%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Proteomic</td><td align="left" rowspan="1" colspan="1">80.10</td><td align="left" rowspan="1" colspan="1">5.08</td><td align="left" rowspan="1" colspan="1">0.5494</td><td align="left" rowspan="1" colspan="1">74.36</td><td align="left" rowspan="1" colspan="1">6.43</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.11%</p>
+<p>Black or Black British: 2.07%</p>
+<p>Asian or Asian British: 0.41%</p>
+<p>Mixed: 0.41%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Drug</td><td align="left" rowspan="1" colspan="1">79.89</td><td align="left" rowspan="1" colspan="1">4.19</td><td align="left" rowspan="1" colspan="1">0.5331</td><td align="left" rowspan="1" colspan="1">75.38</td><td align="left" rowspan="1" colspan="1">5.24</td><td align="left" rowspan="1" colspan="1">
+<p>White: 96.97%</p>
+<p>Black or Black British: 1.39%</p>
+<p>Asian or Asian British: 1.39%</p>
+<p>Mixed: 0.26%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Intersection</td><td align="left" rowspan="1" colspan="1">80.44</td><td align="left" rowspan="1" colspan="1">4.56</td><td align="left" rowspan="1" colspan="1">0.5660</td><td align="left" rowspan="1" colspan="1">74.61</td><td align="left" rowspan="1" colspan="1">6.28</td><td align="left" rowspan="1" colspan="1">
+<p>White: 96.99%</p>
+<p>Black or Black British: 2.19%</p>
+<p>Mixed: 0.55%</p>
+<p>Asian or Asian British: 0.27%</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="alz14319-tbl2-note-0001"><p>Abbreviation: ICD10, International Classification of Diseases, 10th revision.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><table-wrap position="float" id="alz14319-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>Control distribution of the single modality datasets and the intersection dataset using the ICD10 phenotype definition.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Modality (controls only)</th><th align="left" rowspan="1" colspan="1">Age mean</th><th align="left" rowspan="1" colspan="1">Age stdev</th><th align="left" rowspan="1" colspan="1">Female proportion</th><th align="left" rowspan="1" colspan="1">Ethnicity</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genomic</td><td align="left" rowspan="1" colspan="1">82.37</td><td align="left" rowspan="1" colspan="1">1.52</td><td align="left" rowspan="1" colspan="1">0.4984</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.34%</p>
+<p>Asian or Asian British: 1.44%</p>
+<p>Black or Black British: 0.96%</p>
+<p>Mixed: 0.26%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomic</td><td align="left" rowspan="1" colspan="1">82.20</td><td align="left" rowspan="1" colspan="1">1.74</td><td align="left" rowspan="1" colspan="1">0.5052</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.68%</p>
+<p>Asian or Asian British: 1.18%</p>
+<p>Black or Black British: 0.88%</p>
+<p>Mixed: 0.25%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Proteomic</td><td align="left" rowspan="1" colspan="1">82.48</td><td align="left" rowspan="1" colspan="1">1.53</td><td align="left" rowspan="1" colspan="1">0.4915</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.33%</p>
+<p>Asian or Asian British: 1.34%</p>
+<p>Black or Black British: 1.10%</p>
+<p>Mixed: 0.24%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Drug</td><td align="left" rowspan="1" colspan="1">82.41</td><td align="left" rowspan="1" colspan="1">1.53</td><td align="left" rowspan="1" colspan="1">0.5036</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.19%</p>
+<p>Asian or Asian British: 1.49%</p>
+<p>Black or Black British: 1.06%</p>
+<p>Mixed: 0.27%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Intersection</td><td align="left" rowspan="1" colspan="1">82.52</td><td align="left" rowspan="1" colspan="1">1.53</td><td align="left" rowspan="1" colspan="1">0.4955</td><td align="left" rowspan="1" colspan="1">
+<p>White: 97.83%</p>
+<p>Black or Black British: 1.08%</p>
+<p>Asian or Asian British: 0.93%</p>
+<p>Mixed: 0.15%</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="alz14319-tbl3-note-0001"><p>Abbreviation: ICD10, International Classification of Diseases, 10th revision.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>We first set out to predict AD affection status in a case–control dataset. For this purpose, we used the intersection dataset (Tables <xref rid="alz14319-tbl-0001" ref-type="table">1</xref>, <xref rid="alz14319-tbl-0002" ref-type="table">2</xref>, <xref rid="alz14319-tbl-0003" ref-type="table">3</xref>) to evaluate five ML models on four single modalities (genetic, proteomic, metabolomic and EHR/drug) and combinations of those using early fusion and late fusion methods. Specifically, the intersection dataset has 371 cases and 3356 controls. We separated our intersection dataset into three subsets: “training (0.8)”—used for model training, “validation (0.1)”—used for hyperparameter finetuning, and “testing (0.1)”—used for performance evaluation. For each modality, we selected the best‐performing case–control model based on the AUROC.</p><p>The best performance was achieved using multiple modalities (Table <xref rid="alz14319-tbl-0004" ref-type="table">4</xref>, Figure <xref rid="alz14319-supinfo-0001" ref-type="">S4</xref>). The early fusion CatBoost model integrating the genetic and proteomic modalities provided the highest AUROC (0.87), and the fourth highest AUPRC (0.62) for AD affection status prediction. In general, we observed that early fusion models performed better than late fusion models for AD affection status prediction. The best single modality model based on AUROC was the genomics model (AUROC = 0.84, AUPRC = 0.57), followed by proteomic (AUROC = 0.83, AUPRC = 0.57), metabolomic (AUROC = 0.73, AUPRC = 0.48), and drug (AUROC = 0.67, AUPRC = 0.42) modalities. Overall, the genomics and proteomics modalities have shown much better performance than the metabolomic and drug modalities for AD affection status prediction. We also observed that shallow learners, such as LGBM, CatBoost, and XGB, generally performed better than deep learners. Next, we attempted to decrease the case/control imbalance, by adding AD‐by‐proxy cases to our ICD10 cases. AD‐by‐proxy phenotype showed a high correlation with an actual AD diagnosis.<xref rid="alz14319-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> Models trained on the extended definition of AD performed worse than models trained using ICD10 cases only (Tables <xref rid="alz14319-supinfo-0001" ref-type="">S3–S5</xref>). Most models had expected high precision (given the case/control imbalance) and low recall with minimal exceptions.</p><table-wrap position="float" id="alz14319-tbl-0004" content-type="TABLE" orientation="portrait"><label>TABLE 4</label><caption><p>Case–control prediction results for the intersection dataset using the ICD10 phenotype definition.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Modality</th><th align="left" rowspan="1" colspan="1">Model</th><th align="left" rowspan="1" colspan="1">External accuracy</th><th align="left" rowspan="1" colspan="1">External precision</th><th align="left" rowspan="1" colspan="1">External recall</th><th align="left" rowspan="1" colspan="1">External PR AUC</th><th align="left" rowspan="1" colspan="1">External ROC AUC</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genomic_proteomic</td><td align="left" rowspan="1" colspan="1">CatBoost</td><td align="left" rowspan="1" colspan="1">0.9247</td><td align="left" rowspan="1" colspan="1">0.8000</td><td align="left" rowspan="1" colspan="1">0.3158</td><td align="left" rowspan="1" colspan="1">0.6156</td><td align="left" rowspan="1" colspan="1">0.8748</td></tr><tr><td align="left" rowspan="1" colspan="1">Genomic_proteomic_drug</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.9377</td><td align="left" rowspan="1" colspan="1">0.9375</td><td align="left" rowspan="1" colspan="1">0.3947</td><td align="left" rowspan="1" colspan="1">0.6334</td><td align="left" rowspan="1" colspan="1">0.8665</td></tr><tr><td align="left" rowspan="1" colspan="1">Genomic_proteomic_metabolomic_drug</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.9429</td><td align="left" rowspan="1" colspan="1">0.9000</td><td align="left" rowspan="1" colspan="1">0.4737</td><td align="left" rowspan="1" colspan="1">0.6420</td><td align="left" rowspan="1" colspan="1">0.8617</td></tr><tr><td align="left" rowspan="1" colspan="1">Genomic_proteomic_metabolomic</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.9299</td><td align="left" rowspan="1" colspan="1">0.7895</td><td align="left" rowspan="1" colspan="1">0.3947</td><td align="left" rowspan="1" colspan="1">0.6310</td><td align="left" rowspan="1" colspan="1">0.8540</td></tr><tr><td align="left" rowspan="1" colspan="1">Proteomic_drug</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.9377</td><td align="left" rowspan="1" colspan="1">1.000</td><td align="left" rowspan="1" colspan="1">0.3684</td><td align="left" rowspan="1" colspan="1">0.5804</td><td align="left" rowspan="1" colspan="1">0.8445</td></tr><tr><td align="left" rowspan="1" colspan="1">Genomic_drug</td><td align="left" rowspan="1" colspan="1">
+<p>Late fusion</p>
+<p>Meta classifier: TabNet</p>
+</td><td align="left" rowspan="1" colspan="1">0.9013</td><td align="left" rowspan="1" colspan="1">0.0000</td><td align="left" rowspan="1" colspan="1">0.0000</td><td align="left" rowspan="1" colspan="1">0.5720</td><td align="left" rowspan="1" colspan="1">0.8415</td></tr><tr><td align="left" rowspan="1" colspan="1">Genomic</td><td align="left" rowspan="1" colspan="1">TabNet</td><td align="left" rowspan="1" colspan="1">0.9299</td><td align="left" rowspan="1" colspan="1">0.9231</td><td align="left" rowspan="1" colspan="1">0.3158</td><td align="left" rowspan="1" colspan="1">0.5658</td><td align="left" rowspan="1" colspan="1">0.8391</td></tr><tr><td align="left" rowspan="1" colspan="1">Genomic_metabolomic</td><td align="left" rowspan="1" colspan="1">
+<p>Late fusion</p>
+<p>Meta classifier: TabNet</p>
+</td><td align="left" rowspan="1" colspan="1">0.9273</td><td align="left" rowspan="1" colspan="1">1.0000</td><td align="left" rowspan="1" colspan="1">0.2632</td><td align="left" rowspan="1" colspan="1">0.5551</td><td align="left" rowspan="1" colspan="1">0.8369</td></tr><tr><td align="left" rowspan="1" colspan="1">Proteomic</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.9325</td><td align="left" rowspan="1" colspan="1">0.8750</td><td align="left" rowspan="1" colspan="1">0.3684</td><td align="left" rowspan="1" colspan="1">0.5682</td><td align="left" rowspan="1" colspan="1">0.8336</td></tr><tr><td align="left" rowspan="1" colspan="1">Genomic_metabolomic_drug</td><td align="left" rowspan="1" colspan="1">XGB</td><td align="left" rowspan="1" colspan="1">0.9065</td><td align="left" rowspan="1" colspan="1">0.5385</td><td align="left" rowspan="1" colspan="1">0.3684</td><td align="left" rowspan="1" colspan="1">0.5040</td><td align="left" rowspan="1" colspan="1">0.8252</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomic_proteomic</td><td align="left" rowspan="1" colspan="1">
+<p>Late fusion</p>
+<p>Meta classifier: TabNet</p>
+</td><td align="left" rowspan="1" colspan="1">0.8987</td><td align="left" rowspan="1" colspan="1">0.0000</td><td align="left" rowspan="1" colspan="1">0.0000</td><td align="left" rowspan="1" colspan="1">0.4080</td><td align="left" rowspan="1" colspan="1">0.8196</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomic_proteomic_drug</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.9299</td><td align="left" rowspan="1" colspan="1">0.9231</td><td align="left" rowspan="1" colspan="1">0.3158</td><td align="left" rowspan="1" colspan="1">0.5312</td><td align="left" rowspan="1" colspan="1">0.8037</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomic_drug</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.9221</td><td align="left" rowspan="1" colspan="1">0.7500</td><td align="left" rowspan="1" colspan="1">0.3158</td><td align="left" rowspan="1" colspan="1">0.4717</td><td align="left" rowspan="1" colspan="1">0.7359</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomic</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.9247</td><td align="left" rowspan="1" colspan="1">0.7647</td><td align="left" rowspan="1" colspan="1">0.3421</td><td align="left" rowspan="1" colspan="1">0.4763</td><td align="left" rowspan="1" colspan="1">0.7259</td></tr><tr><td align="left" rowspan="1" colspan="1">Drug</td><td align="left" rowspan="1" colspan="1">LGBM</td><td align="left" rowspan="1" colspan="1">0.7948</td><td align="left" rowspan="1" colspan="1">0.2192</td><td align="left" rowspan="1" colspan="1">0.4211</td><td align="left" rowspan="1" colspan="1">0.4200</td><td align="left" rowspan="1" colspan="1">0.6669</td></tr><tr><td align="left" rowspan="1" colspan="1">Baseline</td><td align="left" rowspan="1" colspan="1">LR</td><td align="left" rowspan="1" colspan="1">0.9091</td><td align="left" rowspan="1" colspan="1">1.0000</td><td align="left" rowspan="1" colspan="1">0.0790</td><td align="left" rowspan="1" colspan="1">0.4173</td><td align="left" rowspan="1" colspan="1">0.6423</td></tr></tbody></table><table-wrap-foot><fn id="alz14319-tbl4-note-0001"><p>
+<italic toggle="yes">Note</italic>: The best single‐modality shallow ML models were used for late fusion (i.e., LGBM for all modalities).</p></fn><fn id="alz14319-tbl4-note-0002"><p>Abbreviation: ICD10, International Classification of Diseases, 10th revision; ML, machine learning.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Next, we aimed to predict AAO as a continuous outcome and extracted only ICD10 cases in the intersection dataset (Tables <xref rid="alz14319-tbl-0001" ref-type="table">1</xref>, <xref rid="alz14319-tbl-0002" ref-type="table">2</xref>, <xref rid="alz14319-tbl-0003" ref-type="table">3</xref>). We evaluated the same models and modalities as above and used MSE to select the best‐performing model. When predicting AAO, we observed a similar behavior: fusion models perform better than single modality models, and shallow learners performed better than deep learners. In contrast to affection status prediction, in which early fusion models performed better, we observed late fusion models performed better for AAO prediction (Table <xref rid="alz14319-supinfo-0001" ref-type="">S6</xref>). Unlike what was seen in affection status prediction, proteomics (MSE = 44.44) was the most informative modality, followed by metabolomics (MSE = 51.16), genomics (MSE = 58.73), and drug (MSE = 59.15) modality (Figure <xref rid="alz14319-fig-0003" ref-type="fig">3</xref>, Figure <xref rid="alz14319-supinfo-0001" ref-type="">S5</xref>). The performance of the best affection status prediction model showed a higher improvement than the best AAO prediction model when compared to the baseline models, with an improvement of 36% and 21%, respectively.</p><fig position="float" fig-type="FIGURE" id="alz14319-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Age‐at‐onset prediction results for the intersection dataset using the ICD10 phenotype definition. G, genomics modality; P, proteomics modality; M, metabolomics modality; D, EHR drug modality. A combination of those letters corresponds to multiple modalities used. Prefix “E‐” corresponds to early fusion and the corresponding model. Prefix “L‐” corresponds to late fusion and corresponding meta classifier. The best single modality models are used for late fusion (i.e., genomic, LR; metabolomic, CatBoost; proteomic, LGBM; drug, LGBM). Additional training information and visualization can be found in Table <xref rid="alz14319-supinfo-0001" ref-type="">S6</xref> and Figure <xref rid="alz14319-supinfo-0001" ref-type="">S5</xref>. EHR, electronic health record; ICD10, International Classification of Diseases, 10<sup>th</sup> revision.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-20-8700-g001.jpg"/></fig><sec id="alz14319-sec-0170"><label>3.1</label><title>Feature importance evaluation</title><p>We found that LGBM and CatBoost were the best‐performing early fusion models that fused all modalities for affection status and AAO prediction, respectively. Thus, the two models were used to evaluate the feature importance for the intersection dataset. We found that <italic toggle="yes">APOE</italic>ε4, glial fibrillary acidic protein (GFAP), epidermal growth factor (EGF)‐containing fibulin extracellular matrix protein 1 (EFEMP1), aminopeptidase N (ANPEP), and cystatin‐D (CST5) were the top five most important features when predicting affection status. We also observed that <italic toggle="yes">APOE</italic>ε4 was more than two and a half times as important as GFAP, and GFAP was roughly three times as important as EFEMP1; most of the top features were either SNPs or proteins (Figure <xref rid="alz14319-fig-0004" ref-type="fig">4</xref>). Among all features, only <italic toggle="yes">APOE</italic>ε4 (<italic toggle="yes">p</italic> = 1.23E‐30) and GFAP (<italic toggle="yes">p</italic> = 1.47E‐09) were significant in the traditional association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">S7</xref>).</p><fig position="float" fig-type="FIGURE" id="alz14319-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>The feature importance plots for the best early fusion affection status prediction model that fuses all four modalities (LGBM). The left bar plot shows the relative importance (mean SHAP value) of the most important features, and the right beeswarm plot shows the direction in which the feature value is correlated to the prediction. Each dot represents the importance of corresponding features in a positive or negative direction for an individual prediction. The color represents the feature value for that individual.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-20-8700-g002.jpg"/></fig><p>As for the AAO prediction, we found that tumor necrosis factor receptor superfamily member 27 (EDA2R), C‐X‐C motif chemokine 17 (CXCL17), carbonic anhydrase 9 (CA9), CUB domain‐containing protein 1 (CDCP1), and C‐X‐C motif chemokine ligand 14 (CXCL14) were the top five most important features, with CXCL17 (<italic toggle="yes">p</italic> = 6.26e‐06), CHRDL1 (<italic toggle="yes">p</italic> = 3.44e‐06) and FLT3LG (<italic toggle="yes">p</italic> = 1.36e‐05) being significant after Bonferroni correction in the traditional association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">S8</xref>). We observed that EDA2R possessed about 1.5 times the level of importance as CXCL17, and the top features were mainly proteins (Figure <xref rid="alz14319-fig-0005" ref-type="fig">5</xref>).</p><fig position="float" fig-type="FIGURE" id="alz14319-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>The feature importance plots for the best early fusion age at onset prediction model that fuses all four modalities (CatBoost). The left bar plot shows the relative importance of the most important features, and the right beeswarm plot shows the direction in which the feature value is correlated to the prediction. Each dot represents the importance of corresponding features in a positive or negative direction for an individual prediction. The color represents the feature value for that individual.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ALZ-20-8700-g003.jpg"/></fig><p>For the single genomic modality, we evaluated the feature importance in the LGBM model, which was the best‐performing model for both phenotypes. We found that for the affection status prediction, rs429358 (<italic toggle="yes">APOE</italic>ε4), rs7412 (<italic toggle="yes">APOE</italic>ε2), rs6733839 (<italic toggle="yes">BIN1</italic>), rs73223431 (<italic toggle="yes">PTK2B</italic>), and rs7933202 (<italic toggle="yes">MS4A6A</italic>) were the top five most important SNPs, and <italic toggle="yes">APOE</italic>ε4 was almost five times as important as <italic toggle="yes">APOE</italic>ε2 (Figure <xref rid="alz14319-supinfo-0001" ref-type="">6</xref>), with <italic toggle="yes">APOE</italic>ε4 (<italic toggle="yes">p</italic> = 8.29e‐189), <italic toggle="yes">APOE</italic>ε2 (<italic toggle="yes">p</italic> = 3.47e‐13), and <italic toggle="yes">BIN1</italic> (<italic toggle="yes">p</italic> = 5.07e‐05) being significant after Bonferroni correction in the association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">S9</xref>). For the AAO prediction, rs429358 (<italic toggle="yes">APOE</italic>ε4), rs6733839 (<italic toggle="yes">BIN1</italic>), rs7933202 (<italic toggle="yes">MS4A6A</italic>), rs2830500 (<italic toggle="yes">CYYR1, ADAMTS1</italic>), and rs9473117 (<italic toggle="yes">CD2AP‐DT</italic>) were the top five SNPs (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S7</xref>). None of these SNPs were significant in the association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">S10</xref>).</p><p>LGBM was also the best‐performing model for the proteomics single modality for both phenotypes. We found that for affection status prediction, GFAP, CST5, NEFL, neuronal pentraxin receptor (NPTXR), and Brevican core protein (BCAN) were the top five most important proteins, and GFAP was more than twice as important as CST5 (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S8</xref>). Among these proteins, GFAP (<italic toggle="yes">p</italic> = 6.08e‐18) and CST5 (<italic toggle="yes">p</italic> = 3e‐05) were significant after Bonferroni correction in the association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">S11</xref>). For the AAO prediction, we observed that EDA2R, CXCL17, fibroblast growth factor 5 (FGF5), chitotriosidase‐1 (CHIT1), and prolargin (PRELP) were the top five proteins, and EDA2R was roughly 1.5 times more important than CXCL17 (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S9</xref>). Among these proteins, EDA2R (<italic toggle="yes">p</italic> = 3.5e‐12), CXCL17 (<italic toggle="yes">p</italic> = 2.34e‐10), FGF5 (<italic toggle="yes">p</italic> = 4.45e‐6), and PRELP (<italic toggle="yes">p</italic> = 5.26e‐6) were significant after Bonferroni correction in the association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">12</xref>).</p><p>In the metabolomics single modality analyses, we observed that LGBM was the best‐performing model for affection status and that CatBoost was the best‐performing ML model for AAO prediction. We found that for affection status prediction, albumin, valine, glycine, acetate, and lactate were the top five most important metabolites (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S10</xref>). However, none of these metabolites were significant in the association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">S13</xref>). For AAO prediction, citrate, tyrosine, albumin, creatinine, and saturated fatty acids to total fatty acids percentage were the top five metabolite features (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S11</xref>), and none of these top metabolites were significant in the association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">S14</xref>).</p><p>CatBoost was the best‐performing model for the EHR/drug modality for both phenotypes. We found that for affection status prediction, paracetamol, bendroflumethiazide, citalopram, omeprazole, and insulin product were the top five most important drugs (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S12</xref>), with citalopram (<italic toggle="yes">p</italic> = 1.83e‐06) being significant after Bonferroni correction in the traditional association analysis (Table <xref rid="alz14319-supinfo-0001" ref-type="">S15</xref>). For the AAO prediction, simvastatin, aspirin, glucosamine product, citalopram, and bendroflumethiazide were the top five drugs (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S13</xref>), with citalopram (<italic toggle="yes">p</italic> = 6.59e‐07) also being significant after Bonferroni correction. (Table <xref rid="alz14319-supinfo-0001" ref-type="">S16</xref>).</p><p>Finally, we evaluated the feature importance of the overall best‐performing polyomic ML model, CatBoost for affection status prediction and LGBM for AAO prediction, on the genomic and proteomic modalities. For affection status prediction, <italic toggle="yes">APOE</italic>ε4, GFAP, CST5, rs9331896 (<italic toggle="yes">CLU</italic>), and ANPEP were the top five most important features (Figure <xref rid="alz14319-supinfo-0001" ref-type="">S14</xref>), with <italic toggle="yes">APOE</italic>ε4 (<italic toggle="yes">p</italic> = 1.23e‐30) and GFAP (<italic toggle="yes">p</italic> = 1.47e‐09) being statistically significant after Bonferroni correction (Table <xref rid="alz14319-supinfo-0001" ref-type="">S17</xref>). For AAO prediction, only proteins were among the top five most important features: EDA2R, CUB domain‐containing protein 1 (CDCP1), Carbonic Anhydrase 9 (CA9), Prokineticin 1 (PROK1) and C‐C Motif Chemokine Ligand 25 (CCL25) (Figure <xref rid="alz14319-supinfo-0001" ref-type="">15</xref>), none of the top five proteins were statistically significant after Bonferroni correction (Table <xref rid="alz14319-supinfo-0001" ref-type="">18</xref>).</p><p>In addition to reporting the top five Shapley values for each feature, we performed logistic or linear regression with each feature to look at their associations. Top features must be three standard deviations above the mean Shapley value, and statistically significant after Bonferroni correction (Table <xref rid="alz14319-tbl-0005" ref-type="table">5</xref>). We found that <italic toggle="yes">APOE</italic> ε4, GFAP, and CXCL17 were consistently selected as the top features in both the single modality models as well as in the polyomic models.</p><table-wrap position="float" id="alz14319-tbl-0005" content-type="TABLE" orientation="portrait"><label>TABLE 5</label><caption><p>Top features for different modalities.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Modality</th><th align="left" rowspan="1" colspan="1">Features (Association)—Model</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genomic</td><td align="left" rowspan="1" colspan="1">19:44908684:T:C_C (+)—AD</td></tr><tr><td align="left" rowspan="1" colspan="1">Proteomic</td><td align="left" rowspan="1" colspan="1">
+<p>GFAP (+)—AD</p>
+<p>CST5 (‐)—AD</p>
+<p>EDA2R (‐)—AAO</p>
+<p>CXCL17 (‐)—AAO</p>
+<p>FGF5 (‐)—AAO</p>
+<p>PRELP (‐)—AAO</p>
+<p>NTPROBNP (‐)—AAO</p>
+<p>CDCP1 (‐)—AAO</p>
+<p>ACTA2 (‐)—AAO</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomic</td><td align="left" rowspan="1" colspan="1">/</td></tr><tr><td align="left" rowspan="1" colspan="1">EHR/drug</td><td align="left" rowspan="1" colspan="1">
+<p>citalopram (+)—Both</p>
+<p>fluoxetine (+)—AAO</p>
+<p>aricept 5 mg tablet (+)—AAO</p>
+<p>donepezil hydrochloride (+)—AAO</p>
+<p>galantamine (+)—AAO</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Early fusion that fuses all modalities</td><td align="left" rowspan="1" colspan="1">
+<p>19:44908684:T:C_C (+)—AD</p>
+<p>GFAP (+)—AD</p>
+<p>CXCL17 (‐)—AAO</p>
+<p>FLT3LG (‐)—AAO</p>
+<p>CHRDL1 (‐)—AAO</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Best case–control/AAO models</td><td align="left" rowspan="1" colspan="1">
+<p>19:44908684:T:C_C (+)—AD</p>
+<p>GFAP (+)—AD</p>
+<p>CXCL17 (‐)—AAO</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="alz14319-tbl5-note-0001"><p>
+<italic toggle="yes">Note</italic>: The features had to be (1) above three standard deviations for the mean Shapley value and (2) statistically significant after Bonferroni correction. The features could come from either the case–control model or the AAO model. ± is the AD association, “+” means the feature is positively associated with AD or associated with lower AAO, “‐” means the feature is negatively associated with AD or associated with higher AAO. The model at the end of each feature refers to the model that concludes the feature is important, it can be either AD (affection status prediction model), AAO (AAO prediction model), or Both.</p></fn><fn id="alz14319-tbl5-note-0002"><p>Abbreviations: AAO, age‐at‐onset; AD, Alzheimer's disease; EHR, electronic health record.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec></sec><sec id="alz14319-sec-0180"><label>4</label><title>DISCUSSION</title><p>Using multiple omics layers together with medication use data from UKB, we developed a polyomic model that fuses the most informative modalities to classify subjects with and without AD and predict AD AAO. We compared polyomic models to single modality models, explored whether AD‐by‐proxy phenotyping can improve model performance, and evaluated the most contributing to prediction features. Our study population has a relatively even data split across sexes (Table <xref rid="alz14319-tbl-0001" ref-type="table">1</xref>, <xref rid="alz14319-tbl-0002" ref-type="table">2</xref>, <xref rid="alz14319-tbl-0003" ref-type="table">3</xref>); therefore, our results are likely generalizable across sexes.</p><p>The best AD affection status prediction model was the CatBoost polyomic early fusion model that fused genomic and proteomic modalities. This model had the highest AUROC overall (0.87) and the fourth‐highest AUPRC (0.62). In general, most models had higher AUROC than AUPRC because the latter is more sensitive to class imbalance issues.<xref rid="alz14319-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> All models had a relatively high precision and low recall, which could be caused by the class imbalance issue in the training set. As there are more controls than cases in the dataset, the models were biased toward predicting samples as controls than cases, meaning that there were more false negatives than false positives, which is reflected by the high precision and low recall observed in the result. We made several attempts to overcome the class imbalance issue. First, we used scaling to assign a higher weight to the positive class, which slightly improved the performance of the model. Second, we attempted to increase the number of cases using AD‐by‐proxy cases. However, such an approach led to a deterioration of the model's performance. There was a considerable decrease in the precision and a slight improvement in the recall. This is likely because using AD‐by‐proxy definitions has a higher chance of misclassifying subjects, which leads to a more noisy dataset, and eventually leads to model performance degradation. Hence, we decided to report results based on ICD10 coding alone, which gave us the best overall result versus models that incorporated AD‐by‐proxy cases. This also implies that precise phenotype definition is important for a ML prediction task.</p><p>The majority of our prediction models with multiple modalities have shown better performance than single modality models, suggesting that different modalities may capture different information from within our body of data, which could be informative to AD affection status and AD AAO prediction. We also observed that adding one modality to the baseline model usually showed considerable improvement in the model performance, and the additional modalities (second or onward) that were added to the baseline model showed relatively small improvement in model performance. This may suggest overlap in a large portion of the information captured by the different modalities.</p><p>The best‐performing AAO prediction model was also the polyomic late fusion model that fuses genomic, proteomic, and drug modalities using LGBM as the meta‐classifier. This model had the lowest MSE (MSE = 43.28), which was 21% better than the baseline model (MSE = 54.95). In contrast to affection status prediction models, we observed that some single modality (genomics and drug) models behaved slightly worse than the baseline model, which consists of sex information only. Sex is used in the baseline model because sex might impact the AAO of AD.<xref rid="alz14319-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref>, <xref rid="alz14319-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref> We also found that important features for the genomics modality only come from the affection status model (Table <xref rid="alz14319-tbl-0005" ref-type="table">5</xref>). This might suggest that genetic factors play a weaker role in AD AAO than for AD onset itself. In addition, CXCL17 protein levels appear to be important for AAO prediction, while GFAP protein levels are important for affection status prediction. For the drug modality, as all the controls were removed from the training pipeline, the sparsity in the dataset increased, which may have been the cause of worse model performance. Finally, among all modalities, proteomics was the most informative modality overall for affection status (based on PR AUC of 56.82% and ROC AUC of 83.36%) and AAO prediction (based on MSE = 44.44). The genomics modality had a very similar performance with proteomics for affection status with a PR AUC of 56.58% and ROC AUC of 83.91%, which aligns with the results found in Vacher et al.,<xref rid="alz14319-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> which used proteomics data from brain tissue, and does not align with results found in Gómez‐Pascual et al.,<xref rid="alz14319-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> although they used a different proteomic chip (Somascan) and focused on multiclass and MCI conversion models. However, genomics (MSE = 58.73) yields a much higher MSE than proteomics (MSE = 44.44). This suggests that protein expression levels might be universally important for both: AD and AAO.</p><p>Moving onto the feature importance, as expected, the most important features, which can come from either the affection status or AAO models (Table <xref rid="alz14319-tbl-0005" ref-type="table">5</xref>), in our models have already been implicated for AD. For example, the two strongest features in the genomic modality were <italic toggle="yes">APOE</italic> ε4 and ε2 alleles. We also found that the risk effect direction of the remaining 17 most important features/SNPs for the case–control model (the right figure in Figure <xref rid="alz14319-supinfo-0001" ref-type="">S6</xref>) was the same as reported in Kunkle et al.<xref rid="alz14319-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> By aggregating the results and requiring the important feature to be of top feature in both the single modality and the early fusion model, we showed <italic toggle="yes">APOE</italic> ε4, GFAP and CXCL17 to be the most robust predictors and useful biomarkers for AD. <italic toggle="yes">APOE</italic> ε4 is already a well‐known risk factor of AD, so we chose to focus on discussing the two blood‐based biomarkers, GFAP and CXCL17. Previous studies have suggested GFAP<xref rid="alz14319-bib-0057" ref-type="bibr">
+<sup>57</sup>
+</xref> as a potential biomarker, and our study supports that this protein is important for AD prediction. CXCL17 previously has been shown to have an important predictive value for cancer<xref rid="alz14319-bib-0058" ref-type="bibr">
+<sup>58</sup>
+</xref> and general health risk,<xref rid="alz14319-bib-0059" ref-type="bibr">
+<sup>59</sup>
+</xref> however, AD‐focused studies have been lacking. Although premature for clinical application, future research screening tools could consider GFAP and CXCL17 as potential early biomarkers of AD from blood.</p><p>The design of this study came with a number of limitations. Most participants in the UKB are of European ancestry,<xref rid="alz14319-bib-0060" ref-type="bibr">
+<sup>60</sup>
+</xref> around 97% of the study population are of white ethnicity (Table <xref rid="alz14319-tbl-0001" ref-type="table">1</xref>, <xref rid="alz14319-tbl-0002" ref-type="table">2</xref>, <xref rid="alz14319-tbl-0003" ref-type="table">3</xref>), which limits the ability of our study to generalize our result to other ancestries or ethnicities,<xref rid="alz14319-bib-0061" ref-type="bibr">
+<sup>61</sup>
+</xref> hence additional studies on more diverse datasets are needed to improve the generalizability of the study. Second, we recognize that our labels have not been clinically verified. Also, well studied biological evidence for AD such as amyloid and tau biomarkers are not considered when defining the phenotype. Specifically, the AAO labels might not be the actual AAO of AD due to delayed diagnosis or misdiagnosis. Mislabeling issues are common in data‐driven research and are hard to avoid. In addition, since the number of longitudinal samples in our dataset was limited, we could not explore how changes over time in different data modalities were associated with AD. Furthermore, due to the complexity of EHR data in the UKB dataset, we decided to focus on one subset only, which is the medication/drug use data. In future work, we aim to include more information from the EHR modality (such as comorbidities), other omic modalities, as they become available, and brain imaging data as well as incorporate omics data from other tissues (CSF, brain) to validate our results. Another interesting comparison that can be made in future studies is to compare models that predict all causes of dementia versus AD‐specific dementia. In addition, more thorough hyperparameter tuning can be performed using grid search or other algorithms. Finally, our results do not imply any causal relationships. Even with these limitations, our study provides novel insights regarding the importance of different modalities for the prediction of AD and sheds new light on the effect of AD‐by‐proxy cases on AD prediction.</p><p>In conclusion, we evaluated multiple ML methods on medication use, genomics, proteomics, metabolomics, and combinations, thereof, to predict AD affection status and AAO based on polyomic risk assessment. We found that polyomic models, fusing multiple data modalities together, were more predictive than using single modalities. We also showed that using additional AD‐by‐proxy cases versus ICD10 cases alone decreased prediction performance. Finally, using game theory‐based SHAP values to identify and visualize the most important features for prediction, our findings support GFAP and newly suggest CXCL17 as a potentially useful blood‐based proteomic biomarker for the early and presymptomatic prediction of AD, this study provides results that indicate that these biomarkers should be the targets of further investigated.</p></sec><sec id="alz14319-sec-0190"><title>AUTHOR CONTRIBUTIONS</title><p>
+<italic toggle="yes">Conceptualization</italic>: Dmitry Prokopenko, Rudolph E. Tanzi, and Tiffany Ngai. <italic toggle="yes">Methodology</italic>: Tiffany Ngai, Georg Hahn, Julian Hecker, Christoph Lange, and Dmitry Prokopenko. <italic toggle="yes">Software</italic>: Tiffany Ngai. <italic toggle="yes">Validation</italic>: Tiffany Ngai, Julian Willett, and Dmitry Prokopenko. <italic toggle="yes">Formal analysis</italic>: Tiffany Ngai, Mohammad Waqas, Lucas H. Fishbein, and Dmitry Prokopenko. <italic toggle="yes">Investigation</italic>: Tiffany Ngai, Julian Willett, and Dmitry Prokopenko. <italic toggle="yes">Data curation</italic>: Tiffany Ngai, Mohammad Waqas, Younjung Choi, and Kristina Mullin. <italic toggle="yes">Writing—original draft preparation</italic>: Tiffany Ngai. <italic toggle="yes">Writing—review and editing</italic>: Tiffany Ngai, Julian Willett, Mohammad Waqas, Lucas H. Fishbein, Georg Hahn, Younjung Choi, Kristina Mullin, Christoph Lange, Julian Hecker, Rudolph E. Tanzi, and Dmitry Prokopenko. <italic toggle="yes">Visualization</italic>: Tiffany Ngai. <italic toggle="yes">Supervision</italic>: Dmitry Prokopenko. <italic toggle="yes">Funding acquisition</italic>: Rudolph E. Tanzi.</p></sec><sec sec-type="COI-statement" id="alz14319-sec-0210"><title>CONFLICT OF INTEREST STATEMENT</title><p>All authors declare that they have no potential conflicts of interest related to this work. Author disclosures are available in the <xref rid="alz14319-supinfo-0001" ref-type="">Supporting Information</xref>.</p></sec><sec id="alz14319-sec-0220"><title>CONSENT STATEMENT</title><p>All participants provided electronically signed consent. UK Biobank received ethical approval from the NHS North West Centre for Research Ethics Committee with the latest renewal in 2021 (Ref: 11/NW/0382). This study was approved by the relevant Institutional Review Board from Massachusetts General Hospital (protocol number 2022P000614).</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz14319-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz14319-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-8700-s002.docx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz14319-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-8700-s001.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz14319-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-8700-s003.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz14319-sec-0200"><title>ACKNOWLEDGMENTS</title><p>The computations in this paper were run in part on the FASRC Cannon cluster supported by the FAS Division of Science Research Computing Group at Harvard University. This research was conducted using the UK Biobank resource (application number 81874). The funding body has no role in the design of the study and collection, analysis, and interpretation of data and in writing the manuscript. This work was supported by the Cure Alzheimer's Fund. J.W. was supported by NIH T32GM007748.</p></ack><ref-list id="alz14319-bibl-0001"><title>REFERENCES</title><ref id="alz14319-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz14319-cit-0001">
+<string-name name-style="western">
+<surname>Gustavsson</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Norton</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fast</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Global estimates on the number of persons across the Alzheimer's disease continuum</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>:<fpage>658</fpage>‐<lpage>670</lpage>.<pub-id pub-id-type="pmid">35652476</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12694</pub-id></mixed-citation></ref><ref id="alz14319-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz14319-cit-0002">
+<collab collab-type="authors">GBD 2019 Dementia Forecasting Collaborators</collab>
+. <article-title>Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Study 2019</article-title>. <source>Lancet Public Health</source>. <year>2022</year>;<volume>7</volume>:<fpage>e105</fpage>‐<lpage>e125</lpage>.<pub-id pub-id-type="pmid">34998485</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S2468-2667(21)00249-8</pub-id><pub-id pub-id-type="pmcid">PMC8810394</pub-id></mixed-citation></ref><ref id="alz14319-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz14319-cit-0003">
+<string-name name-style="western">
+<surname>Palmqvist</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Insel</surname>
+<given-names>PS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stomrud</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Cerebrospinal fluid and plasma biomarker trajectories with increasing amyloid deposition in Alzheimer's disease</article-title>. <source>EMBO Mol Med</source>. <year>2019</year>;<volume>11</volume>:<elocation-id>e11170</elocation-id>.<pub-id pub-id-type="pmid">31709776</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/emmm.201911170</pub-id><pub-id pub-id-type="pmcid">PMC6895602</pub-id></mixed-citation></ref><ref id="alz14319-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz14319-cit-0004">
+<string-name name-style="western">
+<surname>Porsteinsson</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Isaacson</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knox</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sabbagh</surname>
+<given-names>MN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rubino</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Diagnosis of early Alzheimer's disease: clinical practice in 2021</article-title>. <source>J Prev Alzheimers Dis</source>. <year>2021</year>;<volume>8</volume>:<fpage>371</fpage>‐<lpage>386</lpage>.<pub-id pub-id-type="pmid">34101796</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.14283/jpad.2021.23</pub-id></mixed-citation></ref><ref id="alz14319-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz14319-cit-0005">
+<string-name name-style="western">
+<surname>Tao</surname>
+<given-names>Q‐Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>R‐R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Z‐Y</given-names>
+</string-name>. <article-title>Early diagnosis of Alzheimer's disease: moving toward a blood‐based biomarkers era</article-title>. <source>Clin Interv Aging</source>. <year>2023</year>;<volume>18</volume>:<fpage>353</fpage>‐<lpage>358</lpage>.<pub-id pub-id-type="pmid">36911809</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/CIA.S394821</pub-id><pub-id pub-id-type="pmcid">PMC10001034</pub-id></mixed-citation></ref><ref id="alz14319-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz14319-cit-0006">
+<string-name name-style="western">
+<surname>Palmqvist</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mattsson</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Detailed comparison of amyloid PET and CSF biomarkers for identifying early Alzheimer disease</article-title>. <source>Neurology</source>. <year>2015</year>;<volume>85</volume>:<fpage>1240</fpage>‐<lpage>1249</lpage>.<pub-id pub-id-type="pmid">26354982</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000001991</pub-id><pub-id pub-id-type="pmcid">PMC4607601</pub-id></mixed-citation></ref><ref id="alz14319-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz14319-cit-0007">
+<string-name name-style="western">
+<surname>Barthélemy</surname>
+<given-names>NR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salvadó</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schindler</surname>
+<given-names>SE</given-names>
+</string-name>, et al. <article-title>Highly accurate blood test for Alzheimer's disease is similar or superior to clinical cerebrospinal fluid tests</article-title>. <source>Nat Med</source>. <year>2024</year>;<volume>30</volume>:<fpage>1085</fpage>‐<lpage>1095</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41591-024-02869-z</pub-id>
+<pub-id pub-id-type="pmid">38382645</pub-id>
+<pub-id pub-id-type="pmcid">PMC11031399</pub-id></mixed-citation></ref><ref id="alz14319-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz14319-cit-0008">
+<article-title>Using machine learning approaches for multi‐omics data analysis: a review</article-title>. <source>Biotechnol Adv</source>. <year>2021</year>;<volume>49</volume>:<elocation-id>107739</elocation-id>.<pub-id pub-id-type="pmid">33794304</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.biotechadv.2021.107739</pub-id></mixed-citation></ref><ref id="alz14319-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz14319-cit-0009">
+<article-title>Metabolomics: strategies to define the role of metabolism in virus infection and pathogenesis</article-title>. <source>Adv Virus Res</source>. <year>2017</year>;<volume>98</volume>:<fpage>57</fpage>‐<lpage>81</lpage>.<pub-id pub-id-type="pmid">28433052</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/bs.aivir.2017.02.001</pub-id></mixed-citation></ref><ref id="alz14319-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz14319-cit-0010">
+<string-name name-style="western">
+<surname>Patti</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yanes</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siuzdak</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Innovation: metabolomics: the apogee of the omics trilogy</article-title>. <source>Nat Rev Mol Cell Biol</source>. <year>2012</year>;<volume>13</volume>:<fpage>263</fpage>‐<lpage>269</lpage>.<pub-id pub-id-type="pmid">22436749</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrm3314</pub-id><pub-id pub-id-type="pmcid">PMC3682684</pub-id></mixed-citation></ref><ref id="alz14319-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz14319-cit-0011">
+<string-name name-style="western">
+<surname>Habehh</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gohel</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Machine learning in healthcare</article-title>. <source>Curr Genomics</source>. <year>2021</year>;<volume>22</volume>:<fpage>291</fpage>‐<lpage>300</lpage>.<pub-id pub-id-type="pmid">35273459</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/1389202922666210705124359</pub-id><pub-id pub-id-type="pmcid">PMC8822225</pub-id></mixed-citation></ref><ref id="alz14319-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz14319-cit-0012">
+<string-name name-style="western">
+<surname>Sigurdsson</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Louloudis</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Banasik</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Deep integrative models for large‐scale human genomics</article-title>. <source>Nucleic Acids Res</source>. <year>2023</year>;<volume>51</volume>:<elocation-id>e67</elocation-id>.<pub-id pub-id-type="pmid">37224538</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkad373</pub-id><pub-id pub-id-type="pmcid">PMC10325897</pub-id></mixed-citation></ref><ref id="alz14319-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz14319-cit-0013">
+<string-name name-style="western">
+<surname>Venugopalan</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tong</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hassanzadeh</surname>
+<given-names>HR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>MD</given-names>
+</string-name>. <article-title>Multimodal deep learning models for early detection of Alzheimer's disease stage</article-title>. <source>Sci Rep</source>. <year>2021</year>;<volume>11</volume>:<fpage>3254</fpage>.<pub-id pub-id-type="pmid">33547343</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-020-74399-w</pub-id><pub-id pub-id-type="pmcid">PMC7864942</pub-id></mixed-citation></ref><ref id="alz14319-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz14319-cit-0014">
+<string-name name-style="western">
+<surname>Park</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ha</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Park</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Prediction of Alzheimer's disease based on deep neural network by integrating gene expression and DNA methylation dataset</article-title>. <source>Expert Syst Appl</source>. <year>2020</year>;<volume>140</volume>:<elocation-id>112873</elocation-id>.</mixed-citation></ref><ref id="alz14319-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz14319-cit-0015">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Applied machine learning in Alzheimer's disease research: omics, imaging, and clinical data</article-title>. <source>Emerg Top Life Sci</source>. <year>2021</year>;<volume>5</volume>:<fpage>765</fpage>‐<lpage>777</lpage>.<pub-id pub-id-type="pmid">34881778</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1042/ETLS20210249</pub-id><pub-id pub-id-type="pmcid">PMC8786302</pub-id></mixed-citation></ref><ref id="alz14319-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz14319-cit-0016">
+<string-name name-style="western">
+<surname>Barrett</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Esko</surname>
+<given-names>T</given-names>
+</string-name>, <collab collab-type="authors">Nightingale Health Biobank Collaborative Group</collab>
+, et al. <article-title>Metabolomic and genomic prediction of common diseases in 477,706 participants in three national biobanks</article-title>. <source>medRxiv</source> [Preprint]. <year>2023</year>. doi:<pub-id pub-id-type="doi">10.1101/2023.06.09.23291213</pub-id>
+<pub-id pub-id-type="pmcid">PMC11582662</pub-id><pub-id pub-id-type="pmid">39572536</pub-id></mixed-citation></ref><ref id="alz14319-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz14319-cit-0017">
+<string-name name-style="western">
+<surname>Gao</surname>
+<given-names>XR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chiariglione</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qin</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Explainable machine learning aggregates polygenic risk scores and electronic health records for Alzheimer's disease prediction</article-title>. <source>Sci Rep</source>. <year>2023</year>;<volume>13</volume>:<fpage>450</fpage>.<pub-id pub-id-type="pmid">36624143</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-023-27551-1</pub-id><pub-id pub-id-type="pmcid">PMC9829871</pub-id></mixed-citation></ref><ref id="alz14319-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz14319-cit-0018">
+<string-name name-style="western">
+<surname>Desikan</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fan</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Genetic assessment of age‐associated Alzheimer disease risk: development and validation of a polygenic hazard score</article-title>. <source>PLoS Med</source>. <year>2017</year>;<volume>14</volume>:<elocation-id>e1002258</elocation-id>.<pub-id pub-id-type="pmid">28323831</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pmed.1002258</pub-id><pub-id pub-id-type="pmcid">PMC5360219</pub-id></mixed-citation></ref><ref id="alz14319-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz14319-cit-0019">
+<string-name name-style="western">
+<surname>Motazedi</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomassen</surname>
+<given-names>JQ</given-names>
+</string-name>, et al. <article-title>Using polygenic hazard scores to predict age at onset of Alzheimer's disease in Nordic populations</article-title>. <source>J Alzheimers Dis</source>. <year>2022</year>;<volume>88</volume>:<fpage>1533</fpage>‐<lpage>1544</lpage>.<pub-id pub-id-type="pmid">35848024</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-220174</pub-id><pub-id pub-id-type="pmcid">PMC10022308</pub-id></mixed-citation></ref><ref id="alz14319-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz14319-cit-0020">
+<string-name name-style="western">
+<surname>Gadd</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hillary</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuncheva</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Blood protein assessment of leading incident diseases and mortality in UK Biobank</article-title>. <source>Nat Aging</source>. <year>2024</year>;<volume>4</volume>(<issue>7</issue>):<fpage>939</fpage>‐<lpage>948</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s43587-024-00655-7</pub-id>
+<pub-id pub-id-type="pmid">38987645</pub-id>
+<pub-id pub-id-type="pmcid">PMC11257969</pub-id></mixed-citation></ref><ref id="alz14319-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz14319-cit-0021">
+<string-name name-style="western">
+<surname>Xicota</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ichou</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lejeune</surname>
+<given-names>F‐X</given-names>
+</string-name>, et al. <article-title>Multi‐omics signature of brain amyloid deposition in asymptomatic individuals at‐risk for Alzheimer's disease: the INSIGHT‐preAD study</article-title>. <source>EBioMedicine</source>. <year>2019</year>;<volume>47</volume>:<fpage>518</fpage>‐<lpage>528</lpage>.<pub-id pub-id-type="pmid">31492558</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ebiom.2019.08.051</pub-id><pub-id pub-id-type="pmcid">PMC6796577</pub-id></mixed-citation></ref><ref id="alz14319-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz14319-cit-0022">
+<string-name name-style="western">
+<surname>Clark</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dayon</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Masoodi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowman</surname>
+<given-names>GL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Popp</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>An integrative multi‐omics approach reveals new central nervous system pathway alterations in Alzheimer's disease</article-title>. <source>Alzheimers Res Ther</source>. <year>2021</year>;<volume>13</volume>:<fpage>71</fpage>.<pub-id pub-id-type="pmid">33794997</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-021-00814-7</pub-id><pub-id pub-id-type="pmcid">PMC8015070</pub-id></mixed-citation></ref><ref id="alz14319-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz14319-cit-0023">
+<string-name name-style="western">
+<surname>Gómez‐Pascual</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Naccache</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Paired plasma lipidomics and proteomics analysis in the conversion from mild cognitive impairment to Alzheimer's disease</article-title>. <source>Comput Biol Med</source>. <year>2024</year>;<volume>176</volume>:<elocation-id>108588</elocation-id>.<pub-id pub-id-type="pmid">38761503</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.compbiomed.2024.108588</pub-id></mixed-citation></ref><ref id="alz14319-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz14319-cit-0024">
+<string-name name-style="western">
+<surname>Souchet</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Michaïl</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heuillet</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Multiomics blood‐based biomarkers predict Alzheimer's predementia with high specificity in a multicentric cohort study</article-title>. <source>J Prev Alzheimers Dis</source>. <year>2024</year>;<volume>11</volume>:<fpage>567</fpage>‐<lpage>581</lpage>.<pub-id pub-id-type="pmid">38706273</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.14283/jpad.2024.34</pub-id><pub-id pub-id-type="pmcid">PMC11061038</pub-id></mixed-citation></ref><ref id="alz14319-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz14319-cit-0025">
+<string-name name-style="western">
+<surname>Vacher</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Canovas</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Laws</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doecke</surname>
+<given-names>JD</given-names>
+</string-name>. <article-title>A comprehensive multi‐omics analysis reveals unique signatures to predict Alzheimer's disease</article-title>. <source>Front Bioinform</source>. <year>2024</year>;<volume>4</volume>:<elocation-id>1390607</elocation-id>.<pub-id pub-id-type="pmid">38962175</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fbinf.2024.1390607</pub-id><pub-id pub-id-type="pmcid">PMC11219798</pub-id></mixed-citation></ref><ref id="alz14319-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz14319-cit-0026">
+<string-name name-style="western">
+<surname>Hahn</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prokopenko</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hecker</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Polygenic hazard score models for the prediction of Alzheimer's free survival using the lasso for Cox's proportional hazards model</article-title>. <source>Genet Epidemiol</source>. Jul 9, <year>2024</year>. doi:<pub-id pub-id-type="doi">10.1002/gepi.22581</pub-id>
+<pub-id pub-id-type="pmid">38982682</pub-id></mixed-citation></ref><ref id="alz14319-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="alz14319-cit-0027">
+<string-name name-style="western">
+<surname>Hahn</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prokopenko</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hecker</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Prediction of disease‐free survival for precision medicine using cooperative learning on multi‐omic data</article-title>. <source>Brief Bioinform</source>. <year>2024</year>;<volume>25</volume>:<elocation-id>bbae267</elocation-id>.<pub-id pub-id-type="pmid">38836403</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bib/bbae267</pub-id><pub-id pub-id-type="pmcid">PMC11151121</pub-id></mixed-citation></ref><ref id="alz14319-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz14319-cit-0028">
+<string-name name-style="western">
+<surname>Sudlow</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gallacher</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allen</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age</article-title>. <source>PLoS Med</source>. <year>2015</year>;<volume>12</volume>:<elocation-id>e1001779</elocation-id>. doi:<pub-id pub-id-type="doi">10.1371/journal.pmed.1001779</pub-id>
+<pub-id pub-id-type="pmid">25826379</pub-id>
+<pub-id pub-id-type="pmcid">PMC4380465</pub-id></mixed-citation></ref><ref id="alz14319-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz14319-cit-0029">
+<string-name name-style="western">
+<surname>Bycroft</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Freeman</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petkova</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>The UK Biobank resource with deep phenotyping and genomic data</article-title>. <source>Nature</source>. <year>2018</year>;<volume>562</volume>:<fpage>203</fpage>‐<lpage>209</lpage>.<pub-id pub-id-type="pmid">30305743</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0579-z</pub-id><pub-id pub-id-type="pmcid">PMC6786975</pub-id></mixed-citation></ref><ref id="alz14319-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz14319-cit-0030">
+<string-name name-style="western">
+<surname>Taliun</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harris</surname>
+<given-names>DN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kessler</surname>
+<given-names>MD</given-names>
+</string-name>, et al. <article-title>Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program</article-title>. <source>Nature</source>. <year>2021</year>;<volume>590</volume>:<fpage>290</fpage>‐<lpage>299</lpage>.<pub-id pub-id-type="pmid">33568819</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-021-03205-y</pub-id><pub-id pub-id-type="pmcid">PMC7875770</pub-id></mixed-citation></ref><ref id="alz14319-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz14319-cit-0031">
+<string-name name-style="western">
+<surname>Bragg</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trichia</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aguilar‐Ramirez</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Predictive value of circulating NMR metabolic biomarkers for type 2 diabetes risk in the UK Biobank study</article-title>. <source>BMC Med</source>. <year>2022</year>;<volume>20</volume>:<fpage>159</fpage>.<pub-id pub-id-type="pmid">35501852</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12916-022-02354-9</pub-id><pub-id pub-id-type="pmcid">PMC9063288</pub-id></mixed-citation></ref><ref id="alz14319-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz14319-cit-0032">
+<string-name name-style="western">
+<surname>Julkunen</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cichońska</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Slagboom</surname>
+<given-names>PE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Würtz</surname>
+<given-names>P</given-names>
+</string-name>, <collab collab-type="authors">Nightingale Health UK Biobank Initiative</collab>
+. <article-title>Metabolic biomarker profiling for identification of susceptibility to severe pneumonia and COVID‐19 in the general population</article-title>. <source>ELife</source>. <year>2021</year>;<volume>10</volume>:<elocation-id>e63033</elocation-id>.<pub-id pub-id-type="pmid">33942721</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.63033</pub-id><pub-id pub-id-type="pmcid">PMC8172246</pub-id></mixed-citation></ref><ref id="alz14319-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="alz14319-cit-0033">
+<string-name name-style="western">
+<surname>Eldjarn</surname>
+<given-names>GH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferkingstad</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lund</surname>
+<given-names>SH</given-names>
+</string-name>, et al. <article-title>Large‐scale plasma proteomics comparisons through genetics and disease associations</article-title>. <source>Nature</source>. <year>2023</year>;<volume>622</volume>:<fpage>348</fpage>‐<lpage>358</lpage>.<pub-id pub-id-type="pmid">37794188</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-023-06563-x</pub-id><pub-id pub-id-type="pmcid">PMC10567571</pub-id></mixed-citation></ref><ref id="alz14319-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="alz14319-cit-0034">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>BB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chiou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Traylor</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Plasma proteomic associations with genetics and health in the UK Biobank</article-title>. <source>Nature</source>. <year>2023</year>;<volume>622</volume>(<issue>7982</issue>):<fpage>329</fpage>‐<lpage>338</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41586-023-06592-6</pub-id>
+<pub-id pub-id-type="pmid">37794186</pub-id>
+<pub-id pub-id-type="pmcid">PMC10567551</pub-id></mixed-citation></ref><ref id="alz14319-bib-0035"><label>35</label><mixed-citation publication-type="book" id="alz14319-cit-0035">
+<string-name name-style="western">
+<surname>Allan</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wheatley</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>A</given-names>
+</string-name>, et al. <part-title>Read codes for general practitioner dementia Quality Outcomes Framework register</part-title>. <source>In: <italic toggle="yes">An Intervention to Improve Outcomes of Falls In Dementia: The DIFRID Mixed‐Methods Feasibility Study</italic>
+</source>. <publisher-name>NIHR Journals Library</publisher-name>; <year>2019</year>.</mixed-citation></ref><ref id="alz14319-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="alz14319-cit-0036">
+<string-name name-style="western">
+<surname>Jansen</surname>
+<given-names>IE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Savage</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Watanabe</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Genome‐wide meta‐analysis identifies new loci and functional pathways influencing Alzheimer's disease risk</article-title>. <source>Nat Genet</source>. <year>2019</year>;<volume>51</volume>:<fpage>404</fpage>‐<lpage>413</lpage>.<pub-id pub-id-type="pmid">30617256</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-018-0311-9</pub-id><pub-id pub-id-type="pmcid">PMC6836675</pub-id></mixed-citation></ref><ref id="alz14319-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="alz14319-cit-0037">
+<string-name name-style="western">
+<surname>Kulminski</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Loika</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Genetic and regulatory architecture of Alzheimer's disease in the <italic toggle="yes">APOE</italic> region</article-title>. <source>Alzheimers Dement</source>. <year>2020</year>;<volume>12</volume>:<elocation-id>e12008</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/dad2.12008</pub-id><pub-id pub-id-type="pmcid">PMC7085286</pub-id><pub-id pub-id-type="pmid">32211503</pub-id></mixed-citation></ref><ref id="alz14319-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="alz14319-cit-0038">
+<string-name name-style="western">
+<surname>Kunkle</surname>
+<given-names>BW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grenier‐Boley</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sims</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Genetic meta‐analysis of diagnosed Alzheimer's disease identifies new risk loci and implicates Aβ, tau, immunity and lipid processing</article-title>. <source>Nat Genet</source>. <year>2019</year>;<volume>51</volume>:<fpage>1423</fpage>‐<lpage>1424</lpage>.<pub-id pub-id-type="pmid">31417202</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-019-0495-7</pub-id><pub-id pub-id-type="pmcid">PMC7265117</pub-id></mixed-citation></ref><ref id="alz14319-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="alz14319-cit-0039">
+<string-name name-style="western">
+<surname>Graham</surname>
+<given-names>JW</given-names>
+</string-name>. <article-title>Missing data analysis: making it work in the real world</article-title>. <source>Annu Rev Psychol</source>. <year>2009</year>;<volume>60</volume>:<fpage>549</fpage>‐<lpage>576</lpage>.<pub-id pub-id-type="pmid">18652544</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev.psych.58.110405.085530</pub-id></mixed-citation></ref><ref id="alz14319-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="alz14319-cit-0040">
+<string-name name-style="western">
+<surname>Jakobsen</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gluud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wetterslev</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Winkel</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>When and how should multiple imputation be used for handling missing data in randomised clinical trials—a practical guide with flowcharts</article-title>. <source>BMC Med Res Methodol</source>. <year>2017</year>;<volume>17</volume>:<fpage>162</fpage>.<pub-id pub-id-type="pmid">29207961</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12874-017-0442-1</pub-id><pub-id pub-id-type="pmcid">PMC5717805</pub-id></mixed-citation></ref><ref id="alz14319-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="alz14319-cit-0041">
+<string-name name-style="western">
+<surname>Friedman</surname>
+<given-names>JH</given-names>
+</string-name>. <article-title>Greedy function approximation: a gradient boosting machine</article-title>. <source>Ann Stat</source>. <year>2001</year>;<volume>29</volume>:<fpage>1189</fpage>‐<lpage>1232</lpage>.</mixed-citation></ref><ref id="alz14319-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="alz14319-cit-0042">
+<string-name name-style="western">
+<surname>Arik</surname>
+<given-names>SÖ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pfister</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>TabNet: attentive interpretable tabular learning</article-title>. <source>Proc. Conf. AAAI Artif. Intell</source>. <year>2021</year>;<volume>35</volume>:<fpage>6679</fpage>‐<lpage>6687</lpage>.</mixed-citation></ref><ref id="alz14319-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="alz14319-cit-0043">
+<string-name name-style="western">
+<surname>Borisov</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leemann</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sebler</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Deep neural networks and tabular data: a survey</article-title>. <source>IEEE Trans Neural Netw Learn Syst</source>. <year>2024</year>;<volume>35</volume>. <pub-id pub-id-type="doi">10.1109/TNNLS.2022.3229161</pub-id>
+<pub-id pub-id-type="pmid">37015381</pub-id></mixed-citation></ref><ref id="alz14319-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="alz14319-cit-0044">
+<string-name name-style="western">
+<surname>Vabalas</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hartonen</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vartiainen</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Deep learning‐based prediction of one‐year mortality in Finland is an accurate but unfair aging marker</article-title>. <source>Nature Aging</source>. <year>2024</year>;<volume>4</volume>(<issue>7</issue>):<fpage>1014</fpage>‐<lpage>1027</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s43587-024-00657-5</pub-id>
+<pub-id pub-id-type="pmid">38914859</pub-id>
+<pub-id pub-id-type="pmcid">PMC11257968</pub-id></mixed-citation></ref><ref id="alz14319-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="alz14319-cit-0045">
+<string-name name-style="western">
+<surname>Roca</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Attye</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Colas</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Artificial intelligence to predict clinical disability in patients with multiple sclerosis using FLAIR MRI</article-title>. <source>Diagn Interv Imaging</source>. <year>2020</year>;<volume>101</volume>:<fpage>795</fpage>‐<lpage>802</lpage>.<pub-id pub-id-type="pmid">32651155</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.diii.2020.05.009</pub-id></mixed-citation></ref><ref id="alz14319-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="alz14319-cit-0046">
+<string-name name-style="western">
+<surname>Boldini</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grisoni</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuhn</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Friedrich</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sieber</surname>
+<given-names>SA</given-names>
+</string-name>. <article-title>Practical guidelines for the use of gradient boosting for molecular property prediction</article-title>. <source>J Cheminform</source>. <year>2023</year>;<volume>15</volume>:<fpage>73</fpage>.<pub-id pub-id-type="pmid">37641120</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13321-023-00743-7</pub-id><pub-id pub-id-type="pmcid">PMC10464382</pub-id></mixed-citation></ref><ref id="alz14319-bib-0047"><label>47</label><mixed-citation publication-type="book" id="alz14319-cit-0047">
+<string-name name-style="western">
+<surname>Herwanto</surname>
+<given-names>HW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Handayani</surname>
+<given-names>AN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wibawa</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chandrika</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arai</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>Comparison of min‐max, Z‐score and decimal scaling normalization for zoning feature extraction on Javanese character recognition</article-title>. In: <article-title>
+2021 7th International Conference on Electrical, Electronics and Information Engineering (ICEEIE)
+</article-title>. <publisher-name>IEEE</publisher-name>; <year>2021</year>. doi:<pub-id pub-id-type="doi">10.1109/iceeie52663.2021.9616665</pub-id>
+</mixed-citation></ref><ref id="alz14319-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="alz14319-cit-0048">
+<string-name name-style="western">
+<surname>Yeo</surname>
+<given-names>I‐K</given-names>
+</string-name>. <article-title>A new family of power transformations to improve normality or symmetry</article-title>. <source>Biometrika</source>. <year>2000</year>;<volume>87</volume>:<fpage>954</fpage>‐<lpage>959</lpage>.</mixed-citation></ref><ref id="alz14319-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="alz14319-cit-0049">
+<string-name name-style="western">
+<surname>Ding</surname>
+<given-names>DY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Narasimhan</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tibshirani</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Cooperative learning for multiview analysis</article-title>. <source>Proc Natl Acad Sci</source>. <year>2022</year>;<volume>119</volume>:<elocation-id>e2202113119</elocation-id>.<pub-id pub-id-type="pmid">36095183</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2202113119</pub-id><pub-id pub-id-type="pmcid">PMC9499553</pub-id></mixed-citation></ref><ref id="alz14319-bib-0050"><label>50</label><mixed-citation publication-type="book" id="alz14319-cit-0050">
+<string-name name-style="western">
+<surname>Lundberg</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>S‐I</given-names>
+</string-name>. <article-title>A unified approach to interpreting model predictions</article-title>. In: <article-title>
+NIPS'17: Proceedings of the 31st International Conference on Neural Information Processing Systems
+</article-title>
+<publisher-name>Curran Associates Inc</publisher-name>.; <year>2017</year>:<fpage>4768</fpage>‐<lpage>4777</lpage>. doi:<pub-id pub-id-type="doi">10.48550/ARXIV.1705.07874</pub-id>
+</mixed-citation></ref><ref id="alz14319-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="alz14319-cit-0051">
+<string-name name-style="western">
+<surname>Lundberg</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Erion</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>From local explanations to global understanding with explainable AI for trees</article-title>. <source>Nat Mach Intell</source>. <year>2020</year>;<volume>2</volume>:<fpage>56</fpage>‐<lpage>67</lpage>.<pub-id pub-id-type="pmid">32607472</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42256-019-0138-9</pub-id><pub-id pub-id-type="pmcid">PMC7326367</pub-id></mixed-citation></ref><ref id="alz14319-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="alz14319-cit-0052">
+<string-name name-style="western">
+<surname>Brayne</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moffitt</surname>
+<given-names>TE</given-names>
+</string-name>. <article-title>The limitations of large‐scale volunteer databases to address inequalities and global challenges in health and aging</article-title>. <source>Nat Aging</source>. <year>2022</year>;<volume>2</volume>:<fpage>775</fpage>‐<lpage>783</lpage>.<pub-id pub-id-type="pmid">37118500</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s43587-022-00277-x</pub-id><pub-id pub-id-type="pmcid">PMC10154032</pub-id></mixed-citation></ref><ref id="alz14319-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="alz14319-cit-0053">
+<string-name name-style="western">
+<surname>Niu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Álvarez‐Álvarez</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guillén‐Grima</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aguinaga‐Ontoso</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Prevalence and incidence of Alzheimer's disease in Europe: a meta‐analysis</article-title>. <source>Neurologia</source>. <year>2017</year>;<volume>32</volume>:<fpage>523</fpage>‐<lpage>532</lpage>.<pub-id pub-id-type="pmid">27130306</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.nrl.2016.02.016</pub-id></mixed-citation></ref><ref id="alz14319-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="alz14319-cit-0054">
+<string-name name-style="western">
+<surname>Castellani</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rolston</surname>
+<given-names>RK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>MA</given-names>
+</string-name>. <article-title>Alzheimer disease</article-title>. <source>Dis Mon</source>. <year>2010</year>;<volume>56</volume>:<fpage>484</fpage>‐<lpage>546</lpage>.<pub-id pub-id-type="pmid">20831921</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.disamonth.2010.06.001</pub-id><pub-id pub-id-type="pmcid">PMC2941917</pub-id></mixed-citation></ref><ref id="alz14319-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="alz14319-cit-0055">
+<string-name name-style="western">
+<surname>Kolahchi</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Henkel</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eladawi</surname>
+<given-names>MA</given-names>
+</string-name>, et al. <article-title>Sex and gender differences in Alzheimer's disease: genetic, hormonal, and inflammation impacts</article-title>. <source>Int J Mol Sci</source>. <year>2024</year>;<volume>25</volume>:<fpage>8485</fpage>.<pub-id pub-id-type="pmid">39126053</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms25158485</pub-id><pub-id pub-id-type="pmcid">PMC11313277</pub-id></mixed-citation></ref><ref id="alz14319-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="alz14319-cit-0056">
+<string-name name-style="western">
+<surname>Hale</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mehta</surname>
+<given-names>NK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Myrskylä</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Cognitive impairment in the U.S.: lifetime risk, age at onset, and years impaired</article-title>. <source>SSM Popul Health</source>. <year>2020</year>;<volume>11</volume>:<elocation-id>100577</elocation-id>.<pub-id pub-id-type="pmid">32300635</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ssmph.2020.100577</pub-id><pub-id pub-id-type="pmcid">PMC7153285</pub-id></mixed-citation></ref><ref id="alz14319-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="alz14319-cit-0057">
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>KY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shin</surname>
+<given-names>KY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chang</surname>
+<given-names>K‐A</given-names>
+</string-name>. <article-title>GFAP as a potential biomarker for Alzheimer's disease: a systematic review and meta‐analysis</article-title>. <source>Cells</source>. <year>2023</year>;<volume>12</volume>:<fpage>1309</fpage>.<pub-id pub-id-type="pmid">37174709</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cells12091309</pub-id><pub-id pub-id-type="pmcid">PMC10177296</pub-id></mixed-citation></ref><ref id="alz14319-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="alz14319-cit-0058">
+<string-name name-style="western">
+<surname>Choreño‐Parra</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiménez‐Álvarez</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ramírez‐Martínez</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>CXCL17 is a specific diagnostic biomarker for severe pandemic influenza A(H1N1) that predicts poor clinical outcome</article-title>. <source>Front Immunol</source>. <year>2021</year>;<volume>12</volume>:<elocation-id>633297</elocation-id>.<pub-id pub-id-type="pmid">33717172</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fimmu.2021.633297</pub-id><pub-id pub-id-type="pmcid">PMC7953906</pub-id></mixed-citation></ref><ref id="alz14319-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="alz14319-cit-0059">
+<string-name name-style="western">
+<surname>You</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>Yu</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Yi</given-names>
+</string-name>, et al. <article-title>Plasma proteomic profiles predict individual future health risk</article-title>. <source>Nat Commun</source>. <year>2023</year>;<volume>14</volume>:<fpage>7817</fpage>.<pub-id pub-id-type="pmid">38016990</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-023-43575-7</pub-id><pub-id pub-id-type="pmcid">PMC10684756</pub-id></mixed-citation></ref><ref id="alz14319-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="alz14319-cit-0060">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Graff</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rowland</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Analyses of biomarker traits in diverse UK biobank participants identify associations missed by European‐centric analysis strategies</article-title>. <source>J Hum Genet</source>. <year>2022</year>;<volume>67</volume>:<fpage>87</fpage>‐<lpage>93</lpage>.<pub-id pub-id-type="pmid">34376796</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s10038-021-00968-0</pub-id><pub-id pub-id-type="pmcid">PMC8792153</pub-id></mixed-citation></ref><ref id="alz14319-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="alz14319-cit-0061">
+<string-name name-style="western">
+<surname>Sjaarda</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gerstein</surname>
+<given-names>HC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kutalik</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Influence of genetic ancestry on human serum proteome</article-title>. <source>Am J Hum Genet</source>. <year>2020</year>;<volume>106</volume>:<fpage>303</fpage>‐<lpage>314</lpage>.<pub-id pub-id-type="pmid">32059761</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajhg.2020.01.016</pub-id><pub-id pub-id-type="pmcid">PMC7058828</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

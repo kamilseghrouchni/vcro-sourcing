@@ -1,0 +1,135 @@
+{
+  "nct_id": "NCT04629547",
+  "title": "Sleep Trial to Prevent Alzheimer's Disease",
+  "brief_title": "Sleep Trial to Prevent Alzheimer's Disease",
+  "status": "RECRUITING",
+  "phase": "PHASE2",
+  "study_type": "INTERVENTIONAL",
+  "enrollment": 200,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Sleep",
+    "Alzheimer Disease"
+  ],
+  "keywords": [
+    "poor sleep",
+    "Amyloid-Beta",
+    "Insomnia"
+  ],
+  "sponsor": "Washington University School of Medicine",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "Good Ventures",
+    "Merck Sharp & Dohme LLC"
+  ],
+  "lead_pi": {
+    "name": "Brendan Lucey, MD",
+    "affiliation": "Washington Univeristy School of Medicine"
+  },
+  "start_date": "2022-05-25",
+  "completion_date": "2026-05",
+  "primary_completion_date": "2026-05",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Washington University School of Medicine",
+      "city": "St Louis",
+      "state": "Missouri",
+      "country": "United States",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female.\n* Any race or ethnicity.\n* Participants must be age ≥65 years and able to sign informed consent.\n* Global Clinical Dementia Rating (CDR) 0.\n* Willing and able to undergo study procedures.\n\nExclusion Criteria:\n\n* History of reported symptoms suggestive of restless legs syndrome, narcolepsy or other central disorder of hypersomnolence, or parasomnia\n* STOP-Bang score \\>6 for participants without PAP\n* Untreated OSA with AHI ≥15 on home sleep test\n* Treated sleep apnea with PAP non-compliance\n\n  * PAP compliance is defined as \\>= 4 hours per night \\>70% of the nights\n* Plasma A-beta and tau test with a plasma p-tau 217% ≤ 1.19\n* Stroke.\n* Chronic kidney disease defined as patients with markers of kidney damage or eGFR of \\< 45 ml/min/1.73m2.\n* Hepatic impairment defined as AST and/or ALT \\> 2x upper limit of normal (normal limits AST: 11-47 IU/L, ALT: 6-53 IU/L).\n* HIV/AIDS.\n* History of substance abuse or alcohol abuse in the proceeding 6 months.\n* Regular alcohol consumption 3 or more days a week over the last 6 months. Regular alcohol consumption is defined as having more than 2 alcoholic beverages within 3 hours of bedtime. Participants that agree to reduce alcohol consumption during the study may not be excluded.\n* History of presence of any clinically significant medical condition, behavioral or psychiatric disorder, or surgical history based on medical record or participant report that could affect the safety of the participant or interfere with study assessments or in the judgement of the Principal-Investigator (PI) if participant is not a good candidate.\n* Has any medical condition that, in the PI's opinion, could increase risk to the participant, limit the participant's ability to tolerate the research procedures, or interfere with the collection/analysis of the data. Potential medical conditions that will be exclusionary at the PI's discretion:\n\n  * Cardiovascular disease requiring medication except for controlled hypertension.\n  * Pulmonary disease.\n  * Type I diabetes.\n  * Neurologic or psychiatric disorder requiring medication.\n  * Tobacco use.\n  * Use of sedating medications.\n  * Use of medications that interact with suvorexant (if cannot be discontinued)\n  * Abnormal safety labs\n* History of current suicidal ideations.\n* Currently pregnant or breast-feeding.\n* In the opinion of the PI, the participant should be excluded due to an abnormal physical examination.\n* Must not have participated in any clinical trial involving a study drug or device within the 30-days prior to study enrollment.\n* Must not participate in another drug or device study prior to the end of this study participation.\n\nExclusion criteria for optional lumbar punctures\n\n-• Contraindication to lumbar puncture (anticoagulants; bleeding disorder; allergy to lidocaine or disinfectant; prior central nervous system or lower back surgery).",
+  "eligibility_min_age": "65 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Change from baseline in Amyloid-β accumulation measured by plasma pT217/T217 in participants treated with 20 mg suvorexant compared to placebo",
+      "description": "Blood collection",
+      "timeFrame": "18-24 months"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Change in plasma Amyloid-β compared to placebo",
+      "description": "Blood collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in CSF Amyloid-β compared to placebo",
+      "description": "Cerebrospinal fluid collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in plasma tau compared to placebo",
+      "description": "Blood collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in CSF tau compared to placebo",
+      "description": "Cerebrospinal fluid collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in plasma p-tau compared to placebo",
+      "description": "Blood collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in CSF p-tau compared to placebo",
+      "description": "Cerebrospinal fluid collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in cognitive performance compared to placebo",
+      "description": "Measured by a cognitive composite consisting of the Digit Symbol Substitution Test, Animal Naming, Trails B and the Free and Cued Selective Reminding Test. Each test will be z-scored and then averaged together to make the composite.",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in transcriptomics compared to placebo",
+      "description": "blood and optional CSF collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in metabolomics compared to placebo",
+      "description": "blood and optional CSF collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in proteomics compared to placebo",
+      "description": "blood and optional CSF collection",
+      "timeFrame": "18-24 months"
+    },
+    {
+      "measure": "Change in gut microbiome compared to placebo",
+      "description": "optional stool sample collection",
+      "timeFrame": "18-24 months"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": true,
+  "fda_regulated_device": false,
+  "brief_summary": "The purpose of this study is to determine if treatment with the sleep aid suvorexant can decrease the rate of amyloid-β (Aβ) accumulation in the brain.",
+  "detailed_description": "This study will investigate if long-term treatment with suvorexant will slow amyloid-β accumulation in the brain. Amyloid-β is a protein involved in the disease process leading to Alzheimer's disease. This study will evaluate if suvorexant can decrease the amount of amyloid-beta detected by plasma pT217/T217.",
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Suvorexant 20 mg",
+      "description": "Suvorexant 20mg will be taken nightly for 24 months."
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "Placebo will be taken nightly for 24 months."
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:56.348830+00:00"
+}

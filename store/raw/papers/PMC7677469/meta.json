@@ -1,0 +1,163 @@
+{
+  "pmid": "32928939",
+  "pmc": "PMC7677469",
+  "doi": "10.1136/jnnp-2020-323611",
+  "title": "Untargeted metabolomics yields insight into ALS disease mechanisms",
+  "journal": "Journal of Neurology, Neurosurgery, and Psychiatry",
+  "year": 2020,
+  "authors": [
+    {
+      "name": "Goutman Stephen A",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, Michigan, USA"
+      ]
+    },
+    {
+      "name": "Boss Jonathan",
+      "affiliations": [
+        "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, USA"
+      ]
+    },
+    {
+      "name": "Guo Kai",
+      "affiliations": [
+        "Department of Biomedical Sciences, University of North Dakota, Grand Forks, North Dakota, USA"
+      ]
+    },
+    {
+      "name": "Alakwaa Fadhl M",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, Michigan, USA"
+      ]
+    },
+    {
+      "name": "Patterson Adam",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, Michigan, USA"
+      ]
+    },
+    {
+      "name": "Kim Sehee",
+      "affiliations": [
+        "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, USA"
+      ]
+    },
+    {
+      "name": "Savelieff Masha Georges",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, Michigan, USA"
+      ]
+    },
+    {
+      "name": "Hur Junguk",
+      "affiliations": [
+        "Department of Biomedical Sciences, University of North Dakota, Grand Forks, North Dakota, USA"
+      ]
+    },
+    {
+      "name": "Feldman Eva L",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, Michigan, USA"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National ALS Registry/CDC/ATSDR CDCP-DHHS-USCDC/ATSDR 200-2013-56856",
+    "http://dx.doi.org/10.13039/100000066National Institute of Environmental Health SciencesK23ES027221R01ES030049",
+    "National ALS Registry/CDC/ATSDR1R01TS000289",
+    "NeuroNetwork for Emerging Therapies, University of MichiganNo award number",
+    "National Center for Advancing Translational Sciences at the National Institutes of HealthUL1TR002240"
+  ],
+  "data_availability_text": "",
+  "license": "open-access http://creativecommons.org/licenses/by-nc/4.0/",
+  "received": "2020-04-23",
+  "accepted": "2020-08-06",
+  "reference_pmids": [
+    "28968365",
+    "29478603",
+    "29154141",
+    "30760645",
+    "27159543",
+    "27590138",
+    "20949041",
+    "29247199",
+    "24126629",
+    "17127563",
+    "26494045",
+    "26822316",
+    "18820733",
+    "30926684",
+    "24984169",
+    "20955607",
+    "29099853",
+    "18767354",
+    "21414208",
+    "30723964",
+    "22117131",
+    "31456060",
+    "26883206",
+    "20096678",
+    "15534251",
+    "29165427",
+    "31057691",
+    "12325074",
+    "26056266",
+    "29354030",
+    "31406145",
+    "30060815",
+    "31313064",
+    "29719499",
+    "26508442",
+    "29371440",
+    "25726748",
+    "22932872",
+    "19427829",
+    "31039826",
+    "23797033",
+    "18796312",
+    "24769125",
+    "21530659",
+    "26666663",
+    "31669200",
+    "11465936",
+    "30564498",
+    "30366907",
+    "15791268",
+    "26420856",
+    "17127561"
+  ],
+  "tables_count": 1,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "participants and biosamples",
+    "metabolomic profiling",
+    "descriptive analysis",
+    "partial least squares-discriminant analysis",
+    "group lasso",
+    "metabolism pathway analysis",
+    "metabolites correlation network analysis",
+    "classification prediction analysis using machine learning",
+    "statistical software",
+    "results",
+    "participants",
+    "metabolite profiling",
+    "differential case/control metabolites",
+    "adjusted differential case/control metabolites",
+    "pls-da differential case/control metabolites",
+    "group lasso differential case/control metabolites",
+    "pathway enrichment in case/control",
+    "metabolite correlation analysis in case/control",
+    "classification models for predicting als cases",
+    "discussion",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 7854,
+  "converted_at": "2026-04-06T22:40:03.181749+00:00"
+}

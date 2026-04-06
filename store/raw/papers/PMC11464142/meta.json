@@ -1,0 +1,270 @@
+{
+  "pmid": "38961613",
+  "pmc": "PMC11464142",
+  "doi": "10.1111/acel.14263",
+  "title": "Transcriptomic and metabolomic changes might predict frailty in SAMP8 mice",
+  "journal": "Aging Cell",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Dacomo Letizia",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "La Vitola Pietro",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Brunelli Laura",
+      "affiliations": [
+        "Department of Environmental Health Sciences Laboratory of Metabolites and Proteins in Translational Research, Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Messa Letizia",
+      "affiliations": [
+        "Department of Electronics Information and Bioengineering (DEIB) Politecnico di Milano Milan Italy",
+        "Department of Pediatrics, Center of Functional Genomics and Rare Diseases Buzzi Children's Hospital Milan Italy"
+      ]
+    },
+    {
+      "name": "Micotti Edoardo",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Artioli Luisa",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Sinopoli Elena",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Cecutti Greta",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Leva Susanna",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Gagliardi Stella",
+      "affiliations": [
+        "Molecular Biology and Transcriptomics IRCCS Mondino Foundation Pavia Italy"
+      ]
+    },
+    {
+      "name": "Pansarasa Orietta",
+      "affiliations": [
+        "Cellular Model and Neuroepigenetics IRCCS Mondino Foundation Pavia Italy"
+      ]
+    },
+    {
+      "name": "Carelli Stephana",
+      "affiliations": [
+        "Department of Pediatrics, Center of Functional Genomics and Rare Diseases Buzzi Children's Hospital Milan Italy",
+        "Department of Biomedical and Clinical Sciences, Pediatric Clinical Research Center “Romeo Ed Enrica Invernizzi” University of Milan Milan Italy"
+      ]
+    },
+    {
+      "name": "Guaita Antonio",
+      "affiliations": [
+        "Golgi Cenci Foundation Milan Italy"
+      ]
+    },
+    {
+      "name": "Pastorelli Roberta",
+      "affiliations": [
+        "Department of Environmental Health Sciences Laboratory of Metabolites and Proteins in Translational Research, Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Forloni Gianluigi",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    },
+    {
+      "name": "Cereda Cristina",
+      "affiliations": [
+        "Department of Pediatrics, Center of Functional Genomics and Rare Diseases Buzzi Children's Hospital Milan Italy"
+      ]
+    },
+    {
+      "name": "Balducci Claudia",
+      "affiliations": [
+        "Department of Neuroscience Istituto di Ricerche Farmacologiche Mario Negri IRCCS Milan Italy"
+      ]
+    }
+  ],
+  "keywords": [
+    "aging",
+    "dementia",
+    "frailty",
+    "motor impairment",
+    "neuronal loss",
+    "predictive biomarkers",
+    "senescent SAMP8 mice"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Fondazione Cariplo 10.13039/5011000028032017‐0557"
+  ],
+  "data_availability_text": "DATA AVAILABILITY STATEMENTThe data supporting the findings of this study are available upon reasonable request to the corresponding author.",
+  "license": "",
+  "received": "2024-01-23",
+  "accepted": "2024-06-21",
+  "reference_pmids": [
+    "23859553",
+    "25777514",
+    "11599297",
+    "26946101",
+    "28476525",
+    "32848778",
+    "27283493",
+    "23395245",
+    "37631266",
+    "30619445",
+    "11238492",
+    "26564964",
+    "36998125",
+    "26790541",
+    "23796660",
+    "34066847",
+    "20980063",
+    "28685671",
+    "11253156",
+    "37762170",
+    "34536213",
+    "29504533",
+    "21439270",
+    "37177826",
+    "29788121",
+    "29562529",
+    "25113539",
+    "22869198",
+    "27721908",
+    "27825897",
+    "29926323",
+    "35283085",
+    "30535688",
+    "19400717",
+    "32696999",
+    "35453558",
+    "33502634",
+    "32310176",
+    "32130580",
+    "25516281",
+    "15190254",
+    "36043711",
+    "33352627",
+    "32048954",
+    "28501671",
+    "10690972",
+    "24608097",
+    "31052232",
+    "33466750",
+    "35155500",
+    "33473210",
+    "33584248",
+    "29608780",
+    "30971658",
+    "23850597",
+    "19829367",
+    "30092791",
+    "35605263",
+    "23055043",
+    "28566300",
+    "20425309",
+    "36126192",
+    "30416441",
+    "38587201",
+    "30562162",
+    "32408706",
+    "36483084",
+    "23305823",
+    "36902197",
+    "37967653",
+    "25468154",
+    "25555677",
+    "17101822",
+    "33667416",
+    "22743772",
+    "11427315",
+    "14611864",
+    "30719830",
+    "1944900",
+    "10537019",
+    "32083691",
+    "37052768",
+    "33657391",
+    "21172818",
+    "24495597",
+    "29062274",
+    "25297693",
+    "30663607",
+    "23853042",
+    "30198309",
+    "34933996",
+    "17634319",
+    "23647233",
+    "37846476",
+    "34557778",
+    "22935103",
+    "36529141",
+    "18039130",
+    "32112643"
+  ],
+  "tables_count": 2,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "cognitive dysfunctions in",
+    "motor alterations in",
+    "weight loss is a hallmark of",
+    "functional alterations in",
+    "specific transcriptomic signatures distinguish frail",
+    "plasma metabolomics highlights lipid changes in",
+    "integrated pathways analysis reveals age‐associated molecular signatures in",
+    "discussion",
+    "experimental procedures",
+    "animals",
+    "novel object recognition test",
+    "y‐maze",
+    "beam walking test",
+    "paw grip test",
+    "mri",
+    "",
+    "intracardiac perfusion and brain tissue preparation",
+    "immunohistochemistry",
+    "nissl staining",
+    "image analysis",
+    "bulk",
+    "metabolomic",
+    "author contributions",
+    "conflict of interest statement",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14038,
+  "converted_at": "2026-04-06T22:36:27.422911+00:00"
+}

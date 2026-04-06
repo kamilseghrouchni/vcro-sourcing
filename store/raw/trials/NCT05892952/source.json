@@ -1,0 +1,229 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05892952",
+      "orgStudyIdInfo": {
+        "id": "BrainHealthScotland"
+      },
+      "organization": {
+        "fullName": "Brain Health Scotland Life Sciences Ltd",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "IONA Longitudinal Cohort Study",
+      "officialTitle": "IONA Longitudinal Cohort Study",
+      "acronym": "IONA LCS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-12-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2033-12-21",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2033-12-21",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-05-29",
+      "studyFirstSubmitQcDate": "2023-05-29",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Brain Health Scotland Life Sciences Ltd",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Understanding more about how diseases that cause dementia develop is critical as the number of people living with, or affected by, dementia in Scotland continues to grow. The IONA Longitudinal Cohort Study (LCS) has been set up to gather information about people's cognitive health (their memory and thinking abilities), their lifestyle and health risk factors for future dementia (such as hearing loss and obesity), genetics and disease biomarkers, over a number of years. The IONA LCS has three main objectives: Firstly to develop this cohort that is well characterised (also known as being \"well-phenotyped\") that represent the Scottish population (taking into consideration age, sex, ethnicity and education). The second objective is to use this data to build disease models to better understand trajectories of diseases, and identify any sub-populations who have different (i.e. better, worse) disease trajectories. Finally the third objective for IONA LCS is to offer people an optional consent to hear about future studies they may be interested in taking part in.",
+      "detailedDescription": "IThe IONA Longitudinal Cohort Study (LCS) will provide a well-phenotyped (combining data on risk factors for dementia, cognitive assessment results, disease biomarkers and genetics) population representative of the Scottish population aged 50 and above across the spectrum of risk for, and the earliest disease stages of, AD dementia and other neurodegenerative conditions. Recent therapeutic successes in the treatment of Mild Cognitive Impairment (MCI) due to Alzheimer's disease (AD) and mild AD, as well as progressions in diagnostic tools such as blood-based biomarkers, has energised the field to develop more specific diagnostics and therapies following the best principles of precision medicine. Large, 'real world' cohorts are needed to understand whether these, and other future breakthroughs, are valid in real world populations away from highly selective clinical trials. Precision medicine requires identification of disease sub-populations who share similar diagnostic profiles that reflect similar disease mechanisms and hence are likely to respond consistently to specific therapeutic interventions. This will require detailed clinical, genetic and biological phenotyping. IONA LCS will recruit uniquely in Scotland and will ensure that a large, diverse, real-world population will be available to drive developments globally of more accurate diagnostics and accelerate the development of new disease modifying therapies."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Dementia"
+      ],
+      "keywords": [
+        "cohort study",
+        "Alzheimer Disease",
+        "Dementia"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "10 Years",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Blood samples, Cerobrospinal Fluid samples"
+      },
+      "enrollmentInfo": {
+        "count": 10000,
+        "type": "ESTIMATED"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change over time on the IONACog (a composite neuropsychological battery)",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "(Enhanced Phenotype only) Change over time in cerebrospinal fluid amyloid beta-42",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "(Enhanced Phenotype only) Change over time in cerebrospinal fluid phosphorylated tau 181",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "(Enhanced Phenotype only) Change over time in cerebrospinal fluid total tau",
+          "timeFrame": "10 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change over time in dependency (as measured by the Stern Dependency Scale)",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "Change over time in caregiver burden (as measured by the Zarit Burden Index)",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "Change over time in quality of life (as measured by the QoL-AD)",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "(Enhanced Phenotype only) impact of disclosure of Alzheimer's disease biomarkers as measured by the Impact of Events scale-6.",
+          "timeFrame": "10 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "* Age at least 50 years.\n* Living in Scotland.\n* Able to read and write and with minimum 7 years of formal education.\n* Have a study partner who is aged 18 years or older.\n* Have capacity to provide informed consent at baseline.\n* Able to speak English to a level where the cognitive assessments can be completed.",
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "maximumAge": "120 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The IONA LCS is designed to be inclusive and from within this diverse population smaller sub-populations will be derived. Given the main objective of the programme, the study is open to people over the age of 50 who range from having no symptoms of neurodegenerative disease to those living with a dementia syndrome at the mild stage of illness. All participants will have the capacity to consent to the study at the baseline. Participants who develop moderate-to-severe dementia, and those who lose capacity to provide informed consent during the study, will remain in the study to ensure disease models can capture the full trajectories of these diseases. Recruitment strategies will be designed using the above five sources to ensure all people representative of the Scottish population (ensuring there is representation from different ages, sex, ethnicity, education, socioeconomic status) who are suitable for the IONA LCS are invited to participate.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sarah Gregory, PhD",
+          "role": "CONTACT",
+          "phone": "0131 353 0233",
+          "email": "s.gregory@brainsciences.scot"
+        },
+        {
+          "name": "Joseph Milne",
+          "role": "CONTACT",
+          "email": "j.milne@brainsciences.scot"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Scottish Brain Sciences Arran Facility",
+          "status": "RECRUITING",
+          "city": "Edinburgh",
+          "state": "Lothian",
+          "zip": "EH12 9DQ",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Craig Ritchie, Prof",
+              "role": "CONTACT",
+              "phone": "0131 353 0233",
+              "email": "c.ritchie@brainsciences.scot"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.95206,
+            "lon": -3.19648
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

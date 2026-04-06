@@ -1,0 +1,1241 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz71205" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12933412</article-id><article-id pub-id-type="pmcid-ver">PMC12933412.1</article-id><article-id pub-id-type="pmcaid">12933412</article-id><article-id pub-id-type="pmcaiid">12933412</article-id><article-id pub-id-type="pmid">41738400</article-id><article-id pub-id-type="doi">10.1002/alz.71205</article-id><article-id pub-id-type="publisher-id">ALZ71205</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Choroidal–ventricular system abnormalities are linked to amyloid‐<italic toggle="yes">β</italic> aggregation in Alzheimer's disease</article-title><alt-title alt-title-type="left-running-head">HOSSEINI <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz71205-cr-0001" contrib-type="author"><name name-style="western"><surname>Hosseini</surname><given-names initials="SA">Seyyed Ali</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0002" contrib-type="author"><name name-style="western"><surname>Aumont</surname><given-names initials="E">Etienne</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0003" contrib-type="author"><name name-style="western"><surname>Rahmouni</surname><given-names initials="N">Nesrine</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0004" contrib-type="author"><name name-style="western"><surname>Woo</surname><given-names initials="MS">Marcel S</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="alz71205-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz71205-cr-0005" contrib-type="author"><name name-style="western"><surname>Macedo</surname><given-names initials="AC">Arthur C.</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0006" contrib-type="author"><name name-style="western"><surname>Hall</surname><given-names initials="B">Brandon</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0007" contrib-type="author"><name name-style="western"><surname>Chan</surname><given-names initials="T">Tevy</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0008" contrib-type="author"><name name-style="western"><surname>Therriault</surname><given-names initials="J">Joseph</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0009" contrib-type="author"><name name-style="western"><surname>Trudel</surname><given-names initials="L">Lydia</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0010" contrib-type="author"><name name-style="western"><surname>Zheng</surname><given-names initials="Y">Yansheng</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0011" contrib-type="author"><name name-style="western"><surname>Bezgin</surname><given-names initials="G">Gleb</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0012" contrib-type="author"><name name-style="western"><surname>Lebrun</surname><given-names initials="A">Aurélie</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0013" contrib-type="author"><name name-style="western"><surname>Arias</surname><given-names initials="JF">Jaime Fernandez</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0014" contrib-type="author"><name name-style="western"><surname>Socualaya</surname><given-names initials="KQ">Kely Quispialaya</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0015" contrib-type="author"><name name-style="western"><surname>Tissot</surname><given-names initials="C">Cécile</given-names></name><xref rid="alz71205-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz71205-cr-0016" contrib-type="author"><name name-style="western"><surname>Servaes</surname><given-names initials="S">Stijn</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0017" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="YT">Yi‐Ting</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0018" contrib-type="author"><name name-style="western"><surname>Oliva‐Lopez</surname><given-names initials="D">Delphine</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0019" contrib-type="author"><name name-style="western"><surname>Mitchell</surname><given-names initials="S">Stuart</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0020" contrib-type="author"><name name-style="western"><surname>Hopewell</surname><given-names initials="R">Robert</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0021" contrib-type="author"><name name-style="western"><surname>Hsiao</surname><given-names initials="CHH">Chris Hung‐Hsin</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0022" contrib-type="author"><name name-style="western"><surname>Saleh</surname><given-names initials="C">Catherine</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0023" contrib-type="author"><name name-style="western"><surname>Stevenson</surname><given-names initials="J">Jenna</given-names></name><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0024" contrib-type="author"><name name-style="western"><surname>Lussier</surname><given-names initials="F">Firoza</given-names></name><xref rid="alz71205-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz71205-cr-0025" contrib-type="author"><name name-style="western"><surname>Wu</surname><given-names initials="L">Liyong</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz71205-cr-0026" contrib-type="author"><name name-style="western"><surname>Chu</surname><given-names initials="M">Min</given-names></name><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz71205-cr-0027" contrib-type="author"><name name-style="western"><surname>Chawla</surname><given-names initials="S">Sanjeev</given-names></name><xref rid="alz71205-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="alz71205-cr-0028" contrib-type="author"><name name-style="western"><surname>Fonov</surname><given-names initials="V">Vladimir</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0029" contrib-type="author"><name name-style="western"><surname>Massarweh</surname><given-names initials="G">Gassan</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0030" contrib-type="author"><name name-style="western"><surname>Medina</surname><given-names initials="YI">Yasser Iturria</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0031" contrib-type="author"><name name-style="western"><surname>Soucy</surname><given-names initials="JP">Jean‐Paul</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0032" contrib-type="author"><name name-style="western"><surname>Provost</surname><given-names initials="K">Karine</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0033" contrib-type="author"><name name-style="western"><surname>Rudko</surname><given-names initials="DA">David A.</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0017" ref-type="aff">
+<sup>17</sup>
+</xref></contrib><contrib id="alz71205-cr-0034" contrib-type="author"><name name-style="western"><surname>Karikari</surname><given-names initials="T">Thomas</given-names></name><xref rid="alz71205-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><xref rid="alz71205-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref><xref rid="alz71205-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib><contrib id="alz71205-cr-0035" contrib-type="author"><name name-style="western"><surname>Benedet</surname><given-names initials="AL">Andréa Lessa</given-names></name><xref rid="alz71205-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="alz71205-cr-0036" contrib-type="author"><name name-style="western"><surname>Ashton</surname><given-names initials="NJ">Nicholas J.</given-names></name><xref rid="alz71205-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref><xref rid="alz71205-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref><xref rid="alz71205-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref><xref rid="alz71205-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref></contrib><contrib id="alz71205-cr-0037" contrib-type="author"><name name-style="western"><surname>Zetterberg</surname><given-names initials="H">Henrik</given-names></name><xref rid="alz71205-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref><xref rid="alz71205-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz71205-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz71205-aff-0016" ref-type="aff">
+<sup>16</sup>
+</xref><xref rid="alz71205-aff-0020" ref-type="aff">
+<sup>20</sup>
+</xref><xref rid="alz71205-aff-0021" ref-type="aff">
+<sup>21</sup>
+</xref><xref rid="alz71205-aff-0022" ref-type="aff">
+<sup>22</sup>
+</xref></contrib><contrib id="alz71205-cr-0038" contrib-type="author"><name name-style="western"><surname>Montembeault</surname><given-names initials="M">Maxime</given-names></name><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0039" contrib-type="author"><name name-style="western"><surname>Vitali</surname><given-names initials="P">Paolo</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0040" contrib-type="author"><name name-style="western"><surname>Blennow</surname><given-names initials="K">Kaj</given-names></name><xref rid="alz71205-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref><xref rid="alz71205-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz71205-aff-0018" ref-type="aff">
+<sup>18</sup>
+</xref><xref rid="alz71205-aff-0019" ref-type="aff">
+<sup>19</sup>
+</xref></contrib><contrib id="alz71205-cr-0041" contrib-type="author"><name name-style="western"><surname>Gauthier</surname><given-names initials="S">Serge</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71205-cr-0042" contrib-type="author"><name name-style="western"><surname>Collins</surname><given-names initials="DL">D. Louis</given-names></name><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71205-cr-0043" contrib-type="author"><name name-style="western"><surname>Klostranec</surname><given-names initials="J">Jesse</given-names></name><xref rid="alz71205-aff-0023" ref-type="aff">
+<sup>23</sup>
+</xref></contrib><contrib id="alz71205-cr-0044" contrib-type="author"><name name-style="western"><surname>Pascoal</surname><given-names initials="TA">Tharick A.</given-names></name><xref rid="alz71205-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz71205-cr-0045" contrib-type="author" corresp="yes"><name name-style="western"><surname>Rosa‐Neto</surname><given-names initials="P">Pedro</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9116-1376</contrib-id><xref rid="alz71205-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71205-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71205-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz71205-aff-0024" ref-type="aff">
+<sup>24</sup>
+</xref><address><email>pedro.rosa@mcgill.ca</email></address></contrib></contrib-group><aff id="alz71205-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Translational Neuroimaging Laboratory, McConnell Brain Imaging Centre</named-content>
+<institution>Montreal Neurological Institute Montreal Neurological Institute</institution>
+<institution>McGill University</institution>
+<city>Montreal</city>
+<named-content content-type="country-part">Quebec</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="alz71205-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology and Neurosurgery</named-content>
+<institution>McGill University</institution>
+<city>Montreal</city>
+<named-content content-type="country-part">Quebec</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="alz71205-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">The McGill University Research Center for Studies in Aging</named-content>
+<institution>Douglas Mental Health Institute</institution>
+<city>Montreal</city>
+<named-content content-type="country-part">Quebec</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="alz71205-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Translational Neurodegeneration Laboratory, Department of Neurology</named-content>
+<institution>University Medical Center Hamburg‐Eppendorf</institution>
+<city>Hamburg</city>
+<country country="DE">Germany</country>
+</aff><aff id="alz71205-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>Institute of Neuroimmunology and Multiple Sclerosis, University Medical Center Hamburg‐ Eppendorf</institution>
+<city>Hamburg</city>
+<country country="DE">Germany</country>
+</aff><aff id="alz71205-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<institution>Lawrence Berkeley National Laboratory</institution>
+<city>Berkeley</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71205-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department Psychiatry, School of Medicine</named-content>
+<institution>University of Pittsburgh</institution>
+<city>Pittsburgh</city>
+<named-content content-type="country-part">Pennsylvania</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71205-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Department of Radiology</named-content>
+<institution>Perelman School of Medicine at the University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<named-content content-type="country-part">Pennsylvania</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71205-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Department of Psychiatry and Neurochemistry</named-content>
+<institution>Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg</institution>
+<city>Mölndal</city>
+<country country="SE">Sweden</country>
+</aff><aff id="alz71205-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology, School of Medicine</named-content>
+<institution>University of Pittsburgh</institution>
+<city>Pittsburgh</city>
+<named-content content-type="country-part">Pennsylvania</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71205-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<named-content content-type="organisation-division">Wallenberg Centre for Molecular Medicine</named-content>
+<institution>University of Gothenburg</institution>
+<city>Gothenburg</city>
+<country country="SE">Sweden</country>
+</aff><aff id="alz71205-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">King's College London</named-content>
+<institution>Institute of Psychiatry, Psychology and Neuroscience, Maurice Wohl Institute Clinical Neuroscience Institute</institution>
+<city>London</city>
+<country country="GB">UK</country>
+</aff><aff id="alz71205-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<institution>NIHR Biomedical Research Centre for Mental Health and Biomedical Research Unit for Dementia at South London and Maudsley NHS Foundation</institution>
+<city>London</city>
+<country country="GB">UK</country>
+</aff><aff id="alz71205-aff-0014">
+<label>
+<sup>14</sup>
+</label>
+<named-content content-type="organisation-division">Clinical Neurochemistry Laboratory</named-content>
+<institution>Sahlgrenska University Hospital</institution>
+<city>Mölndal</city>
+<country country="SE">Sweden</country>
+</aff><aff id="alz71205-aff-0015">
+<label>
+<sup>15</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurodegenerative Disease</named-content>
+<institution>UCL Institute of Neurology, Queen Square</institution>
+<city>London</city>
+<country country="GB">UK</country>
+</aff><aff id="alz71205-aff-0016">
+<label>
+<sup>16</sup>
+</label>
+<institution>UK Dementia Research Institute at UCL</institution>
+<city>London</city>
+<country country="GB">UK</country>
+</aff><aff id="alz71205-aff-0017">
+<label>
+<sup>17</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biomedical Engineering</named-content>
+<institution>McGill University</institution>
+<city>Montreal</city>
+<named-content content-type="country-part">Quebec</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="alz71205-aff-0018">
+<label>
+<sup>18</sup>
+</label>
+<institution>Paris Brain Institute, ICM, Pitié‐Salpêtrière Hospital, Sorbonne University</institution>
+<city>Paris</city>
+<country country="FR">France</country>
+</aff><aff id="alz71205-aff-0019">
+<label>
+<sup>19</sup>
+</label>
+<named-content content-type="organisation-division">Neurodegenerative Disorder Research Center, Division of Life Sciences and Medicine, and Department of Neurology</named-content>
+<institution>Institute on Aging and Brain Disorders</institution>
+<institution>University of Science and Technology of China and First Affiliated Hospital of USTC</institution>
+<city>Hefei</city>
+<country country="CN">P.R. China</country>
+</aff><aff id="alz71205-aff-0020">
+<label>
+<sup>20</sup>
+</label>
+<named-content content-type="organisation-division">Hong Kong Center for Neurodegenerative Diseases</named-content>
+<institution>Clear Water Bay</institution>
+<city>Hong Kong</city>
+<country country="CN">China</country>
+</aff><aff id="alz71205-aff-0021">
+<label>
+<sup>21</sup>
+</label>
+<named-content content-type="organisation-division">Wisconsin Alzheimer's Disease Research Center</named-content>
+<institution>University of Wisconsin School of Medicine and Public Health, University of Wisconsin–Madison</institution>
+<city>Madison</city>
+<named-content content-type="country-part">Wisconsin</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71205-aff-0022">
+<label>
+<sup>22</sup>
+</label>
+<named-content content-type="organisation-division">Centre for Brain Research</named-content>
+<institution>Indian Institute of Science</institution>
+<city>Bangalore</city>
+<country country="IN">India</country>
+</aff><aff id="alz71205-aff-0023">
+<label>
+<sup>23</sup>
+</label>
+<named-content content-type="organisation-division">Department of Diagnostic and Interventional Neuroradiology</named-content>
+<institution>Montreal Neurological Institute and Hospital</institution>
+<institution>McGill University</institution>
+<city>Montreal</city>
+<named-content content-type="country-part">Quebec</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="alz71205-aff-0024">
+<label>
+<sup>24</sup>
+</label>
+<named-content content-type="organisation-division">Departments of Neurology and Radiology</named-content>
+<institution>The Peter O'Donnell Jr. Brain Institute (OBI)</institution>
+<institution>University of Texas Southwestern Medical Centre (UTSW)</institution>
+<city>Dallas</city>
+<named-content content-type="country-part">Texas</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Pedro Rosa‐Neto, MD, Ph.D., Translational Neuroimaging Laboratory, The McGill University Research Centre for Studies in Aging, McGill University, Montreal, QC, Canada, 6875 La Salle Blvd ‐ FBC room 3149, Montreal, QC, Canada H4H 1R3.<break/> Email: <email>pedro.rosa@mcgill.ca</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>2</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2026</year></pub-date><volume>22</volume><issue seq="970">2</issue><issue-id pub-id-type="pmc-issue-id">506440</issue-id><issue-id pub-id-type="doi">10.1002/alz.v22.2</issue-id><elocation-id>e71205</elocation-id><history><date date-type="rev-recd"><day>09</day><month>12</month><year>2025</year></date><date date-type="received"><day>11</day><month>9</month><year>2025</year></date><date date-type="accepted"><day>12</day><month>12</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>25</day><month>02</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>26</day><month>02</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-02-26 07:25:12.767"><day>26</day><month>02</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-22-e71205.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-22-e71205.pdf"/><abstract><title>Abstract</title><sec id="alz71205-sec-0010"><title>INTRODUCTION</title><p>Enlargement of the choroidal–ventricular system occurs in aging and Alzheimer's disease (AD), but emerging evidence links these abnormalities to amyloid beta (Aβ) aggregation. We tested this hypothesis by assessing associations between AD pathophysiology and choroidal–ventricular system measures across the AD continuum.</p></sec><sec id="alz71205-sec-0020"><title>METHODS</title><p>Ventricular volume, choroid‐plexus volume, and ventricular radioactivity after positron emission tomography (PET) tracer injections were analyzed in 385 Translational Biomarkers in Aging and Dementia (TRIAD) and 282 Alzheimer's Disease Neuroimaging Initiative (ADNI) participants using linear models and partial correlations. A composite score combining these measures was also tested against established AD biomarkers.</p></sec><sec id="alz71205-sec-0030"><title>RESULTS</title><p>With advancing AD stages, ventricular and choroid‐plexus volumes increased while ventricular radioactivity declined. These measures were interrelated, and abnormalities appeared even in amyloid‐negative elderly. Across cohorts, they correlated with amyloid‐ and tau‐PET, cerebrospinal fluid (CSF) and plasma p‐tau isoforms, glial fibrillary acidic protein (GFAP), and cognition. Voxel‐wise analyses showed strong associations with cortical Aβ, mediating downstream tau effects.</p></sec><sec id="alz71205-sec-0040"><title>DISCUSSION</title><p>Changes in the choroidal–ventricular system are mutually correlated and carry an additive‐effect on cortical Aβ load.</p></sec></abstract><abstract abstract-type="highlights"><title>Highlights</title><p>
+<list list-type="bullet" id="alz71205-list-0001"><list-item><p>The choroidalventricular composite score integrates PET and MRI measures.</p></list-item><list-item><p>Abnormalities in this composite score emerge in aging before clinical Alzheimer's disease onset.</p></list-item><list-item><p>Strong associations with Aβ PET, and biomarkers related to Aβ deposition, namely CSF and plasma p‐tau isoforms and GFAPs.</p></list-item><list-item><p>Links with amyloid burden exceed those with hippocampal atrophy.</p></list-item><list-item><p>The composite score may guide risk stratification and CSF clearance–targeted trials.</p></list-item></list>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz71205-kwd-0001">Alzheimer disease</kwd><kwd id="alz71205-kwd-0002">amyloid‐beta</kwd><kwd id="alz71205-kwd-0003">biomarkers</kwd><kwd id="alz71205-kwd-0004">brain ventricles</kwd><kwd id="alz71205-kwd-0005">cerebrospinal fluid</kwd><kwd id="alz71205-kwd-0006">choroid plexus</kwd><kwd id="alz71205-kwd-0007">cognition disorders</kwd><kwd id="alz71205-kwd-0008">glial fibrillary acidic protein</kwd><kwd id="alz71205-kwd-0009">neurodegenerative diseases</kwd><kwd id="alz71205-kwd-0010">positron‐emission tomography</kwd><kwd id="alz71205-kwd-0011">tau proteins</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>the Weston Brain Institute, Canadian Institutes of Health Research (CIHR)</institution></institution-wrap>
+</funding-source><award-id>MOP‐11‐51‐31</award-id><award-id>RFN 152985</award-id><award-id>159815</award-id><award-id>162303</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Canadian Consortium of Neurodegeneration and Aging (CCNA</institution></institution-wrap>
+</funding-source><award-id>MOP‐11‐51‐31 ‐team 1</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>the Alzheimer's Association</institution></institution-wrap>
+</funding-source><award-id>NIRG‐12‐92090</award-id><award-id>NIRP‐12‐259245</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Brain Canada Foundation</institution><institution-id institution-id-type="doi">10.13039/100009408</institution-id></institution-wrap>
+</funding-source><award-id>CFI Project 34874</award-id><award-id>33397</award-id></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>the Fonds de Recherche du Québec—Santé (FRQS; Chercheur Boursier</institution></institution-wrap>
+</funding-source><award-id>2020‐VICO‐279314</award-id><award-id>2024‐VICO‐356138</award-id></award-group><award-group id="funding-0006"><funding-source>
+<institution-wrap><institution>the Corona Foundation and the Else‐Kröner‐Fresenius Foundation</institution></institution-wrap>
+</funding-source><award-id>2023_EKMS.03</award-id></award-group><award-group id="funding-0007"><funding-source>
+<institution-wrap><institution>the Swedish Research Council</institution></institution-wrap>
+</funding-source><award-id>#2023‐00356</award-id><award-id>#2022‐01018</award-id><award-id>#2019‐02397</award-id></award-group><award-group id="funding-0008"><funding-source>
+<institution-wrap><institution>the European Union's Horizon Europe research and innovation programme</institution></institution-wrap>
+</funding-source><award-id>101053962</award-id></award-group><award-group id="funding-0009"><funding-source>
+<institution-wrap><institution>and Swedish State Support for Clinical Research</institution></institution-wrap>
+</funding-source><award-id>#ALFGBG‐71320</award-id></award-group></funding-group><counts><fig-count count="8"/><table-count count="0"/><page-count count="16"/><word-count count="8308"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.1 mode:remove_FC converted:25.02.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="alz71205-sec-0050"><label>1</label><title>INTRODUCTION</title><p>The choroidal‐ventricular system encompasses a series of structures associated with cerebrospinal fluid (CSF) dynamics, including production and flow. This system plays a critical role in maintaining brain homeostasis by cushioning neural tissue, facilitating metabolic waste clearance, and regulating the chemical environment <xref rid="alz71205-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>. CSF circulates through the ventricular system into the subarachnoid space, where it is subsequently either incorporated into the brain extracellular fluid via perivascular spaces or reabsorbed into the venous system, supporting molecular exchange between the brain and periphery <xref rid="alz71205-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>. Disruptions in the choroidal‐ventricular system can potentially impair waste removal and immune cell trafficking and have been implicated in neurodegenerative processes <xref rid="alz71205-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>. In Alzheimer's disease (AD), the progressive accumulation of amyloid‐beta (Aβ) begins decades before clinical symptoms <xref rid="alz71205-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="alz71205-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>. Emerging evidence suggests that impaired abnormalities in the choroidal‐ventricular system may contribute to Aβ retention, creating a permissive environment for downstream amyloid aggregation <xref rid="alz71205-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="alz71205-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="alz71205-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz71205-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>. More recently, Tijms et al. <xref rid="alz71205-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> used CSF proteomics in AD to define five molecular subtypes with distinct biological pathways and genetic risk profiles. Among them, Subtype 4 (choroid plexus dysfunction) was characterized by protein changes linked to impaired choroid plexus function, including reduced transport, barrier integrity, and CSF production pathways. Genetic associations suggested involvement of variants affecting epithelial and barrier processes. Clinically, this subtype showed structural alterations in the choroid plexus and ventricular system, indicating that CSF clearance and barrier dysfunction may play a key role in disease progression.</p><p>Directly measuring choroidal–ventricular changes in vivo remains challenging, prompting reliance on structural and functional proxies. For example, the choroid plexus (there are, in fact, numerous locations where they can be found) is the primary site of CSF production, and its volume has drawn attention as a potential biomarker of choroidal‐ventricular dysfunction. Their morphological changes, including volumetric enlargement, have been associated with reduced CSF secretion, Aβ42 clearance decline, and cognitive impairment <xref rid="alz71205-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz71205-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz71205-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz71205-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>. Ventricular CSF radioactivity measured with positron emission tomography (PET) has been recently proposed as a surrogate for choroid plexus function <xref rid="alz71205-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>. As there are no binding sites for PET tracers in the cerebrospinal fluid, ventricular radioactivity has been interpreted as the result of transport of tracer from the plasma to the CSF via the choroid plexus <xref rid="alz71205-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>. Finally, ventricular dilation, which is another component of the choroidal–ventricular system, has long been conceptualized as a result of brain neurodegeneration and has also been related to amyloid aggregation <xref rid="alz71205-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="alz71205-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>. Yet, ventricular enlargement also occurs during normal aging and may reflect early compensatory changes in CSF circulation, preceding overt atrophy and clinical symptoms <xref rid="alz71205-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="alz71205-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>. Although these features (choroid plexus volume, ventricular volume, and ventricular radioactivity) are individually associated with AD pathology, each one captures distinct aspects of the choroidal–ventricular clearance system. Indeed, the associations between these choroid–ventricular system abnormalities have never been assessed simultaneously in the same population.</p><p>In an aging population, a substantial variability in the prevalence of the brain choroidal–ventricular system has been reported. To better understand the potential contributions of the choroidal–ventricular clearance system to AD pathological changes, we assessed the associations between distinct segments of the choroidal‐ventricular system as a function of AD pathophysiology. As such, we also devised a composite metric that encompasses ventricular and choroid plexus changes with a PET‐based functional proxy of CSF flow. By combining these three markers together, we aim to derive a better proxy of abnormalities of the choroidal‐ventricular. We hypothesized that the composite score abnormalities might reflect early Aβ aggregation and correlate with clinical, cognitive, CSF, and plasma biomarkers across the AD continuum.</p></sec><sec id="alz71205-sec-0060"><label>2</label><title>MATERIAL AND METHODS</title><sec id="alz71205-sec-0070"><label>2.1</label><title>Participants</title><p>In the current study, we utilized data from the Translational Biomarkers in Aging and Dementia (TRIAD) cohort at McGill University <xref rid="alz71205-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>. Additionally, all analyses were replicated in the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adni.loni.usc.edu/" ext-link-type="uri">https://adni.loni.usc.edu/</ext-link>), including individuals classified as cognitively unimpaired (CU) or cognitively impaired (CI). We included 472 individuals from the TRIAD cohort, comprising 52 young individuals under 25 years of age (CU[Y]) and 267 CU older adults, as well as 59 individuals with mild cognitive impairment (MCI) and 94 individuals with AD dementia, both groups with confirmed amyloid‐positive status. Exclusion criteria included individuals with non‐AD dementias, such as frontotemporal dementia or non‐AD dementia, along with participants not on the AD clinicopathologic continuum. Additionally, we systematically excluded participants with signs of hydrocephalus, defined by an Evans' Index greater than 0.3<xref rid="alz71205-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>. Among the 472 participants, 385 underwent [<sup>18</sup>F]MK6240‐PET imaging, 392 received [<sup>18</sup>F]AZD4694‐PET imaging, and 403 had magnetic resonance imaging (MRI). All individuals included in the group comparisons and voxel‐wise analyses had amyloid, tau‐PET scans, and MRI. Based on these inclusion criteria, the final sample consisted of 385 participants (Supplemental Table <xref rid="alz71205-supinfo-0001" ref-type="">1</xref>).</p><p>The ADNI cohort included 740 participants. Applying the same inclusion criteria as TRIAD and ensuring all participants had amyloid‐PET ([<sup>18</sup>F]AV45) and tau‐PET ([<sup>18</sup>F]AV1451) scans, and MRI studies. The final sample comprised 282 participants (Supplemental Table <xref rid="alz71205-supinfo-0001" ref-type="">2</xref>).</p><p>CU participants included young individuals under 25 years old (CU[Y]) (only in TRIAD) and older adults with a Clinical Dementia Rating (CDR) score of 0, no objective cognitive impairment, and preserved activities of daily living (ADL). CI participants included individuals with MCI or AD dementia, defined by CDR = 0.5 and relatively presented ADL (MCI) or CDR = 1–2 with ADL impairment (AD dementia). Additional cohort details, including inclusion and exclusion criteria, have been previously published for TRIAD <xref rid="alz71205-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> and ADNI [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adni.loni.usc.edu/" ext-link-type="uri">https://adni.loni.usc.edu/</ext-link>].</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz71205-sec-0080"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz71205-list-0002"><list-item><p>
+<bold>Systematic review</bold>: A growing body of literature has proposed that alterations in the brain compartments associated with CSF facilitate Aβ aggregation, due to reduced Aβ clearance. However, such investigations generally tested individual parameters. PubMed and selective conference abstract searching identified few investigations that combined structural, functional, and molecular evaluation of the choroidal–ventricular system.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Using two independent large cohorts, we show that ventricular volume, choroid plexus volume, and ventricular radioactivity after a PET tracer injection are highly intercorrelated and independently associated with brain amyloid‐beta, but not tau load. We also showed that a composite score integrating these measures is strongly associated with amyloid‐PET, CSF and plasma biomarkers (including p‐tau isoforms and GFAP). Importantly, the composite score had stronger associations with amyloid‐beta burden than with hippocampal atrophy, distinguishing early clearance dysfunction from downstream neurodegeneration.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Longitudinal validation, integration into risk models, and application in prevention and treatment trials are needed.</p></list-item></list>
+</p></sec></boxed-text><p>TRIAD participants were consecutively recruited from the community or the McGill Centre for Studies in Aging memory clinic between November 2016 and March 2024. ADNI participants in this study were enrolled from multiple sites across North America between December 2016 and February 2022. The TRIAD study was approved by the Montreal Neurological Institute (MNI) PET Working Committee and the Douglas Mental Health University Institute Research Ethics Board. The ADNI study received approval from the institutional review boards of all participating institutions. All participants provided written informed consent.</p></sec><sec id="alz71205-sec-0090"><label>2.2</label><title>Imaging acquisition and processing</title><sec id="alz71205-sec-0100"><label>2.2.1</label><title>TRIAD</title><p>A high‐resolution 3 Tesla Siemens MAGNETOM MRI scanner with a standard head coil acquired T1‐weighted images via an ultrafast gradient echo 3D sequence (isotropic 1 mm voxels, TR: 2,300 ms, TE: 2.96 ms, FoV: 256 mm, flip angle: 9°). [<sup>18</sup>F]AZD4694 and [<sup>18</sup>F]MK6240‐PET scans were obtained using a high‐resolution brain‐dedicated Siemens High Resolution Research Tomograph. Participants received a radioactive dose activity of 185–260 MBq per scan. Tau‐PET images were acquired 90–110 minutes post‐injection of [<sup>18</sup>F]MK6240, and Aβ‐PET images 40–70 minutes post‐injection of [<sup>18</sup>F]AZD4694. Image reconstruction was performed using a sequential subset expectation‐maximization algorithm. A 6‐minute transmission scan using a rotating <sup>137</sup>Cs point source accounted for motion, dead time, decay, random coincidences, and scatter.</p></sec><sec id="alz71205-sec-0110"><label>2.2.2</label><title>ADNI</title><p>Comprehensive ADNI neuroimaging acquisition and pre‐processing protocols are available online [<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adni.loni.usc.edu/" ext-link-type="uri">https://adni.loni.usc.edu/</ext-link>]. Tau‐PET images were acquired 75–105 minutes post‐injection of [<sup>18</sup>F]AV1451, and Aβ‐PET images 50–70 min post‐injection of [<sup>18</sup>F]AV45.</p></sec></sec><sec id="alz71205-sec-0120"><label>2.3</label><title>Derivation of standardized uptake value ratio</title><sec id="alz71205-sec-0130"><label>2.3.1</label><title>TRIAD</title><p>PET images were registered to their T1‐weighted MRI native space using ANTs (version 2.2.0) before linear and nonlinear transformation into ADNI template space. PET images were smoothed to 8 mm full‐width half‐maximum (FWHM). A meningeal mask was applied to minimize spillover artifacts <xref rid="alz71205-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>. Standardized uptake value ratio (SUVR) for [<sup>18</sup>F]MK6240‐PET was calculated using the inferior cerebellum gray matter as the reference region <xref rid="alz71205-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, while for [<sup>18</sup>F]AZD4694, the entire cerebellum gray matter was used <xref rid="alz71205-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>. The global [<sup>18</sup>F]AZD4694 SUVR composite was derived from the neocortex, encompassing the precuneus, prefrontal, orbitofrontal, parietal, temporal, and cingulate cortices <xref rid="alz71205-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>. The global [<sup>18</sup>F]MK6240 SUVR was obtained from a temporal meta‐region of interest (ROI), which included the entorhinal cortex, amygdala, hippocampus, and the parahippocampal, fusiform, lingual, inferior temporal, and middle temporal gyri <xref rid="alz71205-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>. Aβ positivity was defined as global [<sup>18</sup>F]AZD4694 SUVR &gt; 1.55<xref rid="alz71205-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> and tau positivity was defined as temporal [<sup>18</sup>F]MK6240 SUVR &gt; 1.18<xref rid="alz71205-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>.</p></sec><sec id="alz71205-sec-0140"><label>2.3.2</label><title>ADNI</title><p>Pre‐processed ADNI PET images followed the same processing steps and SUVR derivation protocol as TRIAD. In ADNI, Aβ positivity was defined as global [<sup>18</sup>F]AV45 SUVR &gt; 1.11<xref rid="alz71205-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, and tau positivity was defined as global [<sup>18</sup>F]AV1451 SUVR &gt; 1.35<xref rid="alz71205-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>.</p></sec></sec><sec id="alz71205-sec-0150"><label>2.4</label><title>Biomarkers</title><p>A subset of participants underwent CSF and plasma assessments in both samples as previously described [<xref rid="alz71205-bib-0029" ref-type="bibr">
+<sup>25,29</sup>
+</xref>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://adni.loni.usc.edu/data-samples/clinical-data/" ext-link-type="uri">http://adni.loni.usc.edu/data‐samples/clinical‐data/</ext-link>]. This includes CSF and Plasma Aβ40 and 42, phosphorylated tau (p‐tau)s [181, 217, and 231], glial fibrillary acidic protein (GFAP) and total Tau (t‐tau) in TRIAD. In the TRIAD cohort, plasma Aβ40, Aβ42, p‐tau181, and GFAP were quantified using the Simoa® platform (Quanterix), with plasma p‐tau217 measured by the validated ALZpath assay; CSF Aβ40, Aβ42, p‐tau181, and total tau were measured on the Lumipulse® G platform (Fujirebio), while CSF p‐tau217 and p‐tau231 were assessed using single molecule assay (Simoa) ‐based immunoassays.</p><p>PET‐based Braak staging was assigned using SUVRs extracted from predefined Braak ROIs<xref rid="alz71205-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="alz71205-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>. Thresholds were determined using 2.5 standard deviation (SD) over CU(Y) participants in TRIAD cohort. We used 10 CU(Y) from the TRIAD cohort with [<sup>18</sup>F]AV1451‐PET scan as the reference group for ADNI. The hippocampus was excluded from the Braak I and II ROI due to significant off‐target binding in the choroid plexus <xref rid="alz71205-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>. Participants not following hierarchical Braak staging were excluded.</p></sec><sec id="alz71205-sec-0160"><label>2.5</label><title>Volumetric assessments</title><p>Lateral ventricle volume, choroid plexus volume, hippocampal volume, total gray matter and white matter volume, along with the total intracranial volume (ICV) were extracted from native MRI space using FreeSurfer (version 6.0). Segmentation ensured accurate differentiation between gray matter, white matter, and CSF regions. ICV was used to normalize all extracted brain regions volume.</p></sec><sec id="alz71205-sec-0170"><label>2.6</label><title>Derivation of ventricular radioactivity</title><p>Ventricular radioactivity was quantified from amyloid‐PET imaging using [<sup>18</sup>F]AZD4694 in TRIAD and [<sup>18</sup>F]AV45 in ADNI. After standard preprocessing (motion correction, registration to each subject's T1‐weighted MRI), lateral ventricles were defined as ROIs using subject‐specific FreeSurfer segmentation masks, with the choroid plexus region excluded to minimize non‐specific binding and partial‐volume contamination from adjacent tissue <xref rid="alz71205-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>. The mean SUVR within the ventricular ROI was extracted to represent ventricular radioactivity for each participant. This measure reflects the level of tracer diffusing into the ventricular CSF and is considered a surrogate of CSF clearance efficiency and choroid plexus‐mediated transport.</p></sec><sec id="alz71205-sec-0180"><label>2.7</label><title>Statistical analysis</title><p>One‐way analysis of variance (ANOVA) was conducted in Python using the SciPy library, followed by Tukey's post‐hoc test using the stats model's library, for group comparisons based on A/T stages. Scatter plots included regression lines, p‐values, and Spearman correlation coefficients, and were generated using an in‐house Python code. P‐values were adjusted for multiple comparisons across all regions using the false discovery rate (FDR) method (<italic toggle="yes">q</italic> &lt; 0.05). Voxel‐based linear regression analysed the relationship between the choroidal‐ventricular parameter composite score and PET using MATLAB VoxelStats <xref rid="alz71205-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, adjusting for age, sex, apolipoprotein E4 (APOE4) status, as well as total gray matter volume. Multiple comparisons were corrected using the random field theory method <xref rid="alz71205-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> (<italic toggle="yes">P</italic> &lt; 0.001).</p><p>All extracted brain's regions volumes, including choroid plexus, ventricular volumes, hippocampal volume, total gray matter and white matter volume, were adjusted for ICV using linear regression and residuals were used in all analysis to control for head size variability.</p><p>The composite score was calculated by averaging the <italic toggle="yes">Z</italic> scores of three parameters per subject using the following equation:
+<disp-formula id="alz71205-disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi><mml:mi>u</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mspace width="0.33em"/><mml:mi>v</mml:mi><mml:mi>o</mml:mi><mml:mi>l</mml:mi><mml:mi>u</mml:mi><mml:mi>m</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mi>Z</mml:mi><mml:mo>+</mml:mo><mml:mi>c</mml:mi><mml:mi>h</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:mi>i</mml:mi><mml:mi>d</mml:mi><mml:mspace width="0.33em"/><mml:mi>p</mml:mi><mml:mi>l</mml:mi><mml:mi>e</mml:mi><mml:mi>x</mml:mi><mml:mi>u</mml:mi><mml:mi>s</mml:mi><mml:mspace width="0.33em"/><mml:mi>v</mml:mi><mml:mi>o</mml:mi><mml:mi>l</mml:mi><mml:mi>u</mml:mi><mml:mi>m</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mi>Z</mml:mi><mml:mo>+</mml:mo><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi><mml:mi>u</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mspace width="0.33em"/><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>a</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mi>Z</mml:mi></mml:mrow><mml:mn>3</mml:mn></mml:mfrac></mml:mrow></mml:math>
+</disp-formula>
+</p><p>
+<italic toggle="yes">Z</italic> scores were calculated based on the mean and SD of Young participants normalized in TRIAD and CU A‐T‐ group's mean and SD in ADNI. Ventricular radioactivity values were inverted (by multiplying its <italic toggle="yes">z</italic>‐scored values by −1), as they decrease in the context of AD<xref rid="alz71205-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz71205-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>.</p><p>Smoothed trajectories of biomarker variation across Braak stages were modelled using locally estimated scatterplot smoothing (LOESS) regression. To enable comparison between biomarkers with different scales and units, all biomarker values were standardized (z‐scored across the entire dataset), yielding the “standardized biomarker abnormality” scale shown on the y‐axis. Inflection points in the trajectories were identified within the same LOESS model through visual inspection and verified by computing the first derivative of the fitted curve to locate local maxima and minima, corresponding to the early and later phases of AD.</p></sec></sec><sec id="alz71205-sec-0190"><label>3</label><title>RESULTS</title><p>The final sample included 667 participants, comprising 51 young individuals under 25 years old (CU[Y]), 166 A−T− older adults, 64 A+T−, 5 A−T+, and 99 A+T+ from the TRIAD cohort, as well as 185 A−T− older adults, 66 A+T−, 2 A−T+, and 29 A+T+ from the ADNI cohort. Across both cohorts, 180 participants returned for longitudinal follow‐up, contributing imaging and clinical data spanning up to 6 years. Supplemental Table <xref rid="alz71205-supinfo-0001" ref-type="">1</xref> and <xref rid="alz71205-supinfo-0001" ref-type="">2</xref> summarizes the full demographics of participants from TRIAD and ADNI cohorts included in the current study. We found no significant differences in years of education (<italic toggle="yes">p</italic> = 0.32) or age (<italic toggle="yes">p</italic> = 0.21). MCI and AD participants showed significantly lower Mini‐Mental State Examination (MMSE) (<italic toggle="yes">p</italic> &lt; 0.01) and CSF Aβ42 (<italic toggle="yes">p</italic> &lt; 0.001) and significantly higher phosphorylated tau (p‐tau) (<italic toggle="yes">p</italic> &lt; 0.001).</p><sec id="alz71205-sec-0200"><label>3.1</label><title>The choroidal–ventricular parameters are associated with AD pathophysiological severity</title><p>In TRIAD, our cross‐sectional analysis revealed significant group effects for ventricular volume (<italic toggle="yes">F</italic>(3, 380) = 76.99, <italic toggle="yes">η<sup>2</sup>
+</italic> = 0.40, <italic toggle="yes">p</italic> &lt; 0.001) and choroid plexus volume (<italic toggle="yes">F</italic>(3, 380) = 65.99, <italic toggle="yes">η<sup>2</sup>
+</italic> = 0.37, <italic toggle="yes">p</italic> &lt; 0.001). Compared with CU(Y), A‐T‐ showed larger ventricular volume (+2.17 Z, Cohen's <italic toggle="yes">d</italic> = 1.85, <italic toggle="yes">p</italic> &lt; 0.001) and larger choroid plexus volume (+2.06 Z, <italic toggle="yes">d</italic> = 1.65, <italic toggle="yes">p</italic> &lt; 0.001). A+T‐ exhibited a further increase in ventricular volume relative to A−T− (+0.75 Z, <italic toggle="yes">d</italic> = 0.54, <italic toggle="yes">p</italic> = 0.010) and an increase in choroid plexus volume (+0.89 Z, <italic toggle="yes">d</italic> = 0.43, <italic toggle="yes">p</italic> = 0.04). A+T+ showed an additional increase in ventricular volume over A+T− (+1.25 Z, <italic toggle="yes">d</italic> = 0.66, p &lt; 0.001) and a significant increase in choroid plexus volume (+0.74 Z, <italic toggle="yes">d</italic> = 0.61, <italic toggle="yes">p</italic> = 0.002). For ventricular radioactivity (F(3, 380) = 27.90, <italic toggle="yes">η<sup>2</sup>
+</italic> = 0.20, <italic toggle="yes">p</italic> &lt; 0.001), A‐T‐ had higher values than CU(Y) (+1.51 Z, <italic toggle="yes">d</italic> = 1.23, <italic toggle="yes">p</italic> &lt; 0.001), A+T− was similar to A−T− (<italic toggle="yes">p</italic> = 0.980), and A+T+ had lower values than A+T− (−0.69 Z, <italic toggle="yes">d</italic> = 0.47, <italic toggle="yes">p</italic> = 0.011).</p><p>In ADNI, we also found that significant group effects for ventricular volume (F(2, 282) = 19.70, <italic toggle="yes">η<sup>2</sup>
+</italic> = 0.13, <italic toggle="yes">p</italic> &lt; 0.001) and choroid plexus volume (<italic toggle="yes">F</italic>(2, 282) = 16.92, <italic toggle="yes">η<sup>2</sup>
+</italic> = 0.11, <italic toggle="yes">p</italic> &lt; 0.001). Relative to A−T−, A+T− showed larger ventricular volume (0.81 Z, Cohen's <italic toggle="yes">d</italic> = 0.68, <italic toggle="yes">p</italic> &lt; 0.001) and larger choroid plexus volume (0.50 Z, <italic toggle="yes">d</italic> = 0.48, <italic toggle="yes">p</italic> &lt; 0.001); A+T+ vs A+T− showed a larger ventricular volume (0.65 Z, <italic toggle="yes">d</italic> = 0.59, <italic toggle="yes">p</italic> = 0.01) and larger choroid plexus volume (0.61 Z, <italic toggle="yes">d</italic> = 0.56, <italic toggle="yes">p</italic> = 0.02), and compared with A−T−, A+T+ had markedly larger ventricular volume (1.26 Z, <italic toggle="yes">d</italic> = 1.20, <italic toggle="yes">p</italic> &lt; 0.001) and choroid plexus volume (1.11 Z, <italic toggle="yes">d</italic> = 1.13, <italic toggle="yes">p</italic> &lt; 0.001). For ventricular radioactivity (<italic toggle="yes">F</italic>(2, 282) = 5.00, <italic toggle="yes">η<sup>2</sup>
+</italic> = 0.04, <italic toggle="yes">p</italic> = 0.007), A+T+ was lower than A−T− (−0.61 Z, <italic toggle="yes">d</italic> = 0.62, <italic toggle="yes">p</italic> = 0.007). These choroidal–ventricular group comparisons were observed in both cohorts (Figure <xref rid="alz71205-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="FIGURE" id="alz71205-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>The overall trend of cerebrospinal fluid (CSF) clearance system parameter abnormality across A/T stages. CSF clearance system parameters including choroid plexus volume (CPV_corrected) and ventricular volume (VV_corrected), both corrected for intracranial volume (ICV), and ventricular radioactivity (VR) standardized uptake value ratio (SUVR) were <italic toggle="yes">Z</italic> scored and normalized based on the mean and standard deviation (SD) of Young Translational Biomarkers in Aging and Dementia (TRIAD) or cognitively unimpaired (CU) A−T− Alzheimer's Disease Neuroimaging Initiative (ADNI). CPV_corrected and VV_corrected enlargement and VR SUVR decline started due to aging and further abnormality observed due to Alzheimer's disease (AD) in the presence of amyloid‐beta (Aβ) and tau, in both cohorts.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-22-e71205-g002.jpg"/></fig></sec><sec id="alz71205-sec-0210"><label>3.2</label><title>Choroidal and ventricular volumes, as well as ventricular radioactivity, are associated with protein aggregation</title><p>Our Spearman correlation analysis revealed that all parameters were associated with global Aβ and temporal tau. Ventricular volume and choroid plexus volume correlated with global Aβ SUVR (TRIAD: <italic toggle="yes">ρ</italic> = 0.51 and 0.43; ADNI: <italic toggle="yes">ρ</italic> = 0.31 and 0.24; all <italic toggle="yes">p</italic> &lt; 0.001). Ventricular radioactivity exhibited a negative correlation in TRIAD (<italic toggle="yes">ρ</italic> = −0.21; <italic toggle="yes">p</italic> &lt; 0.001) but not in ADNI (<italic toggle="yes">ρ</italic> = 0.07; <italic toggle="yes">p</italic> = 0.20). Correlations with temporal tau were generally weaker than with Aβ but remained significant for most parameters in both cohorts (Supplementary Figure <xref rid="alz71205-supinfo-0001" ref-type="">1</xref>).</p></sec><sec id="alz71205-sec-0220"><label>3.3</label><title>Choroidal and ventricular volumes, as well as ventricular radioactivity, are correlated</title><p>The three CSF‐related ventricular parameters were interrelated, with overall correlations of 0.58 in TRIAD and 0.36 in ADNI (both <italic toggle="yes">p</italic> &lt; 0.001). Pairwise comparisons further confirmed intercorrelations among all measures. These relationships are visualized in three‐dimensional plots (Figure <xref rid="alz71205-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="FIGURE" id="alz71205-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>The choroidal–ventricular parameters exhibited strong inter‐correlations with one another. Choroid plexus volume (CPV_corrected), ventricular volume (VV_corrected), and ventricular radioactivity (VR) standardized uptake value ratio (SUVR) were highly correlated with each other. Additionally, they showed strong inter‐correlations, with an overall correlation of <italic toggle="yes">β</italic> = 0.58 (<italic toggle="yes">p</italic> &lt; 0.001) in Translational Biomarkers in Aging and Dementia (TRIAD) and <italic toggle="yes">β</italic> = 0.36 (<italic toggle="yes">p</italic> &lt; 0.001) in Alzheimer's Disease Neuroimaging Initiative (ADNI). In this figure, due to the overall decline in VR, we reversed it for better visualization.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-22-e71205-g008.jpg"/></fig></sec><sec id="alz71205-sec-0230"><label>3.4</label><title>The choroidal–ventricular parameter composite score is strongly associated with AD pathophysiology</title><p>We observed marked abnormalities in the choroidal–ventricular parameter composite score across A/T stages in both cohorts. The composite score was correlated with global Aβ SUVR (TRIAD: <italic toggle="yes">ρ</italic> = 0.55; ADNI: <italic toggle="yes">ρ</italic> = 0.38), showing stronger associations than any individual parameter (Figure <xref rid="alz71205-fig-0003" ref-type="fig">3</xref>). Notably, the composite score remained associated (<italic toggle="yes">ρ</italic> = 0.23, <italic toggle="yes">p</italic> = 0.003) with Aβ load across all A/T groups, particularly in the A−T− group in TRIAD (representing normal elderly group) and in the A+T− group in ADNI (<italic toggle="yes">ρ</italic> = 0.43, <italic toggle="yes">p</italic> = 0.009) after multiple‐comparison correction.</p><fig position="float" fig-type="FIGURE" id="alz71205-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>The choroidal–ventricular parameter composite score is strongly related to Alzheimer's disease (AD) pathophysiology. The choroidal–ventricular parameter composite score showed abnormality with aging and further alterations in AD across both cohorts with one‐way analysis of variance (ANOVA). "*", "**", and "***" represent Tukey post‐hoc tests following ANOVA for pairwise comparisons p‐values in the following ranges: 0.05 to 0.01, 0.01 to 0.001, and less than 0.001, respectively (A&amp;D). Additionally, scatter plots show the relationship between the composite score and neocortical amyloid‐beta (Aβ) standardized uptake value ratio (SUVR) in the Translational Biomarkers in Aging and Dementia (TRIAD) cohort (B) and Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort (E), stratified by biomarker‐defined groups: CU(Y) = cognitively normal young controls (green), A−T− (brown), A+T− (blue), and A+T+ (pink). Regression lines and Spearman correlation coefficients (r) with corresponding p‐values are displayed for each group. Spearman correlation <italic toggle="yes">p</italic>‐values were adjusted for multiple comparisons using the Benjamini–Hochberg false discovery rate (FDR) method, with <italic toggle="yes">q</italic> &lt; 0.05 considered statistically significant. Point color intensity represents temporal tau SUVR, indicating higher tau burden in individuals with elevated choroidal–ventricular parameter composite scores and Aβ load. The composite score demonstrated strong positive associations with neocortical Aβ in preclinical and symptomatic A−T− groups, while no significant association was observed in CU(Y) individuals. Distinct patterns of association between the composite score and hippocampal volume (intracracial volume [ICV] ‐corrected) were observed across A/T stages (C&amp;F), with no correlation in the A–T− group in TRIAD and no correlations across A/T stages in ADNI.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-22-e71205-g001.jpg"/></fig><p>To distinguish ventricular dilation driven by neurodegeneration from that associated with remodeling not linked to neuronal loss, we examined the associations between the composite score and hippocampal volume (ICV‐corrected) as a marker of neurodegeneration and observed a distinct pattern of association across A/T stages. We found no correlation in the A‐T‐ group in TRIAD and no correlation across A/T stages in ADNI (Figure <xref rid="alz71205-fig-0003" ref-type="fig">3C&amp;F</xref>). Although hippocampal atrophy was evident across A/T stages in both cohorts, its association with Aβ SUVR was restricted to the A+T+ group in TRIAD (<italic toggle="yes">ρ</italic> = −0.36, <italic toggle="yes">p</italic> &lt; 0.001) and was not significant in ADNI after multiple‐comparison correction (Supplementary Figure <xref rid="alz71205-supinfo-0001" ref-type="">2</xref>).</p><p>To further examine the dynamic evolution of these alterations, we calculated the annualized change in the choroidal‐ventricular composite score (ΔComposite/year) across A/T stages in the combined TRIAD + ADNI dataset. Among 667 participants, 180 returned for longitudinal follow‐up with imaging data spanning up to 6 years. This analysis revealed a significant stepwise increase in ΔComposite/year from A−T− to A+T− (<italic toggle="yes">p</italic> &lt; 0.01) and from A+T− to A+T+ (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="alz71205-fig-0004" ref-type="fig">4</xref>).</p><fig position="float" fig-type="FIGURE" id="alz71205-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>The choroidal–ventricular alterations evolve dynamically along the Alzheimer's disease (AD) continuum. The annualized change in the choroidal‐ventricular composite score (ΔComposite/year) across A/T stages in the combined Translational Biomarkers in Aging and Dementia plus Alzheimer's Disease Neuroimaging Initiative (TRIAD + ADNI) dataset increased stepwise from A−T− to A+T– and from A+T− to A+T+, indicating progressive choroidal‐ventricular remodeling along the AD continuum. "*", "**", and "***" represent Tukey post‐hoc tests following analysis of variance (ANOVA) for pairwise comparisons <italic toggle="yes">p</italic>‐values in the following ranges: 0.05 to 0.01, 0.01 to 0.001, and less than 0.001, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-22-e71205-g004.jpg"/></fig></sec><sec id="alz71205-sec-0240"><label>3.5</label><title>The choroidal–ventricular parameter composite score abnormalities are present in amyloid‐negative individuals</title><p>LOESS analysis revealed that abnormalities in the choroidal–ventricular parameter composite score emerged earlier than declines in CSF Aβ42 and increases in Aβ‐PET SUVR. Two distinct inflection points were observed. The first occurred during normal aging (Braak 0), simultaneously occurring in the gray and white matter (before neurodegeneration caused by tauopathy, up to Braak 3), and coincided with the initial accumulation of Aβ. The second occurred in association with tau pathology (from Braak 3 and over), marking the onset of tau‐related neurodegeneration. At this stage, total white matter volume changes plateaued (similar to Aβ), while gray matter atrophy became more pronounced. Similar trajectories were observed across Braak stages in both cohorts (Figure <xref rid="alz71205-fig-0005" ref-type="fig">5</xref>).</p><fig position="float" fig-type="FIGURE" id="alz71205-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>The choroidal–ventricular parameter composite score is an early change contributing to protein aggregation. In this conceptual framework, the x‐axis represents Braak stage rather than time. Unlike other Alzheimer's disease (AD) biomarker models, it does not depict a linear temporal progression of the disease. Instead, it illustrates various pathophysiological changes in relation to the spatial distribution of tau pathology as measured by tau‐positron emission tomography (PET). The y‐axis represents biomarker values standardized (<italic toggle="yes">z</italic>‐scored) across all participants to enable comparison between biomarkers. Inflection points were identified within the same locally estimated scatterplot smoothing (LOESS) fit and confirmed by local extrema of the first derivative. It is evident from this figure that the choroidal‐ventricular parameter composite score abnormality preceded cerebrospinal fluid (CSF) amyloid‐beta (Aβ) 42 decline as a marker of protein aggregation, and they are followed by Aβ‐PET standardized uptake value ratio (SUVR) abnormality.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ALZ-22-e71205-g005.jpg"/></fig></sec><sec id="alz71205-sec-0250"><label>3.6</label><title>The choroidal–ventricular parameter composite score associates with brain amyloid aggregates</title><p>Voxel‐wise linear modelling revealed that the choroidal–ventricular parameter composite score was significantly associated with Aβ load across widespread cortical regions. In this analysis we included gray matter volume as an additional key marker of neurodegeneration in AD to distinguish ventricular dilation driven by neurodegeneration from that arising through other mechanisms. In contrast, the association between the choroidal‐ventricular parameter composite score and tau load was not direct; instead, the effect was largely carried by Aβ, indicating a mediation pathway where amyloid burden drives the link between ventricular alterations and tau deposition. These patterns were highly consistent across both cohorts (Figure <xref rid="alz71205-fig-0006" ref-type="fig">6</xref>).</p><fig position="float" fig-type="FIGURE" id="alz71205-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>The choroidal–ventricular parameter composite score is associated with protein aggregation; however, amyloid‐beta (Aβ) carries the effect of it on tau. Voxel‐wise linear analysis for the older adult groups (65 years old and over, <italic toggle="yes">N</italic> = 265 in Translational Biomarkers in Aging and Dementia (TRIAD) and <italic toggle="yes">N</italic> = 244), false discovery rate (FDR)‐corrected for multiple comparisons at <italic toggle="yes">P</italic> &lt; 0.001, visualized as T‐statistical parametric maps, and overlaid on a structural template indicated significant association of the composite score and Aβ‐positron emission tomography (PET) over the cortex. Additionally, its association with tau‐PET was significantly mediated by Aβ over the cortex. * Covariates: age, sex, apolipoprotein E4 (APOE4), gray matter volume.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ALZ-22-e71205-g007.jpg"/></fig></sec><sec id="alz71205-sec-0260"><label>3.7</label><title>The choroidal–ventricular parameter composite score is associated with AD markers</title><p>We finally examined correlations between the choroidal–ventricular parameter composite score and a wide range of AD‐related biomarkers, as well as memory and cognitive measures. As shown in Figure <xref rid="alz71205-fig-0007" ref-type="fig">7</xref> (TRIAD) and Figure <xref rid="alz71205-fig-0008" ref-type="fig">8</xref> (ADNI), the composite score was significantly associated with nearly all AD biomarkers, including CSF Aβ42 (but not Aβ40), the CSF Aβ42/40 ratio, multiple CSF and plasma p‐tau isoforms (181, 217, 231), CSF and plasma GFAP, and CSF t‐tau. Strong associations were also observed with global cognitive and memory performance, including the MMSE, Montreal Cognitive Assessment (MoCA), CDR‐Sum of Boxes (CDR‐SOB), and their respective sub‐domains.</p><fig position="float" fig-type="FIGURE" id="alz71205-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>Almost all cerebrospinal fluid (CSF) and plasma biomarkers in Alzheimer's disease (AD) are correlated with the choroidal‐ventricular parameter score and showed the same trends (Translational Biomarkers in Aging and Dementia [TRIAD]). Scatterplots show correlations between the choroidal–ventricular composite score and:(A) CSF amyloid‐beta (Aβ) 40, (B) CSF Aβ42, (C) CSF Aβ42/40 ratio, (D) CSF total tau, (E) CSF p‐tau181, (F) plasma p‐tau181, (G) CSF p‐tau217, (H) plasma p‐tau217, (I) CSF p‐tau231, (J) plasma p‐tau231, (K) CSF glial fibrillary acidic protein (GFAP), and (L) plasma GFAP. Point colour indicates neocortical Aβ standardized uptake value ratio (SUVR; blue = lower, red = higher). Shaded areas represent 95% confidence intervals. CSF and plasma p‐taus (181, 217, 231) as sensitive and early marker of protein aggregation, GFAP as marker of astrocyte activation, and Aβ42 as marker of Aβ aggregation were all significantly correlated with the choroidal–ventricular parameter composite score.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ALZ-22-e71205-g006.jpg"/></fig><fig position="float" fig-type="FIGURE" id="alz71205-fig-0008" orientation="portrait"><label>FIGURE 8</label><caption><p>Almost all memory and cognitive scores are correlated with the choroidal‐ventricular parameter composite score and showed the same trends (Alzheimer's Disease Neuroimaging Initiative [ADNI]). Associations between the choroidal–ventricular parameter composite score and (A) cerebrospinal fluid (CSF) amyloid‐beta (Aβ) 40, (B) CSF Aβ42, (C) Clinical Dementia Rating–Sum of Boxes (CDR‐SOB), (D) Mini‐Mental State Examination (MMSE), (E) Montreal Cognitive Assessment (MoCA), (F) Rey Auditory Verbal Learning Test (RAVLT) immediate recall, (G) RAVLT learning, and (H) Everyday Cognition–Study Partner (Ecog‐SP) total score, with point colour indicating neocortical Aβ standardized uptake value ratio (SUVR; blue = lower, red = higher). Different memory and cognitive scores, including MMSE that assesses global cognitive function, MoCA as an early cognitive impairment marker, and CDR‐SOB which measures dementia severity by evaluating functional and cognitive decline across multiple domains, were significantly correlated with the composite score.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="ALZ-22-e71205-g003.jpg"/></fig></sec></sec><sec id="alz71205-sec-0270"><label>4</label><title>DISCUSSION</title><p>We found that larger choroid plexus volume, greater ventricular volume, and reduced ventricular radioactivity after PET tracer injection were associated with early AD pathophysiology, particularly brain amyloidosis. These choroidal–ventricular metrics are mutually correlated and carry an additive effect on predicting cortical Aβ load. Our choroidal–ventricular score, combining these parameters, provided a better correlation with Aβ load as compared to its individual parts. Overall, these findings support our hypothesis that choroidal–ventricular function is also associated with brain amyloidosis in AD.</p><p>Our choroidal–ventricular parameter composite score is possibly influenced by multiple pathways, including CSF choroid plexus secretion, CSF ventricular circulation, perivascular exchange, and CSF absorption via both glymphatic and venous routes <xref rid="alz71205-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>. It has been proposed that the disruption of this system compromises metabolic waste removal and is increasingly recognized as a pathogenic process in neurodegenerative diseases, particularly AD <xref rid="alz71205-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz71205-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>. One of AD's defining features is the gradual extracellular accumulation of Aβ, which can precede clinical symptoms by decades and may create an environment that fosters tau aggregation and subsequent neurodegeneration <xref rid="alz71205-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref>, <xref rid="alz71205-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>. Unravelling the early pathophysiological changes that facilitate this cascade is therefore crucial for devising novel therapeutic strategies.</p><p>In the present study, we introduce a novel composite metric integrating the choroid plexus volume, ventricular volume, and ventricular radioactivity as a PET‐derived proxy of CSF dynamics and choroid plexus function. The multi‐dimensional metric revealed stronger associations with global Aβ‐ and tau‐PET SUVR than any individual parameter, suggesting that it captures a broader spectrum of clearance impairment. The emergence of abnormalities in the composite score in amyloid‐negative individuals indicates an early relationship with AD pathophysiology, voxel‐wise analysis revealed a strong cortical association with Aβ. In contrast, its link to tau was largely mediated by Aβ, indicating a hierarchical effect where impaired clearance first facilitates amyloid accumulation, which then promotes tau pathology. By contrast, hippocampal atrophy, a signature neurodegeneration, did not predict early Aβ changes. Correlations with plasma and CSF biomarkers (e.g., p‐tau isoforms, GFAP) and cognition highlight the systemic impact of impaired CSF clearance across all disease stages.</p><p>Choroid plexus is the primary site of CSF production and a key regulator of brain–periphery exchanges. Structural changes in choroid plexus have been noted across the AD continuum and could be associated with reduced CSF production and secretion, altered transporter function, and impaired barrier integrity <xref rid="alz71205-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz71205-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>. These alterations may compromise the removal of soluble Aβ from the interstitial fluid, thereby fostering its extracellular accumulation <xref rid="alz71205-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz71205-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, <xref rid="alz71205-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>. A growing body of evidence suggests that choroid plexus enlargement is associated with higher cortical Aβ load, lower CSF Aβ42 as well as poorer memory and executive function performance <xref rid="alz71205-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="alz71205-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>, <xref rid="alz71205-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>, <xref rid="alz71205-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>. Inflammatory remodeling of the choroid plexus epithelium and disruption of perivascular exchange could create a favorable environment for early protein accumulation <xref rid="alz71205-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="alz71205-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>, placing choroid plexus morphometry as both a biomarker and a potential mediator of impaired clearance in AD.</p><p>PET‐derived ventricular radioactivity has recently been introduced as a proxy of choroid plexus function through its link with CSF production. As the ventricular CSF lacks specific binding sites for Aβ or tau ligands, signal intensity following tracer injection reflects tracer transport from plasma into CSF mainly through the choroid plexus, rather than any type of specific, non‐specific, or off‐target bindings <xref rid="alz71205-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz71205-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>. It has been proposed that reduced ventricular radioactivity reflects compromised choroid plexus function, impaired CSF clearance, increased Aβ brain load, and poorer memory and executive function performance in AD as compared to a same aged healthy adults’ group <xref rid="alz71205-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz71205-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>. These associations corroborate a framework in which diminished ventricular radioactivity signals impaired CSF production and ultimately decrease brain CSF parenchymal flux in the glymphatic system, facilitating extracellular Aβ accumulation <xref rid="alz71205-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref>. It is noteworthy that the decline in tracer concentrations in the ventricle occurs despite a significant increase in the cortex, highlighting the opposite direction of tracer concentrations in different brain compartments.</p><p>Ventricular enlargement has been associated with disease progression and higher Aβ accumulation in AD <xref rid="alz71205-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref>. Ventricular enlargement may contribute to altered CSF hydrodynamics by reducing pulsatile flow amplitude, changing ependymal surface contact with CSF, and prolonging the residence time of solutes in the brain parenchyma <xref rid="alz71205-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>, <xref rid="alz71205-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref>. This alteration by causing perturbation in the bulk of CSF flow, contribute to impaired clearance of soluble Aβ and promote its aggregation into fibrillar plaques. Additionally, recent studies pointed toward a notion that periventricular white matter changes associated with ventricular expansion may cause astrocyte activation and further impaired Aβ clearance by disruption in the glymphatic system pathways <xref rid="alz71205-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="alz71205-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>.</p><p>In this study, we aimed to expand on these findings by showing that these components, though individually informative, are interdependent and collectively provide a more powerful indicator of clearance dysfunction. This supports a conceptual model where structural and functional CSF changes occur upstream of overt neurodegeneration, influencing Aβ kinetics before cognitive impairment manifests.</p><p>We reported that these parameters are strongly intercorrelated, reflecting their shared role in CSF clearance. They were also correlated with global Aβ and temporal tau SUVR, revealing their impact on Aβ aggregation. The composite score outperformed individual parameters in predicting both Aβ and tau SUVR, suggesting its ability to provide a more comprehensive measure of CSF clearance dysfunction. One could argue that choroidal‐ventricular dysfunction precedes Aβ deposition, as abnormality in our composite score is already present in A−/T− individuals.</p><p>Using linear regression voxel wise we found a high association between choroidal‐ventricular parameter composite score and Aβ‐PET and tau‐PET over the cortex, however, the Aβ carried the impact of the composite score on tau. As in normal AD, the Aβ aggregation in extra‐cellular space (where the CSF clearance operates) may contribute to higher accumulation of tau in the neocortex (inside the neurones) <xref rid="alz71205-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>. These findings suggest that impaired CSF clearance not only contributes to Aβ accumulation but indirectly creates an environment conducive to tau deposition and neurodegeneration, further accelerating AD progression.</p><p>We found that biomarkers related to Aβ deposition, namely CSF and plasma p‐tau isoforms (181, 217, 231), GFAPs, memory and cognitive scores, were correlated with the choroidal–ventricular parameter composite score, highlighting the superiority of this composite score over other individual parameters, particularly in early‐onset cases. Furthermore, the significant correlation between CSF and plasma Aβ biomarkers with the composite score further supports the role of the CSF clearance system in regulating extracellular waste removal and CSF transition into the bloodstream <xref rid="alz71205-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>.</p><p>In line with these cross‐sectional associations, our longitudinal analysis further demonstrated that alterations in the choroidal–ventricular composite score evolve dynamically with AD progression. Specifically, the annualized change in the composite score (ΔComposite/year) increased stepwise across A/T stages in the combined TRIAD + ADNI dataset. This finding supports the notion that choroidal–ventricular dysfunction is not merely a static marker of existing pathology but reflects an active, progressive process that parallels amyloid and tau aggregation over time.</p><p>Our findings align with the emerging view that impaired clearance is not merely a downstream consequence of neurodegeneration, but an active factor in AD pathogenesis. Reduced CSF turnover delays the clearance of soluble Aβ and promotes plaque formation, neuroinflammatory processes <xref rid="alz71205-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref>, <xref rid="alz71205-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>. The composite score introduced here encompasses multiple aspects of clearance physiology without requiring advanced dynamic imaging techniques. Its early deviation from normative values makes it potentially useful to identify individuals at risk for prevention trials, especially prevention trials of glymphatic or CSF‐mediated clearance mechanisms.</p><p>Disturbances in CSF and glymphatic clearance extend beyond Alzheimer's disease to diverse neurological and psychiatric disorders. Impaired brain fluid drainage after traumatic brain injury<xref rid="alz71205-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>, choroid plexus enlargement and barrier dysfunction in major depressive disorder<xref rid="alz71205-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref>, <xref rid="alz71205-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref>, and reduced glymphatic flow in Parkinson's disease<xref rid="alz71205-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref> collectively implicate the blood–CSF–brain interface<xref rid="alz71205-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref> as a shared pathway linking inflammation, impaired clearance, and neurodegeneration across brain disorders.</p><p>From a therapeutic perspective, interventions aimed at restoring CSF dynamics (whether through pharmacologic modulation of choroid plexus function, enhancement of glymphatic flow, or devices promoting CSF circulation) could benefit from incorporating this composite metric as a monitoring tool. Moreover, this biomarker may improve patient stratification in clinical trials by identifying subgroups most likely to benefit from clearance‐based interventions.</p></sec><sec id="alz71205-sec-0280"><label>5</label><title>LIMITATIONS AND FUTURE DIRECTIONS</title><p>Future studies should supplement our results in several ways. First, while ventricular radioactivity is an intermediate of CSF flow, it does not capture real‐time clearance kinetics. More sophisticated imaging modalities such as dynamic PET‐ or MRI‐based CSF flow mapping may supplement our approach. Second, the TRIAD and ADNI cohorts, though large and well‐characterized, do not fully represent global population diversity, warranting validation in multi‐ethnic cohorts. Third, our exclusion of individuals with major comorbidities limits generalizability to real‐world clinical populations, where mixed pathologies are common.</p><p>Future research should also address mechanistic questions: How do vascular health, glymphatic integrity, and sleep disturbances (factors known to affect clearance) interact with these ventricular parameters? Can interventions be targeting systemic clearance (e.g., via peripheral sinks or anti‐inflammatory strategies) influence composite score trajectories? Answers to these questions could broaden the role of clearance‐based biomarkers in personalized treatment strategies. Another limitation is that choroid plexus segmentation was performed using FreeSurfer, which may show intersubject variability. In future studies, we will adopt deep‐learning–based segmentation methods that provide greater precision and reproducibility, potentially improving sensitivity<xref rid="alz71205-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref>.</p></sec><sec id="alz71205-sec-0290"><label>6</label><title>CONCLUSION</title><p>The choroidal–ventricular segments and composite score introduced here are associated with early and late disease pathophysiology, bridging structural and functional imaging measures. By identifying abnormalities that precede hallmark protein aggregation and clinical symptoms, one provides a promising tool for early detection, mechanistic research, and therapeutic monitoring in AD.</p></sec><sec sec-type="COI-statement" id="alz71205-sec-0310"><title>CONFLICT OF INTEREST STATEMENT</title><p>Henrik Zetterberg has served at scientific advisory boards and/or as a consultant for Abbvie, Acumen, Alector, Alzinova, ALZpath, Amylyx, Annexon, Apellis, Artery Therapeutics, AZTherapies, Cognito Therapeutics, CogRx, Denali, Eisai, Enigma, LabCorp, Merck Sharp &amp; Dohme, Merry Life, Nervgen, Novo Nordisk, Optoceutics, Passage Bio, Pinteon Therapeutics, Prothena, Quanterix, Red Abbey Labs, reMYND, Roche, Samumed, ScandiBio Therapeutics AB, Siemens Healthineers, Triplet Therapeutics, and Wave. He has given lectures sponsored by Alzecure, BioArctic, Biogen, Cellectricon, Fujirebio, LabCorp, Lilly, Novo Nordisk, Oy Medix Biochemica AB, Roche, and WebMD. He is a co‐founder of Brain Biomarker Solutions in Gothenburg AB (BBS), which is part of the GU Ventures Incubator Program, and a shareholder of CERimmune Therapeutics (all outside the submitted work). Marcel S. Woo receives honoraria from Lilly and Eisai outside the scope of this manuscript. Karine Provost serves as consultant for Eli Lilly, Biospective, and Optina Diagnostics. All other authors declare no competing interests.</p></sec><sec id="alz71205-sec-0340"><title>CONSENT STATEMENT</title><p>All participants provided written informed consent.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz71205-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz71205-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71205-s004.docx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz71205-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71205-s003.docx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz71205-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71205-s002.docx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz71205-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71205-s005.docx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz71205-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71205-s001.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz71205-sec-0300"><title>ACKNOWLEDGMENTS</title><p>A special acknowledgment goes to the participants and their families who contributed to this research, as well as to the TRIAD cohort for providing the data that made this study possible. This research is supported by the Weston Brain Institute, Canadian Institutes of Health Research (CIHR) [MOP‐11‐51‐31; RFN 152985, 159815, 162303], Canadian Consortium of Neurodegeneration and Aging (CCNA; MOP‐11‐51‐31 ‐team 1), the Alzheimer's Association [NIRG‐12‐92090, NIRP‐12‐259245], Brain Canada Foundation (CFI Project 34874; 33397), the Fonds de Recherche du Québec—Santé (FRQS; Chercheur Boursier, 2020‐VICO‐279314; 2024‐VICO‐356138). P.R‐N and SG are members of the CIHR‐CCNA Canadian Consortium of Neurodegeneration in Aging. Colin J. Adair Charitable Foundation. MSW. is supported by the Corona Foundation and the Else‐Kröner‐Fresenius Foundation (2023_EKMS.03). HZ is a Wallenberg Scholar and a Distinguished Professor at the Swedish Research Council supported by grants from the Swedish Research Council (#2023‐00356, #2022‐01018 and #2019‐02397), the European Union's Horizon Europe research and innovation programme under grant agreement No 101053962, and Swedish State Support for Clinical Research (#ALFGBG‐71320).</p></ack><sec sec-type="data-availability" id="alz71205-sec-0330"><title>DATA AVAILABILITY STATEMENT</title><p>All requests for raw and analyzed data and materials from the TRIAD cohort will be promptly reviewed by McGill University to verify if the request is subject to any intellectual property or confidentiality obligations. Anonymized data will be shared upon request to the study's senior author from a qualified academic investigator for the sole purpose of replicating the procedures and results presented in this article. Any data and materials that can be shared will be released via a material transfer agreement. Data are not publicly available due to information that could compromise the privacy of research participants. Related documents, including study protocol and informed consent forms, can similarly be made available upon request.</p></sec><ref-list id="alz71205-bibl-0001"><title>REFERENCES</title><ref id="alz71205-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz71205-cite-0002">
+<string-name name-style="western">
+<surname>Rasmussen</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mestre</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nedergaard</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Fluid transport in the brain</article-title>. <source>Physiol Rev</source>. <year>2022</year>;<volume>102</volume>(<issue>2</issue>):<fpage>1025</fpage>‐<lpage>1151</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1152/physrev.00031.2020" ext-link-type="uri">10.1152/physrev.00031.2020</ext-link>
+<pub-id pub-id-type="pmid">33949874</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1152/physrev.00031.2020</pub-id><pub-id pub-id-type="pmcid">PMC8897154</pub-id></mixed-citation></ref><ref id="alz71205-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz71205-cite-0003">
+<string-name name-style="western">
+<surname>Johanson</surname>
+<given-names>CE</given-names>
+</string-name>. <article-title>Choroid plexus–cerebrospinal fluid circulatory dynamics: impact on brain growth, metabolism, and repair</article-title>. <source>Neurosci Med</source>. <year>2008</year>:<fpage>173</fpage>‐<lpage>200</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1007/978-1-60327-455-5" ext-link-type="uri">10.1007/978‐1‐60327‐455‐5</ext-link>
+</mixed-citation></ref><ref id="alz71205-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz71205-cite-0004">
+<string-name name-style="western">
+<surname>Johanson</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duncan</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klinge</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brinker</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stopa</surname>
+<given-names>EG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Silverberg</surname>
+<given-names>GD</given-names>
+</string-name>. <article-title>Multiplicity of cerebrospinal fluid functions: new challenges in health and disease</article-title>. <source>Cerebrospinal Fluid Res</source>. <year>2008</year>;<volume>5</volume>:<fpage>1</fpage>‐<lpage>32</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/1743-8454-5-10" ext-link-type="uri">10.1186/1743‐8454‐5‐10</ext-link>
+<pub-id pub-id-type="pmid">18479516</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1743-8454-5-10</pub-id><pub-id pub-id-type="pmcid">PMC2412840</pub-id></mixed-citation></ref><ref id="alz71205-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz71205-cite-0005">
+<string-name name-style="western">
+<surname>Sehar</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rawat</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reddy</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kopel</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reddy</surname>
+<given-names>PH</given-names>
+</string-name>. <article-title>Amyloid beta in aging and Alzheimer's disease</article-title>. <source>Int J Mol Sci</source>. <year>2022</year>;<volume>23</volume>(<issue>21</issue>):<elocation-id>12924</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3390/ijms232112924" ext-link-type="uri">10.3390/ijms232112924</ext-link>
+<pub-id pub-id-type="pmid">36361714</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms232112924</pub-id><pub-id pub-id-type="pmcid">PMC9655207</pub-id></mixed-citation></ref><ref id="alz71205-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz71205-cite-0006">
+<string-name name-style="western">
+<surname>Uchida</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>Waste clearance in the brain and neuroinflammation: a novel perspective on biomarker and drug target discovery in Alzheimer's disease</article-title>. <source>Cells</source>. <year>2022</year>;<volume>11</volume>(<issue>5</issue>):<fpage>919</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3390/cells11050919" ext-link-type="uri">10.3390/cells11050919</ext-link>
+<pub-id pub-id-type="pmid">35269541</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cells11050919</pub-id><pub-id pub-id-type="pmcid">PMC8909773</pub-id></mixed-citation></ref><ref id="alz71205-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz71205-cite-0007">
+<string-name name-style="western">
+<surname>Vemuri</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wiste</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weigand</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>MRI and CSF biomarkers in normal, MCI, and AD subjects: predicting future clinical change</article-title>. <source>Neurology</source>. <year>2009</year>;<volume>73</volume>(<issue>4</issue>):<fpage>294</fpage>‐<lpage>301</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1212/WNL.0b013e3181af79fb" ext-link-type="uri">10.1212/WNL.0b013e3181af79fb</ext-link>
+<pub-id pub-id-type="pmid">19636049</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0b013e3181af79fb</pub-id><pub-id pub-id-type="pmcid">PMC2715214</pub-id></mixed-citation></ref><ref id="alz71205-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz71205-cite-0008">
+<string-name name-style="western">
+<surname>Silverberg</surname>
+<given-names>GD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayo</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saul</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rubenstein</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGuire</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Alzheimer's disease, normal‐pressure hydrocephalus, and senescent changes in CSF circulatory physiology: a hypothesis</article-title>. <source>Lancet Neurol</source>.<year>2003</year>;<volume>2</volume>(<issue>8</issue>):<fpage>506</fpage>‐<lpage>511</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/S1474-4422(03)00487-3" ext-link-type="uri">10.1016/S1474‐4422(03)00487‐3</ext-link>
+<pub-id pub-id-type="pmid">12878439</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s1474-4422(03)00487-3</pub-id></mixed-citation></ref><ref id="alz71205-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz71205-cite-0009">
+<string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tian</surname>
+<given-names>D‐Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y‐J</given-names>
+</string-name>. <article-title>Peripheral clearance of brain‐derived Aβ in Alzheimer's disease: pathophysiology and therapeutic perspectives</article-title>. <source>Transl Neurodegener</source>.<year>2020</year>;<volume>9</volume>:<fpage>1</fpage>‐<lpage>11</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s40035-020-00195-1" ext-link-type="uri">10.1186/s40035‐020‐00195‐1</ext-link>
+<pub-id pub-id-type="pmid">32381118</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s40035-020-00195-1</pub-id><pub-id pub-id-type="pmcid">PMC7204069</pub-id></mixed-citation></ref><ref id="alz71205-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz71205-cite-0010">
+<string-name name-style="western">
+<surname>Suzuki</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nakamura</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamada</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Reduced CSF water influx in Alzheimer's disease supporting the β‐amyloid clearance hypothesis</article-title>. <source>PLoS One</source>.<year>2015</year>;<volume>10</volume>(<issue>5</issue>):<elocation-id>e0123708</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1371/journal.pone.0123708" ext-link-type="uri">10.1371/journal.pone.0123708</ext-link>
+<pub-id pub-id-type="pmid">25946191</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0123708</pub-id><pub-id pub-id-type="pmcid">PMC4422624</pub-id></mixed-citation></ref><ref id="alz71205-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz71205-cite-0011">
+<string-name name-style="western">
+<surname>Tijms</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vromen</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mjaavatten</surname>
+<given-names>O</given-names>
+</string-name>, et al. <article-title>Cerebrospinal fluid proteomics in patients with Alzheimer's disease reveals five molecular subtypes with distinct genetic risk profiles</article-title>. <source>Nature Aging</source>.<year>2024</year>;<volume>4</volume>(<issue>1</issue>):<fpage>33</fpage>‐<lpage>47</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s43587-023-00550-7" ext-link-type="uri">10.1038/s43587‐023‐00550‐7</ext-link>
+<pub-id pub-id-type="pmid">38195725</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s43587-023-00550-7</pub-id><pub-id pub-id-type="pmcid">PMC10798889</pub-id></mixed-citation></ref><ref id="alz71205-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz71205-cite-0012">
+<string-name name-style="western">
+<surname>Kaur</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rathnasamy</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ling</surname>
+<given-names>E‐A</given-names>
+</string-name>. <article-title>The choroid plexus in healthy and diseased brain</article-title>. <source>J Neuropathol Exp Neurol</source>.<year>2016</year>;<volume>75</volume>(<issue>3</issue>):<fpage>198</fpage>‐<lpage>213</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/jnen/nlv030" ext-link-type="uri">10.1093/jnen/nlv030</ext-link>
+<pub-id pub-id-type="pmid">26888305</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnen/nlv030</pub-id></mixed-citation></ref><ref id="alz71205-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz71205-cite-0013">
+<string-name name-style="western">
+<surname>Weaver</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McMillan</surname>
+<given-names>PN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duncan</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stopa</surname>
+<given-names>EG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johanson</surname>
+<given-names>CE</given-names>
+</string-name>. <article-title>Hydrocephalus disorders: their biophysical and neuroendocrine impact on the choroid plexus epithelium</article-title>. <source>Adv Mol Cell Biol</source>.<year>2003</year>;<volume>31</volume>:<fpage>269</fpage>‐<lpage>293</lpage>.</mixed-citation></ref><ref id="alz71205-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz71205-cite-0014">
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhuo</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Choroid plexus volume as a novel candidate neuroimaging marker of the Alzheimer's continuum</article-title>. <source>Alzheimers Res Ther</source>.<year>2024</year>;<volume>16</volume>(<issue>1</issue>):<fpage>149</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s13195-024-01520-w" ext-link-type="uri">10.1186/s13195‐024‐01520‐w</ext-link>
+<pub-id pub-id-type="pmid">38961406</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-024-01520-w</pub-id><pub-id pub-id-type="pmcid">PMC11221040</pub-id></mixed-citation></ref><ref id="alz71205-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz71205-cite-0015">
+<string-name name-style="western">
+<surname>Jeong</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Park</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cha</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Choroid plexus volume, amyloid burden, and cognition in the Alzheimer's disease continuum</article-title>. <source>Aging Dis</source>.<year>2024</year>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.14336/AD.2024.0118</pub-id><pub-id pub-id-type="pmcid">PMC11745423</pub-id><pub-id pub-id-type="pmid">38300638</pub-id></mixed-citation></ref><ref id="alz71205-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz71205-cite-0016">
+<string-name name-style="western">
+<surname>Schubert</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Veronese</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marchitelli</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Dynamic <sup>11</sup>C‐PiB PET shows cerebrospinal fluid flow alterations in Alzheimer disease and multiple sclerosis</article-title>. <source>J Nucl Med</source>.<year>2019</year>;<volume>60</volume>(<issue>10</issue>):<fpage>1452</fpage>‐<lpage>1460</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.2967/jnumed.118.223834" ext-link-type="uri">10.2967/jnumed.118.223834</ext-link>
+<pub-id pub-id-type="pmid">30850505</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2967/jnumed.118.223834</pub-id><pub-id pub-id-type="pmcid">PMC6785797</pub-id></mixed-citation></ref><ref id="alz71205-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz71205-cite-0017">
+<string-name name-style="western">
+<surname>de Leon</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Okamura</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Cerebrospinal fluid clearance in Alzheimer disease measured with dynamic PET</article-title>. <source>J Nucl Med</source>.<year>2017</year>;<volume>58</volume>(<issue>9</issue>):<fpage>1471</fpage>‐<lpage>1476</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.2967/jnumed.116.187211" ext-link-type="uri">10.2967/jnumed.116.187211</ext-link>
+<pub-id pub-id-type="pmid">28302766</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2967/jnumed.116.187211</pub-id><pub-id pub-id-type="pmcid">PMC5577629</pub-id></mixed-citation></ref><ref id="alz71205-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz71205-cite-0018">
+<string-name name-style="western">
+<surname>Ott</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cohen</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gongvatana</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Brain ventricular volume and cerebrospinal fluid biomarkers of Alzheimer's disease</article-title>. <source>J Alzheimers Dis</source>. <year>2010</year>;<volume>20</volume>(<issue>2</issue>):<fpage>647</fpage>‐<lpage>657</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3233/JAD-2010-1406" ext-link-type="uri">10.3233/JAD‐2010‐1406</ext-link>
+<pub-id pub-id-type="pmid">20182051</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-2010-1406</pub-id><pub-id pub-id-type="pmcid">PMC3078034</pub-id></mixed-citation></ref><ref id="alz71205-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz71205-cite-0019">
+<string-name name-style="western">
+<surname>Nestor</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rupsingh</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borrie</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Ventricular enlargement as a possible measure of Alzheimer's disease progression validated using the Alzheimer's disease neuroimaging initiative database</article-title>. <source>Brain</source>. <year>2008</year>;<volume>131</volume>(<issue>9</issue>):<fpage>2443</fpage>‐<lpage>2454</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/brain/awn146" ext-link-type="uri">10.1093/brain/awn146</ext-link>
+<pub-id pub-id-type="pmid">18669512</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awn146</pub-id><pub-id pub-id-type="pmcid">PMC2724905</pub-id></mixed-citation></ref><ref id="alz71205-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz71205-cite-0020">
+<string-name name-style="western">
+<surname>Guerreiro</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bras</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>The age factor in Alzheimer's disease</article-title>. <source>Genome Med</source>.<year>2015</year>;<volume>7</volume>:<fpage>106</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s13073-015-0232-5" ext-link-type="uri">10.1186/s13073‐015‐0232‐5</ext-link>
+<pub-id pub-id-type="pmid">26482651</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13073-015-0232-5</pub-id><pub-id pub-id-type="pmcid">PMC4617238</pub-id></mixed-citation></ref><ref id="alz71205-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz71205-cite-0021">
+<string-name name-style="western">
+<surname>Therriault</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pascoal</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lussier</surname>
+<given-names>FZ</given-names>
+</string-name>, et al. <article-title>Biomarker modeling of Alzheimer's disease using PET‐based Braak staging</article-title>. <source>Nat Aging</source>. <year>2022</year>;<volume>2</volume>(<issue>6</issue>):<fpage>526</fpage>‐<lpage>535</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s43587-022-00204-0" ext-link-type="uri">10.1038/s43587‐022‐00204‐0</ext-link>
+<pub-id pub-id-type="pmid">37118445</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s43587-022-00204-0</pub-id><pub-id pub-id-type="pmcid">PMC10154209</pub-id></mixed-citation></ref><ref id="alz71205-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz71205-cite-0022">
+<string-name name-style="western">
+<surname>Therriault</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benedet</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pascoal</surname>
+<given-names>TA</given-names>
+</string-name>, et al. <article-title>Association of apolipoprotein E ε4 with medial temporal tau independent of amyloid‐β</article-title>. <source>JAMA Neurol</source>.<year>2020</year>;<volume>77</volume>(<issue>4</issue>):<fpage>470</fpage>‐<lpage>479</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2019.4421" ext-link-type="uri">10.1001/jamaneurol.2019.4421</ext-link>
+<pub-id pub-id-type="pmid">31860000</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2019.4421</pub-id><pub-id pub-id-type="pmcid">PMC6990684</pub-id></mixed-citation></ref><ref id="alz71205-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz71205-cite-0023">
+<string-name name-style="western">
+<surname>Missori</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rughetti</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peschillo</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>In normal aging ventricular system never attains pathological values of Evans' index</article-title>. <source>Oncotarget</source>. <year>2016</year>;<volume>7</volume>(<issue>11</issue>):<fpage>11860</fpage>‐<lpage>11863</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.18632/oncotarget.7644" ext-link-type="uri">10.18632/oncotarget.7644</ext-link>
+<pub-id pub-id-type="pmid">26919252</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.7644</pub-id><pub-id pub-id-type="pmcid">PMC4914253</pub-id></mixed-citation></ref><ref id="alz71205-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz71205-cite-0024">
+<string-name name-style="western">
+<surname>Pascoal</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Therriault</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benedet</surname>
+<given-names>AL</given-names>
+</string-name>, et al. <article-title>18F‐MK‐6240 PET for early and late detection of neurofibrillary tangles</article-title>. <source>Brain</source>.<year>2020</year>;<volume>143</volume>(<issue>9</issue>):<fpage>2818</fpage>‐<lpage>2830</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/brain/awaa180" ext-link-type="uri">10.1093/brain/awaa180</ext-link>
+<pub-id pub-id-type="pmid">32671408</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awaa180</pub-id></mixed-citation></ref><ref id="alz71205-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz71205-cite-0025">
+<string-name name-style="western">
+<surname>jr Jack</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wiste</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weigand</surname>
+<given-names>SD</given-names>
+</string-name>, et al. <article-title>Defining imaging biomarker cut points for brain aging and Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>.<year>2017</year>;<volume>13</volume>(<issue>3</issue>):<fpage>205</fpage>‐<lpage>216</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.jalz.2016.08.005" ext-link-type="uri">10.1016/j.jalz.2016.08.005</ext-link>
+<pub-id pub-id-type="pmid">27697430</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2016.08.005</pub-id><pub-id pub-id-type="pmcid">PMC5344738</pub-id></mixed-citation></ref><ref id="alz71205-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz71205-cite-0026">
+<string-name name-style="western">
+<surname>Therriault</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benedet</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pascoal</surname>
+<given-names>TA</given-names>
+</string-name>, et al. <article-title>Determining amyloid‐β positivity using <sup>18</sup>F‐AZD4694 PET imaging</article-title>. <source>Journal Nucl Med</source>.<year>2021</year>;<volume>62</volume>(<issue>2</issue>):<fpage>247</fpage>‐<lpage>252</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.2967/jnumed.120.245209" ext-link-type="uri">10.2967/jnumed.120.245209</ext-link>
+<pub-id pub-id-type="pmid">32737243</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2967/jnumed.120.245209</pub-id></mixed-citation></ref><ref id="alz71205-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz71205-cite-0027">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ponisio</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lang</surname>
+<given-names>JA</given-names>
+</string-name>, et al. <article-title>Comparing tau PET visual interpretation with tau PET quantification, cerebrospinal fluid biomarkers, and longitudinal clinical assessment</article-title>. <source>J Alzheimers Dis</source>.<year>2023</year>;<volume>93</volume>(<issue>2</issue>):<fpage>765</fpage>‐<lpage>777</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3233/JAD-230032" ext-link-type="uri">10.3233/JAD‐230032</ext-link>
+<pub-id pub-id-type="pmid">37092225</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-230032</pub-id><pub-id pub-id-type="pmcid">PMC10200228</pub-id></mixed-citation></ref><ref id="alz71205-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="alz71205-cite-0028">
+<string-name name-style="western">
+<surname>Schreiber</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Landau</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fero</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schreiber</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jagust</surname>
+<given-names>WJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>AsDN</surname>
+<given-names>Initiative</given-names>
+</string-name>. <article-title>Comparison of visual and quantitative florbetapir F 18 positron emission tomography analysis in predicting mild cognitive impairment outcomes</article-title>. <source>JAMA Neurol</source>. <year>2015</year>;<volume>72</volume>(<issue>10</issue>):<fpage>1183</fpage>‐<lpage>1190</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2015.1633" ext-link-type="uri">10.1001/jamaneurol.2015.1633</ext-link>
+<pub-id pub-id-type="pmid">26280102</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2015.1633</pub-id></mixed-citation></ref><ref id="alz71205-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz71205-cite-0029">
+<string-name name-style="western">
+<surname>Leuzy</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pascoal</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strandberg</surname>
+<given-names>O</given-names>
+</string-name>, et al. <article-title>A multicenter comparison of [<sup>18</sup>F] flortaucipir,[<sup>18</sup>F] RO948, and [<sup>18</sup>F] MK6240 tau PET tracers to detect a common target ROI for differential diagnosis</article-title>. <source>Eur J Nucl Med Mol Imaging</source>. <year>2021</year>;<volume>48</volume>(<issue>7</issue>):<fpage>2295</fpage>‐<lpage>2305</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1007/s00259-021-05401-4" ext-link-type="uri">10.1007/s00259‐021‐05401‐4</ext-link>
+<pub-id pub-id-type="pmid">34041562</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00259-021-05401-4</pub-id><pub-id pub-id-type="pmcid">PMC8175317</pub-id></mixed-citation></ref><ref id="alz71205-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz71205-cite-0030">
+<string-name name-style="western">
+<surname>Leitão</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Silva‐Spínola</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Santana</surname>
+<given-names>I</given-names>
+</string-name>, et al. <article-title>Clinical validation of the Lumipulse G cerebrospinal fluid assays for routine diagnosis of Alzheimer's disease</article-title>. <source>Alzheimers Res Ther</source>.<year>2019</year>;<volume>11</volume>:<fpage>91</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13195-019-0550-8</pub-id>
+<pub-id pub-id-type="pmid">31759396</pub-id>
+<pub-id pub-id-type="pmcid">PMC6875031</pub-id></mixed-citation></ref><ref id="alz71205-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz71205-cite-0031">
+<string-name name-style="western">
+<surname>Marquié</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Normandin</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vanderburg</surname>
+<given-names>CR</given-names>
+</string-name>, et al. <article-title>Validating novel tau positron emission tomography tracer [F‐18]‐AV‐1451 (T807) on postmortem brain tissue</article-title>. <source>Ann Neurol</source>.<year>2015</year>;<volume>78</volume>(<issue>5</issue>):<fpage>787</fpage>‐<lpage>800</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/ana.24517" ext-link-type="uri">10.1002/ana.24517</ext-link>
+<pub-id pub-id-type="pmid">26344059</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.24517</pub-id><pub-id pub-id-type="pmcid">PMC4900162</pub-id></mixed-citation></ref><ref id="alz71205-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz71205-cite-0032">
+<string-name name-style="western">
+<surname>Mathotaarachchi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shin</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>VoxelStats: a MATLAB package for multi‐modal voxel‐wise brain image analysis</article-title>. <source>Front Neuroinform</source>.<year>2016</year>;<volume>10</volume>:<fpage>20</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3389/fninf.2016.00020" ext-link-type="uri">10.3389/fninf.2016.00020</ext-link>
+<pub-id pub-id-type="pmid">27378902</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fninf.2016.00020</pub-id><pub-id pub-id-type="pmcid">PMC4908129</pub-id></mixed-citation></ref><ref id="alz71205-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz71205-cite-0033">
+<string-name name-style="western">
+<surname>Taylor</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Worsley</surname>
+<given-names>KJ</given-names>
+</string-name>. <article-title>Detecting sparse signals in random fields, with an application to brain mapping</article-title>. <source>J Am Stat Assoc</source>.<year>2007</year>;<volume>102</volume>(<issue>479</issue>):<fpage>913</fpage>‐<lpage>928</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1198/016214507000000815" ext-link-type="uri">10.1198/016214507000000815</ext-link>
+</mixed-citation></ref><ref id="alz71205-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="alz71205-cite-0034">
+<string-name name-style="western">
+<surname>Pollay</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>The function and structure of the cerebrospinal fluid outflow system</article-title>. <source>Cerebrospinal Fluid Res</source>. <year>2010</year>;<volume>7</volume>:<fpage>1</fpage>‐<lpage>20</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/1743-8454-7-9" ext-link-type="uri">10.1186/1743‐8454‐7‐9</ext-link>
+<pub-id pub-id-type="pmid">20565964</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1743-8454-7-9</pub-id><pub-id pub-id-type="pmcid">PMC2904716</pub-id></mixed-citation></ref><ref id="alz71205-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="alz71205-cite-0035">
+<string-name name-style="western">
+<surname>Xin</surname>
+<given-names>S‐H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tan</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>J‐T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tan</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Clearance of amyloid beta and tau in Alzheimer's disease: from mechanisms to therapy</article-title>. <source>Neurotox Res</source>.<year>2018</year>;<volume>34</volume>:<fpage>733</fpage>‐<lpage>748</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1007/s12640-018-9895-1" ext-link-type="uri">10.1007/s12640‐018‐9895‐1</ext-link>
+<pub-id pub-id-type="pmid">29626319</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s12640-018-9895-1</pub-id></mixed-citation></ref><ref id="alz71205-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="alz71205-cite-0036">
+<string-name name-style="western">
+<surname>Jellinger</surname>
+<given-names>KA</given-names>
+</string-name>. <article-title>Neuropathology of the Alzheimer's continuum: an update</article-title>. <source>Free Neuropathol</source>. <year>2020</year>;<volume>1</volume>:<fpage>32</fpage>.<pub-id pub-id-type="pmid">37283686</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.17879/freeneuropathology-2020-3050</pub-id><pub-id pub-id-type="pmcid">PMC10209886</pub-id></mixed-citation></ref><ref id="alz71205-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="alz71205-cite-0037">
+<string-name name-style="western">
+<surname>Gallardo</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holtzman</surname>
+<given-names>DM</given-names>
+</string-name>. <article-title>Amyloid‐<italic toggle="yes">β</italic> and tau at the crossroads of Alzheimer's disease</article-title>. <source>Tau Biology</source>. <year>2020</year>:<fpage>187</fpage>‐<lpage>203</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-981-32-9358-8_16</pub-id><pub-id pub-id-type="pmid">32096039</pub-id></mixed-citation></ref><ref id="alz71205-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="alz71205-cite-0038">
+<string-name name-style="western">
+<surname>Bouhrara</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Walker</surname>
+<given-names>KA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alisch</surname>
+<given-names>JS</given-names>
+</string-name>, et al. <article-title>Association of plasma markers of Alzheimer's disease, neurodegeneration, and neuroinflammation with the choroid plexus integrity in aging</article-title>. <source>Aging Dis</source>. <year>2024</year>;<volume>15</volume>(<issue>5</issue>):<fpage>2230</fpage>‐<lpage>2240</lpage>.<pub-id pub-id-type="pmid">38300640</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.14336/AD.2023.1226</pub-id><pub-id pub-id-type="pmcid">PMC11346414</pub-id></mixed-citation></ref><ref id="alz71205-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="alz71205-cite-0039">
+<string-name name-style="western">
+<surname>Mohammadi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dolatshahi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rahmani</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raji</surname>
+<given-names>CA</given-names>
+</string-name>. <article-title>Altered clearance in Alzheimer's disease and cerebral amyloid angiopathy</article-title>. <source>Neuroimaging Clin N Am</source>.<year>2025</year>;<volume>35</volume>(<issue>2</issue>):<fpage>277</fpage>‐<lpage>286</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.nic.2024.12.004" ext-link-type="uri">10.1016/j.nic.2024.12.004</ext-link>
+<pub-id pub-id-type="pmid">40210383</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.nic.2024.12.004</pub-id><pub-id pub-id-type="pmcid">PMC12227102</pub-id></mixed-citation></ref><ref id="alz71205-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="alz71205-cite-0040">
+<string-name name-style="western">
+<surname>Hosseini</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aumont</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rahmouni</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Ventricular remodeling and astrocyte activation drive early protein aggregation in Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>
+<year>2025</year>;<volume>21</volume>(Suppl <issue>8</issue>):<elocation-id>e110301</elocation-id>. doi:<pub-id pub-id-type="doi">10.1002/alz70862_110301</pub-id>
+</mixed-citation></ref><ref id="alz71205-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="alz71205-cite-0041">
+<string-name name-style="western">
+<surname>Wen</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tang</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Brain perivascular macrophages: current understanding and future prospects</article-title>. <source>Brain</source>. <year>2024</year>;<volume>147</volume>(<issue>1</issue>):<fpage>39</fpage>‐<lpage>55</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/brain/awad304" ext-link-type="uri">10.1093/brain/awad304</ext-link>
+<pub-id pub-id-type="pmid">37691438</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awad304</pub-id><pub-id pub-id-type="pmcid">PMC10766266</pub-id></mixed-citation></ref><ref id="alz71205-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="alz71205-cite-0042">
+<string-name name-style="western">
+<surname>de Mélo</surname>
+<given-names>Silva</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Júnior</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diniz</surname>
+<given-names>PRB</given-names>
+</string-name>, et al. <article-title>Brain ventricles, CSF and cognition: a narrative review</article-title>. <source>Psychogeriatrics</source>. <year>2022</year>;<volume>22</volume>(<issue>4</issue>):<fpage>544</fpage>‐<lpage>552</lpage>.<pub-id pub-id-type="pmid">35488797</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/psyg.12839</pub-id></mixed-citation></ref><ref id="alz71205-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="alz71205-cite-0043">
+<string-name name-style="western">
+<surname>J‐s</surname>
+<given-names>Lee</given-names>
+</string-name>, <string-name name-style="western">
+<surname>D‐y</surname>
+<given-names>Heo</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choi</surname>
+<given-names>K‐H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>H‐J</given-names>
+</string-name>. <article-title>Impact of the ventricle size on Alzheimer's disease progression: a retrospective longitudinal study</article-title>. <source>Dement Neurocogn Disord</source>. <year>2024</year>;<volume>23</volume>(<issue>2</issue>):<fpage>95</fpage>‐<lpage>106</lpage>.<pub-id pub-id-type="pmid">38720825</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.12779/dnd.2024.23.2.95</pub-id><pub-id pub-id-type="pmcid">PMC11073924</pub-id></mixed-citation></ref><ref id="alz71205-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="alz71205-cite-0044">
+<string-name name-style="western">
+<surname>Yamada</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mase</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Cerebrospinal fluid production and absorption and ventricular enlargement mechanisms in hydrocephalus</article-title>. <source>Neurol Med Chir</source>. <year>2023</year>;<volume>63</volume>(<issue>4</issue>):<fpage>141</fpage>‐<lpage>151</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.2176/jns-nmc.2022-0331" ext-link-type="uri">10.2176/jns‐nmc.2022‐0331</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2176/jns-nmc.2022-0331</pub-id><pub-id pub-id-type="pmcid">PMC10166604</pub-id><pub-id pub-id-type="pmid">36858632</pub-id></mixed-citation></ref><ref id="alz71205-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="alz71205-cite-0045">
+<string-name name-style="western">
+<surname>Groh</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Simons</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>White matter aging and its impact on brain function</article-title>. <source>Neuron</source>. <year>2025</year>;<volume>113</volume>(<issue>1</issue>):<fpage>127</fpage>‐<lpage>139</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.neuron.2024.10.019" ext-link-type="uri">10.1016/j.neuron.2024.10.019</ext-link>
+<pub-id pub-id-type="pmid">39541972</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neuron.2024.10.019</pub-id></mixed-citation></ref><ref id="alz71205-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="alz71205-cite-0046">
+<string-name name-style="western">
+<surname>Jagust</surname>
+<given-names>W</given-names>
+</string-name>. <article-title>Imaging the evolution and pathophysiology of Alzheimer disease</article-title>. <source>Nat Rev Neurosci</source>. <year>2018</year>;<volume>19</volume>(<issue>11</issue>):<fpage>687</fpage>‐<lpage>700</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41583-018-0067-3" ext-link-type="uri">10.1038/s41583‐018‐0067‐3</ext-link>
+<pub-id pub-id-type="pmid">30266970</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41583-018-0067-3</pub-id><pub-id pub-id-type="pmcid">PMC7032048</pub-id></mixed-citation></ref><ref id="alz71205-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="alz71205-cite-0047">
+<string-name name-style="western">
+<surname>Czarniak</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kamińska</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matowicka‐Karna</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koper‐Lenkiewicz</surname>
+<given-names>OM</given-names>
+</string-name>. <article-title>Cerebrospinal fluid–basic concepts review</article-title>. <source>Biomedicines</source>. <year>2023</year>;<volume>11</volume>(<issue>5</issue>):<fpage>1461</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3390/biomedicines11051461" ext-link-type="uri">10.3390/biomedicines11051461</ext-link>
+<pub-id pub-id-type="pmid">37239132</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/biomedicines11051461</pub-id><pub-id pub-id-type="pmcid">PMC10216641</pub-id></mixed-citation></ref><ref id="alz71205-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="alz71205-cite-0048">
+<string-name name-style="western">
+<surname>Cisternas</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taylor</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lasagna‐Reeves</surname>
+<given-names>CA</given-names>
+</string-name>. <article-title>The amyloid‐tau‐neuroinflammation axis in the context of cerebral amyloid angiopathy</article-title>. <source>Int J MolSSci</source>. <year>2019</year>;<volume>20</volume>(<issue>24</issue>):<fpage>6319</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3390/ijms20246319" ext-link-type="uri">10.3390/ijms20246319</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms20246319</pub-id><pub-id pub-id-type="pmcid">PMC6941131</pub-id><pub-id pub-id-type="pmid">31847365</pub-id></mixed-citation></ref><ref id="alz71205-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="alz71205-cite-0049">
+<string-name name-style="western">
+<surname>Perea</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bolós</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Avila</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Microglia in Alzheimer's disease in the context of tau pathology</article-title>. <source>Biomolecules</source>. <year>2020</year>;<volume>10</volume>(<issue>10</issue>):<fpage>1439</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3390/biom10101439" ext-link-type="uri">10.3390/biom10101439</ext-link>
+<pub-id pub-id-type="pmid">33066368</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/biom10101439</pub-id><pub-id pub-id-type="pmcid">PMC7602223</pub-id></mixed-citation></ref><ref id="alz71205-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="alz71205-cite-0050">
+<string-name name-style="western">
+<surname>Butler</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schubert</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karakatsanis</surname>
+<given-names>NA</given-names>
+</string-name>, et al. <article-title>Brain fluid clearance after traumatic brain injury measured using dynamic positron emission tomography</article-title>. <source>Neurotrauma Rep</source>. <year>2024</year>;<volume>5</volume>(<issue>1</issue>):<fpage>359</fpage>‐<lpage>366</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1089/neur.2024.0010" ext-link-type="uri">10.1089/neur.2024.0010</ext-link>
+<pub-id pub-id-type="pmid">38655117</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/neur.2024.0010</pub-id><pub-id pub-id-type="pmcid">PMC11035850</pub-id></mixed-citation></ref><ref id="alz71205-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="alz71205-cite-0051">
+<string-name name-style="western">
+<surname>Althubaity</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schubert</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martins</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Choroid plexus enlargement is associated with neuroinflammation and reduction of blood brain barrier permeability in depression</article-title>. <source>NeuroImage: Clinical</source>. <year>2022</year>;<volume>33</volume>:<elocation-id>102926</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.nicl.2021.102926" ext-link-type="uri">10.1016/j.nicl.2021.102926</ext-link>
+<pub-id pub-id-type="pmid">34972034</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.nicl.2021.102926</pub-id><pub-id pub-id-type="pmcid">PMC8718974</pub-id></mixed-citation></ref><ref id="alz71205-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="alz71205-cite-0052">
+<string-name name-style="western">
+<surname>Turkheimer</surname>
+<given-names>FE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Althubaity</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schubert</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Increased serum peripheral C‐reactive protein is associated with reduced brain barriers permeability of TSPO radioligands in healthy volunteers and depressed patients: implications for inflammation and depression</article-title>. <source>Brain, Behav, Immun</source>. <year>2021</year>;<volume>91</volume>:<fpage>487</fpage>‐<lpage>497</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.bbi.2020.10.025" ext-link-type="uri">10.1016/j.bbi.2020.10.025</ext-link>
+<pub-id pub-id-type="pmid">33160089</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbi.2020.10.025</pub-id></mixed-citation></ref><ref id="alz71205-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="alz71205-cite-0053">
+<string-name name-style="western">
+<surname>Bae</surname>
+<given-names>YJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>J‐M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choi</surname>
+<given-names>BS</given-names>
+</string-name>, et al. <article-title>Glymphatic function assessment in Parkinson's disease using diffusion tensor image analysis along the perivascular space</article-title>. <source>Parkinsonism Related Disord</source>. <year>2023</year>;<volume>114</volume>:<elocation-id>105767</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.parkreldis.2023.105767" ext-link-type="uri">10.1016/j.parkreldis.2023.105767</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.parkreldis.2023.105767</pub-id><pub-id pub-id-type="pmid">37523953</pub-id></mixed-citation></ref><ref id="alz71205-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="alz71205-cite-0054">
+<string-name name-style="western">
+<surname>Cousins</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodges</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schubert</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>The blood–CSF–brain route of neurological disease: the indirect pathway into the brain</article-title>. <source>Neuropathol Appl Neurobiol</source>. <year>2022</year>;<volume>48</volume>(<issue>4</issue>):<elocation-id>e12789</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1111/nan.12789" ext-link-type="uri">10.1111/nan.12789</ext-link>
+<pub-id pub-id-type="pmid">34935179</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/nan.12789</pub-id></mixed-citation></ref><ref id="alz71205-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="alz71205-cite-0055">
+<string-name name-style="western">
+<surname>Visani</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Veronese</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pizzini</surname>
+<given-names>FB</given-names>
+</string-name>, et al. <article-title>ASCHOPLEX: a generalizable approach for the automatic segmentation of choroid plexus</article-title>. <source>Comput Biol Med</source>. <year>2024</year>;<volume>182</volume>:<elocation-id>109164</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.compbiomed.2024.109164" ext-link-type="uri">10.1016/j.compbiomed.2024.109164</ext-link>
+<pub-id pub-id-type="pmid">39326265</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.compbiomed.2024.109164</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

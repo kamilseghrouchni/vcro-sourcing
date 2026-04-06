@@ -1,0 +1,161 @@
+{
+  "pmid": "36468884",
+  "pmc": "PMC9765021",
+  "doi": "10.1128/mbio.01794-22",
+  "title": "Longitudinal Analysis of the Microbiome and Metabolome in the 5xfAD Mouse Model of Alzheimer’s Disease",
+  "journal": "mBio",
+  "year": 2022,
+  "authors": [
+    {
+      "name": "Dunham Sage J. B.",
+      "affiliations": [
+        "Department of Molecular Biology and Biochemistry, University of California Irvine, Irvine, California, USA"
+      ]
+    },
+    {
+      "name": "McNair Katelyn A.",
+      "affiliations": [
+        "Department of Computational Science, University of California Irvine, Irvine, California, USA"
+      ]
+    },
+    {
+      "name": "Adams Eric D.",
+      "affiliations": [
+        "Department of Molecular Biology and Biochemistry, University of California Irvine, Irvine, California, USA"
+      ]
+    },
+    {
+      "name": "Avelar-Barragan Julio",
+      "affiliations": [
+        "Department of Molecular Biology and Biochemistry, University of California Irvine, Irvine, California, USA"
+      ]
+    },
+    {
+      "name": "Forner Stefania",
+      "affiliations": [
+        "Institute for Memory Impairments and Neurological Disorders (UCI MIND), University of California Irvine, Irvine, California, USA"
+      ]
+    },
+    {
+      "name": "Mapstone Mark",
+      "affiliations": [
+        "Department of Neurology, University of California Irvine, Irvine, California, USA"
+      ]
+    },
+    {
+      "name": "Whiteson Katrine L.",
+      "affiliations": [
+        "Department of Molecular Biology and Biochemistry, University of California Irvine, Irvine, California, USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "AD",
+    "MODEL-AD",
+    "microbiome",
+    "metabolome",
+    "gut-brain axis",
+    "Turicibacter",
+    "serotonin"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "HHS | NIH | National Institute on Aging (NIA)https://doi.org/10.13039/100000049 U54AG054349 DunhamSage J. B. McNairKatelyn A. AdamsEric D. Avelar-BarraganJulio FornerStafania MapstoneMark WhitesonKatrine L.",
+    "HHS | NIH | National Institute on Aging (NIA)https://doi.org/10.13039/100000049 AG00096-38 DunhamSage J. B."
+  ],
+  "data_availability_text": "Data availability.Raw sequence reads are available through the Sequence Read Archive (PRJNA902000). Both metabolomics and processed sequence data has been archived on Dryad (https://doi.org/10.7280/D1KH5N). The R scripts used to analyze all data are available on GitHub (https://github.com/sjbd1/5xfAD_mBio2022).",
+  "license": "",
+  "received": "2022-06-28",
+  "accepted": "2022-11-04",
+  "reference_pmids": [
+    "34043283",
+    "35289055",
+    "22229116",
+    "31863938",
+    "32201908",
+    "27582220",
+    "34267383",
+    "33135381",
+    "29273078",
+    "34884970",
+    "30707185",
+    "33893290",
+    "24062644",
+    "28372330",
+    "31118068",
+    "33246175",
+    "33169684",
+    "25792098",
+    "27179961",
+    "31488882",
+    "31097468",
+    "33924322",
+    "28176819",
+    "29051531",
+    "31064831",
+    "30337151",
+    "17021169",
+    "34654824",
+    "34366832",
+    "20619937",
+    "31322556",
+    "31477894",
+    "34990844",
+    "24608097",
+    "26617567",
+    "27939698",
+    "31098397",
+    "28676106",
+    "22797518",
+    "17091319",
+    "23347395",
+    "29511208",
+    "33972615",
+    "28476139",
+    "27163811",
+    "26070423",
+    "31141890",
+    "32994475",
+    "31067473",
+    "32293557",
+    "34654818",
+    "30020410",
+    "22388286"
+  ],
+  "tables_count": 0,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "shotgun metagenomic sequencing sample demographics.",
+    "overview of most abundant microbes.",
+    "alpha and beta diversity of the cecal and fecal microbiomes.",
+    "microbial species whose abundances differed between 5xfad and wt animals.",
+    "multiple",
+    "plasma metabolomics reveals differentially abundant phospholipids and amino acids with respect to age, sex, and genotype.",
+    "correlations between the microbiome and the plasma metabolome.",
+    "discussion",
+    "overview of microbiome composition and changes.",
+    "differentially abundant species.",
+    "plasma metabolomics.",
+    "limitations and weaknesses.",
+    "conclusion",
+    "materials and methods",
+    "animal conditions and fecal collection.",
+    "sequence library preparation.",
+    "sequence data processing.",
+    "plasma metabolomics.",
+    "fecal metabolomics.",
+    "microbiome analysis.",
+    "metabolomics data analysis.",
+    "data availability.",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 12851,
+  "converted_at": "2026-04-06T22:40:18.992930+00:00"
+}

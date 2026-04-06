@@ -1,0 +1,327 @@
+{
+  "pmid": "41085205",
+  "pmc": "PMC12519502",
+  "doi": "10.1002/alz.70738",
+  "title": "Cerebrospinal fluid proteomic associations of APOE genotypes reveal distinct protective and risk mechanisms for Alzheimer's disease",
+  "journal": "Alzheimer's & Dementia",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Vromen Eleonora M.",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands",
+        "Amsterdam Neuroscience Neurodegeneration Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Lageman Senne B.",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands",
+        "Amsterdam Neuroscience Neurodegeneration Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Gobom Johan",
+      "affiliations": [
+        "Clinical Neurochemistry Laboratory Sahlgrenska University Hospital Mölndal Sweden",
+        "Department of Psychiatry and Neurochemistry Institute of Neuroscience and Physiology Sahlgrenska Academy at the University of Gothenburg Mölndal Sweden"
+      ]
+    },
+    {
+      "name": "van der Kant Rik",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Dobricic Valerija",
+      "affiliations": [
+        "Lübeck Interdisciplinary Platform for Genome Analytics (LIGA) University of Lübeck Lübeck Germany"
+      ]
+    },
+    {
+      "name": "Bertram Lars",
+      "affiliations": [
+        "Lübeck Interdisciplinary Platform for Genome Analytics (LIGA) University of Lübeck Lübeck Germany"
+      ]
+    },
+    {
+      "name": "Streffer Johannes",
+      "affiliations": [
+        "Department of Biomedical Sciences Campus Drie Eiken University of Antwerp Antwerp Belgium"
+      ]
+    },
+    {
+      "name": "Lovestone Simon",
+      "affiliations": [
+        "Department of Psychiatry University of Oxford Warneford Hospital Oxford UK",
+        "Janssen Pharmaceutica Beerse Belgium"
+      ]
+    },
+    {
+      "name": "Vos Stephanie J. B.",
+      "affiliations": [
+        "Alzheimer Centrum Limburg Department of Psychiatry and Neuropsychology Maastricht University Maastricht the Netherlands"
+      ]
+    },
+    {
+      "name": "Tainta Mikel",
+      "affiliations": [
+        "Neurology Department CITA Alzheimer Foundation San Sebastian Spain",
+        "Zumarraga Hospital OSI Goierri‐Alto Urola Osakidetza Zumarraga Spain"
+      ]
+    },
+    {
+      "name": "Freund‐Levi Yvonne",
+      "affiliations": [
+        "Department of Clinical Science and Education Södersjukhuset Karolinska Institutet Stockholm Sweden",
+        "Department of Geriatrics Department of Medical Science Örebro University University Hospital Örebro and Södertälje Hospital Örebro Sweden"
+      ]
+    },
+    {
+      "name": "Frölich Lutz",
+      "affiliations": [
+        "Department of Geriatric Psychiatry Central Institute of Mental Health Medical Faculty Mannheim Heidelberg University Mannheim Germany"
+      ]
+    },
+    {
+      "name": "Popp Julius",
+      "affiliations": [
+        "University Hospital of Psychiatry and University of Zurich Zürich Switzerland",
+        "Service of Old Age Psychiatry Department of Psychiatry University Hospital of Lausanne Prilly Switzerland"
+      ]
+    },
+    {
+      "name": "Peyratout Gwendoline",
+      "affiliations": [
+        "Service of Old Age Psychiatry Department of Psychiatry University Hospital of Lausanne Prilly Switzerland"
+      ]
+    },
+    {
+      "name": "Tsolaki Magda",
+      "affiliations": [
+        "Third Department of Neurology Aristotle University of Thessaloniki Thessaloniki Greece"
+      ]
+    },
+    {
+      "name": "Verhey Frans",
+      "affiliations": [
+        "Alzheimer Centrum Limburg Department of Psychiatry and Neuropsychology Maastricht University Maastricht the Netherlands"
+      ]
+    },
+    {
+      "name": "Vandenberghe Rik",
+      "affiliations": [
+        "Neurology Service University Hospitals Leuven Leuven Belgium",
+        "Laboratory for Cognitive Neurology Department of Neurosciences KU Leuven Leuven Belgium"
+      ]
+    },
+    {
+      "name": "Schaeverbeke Jolien",
+      "affiliations": [
+        "Laboratory for Cognitive Neurology Department of Neurosciences KU Leuven Leuven Belgium",
+        "Laboratory of Neuropathology Leuven Brain Institute KU Leuven Leuven Belgium"
+      ]
+    },
+    {
+      "name": "Blennow Kaj",
+      "affiliations": [
+        "Clinical Neurochemistry Laboratory Sahlgrenska University Hospital Mölndal Sweden",
+        "Department of Psychiatry and Neurochemistry Institute of Neuroscience and Physiology Sahlgrenska Academy at the University of Gothenburg Mölndal Sweden",
+        "Paris Brain Institute ICM Pitié‐Salpêtrière Hospital Sorbonne University Paris France",
+        "Neurodegenerative Disorder Research Center Division of Life Sciences and Medicine and Department of Neurology Institute on Aging and Brain Disorders University of Science and Technology of China and First Affiliated Hospital of USTC Hefei P.R. China"
+      ]
+    },
+    {
+      "name": "van der Lee Sven J.",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands",
+        "Amsterdam Neuroscience Neurodegeneration Amsterdam the Netherlands",
+        "Section Genomics of Neurodegenerative Diseases and Aging Department of Clinical Genetics Vrije Universiteit Amsterdam Amsterdam UMC Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Scheltens Philip",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands",
+        "Amsterdam Neuroscience Neurodegeneration Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Pijnenburg Yolande A. L.",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands",
+        "Amsterdam Neuroscience Neurodegeneration Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "van der Flier Wiesje M.",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands",
+        "Amsterdam Neuroscience Neurodegeneration Amsterdam the Netherlands",
+        "Department of Epidemiology and Data Sciences Vrije Universiteit Amsterdam Amsterdam UMC Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Teunissen Charlotte E.",
+      "affiliations": [
+        "Neurochemistry Laboratory Department of Laboratory Medicine Amsterdam Neuroscience Vrije Universiteit Amsterdam Amsterdam UMC Amsterdam the Netherlands"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "Clinical Neurochemistry Laboratory Sahlgrenska University Hospital Mölndal Sweden",
+        "Department of Psychiatry and Neurochemistry Institute of Neuroscience and Physiology Sahlgrenska Academy at the University of Gothenburg Mölndal Sweden",
+        "Department of Neurodegenerative Disease UCL Institute of Neurology London UK",
+        "UK Dementia Research Institute, UCL London UK",
+        "Hong Kong Center for Neurodegenerative Diseases Hong Kong Science Park Hong Kong P.R. China",
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin–Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Visser Pieter Jelle",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands",
+        "Amsterdam Neuroscience Neurodegeneration Amsterdam the Netherlands",
+        "Alzheimer Centrum Limburg Department of Psychiatry and Neuropsychology Maastricht University Maastricht the Netherlands",
+        "Department of Neurobiology Care Sciences and Society Division of Neurogeriatrics Karolinska Institutet BioClinicum Solna Sweden"
+      ]
+    },
+    {
+      "name": "Tijms Betty",
+      "affiliations": [
+        "Alzheimer Center Amsterdam Neurology Vrije Universiteit Amsterdam Amsterdam UMC location VUmc Amsterdam the Netherlands",
+        "Amsterdam Neuroscience Neurodegeneration Amsterdam the Netherlands"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "apolipoprotein E",
+    "cerebrospinal fluid",
+    "cognitively normal",
+    "mild cognitive impairment",
+    "protection",
+    "proteomics",
+    "risk"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Stichting Alzheimer Nederland and Stichting VUmc",
+    "Pasman stichting",
+    "Research Council of Norway INFRASTRUKTUR 295910",
+    "Innovative Medicines Initiative Joint Undertaking 115372",
+    "European Union's Seventh Framework Program FP7/2007‐2013",
+    "ZonMw Memorabel #733050824736",
+    "ZonMW VIDI #09150171910068",
+    "EPND #101034344",
+    "JPND10.13039/100013278 #733051111",
+    "SNSF10.13039/501100001711 320030_141179",
+    "Synapsis Foundation 2017‐PI01",
+    "Swedish Research Council10.13039/501100004359 #LSHM20106#2019‐02397#2017‐00915#2022‐00732",
+    "European Union's Horizon Europe research 101053962",
+    "Swedish State Support for Clinical Research #ALFGBG‐71320",
+    "Alzheimer's Drug Discovery Foundation10.13039/100002565 #201809‐2016862",
+    "Alzheimer's Association10.13039/100000957 #ADSF‐21‐831376‐C#ADSF‐21‐831381‐C#ADSF‐21‐831377‐C",
+    "Stiftelsen för Gamla Tjänarinnor, Hjärnfonden #FO2022‐0270",
+    "European Union's Horizon 2020 research No 860197",
+    "European Union Joint Programme – Neurodegenerative Disease Research JPND2021‐00694",
+    "National Institute for Health and Care Research University College London Hospitals Biomedical Research Centre",
+    "UK Dementia Research Institute at UCL UKDRI‐1003",
+    "senior postdoctoral fellowship #12Y1623N",
+    "Stichting Alzheimer Association #SAO‐FRA 2021/0022",
+    "ZonMw10.13039/501100001826 #733050512#73305095007#10510032120003",
+    "Brain Foundation10.13039/501100000942 FO2018‐0315",
+    "Särfond 31S Research Fund Region Örebro län Sweden AFA 200386",
+    "Health∼Holland, Topsector Life Sciences & Health #LSHM20106",
+    "Edwin Bouw",
+    "Stichting VUmc",
+    "Swedish Alzheimer Foundation #AF‐930351#AF‐939721#AF‐968270",
+    "Hjärnfonden, Sweden #FO2017‐0243#ALZ2022‐0006",
+    "Swedish government and the County Councils #ALFGBG‐715986#ALFGBG‐965240",
+    "European Union Joint Program for Neurodegenerative Disorders JPND2019‐466‐236",
+    "Alzheimer's Association 2021 Zenith Award ZEN‐21‐848495",
+    "Alzheimer's Association 2022‐2025 SG‐23‐1038904 QC"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2025-06-02",
+  "accepted": "2025-08-23",
+  "reference_pmids": [
+    "8346443",
+    "8350998",
+    "38886628",
+    "25988462",
+    "35912085",
+    "37930705",
+    "28898389",
+    "22393530",
+    "31367008",
+    "32460813",
+    "36373324",
+    "32818802",
+    "33148290",
+    "24492349",
+    "27559087",
+    "29562540",
+    "29980228",
+    "10190820",
+    "15324367",
+    "21514249",
+    "24614907",
+    "30853464",
+    "28603768",
+    "31432404",
+    "19833838",
+    "29208658",
+    "33439986",
+    "28325852",
+    "38195725",
+    "25186741",
+    "30407594",
+    "34717010",
+    "23586463",
+    "27141961",
+    "30702894",
+    "37550416",
+    "40595720",
+    "33340485",
+    "39722190",
+    "40665049",
+    "26826436",
+    "21546088",
+    "9070638",
+    "34099706",
+    "33087358",
+    "38458785"
+  ],
+  "tables_count": 1,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "background",
+    "research in context",
+    "materials and methods",
+    "participants and cohorts",
+    "",
+    "csf analysis",
+    "statistical analysis",
+    "pathway enrichment analyses",
+    "results",
+    "cohort demographics",
+    "potential mechanisms underlying protective effects of the",
+    "pre‐amyloid changes in controls carrying the",
+    "",
+    "comparing",
+    "discussion",
+    "conflict of interest statement",
+    "consent statement and ethics approval",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 10051,
+  "converted_at": "2026-04-06T22:37:45.861890+00:00"
+}

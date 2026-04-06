@@ -1,0 +1,217 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03136679",
+      "orgStudyIdInfo": {
+        "id": "017-039"
+      },
+      "organization": {
+        "fullName": "Baylor Research Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Discovery of Novel Biomarkers That Will Lead to the Early Detection of Alzheimer's Disease",
+      "officialTitle": "Discovery of Novel Biomarkers That Will Lead to the Early Detection of Alzheimer's Disease",
+      "acronym": "BVB"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-03-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-11-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-11-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-04-28",
+      "studyFirstSubmitQcDate": "2017-04-28",
+      "studyFirstPostDateStruct": {
+        "date": "2017-05-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Baylor Research Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will perform a targeted metabolic analysis in blood and urine samples from subjects attending the Baylor AT\\&T Memory Center. The aim is to identify novel biomarkers that can distinguish normal aging subjects with no cognitive impairment from those with mild, moderate or severe cognitive impairment associated with Alzheimer's disease. Subjects will also be screened for B-vitamin deficiencies that may correlate with other metabolic biomarkers and Alzheimer's disease.",
+      "detailedDescription": "All subjects will be clinically assessed using standard measures of clinical care. Cognitive function will be assessed by the Montreal Cognitive Assessment (MoCA). Disease severity will be assessed by the Clinical Dementia Rating Scale (CDR). Social function will be assessed by the Functional Activities Questionnaire (FAQ). Based on clinical assessment, subjects will be classified into one of the following groups.\n\n1. Normal (Spouse or Caregiver)\n2. Mild cognitive impairment\n3. Alzheimer's disease A. Mild B. Moderate C. Severe\n\nThe investigators plan to enroll 60 subjects in each group from 1 and 2; 40 subjects in each of the groups 3A and 3B and 20 subjects in group 3C."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Mild Cognitive Impairment",
+        "Alzheimer Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "All samples will be analyzed using a targeted metabolomic platform by liquid chromatography mass spectrometry (LC-MS). Further analysis will include determining 28 metabolite ratios from this data that will indicate activity of specific pathways. In addition, the investigators will analyze plasma samples for levels of vitamin B9 (folate), vitamin B12, vitamin B6, and several other metabolites related to methylation (8 metabolites).\n\nDNA will be extracted from whole blood for genotyping of the following mutations using Taqman® SNP genotyping assays from Life Technologies. This analysis will include genotyping of ApoE4 and SNP's related to folate metabolism."
+      },
+      "enrollmentInfo": {
+        "count": 95,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group 1 Normal",
+          "description": "Spouse or Subject's caregiver. Blood and urine samples will be collected."
+        },
+        {
+          "label": "Mild Cognitive Impairment",
+          "description": "Subjects with MCI: Blood and urine samples will be collected."
+        },
+        {
+          "label": "Alzheimer's disease",
+          "description": "Subjects with Alzheimer's disease A. Mild B. Moderate C. Severe Blood and urine samples will be collected from these three sub-groups."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Discovery of novel biomarkers that will lead to the early detection of Alzheimer's disease.",
+          "description": "The primary goal of this proposal is to identify metabolic biomarkers in plasma and urine that can distinguish normal or mild cognitively impaired subjects from subjects at different severities of AD.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nA. Both Males and females B. Patients at least 40-years of age C. Mild Cognitive Impairment D. Alzheimer 's disease\n\n1. Mild\n2. Moderate\n3. Severe\n\nExclusion Criteria:\n\nA. No recent major surgery within the last 6 months B. Free of any malignant disease C. No chronic renal disease D. No other major neurodegenerative disorders (i.e. Parkinson's disease, multiple sclerosis)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The investigators will aim to consent male and female subjects that are attending the Baylor AT\\&T Memory Center. Patients will be under the care of Dr. Cindy Marshall and Dr. Claudia Padilla.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Baylor AT&T Memory Center",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "18854539",
+          "type": "RESULT",
+          "citation": "Aisen PS, Schneider LS, Sano M, Diaz-Arrastia R, van Dyck CH, Weiner MF, Bottiglieri T, Jin S, Stokes KT, Thomas RG, Thal LJ; Alzheimer Disease Cooperative Study. High-dose B vitamin supplementation and cognitive decline in Alzheimer disease: a randomized controlled trial. JAMA. 2008 Oct 15;300(15):1774-83. doi: 10.1001/jama.300.15.1774."
+        },
+        {
+          "pmid": "15817019",
+          "type": "RESULT",
+          "citation": "Nasreddine ZS, Phillips NA, Bedirian V, Charbonneau S, Whitehead V, Collin I, Cummings JL, Chertkow H. The Montreal Cognitive Assessment, MoCA: a brief screening tool for mild cognitive impairment. J Am Geriatr Soc. 2005 Apr;53(4):695-9. doi: 10.1111/j.1532-5415.2005.53221.x."
+        },
+        {
+          "pmid": "7069156",
+          "type": "RESULT",
+          "citation": "Pfeffer RI, Kurosaki TT, Harrah CH Jr, Chance JM, Filos S. Measurement of functional activities in older adults in the community. J Gerontol. 1982 May;37(3):323-9. doi: 10.1093/geronj/37.3.323."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        },
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

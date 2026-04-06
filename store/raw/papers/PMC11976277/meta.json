@@ -1,0 +1,401 @@
+{
+  "pmid": "40000803",
+  "pmc": "PMC11976277",
+  "doi": "10.1038/s41593-025-01889-3",
+  "title": "Neuronal polyunsaturated fatty acids are protective in ALS/FTD",
+  "journal": "Nature Neuroscience",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Giblin Ashling",
+      "affiliations": [
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK",
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK",
+        "https://ror.org/00tw3jy02grid.42475.300000 0004 0605 769XPresent Address: MRC Laboratory of Molecular Biology, Cambridge, UK"
+      ]
+    },
+    {
+      "name": "Cammack Alexander J.",
+      "affiliations": [
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK",
+        "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+      ]
+    },
+    {
+      "name": "Blomberg Niek",
+      "affiliations": [
+        "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+      ]
+    },
+    {
+      "name": "Anoar Sharifah",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Mikheenko Alla",
+      "affiliations": [
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK",
+        "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+      ]
+    },
+    {
+      "name": "Carcolé Mireia",
+      "affiliations": [
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK",
+        "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+      ]
+    },
+    {
+      "name": "Atilano Magda L.",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Hull Alex",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Shen Dunxin",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Wei Xiaoya",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Coneys Rachel",
+      "affiliations": [
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK",
+        "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+      ]
+    },
+    {
+      "name": "Zhou Lele",
+      "affiliations": [
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK",
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Mohammed Yassene",
+      "affiliations": [
+        "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+      ]
+    },
+    {
+      "name": "Olivier-Jimenez Damien",
+      "affiliations": [
+        "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+      ]
+    },
+    {
+      "name": "Wang Lian Y.",
+      "affiliations": [
+        "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+      ]
+    },
+    {
+      "name": "Kinghorn Kerri J.",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Niccoli Teresa",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Coyne Alyssa N.",
+      "affiliations": [
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University, Baltimore, MA USA",
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Brain Science Institute, Johns Hopkins University, Baltimore, MA USA"
+      ]
+    },
+    {
+      "name": "van der Kant Rik",
+      "affiliations": [
+        "https://ror.org/05grdyy37grid.509540.d0000 0004 6880 3010Alzheimer Center Amsterdam, Amsterdam University Medical Center, Amsterdam, The Netherlands"
+      ]
+    },
+    {
+      "name": "Lashley Tammaryn",
+      "affiliations": [
+        "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+      ]
+    },
+    {
+      "name": "Giera Martin",
+      "affiliations": [
+        "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+      ]
+    },
+    {
+      "name": "Partridge Linda",
+      "affiliations": [
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      ]
+    },
+    {
+      "name": "Isaacs Adrian M.",
+      "affiliations": [
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK",
+        "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+      ]
+    }
+  ],
+  "keywords": [
+    "Amyotrophic lateral sclerosis",
+    "Molecular neuroscience"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/501100002283Alzheimer's Research UK (ARUK)",
+    "https://doi.org/10.13039/100010663EC | EU Framework Programme for Research and Innovation H2020 | H2020 Priority Excellent Science | H2020 European Research Council (H2020 Excellent Science - European Research Council)",
+    "UK Dementia Research Institute Chan Zuckerberg Initiative",
+    "https://doi.org/10.13039/100004410European Molecular Biology Organization (EMBO)",
+    "https://doi.org/10.13039/100000065U.S. Department of Health & Human Services | NIH | National Institute of Neurological Disorders and Stroke (NINDS)NS132836NS123242CoyneAlyssa N.",
+    "Chan Zuckerberg Initiative",
+    "https://doi.org/10.13039/100012126Alzheimer's Research Foundation"
+  ],
+  "data_availability_text": "Data availabilityAll transcriptomic data generated in the present study are deposited in the Genome Expression Omnibus, accession no. GSE255099. All lipidomic data generated from Drosophila brains, i3Neurons and postmortem brains are publicly available for user-friendly exploration in the recently described Neurolipid Atlas (https://neurolipidatlas.nl) and can be found by selecting ‘Isaacs’ as the contributing lab93. Source data are provided with this paper.",
+  "license": "",
+  "received": "2024-01-22",
+  "accepted": "2025-01-07",
+  "reference_pmids": [
+    "21944778",
+    "21944778",
+    "21944779",
+    "21944779",
+    "23393093",
+    "23393093",
+    "23415312",
+    "23415312",
+    "24248382",
+    "24248382",
+    "24129584",
+    "24129584",
+    "24170860",
+    "24170860",
+    "24170096",
+    "24170096",
+    "25103406",
+    "25103406",
+    "24139042",
+    "24139042",
+    "25521377",
+    "25521377",
+    "30765536",
+    "30765536",
+    "32878979",
+    "32878979",
+    "31831332",
+    "31831332",
+    "26998601",
+    "26998601",
+    "24559645",
+    "24559645",
+    "30075745",
+    "30075745",
+    "27112497",
+    "27112497",
+    "31930538",
+    "31930538",
+    "30120348",
+    "30120348",
+    "27059391",
+    "27059391",
+    "29410613",
+    "29410613",
+    "37344230",
+    "37344230",
+    "25023276",
+    "25023276",
+    "16648143",
+    "16648143",
+    "36482247",
+    "36482247",
+    "38424324",
+    "38424324",
+    "29924488",
+    "29924488",
+    "28966121",
+    "28966121",
+    "33637672",
+    "33637672",
+    "34782793",
+    "16892270",
+    "16892270",
+    "32678126",
+    "32678126",
+    "22041902",
+    "22041902",
+    "10866959",
+    "10866959",
+    "32165635",
+    "32165635",
+    "30253170",
+    "30253170",
+    "28399403",
+    "28399403",
+    "25910846",
+    "25910846",
+    "9037020",
+    "9037020",
+    "29367641",
+    "29367641",
+    "24919836",
+    "24919836",
+    "29247199",
+    "29247199",
+    "34396104",
+    "34396104",
+    "34193885",
+    "34193885",
+    "21128082",
+    "21128082",
+    "32106710",
+    "32106710",
+    "31406145",
+    "31406145",
+    "17852010",
+    "17852010",
+    "25387473",
+    "25387473",
+    "29380049",
+    "29380049",
+    "25300936",
+    "25300936",
+    "26308891",
+    "26308891",
+    "26308899",
+    "26308899",
+    "32673563",
+    "32673563",
+    "28743728",
+    "28743728",
+    "33868013",
+    "33868013",
+    "28977441",
+    "28977441",
+    "31851317",
+    "31851317",
+    "24899304",
+    "24899304",
+    "23631861",
+    "23631861",
+    "36418331",
+    "36418331",
+    "33444759",
+    "33444759",
+    "30890562",
+    "30890562",
+    "29997234",
+    "29997234",
+    "27119640",
+    "27119640",
+    "2177403",
+    "2177403",
+    "7760057",
+    "7760057",
+    "2315313",
+    "2315313",
+    "2847054",
+    "2847054",
+    "34616039",
+    "34616039",
+    "32719333",
+    "32719333",
+    "28712846",
+    "28712846",
+    "17435755",
+    "17435755",
+    "21644037",
+    "21644037",
+    "17579875",
+    "17579875",
+    "11675495",
+    "11675495",
+    "17344386",
+    "17344386",
+    "25692475",
+    "25692475",
+    "19557170",
+    "19557170",
+    "16606683",
+    "16606683",
+    "33168090",
+    "33168090",
+    "36459969",
+    "36459969",
+    "34859676",
+    "34859676",
+    "34637296",
+    "34637296",
+    "36355113",
+    "36355113",
+    "35115730",
+    "35115730",
+    "34321318",
+    "34321318",
+    "37639327",
+    "37639327"
+  ],
+  "tables_count": 0,
+  "figures_count": 14,
+  "sections_present": [
+    "abstract",
+    "main",
+    "results",
+    "fatty acid and lipid metabolism pathways are decreased in c9 als/ftd",
+    "altered phospholipid saturation in",
+    "altered phospholipid saturation in ftld postmortem frontal cortex",
+    "promoting neuronal fatty acid desaturation increases c9 fly survival",
+    "discussion",
+    "methods",
+    "ethics statement",
+    "fatty acid supplementation to",
+    "lifespan assays",
+    "assessment of",
+    "cold-stress recovery assay",
+    "rt–qpcr",
+    "dpr msd immunoassays",
+    "protein preparation of i",
+    "running msd assays",
+    "differentiation of i",
+    "(g",
+    "lentiviral production",
+    "targeted lipidomics of",
+    "sample collection",
+    "targeted lipidomic measurements",
+    "analyses of targeted lipidomic datasets",
+    "filtering and normalizations",
+    "fold-changes in",
+    "fold-changes in i",
+    "fold-changes and unsaturation indices in postmortem brain samples",
+    "glutamate-induced excitotoxicity assays in ips cell-sns",
+    "subcloning for",
+    "excitotoxicity assays",
+    "statistics and reproducibility",
+    "reporting summary",
+    "online content",
+    "supplementary information",
+    "source data",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 16738,
+  "converted_at": "2026-04-06T22:36:50.734841+00:00"
+}

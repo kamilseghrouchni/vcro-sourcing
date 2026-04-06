@@ -1,0 +1,193 @@
+{
+  "pmid": "31603904",
+  "pmc": "PMC6788685",
+  "doi": "10.1371/journal.pmed.1002931",
+  "title": "Characterization of Parkinson’s disease using blood-based biomarkers: A multicohort proteomic analysis",
+  "journal": "PLoS Medicine",
+  "year": 2019,
+  "authors": [
+    {
+      "name": "Posavi Marijan",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Diaz-Ortiz Maria",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Liu Benjamine",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Swanson Christine R.",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America",
+        "National Institute of Neurological Disease and Stroke, National Institutes of Health, Bethesda, Maryland, United States of America"
+      ]
+    },
+    {
+      "name": "Skrinak R. Tyler",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Hernandez-Con Pilar",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Amado Defne A.",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Fullard Michelle",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Rick Jacqueline",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Siderowf Andrew",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Weintraub Daniel",
+      "affiliations": [
+        "Department of Psychiatry, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "McCluskey Leo",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Trojanowski John Q.",
+      "affiliations": [
+        "Department of Pathology and Laboratory Medicine, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Dewey Richard B.",
+      "affiliations": [
+        "Department of Neurology and Neurotherapeutics, Clinical Center for Movement Disorders at the University of Texas Southwestern Medical Center, Dallas, Texas, United States of America"
+      ]
+    },
+    {
+      "name": "Huang Xuemei",
+      "affiliations": [
+        "Department of Neurology, Penn State College of Medicine, Hershey, Pennsylvania, United States of America"
+      ]
+    },
+    {
+      "name": "Chen-Plotkin Alice S.",
+      "affiliations": [
+        "Department of Neurology, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100000065National Institute of Neurological Disorders and StrokeUO1 NS082134http://orcid.org/0000-0002-3387-2038Chen-PlotkinAlice S.",
+    "http://dx.doi.org/10.13039/100000065National Institute of Neurological Disorders and StrokeUO1 NS097056http://orcid.org/0000-0002-3387-2038Chen-PlotkinAlice S.",
+    "http://dx.doi.org/10.13039/100000065National Institute of Neurological Disorders and StrokeP50 NS053488http://orcid.org/0000-0002-3387-2038Chen-PlotkinAlice S.",
+    "http://dx.doi.org/10.13039/100000065National Institute of Neurological Disorders and StrokeUO1 082148http://orcid.org/0000-0002-6615-5035DeweyRichard B.Jr",
+    "http://dx.doi.org/10.13039/100000065National Institute of Neurological Disorders and StrokeP50 NS053488http://orcid.org/0000-0003-0633-7168WeintraubDaniel",
+    "National Institute of Neurological Disorders and Stroke (US)P50 NS053488TrojanowskiJohn Q."
+  ],
+  "data_availability_text": "",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "received": "2019-04-04",
+  "accepted": "2019-09-05",
+  "reference_pmids": [
+    "8431132",
+    "1933245",
+    "15668415",
+    "28793971",
+    "29076399",
+    "25442938",
+    "30111645",
+    "23979011",
+    "21165148",
+    "29168904",
+    "21520231",
+    "26442452",
+    "27113479",
+    "23139410",
+    "22022604",
+    "24395722",
+    "21060094",
+    "21069833",
+    "21335570",
+    "18546326",
+    "10704764",
+    "12586785",
+    "12368809",
+    "18976947",
+    "19171566",
+    "20106687",
+    "29233786",
+    "21807098",
+    "19524466",
+    "21888951",
+    "25064373",
+    "29878075"
+  ],
+  "tables_count": 1,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "cohorts and sample collection",
+    "upenn udall discovery cohort",
+    "multisite pdbp replication cohort",
+    "ethics statement for human participant research",
+    "pooled reference samples",
+    "biofind cohort samples",
+    "protein quantification",
+    "preprocessing and qc of somascan protein data",
+    "data processing and cross-sectional statistical analyses",
+    "nomination of proteins that differed in pd versus nc group",
+    "hierarchical clustering and heatmap generation",
+    "stability selection ranking",
+    "replication cohort analyses",
+    "testing the effects of levodopa therapy",
+    "associations with cognition",
+    "pd progression analysis",
+    "linear mixed-effects model analysis",
+    "survival analysis",
+    "results",
+    "discovery screen for plasma proteins differentiating pd from nc",
+    "replication of biomarker associations with pd in the pdbp cohort",
+    "biomarker measures in als, a neurodegenerative disease with motor and cognitive features",
+    "preanalytical variability and biomarker measures",
+    "ghr, acy1, and omd as predictors of cognitive decline",
+    "discussion",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 10399,
+  "converted_at": "2026-04-06T22:39:56.932949+00:00"
+}

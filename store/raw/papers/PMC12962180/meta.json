@@ -1,0 +1,270 @@
+{
+  "pmid": "41581145",
+  "pmc": "PMC12962180",
+  "doi": "10.1016/j.celrep.2025.116906",
+  "title": "C9orf72 in myeloid cells prevents an inflammatory response to microbial glycogen",
+  "journal": "Cell reports",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "McCourt Blake",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lemr Katelyn",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chakrabarti Shinjon",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Woidke Elizabeth",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ramaiah Sara",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Singh Vaidhvi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sangwan Naseer",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Brown J. Mark",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cominelli Fabio",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rodriguez-Palacios Alex",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burberry Aaron",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "Amyotrophic lateral sclerosis",
+    "Frontotemporal dementia",
+    "C9ORF72",
+    "gut microbiome",
+    "neural inflammation"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data and code availabilityMetatranscriptomic data is deposited in BioProject ID: PRJNA1269459 (Figure S2), 16S rDNA sequencing data for the study is deposited in PRJNA1258957 (Figure S9) and PRJNA1157399 (Figure S17), single cell RNA sequencing is deposited in PRJNA1263499 (Figure S15) and is publicly available as of the date of publication.De-identified human clinical and demographic data are reported in Table S3.Original western blot images, FACE images and DNA PCR images have been deposited at Mendeley at DOI: 10.17632/jkbxpbgf63.1 and are publicly available as of the date of publication. Microscopy data reported in this paper will be shared by the lead contact upon request.All original code is publicly available at https://github.com/burberrylab/mccourt2026 as of the date of publication.Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "12810805",
+    "32515902",
+    "28105640",
+    "27378085",
+    "23931993",
+    "22406228",
+    "28522837",
+    "31810826",
+    "30926684",
+    "36511398",
+    "34380747",
+    "32421156",
+    "22406228",
+    "22875087",
+    "33168078",
+    "26481318",
+    "21944778",
+    "24166615",
+    "23720273",
+    "22154785",
+    "34025358",
+    "21944778",
+    "24290757",
+    "23918658",
+    "21944779",
+    "32284607",
+    "25712133",
+    "24011653",
+    "30337192",
+    "28192553",
+    "31324897",
+    "30465257",
+    "27540165",
+    "16732273",
+    "22720079",
+    "15056468",
+    "25685708",
+    "22941226",
+    "37636591",
+    "31665631",
+    "38907103",
+    "26192745",
+    "28973548",
+    "36347843",
+    "32943739",
+    "32246039",
+    "31559531",
+    "16497592",
+    "27231050",
+    "36864029",
+    "21960522",
+    "15260992",
+    "29051531",
+    "32791113",
+    "27912057",
+    "29065369",
+    "35189854",
+    "33135936",
+    "31330533",
+    "32483373",
+    "26989253",
+    "27412785",
+    "38295187",
+    "30283455",
+    "27308305",
+    "27669650",
+    "30404931",
+    "30700431",
+    "2463083",
+    "17873879",
+    "20301758",
+    "37231261",
+    "34133945",
+    "33545050",
+    "32848248",
+    "32303654",
+    "33902310",
+    "33929933",
+    "21873606",
+    "30692986",
+    "21808975",
+    "38295187",
+    "33632058",
+    "33812000",
+    "23754387",
+    "31749677",
+    "29515192",
+    "32446205",
+    "31647549",
+    "31180318",
+    "38684907",
+    "18347038",
+    "31750921",
+    "33818222",
+    "34050328",
+    "24192039",
+    "31726030",
+    "31607556",
+    "28542929",
+    "35680890",
+    "32004804",
+    "25171403",
+    "16535575",
+    "33531377",
+    "34408160",
+    "38719797",
+    "36634180",
+    "36253620",
+    "29804833",
+    "38295187",
+    "29491439",
+    "23630581",
+    "38374343",
+    "28539477",
+    "33573862",
+    "37947418",
+    "24695404",
+    "33944776",
+    "25609793",
+    "24642063",
+    "29288674",
+    "28417372",
+    "21222077",
+    "22753088",
+    "2440973",
+    "35042561",
+    "34062119",
+    "31066453"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "c9orf72 deficient mice die prematurely at case western reserve university.",
+    "identification of bacteria that elicit c9orf72-dependent cytokine production.",
+    "glycogen synthesis is enriched in fecal bacteria from pro-inflammatory environments.",
+    "bacterial glycogen promotes c9orf72-dependent cytokine release.",
+    "short glucan chain lengths characterize inflammatory forms of glycogen.",
+    "p. merdae promotes c9orf72-dependent systemic and neural inflammation in mice.",
+    "bacterial glycogen accumulates in c9orf72-/- lamina propria myeloid cells.",
+    "oral αamylase mitigates systemic and neural inflammation in c9orf72-/- mice.",
+    "gut microbes and metabolites correlate with neuroinflammation in c9orf72-/- mice.",
+    "inflammatory forms of glycogen exist in the human gut.",
+    "discussion",
+    "limitations of the study",
+    "resource availability",
+    "lead contact",
+    "materials availability",
+    "star★methods",
+    "experimental model and study participant details",
+    "animals",
+    "human fecal samples",
+    "bacteria culture",
+    "macrophage primary cell culture",
+    "method details",
+    "genotyping and bacteria pcr",
+    "macrophage stimulation and cytokine release analysis",
+    "tissue dissociation for flow cytometry",
+    "western blot",
+    "gut tissue processing and periodic acid schiff staining",
+    "motor function",
+    "blood measures",
+    "feces 16s rrna amplicon sequencing",
+    "feces metatranscriptomics",
+    "glycogen extraction",
+    "iodine assay and spectra",
+    "fluorophore-assisted carbohydrate electrophoresis (face)",
+    "electron microscopy",
+    "metabolomics",
+    "single cell rna sequencing",
+    "quantification and statistical analysis",
+    "supplementary material",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 16336,
+  "converted_at": "2026-04-06T22:39:24.038137+00:00"
+}

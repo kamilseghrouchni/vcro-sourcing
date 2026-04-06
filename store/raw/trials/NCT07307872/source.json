@@ -1,0 +1,271 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07307872",
+      "orgStudyIdInfo": {
+        "id": "ST0067"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-00585",
+          "type": "OTHER",
+          "domain": "BASEC-ID"
+        }
+      ],
+      "organization": {
+        "fullName": "Amoneta Diagnostics SAS",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Biomarker-chip Assay in Preserved Red Blood Cells for the Diagnosis of Alzheimer's Disease",
+      "officialTitle": "A Biomarker-chip Assay in Preserved Red Blood Cells for the Diagnosis of Alzheimer's Disease",
+      "acronym": "ADCHIP"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-03-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-12-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-12-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-08",
+      "studyFirstSubmitQcDate": "2025-12-19",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Amoneta Diagnostics SAS",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Centre Hospitalier Universitaire Vaudois",
+          "class": "OTHER"
+        },
+        {
+          "name": "Leenaards Fondation, Switzerland",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The ADCHIP study (ST0067) is a non-interventional, monocentric, prospective study conducted by Amoneta Diagnostics and the Leenaards Memory Center (Lausanne, Switzerland). Its main objective is to develop and validate a microfluidic chip-based protocol that stabilizes human red blood cells for several weeks, enabling subsequent testing of blood biomarkers for Alzheimer's disease (AD) diagnosis.\n\nThis proof-of-performance study will include 150 well-characterized participants divided equally into three groups: 50 patients with Alzheimer's disease (AD), 50 with non-Alzheimer neurodegenerative diseases (NAD, including Parkinson's disease and frontotemporal dementia), and 50 healthy controls (HC).\n\nThe primary objective is to assess the diagnostic performance (sensitivity and specificity) of two main blood-based biomarkers-amyloid-β (Aβ) and protein kinase C (PKC)-measured using Amoneta's proprietary fluorescent assays and chip-cytometry technology. The secondary objective is to evaluate emerging biomarkers (proteins, RNA signatures, metabolomic and lipidomic profiles) for Alzheimer's disease detection.\n\nNo therapeutic intervention will be administered; only biological samples (blood and urine) will be collected. Results will be compared with existing clinical, imaging, and cerebrospinal fluid (CSF) biomarkers. The study aims to provide a reliable, non-invasive, and affordable blood test for early Alzheimer's diagnosis, with potential applications for patient stratification and therapeutic monitoring in future clinical trials.",
+      "detailedDescription": "Alzheimer's disease (AD) is the most common form of dementia, affecting approximately 35 million people worldwide. While several symptomatic treatments are available, there is currently no cure for advanced forms of AD. Early and accurate diagnosis is therefore essential, as it can help delay disease progression and improve patient management. Current diagnostic tools-clinical and neuropsychological assessments combined with neuroimaging and cerebrospinal fluid (CSF) biomarkers-are costly, invasive, and not easily accessible for large-scale screening. There is a pressing medical need for a simple, non-invasive, and reliable blood-based diagnostic test for AD.\n\nThe ADCHIP study (ST0067) aims to develop and validate a chip-based microfluidic assay that stabilizes human red blood cells for extended periods (weeks to months) to enable subsequent detection of blood biomarkers for Alzheimer's disease. The study is conducted under the Eurostars program (Grant E!9748 ADCHIP) and sponsored by Amoneta Diagnostics, in collaboration with Zellkraftwerk GmbH and the Leenaards Memory Center (CLM) at Lausanne University Hospital (CHUV).\n\nThis monocentric, non-interventional, prospective study will enroll 150 participants divided equally into three groups:\n\n50 patients with Alzheimer's disease (AD),\n\n50 patients with non-Alzheimer neurodegenerative disorders (NAD: frontotemporal dementia or Parkinson's disease), and\n\n50 healthy controls (HC).\n\nThe primary objective is to evaluate the diagnostic performance of two proprietary Amoneta blood biomarkers-amyloid-β (Aβ) and protein kinase C (PKC)-detected in red blood cells using specific fluorescent probes and chip-cytometry technology. The secondary objective is to assess the diagnostic accuracy of emerging biomarkers, including candidate proteins, RNA signatures, and metabolomic/lipidomic profiles.\n\nParticipants will undergo a single study visit during which biological samples (blood and urine) will be collected. Pre-selection and diagnostic data (neuropsychological tests, imaging, and CSF biomarkers) will be obtained retrospectively when available. No investigational drug or medical device will be administered, and no follow-up visits are planned. The total duration of subject enrollment is approximately 22 months.\n\nAnalytical methods include flow cytometry and chip-cytometry for cellular biomarkers, ELISA for protein biomarkers, mass spectrometry for metabolomic/lipidomic signatures, and qPCR or NGS-based assays for RNA biomarkers. All samples will be collected and stored under standardized conditions for further analysis.\n\nThe primary outcome measure is the binary diagnostic classification (Yes/No for Alzheimer's disease) derived from the combined sensitivity and specificity of the blood biomarkers. Results will be compared with standard clinical diagnostic tools, including cognitive scores (e.g., MoCA, RLRI-16), structural MRI, and CSF biomarker results (Aβ42, total tau, phosphorylated tau).\n\nPotential risks for participants are minimal and limited to standard blood and urine collection procedures (e.g., minor pain, bruising, or transient discomfort). MRI procedures are non-invasive and will only be performed if indicated by clinical necessity. All participants (or legal representatives when applicable) will provide written informed consent prior to inclusion. The study complies with the Declaration of Helsinki, ICH-GCP, and national ethical and regulatory requirements.\n\nThe ADCHIP study is expected to generate important new knowledge by validating a novel, rapid, and affordable blood-based diagnostic test for Alzheimer's disease. Such a test could substantially reduce diagnostic costs, enable population screening using stabilized blood samples, and improve patient stratification for therapeutic trials. Furthermore, the validated biomarkers, particularly Aβ and PKC, may serve as valuable tools for monitoring disease progression and assessing the efficacy of future AD therapeutics."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer's Disease (AD)",
+        "Neurodegenerative Disease",
+        "Dementia",
+        "Frontotemporal Dementia (FTD)"
+      ],
+      "keywords": [
+        "Blood biomarkers",
+        "Alzheimer's disease diagnosis",
+        "Amyloid-beta",
+        "Protein kinase C (PKC)",
+        "Microfluidic chip",
+        "Chip-cytometry",
+        "Red Blood cell stabilization",
+        "Non-invasive diagnosis test",
+        "Early detection of Alzkeimer's disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Whole blood, plasma, serum, PBMCs, and urine samples collected for the evaluation of blood-based and circulating biomarkers (Aβ, PKC, proteins, RNA, and metabolomic/lipidomic signatures)."
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group 1 - Alzheimer's Disease (AD)",
+          "description": "Participants meeting clinical and biomarker criteria for Alzheimer's disease, with compatible neuroimaging and/or CSF biomarker profiles."
+        },
+        {
+          "label": "Group 2 - Non-Alzheimer Neurodegenerative Diseases (NAD)",
+          "description": "Participants with frontotemporal dementia (FTD) or Parkinson's disease (PD), negative for AD CSF biomarkers."
+        },
+        {
+          "label": "Group 3 - Healthy Controls (HC)",
+          "description": "Cognitively normal individuals, with normal neuropsychological testing and neuroimaging, and negative (if available) CSF biomarkers."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Diagnostic performance of Aβ and PKC blood biomarkers for Alzheimer's disease detection",
+          "description": "Quantitative assessment of the sensitivity and specificity of amyloid-β (Aβ) and protein kinase C (PKC) biomarkers measured in stabilized red blood cells using Amoneta's fluorescent microfluidic chip technology. The diagnostic result will be expressed as a binary outcome (Yes/No for Alzheimer's disease) and compared with standard clinical, neuropsychological, neuroimaging, and CSF diagnostic criteria.",
+          "timeFrame": "Immediately after the biological sample collection (single visit per participant)."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Diagnostic performance of emerging circulating biomarkers for Alzheimer's disease detection",
+          "description": "Evaluation of additional candidate biomarkers (protein markers, RNA signatures, metabolomic and lipidomic profiles) in blood and urine samples. Sensitivity, specificity, and overall diagnostic accuracy will be quantified and compared to established clinical and CSF diagnostic methods.",
+          "timeFrame": "Immediately after biological sample collection (single visit per participant)."
+        },
+        {
+          "measure": "Comparative analysis between blood-based biomarkers and standard Alzheimer's disease diagnostic tools",
+          "description": "Comparison of biomarker-based diagnostic performance (Aβ, PKC, and emerging biomarkers) with conventional diagnostic parameters, including cognitive scores (MoCA, RLRI-16), neuroimaging (MRI and PET), and CSF biomarkers (Aβ42, Tau, p-Tau).",
+          "timeFrame": "Immediately after the data analysis following sample collection."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nGeneral (all groups):\n\n* Male or female participants aged 50 to 85 years.\n* Signed and dated written informed consent (or consent from a legally authorized representative when applicable).\n\nAlzheimer's Disease (AD) Group:\n\n* Clinical diagnosis of Alzheimer's disease with a gradual and progressive decline in memory over at least 6 months.\n* Objective evidence of an amnestic syndrome of the hippocampal type (based on RLRI-16, MoCA, or equivalent tests).\n* Montreal Cognitive Assessment (MoCA) score between 15 and 23 (inclusive).\n* Structural MRI compatible with a typical AD diagnosis (3D volumetric MRI required; amyloid PET if available).\n* Retrospective CSF biomarker results showing at least 2 of 3 markers positive (Aβ1-42, total Tau, phosphorylated Tau).\n* Patients with familial AD forms (mutations in APP, PSEN1, or PSEN2) may also be included.\n\nNon-Alzheimer Neurodegenerative Disease (NAD) Group:\n\n* 25 patients with frontotemporal dementia (FTD) and 25 patients with Parkinson's disease (PD) responsive to L-DOPA.\n* Retrospective CSF biomarker results showing negative or non-AD profiles (≥2 of 3 markers negative).\n* Neuroimaging compatible with respective diagnoses:\n\nFTD: medial temporal atrophy and frontal atrophy score ≥2; MoCA 15-23. PD: evidence of dopaminergic neuron loss in substantia nigra; MoCA \\>23.\n\nHealthy Control (HC) Group:\n\n* Normal cognitive status (MoCA \\>23 and normal performance on RLRI-16 or equivalent neuropsychological tests).\n* Normal structural MRI (and normal PET scan, if available).\n* Negative CSF biomarkers (if available).\n\nExclusion Criteria:\n\nGeneral (all groups):\n\n* Neutropenia (neutrophils \\<1,500/mm³) or thrombocytopenia (platelets \\<100,000/mm³).\n* Education level below primary school.\n* History of psychiatric disorders (schizophrenia, psychosis).\n* Vascular dementia or mixed dementia.\n* Active infectious or chronic inflammatory diseases affecting blood cell function.\n* Active cancer or cancer under treatment, or treatment stopped within the last 3 months.\n* Use of medications interfering with cognitive function or biomarkers of interest.\n* Major sensory deficits (visual or auditory) affecting cognitive testing.\n* Epilepsy.\n* Known contraindication to MRI (e.g., stent or metallic implant).\n\nGroup-specific exclusions:\n\n* AD group: Exclude vascular dementia, Lewy body dementia, mixed dementia, or any non-AD neurodegenerative disease.\n* NAD group: Exclude Alzheimer's disease, vascular, or mixed dementia.\n* HC group: Exclude any neurodegenerative disease, cognitive disorder, or abnormal cognitive testing.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The study population consists of 150 adults aged 50 to 85 years recruited at the Leenaards Memory Center (CHUV, Lausanne, Switzerland). Participants are divided equally into three groups:\n\n* Alzheimer's disease (AD) group: 50 patients diagnosed with Alzheimer's disease according to clinical, neuropsychological, neuroimaging, and CSF biomarker criteria.\n* Non-Alzheimer neurodegenerative disease (NAD) group: 50 patients with frontotemporal dementia (FTD) or Parkinson's disease (PD) responsive to L-DOPA, negative for AD biomarkers.\n* Healthy control (HC) group: 50 cognitively normal individuals with normal MRI and neuropsychological profiles.\n\nParticipants are recruited during routine clinical evaluations or follow-up visits. Healthy controls are recruited through local advertisement within the hospital network. All subjects (or their legal representatives) provide written informed consent prior to participation.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jean-François Démonet, MD, PhD",
+          "affiliation": "Leenaards Memory Center (CLM), Lausanne University Hospital (CHUV)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Leenaards Memory Center - CHUV",
+          "city": "Lausanne",
+          "zip": "1011",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.516,
+            "lon": 6.63282
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D057180",
+          "term": "Frontotemporal Dementia"
+        },
+        {
+          "id": "D058225",
+          "term": "Plaque, Amyloid"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D057174",
+          "term": "Frontotemporal Lobar Degeneration"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

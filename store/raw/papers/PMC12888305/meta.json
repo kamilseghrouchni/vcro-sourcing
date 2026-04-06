@@ -1,0 +1,326 @@
+{
+  "pmid": "41535902",
+  "pmc": "PMC12888305",
+  "doi": "10.1186/s13195-025-01952-y",
+  "title": "Double cutoff strategies for plasma pTau217 to predict Tau PET positivity across multiple assay platforms: Tau-enriched and Tau-scarce cohorts for cost-effective clinical use",
+  "journal": "Alzheimer's Research & Therapy",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Kang Heekyoung",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Gu Yuna",
+      "affiliations": [
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Alzheimer’s Disease Convergence Research Center, Samsung Medical Center, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea",
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Health Sciences and Technology, SAIHST, Sungkyunkwan University, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Lee Jungah",
+      "affiliations": [
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Alzheimer’s Disease Convergence Research Center, Samsung Medical Center, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Yoon Soyeon",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Medicinaregatan 3, 413 90, Göteborg, 40530 Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Blå stråket 7, 413 45, Göteborg, 42180 Sweden",
+        "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Institute of Neurology, Queen Square, London, WC1N 3BG UK",
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201UK Dementia Research Institute at UCL, Queen Square, London, WC1N 3BG UK",
+        "https://ror.org/00q4vv597grid.24515.370000 0004 1937 1450Hong Kong Center for Neurodegenerative Diseases, Clear Water Bay, Hong Kong, 53792 P.R. China",
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, University of Wisconsin School of Medicine and Public Health, University of Wisconsin-Madison, 600 Highland Ave, Madison, WI 53792 USA"
+      ]
+    },
+    {
+      "name": "Blennow Kaj",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Medicinaregatan 3, 413 90, Göteborg, 40530 Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Blå stråket 7, 413 45, Göteborg, 42180 Sweden",
+        "https://ror.org/02mh9a093grid.411439.a0000 0001 2150 9058Paris Brain Institute, ICM, Pitié-Salpêtrière Hospital, Sorbonne University, 47 Boulevard de l‘Hôpital, Paris, 75013 France",
+        "https://ror.org/04c4dkn09grid.59053.3a0000 0001 2167 9639Neurodegenerative Disorder Research Center, Division of Life Sciences and Medicine, and Department of Neurology, Institute on Aging and Brain Disorders, University of Science and Technology of China and First Affiliated Hospital of USTC, 96 Jinzhai Road, Hefei, Anhui 230026 P.R. China"
+      ]
+    },
+    {
+      "name": "Gonzalez-Ortiz Fernando",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Medicinaregatan 3, 413 90, Göteborg, 40530 Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Blå stråket 7, 413 45, Göteborg, 42180 Sweden"
+      ]
+    },
+    {
+      "name": "Ashton Nicholas J.",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Medicinaregatan 3, 413 90, Göteborg, 40530 Sweden",
+        "https://ror.org/023jwkg52Banner Alzheimer’s Institute and University of Arizona, Phoenix, AZ 85006 USA",
+        "https://ror.org/04gjkkf30grid.414208.b0000 0004 0619 8759Banner Sun Health Research Institute, Sun City, AZ 85351 USA",
+        "https://ror.org/04zn72g03grid.412835.90000 0004 0627 2891Centre for Age-Related Medicine, Stavanger University Hospital, Gerd-Ragna Bloch Thorsens gate 8, Stavanger, 4011 Norway"
+      ]
+    },
+    {
+      "name": "Day Theresa A.",
+      "affiliations": [
+        "https://ror.org/01qat3289grid.417540.30000 0000 2220 2544Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN 46285 USA"
+      ]
+    },
+    {
+      "name": "Weiner Michael W.",
+      "affiliations": [
+        "https://ror.org/043mz5j54grid.266102.10000 0001 2297 6811Department of Radiology and Biomedical Imaging, University of California, San Francisco, CA 94143 USA"
+      ]
+    },
+    {
+      "name": "Shin Daeun",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Yim Sohyun",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Seonghyeon",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Park Hee Kyung",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Chun Min Young",
+      "affiliations": [
+        "https://ror.org/01wjejq96grid.15444.300000 0004 0470 5454Department of Neurology, Yonsei University College of Medicine, 145-1, Jayang-ro, Gwangjin-gu, Seoul, 05025 Republic of Korea",
+        "https://ror.org/04sze3c15grid.413046.40000 0004 0439 4086Department of Neurology, Yongin Severance Hospital, Yonsei University Health System, 225 Geumhak-ro, Cheoin-gu, Yongin-si, Gyeonggi-do 17046 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Lee Eun Hye",
+      "affiliations": [
+        "https://ror.org/05gxnyn08grid.257413.60000 0001 2287 3919Department of Radiology and Imaging Sciences, Indiana University School of Medicine, 355 W 16th St, Indianapolis, IN 46202 USA",
+        "https://ror.org/05gxnyn08grid.257413.60000 0001 2287 3919Indiana Alzheimer Disease Research Center, Indiana University School of Medicine, 355 W 16th St, Indianapolis, IN 46202 USA"
+      ]
+    },
+    {
+      "name": "Kim Jun Pyo",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Hee Jin",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea",
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Alzheimer’s Disease Convergence Research Center, Samsung Medical Center, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea",
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Neuroscience Center, Samsung Medical Center, 81 Irwon-ro, Gangnam-gu, Seoul 06351 Republic of Korea",
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Digital Health, SAIHST, Sungkyunkwan University, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Na Duk L.",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea",
+        ""
+      ]
+    },
+    {
+      "name": "Jang Hyemin",
+      "affiliations": [
+        "https://ror.org/02c2f8975grid.267370.70000 0004 0533 4667Department of Neurology, Asan Medical Center, University of Ulsan College of Medicine, 88 Olympic ro 43 gil, Songpa gu, Seoul, 05505 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Seo Sang Won",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea",
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Alzheimer’s Disease Convergence Research Center, Samsung Medical Center, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea",
+        "",
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Health Sciences and Technology, SAIHST, Sungkyunkwan University, 81 Irwon-ro, Gangnam-gu, Seoul, 06351 Republic of Korea",
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Intelligent Precision Healthcare Convergence, Sungkyunkwan University, 2066 Seobu-ro, Jangan-gu, Suwon, Gyeonggi-do 16419 Republic of Korea"
+      ]
+    }
+  ],
+  "keywords": [
+    "Plasma pTau217",
+    "Tau PET prediction",
+    "Double cutoff strategy",
+    "Diagnostic accuracy",
+    "DMT eligibility"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "the Swedish Research Council",
+    "the European Union’s Horizon Europe",
+    "Swedish State Support for Clinical Research",
+    "Alzheimer’s Drug Discovery Foundation",
+    "AD Strategic Fund and the Alzheimer’s Association",
+    "Bluefield Project, Cure Alzheimer’s Fund, Olav Thon Foundation, Erling-Persson Family Foundation, Familjen Rönströms Stiftelse, Stiftelsen för Gamla Tjänarinnor, Hjärnfonden",
+    "EU Horizon 2020",
+    "EU Joint Programme – Neurodegenerative Disease Research",
+    "National Institute for Health and Care Research University College London Hospitals Biomedical Research Centre, and the UK Dementia Research Institute at UCL",
+    "he Swedish Research Council",
+    "the Swedish Alzheimer Foundation",
+    "Hjärnfonden, Sweden",
+    "the Swedish state under the agreement between the Swedish government and the County Councils, the ALF-agreement",
+    "the European Union Joint Program for Neurodegenerative Disorders",
+    "the Alzheimer’s Association 2021 Zenith Award",
+    "the Alzheimer’s Association 2022-2025 Grant",
+    "the Korea Dementia Research Project through the Korea Dementia Research Center (KDRC)",
+    "the Ministry of Health & Welfare and Ministry of Science and ICT, Republic of Korea",
+    "the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT)",
+    "Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT)",
+    "Future Medicine 20*30 Project of the Samsung Medical Center",
+    "Korea National Institute of Health research project",
+    "the Korea Health Technology R&D Project through the Korea Health Industry Development Institute (KHIDI), funded by the Ministry of Health & Welfare",
+    "Henrik Zetterberg is a Wallenberg Scholar supported by grants from the Swedish Research Council"
+  ],
+  "data_availability_text": "Data availabilityThe datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+  "license": "",
+  "received": "2025-11-27",
+  "accepted": "2025-12-30",
+  "reference_pmids": [
+    "40357140",
+    "40357140",
+    "12130773",
+    "12130773",
+    "38484190",
+    "38484190",
+    "40155777",
+    "40155777",
+    "36449413",
+    "36449413",
+    "29895964",
+    "29895964",
+    "37803386",
+    "37803386",
+    "37095250",
+    "37095250",
+    "35710952",
+    "40016526",
+    "40016526",
+    "37202517",
+    "37202517",
+    "39625101",
+    "40413031",
+    "40413031",
+    "36456833",
+    "36456833",
+    "33712071",
+    "33712071",
+    "39711334",
+    "39711334",
+    "40205199",
+    "40205199",
+    "36789483",
+    "36789483",
+    "39907189",
+    "36745413",
+    "36745413",
+    "38486040",
+    "38486040",
+    "39575854",
+    "39575854",
+    "39907306",
+    "39907306",
+    "39068545",
+    "39068545",
+    "37653254",
+    "37653254",
+    "38252443",
+    "38252443",
+    "36087307",
+    "36087307",
+    "39315862",
+    "39315862",
+    "29420472",
+    "29420472",
+    "38471397",
+    "38471397",
+    "21514249",
+    "21514250",
+    "25443857",
+    "25443857",
+    "20592901",
+    "20592901",
+    "33971965",
+    "33971965",
+    "36096822",
+    "36096822",
+    "32250387",
+    "32250387",
+    "32499247",
+    "32499247",
+    "39179903",
+    "39179903",
+    "26194311",
+    "26194311",
+    "28587897",
+    "28587897",
+    "38367651",
+    "38367651",
+    "30475770",
+    "30475770",
+    "36357681",
+    "36357681",
+    "30326496",
+    "30326496",
+    "33451357",
+    "33451357",
+    "25162885",
+    "25162885",
+    "32246036",
+    "32246036",
+    "37198279",
+    "37198279",
+    "33400463",
+    "40008832",
+    "40008832",
+    "37220625",
+    "37220625",
+    "34838239",
+    "34838239"
+  ],
+  "tables_count": 3,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "study population",
+    "aβ pet acquisition and definition of aβ pet positivity",
+    "tau pet data acquisition",
+    "quantitative analysis of tau pet and definition of tau pet positivity",
+    "plasma collection and processing",
+    "cost-based evaluation of misclassification under different ptau217 cutoff strategies",
+    "statistical analysis",
+    "results",
+    "baseline characteristics of the study population",
+    "single cutoff performance in predicting tau pet positivity",
+    "double cutoff strategy for predicting tau pet positivity",
+    "cost-sensitive evaluation of single vs. double cutoff strategies",
+    "discussion",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10366,
+  "converted_at": "2026-04-06T22:39:07.413192+00:00"
+}

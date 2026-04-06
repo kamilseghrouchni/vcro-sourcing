@@ -1,0 +1,156 @@
+{
+  "pmid": "41240282",
+  "pmc": "PMC12619728",
+  "doi": "10.1007/s11306-025-02372-7",
+  "title": "Multi-marker discovery for mild cognitive impairment in metabolomics using machine learning with a global surrogate model via partial least squares",
+  "journal": "Metabolomics",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Tatara Yota",
+      "affiliations": [
+        "https://ror.org/02syg0q74grid.257016.70000 0001 0673 6172Department of Stress Response Science, Biomedical Research Center, Graduate School of Medicine, Hirosaki University, 5 Zaifu-cho, Hirosaki, Aomori 036-8562 Japan"
+      ]
+    },
+    {
+      "name": "Yamamoto Hiroyuki",
+      "affiliations": [
+        "",
+        "https://ror.org/02syg0q74grid.257016.70000 0001 0673 6172Department of Metabolomics Innovation, Graduate School of Medicine, Hirosaki University, 5 Zaifu-cho, Hirosaki, Aomori 036-8562 Japan"
+      ]
+    },
+    {
+      "name": "Terai Kozue",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Matsuta Rira",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kasai Shuya",
+      "affiliations": [
+        "https://ror.org/02syg0q74grid.257016.70000 0001 0673 6172Department of Stress Response Science, Biomedical Research Center, Graduate School of Medicine, Hirosaki University, 5 Zaifu-cho, Hirosaki, Aomori 036-8562 Japan"
+      ]
+    },
+    {
+      "name": "Tamada Yoshinori",
+      "affiliations": [
+        "https://ror.org/02syg0q74grid.257016.70000 0001 0673 6172Department of Medical Data Intelligence, Research Center for Health-Medical Data Science, Hirosaki University Graduate School of Medicine, 5 Zaifu-cho, Hirosaki, Aomori 036-8562 Japan"
+      ]
+    },
+    {
+      "name": "Mikami Tatsuya",
+      "affiliations": [
+        "https://ror.org/02syg0q74grid.257016.70000 0001 0673 6172Department of Preemptive Medicine, Innovation Center for Health Promotion, Graduate School of Medicine, Hirosaki University, 5 Zaifu-cho, Hirosaki, Aomori 036-8562 Japan"
+      ]
+    },
+    {
+      "name": "Murashita Koichi",
+      "affiliations": [
+        "https://ror.org/02syg0q74grid.257016.70000 0001 0673 6172COI Research Initiatives Organization, Hirosaki University, 5 Zaifu-cho, Hirosaki, 036-8216 Japan"
+      ]
+    },
+    {
+      "name": "Itoh Ken",
+      "affiliations": [
+        "https://ror.org/02syg0q74grid.257016.70000 0001 0673 6172Department of Stress Response Science, Biomedical Research Center, Graduate School of Medicine, Hirosaki University, 5 Zaifu-cho, Hirosaki, Aomori 036-8562 Japan"
+      ]
+    }
+  ],
+  "keywords": [
+    "Mild cognitive impairment",
+    "Alzheimer’s disease with dementia",
+    "Metabolome",
+    "Cohort",
+    "Biomarker",
+    "Random forest model",
+    "Partial least squares",
+    "Global surrogate model"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Center of Innovation Program from the Japan Science and Technology Agency (JST, COI)JPMJCE1302ItohKen",
+    "Center of Innovation Program from the Japan Science and Technology Agency (JST, COI-NEXT)JPMJPF2210ItohKen"
+  ],
+  "data_availability_text": "Data availabilityData cannot be shared publicly because of the ethical concerns. Data are available from the Hirosaki University COI Institutional Data Access/Ethics Committee (contact via e-mail: coi@hirosaki-u.ac.jp) for researchers who meet the criteria for access to the data. Researchers need to be approved by research ethics review board at the organization of their affiliation.",
+  "license": "",
+  "received": "2025-02-21",
+  "accepted": "2025-10-24",
+  "reference_pmids": [
+    "21514249",
+    "21514249",
+    "22329649",
+    "22329649",
+    "32122256",
+    "32122256",
+    "20431570",
+    "20431570",
+    "24380887",
+    "24380887",
+    "32748036",
+    "32748036",
+    "19289269",
+    "19289269",
+    "18843269",
+    "18843269",
+    "24305685",
+    "24305685",
+    "27774042",
+    "27774042",
+    "21514250",
+    "21514250",
+    "23838602",
+    "23838602",
+    "34633321",
+    "34633321",
+    "33796303",
+    "33796303",
+    "33129280",
+    "33129280",
+    "18213407",
+    "18213407",
+    "21258713",
+    "21258713",
+    "22436749",
+    "22436749",
+    "27506744",
+    "27506744",
+    "7813389",
+    "7813389",
+    "21031036",
+    "21031036",
+    "20300169",
+    "20300169",
+    "36446162",
+    "36446162",
+    "15363640",
+    "15363640",
+    "24555693",
+    "24555693"
+  ],
+  "tables_count": 2,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "participants",
+    "blood sampling and metabolite extraction",
+    "metabolome analysis",
+    "statistical analysis",
+    "results and discussion",
+    "conclusion",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7780,
+  "converted_at": "2026-04-06T22:37:59.888465+00:00"
+}

@@ -1,0 +1,132 @@
+{
+  "pmid": "41583004",
+  "pmc": "PMC12827591",
+  "doi": "10.3389/fnagi.2025.1735522",
+  "title": "Exploring rare coding variants in UK biobank: preliminary associations with motor neuron disease",
+  "journal": "Frontiers in Aging Neuroscience",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Hu Zhen",
+      "affiliations": [
+        "Department of Neurology and Institute of Neurology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Wan Jing-jin",
+      "affiliations": [
+        "Department of Surgery, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Yan Qin-qin",
+      "affiliations": [
+        "Department of Radiology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Fan Yu",
+      "affiliations": [
+        "Department of Neurology and Institute of Neurology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Liu Jun",
+      "affiliations": [
+        "Department of Neurology and Institute of Neurology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China"
+      ]
+    }
+  ],
+  "keywords": [
+    "motor neuron disease",
+    "protein-truncating variants",
+    "rare variants",
+    "risk factors",
+    "UK biobank"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "The author(s) declared that financial support was received for this work and/or its publication. This study was supported by the National Natural Science Foundation of China (grant 82401649 awarded to YF; grants 82230040, 82071415, 81873778 awarded to JL) and the China Postdoctoral Science Foundation (grant 2024M752018 to YF). Additional support was provided by the Huangpu District Health and Medical Research Project, Shanghai (grant HLM202205)."
+  ],
+  "data_availability_text": "Data availability statementPublicly available datasets were analyzed in this study. This data can be found at: https://www.ukbiobank.ac.uk/.",
+  "license": "",
+  "received": "2025-10-30",
+  "accepted": "2025-12-17",
+  "reference_pmids": [
+    "38198570",
+    "37834320",
+    "37813308",
+    "34662886",
+    "30120348",
+    "40252666",
+    "30663610",
+    "19160266",
+    "34996976",
+    "30305743",
+    "34965490",
+    "39704987",
+    "37733863",
+    "33590861",
+    "37679883",
+    "21944778",
+    "31134279",
+    "31263252",
+    "36116464",
+    "30075105",
+    "40682810",
+    "36530175",
+    "23715323",
+    "27666373",
+    "36443167",
+    "32461654",
+    "39088390",
+    "22699862",
+    "30958121",
+    "34979259",
+    "20864052",
+    "27492589",
+    "37585529",
+    "34017140",
+    "27268795",
+    "24727365",
+    "39986312",
+    "35388217",
+    "29990478",
+    "40389989",
+    "29045369",
+    "30371827",
+    "38986433",
+    "39337454",
+    "16362828",
+    "22840558",
+    "26562801",
+    "24139028",
+    "40508048",
+    "37262147",
+    "32029539",
+    "33087929",
+    "39103557",
+    "15778102",
+    "21737059",
+    "33462636",
+    "38575728"
+  ],
+  "tables_count": 1,
+  "figures_count": 1,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "ethics",
+    "uk biobank data processing and quality control",
+    "gene-burden testing in uk biobank",
+    "results",
+    "discussion",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7958,
+  "converted_at": "2026-04-06T22:38:47.754978+00:00"
+}

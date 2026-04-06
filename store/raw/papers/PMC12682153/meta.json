@@ -1,0 +1,277 @@
+{
+  "pmid": "41362357",
+  "pmc": "PMC12682153",
+  "doi": "10.1016/j.bas.2025.105877",
+  "title": "Shared metabolomic signatures for prognostic precision across brain injuries",
+  "journal": "Brain & Spine",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Hellström Santtu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sajanti Antti",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jhaveri Aditya",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cao Ying",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Koskimäki Fredrika",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Falter Johannes",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Frantzén Janek",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lyne Seán B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rantamäki Tomi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Takala Riikka",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Posti Jussi P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Roine Susanna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kolehmainen Sulo",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gajera Bharat",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nazir Kenneth",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jänkälä Miro",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Piironen Susanna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abdirisak Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Srinath Abhinav",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Girard Romuald",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nieminen Anni I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rahi Melissa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rinne Jaakko",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Castrén Eero",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Koskimäki Janne",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "Brain injury",
+    "Metabolomics",
+    "Outcome",
+    "Prognosis",
+    "Stroke",
+    "Traumatic brain injury"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Availability of data and materialsThe anonymized data from this study can be made available upon request to qualified researchers who have obtained appropriate institutional review board (IRB) approval. Requests should be directed to the corresponding author.",
+  "license": "",
+  "received": "2025-08-16",
+  "accepted": "2025-11-16",
+  "reference_pmids": [
+    "34753981",
+    "37481590",
+    "20490917",
+    "32035565",
+    "27654000",
+    "32414667",
+    "22556195",
+    "33633673",
+    "30859371",
+    "12691414",
+    "26751612",
+    "34986727",
+    "29720384",
+    "14693814",
+    "21324164",
+    "32928939",
+    "27294204",
+    "32438592",
+    "39662533",
+    "31785839",
+    "30614244",
+    "23560894",
+    "21474802",
+    "20633115",
+    "10592173",
+    "23355003",
+    "26490688",
+    "35042018",
+    "30585503",
+    "36183712",
+    "27524956",
+    "24412293",
+    "39075578",
+    "27665050",
+    "34019663",
+    "31662037",
+    "21508345",
+    "39540961",
+    "27083549",
+    "33485385",
+    "32645907",
+    "30732441",
+    "36869161",
+    "34505712",
+    "32882604",
+    "37122289",
+    "35538079",
+    "23340987",
+    "7048218",
+    "19429898",
+    "26025142",
+    "28251292",
+    "33253988",
+    "15405679",
+    "16606446",
+    "16208315"
+  ],
+  "tables_count": 2,
+  "figures_count": 9,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "study design and participants",
+    "serum extraction",
+    "targeted liquid chromatography-mass spectrometry (lc-ms) metabolomics profiling analytics",
+    "bioinformatics and statistics",
+    "metabolome data preprocessing",
+    "univariate and multivariate analysis",
+    "linear support vector machine to identify features importance",
+    "feature selection and combinatory biomarkers",
+    "quantitative pathway enrichment analysis",
+    "statistical significance",
+    "results",
+    "study population and clinical parameters",
+    "metabolomic profiles of acute brain injuries",
+    "metabolomic profiles associated with patient outcomes across acute brain injuries",
+    "assessing single metabolomic predictors of patient outcomes",
+    "multivariate machine learning for outcome discrimination",
+    "combinatory biomarker analysis through machine learning lda",
+    "functions of the identified metabolites",
+    "early time point quantitative pathway enrichment analysis",
+    "late time point quantitative pathway enrichment analysis",
+    "differences between early and late pathways",
+    "discussion",
+    "comparison of metabolite model with previously developed models",
+    "temporal changes in the enriched metabolomic pathways",
+    "prognostic implications and directions",
+    "limitations",
+    "conclusions",
+    "study approval and ethics",
+    "consent for publication",
+    "availability of data and materials",
+    "author contributions",
+    "funding",
+    "declaration of competing interest",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 9895,
+  "converted_at": "2026-04-06T22:38:16.906696+00:00"
+}

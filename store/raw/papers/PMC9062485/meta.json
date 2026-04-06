@@ -1,0 +1,132 @@
+{
+  "pmid": "35182769",
+  "pmc": "PMC9062485",
+  "doi": "10.1016/j.mcpro.2022.100212",
+  "title": "Multiple Reaction Monitoring-Mass Spectrometry Enables Robust Quantitation of Plasma Proteins Regardless of Whole Blood Processing Delays That May Occur in the Clinic",
+  "journal": "Molecular & Cellular Proteomics : MCP",
+  "year": 2022,
+  "authors": [
+    {
+      "name": "Gaither Claudia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Popp Robert",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zahedi René P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Borchers Christoph H.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "protein concentration stability",
+    "whole blood separation delays at room temperature",
+    "multiple reaction monitoring mass spectrometry",
+    "stable isotope-labeled standard peptides",
+    "proteotypic peptides as protein surrogates",
+    "ACN, acetonitrile",
+    "BSA, bovine serum albumin",
+    "CPTAC, Clinical Proteomic Tumor Analysis Consortium",
+    "FA, formic acid",
+    "LC, liquid chromatography",
+    "LLOQ, lower limits of quantitation",
+    "MRM-MS, multiple reaction monitoring mass spectrometry",
+    "MS, mass spectrometry",
+    "NAT, natural, light",
+    "O/N, overnight",
+    "PTMs, post-translational modifications",
+    "QC, quality control",
+    "RSDs, relative SDs",
+    "SIS, stable isotope-labeled standard",
+    "SPE, solid-phase extraction"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data AvailabilityThe MRM raw data are available via the public MS data repository PanoramaWeb (36), at https://panoramaweb.org/xv2YJx.url.",
+  "license": "",
+  "received": "2021-09-02",
+  "accepted": "",
+  "reference_pmids": [
+    "11732642",
+    "30181746",
+    "28951502",
+    "26620284",
+    "19041286",
+    "24224610",
+    "34055594",
+    "31729135",
+    "21137047",
+    "32582306",
+    "17303688",
+    "22701622",
+    "33753773",
+    "16586434",
+    "26876805",
+    "13058999",
+    "9228712",
+    "22869793",
+    "27928935",
+    "24443746",
+    "23765619",
+    "24769191",
+    "25348405",
+    "19411661",
+    "24972168",
+    "32255452",
+    "20147306",
+    "27348712",
+    "24845047",
+    "24339426",
+    "10973130",
+    "24724590",
+    "27898009",
+    "20722421",
+    "29487113"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "experimental procedures",
+    "materials",
+    "reagents and labware",
+    "peptide mixtures",
+    "human blood samples",
+    "experimental design and rationale",
+    "time course incubation of five whole blood lots at room temperature",
+    "quick and overnight thaw",
+    "enzymatic digestion of plasma and surrogate matrix",
+    "calibration curve standards and qc sample preparation",
+    "solid-phase extraction",
+    "liquid chromatography separation and ms analysis",
+    "data analysis",
+    "standard and qc acceptance criteria",
+    "results and discussion",
+    "performance of calibration curves and qc samples",
+    "determination of original protein concentration in plasma samples",
+    "differences between quick-thaw and o/n-thaw",
+    "stability of surrogate peptides to quantify plasma proteins",
+    "conclusion",
+    "data availability",
+    "supplemental data",
+    "conflict of interest",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7667,
+  "converted_at": "2026-04-06T22:40:11.017367+00:00"
+}

@@ -1,0 +1,6381 @@
+{
+  "pmid": "27454254",
+  "pmc": "PMC4959372",
+  "doi": "10.1186/s12864-016-2858-0",
+  "title": "Abstracts from the 3rd International Genomic Medicine Conference (3rd IGMC 2015)",
+  "journal": "BMC Genomics",
+  "year": 2016,
+  "authors": [
+    {
+      "name": "Shay Jerry W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Homma Noriko",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhou Ruyun",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naseer Muhammad Imran",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hirokawa Nobutaka",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Goudarzi Maryam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fornace Albert J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baeesa Saleh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussain Deema",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bangash Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alghamdi Fahad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Carracedo Angel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan Ishaq",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qashqari Hanadi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Madkhali Nawal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Saka Mohamad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Saini Kulvinder S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Awatif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Damanhouri Ghazi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alkhatabi Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Goodeve Anne",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Crookes Laura",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Niksic Nikolas",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beauchamp Nicholas",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Vaught Jim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Budowle Bruce",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Merdad Leena",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar Sudhir",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Miura Sayaka",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gomez Karen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Carracedo Angel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rebai Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eldin Hend F. Nour",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abusamra Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhathli Elham M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salem Nada",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar Sudhir",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Faheem Hossam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Agarwa Ashok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nieschlag Eberhard",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wistuba Joachim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Damm Oliver S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beg Mohd A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abdel-Meguid Taha A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mosli Hisham A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bajouh Osama S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Coskun Serdar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hakamy Sahar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Wejdan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Harbi Asia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussain Shireen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ozkosem Burak",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "DuBois Rick",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Messaoudi Safia S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dandana Maryam T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mahjoub Touhami",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Almawi Wassim Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abdalla S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Aama M. Nabil",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Elzawahry Asmaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Takahashi Tsuyoshi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mimaki Sachiyo",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Furukawa Eisaku",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nakatsuka Rie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kurosaka Isao",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nishigaki Takahiko",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nakamura Hiromi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Serada Satoshi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naka Tetsuji",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hirota Seiichi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shibata Tatsuhiro",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tsuchihara Katsuya",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nishida Toshirou",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kato Mamoru",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mehmood Sajid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashraf Naeem Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Asif Awais",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bilal Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mehmood Malik Siddique",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussain Aadil",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Qazi Mohammad Sajid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Siddiqui Mughees Uddin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alzohairy Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Karaawi Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nedjadi Taoufik",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Khattabi Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ammari Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Sayyad Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zitouni Hédia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Raguema Nozha",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ali Marwa Ben",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Malah Wided",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lfalah Raja",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Almawi Wassim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mahjoub Touhami",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Elanbari Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ptitsyn Andrey",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mahjoub Sana",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El Ghali Rabeb",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Achour Bechir",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Amor Nidhal Ben",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "N’siri Brahim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Morjani Hamid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nedjadi Taoufik",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ammari Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Sayyad Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salem Nada",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Azhar Esam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chayeb Vera",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dendena Maryam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zitouni Hedia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zouari-Limayem Khedija",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mahjoub Touhami",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Refaat Bassem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashshi Ahmed M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Batwa Sarah A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ramadan Hazem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Awad Amal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ateya Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El-Shemi Adel Galal Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashshi Ahmad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Basalamah Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Na Youjin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yun Chae-Ok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El-Shemi Adel Galal Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashshi Ahmad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Basalamah Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Na Youjin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yun Chae-Ok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El-Shemi Adel Galal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Refaat Bassem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kensara Osama",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abdelfattah Amr",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dheeb Batol Imran",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Halbosiy Mohammed M. F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al lihabi Rghad Kadhim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khashman Basim Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Laiche Djouhri",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Adeel Chaudhary",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Taoufik Nedjadi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Afghani Hani",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Łastowska Maria",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Balool Haya H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sheth Harsh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mercer Emma",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Coxhead Jonathan M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Redfern Chris P. F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Peters Heiko",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burt Alastair D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Santibanez-Koref Mauro",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bacon Chris M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chesler Louis",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rust Alistair G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Adams David J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Williamson Daniel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Clifford Steven C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jackson Michael S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Singh Mala",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mansuri Mohmmad Shoab",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jadeja Shahnawaz D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Patel Hima",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Marfatia Yogesh S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Begum Rasheedunnisa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mohamed Amal M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kamel Alaa K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Helmy Nivin A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hammad Sayda A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kayed Hesham F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shehab Marwa I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El Gerzawy Assad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ead Maha M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ead Ola M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mekkawy Mona",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mazen Innas",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El-Ruby Mona",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shahid S. M. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Qazi Mohammad Sajid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Arif J. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lohani Mohtashim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Imen Moumni",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Leila Chaouch",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Houyem Ouragini",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kais Douzi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fethi Chaouachi Dorra Mellouli",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mohamed Bejaoui",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salem Abbes",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Faggad Areeg",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gebreslasie Amanuel T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zaki Hani Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abdalla Badreldin E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AlShammari Maha S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ali Rhaya",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Balawi Nader",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Enazi Mansour",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Muraikhi Ali",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Busaleh Fadi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Sahwan Ali",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Borgio Francis",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sayyed Abdulazeez",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ali Amein",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Acharya Sadananda",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zaki Maha S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El-Bassyouni Hala T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shehab Marwa I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Elshal Mohammed F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "M. Kaleemuddin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aldahlawi Alia M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Saadah Omar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "McCoy J. Philip",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El-Tarras Adel E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Awad Nabil S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alharthi Abdulla A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ibrahim Mohamed M. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsehli Haneen S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Abdullah M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abbas Mohammed M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kadam Roaa A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mazen M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alkaff Mohmmed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abusamra Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "eldin Hend F. Nour",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhathli Elham M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salem Nada",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar Sudhir",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Moradi Fatima A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rashidi Omran M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Awan Zuhier A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaya Ibrahim Hamza",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Harazi Olfat",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Colak Dilek",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alkousi Nabila A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Athanasopoulos Takis",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bahmaid Afnan O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhwait Etimad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsehli Haneen S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abbas Mohammed M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alkaf Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kadam Roaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eldin Hend F. Nour",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abusamra Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhathli Elham",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salem Nada",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar Sudhir",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsayed Salma N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aljohani Fawziah H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Habeeb Samaher M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Almashali Rawan A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Basit Sulman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Samia M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sharma Rakesh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Agarwal Ashok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Durairajanayagam Damayanthi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Samanta Luna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sabanegh Edmund S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Agarwal Ashok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sharma Rakesh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Samanta Luna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Durairajanayagam Damayanthi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sabanegh Edmund S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Samanta Luna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Agarwal Ashok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sharma Rakesh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cui Zhihong",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alboogmi Alaa A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alansari Nuha A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Quaiti Maha M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashgan Fai T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bandah Afnan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Hasan S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rozi Abdullraheem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mirza Zeenat",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Sayyad Ahmad J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Farsi Hasan M. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mirza Zeenat",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alotibi Reem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ahmadi Alaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alansari Nuha A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Albogmi Alaa A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Quaiti Maha M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashgan Fai T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bandah Afnan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ebiya Rasha A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Darwish Samia M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Montaser Metwally M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abusamra Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bajic Vladimir B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gomaa Wafaey",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hanbazazh Mehenaz",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ahwal Mahmoud",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Harbi Asia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Wejdan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hakamy Saher",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baba Ghali",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Harbi Abdullah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ahwal Mahmoud",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Harbi Asia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Wejdan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hakamy Sahar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baba Ghalia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhathli Elham M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salem Nada",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eldin Hend Nour",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abusamra Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar Sudhir",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alyamani Aisha A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhwait Etimad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abbas Mohammed M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alkaf Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsehli Haneen S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kadam Roaa A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gadi Rawan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Merdad Leena",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alfakeeh Saadiah M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhwait Etimad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abbas Mohammed M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alkaf Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsehli Haneen S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kadam Roaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ghazala Rubi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hamed M. Haroon",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qadri Ishtiaq",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mira Lobna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shaabad Manal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussain Shireen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shaabad Manal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mira Lobna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussain Shireen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rebai Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shay Jerry W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Almutairi Mikhlid H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ambers Angie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Churchill Jennifer",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "King Jonathan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Stoljarova Monika",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gill-King Harrell",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qatani Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Budowle Bruce",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Farid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Almagd Taha Abo",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hakamy Sahar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Agarwal Ashok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Sayyad Ahmad J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Farsi Hasan M. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmaida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mirza Zeenat",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alotibi Reem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ahmadi Alaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alansari Nuha A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Albogmi Alaa A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Quaiti Maha M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashgan Fai T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bandah Afnan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Satar Rukhsana",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmad Waseem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nazam Nazia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lone Mohamad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naseer Muhammad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zaidi Syed K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jafri Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ansari Shakeel A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alqahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bashier Hanan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Qahtani Abrar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nour Amal M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alkhatabi Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zenadah Adel M. Abu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Qahtani Muhammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Faheem Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shiny",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammad H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhadrami Hani A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussein Ibtessam R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bader Rima S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bassiouni Randa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alquaiti Maha",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashgan Fai",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alama Mohamed Nabil",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Qahtani Mohammad H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lone Mohammad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nizam Nazia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmad Waseem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jafri Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ansari Shakeel A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Muhammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alshihri Eradah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alharbi Lina",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Natesan Peter Pushparaj",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Qahtani Muhammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan Fazal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kadam Roaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Farid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sait Khalid Hussain Wali",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Anfinan Nisreen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naseer Muhammad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mira Lobna S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ansari Shakeel A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AlQahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naseer Muhammad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mira Lobna S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sogaty Sameera",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bassiouni Randa I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AlQahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ansari Shakeel A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sibiani Abdulrahman M. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmad Waseem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jafri Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Warsi Mohiuddin K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naseer Muhammad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rubi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar Kundan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naqvi Ahmad A. T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmad Faizan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hassan Md I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AlQahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ali Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jarullah Jummanah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbasit",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan Shahida",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abdussami Ghufrana",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mahfooz Maryam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kamal Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Damanhouri Ghazi A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jarullah Bushra",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jarullah Jummanah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jarullah Mohammad S. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ali Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bajouh Osama",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jarullah Jummanah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathkoor Abdulah E. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsalmi Hashim M. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Oun Anas M. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Damanhauri Ghazi A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AlQahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naseer Muhammad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sogaty Sameera",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chudhary Adeel G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abutalib Yousif A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Merico Daniele",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Walker Susan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Marshall Christian R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zarrei Mehdi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Scherer Stephen W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammad H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naseer Muhammad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Faheem Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashgan Fai Talal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Farid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zaidi Syed Kashif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jan Mohammed M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammad H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Zahrani Maryam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lary Sahira",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hakamy Sahar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ahwal Mahmoud",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dermitzakis Emmanuel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-refai Abeer A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Saleh Mona",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yassien Rehab I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kamel Mahmmoud",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Habeb Rabab M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Filimban Najlaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ghannam Nadia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bibi Fehmida",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Akhtar Sana",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Azhar Esam I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yasir Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nasser Muhammad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jiman-Fatani Asif A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sawan Ali",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lahzah Ruaa A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ali Asho",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hassan Syed A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hasnain Seyed E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tayubi Iftikhar A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abujabal Hamza A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Magrabi Alaa O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan Fazal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenada Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumosani Taha Abduallah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Barbour Elie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shabaad Manal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Merdad Adnan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbaset",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gauthaman Kalamegam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hassan Syed A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tayubi Iftikhar A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aljahdali Hani M. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Nono Reham",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsehli Haneen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Farid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abbas Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan Fazal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammed Sarwar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naseer Muhammad Imran",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mirza Zeenat",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ansari Shakeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kadam Roaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alghamdi Mansour A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shamy Magdy",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Costa Max",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khoder Mamdouh I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kharrat Najla",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Belmabrouk Sabrine",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abdelhedi Rania",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Benmarzoug Riadh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rebai Ahmed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dhamanhouri Ghazi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Noorwali Abdelwahab",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alwasiyah Mohammad Khalid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bahamaid Afnan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alfakeeh Saadiah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alyamani Aisha",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsehli Haneen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abbas Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mobasheri Ali",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Faheem Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammad H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Faheem Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shiny",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammad H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad Sarwar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zaidi Syed Kashif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan Raziuddin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bhatia Kanchan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmad Saif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AslamTayubi Iftikhar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tripathi Manish",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hassan Syed Asif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shrivastava Rahul",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tayubi Iftikhar A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hassan Syed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abujabal Hamza A. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shah Ishani",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jarullah Bushra",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jarullah Jummanah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sheikh Ishfaq A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmad Ejaz",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rehan Mohd",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tayubi Iftikhar A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AlBasri Samera F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bajouh Osama S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Turki Rola F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Damanhouri Ghazi A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beg Mohd A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hammoudah Sahar A. F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AlHarbi Khalid M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El-Attar Lama M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Darwish Ahmed M. Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ibrahim Sara M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Choudhry Hani",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Awlia Jalaludden",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Farid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jafri Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "khan Imran",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yasir Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Azhar Esam I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-basri Sameera",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Barbour Elie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumosani Taha",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan Fazal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenada Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumosani Taha Abduallah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Barbour Elie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "EL Sayed Heba M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hafez Eman A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Elaimi Aisha Hassan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussein Ibtessam R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bassiouni Randa Ibrahim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alwasiyah Mohammad Khalid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wintle Richard F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Scherer Stephen W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mirza Zeenat",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pillai Vikram Gopalakrishna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sharma Sujata",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaur Punit",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Srinivasan Alagiri",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Singh Tej P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alotibi Reem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ahmadi Alaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Adwani Fatima",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussein Deema",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Sharif Mona",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Awatif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ghamdi Fahad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baeesa Saleh S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bangash Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Faheem Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumosani Taha Abdullah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Allaf Faisal A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abduljaleel Zainularifeen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alashwal Abdullah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Taher Mohiuddin M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bouazzaoui Abdellatif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abalkhail Halah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ba-Hammam Faisal A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Athar Mohammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Farid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sait Khalid HussainWali",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Anfinan Nisreen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mami Naira Ben",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Haffani Yosr Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Medhioub Mouna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hamzaoui Lamine",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cherif Ameur",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Azouz Msadok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kalamegam Gauthaman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan Fazal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nasser Mohammed Imran",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Farid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Turkistany Shereen A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-harbi Lina M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sabir Jamal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Madoudi Basmah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Aslani Bayan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Harbi Khulud",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Jahdali Rwan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qudaih Hanadi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Hamzy Emad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ilyas Asad M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Youssri",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari Mamdooh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed Farid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alqahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salem Nada",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alhathli Elham M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abusamra Heba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eldin Hend F. Nour",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar Sudhir",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Adwani Fatima",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussein Deema",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Sharif Mona",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Awatif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ghamdi Fahad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baeesa Saleh S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bangash Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alamandi Alaa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alotibi Reem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hussein Deema",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Ghamdi Fahad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Awatif",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baeesa Saleh S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bangash Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Subhi Ohoud",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bagatian Nadia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Johari Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Hamour Osman Abdel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Aradati Hosam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Mutawa Abdulmonem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Mashat Faisal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bagatian Nadia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Subhi Ohoud",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karim Sajjad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Johari Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Hamour Osman Abdel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Mutawa Abdulmonem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Aradati Hosam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Mashat Faisal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schulten Hans-Juergen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Maghrabi Jaudah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "shah Muhammad W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yasir Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Azhar Esam I",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Masoodi Saad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Haffani Yosr Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Azouz Msadok",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khamla Emna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jlassi Chaima",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Masmoudi Ahmed S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cherif Ameur",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Belbahri Lassaad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Khayyat Shadi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Attas Roba",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Sanad Atlal",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzinadah Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Merdad Adnan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol Ashraf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaudhary Adeel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah Adel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bouazzi Habib",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Trujillo Carlos",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alwasiyah Mohammad Khalid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alotaibi Maha",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nassir Rami",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sheikh Ishfaq A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kamal Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jiffri Essam H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ashraf Ghulam M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beg Mohd A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aziz Mohammad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ali Rizwan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rasool Mahmood",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Mohammad S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Samman Nusaibah",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abdussami Ghufrana",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Periyasamy Sathish",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Warsi Mohiuddin K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aldress Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Otaibi Majed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al Yousef Zeyad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boudjelal Mohamed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhmeida Abdelbasit",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "AlAbdulkarim Ibrahim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ghazala Rubi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mathew Shilu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hamed M. Haroon",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Assidi Mourad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammed",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qadri Ishtiaq",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sheikh Ishfaq A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Elmagd Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Turki Rola F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Damanhouri Ghazi A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beg Mohd A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Suhail Mohd",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qureshi Abid",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jamal Adil",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pushparaj Peter Natesan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Qahtani Mohammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qadri Ishtiaq",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El-Readi Mahmoud Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eid Safaa Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wink Michael",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Isa Ahmed M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alnuaim Lulu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Almutawa Johara",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abu-Rafae Basim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alasiri Saleh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Binsaleh Saleh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nazam Nazia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lone Mohamad I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmad Waseem",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ansari Shakeel A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alqahtani Mohamed H.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "",
+  "license": "OpenAccess",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [],
+  "tables_count": 24,
+  "figures_count": 50,
+  "sections_present": [
+    "abstract",
+    "o1 regulation of genes by telomere length over long distances",
+    "jerry w. shay",
+    "university of texas southwestern medical center, dallas, texas, usa",
+    "o2 the microtubule destabilizer kif2a regulates the postnatal establishment of neuronal circuits in addition to prenatal cell survival, cell migration, and axon elongation, and its loss leading to malformation of cortical development and severe epilepsy",
+    "noriko homma",
+    "o3 integration of metagenomics and metabolomics in gut microbiome research",
+    "maryam goudarzi",
+    "o4 a unique integrated system to discern pathogenesis of central nervous system tumors",
+    "saleh baeesa, deema hussain, mohammed bangash, fahad alghamdi, hans-juergen schulten, angel carracedo, ishaq khan, hanadi qashqari, nawal madkhali, mohamad saka, kulvinder s. saini, awatif jamal, jaudah al-maghrabi, adel abuzenadah, adeel chaudhary, mohammed al qahtani and ghazi damanhouri",
+    "king fahd medical research centre, king abdulaziz university, jeddah, saudi arabia",
+    "o5 rpl27a is a target of mir-595 and deficiency contributes to ribosomal dysgenesis",
+    "heba alkhatabi",
+    "centre of excellence in genomic medicine research, king abdulaziz university, jeddah, saudi arabia",
+    "o6 next generation dna sequencing panels for haemostatic and platelet disorders and for fanconi anaemia in routine diagnostic service",
+    "anne goodeve, laura crookes, nikolas niksic, nicholas beauchamp",
+    "sheffield diagnostic genetic service, sheffield children’s nhs foundation trust, western bank, sheffield, uk",
+    "o7 targeted sequencing panels and their utilization in personalized medicine",
+    "adel m. abuzenadah",
+    "center of innovations in personalized medicine, king abdulaziz university, jeddah, saudi arabia",
+    "o8 international biobanking in the era of precision medicine",
+    "jim vaught",
+    "president, isber, editor-in-chief,",
+    "o9 biobank and biodata for clinical and forensic applications",
+    "bruce budowle",
+    "o10 tissue microarray technique: a powerful adjunct tool for molecular profiling of solid tumors",
+    "jaudah al-maghrabi",
+    "department of pathology, faculty of medicine, king abdulaziz university, jeddah, saudi arabia",
+    "o11 the cegmr biobanking unit: achievements, challenges and future plans",
+    "abdelbaset buhmeida",
+    "o12 phylomedicine of tumors",
+    "sudhir kumar, sayaka miura, and karen gomez",
+    "institute for genomics and evolutionary medicine, temple university, philadelphia, pa 19122, usa",
+    "o13 clinical implementation of pharmacogenomics for colorectal cancer treatment",
+    "angel carracedo",
+    "o14 from association to causality: translation of gwas findings for genomic medicine",
+    "ahmed rebai",
+    "laboratory of molecular and cellular screening processes (bioinformatics group), centre of biotechnology of sfax, p.o. box “1177”, sfax, tunisia",
+    "o15 e-grasp: an interactive database and web application for efficient analysis of disease-associated genetic information",
+    "sajjad karim",
+    "o16 the supercomputer facility “aziz” at kau: utility and future prospects",
+    "hossam faheem",
+    "fujitsu technology solutions international",
+    "o17 new research into the causes of male infertility",
+    "ashok agarwal",
+    "case western reserve university, school of medicine and lerner college of medicine, cleveland clinic foundation; american center for reproductive medicine, andrology center, cleveland, ohio, usa",
+    "o18 the klinefelter syndrome: recent progress in pathophysiology and management",
+    "eberhard nieschlag",
+    "o19 a new look to reproductive medicine in the era of genomics",
+    "serdar coskun",
+    "assisted reproductive technology laboratory, department of pathology and laboratory medicine, king faisal specialist hospital and research center, riyadh, ksa",
+    "p1 wnt signalling receptors expression in saudi breast cancer patients",
+    "muhammad abu-elmagd",
+    "p2 analysis of oxidative stress interactome during spermatogenesis: a systems biology approach to reproduction",
+    "burak ozkosem",
+    "p3 interleukin-18 gene variants are strongly associated with idiopathic recurrent pregnancy loss",
+    "safia s messaoudi",
+    "p4 effect of environmental factors on gene-gene and gene-environment reactions: model and theoretical study applied to environmental interventions using genotype",
+    "s. abdalla",
+    "p5 genomics and transcriptomic analysis of imatinib resistance in gastrointestinal stromal tumor",
+    "asmaa elzawahry",
+    "p6",
+    "sajid mehmood, naeem mahmood ashraf, awais asif, muhammad bilal, malik siddique mehmood, aadil hussain",
+    "clinical biochemistry group, department of biochemistry & molecular biology, university of gujrat, punjab, pakistan",
+    "p7 inhibition of ache and buche with the natural compounds of",
+    "qazi mohammad sajid jamal",
+    "p8 her2 expression in urothelial cell carcinoma of the bladder in saudi arabia",
+    "taoufik nedjadi",
+    "p9 association of angiotensinogen single nucleotide polymorphisms with preeclampsia in patients from north africa",
+    "hédia zitouni",
+    "p10 systems biology analysis reveals relations between normal skin, benign nevi and malignant melanoma",
+    "mohammed elanbari, andrey ptitsyn",
+    "sidra medical and research center, po box 26999, doha, qatar",
+    "p11 the apoptotic effect of thymoquinone in jurkat cells",
+    "sana mahjoub",
+    "p12 sonic hedgehog contributes in bladder cancer invasion in saudi arabia",
+    "taoufik nedjadi",
+    "p13 association of interleukin 18 gene promoter polymorphisms - 607a/c and -137 g/c with colorectal cancer onset in a sample of tunisian population",
+    "vera chayeb",
+    "p14 pathological expression of interleukin-6, -11, leukemia inhibitory factor and their receptors in tubal gestation with and without tubal cytomegalovirus infection",
+    "bassem refaat",
+    "p15 phenotypic and genetic profiling of avian pathogenic and human diarrhegenic",
+    "hazem ramadan",
+    "p16 cancer-targeting dual gene virotherapy as a promising therapeutic strategy for treatment of hepatocellular carcinoma",
+    "adel galal ahmed el-shemi",
+    "p17 cancer dual gene therapy with oncolytic adenoviruses expressing trail and il-12 transgenes markedly eradicated human hepatocellular carcinoma both",
+    "adel galal ahmed el-shemi, ahmad ashshi, mohammed basalamah, youjin na, chae-ok yun",
+    "department of laboratory medicine department, faculty of applied medical sciences, umm al-qura university, makkah, po box 7607, saudi arabia",
+    "p18 therapy with paricalcitol attenuates tumor growth and augments tumoricidal and anti-oncogenic effects of 5-fluorouracil on animal model of colon cancer",
+    "adel galal el-shemi",
+    "p19 the effects of",
+    "batol imran dheeb",
+    "p20 etanercept, a tnf-alpha inhibitor, alleviates mechanical hypersensitivity and spontaneous pain in a rat model of chemotherapy-induced neuropathic pain",
+    "djouhri, laiche",
+    "p21 sleeping beauty mutagenesis system identified genes and neuronal transcription factor network involved in pediatric solid tumour (medulloblastoma)",
+    "hani al-afghani",
+    "p22 involvement of interleukin-1 in vitiligo pathogenesis",
+    "mala singh",
+    "p23 cytogenetics abnormalities in 12,884 referred population for chromosomal analysis and the role of fish in refining the diagnosis (cytogenetic experience 2004-2013)",
+    "amal m mohamed",
+    "amal m mohamed (amalmahmoud15@yahoo.com) – human cytogenetics department, national research centre, dokki, egypt;",
+    "p24 analysis of binding properties of angiotensin-converting enzyme 2 through",
+    "s. m. a. shahid",
+    "p25 relationship of genetics markers",
+    "moumni imen",
+    "p26 analysis of estrogen receptor alpha gene polymorphisms in breast cancer: link to genetic predisposition in sudanese women",
+    "areeg faggad",
+    "p27 kcnqi gene polymorphism and its association with cvd and t2dm in the saudi population",
+    "maha s alshammari, rhaya al-ali, nader al-balawi , mansour al-enazi, ali al-muraikhi, fadi busaleh, ali al-sahwan, francis borgio, abdulazeez sayyed, amein al-ali, sadananda acharya",
+    "college of medicine, institute for research and medical consultations, university of dammam, dammam, saudi arabia",
+    "p28 clinical, neuroimaging and cytogenetic study of a patient with microcephaly capillary malformation syndrome",
+    "maha s. zaki",
+    "p29 altered expression of cd200r1 on dendritic cells of patients with inflammatory bowel diseases:",
+    "mohammed f. elshal",
+    "p30 development of real time pcr diagnostic protocol specific for the saudi arabian h1n1 viral strains",
+    "adel e el-tarras",
+    "p31 identification of novel genetic variations affecting osteoarthritis patients",
+    "haneen s alsehli",
+    "p32 an integrated database of gwas snvs and their evolutionary properties",
+    "heba abusamra",
+    "p33 familial hypercholesterolemia in saudi arabia: prime time for a national registry and genetic analysis",
+    "fatima a. moradi",
+    "p34 comparative genomics and network-based analyses of early hepatocellular carcinoma",
+    "ibrahim hamza kaya",
+    "p35 a talen-based oncolytic viral vector approach to knock out abcb1 gene mediated chemoresistance in cancer stem cells",
+    "nabila a alkousi, takis athanasopoulos",
+    "university of wolverhampton, wolverhampton, west midlands, wv1 1ly, uk",
+    "p36 cartilage differentiation and gene expression of synovial fluid mesenchymal stem cells derived from osteoarthritis patients",
+    "afnan o bahmaid",
+    "p37 e-grasp: adding an evolutionary component to the genome-wide repository of associations (grasp) resource",
+    "hend f nour eldin",
+    "p38",
+    "salma n alsayed",
+    "p39 high throughput proteomic data suggest modulation of camp dependent protein kinase a and mitochondrial function in infertile patients with varicocele",
+    "rakesh sharma",
+    "p40 significant protein profile alterations in men with primary and secondary infertility",
+    "ashok agarwal",
+    "p41 spermatozoa maturation in infertile patients involves compromised expression of heat shock proteins",
+    "luna samanta",
+    "p42 array comparative genomic hybridization approach to search genomic answers for spontaneous recurrent abortion in saudi arabia",
+    "alaa a alboogmi",
+    "p43 global gene expression profiling of saudi kidney cancer patients",
+    "sajjad karim",
+    "p44 downregulated star gene and male reproductive dysfunction caused by nifedipine and ethosuximide",
+    "rasha a ebiya",
+    "p45 clustering based gene expression feature selection method: a computational approach to enrich the classifier efficiency of differentially expressed genes",
+    "heba abusamra",
+    "p46 prognostic significance of osteopontin expression profile in colorectal carcinoma",
+    "jaudah al-maghrabi",
+    "p47 high glypican-3 expression pattern predicts longer disease-specific survival in colorectal carcinoma",
+    "jaudah al-maghrabi",
+    "p48 an evolutionary re-assessment of gwas single nucleotide variants implicated in the cholesterol traits",
+    "elham m alhathli",
+    "p49 derivation and characterization of human wharton’s jelly stem cells (hwjscs)",
+    "aisha a alyamani",
+    "p50 attitudes of healthcare students toward biomedical research in the post-genomic era",
+    "rawan gadi",
+    "p51 evaluation of the immunomodulatory effects of thymoquinone on human bone marrow mesenchymal stem cells (bm-mscs) from osteoarthritic patients",
+    "saadiah m alfakeeh",
+    "p52 implication of il-10 and il-28 polymorphism with successful anti-hcv therapy and viral clearance",
+    "rubi ghazala",
+    "p53 selection of flavonoids against obesity protein (fto) using",
+    "shilu mathew",
+    "p54 computational selection and",
+    "shilu mathew",
+    "p55",
+    "ahmed rebai",
+    "p56 identification of new cancer testis antigen genes in diverse types of malignant human tumour cells",
+    "mikhlid h almutairi",
+    "zoology department, college of sciences, king saud university, riyadh, saudi arabia",
+    "p57 more comprehensive forensic genetic marker analyses for accurate human remains identification using massively parallel sequencing (mps)",
+    "angie ambers",
+    "p58 flow cytometry approach towards treatment men infertility in saudi arabia",
+    "muhammad abu-elmagd",
+    "p59 tissue microarray based validation of cyclind1 expression in renal cell carcinoma of saudi kidney patients",
+    "sajjad karim",
+    "p60 assessment of gold nanoparticles in molecular diagnostics and dna damage studies",
+    "rukhsana satar",
+    "p61 surfing the biospecimen management and processing workflow at cegmr biobank",
+    "hanan bashier, abrar al qahtani, shilu mathew, amal m. nour, heba alkhatabi, adel m. abu zenadah, abdelbaset buhmeida, mourad assidi, muhammed al qahtani",
+    "center of excellence in genomic medicine (cegmr), king abdulaziz university, jeddah, saudi arabia",
+    "p62 autism spectrum disorder: knowledge, attitude and awareness in jeddah, kingdom of saudi arabia",
+    "muhammad faheem",
+    "p63 simultaneous genetic screening of the coagulation pathway genes using the thromboscan targeted sequencing panel",
+    "hani a. alhadrami",
+    "p64 genome wide array comparative genomic hybridization analysis in patients with syndromic congenital heart defects",
+    "ibtessam r. hussein",
+    "p65 toxocogenetic evaluation of 1, 2-dichloroethane in bone marrow, blood and cells of immune system using conventional, molecular and flowcytometric approaches",
+    "mohammad i lone",
+    "p66 molecular cytogenetic diagnosis of sexual development disorders in newborn: a case of ambiguous genitalia",
+    "eradah alshihri",
+    "p67 identification of disease specific gene expression clusters and pathways in hepatocellular carcinoma using",
+    "shilu mathew, peter pushparaj natesan, muhammed al qahtani",
+    "center of excellence in genomic medicine research, king abdulaziz university, jeddah, ksa",
+    "p68 human wharton’s jelly stem cell conditioned medium inhibits primary ovarian cancer cells",
+    "gauthaman kalamegam",
+    "p69 mutation spectrum of aspm (abnormal spindle-like, microcephaly-associated) gene in saudi arabian population",
+    "muhammad i naseer",
+    "p70 identification and characterization of novel genes and mutations of primary microcephaly in saudi arabian population",
+    "muhammad i naseer",
+    "p71 molecular genetic analysis of hereditary nonpolyposis colorectal cancer (lynch syndrome) in saudi arabian population",
+    "mahmood rasool",
+    "p72 function predication of hypothetical proteins from genome database of chlamydia trachomatis",
+    "rubi",
+    "p73 transcription factors as novel molecular targets for skin cancer",
+    "ashraf ali",
+    "p74 an",
+    "bushra jarullah",
+    "p75 single cell genomics applications for preimplantation genetic screening optimization: comparative analysis of whole genome amplification technologies",
+    "mourad assidi",
+    "p76 zfp36 regulates mirs-34a in anti-igm triggered immature b cells",
+    "mohammad s jamal",
+    "p77 identification of a novel mutation in the",
+    "muhammad i. naseer",
+    "p78 copy number variations in saudi patients with intellectual disability and epilepsy",
+    "muhammad i. naseer",
+    "p79 prognostic significance of cd44 expression profile in colorectal carcinoma",
+    "maryam al-zahrani",
+    "p80 association of the endothelial nitric oxide synthase (enos) gene g894t polymorphism with hypertension risk and complications",
+    "abeer a al-refai",
+    "p81 snps array to screen genetic variation among diabetic patients",
+    "najlaa filimban",
+    "p82 detection and genotyping of",
+    "fehmida bibi",
+    "p83 antimicrobial drug resistance and molecular detection of susceptibility to fluoroquinolones among clinical isolates of salmonella species from jeddah-saudi arabia",
+    "ruaa a lahzah, asho ali",
+    "department of microbiology, king abdulaziz university, jeddah, saudi arabia",
+    "p84 identification of the toxic and virulence nature of map1138c protein of",
+    "syed a hassan",
+    "p85",
+    "fazal khan",
+    "p86 auruka gene is over-expressed in saudi breast cancer",
+    "manal shabaad",
+    "p87 the potential of immunogenomics in personalized healthcare",
+    "mourad assidi",
+    "p88",
+    "syed a hassan",
+    "p89 effects of heat shock on human bone marrow mesenchymal stem cells (bm-mscs): implications in regenerative medicine",
+    "reham al nono",
+    "p90",
+    "shilu mathew",
+    "p91 effects of environmental particulate matter on bone-marrow mesenchymal stem cells",
+    "muhammad abu-elmagd",
+    "p92 distinctive charge clusters in human virus proteomes",
+    "najla kharrat",
+    "p93",
+    "ghazi dhamanhouri",
+    "p94 molecular docking of gaba",
+    "muhammad faheem",
+    "p95 breast cancer knowledge, awareness, and practices among saudi females residing in jeddah",
+    "shilu mathew",
+    "p96 anti-inflammatory role of sesamin by attenuation of iba1/tnf-α/icam-1/inos signaling in diabetic retinopathy",
+    "mohammad sarwar jamal",
+    "p97 identification of drug lead molecule against vp35 protein of ebola virus: an",
+    "iftikhar aslamtayubi",
+    "p98 an approach to personalized medicine from snp-calling through disease analysis using whole exome-sequencing of three sub-continental populations",
+    "iftikhar a tayubi, syed hassan, hamza a.s abujabal",
+    "faculty of computing and information technology, king abdulaziz university, rabigh, saudi arabia",
+    "p99 low versus high frequency of glucose –6 – phosphate dehydrogenase (g6pd) deficiency in urban against tribal population of gujarat – a signal to natural selection",
+    "ishani shah",
+    "p100 spontaneous preterm birth and single nucleotide gene polymorphisms: a recent update",
+    "ishfaq a sheikh",
+    "p101 prevalence of congenital heart diseases among down syndrome cases in saudi arabia: role of molecular genetics in the pathogenesis",
+    "sahar af hammoudah",
+    "p102 combinatorial efficacy of specific pathway inhibitors in breast cancer cells",
+    "sara m ibrahim",
+    "p103 mir-143 and mir-145 cluster as potential replacement medicine for the treatment of cancer",
+    "mohammad a jafri, muhammad abu-elmagd, mourad assidi, mohammed al-qahtani",
+    "center of excellence for genomic medicine research, king abdulaziz university, jeddah, saudi arabia",
+    "p104 metagenomic profile of gut microbiota during pregnancy in saudi population",
+    "imran khan",
+    "p105 exploration of anticancer targets of selected metabolites of",
+    "fazal khan",
+    "p106 cd226 and cd40 gene polymorphism in susceptibility to juvenile rheumatoid arthritis in egyptian patients",
+    "heba m. el sayed",
+    "p107 paediatric exome sequencing in autism spectrum disorder ascertained in saudi families",
+    "hans-juergen schulten",
+    "p108 crystal structure of the complex formed between phospholipase a",
+    "zeenat mirza",
+    "p109 differential expression profiling between meningiomas from female and male patients",
+    "reem alotibi",
+    "p110 neurospheres as models of early brain development and therapeutics",
+    "muhammad faheem",
+    "p111 identification of a recurrent causative missense mutation p.(w577c) at the ldlr exon 12 in familial hypercholesterolemia affected saudi families",
+    "faisal a al-allaf",
+    "p112 epithelial ovarian carcinoma (eoc): systems oncological approach to identify diagnostic, prognostic and therapeutic biomarkers",
+    "gauthaman kalamegam",
+    "p113 crohn’s disease phenotype in northern tunisian population",
+    "naira ben mami",
+    "p114 establishment of",
+    "gauthaman kalamegam",
+    "p115 1q gain predicts poor prognosis marker for young breast cancer patients",
+    "shereen a turkistany",
+    "p116 disorders of sex chromosomes in a diagnostic genomic medicine unit in saudi arabia: prevalence, diagnosis and future guidelines",
+    "basmah al-madoudi",
+    "p117 combination of wye354 and sunitinib demonstrate synergistic inhibition of acute myeloid leukemia",
+    "asad m ilyas",
+    "p118 integrated use of evolutionary information in gwas reveals important snps in asthma",
+    "nada salem",
+    "p119 assessment of",
+    "fatima al-adwani",
+    "p120 expression profiles distinguish oligodendrogliomas from glioblastoma multiformes with or without oligodendroglioma component",
+    "alaa alamandi",
+    "p121 hierarchical clustering in thyroid goiters and hyperplastic lesions",
+    "ohoud subhi",
+    "p122 differential expression analysis in thyroiditis and papillary thyroid carcinomas with or without coexisting thyroiditis",
+    "nadia bagatian",
+    "p123 metagenomic analysis of waste water microbiome in sausdi arabia",
+    "muhammad w shah",
+    "p124 molecular characterization of",
+    "yosr z haffani",
+    "p125 diagnostic application of the oncoscan",
+    "shadi al-khayyat",
+    "p126 characterization of clinical and neurocognitive features in a family with a novel",
+    "habib bouazzi",
+    "p127 case report: a rare homozygous deletion mutation of",
+    "maha alotaibi",
+    "p128 isolation and purification of antimicrobial milk proteins",
+    "ishfaq a sheikh",
+    "p129 integrated analysis reveals association of atp8b1 gene with colorectal cancer",
+    "mohammad a aziz",
+    "p130 implication of il-10 and il-28 polymorphism with successful anti-hcv therapy and viral clearance",
+    "rubi ghazala",
+    "p131 interactions of endocrine disruptor di-(2-ethylhexyl) phthalate (dehp) and its metabolite mono-2-ethylhexyl phthalate (mehp) with progesterone receptor",
+    "ishfaq a sheikh",
+    "p132 association of hcv nucleotide polymorphism in the development of hepatocellular carcinoma",
+    "mohd suhail",
+    "p133 gene expression profiling by dna microarrays in colon cancer treated with chelidonine alkaloid",
+    "mahmoud z el-readi",
+    "p134 successful",
+    "ahmed m. isa",
+    "p135 genetic sensitivity analysis using scge, cell cycle and mitochondrial membrane potential in ops stressed leukocytes in",
+    "nazia nazam"
+  ],
+  "word_count": 85148,
+  "converted_at": "2026-04-06T22:39:46.269682+00:00"
+}

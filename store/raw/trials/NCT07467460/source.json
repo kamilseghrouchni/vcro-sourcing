@@ -1,0 +1,300 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07467460",
+      "orgStudyIdInfo": {
+        "id": "F/180029/01-04/X43"
+      },
+      "organization": {
+        "fullName": "Neuromed IRCCS",
+        "class": "OTHER"
+      },
+      "briefTitle": "Precision Medicine and Neurodegenerative Diseases: Advanced Systems for the Diagnosis and Treatment of Parkinson's Disease and Alzheimer's Disease.",
+      "officialTitle": "NEUROTECHNO: Precision Medicine and Neurodegenerative Diseases: Advanced Systems for the Diagnosis and Treatment of Parkinson's Disease and Alzheimer's Disease.",
+      "acronym": "NEUROTECHNO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-09-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-03-09",
+      "studyFirstSubmitQcDate": "2026-03-09",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Teresa Esposito",
+        "investigatorTitle": "Researcher head of the CNR lab",
+        "investigatorAffiliation": "Neuromed IRCCS"
+      },
+      "leadSponsor": {
+        "name": "Neuromed IRCCS",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Campania Luigi Vanvitelli Dipartimento di Scienze Mediche e Chirurgiche Avanzate",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Istituto di Genetica e Biofisica \"A. Buzzati Traverso\", CNR",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Istituto degli Endotipi in Oncologia, Metabolismo e Immunologia \"G. Salvatore\" (IEOMI), CNR",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Istituto di Calcolo e Reti ad Alte Prestazioni (ICAR), CNR",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In recent decades, advances in medicine have significantly improved both quality of life and life expectancy. However, these positive effects are also associated with a considerable increase in the prevalence of age-related diseases. Among these, Alzheimer's disease (AD), Parkinson's disease (PD), and type 2 diabetes (T2D) currently represent a major threat to human health. PD and AD are the most common neurodegenerative diseases in industrialized populations. In particular, AD accounts for 54% of all cases of dementia, with a prevalence of 4.4% among individuals over 65 years of age. PD has a prevalence of about 1% in people older than 60 years, reaching up to 4% in those over 80 years of age. AD and PD are highly disabling disorders with a slow but progressive course, caused by the degeneration and/or death of nerve cells. This results in impairments in the control of movement and balance, as in the case of PD, or in cognitive functioning, as in AD.\n\nTo date, neither effective treatments nor early diagnostic tools are available to address these conditions in the initial phase of neurodegeneration. Likewise, there are no tools capable of monitoring disease progression and improving patients' adaptation to therapy.\n\nMoreover, although the association between T2D and the risk of PD and/or AD has long been recognized, these conditions were historically considered unrelated. Recent evidence from clinical and epidemiological studies suggests the existence of shared pathophysiological mechanisms associated with insulin resistance and persistent inflammation in several metabolically relevant tissues, such as adipose tissue and the brain. However, the mechanisms that increase the risk of PD and/or AD in individuals with T2D remain poorly understood.\n\nThese data highlight how relevant these diseases are for the National Health System and demonstrate that they represent one of the most important priorities to be addressed, requiring substantial investments in both scientific research and early diagnostic strategies.\n\nTherefore, the present project proposal, which aims to develop new minimally invasive tools for the early prediction and monitoring of neurodegenerative diseases such as AD and PD, will help fill an important gap in the clinical and therapeutic management of these patients.",
+      "detailedDescription": "The project is a multicrentric observational study. Institutions involved are:OU1 - IRCCS INM Neuromed; OU2 -University of Campania Luigi Vanvitelli; OU3 -Institute of Genetics and Biophysics Adriano Buzzati-Traverso, CNR; OU4 - Institute of Endotypes in Oncology, Metabolism and Immunology \"Gaetano Salvatore\" CNR; OU5 -Institute for High Performance Computing and Networking CNR. The project takes advantage from the availability of a large collection of PD samples from familiar and sporadic cases, recruited at IRCCS Neuromed, for which we already collected and stored clinical information, genetic data as well as DNA, serum, plasma and peripheral blood mononuclear cells (PBMCs) for the entire study cohort. induced pluripotent stem cells (iPSC) are available for 6 PD patients and 5 healthy subjects.\n\nThe main phases characterizing the project proposal can be summarized as follows:\n\n1. Industrial research activities:\n\n   In this phase, an in-depth study of clinical characterization will be carried out, together with analyses of metabolic, epigenetic, and morphological (neuroimaging) profiles in selected patients. The aim is to identify new minimally invasive peripheral or structural biomarkers for AD and PD, with or without association with type 2 diabetes.\n\n   Specifically, during this phase the following activities will be carried out:\n   1. Selection and classification of patients;\n   2. Identification of genetic and metabolic profiles associated with the neurodegenerative diseases under study in a large cohort of patients recruited across the different centers;\n   3. Identification of epigenetic profiles within the same cohort of patients and controls;\n   4. Identification of morphological structures through neuroimaging;\n   5. Integration and analysis of omics and neuroimaging data: identification of altered metabolic pathways and biomarkers (metabolic, epigenetic, morphological) associated with disease prediction and progression;\n   6. Definition of a holistic data model and an acquisition platform capable of capturing and integrating information derived from heterogeneous sources;\n   7. Identification of relevant parameters for monitoring purposes in order to provide information useful for the early diagnosis of risk factors;\n   8. Identification of criteria to be used for risk assessment of the onset of comorbidities, from which appropriate interventions can be defined to properly guide and support the patient.\n2. Experimental Development Activities: Design of diagnostic and disease monitoring tools.\n\n   This phase concerns the design of a potential prototype relevant for the early diagnosis of the neurodegenerative diseases under study and their association with type 2 diabetes. Specifically, in this phase the following activities will be carried out:\n   1. Design of minimally invasive early-diagnosis kits;\n   2. Design of a system for personalized therapeutic and rehabilitative monitoring of the patient.\n\n   The outcome of this phase will be the definition and selection of all possible technical and scientific solutions required to achieve the established objective.\n3. Prototype Development and Validation:\n\nIn this phase, the first complete prototype will be developed. After obtaining and verifying the proper functioning of the prototype, the work will conclude with the evaluation of each procedure performed in order to establish a protocol aimed at supporting the use and application of high-resolution diagnostic kits and monitoring applications within the framework of the National Health System (NHS)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "PARKINSON DISEASE (Disorder)",
+        "Alzheimer s Disease",
+        "Diabete Type 2"
+      ],
+      "keywords": [
+        "Identification of genetic and metabolic profiles associated with neurodegenerative diseases",
+        "Identification of epigenetic profiles associated with neurodegenerative diseases",
+        "Integration and analysis of omics and neuroimaging data"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "24 Months",
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "1\\) blood samples for purification of DNA, plasma, serum and PBMC"
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "PD patients",
+          "description": "PD participants will be assessed for disease progression, including Hoehn and Yahr stage, MDS-UPDRS Part III, MoCA test, non-motor symptoms, therapy, occurrence of LID, and sleep disorders. Participants will undergo brain magnetic resonance imaging (MRI). Participants will undergo peripheral blood sampling for the isolation of DNA, plasma, serum, and PBMCs, as well as for the generation of hiPSCs. The DNA of each participant will be analyzed by whole-exome sequencing to identify variants in candidate PD genes. DNA will also be analyzed to assess the epigenetic profile. Plasma and serum samples will be analyzed to evaluate metabolomic, lipidomic, and proteomic profiles."
+        },
+        {
+          "label": "AD patients",
+          "description": "AD Partecipants will be assessed for disease progression: - assessment of cognitive disorders (MMSE, MOCA test, clock test); - assessment of language disorders; - current drug therapy (and possible start date of treatment); - date of onset of cognitive disorders; - acquisition and assessment of imaging data where present (MRI, CT, PET). Participants will undergo peripheral blood sampling for the isolation of DNA, plasma, serum. The DNA of each participant will be analyzed by whole-exome sequencing to identify variants in candidate AD genes. DNA will also be analyzed to assess the epigenetic profile. Plasma and serum samples will be analyzed to evaluate metabolomic, lipidomic, and proteomic profiles."
+        },
+        {
+          "label": "Type 2 Diabetes (T2D) patients",
+          "description": "T2D Partecipants will be assessed for disease progression. Participants will undergo peripheral blood sampling for the isolation of DNA, plasma, serum. The DNA of each participant will be analyzed by whole-exome sequencing to identify variants in candidate T2D genes. DNA will also be analyzed to assess the epigenetic profile. Plasma and serum samples will be analyzed to evaluate metabolomic, lipidomic, and proteomic profiles."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "motor symptoms of PD patients will be evaluated with Hoehn and Yahr (HY) score",
+          "description": "The Hoehn and Yahr Scale will be used to measure how Parkinson's symptoms progress and the level of disability. Itincludes stages 1 through 5: Stage 1. Unilateral involvement only, usually with minimal or no functional impairment; Stage 2 = Bilateral disease, without impairment of balance; Stage 3 = Mild to moderate bilateral disease; some postural instability; physically independent. Stage 4 = Severe disability; still able to walk or stand unassisted. Stage 5 = Wheelchair bound or bedridden unless aided.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "motor and non motor symptoms of PD patients will be evaluated with MDS-UPDRS",
+          "description": "The MDS-UPDRS has four parts, namely, I: Non-motor Experiences of Daily Living; II: Motor Experiences of DailyLiving; III: Motor Examination; IV: Motor Complications. Twenty questions are completed by the patient/caregiver",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "clinical evaluation of cognitive impairment of PD and AD patients",
+          "description": "PD patients will be evaluated with the Montreal Cognitive Assessment (MoCA) test. This is a test used by healthcare providers to evaluate people with memory loss or other symptoms of cognitive decline. The MoCA contains 30 questions and checks different types of cognitive or thinking abilities. These include:orientation, short-term memory/delayed recall, executive function/visuospatial ability, clock-drawing test.- assessment of language disorders. AD patients: - assessment of cognitive disorders (MMSE, MOCA test, clock test); - assessment of language disorders.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "identification of variants/mutations",
+          "description": "PD patients: the number of multiple rare (Minor allele frequency, MAF\\<0.01) deleterious (missense, non sense, frameshift and splicing) variants in PD genes will be counted in PD patients and unrelated healthy subjects. Case-control assoiciation study will evaluate the PD risk. AD, T2D: deleterious variants (missense, non sense, frameshift and splicing) in responsible genes will be considered.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Identification of metabolomic, lipidomic and proteomic profiles in plasma/serum",
+          "description": "Characterization of circulating metabolite, lipid, and protein profiles using an untargeted mass spectrometry (LC-MS) approach in the cohort of patients with PD, AD, and T2D.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Bioinformatic analysis for the identification of biomarkers and molecular pathways associated with PD and /or AD",
+          "description": "Through advanced bioinformatics analysis, multivariate statistical analysis techniques and machine learning, metabolites, lipids, proteins and molecular pathways involved in different neurodegenerative diseases and their development will be identified. This will allow us to understand and improve the knowledge of these pathologies and to identify potential therapeutic or diagnostic targets/pathways.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Identification of epigenetic profiles in patients with PD, AD, and T2D.",
+          "description": "We will adopt an \"epi-genome wide\" approach to profile the epigenome of the PD, AD and T2D cohorts using Next Generation Sequencing techniques. Specifically, transcriptomic analyses based on RNA-seq (including microRNA omics) will be performed, and Illumina Infinium Methylation EPIC BeadChips will be used to investigate global DNA methylation.\n\nIn this phase of the study, to strengthen the potential preclinical validity for the risk of developing T2D, PD, or AD, an additional analysis of epigenotypes will be conducted on the recruited populations, reclassified according to the presence of obesity, overweight, and/or reduced physical activity.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Identification of morphological structures through neuroimaging.",
+          "description": "The patients recruited in the study will undergo advanced magnetic resonance imaging (MRI) studies, in which images will be acquired using the following techniques:\n\nResting-state functional magnetic resonance imaging (rs-fMRI) Diffusion Tensor Imaging (DTI) Susceptibility Weighted Imaging (SWI) High-resolution 3D T1-weighted structural imaging\n\nThe analysis of the results will allow:\n\nExtraction of quantitative morphological-structural parameters at both cortical and subcortical levels; Extraction of quantitative structural connectivity parameters at both cortical and subcortical levels; Extraction of quantitative functional connectivity parameters at both cortical and subcortical levels; Extraction of parameters useful for evaluating metal accumulation or other substances typical of certain pathologies.",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* -Inclusion Criteria:\n* Inclusion criteria for PD patients. For the IRCCS INM Neuromed, patients will be recruited from those affiliated with the Center for the Study and Treatment of Parkinson's Disease of the Neuromed Institute of Pozzilli.\n\nPresence of at least 2 of the 4 cardinal signs (tremor, rigidity, bradykinesia, asymmetric onset), one of which must be tremor or bradykinesia:\n\nAbsence of atypical symptoms such as: i) early postural instability, freezing episodes, cognitive decline, hallucinations, pathological involuntary movements, vertical gaze palsy; ii) confirmed causes of secondary parkinsonism (focal lesions, medications, toxic substances); Documented response to L-dopa or dopamine agonists (or lack of an adequate therapeutic trial with L-dopa or dopamine agonists).\n\n-Inclusion criteria forAD patients. For the University of Campania, patients will be selected at the Department of Advanced Medical and Surgical Sciences of the University of Campania \"L. Vanvitelli,\" located at Piazza Miraglia 2, Naples. The Department will establish a collaboration with the Alzheimer's day centers of ASL NA1 (Geriatric Facility \"Villa Walpole\" - Via Ponti Rossi, 118 - Naples, and Geriatric Facility \"Frullone\" - Via Comunale del Principe, 16/A - Naples) to identify potential subjects for screening to verify the parameters required for recruitment. The Geriatrics and Internal Medicine Unit (UOC), AOU University of Campania, will also be involved.\n\nPatients with AD will be included following a diagnosis of probable Alzheimer's disease according to the McKhann criteria (2011), supported by positive biomarkers for amyloidopathy (amyloid PET or cerebrospinal fluid amyloid assay).\n\nExclusion Criteria:\n\n* Pre-existing psychiatric disorders;\n* Neurodegenerative neurological diseases such as multiple sclerosis, amyotrophic lateral sclerosis, Alzheimer's disease, neuromuscular disorders, epilepsy;\n* Diagnosis of dementia.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "In this multicenter, observational, prospective study, a total of 500 subjects will be consecutively enrolled at the two clinical recruiting centers involved in the study (IRCCS Neuromed (UO1) and the University of Campania Luigi Vanvitelli (UO2)), including:\n\n100 subjects with Parkinson's disease (PD) (UO1); 50 subjects with PD and diabetes (UO1); 100 subjects with Alzheimer's disease (AD) (UO2); 50 subjects with AD and diabetes (UO2); 50 subjects with diabetes (UO2); 50 first-degree relatives (FDR) of patients with AD or type 2 diabetes (UO2); 100 healthy control subjects for the validation of specific genotypes/epigenotypes and/or biomarkers associated with PD, AD, and/or T2D (UO1 and UO2).\n\nThe control subjects will be recruited according to standard clinical practice among patients attending the outpatient clinics of IRCCS Neuromed and the Department of Advanced Medical and Surgical Sciences, University of Campania Luigi Vanvitelli - Naples.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Teresa Esposito, PhD",
+          "role": "CONTACT",
+          "phone": "+39 0865915249",
+          "email": "teresa.esposito@igb.cnr.it"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "TERESA ESPOSITO, PhD",
+          "affiliation": "IRCCS INM Neuromed",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "IRCCS INM Neuromed",
+          "status": "RECRUITING",
+          "city": "Pozzilli",
+          "zip": "86077",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Teresa Esposito, PhD",
+              "role": "CONTACT",
+              "phone": "+30 0865915249",
+              "email": "teresa.esposito@igb.cnr.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.51142,
+            "lon": 14.06252
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010300",
+          "term": "Parkinson Disease"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020734",
+          "term": "Parkinsonian Disorders"
+        },
+        {
+          "id": "D001480",
+          "term": "Basal Ganglia Diseases"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D000080874",
+          "term": "Synucleinopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,244 @@
+{
+  "pmid": "38452244",
+  "pmc": "PMC11000317",
+  "doi": "10.1093/gerona/glae077",
+  "title": "Integrative Multimodal Metabolomics to Early Predict Cognitive Decline Among Amyloid Positive Community-Dwelling Older Adults",
+  "journal": "The Journals of Gerontology Series A: Biological Sciences and Medical Sciences",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Tremblay-Franco Marie",
+      "affiliations": [
+        "Toxalim (Research Center in Food Toxicology), Toulouse University, INRAE, ENVT, INP-Purpan, UPS, Toulouse, France",
+        "Metatoul-AXIOM Platform, MetaboHUB, Toxalim, INRAE, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Canlet Cécile",
+      "affiliations": [
+        "Toxalim (Research Center in Food Toxicology), Toulouse University, INRAE, ENVT, INP-Purpan, UPS, Toulouse, France",
+        "Metatoul-AXIOM Platform, MetaboHUB, Toxalim, INRAE, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Carriere Audrey",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Nakhle Jean",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Galinier Anne",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France",
+        "Institut Fédératif de Biologie, CHU Purpan, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Portais Jean-Charles",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France",
+        "MetaboHUB-MetaToul, National Infrastructure of Metabolomics and Fluxomics, Toulouse Biotechnology Institute, INSA de Toulouse INSA/CNRS 5504 - UMR INSA/INRA 792,Toulouse, France"
+      ]
+    },
+    {
+      "name": "Yart Armelle",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Dray Cédric",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Lu Wan-Hsuan",
+      "affiliations": [
+        "Gérontopole of Toulouse, Institute of Aging, Toulouse University Hospital (CHU Toulouse), Toulouse, France",
+        "CERPOP UMR 1295, University of Toulouse III, INSERM, UPS, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Bertrand Michel Justine",
+      "affiliations": [
+        "Lipidomic, MetaboHUB-MetaToul, National Infrastructure of Metabolomics and Fluxomics, Toulouse, France",
+        "I2MC, Université de Toulouse, Inserm, Université Toulouse III - Paul Sabatier (UPS), Toulouse, France (Biological Sciences Section)"
+      ]
+    },
+    {
+      "name": "Guyonnet Sophie",
+      "affiliations": [
+        "Gérontopole of Toulouse, Institute of Aging, Toulouse University Hospital (CHU Toulouse), Toulouse, France",
+        "CERPOP UMR 1295, University of Toulouse III, INSERM, UPS, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Rolland Yves",
+      "affiliations": [
+        "Gérontopole of Toulouse, Institute of Aging, Toulouse University Hospital (CHU Toulouse), Toulouse, France",
+        "CERPOP UMR 1295, University of Toulouse III, INSERM, UPS, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Vellas Bruno",
+      "affiliations": [
+        "Gérontopole of Toulouse, Institute of Aging, Toulouse University Hospital (CHU Toulouse), Toulouse, France",
+        "CERPOP UMR 1295, University of Toulouse III, INSERM, UPS, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Delrieu Julien",
+      "affiliations": [
+        "Gérontopole of Toulouse, Institute of Aging, Toulouse University Hospital (CHU Toulouse), Toulouse, France",
+        "CERPOP UMR 1295, University of Toulouse III, INSERM, UPS, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Barreto Philippe de Souto",
+      "affiliations": [
+        "Gérontopole of Toulouse, Institute of Aging, Toulouse University Hospital (CHU Toulouse), Toulouse, France",
+        "CERPOP UMR 1295, University of Toulouse III, INSERM, UPS, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Pénicaud Luc",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Casteilla Louis",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France"
+      ]
+    },
+    {
+      "name": "Ader Isabelle",
+      "affiliations": [
+        "Institut RESTORE, UMR 1301 INSERM, 5070 CNRS, Université Paul Sabatier, Toulouse, France"
+      ]
+    },
+    {
+      "name": "MAPT/DSA Group",
+      "affiliations": []
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "Bimodal metabolomics",
+    "Cognitive decline",
+    "Early prediction",
+    "Metabolite signature",
+    "Multiomics integrative method"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "INSERM",
+    "Région Occitanie Pyrénées-Méditerranée10.13039/501100014184 1901175",
+    "European Regional Development Fund10.13039/501100008530 MP0022856",
+    "Gérontopôle of Toulouse",
+    "French Ministry of Health",
+    "European Lead Factory10.13039/501100020910",
+    "ExonHit Therapeutics SA",
+    "Avid Radiopharmaceuticals Inc",
+    "Centre Hospitalier Universitaire de Toulouse10.13039/501100006556",
+    "Association Monegasque pour la Recherche sur la maladie d’Alzheimer",
+    "the INSERM-University of Toulouse III UMR 1295 Research Unit"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2023-08-31",
+  "accepted": "",
+  "reference_pmids": [
+    "34998485",
+    "29782318",
+    "36449413",
+    "31932806",
+    "31068711",
+    "36138150",
+    "31431621",
+    "26646498",
+    "23849548",
+    "24905565",
+    "24211299",
+    "24457528",
+    "25585166",
+    "30258059",
+    "26594639",
+    "17947786",
+    "33331917",
+    "28359749",
+    "1202204",
+    "8126356",
+    "19043645",
+    "29405230",
+    "24039616",
+    "25938372",
+    "34064856",
+    "20208976",
+    "30657866",
+    "29099853",
+    "9171059",
+    "2310310",
+    "31031585",
+    "36075959",
+    "24694177",
+    "32007958",
+    "24608097",
+    "27408938",
+    "26806385",
+    "30984391",
+    "34581265",
+    "33508744",
+    "27693183",
+    "25649659",
+    "35318099",
+    "32967185",
+    "34830163",
+    "31926621",
+    "34891124",
+    "34549244"
+  ],
+  "tables_count": 2,
+  "figures_count": 3,
+  "sections_present": [
+    "abstract",
+    "materials and methods",
+    "clinical assessment",
+    "mapt study",
+    "ethical aspects",
+    "definition of subgroups analysis",
+    "characteristics of the participants",
+    "measurement of cognitive decline",
+    "metabolomic profiling",
+    "extraction of plasma samples",
+    "sample preparation of aqueous extracts for nmr analyses",
+    "nmr analyses",
+    "sample preparation for lipidomic analyses",
+    "untargeted lipidomic profiling by supercritical fluid chromatography coupled with high-resolution mass spectrometry (sfc-hrms)",
+    "statistical analysis",
+    "clinical data",
+    "statistical metabolomic analysis",
+    "results",
+    "characterization of the samples from mapt study participants",
+    "aqueous metabolomics or lipidomic profiling alone cannot predict future cognitive decline",
+    "integration of the metabolomic data sets allows prediction of future cognitive decline",
+    "the prediction model performs well in discriminating no decline versus decline groups",
+    "discussion",
+    "limitations",
+    "conclusion",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 8807,
+  "converted_at": "2026-04-06T22:36:17.390061+00:00"
+}

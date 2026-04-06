@@ -1,0 +1,391 @@
+{
+  "pmid": "41343582",
+  "pmc": "PMC12677780",
+  "doi": "10.1371/journal.pone.0332430.r004",
+  "title": "Comprehensive analysis platform to understand, remedy, and eliminate amyotrophic lateral sclerosis (CAPTURE ALS): Study protocol for a Canadian multicenter, multimodal, longitudinal observational study",
+  "journal": "PLOS One",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Saunders Natalie",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Magnussen Claire",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Kang HyungMo",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Blais Mathieu",
+      "affiliations": [
+        "Neuroscience Axis, CHU de Québec – Université Laval, Québec City, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Bhinder Harpreet",
+      "affiliations": [
+        "Department of Medicine, Division of Neurology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Pfeffer Gerald",
+      "affiliations": [
+        "Hotchkiss Brain Institute, University of Calgary, Calgary, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Genuis Shelagh K.",
+      "affiliations": [
+        "Department of Medicine, Division of Neurology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Bouvier Liziane",
+      "affiliations": [
+        "School of Communication Sciences and Disorders, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Anand Tanushka",
+      "affiliations": [
+        "Department of Medicine, Division of Neurology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Abou-Haidar Rida",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Abrahao Agessandro",
+      "affiliations": [
+        "Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Boivin Marie-Noëlle",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Bowser Robert",
+      "affiliations": [
+        "Department of Translational Neuroscience, Barrow Neurological Institute, Pheonix, Arizona, United States of America"
+      ]
+    },
+    {
+      "name": "Bubela Tania",
+      "affiliations": [
+        "Faculty of Health Sciences, Simon Fraser University, Burnaby, British Columbia, Canada"
+      ]
+    },
+    {
+      "name": "Chiappini Julia",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Das Samir",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Dhanoa Avnit",
+      "affiliations": [
+        "Department of Medicine, Division of Neurology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Dupré Nicolas",
+      "affiliations": [
+        "Neuroscience Axis, CHU de Québec – Université Laval, Québec City, Québec, Canada",
+        "Department of Medicine, Faculty of Medicine, Université Laval, Québec City, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Evans Alan",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Ferry Nicolas",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Frater Yvonne",
+      "affiliations": [
+        "Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Genge Angela",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Graham Simon J.",
+      "affiliations": [
+        "Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Greiner Russell",
+      "affiliations": [
+        "Department of Computing Science, Faculty of Science, Alberta Machine Intelligence Institute, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Medina Yasser Iturria",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Johnston Wendy S.",
+      "affiliations": [
+        "Department of Medicine, Division of Neurology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Jones Kelvin E.",
+      "affiliations": [
+        "Faculty of Kinesiology, Sport and Recreation, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Karamchandani Jason",
+      "affiliations": [
+        "The Neuro-Montreal Neurological Institute- Hospital, McGill University, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Kriz Jasna",
+      "affiliations": [
+        "Department of Psychiatry and Neurosciences, Faculty of Medicine, Université Laval, Québec City, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Luth Westerly",
+      "affiliations": [
+        "Department of Medicine, Division of Neurology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Matte Geneviève",
+      "affiliations": [
+        "Department of Neurosciences, Université de Montréal, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Rogaeva Ekaterina",
+      "affiliations": [
+        "Tanz Centre for Research in Neurodegenerative Disease, University of Toronto, Toronto, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Robertson Janice",
+      "affiliations": [
+        "Tanz Centre for Research in Neurodegenerative Disease, University of Toronto, Toronto, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Seres Peter",
+      "affiliations": [
+        "Department of Radiology and Diagnostic Imaging, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    },
+    {
+      "name": "Tam Fred",
+      "affiliations": [
+        "Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Taylor David",
+      "affiliations": [
+        "ALS Society of Canada, Toronto, Canada"
+      ]
+    },
+    {
+      "name": "Tremblay-Desbiens Clémence",
+      "affiliations": [
+        "Neuroscience Axis, CHU de Québec – Université Laval, Québec City, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Velde Christine Vande",
+      "affiliations": [
+        "Department of Neurosciences, Université de Montréal, Montreal, Québec, Canada"
+      ]
+    },
+    {
+      "name": "Yunusova Yana",
+      "affiliations": [
+        "Department of Speech-Language Pathology, University of Toronto, Toronto, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Zinman Lorne",
+      "affiliations": [
+        "Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Ontario, Canada"
+      ]
+    },
+    {
+      "name": "Kalra Sanjay",
+      "affiliations": [
+        "Department of Medicine, Division of Neurology, Faculty of Medicine and Dentistry, University of Alberta, Edmonton, Alberta, Canada"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100009017ALS Society of Canada KalraSanjay",
+    "http://dx.doi.org/10.13039/100009857Regeneron Pharmaceuticals KalraSanjay",
+    "http://dx.doi.org/10.13039/100006400Alnylam Pharmaceuticals KalraSanjay",
+    "Calgary Flames Foundation/Snow Foundation KalraSanjay",
+    "ALS Action Canada MatteGeneviève",
+    "ALS Society of Quebec MatteGeneviève",
+    "http://dx.doi.org/10.13039/100009408Fondation Brain Canada KalraSanjay",
+    "http://dx.doi.org/10.13039/501100000024Canadian Institutes of Health Research KalraSanjay"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2025-04-11",
+  "accepted": "2025-08-29",
+  "reference_pmids": [
+    "28449882",
+    "37620095",
+    "26515620",
+    "32583689",
+    "32062193",
+    "31899540",
+    "33192262",
+    "33340024",
+    "35805149",
+    "36481799",
+    "34819914",
+    "31423714",
+    "32871387",
+    "32646955",
+    "33155172",
+    "34426551",
+    "34908212",
+    "34003431",
+    "30487232",
+    "24568690",
+    "30830822",
+    "22809132",
+    "32838576",
+    "11464847",
+    "30892087",
+    "10540002",
+    "25205208",
+    "34949141",
+    "16055882",
+    "28741375",
+    "28327094",
+    "26312652",
+    "33828758",
+    "37713127",
+    "3809245",
+    "31760837",
+    "30837936",
+    "26136624",
+    "27148967",
+    "8114482",
+    "28528293",
+    "29209698",
+    "32697631",
+    "27679842",
+    "27453680",
+    "33639779",
+    "32138555",
+    "31940257",
+    "26789001",
+    "21372794",
+    "34426551",
+    "29955173",
+    "32526057",
+    "38519870",
+    "34544646",
+    "35115730",
+    "28594593",
+    "31423714",
+    "32925088",
+    "39295118",
+    "35224491",
+    "29955173"
+  ],
+  "tables_count": 5,
+  "figures_count": 0,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "background and rationale",
+    "objectives",
+    "materials and methods",
+    "study design",
+    "participant engagement",
+    "study population",
+    "ethics",
+    "status and timeline of the study",
+    "study procedure",
+    "recruitment and consent.",
+    "eligibility criteria",
+    "inclusion criteria",
+    "affected participant",
+    "control participant",
+    "exclusion criteria.",
+    "affected participant",
+    "control participant",
+    "data collection",
+    "primary outcomes",
+    "demographic information and disease onset.",
+    "study status.",
+    "medications and medical history.",
+    "family history and genetic testing.",
+    "alsfrs-r [affected participants only].",
+    "forced vital capacity [affected participants only].",
+    "neurological evaluations.",
+    "neurocognitive testing.",
+    "speech testing.",
+    "neuroimaging.",
+    "biosample collection.",
+    "biosample processing.",
+    "secondary outcomes",
+    "whole genome sequencing.",
+    "neurofilament analyses.",
+    "performance of genome-wide dna methylation.",
+    "data management",
+    "confidentiality and participant protection.",
+    "progress",
+    "dissemination",
+    "limitations",
+    "strengths",
+    "conclusion",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 10174,
+  "converted_at": "2026-04-06T22:38:16.387698+00:00"
+}

@@ -1,0 +1,244 @@
+{
+  "pmid": "38366602",
+  "pmc": "PMC10940196",
+  "doi": "10.1016/j.medj.2024.01.010",
+  "title": "Plasma metabolites of a healthy lifestyle in relation to mortality and longevity: four prospective U.S. cohort studies",
+  "journal": "Med (New York, N.Y.)",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Tessier Anne-Julie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang Fenglei",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liang Liming",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wittenbecher Clemens",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Haslam Danielle E",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eliassen A Heather",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tobias Deirdre K",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Li Jun",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zeleznik Oana",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ascherio Alberto",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sun Qi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Stampfer Meir J",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Grodstein Francine",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rexrode Kathryn M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Manson JoAnn E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Balasubramanian Raji",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Clish Clary B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Martínez-González Miguel A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chavarro Jorge E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hu Frank B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Guasch-Ferre Marta",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data and code availabilityThe participants data reported in this study cannot be deposited in a public repository due to participant confidentiality and privacy concerns. Therefore, data are available upon written request. According to standard controlled access procedure, applications to use the NHSI, NHSII and HPFS resources will be reviewed by our External Collaborators Committee for scientific aims, evaluation of the fit of the data for the proposed methodology, and verification that the proposed use meets the guidelines of the Ethics and Governance Framework and of the consent that was provided by the participants. Further information including the procedures for obtaining and accessing data from the Nurses’ Health Studies and Health Professionals’ Follow-up Study is described at https://www.nurseshealthstudy.org/researchers and https://sites.sph.harvard.edu/hpfs/for-collaborators. To request access, contact nhsaccess@channing.harvard.edu. All original analytical code has been deposited at Zenodo and is publicly available as of the date of publication. DOIs are listed in the key resources table. Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "32892156",
+    "34857534",
+    "29712712",
+    "21931361",
+    "36161775",
+    "29038146",
+    "32827647",
+    "29789452",
+    "31828464",
+    "26721601",
+    "35258150",
+    "29924298",
+    "36317303",
+    "33279777",
+    "35086546",
+    "35816426",
+    "36161775",
+    "34791348",
+    "34902008",
+    "35757406",
+    "30967146",
+    "32406924",
+    "33279777",
+    "35086546",
+    "29924298",
+    "33177712",
+    "17143322",
+    "36308982",
+    "26306852",
+    "31848620",
+    "32936887",
+    "31364705",
+    "36707969",
+    "35318466",
+    "32246717",
+    "27767036",
+    "30862367",
+    "36424694",
+    "31216576",
+    "35185779",
+    "36257493",
+    "29025033",
+    "26750569",
+    "21852630",
+    "18796495",
+    "31915124",
+    "19254743",
+    "35926549",
+    "24708705",
+    "26781655",
+    "27518560",
+    "27459450",
+    "1678444",
+    "23578696",
+    "9492970",
+    "29459470",
+    "11319631",
+    "9731736",
+    "35391539",
+    "29459470",
+    "23495371",
+    "29330539",
+    "4014201",
+    "7860180",
+    "31651959",
+    "31451635",
+    "37717037"
+  ],
+  "tables_count": 4,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "participants’ characteristics",
+    "metabolome-wide associations",
+    "healthy lifestyle metabolomic signature",
+    "prospective associations with mortality and longevity",
+    "external replication",
+    "discussion",
+    "limitation of study",
+    "star ★methods",
+    "resource availability",
+    "lead contact",
+    "materials availability",
+    "data and code availability",
+    "experimental model and study participant details",
+    "method details",
+    "blood collection and metabolite profiling",
+    "assessment of lifestyle factors",
+    "ascertainment of deaths and longevity",
+    "assessment of covariates",
+    "quantification and statistical analysis",
+    "supplementary material",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 9857,
+  "converted_at": "2026-04-06T22:36:16.135203+00:00"
+}

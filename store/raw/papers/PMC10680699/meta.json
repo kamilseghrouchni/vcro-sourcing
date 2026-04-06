@@ -1,0 +1,226 @@
+{
+  "pmid": "38014203",
+  "pmc": "PMC10680699",
+  "doi": "10.1101/2023.11.15.565967",
+  "title": "Creation of de novo cryptic splicing for ALS/FTD precision medicine",
+  "journal": "bioRxiv",
+  "year": 2023,
+  "authors": [
+    {
+      "name": "Wilkins Oscar G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chien Max Z.Y.J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wlaschin Josette J.",
+      "affiliations": [
+        "Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health; Bethesda, MD 20892, USA"
+      ]
+    },
+    {
+      "name": "Pisliakova Maria",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Thompson David",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Digby Holly",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Simkin Rebecca L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Diaz Juan Antinao",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mehta Puja R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Keuss Matthew J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zanovello Matteo",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Brown Anna-Leigh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harley Peter",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Darbey Annalucia",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karda Rajvinder",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fisher Elizabeth M.C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cunningham Tom J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Le Pichon Claire E.",
+      "affiliations": [
+        "Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health; Bethesda, MD 20892, USA"
+      ]
+    },
+    {
+      "name": "Ule Jernej",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fratta Pietro",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "OGW was supported by the Wellcome Trust and Target ALS.",
+    "TJC, EMCF were funded by the UK Medical Research Council (MRC) (MC_EX_MR/N501931/1).",
+    "P.F. is supported by a UK Medical Research Council Senior Clinical Fellowship and Lady Edith Wolfson Fellowship (MR/M008606/1 and MR/S006508/1) and NIH U54NS123743 (P.F.).",
+    "PRM is supported by a Wellcome Trust Clinical Training Fellowship (102186/B/13/Z).",
+    "RK received support from LifeArc (P2020-0008) and Great Ormond Street Hospital Children’s Charity (V4720).",
+    "CLP is supported by National Institutes of Health NICHD Intramural Research Program funding (ZIA-HD008966)."
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "25652699",
+    "27495267",
+    "31039256",
+    "26250685",
+    "30643292",
+    "30643298",
+    "35197628",
+    "35197626",
+    "36075972",
+    "36927019",
+    "37434215",
+    "31042469",
+    "36378958",
+    "38277467",
+    "30661751",
+    "11470789",
+    "24240615",
+    "25122661",
+    "31634902",
+    "37142705",
+    "36997524",
+    "34653350",
+    "35113871",
+    "33795885",
+    "36182931",
+    "34794168",
+    "35241838",
+    "21205896",
+    "35474898",
+    "34608327",
+    "17076895",
+    "23104886",
+    "30357393",
+    "32790644",
+    "31665631",
+    "20110278",
+    "29750242",
+    "28671695",
+    "33589617"
+  ],
+  "tables_count": 0,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "tdp-regv1: modification of als/ftd cryptic exons for tdp-43-regulated expression vectors",
+    "tdp-regv2: creation of de novo cryptic splicing sequences",
+    "multiple cryptic exons further increase specificity",
+    "tdp-reg is activated by tdp-lof",
+    "tdp-43 aggregation activates tdp-reg expression",
+    "application of tdp-reg to biomarker expression",
+    "tdp-reg tightly regulates genome editing",
+    "tdp-reg can enable autoregulated splicing rescue",
+    "discussion",
+    "materials and methods",
+    "cell culture",
+    "western blotting",
+    "cloning",
+    "cell imaging and quantification",
+    "quantification of cryptic",
+    "splicenouveau algorithm",
+    "screening of synonymous cas9-encoding variants",
+    "nanopore analysis",
+    "generation of aavs",
+    "mice",
+    "intracerebroventricular injections",
+    "tissue preparation and sectioning",
+    "immunostaining of tissue",
+    "imaging and analysis",
+    "cytoplasmic aggregation",
+    "prime editing",
+    "luciferase analysis",
+    "design of tdp-43/raver1 expression vectors",
+    "rescue of endogenous cryptic splicing with tdp-43/raver1",
+    "growth competition assay",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 10350,
+  "converted_at": "2026-04-06T22:36:05.947279+00:00"
+}

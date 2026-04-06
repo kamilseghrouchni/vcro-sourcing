@@ -1,0 +1,294 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07479017",
+      "orgStudyIdInfo": {
+        "id": "DR250240 - SLA-PlaQ"
+      },
+      "organization": {
+        "fullName": "University Hospital, Tours",
+        "class": "OTHER"
+      },
+      "briefTitle": "Characterization of Platelet Molecular Profiles in ALS for the Identification of Specific Diagnostic Biomarkers - A Pilot Study",
+      "officialTitle": "Characterization of Platelet Molecular Profiles in ALS for the Identification of Specific Diagnostic Biomarkers - A Pilot Study",
+      "acronym": "SLA-PlaQ"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-03-03",
+      "studyFirstSubmitQcDate": "2026-03-12",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Tours",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The search for diagnostic biomarkers that can be used routinely is a major challenge to manage Amyotrophic lateral sclerosis (ALS) in order to characterize the pathophysiology and accelerate the management of the disease. Some non-specific biomarkers have been proposed (Neurofilaments, TDP-43) but their diagnostic value remains controversial. This study aims to identify ALS-specific platelet biomarkers using targeted and untargeted multi-omic approaches, in order to enable differential diagnosis between ALS and other motor neuron diseases.",
+      "detailedDescription": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterized by progressive loss of motor neurons, leading to increasing muscle paralysis. The pathophysiology of ALS remains poorly understood, and the absence of a diagnostic test makes this disease a real challenge, requiring an average of 12 months before a reliable ALS diagnosis can be established. Yet, this disease progresses rapidly, leading to death on average 36 months after the onset of symptoms. The search for diagnostic biomarkers that can be used routinely is therefore a major challenge in order to characterize the pathophysiology and accelerate the management of the disease. To date, a few avenues have been explored, including the concentration in the blood or cerebrospinal fluid of neurofilaments, a protein that can be used to assess the progression of neuronal loss. This biomarker has shown some potential but is not specific to ALS and its diagnostic value remains controversial. In addition, the TDP-43 protein, involved in RNA metabolism, has been widely described as pathogenic in ALS. Indeed, its aggregation and modification of its localization are thought to be associated with motor neuron degeneration. Several studies have demonstrated the presence of this protein in platelets, suggesting their potential as a source of peripheral biomarkers. This project aims to identify platelet molecular biomarkers in ALS patients within three months of diagnosis, using targeted (TDP-43 and neurofilaments) and non-targeted (metabo-lipidomic, transcriptomic, and proteomic profiles) approaches. This multi-omic approach could reveal a complex, comprehensive, and specific signature of ALS. The results will allow us to evaluate the diagnostic and prognostic performance of platelet biomarkers, either on their own or in combination."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ALS (Amyotrophic Lateral Sclerosis)"
+      ],
+      "keywords": [
+        "diagnostic biomarkers",
+        "platelet molecular profiles"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITHOUT_DNA",
+        "description": "2 tubes of 7 ml of blood upon inclusion"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ALS patients",
+          "description": "Biological:\n\nA blood sample will be taken at the time of inclusion by increasing the volume taken for the health routine care."
+        },
+        {
+          "label": "control patients with another motor neuron disease",
+          "description": "Biological:\n\nA blood sample will be taken at the time of inclusion by increasing the volume taken for the health routine care."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Diagnostic potential of platelet biomarkers",
+          "description": "Platelet biomarkers will be sought using targeted (TDP-43) and non-targeted multiomics screening approaches (transcriptomic, proteomic, metabo-lipidomic). The identified biomarkers will be integrated into multivariate models to evaluate their diagnostic potential in distinguishing ALS from other motor neuron diseases (sensibility, specificity, positive or negative predictive value).",
+          "timeFrame": "Enrollment (< 3 months post-diagnosis)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Diagnostic performances of platelet biomarkers compared to plasma neurofilaments",
+          "description": "Plasma neurofilament concentration will be measured in each participant's sample. Diagnostic potential of platelet biomarkers will be compared to that of plasma neurofilaments concentration. The platelet biomarkers previously identified and plasma neurofilament concentration will be integrated into multivariate models to evaluate and compare their diagnostic potential in distinguishing ALS from other motor neuron diseases.",
+          "timeFrame": "Enrollment (<3 months post-diagnosis)"
+        },
+        {
+          "measure": "Relationships between platelet biomarkers, neurofilaments and clinical characteristics",
+          "description": "To better understand the pathophysiology of ALS, relationships with clinical characteristics will be investigated: weight, height, medical history, ALSFRS-r, King's and Milano-Torino scales, Forced Vital Capacity, symptom onset, site of onset, age of onset and concomitant treatments.",
+          "timeFrame": "Enrollment (<3 months post-diagnosis)"
+        },
+        {
+          "measure": "Discriminatory capacity of platelet molecular signatures",
+          "description": "The capacity to discriminate distinct clinical endophenotype of ALS patients according to platelet molecular signatures will be evaluated using multivariate models.",
+          "timeFrame": "Enrollment (<3 months post-diagnosis)"
+        },
+        {
+          "measure": "Prognostic value of platelets biomarkers at diagnosis on ALS functional rating scale (ALSFRS-R) score progression after one year",
+          "description": "Capacity of platelet biomarkers measured within 3 months post-diagnosis to predict functional progression of ALS (i.e. the percentage change in ALSFRS-R score between diagnosis and one year later)",
+          "timeFrame": "Functional evolution between enrolment (<3months post-diagnosis) and 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients with ALS:\n\n* Men or women aged 18 to 75\n* ALS diagnosed according to the El Escorial criteria\n* ALS diagnosis less than 3 months ago\n* Onset of symptoms defined as the time when muscle weakness was first observed by the patient less than 2 years ago\n\nControls with another motor neuron disease:\n\n* Men or women aged 18 to 75\n* Diagnosis of motor neuron disease \\< 3 months\n\nExclusion Criteria:\n\n* Genetic variants associated with ALS\n* Pregnant or breastfeeding women\n* Treatment with oral or injectable anticoagulants, antiplatelet agents (EXCEPT aspirin at the maximum authorized dosage of 160 mg per day)\n* Uncontrolled diabetes\n* Persons deprived of their liberty by judicial or administrative decision\n* Persons subject to legal protection measures: guardianship or curatorship\n* Opposition to data processing",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with ALS or another MND followed in 3 ALS centers",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Hélène BLASCO, Pr",
+          "role": "CONTACT",
+          "phone": "234378911",
+          "phoneExt": "+33",
+          "email": "helene.blasco@univ-tours.fr"
+        },
+        {
+          "name": "Noémie EYRAUD",
+          "role": "CONTACT",
+          "phone": "247478060",
+          "phoneExt": "+33",
+          "email": "n.eyraud@chu-tours.fr"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University hospital, Limoges",
+          "city": "Limoges",
+          "zip": "87000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Philippe COURATIER, Pr",
+              "role": "CONTACT",
+              "phone": "555056559",
+              "phoneExt": "+33",
+              "email": "philippe.couratier@chu-limoges.fr"
+            },
+            {
+              "name": "Philippe COURATIER, Pr",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "University hospital, Lyon",
+          "city": "Lyon",
+          "zip": "69000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Emilien BERNARD, Dr",
+              "role": "CONTACT",
+              "phone": "+33472357218",
+              "phoneExt": "+33",
+              "email": "emilien.bernard@chu-lyon.fr"
+            },
+            {
+              "name": "Emilien BERNARD, Dr",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "university hospital, Tours",
+          "city": "Tours",
+          "zip": "37044",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Philippe CORCIA, Pr",
+              "role": "CONTACT",
+              "phone": "247473724",
+              "phoneExt": "+33",
+              "email": "philippe.corcia@univ-tours.fr"
+            },
+            {
+              "name": "Philippe CORCIA, Pr",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

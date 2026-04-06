@@ -16,6 +16,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -26,12 +28,30 @@ HEADERS = {"User-Agent": "vcro-v2/1.0"}
 
 # ---------- fetch ----------
 
-def fetch_pmc_xml(pmc_id: str) -> str:
+_LAST_FETCH = [0.0]
+_MIN_INTERVAL = 0.4  # NCBI: 3 req/sec without key; be conservative
+
+
+def fetch_pmc_xml(pmc_id: str, retries: int = 5) -> str:
     clean = pmc_id.replace("PMC", "").strip()
     url = f"{BASE}/efetch.fcgi?db=pmc&id={clean}&rettype=xml&retmode=xml"
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", errors="replace")
+    backoff = 1.0
+    for attempt in range(retries):
+        elapsed = time.time() - _LAST_FETCH[0]
+        if elapsed < _MIN_INTERVAL:
+            time.sleep(_MIN_INTERVAL - elapsed)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                _LAST_FETCH[0] = time.time()
+                return r.read().decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as e:
+            _LAST_FETCH[0] = time.time()
+            if e.code == 429 and attempt < retries - 1:
+                time.sleep(backoff)
+                backoff *= 2
+                continue
+            raise
 
 
 # ---------- helpers ----------
@@ -363,8 +383,32 @@ def render_body(root) -> list:
     body = root.find(".//body")
     if body is None:
         return out
-    for sec in body.findall("sec"):
-        out.extend(render_section(sec, 2))
+    for child in body:
+        tag = child.tag
+        if tag == "sec":
+            out.extend(render_section(child, 2))
+        elif tag == "p":
+            out.append(render_paragraph(child))
+            out.append("")
+        elif tag == "table-wrap":
+            tbl = render_table_wrap(child)
+            if tbl:
+                out.append(tbl)
+                out.append("")
+        elif tag == "fig":
+            f = render_fig(child)
+            if f:
+                out.append(f)
+                out.append("")
+        elif tag == "list":
+            for li in child.findall("list-item"):
+                out.append("- " + collapse_paragraph(text_of(li)))
+            out.append("")
+        else:
+            txt = collapse_paragraph(text_of(child))
+            if txt:
+                out.append(txt)
+                out.append("")
     return out
 
 
@@ -539,6 +583,7 @@ def main():
     ap.add_argument("--pmc_ids", nargs="*", default=[])
     ap.add_argument("--pmids_file", default="")
     ap.add_argument("--out", default="store/raw/papers")
+    ap.add_argument("--skip-existing", action="store_true")
     args = ap.parse_args()
 
     ids = list(args.pmc_ids)
@@ -549,6 +594,9 @@ def main():
     os.makedirs(args.out, exist_ok=True)
     ok = 0
     for pid in ids:
+        norm = pid if pid.upper().startswith("PMC") else "PMC" + pid
+        if args.skip_existing and os.path.exists(os.path.join(args.out, norm, "paper.md")):
+            continue
         try:
             m = convert(pid, args.out)
             print(f"OK   {pid}  words={m['word_count']}  tables={m['tables_count']}  refs={len(m['reference_pmids'])}")

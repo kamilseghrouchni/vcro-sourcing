@@ -1,0 +1,352 @@
+{
+  "pmid": "41554715",
+  "pmc": "PMC12815949",
+  "doi": "10.1038/s41467-025-67436-7",
+  "title": "The ratio of circulatory levels of sphingolipids to steroids predicts asthma exacerbations",
+  "journal": "Nature Communications",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Chen Yulu",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Zhang Pei",
+      "affiliations": [
+        "https://ror.org/056d84691grid.4714.60000 0004 1937 0626Unit of Integrative Metabolomics, Institute of Environmental Medicine, Karolinska Institute, Stockholm, Sweden",
+        "https://ror.org/046fm7598grid.256642.10000 0000 9269 4097Gunma University Initiative for Advanced Research (GIAR), Gunma University, Maebashi, Japan"
+      ]
+    },
+    {
+      "name": "Huang Mengna",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Kachroo Priyadarishini",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Checa Antonio",
+      "affiliations": [
+        "https://ror.org/056d84691grid.4714.60000 0004 1937 0626Unit of Integrative Metabolomics, Institute of Environmental Medicine, Karolinska Institute, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Chen Qingwen",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Mendez Kevin",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Stav Meryl",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Prince Nicole",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Begum Sofina",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Aparicio Andrea",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Guo Tao",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Sharma Rinku",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Chu Su H.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Kelly Rachel S.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Hecker Julian",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Akenroye Ayobami",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Division of Allergy and Clinical Immunology, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Dahlin Amber",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Weiss Scott T.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "McGeachie Michael",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Wheelock Craig E.",
+      "affiliations": [
+        "https://ror.org/056d84691grid.4714.60000 0004 1937 0626Unit of Integrative Metabolomics, Institute of Environmental Medicine, Karolinska Institute, Stockholm, Sweden",
+        "https://ror.org/046fm7598grid.256642.10000 0000 9269 4097Gunma University Initiative for Advanced Research (GIAR), Gunma University, Maebashi, Japan",
+        "https://ror.org/00m8d6786grid.24381.3c0000 0000 9241 5705Department of Respiratory Medicine and Allergy, Karolinska University Hospital, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Lasky-Su Jessica A.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Predictive markers",
+    "Epidemiology",
+    "Asthma"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/100000050U.S. Department of Health & Human Services | NIH | National Heart, Lung, and Blood Institute (NHLBI)R01HL155742R01HL123915Lasky-SuJessica A."
+  ],
+  "data_availability_text": "Data availabilityMetabolomics data used in this study for the discovery cohort have been deposited in the Metabolomics Workbench (https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Project&ProjectID=PR002674) under Project ID PR002674. Requests for other data and materials will be reviewed by the cohort, and contact PIs Dr. Jessica Lasky-Su at rejas@channing.harvard.edu for the studies to determine if the request is subject to intellectual property or confidentiality obligations. We anticipate responding to requests within approximately 2–4 weeks. Data and materials that can be shared will be released using a Material Transfer Agreement. Appropriate IRB approvals may be required to access de-identified data, in particular, data from electronic medical health records.",
+  "license": "",
+  "received": "2024-11-18",
+  "accepted": "2025-11-28",
+  "reference_pmids": [
+    "17537763",
+    "17537763",
+    "16936237",
+    "16936237",
+    "34767496",
+    "34767496",
+    "17124020",
+    "17124020",
+    "25405667",
+    "25405667",
+    "36078171",
+    "36078171",
+    "31277742",
+    "31277742",
+    "27980705",
+    "27980705",
+    "33630543",
+    "33630543",
+    "37507662",
+    "37507662",
+    "35839759",
+    "35839759",
+    "35497733",
+    "35497733",
+    "38792060",
+    "38792060",
+    "38132115",
+    "38132115",
+    "29808611",
+    "29808611",
+    "35314841",
+    "35314841",
+    "23046268",
+    "23046268",
+    "38014461",
+    "38014461",
+    "33535020",
+    "33535020",
+    "36737450",
+    "36737450",
+    "33302528",
+    "33302528",
+    "34072459",
+    "34072459",
+    "33596665",
+    "33596665",
+    "36635386",
+    "36635386",
+    "28936587",
+    "28936587",
+    "33919626",
+    "33919626",
+    "23144334",
+    "23144334",
+    "32098455",
+    "32098455",
+    "32546031",
+    "32546031",
+    "20683104",
+    "20683104",
+    "26048149",
+    "26048149",
+    "15083755",
+    "15083755",
+    "38799558",
+    "38799558",
+    "32155960",
+    "27161289",
+    "27161289",
+    "33498644",
+    "33498644",
+    "28356371",
+    "28356371",
+    "24004126",
+    "24004126",
+    "28629744",
+    "28629744",
+    "18216770",
+    "18216770",
+    "10845115",
+    "10845115",
+    "24899305",
+    "24899305",
+    "30197277",
+    "30197277",
+    "17611496",
+    "17611496",
+    "8441430",
+    "8441430",
+    "16604091",
+    "16604091",
+    "10808175",
+    "10808175",
+    "16814200",
+    "16814200",
+    "15666826",
+    "15666826",
+    "17135245",
+    "17135245",
+    "10411298",
+    "10411298",
+    "12959973",
+    "12959973",
+    "16306078",
+    "16306078",
+    "10493594",
+    "10493594",
+    "11282287",
+    "11282287",
+    "17609523",
+    "17609523",
+    "16554657",
+    "16554657",
+    "12560086",
+    "12560086",
+    "8641202",
+    "8641202",
+    "33133018",
+    "33133018",
+    "19487045",
+    "19487045",
+    "28612106",
+    "28612106",
+    "17898099",
+    "17898099",
+    "20138078",
+    "20138078",
+    "25132599",
+    "25132599",
+    "11415849",
+    "11415849",
+    "37464031",
+    "37464031",
+    "39362843",
+    "39362843",
+    "25929596",
+    "25929596",
+    "28642310",
+    "28642310",
+    "33739820",
+    "33739820",
+    "20371621",
+    "20371621",
+    "19624122",
+    "19624122",
+    "20955607",
+    "20955607",
+    "20298528",
+    "20298528",
+    "34016263",
+    "34016263"
+  ],
+  "tables_count": 2,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "global metabolomic profiling to identify and validate asthma-associated pathways",
+    "associations between targeted metabolites with asthma traits",
+    "metabolite ratios strongly associate with asthma traits",
+    "replication of metabolite ratio associations and asthma traits in an independent cohort",
+    "sphingolipid:steroid ratios predict asthma exacerbations",
+    "discussion",
+    "methods",
+    "overall study design",
+    "cohort descriptions",
+    "discovery cohort: mgb–kas",
+    "validation cohort: mgbb-asthma",
+    "validation cohort: mgbb-llf",
+    "metabolomics profiling",
+    "untargeted assays",
+    "discovery untargeted metabolomics data for mgbb-kas",
+    "global untargeted metabolomics data for mgbb-asthma and mgbb-llf",
+    "targeted assays in mgbb-kas",
+    "sphingolipids",
+    "microbial-derived metabolites",
+    "steroids",
+    "statistical analysis",
+    "cohort summary",
+    "global metabolomics: association with asthma status in the mgbb-kas cohort and replication in the mgbb-asthma cohort",
+    "targeted metabolomics: association with asthma and its clinical measures in mgbb-kas and replication in mgbb-llf",
+    "identifying biomarkers for asthma exacerbations",
+    "inclusion & ethics",
+    "reporting summary",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 15455,
+  "converted_at": "2026-04-06T22:38:45.070505+00:00"
+}

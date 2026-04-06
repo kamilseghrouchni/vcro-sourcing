@@ -1,0 +1,1025 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz14573" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12185245</article-id><article-id pub-id-type="pmcid-ver">PMC12185245.1</article-id><article-id pub-id-type="pmcaid">12185245</article-id><article-id pub-id-type="pmcaiid">12185245</article-id><article-id pub-id-type="pmid">40551285</article-id><article-id pub-id-type="doi">10.1002/alz.14573</article-id><article-id pub-id-type="publisher-id">ALZ14573</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Diagnostic performance of plasma Aβ42/40 ratio, p‐tau181, GFAP, and NfL along the continuum of Alzheimer's disease and non‐AD dementias: An international multi‐center study</article-title><alt-title alt-title-type="left-running-head">DOECKE <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz14573-cr-0001" contrib-type="author"><name name-style="western"><surname>Doecke</surname><given-names initials="JD">James D.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2863-0293</contrib-id><xref rid="alz14573-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz14573-cr-0002" contrib-type="author"><name name-style="western"><surname>Bellomo</surname><given-names initials="G">Giovanni</given-names></name><xref rid="alz14573-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz14573-cr-0003" contrib-type="author"><name name-style="western"><surname>Vermunt</surname><given-names initials="L">Lisa</given-names></name><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz14573-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz14573-cr-0004" contrib-type="author"><name name-style="western"><surname>Alcolea</surname><given-names initials="D">Daniel</given-names></name><xref rid="alz14573-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz14573-cr-0005" contrib-type="author"><name name-style="western"><surname>Halbgebauer</surname><given-names initials="S">Steffen</given-names></name><xref rid="alz14573-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz14573-cr-0006" contrib-type="author"><name name-style="western"><surname>in ’t Veld</surname><given-names initials="S">Sjors</given-names></name><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz14573-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz14573-cr-0007" contrib-type="author"><name name-style="western"><surname>Mattsson‐Carlgren</surname><given-names initials="N">Niklas</given-names></name><xref rid="alz14573-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref><xref rid="alz14573-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref><xref rid="alz14573-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib><contrib id="alz14573-cr-0008" contrib-type="author"><name name-style="western"><surname>Veverova</surname><given-names initials="K">Katerina</given-names></name><xref rid="alz14573-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref></contrib><contrib id="alz14573-cr-0009" contrib-type="author"><name name-style="western"><surname>Fowler</surname><given-names initials="CJ">Christopher J.</given-names></name><xref rid="alz14573-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref></contrib><contrib id="alz14573-cr-0010" contrib-type="author"><name name-style="western"><surname>Boonkamp</surname><given-names initials="L">Lynn</given-names></name><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz14573-cr-0011" contrib-type="author"><name name-style="western"><surname>Houtkamp</surname><given-names initials="IM">Isabel M.</given-names></name><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz14573-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz14573-cr-0012" contrib-type="author"><name name-style="western"><surname>Koel‐Simmerlink</surname><given-names initials="M">Marleen</given-names></name><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz14573-cr-0013" contrib-type="author"><name name-style="western"><surname>Verberk</surname><given-names initials="IMW">Inge M. W.</given-names></name><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz14573-cr-0014" contrib-type="author"><name name-style="western"><surname>Gaetani</surname><given-names initials="L">Lorenzo</given-names></name><xref rid="alz14573-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz14573-cr-0015" contrib-type="author"><name name-style="western"><surname>Toja</surname><given-names initials="A">Andrea</given-names></name><xref rid="alz14573-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz14573-cr-0016" contrib-type="author"><name name-style="western"><surname>Wojdała</surname><given-names initials="AL">Anna Lidia</given-names></name><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz14573-cr-0017" contrib-type="author"><name name-style="western"><surname>Fortea</surname><given-names initials="J">Juan</given-names></name><xref rid="alz14573-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz14573-cr-0018" contrib-type="author"><name name-style="western"><surname>Pijnenburg</surname><given-names initials="Y">Yolande</given-names></name><xref rid="alz14573-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz14573-cr-0019" contrib-type="author"><name name-style="western"><surname>Lemstra</surname><given-names initials="A">Afina</given-names></name><xref rid="alz14573-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz14573-cr-0020" contrib-type="author"><name name-style="western"><surname>van der Flier</surname><given-names initials="W">Wiesje</given-names></name><xref rid="alz14573-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz14573-cr-0021" contrib-type="author"><name name-style="western"><surname>Hort</surname><given-names initials="J">Jakub</given-names></name><xref rid="alz14573-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref></contrib><contrib id="alz14573-cr-0022" contrib-type="author"><name name-style="western"><surname>Otto</surname><given-names initials="M">Markus</given-names></name><xref rid="alz14573-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz14573-cr-0023" contrib-type="author"><name name-style="western"><surname>Hansson</surname><given-names initials="O">Oskar</given-names></name><xref rid="alz14573-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref><xref rid="alz14573-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref></contrib><contrib id="alz14573-cr-0024" contrib-type="author"><name name-style="western"><surname>Parnetti</surname><given-names initials="L">Lucilla</given-names></name><xref rid="alz14573-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz14573-cr-0025" contrib-type="author"><name name-style="western"><surname>Masters</surname><given-names initials="CL">Colin L.</given-names></name><xref rid="alz14573-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref></contrib><contrib id="alz14573-cr-0026" contrib-type="author"><name name-style="western"><surname>Lleó</surname><given-names initials="A">Alberto</given-names></name><xref rid="alz14573-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz14573-cr-0027" contrib-type="author"><name name-style="western"><surname>González‐Escalante</surname><given-names initials="A">Armand</given-names></name><xref rid="alz14573-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz14573-aff-0016" ref-type="aff">
+<sup>16</sup>
+</xref></contrib><contrib id="alz14573-cr-0028" contrib-type="author"><name name-style="western"><surname>Contador</surname><given-names initials="J">José</given-names></name><xref rid="alz14573-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz14573-aff-0017" ref-type="aff">
+<sup>17</sup>
+</xref></contrib><contrib id="alz14573-cr-0029" contrib-type="author"><name name-style="western"><surname>Suárez‐Calvet</surname><given-names initials="M">Marc</given-names></name><xref rid="alz14573-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz14573-aff-0016" ref-type="aff">
+<sup>16</sup>
+</xref><xref rid="alz14573-aff-0018" ref-type="aff">
+<sup>18</sup>
+</xref></contrib><contrib id="alz14573-cr-0030" contrib-type="author"><name name-style="western"><surname>Fernández‐Lebrero</surname><given-names initials="A">Aida</given-names></name><xref rid="alz14573-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz14573-aff-0016" ref-type="aff">
+<sup>16</sup>
+</xref></contrib><contrib id="alz14573-cr-0031" contrib-type="author"><name name-style="western"><surname>Puig‐Pijoan</surname><given-names initials="A">Albert</given-names></name><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz14573-aff-0016" ref-type="aff">
+<sup>16</sup>
+</xref></contrib><contrib id="alz14573-cr-0032" contrib-type="author"><name name-style="western"><surname>Ortiz‐Romero</surname><given-names initials="P">Paula</given-names></name><xref rid="alz14573-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref></contrib><contrib id="alz14573-cr-0033" contrib-type="author"><name name-style="western"><surname>Jiménez‐Moyano</surname><given-names initials="E">Esther</given-names></name><xref rid="alz14573-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref></contrib><contrib id="alz14573-cr-0034" contrib-type="author"><name name-style="western"><surname>Minguillón</surname><given-names initials="C">Carolina</given-names></name><xref rid="alz14573-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz14573-aff-0018" ref-type="aff">
+<sup>18</sup>
+</xref><xref rid="alz14573-aff-0019" ref-type="aff">
+<sup>19</sup>
+</xref></contrib><contrib id="alz14573-cr-0035" contrib-type="author"><name name-style="western"><surname>del Campo</surname><given-names initials="M">Marta</given-names></name><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz14573-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz14573-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz14573-aff-0017" ref-type="aff">
+<sup>17</sup>
+</xref></contrib><contrib id="alz14573-cr-0036" contrib-type="author" corresp="yes"><name name-style="western"><surname>Teunissen</surname><given-names initials="C">Charlotte</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4061-0837</contrib-id><xref rid="alz14573-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>c.teunissen@amsterdamumc.nl</email></address></contrib></contrib-group><aff id="alz14573-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Australian E‐Health Research Centre</named-content>
+<institution>CSIRO</institution>
+<city>Herston</city>
+<named-content content-type="country-part">Queensland</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="alz14573-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Section of Neurology</named-content>
+<named-content content-type="organisation-division">Laboratory of Clinical Neurochemistry</named-content>
+<named-content content-type="organisation-division">Department of Medicine and Surgery</named-content>
+<institution>University of Perugia</institution>
+<city>Perugia</city>
+<country country="IT">Italy</country>
+</aff><aff id="alz14573-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Neurochemistry Laboratory</named-content>
+<named-content content-type="organisation-division">Department of Laboratory Medicine</named-content>
+<named-content content-type="organisation-division">Amsterdam Neuroscience</named-content>
+<named-content content-type="organisation-division">Amsterdam University Medical Center</named-content>
+<institution>Vrije Universiteit</institution>
+<city>Amsterdam</city>
+<country country="NL">the Netherlands</country>
+</aff><aff id="alz14573-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Alzheimer Center Amsterdam</named-content>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<named-content content-type="organisation-division">Amsterdam Neuroscience</named-content>
+<institution>Amsterdam University Medical Centers</institution>
+<city>Amsterdam</city>
+<country country="NL">the Netherlands</country>
+</aff><aff id="alz14573-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Institut d'Investigacions Biomèdiques Sant Pau ‐ Hospital de Sant Pau</institution>
+<institution>Universitat Autònoma de Barcelona</institution>
+<institution>Hospital de la Santa Creu i Sant Pau</institution>
+<city>Barcelona</city>
+<country country="ES">Spain</country>
+</aff><aff id="alz14573-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>University of Ulm</institution>
+<city>Ulm</city>
+<country country="DE">Germany</country>
+</aff><aff id="alz14573-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Translational AI in Laboratory Medicine</named-content>
+<named-content content-type="organisation-division">Department of Laboratory Medicine</named-content>
+<institution>Location VUmc</institution>
+<city>Amsterdam</city>
+<country country="NL">the Netherlands</country>
+</aff><aff id="alz14573-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Clinical Memory Research Unit</named-content>
+<named-content content-type="organisation-division">Department of Clinical Sciences Malmö</named-content>
+<named-content content-type="organisation-division">Faculty of Medicine</named-content>
+<institution>Lund University</institution>
+<city>Lund</city>
+<country country="SE">Sweden</country>
+</aff><aff id="alz14573-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Neurology Clinic</named-content>
+<institution>Skåne University Hospital</institution>
+<city>Malmö</city>
+<country country="SE">Sweden</country>
+</aff><aff id="alz14573-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Wallenberg Center for Molecular Medicine</named-content>
+<institution>Lund University</institution>
+<city>Lund</city>
+<country country="SE">Sweden</country>
+</aff><aff id="alz14573-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<named-content content-type="organisation-division">Memory Clinic</named-content>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Charles University</institution>
+<institution>Second Faculty of Medicine and Motol University Hospital</institution>
+<city>Prague</city>
+<country country="CZ">Czech Republic</country>
+</aff><aff id="alz14573-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">The University of Melbourne</named-content>
+<institution>The Florey Institute</institution>
+<city>Victoria</city>
+<named-content content-type="country-part">Melbourne</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="alz14573-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<named-content content-type="organisation-division">Memory Clinic</named-content>
+<institution>Skåne University Hospital</institution>
+<city>Malmö</city>
+<country country="SE">Sweden</country>
+</aff><aff id="alz14573-aff-0014">
+<label>
+<sup>14</sup>
+</label>
+<named-content content-type="organisation-division">Barcelonaβeta Brain Research Center (BBRC)</named-content>
+<institution>Pasqual Maragall Foundation</institution>
+<city>Sant Martí</city>
+<named-content content-type="country-part">Barcelona</named-content>
+<country country="ES">Spain</country>
+</aff><aff id="alz14573-aff-0015">
+<label>
+<sup>15</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Hospital del Mar Research Institute</institution>
+<city>Ciutat Vella</city>
+<named-content content-type="country-part">Barcelona</named-content>
+<country country="ES">Spain</country>
+</aff><aff id="alz14573-aff-0016">
+<label>
+<sup>16</sup>
+</label>
+<named-content content-type="organisation-division">Faculty of Medicine and Life Sciences</named-content>
+<institution>Universitat Pompeu Fabra</institution>
+<institution>Carrer de la Mercè</institution>
+<city>Ciutat Vella</city>
+<named-content content-type="country-part">Barcelona</named-content>
+<country country="ES">Spain</country>
+</aff><aff id="alz14573-aff-0017">
+<label>
+<sup>17</sup>
+</label>
+<named-content content-type="organisation-division">Cognitive and Behavioural Neurology Unit</named-content>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Hospital del Mar</institution>
+<city>Ciutat Vella</city>
+<named-content content-type="country-part">Barcelona</named-content>
+<country country="ES">Spain</country>
+</aff><aff id="alz14573-aff-0018">
+<label>
+<sup>18</sup>
+</label>
+<named-content content-type="organisation-division">Centro de Investigación Biomédica en Red de Fragilidad y Envejecimiento Saludable (CIBERFES)</named-content>
+<institution>Instituto de Salud Carlos III</institution>
+<city>Madrid</city>
+<country country="ES">Spain</country>
+</aff><aff id="alz14573-aff-0019">
+<label>
+<sup>19</sup>
+</label>
+<named-content content-type="organisation-division">Departamento de Ciencias Farmacéuticas y de la Salud</named-content>
+<named-content content-type="organisation-division">Facultad de Farmacia</named-content>
+<institution>Universidad San Pablo‐CEU</institution>
+<institution>CEU Universities, Urbanización Montepríncipe</institution>
+<city>Fuencarral‐El Pardo</city>
+<country country="ES">Spain</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Charlotte Teunissen, Neurochemistry Laboratory, Department of Laboratory Medicine, Amsterdam Neuroscience, Amsterdam University Medical Center, Vrije Universiteit, De Boelelaan 1117, Amsterdam, 1081 HV, the Netherlands.<break/> Email: <email>c.teunissen@amsterdamumc.nl</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>23</day><month>6</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2025</year></pub-date><volume>21</volume><issue seq="890">6</issue><issue-id pub-id-type="pmc-issue-id">489620</issue-id><issue-id pub-id-type="doi">10.1002/alz.v21.6</issue-id><elocation-id>e14573</elocation-id><history><date date-type="rev-recd"><day>24</day><month>12</month><year>2024</year></date><date date-type="received"><day>23</day><month>7</month><year>2024</year></date><date date-type="accepted"><day>28</day><month>12</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>23</day><month>06</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>24</day><month>06</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-06-25 12:25:29.367"><day>25</day><month>06</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-21-e14573.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-21-e14573.pdf"/><abstract><title>Abstract</title><sec id="alz14573-sec-0010"><title>INTRODUCTION</title><p>Plasma phosphorylated tau (p‐tau)181, glial fibrillary acidic protein (GFAP), neurofilament light chain (NfL), and amyloid beta ratio (Aβ42/40) may have diagnostic and prognostic value in Alzheimer's disease (AD). Here we assess which markers can best identify AD from controls and other non‐AD dementias in a large international multi‐center study.</p></sec><sec id="alz14573-sec-0020"><title>METHODS</title><p>Plasma samples (<italic toggle="yes">n</italic> = 1298) were collected from six international centers. Aβ40, Aβ42, GFAP, NfL, and p‐tau181 were measured using single molecule array. In each group, AD diagnosis/co‐pathology was defined according to cerebrospinal fluid biomarkers or amyloid positron emission tomography. Validations were performed in three separate cohorts via single and dual cut‐off models.</p></sec><sec id="alz14573-sec-0030"><title>RESULTS</title><p>p‐tau181 showed the best area under the curve value to separate AD from frontotemporal dementia, controls, and Aβ– dementia with Lewy bodies. However, this discriminative power could not be reproduced by applying pre‐defined cut‐offs.</p></sec><sec id="alz14573-sec-0040"><title>DISCUSSION</title><p>p‐tau181 was the best single plasma marker for detecting AD at any stage. Specific cut‐offs are needed to maximize diagnostic performances.</p></sec><sec id="alz14573-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz14573-list-0001"><list-item><p>Phosphorylated tau (p‐tau)181 provided a clear differentiation between controls and Alzheimer's disease (AD) participants, with evidence of increased levels in the preclinical stage of AD.</p></list-item><list-item><p>Plasma biomarkers demonstrated that when amyloid co‐pathology is removed from dementia with Lewy bodies (DLB), only glial fibrillary acidic protein and neurofilament light chain remain to predict DLB.</p></list-item><list-item><p>Given the low prevalence of amyloid co‐pathology in frontotemporal dementia (FTD), p‐tau181 and its ratio with amyloid beta 42 are strong biomarkers to differentiate FTD from AD.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz14573-kwd-0001">Alzheimer's disease</kwd><kwd id="alz14573-kwd-0002">amyloid beta</kwd><kwd id="alz14573-kwd-0003">dementia with Lewy bodies</kwd><kwd id="alz14573-kwd-0004">frontotemporal dementia</kwd><kwd id="alz14573-kwd-0005">plasma biomarkers</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>European Research Council
+</institution><institution-id institution-id-type="doi">10.13039/501100000781</institution-id></institution-wrap></funding-source><award-id>ADG‐101096455</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>GHR Foundation
+</institution><institution-id institution-id-type="doi">10.13039/100015595</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>Swedish Research Council
+</institution><institution-id institution-id-type="doi">10.13039/501100004359</institution-id></institution-wrap></funding-source><award-id>2022‐00775</award-id></award-group><award-group id="funding-0004"><funding-source>ERA PerMed</funding-source><award-id>ERAPERMED2021‐184</award-id></award-group><award-group id="funding-0005"><funding-source>Knut and Alice Wallenberg foundation</funding-source><award-id>2022‐0231</award-id></award-group><award-group id="funding-0006"><funding-source>Strategic Research Area MultiPark</funding-source></award-group><award-group id="funding-0007"><funding-source><institution-wrap><institution>Lund University
+</institution><institution-id institution-id-type="doi">10.13039/501100003252</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0008"><funding-source>Swedish Alzheimer Foundation</funding-source><award-id>AF‐980907</award-id></award-group><award-group id="funding-0009"><funding-source><institution-wrap><institution>Swedish Brain Foundation
+</institution><institution-id institution-id-type="doi">10.13039/501100003792</institution-id></institution-wrap></funding-source><award-id>FO2021‐0293</award-id></award-group><award-group id="funding-0010"><funding-source>Parkinson foundation of Sweden</funding-source><award-id>1412/22</award-id></award-group><award-group id="funding-0011"><funding-source>Cure Alzheimer's fund</funding-source></award-group><award-group id="funding-0012"><funding-source>Rönström Family Foundation</funding-source></award-group><award-group id="funding-0013"><funding-source><institution-wrap><institution>Konung Gustaf V:s och Drottning Victorias Frimurarestiftelse
+</institution><institution-id institution-id-type="doi">10.13039/501100006129</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0014"><funding-source>Skåne University Hospital Foundation</funding-source><award-id>2020‐O000028</award-id></award-group><award-group id="funding-0015"><funding-source>Regionalt Forskningsstöd</funding-source><award-id>2022‐1259</award-id><award-id>2022‐Projekt0080</award-id></award-group><award-group id="funding-0016"><funding-source>LCF/PR/GN17/50300004</funding-source><award-id>TriBEKa‐17‐519007</award-id><award-id>SGR 00913</award-id></award-group><award-group id="funding-0017"><funding-source><institution-wrap><institution>European Commission
+</institution><institution-id institution-id-type="doi">10.13039/501100000780</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0018"><funding-source>Marie Curie International Training Network)</funding-source></award-group><award-group id="funding-0019"><funding-source>Innovative Medicines Initiatives 3TR</funding-source></award-group><award-group id="funding-0020"><funding-source>European Union's Horizon Europe Research</funding-source></award-group><award-group id="funding-0021"><funding-source>Innovation Programme</funding-source></award-group><award-group id="funding-0022"><funding-source>Alzheimer Association</funding-source></award-group><award-group id="funding-0023"><funding-source>Health Holland</funding-source></award-group><award-group id="funding-0024"><funding-source>Dutch Research Council</funding-source></award-group><award-group id="funding-0025"><funding-source>Alzheimer Drug Discovery Foundation</funding-source></award-group><award-group id="funding-0026"><funding-source>The Selfridges Group Foundation</funding-source></award-group><award-group id="funding-0027"><funding-source><institution-wrap><institution>Alzheimer Netherlands
+</institution><institution-id institution-id-type="doi">10.13039/501100010969</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0028"><funding-source>Dutch National Dementia Strategy</funding-source></award-group></funding-group><counts><fig-count count="5"/><table-count count="3"/><page-count count="17"/><word-count count="9539"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.7 mode:remove_FC converted:23.06.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz14573-cite-0001">
+<string-name name-style="western">
+<surname>Doecke</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bellomo</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vermunt</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Diagnostic performance of plasma Aβ42/40 ratio, p‐tau181, GFAP, and NfL along the continuum of Alzheimer's disease and non‐AD dementias: An international multi‐center study</article-title>. <source>Alzheimer's Dement</source>. <year>2025</year>;<volume>21</volume>:<elocation-id>e14573</elocation-id>. <pub-id pub-id-type="doi">10.1002/alz.14573</pub-id>
+<pub-id pub-id-type="pmid">40551285</pub-id></mixed-citation>
+</p></notes></front><body><sec id="alz14573-sec-0060"><label>1</label><title>BACKGROUND</title><p>Accurate detection of Alzheimer's disease (AD) pathology to support clinical diagnosis has in the past been limited by the use of either amyloid beta (Aβ) positron emission tomography (PET) imaging or cerebrospinal fluid (CSF) biomarker analyses.<xref rid="alz14573-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> The availability of these tools is generally low, with varying access in different countries and health‐care systems. The associated costs of CSF and/or PET imaging and cognitive assessments to the public health‐care system together with the burden to the patient and their families from such testing are high.<xref rid="alz14573-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> Furthermore, Aβ pathology can be present in 50% of patients with dementia with Lewy bodies (DLB) and in 25% of patients with frontotemporal dementia (FTD) syndromes,<xref rid="alz14573-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> thus highlighting the need to have specific instruments to discriminate across diseases. In DLB, an accurate diagnosis requires an intensive psychological assessment, with biomarkers from single‐photon emission computed tomography, PET, or <sup>123</sup>iodine‐metaiodobenzylguanadine myocardial scintigraph not required but used as positive indicators.<xref rid="alz14573-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> For the detection of FTD pathology, expensive imaging ([18F]‐fluorodeoxyglucose [FDG] PET, diffusion tensor imaging [DTI], resting‐state functional magnetic resonance imaging, tau PET), and/or genetic testing are needed.<xref rid="alz14573-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="alz14573-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>
+</p><p>Recent scientific advances enabled the measurement of Aβ42/40 ratio and different forms of phosphorylated tau (p‐tau) 181, 205, 217, or 231 in plasma, as biomarkers of Aβ plaques and neurofibrillary tangles. Other relevant mechanisms that are not specific for AD such as astrogliosis and neurodegeneration can also be detected using plasma glial fibrillary acidic protein (GFAP), and neurofilament light (NfL), respectively.<xref rid="alz14573-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="alz14573-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> The markers combined allow a better molecular characterization of neurodegenerative diseases, thereby supporting better design of appropriate treatment strategies.</p><p>For AD, the amyloid/tau/neurodegeneration or “AT(N)” criteria, using CSF and/or PET imaging, has been instrumental in accurately detecting both the presence of Aβ and tau pathology, and to stage patients along the AD continuum.<xref rid="alz14573-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> An update to the criteria<xref rid="alz14573-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> recently has introduced high accuracy plasma biomarkers being interchangeable with CSF biomarkers for the positive identification of AD pathology. Single‐center biomarker studies including different dementia types showed that Aβ42/40 was decreased only in those with Aβ pathology; p‐tau181 was increased mainly in those with AD, but increases during preclinical AD (preAD) and mild cognitive impairment (MCI) prior to clinical AD dementia; GFAP, defined as a marker of Aβ‐related astrocyte reactivity in autosomal dominant AD<xref rid="alz14573-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> was increased in all dementias compared to controls;<xref rid="alz14573-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz14573-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> and NfL had the highest values/concentrations in patients with FTD. p‐tau181, p‐tau231,<xref rid="alz14573-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> and Aβ42/40,<xref rid="alz14573-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> but not GFAP or NfL, have been shown to be increased in DLB compared to controls (however, this was only seen in those with Aβ co‐pathology). No other information was shown to determine the performance of these markers to discriminate AD from other non‐AD dementias along their symptomatic continuum (e.g., MCI due to FTD, or FTD).</p><p>In the present study, we evaluate the performance of the most frequently used plasma biomarker assays to detect Aβ pathology in a large international multi‐center cohort. We assess the levels of Aβ42/40, p‐tau181, p‐tau181/Aβ42, GFAP, and NfL across the AD, FTD, and DLB disease continuums, including the effect of Aβ co‐pathology in DLB. Next, we define cut‐offs to predict the likelihood of clinical stage within AD, which we then tested in multiple validation cohorts.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz14573-sec-0070"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz14573-list-0002"><list-item><p>
+<bold>Systematic review</bold>: A comprehensive search of the PubMed literature was conducted to identify published studies which assessed plasma biomarkers and their association with neurological disease. Recent publications have shown mixed results in predicting amyloid beta postivity or disease stage using plasma biomarkers. To address this directly, the present study showcases results from a large international cohort from six separate studies with central assessment of key plasma biomarkers to detect disease stage across the Alzheimer's disease (AD), dementia with Lewy bodies (DLB), and frontotemporal dementia (FTD) disease continuums, and with validation in three independent cohorts with independent plasma biomarker assessment.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Our findings demonstrate that using a large international cohort was able to discern disease stage across the AD, DLB, and FTD continuums. For DLB, biomarker value is dependent on the presence of amyloid co‐pathology. For FTD, AD‐specific biomarkers provide no further diagnostic ability from controls over neurofilament light chain, while they are of use for differential diagnosis from AD.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Further work is needed to identify plasma biomarkers, or panels of plasma biomarkers, for both the diagnosis of DLB and FTD, and the differential diagnosis between AD, DLB, and FTD.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="alz14573-sec-0080"><label>2</label><title>METHODS</title><sec id="alz14573-sec-0090"><label>2.1</label><title>Participants</title><p>Samples were collected across six different international centers: Amsterdam Dementia Cohort (ADC; all groups<xref rid="alz14573-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>), Sant Pau Initiative on Neurodegeneration (SPIN; all groups<xref rid="alz14573-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>), University of Perugia (UNIPG; all groups<xref rid="alz14573-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>), Ulm University (UU; all groups except MCI‐DLB<xref rid="alz14573-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>), BioFINDER (controls and complete AD continuum<xref rid="alz14573-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>), and the Australian Imaging Biomarker &amp; Lifestyle Flagship Study of Ageing (AIBL; controls and complete AD continuum<xref rid="alz14573-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>) as part of the blood proteins for early discrimintation of dementia's (bPRIDE) study. Three additional independent cohorts were used to validate the resulting cut‐offs across the AD continuum: independent samples from UNIPG<xref rid="alz14573-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> (22 controls, 59 along the full AD continuum, and 17 FTD<xref rid="alz14573-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>), ALzheimer's and FAmilies (ALFA+; 265 controls [CSF Aβ–] and 135 preAD [CSF Aβ+]<xref rid="alz14573-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="alz14573-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>), and BIODEGMAR (individuals who visited the memory clinic with AD CSF profile [<italic toggle="yes">n</italic> = 112] or with non‐AD CSF profile [<italic toggle="yes">n</italic> = 61]<xref rid="alz14573-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>). For all the samples, the presence of AD pathology was tested either by using AD CSF biomarkers (CSF Aβ<sub>42</sub> or Aβ<sub>42/40</sub>, total tau [t‐tau], and p‐tau181, “AD CSF biomarkers”; all cohorts) or amyloid and tau PET (most samples from the AIBL cohort).</p><p>The total cohort (<italic toggle="yes">n</italic> = 1298) of this cross‐sectional study included plasma samples from controls without (biomarker signs of) Aβ pathology (<italic toggle="yes">n</italic> = 198); controls with Aβ pathology (preAD; <italic toggle="yes">n</italic> = 155), patients with stable MCI without Aβ pathology (sMCI, <italic toggle="yes">n</italic> = 170), patients with Aβ pathology and MCI due to AD (MCI[AD]; <italic toggle="yes">n</italic> = 155), MCI due to FTD (MCI[FTD]; <italic toggle="yes">n</italic> = 46), MCI due to DLB (MCI[DLB]; <italic toggle="yes">n</italic> = 25), AD dementia (<italic toggle="yes">n</italic> = 182), FTD (<italic toggle="yes">n</italic> = 170), and DLB (<italic toggle="yes">n</italic> = 171). In the DLB group, 99 of the 171 patients were Aβ positive, and 60 were Aβ negative (12 were missing Aβ status). The control group included individuals with subjective cognitive decline, in whom objective cognitive and laboratory investigations were normal (i.e., criteria for MCI, dementia, or any other neurological or psychiatric disorder not fulfilled) with additionally negative AD CSF biomarkers.<xref rid="alz14573-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="alz14573-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> For the ease of labeling throughout this work, the abbreviation “controls” is used to reflect this group as a whole.</p><p>All participants of each cohort underwent standard neurological and cognitive assessments, and the diagnosis was assigned according to international consensus criteria for MCI(AD),<xref rid="alz14573-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> AD dementia,<xref rid="alz14573-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> DLB,<xref rid="alz14573-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="alz14573-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, and FTD.<xref rid="alz14573-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>, <xref rid="alz14573-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="alz14573-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> DLB cases were further split for Aβ co‐pathology. Of the 171 participants with DLB, 12 did not have Aβ status information (Table <xref rid="alz14573-supinfo-0001" ref-type="">S1</xref> in supporting information). The MCI(DLB) group contained only 25 participants, and as such was not investigated other than plotting. Blood sampling has been performed in each of the centers following harmonized procedures.<xref rid="alz14573-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> The main pre‐analytical difference across centers was the addition of prostaglandin E1 to ethylenediaminetetraacetic acid tubes in samples collected by AIBL. Mini‐Mental State Examination (MMSE) or Montreal Cognitive Assessment (MoCA) tests were used as a measure of global cognition. CSF markers were analyzed locally as part of the diagnostic procedure using commercially available kits (ADC, AIBL, and UU: enzyme‐linked immunosorbent assay [ELISA] INNOTEST, Fujirebio; ADC and ALFA+: Elecsys biomarker assays, Roche Diagnostics GmbH; SPIN, UNIPG, UU, and BIODEGMAR: Lumipulse G600, Fujirebio; BioFINDER: Euroimmune ELISA assays).<xref rid="alz14573-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz14573-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> Positive CSF AD biomarker profile was defined locally in the different cohorts (ADC [Aβ+ Innotest based on Aβ<sub>42</sub> &lt; 813; Elecsys Aβ<sub>42</sub> &lt; 1000,<xref rid="alz14573-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> Tau+ Innotest pTau &gt; 52, Elecsys pTau &gt; 24<xref rid="alz14573-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>], BioFINDER [CSF Aβ<sub>42</sub>/Aβ<sub>40</sub> &lt; 0.088, p‐tau181 &gt; 65.04 pg/mL or t‐tau &gt; 462.91 pg/mL]; SPIN [low Aβ<sub>42/40</sub> ratio (&lt; 0.062) and high t‐tau (&gt; 456pg/mL) or p‐tau (&gt; 63pg/mL)]; UNIPG [low Aβ<sub>42/40</sub> ratio (&lt; 0.072) and high p‐tau (&gt; 50pg/mL), regardless of t‐tau]; UU [low Aβ<sub>42</sub> (&lt; 450pg/mL) and high t‐tau (&gt; 380pg/mL) or p‐tau (&gt; 65pg/mL)]; ALFA+ [Aβ<sub>42</sub>/Aβ<sub>40</sub> &lt; 0.071, p‐tau181 &lt; 24pg/mL<xref rid="alz14573-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>]; BIODEGMAR [Aβ<sub>42</sub>/Aβ<sub>40</sub> &lt; 0.062<xref rid="alz14573-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz14573-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>, <xref rid="alz14573-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>]). All samples from the AIBL cohort were defined based on Aβ and tau PET (amyloid PET positive: &gt; 25 Centiloids,<xref rid="alz14573-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> tau PET positive: meta‐temporal standardized uptake value ratio &gt; 1.19<xref rid="alz14573-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>).</p></sec><sec id="alz14573-sec-0100"><label>2.2</label><title>Plasma biomarker measurements</title><p>Samples from each center of the discovery cohort were all shipped for central measurement at the neurochemistry laboratory of the Amsterdam University Medical Center using the single‐molecule array (Simoa) technology in a Simoa HD‐X Analyzer;<xref rid="alz14573-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>, <xref rid="alz14573-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> Quanterix Corp.). Plasma p‐tau181 was quantified over 13 runs using the Simoa pTau‐181 Advantage v2 kit (kit #103714, lot #502923; Quanterix Corp.) in duplo with on‐board automated sample dilution, according to the manufacturer's instructions. Plasma Aβ40, Aβ42, GFAP, and NfL concentrations were quantified over six runs using the Simoa Neurology 4‐PLEX E (N4PE) Advantage kit (item# 103971, lot #503413; Quanterix Corp.) in monoplo with on‐board automated sample dilution, according to the manufacturer's instructions. The plasma measurements of the validation cohorts were measured locally using similar N4PE kits (UNIPG: kit: #103670, lot #503213; ALFA+ &amp; BIODEGMAR: kit #103670, lot #503819) and p‐tau181 kits (UNIPG, Simoa pTau‐181 Advantage v2: kit #103714; ALFA+: Simoa pTau‐181 Advantage v2.1 kit #104111, lots #503680 &amp; #503769; and BIODEGMAR: Simoa pTau‐181 Advantage v2.1: kit #104111, lot #503537). Plasma p‐tau181 values from ALFA+ and BIODEGMAR were thus corrected for the kit version employed following the formula provided by the manufacturer. No further harmonization in plasma levels to bPRIDE data was done for the validation cohorts.</p></sec><sec id="alz14573-sec-0110"><label>2.3</label><title>Statistical methods</title><p>All data preprocessing and analyses were conducted using R version 4.2.2.<xref rid="alz14573-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> Between‐group analyses for the demographic variables were performed using chi‐squared test for categorical variables and independent samples <italic toggle="yes">t</italic> test for quantitative variables. Possible center‐specific differences in the data were evaluated via principal component analyses (PCA, Figure <xref rid="alz14573-supinfo-0001" ref-type="">S1</xref> in supporting information). Mean plasma biomarker levels were compared between disease groups using the binary generalized linear model (GLM), both unadjusted and adjusted for age, sex, the first three components from the PCA analyses, and apolipoprotein E (<italic toggle="yes">APOE</italic>) ε4 allele status where appropriate. The ratio between p‐tau181 and Aβ42 was assessed and added to each analysis given previously seen increases in association with amyloid burden over p‐tau181 or Aβ42 alone.<xref rid="alz14573-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> Multivariate analyses to identify the optimal combination of biomarkers per disease was performed by minimizing the Akaike information criterion (AIC) via stepwise assessment in GLMs if the sample size was not prohibitive.<xref rid="alz14573-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> To investigate whether any combination of individual biomarkers could predict disease group, all possible ratios and interactions between biomarkers (biomarker ratios and biomarker × biomarker interactions) were tested using the least operating shrinkage and selection operator (LASSO) method.<xref rid="alz14573-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>
+</p><p>For receiver operating characteristic (ROC) analyses, plasma data were assessed against binary disease categories (Table <xref rid="alz14573-supinfo-0001" ref-type="">S1</xref>) using a GLM. Area under the curve (AUC) values were calculated from rolling circle cross‐validation (referred to below as internal cross validation), where the complete set of samples, minus the complete set of samples from one center (hold out or test set), were modeled using a GLM as the training set. The resulting model coefficients were used to predict disease categories on the test set. This approach was repeated where each study site with enough samples (&gt; <italic toggle="yes">N</italic> = 20 per group) was used as the test set. Final AUC values were calculated from the average result from each test set accounting for possible center differences in AUC. Cut‐off derivation using the dual cut‐off model (90% sensitivity, 90% specificity) along with Youden index was performed using the complete bPRIDE data set. The proportion of values in the gray zones were calculated in two ways: (1) using the proportion of participants whose plasma biomarker concentration falls within the gray zone divided by the total number of participants, and (2) the proportion of values in the gray zones were calculated by the frequency of values between the two thresholds divided by the total range of the data.</p><p>External cross‐validations were performed using two separate methods on three separate validation cohorts. Method 1 (separate to rolling circle cross‐validation described above) involved setting up the model on the training set (complete bPRIDE data set) and then validating model coefficients on the test data set (external data). Method 2 used biomarker cut‐offs derived from the complete bPRIDE data set (at Youden index) to derive binary biomarkers (low/high) within the validation cohort before running an AUC between the newly created binary biomarker and the outcome. For the first validation cohort (UNIPG), both validation methods were used. For the second (ALFA+) and third (BIODEGMAR) cohorts, only validation Method 2 was used, as the performance of the analyzed markers in these cohorts have been already published.<xref rid="alz14573-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="alz14573-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref> AUC with 95% confidence intervals (CIs), sensitivity, specificity, positive predictive value (PPV, not prevalence adjusted), negative predictive value (NPV, not prevalence adjusted), cut‐off (at Youden index, and at 90% sensitivity and specificity), and accuracy are reported.</p></sec></sec><sec id="alz14573-sec-0120"><label>3</label><title>RESULTS</title><sec id="alz14573-sec-0130"><label>3.1</label><title>Sample demographics</title><p>Of the complete bPRIDE sample set, 1298 samples with available plasma measurements were included in the analysis (Table <xref rid="alz14573-tbl-0001" ref-type="table">1</xref>). Across diagnostic groups on average, 48% were male, the mean age was 70.1 years (standard deviation [SD]: 7.1), and 32% carried at least one <italic toggle="yes">APOE</italic> ε4 allele (where measured). Subjects with preAD, MCI(AD), AD dementia, MCI(DLB), and DLB were older than controls and were more frequently <italic toggle="yes">APOE</italic> ε4 carriers compared to controls. All cases along the AD continuum (i.e., preAD, MCI[AD], and AD dementia) were Aβ+, while only a small group of those with MCI(FTD) or FTD were Aβ+ (11% and 8%, respectively). Approximately half of all participants with DLB (MCI/DLB) had Aβ co‐pathology. MMSE was lower in all groups compared to controls except for those with preAD. Across centers (Table <xref rid="alz14573-supinfo-0001" ref-type="">S1</xref>), mean age ranged between 66.6 years of age (SD: 6.43, ADC) through 72.24 years of age (SD: 7.29, SPIN). Median MMSE across centers ranged between 25 (median absolute deviation [MAD]: 4.45, ADC, UNIPG, UU, and SPIN) and 29 (MAD: 1.48, BioFINDER). Median years of education across centers ranged between 8 years (SD: 4.45, UNIPG) and 12 (SD: 2.97–4.45, AIBL, UU, and BioFINDER).</p><table-wrap position="float" id="alz14573-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Study demographic parameters.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Total sample</th><th align="left" rowspan="1" colspan="1">Controls</th><th align="left" rowspan="1" colspan="1">sMCI</th><th align="left" rowspan="1" colspan="1">preAD</th><th align="left" rowspan="1" colspan="1">MCI(AD)</th><th align="left" rowspan="1" colspan="1">AD dementia</th><th align="left" rowspan="1" colspan="1">MCI(FTD)</th><th align="left" rowspan="1" colspan="1">FTD</th><th align="left" rowspan="1" colspan="1">MCI(DLB)</th><th align="left" rowspan="1" colspan="1">DLB</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">N</italic> (%)</td><td align="char" rowspan="1" colspan="1">1298</td><td align="char" rowspan="1" colspan="1">198 (15%)</td><td align="char" rowspan="1" colspan="1">170 (13%)</td><td align="char" rowspan="1" colspan="1">181 (14%)</td><td align="char" rowspan="1" colspan="1">155 (12%)</td><td align="char" rowspan="1" colspan="1">182 (14%)</td><td align="char" rowspan="1" colspan="1">46 (4%)</td><td align="char" rowspan="1" colspan="1">170 (13%)</td><td align="char" rowspan="1" colspan="1">25 (2%)</td><td align="char" rowspan="1" colspan="1">171 (13%)</td></tr><tr><td align="left" rowspan="1" colspan="1">Sex male, <italic toggle="yes">N</italic> (%)</td><td align="char" rowspan="1" colspan="1">626 (48%)</td><td align="char" rowspan="1" colspan="1">84 (42%)</td><td align="char" rowspan="1" colspan="1">81 (48%)</td><td align="char" rowspan="1" colspan="1">61 (34%)</td><td align="char" rowspan="1" colspan="1">68 (44%)</td><td align="char" rowspan="1" colspan="1">70 (38%)</td><td align="char" rowspan="1" colspan="1">30 (65%)</td><td align="char" rowspan="1" colspan="1">97 (57%)</td><td align="char" rowspan="1" colspan="1">15 (60%)</td><td align="char" rowspan="1" colspan="1">120 (70%)</td></tr><tr><td align="left" rowspan="1" colspan="1">Mean age, years (SD)</td><td align="char" rowspan="1" colspan="1">70.1 (7.1)</td><td align="char" rowspan="1" colspan="1">68.1 (7.4)</td><td align="char" rowspan="1" colspan="1">69 (7.6)</td><td align="char" rowspan="1" colspan="1">71.9 (5.9)</td><td align="char" rowspan="1" colspan="1">71.9 (6)</td><td align="char" rowspan="1" colspan="1">70.6 (7.5)</td><td align="char" rowspan="1" colspan="1">68.5 (6.3)</td><td align="char" rowspan="1" colspan="1">67.9 (7.9)</td><td align="char" rowspan="1" colspan="1">70.8 (6)</td><td align="char" rowspan="1" colspan="1">72 (6.3)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">APOE</italic> ɛ4 carriage, <italic toggle="yes">N</italic> (%)</td><td align="char" rowspan="1" colspan="1">418 (32%)</td><td align="char" rowspan="1" colspan="1">18 (9%)</td><td align="char" rowspan="1" colspan="1">32 (19%)</td><td align="char" rowspan="1" colspan="1">75 (41%)</td><td align="char" rowspan="1" colspan="1">89 (57%)</td><td align="char" rowspan="1" colspan="1">92 (51%)</td><td align="char" rowspan="1" colspan="1">4 (9%)</td><td align="char" rowspan="1" colspan="1">24 (14%)</td><td align="char" rowspan="1" colspan="1">7 (28%)</td><td align="char" rowspan="1" colspan="1">77 (45%)</td></tr><tr><td align="left" rowspan="1" colspan="1">Aβ+</td><td align="char" rowspan="1" colspan="1">516 (40%)</td><td align="char" rowspan="1" colspan="1">0 (0%)</td><td align="char" rowspan="1" colspan="1">6 (4%)</td><td align="char" rowspan="1" colspan="1">181 (100%)</td><td align="char" rowspan="1" colspan="1">155 (100%)</td><td align="char" rowspan="1" colspan="1">182 (100%)</td><td align="char" rowspan="1" colspan="1">5 (11%)</td><td align="char" rowspan="1" colspan="1">13 (8%)</td><td align="char" rowspan="1" colspan="1">12 (48%)</td><td align="char" rowspan="1" colspan="1">86 (50%)</td></tr><tr><td align="left" rowspan="1" colspan="1">Median MMSE, (MAD)</td><td align="char" rowspan="1" colspan="1">25 (4.7)</td><td align="char" rowspan="1" colspan="1">28.6 (1.5)</td><td align="char" rowspan="1" colspan="1">26.4 (2.4)</td><td align="char" rowspan="1" colspan="1">28.4 (1.4)</td><td align="char" rowspan="1" colspan="1">25.7 (2.6)</td><td align="char" rowspan="1" colspan="1">19.4 (5.4)</td><td align="char" rowspan="1" colspan="1">25.9 (2.7)</td><td align="char" rowspan="1" colspan="1">22.7 (5)</td><td align="char" rowspan="1" colspan="1">25.9 (3)</td><td align="char" rowspan="1" colspan="1">22.3 (4.5)</td></tr></tbody></table><table-wrap-foot><fn id="alz14573-tbl1-note-0001"><p>Abbreviations: Aβ, amyloid beta; AD, Alzheimer's disease; <italic toggle="yes">APOE</italic>, apolipoprotein E; DLB, dementia with Lewy bodies; FTD, frontotemporal dementia; MAD, median absolute deviation; MCI, mild cognitive impairment; MMSE, Mini‐Mental State Examination; <italic toggle="yes">N</italic>, number; preAD, pre‐clinical Alzheimer's disease; SD, standard deviation; sMCI, stable mild cognitive impairment.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="alz14573-sec-0140"><label>3.2</label><title>Biomarker measurements across centers</title><p>Figure <xref rid="alz14573-supinfo-0001" ref-type="">S1C</xref> shows most of the variance across the biomarkers tested was explained within the first component (≈ 85%), with little to no variance seen across center (Figure <xref rid="alz14573-fig-0001" ref-type="fig">1A</xref>). To assess the relative contribution of center within ROC analyses, the first three principal components (PCs) were modeled along with each biomarker to predict AD from controls (we used this comparison as a representative to assess center differences only), with AUC values compared to using individual biomarkers to predict AD from controls. Modest to strong improvements were seen in AUC values when models included three PCs, with Aβ42/40 and NfL showing the largest increase in AUC values after accounting for PCs (<italic toggle="yes">P</italic> &lt; 0.0001), with p‐tau181 having only a small increase in AUC value (<italic toggle="yes">P</italic> = 0.015) and GFAP having no increase (<italic toggle="yes">P</italic> = 0.22). Thus, overall performance was increased after accounting for center, except for GFAP, which remained the same (Table <xref rid="alz14573-supinfo-0001" ref-type="">S2</xref> in supporting information). Further testing for possible center differences showed that biomarker AUC values (predicting AD from controls) were not significantly different between centers (Table <xref rid="alz14573-supinfo-0001" ref-type="">S2</xref>). AUC values presented from here are taken from the average of the rolling circle validation analyses, such that no center biases in AUC values are presented.</p><fig position="float" fig-type="FIGURE" id="alz14573-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Box and whisker plots of plasma biomarkers over the disease continuums for AD, DLB, and FTD. (A) Aβ42/40, (B) p‐tau181, (C) GFAP, and (D) NfL. – <italic toggle="yes">P</italic> &gt; 0.05, <sup>*</sup>
+<italic toggle="yes">P</italic> &lt; 0.05, <sup>**</sup>
+<italic toggle="yes">P</italic> &lt; 0.01, <sup>***</sup>
+<italic toggle="yes">P</italic> &lt; 0.001, <sup>****</sup>
+<italic toggle="yes">P</italic> &lt; 0.0001 versus controls. Values shown for Aβ42, GFAP, NfL, and p‐tau181 are in pg/mL. Aβ, amyloid beta; AD, Alzheimer's disease; DLB, dementia with Lewy bodies; FTD, frontotemporal dementia; GFAP, glial fibrillary acidic protein; MCI, mild cognitive impairment; NfL, neurofilament light chain; preAD, pre‐clinical AD; p‐tau, phosphorylated tau; sMCI, stable MCI</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-21-e14573-g002.jpg"/></fig><p>We will next report results along the disease continuum for each of the dementia types separately.</p></sec><sec id="alz14573-sec-0150"><label>3.3</label><title>Biomarker combinations to detect amyloid positivity within the AD continuum</title><p>Compared to the control group, all biomarkers analyzed were already changed in the preAD group and continued increasing (except for the Aβ42/40 ratio which decreased to its lowest level in preAD) through the MCI(AD) and dementia due to AD stages. Among the biomarkers, plasma p‐tau181 and GFAP showed the largest stepwise increased changes over the full AD continuum (Table <xref rid="alz14573-tbl-0002" ref-type="table">2</xref>, Figure <xref rid="alz14573-fig-0001" ref-type="fig">1A–D</xref>). We next evaluated which combination of markers (single, ratios, and interactions, into a multivariate model) had the best performance to discriminate any stage of the AD continuum compared to controls. The sMCI group without Aβ pathological changes had only low to moderate changes in all biomarker levels and given such small changes along with high variation, was not further considered in predictive modeling. Regarding single markers and Aβ42/40 and p‐tau181/Aβ42 ratios, p‐tau181 and the p‐tau181/Aβ42 ratio showed the highest discriminative performance across all disease stages compared to controls (AUC &gt; 0.82), with no significant differences in AUC values among p‐tau181, p‐tau181/Aβ42, and Aβ42 (Figure <xref rid="alz14573-fig-0002" ref-type="fig">2</xref>). No biomarkers were able to efficiently discriminate AD dementia from MCI(AD), with all AUC values &lt; 0.65. Plasma p‐tau181 and p‐tau181/Aβ42 showed the strongest performance (AUC 0.87 and 0.90, respectively) to discriminate AD from the group of non‐AD dementias (FTD Aβ– and DLB Aβ–).The multivariate model (chosen consistently across all group comparisons; ROC statistics shown in Table <xref rid="alz14573-tbl-0003" ref-type="table">3</xref> compared to individual plasma biomarkers), comprising the pre‐calculated interaction between Aβ40 × p‐tau181, and ratios Aβ42/GFAP and Aβ42/p‐tau181, had significantly higher AUC values compared to the top performing individual biomarker; however, such differences in AUC diminished with increasing disease stage.</p><table-wrap position="float" id="alz14573-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Mean biomarker levels per clinical group.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Biomarker</th><th align="left" rowspan="1" colspan="1">Controls</th><th align="left" rowspan="1" colspan="1">sMCI</th><th align="left" rowspan="1" colspan="1">preAD</th><th align="left" rowspan="1" colspan="1">MCI(AD)</th><th align="left" rowspan="1" colspan="1">AD dementia</th><th align="left" rowspan="1" colspan="1">MCI(DLB)</th><th align="left" rowspan="1" colspan="1">DLB</th><th align="left" rowspan="1" colspan="1">MCI(FTD)</th><th align="left" rowspan="1" colspan="1">FTD</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Aβ42</td><td align="char" rowspan="1" colspan="1">6.19 (1.64)</td><td align="char" rowspan="1" colspan="1">6.34 (1.61)</td><td align="char" rowspan="1" colspan="1">5.36 (1.44)**</td><td align="char" rowspan="1" colspan="1">5.34 (1.53)**</td><td align="char" rowspan="1" colspan="1">5.46 (1.28)**</td><td align="char" rowspan="1" colspan="1">6.2 (1.52)</td><td align="char" rowspan="1" colspan="1">6.15 (1.66)‘‘</td><td align="char" rowspan="1" colspan="1">6.2 (1.14)</td><td align="char" rowspan="1" colspan="1">6.33 (1.64) †††</td></tr><tr><td align="left" rowspan="1" colspan="1">Aβ42/40</td><td align="char" rowspan="1" colspan="1">0.063 (0.012)</td><td align="char" rowspan="1" colspan="1">0.06 (0.01)</td><td align="char" rowspan="1" colspan="1">0.053 (0.0099)***</td><td align="char" rowspan="1" colspan="1">0.052 (0.0098)***</td><td align="char" rowspan="1" colspan="1">0.054 (0.008)***</td><td align="char" rowspan="1" colspan="1">0.06 (0.011)</td><td align="char" rowspan="1" colspan="1">0.058 (0.011)*** ‘‘</td><td align="char" rowspan="1" colspan="1">0.060 (0.011)</td><td align="char" rowspan="1" colspan="1">0.062 (0.012)†††</td></tr><tr><td align="left" rowspan="1" colspan="1">GFAP</td><td align="char" rowspan="1" colspan="1">104 (45.9)</td><td align="char" rowspan="1" colspan="1">122 (63.5)*</td><td align="char" rowspan="1" colspan="1">160 (74.1)***</td><td align="char" rowspan="1" colspan="1">195 (87.3)***</td><td align="char" rowspan="1" colspan="1">219 (95.5)***</td><td align="char" rowspan="1" colspan="1">146 (77.4)*</td><td align="char" rowspan="1" colspan="1">154 (83.2)*** ‘‘‘</td><td align="char" rowspan="1" colspan="1">146 (77.4)***</td><td align="char" rowspan="1" colspan="1">133(69.7)*** ††† ^^^</td></tr><tr><td align="left" rowspan="1" colspan="1">NfL</td><td align="char" rowspan="1" colspan="1">17.5 (9.01)</td><td align="char" rowspan="1" colspan="1">21.4 (11.8)**</td><td align="char" rowspan="1" colspan="1">23 (11.1)***</td><td align="char" rowspan="1" colspan="1">26 (12.8)***</td><td align="char" rowspan="1" colspan="1">29 (14.7)***</td><td align="char" rowspan="1" colspan="1">28.9 (16.8)</td><td align="char" rowspan="1" colspan="1">26 (13.6)*** ‘</td><td align="char" rowspan="1" colspan="1">28.9 (16.8)***</td><td align="char" rowspan="1" colspan="1">33.9 (18)*** †† ^^^</td></tr><tr><td align="left" rowspan="1" colspan="1">p‐tau181</td><td align="char" rowspan="1" colspan="1">1.63 (0.66)</td><td align="char" rowspan="1" colspan="1">1.92 (0.978)*</td><td align="char" rowspan="1" colspan="1">2.83 (1.44)***</td><td align="char" rowspan="1" colspan="1">3.37 (1.34)***</td><td align="char" rowspan="1" colspan="1">3.85 (1.27)***</td><td align="char" rowspan="1" colspan="1">1.93 (1.09)</td><td align="char" rowspan="1" colspan="1">2.64 (1.34)*** ‘‘‘</td><td align="char" rowspan="1" colspan="1">1.93 (1.09)</td><td align="char" rowspan="1" colspan="1">1.88 (0.956)* ††† ^^^</td></tr><tr><td align="left" rowspan="1" colspan="1">p‐tau181/Aβ42</td><td align="char" rowspan="1" colspan="1">0.29 (0.181)</td><td align="char" rowspan="1" colspan="1">0.316 (0.175)</td><td align="char" rowspan="1" colspan="1">0.531 (0.275)***</td><td align="char" rowspan="1" colspan="1">0.694 (0.323)***</td><td align="char" rowspan="1" colspan="1">0.736 (0.278)***</td><td align="char" rowspan="1" colspan="1">0.361 (0.188)</td><td align="char" rowspan="1" colspan="1">0.46 (0.291)*** ‘‘‘</td><td align="char" rowspan="1" colspan="1">0.347 (0.249)</td><td align="char" rowspan="1" colspan="1">0.334 (0.249)††† ^^^</td></tr></tbody></table><table-wrap-foot><fn id="alz14573-tbl2-note-0001"><p>
+<italic toggle="yes">Note</italic>: Values shown for Aβ42, GFAP, NfL, and p‐tau181 are in pg/mL. Comparisons of each group back to controls: *&lt; 0.05, **&lt; 0.01, <sup>***</sup>&lt; 0.001. Comparison of AD dementia versus DLB: <sup>‘</sup>&lt; 0.05, <sup>‘‘</sup>&lt; 0.01, <sup>‘‘‘</sup>&lt; 0.001. Comparison of AD dementia versus FTD: <sup>†</sup>&lt; 0.05, <sup>††</sup>&lt; 0.01, <sup>†††</sup>&lt; 0.001. Comparison of DLB versus FTD: <sup>^</sup>&lt; 0.05, <sup>^^</sup>&lt; 0.01, <sup>^^^</sup>&lt; 0.001.</p></fn><fn id="alz14573-tbl2-note-0002"><p>Abbreviations: Aβ, amyloid beta; AD, Alzheimer's disease; DLB, dementia with Lewy bodies; FTD, frontotemporal dementia; GFAP, glial fibrillary acidic protein; MCI, mild cognitive impairment; NfL, neurofilament light chain; preAD, pre‐clinical Alzheimer's disease; p‐tau, phosphorylated tau; sMCI, stable mild cognitive impairment.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><fig position="float" fig-type="FIGURE" id="alz14573-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Internal cross‐validation AUC (95% CI) values for the AD continuum and for AD versus other dementia. Other dementia: includes participants with DLB or FTD. Multivariate model included the interaction Aβ40 × p‐tau181, and ratios Aβ42/GFAP and Aβ42/p‐tau181. AD, Alzheimer's disease; AUC, area under the curve; CI, confidence interval; DLB, dementia with Lewy bodies; FTD, frontotemporal dementia; GFAP, glial fibrillary acidic protein; MCI, mild cognitive impairment; NfL, neurofilament light chain; preAD, pre‐clinical AD; p‐tau, phosphorylated tau</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-21-e14573-g004.jpg"/></fig><table-wrap position="float" id="alz14573-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>Multivariate analyses for the AD continuum.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="left" colspan="2" style="border-bottom:solid 1px #000000" rowspan="1">Controls versus preAD</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" rowspan="1">Controls versus MCI(AD)</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" rowspan="1">Controls versus AD dementia</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">p‐tau181</th><th align="left" rowspan="1" colspan="1">MV model</th><th align="left" rowspan="1" colspan="1">p‐tau181</th><th align="left" rowspan="1" colspan="1">MV model</th><th align="left" rowspan="1" colspan="1">p‐tau181</th><th align="left" rowspan="1" colspan="1">MV model</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">AUC (95% CI)</td><td align="char" rowspan="1" colspan="1">0.80 (0.75–0.84)</td><td align="char" rowspan="1" colspan="1">0.85 (0.81–0.89)</td><td align="char" rowspan="1" colspan="1">0.90 (0.86–0.93)</td><td align="char" rowspan="1" colspan="1">0.93 (0.9–0.96)</td><td align="char" rowspan="1" colspan="1">0.95 (0.92–0.97)</td><td align="char" rowspan="1" colspan="1">0.96 (0.95–0.98)</td></tr><tr><td align="left" rowspan="1" colspan="1">Sensitivity</td><td align="char" rowspan="1" colspan="1">68.51</td><td align="char" rowspan="1" colspan="1">71.27</td><td align="char" rowspan="1" colspan="1">79.35</td><td align="char" rowspan="1" colspan="1">89.03</td><td align="char" rowspan="1" colspan="1">84.07</td><td align="char" rowspan="1" colspan="1">88.46</td></tr><tr><td align="left" rowspan="1" colspan="1">Specificity</td><td align="char" rowspan="1" colspan="1">77.78</td><td align="char" rowspan="1" colspan="1">86.87</td><td align="char" rowspan="1" colspan="1">87.37</td><td align="char" rowspan="1" colspan="1">85.86</td><td align="char" rowspan="1" colspan="1">89.9</td><td align="char" rowspan="1" colspan="1">91.92</td></tr><tr><td align="left" rowspan="1" colspan="1">Cut‐off</td><td align="char" rowspan="1" colspan="1">2.01</td><td align="char" rowspan="1" colspan="1">0.552</td><td align="char" rowspan="1" colspan="1">2.31</td><td align="char" rowspan="1" colspan="1">0.402</td><td align="char" rowspan="1" colspan="1">2.49</td><td align="char" rowspan="1" colspan="1">0.489</td></tr><tr><td align="left" rowspan="1" colspan="1">PPV</td><td align="char" rowspan="1" colspan="1">73.81</td><td align="char" rowspan="1" colspan="1">83.23</td><td align="char" rowspan="1" colspan="1">83.11</td><td align="char" rowspan="1" colspan="1">83.13</td><td align="char" rowspan="1" colspan="1">88.44</td><td align="char" rowspan="1" colspan="1">90.96</td></tr><tr><td align="left" rowspan="1" colspan="1">NPV</td><td align="char" rowspan="1" colspan="1">72.99</td><td align="char" rowspan="1" colspan="1">76.79</td><td align="char" rowspan="1" colspan="1">84.39</td><td align="char" rowspan="1" colspan="1">90.91</td><td align="char" rowspan="1" colspan="1">85.99</td><td align="char" rowspan="1" colspan="1">89.66</td></tr><tr><td align="left" rowspan="1" colspan="1">Accuracy</td><td align="char" rowspan="1" colspan="1">73.35</td><td align="char" rowspan="1" colspan="1">79.42</td><td align="char" rowspan="1" colspan="1">83.85</td><td align="char" rowspan="1" colspan="1">87.25</td><td align="char" rowspan="1" colspan="1">87.11</td><td align="char" rowspan="1" colspan="1">90.26</td></tr></tbody></table><table-wrap-foot><fn id="alz14573-tbl3-note-0001"><p>
+<italic toggle="yes">Note</italic>: Multivariate models all included the interaction Aβ40 × p‐tau181, and ratios Aβ42/GFAP and Aβ42/p‐tau181. Cut‐off values are provided in pg/mL for Aβ42, GFAP, NfL, and p‐tau181.</p></fn><fn id="alz14573-tbl3-note-0002"><p>Abbreviations: AD, Alzheimer's disease; AUC, area under the curve; CI, confidence interval; MCI, mild cognitive impairment; MV, multivariate; NPV, negative predictive value; PPV, positive predictive value; preAD, pre‐clinical Alzheimer's disease; p‐tau, phosphorylated tau.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="alz14573-sec-0160"><label>3.4</label><title>Controls versus DLB continuum</title><p>Irrespective of Aβ co‐pathology and compared to the control group, all biomarkers (except for Aβ42) were increased in DLB (Aβ42/40 was decreased), while only GFAP was significantly increased in those with MCI(DLB) (Table <xref rid="alz14573-tbl-0002" ref-type="table">2</xref>). Considering the absence/presence of Aβ co‐pathology, Aβ42/40 was decreased and p‐tau181 and GFAP were only increased in the DLB Aβ+ group compared to controls, and not altered in the DLB Aβ– group (Figure <xref rid="alz14573-fig-0001" ref-type="fig">1</xref>). NfL, however, was increased in both DLB Aβ– and DLB Aβ+ groups compared to controls. Assessing the diagnostic capability of each biomarker irrespective of Aβ co‐pathology (Figure <xref rid="alz14573-fig-0003" ref-type="fig">3</xref>), GFAP had the highest AUC value (AUC: 0.86 [95% CI: 0.78–0.94]); however, this was not significantly different from all other markers except for Aβ42/40, which had the lowest AUC value (AUC: 0.72 [95% CI: 0.60–0.84]).</p><fig position="float" fig-type="FIGURE" id="alz14573-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Internal cross‐validation AUC (95% CI) values for the DLB Aβ‐ and DLB Aβ+ versus controls, and between DLB &amp; AD. Aβ, amyloid beta; AD, Alzheimer's disease; AUC, area under the curve; CI, confidence interval; DLB, dementia with Lewy bodies; GFAP, glial fibrillary acidic protein; NfL, neurofilament light chain; p‐tau, phosphorylated tau</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-21-e14573-g005.jpg"/></fig><p>When Aβ pathology was present, biomarker AUC values for the comparison of DLB versus controls were similar to that for the AD continuum (all AUC &gt; 0.78). When no Aβ pathology was present, only NfL and GFAP tended to be increased in DLB patients compared to controls (AUC &gt; 0.78). With only 25 patients with MCI(DLB), this could not be validated during the earlier stage of the DLB continuum.</p></sec><sec id="alz14573-sec-0170"><label>3.5</label><title>Controls versus frontotemporal dementia continuum</title><p>Plasma NfL showed the strongest stepwise increase along the FTD continuum (Figure <xref rid="alz14573-fig-0001" ref-type="fig">1D</xref>). The levels of NfL in the MCI(FTD) group were as high as those observed in AD or DLB. Concerning AUC values, NfL had the only AUC value with the 95% CI not to cross 0.5 (AUC: 0.78 [95% CI: 0.57–0.99], Figure <xref rid="alz14573-fig-0004" ref-type="fig">4</xref>) to separate controls from MCI(FTD), while there were no biomarkers that could demarcate MCI(FTD) from FTD. The AUC for NfL was 0.7 indicating it was increased in FTD compared to MCI(FTD); however, given sample size, the 95% CI crossed 0.5. For the controls versus dementia (FTD) comparison, NfL had the highest AUC value (AUC: 0.89 [95% CI: 0.81–0.98]), and GFAP was the only other marker which showed significant discriminatory performance between the two groups (AUC: 0.75 [95% CI: 0.63–0.88]).</p><fig position="float" fig-type="FIGURE" id="alz14573-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Internal cross‐validation AUC (95% CI) values for the FTD continuum and for FTD versus AD. Aβ, amyloid beta; AD, Alzheimer's disease; AUC, area under the curve; CI, confidence interval; FTD, frontotemporal dementia; GFAP, glial fibrillary acidic protein; NfL, neurofilament light chain; p‐tau, phosphorylated tau</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-21-e14573-g001.jpg"/></fig></sec><sec id="alz14573-sec-0180"><label>3.6</label><title>AD versus non‐AD dementias</title><p>Comparing AD to both DLB and FTD combined (non‐AD dementia group), p‐tau181 and the p‐tau181/Aβ42 ratio had the highest AUC values (Figure <xref rid="alz14573-fig-0002" ref-type="fig">2</xref>, 0.87 and 0.90, respectively), while all other markers and the multivariate set (Aβ40 × p‐tau181, and ratios Aβ42/GFAP and Aβ42/p‐tau181) had a maximum AUC of 0.72. Comparing AD versus FTD separately the p‐tau181/Aβ42 ratio was the best with an AUC of 0.91 (Figure <xref rid="alz14573-fig-0004" ref-type="fig">4</xref>). Comparing AD to DLB, the plasma p‐tau181/Aβ42 ratio was the marker that best discriminated these two groups with an AUC of 0.80, but this was strongly dependent upon the presence of Aβ co‐pathology. After stratification into with/without Aβ co‐pathology, the p‐tau181/Aβ42 ratio again was the top marker to discriminate AD from DLB without Aβ co‐pathology with an AUC of 0.90, while this decreased to 0.68 comparing AD versus DLB to Aβ co‐pathology (Figure <xref rid="alz14573-fig-0003" ref-type="fig">3</xref>). No other markers could discriminate AD from DLB–Aβ+ with all AUC values &lt; 0.68 (Figure <xref rid="alz14573-fig-0003" ref-type="fig">3</xref>).</p></sec><sec id="alz14573-sec-0190"><label>3.7</label><title>Cut‐off derivation via the dual cut‐off model for controls versus AD</title><p>Separate to the single cut‐off results presented above, we next established dual cut‐off distribution plots deriving biomarker cut‐offs for 90% sensitivity and 90% specificity, allowing the determination of the gray zone (Figure <xref rid="alz14573-fig-0005" ref-type="fig">5</xref>; gray zone defines the proportion of participants between the two cut‐offs). Across the five main plasma biomarkers investigated, the marker showing the smallest gray zone was the p‐tau181/Aβ42 ratio (6.58%) and p‐tau181 (7.63%), followed by GFAP (25.79%), Aβ42/40 (38.68%), and NfL (49.47%). Translating this into the percentage of data rather than participants with values within the gray zone, we saw percentages of 4.95% for p‐tau181/Aβ42, 5.1% for p‐tau181, 10.28% for GFAP, 14.17% for the Aβ42/40 ratio, and 16.48% for NfL.</p><fig position="float" fig-type="FIGURE" id="alz14573-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Biomarker cut‐offs for controls versus preAD and controls versus AD. Density plots for each biomarker with cut‐offs taken from the ROC calculated using controls versus AD. Percent of participants in gray zone calculated as the number of participants whose plasma biomarker concentration falls within the gray zone divided by the total number of participants. Blue line represents Youden index. Values shown for Aβ42, GFAP, NfL, and p‐tau181 are in pg/mL. Aβ, amyloid beta; AD, Alzheimer's disease; GFAP, glial fibrillary acidic protein; NfL, neurofilament light chain; preAD, pre‐clinical Alzheimer's disease; p‐tau, phosphorylated tau; Sens., sensitivity; Spec., specificity.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ALZ-21-e14573-g003.jpg"/></fig></sec><sec id="alz14573-sec-0200"><label>3.8</label><title>External cross‐validations of the cut‐offs</title><p>Figure <xref rid="alz14573-supinfo-0001" ref-type="">S2</xref> in supporting information shows a forest plot for AUC values from the cross‐validations (validation Method 1) of individual plasma biomarkers to discriminate dementia disease stage (not enough data for DLB) from controls using independent data from UNIPG (ALFA+ and BIODEGMAR were reserved for validation Method 2 only). In this cohort, p‐tau181 and the p‐tau181/Aβ42 ratio had AUC values ≈ 10% less at the preclinical stages (AUCs: p‐tau181: 0.73 [0.54–0.92], p‐tau181/Aβ42: 0.74 [0.54–0.93]) than in the multi‐center bPRIDE cohort (Figure <xref rid="alz14573-fig-0002" ref-type="fig">2</xref>), while at the prodromal stage, AUC values for p‐tau181 alone but not the ratio were similar (AUCs: p‐tau181: 0.88 [0.78–0.99], p‐tau181/Aβ42: 0.84 [0.68–0.99]). Despite p‐tau181 having similar performance as observed in bPRIDE at the AD dementia stage (AUC p‐tau181 validation: 0.93 [0.85–1.00], bPRIDE: 0.95 [0.90–1.00]), plasma GFAP was the best biomarker discriminating any stage of the AD continuum compared to controls and comparing AD to FTD in the validation cohort 1 (AUC: 0.96 [0.9–1.00], Figure <xref rid="alz14573-supinfo-0001" ref-type="">S2</xref>).</p><p>We also investigated whether the cut‐offs derived from the multi‐center bPRIDE cohort (Table <xref rid="alz14573-supinfo-0001" ref-type="">S3</xref> in supporting information) could be applied to the independent cohorts (validation Method 2, UNIPG, ALFA+, and BIODEGMAR; Table <xref rid="alz14573-supinfo-0001" ref-type="">S4</xref> in supporting information), using both the Youden index calculated from bPRIDE and for 90% sensitivity or 90% specificity. Demographic characteristics, and study‐specific AUC values to predict disease group for each validation cohort are provided in Tables <xref rid="alz14573-supinfo-0001" ref-type="">S5</xref> and <xref rid="alz14573-supinfo-0001" ref-type="">S6</xref> in supporting information. AUC values for each comparison group were lower using validation Method 2 (fixed cut‐off method) compared to validation Method 1 (standard model training and test on separate data), suggesting slightly different distributions for each biomarker per cohort. We tested this in Figure <xref rid="alz14573-supinfo-0001" ref-type="">S3A–C</xref> in supporting information, plotting the distributions for each biomarker for UNIPG, ALFA+, and BIODEGMAR cohorts. Plots include the original Youden index calculated within each study (black dotted line), along with the Youden's index from bPRIDE (blue line), and the cut‐offs at 90% sensitivity (green) and 90% specificity (orange). bPRIDE cut‐offs to separate disease status were different than cohort‐ specific cut‐offs for p‐tau181, GFAP, and NfL, but closer for Aβ42/40 (UNIPG only) across disease comparisons and validation cohorts.</p></sec></sec><sec id="alz14573-sec-0210"><label>4</label><title>DISCUSSION</title><p>In the present study we investigated the ability of plasma Aβ42/40, p‐tau181, p‐tau181/Aβ42, GFAP, and NfL to discriminate groups along the continuum of three neurological diseases: AD, FTD, and DLB, in a large international multi‐center cohort. Across the AD continuum, p‐tau181 had the best AUC values to separate all groups. Early in the AD continuum (preAD vs. controls), the multivariate model, including the interaction between Aβ40 and p‐tau181, and ratios Aβ42/GFAP and Aβ42/p‐tau181, produced slightly higher (≈ 5%) AUC values compared to individual markers, while this difference was reduced to 1% at the AD dementia stage compared to controls. Both p‐tau181 and the p‐tau181/Aβ42 ratio performed well to discriminate between AD and other dementias, except for DLB cases with amyloid co‐pathology. A dual cut‐off model defined a small gray zone containing a small number of participants for p‐tau181 and the p‐tau181/Aβ4 ratio (i.e., 7.6% of participants for p‐tau181 and 6.6% of participants for the p‐tau181/Aβ42 ratio).</p><p>The consistent increase in plasma p‐tau181 levels along the full AD continuum is in line with previous work,<xref rid="alz14573-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="alz14573-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>, <xref rid="alz14573-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> which reported increased p‐tau181 levels along the symptomatic stages of AD. Other p‐tau isoforms (e.g., p‐tau231, p‐tau217) have also shown similar behaviors, though p‐tau217 and p‐tau231 have demonstrated larger increases along AD stages. The increase of p‐tau181 in the preAD group suggests that it reflects tauopathy secondary to the presence of Aβ pathology at this early stage. The relationship between p‐tau181 and Aβ pathology is further supported by the evidence of increased p‐tau181 levels in DLB cases with Aβ co‐pathology. The stepwise increase in plasma p‐tau181 across the disease continuum may represent the combination of Aβ together with increasing tau tangle burden throughout the MCI and clinical AD stages.</p><p>Identification of a cheap and non‐invasive blood‐based biomarker is important for all three neurodegenerative disorders assessed here (AD, FTD, and DLB). While p‐tau181 and its ratio with Aβ42 were the best markers to detect AD along its continuum, NfL and GFAP had stronger performance to identify DLB and FTD, specifically where there was no amyloid co‐pathology. Both p‐tau181 and the p‐tau181/Aβ42 ratio had high AUC values to demarcate AD from both FTD and DLB, but only in those cases without amyloid co‐pathology. No biomarkers were, however, able to separate AD from DLB with amyloid co‐pathology, highlighting the need to identify additional biomarkers to separate these neurological conditions. These results are particularly relevant when considering preclinical stages of these diseases, when the presence of molecular pathology cannot be defined by other clinical measures. Furthermore, the results could have important implications for the timely inclusion of patients into clinical trials, especially those that aim to initiate treatment strategies to prevent the development of symptoms.</p><p>Using the dual cut‐off plots we found a small area of uncertainty (gray zone) for p‐tau181 compared to other biomarkers in identifying AD. Using information from the consensus statement from Schindler et al.,<xref rid="alz14573-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref> patients identified within the gray zone from either a confirmatory blood‐based‐biomarker (BBM, sensitivity and specificity ≥ 90%) or as a triaging test (sensitivity ≥ 90% and specificity ≥ 85%) should be referred to either PET or CSF Aβ testing to confirm amyloid pathology. The method was also useful to compare the biomarker densities and Youden's index between the bPRIDE study and validation studies. Plots demonstrated that differences in the underlying distribution of controls versus dementia impact the diagnostic cut‐offs, and small changes in these cut‐offs can impact the ability for external cross‐validation. Differences in pre‐analytical handling,<xref rid="alz14573-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref> fasting or non‐fasting,<xref rid="alz14573-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref> or prevalence of other confounding factors may be responsible for these small differences in cut‐off values, which are often seen between research studies. bPRIDE as a combination of six international studies provided cut‐offs that represent an average when using a large, combined cohort all assessed in one laboratory.</p><p>A further point to take into consideration when translating cut‐offs across cohorts is the fact that there can be slight differences in assay results due to kit–lot differences. Preliminary assessment of biomarkers prior to cross‐validations (controls vs. AD) showed variable but not significantly different AUC values across centers within bPRIDE. As such, comparing cut‐off values between bPRIDE and external cohorts when different kits–lots were used, we would expect to see differences in predictive accuracy. Given the lot‐to‐lot bridging could not be performed on the validation cohorts, it is possible that the validation AUC values are underestimated, representing a limitation of this work. Thus, while an international uniform cut‐off is still elusive, and may not be possible based on these biomarkers, cohort‐specific cut‐off values are best used for the most accurate diagnostic assessment. Use of dual cut‐off values for either high sensitivity or high specificity though are useful at least within the research setting to either rule out or rule in study participants for clinical trial suitability, and as such these methods provide useful information to reduce screening costs.</p><p>The present research has used well‐characterized cohorts from large international studies to compare plasma biomarker levels. While the overall sample size is high, the individual sub‐group analyses between some disease groups were relatively low, especially MCI(FTD) and MCI(DLB), and as such disease predictions need to be taken with caution. One limitation of this work was the sample size of the validation groups. Initial validation using the traditional train and test method on the UNIPG data set demonstrated high AUC values (Figure <xref rid="alz14573-supinfo-0001" ref-type="">S2)</xref>; however, upon further testing via the derived cut‐offs (bPRIDE) these values were lower (Table <xref rid="alz14573-supinfo-0001" ref-type="">S3</xref>). Furthermore, upon testing validation cohorts ALFA+ and BIODEGMAR using the bPRIDE‐derived cut‐offs, AUC values were again reduced suggesting pre‐analytical factors and possibly machine settings at different locations may still play a role in biomarker distributions. While the performance of biomarkers in distinguishing groups along the AD, FTD, and DLB continuums has demonstrated moderate to high accuracies in our study, it is important to note that the study cohorts predominantly consisted of individuals of European or Australian descent. There was minimal representation from Asian, African American, or Latino populations. Consequently, further research is warranted to evaluate both the accuracy of these biomarkers in detecting diseases, and to establish assay‐specific cut‐off values, which may differ among diverse ethnic populations. Last, this project did not include other biomarkers which have shown strong accuracy in detecting AD pathology (p‐tau217: Simoa/Lumipulse/mass spectrometry, p‐tau231: Simoa),<xref rid="alz14573-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>, <xref rid="alz14573-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="alz14573-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref>, <xref rid="alz14573-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref> and as such the comparative accuracy demonstrated here is limited to only the Simoa N4PE (Quanterix) and the Quanterix pTau181 assays. This work, however, did demonstrate a strong AUC value for controls versus AD (AUC: 0.95), similar to that seen for p‐tau217 to separate Aβ– from Aβ+ groups.<xref rid="alz14573-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>
+</p><p>This study represents a large collaborative effort to demonstrate the predictive capability of the plasma biomarkers Aβ42/40, GFAP, NfL, and p‐tau181. A multivariate model to predict Aβ pathology early in the AD continuum proved to be useful; however, at the later stage, using p‐tau181 alone was sufficient. Internal cross‐validations demonstrated good AUC values providing evidence that these markers are stable to be measured across different centers of inclusion around the world; however, external cross‐validations demonstrated difficulty in replicating predictive accuracy, providing evidence that more work is needed to address inter‐center differences in plasma biomarker levels.</p></sec><sec sec-type="COI-statement" id="alz14573-sec-0230"><title>CONFLICT OF INTEREST STATEMENT</title><p>J.D., E.J.M., P.O.R., A.F.L., J.C., A.G.E., C.M., Y.P., A.T., M.K.S., I.H., L.B., C.F., K.V., S.I.V., and S.H. have no conflicts of interest to declare. G.B. has grants or contracts from the Parkinson's Foundation, Fujirebio, and the Alzheimer's Association. L.V. has grants or contracts from NWO VENI and Amsterdam UMC, ZonMw, Olink Dioraphte, Roche Diagnostics, Ely Lilly, Alzheimer's Association, Alzheimer Nederland, and Dutch Dementia researchers conference committee. D.A. has support from the Instituto de Salud Carlos III, and the Department of Health Generalitat de Catalunya PERIS program, and funding from Grfols S.A., Lily, Fujirebio, Roche Diagnostics, Nutricia, Krka Farmaceutical SL, Zambon SAU, Esteve Pharmaceuticals, and Neuraxpharm. N.M.C. received support from the Swedish Alzheimer Foundation, Family Ronnstrom Foundation, Swedish Brain Foundation, Kock Foundation, WASP and DDLS joint call for research projects, Konug Gustaf V:s och Drottning Victorias Frimurarestiftelse, the Swedish Research Council, Biogen, and Owkin. I.V. has grants, funding, or contracts from the Amsterdam UMC starter grant, and the TKI grant Health‐Holland, Neurogen Biomarking, and Quanterix. L.G. has received grants or contracts from AirAlzh Foundation; received consulting fees from Fujirebio and Eli Lilly; has payment or honoraria from Fujirebio, Eli Lilly, and Eisai; and support for attending meetings and/or travel from Fujirebio, Eli Lilly, and Novartis. L.G. also participates on a data safety monitoring board or advisory board for Eli Lilly. A.W. received support from Quanterix and a grant from the European Union's Horizon 2020 research and innovation program under the Marie Skłodowska‐ Curie. J.F. received support from Fondo de Investigaciones Sanitario (FIS); Instituto de Salud Carlos III, Spain; National Institutes of Health (NIH), USA; Generalitat de Catalunya, Spain; Fundació Tatiana Pérez de Guzmán el Bueno, Spain; Alzheimer ´s Association, USA; Brightfocus, USA; and Horizon 2020 (European Commission). J.F. received consulting fees from Lundbeck, Ionis, and AC Immune, and payments or honoraria from Roche Diagnostics, Esteve, Biogen, Laboratorios Canot, MKI, Eisai, Lilly, and Adamed. J.F. has patent issued; WO2019175379 A1 Markers of synaptopathy in neurodegenerative disease. J.F. participates on a data safety monitoring board or advisory board for AC Immune, Alzheon, Zambon, Lilly, Roche Diagnostics, Eisai, and Perha. J.F. has leadership or fiduciary roles in the Spanish Neurological Society, T21 Research Society, Lumind Foundation, Jerome‐Lejeune Foundation, Alzheimer's Association, Health Research Board, Dementia Trials Ireland, European Commission, National Institutes of Health, USA, and the Instituto de Salud Carlos III, Spain. J.F. has receipt of equipment, materials, drugs, medical writing, gifts. or other services from Life Molecular Imaging (LMI). M.O. received grants or contracts from the BMBF – FTLD consortium, moodmarker, the ALS association, and EU_MIRIADE, and funding from Biogen, Axon, Roche Diagnostics, and Grifols. M.O. participates on a data safety monitory or advisory board from the Biogen ATLAS trial, and has a leadership or fiduciary role in the German Society for CSF diagnostics and neurochemistry, as a speaker for the FTLD consortium, and for the Society for CSF diagnostics and neurochemistry. A.L. has grants or contracts from Hersenstichting and ZOnMW, and has a leadership or fiduciary role on the Steering Committee E‐DLB and the Dutch Neurology Society. W.F. has grants or contracts from ZonMW, NWO, EU‐FP7, EU‐JPND, Alzheimer Nederland, Hersenstichting CardioVascular Onderzoek Nederland, Health∼Holland, Topsector Life Sciences &amp; Health, stichting Dioraphte, Gieskes‐Strijbis fonds, stichting Equilibrio, Noaber Foundation, Edwin Bouw fonds, Pasman stichting, Stichting Steun Alzheimercentrum Amsterdam, Philips, Biogen MA Inc, Novartis‐NL, Life‐MI, AVID, Roche BV, Fujifilm, Eisai, Combinostics. W.F. holds the Pasman chair. W.F. is recipient of ABOARD, which is a public–private partnership receiving funding from ZonMW (#73305095007) and Health∼Holland, Topsector Life Sciences &amp; Health (PPP‐allowance; #LSHM20106). W.F. is recipient of TAP‐dementia, ZonMw #10510032120003. W.F. is recipient of IHI‐AD‐RIDDLE (#101132933), a project supported by the Innovative Health Initiative Joint Undertaking (IHI JU). W.F. is consultant to Oxford Health Policy, Forum CIC, Roche Diagnostics, Eisai, and Biogen MA Inc. W.F. has been an invited speaker at Boehringer Ingelheim, Biogen MA Inc, Danone, Eisai, WebMD Neurology (Medscape), NovoNordisk, Springer Healthcare, European Brain Council. W.F. participated on advisory boards of Biogen MA Inc, Roche Diagnostics, and Eli Lilly. WF is member of the steering committee of Novonordisk's Evoke/Evoke+ phase 3 trials. W.F. is member of the steering committee of PAVE, and Think Brain Health. W.F. was associate editor of <italic toggle="yes">Alzheimer, Research &amp; Therapy</italic> in 2020/2021. W.F. is associate editor at <italic toggle="yes">Brain</italic>. J.H. has funding from SAB Eli Lilly and has stock in Alzheom company. O.H. has consulting fees from AC, Immune, BioArctic, Biogen, Bristol, Meyer, Squibb, C2N Diagnostics institute, Eisai, Eli Lilly, Fujirebio, Merck, Novartis, Novo, Nordisk, Roche Diagnostics, Sanofi, and Siemens. L.P. has funding from JPco‐fuND‐2: Multinational research projects on Personalised Medicine for Neurodegenerative Diseases (CUP number J99C18000210005). L.P. has grants or contracts European Union—Next Generation EU – PNRR M6C2 ‐ Investimento 2.1 Valorizzazione e potenziamento della ricerca biomedica del SSN (PNRR‐MAD‐2022‐12376035) and Fujirebio. A.L.B. had support from Fondo de Investigaciones Sanitario (FIS), Institution de Salud Carlos III AC19/00103; has grants or contracts from CIBERNED program (Program 1, Alzheimer Disease); has received consulting fees for Grifols S.A. and Lilly; and has patents planned issued or pending; WO2019175379 A1 Markers of synaptopathy in neurodegenerative disease. M.S.C. has grants or contracts from Roche Diagnostics, consulting fees from Roche Diagnostics, and has received funding from Roche, Almirall, Eli Lilly, and Novo Nordisk. M.S.C. has participated on data safety monitoring board or advisory boards for Roche Diagnostics, Grifols, and Eli Lilly. M.S.C. has received equipment, materials, drugs, medical writing gifts, or other services from Roche Diagnostics, Avid Radiopharmaceuticals, Inc. (Eli Lilly and company), Janssen Research and Development, ADx Neurosciences, Alamar Biosciences, Fujirebio, Meso Scale Discovery, and ALZpath. M.S.C. has other financial or non‐financial interests with Roche Diagnostics. A.P.P. has support from Laboratoris Esteve, Nutricia Ltd, and participates on a data safety monitory board or advisory board for Schwabe Farma Iberica. C.M. has grants or contracts from EuFingers JPND research grant, and the ADDF digital biomarkers research grant. M.d.C. has support from the JPND‐Bpride project funding, and grants or contracts from Alzheimer's research and therapy, Attraction Talent Comunidad de Madrid, and PROYECTOS I+D+I – 2020″‐ Retos de investigación from the Ministerio Español de Ciencia e innovación; has received payment or honoraria from Novonordisk and Springer Healthcare; and has a leadership or fiduciary role in BBB‐PIA chair AA and is Scientific advisor for ADPD. C.E.T. has research contracts with Acumen, ADx Neurosciences, AC‐Immune, Alamar, Aribio, Axon Neurosciences, Beckman‐Coulter, BioConnect, Bioorchestra, Brainstorm Therapeutics, Celgene, Cognition Therapeutics, EIP Pharma, Eisai, Eli Lilly, Fujirebio, Instant Nano Biosensors, Novo Nordisk, Olink, PeopleBio, Quanterix, Roche, Toyama, Vivoryon. She is editor in chief of <italic toggle="yes">Alzheimer Research and Therapy</italic>, and serves on editorial boards of <italic toggle="yes">Molecular Neurodegeneratoin, Neurology: Neuroimmunology &amp; Neuroinflammation, Medidact Neurologie</italic>/Springer, and serves on committee to define guidelines for Cognitive disturbances, and one for acute Neurology in the Netherlands. She had consultancy/speaker contracts for Aribio, Biogen, Beckman‐Coulter, Cognition Therapeutics, Eli Lilly, Merck, Novo Nordisk, Olink, Roche, and Veravas. Author disclosures are available in the <xref rid="alz14573-supinfo-0001" ref-type="">supporting information</xref>.</p></sec><sec id="alz14573-sec-0240"><title>CONSENT STATEMENT</title><p>All participants gave their written informed consent for use of their biological material and clinical data for research purposes. Ethical approval was granted by the ethical committee of each participating center.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz14573-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz14573-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e14573-s001.docx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz14573-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e14573-s002.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz14573-sec-0220"><title>ACKNOWLEDGMENTS</title><p>O.H. has acquired research support (for the institution) from AVID Radiopharmaceuticals, Biogen, C2N Diagnostics, Eli Lilly, Eisai, Fujirebio, GE Healthcare, and Roche. In the past 2 years, he has received consultancy/speaker fees from Alzpath, BioArctic, Biogen, Bristol Meyer Squibb, Eisai, Eli Lilly, Fujirebio, Merck, Novartis, Novo Nordisk, Roche, Sanofi, and Siemens. L.G. participated on advisory boards for, and received writing honoraria and travel grants from, Almirall, Biogen, Euroimmun, Fujirebio, Lilly, Merck, Mylan, Novartis, Roche, Sanofi, Siemens Healthineers, and Teva. Work at Lund University was supported by the European Research Council (ADG‐101096455), Alzheimer's Association (ZEN24‐1069572, SG‐23‐1061717), GHR Foundation, Swedish Research Council (2022‐00775), ERA PerMed (ERAPERMED2021‐184), Knut and Alice Wallenberg foundation (2022‐0231), Strategic Research Area MultiPark (Multidisciplinary Research in Parkinson's disease) at Lund University, Swedish Alzheimer Foundation (AF‐980907), Swedish Brain Foundation (FO2021‐0293), Parkinson foundation of Sweden (1412/22), Cure Alzheimer's fund, Rönström Family Foundation, Konung Gustaf V:s och Drottning Victorias Frimurarestiftelse, Skåne University Hospital Foundation (2020‐O000028), Regionalt Forskningsstöd (2022‐1259), and Swedish federal government under the ALF agreement (2022‐Projekt0080). The ALFA+ Study has received funding from “la Caixa” Foundation (ID 100010434), under agreement LCF/PR/GN17/50300004, the Alzheimer's Association, and an international anonymous charity foundation through the TriBEKa Imaging Platform project (TriBEKa‐17‐519007). Additional support has been received from the Universities and Research Secretariat, Ministry of Business and Knowledge of the Catalan Government under the grant no. 2021 SGR 00913. M.S.‐C. receives funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation program (Grant agreement No. 948677); ERA PerMed (ERAPERMED2021‐184); Project “PI19/00155” and ‘‘PI22/00456, funded by Instituto de Salud Carlos III (ISCIII) and co‐funded by the European Union; and from a fellowship from “la Caixa” Foundation (ID 100010434) and from the European Union's Horizon 2020 research and innovation program under the Marie Skłodowska‐Curie grant agreement No 847648 (LCF/BQ/PR21/11840004). Research of C.E.T. is supported by the European Commission (Marie Curie International Training Network), grant agreement No 860197 (MIRIADE), Innovative Medicines Initiatives 3TR (Horizon 2020, grant no 831434) EPND (IMI 2 Joint Undertaking [JU], grant No. 101034344) and JPND (bPRIDE), European Partnership on Metrology, co‐financed from the European Union's Horizon Europe Research and Innovation Programme and by the Participating States (22HLT07 NEuroBioStand), CANTATE project funded by the Alzheimer Drug Discovery Foundation, Alzheimer Association, Health Holland, the Dutch Research Council (ZonMW), Alzheimer Drug Discovery Foundation, The Selfridges Group Foundation, Alzheimer Netherlands. C.T. is recipient of ABOARD, which is a public–private partnership receiving funding from ZonMW (#73305095007) and Health∼Holland, Topsector Life Sciences &amp; Health (PPP‐allowance; #LSHM20106). C.T. is recipient of TAP‐dementia, a ZonMw funded project (#10510032120003) in the context of the Dutch National Dementia Strategy.</p></ack><ref-list id="alz14573-bibl-0001"><title>REFERENCES</title><ref id="alz14573-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz14573-cite-0002">
+<string-name name-style="western">
+<surname>Reimand</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Groot</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teunissen</surname>
+<given-names>CE</given-names>
+</string-name>, et al. <article-title>Why is amyloid‐β PET requested after performing CSF biomarkers?</article-title>
+<source>J Alzheimers Dis</source>. <year>2020</year>;<volume>73</volume>(<issue>2</issue>):<fpage>559</fpage>‐<lpage>569</lpage>.<pub-id pub-id-type="pmid">31796674</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-190836</pub-id><pub-id pub-id-type="pmcid">PMC7081099</pub-id></mixed-citation></ref><ref id="alz14573-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz14573-cite-0003">
+<string-name name-style="western">
+<surname>Kließ</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martins</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Connolly</surname>
+<given-names>MP</given-names>
+</string-name>. <article-title>Major cost drivers in assessing the economic burden of Alzheimer's disease: a structured, rapid review</article-title>. <source>Jpad‐J Prevention of Alzheimers Dis</source>. <year>2021</year>;<volume>8</volume>(<issue>3</issue>):<fpage>362</fpage>‐<lpage>370</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.14283/jpad.2021.17</pub-id><pub-id pub-id-type="pmid">34101795</pub-id></mixed-citation></ref><ref id="alz14573-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz14573-cite-0004">
+<string-name name-style="western">
+<surname>Robinson</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>EB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xie</surname>
+<given-names>SX</given-names>
+</string-name>, et al. <article-title>Neurodegenerative disease concomitant proteinopathies are prevalent, age‐related and APOE4‐associated</article-title>. <source>Brain</source>. <year>2018</year>;<volume>141</volume>(<issue>7</issue>):<fpage>2181</fpage>‐<lpage>2193</lpage>.<pub-id pub-id-type="pmid">29878075</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awy146</pub-id><pub-id pub-id-type="pmcid">PMC6022546</pub-id></mixed-citation></ref><ref id="alz14573-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz14573-cite-0005">
+<string-name name-style="western">
+<surname>Mckeith</surname>
+<given-names>IG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boeve</surname>
+<given-names>BF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dickson</surname>
+<given-names>DW</given-names>
+</string-name>, et al. <article-title>Diagnosis and management of dementia with Lewy bodies: fourth consensus report of the DLB Consortium</article-title>. <source>Neurology</source>. <year>2017</year>;<volume>89</volume>(<issue>1</issue>):<fpage>88</fpage>‐<lpage>100</lpage>.<pub-id pub-id-type="pmid">28592453</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000004058</pub-id><pub-id pub-id-type="pmcid">PMC5496518</pub-id></mixed-citation></ref><ref id="alz14573-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz14573-cite-0006">
+<string-name name-style="western">
+<surname>Boeve</surname>
+<given-names>BF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boxer</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kumfor</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pijnenburg</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rohrer</surname>
+<given-names>JD</given-names>
+</string-name>. <article-title>Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations</article-title>. <source>Lancet Neurol</source>. <year>2022</year>;<volume>21</volume>(<issue>3</issue>):<fpage>258</fpage>‐<lpage>272</lpage>.<pub-id pub-id-type="pmid">35182511</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(21)00341-0</pub-id></mixed-citation></ref><ref id="alz14573-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz14573-cite-0007">
+<string-name name-style="western">
+<surname>Whitwell</surname>
+<given-names>JL</given-names>
+</string-name>. <article-title>FTD spectrum: neuroimaging across the FTD spectrum</article-title>. <source>Prog Mol Biol Transl Sci</source>. <year>2019</year>;<volume>165</volume>:<fpage>187</fpage>‐<lpage>223</lpage>.<pub-id pub-id-type="pmid">31481163</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/bs.pmbts.2019.05.009</pub-id><pub-id pub-id-type="pmcid">PMC7153045</pub-id></mixed-citation></ref><ref id="alz14573-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz14573-cite-0008">
+<string-name name-style="western">
+<surname>Teunissen</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verberk</surname>
+<given-names>IMW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thijssen</surname>
+<given-names>EH</given-names>
+</string-name>, et al. <article-title>Blood‐based biomarkers for Alzheimer's disease: towards clinical implementation</article-title>. <source>Lancet Neurol</source>. <year>2022</year>;<volume>21</volume>(<issue>1</issue>):<fpage>66</fpage>‐<lpage>77</lpage>.<pub-id pub-id-type="pmid">34838239</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(21)00361-6</pub-id></mixed-citation></ref><ref id="alz14573-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz14573-cite-0009">
+<string-name name-style="western">
+<surname>Balogun</surname>
+<given-names>WG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karikari</surname>
+<given-names>TK</given-names>
+</string-name>. <article-title>Plasma biomarkers for neurodegenerative disorders: ready for prime time?</article-title>. <source>Curr Opin Psychiatry</source>. <year>2023</year>;<volume>36</volume>(<issue>2</issue>):<fpage>112</fpage>‐<lpage>118</lpage>.<pub-id pub-id-type="pmid">36607770</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/YCO.0000000000000851</pub-id><pub-id pub-id-type="pmcid">PMC9872855</pub-id></mixed-citation></ref><ref id="alz14573-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz14573-cite-0010">
+<string-name name-style="western">
+<surname>Jack</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>NIA‐AA Research Framework: toward a biological definition of Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2018</year>;<volume>14</volume>(<issue>4</issue>):<fpage>535</fpage>‐<lpage>562</lpage>.<pub-id pub-id-type="pmid">29653606</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2018.02.018</pub-id><pub-id pub-id-type="pmcid">PMC5958625</pub-id></mixed-citation></ref><ref id="alz14573-bib-0010"><label>10</label><mixed-citation publication-type="book" id="alz14573-cite-0011">
+<collab collab-type="authors">Alz.org</collab>
+. <source>Revised Criteria for Diagnosis and Staging of Alzheimer's Disease: Alzheimer's Association Workgroup</source>. <publisher-name>Alzheimer's Association Workgroup</publisher-name>; <year>2023</year>. [cited 2023 October 25, 2023]; Available from: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://alz.org/media/Documents/scientific-conferences/Clinical-Criteria-for-Staging-and-Diagnosis-for-Public-Comment-Draft-2.pdf?_gl=1*1xnr1a4*_ga*MTA1ODA0OTQ4LjE3MTMxMzY1Njg.*_ga_QSFTKCEH7C*MTcxNTcyNzU0OC4xMC4wLjE3MTU3Mjc1NDguNjAuMC4w*_ga_9JTEWVX24V*MTcxNTcyNzU0OC4xMC4wLjE3MTU3Mjc1NDguNjAuMC4w" ext-link-type="uri">https://alz.org/media/Documents/scientific‐conferences/Clinical‐Criteria‐for‐Staging‐and‐Diagnosis‐for‐Public‐Comment‐Draft‐2.pdf?_gl=1*1xnr1a4*_ga*MTA1ODA0OTQ4LjE3MTMxMzY1Njg.*_ga_QSFTKCEH7C*MTcxNTcyNzU0OC4xMC4wLjE3MTU3Mjc1NDguNjAuMC4w*_ga_9JTEWVX24V*MTcxNTcyNzU0OC4xMC4wLjE3MTU3Mjc1NDguNjAuMC4w</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13859</pub-id><pub-id pub-id-type="pmcid">PMC11350039</pub-id><pub-id pub-id-type="pmid">38934362</pub-id></mixed-citation></ref><ref id="alz14573-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz14573-cite-0012">
+<string-name name-style="western">
+<surname>Chatterjee</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vermunt</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gordon</surname>
+<given-names>BA</given-names>
+</string-name>, et al. <article-title>Plasma glial fibrillary acidic protein in autosomal dominant Alzheimer's disease: associations with Aβ‐PET, neurodegeneration, and cognition</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>7</issue>):<fpage>2790</fpage>‐<lpage>2804</lpage>.<pub-id pub-id-type="pmid">36576155</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12879</pub-id><pub-id pub-id-type="pmcid">PMC10300233</pub-id></mixed-citation></ref><ref id="alz14573-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz14573-cite-0013">
+<string-name name-style="western">
+<surname>Baiardi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Quadalti</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mammana</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Diagnostic value of plasma p‐tau181, NfL, and GFAP in a clinical setting cohort of prevalent neurodegenerative dementias</article-title>. <source>Alzheimers Res Ther</source>. <year>2022</year>;<volume>14</volume>(<issue>1</issue>):<fpage>153</fpage>.<pub-id pub-id-type="pmid">36221099</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-022-01093-6</pub-id><pub-id pub-id-type="pmcid">PMC9555092</pub-id></mixed-citation></ref><ref id="alz14573-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz14573-cite-0014">
+<string-name name-style="western">
+<surname>Alcolea</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clarimón</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carmona‐Iragui</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>The Sant Pau Initiative on Neurodegeneration (SPIN) cohort: a data set for biomarker discovery and validation in neurodegenerative disorders</article-title>. <source>Alzheimers Dement</source>. <year>2019</year>;<volume>5</volume>:<fpage>597</fpage>‐<lpage>609</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.trci.2019.09.005</pub-id><pub-id pub-id-type="pmcid">PMC6804606</pub-id><pub-id pub-id-type="pmid">31650016</pub-id></mixed-citation></ref><ref id="alz14573-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz14573-cite-0015">
+<string-name name-style="western">
+<surname>Gonzalez</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ashton</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gomes</surname>
+<given-names>BF</given-names>
+</string-name>, et al. <article-title>Association of plasma p‐tau181 and p‐tau231 concentrations with cognitive decline in patients with probable dementia with Lewy bodies</article-title>. <source>JAMA Neurol</source>. <year>2022</year>;<volume>79</volume>(<issue>1</issue>):<fpage>32</fpage>‐<lpage>37</lpage>.<pub-id pub-id-type="pmid">34807233</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2021.4222</pub-id><pub-id pub-id-type="pmcid">PMC8609462</pub-id></mixed-citation></ref><ref id="alz14573-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz14573-cite-0016">
+<string-name name-style="western">
+<surname>Bolsewig</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Unnik</surname>
+<given-names>AAJM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blujdea</surname>
+<given-names>ER</given-names>
+</string-name>, et al. <article-title>Association of plasma amyloid, P‐Tau, GFAP, and NfL with CSF, clinical, and cognitive features in patients with dementia with Lewy bodies</article-title>. <source>Neurology</source>. <year>2024</year>;<volume>102</volume>(<issue>12</issue>):<elocation-id>e209418</elocation-id>.<pub-id pub-id-type="pmid">38830138</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000209418</pub-id><pub-id pub-id-type="pmcid">PMC11244745</pub-id></mixed-citation></ref><ref id="alz14573-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz14573-cite-0017">
+<string-name name-style="western">
+<surname>van der Flier</surname>
+<given-names>WM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scheltens</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Amsterdam Dementia Cohort: performing research to optimize care</article-title>. <source>J Alzheimers Dis</source>. <year>2018</year>;<volume>62</volume>(<issue>3</issue>):<fpage>1091</fpage>‐<lpage>1111</lpage>.<pub-id pub-id-type="pmid">29562540</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-170850</pub-id><pub-id pub-id-type="pmcid">PMC5870023</pub-id></mixed-citation></ref><ref id="alz14573-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz14573-cite-0018">
+<string-name name-style="western">
+<surname>Bellomo</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Indaco</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chiasserini</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Machine Learning Driven Profiling of Cerebrospinal Fluid Core Biomarkers in Alzheimer's Disease and Other Neurological Disorders</article-title>. <source>Front Neurosci</source>. <year>2021</year>;<volume>15</volume>:<elocation-id>647783</elocation-id>.<pub-id pub-id-type="pmid">33867925</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fnins.2021.647783</pub-id><pub-id pub-id-type="pmcid">PMC8044304</pub-id></mixed-citation></ref><ref id="alz14573-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz14573-cite-0019">
+<string-name name-style="western">
+<surname>Oeckl</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Halbgebauer</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderl‐Straub</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Targeted mass spectrometry suggests beta‐synuclein as synaptic blood marker in Alzheimer's Disease</article-title>. <source>J Proteome Res</source>. <year>2020</year>;<volume>19</volume>(<issue>3</issue>):<fpage>1310</fpage>‐<lpage>1318</lpage>.<pub-id pub-id-type="pmid">32101007</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jproteome.9b00824</pub-id></mixed-citation></ref><ref id="alz14573-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz14573-cite-0020">
+<string-name name-style="western">
+<surname>Mattsson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Insel</surname>
+<given-names>PS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palmqvist</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Increased amyloidogenic APP processing in APOE ɛ4‐negative individuals with cerebral β‐amyloidosis</article-title>. <source>Nat Commun</source>. <year>2016</year>;<volume>7</volume>:<elocation-id>10918</elocation-id>.<pub-id pub-id-type="pmid">26948379</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms10918</pub-id><pub-id pub-id-type="pmcid">PMC4786682</pub-id></mixed-citation></ref><ref id="alz14573-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz14573-cite-0021">
+<string-name name-style="western">
+<surname>Fowler</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rainey‐Smith</surname>
+<given-names>SR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bird</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Fifteen Years of the Australian Imaging, Biomarkers and Lifestyle (AIBL) Study: progress and observations from 2,359 older adults spanning the spectrum from cognitive normality to Alzheimer's disease</article-title>. <source>J Alzheimers Dis Rep</source>. <year>2021</year>;<volume>5</volume>(<issue>1</issue>):<fpage>443</fpage>‐<lpage>468</lpage>.<pub-id pub-id-type="pmid">34368630</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/ADR-210005</pub-id><pub-id pub-id-type="pmcid">PMC8293663</pub-id></mixed-citation></ref><ref id="alz14573-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz14573-cite-0022">
+<string-name name-style="western">
+<surname>Wojdała</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bellomo</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gaetani</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Trajectories of CSF and plasma biomarkers across Alzheimer's disease continuum: disease staging by NF‐L, p‐tau181, and GFAP</article-title>. <source>Neurobiol Dis</source>. <year>2023</year>;<volume>189</volume>:<elocation-id>106356</elocation-id>.<pub-id pub-id-type="pmid">37977432</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.nbd.2023.106356</pub-id></mixed-citation></ref><ref id="alz14573-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz14573-cite-0023">
+<string-name name-style="western">
+<surname>Mavrina</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kimble</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waury</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Multi‐Omics Interdisciplinary Research Integration to Accelerate Dementia Biomarker Development (MIRIADE)</article-title>. <source>Front Neurol</source>. <year>2022</year>;<volume>13</volume>:<elocation-id>890638</elocation-id>.<pub-id pub-id-type="pmid">35903119</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fneur.2022.890638</pub-id><pub-id pub-id-type="pmcid">PMC9315267</pub-id></mixed-citation></ref><ref id="alz14573-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz14573-cite-0024">
+<string-name name-style="western">
+<surname>Milà‐Alomà</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salvadó</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gispert</surname>
+<given-names>JD</given-names>
+</string-name>, et al. <article-title>Amyloid beta, tau, synaptic, neurodegeneration, and glial biomarkers in the preclinical stage of the Alzheimer's continuum</article-title>. <source>Alzheimers Dement</source>. <year>2020</year>;<volume>16</volume>(<issue>10</issue>):<fpage>1358</fpage>‐<lpage>1371</lpage>.<pub-id pub-id-type="pmid">32573951</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12131</pub-id><pub-id pub-id-type="pmcid">PMC7586814</pub-id></mixed-citation></ref><ref id="alz14573-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz14573-cite-0025">
+<string-name name-style="western">
+<surname>Molinuevo</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gramunt</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gispert</surname>
+<given-names>JD</given-names>
+</string-name>, et al. <article-title>The ALFA project: a research platform to identify early pathophysiological features of Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2016</year>;<volume>2</volume>(<issue>2</issue>):<fpage>82</fpage>‐<lpage>92</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.trci.2016.02.003</pub-id><pub-id pub-id-type="pmcid">PMC5644283</pub-id><pub-id pub-id-type="pmid">29067295</pub-id></mixed-citation></ref><ref id="alz14573-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz14573-cite-0026">
+<string-name name-style="western">
+<surname>Ashton</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Puig‐Pijoan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milà‐Alomà</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Plasma and CSF biomarkers in a memory clinic: head‐to‐head comparison of phosphorylated tau immunoassays</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>5</issue>):<fpage>1913</fpage>‐<lpage>1924</lpage>.<pub-id pub-id-type="pmid">36370462</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12841</pub-id><pub-id pub-id-type="pmcid">PMC10762642</pub-id></mixed-citation></ref><ref id="alz14573-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz14573-cite-0027">
+<string-name name-style="western">
+<surname>Jessen</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amariglio</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Boxtel</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>A conceptual framework for research on subjective cognitive decline in preclinical Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2014</year>;<volume>10</volume>(<issue>6</issue>):<fpage>844</fpage>‐<lpage>852</lpage>.<pub-id pub-id-type="pmid">24798886</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2014.01.001</pub-id><pub-id pub-id-type="pmcid">PMC4317324</pub-id></mixed-citation></ref><ref id="alz14573-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="alz14573-cite-0028">
+<string-name name-style="western">
+<surname>Albert</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dekosky</surname>
+<given-names>ST</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dickson</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>The diagnosis of mild cognitive impairment due to Alzheimer's disease: recommendations from the National Institute on Aging‐Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2011</year>;<volume>7</volume>(<issue>3</issue>):<fpage>270</fpage>‐<lpage>279</lpage>.<pub-id pub-id-type="pmid">21514249</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2011.03.008</pub-id><pub-id pub-id-type="pmcid">PMC3312027</pub-id></mixed-citation></ref><ref id="alz14573-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz14573-cite-0029">
+<string-name name-style="western">
+<surname>Dubois</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feldman</surname>
+<given-names>HH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jacova</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Research criteria for the diagnosis of Alzheimer's disease: revising the NINCDS‐ADRDA criteria</article-title>. <source>Lancet Neurol</source>. <year>2007</year>;<volume>6</volume>(<issue>8</issue>):<fpage>734</fpage>‐<lpage>746</lpage>.<pub-id pub-id-type="pmid">17616482</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(07)70178-3</pub-id></mixed-citation></ref><ref id="alz14573-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz14573-cite-0030">
+<string-name name-style="western">
+<surname>Mckeith</surname>
+<given-names>IG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dickson</surname>
+<given-names>DW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lowe</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Diagnosis and management of dementia with Lewy bodies: third report of the DLB Consortium</article-title>. <source>Neurology</source>. <year>2005</year>;<volume>65</volume>(<issue>12</issue>):<fpage>1863</fpage>‐<lpage>1872</lpage>.<pub-id pub-id-type="pmid">16237129</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/01.wnl.0000187889.17253.b1</pub-id></mixed-citation></ref><ref id="alz14573-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz14573-cite-0031">
+<string-name name-style="western">
+<surname>Armstrong</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Litvan</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lang</surname>
+<given-names>AE</given-names>
+</string-name>, et al. <article-title>Criteria for the diagnosis of corticobasal degeneration</article-title>. <source>Neurology</source>. <year>2013</year>;<volume>80</volume>(<issue>5</issue>):<fpage>496</fpage>‐<lpage>503</lpage>.<pub-id pub-id-type="pmid">23359374</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0b013e31827f0fd1</pub-id><pub-id pub-id-type="pmcid">PMC3590050</pub-id></mixed-citation></ref><ref id="alz14573-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz14573-cite-0032">
+<string-name name-style="western">
+<surname>Litvan</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Agid</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Calne</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Clinical research criteria for the diagnosis of progressive supranuclear palsy (Steele‐Richardson‐Olszewski syndrome): report of the NINDS‐SPSP international workshop</article-title>. <source>Neurology</source>. <year>1996</year>;<volume>47</volume>(<issue>1</issue>):<fpage>1</fpage>‐<lpage>9</lpage>.<pub-id pub-id-type="pmid">8710059</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/wnl.47.1.1</pub-id></mixed-citation></ref><ref id="alz14573-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz14573-cite-0033">
+<string-name name-style="western">
+<surname>Rascovsky</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knopman</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia</article-title>. <source>Brain</source>. <year>2011</year>;<volume>134</volume>(<issue>Pt 9</issue>):<fpage>2456</fpage>‐<lpage>2477</lpage>.<pub-id pub-id-type="pmid">21810890</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awr179</pub-id><pub-id pub-id-type="pmcid">PMC3170532</pub-id></mixed-citation></ref><ref id="alz14573-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="alz14573-cite-0034">
+<string-name name-style="western">
+<surname>Teunissen</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petzold</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>JL</given-names>
+</string-name>, et al. <article-title>A consensus protocol for the standardization of cerebrospinal fluid collection and biobanking</article-title>. <source>Neurology</source>. <year>2009</year>;<volume>73</volume>(<issue>22</issue>):<fpage>1914</fpage>‐<lpage>1922</lpage>.<pub-id pub-id-type="pmid">19949037</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0b013e3181c47cc2</pub-id><pub-id pub-id-type="pmcid">PMC2839806</pub-id></mixed-citation></ref><ref id="alz14573-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="alz14573-cite-0035">
+<string-name name-style="western">
+<surname>Willemse</surname>
+<given-names>EAJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Maurik</surname>
+<given-names>IS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tijms</surname>
+<given-names>BM</given-names>
+</string-name>, et al. <article-title>Diagnostic performance of Elecsys immunoassays for cerebrospinal fluid Alzheimer's disease biomarkers in a nonacademic, multicenter memory clinic cohort: the ABIDE project</article-title>. <source>Alzheimers Dement</source>. <year>2018</year>;<volume>10</volume>:<fpage>563</fpage>‐<lpage>572</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.dadm.2018.08.006</pub-id><pub-id pub-id-type="pmcid">PMC6215060</pub-id><pub-id pub-id-type="pmid">30406175</pub-id></mixed-citation></ref><ref id="alz14573-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="alz14573-cite-0036">
+<string-name name-style="western">
+<surname>Tijms</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Willemse</surname>
+<given-names>EAJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zwan</surname>
+<given-names>MD</given-names>
+</string-name>, et al. <article-title>Unbiased approach to counteract upward drift in cerebrospinal fluid amyloid‐β 1‐42 analysis results</article-title>. <source>Clin Chem</source>. <year>2018</year>;<volume>64</volume>(<issue>3</issue>):<fpage>576</fpage>‐<lpage>585</lpage>.<pub-id pub-id-type="pmid">29208658</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1373/clinchem.2017.281055</pub-id></mixed-citation></ref><ref id="alz14573-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="alz14573-cite-0037">
+<string-name name-style="western">
+<surname>Duits</surname>
+<given-names>FH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teunissen</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bouwman</surname>
+<given-names>FH</given-names>
+</string-name>, et al. <article-title>The cerebrospinal fluid “Alzheimer profile”: easily said, but what does it mean?</article-title>. <source>Alzheimers Dement</source>. <year>2014</year>;<volume>10</volume>(<issue>6</issue>):<fpage>713</fpage>‐<lpage>723.e2</lpage>.<pub-id pub-id-type="pmid">24721526</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2013.12.023</pub-id></mixed-citation></ref><ref id="alz14573-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="alz14573-cite-0038">
+<string-name name-style="western">
+<surname>Puig‐Pijoan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>García‐Escobar</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fernández‐Lebrero</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>The CORCOBIA study: cut‐off points of Alzheimer's disease CSF biomarkers in a clinical cohort</article-title>. <source>Neurologia</source>. <year>2022</year>;<volume>39</volume>(<issue>9</issue>):<fpage>756</fpage>‐<lpage>765</lpage>.<pub-id pub-id-type="pmid">35961506</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.nrleng.2022.05.002</pub-id></mixed-citation></ref><ref id="alz14573-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="alz14573-cite-0039">
+<string-name name-style="western">
+<surname>Van Der Kall</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Truong</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burnham</surname>
+<given-names>SC</given-names>
+</string-name>, et al. <article-title>Association of β‐Amyloid level, clinical progression, and longitudinal cognitive change in normal older individuals</article-title>. <source>Neurology</source>. <year>2021</year>;<volume>96</volume>(<issue>5</issue>):<fpage>e662</fpage>‐<lpage>e670</lpage>.<pub-id pub-id-type="pmid">33184233</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000011222</pub-id><pub-id pub-id-type="pmcid">PMC7884996</pub-id></mixed-citation></ref><ref id="alz14573-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="alz14573-cite-0040">
+<string-name name-style="western">
+<surname>Feizpour</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doré</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doecke</surname>
+<given-names>JD</given-names>
+</string-name>, et al. <article-title>Two‐year prognostic utility of plasma p217+tau across the Alzheimer's continuum</article-title>. <source>J Prev Alzheimers Dis</source>. <year>2023</year>;<volume>10</volume>(<issue>4</issue>):<fpage>828</fpage>‐<lpage>836</lpage>.<pub-id pub-id-type="pmid">37874105</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.14283/jpad.2023.83</pub-id></mixed-citation></ref><ref id="alz14573-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="alz14573-cite-0041">
+<string-name name-style="western">
+<surname>Rissin</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kan</surname>
+<given-names>CW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Campbell</surname>
+<given-names>TG</given-names>
+</string-name>, et al. <article-title>Single‐molecule enzyme‐linked immunosorbent assay detects serum proteins at subfemtomolar concentrations</article-title>. <source>Nat Biotechnol</source>. <year>2010</year>;<volume>28</volume>(<issue>6</issue>):<fpage>595</fpage>‐<lpage>599</lpage>.<pub-id pub-id-type="pmid">20495550</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.1641</pub-id><pub-id pub-id-type="pmcid">PMC2919230</pub-id></mixed-citation></ref><ref id="alz14573-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="alz14573-cite-0042">
+<string-name name-style="western">
+<surname>Teunissen</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kimble</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bayoumy</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Methods to discover and validate biofluid‐based biomarkers in neurodegenerative dementias</article-title>. <source>Mol Cell Proteomics</source>. <year>2023</year>;<volume>22</volume>(<issue>10</issue>):<elocation-id>100629</elocation-id>.<pub-id pub-id-type="pmid">37557955</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mcpro.2023.100629</pub-id><pub-id pub-id-type="pmcid">PMC10594029</pub-id></mixed-citation></ref><ref id="alz14573-bib-0042"><label>42</label><mixed-citation publication-type="book" id="alz14573-cite-0043">
+<collab collab-type="authors">Team., R.D.C</collab>
+., <part-title>R: a language and environment for statistical</part-title>. <source>R Foundation for Statistical Computing, Vienna, Austria. Computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>; <year>2024</year>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.R-project.org/" ext-link-type="uri">https://www.R‐project.org/</ext-link>
+</mixed-citation></ref><ref id="alz14573-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="alz14573-cite-0044">
+<string-name name-style="western">
+<surname>Fowler</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stoops</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rainey‐Smith</surname>
+<given-names>SR</given-names>
+</string-name>, et al. <article-title>Plasma p‐tau181/Aβ(1‐42) ratio predicts Aβ‐PET status and correlates with CSF‐p‐tau181/Aβ(1‐42) and future cognitive decline</article-title>. <source>Alzheimers Dement</source>. <year>2022</year>;<volume>14</volume>(<issue>1</issue>):<elocation-id>e12375</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/dad2.12375</pub-id><pub-id pub-id-type="pmcid">PMC9695763</pub-id><pub-id pub-id-type="pmid">36447478</pub-id></mixed-citation></ref><ref id="alz14573-bib-0044"><label>44</label><mixed-citation publication-type="book" id="alz14573-cite-0045">
+<string-name name-style="western">
+<surname>James</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Witten</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hastie</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tibshirani</surname>
+<given-names>R</given-names>
+</string-name>. <source>An Introduction to Statistical Learning: With Applications in R</source>. <publisher-name>Springer</publisher-name>; <year>2013</year>.</mixed-citation></ref><ref id="alz14573-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="alz14573-cite-0046">
+<string-name name-style="western">
+<surname>Milà‐Alomà</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ashton</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shekari</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Plasma p‐tau231 and p‐tau217 as state markers of amyloid‐β pathology in preclinical Alzheimer's disease</article-title>. <source>Nat Med</source>. <year>2022</year>;<volume>28</volume>(<issue>9</issue>):<fpage>1797</fpage>‐<lpage>1801</lpage>.<pub-id pub-id-type="pmid">35953717</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-022-01925-w</pub-id><pub-id pub-id-type="pmcid">PMC9499867</pub-id></mixed-citation></ref><ref id="alz14573-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="alz14573-cite-0047">
+<string-name name-style="western">
+<surname>Barthélemy</surname>
+<given-names>NR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Joseph‐Mathurin</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>A soluble phosphorylated tau signature links tau, amyloid and the evolution of stages of dominantly inherited Alzheimer's disease</article-title>. <source>Nat Med</source>. <year>2020</year>;<volume>26</volume>(<issue>3</issue>):<fpage>398</fpage>‐<lpage>407</lpage>.<pub-id pub-id-type="pmid">32161412</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-020-0781-z</pub-id><pub-id pub-id-type="pmcid">PMC7309367</pub-id></mixed-citation></ref><ref id="alz14573-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="alz14573-cite-0048">
+<string-name name-style="western">
+<surname>Janelidze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bali</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ashton</surname>
+<given-names>NJ</given-names>
+</string-name>, et al. <article-title>Head‐to‐head comparison of 10 plasma phospho‐tau assays in prodromal Alzheimer's disease</article-title>. <source>Brain</source>. <year>2023</year>;<volume>146</volume>(<issue>4</issue>):<fpage>1592</fpage>‐<lpage>1601</lpage>.<pub-id pub-id-type="pmid">36087307</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awac333</pub-id><pub-id pub-id-type="pmcid">PMC10115176</pub-id></mixed-citation></ref><ref id="alz14573-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="alz14573-cite-0049">
+<string-name name-style="western">
+<surname>Schindler</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galasko</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pereira</surname>
+<given-names>AC</given-names>
+</string-name>, et al. <article-title>Acceptable performance of blood biomarker tests of amyloid pathology — recommendations from the Global CEO Initiative on Alzheimer's Disease</article-title>. <source>Nat Rev Neurol</source>. <year>2024</year>;<volume>20</volume>(<issue>7</issue>):<fpage>426</fpage>‐<lpage>439</lpage>.<pub-id pub-id-type="pmid">38866966</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41582-024-00977-5</pub-id></mixed-citation></ref><ref id="alz14573-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="alz14573-cite-0050">
+<string-name name-style="western">
+<surname>Verberk</surname>
+<given-names>IMW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Misdorp</surname>
+<given-names>EO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koelewijn</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Characterization of pre‐analytical sample handling effects on a panel of Alzheimer's disease‐related blood‐based biomarkers: results from the Standardization of Alzheimer's Blood Biomarkers (SABB) working group</article-title>. <source>Alzheimers Dement</source>. <year>2022</year>;<volume>18</volume>(<issue>8</issue>):<fpage>1484</fpage>‐<lpage>1497</lpage>.<pub-id pub-id-type="pmid">34845818</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12510</pub-id><pub-id pub-id-type="pmcid">PMC9148379</pub-id></mixed-citation></ref><ref id="alz14573-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="alz14573-cite-0051">
+<string-name name-style="western">
+<surname>Huber</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ashton</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schieren</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Levels of Alzheimer's disease blood biomarkers are altered after food intake‐A pilot intervention study in healthy adults</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>12</issue>):<fpage>5531</fpage>‐<lpage>5540</lpage>.<pub-id pub-id-type="pmid">37243891</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13163</pub-id></mixed-citation></ref><ref id="alz14573-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="alz14573-cite-0052">
+<string-name name-style="western">
+<surname>Lambrechts</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Loo</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vanbrabant</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Performance of optimized prototype LUMIPULSE G immunoassays for plasma p‐tau181 and p‐tau217</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>:<elocation-id>e082944</elocation-id>.</mixed-citation></ref><ref id="alz14573-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="alz14573-cite-0053">
+<string-name name-style="western">
+<surname>Rissman</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Langford</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raman</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Plasma Aβ42/Aβ40 and phospho‐tau217 concentration ratios increase the accuracy of amyloid PET classification in preclinical Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2024</year>;<volume>20</volume>(<issue>2</issue>):<fpage>1214</fpage>‐<lpage>1224</lpage>.<pub-id pub-id-type="pmid">37932961</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13542</pub-id><pub-id pub-id-type="pmcid">PMC10916957</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

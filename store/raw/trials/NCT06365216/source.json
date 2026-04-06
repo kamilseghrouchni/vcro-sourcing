@@ -1,0 +1,401 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06365216",
+      "orgStudyIdInfo": {
+        "id": "AXO-CLI-210c-03"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-508895-13-00",
+          "type": "CTIS"
+        }
+      ],
+      "organization": {
+        "fullName": "Axoltis Pharma",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "ALS Phase II Study of NX210c",
+      "officialTitle": "A Double-blind, Randomized, Placebo-controlled, Multicentric, Phase II Study in Adult Patients With Amyotrophic Lateral Sclerosis (ALS) to Assess Efficacy, Safety, Tolerability and Pharmacokinetics of Multiple Intravenous Infusions of NX210c",
+      "acronym": "SEALS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-10-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-04-09",
+      "studyFirstSubmitQcDate": "2024-04-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Axoltis Pharma",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "ACT4ALS network",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will investigate the efficacy, safety, tolerability and pharmacokinetics (PK) of multiple intravenous infusions of NX210c, at two dose levels, in patients with Amyotrophic lateral sclerosis (ALS).",
+      "detailedDescription": "Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease that predominantly affects motor neurons of both the brain and the spinal cord. This leads to muscular atrophy and paralysis, with the majority of patients succumbing to respiratory failure 3-4 years from symptom onset. To date, therapeutic options for ALS are limited and there is no curative treatment. Management of ALS is otherwise supportive and palliative.\n\nThere is strong evidence for blood-brain and blood-spinal cord barrier dysfunction in the early stages of ALS. Preclinical in vitro and in vivo data have shown that NX210c exhibits important properties that may be suitable for the treatment of neurological disorders in humans i.e., blood-brain barrier (BBB) integrity restoration, neurotransmission enhancement and neuroprotection.\n\nBased on the safety data collected in a first-in-human single ascending dose study and a multiple ascending dose (MAD) study in healthy elderly subjects, NX210c has been demonstrated to be well tolerated and without safety concerns."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis"
+      ],
+      "keywords": [
+        "ALS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Double-blind, randomized, placebo-controlled, multicentric, phase II study in adult patients with ALS to assess efficacy, safety, tolerability and pharmacokinetics of multiple intravenous infusions of NX210c.\n\nTwo doses of NX210c (5 mg/kg and 10 mg/Kg) will be investigated, along with a placebo group which will serve as a reference. Patients will be randomized to one of 3 arms in a 3:3:2 allocation ratio.\n\nPatients will participate up to approximately 44 weeks: up to 30 days for screening, 26 days of treatment and 9 months of follow-up (3-month initial follow-up and 6-month extension). Lumbar punctures will assess CSF NfL and other key CSF biomarkers related to ALS and drug mechanism of action. Blood sampling will be drawn for safety, PK and biomarkers testing. Urine will be collected for biomarkers. A comprehensive assessment of the disease, e.g., the ALSFRS-R will be performed. Additional follow-up extension will be offered to all patients that have/are participating to the study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "NX210c 5 mg/kg",
+          "type": "EXPERIMENTAL",
+          "description": "Dose: 5 mg/kg",
+          "interventionNames": [
+            "Drug: NX210c"
+          ]
+        },
+        {
+          "label": "NX210c 10 mg/kg",
+          "type": "EXPERIMENTAL",
+          "description": "Dose: 10 mg/kg",
+          "interventionNames": [
+            "Drug: NX210c"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "NX210c",
+          "description": "3 times a week, for 4 weeks",
+          "armGroupLabels": [
+            "NX210c 10 mg/kg",
+            "NX210c 5 mg/kg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "3 times a week, for 4 weeks",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The effect of NX210c on blood neurofilament light chain (NfL) or on a blood and cerebrospinal fluid (CSF) biomarker of BBB integrity.",
+          "description": "Changes in serum NfL or changes in Albumin CSF/serum quotient (Qalb)",
+          "timeFrame": "From predose to 6-week follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged ≥ 18 years, inclusive at screening.\n* Patients diagnosed as having possible, probable, probable laboratory-supported, or definite ALS according to El Escorial Revised criteria.\n* King's Clinical Staging Stage ≤3, disease duration of ≤ 36 calendar months\n\nExclusion Criteria:\n\n* Patients with any cognitive or psychological disorder, intellectual disability or other significant impairment that would result in an inability to understand and sign the informed consent.\n* History of any clinically significant or unstable medical, neurological, psychiatric condition, disorder or disease (other than ALS) or social circumstances that, based on the investigator's judgment, would interfere with the conduct of the study or pose a risk to the patient if they were to participate.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Centre Hospitalier Regional Et Universitaire De Brest",
+          "city": "Brest",
+          "state": "France",
+          "zip": "29200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire De Caen Normandie",
+          "city": "Caen",
+          "state": "France",
+          "zip": "14033",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.18585,
+            "lon": -0.35912
+          }
+        },
+        {
+          "facility": "Hôpital La Timone - APHM",
+          "city": "Marseille",
+          "state": "France",
+          "zip": "13005",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "CHRU De Nancy",
+          "city": "Nancy",
+          "state": "France",
+          "zip": "54000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.68439,
+            "lon": 6.18496
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire d'Angers",
+          "city": "Angers",
+          "zip": "49100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire De Bordeaux",
+          "city": "Bordeaux",
+          "zip": "33000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "CHU de Lyon HCL",
+          "city": "Bron",
+          "zip": "69500",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Clermont-Ferrand - Hôpital Gabriel Montpied",
+          "city": "Clermont-Ferrand",
+          "zip": "63003",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Lille",
+          "city": "Lille",
+          "zip": "59037",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Et Universitaire de Limoges",
+          "city": "Limoges",
+          "zip": "87042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Montpellier",
+          "city": "Montpellier",
+          "zip": "34295",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Nantes - Hôpital Nord Laennec",
+          "city": "Nantes",
+          "zip": "44093",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Nice",
+          "city": "Nice",
+          "zip": "06000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Hôpital de la Pitié Salpêtrière",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Rennes",
+          "city": "Rennes",
+          "zip": "35000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Regional Universitaire de Tours",
+          "city": "Tours",
+          "zip": "37044",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Anonymized subject data to be shared based on reasonable request"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

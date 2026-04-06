@@ -1,0 +1,286 @@
+{
+  "pmid": "33982436",
+  "pmc": "PMC8504835",
+  "doi": "10.1111/cts.13066",
+  "title": "3D cell culture models: Drug pharmacokinetics, safety assessment, and regulatory consideration",
+  "journal": "Clinical and Translational Science",
+  "year": 2021,
+  "authors": [
+    {
+      "name": "Wang Hongbing",
+      "affiliations": [
+        "Department of Pharmaceutical Sciences University of Maryland School of Pharmacy Baltimore Maryland USA"
+      ]
+    },
+    {
+      "name": "Brown Paul C.",
+      "affiliations": [
+        "Center for Drug Evaluation and Research US Food and Drug Administration (FDA) Silver Spring Maryland USA"
+      ]
+    },
+    {
+      "name": "Chow Edwin C.Y.",
+      "affiliations": [
+        "Office of Clinical Pharmacology Office of Translational Sciences Center for Drug Evaluation and Research US Food and Drug Administration (FDA) Silver Spring Maryland USA"
+      ]
+    },
+    {
+      "name": "Ewart Lorna",
+      "affiliations": [
+        "Emulate Boston Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Ferguson Stephen S.",
+      "affiliations": [
+        "Division of the National Toxicology Program National Institute of Environmental Health Sciences Research Triangle Park North Carolina USA"
+      ]
+    },
+    {
+      "name": "Fitzpatrick Suzanne",
+      "affiliations": [
+        "Office of the Center Director Center for Food Safety and Applied Nutrition US Food and Drug Administration (FDA) Silver Spring Maryland USA"
+      ]
+    },
+    {
+      "name": "Freedman Benjamin S.",
+      "affiliations": [
+        "Division of Nephrology Department of Pathology Kidney Research Institute, and Institute for Stem Cell and Regenerative Medicine University of Washington Seattle Washington USA",
+        "Department of Medicine University of Washington Seattle Washington USA"
+      ]
+    },
+    {
+      "name": "Guo Grace L.",
+      "affiliations": [
+        "Department of Pharmacology and Toxicology Ernest Mario School of Pharmacy Rutgers University Piscataway New Jersey USA"
+      ]
+    },
+    {
+      "name": "Hedrich William",
+      "affiliations": [
+        "Pharmaceutical Candidate Optimization, Metabolism and Pharmacokinetics Bristol‐Myers Squibb Company Princeton New Jersey USA"
+      ]
+    },
+    {
+      "name": "Heyward Scott",
+      "affiliations": [
+        "BioIVT Halethorpe Maryland USA"
+      ]
+    },
+    {
+      "name": "Hickman James",
+      "affiliations": [
+        "NanoScience Technology Center University of Central Florida Orlando Florida USA"
+      ]
+    },
+    {
+      "name": "Isoherranen Nina",
+      "affiliations": [
+        "Department of Pharmaceutics School of Pharmacy University of Washington Seattle Washington USA"
+      ]
+    },
+    {
+      "name": "Li Albert P.",
+      "affiliations": [
+        "In Vitro ADMET Laboratories Columbia Maryland USA",
+        "In Vitro ADMET Laboratories Malden Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Liu Qi",
+      "affiliations": [
+        "Office of Clinical Pharmacology Office of Translational Sciences Center for Drug Evaluation and Research US Food and Drug Administration (FDA) Silver Spring Maryland USA"
+      ]
+    },
+    {
+      "name": "Mumenthaler Shannon M.",
+      "affiliations": [
+        "Lawrence J. Ellison Institute for Transformative Medicine University of Southern California Los Angeles California USA"
+      ]
+    },
+    {
+      "name": "Polli James",
+      "affiliations": [
+        "Department of Pharmaceutical Sciences University of Maryland School of Pharmacy Baltimore Maryland USA"
+      ]
+    },
+    {
+      "name": "Proctor William R.",
+      "affiliations": [
+        "Predictive Toxicology, Safety Assessment Genentech, Inc South San Francisco California USA"
+      ]
+    },
+    {
+      "name": "Ribeiro Alexandre",
+      "affiliations": [
+        "Office of Clinical Pharmacology Office of Translational Sciences Center for Drug Evaluation and Research US Food and Drug Administration (FDA) Silver Spring Maryland USA"
+      ]
+    },
+    {
+      "name": "Wang Jian‐Ying",
+      "affiliations": [
+        "Department of Surgery Cell Biology Group University of Maryland School of Medicine Baltimore Maryland USA"
+      ]
+    },
+    {
+      "name": "Wange Ronald L.",
+      "affiliations": [
+        "Center for Drug Evaluation and Research US Food and Drug Administration (FDA) Silver Spring Maryland USA"
+      ]
+    },
+    {
+      "name": "Huang Shiew‐Mei",
+      "affiliations": [
+        "Office of Clinical Pharmacology Office of Translational Sciences Center for Drug Evaluation and Research US Food and Drug Administration (FDA) Silver Spring Maryland USA"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "U.S. Food and Drug Administration 10.13039/1000000382U01FD0059462"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2020-11-17",
+  "accepted": "2021-04-16",
+  "reference_pmids": [
+    "18378963",
+    "30993668",
+    "31799979",
+    "31932816",
+    "32938227",
+    "23073387",
+    "30443904",
+    "27842765",
+    "25056496",
+    "31867160",
+    "31748707",
+    "28504617",
+    "29291400",
+    "32283585",
+    "28752430",
+    "31694927",
+    "31988459",
+    "32073020",
+    "29568713",
+    "28450578",
+    "20024050",
+    "28670475",
+    "29329425",
+    "29445209",
+    "14986274",
+    "27991908",
+    "18484612",
+    "28882625",
+    "27385595",
+    "25068923",
+    "25567366",
+    "26363026",
+    "30135246",
+    "32211684",
+    "27760784",
+    "25690737",
+    "27143246",
+    "23143619",
+    "32953943",
+    "28612260",
+    "31086251",
+    "31748707",
+    "29077947",
+    "12432097",
+    "28633424",
+    "30850835",
+    "18026090",
+    "24366904",
+    "24444127",
+    "32559289",
+    "25739975",
+    "32913334",
+    "28893587",
+    "31933478",
+    "30006371",
+    "32851819",
+    "32350063",
+    "32862146",
+    "32719085",
+    "32636209",
+    "29751102",
+    "25907784",
+    "28396528",
+    "30124163",
+    "18782614",
+    "23727931",
+    "24315439",
+    "25957691",
+    "27212702",
+    "27233291",
+    "32783609",
+    "31042423",
+    "29042220",
+    "29632078",
+    "31103627",
+    "31575677",
+    "29779890",
+    "26493500",
+    "28967916",
+    "32333836",
+    "31776328",
+    "31525064",
+    "29202460",
+    "31175671",
+    "27621205",
+    "16518343",
+    "11912245",
+    "27521113",
+    "32566915",
+    "30043446",
+    "32977369",
+    "25192937",
+    "33709015",
+    "32490141",
+    "31270362",
+    "32670763",
+    "31171691",
+    "29472484",
+    "31597751",
+    "32349587",
+    "30740886",
+    "30653670",
+    "33205429"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "3d in vitro liver models",
+    "liver‐on‐chip model for toxicity and pk evaluation",
+    "prediction of drug‐induced liver injury risk using hepatic spheroid co‐culture models",
+    "heparg spheroids and 2d models in metabolism and toxicity prediction",
+    "micropatterned hepatocyte coculture for drug metabolism and toxicity study",
+    "3d in vitro intestine models",
+    "intestine‐chip for drug metabolism and toxicity evaluation",
+    "novel in vitro enteric models for ddis and safety evaluation",
+    "patient‐derived 3d intestine model for drug evaluation",
+    "regulation of gut epithelia renewal and barrier function in intestinal organoids",
+    "3d in vitro kidney models",
+    "kidney organoids and mps for disease modeling and hts",
+    "human kidney mps to generate data for physiologically‐based pharmacokinetic modeling",
+    "other 3d models for drug evaluation",
+    "neuronal multi‐organ‐on‐chip model for disease and risk assessment",
+    "patient‐derived 3d organoids for tumor growth and drug response",
+    "regulatory consideration of 3d culture models",
+    "nonclinical safety evaluation",
+    "evaluation of adme and pk‐pd relationship",
+    "conclusion",
+    "disclaimer",
+    "conflict of interest",
+    "author contributions",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 15530,
+  "converted_at": "2026-04-06T22:40:07.936450+00:00"
+}

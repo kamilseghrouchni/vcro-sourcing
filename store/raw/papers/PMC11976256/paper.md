@@ -1,0 +1,93 @@
+---
+pmid: "40055545"
+pmc: "PMC11976256"
+doi: "10.1038/s41593-025-01926-1"
+title: "Author Correction: Neuronal polyunsaturated fatty acids are protective in ALS/FTD"
+journal: "Nature Neuroscience"
+year: 2025
+authors:
+  - name: "Giblin Ashling"
+    affiliations:
+      - "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK"
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+      - "https://ror.org/00tw3jy02grid.42475.300000 0004 0605 769XPresent Address: MRC Laboratory of Molecular Biology, Cambridge, UK"
+  - name: "Cammack Alexander J."
+    affiliations:
+      - "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK"
+      - "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+  - name: "Blomberg Niek"
+    affiliations:
+      - "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+  - name: "Anoar Sharifah"
+    affiliations:
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Mikheenko Alla"
+    affiliations:
+      - "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK"
+      - "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+  - name: "Carcolé Mireia"
+    affiliations:
+      - "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK"
+      - "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+  - name: "Atilano Magda L."
+    affiliations:
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Hull Alex"
+    affiliations:
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Shen Dunxin"
+    affiliations:
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Wei Xiaoya"
+    affiliations:
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Coneys Rachel"
+    affiliations:
+      - "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK"
+      - "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+  - name: "Zhou Lele"
+    affiliations:
+      - "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK"
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Mohammed Yassene"
+    affiliations:
+      - "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+  - name: "Olivier-Jimenez Damien"
+    affiliations:
+      - "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+  - name: "Wang Lian Y."
+    affiliations:
+      - "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+  - name: "Kinghorn Kerri J."
+    affiliations:
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Niccoli Teresa"
+    affiliations:
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Coyne Alyssa N."
+    affiliations:
+      - "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University, Baltimore, MA USA"
+      - "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Brain Science Institute, Johns Hopkins University, Baltimore, MA USA"
+  - name: "van der Kant Rik"
+    affiliations:
+      - "https://ror.org/05grdyy37grid.509540.d0000 0004 6880 3010Alzheimer Center Amsterdam, Amsterdam University Medical Center, Amsterdam, The Netherlands"
+  - name: "Lashley Tammaryn"
+    affiliations:
+      - "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+  - name: "Giera Martin"
+    affiliations:
+      - "https://ror.org/05xvt9f17grid.10419.3d0000 0000 8945 2978Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands"
+  - name: "Partridge Linda"
+    affiliations:
+      - "https://ror.org/02jx3x895grid.83440.3b0000000121901201Institute of Healthy Ageing, UCL, London, UK"
+  - name: "Isaacs Adrian M."
+    affiliations:
+      - "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute, UCL, London, UK"
+      - "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK"
+---
+
+# Author Correction: Neuronal polyunsaturated fatty acids are protective in ALS/FTD
+
+Correction to: Nature Neuroscience 10.1038/s41593-025-01889-3, published online 25 February 2025.
+
+In the version of the article initially published, Martin Giera was listed with the wrong affiliation which has now been amended to the Center for Proteomics & Metabolomics, Leiden University Medical Center, Leiden, The Netherlands in the HTML and PDF versions of the article.

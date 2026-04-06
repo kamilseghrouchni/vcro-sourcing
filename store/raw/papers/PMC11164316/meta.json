@@ -1,0 +1,322 @@
+{
+  "pmid": "37872285",
+  "pmc": "PMC11164316",
+  "doi": "10.1038/s42255-023-00903-x",
+  "title": "Metabolomic Epidemiology Offers Insights into Disease Aetiology",
+  "journal": "Nature metabolism",
+  "year": 2023,
+  "authors": [
+    {
+      "name": "Fuller Harriett",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhu Yiwen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nicholas Jayna",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chatelaine Haley A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Drzymalla Emily M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sarvestani Afrand K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Julián-Serrano Sachelly",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tahir Usman A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sinnott-Armstrong Nasa",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Raffield Laura M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rahnavard Ali",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hua Xinwei",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shutta Katherine H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Darst Burcu F.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "9744112",
+    "33937923",
+    "36138150",
+    "31155658",
+    "31584131",
+    "34845932",
+    "36737450",
+    "36029375",
+    "34216355",
+    "31216675",
+    "27038389",
+    "30318341",
+    "30318341",
+    "2592568",
+    "31197497",
+    "29581366",
+    "36557310",
+    "25815993",
+    "10488780",
+    "22607863",
+    "21475195",
+    "30571496",
+    "28782886",
+    "31167879",
+    "23563705",
+    "29420958",
+    "36984843",
+    "28341595",
+    "36645074",
+    "35264422",
+    "30867269",
+    "31533499",
+    "32663097",
+    "29219149",
+    "35349649",
+    "21423183",
+    "29626220",
+    "29349498",
+    "33228610",
+    "35069433",
+    "36624208",
+    "24816252",
+    "21886157",
+    "20104246",
+    "28263315",
+    "30524137",
+    "36325061",
+    "32207686",
+    "29663269",
+    "33843072",
+    "27784639",
+    "35842456",
+    "34928464",
+    "33707411",
+    "33033346",
+    "32559180",
+    "32492406",
+    "33207699",
+    "32291894",
+    "34608263",
+    "13298683",
+    "29045397",
+    "28985563",
+    "32694689",
+    "31564558",
+    "22621751",
+    "36280842",
+    "34711629",
+    "22952174",
+    "25336191",
+    "27673363",
+    "25904191",
+    "30951192",
+    "29479691",
+    "26817443",
+    "25785727",
+    "23140534",
+    "24169354",
+    "27759060",
+    "23940835",
+    "32734650",
+    "34843121",
+    "34071196",
+    "16595784",
+    "31378665",
+    "26623558",
+    "32423389",
+    "33627383",
+    "35105939",
+    "19339253",
+    "28341160",
+    "29370177",
+    "24694177",
+    "22229116",
+    "33969169",
+    "31104335",
+    "31142855",
+    "28827067",
+    "29681789",
+    "24415869",
+    "33175138",
+    "36122699",
+    "11979335",
+    "35928631",
+    "25011442",
+    "30931940",
+    "36963247",
+    "34157945",
+    "12819305",
+    "35428974",
+    "22464876",
+    "30151522",
+    "35883228",
+    "29965778",
+    "24733416",
+    "31635762",
+    "30411484",
+    "36368524",
+    "26429083",
+    "31911595",
+    "29362361",
+    "30799310",
+    "36635386",
+    "30510236",
+    "24728292",
+    "28065468",
+    "31558840",
+    "36073519",
+    "35347128",
+    "35995766",
+    "34503513",
+    "24625756",
+    "33031748",
+    "33634981",
+    "35401680",
+    "37255970",
+    "30728499",
+    "31817859",
+    "29899246",
+    "24977108",
+    "36350656",
+    "35736459",
+    "27318201",
+    "32504056",
+    "36219204",
+    "33060586",
+    "29808030",
+    "27504778",
+    "32103176",
+    "34606553",
+    "20505766",
+    "35310334",
+    "35275550",
+    "34523675",
+    "33737653",
+    "35958335",
+    "34845204",
+    "29908154",
+    "21281499",
+    "26491425",
+    "28659298",
+    "28108528",
+    "32142679",
+    "27621107",
+    "33292338",
+    "31540515",
+    "34876126",
+    "32822601",
+    "31560688",
+    "35754192",
+    "32406924",
+    "32460496",
+    "34251446",
+    "26213686",
+    "36373969",
+    "33634981",
+    "35401680",
+    "24131735",
+    "29149188",
+    "29686387",
+    "25632051",
+    "25064373",
+    "16646834",
+    "36161666",
+    "35723546"
+  ],
+  "tables_count": 0,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "study design considerations",
+    "metabolomic epidemiology and disease aetiology",
+    "adiposity",
+    "cardiovascular disease",
+    "type 2 diabetes",
+    "disorders of inborn errors of metabolism",
+    "infectious disease: covid-19",
+    "cancer",
+    "alzheimer’s disease and related dementias",
+    "inflammatory bowel disease",
+    "chronic kidney disease",
+    "pregnancy and gestational diabetes",
+    "psychological distress and mental health",
+    "integrating metabolomics with other omics",
+    "metabolomics and genetics",
+    "host-gut microbiome and metabolome",
+    "exposome",
+    "advancing metabolomic epidemiology findings",
+    "mendelian randomisation",
+    "causal mediation analysis",
+    "network methods",
+    "triangulation and validation",
+    "linking findings to biochemical and functional implications",
+    "future developments and clinical implementation outlook",
+    "acknowledgements",
+    "references"
+  ],
+  "word_count": 13404,
+  "converted_at": "2026-04-06T22:36:21.505269+00:00"
+}

@@ -1,0 +1,162 @@
+{
+  "pmid": "34675267",
+  "pmc": "PMC8531355",
+  "doi": "10.1038/s41598-021-00312-8",
+  "title": "Characteristics of serum metabolites in sporadic amyotrophic lateral sclerosis patients based on gas chromatography-mass spectrometry",
+  "journal": "Scientific Reports",
+  "year": 2021,
+  "authors": [
+    {
+      "name": "Jia Rui",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Chen Qiaoyi",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Cell Biology and Genetics, Xian Jiaotong University Health Science Center, Xi’an, China"
+      ]
+    },
+    {
+      "name": "Zhou Qingqing",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Zhang Ronghua",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Jin Jiaoting",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Hu Fangfang",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Liu Xiao",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Qin Xing",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Kang Li",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Zhao Songzhen",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    },
+    {
+      "name": "Dang Yonghui",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Key Laboratory of Environment and Genes Related to Diseases of the Education Ministry, Key Laboratory of the Health Ministry for Forensic Medicine, College of Medicine and Forensics, Xi’an Jiaotong University Health Science Center, Xi’an, China"
+      ]
+    },
+    {
+      "name": "Dang Jingxia",
+      "affiliations": [
+        "grid.43169.390000 0001 0599 1243Department of Neurology, The First Affiliated Hospital, Xi’an Jiaotong University, 277 Western Yanta Rd, Xi’an, 710061 China"
+      ]
+    }
+  ],
+  "keywords": [
+    "Diseases of the nervous system",
+    "Metabolomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "the International Scientific and Technological Cooperation Program in Shaanxi Province2015KW-051JiaRui",
+    "the Key Research and Development Program of Shaanxi2020SF-0892020SF-098JiaRuiJinJiaoting",
+    "the Natural Science Basic Research Program of Shaanxi2020JQ-531QinXing"
+  ],
+  "data_availability_text": "Data availabilityThe data that supported our new findings would be acquired after author’s permission.",
+  "license": "",
+  "received": "2021-05-21",
+  "accepted": "2021-10-08",
+  "reference_pmids": [
+    "28552366",
+    "27377474",
+    "28700839",
+    "28980624",
+    "19710046",
+    "30472526",
+    "27450455",
+    "11687111",
+    "30846539",
+    "30863961",
+    "8332197",
+    "30870681",
+    "24369373",
+    "28936769",
+    "21671162",
+    "24126629",
+    "25896087",
+    "27828769",
+    "19303440",
+    "29692630",
+    "26526201",
+    "25795009",
+    "31213966",
+    "22680408",
+    "28472752",
+    "22117131",
+    "28501214",
+    "20655863",
+    "29435916",
+    "26584004",
+    "21395864",
+    "25245510",
+    "18721928",
+    "29902437",
+    "22678511",
+    "28901278",
+    "28712413",
+    "27158906",
+    "11464847",
+    "26152368",
+    "16448051"
+  ],
+  "tables_count": 2,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "patients’ characteristics",
+    "serum metabolic profiles of als patients and healthy subjects",
+    "analysis of differential serum metabolites and metabolic pathways",
+    "receiver operating characteristic analysis of differential metabolites in different als groups",
+    "discussion",
+    "materials and methods",
+    "participants",
+    "serum sample collection",
+    "gc/ms metabolomic assay, quality control, and extraction",
+    "statistical analysis",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 5944,
+  "converted_at": "2026-04-06T22:40:08.500870+00:00"
+}

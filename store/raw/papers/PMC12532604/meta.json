@@ -1,0 +1,458 @@
+{
+  "pmid": "40830661",
+  "pmc": "PMC12532604",
+  "doi": "10.1038/s41591-025-03890-6",
+  "title": "A plasma proteomics-based candidate biomarker panel predictive of amyotrophic lateral sclerosis",
+  "journal": "Nature Medicine",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Chia Ruth",
+      "affiliations": [
+        "https://ror.org/01cwqze88grid.94365.3d0000 0001 2297 5165Neuromuscular Diseases Research Section, National Institute on Aging, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Moaddel Ruin",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Laboratory of Clinical Investigation, National Institute on Aging, National Institutes of Health, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Kwan Justin Y.",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XNeurodegenerative Disorders Clinic, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Rasheed Memoona",
+      "affiliations": [
+        "https://ror.org/01cwqze88grid.94365.3d0000 0001 2297 5165Neuromuscular Diseases Research Section, National Institute on Aging, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Ruffo Paola",
+      "affiliations": [
+        "https://ror.org/01cwqze88grid.94365.3d0000 0001 2297 5165Neuromuscular Diseases Research Section, National Institute on Aging, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Landeck Natalie",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XNeurodegenerative Diseases Research Section, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Reho Paolo",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XNeurodegenerative Diseases Research Section, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA",
+        "https://ror.org/00hj8s172grid.21729.3f0000 0004 1936 8729Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Vasta Rosario",
+      "affiliations": [
+        "https://ror.org/01cwqze88grid.94365.3d0000 0001 2297 5165Neuromuscular Diseases Research Section, National Institute on Aging, National Institutes of Health, Bethesda, MD USA",
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy"
+      ]
+    },
+    {
+      "name": "Calvo Andrea",
+      "affiliations": [
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy",
+        "https://ror.org/001f7a930grid.432329.d0000 0004 1789 4477Azienda Ospedaliero Universitaria Città della Salute e della Scienza, Turin, Italy"
+      ]
+    },
+    {
+      "name": "Moglia Cristina",
+      "affiliations": [
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy",
+        "https://ror.org/001f7a930grid.432329.d0000 0004 1789 4477Azienda Ospedaliero Universitaria Città della Salute e della Scienza, Turin, Italy"
+      ]
+    },
+    {
+      "name": "Canosa Antonio",
+      "affiliations": [
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy",
+        "https://ror.org/001f7a930grid.432329.d0000 0004 1789 4477Azienda Ospedaliero Universitaria Città della Salute e della Scienza, Turin, Italy",
+        "https://ror.org/05w9g2j85grid.428479.40000 0001 2297 9633Institute of Cognitive Sciences and Technologies, C.N.R, Rome, Italy"
+      ]
+    },
+    {
+      "name": "Manera Umberto",
+      "affiliations": [
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy",
+        "https://ror.org/001f7a930grid.432329.d0000 0004 1789 4477Azienda Ospedaliero Universitaria Città della Salute e della Scienza, Turin, Italy"
+      ]
+    },
+    {
+      "name": "Snyder Allison",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XNeurodegenerative Disorders Clinic, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Saez-Atienzar Sara",
+      "affiliations": [
+        "https://ror.org/00rs6vg23grid.261331.40000 0001 2285 7943Department of Neurology, The Ohio State University, Columbus, OH USA"
+      ]
+    },
+    {
+      "name": "Grassano Maurizio",
+      "affiliations": [
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy"
+      ]
+    },
+    {
+      "name": "Brunetti Maura",
+      "affiliations": [
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy"
+      ]
+    },
+    {
+      "name": "Casale Federico",
+      "affiliations": [
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy"
+      ]
+    },
+    {
+      "name": "Ray Anindita",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XNeurodegenerative Diseases Research Section, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Arvind Kumar",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XNeurodegenerative Diseases Research Section, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Comertpay Betul",
+      "affiliations": [
+        "https://ror.org/01cwqze88grid.94365.3d0000 0001 2297 5165Neuromuscular Diseases Research Section, National Institute on Aging, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Zhu Min",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Laboratory of Clinical Investigation, National Institute on Aging, National Institutes of Health, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Gibbs J. Raphael",
+      "affiliations": [
+        "https://ror.org/01cwqze88grid.94365.3d0000 0001 2297 5165Computational Biology Group, Laboratory of Neurogenetics, National Institute on Aging, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "The American Genome Center",
+      "affiliations": []
+    },
+    {
+      "name": "Alba Camille",
+      "affiliations": [
+        "https://ror.org/04r3kq386grid.265436.00000 0001 0421 5525Department of Anatomy, Physiology and Genetics, Uniformed Services University of the Health Sciences, Bethesda, MD USA",
+        "https://ror.org/04r3kq386grid.265436.00000 0001 0421 5525The American Genome Center, Uniformed Services University of the Health Sciences, Bethesda, MD USA",
+        "https://ror.org/04q9tew83grid.201075.10000 0004 0614 9826Henry M. Jackson Foundation for the Advancement of Military Medicine, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Dawson Ted M.",
+      "affiliations": [
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Neuroregeneration and Stem Cell Programs, Institute for Cell Engineering, Johns Hopkins University School of Medicine, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Rosenthal Liana S.",
+      "affiliations": [
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Hall Anna J.",
+      "affiliations": [
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Pantelyat Alexander Y.",
+      "affiliations": [
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Narendra Derek P.",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XInherited Movement Disorders Unit, Neurogenetics Branch, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Ehrlich Debra J.",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XParkinson’s Disease Clinic, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Walker Keenan A.",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Laboratory of Behavioral Neuroscience, National Institute on Aging, National Institutes of Health, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Kosa Peter",
+      "affiliations": [
+        "https://ror.org/043z4tv69grid.419681.30000 0001 2164 9667Laboratory of Clinical Immunology and Microbiology, Neuroimmunological Diseases Section, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Bielekova Bibiana",
+      "affiliations": [
+        "https://ror.org/043z4tv69grid.419681.30000 0001 2164 9667Laboratory of Clinical Immunology and Microbiology, Neuroimmunological Diseases Section, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Egan Josephine M.",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Laboratory of Clinical Investigation, National Institute on Aging, National Institutes of Health, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Candia Julián",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Longitudinal Studies Section, National Institute on Aging, National Institutes of Health, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Tanaka Toshiko",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Longitudinal Studies Section, National Institute on Aging, National Institutes of Health, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Ferrucci Luigi",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Longitudinal Studies Section, National Institute on Aging, National Institutes of Health, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Dalgard Clifton L.",
+      "affiliations": [
+        "https://ror.org/04r3kq386grid.265436.00000 0001 0421 5525Department of Anatomy, Physiology and Genetics, Uniformed Services University of the Health Sciences, Bethesda, MD USA",
+        "https://ror.org/04r3kq386grid.265436.00000 0001 0421 5525The American Genome Center, Uniformed Services University of the Health Sciences, Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Scholz Sonja W.",
+      "affiliations": [
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XNeurodegenerative Diseases Research Section, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA",
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Chiò Adriano",
+      "affiliations": [
+        "https://ror.org/048tbm396grid.7605.40000 0001 2336 6580‘Rita Levi Montalcini’ Department of Neuroscience, Amyotrophic Lateral Sclerosis Center, University of Turin, Turin, Italy",
+        "https://ror.org/001f7a930grid.432329.d0000 0004 1789 4477Azienda Ospedaliero Universitaria Città della Salute e della Scienza, Turin, Italy",
+        "https://ror.org/05w9g2j85grid.428479.40000 0001 2297 9633Institute of Cognitive Sciences and Technologies, C.N.R, Rome, Italy"
+      ]
+    },
+    {
+      "name": "Traynor Bryan J.",
+      "affiliations": [
+        "https://ror.org/01cwqze88grid.94365.3d0000 0001 2297 5165Neuromuscular Diseases Research Section, National Institute on Aging, National Institutes of Health, Bethesda, MD USA",
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD USA",
+        "https://ror.org/01s5ya894grid.416870.c0000 0001 2177 357XNational Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD USA",
+        "https://ror.org/04pw6fb54grid.429651.d0000 0004 3497 6087RNA Therapeutics Laboratory, National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Diagnostic markers",
+    "Predictive markers"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Institute on Aging, Intramural Research Program",
+    "National Institute of Neurological Disorders and Stroke, Intramural Research Program",
+    "Italian Ministry of Health",
+    "National Institute of Neurological Disorders and Stroke",
+    "Uniformed Services University, Intramural Research Program",
+    "National Institute of Allergy and Infectious Diseases, Intramural Research Program",
+    "https://doi.org/10.13039/100000049U.S. Department of Health & Human Services | NIH | National Institute on Aging (U.S. National Institute on Aging)1ZIAAG000933RuffoPaola",
+    "https://doi.org/10.13039/100007188United States Department of Defense | Uniformed Services University of the Health Sciences (Uniformed Services University)"
+  ],
+  "data_availability_text": "Data availabilityWe made our summary statistics and individual-level proteomic data publicly available (https://zenodo.org/records/14213102)66. Furthermore, we developed an online tool that enables researchers to explore the machine learning model and use it with their own Olink data (https://ndru-ndrs-lng-nih.shinyapps.io/web_server_shiny/). The pQTL data from the UK Biobank used for Mendelian randomization are available at https://www.synapse.org/Synapse:syn51365301, and the ALS GWAS data are available at https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST90027163/. The Olink data from the UK Biobank can be obtained via controlled access on their web portal (https://www.ukbiobank.ac.uk/).",
+  "license": "",
+  "received": "2024-12-02",
+  "accepted": "2025-07-10",
+  "reference_pmids": [
+    "36116464",
+    "36116464",
+    "27510634",
+    "27510634",
+    "35819713",
+    "35819713",
+    "32526057",
+    "32526057",
+    "23415570",
+    "23415570",
+    "23860588",
+    "23860588",
+    "21402743",
+    "21402743",
+    "21956723",
+    "21956723",
+    "11160962",
+    "11160962",
+    "11464847",
+    "11464847",
+    "35984888",
+    "35984888",
+    "30967444",
+    "30967444",
+    "12915243",
+    "12915243",
+    "16806844",
+    "16806844",
+    "37327376",
+    "37327376",
+    "29549424",
+    "29549424",
+    "34873335",
+    "34873335",
+    "37794186",
+    "37794186",
+    "35341712",
+    "35341712",
+    "38267984",
+    "38267984",
+    "35334233",
+    "35334233",
+    "33523907",
+    "33523907",
+    "28692730",
+    "28692730",
+    "8863508",
+    "8863508",
+    "37292457",
+    "37292457",
+    "25442938",
+    "25442938",
+    "36508319",
+    "36508319",
+    "33253581",
+    "33253581",
+    "38484669",
+    "38484669",
+    "38045696",
+    "38045696",
+    "39129220",
+    "39129220",
+    "37794188",
+    "37794188",
+    "17369836",
+    "17369836",
+    "35922478",
+    "35922478",
+    "21296405",
+    "21296405",
+    "19597023",
+    "19597023",
+    "20157306",
+    "20157306",
+    "33977270",
+    "33977270",
+    "25934855",
+    "25934855",
+    "29653606",
+    "29653606",
+    "34380747",
+    "34380747",
+    "27135364",
+    "27135364",
+    "12488461",
+    "12488461",
+    "38278991",
+    "38278991",
+    "37545108",
+    "37545108",
+    "19126858",
+    "19126858",
+    "23359374",
+    "23359374",
+    "28592453",
+    "28592453",
+    "17542011",
+    "17542011",
+    "18725592",
+    "18725592",
+    "26474316",
+    "26474316",
+    "28467028",
+    "28467028",
+    "28245254",
+    "28245254",
+    "33242422",
+    "33242422",
+    "31675358",
+    "31675358",
+    "38072165",
+    "38072165",
+    "26110027",
+    "26110027",
+    "36229504",
+    "36229504",
+    "10802651",
+    "10802651",
+    "19880382",
+    "19880382",
+    "37941124",
+    "37941124",
+    "29846171",
+    "29846171"
+  ],
+  "tables_count": 6,
+  "figures_count": 10,
+  "sections_present": [
+    "abstract",
+    "main",
+    "results",
+    "proteome-wide association analysis reveals plasma proteins linked to als",
+    "comparative analysis of plasma biomarkers in patients with",
+    "comparison of differentially abundant proteins in plasma to csf",
+    "pathway analysis identifies skeletal muscle and neuronal processes",
+    "genetic alterations do not influence protein abundance levels",
+    "machine learning uncovers a distinct plasma protein signature linked to als",
+    "the machine learning model is not powered by nefl alone",
+    "validation of the machine learning model in independent cohorts",
+    "estimating symptom onset using plasma proteomics",
+    "discussion",
+    "limitations",
+    "methods",
+    "ethics and study design",
+    "participants",
+    "sample collection",
+    "proteomic data generation using the olink explore 3072 assay",
+    "genetic data generation",
+    "cohort sampling for the discovery/training and replication/testing datasets",
+    "statistical analysis of the individual protein analytes",
+    "comparison of olink and elisa for differentially abundant proteins",
+    "comparison of olink and somascan data for plasma proteins",
+    "comparison of protein in csf and plasma",
+    "pathway analysis",
+    "regional genetic association analysis and mendelian randomization",
+    "supervised machine learning",
+    "shap values and als risk score",
+    "inclusion and ethics statement",
+    "reporting summary",
+    "online content",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14636,
+  "converted_at": "2026-04-06T22:37:48.421811+00:00"
+}

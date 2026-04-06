@@ -1,0 +1,171 @@
+{
+  "pmid": "41508039",
+  "pmc": "PMC12870388",
+  "doi": "10.1186/s13041-025-01273-z",
+  "title": "Proteasome inhibition by VR23 enhances autophagic clearance of FUSP525L-mediated persistent stress granule in SH-SY5Y cells",
+  "journal": "Molecular Brain",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Kim Seong Hyun",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556School of Life Sciences, BK21 FOUR KNU Creative BioResearch Group, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    },
+    {
+      "name": "So Jun Hee",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556School of Life Sciences, BK21 FOUR KNU Creative BioResearch Group, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Yong Hwan",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556School of Life Sciences, BK21 FOUR KNU Creative BioResearch Group, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Hyo-Sung",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556School of Life Sciences, BK21 FOUR KNU Creative BioResearch Group, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Park Na Yeon",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556Organelle Institute, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Joon Bum",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556Organelle Institute, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Jo Doo Sin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yeom Eunbyul",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556School of Life Sciences, BK21 FOUR KNU Creative BioResearch Group, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Lee Jin-A",
+      "affiliations": [
+        "https://ror.org/01cwbae71grid.411970.a0000 0004 0532 6499Department of Biological Sciences and Biotechnology, College of Life Sciences and Nanotechnology, Hannam University, Daejeon, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Bae Ji-Eun",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556Organelle Institute, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Cho Dong-Hyung",
+      "affiliations": [
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556School of Life Sciences, BK21 FOUR KNU Creative BioResearch Group, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea",
+        "https://ror.org/040c17130grid.258803.40000 0001 0661 1556Organelle Institute, Kyungpook National University, 80 Daehakro, Bukgu, Daegu, 41566 Republic of Korea"
+      ]
+    }
+  ],
+  "keywords": [
+    "Granulophagy",
+    "Stress granules",
+    "FUS",
+    "VR23",
+    "Selective autophagy"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/501100002701Ministry of EducationRS-2024-00463344BaeJi-Eun",
+    "https://doi.org/10.13039/501100003052Ministry of Trade, Industry and EnergyP0025489ChoDong-Hyung"
+  ],
+  "data_availability_text": "Data availabilityThe datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+  "license": "",
+  "received": "2025-10-28",
+  "accepted": "2025-12-31",
+  "reference_pmids": [
+    "31727826",
+    "31727826",
+    "29628143",
+    "29628143",
+    "26406374",
+    "26406374",
+    "26526393",
+    "26526393",
+    "39494508",
+    "39494508",
+    "26035390",
+    "26035390",
+    "29035885",
+    "29035885",
+    "34103467",
+    "34103467",
+    "32873715",
+    "32873715",
+    "32170904",
+    "32170904",
+    "34739333",
+    "34739333",
+    "22078875",
+    "22078875",
+    "23791177",
+    "23791177",
+    "28377462",
+    "28377462",
+    "32082291",
+    "32082291",
+    "36692217",
+    "36692217",
+    "38284934",
+    "38284934",
+    "25216585",
+    "25216585",
+    "30022074",
+    "30022074",
+    "30979586",
+    "30979586",
+    "28686195",
+    "28686195",
+    "17534139",
+    "17534139",
+    "22647982",
+    "22647982",
+    "26238784",
+    "26238784",
+    "26429917",
+    "26429917",
+    "38101818",
+    "38101818"
+  ],
+  "tables_count": 0,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "reagents",
+    "cloning and cell lines",
+    "cell-based library screening",
+    "western blotting",
+    "granulophagy evaluation",
+    "statistical analysis",
+    "results",
+    "vr23 promotes granulophagy of fus",
+    "inhibition of sg formation attenuates granulophagy of fus",
+    "discussion",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 4855,
+  "converted_at": "2026-04-06T22:39:03.368504+00:00"
+}

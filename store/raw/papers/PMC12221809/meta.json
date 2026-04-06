@@ -1,0 +1,326 @@
+{
+  "pmid": "40604345",
+  "pmc": "PMC12221809",
+  "doi": "10.1002/alz.70417",
+  "title": "Gut microbiome compositional and functional features associate with Alzheimer's disease pathology",
+  "journal": "Alzheimer's & Dementia",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Kang Jea Woo",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Khatib Lora A.",
+      "affiliations": [
+        "Department of Pediatrics University of California, San Diego La Jolla California USA",
+        "Neurosciences Graduate Program University of California, San Diego La Jolla California USA"
+      ]
+    },
+    {
+      "name": "Heston Margo B.",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Dilmore Amanda H.",
+      "affiliations": [
+        "Department of Pediatrics University of California, San Diego La Jolla California USA"
+      ]
+    },
+    {
+      "name": "Labus Jennifer S.",
+      "affiliations": [
+        "Integrative Biostatistics and Bioinformatics Core (IBBC) at the Goodman‐Luskin Microbiome Center Los Angeles California USA",
+        "G. Oppenheimer Center for Neurobiology of Stress and Resilience Los Angeles California USA",
+        "UCLA Vatche and Tamar Manoukian Division of Digestive Diseases David Geffen School of Medicine at UCLA Los Angeles California USA"
+      ]
+    },
+    {
+      "name": "Deming Yuetiva",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Schimmel Leyla",
+      "affiliations": [
+        "Department of Psychiatry and Behavioral Sciences Duke University Durham North Carolina USA"
+      ]
+    },
+    {
+      "name": "Blach Colette",
+      "affiliations": [
+        "Duke Molecular Physiology Institute Duke University Durham North Carolina USA"
+      ]
+    },
+    {
+      "name": "McDonald Daniel",
+      "affiliations": [
+        "Department of Pediatrics University of California, San Diego La Jolla California USA"
+      ]
+    },
+    {
+      "name": "Gonzalez Antonio",
+      "affiliations": [
+        "Department of Pediatrics University of California, San Diego La Jolla California USA"
+      ]
+    },
+    {
+      "name": "Bryant MacKenzie",
+      "affiliations": [
+        "Department of Pediatrics University of California, San Diego La Jolla California USA"
+      ]
+    },
+    {
+      "name": "Ulland Tyler K.",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA",
+        "Department of Pathology and Laboratory Medicine University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Johnson Sterling C.",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Asthana Sanjay",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Carlsson Cynthia M.",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Chin Nathaniel A.",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Blennow Kaj",
+      "affiliations": [
+        "Department of Psychiatry and Neurochemistry Institute of Neuroscience and Physiology the Sahlgrenska Academy, University of Gothenburg Mölndal Sweden"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA",
+        "Department of Psychiatry and Neurochemistry Institute of Neuroscience and Physiology the Sahlgrenska Academy, University of Gothenburg Mölndal Sweden",
+        "Clinical Neurochemistry Laboratory Sahlgrenska University Hospital Mölndal Sweden",
+        "Department of Neurodegenerative Disease UCL Institute of Neurology London UK",
+        "UK Dementia Research Institute at UCL London UK",
+        "Hong Kong Center for Neurodegenerative Diseases Hong Kong China"
+      ]
+    },
+    {
+      "name": "Rey Federico E.",
+      "affiliations": [
+        "Department of Bacteriology University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Alzheimer Gut Microbiome Project Consortium",
+      "affiliations": []
+    },
+    {
+      "name": "Kaddurah‐Daouk Rima",
+      "affiliations": [
+        "Department of Psychiatry and Behavioral Sciences Duke University Durham North Carolina USA",
+        "Duke Institute of Brain Sciences Duke University Durham North Carolina USA",
+        "Department of Medicine Duke University Durham North Carolina USA"
+      ]
+    },
+    {
+      "name": "Knight Rob",
+      "affiliations": [
+        "Department of Pediatrics University of California, San Diego La Jolla California USA",
+        "Center for Microbiome Innovation Joan and Irwin Jacobs School of Engineering University of California, San Diego La Jolla California USA",
+        "Department of Computer Science and Engineering University of California San Diego La Jolla California USA",
+        "Halıcıoğlu Data Science Institute University of California San Diego La Jolla California USA",
+        "Shu Chien‐Gene Lay Department of Bioengineering University of California San Diego La Jolla California USA"
+      ]
+    },
+    {
+      "name": "Bendlin Barbara B.",
+      "affiliations": [
+        "Wisconsin Alzheimer's Disease Research Center University of Wisconsin School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA",
+        "Wisconsin Alzheimer's Institute School of Medicine and Public Health University of Wisconsin‐Madison Madison Wisconsin USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "biomarkers",
+    "cerebrospinal fluid",
+    "composition",
+    "differential abundance",
+    "function",
+    "gut microbiome",
+    "pathology"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "NIA10.13039/100000049 U01AG061359U19AG063744R01AG070973R01AG083883",
+    "NIH10.13039/100000002 #S10 OD026929",
+    "Vilas Early‐Career Investigator Award",
+    "Swedish Research Council10.13039/501100004359 #2023‐00356#2022‐01018#2019‐02397",
+    "European Union's Horizon Europe research and innovation programme #101053962",
+    "Swedish State Support for Clinical Research #ALFGBG‐71320",
+    "Alzheimer Drug Discovery Foundation (ADDF) #201809‐2016862",
+    "AD Strategic Fund and the Alzheimer's Association #ADSF‐21‐831376‐C#ADSF‐21‐831381‐C#ADSF‐21‐831377‐C#ADSF‐24‐1284328‐C",
+    "European Partnership on Metrology co‐financed from the European Union’s Horizon Europe Research and Innovation Programme and by the Participating States #22HLT07",
+    "Bluefield Project",
+    "Cure Alzheimer's Fund10.13039/100007625",
+    "Olav Thon Foundation",
+    "Erling‐Persson Family Foundation",
+    "Familjen Rönströms Stiftelse, Stiftelsen för Gamla Tjänarinnor, Hjärnfonden, Sweden #FO2022‐0270",
+    "European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska‐Curie #860197",
+    "European Union Joint Programme—Neurodegenerative Disease Research JPND2021‐00694",
+    "NIH and Care Research University College London Hospitals Biomedical Research Centre and the UK Dementia Research Institute at UCL UKDRI‐1003"
+  ],
+  "data_availability_text": "DATA AVAILABILITY STATEMENTSamples were provided by the University of Wisconsin Alzheimer's Disease Research Center. Clinical data can be requested from the National Alzheimer's Coordinating Center (naccdata.org/). Data will be available in the Synapse AD Knowledge Portal. Gut microbiome data are stored and accessible via the University of California San Diego Qiita platform (qiita.ucsd.edu/).",
+  "license": "",
+  "received": "2024-08-20",
+  "accepted": "2025-05-20",
+  "reference_pmids": [
+    "27383980",
+    "27863247",
+    "24838170",
+    "29051531",
+    "29758946",
+    "31063846",
+    "35027502",
+    "37315112",
+    "30579367",
+    "38451317",
+    "35164860",
+    "29936690",
+    "37963908",
+    "29173869",
+    "34960049",
+    "34776854",
+    "28494241",
+    "31561379",
+    "35516807",
+    "36931530",
+    "29322089",
+    "27662287",
+    "21514249",
+    "21514250",
+    "31886494",
+    "33336877",
+    "28625159",
+    "31616586",
+    "31672156",
+    "33906915",
+    "38396294",
+    "30423086",
+    "37165242",
+    "37612512",
+    "28396521",
+    "34623391",
+    "33590861",
+    "26446134",
+    "30275573",
+    "35369727",
+    "36073806",
+    "31341288",
+    "29777006",
+    "26194311",
+    "17220268",
+    "16332807",
+    "15817693",
+    "30801021",
+    "32015543",
+    "33732104",
+    "36068280",
+    "36445883",
+    "35115575",
+    "30958695",
+    "38548184",
+    "32929861",
+    "31434623",
+    "31477562",
+    "35837118",
+    "35173707",
+    "31064831",
+    "37002253",
+    "37673907",
+    "38719797",
+    "20571116",
+    "33619379",
+    "33523001",
+    "21924801",
+    "18655815",
+    "16989905",
+    "8958163",
+    "17605107",
+    "26769360",
+    "31885820",
+    "37764202",
+    "38509359",
+    "35813949",
+    "36188448",
+    "33614635",
+    "36468884",
+    "36232865",
+    "30529024",
+    "38480804",
+    "32515657",
+    "27090305",
+    "31177213",
+    "37255721",
+    "36834485"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods",
+    "participants",
+    "research in context",
+    "fecal sample collection and metagenomic data sequencing",
+    "metagenomic data processing",
+    "biomarker measurements",
+    "csf biomarkers",
+    "pet biomarkers",
+    "statistical analysis",
+    "participant demographics",
+    "diversity analysis of the gut microbiota composition",
+    "da analysis of the gut microbiome composition and function",
+    "co‐occurrence analysis of gut microbiota features across clinical diagnosis, amyloid status, and",
+    "comparative validation of gut microbiota composition in two distinct cohorts",
+    "functional analysis of gut microbiome pathways in a clinical diagnosis group",
+    "association analysis of gut microbiome features and csf biomarkers in a clinical diagnosis group",
+    "results",
+    "participant demographics",
+    "diversity results in gut microbiota composition",
+    "gut microbiota composition in clinical diagnosis, amyloid status, and",
+    "common gut microbiota features in clinical diagnosis, amyloid status, and",
+    "validation of shallow‐shotgun data in the mars with the adrc dataset on gut microbiome composition",
+    "gut microbiome functional pathways in a clinical diagnosis group",
+    "associations between gut microbiome compositional and functional features in clinical diagnosis group and csf biomarkers of ad and related pathologies",
+    "discussion",
+    "conflict of interest statement",
+    "consent statement",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14797,
+  "converted_at": "2026-04-06T22:37:06.299545+00:00"
+}

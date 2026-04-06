@@ -1,0 +1,291 @@
+{
+  "pmid": "40161216",
+  "pmc": "PMC11952287",
+  "doi": "10.1093/braincomms/fcaf114",
+  "title": "Unveiling amyotrophic lateral sclerosis complexity: insights from proteomics, metabolomics and microbiomics",
+  "journal": "Brain Communications",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Scarcella Simone",
+      "affiliations": [
+        "Neuroscience Section, Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, Università degli Studi di Milano, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Brambilla Lorenzo",
+      "affiliations": [
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Quetti Lorenzo",
+      "affiliations": [
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Rizzuti Mafalda",
+      "affiliations": [
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Melzi Valentina",
+      "affiliations": [
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Galli Noemi",
+      "affiliations": [
+        "Neuroscience Section, Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, Università degli Studi di Milano, 20122 Milan, Italy",
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Sali Luca",
+      "affiliations": [
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Costamagna Gianluca",
+      "affiliations": [
+        "Neuroscience Section, Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, Università degli Studi di Milano, 20122 Milan, Italy",
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Comi Giacomo Pietro",
+      "affiliations": [
+        "Neuroscience Section, Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, Università degli Studi di Milano, 20122 Milan, Italy",
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Corti Stefania",
+      "affiliations": [
+        "Neuroscience Section, Department of Pathophysiology and Transplantation (DEPT), Dino Ferrari Centre, Università degli Studi di Milano, 20122 Milan, Italy",
+        "Neuromuscular and Rare Diseases Unit, Department of Neuroscience, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    },
+    {
+      "name": "Gagliardi Delia",
+      "affiliations": [
+        "Neurology Unit, Foundation IRCCS Ca’ Granda Ospedale Maggiore Policlinico, 20122 Milan, Italy"
+      ]
+    }
+  ],
+  "keywords": [
+    "ALS",
+    "proteomics",
+    "metabolomics",
+    "microbiomics",
+    "lipidomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Italian Ministry of Health10.13039/501100003196",
+    "Foundation IRCCS Ca' Granda Ospedale Maggiore Policlinico10.13039/501100009702"
+  ],
+  "data_availability_text": "Data availabilityData sharing is not applicable to this article as no new data were created or analysed in this study.",
+  "license": "",
+  "received": "2024-08-08",
+  "accepted": "2025-03-18",
+  "reference_pmids": [
+    "21944778",
+    "21944779",
+    "8446170",
+    "18309045",
+    "19251627",
+    "19251628",
+    "35277554",
+    "37972860",
+    "28382000",
+    "39437787",
+    "31292500",
+    "29081603",
+    "28236105",
+    "28469596",
+    "26144267",
+    "39401249",
+    "35115730",
+    "31244593",
+    "29954341",
+    "34194383",
+    "18989684",
+    "33263951",
+    "35006266",
+    "36012563",
+    "33300249",
+    "26296871",
+    "32796280",
+    "35105727",
+    "33815045",
+    "32971256",
+    "25132468",
+    "28408402",
+    "31578300",
+    "35589711",
+    "32640130",
+    "32726594",
+    "36129998",
+    "31092730",
+    "31744522",
+    "31450699",
+    "33192262",
+    "28356511",
+    "32515902",
+    "29331073",
+    "31175169",
+    "31937582",
+    "31701227",
+    "32666680",
+    "39340541",
+    "32132225",
+    "15962273",
+    "29021520",
+    "20381883",
+    "18987350",
+    "24884937",
+    "30283455",
+    "20219021",
+    "32123048",
+    "30116940",
+    "24492862",
+    "32100123",
+    "32326346",
+    "30210445",
+    "16567701",
+    "35877814",
+    "37012065",
+    "37369876",
+    "22993125",
+    "30404656",
+    "36423857",
+    "37001614",
+    "33277362",
+    "27404450",
+    "32214222",
+    "34654821",
+    "38577970",
+    "39362568",
+    "36555496",
+    "33891006",
+    "38277467",
+    "28453527",
+    "31539493",
+    "27164932",
+    "34015498",
+    "37776851",
+    "34638725",
+    "28428745",
+    "27141953",
+    "34949835",
+    "9109871",
+    "7595630",
+    "30467209",
+    "11889242",
+    "17452585",
+    "23325907",
+    "22843269",
+    "10540013",
+    "9443460",
+    "21087934",
+    "21143004",
+    "23042532",
+    "21940617",
+    "31772352",
+    "23797905",
+    "16609809",
+    "32421156",
+    "37068329",
+    "30662429",
+    "26458122",
+    "10449127",
+    "26348842",
+    "10400213",
+    "11464941",
+    "23616585",
+    "19070693",
+    "18820733",
+    "11464847",
+    "22117131",
+    "24984169",
+    "25048026",
+    "30926684",
+    "29277115",
+    "18195267",
+    "21987545",
+    "30429276",
+    "31796528",
+    "29870556",
+    "20949041",
+    "26883206",
+    "26121274",
+    "22264771",
+    "11299300",
+    "15534251",
+    "17432958",
+    "19930399",
+    "31920474",
+    "30816241",
+    "32014438",
+    "32330447",
+    "29549424",
+    "25963727",
+    "26666663",
+    "38540242",
+    "37895110",
+    "34044197",
+    "31515480",
+    "34080741",
+    "28129947",
+    "29782468",
+    "27814521",
+    "31784260",
+    "27912057",
+    "29065369",
+    "27703453",
+    "28947596",
+    "32747678",
+    "25847918",
+    "31330533",
+    "21128082",
+    "26121273",
+    "31019485",
+    "34193885",
+    "28437840",
+    "32106710",
+    "29247199",
+    "34782793",
+    "31406145",
+    "37069300",
+    "35959400"
+  ],
+  "tables_count": 0,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "proteomics",
+    "studies on patients’ samples",
+    "",
+    "",
+    "metabolomics",
+    "human studies",
+    "",
+    "in vitro studies",
+    "microbiomics",
+    "lipidomics",
+    "conclusion",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 17564,
+  "converted_at": "2026-04-06T22:36:48.375016+00:00"
+}

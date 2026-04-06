@@ -1,0 +1,196 @@
+{
+  "pmid": "37017243",
+  "pmc": "PMC10551050",
+  "doi": "10.1002/alz.13007",
+  "title": "Effects of a Ketogenic and Low Fat Diet on the Human Metabolome, Microbiome and Food-ome in Adults at Risk for Alzheimer’s Disease",
+  "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+  "year": 2023,
+  "authors": [
+    {
+      "name": "Dilmore Amanda Hazel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Martino Cameron",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Neth Bryan J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "West Kiana A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zemlin Jasmine",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rahman Gibraan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Panitchpakdi Morgan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Meehan Michael J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Weldon Kelly C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Blach Colette",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schimmel Leyla",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dorrestein Pieter C",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Knight Rob",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Craft Suzanne",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alzheimer’s Gut Microbiome Project Consortium",
+      "affiliations": []
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "mild cognitive impairment",
+    "ketogenic diet",
+    "microbiome",
+    "metabolome",
+    "Low-Fat American Heart Association Diet (AHAD)"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data Availability:Metagenomic sequencing data are available in Qiita under study ID 13662 (36). Mass spectrometry data (.mzXML format) are available in MassIVE under ID MSV000087087. The classical molecular networking job is available in GNPS at the following link: https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=90f1ba6e1e4d4d89b75b9017a0631983 (37). The feature-based molecular networking job is available in GNPS at the following link: https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=0b828a2a6f224fb293de1fe39bee5fc5 (38). The code utilized for these analyses are available at https://github.com/ahdilmore/BEAM_MultiOmics.",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "31835422",
+    "34095440",
+    "24038413",
+    "31779690",
+    "20442494",
+    "24071439",
+    "19738171",
+    "16186530",
+    "16847377",
+    "32123170",
+    "35481667",
+    "32199103",
+    "33173055",
+    "32358220",
+    "34757660",
+    "34396103",
+    "33093662",
+    "29936690",
+    "33294859",
+    "34043628",
+    "29928671",
+    "30337151",
+    "31365104",
+    "24625896",
+    "32820198",
+    "24336217",
+    "34256014",
+    "16940764",
+    "18845187",
+    "31757576",
+    "31477562",
+    "32861197",
+    "30275573",
+    "27504778",
+    "32839597",
+    "30801021",
+    "32868914",
+    "26406373",
+    "38123557",
+    "34127070",
+    "31686038",
+    "30531975",
+    "30007420",
+    "26100928",
+    "28825683",
+    "27965654",
+    "15961283",
+    "34358434",
+    "22722865",
+    "24039616"
+  ],
+  "tables_count": 1,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods",
+    "participant information:",
+    "procedure:",
+    "data collection and processing:",
+    "data availability:",
+    "results",
+    "dimensionality reduction of microbiome, food-omics, and metabolome datasets:",
+    "relative abundance analyses:",
+    "features associated with cognitive status independent of diet:",
+    "features associated with diet intervention independent of cognitive status:",
+    "microbes and metabolites jointly associated with cognitive status and dietary intervention:",
+    "multi-omics analyses:",
+    "discussion",
+    "limitations & further work:",
+    "supplementary material",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7195,
+  "converted_at": "2026-04-06T22:36:04.567361+00:00"
+}

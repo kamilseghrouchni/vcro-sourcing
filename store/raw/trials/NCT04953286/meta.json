@@ -1,0 +1,138 @@
+{
+  "nct_id": "NCT04953286",
+  "title": "Tear Fluid and Ocular Surface Metabolomics and Lipidomics in Lateral Amyotrophic Sclerosis: a Prospective Comparative Study",
+  "brief_title": "Ocular Surface Metabolo-lipidomics in Lateral Amyotrophic Sclerosis",
+  "status": "COMPLETED",
+  "phase": "NA",
+  "study_type": "INTERVENTIONAL",
+  "enrollment": 55,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+  ],
+  "keywords": [
+    "Amyotrophic Lateral Sclerosis",
+    "Biomarkers",
+    "Ocular Surface",
+    "Tear"
+  ],
+  "sponsor": "University Hospital, Tours",
+  "sponsor_class": "OTHER",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2021-09-17",
+  "completion_date": "2023-09-30",
+  "primary_completion_date": "2023-09-30",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Ophthalmology Department, University Hospital of Tours, France",
+      "city": "Tours",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Neurology Department, University Hospital of Tours, France",
+      "city": "Tours",
+      "state": "",
+      "country": "France",
+      "status": ""
+    },
+    {
+      "name": "Centre d'Investigation Clinique_CIC 1415",
+      "city": "Tours",
+      "state": "",
+      "country": "France",
+      "status": ""
+    }
+  ],
+  "facilities_count": 3,
+  "eligibility_criteria": "Case group selection criteria :\n\nInclusion Criteria:\n\n* Patient with clinically defined or probable primary ALS according to Airlie House criteria(1)\n* Familial or sporadic form\n* ≥18 years of age\n* Patient affiliated with a social security plan\n* Informed consent signed by the patient\n\nExclusion Criteria:\n\n* Motor neuron disease mimicking ALS\n* Pregnant or breastfeeding woman\n* Treatment that may have a neuroprotective effect\n* Any eye drops or treatments that may interfere with tear production\n* Lens wearer\n* Eye surgery ≤3 months\n* Any ocular pathology other than ametropia, oculomotor disorder, amblyopia\n* Any general pathology other than ALS with ocular repercussions\n* Protective measure of guardianship or curators\n\nControl group selection criteria:\n\nInclusion Criteria:\n\n* No diagnosed neurological pathology\n* ≥18 years of age\n* Patient affiliated with a social security plan\n* Informed consent signed by the participant\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding woman\n* Treatment likely to have a neuroprotective effect\n* Any eye drops or treatments that may interfere with tear production\n* Lens wearer\n* Eye surgery ≤3 months\n* Any ocular pathology except ametropia, oculomotor disorder, amblyopia\n* Any general pathology with ocular repercussions\n* Protective measure of guardianship or curator",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "100 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Metabolome profile in tears for the diagnosis and prognosis of ALS.",
+      "description": "Once the composition in metabolites (i.e. tear metabolome) is determined, statistical univariate and multivariate analyses will aim to determine if the tear metabolome can cluster ALS patients and controls and therefore can be used as a diagnosis biomarker",
+      "timeFrame": "Baseline"
+    },
+    {
+      "measure": "Metabolome profile in intra-cellular contents for the diagnosis and prognosis of ALS.",
+      "description": "Once the composition in metabolites in conjunctival cells is determined, statistical univariate and multivariate analyses will aim to determine if the tear metabome can cluster ALS patients and controls and therefore can be used as a diagnosis biomarker.",
+      "timeFrame": "Baseline"
+    },
+    {
+      "measure": "Lipidome profile in tears for the diagnosis and prognosis of ALS.",
+      "description": "Once the composition in lipids (i.e. tear lipidome) is determined, statistical univariate and multivariate analyses will aim to determine if the tear lipidome can cluster ALS patients and controls and therefore can be used as a diagnosis biomarker",
+      "timeFrame": "Baseline"
+    },
+    {
+      "measure": "Lipidome profile in intra-cellular contents for the diagnosis and prognosis of ALS.",
+      "description": "Once the composition in lipids in conjunctival cells is determined, statistical univariate and multivariate analyses will aim to determine if the tear lipidome can cluster ALS patients and controls and therefore can be used as a diagnosis biomarker.",
+      "timeFrame": "Baseline"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Evolution of the ocular surface metabolites during ALS progression using ultra-high performance liquid chromatography coupled with mass spectrometry",
+      "description": "By carrying out a longitudinal analysis in ALS cases, the modification in tear and cells metabo-lipidome will be assessed at three time-points (at diagnosis, at month 3 and 6) and will correlated with bioclinical criteria of ALS progression (i.e. % of weight loss, % of slope of progression of the ALS-FRS-r score and % of decrease in forced vital capacity). This analysis will aim to search for analytes that can predict ALS progression (i.e. prognosis biomarker).",
+      "timeFrame": "Baseline"
+    },
+    {
+      "measure": "Evolution of the ocular surface lipids during ALS progression using ultra-high performance liquid chromatography coupled with mass spectrometry",
+      "description": "By carrying out a longitudinal analysis in ALS cases, the modification in tear and cells metabo-lipidome will be assessed at three time-points (at diagnosis, at month 3 and 6) and will correlated with bioclinical criteria of ALS progression (i.e. % of weight loss, % of slope of progression of the ALS-FRS-r score and % of decrease in forced vital capacity). This analysis will aim to search for analytes that can predict ALS progression (i.e. prognosis biomarker).",
+      "timeFrame": "Baseline"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "Amyotrophic Lateral Sclerosis (ALS) is the most common neurodegenerative disease affecting the motor neuron. Currently, there is no diagnostic test and no examination that can predict the evolution of this pathology. The search for diagnostic and prognostic biomarkers is therefore essential for a better understanding of the pathophysiology of ALS, which remains poorly understood, and also for better clinical management. The ocular surface, made up of liquid elements, tears, and cells, is an accessible anatomical-physiological entity that has demonstrated its usefulness in the identification of biomarkers in neurodegenerative diseases such as Parkinson's or Alzheimer's. To date, no study has explored the ocular surface as a biomarker in ALS",
+  "detailed_description": "",
+  "interventions": [
+    {
+      "type": "OTHER",
+      "name": "Measure of visual acuity",
+      "description": "ETDRS and Parinaud scale"
+    },
+    {
+      "type": "OTHER",
+      "name": "Interferometry",
+      "description": "Non-contact exam measuring N.I.B.U.T (Non-invasive break-up time), quantitative and qualitative evaluation of the meibomian glands and quantitative evaluation of the tear meniscus"
+    },
+    {
+      "type": "OTHER",
+      "name": "Samples of basal tears",
+      "description": "Collection of basal tears without instillation of anesthetic with a Schirmer strip for 5 minutes and by microcapillary"
+    },
+    {
+      "type": "OTHER",
+      "name": "Central corneal sensitivity",
+      "description": "Central corneal sensitivity using a Cochet-Bonnet esthesiometer (Luneau©)"
+    },
+    {
+      "type": "OTHER",
+      "name": "Slit lamp examination and undilated fundus",
+      "description": "Slit lamp examination and undilated fundus"
+    },
+    {
+      "type": "OTHER",
+      "name": "Conjunctival impression",
+      "description": "Conjunctival impression with anesthetic instillation"
+    },
+    {
+      "type": "OTHER",
+      "name": "Evaluation of the corneal innervation",
+      "description": "Contact corneal confocal microscopy"
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:56.595432+00:00"
+}

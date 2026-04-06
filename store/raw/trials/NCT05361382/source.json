@@ -1,0 +1,399 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05361382",
+      "orgStudyIdInfo": {
+        "id": "STUDY22020056"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01AG073267",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01AG073267"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Pittsburgh",
+        "class": "OTHER"
+      },
+      "briefTitle": "Head-to-Head Harmonization of Tau Tracers in Alzheimer's Disease",
+      "officialTitle": "Longitudinal Multicenter Head-to-Head Harmonization of Tau PET Tracers",
+      "acronym": "HEAD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-03-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-05-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-05-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-04-29",
+      "studyFirstSubmitQcDate": "2022-04-29",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Tharick Pascoal",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "University of Pittsburgh"
+      },
+      "leadSponsor": {
+        "name": "Tharick Pascoal",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Aging (NIA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare/harmonize cross-sectional and longitudinal tau tangle measurements obtained with the tau PET radiopharmaceuticals Flortaucipir and MK-6240 to elucidate the advantages and caveats of their use in clinical trials/practice and provide parameters to integrate their estimates.",
+      "detailedDescription": "This is a longitudinal, multi-site, non-randomized study in which the participants will undergo Flortaucipir and MK-6240 PET scans at baseline and approximately at 18-month follow-up. At each time point, participants will also have an amyloid-β PET scan, magnetic resonance imaging, detailed cognitive tests, and a blood draw for biomarker quantification. The main objectives of this study are standardizing tau PET tracers' outcomes and comparing their performance.\n\nTo accomplish our objectives, the investigators propose the following specific aims:\n\nIn Aim 1, investigators will standardize tau PET processing methods, convert the tracers to a common scale, compare associations with amyloid-β, atrophy, and cognition, and compare/harmonize Braak staging assessments between tau tracers using cross-sectional data.\n\nIn Aim 2, investigators will ascertain the optimal processing method for longitudinal analysis and compare longitudinal changes in tau accumulation obtained with the tau PET radiopharmaceuticals and their associations with changes in amyloid-β, atrophy, and cognition.\n\nIn Exploratory Aim 3, investigators will compare cross-sectional and longitudinal Flortaucipir and MK-6240 estimates with plasma phosphorylated tau concentrations.\n\nThis study will produce a benchmark dataset to develop methods for tau PET quantification and harmonization."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease"
+      ],
+      "keywords": [
+        "Tau PET",
+        "Neurofibrillary tangles",
+        "Alzheimer's disease",
+        "Tauopathies",
+        "Biomarkers"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 822,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Individuals across the aging and Alzheimer's disease (AD) spectrum",
+          "type": "EXPERIMENTAL",
+          "description": "All individuals enrolled into the HEAD study will undergo tau PET, amyloid-β PET, magnetic resonance imaging (MRI), detailed clinical and cognitive assessment, and a blood draw.",
+          "interventionNames": [
+            "Drug: 18F-Flortaucipir radiopharmaceutical",
+            "Drug: 18F-MK-6240 radiopharmaceutical",
+            "Drug: Amyloid-β radiopharmaceutical (11C-PiB or 18F-Florbetaben or 18F-NAV-4694 or 18F-Flutemetamol)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "18F-Flortaucipir radiopharmaceutical",
+          "description": "Flortaucipir is a PET radiopharmaceutical that binds to tau neurofibrillary tangles. Participants will receive a bolus intravenous injection of approximately 10 millicuries of the radiopharmaceutical.",
+          "armGroupLabels": [
+            "Individuals across the aging and Alzheimer's disease (AD) spectrum"
+          ],
+          "otherNames": [
+            "18F-AV-1451, 18F-T807, Tauvid"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "18F-MK-6240 radiopharmaceutical",
+          "description": "MK-6240 is a PET radiopharmaceutical that binds to tau neurofibrillary tangles. Participants will receive a bolus intravenous injection of approximately 5 millicuries of the radiopharmaceutical.",
+          "armGroupLabels": [
+            "Individuals across the aging and Alzheimer's disease (AD) spectrum"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Amyloid-β radiopharmaceutical (11C-PiB or 18F-Florbetaben or 18F-NAV-4694 or 18F-Flutemetamol)",
+          "description": "The clinical sites will use either PiB, Florbetaben, Flutemetamol, or NAV-4694 as the amyloid-β PET radiopharmaceutical. The amyloid-β PET radiopharmaceutical binds to amyloid-β plaques.\n\nParticipants will receive a bolus intravenous injection of approximately 15 millicuries of the PiB radiopharmaceutical.\n\nParticipants will receive a bolus intravenous injection of approximately 8 millicuries of the Florbetaben or NAV-4694 radiopharmaceutical.\n\nParticipants will receive a bolus intravenous injection of approximately 5 millicuries of the Flutemetamol radiopharmaceutical.",
+          "armGroupLabels": [
+            "Individuals across the aging and Alzheimer's disease (AD) spectrum"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cross-sectional tau PET uptake values",
+          "description": "Compare/harmonize cross-sectional tau deposition measurements (standardized uptake value ratio (SUVR)) obtained with Flortaupicir and MK-6240.",
+          "timeFrame": "2 years from enrollment"
+        },
+        {
+          "measure": "Longitudinal change in tau PET uptake values over 18 months",
+          "description": "Compare/harmonize change in tau deposition measurements (standardized uptake value ratio (SUVR)) obtained with Flortaupicir and MK-6240 between baseline and 18-month follow-up assessments.",
+          "timeFrame": "5 years from enrollment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Associations of tau PET uptake values with amyloid-β PET uptake values",
+          "description": "Compare the effect size of the associations of tau deposition measurements (standardized uptake value ratio (SUVR)) obtained with Flortaupicir and MK-6240 with amyloid-β deposition measurements (SUVR).",
+          "timeFrame": "5 years from enrollment"
+        },
+        {
+          "measure": "Associations of tau PET uptake values with measures of cognition",
+          "description": "Compare the effect size of the associations of tau deposition measurements (standardized uptake value ratio (SUVR)) obtained with Flortaupicir and MK-6240 with cognitive measures assessed from neuropsychological evaluation.",
+          "timeFrame": "5 years from enrollment"
+        },
+        {
+          "measure": "Associations of tau PET uptake values blood biomarkers",
+          "description": "Compare the effect size of the associations of tau deposition measurements (standardized uptake value ratio (SUVR)) obtained with Flortaupicir and MK-6240 with blood-based biomarkers of tau.",
+          "timeFrame": "5 years from enrollment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Have a study partner who will be able to provide an independent evaluation of functioning.\n* Willing and capable of undergoing repeated MR/PET imaging.\n* Fluent in a language approved by the coordinating center.\n* At screening, must have no cognitive impairment, or meet criteria for single- or multiple-domain amnestic mild cognitive impairment or Alzheimer's disease dementia.\n\nExclusion criteria:\n\n* Inability to provide informed consent by self or by proxy.\n* Pregnant or breastfeeding women.\n* Have any condition or are taking any medication that could increase the risk to the participant, limit the ability to tolerate or interfere with the results of the tests and procedures (in the opinion of the investigator).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Tharick Pascoal, MD, PhD",
+          "affiliation": "University of Pittsburgh",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Lawrence Berkeley National Laboratory",
+          "city": "Berkeley",
+          "state": "California",
+          "zip": "94720",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.87159,
+            "lon": -122.27275
+          }
+        },
+        {
+          "facility": "University of California San Francisco",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Washington University in St. Louis",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63130",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "University of Pittsburgh",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Brown University",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02912",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Houston Methodist Neurological Institute",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "McGill University",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3A 0G4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Sant Pau Biomedical Research Institute",
+          "city": "Barcelona",
+          "state": "Spain",
+          "zip": "08025",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Data from this research will be shared with other researchers pursuant to the 02/26/2003 \"NIH Final Statement on Sharing Research Data\". To protect participants' rights and confidentiality, identifiers will be removed from the data before they are shared. The board of PIs has primary oversight of the HEAD study resource sharing plan and will review all issues related to internal and external requests for HEAD data. Raw PET and MR data will be uploaded by clinical sites after acquisitions, whereas processed PET and MR data will be uploaded after completion of the baseline visit and after completion of the 18-month follow-up visit. Demographics, results from cognitive tests, Aβ status, tau Braak staging, and plasma assay results will also be available through the LONI platform.",
+      "timeFrame": "Data from baseline and follow-up assessments will be available for sharing after the completion of the respective study visits.",
+      "accessCriteria": "Researchers will be able to download data upon request to the PIs. Data sharing requests will be overseen by the study and site PIs.",
+      "url": "http://www.loni.usc.edu/"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2023-09-25",
+          "uploadDate": "2025-04-01T14:16",
+          "filename": "ICF_000.pdf",
+          "size": 408186
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591008",
+          "term": "7-(6-fluoropyridin-3-yl)-5H-pyrido(4,3-b)indole"
+        },
+        {
+          "id": "C475519",
+          "term": "2-(4'-(methylamino)phenyl)-6-hydroxybenzothiazole"
+        },
+        {
+          "id": "C527756",
+          "term": "4-(N-methylamino)-4'-(2-(2-(2-fluoroethoxy)ethoxy)ethoxy)stilbene"
+        },
+        {
+          "id": "C581552",
+          "term": "flutemetamol"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

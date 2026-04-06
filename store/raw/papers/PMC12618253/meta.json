@@ -1,0 +1,340 @@
+{
+  "pmid": "40855194",
+  "pmc": "PMC12618253",
+  "doi": "10.1038/s41591-025-03891-5",
+  "title": "Interplay of genetic predisposition, plasma metabolome and Mediterranean diet in dementia risk and cognitive function",
+  "journal": "Nature Medicine",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Liu Yuxi",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/05a0ya142grid.66859.340000 0004 0546 1623Broad Institute of MIT and Harvard, Cambridge, MA USA"
+      ]
+    },
+    {
+      "name": "Gu Xiao",
+      "affiliations": [
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Li Yanping",
+      "affiliations": [
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Wang Fenglei",
+      "affiliations": [
+        "https://ror.org/05a0ya142grid.66859.340000 0004 0546 1623Broad Institute of MIT and Harvard, Cambridge, MA USA",
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Vyas Chirag M.",
+      "affiliations": [
+        "https://ror.org/002pd6e78grid.32224.350000 0004 0386 9924Department of Psychiatry, Massachusetts General Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Peng Cheng",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Dong Danyue",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA",
+        "https://ror.org/05a0ya142grid.66859.340000 0004 0546 1623Broad Institute of MIT and Harvard, Cambridge, MA USA"
+      ]
+    },
+    {
+      "name": "Li Yuhan",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Zhang Yu",
+      "affiliations": [
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Zhang Yin",
+      "affiliations": [
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Zeleznik Oana A.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Kang Jae H.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Wang Molin",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Hu Frank B.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Willett Walter C.",
+      "affiliations": [
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Okereke Olivia I.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/002pd6e78grid.32224.350000 0004 0386 9924Department of Psychiatry, Massachusetts General Hospital and Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Eliassen A. Heather",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Kraft Peter",
+      "affiliations": [
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/040gcmg81grid.48336.3a0000 0004 1936 8075Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD USA"
+      ]
+    },
+    {
+      "name": "Stampfer Meir J.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA USA",
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Wang Dong D.",
+      "affiliations": [
+        "https://ror.org/04b6nzv94grid.62560.370000 0004 0378 8294Channing Division of Network Medicine, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA USA",
+        "https://ror.org/05a0ya142grid.66859.340000 0004 0546 1623Broad Institute of MIT and Harvard, Cambridge, MA USA",
+        "https://ror.org/05n894m26Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "Genetic association study",
+    "Epidemiology",
+    "Predictive markers",
+    "Risk factors"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/100000062U.S. Department of Health & Human Services | NIH | National Institute of Diabetes and Digestive and Kidney Diseases (National Institute of Diabetes & Digestive & Kidney Diseases)R00DK119412P30DK046200WangFengleiHuFrank B.",
+    "https://doi.org/10.13039/100000056U.S. Department of Health & Human Services | NIH | National Institute of Nursing Research (NINR)R01NR019992WangFenglei",
+    "https://doi.org/10.13039/100000049U.S. Department of Health & Human Services | NIH | National Institute on Aging (U.S. National Institute on Aging)R01AG077489RF1AG083764U54AG089325WangFenglei"
+  ],
+  "data_availability_text": "Data availabilityAs informed consent was gained from the participants, all the individual-level data from the NHS and the HPFS are available through a request for external collaboration and upon approval of a letter of intent and a research proposal. Details on how to request external collaborations with the NHS can be found at https://nurseshealthstudy.org/researchers (contact principal investigator: A.H.E., email: nhahe@channing.harvard.edu) and with the HPFS at https://sites.sph.harvard.edu/hpfs/for-collaborators (contact principal investigator: L. Mucci, email: lmucci@hsph.harvard.edu). Source data are provided with this paper.",
+  "license": "",
+  "received": "2025-01-11",
+  "accepted": "2025-07-11",
+  "reference_pmids": [
+    "32491376",
+    "16461860",
+    "16461860",
+    "23296339",
+    "23296339",
+    "31367008",
+    "31367008",
+    "35232622",
+    "35232622",
+    "38906999",
+    "38906999",
+    "38710950",
+    "38710950",
+    "34493870",
+    "34493870",
+    "35379992",
+    "35379992",
+    "37872285",
+    "37872285",
+    "36635386",
+    "36635386",
+    "36216932",
+    "36216932",
+    "37375654",
+    "37375654",
+    "31828981",
+    "31828981",
+    "31785839",
+    "31785839",
+    "37218097",
+    "37218097",
+    "32123170",
+    "32123170",
+    "35481667",
+    "35481667",
+    "34980257",
+    "34980257",
+    "39213809",
+    "39213809",
+    "32968074",
+    "32968074",
+    "30579367",
+    "30579367",
+    "29249916",
+    "29249916",
+    "38252443",
+    "38252443",
+    "25961184",
+    "25961184",
+    "16197300",
+    "16197300",
+    "36735640",
+    "36735640",
+    "24022817",
+    "24022817",
+    "36385529",
+    "36385529",
+    "30686764",
+    "30686764",
+    "39419029",
+    "39419029",
+    "30224900",
+    "30224900",
+    "23494712",
+    "23494712",
+    "29083323",
+    "29083323",
+    "25622912",
+    "25622912",
+    "16155259",
+    "16155259",
+    "28814398",
+    "28814398",
+    "32416962",
+    "32416962",
+    "28323825",
+    "28323825",
+    "25242145",
+    "25242145",
+    "29298852",
+    "29298852",
+    "2573696",
+    "2573696",
+    "28680297",
+    "28680297",
+    "8858963",
+    "8858963",
+    "24719136",
+    "24719136",
+    "24473231",
+    "24473231",
+    "17998490",
+    "17998490",
+    "30459657",
+    "30459657",
+    "37357100",
+    "37357100",
+    "27164694",
+    "27164694",
+    "36915130",
+    "36915130",
+    "36180553",
+    "36180553",
+    "37343679",
+    "37343679",
+    "30820070",
+    "30820070",
+    "27459450",
+    "27459450",
+    "6720679",
+    "6720679",
+    "1202204",
+    "1202204",
+    "28301549",
+    "28301549",
+    "39327485",
+    "39327485",
+    "4014201",
+    "4014201",
+    "16424129",
+    "16424129",
+    "15737082",
+    "15737082",
+    "7069920",
+    "7069920",
+    "27427429",
+    "27427429",
+    "36653562",
+    "36653562",
+    "30038396",
+    "30038396"
+  ],
+  "tables_count": 0,
+  "figures_count": 15,
+  "sections_present": [
+    "abstract",
+    "main",
+    "results",
+    "integrating genetics, plasma metabolomics and dietary intakes to study adrd etiology in long-running prospective studies",
+    "common ad/adrd risk variants modified the associations between plasma metabolites and dementia risk",
+    "meddiet may more effectively modulate metabolites implicated in dementia risk in",
+    "prediction of dementia risk using genetic, metabolomic and dietary factors",
+    "putative causal relationships between metabolomic features and cognitive outcomes",
+    "discussion",
+    "methods",
+    "ethics statement",
+    "study populations",
+    "ascertainment of dementia and assessment of objective cognitive function",
+    "genotyping,",
+    "metabolomic profiling",
+    "dietary assessment and the meddiet score",
+    "assessment of global impacts of genetics and meddiet on plasma metabolome",
+    "interaction analyses of plasma metabolome and genetic variation in relation to dementia risk and cognitive function",
+    "associations of meddiet adherence with dementia risk and cognitive function",
+    "associations between meddiet adherence and plasma metabolome by genetic subgroups",
+    "mediation effect of metabolites on the association between meddiet adherence and dementia risk by",
+    "prediction of dementia risk and cognitive function",
+    "two-sample mr analysis",
+    "gwas sources",
+    "genetic instruments",
+    "mr analysis",
+    "colocalization analysis",
+    "reporting summary",
+    "online content",
+    "supplementary information",
+    "source data",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 15139,
+  "converted_at": "2026-04-06T22:37:59.156771+00:00"
+}

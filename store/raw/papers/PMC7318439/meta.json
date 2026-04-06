@@ -1,0 +1,194 @@
+{
+  "pmid": "32586411",
+  "pmc": "PMC7318439",
+  "doi": "10.1186/s40478-020-00968-9",
+  "title": "Global alterations to the choroid plexus blood-CSF barrier in amyotrophic lateral sclerosis",
+  "journal": "Acta Neuropathologica Communications",
+  "year": 2020,
+  "authors": [
+    {
+      "name": "Saul J.",
+      "affiliations": [
+        "grid.240866.e0000 0001 2110 9177Department of Neurobiology, St. Joseph’s Hospital and Medical Center and Barrow Neurological Institute, 350 W Thomas Road, Phoenix, AZ 85013 USA",
+        "grid.427785.b0000 0001 0664 3531Gregory W. Fulton ALS Center, Barrow Neurological Institute, Phoenix, AZ USA"
+      ]
+    },
+    {
+      "name": "Hutchins E.",
+      "affiliations": [
+        "grid.250942.80000 0004 0507 3225Neurogenomics Division, Translational Genomics Research Institute (Tgen), Phoenix, AZ USA"
+      ]
+    },
+    {
+      "name": "Reiman R.",
+      "affiliations": [
+        "grid.250942.80000 0004 0507 3225Neurogenomics Division, Translational Genomics Research Institute (Tgen), Phoenix, AZ USA"
+      ]
+    },
+    {
+      "name": "Saul M.",
+      "affiliations": [
+        "grid.215654.10000 0001 2151 2636Department of Biomedical Informatics, Arizona State University, Tempe, AZ USA"
+      ]
+    },
+    {
+      "name": "Ostrow L. W.",
+      "affiliations": [
+        "grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Harris B. T.",
+      "affiliations": [
+        "grid.411667.30000 0001 2186 0438Departments of Pathology and Neurology, Georgetown University Medical Center, Washington, DC USA"
+      ]
+    },
+    {
+      "name": "Van Keuren-Jensen K.",
+      "affiliations": [
+        "grid.250942.80000 0004 0507 3225Neurogenomics Division, Translational Genomics Research Institute (Tgen), Phoenix, AZ USA"
+      ]
+    },
+    {
+      "name": "Bowser R.",
+      "affiliations": [
+        "grid.240866.e0000 0001 2110 9177Department of Neurobiology, St. Joseph’s Hospital and Medical Center and Barrow Neurological Institute, 350 W Thomas Road, Phoenix, AZ 85013 USA",
+        "grid.427785.b0000 0001 0664 3531Gregory W. Fulton ALS Center, Barrow Neurological Institute, Phoenix, AZ USA"
+      ]
+    },
+    {
+      "name": "Bakkar N.",
+      "affiliations": [
+        "grid.240866.e0000 0001 2110 9177Department of Neurobiology, St. Joseph’s Hospital and Medical Center and Barrow Neurological Institute, 350 W Thomas Road, Phoenix, AZ 85013 USA",
+        "grid.427785.b0000 0001 0664 3531Gregory W. Fulton ALS Center, Barrow Neurological Institute, Phoenix, AZ USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Choroid plexus",
+    "ALS",
+    "Blood-CSF barrier",
+    "RNA sequencing",
+    "Tight junctions"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100000971Amyotrophic Lateral Sclerosis Association17-IIP-349",
+    "http://dx.doi.org/10.13039/100008335Arizona Biomedical Research CommissionADHS16-162412",
+    "http://dx.doi.org/10.13039/100009797Barrow Neurological Foundation"
+  ],
+  "data_availability_text": "Availability of data and materialsThe datasets used and/or analysed during the current study are available from the corresponding author on reasonable request.",
+  "license": "OpenAccess",
+  "received": "2020-05-06",
+  "accepted": "2020-06-15",
+  "reference_pmids": [
+    "4050318",
+    "2017904",
+    "21839917",
+    "20944627",
+    "21109308",
+    "12884290",
+    "11095490",
+    "23859630",
+    "16567701",
+    "26538832",
+    "26377465",
+    "24522913",
+    "15130911",
+    "19465376",
+    "28710685",
+    "12093878",
+    "26401960",
+    "20944625",
+    "15652414",
+    "17324488",
+    "6368581",
+    "11568129",
+    "19523650",
+    "23065156",
+    "22750125",
+    "24550780",
+    "18030339",
+    "20485543",
+    "29368213",
+    "7420088",
+    "21569455",
+    "19414730",
+    "26819373",
+    "19033363",
+    "24391755",
+    "23590652",
+    "19652875",
+    "16632515",
+    "25475053",
+    "26888305",
+    "12829791",
+    "24356983",
+    "25904790",
+    "6737012",
+    "26332465",
+    "22379038",
+    "28384752",
+    "23761922",
+    "22902764",
+    "16371600",
+    "30407594",
+    "19796283",
+    "20123094",
+    "21839029",
+    "15080860",
+    "24435645",
+    "22903150",
+    "25108067",
+    "16344101",
+    "24369373",
+    "20583124",
+    "24336108",
+    "12700093",
+    "10672315",
+    "23435332",
+    "23477737",
+    "27452173",
+    "26220261",
+    "29706967",
+    "29848382",
+    "31665631",
+    "24795602",
+    "18838197",
+    "10375650",
+    "22030551",
+    "22941226",
+    "26883206",
+    "27403440",
+    "28057713"
+  ],
+  "tables_count": 2,
+  "figures_count": 11,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "global changes in cp als transcriptome",
+    "als alters bcsfb integrity",
+    "als activates platelet aggregation pathways",
+    "vascular integrity is compromised in als-cp",
+    "immune activation in als-cp",
+    "discussion",
+    "methods",
+    "tissue samples",
+    "bioinformatic methods",
+    "choroid plexus protein lysate preparation",
+    "meso scale discovery immunoassay analysis",
+    "rna extraction and q-pcr",
+    "rna-seq library preparation",
+    "ihc and immunofluorescence",
+    "statistical analysis",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11227,
+  "converted_at": "2026-04-06T22:39:59.583906+00:00"
+}

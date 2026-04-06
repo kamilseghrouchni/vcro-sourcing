@@ -1,0 +1,254 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03687710",
+      "orgStudyIdInfo": {
+        "id": "1408015423"
+      },
+      "organization": {
+        "fullName": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Comparative Effectiveness Dementia & Alzheimer's Registry",
+      "officialTitle": "The Comparative Effectiveness Dementia & Alzheimer's Registry",
+      "acronym": "CEDAR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-02-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-09-06",
+      "studyFirstSubmitQcDate": "2018-09-26",
+      "studyFirstPostDateStruct": {
+        "date": "2018-09-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To evaluate the effectiveness of using clinical precision medicine to develop lifecourse interventions for Alzheimer's disease (AD) prevention and treatment. Anthropometrics, blood biomarkers (including genetics), and cognition will measured longitudinally to assess the comparative effectiveness of clinical care.",
+      "detailedDescription": "The Comparative Effectiveness Dementia \\& Alzheimer's Registry (CEDAR) Project is a prospective, observational registry of adult patients at-risk for, or with, a diagnosis of dementia due to Alzheimer's disease (AD) or other neurodegenerative dementias. The purpose of this study is to develop a research repository, or database, for information collected during routine medical care of people with normal memory and family history of AD, or with memory loss or other changes in thinking. The registry will help generate empirical evidence that improves knowledge and informs care decisions about risk reduction for dementia due to AD, and about the effectiveness of a clinical precision medicine intervention. Using a life course approach to comparative effectiveness research will enable investigators to analyze the effects of evidence-based multidomain interventions on cognition, biomarkers of AD risk, and calculated AD risk across the pre-dementia spectrum of AD."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Mild Cognitive Impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "10 Years",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 452,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Multidomain precision medicine intervention",
+          "description": "Participants will receive individualized evidence-based multidomain interventions (education, pharmacologic, non-pharmacologic) in the setting of routine outpatient clinical care."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline in Alzheimer's Prevention Initiative Cognitive Composite (APCC) every 6 months",
+          "description": "Composite Cognitive Battery (including NIH Toolbox Cognition Battery and other pen-and-paper neuropsychological tests).",
+          "timeFrame": "every 6 months, for 18 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change from Baseline in Cognitive Aging Composite (CAC) every 6 months",
+          "description": "Composite Cognitive Battery, including neuropsychological tests related to non-pathological (age-related) cognitive decline.",
+          "timeFrame": "every 6 months, for 18 months"
+        },
+        {
+          "measure": "Change from Baseline of Australian National University - Alzheimer's Disease Risk Score (ANU-ADRI) at 6 months",
+          "description": "Measure longitudinal changes in a validated Alzheimer's risk scale (score range from -13 to 78) where higher scores confer higher risk",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Change in Baseline on Cardiovascular Risk Factors, Aging, and Incidence of Dementia (CAIDE) Risk Score at 18 months",
+          "description": "Measure longitudinal changes in a validated Alzheimer's risk scale (score range from 0 to 14) where higher scores confer higher risk",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Change from Baseline on American College of Cardiology / American Heart Association Cardiovascular Risk Percentage at 18 months",
+          "description": "Measure longitudinal changes in a validated cardiovascular risk scale (higher percentage confers higher risk).",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Change from Baseline on Multi-Ethnic Study of Atherosclerosis (MESA) Risk Percentage at 18 months.",
+          "description": "Measure longitudinal changes in a validated cardiovascular risk scale (higher percentage confers higher risk).",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Change from Baseline in Cholesterol Biomarkers at 18 months",
+          "description": "Change in blood serum levels of cholesterol (total, LDL, HDL) in mg/dL",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Change from Baseline in Inflammatory Biomarkers at 18 months",
+          "description": "Change in blood serum levels of hs-CRP, fibrinogen, Cystatin C in mg/dL",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Change from Baseline in Metabolism Biomarkers at 18 months",
+          "description": "Change in blood serum levels of HbA1c and HOMA-IR",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Change from Baseline in Homocysteine at 18 months",
+          "description": "Change in blood serum level of homocysteine",
+          "timeFrame": "18 months"
+        },
+        {
+          "measure": "Change from Baseline in Vitamin D at 18 months",
+          "description": "Change in blood serum level of Vitamin D",
+          "timeFrame": "18 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* family history of Alzheimer's disease and no cognitive complaints OR subjective cognitive decline OR preclinical AD OR mild cognitive impairment due to AD or other conditions\n\nExclusion Criteria:\n\n* none",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Male and female patients will be recruited at the Alzheimer's Prevention Clinic, Weill Cornell Medicine Memory Disorders Program.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Schantel Williams, MPH, RN",
+          "affiliation": "Program Director of Alzheimer's Prevention Program",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Weill Cornell Medicine",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30446421",
+          "type": "DERIVED",
+          "citation": "Isaacson RS, Ganzer CA, Hristov H, Hackett K, Caesar E, Cohen R, Kachko R, Melendez-Cabrero J, Rahman A, Scheyer O, Hwang MJ, Berkowitz C, Hendrix S, Mureb M, Schelke MW, Mosconi L, Seifan A, Krikorian R. The clinical practice of risk reduction for Alzheimer's disease: A precision medicine approach. Alzheimers Dement. 2018 Dec;14(12):1663-1673. doi: 10.1016/j.jalz.2018.08.004. Epub 2018 Nov 13."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

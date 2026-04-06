@@ -1,0 +1,284 @@
+{
+  "nct_id": "NCT00677768",
+  "title": "A Multicenter Study for the Validation of ALS Biomarkers",
+  "brief_title": "Validation of Biomarkers in Amyotrophic Lateral Sclerosis (ALS)",
+  "status": "COMPLETED",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 475,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis",
+    "Lou Gehrig's Disease",
+    "Primary Lateral Sclerosis",
+    "Nervous System Diseases",
+    "Hereditary Spastic Paraparesis"
+  ],
+  "keywords": [
+    "Biomarkers",
+    "Plasma",
+    "Cerebrospinal Fluid",
+    "DNA",
+    "Serum"
+  ],
+  "sponsor": "Massachusetts General Hospital",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "ALS Association",
+    "ALS Therapy Alliance",
+    "National Institutes of Health (NIH)",
+    "National Institute of Neurological Disorders and Stroke (NINDS)"
+  ],
+  "lead_pi": {
+    "name": "James D. Berry, MD, MPH",
+    "affiliation": "Massachusetts General Hospital"
+  },
+  "start_date": "2008-04",
+  "completion_date": "2015-11",
+  "primary_completion_date": "2015-11",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "650 blood samples (plasma and serum)will be collected from four groups: ALS volunteers diagnosed with ALS, volunteers with pure lower or pure upper motor neuron diseases, volunteers with other neurological diseases and healthy control volunteers.\n\n300 cerebrospinal fluid (CSF) samples will be collected from all four groups: ALS volunteers diagnosed with ALS, volunteers with pure lower or pure upper motor neuron diseases, volunteers with other neurological diseases and healthy control volunteers.\n\nUp to 600 DNA samples will also be collected from all 4 groups: ALS volunteers diagnosed with ALS, volunteers with pure lower or pure upper motor neuron diseases, volunteers with other neurological diseases and healthy control volunteers.",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Phoenix Neurological Associates, Ltd.",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of California Irvine",
+      "city": "Orange",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mayo Clinic Neurology",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Emory University",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Chicago",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Johns Hopkins University",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Massachusetts General Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Lahey Clinic",
+      "city": "Burlington",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Saint Mary's Healthcare",
+      "city": "Grand Rapids",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Hennepin County Medical Center",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Saint Louis University",
+      "city": "St Louis",
+      "state": "Missouri",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Washington University",
+      "city": "St Louis",
+      "state": "Missouri",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Dartmouth Hitchcock Medical Center",
+      "city": "Lebanon",
+      "state": "New Hampshire",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Robert Wood Johnson/UMDNJ",
+      "city": "New Brunswick",
+      "state": "New Jersey",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Upstate Clinical Research, LLC",
+      "city": "Albany",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Beth Israel Medical Center, PACC",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "SUNY Upstate Medical University",
+      "city": "Syracuse",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Carolinas Health Care",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Duke University Medical Center",
+      "city": "Durham",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Wake Forest University",
+      "city": "Winston-Salem",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "OSU Medical Center",
+      "city": "Columbus",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Providence ALS Clinic",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Oregon Health & Science University",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Pennsylvania State University",
+      "city": "Hershey",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Drexel University College of Medicine",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Pittsburgh",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Methodist Neurological Institute",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Utah",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Montreal Neurological Institute",
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada",
+      "status": ""
+    }
+  ],
+  "facilities_count": 30,
+  "eligibility_criteria": "1. ALS Volunteers\n\n   Inclusion Criteria:\n   * Diagnosis of possible (excluding volunteers with UMN signs ONLY), probable, probable-laboratory supported, or definite ALS, either sporadic or familial according to revised El Escorial criteria\n   * Disease duration of less than or equal to two years from symptom onset\n   * Age 30-80 years at the time of disease onset\n   * Ability to provide informed consent\n   * Ability to comply with study procedures\n   * Medically safe to have lumbar puncture (lumbar puncture volunteers only)\n\n   Exclusion Criteria:\n   * Clinical evidence of chronic liver or renal failure\n   * Presence of a bleeding disorder, problems with CSF pressure, allergy to local anesthetics, or a topical or other skin infection at the LP site (lumbar puncture volunteers only)\n   * Use of any anti-platelet or anticoagulant drugs, such as plavix, aggrenox, ticlid, warfarin or coumadin (lumbar puncture volunteers only)\n2. Suspected ALS (PMND) Volunteers\n\n   Inclusion Criteria:\n   * Diagnosis of suspected ALS defined as presence of UMN or LMN signs alone and the diagnosis of Clinically Probably Laboratory-Supported ALS CANNOT be proven by evidence in clinical grounds in conjunction with electrodiagnostic, neurophysiologic, neuroimaging or clinically laboratory studies\n   * Disease duration of less than or equal to four years from symptom onset\n   * Age 30-80 years at time of disease onset\n   * Ability to provide informed consent\n   * Ability to comply with study procedures\n   * Medically safe to have lumbar puncture (lumbar puncture volunteers only)\n\n   Exclusion Criteria:\n   * Clinical evidence of chronic liver or renal failure\n   * Genetically confirmed diagnosis of hereditary spastic paraparesis or spinal motor atrophy (SMA) disease\n   * Presence of a bleeding disorder, problems with CSF pressure, allergy to local anesthetics, or a topical or other skin infection at the LP site (lumbar puncture volunteers only)\n   * Use of any anti-platelet or anticoagulant drugs, such as plavix, aggrenox, ticlid, warfarin or coumadin (lumbar puncture volunteers only)\n3. Neurological Disease Mimic Volunteers\n\n   Inclusion Criteria:\n\n   Diagnosis of one of the following:\n\n   Pure Lower Motor Neuron Disease (LMND) mimics:\n   * Multi-focal motor neuropathy\n   * Autoimmune motor neuropathy\n   * Cervical or lumbosacral radiculopathies\n\n   Peripheral mononeuropathies:\n   * Ulnar neuropathy\n   * Carpal tunnel syndrome/median neuropathy\n   * Peroneal neuropathy\n   * Sciatic neuropathy\n   * Spinal muscular atrophy\n   * Spinobulbar muscular atrophy (Kennedy's disease)\n   * Charcot Marie-Tooth Disease (CMT)\n\n   Pure Upper Motor Neuron Disease (UMND) mimics:\n   * Cervical myelopathy\n   * Multiple sclerosis\n   * Hereditary spastic paraparesis\n   * Age 30-80 years\n   * Ability to provide informed consent\n   * Ability to comply with study procedures\n   * Medically safe to have lumbar puncture (lumbar puncture volunteers only)\n\n   Exclusion Criteria:\n   * Diagnosis of suspected, possible, probable or definite ALS either sporadic or familial\n   * Presence of positive family history of ALS\n   * Clinical evidence of chronic renal or liver failure\n   * Presence of a bleeding disorder, problems with CSF pressure, allergy to local anesthetics, or a topical or other skin infection at the LP site (lumbar puncture volunteers only)\n   * Use of any anti-platelet or anticoagulant drugs, such as plavix, aggrenox, ticlid, warfarin or coumadin (lumbar puncture volunteers only)\n4. Healthy Control Volunteers Inclusion Criteria\n\n   * Absence of a known neurological disorder.\n   * Age 30 - 80 years.\n   * Ability to provide informed consent.\n   * Ability to comply with study procedures.\n   * Medically safe to have lumbar puncture.\n\nExclusion Criteria:\n\n* History of ALS, myopathy, neuropathy, ALS mimic disorder or other neurodegenerative disease.\n* Presence of positive family history of ALS.\n* Clinical evidence of chronic liver or renal failure.\n* Presence of bleeding disorder, problems with CSF pressure, allergy to local anesthetics, or a topical or other skin infection at the LP site (LP research volunteers only).\n* Research participant must not be taking anti-platelet or anticoagulant drugs, such as plavix, aggrenox, ticlid, warfarin or coumadin (LP research volunteers only).",
+  "eligibility_min_age": "30 Years",
+  "eligibility_max_age": "80 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "ALS Functional Rating Scale (ALSFRS-R)",
+      "description": "The ALSFRS-R is a quickly administered (5 min) ordinal rating scale used to determine a subject's assessment of their capability and independence in 12 functional activities. There are 12 questions, graded by the subject 0-4 (4 is normal). Score of 0 (worst) to 48 (best). Reflects speech and swallowing, fine motor skills, large motor skills, and breathing.",
+      "timeFrame": "Every 6 months"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "The purpose of this study is to collect 650 blood and 300 cerebrospinal fluid (CSF) samples from people with amyotrophic lateral sclerosis (ALS), pure lower or upper motor neuron diseases, as well as other neurodegenerative diseases and from people with no neurological disorder. Through comparison of these samples, the researchers hope to learn more about the underlying cause of ALS, as well as find unique biological markers, which could be used to diagnose ALS and monitor disease progression.\n\nAdditionally, up to 600 blood samples will be collected for a sub-study for DNA analysis. Studying components of the blood, such as DNA, may help us understand what happens when genes function abnormally and how it might be related to disease.",
+  "detailed_description": "Researchers tested what changes happen in volunteers with ALS that can be seen in the blood and what changes are unique to ALS and are different from those found in healthy volunteers and volunteers with neurological diseases other than ALS. These changes are called biomarkers. Biomarkers for ALS have been found in blood collected in earlier phases of this study. Biomarkers are non-genetic elements in your blood that may help to make diagnosing ALS easier. In the next phase, comparison of these changes in the blood of volunteers with ALS and without ALS will be used to confirm these biomarkers and to develop a tool to diagnose and monitor progression of ALS.",
+  "interventions": [
+    {
+      "type": "OTHER",
+      "name": "No intervention",
+      "description": "Sample collection"
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:54.664038+00:00"
+}

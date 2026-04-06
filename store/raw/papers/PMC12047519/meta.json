@@ -1,0 +1,223 @@
+{
+  "pmid": "40118053",
+  "pmc": "PMC12047519",
+  "doi": "10.1016/j.xcrm.2025.102031",
+  "title": "Cerebrospinal fluid proteomics identification of biomarkers for amyloid and tau PET stages",
+  "journal": "Cell Reports Medicine",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Wang Zhibo",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chen Yuhan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gong Katherine",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhao Bote",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ning Yuye",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chen Meilin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Li Yan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ali Muhammad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Timsina Jigyasha",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liu Menghan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cruchaga Carlos",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jia Jianping",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "proteomics",
+    "amyloid PET",
+    "tau PET",
+    "Alzheimer’s disease",
+    "CSF biomarkers",
+    "Aβ",
+    "p-tau",
+    "dementia",
+    "Alzheimer's disease continuum",
+    "biological staging"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data and code availability •This study does not generate new original data. All data used in this study were obtained from the ADNI and Knight ADRC cohorts. For ADNI, all variables used tables in this study are provided at https://zenodo.org/records/14866417, and the full datasets are available through ADNI upon reasonable request. For ADNI data access, please visit the ADNI website at www.adni-info.org, and request approval for access.•For the Knight ADRC cohort used in the validation of this study, individual-level data and proteomics can be requested from the NeuroGenomics and Informatics Center (NGI) at https://neurogenomics.wustl.edu/open-science/resource-sharing-hub/ or from Database: NIAGADS, NG00130 .•This paper does not report the original code. The code for analyses conducted in this study was derived from two previously published studies.60,61 The machine learning code employed is publicly accessible at https://zenodo.org/records/14866417.•All software utilized in this study is publicly available. Summary results generated from this study are provided in Tables S3 and S4. A full list of open-source software used is available in the key resources table.•Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.",
+  "license": "",
+  "received": "2024-09-24",
+  "accepted": "2025-02-24",
+  "reference_pmids": [
+    "29653606",
+    "37506291",
+    "36840620",
+    "37443334",
+    "37963289",
+    "36357681",
+    "37459141",
+    "37467317",
+    "33087358",
+    "37118088",
+    "37406134",
+    "24768341",
+    "38934362",
+    "37550416",
+    "39585417",
+    "31926610",
+    "12393843",
+    "34733984",
+    "22842048",
+    "27631878",
+    "38001539",
+    "38035365",
+    "32560738",
+    "38992331",
+    "16446429",
+    "8759782",
+    "33646358",
+    "26603284",
+    "25051050",
+    "30301754",
+    "36717601",
+    "39394841",
+    "31097008",
+    "10987859",
+    "39332414",
+    "38987357",
+    "38235188",
+    "39187705",
+    "25792098",
+    "36578067",
+    "33422896",
+    "39174535",
+    "36620941",
+    "29403035",
+    "35099509",
+    "30737462",
+    "18193650",
+    "27154981",
+    "36508198",
+    "37966285",
+    "38048096",
+    "37534889",
+    "38382645",
+    "20157306",
+    "38416439",
+    "38381674",
+    "34819519",
+    "38287168",
+    "36357677",
+    "39528825",
+    "35871346",
+    "34239129",
+    "22039212",
+    "33971965",
+    "25443857",
+    "27323247",
+    "31953405",
+    "28756238",
+    "34557778",
+    "22455463",
+    "20808728"
+  ],
+  "tables_count": 2,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "study design and participants",
+    "proteomic profiling associated with amyloid pet",
+    "proteomic profiling associated with tau pet",
+    "proteomic signatures for distinguishing amyloid and tau pet stages",
+    "predictive performance for early-stage and late-stage protein panels",
+    "association with progression to dementia and rate of cognitive decline",
+    "validation in external cohort and internal cohorts",
+    "discussion",
+    "limitations of the study",
+    "resource availability",
+    "lead contact",
+    "materials availability",
+    "data and code availability",
+    "acknowledgments",
+    "author contributions",
+    "declaration of interests",
+    "star★methods",
+    "key resources table",
+    "experimental model and study participant details",
+    "human subject characteristics",
+    "the adni cohort",
+    "the knight adrc cohort",
+    "method details",
+    "csf proteomics measures",
+    "csf and plasma ad biomarker measures",
+    "imaging acquisition and quantification",
+    "assessment of clinical outcome",
+    "neuropathological examination",
+    "quantification and statistical analysis",
+    "association between proteomics and pet outcomes",
+    "discriminative performance of proteomics",
+    "pathway analyses",
+    "predictive modeling analysis",
+    "differential analysis",
+    "survival analysis",
+    "cognitive association analysis",
+    "external validation",
+    "internal validation",
+    "sensitivity analyses",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14563,
+  "converted_at": "2026-04-06T22:36:54.288939+00:00"
+}

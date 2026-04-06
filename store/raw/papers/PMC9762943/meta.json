@@ -1,0 +1,200 @@
+{
+  "pmid": "35088843",
+  "pmc": "PMC9762943",
+  "doi": "10.1093/brain/awac025",
+  "title": "Metabolomics identifies shared lipid pathways in independent amyotrophic lateral sclerosis cohorts",
+  "journal": "Brain",
+  "year": 2022,
+  "authors": [
+    {
+      "name": "Goutman Stephen A",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, MI, USA",
+        "NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor, MI, USA"
+      ]
+    },
+    {
+      "name": "Guo Kai",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, MI, USA",
+        "NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor, MI, USA"
+      ]
+    },
+    {
+      "name": "Savelieff Masha G",
+      "affiliations": [
+        "NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor, MI, USA"
+      ]
+    },
+    {
+      "name": "Patterson Adam",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, MI, USA",
+        "NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor, MI, USA"
+      ]
+    },
+    {
+      "name": "Sakowski Stacey A",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, MI, USA",
+        "NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor, MI, USA"
+      ]
+    },
+    {
+      "name": "Habra Hani",
+      "affiliations": [
+        "Department of Computational Medicine & Bioinformatics, University of Michigan, Ann Arbor, MI, USA"
+      ]
+    },
+    {
+      "name": "Karnovsky Alla",
+      "affiliations": [
+        "Department of Computational Medicine & Bioinformatics, University of Michigan, Ann Arbor, MI, USA"
+      ]
+    },
+    {
+      "name": "Hur Junguk",
+      "affiliations": [
+        "Department of Biomedical Sciences, University of North Dakota, Grand Forks, ND, USA"
+      ]
+    },
+    {
+      "name": "Feldman Eva L",
+      "affiliations": [
+        "Department of Neurology, University of Michigan, Ann Arbor, MI, USA",
+        "NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor, MI, USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "amyotrophic lateral sclerosis (ALS)",
+    "metabolomics",
+    "lipidomics",
+    "sphingolipids",
+    "differential network enrichment analysis"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National ALS Registry/CDC/ATSDR 1R01TS000289",
+    "National ALS Registry/CDC/ATSDR 200-2013-56856",
+    "NIEHS10.13039/100000066 K23ES027221R01ES030049",
+    "NCI10.13039/100000054 1U01CA235487",
+    "National Institutes of Health10.13039/100000002 UL1TR002240"
+  ],
+  "data_availability_text": "Data availabilityAnonymized data will be shared by request from any qualified investigator.",
+  "license": "",
+  "received": "2021-06-29",
+  "accepted": "2022-01-05",
+  "reference_pmids": [
+    "28968365",
+    "29154141",
+    "29478603",
+    "25896087",
+    "30760645",
+    "27159543",
+    "30382568",
+    "26822316",
+    "11754077",
+    "33436868",
+    "17127563",
+    "18820733",
+    "30926684",
+    "24984169",
+    "32468479",
+    "29247199",
+    "31406145",
+    "27590138",
+    "26883206",
+    "26508442",
+    "20096678",
+    "32928939",
+    "33255384",
+    "21403394",
+    "24429397",
+    "19412814",
+    "20955607",
+    "30830398",
+    "29099853",
+    "18767354",
+    "30887029",
+    "27357170",
+    "22117131",
+    "33531377",
+    "33974561",
+    "32147204",
+    "32986697",
+    "24632803",
+    "30680691",
+    "26483191",
+    "12325074",
+    "26056266",
+    "29354030",
+    "34059824",
+    "30287225",
+    "26412155",
+    "26648664",
+    "20561942",
+    "20503434",
+    "29410613",
+    "29067684",
+    "20431074",
+    "11522556",
+    "32201914",
+    "23966849",
+    "17438338",
+    "15263088",
+    "31213966",
+    "29904341",
+    "31180318",
+    "20949041",
+    "31456060",
+    "25963727",
+    "32583696",
+    "33241210",
+    "28119559",
+    "23797033",
+    "24769125",
+    "21530659",
+    "11465936",
+    "31907290",
+    "3785524"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "participants and biosamples",
+    "metabolomic profiling",
+    "differential metabolite identification",
+    "analytical methods",
+    "metabolite correlation with alsfrs-r",
+    "construction of case prediction models",
+    "metabolism pathway analysis",
+    "sex sensitivity analysis",
+    "statistical software",
+    "differential network enrichment analysis",
+    "metabolite selection and data treatment",
+    "covariate adjustment, autoscaling and dataset merging",
+    "differential network enrichment analysis method",
+    "data availability",
+    "results",
+    "original and replication als cohorts reflect typical als populations",
+    "metabolite profiling in original and replication cohorts",
+    "differential metabolites in als cases versus controls",
+    "differential metabolites correlate with alsfrs-r",
+    "case prediction models",
+    "differential sub-pathways in als cases versus controls",
+    "sensitivity analysis for sex imbalances",
+    "differential network enrichment analysis",
+    "discussion",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11110,
+  "converted_at": "2026-04-06T22:40:18.450699+00:00"
+}

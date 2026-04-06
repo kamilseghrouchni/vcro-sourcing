@@ -1,0 +1,258 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05796037",
+      "orgStudyIdInfo": {
+        "id": "TARGET-NEURO"
+      },
+      "organization": {
+        "fullName": "Target PharmaSolutions, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "An Observational Study of Patients Living With Chronic Neurological Diseases",
+      "officialTitle": "An Observational Study of Patients Living With Chronic Neurological Diseases"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-03-31",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2038-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2038-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-03-09",
+      "studyFirstSubmitQcDate": "2023-03-21",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Target PharmaSolutions, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "TARGET-NEURO is an observational research study to conduct a comprehensive review of outcomes for patients living with chronic neurological diseases: Alzheimer's disease and related dementia (ADRD), mild cognitive impairment (MCI), Parkinson's disease (PD), and multiple sclerosis (MS)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Neurological Diseases or Conditions",
+        "Dementia of Alzheimer Type",
+        "Alzheimer Disease",
+        "Mild Cognitive Impairment",
+        "Parkinson Disease",
+        "Multiple Sclerosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "OTHER"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Whole blood with serum"
+      },
+      "enrollmentInfo": {
+        "count": 1500000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Disease Cohort",
+          "description": "Observational"
+        },
+        {
+          "label": "Engaged Cohort",
+          "description": "Observational"
+        },
+        {
+          "label": "Age Cohort",
+          "description": "Observational"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To characterize the natural history of disease in patients living with chronic neurological diseases including ADRD, MCI, PD, or MS",
+          "description": "A detailed analysis of available demographics (age, race, sex, country of birth, insurance status), medications, co-morbidities, and medical history from sites across the US will inform the profile for this patient population. Data from retrospective and prospectively collected medical records will be curated and analyzed to characterize disease natural history and current treatment paradigms. These data may also establish incidence rates of events of special interest. Collection of prospective medical records for each patient enables the continuation of these analyses longitudinally for changes and progression. Part of the characterization of disease or living with a chronic disease may also be informed by patient reported outcome (PRO) measures and care partner surveys.",
+          "timeFrame": "15 Years"
+        },
+        {
+          "measure": "To assess safety and effectiveness of disease treatments and treatments for complications of patients receiving various treatments, effectiveness of treatment, and medical events that develop while receiving treatment for ADRD, MCI, PD, or MS.",
+          "description": "The study will evaluate the characteristics of patients receiving various treatments, effectiveness of treatment, and medical events that develop while receiving treatment for ADRD, MCI, PD, or MS. Interval disease and medical events may vary depending on the patient's stage and type of disease and extent of co-morbidities. The progression of pre-existing co-morbidities and variances across populations will also be evaluated.\n\nThe type, dose and duration of disease-specific therapies will be closely followed with a goal of monitoring treatment paradigms and various combination regimens for clinical response and disease stabilization/progression.",
+          "timeFrame": "15 Years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To evaluate provider management practices in the treatment of patients living with ADRD, MCI, PD, or MS",
+          "description": "Health care provider type, clinic setting, reason for initiating/not initiating/adjusting dosing of treatments, reason for discontinuing/switching treatments, and monitoring outcomes on and off treatment, will be captured as available in the provided EHR and/or through linked data. Disease-specific quality measures will be selected and evaluated",
+          "timeFrame": "15 Years"
+        },
+        {
+          "measure": "To evaluate longitudinal and patient and care partner reported outcomes in patients with ADRD, MCI, PD, or MS, including care partner burden and quality of life.",
+          "description": "Longitudinal clinical outcomes and disease progression will be assessed. Self and proxy-reported patient health measures collect information directly from patients or their informants to measure physical, mental, and social health. These measures can help clinicians better understand how the disease state and/or various treatments affect what patients are able to do and the symptoms they experience beyond what is typically derived and reported in the EHR as part of traditional clinical evaluations. The information can also be used to help patients make informed decisions about their healthcare and treatment options. Care partner surveys can help define the prevalence and needs of care partners who provide support and care to people living with ADRD, MCI, PD, and MS.",
+          "timeFrame": "15 Years"
+        },
+        {
+          "measure": "3. To select and evaluate quality of care measures for patients living with ADRD, MCI, PD, or MS",
+          "description": "1. Identify deficiencies and best practices in care of patients living with neurological diseases\n2. Develop a technology infrastructure to evaluate quality measures to support clinicians and clinical decision making",
+          "timeFrame": "15 Years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "To evaluate the screening accuracy of a passive digital marker algorithm for early ADRD detection among several different healthcare institutions EHRs",
+          "description": "TARGET-NEURO will enroll an Age Cohort of patients aged 60 years and older, who do not carry a diagnosis code for dementia or mild cognitive impairment. Patients enrolled in this cohort will have their structured and unstructured EHR data routinely screened using the PDM algorithm. 31 Over time, the refreshed data among Age Cohort patients will be screened for a newly presenting dementia diagnosis or mild cognitive impairment code that suggests symptomatic disease and compared with the PDM prediction. Records of those patients will be further evaluated to confirm clinical evidence of disease (positive case) and the patient will continue to be passively followed in the Disease Cohort for outcomes. This exploratory aim enables further validation of the generalizability of the PDM across more health centers and diverse populations.",
+          "timeFrame": "15 Years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Disease Cohort\n\nInclusion Criteria:\n\n•Adult patients at the time of enrollment with a diagnosis of ADRD, MCI, PD, or MS by select ICD-10 codes in the EHR interface\n\nExclusion Criteria:\n\n* Death\n* Manual removal (sponsor or site request)\n* No EHR interface encounter \\> 3 years\n\nEngaged Cohort\n\nInclusion Criteria:\n\n* Adult patients diagnosed and managed for these conditions invited to participate\n* Ability to provide written informed consent (or have a legally authorized representative to provide informed consent)\n* Care partners may be invited to participate in surveys and will provide informed consent.\n\nExclusion Criteria:\n\n* Patient expressed desire to withdraw consent to complete PROs\n* Care partner expressed desire to withdraw consent to complete PROs\n* Failure to complete PROs within 24 weeks of initial invitation\n* Greater than 24 months lapse of survey completion after baseline surveys completed\n* Additionally, the criteria detailed for Disease Cohort apply to the Engaged Cohort\n\nAge Cohort\n\nInclusion Criteria:\n\n•Adult patients aged 60 and older at time of enrollment\n\nExclusion Criteria:\n\n* Death\n* Manual removal (sponsor or site request)\n* No EHR interface encounter \\> 3 years",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The study will include adults who are being managed for ADRD, MCI, PD, or MS as well as patients aged 60 years and older.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        },
+        {
+          "id": "D010300",
+          "term": "Parkinson Disease"
+        },
+        {
+          "id": "D009103",
+          "term": "Multiple Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D020734",
+          "term": "Parkinsonian Disorders"
+        },
+        {
+          "id": "D001480",
+          "term": "Basal Ganglia Diseases"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D000080874",
+          "term": "Synucleinopathies"
+        },
+        {
+          "id": "D020278",
+          "term": "Demyelinating Autoimmune Diseases, CNS"
+        },
+        {
+          "id": "D020274",
+          "term": "Autoimmune Diseases of the Nervous System"
+        },
+        {
+          "id": "D003711",
+          "term": "Demyelinating Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

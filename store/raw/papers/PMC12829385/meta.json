@@ -1,0 +1,226 @@
+{
+  "pmid": "41565312",
+  "pmc": "PMC12829385",
+  "doi": "10.1136/bmjophth-2025-002328",
+  "title": "Retinal biomarkers for early Alzheimer’s detection: a systematic review of optical coherence tomography (OCT) findings",
+  "journal": "BMJ Open Ophthalmology",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Lepoittevin Maryne",
+      "affiliations": [
+        "Preventive Medicine, Data Science and AI Lab, Zoī SAS, Paris, France"
+      ]
+    },
+    {
+      "name": "Greig Jenny",
+      "affiliations": [
+        "Preventive Medicine, Data Science and AI Lab, Zoī SAS, Paris, France"
+      ]
+    },
+    {
+      "name": "Erol Ozlem",
+      "affiliations": [
+        "Preventive Medicine, Data Science and AI Lab, Zoī SAS, Paris, France",
+        "Centre d’Investigation Clinique, Hopital Fondation Ophtalmologique Adolphe de Rothschild, Hopital Fondation Adolphe de Rothschild, Paris, France"
+      ]
+    },
+    {
+      "name": "Benani Alaedine",
+      "affiliations": [
+        "Preventive Medicine, Data Science and AI Lab, Zoī SAS, Paris, France",
+        "Service de Médecine Vasculaire, INSERM, LIMICS, AP-HP, Hôpital Européen Georges Pompidou (HEGP), Université Sorbonne Paris-Nord, Paris, France"
+      ]
+    },
+    {
+      "name": "Bauvin Pierre",
+      "affiliations": [
+        "Preventive Medicine, Data Science and AI Lab, Zoī SAS, Paris, France"
+      ]
+    },
+    {
+      "name": "Azzolini Claudio",
+      "affiliations": [
+        "Advisory Council for e-Health/Telemedicine, Scientific Director of TM95 Ltd, Milano, Italy, University of Insubria, Varese - Como, Italy"
+      ]
+    },
+    {
+      "name": "Donati Simone",
+      "affiliations": [
+        "Department of Medicine and Surgery, University of Insubria, Varese - Como, Italy"
+      ]
+    },
+    {
+      "name": "Dubois Bruno",
+      "affiliations": [
+        "Centre MEG-EEG, CENIR, Institut du Cerveau–Paris Brain Institute (ICM), INSERM U 1127, CNRS UMR 7225, AP-HP, Hôpital de La Pitié-Salpêtrière, Sorbonne Université, Paris, France",
+        "Department of Neurology, Centre of Excellence of Neurodegenerative Disease (CoEN), Institute of Memory and Alzheimer’s Disease (IM2A), ICM, CIC Neurosciences, AP-HP, Hopital Universitaire Pitie-Salpetriere, Sorbonne Universite, Paris, France"
+      ]
+    },
+    {
+      "name": "Boscher Claude",
+      "affiliations": [
+        "Fondazione Retina 3000, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Bodard Sylvain",
+      "affiliations": [
+        "Service d’Imagerie Adulte, AP-HP, Hôpital Universitaire Necker–Enfants Malades, Université Paris Cité, Paris, France",
+        "INSERM U 1146, CNRS UMR 7371, Laboratoire d’Imagerie Biomédicale (LIB), Sorbonne Université, Paris, France"
+      ]
+    }
+  ],
+  "keywords": [
+    "Retina",
+    "Imaging",
+    "Degeneration"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data availability statementNo data are available.",
+  "license": "",
+  "received": "2025-06-13",
+  "accepted": "2025-10-11",
+  "reference_pmids": [
+    "36918389",
+    "38986861",
+    "18044185",
+    "22315714",
+    "19834067",
+    "12699953",
+    "27645291",
+    "27148157",
+    "30593285",
+    "25428254",
+    "38977082",
+    "11525792",
+    "33517891",
+    "32927924",
+    "33737516",
+    "39289517",
+    "37958816",
+    "36449413",
+    "34101796",
+    "21514248",
+    "16493230",
+    "1202204",
+    "28412978",
+    "31018113",
+    "16144532",
+    "34357083",
+    "30114417",
+    "24349078",
+    "37117782",
+    "25317632",
+    "15817102",
+    "34108266",
+    "24690082",
+    "31118186",
+    "33073531",
+    "32234080",
+    "32790788",
+    "24846203",
+    "25797847",
+    "36502316",
+    "31689310",
+    "32469871",
+    "35659054",
+    "38259552",
+    "33014034",
+    "34029274",
+    "19892876",
+    "36768913",
+    "33554907",
+    "32956392",
+    "33852770",
+    "38294804",
+    "30923356",
+    "36209290",
+    "34035282",
+    "27327500",
+    "29160042",
+    "28600299",
+    "29927472",
+    "29040211",
+    "32153141",
+    "38696189",
+    "28106555",
+    "25575807",
+    "29447481",
+    "31667327",
+    "36622689",
+    "33798440",
+    "34135771",
+    "34962651",
+    "35486344",
+    "18703522",
+    "22226802",
+    "28157098",
+    "24625377",
+    "26888864",
+    "24748549",
+    "25856815",
+    "31664335",
+    "21071737",
+    "33460813",
+    "26868048",
+    "34923601",
+    "20237247",
+    "29229445",
+    "37869026",
+    "25311278",
+    "36774227",
+    "37428129",
+    "36419849",
+    "38827032",
+    "37145334",
+    "38358524"
+  ],
+  "tables_count": 0,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "what is already known on this topic",
+    "what this study adds",
+    "how this study might affect research, practice or policy",
+    "introduction",
+    "the current context of alzheimer’s disease and its relationship to the retina",
+    "challenges in ad diagnosis and the need for early detection",
+    "the role of optical coherence tomography in ad research",
+    "materials and methods",
+    "results",
+    "findings in preclinical ad",
+    "peripapillary retinal nerve fibre layer thickness",
+    "rgcl thickness",
+    "ipl thickness",
+    "findings in mci",
+    "macular thickness",
+    "choroidal thickness",
+    "vascular analysis",
+    "findings in mild ad",
+    "comparison to other forms of dementia",
+    "other putative oct findings: retinal gliosis",
+    "risk of bias and quality assessment",
+    "discussion",
+    "retinal changes as biomarkers for ad detection",
+    "discrepancies in retinal thickness and vascular density",
+    "study limitations",
+    "limitations of oct",
+    "device-related limitations",
+    "operator-dependent limitations",
+    "patient-dependent limitations",
+    "interpretation and conceptual limitations",
+    "combined biomarkers and emerging technologies",
+    "strength of evidence",
+    "practical implications for clinical translation",
+    "prospects",
+    "conclusion",
+    "supplementary material",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8146,
+  "converted_at": "2026-04-06T22:38:49.212482+00:00"
+}

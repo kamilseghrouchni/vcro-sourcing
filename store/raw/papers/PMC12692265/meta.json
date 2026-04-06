@@ -1,0 +1,180 @@
+{
+  "pmid": "41373649",
+  "pmc": "PMC12692265",
+  "doi": "10.3390/ijms262311496",
+  "title": "Multimodal Biomarker Characterization of the ALS/FTD Spectrum: A Real-World Clinical Dataset Analysis",
+  "journal": "International Journal of Molecular Sciences",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Mukhija Sasha",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Hering Lisa",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Schreiner Simon J.",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Lehner Franz",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Loosli Jan",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Togni Claudio",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Otto Ferdinand",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Ziegler Mario",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Weiss Tobias",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Jung Hans H.",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    },
+    {
+      "name": "Briel Nils",
+      "affiliations": [
+        "sasha.mukhija@usz.ch (S.M.);",
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "pTau:tTau ratio",
+    "amyotrophic lateral sclerosis",
+    "frontotemporal dementia",
+    "Alzheimer’s disease",
+    "cerebrospinal fluid",
+    "diagnostic biomarkers"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "the Fondation Suisse De Recherche Sur Les Maladies Musculaires",
+    "Roche61719"
+  ],
+  "data_availability_text": "Data Availability StatementThe data presented in this study are available on request from the corresponding author due to privacy and ethical reasons.",
+  "license": "",
+  "received": "2025-10-29",
+  "accepted": "2025-11-22",
+  "reference_pmids": [
+    "28552366",
+    "28700839",
+    "28980624",
+    "18164242",
+    "34378224",
+    "37250416",
+    "37828358",
+    "30209236",
+    "26595641",
+    "15163610",
+    "21222600",
+    "15351890",
+    "32487123",
+    "29514947",
+    "24492862",
+    "33638255",
+    "40044663",
+    "39913612",
+    "40318118",
+    "31206160",
+    "40681694",
+    "30465257",
+    "38812975",
+    "40238886",
+    "21284776",
+    "34405141",
+    "34359293",
+    "37209406",
+    "40883301",
+    "39434139",
+    "27239528",
+    "36831264",
+    "23781974",
+    "38278991",
+    "38890531",
+    "10634456",
+    "39595818",
+    "25531687",
+    "28467028",
+    "38934362",
+    "26474316",
+    "28592453",
+    "16160425",
+    "37744325",
+    "8021703",
+    "26994063"
+  ],
+  "tables_count": 1,
+  "figures_count": 3,
+  "sections_present": [
+    "abstract",
+    "1. introduction",
+    "2. results",
+    "2.1. cohort characteristics",
+    "2.2. csf biomarker profiles across neurodegenerative diseases",
+    "2.3. diagnostic value and limitations of the ptau:ttau ratio",
+    "2.4. a multimodal biomarker panel for als/ftd discrimination",
+    "3. discussion",
+    "limitations",
+    "4. methods",
+    "4.1. study population and study design",
+    "4.2. csf processing",
+    "4.3. statistical analysis",
+    "4.3.1. descriptive and inferential statistics",
+    "4.3.2. inverse probability weighting and linear regression terms",
+    "4.3.3. cut-point determination and supervised modeling",
+    "4.3.4. feature importance and shap analysis",
+    "5. conclusions",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7101,
+  "converted_at": "2026-04-06T22:38:19.366855+00:00"
+}

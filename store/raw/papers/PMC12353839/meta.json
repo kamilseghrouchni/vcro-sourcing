@@ -1,0 +1,319 @@
+{
+  "pmid": "40665049",
+  "pmc": "PMC12353839",
+  "doi": "10.1038/s41591-025-03835-z",
+  "title": "APOE ε4 carriers share immune-related proteomic changes across neurodegenerative diseases",
+  "journal": "Nature Medicine",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Shvetcov Artur",
+      "affiliations": [
+        "https://ror.org/0384j8v12grid.1013.30000 0004 1936 834XNeurodegeneration and Disease Modelling Research Group, Westmead Institute for Medical Research, The University of Sydney, Westmead, New South Wales Australia",
+        "https://ror.org/0384j8v12grid.1013.30000 0004 1936 834XSchool of Medical Sciences, Faculty of Medicine and Health, The University of Sydney, Sydney, New South Wales Australia"
+      ]
+    },
+    {
+      "name": "Johnson Erik C. B.",
+      "affiliations": [
+        "https://ror.org/03czfpz43grid.189967.80000 0004 1936 7398Department of Neurology, Emory University, Atlanta, GA USA",
+        "https://ror.org/03czfpz43grid.189967.80000 0004 1936 7398Goizueta Alzheimer’s Disease Research Centre, Emory University, Atlanta, GA USA"
+      ]
+    },
+    {
+      "name": "Winchester Laura M.",
+      "affiliations": [
+        "https://ror.org/052gg0110grid.4991.50000 0004 1936 8948Department of Psychiatry, University of Oxford, Oxford, UK"
+      ]
+    },
+    {
+      "name": "Walker Keenan A.",
+      "affiliations": [
+        "https://ror.org/049v75w11grid.419475.a0000 0000 9372 4913Laboratory of Behavioral Neuroscience, National Institute on Aging, Intramural Research Program, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Wilkins Heather M.",
+      "affiliations": [
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375University of Kansas Alzheimer’s Disease Research Centre, University of Kansas Medical Center, Kansas City, KS USA",
+        "https://ror.org/001tmjg57grid.266515.30000 0001 2106 0692Department of Neurology, University of Kansas School of Medicine, Kansas City, KS USA",
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS USA"
+      ]
+    },
+    {
+      "name": "Thompson Terri G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rothstein Jeffrey D.",
+      "affiliations": [
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Brain Science Institute, Johns Hopkins University School of Medicine, Baltimore, MD USA",
+        "https://ror.org/00za53h95grid.21107.350000 0001 2171 9311Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD USA"
+      ]
+    },
+    {
+      "name": "Krish Varsha",
+      "affiliations": [
+        "https://ror.org/04kxtb734Gates Ventures, Seattle, WA USA"
+      ]
+    },
+    {
+      "name": "Imam Farhad B.",
+      "affiliations": [
+        "https://ror.org/04kxtb734Gates Ventures, Seattle, WA USA"
+      ]
+    },
+    {
+      "name": "The Global Neurodegeneration Proteomics Consortium (GNPC)http://orcid.org/0000-0003-0592-984XShvetcovArturartur.shvetcov@wimr.org.au12http://orcid.org/0000-0002-0604-2944JohnsonErik C. B.34WinchesterLaura M.5http://orcid.org/0000-0002-5989-9853WalkerKeenan A.6ThompsonTerri G.10RothsteinJeffrey D.1112KrishVarsha13http://orcid.org/0000-0003-2854-2568ImamFarhad B.13http://orcid.org/0000-0001-7609-8954BurnsJeffrey M.78http://orcid.org/0000-0002-6886-4847SlawsonChad7915http://orcid.org/0000-0002-9357-8316FinneyCaitlin A.caitlin.finney@wimr.org.au12",
+      "affiliations": []
+    },
+    {
+      "name": "Burns Jeffrey M.",
+      "affiliations": [
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375University of Kansas Alzheimer’s Disease Research Centre, University of Kansas Medical Center, Kansas City, KS USA",
+        "https://ror.org/001tmjg57grid.266515.30000 0001 2106 0692Department of Neurology, University of Kansas School of Medicine, Kansas City, KS USA"
+      ]
+    },
+    {
+      "name": "Swerdlow Russell H.",
+      "affiliations": [
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375University of Kansas Alzheimer’s Disease Research Centre, University of Kansas Medical Center, Kansas City, KS USA",
+        "https://ror.org/001tmjg57grid.266515.30000 0001 2106 0692Department of Neurology, University of Kansas School of Medicine, Kansas City, KS USA",
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS USA",
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375Department of Cell Biology and Physiology, University of Kansas Medical Center, Kansas City, KS USA"
+      ]
+    },
+    {
+      "name": "Slawson Chad",
+      "affiliations": [
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375University of Kansas Alzheimer’s Disease Research Centre, University of Kansas Medical Center, Kansas City, KS USA",
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS USA",
+        "https://ror.org/036c9yv20grid.412016.00000 0001 2177 6375University of Kansas Cancer Center, University of Kansas Medical Center, Kansas City, KS USA"
+      ]
+    },
+    {
+      "name": "Finney Caitlin A.",
+      "affiliations": [
+        "https://ror.org/0384j8v12grid.1013.30000 0004 1936 834XNeurodegeneration and Disease Modelling Research Group, Westmead Institute for Medical Research, The University of Sydney, Westmead, New South Wales Australia",
+        "https://ror.org/0384j8v12grid.1013.30000 0004 1936 834XSchool of Medical Sciences, Faculty of Medicine and Health, The University of Sydney, Sydney, New South Wales Australia"
+      ]
+    }
+  ],
+  "keywords": [
+    "Neurodegeneration",
+    "Disease genetics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/501100000925Department of Health | National Health and Medical Research Council (NHMRC)MRF2040081MRF2040081ShvetcovArturFinneyCaitlin A.",
+    "Neil & Norma Hill Foundation Annemarie & Arturo Gandioli-Fumagali Foundation Perpetual Foundation - John Williams Endowment Hillcrest Foundation",
+    "https://doi.org/10.13039/100000002U.S. Department of Health & Human Services | National Institutes of Health (NIH)K08AG08604R01AG089497P50AG025688P30AG072973R21TR003589R01AG07816U19AG068054R35NS132179P30AG072973P30AG072973P30AG072973R01AG064227JohnsonErik C. B.WilkinsHeather M.BurnsJeffrey M.SwerdlowRussell H.SlawsonChad",
+    "Alzheimer's Research UK",
+    "https://doi.org/10.13039/100000957Alzheimer's Association23AARG-1023WilkinsHeather M.",
+    "Answer ALS Foundation Robert Packard Center for ALS Research at Johns Hopkins University"
+  ],
+  "data_availability_text": "Data availabilityThe harmonized GNPC data used to generate these findings was provided to Consortium Members in June 2024 and will be made available for public request by the AD Data Initiative by 15 July 2025. Members of the global research community will be able to access the metadata and place a data use request via the AD Discovery Portal (https://discover.alzheimersdata.org/). Access is contingent on adherence to the GNPC Data Use Agreement and the Publication Policies.The AMP-AD UPenn Proteomics Study data is available through the AD Knowledge Portal (https://adknowledgeportal.synapse.org/). Researchers who wish to access this controlled dataset are required to submit a Data Use Agreement. More information can be found here: https://adknowledgeportal.synapse.org/Data%20Access.",
+  "license": "",
+  "received": "2025-04-20",
+  "accepted": "2025-06-16",
+  "reference_pmids": [
+    "30844401",
+    "30844401",
+    "11259129",
+    "11259129",
+    "15904995",
+    "15904995",
+    "23688578",
+    "23688578",
+    "27899424",
+    "27899424",
+    "30949567",
+    "30949567",
+    "15184605",
+    "15184605",
+    "33213513",
+    "33213513",
+    "11574101",
+    "11574101",
+    "18656208",
+    "18656208",
+    "36348503",
+    "36348503",
+    "25178429",
+    "25178429",
+    "35106798",
+    "35106798",
+    "33111402",
+    "33111402",
+    "23407718",
+    "23407718",
+    "33837234",
+    "33837234",
+    "39722190",
+    "39722190",
+    "23868073",
+    "23868073",
+    "31857451",
+    "31857451",
+    "32087284",
+    "32087284",
+    "23817325",
+    "23817325",
+    "31385390",
+    "31385390",
+    "25146994",
+    "25146994",
+    "20186853",
+    "20186853",
+    "29672664",
+    "29672664",
+    "29878075",
+    "29878075",
+    "15190252",
+    "15190252",
+    "40665048",
+    "28683096",
+    "28683096",
+    "10604437",
+    "10604437",
+    "10604433",
+    "10604433",
+    "21423560",
+    "21423560",
+    "24655576",
+    "24655576",
+    "36153580",
+    "36153580",
+    "30646251",
+    "30646251",
+    "29727686",
+    "29727686",
+    "34099648",
+    "34099648",
+    "39427171",
+    "39427171",
+    "30478269",
+    "30478269",
+    "37038190",
+    "37038190",
+    "39169269",
+    "39169269",
+    "28346578",
+    "28346578",
+    "38467937",
+    "38467937",
+    "38388736",
+    "38388736",
+    "32376954",
+    "32376954",
+    "29377008",
+    "29377008",
+    "17135573",
+    "17135573",
+    "22430559",
+    "22430559",
+    "21436838",
+    "21436838",
+    "10837080",
+    "10837080",
+    "18425107",
+    "18425107",
+    "15771571",
+    "15771571",
+    "19357304",
+    "19357304",
+    "19744893",
+    "19744893",
+    "38634644",
+    "38634644",
+    "19376066",
+    "19376066",
+    "24093081",
+    "24093081",
+    "37574727",
+    "37574727",
+    "35592323",
+    "35592323",
+    "40175543",
+    "40175543",
+    "39053634",
+    "39053634",
+    "29601787",
+    "29601787",
+    "39972219",
+    "39972219",
+    "32818802",
+    "32818802",
+    "39364911",
+    "39364911",
+    "11257253",
+    "11257253",
+    "25358236",
+    "25358236",
+    "38217610",
+    "38217610",
+    "2011243",
+    "2011243",
+    "1759558",
+    "1759558",
+    "9923759",
+    "9923759",
+    "9634206",
+    "9634206",
+    "21165148",
+    "21165148",
+    "31792462",
+    "31792462",
+    "32284590",
+    "32284590",
+    "24586270",
+    "24586270",
+    "24861621",
+    "24861621",
+    "25950236",
+    "25950236",
+    "30931480",
+    "30931480",
+    "22453911",
+    "22453911",
+    "23180781",
+    "23180781",
+    "10592173",
+    "10592173"
+  ],
+  "tables_count": 2,
+  "figures_count": 9,
+  "sections_present": [
+    "abstract",
+    "main",
+    "results",
+    "plasma proteome profiling reveals a similar",
+    "key features of the peripheral immune signature are mirrored in the brains of",
+    "peripheral",
+    "discussion",
+    "methods",
+    "participants",
+    "gnpc cohort",
+    "amp-ad upenn proteomics study cohort",
+    "proteomics",
+    "gnpc cohort",
+    "amp-ad upenn proteomics study cohort",
+    "statistical analyses",
+    "feature selection",
+    "cart",
+    "linear regression",
+    "correlation network analysis",
+    "enrichment analyses",
+    "reporting summary",
+    "online content",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 13597,
+  "converted_at": "2026-04-06T22:37:18.887159+00:00"
+}

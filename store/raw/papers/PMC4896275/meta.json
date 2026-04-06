@@ -1,0 +1,5352 @@
+{
+  "pmid": "27294413",
+  "pmc": "PMC4896275",
+  "doi": "10.1186/s40246-016-0063-5",
+  "title": "Human genome meeting 2016",
+  "journal": "Human Genomics",
+  "year": 2016,
+  "authors": [
+    {
+      "name": "Srivastava A. K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Huang R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Skinner C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Thompson T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pollard L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wood T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Luo F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Stevenson R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Polimanti R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gelernter J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lin X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lim I. Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wu Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Teh A. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chen L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aris I. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Soh S. E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tint M. T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "MacIsaac J. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yap F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kwek K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Saw S. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kobor M. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Meaney M. J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Godfrey K. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chong Y. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Holbrook J. D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lee Y. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gluckman P. D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karnani N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "GUSTO study group",
+      "affiliations": []
+    },
+    {
+      "name": "Kapoor A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lee D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chakravarti A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Maercker C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Graf F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boutros M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Stamoulis G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Santoni F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Makrythanasis P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Letourneau A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Guipponi M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Panousis N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Garieri M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ribaux P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Falconnet E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Borel C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Antonarakis S. E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Curran J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Blangero J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chatterjee S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kapoor A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Akiyama J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Auer D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Berrios C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pennacchio L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chakravarti A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Donti T. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cappuccio G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Miller M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Atwal P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kennedy A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cardon A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bacino C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Emrick L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hertecant J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baumer F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Porter B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bainbridge M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bonnen P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Graham B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sutton R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sun Q.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Elsea S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hu Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhu Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhao J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Xiong M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bennett David A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hidalgo-Miranda A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Romero-Cordoba S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rodriguez-Cuevas S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rebollar-Vega R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tagliabue E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Iorio M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "D’Ippolito E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baroni S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaczkowski B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tanaka Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kawaji H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sandelin A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Andersson R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Itoh M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lassmann T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "The FANTOM5 Consortium",
+      "affiliations": []
+    },
+    {
+      "name": "Hayashizaki Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Carninci P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Forrest A. R. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Semple C. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rosenthal E. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shirts B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Amendola L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gallego C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Horike-Pyne M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burt A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Robertson P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beyers P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nefcy C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Veenstra D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hisama F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bennett R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dorschner M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nickerson D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Smith J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Patterson K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Crosslin D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nassir R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zubair N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harrison T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Peters U.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jarvik G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "NHLBI GO Exome Sequencing Project",
+      "affiliations": []
+    },
+    {
+      "name": "Menghi F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Inaki K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Woo X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Grzeda K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Malhotra A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kim H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ucar D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shreckengast P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karuturi K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Keck J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chuang J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liu E. T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ji B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tyler A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ananda G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Carter G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nikbakht H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Montagne M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zeinieh M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harutyunyan A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mcconechy M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jabado N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lavigne P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Majewski J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Goldstein J. B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Overman M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Varadhachary G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shroff R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wolff R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Javle M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Futreal A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fogelman D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bravo L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fajardo W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gomez H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Castaneda C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rolfo C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pinto J. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Akdemir K. C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chin L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Futreal A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "ICGC PCAWG Structural Alterations Group",
+      "affiliations": []
+    },
+    {
+      "name": "Patterson S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Statz C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mockus S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nikolaev S. N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bonilla X. I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Parmentier L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "King B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bezrukov F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaya G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zoete V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Seplyarskiy V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sharpe H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "McKee T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Letourneau A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ribaux P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Popadin K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Basset-Seguin N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chaabene R. Ben",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Santoni F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Andrianova M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Guipponi M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Garieri M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Verdan C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Grosdemange K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sumara O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eilers M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aifantis I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Michielin O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "de Sauvage F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Antonarakis S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Likhitrattanapisal S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lincoln S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kurian A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Desmond A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yang S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kobayashi Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ford J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ellisen L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Peters T. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alvarez K. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hollingsworth E. F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lopez-Terrada D. H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hastie A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dzakula Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pang A. W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lam E. T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Anantharaman T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Saghbini M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cao H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "BioNano Genomics",
+      "affiliations": []
+    },
+    {
+      "name": "Gonzaga-Jauregui C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ma L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "King A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rosenzweig E. Berman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Krishnan U.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Reid J. G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Overton J. D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dewey F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chung W. K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Small K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "DeLuca A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cremers F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lewis R. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Puech V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bakall B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Silva-Garcia R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rohrschneider K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Leys M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shaya F. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Stone E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sobreira N. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schiettecatte F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ling H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pugh E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Witmer D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hetrick K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhang P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Doheny K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Valle D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hamosh A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jhangiani S. N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Akdemir Z. Coban",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bainbridge M. N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Charng W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wiszniewski W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gambin T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karaca E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bayram Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eldomery M. K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Posey J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Doddapaneni H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hu J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sutton V. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Muzny D. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boerwinkle E. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Valle D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lupski J. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shekar S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salerno W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "English A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mangubat A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bruestle J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Thorogood A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Knoppers B. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Global Alliance for Genomics and Health - Regulatory and Ethics Working Group",
+      "affiliations": []
+    },
+    {
+      "name": "Takahashi H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nitta K. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kozhuharova A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Suzuki A. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sharma H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cotella D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Santoro C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zucchelli S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gustincich S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Carninci P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mulvihill J. J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baynam G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gahl W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Groft S. C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kosaki K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lasko P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Melegh B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Taruscio D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ghosh R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Plon S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Scherer S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qin X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sanghvi R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Walker K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chiang T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Muzny D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Black J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boerwinkle E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Weinshilboum R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Karpinets T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Calderone T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wani K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yu X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Creasy C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Haymaker C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Forget M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nanda V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Roszik J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wargo J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Haydu L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Song X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lazar A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gershenwald J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Davies M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bernatchez C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhang J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Futreal A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Woodman S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chesler E. J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Reynolds T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bubier J. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Phillips C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Langston M. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baker E. J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Xiong M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ma L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lin N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Amos C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lin N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhu Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhao J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Calhoun V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Xiong M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dobretsberger O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Egger M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Leimgruber F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sadedin S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Oshlack A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Melbourne Genomics Health Alliance",
+      "affiliations": []
+    },
+    {
+      "name": "Antonio V. A. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ono N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Clark Kendrick C. Go",
+      "affiliations": []
+    },
+    {
+      "name": "Ahmed Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bolisetty M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zeeshan S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Anguiano E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ucar D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sarkar A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nandineni M. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zeng C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shao J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cao H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hastie A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pang A. W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lam E. T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liang T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pham K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Saghbini M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dzakula Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chee-Wei Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dongsheng L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lai-Ping W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lian D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hee R. O. Twee",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yunus Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aghakhanian F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mokhtar S. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lok-Yung C. V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bhak J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Phipps M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shuhua X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yik-Ying T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kumar V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boon-Peng H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Campbell I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Young M. -A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "James P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lifepool",
+      "affiliations": []
+    },
+    {
+      "name": "Rain M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mohammad G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kukreti R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pasha Q.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Akilzhanova A. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Guelly C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abilova Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rakhimova S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Akhmetova A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kairov U.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Trajanoski S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhumadilov Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bekbossynova M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schumacher C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sandhu S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harkins T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Makarov V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Doddapaneni H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Glenn R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Momin Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dilrukshi B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chao H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Meng Q.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gudenkauf B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kshitij R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jayaseelan J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nessner C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lee S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Blankenberg K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lewis L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hu J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Han Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dinh H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jireh S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Walker K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boerwinkle E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Muzny D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hu J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Walker K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Buhay C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liu X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang Q.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sanghvi R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Doddapaneni H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ding Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Veeraraghavan N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yang Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boerwinkle E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beaudet A. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Eng C. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Muzny D. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Worley K. C. C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liu Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hughes D. S. T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Murali S. C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harris R. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "English A. C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qin X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hampton O. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Larsen P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beck C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Han Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Doddapaneni H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kovar C. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salerno W. J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yoder A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Richards S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rogers J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lupski J. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Muzny D. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Meng Q.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bainbridge M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Doddapaneni H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Han Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Muzny D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harris R. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Raveenedran M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Xue C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dahdouli M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cox L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fan G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ferguson B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hovarth J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Johnson Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kanthaswamy S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kubisch M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Platt M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Smith D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Vallender E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wiseman R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liu X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Below J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Muzny D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yu F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rogers J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lin J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhang Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ouyang Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Moore A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hofmann J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Purdue M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Stolzenberg-Solomon R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Weinstein S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Albanes D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liu C. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cheng W. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lin T. T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lan Q.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rothman N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Berndt S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chen E. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bahrami H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khoshzaban A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Keshal S. Heidari",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bahrami H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khoshzaban A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Keshal S. Heidari",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alharbi K. K. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhalbinova M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Akilzhanova A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rakhimova S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bekbosynova M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Myrzakhmetova S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Matar M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mili N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Molinari R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ma Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Guerrier S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Elhawary N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tayeb M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bogari N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Qotb N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "McClymont S. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hook P. W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Goff L. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "McCallion A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kong Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Charette J. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hicks W. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naggert J. K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhao L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nishina P. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Edrees B. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Athar M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Allaf F. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Taher M. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bouazzaoui A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harbi N. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Safar R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Edressi H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Anazi A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Altayeb N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed M. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alansary K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abduljaleel Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kratz A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Beguin P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Poulain S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaneko M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Takahiko C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Matsunaga A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kato S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Suzuki A. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bertin N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lassmann T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Vigot R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Carninci P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Plessy C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Launey T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Graur D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lee D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kapoor A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chakravarti A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Friis-Nielsen J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Izarzugaza J. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Brunak S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chakraborty A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Basak J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mukhopadhyay A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Soibam B. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Das D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Biswas N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Das S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sarkar S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Maitra A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Panda C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Majumder P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Morsy H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gaballah A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Samir M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shamseya M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mahrous H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ghazal A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Arafat W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hashish M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gruber J. J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jaeger N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Snyder M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Patel K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bowman S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Davis T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kraushaar D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Emerman A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Russello S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Henig N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hendrickson C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhang K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rodriguez-Dorantes M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cruz-Hernandez C. D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Garcia-Tobilla C. D. P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Solorzano-Rosales S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jäger N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chen J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Haile R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hitchins M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Brooks J. D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Snyder M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jiménez-Morales S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ramírez M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nuñez J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bekker V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Leal Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jiménez E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Medina A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hidalgo A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mejía J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Halytskiy V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Naggert J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Collin G. B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "DeMauro K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hanusek R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nishina P. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Belhassa K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Belhassan K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bouguenouch L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Samri I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sayel H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "moufid FZ.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "El Bouchikhi I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Trhanint S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hamdaoui H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Elotmani I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khtiri I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kettani O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Quibibo L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahagoud M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abbassi M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ouldim K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Marusin A. V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kornetov A. N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Swarovskaya M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Vagaiceva K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Stepanov V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "De La Paz E. M. Cutiongco",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sy R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nevado J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Reganit P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Santos L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Magno J. D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Punzalan F. E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ona D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Llanes E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Santos-Cortes R. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tiongco R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aherrera J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abrahan L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pagauitan-Alan P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "The Philippine Cardiogenomics Study Group",
+      "affiliations": []
+    },
+    {
+      "name": "Morelli K. H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Domire J. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pyne N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harper S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burgess R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhalbinova M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Akilzhanova A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rakhimova S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bekbosynova M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Myrzakhmetova S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari M. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alsehli H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Thomas M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sukhai M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Garg S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Misyura M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhang T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schuh A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Stockley T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kamel-Reid S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sherry S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Xiao C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Slotta D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rodarmer K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Feolo M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kimelman M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Godynskiy G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "O’Sullivan C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yaschenko E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Xiao C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yaschenko E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sherry S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rangel-Escareño C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rueda-Zarate H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tayubi I. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mohammed R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "on behalf of 1",
+      "affiliations": []
+    },
+    {
+      "name": "Ahmed I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmed T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Seth S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Amin S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Song X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mao X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sun H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Verhaak R. G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Futreal A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhang J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Whiite S. J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chiang T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "English A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Farek J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kahn Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salerno W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Veeraraghavan N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boerwinkle E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kasukawa T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lizio M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Harshbarger J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hisashi S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Severin J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Imad A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sahin S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Freeman T. C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baillie K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sandelin A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Carninci P.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Forrest A. R. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kawaji H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "The FANTOM Consortium",
+      "affiliations": []
+    },
+    {
+      "name": "Salerno W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "English A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shekar S. N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mangubat A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bruestle J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Boerwinkle E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gibbs R. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Salem A. H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ali M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ibrahim A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ibrahim M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Barrera H. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Garza L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Torres J. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Barajas V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ulloa-Aguirre A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kershenobich D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mortaji Shahroj",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Guizar Pedro",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Loera Eliezer",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Moreno Karen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "De León Adriana",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Monsiváis Daniela",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gómez Jackeline",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cardiel Raquel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fernandez-Lopez J. C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bonifaz-Peña V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rangel-Escareño C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hidalgo-Miranda A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Contreras A. V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Polfus L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "CHARGE and NHLBI Exome Sequence Project Working Groups",
+      "affiliations": []
+    },
+    {
+      "name": "Wang X.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Philip V.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Carter G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abuzenadah A. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gari M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Turki R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dallol A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Uyar A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaygun A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zaman S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Marquez E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "George J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ucar D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hendrickson C. L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Emerman A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kraushaar D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bowman S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Henig N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Davis T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Russello S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Patel K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Starr D. B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baird M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kirkpatrick B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sheets K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Nitsche R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Prieto-Lafuente L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Landrum M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lee J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rubinstein W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Maglott D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Thavanati P. K. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "de Dios A. Escoto",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hernandez R. E. Navarro",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aldrate M. E. Aguilar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mejia M. R. Ruiz",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kanala K. R. R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abduljaleel Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khan W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Allaf F. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Athar M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Taher M. M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Shahzad N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bouazzaoui A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Huber E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dan A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Allaf F. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Herr W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sprotte G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Köstler J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hiergeist A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gessner A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Andreesen R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Holler E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Allaf F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Alashwal A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abduljaleel Z.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Taher M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bouazzaoui A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abalkhail H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-Allaf A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bamardadh R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Athar M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Filiptsova O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kobets M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kobets Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burlaka I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Timoshyna I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Filiptsova O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kobets M. N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kobets Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burlaka I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Timoshyna I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Filiptsova O.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kobets M. N.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kobets Y.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burlaka I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Timoshyna I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Al-allaf F. A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mohiuddin M. T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zainularifeen A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mohammed A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abalkhail H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Owaidah T.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bouazzaoui A.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "",
+  "license": "OpenAccess",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [],
+  "tables_count": 3,
+  "figures_count": 8,
+  "sections_present": [
+    "abstract",
+    "o1 the metabolomics approach to autism: identification of biomarkers for early detection of autism spectrum disorder",
+    "a. k. srivastava",
+    "o2 phenome-wide association study for smoking- and drinking-associated genes in 26,394 american women with african, asian, european, and hispanic descents",
+    "r. polimanti",
+    "o3 effects of prenatal environment, genotype and dna methylation on birth weight and subsequent postnatal outcomes: findings from gusto, an asian birth cohort",
+    "x. lin",
+    "o4 high-throughput identification of specific qt interval modulating enhancers at the scn5a locus",
+    "a. kapoor, d. lee, a. chakravarti",
+    "mckusick-nathans institute of genetic medicine, johns hopkins university school of medicine, baltimore, md, usa",
+    "o5 identification of extracellular matrix components inducing cancer cell migration in the supernatant of cultivated mesenchymal stem cells",
+    "c. maercker",
+    "o6 single cell allele specific expression (ase) in t21 and common trisomies: a novel approach to understand down syndrome and other aneuploidies",
+    "g. stamoulis",
+    "o7 role of microrna in lcl to ipsc reprogramming",
+    "s. kumar",
+    "o8 multiple enhancer variants disrupt gene regulatory network in hirschsprung disease",
+    "s. chatterjee",
+    "o9 metabolomic profiling for the diagnosis of neurometabolic disorders",
+    "t. r. donti",
+    "o10 a novel causal methylation network approach to alzheimer’s disease",
+    "z. hu",
+    "o11 a microrna signature identifies subtypes of triple-negative breast cancer and reveals mir-342-3p as regulator of a lactate metabolic pathway",
+    "a. hidalgo-miranda",
+    "o12 transcriptome analysis identifies genes, enhancer rnas and repetitive elements that are recurrently deregulated across multiple cancer types",
+    "b. kaczkowski",
+    "o13 elevated mutation and widespread loss of constraint at regulatory and architectural binding sites across 11 tumour types",
+    "c. a. semple",
+    "mrc human genetics unit, mrc institute of genetics and molecular medicine, edinburgh, uk",
+    "o14 exome sequencing provides evidence of pathogenicity for genes implicated in colorectal cancer",
+    "e. a. rosenthal",
+    "o15 the tandem duplicator phenotype as a distinct genomic configuration in cancer",
+    "f. menghi",
+    "o16 modeling genetic interactions associated with molecular subtypes of breast cancer",
+    "b. ji, a. tyler, g. ananda, g. carter",
+    "the jackson laboratory, bar harbor, me, usa",
+    "o17 recurrent somatic mutation in the myc associated factor x in brain tumors",
+    "h. nikbakht",
+    "o18 predictive biomarkers to metastatic pancreatic cancer treatment",
+    "j. b. goldstein",
+    "o19 ddit4 gene expression as a prognostic marker in several malignant tumors",
+    "l. bravo",
+    "o20 spatial organization of the genome and genomic alterations in human cancers",
+    "k. c. akdemir",
+    "o21 landscape of targeted therapies in solid tumors",
+    "s. patterson, c. statz, s. mockus",
+    "the jackson laboratory for genomic medicine, farmington, ct, usa",
+    "o22 genomic analysis reveals novel drivers and progression pathways in skin basal cell carcinoma",
+    "s. n. nikolaev",
+    "o23 identification of differential biomarkers of hepatocellular carcinoma and cholangiocarcinoma via transcriptome microarray meta-analysis",
+    "s. likhitrattanapisal",
+    "department of biology, faculty of science, mahidol university, bangkok, thailand",
+    "o24 clinical validity and actionability of multigene tests for hereditary cancers in a large multi-center study",
+    "s. lincoln",
+    "o25 correlation with tumor ploidy status is essential for correct determination of genome-wide copy number changes by snp array",
+    "t. l. peters",
+    "o26 nanochannel based next-generation mapping for interrogation of clinically relevant structural variation",
+    "a. hastie, z. dzakula, a. w. pang, e. t. lam, t. anantharaman, m. saghbini, h. cao, bionano genomics",
+    "bionano genomics, inc., san diego, ca, usa",
+    "o27 mutation spectrum in a pulmonary arterial hypertension (pah) cohort and identification of associated truncating mutations in tbx4",
+    "c. gonzaga-jauregui",
+    "o28 north carolina macular dystrophy (mcdr1): mutations found affecting prdm13",
+    "k. small",
+    "o29 phenodb and genematcher, solving unsolved whole exome sequencing data",
+    "n. l. sobreira",
+    "o30 baylor-johns hopkins center for mendelian genomics: a four year review",
+    "s. n. jhangiani",
+    "o31 using read overlap assembly to accurately identify structural genetic differences in an ashkenazi jewish trio",
+    "s. shekar",
+    "o32 legal interoperability: a sine qua non for international data sharing",
+    "a. thorogood, b. m. knoppers, global alliance for genomics and health - regulatory and ethics working group",
+    "centre of genomics and policy, mcgill university, montreal, quebec, canada",
+    "o33 high throughput screening platform of competent sineups: that can enhance translation activities of therapeutic target",
+    "h. takahashi",
+    "o34 the undiagnosed diseases network international (udni): clinical and laboratory research to meet patient needs",
+    "j. j. mulvihill",
+    "o36 performance of computational algorithms in pathogenicity predictions for activating variants in oncogenes versus loss of function mutations in tumor suppressor genes",
+    "r. ghosh, s. plon",
+    "pediatrics-oncology, baylor college of medicine, houston, tx, usa",
+    "o37 identification and electronic health record incorporation of clinically actionable pharmacogenomic variants using prospective targeted sequencing",
+    "s. scherer",
+    "o38 melanoma reprogramming state correlates with response to ctla-4 blockade in metastatic melanoma",
+    "t. karpinets, t. calderone, k. wani, x. yu, c. creasy, c. haymaker, m. forget, v. nanda, j. roszik, j. wargo, l. haydu, x. song, a. lazar, j. gershenwald, m. davies, c. bernatchez, j. zhang, a. futreal, s. woodman",
+    "md anderson cancer center, houston, usa",
+    "o39 data-driven refinement of complex disease classification from integration of heterogeneous functional genomics data in geneweaver",
+    "e. j. chesler",
+    "o40 a general statistic framework for genome-based disease risk prediction",
+    "m. xiong",
+    "o41 integrative large-scale causal network analysis of imaging and genomic data and its application in schizophrenia studies",
+    "n. lin",
+    "o42 big data and ngs data analysis: the cloud to the rescue",
+    "o. dobretsberger, m. egger, f. leimgruber",
+    "eps software corp, spring, tx, usa",
+    "o43 cpipe: a convergent clinical exome pipeline specialised for targeted sequencing",
+    "s. sadedin, a. oshlack, melbourne genomics health alliance",
+    "bioinformatics, murdoch childrens research institute, parkville, australia",
+    "o44 a bayesian classification of biomedical images using feature extraction from deep neural networks implemented on lung cancer data",
+    "v. a. a. antonio, n. ono, clark kendrick c. go",
+    "computational systems biology laboratory, nara institute of science and technology, ikoma-cho, japan",
+    "o45 mav-seq: an interactive platform for the management, analysis, and visualization of sequence data",
+    "z. ahmed, m. bolisetty, s. zeeshan, e. anguiano, d. ucar",
+    "the jackson laboratory for genomic medicine, farmington, ct, usa",
+    "o47 allele specific enhancer in epas1 intronic regions may contribute to high altitude adaptation of tibetans",
+    "c. zeng, j. shao",
+    "beijing institute of genomics, chinese academy of sciences, beijing, china",
+    "o48 nanochannel based next-generation mapping for structural variation detection and comparison in trios and populations",
+    "h. cao, a. hastie, a. w. pang, e. t. lam, t. liang, k. pham, m. saghbini, z. dzakula",
+    "bionano genomics, inc., san diego, ca, usa",
+    "o49 archaic introgression in indigenous populations of malaysia revealed by whole genome sequencing",
+    "y. chee-wei",
+    "o50 breast and ovarian cancer prevention: is it time for population-based mutation screening of high risk genes?",
+    "i. campbell",
+    "o53 comprehensive coverage from low dna input using novel ngs library preparation methods for wgs and wgbs",
+    "c. schumacher, s. sandhu, t. harkins, v. makarov",
+    "swift biosciences inc, ann arbor, mi, usa",
+    "o54 methods for large scale construction of robust pcr-free libraries for sequencing on illumina hiseqx platform",
+    "h. doddapaneni, r. glenn, z. momin, b. dilrukshi, h. chao, q. meng, b. gudenkauf, r. kshitij, j. jayaseelan, c. nessner, s. lee, k. blankenberg, l. lewis, j. hu, y. han, h. dinh, s. jireh, k. walker, e. boerwinkle, d. muzny, r. gibbs",
+    "human genome sequencing center, baylor college of medicine, houston, tx, usa",
+    "o55 rapid capture methods for clinical sequencing",
+    "j. hu",
+    "o56 a diploid personal human genome model for better genomes from diverse sequence data",
+    "k. c. c. worley",
+    "o57 development of pacbio long range capture for detection of pathogenic structural variants",
+    "q. meng, m. bainbridge, m. wang, h. doddapaneni, y. han, d. muzny, r. gibbs",
+    "hgsc, baylor college of medicine, houston, tx, usa",
+    "o58 rhesus macaques exhibit more non-synonymous variation but greater impact of purifying selection than humans",
+    "r. a. harris",
+    "o59 assessing rna structure disruption induced by single-nucleotide variation",
+    "z. ouyang",
+    "p1 a meta-analysis of genome-wide association studies of mitochondrial dna copy number",
+    "a. moore",
+    "p2 missense polymorphic genetic combinations underlying down syndrome susceptibility",
+    "e. s. chen",
+    "biochemistry, national university of singapore, singapore, singapore",
+    "p8 differentiating inflammatory bowel diseases by using genomic data: dimension of the problem and network organization",
+    "n. mili",
+    "p9 vulnerability of genetic variants to the risk of autism among saudi children",
+    "n. elhawary",
+    "p10 chromatin profiles from ex vivo purified dopaminergic neurons establish a promising model to support studies of neurological function and dysfunction",
+    "s. a. mcclymont, p. w. hook, l. a. goff, a. mccallion",
+    "institute of genetic medicine, johns hopkins school of medicine, baltimore, usa",
+    "p11 utilization of a sensitized chemical mutagenesis screen to identify genetic modifiers of retinal dysplasia in homozygous nr2e3",
+    "y. kong",
+    "p12 ion torrent next generation sequencing of recessive polycystic kidney disease in saudi patients",
+    "b. m. edrees",
+    "p13 digital expression profiling of purkinje neurons and dendrites in different subcellular compartments",
+    "a. kratz",
+    "p14 the evolution of imperfection and imperfection of evolution: the functional and functionless fractions of the human genome",
+    "d. graur",
+    "biology and biochemistry, university of houston, houston, usa",
+    "p16 species-independent identification of known and novel recurrent genomic entities in multiple cancer patients",
+    "j. friis-nielsen, j. m. izarzugaza, s. brunak",
+    "technical university of denmark, center for biological sequence analysis, lyngby, denmark",
+    "p18 discovery of active gene modules which are densely conserved across multiple cancer types reveal their prognostic power and mutually exclusive mutation patterns",
+    "b. s. soibam",
+    "university of houston-downtown, houston, usa",
+    "p19 whole exome sequencing of dysplastic leukoplakia tissue indicates sequential accumulation of somatic mutations from oral precancer to cancer",
+    "d. das",
+    "p21 epigenetic mechanisms of carcinogensis by hereditary breast cancer genes",
+    "j. j. gruber, n. jaeger, m. snyder",
+    "genetics, stanford university, palo alto, usa",
+    "p22 rna direct: a novel rna enrichment strategy applied to transcripts associated with solid tumors",
+    "k. patel",
+    "p23 rna sequencing identifies gene mutations for neuroblastoma",
+    "k. zhang",
+    "pathology, university of north dakota, grand forks, usa",
+    "p24 participation of sfrp1 in the modulation of tmprss2-erg fusion gene in prostate cancer cell lines",
+    "m. rodriguez-dorantes, c. d. cruz-hernandez, c. d. p. garcia-tobilla, s. solorzano-rosales",
+    "oncogenomics, inmegen, mexico city, mexico",
+    "p25 targeted methylation sequencing of prostate cancer",
+    "n. jäger",
+    "p26 mutant tpmt alleles in children with acute lymphoblastic leukemia from méxico city and yucatán, mexico",
+    "s. jiménez-morales",
+    "p28 genetic modifiers of alström syndrome",
+    "j. naggert, g. b. collin, k. demauro, r. hanusek, p. m. nishina",
+    "jackson laboratory, bar harbor, usa",
+    "p31 association of genomic variants with the occurrence of angiotensin-converting-enzyme inhibitor (acei)-induced coughing among filipinos",
+    "e. m. cutiongco de la paz",
+    "p32 the use of “humanized” mouse models to validate disease association of a de novo gars variant and to test a novel gene therapy strategy for charcot-marie-tooth disease type 2d",
+    "k. h. morelli",
+    "p34 molecular regulation of chondrogenic human induced pluripotent stem cells",
+    "m. a. gari",
+    "p35 molecular profiling of hematologic malignancies: implementation of a variant assessment algorithm for next generation sequencing data analysis and clinical reporting",
+    "m. thomas",
+    "p36 accessing genomic evidence for clinical variants at ncbi",
+    "s. sherry, c. xiao, d. slotta, k. rodarmer, m. feolo, m. kimelman, g. godynskiy, c. o’sullivan, e. yaschenko",
+    "ncbi, nih, bethesda, usa",
+    "p37 ngs-swift: a cloud-based variant analysis framework using control-accessed sequencing data from dbgap/sra",
+    "c. xiao, e. yaschenko, s. sherry",
+    "national institutes of health, bethesda, usa",
+    "p38 computational assessment of drug induced hepatotoxicity through gene expression profiling",
+    "c. rangel-escareño, h. rueda-zarate",
+    "computational genomics, national institute of genomic medicine, mexico city, mexico",
+    "p40 flowr: robust and efficient pipelines using a simple language-agnostic approach;ultraseq; fast modular pipeline for somatic variation calling using flowr",
+    "s. seth",
+    "p41 applying “big data” technologies to the rapid analysis of heterogenous large cohort data",
+    "s. j. whiite",
+    "p42 fantom5 web resource for the large-scale genome-wide transcription start site activity profiles of wide-range of mammalian cells",
+    "t. kasukawa",
+    "p43 rapid and scalable typing of structural variants for disease cohorts",
+    "w. salerno",
+    "p44 polymorphism of glutathione s-transferases and sulphotransferases genes in an arab population",
+    "a. h. salem",
+    "p46 genetic divergence of cyp3a5*3 pharmacogenomic marker for native and admixed mexican populations",
+    "j. c. fernandez-lopez",
+    "p47 whole exome sequence meta-analysis of 13 white blood cell, red blood cell, and platelet traits",
+    "l. polfus, charge and nhlbi exome sequence project working groups",
+    "human genetics center, university of texas health science center, houston, usa",
+    "p48 association of adipoq gene with type 2 diabetes and related phenotypes in african american men and women: the jackson heart study",
+    "s. davis",
+    "p49 common variants in casr gene are associated with serum calcium levels in koreans",
+    "s. h. jung, n. vinayagamoorthy, s. h. yim, y. j. chung",
+    "integrated research center for genome polymorphism, the catholic university of korea, seoul, korea, republic of",
+    "p50 inference of multiple-wave population admixture by modeling decay of linkage disequilibrium with multiple exponential functions",
+    "y. zhou, s. xu",
+    "max-planck independent research group on population genomics, cas-mpg partner institute for computational biology, shanghai, china",
+    "p51 a bayesian framework for generalized linear mixed models in genome-wide association studies",
+    "x. wang, v. philip, g. carter",
+    "system genetics, the jackson laboratory, bar harbor, usa",
+    "p52 targeted sequencing approach for the identification of the genetic causes of hereditary hearing impairment",
+    "a. a. abuzenadah",
+    "p53 identification of enhancer sequences by atac-seq open chromatin profiling",
+    "a. uyar",
+    "p54 direct enrichment for the rapid preparation of targeted ngs libraries",
+    "c. l. hendrickson",
+    "p56 performance of the agilent d5000 and high sensitivity d5000 screentape assays for the agilent 4200 tapestation system",
+    "r. nitsche",
+    "p57 clinvar: a multi-source archive for variant interpretation",
+    "m. landrum, j. lee, w. rubinstein, d. maglott",
+    "nih/nlm/ncbi, bethesda, usa",
+    "p59 association of functional variants and protein physical interactions of human muty homolog linked with familial adenomatous polyposis and colorectal cancer syndrome",
+    "z. abduljaleel",
+    "p60 modification of the microbiom constitution in the gut using chicken igy antibodies resulted in a reduction of acute graft-versus-host disease after experimental bone marrow transplantation",
+    "a. bouazzaoui",
+    "p61 compound heterozygous mutation in the",
+    "f. al-allaf"
+  ],
+  "word_count": 47790,
+  "converted_at": "2026-04-06T22:39:45.107039+00:00"
+}

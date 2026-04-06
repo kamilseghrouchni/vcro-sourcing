@@ -264,6 +264,7 @@ def main():
     ap.add_argument("--nct_ids", nargs="*", default=[])
     ap.add_argument("--nct_file", default="")
     ap.add_argument("--out", default="store/raw/trials")
+    ap.add_argument("--skip-existing", action="store_true")
     args = ap.parse_args()
 
     ids = list(args.nct_ids)
@@ -274,6 +275,11 @@ def main():
     os.makedirs(args.out, exist_ok=True)
     ok = 0
     for nct in ids:
+        norm = nct.strip().upper()
+        if not norm.startswith("NCT"):
+            norm = "NCT" + norm
+        if args.skip_existing and os.path.exists(os.path.join(args.out, norm, "trial.md")):
+            continue
         try:
             m = convert(nct, args.out)
             print(f"OK   {nct}  status={m['status']}  enroll={m['enrollment']}  facilities={m['facilities_count']}  biospec={bool(m['biospecimen_retention'])}")

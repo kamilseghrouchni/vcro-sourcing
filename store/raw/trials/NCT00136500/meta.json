@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT00136500",
+  "title": "Clinical Research in Amyotrophic Lateral Sclerosis",
+  "brief_title": "Clinical Research in ALS Study",
+  "status": "RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 10000,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+  ],
+  "keywords": [
+    "genetics",
+    "biomarkers",
+    "pre-symptomatic",
+    "natural history"
+  ],
+  "sponsor": "University of Miami",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "ALS Association",
+    "ALS Recovery Fund"
+  ],
+  "lead_pi": {
+    "name": "Michael Benatar, MD, PhD.",
+    "affiliation": "University of Miami"
+  },
+  "start_date": "2005-02",
+  "completion_date": "2037-12",
+  "primary_completion_date": "2037-12",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "DNA, blood, urine, CSF, skin biopsies",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "University of Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\n1. At least 18 years of age.\n2. Member of at least one of the following categories:\n\n   1. Individuals affected with ALS or a related neurodegenerative disease (sporadic or familial)\n   2. Unaffected individuals from fALS pedigrees, including pre-symptomatic individuals at genetic risk for ALS or individuals from pedigrees of ALS related diseases.\n   3. Healthy controls\n3. Able and willing to comply with relevant procedures.\n\nExclusion Criteria:\n\n1\\. Subject has a condition or is in a situation which, in the PI's opinion, could confound the study finding or may interfere significantly with the individual's participation and compliance with the study protocol -- including but not limited to neurological, psychological and/or medical conditions (e.g., multiple sclerosis, neuropathy, myelopathy).",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Recruitment",
+      "description": "Since this is an umbrella/gateway protocol through which individuals are recruited to participate in a range of studies, outcome is assessed in terms of recruitment.",
+      "timeFrame": "Annually"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "CRiALS is an umbrella protocol through which people are recruited to participate in a range of research studies being conducted by the ALS Research Collaboration (ARC).",
+  "detailed_description": "Research goals include elucidation of the complex relationship between ALS and related neurodegenerative disorders, development of both wet and dry biomarkers of disease, and delineation of the full course of the natural history of disease from the early pre-symptomatic stages through established and even late-stage disease. These goals are accomplished through the recruitment and evaluation of patients with ALS and related diseases, family members (including people at genetic risk for ALS, but who are not yet affected), and healthy controls.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:54.599474+00:00"
+}

@@ -1,0 +1,245 @@
+{
+  "pmid": "41658940",
+  "pmc": "PMC12876226",
+  "doi": "10.3389/fnins.2026.1741065",
+  "title": "MicroRNA profiling in post-mortem spinal cord of C9ORF72-related ALS patients reveals molecular pathways involved in motor neuron degeneration",
+  "journal": "Frontiers in Neuroscience",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Farinazzo Giorgia",
+      "affiliations": [
+        "Neuroimmunology and Neuromuscular Diseases Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy",
+        "Department of Electronics, Information and Bioengineering (DEIB), Politecnico di Milano, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Giagnorio Eleonora",
+      "affiliations": [
+        "Neuroimmunology and Neuromuscular Diseases Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Marcuzzo Matteo",
+      "affiliations": [
+        "Department of Advanced Diagnostics, Laboratory of Diagnostic and Molecular Research, Fondazione IRCSS Istituto Nazionale dei Tumori, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Cattaneo Marco",
+      "affiliations": [
+        "ALS Centre, 3rd Neurology Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy",
+        "PhD Program in Pharmacological Biomolecular Sciences, Experimental and Clinical, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Malacarne Claudia",
+      "affiliations": [
+        "Neuroimmunology and Neuromuscular Diseases Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Cavalcante Paola",
+      "affiliations": [
+        "Neuroimmunology and Neuromuscular Diseases Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Bonanno Silvia",
+      "affiliations": [
+        "Neuroimmunology and Neuromuscular Diseases Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Maderna Emanuela",
+      "affiliations": [
+        "Neurophatology Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Pensato Viviana",
+      "affiliations": [
+        "Unit of Medical Genetics and Neurogenetics, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Gellera Cinzia",
+      "affiliations": [
+        "Unit of Medical Genetics and Neurogenetics, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Marucci Gianluca",
+      "affiliations": [
+        "Neurophatology Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Mazzetti Samanta",
+      "affiliations": [
+        "Movement Disorders Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Salvi Erika",
+      "affiliations": [
+        "Data Science Center, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy",
+        "Computational Multi-Omics of Neurological Disorders (MIND) Lab, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Lauria Giuseppe",
+      "affiliations": [
+        "ALS Centre, 3rd Neurology Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy",
+        "Department of Medical Biotechnology and Translational Medicine, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Marcuzzo Stefania",
+      "affiliations": [
+        "Neuroimmunology and Neuromuscular Diseases Unit, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy",
+        "Brain-targeted Nanotechnologies (BraiNs) Lab, Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy"
+      ]
+    }
+  ],
+  "keywords": [
+    "C9ORF72-amyotrophic lateral sclerosis",
+    "human post-mortem spinal cord tissue",
+    "microRNAs",
+    "motor neuron",
+    "target genes"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Italian Ministry of Health T4-AN-09"
+  ],
+  "data_availability_text": "Data availability statementThe raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.",
+  "license": "",
+  "received": "2025-11-06",
+  "accepted": "2026-01-05",
+  "reference_pmids": [
+    "28283675",
+    "27190236",
+    "30120348",
+    "19969067",
+    "31353074",
+    "40565135",
+    "28614305",
+    "24272709",
+    "38846716",
+    "21386132",
+    "40650046",
+    "18682740",
+    "27097283",
+    "30891533",
+    "21944778",
+    "21484256",
+    "36116464",
+    "32815200",
+    "35317841",
+    "30150298",
+    "31518873",
+    "32286313",
+    "15286356",
+    "36561887",
+    "29107113",
+    "22739985",
+    "21763610",
+    "27185365",
+    "24746472",
+    "36219176",
+    "37622060",
+    "15668976",
+    "27926873",
+    "32422153",
+    "40322914",
+    "31514263",
+    "35603786",
+    "35768750",
+    "33239440",
+    "12881702",
+    "33092465",
+    "34558538",
+    "22735487",
+    "36914969",
+    "27842305",
+    "37080165",
+    "25626686",
+    "24365539",
+    "30559339",
+    "23608773",
+    "31394426",
+    "24129493",
+    "32380888",
+    "29626651",
+    "28032867",
+    "25753155",
+    "37250330",
+    "35794091",
+    "23543137",
+    "18922889",
+    "16571771",
+    "38092738",
+    "40350485",
+    "22373413",
+    "19339207",
+    "28420986",
+    "40009238",
+    "16923154",
+    "20436459",
+    "9688254",
+    "34019797",
+    "31951003",
+    "12809600",
+    "35655056",
+    "26507454",
+    "29463850",
+    "24570486",
+    "10617337",
+    "24311453",
+    "33050466",
+    "24875007",
+    "11880147",
+    "29196317",
+    "27406702",
+    "29375285",
+    "39337908",
+    "33294293",
+    "25997722",
+    "31547867",
+    "22145612",
+    "32677323",
+    "23274497",
+    "33106424",
+    "21440011",
+    "33202380"
+  ],
+  "tables_count": 5,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "sample collection",
+    "g4c2 hexanucleotide repeat analysis",
+    "histological analysis of human post-mortem tissues",
+    "basescope assay for rna foci detection in human post-mortem medulla oblongata and spinal cord tissue",
+    "laser-capture microdissection",
+    "rna extraction from lcm tissue",
+    "mirna profiling and data analysis",
+    "in silico target gene prediction and gene ontology enrichment analysis",
+    "mrna quantitative real-time pcr",
+    "results",
+    "pathophysiological changes in c9orf72-als patient’s post-mortem medulla oblongata and spinal cord tissues",
+    "rna foci in medulla oblongata and ventral horn of spinal cord tissue of c9orf72-als patients",
+    "mirna expression in healthy donor and c9orf72-related als post-mortem cervical ventral horn tissue",
+    "expression patterns of putative mirna target genes in healthy donor and c9orf72-related als post-mortem cervical ventral horn tissue",
+    "discussion",
+    "conclusion",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11464,
+  "converted_at": "2026-04-06T22:39:03.957249+00:00"
+}

@@ -1,0 +1,1094 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Ann Clin Transl Neurol</journal-id><journal-id journal-id-type="iso-abbrev">Ann Clin Transl Neurol</journal-id><journal-id journal-id-type="pmc-domain-id">2565</journal-id><journal-id journal-id-type="pmc-domain">ancltransneuro</journal-id><journal-id journal-id-type="publisher-id">ACN3</journal-id><journal-title-group><journal-title>Annals of Clinical and Translational Neurology</journal-title></journal-title-group><issn pub-type="epub">2328-9503</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7951103</article-id><article-id pub-id-type="pmcid-ver">PMC7951103.1</article-id><article-id pub-id-type="pmcaid">7951103</article-id><article-id pub-id-type="pmcaiid">7951103</article-id><article-id pub-id-type="pmid">33476461</article-id><article-id pub-id-type="doi">10.1002/acn3.51296</article-id><article-id pub-id-type="publisher-id">ACN351296</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Plasma metabolomics of presymptomatic <italic toggle="yes">PSEN1</italic>‐H163Y mutation carriers: a pilot study</article-title><alt-title alt-title-type="right-running-head">Metabolomics of Presymptomatic <italic toggle="yes">PSEN1</italic>‐H163Y</alt-title><alt-title alt-title-type="left-running-head">K. Natarajan <italic toggle="yes">et al</italic>.</alt-title></title-group><contrib-group><contrib id="acn351296-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Natarajan</surname><given-names initials="K">Karthick</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5335-875X</contrib-id><xref ref-type="aff" rid="acn351296-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="acn351296-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="author-notes" rid="acn351296-note-0001">
+<sup><sup>a</sup></sup>
+</xref><address><email>karthickn1982@gmail.com</email></address></contrib><contrib id="acn351296-cr-0002" contrib-type="author"><name name-style="western"><surname>Ullgren</surname><given-names initials="A">Abbe</given-names></name><xref ref-type="aff" rid="acn351296-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="acn351296-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="author-notes" rid="acn351296-note-0001">
+<sup><sup>a</sup></sup>
+</xref></contrib><contrib id="acn351296-cr-0003" contrib-type="author"><name name-style="western"><surname>Khoshnood</surname><given-names initials="B">Behzad</given-names></name><xref ref-type="aff" rid="acn351296-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="acn351296-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="acn351296-cr-0004" contrib-type="author"><name name-style="western"><surname>Johansson</surname><given-names initials="C">Charlotte</given-names></name><xref ref-type="aff" rid="acn351296-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="acn351296-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="acn351296-cr-0005" contrib-type="author"><name name-style="western"><surname>Laffita‐Mesa</surname><given-names initials="JM">José M.</given-names></name><xref ref-type="aff" rid="acn351296-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="acn351296-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="acn351296-cr-0006" contrib-type="author"><name name-style="western"><surname>Pannee</surname><given-names initials="J">Josef</given-names></name><xref ref-type="aff" rid="acn351296-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="acn351296-cr-0007" contrib-type="author"><name name-style="western"><surname>Zetterberg</surname><given-names initials="H">Henrik</given-names></name><xref ref-type="aff" rid="acn351296-aff-0004">
+<sup>4</sup>
+</xref><xref ref-type="aff" rid="acn351296-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="acn351296-cr-0008" contrib-type="author"><name name-style="western"><surname>Blennow</surname><given-names initials="K">Kaj</given-names></name><xref ref-type="aff" rid="acn351296-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="acn351296-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Graff</surname><given-names initials="C">Caroline</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9949-2951</contrib-id><xref ref-type="aff" rid="acn351296-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="acn351296-aff-0002">
+<sup>2</sup>
+</xref><address><email>caroline.graff@ki.se</email></address></contrib></contrib-group><aff id="acn351296-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Division for Neurogeriatrics</named-content>
+<named-content content-type="organisation-division">Centre for Alzheimer Research</named-content>
+<named-content content-type="organisation-division">Department of Neurobiology, Care Sciences and Society</named-content>
+<institution>Karolinska Institutet</institution>
+<city>Stockholm</city>
+<country country="SE">Sweden</country>
+</aff><aff id="acn351296-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Unit for Hereditary Dementias</named-content>
+<institution>Theme Aging</institution>
+<institution>QA12</institution>
+<institution>Karolinska University Hospital‐Solna</institution>
+<city>Stockholm</city>
+<country country="SE">Sweden</country>
+</aff><aff id="acn351296-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Institute of Neuroscience and Physiology</named-content>
+<named-content content-type="organisation-division">Department of Psychiatry and Neurochemistry</named-content>
+<institution>The Sahlgrenska Academy at the University of Gothenburg</institution>
+<city>Gothenburg</city>
+<country country="SE">Sweden</country>
+</aff><aff id="acn351296-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Institute of Neuroscience and Physiology</named-content>
+<named-content content-type="organisation-division">Department of Psychiatry and Neurochemistry</named-content>
+<institution>The Sahlgrenska Academy at the University of Gothenburg</institution>
+<city>Gothenburg</city>
+<country country="SE">Sweden</country>
+</aff><aff id="acn351296-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Department of Molecular Neuroscience</named-content>
+<institution>UCL Institute of Neurology</institution>
+<city>London</city>
+<postal-code>WC1N 3BG</postal-code>
+<country country="GB">England</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Karthick Natarajan and Caroline Graff, Department NVS, Division of Neurogeriatrics, Karolinska Institutet, Bioclinicum J10:20, Visionsgatan 4, 171 64, Solna, Sweden. Tel: +46 723 821 813 (K.N.); Tel: +46(0)73 383 9399 (C.G.); E‐mails: <email>karthickn1982@gmail.com</email>; <email>caroline.graff@ki.se</email><break/></corresp><fn id="acn351296-note-0001"><label><sup>a</sup></label><p>Shared first authors.</p></fn></author-notes><pub-date pub-type="epub"><day>21</day><month>1</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2021</year></pub-date><volume>8</volume><issue>3</issue><issue-id pub-id-type="pmc-issue-id">377311</issue-id><issue-id pub-id-type="doi">10.1002/acn3.v8.3</issue-id><fpage>579</fpage><lpage>591</lpage><history><date date-type="received"><day>24</day><month>5</month><year>2020</year></date><date date-type="rev-recd"><day>04</day><month>12</month><year>2020</year></date><date date-type="accepted"><day>10</day><month>12</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>21</day><month>01</month><year>2021</year></date></event><event event-type="pmc-live"><date><day>17</day><month>03</month><year>2021</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-04-04 20:25:13.073"><day>04</day><month>04</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2021 The Authors. <italic toggle="yes">Annals of Clinical and Translational Neurology</italic> published by Wiley Periodicals LLC on behalf of American Neurological Association</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ACN3-8-579.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ACN3-8-579.pdf"/><abstract id="acn351296-abs-0001"><title>Abstract</title><sec id="acn351296-sec-0001"><title>Background and Objective</title><p>
+<italic toggle="yes">PSEN1</italic>‐H163Y carriers, at the presymptomatic stage, have reduced <sup>18</sup>FDG‐PET binding in the cerebrum of the brain (Scholl et al., Neurobiol Aging 32:1388–1399, 2011). This could imply dysfunctional energy metabolism in the brain. In this study, plasma of presymptomatic <italic toggle="yes">PSEN1</italic> mutation carriers was analyzed to understand associated metabolic changes.</p></sec><sec id="acn351296-sec-0002"><title>Methods</title><p>We analyzed plasma from noncarriers (NC, <italic toggle="yes">n</italic> = 8) and presymptomatic <italic toggle="yes">PSEN1</italic>‐H163Y mutation carriers (MC, <italic toggle="yes">n</italic> = 6) via untargeted metabolomics using gas and liquid chromatography coupled with mass spectrometry, which identified 1199 metabolites. All the metabolites were compared between MC and NC using univariate analysis, as well as correlated with the ratio of A<italic toggle="yes">β</italic>
+<sub>1–42/A</sub>
+<italic toggle="yes"><sub>β</sub></italic>
+<sub>1–40</sub>, using Spearman’s correlation. Altered metabolites were subjected to Ingenuity Pathway Analysis (IPA).</p></sec><sec id="acn351296-sec-0003"><title>Results</title><p>Based on principal component analysis the plasma metabolite profiles were divided into dataset A and dataset B. In dataset A, when comparing between presymptomatic MC and NC, the levels of 79 different metabolites were altered. Out of 79, only 14 were annotated metabolites. In dataset B, 37 metabolites were significantly altered between presymptomatic MC and NC and nine metabolites were annotated. In both datasets, annotated metabolites represent amino acids, fatty acyls, bile acids, hexoses, purine nucleosides, carboxylic acids, and glycerophosphatidylcholine species. 1‐docosapentaenoyl‐GPC was positively correlated, uric acid and glucose were negatively correlated with the ratio of plasma A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> (<italic toggle="yes">P</italic> &lt; 0.05).</p></sec><sec id="acn351296-sec-0004"><title>Interpretation</title><p>This study finds dysregulated metabolite classes, which are changed before the disease symptom onset. Also, it provides an opportunity to compare with sporadic Alzheimer’s Disease. Observed findings in this study need to be validated in a larger and independent Familial Alzheimer’s Disease (FAD) cohort.</p></sec></abstract><funding-group><award-group id="funding-0001"><funding-source>Swedish Alzheimer’s Foundation</funding-source></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Hjärnfonden </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100000942</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0003"><funding-source>Demensfonden</funding-source></award-group><award-group id="funding-0004"><funding-source>Karolinska Geriatric Foundation</funding-source></award-group><award-group id="funding-0005"><funding-source><institution-wrap><institution>Stiftelsen för Gamla Tjänarinnor </institution><institution-id institution-id-type="open-funder-registry">10.13039/100010815</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0006"><funding-source>Stohnes Foundation</funding-source></award-group><award-group id="funding-0007"><funding-source><institution-wrap><institution>Swedish Research Council </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100004359</institution-id></institution-wrap></funding-source><award-id>2015‐02926</award-id><award-id>2018‐02754</award-id></award-group><award-group id="funding-0008"><funding-source>Karolinska Institutet StratNeuro postdoc funding</funding-source></award-group><award-group id="funding-0009"><funding-source>ALF Region Stockholm</funding-source></award-group><award-group id="funding-0010"><funding-source>Schörling Foundation ‐ Swedish FTD Initiative</funding-source></award-group><funding-statement>This work was funded by <funding-source>Swedish Alzheimer’s Foundation</funding-source> grant ; <funding-source><institution-wrap><institution>Hjärnfonden </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100000942</institution-id></institution-wrap></funding-source> grant ; <funding-source>Demensfonden</funding-source> grant ; <funding-source>Karolinska Geriatric Foundation</funding-source> grant ; <funding-source><institution-wrap><institution>Stiftelsen för Gamla Tjänarinnor </institution><institution-id institution-id-type="open-funder-registry">10.13039/100010815</institution-id></institution-wrap></funding-source> grant ; <funding-source>Stohnes Foundation</funding-source> grant ; <funding-source><institution-wrap><institution>Swedish Research Council </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100004359</institution-id></institution-wrap></funding-source> grants <award-id>2015‐02926</award-id> and <award-id>2018‐02754</award-id>; <funding-source>Karolinska Institutet StratNeuro postdoc funding</funding-source> grant ; <funding-source>ALF Region Stockholm</funding-source> grant ; <funding-source>Schörling Foundation ‐ Swedish FTD Initiative</funding-source> grant . </funding-statement></funding-group><counts><fig-count count="3"/><table-count count="3"/><page-count count="13"/><word-count count="7707"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>March 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.9 mode:remove_FC converted:11.03.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group id="acn351296-ntgp-0001"><fn id="acn351296-note-0011"><p>
+<bold>Funding Information</bold>
+</p><p>Swedish Alzheimer’s Foundation Hjärnfonden Demensfonden Karolinska Geriatric Foundation Stiftelsen för Gamla Tjänarinnor Stohnes Foundation Swedish Research Council 2015‐02926 2018‐02754 Karolinska Institutet StratNeuro postdoc funding ALF Region Stockholm Schörling Foundation ‐ Swedish FTD Initiative</p></fn></fn-group></notes></front><body id="acn351296-body-0001"><sec id="acn351296-sec-0005"><title>Introduction</title><p>Alzheimer’s disease (AD) is a growing health concern estimated to affect 136 million people worldwide by 2050.<xref rid="acn351296-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref> The autosomal dominant mutations found in the <italic toggle="yes">APP, PSEN1, and PSEN2</italic>
+<xref rid="acn351296-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref> genes cause early‐onset Familial Alzheimer’s Disease (FAD), with the high penetrance <italic toggle="yes">PSEN1</italic> mutations (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.alzforum.org/mutations/psen-1">https://www.alzforum.org/mutations/psen‐1</ext-link>) being the most frequent.<xref rid="acn351296-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref> PSEN1 is a part of the gamma‐secretase protein complex, which cleaves the Amyloid precursor protein (APP) that leads to the production of a mixture of amyloid peptides A<italic toggle="yes">β</italic>
+<sub>1–40</sub> (90%) and A<italic toggle="yes">β</italic>
+<sub>1–42</sub> (10%) in the amyloidogenic pathway.<xref rid="acn351296-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref> These peptides are known to be part of the pathobiology of FAD. The <italic toggle="yes">PSEN</italic>1 mutation p.His163Tyr (<italic toggle="yes">PSEN1‐</italic>H163Y) results in higher ratios of A<italic toggle="yes">β</italic>
+<sub>1–42/</sub>A<italic toggle="yes">β</italic>
+<sub>1–40</sub>
+<xref rid="acn351296-bib-0004" ref-type="ref">
+<sup>4</sup>
+</xref> in in vitro assays.</p><p>Previously, several studies have described the plasma metabolic profile of sporadic mild cognitive impairment (MCI) and AD cases.<xref rid="acn351296-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="acn351296-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref>, <xref rid="acn351296-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>, <xref rid="acn351296-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref>, <xref rid="acn351296-bib-0008" ref-type="ref">
+<sup>8</sup>
+</xref>, <xref rid="acn351296-bib-0009" ref-type="ref">
+<sup>9</sup>
+</xref>, <xref rid="acn351296-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref> A targeted plasma lipid profiling was performed in <italic toggle="yes">PSEN1</italic> mutation carriers.<xref rid="acn351296-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref> However, no untargeted plasma metabolome has yet been reported for presymptomatic <italic toggle="yes">PSEN1</italic> mutation carriers.</p><p>In FAD, the preclinical phase is characterized by brain glucose hypometabolism.<xref rid="acn351296-bib-0012" ref-type="ref">
+<sup>12</sup>
+</xref>, <xref rid="acn351296-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref> We have previously demonstrated glucose hypometabolism in the cerebrum at the presymptomatic stage of <italic toggle="yes">PSEN1</italic>‐H163Y carriers.<xref rid="acn351296-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref> In this follow‐up study, we hypothesize that untargeted plasma metabolite profiling could provide clues about the dysregulated metabolic pathways in presymptomatic <italic toggle="yes">PSEN1</italic> mutation carriers (MC) in comparison with noncarriers (NC) within the FAD <italic toggle="yes">PSEN1</italic>‐H163Y cohort.<xref rid="acn351296-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref>, <xref rid="acn351296-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref>, <xref rid="acn351296-bib-0016" ref-type="ref">
+<sup>16</sup>
+</xref>, <xref rid="acn351296-bib-0017" ref-type="ref">
+<sup>17</sup>
+</xref> First, we identified metabolites, which are differentially expressed between MC and NC and assessed their associated biological processes. Then, we explored the association between these metabolites with plasma levels of various amyloid beta isoforms (A<italic toggle="yes">β</italic>). Taken together, our study provides a snapshot of the plasma metabolic changes in presymptomatic <italic toggle="yes">PSEN1</italic> MC, which may inform about biological events that are characteristics of the preclinical phase.</p></sec><sec sec-type="materials-and-methods" id="acn351296-sec-0006"><title>Materials and Methods</title><sec id="acn351296-sec-0007"><title>Study population</title><p>Relatives with plasma samples from the <italic toggle="yes">PSEN1</italic>‐H163Y kindred in the Swedish FAD study were eligible for inclusion. The prospective FAD study invites <italic toggle="yes">APP</italic> and <italic toggle="yes">PSEN1</italic> kindreds at the Memory outpatient clinic in Karolinska University Hospital, Stockholm, since 1993. Presymptomatic relatives with 50% risk of disease are followed longitudinally with a comprehensive assessment battery, described in detail elsewhere.<xref rid="acn351296-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref>, <xref rid="acn351296-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref>, <xref rid="acn351296-bib-0017" ref-type="ref">
+<sup>17</sup>
+</xref> Clinical and neuroradiological evaluations are accompanied by sampling of cerebrospinal fluid (CSF) and blood. Mean (SD) age of onset in the <italic toggle="yes">PSEN1</italic>‐H163Y kindred is 52 ± 6 years (based on 12 individuals). Symptom onset is regarded as having the first subjective symptoms as experienced by participants or next‐of‐kin. Mutation status (carrier or noncarrier) was not known to participants or clinicians within the study, if not stated otherwise. The study procedures were approved by the Regional Ethical Review Board in Stockholm, Sweden, and were in agreement with the Helsinki Declaration. Study participants provided written informed consent. The plasma samples were collected in a longitudinal manner as a part of the battery of clinical evaluation over the years from 1995 to 2017.</p></sec><sec id="acn351296-sec-0008"><title>DNA extraction from blood</title><p>As part of the FAD study protocol, venous blood was collected at the Memory clinic of Karolinska university hospital, Stockholm. Using the Gentra Puregene blood Kit (Qiagen, Hilden, Germany) DNA was extracted from the blood and resuspended in RNase &amp; DNase free water (Qiagen, Hilden, Germany). The concentration of extracted DNA was measured with the QUBIT instrument (Thermofisher, Waltham, MA, USA) as described by the manufacturer.</p></sec><sec id="acn351296-sec-0009"><title>Genotyping for <italic toggle="yes">PSEN1</italic>‐H163Y mutation</title><p>20ng of DNA was amplified for <italic toggle="yes">PSEN1</italic>‐Exon6 using forward (5’ GGTTGTGGGACCTGTTAATT 3’) and reverse (5’ CAACAAAGTACATGGCTTTAAATGA 3’) primers with AmpliTaq Gold<sup>®</sup> 360 PCR Master Mix (Thermofisher, Waltham, MA, USA). Sanger sequencing was performed using BigDye™ Terminator v3.1 Cycle Sequencing Kit (Thermofisher, Waltham, MA, USA) in both forward and reverse directions and analyzed using ABI3500 Genetic Analyzer (Thermofisher, Waltham, MA, USA).</p></sec><sec id="acn351296-sec-0010"><title>
+<italic toggle="yes">APOE</italic> allele genotyping</title><p>The <italic toggle="yes">APOE</italic> genotyping was performed for SNP rs7412 and rs429358 using predesigned TaqMan<sup>®</sup> SNP Genotyping Assays (Thermofisher, Waltham, MA, USA) as indicated in the manufacturer’s protocol. The amplified products were run on 7500 fast Real‐Time PCR Systems (Thermofisher, Waltham, MA, USA).</p></sec><sec id="acn351296-sec-0011"><title>Plasma sample collection</title><p>Nonfasting plasma was prepared from the blood. The plasma was removed as the supernatant after 1 h incubation at room temperature (RT) and 10 min centrifugation at 2200<italic toggle="yes">g</italic>. Then, the plasma was aliquoted and frozen at −80°C until analysis. Plasma sampled between the years 1995 to 2017 were included. The metabolite analysis was carried out at the Swedish Metabolomics Center (SMC, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.swedishmetabolomicscentre.se/">https://www.swedishmetabolomicscentre.se/</ext-link>), Umeå, Sweden.</p></sec><sec id="acn351296-sec-0012"><title>Metabolite extraction and analysis</title><p>Untargeted metabolite extraction and analysis via Gas Chromatography (GC) and Liquid Chromatography (LC) in combination with Mass‐Spectrometry (MS) were performed at SMC as described here.<xref rid="acn351296-bib-0018" ref-type="ref">
+<sup>18</sup>
+</xref> Plasma was prepared by adding 900 <italic toggle="yes">µ</italic>L of extraction buffer (90/10 v/v methanol: water) along with internal standards for the GC–MS and LC–MS to 100<italic toggle="yes"> µ</italic>L of plasma. The samples were prepared and analyzed in a randomized order for GC–MS and LC–MS. Detailed methods were described in the Data <xref rid="acn351296-sup-0006" ref-type="supplementary-material">S1</xref> section (Metabolite profiling of the plasma).</p></sec><sec id="acn351296-sec-0013"><title>Analysis of A<italic toggle="yes">β</italic>
+<sub>1–38</sub>, A<italic toggle="yes">β</italic>
+<sub>1–40</sub>, and A<italic toggle="yes">β</italic>
+<sub>1–42</sub> in plasma</title><p>The analyses of A<italic toggle="yes">β</italic>
+<sub>1–38</sub>, A<italic toggle="yes">β</italic>
+<sub>1–40</sub>, and A<italic toggle="yes">β</italic>
+<sub>1–42</sub> in plasma were performed using immunoprecipitation coupled to tandem Liquid Chromatography mass spectrometry (IP‐LC–MS/MS) as described previously.<xref rid="acn351296-bib-0019" ref-type="ref">
+<sup>19</sup>
+</xref>, <xref rid="acn351296-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref> In short, calibrators were prepared using recombinant A<italic toggle="yes">β</italic>1–38, A<italic toggle="yes">β</italic>1–40, and A<italic toggle="yes">β</italic>1–42 (rPeptide) added to 8 % bovine serum albumin in phosphate‐buffered saline. Recombinant <sup>15</sup>N uniformly labeled A<italic toggle="yes">β</italic>
+<sub>1–38</sub>, A<italic toggle="yes">β</italic>
+<sub>1–40</sub>, and A<italic toggle="yes">β</italic>
+<sub>1–42</sub> (rPeptide) were used as internal standards (IS), added to samples and calibrators prior to sample preparation. A<italic toggle="yes">β</italic> peptides were extracted from 250 <italic toggle="yes">µ</italic>L human plasma using immunoprecipitation with anti‐<italic toggle="yes">β</italic>‐Amyloid 17–24 (4G8) and anti‐<italic toggle="yes">β</italic>‐Amyloid 1–16 antibodies (6E10, both Biolegend<sup>®</sup>) coupled to Dynabeads™ M‐280 Sheep Anti‐Mouse IgG magnetic beads (Thermofisher, Waltham, MA, USA). Immunoprecipitation was performed using a KingFisher™ Flex Purification System (Thermofisher, Waltham, MA, USA). Analysis of processed samples was performed using liquid chromatography‐tandem mass spectrometry (LC–MS/MS) on a Dionex Ultimate LC‐system and a Thermo Scientific Q Exactive quadrupole‐Orbitrap hybrid mass spectrometer. Chromatographic separation was achieved using basic mobile phases and a reversed‐phase monolith column at a flow rate of 0.3 mL/min. The mass spectrometer operated in parallel reaction monitoring (PRM) mode was set to isolate the 4+ charge state precursors of the A<italic toggle="yes">β</italic> peptides. Product ions (14–15 depending on peptide) specific for each precursor was selected and summed to calculate the chromatographic areas for each peptide and its corresponding IS. The area ratio of the analyte to the internal standard in unknown samples and calibrators was used for quantification.</p></sec><sec id="acn351296-sec-0014"><title>Statistical analysis</title><p>All statistical analyses were done using R (The R Foundation for Statistical Computing; version 3.6.1) and R Studio software. Group comparisons between presymptomatic <italic toggle="yes">PSEN1</italic>‐H163Y MC and NC were made using Wilcoxon rank‐sum tests and a <italic toggle="yes">P</italic> value below 0.05 was considered as significant. Features with <italic toggle="yes">P</italic> values above the significance threshold were excluded from downstream analysis. Correlations between the selected metabolites and plasma A<italic toggle="yes">β</italic>
+<sub>1–42/</sub>A<italic toggle="yes">β</italic>
+<sub>1–40</sub> ratio were tested using Spearman’s rho statistic and the <italic toggle="yes">P</italic> values were calculated using the asymptotic t approximation.</p><p>The correlation between the observed metabolite levels and how many years the sample had been kept in storage was tested using Spearman’s rho statistic and the <italic toggle="yes">P</italic> values were calculated using the asymptotic t approximation. The same was done for correlations with participant age at sampling and the presence of at least one <italic toggle="yes">APOEε4</italic> allele. The heatmaps were constructed using two separate clusters, one cluster for the features and another for the samples. The clustering analysis was done using agglomerative hierarchical clustering using the Wards clustering criterion. The dissimilarity matrices were constructed using Pearson’s correlation.</p></sec><sec id="acn351296-sec-0015"><title>Metabolites biological interpretation</title><p>Differential metabolites between MC and NC were converted into their corresponding Human Metabolome Database identifier (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.hmdb.ca/">http://www.hmdb.ca/</ext-link>, HMDB ID) as well as annotated for their metabolite class. HMDB ID was analyzed using the Ingenuity Pathway Analysis (IPA)<xref rid="acn351296-bib-0021" ref-type="ref">
+<sup>21</sup>
+</xref> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.qiagenbioinformatics.com/products/ingenuity-pathway-analysis/">https://www.qiagenbioinformatics.com/products/ingenuity‐pathway‐analysis/</ext-link>, Qiagen Inc.) software, enriched significant metabolite ontologies were filtered as described in the IPA’s metabolomics white paper (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pages.ingenuity.com/rs/ingenuity/images/wp_ingenuity_metabolomics.pdf">http://pages.ingenuity.com/rs/ingenuity/images/wp_ingenuity_metabolomics.pdf</ext-link>).</p></sec></sec><sec sec-type="results" id="acn351296-sec-0016"><title>Results</title><sec id="acn351296-sec-0017"><title>Demographics of the study population</title><p>A total of 24 plasma samples from 17 males were included in this study, of these there were 6 mutation carriers (MC) and 11 noncarriers (NC). The study participants were relatives from the <italic toggle="yes">PSEN1</italic>‐H163Y kindred, except for three NC from two <italic toggle="yes">APP</italic> kindreds which were included to increase the number of available controls (Table <xref rid="acn351296-tbl-0001" ref-type="table">1</xref>). The participants underwent repeated sampling of blood, meaning these individuals were represented more than once and contributing to an overall mean age at sampling of 42 ± 11 years. Distribution of mutation status, <italic toggle="yes">APOEε4</italic> status and mean age at sampling in each dataset are described in Table <xref rid="acn351296-tbl-0001" ref-type="table">1</xref>. Asymptomatic status in all participants was confirmed by later records of the actual age of onset in the MC and mean Mini‐Mental State Examination (MMSE) scores<xref rid="acn351296-bib-0022" ref-type="ref">
+<sup>22</sup>
+</xref> were 29 ± 1 (maximum score 30) upon sampling. One of the participants from the MC group opted for presymptomatic genetic testing at the hospital. This has since proved to be a rare case of reduced penetrance, showing no signs of beta‐amyloid (A<italic toggle="yes">β</italic>) retention during [11C]Pittsburgh compound B (PiB) positron emission tomography (PET) at the age of 60 years<xref rid="acn351296-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref> and no cognitive deficits during the most recent psychological assessment, performed at the age of 65, 13 years past the expected age of onset. There were no known subjects with alcohol overconsumption or dietary restrictions.</p><table-wrap id="acn351296-tbl-0001" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 1</label><caption><p>Demographics of the study participants</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" style="border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Dataset</th><th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">A</th><th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">B</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Genetic status</th><th align="center" valign="top" rowspan="1" colspan="1">presymptomatic MC</th><th align="center" valign="top" rowspan="1" colspan="1">NC</th><th align="center" valign="top" rowspan="1" colspan="1">presymptomatic MC</th><th align="center" valign="top" rowspan="1" colspan="1">NC</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Total number of individuals (samples)</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">6</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">PSEN1</italic> kindred</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">APP</italic> kindred</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1">Age (y) (Mean ± SD)</td><td align="left" rowspan="1" colspan="1">35 ± 5.97</td><td align="left" rowspan="1" colspan="1">39.63 ± 8.83</td><td align="left" rowspan="1" colspan="1">48.5 ± 5.8</td><td align="left" rowspan="1" colspan="1">49.67 ± 16.13</td></tr><tr><td align="left" rowspan="1" colspan="1">MMSE (Mean ± SD)</td><td align="left" rowspan="1" colspan="1">29 ± 1</td><td align="left" rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">29 ± 1</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">APOEε</italic>4 carrier %</td><td align="left" rowspan="1" colspan="1">50%</td><td align="left" rowspan="1" colspan="1">50%</td><td align="left" rowspan="1" colspan="1">50%</td><td align="left" rowspan="1" colspan="1">50%</td></tr></tbody></table><table-wrap-foot id="acn351296-ntgp-0002"><fn id="acn351296-note-0002"><p>Demographic data for dataset A (samples collected before 2008) and dataset B (samples collected after 2008), which were used for the univariate analysis. Plasma samples were stratified for univariate analysis based on the PCA (Fig. <xref rid="acn351296-sup-0001" ref-type="supplementary-material">S1</xref>). One “baseline” plasma sample from each time period was selected, and all individuals were male and presymptomatic upon sampling. The number of Apolipoprotein E4 (<italic toggle="yes">APOEε4</italic>) genotype carriers in each dataset is indicated. Seven of the participants (3 NC and 4 MC) are represented in both A and B datasets (“y” denotes years).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="acn351296-sec-0018"><title>Comparison of plasma metabolite levels between presymptomatic MC and NC</title><p>Untargeted GC–MS and LC–MS analysis of the plasma samples detected 1199 metabolites, of which 23% were annotated. First, a Principal Component Analysis (PCA) model was built (Fig. <xref rid="acn351296-sup-0001" ref-type="supplementary-material">S1</xref>). The PCA analysis indicate a clear separation of the samples based on the number of years of storage. A similar effect was previously reported.<xref rid="acn351296-bib-0023" ref-type="ref">
+<sup>23</sup>
+</xref> For that reason, the samples were stratified into two separate datasets based on the sample collection year (Table <xref rid="acn351296-tbl-0001" ref-type="table">1</xref>; referred to as dataset A and B in the text). Dataset “A” contains the samples collected before the year 2008 and dataset “B” contains the samples collected after 2008.</p><p>The two datasets were analyzed separately. Within them the measured levels of the metabolites were compared between the MC and NC. In dataset A, the levels of 79 metabolites (14 annotated), were significantly different in MC compared with NC (<italic toggle="yes">P</italic> &lt; 0.05) (Table <xref rid="acn351296-tbl-0002" ref-type="table">2</xref>, Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S1</xref>). The annotated metabolites belong to the metabolite classes of amino acids (<italic toggle="yes">n</italic> = 3), carboxylic acids (<italic toggle="yes">n</italic> = 1), hexoses (<italic toggle="yes">n</italic> = 1), imidazopyrimidines (<italic toggle="yes">n</italic> = 1), fatty acyls (<italic toggle="yes">n</italic> = 1), glycerophospholipids (<italic toggle="yes">n</italic> = 6) and hydroxy acids (<italic toggle="yes">n</italic> = 1). In dataset B, the levels of 37 metabolites (9 annotated), were significantly different in MC compared with NC (<italic toggle="yes">P</italic> &lt; 0.05) (Table <xref rid="acn351296-tbl-0002" ref-type="table">2</xref>, Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S1</xref>). The annotated metabolites belong to the metabolite classes of amino acids (<italic toggle="yes">n</italic> = 2), purine nucleosides (<italic toggle="yes">n</italic> = 1), carboxylic acids (<italic toggle="yes">n</italic> = 2), fatty acyls (<italic toggle="yes">n</italic> = 2), and bile acids (<italic toggle="yes">n</italic> = 2). Of the annotated metabolites, threonine showed a significant difference between MC and NC in both datasets (<italic toggle="yes">P</italic> &lt; 0.05). Six unannotated metabolites showed significant differences between MC and NC in both datasets (Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S1</xref>). 3‐methylglutarylcarnitine, pyroglutamic acid, and glutamine showed a significant difference in one dataset and a tendency to a difference in the other (<italic toggle="yes">P</italic> &lt; 0.1). Additionally, five unannotated metabolites showed a significant difference between MC and NC in one dataset and a tendency to a difference in the other (Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S1</xref>).</p><table-wrap id="acn351296-tbl-0002" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 2</label><caption><p>Differentially expressed metabolites between presymptomatic MC and NC</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Dataset</th><th align="center" valign="top" rowspan="1" colspan="1">Metabolite</th><th align="center" valign="top" rowspan="1" colspan="1">Metabolite class</th><th align="center" valign="top" rowspan="1" colspan="1">Fold change</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic> value</th><th align="center" valign="top" rowspan="1" colspan="1">Correlation to A<italic toggle="yes">β</italic>(1–42/1–40)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Glycohyocholic acid</td><td align="left" rowspan="1" colspan="1">Bile acids</td><td align="char" char="." rowspan="1" colspan="1">−1.023</td><td align="char" char="." rowspan="1" colspan="1">0.014</td><td align="char" char="." rowspan="1" colspan="1">−0.236</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Asymmetric dimethylarginine</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">0.403</td><td align="char" char="." rowspan="1" colspan="1">0.025</td><td align="char" char="." rowspan="1" colspan="1">0.418</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Ursodeoxycholic acid</td><td align="left" rowspan="1" colspan="1">Bile acids</td><td align="char" char="." rowspan="1" colspan="1">2.193</td><td align="char" char="." rowspan="1" colspan="1">0.025</td><td align="char" char="." rowspan="1" colspan="1">−0.006</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Threonine<xref ref-type="fn" rid="acn351296-note-0004">
+<sup>1</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Amino acids</td><td align="char" char="." rowspan="1" colspan="1">0.392</td><td align="char" char="." rowspan="1" colspan="1">0.043</td><td align="char" char="." rowspan="1" colspan="1">0.042</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Asparagine</td><td align="left" rowspan="1" colspan="1">Amino acids</td><td align="char" char="." rowspan="1" colspan="1">0.417</td><td align="char" char="." rowspan="1" colspan="1">0.043</td><td align="char" char="." rowspan="1" colspan="1">0.164</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">N2,N2‐Dimethylguanosine</td><td align="left" rowspan="1" colspan="1">Purine nucleosides</td><td align="char" char="." rowspan="1" colspan="1">0.649</td><td align="char" char="." rowspan="1" colspan="1">0.043</td><td align="char" char="." rowspan="1" colspan="1">0.139</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">N‐Acetylvaline</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">0.341</td><td align="char" char="." rowspan="1" colspan="1">0.043</td><td align="char" char="." rowspan="1" colspan="1">−0.018</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">3‐Methylglutarylcarnitine<xref ref-type="fn" rid="acn351296-note-0005">
+<sup>2</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.793</td><td align="char" char="." rowspan="1" colspan="1">0.043</td><td align="char" char="." rowspan="1" colspan="1">−0.382</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">2‐Hydroxycaproic acid</td><td align="left" rowspan="1" colspan="1">Fatty Acyls</td><td align="char" char="." rowspan="1" colspan="1">0.339</td><td align="char" char="." rowspan="1" colspan="1">0.043</td><td align="char" char="." rowspan="1" colspan="1">0.394</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">1‐oleoyl‐GPC</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">0.170</td><td align="char" char="." rowspan="1" colspan="1">0.003</td><td align="char" char="." rowspan="1" colspan="1">0.544</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Cystine</td><td align="left" rowspan="1" colspan="1">Amino acids</td><td align="char" char="." rowspan="1" colspan="1">−0.289</td><td align="char" char="." rowspan="1" colspan="1">0.017</td><td align="char" char="." rowspan="1" colspan="1">−0.341</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Glutamine<xref ref-type="fn" rid="acn351296-note-0005">
+<sup>2</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Amino acids</td><td align="char" char="." rowspan="1" colspan="1">0.157</td><td align="char" char="." rowspan="1" colspan="1">0.017</td><td align="char" char="." rowspan="1" colspan="1">0.505</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">2‐oleoyl‐GPC</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">0.335</td><td align="char" char="." rowspan="1" colspan="1">0.017</td><td align="char" char="." rowspan="1" colspan="1">0.505</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Pyroglutamic acid<xref ref-type="fn" rid="acn351296-note-0005">
+<sup>2</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">0.153</td><td align="char" char="." rowspan="1" colspan="1">0.024</td><td align="char" char="." rowspan="1" colspan="1">0.544</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Uric acid</td><td align="left" rowspan="1" colspan="1">Imidazopyrimidines</td><td align="char" char="." rowspan="1" colspan="1">−0.496</td><td align="char" char="." rowspan="1" colspan="1">0.024</td><td align="char" char="." rowspan="1" colspan="1">−0.609<xref ref-type="fn" rid="acn351296-note-0006">*</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">1‐Palmitoyl‐sn‐glycero‐3‐phosphocholine</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">0.436</td><td align="char" char="." rowspan="1" colspan="1">0.024</td><td align="char" char="." rowspan="1" colspan="1">0.390</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">1‐arachidonoyl‐GPC</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">0.337</td><td align="char" char="." rowspan="1" colspan="1">0.024</td><td align="char" char="." rowspan="1" colspan="1">0.401</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">3‐Hydroxybutyric acid</td><td align="left" rowspan="1" colspan="1">Hydroxy acids</td><td align="char" char="." rowspan="1" colspan="1">−0.731</td><td align="char" char="." rowspan="1" colspan="1">0.024</td><td align="char" char="." rowspan="1" colspan="1">−0.341</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Glucose</td><td align="left" rowspan="1" colspan="1">Hexoses</td><td align="char" char="." rowspan="1" colspan="1">−0.164</td><td align="char" char="." rowspan="1" colspan="1">0.033</td><td align="char" char="." rowspan="1" colspan="1">−0.571<xref ref-type="fn" rid="acn351296-note-0006">*</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Threonine<xref ref-type="fn" rid="acn351296-note-0004">
+<sup>1</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Amino acids</td><td align="char" char="." rowspan="1" colspan="1">0.138</td><td align="char" char="." rowspan="1" colspan="1">0.045</td><td align="char" char="." rowspan="1" colspan="1">0.445</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Propionylcarnitine</td><td align="left" rowspan="1" colspan="1">Fatty Acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.497</td><td align="char" char="." rowspan="1" colspan="1">0.045</td><td align="char" char="." rowspan="1" colspan="1">−0.374</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">2‐stearoyl‐GPC</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">0.264</td><td align="char" char="." rowspan="1" colspan="1">0.045</td><td align="char" char="." rowspan="1" colspan="1">0.220</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">1‐docosapentaenoyl‐GPC</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">0.342</td><td align="char" char="." rowspan="1" colspan="1">0.045</td><td align="char" char="." rowspan="1" colspan="1">0.648<xref ref-type="fn" rid="acn351296-note-0006">*</xref>
+</td></tr></tbody></table><table-wrap-foot id="acn351296-ntgp-0003"><fn id="acn351296-note-0003"><p>Annotated metabolites (<italic toggle="yes">n</italic> = 23) showed a significant (<italic toggle="yes">P</italic> &lt; 0.05) difference between MC and NC. Log2 foldchange is shown as the difference between MC and NC, with positive values indicating higher relative metabolite levels in MC, and vice versa.</p></fn><fn id="acn351296-note-0004"><label><sup>1</sup></label><p>Indicates the metabolite is significantly different between MC and NC in both dataset A and dataset B.</p></fn><fn id="acn351296-note-0005"><label><sup>2</sup></label><p>Indicates that the metabolite is significantly different between MC and NC in one dataset and trending in the other (0.05 &lt; <italic toggle="yes">P</italic> &lt; 0.1).</p></fn><fn id="acn351296-note-0006"><label>*</label><p>Significant correlation (<italic toggle="yes">P</italic> &lt; 0.05) between metabolite and A<italic toggle="yes">β</italic>
+<sub>1–42/1–40</sub>‐ratio.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap><p>In addition, the correlation between all the metabolites that showed a significant difference between NC and MC in the two datasets, and the number of years that the samples have been in storage was tested. Years in storage was calculated as the difference between sampling date and analysis date. This was done to investigate if the observed differences could be due to the above described storage effect (Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S2</xref>). In dataset A, one unannotated metabolite had a significant correlation with years in storage. This metabolite was excluded from the cluster analysis and the pathway analysis. In dataset B, no metabolites had a significant association with years in storage. Similar correlation analyses were done between metabolite levels and participant age at the time of sampling, as well as the presence of at least one allele of <italic toggle="yes">APOEε4</italic> (Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S2</xref>). In dataset A, pyroglutamic acid and 2‐oleoyl‐GPC had a significant correlation with age at sampling (<italic toggle="yes">P</italic> = 0.027 and <italic toggle="yes">P</italic> = 0.043 respectively). In dataset B, no significant correlation was observed between any of the annotated metabolites and age at sampling. No significant correlation of metabolites with the presence of <italic toggle="yes">APOEε4</italic> was observed in either set.</p><p>Heatmaps (Fig. <xref rid="acn351296-fig-0001" ref-type="fig">1A</xref> and <xref rid="acn351296-fig-0001" ref-type="fig">B</xref>) for the two datasets were generated based on the hierarchal clustering of both the samples and the metabolites (Table <xref rid="acn351296-tbl-0002" ref-type="table">2</xref>, Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S1</xref>). In both datasets, the MC and the NC separate into two different clusters. Furthermore, the metabolites form two distinct clusters in both datasets as well, where one cluster of metabolites was found at higher levels in MC than in NC and the other shows the opposite trend (Fig. <xref rid="acn351296-fig-0001" ref-type="fig">1A</xref> and <xref rid="acn351296-fig-0001" ref-type="fig">B</xref>).</p><fig fig-type="Figure" xml:lang="en" id="acn351296-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Heat map showing similarities between samples of the metabolites that were differentially expressed between NC (noncarrier group, dark blue) and the <italic toggle="yes">PSEN1‐</italic>H163Y MC (mutation carrier group, Green). Sample from the reduced penetrance mutation carrier (RP) case is represented by yellow color. Legend: Red (upregulated metabolite), Blue (downregulated metabolite) and white (no modulation). (A) Samples from dataset A. (B) Samples from dataset B.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-1" position="float" orientation="portrait" xlink:href="ACN3-8-579-g001.jpg"/></fig></sec><sec id="acn351296-sec-0019"><title>Correlations between plasma metabolites and plasma A<italic toggle="yes">β</italic>
+<sub>1–42/</sub>A<italic toggle="yes">β</italic>
+<sub>1–40</sub> ratio</title><p>Amyloid pathology is a hallmark of AD and A<italic toggle="yes">β</italic> levels in plasma are used as possible surrogate biomarkers.<xref rid="acn351296-bib-0024" ref-type="ref">
+<sup>24</sup>
+</xref>, <xref rid="acn351296-bib-0025" ref-type="ref">
+<sup>25</sup>
+</xref> It has been shown that <italic toggle="yes">PSEN1</italic>‐H163Y exhibit higher levels of A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> in in vitro assays.<xref rid="acn351296-bib-0004" ref-type="ref">
+<sup>4</sup>
+</xref> We, therefore, tested the correlation between all 1199 metabolites and the ratio of A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> in plasma (Table <xref rid="acn351296-tbl-0003" ref-type="table">3</xref>, Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S3</xref>). In dataset A, significant correlations were observed between 50 metabolites (12 annotated) and the ratio of A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> (Table <xref rid="acn351296-tbl-0003" ref-type="table">3</xref>). In dataset B, significant correlations were observed between 55 metabolites (18 annotated) and the ratio of A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub>. This includes glucose and uric acid, showing a negative correlation, and 1‐docosapentaenoyl‐GPC, showing positive correlations, which exhibit differential levels in MC compared to NC (Table <xref rid="acn351296-tbl-0003" ref-type="table">3</xref>). None of the metabolites showed a significant correlation with the ratio of A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> in both datasets. The distributions of the A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> ratios in the two datasets are shown in Figure <xref rid="acn351296-sup-0003" ref-type="supplementary-material">S3</xref>.</p><table-wrap id="acn351296-tbl-0003" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 3</label><caption><p>Correlation between metabolites and plasma A<italic toggle="yes">β</italic>
+<sub>1–42/1–40</sub> ratio</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Dataset</th><th align="center" valign="top" rowspan="1" colspan="1">Metabolite</th><th align="center" valign="top" rowspan="1" colspan="1">Metabolite class</th><th align="center" valign="top" rowspan="1" colspan="1">Correlation to A<italic toggle="yes">β</italic> (1–42/1–40)</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic> value</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">2‐methylguanosine</td><td align="left" rowspan="1" colspan="1">Purine Nucleosides</td><td align="char" char="." rowspan="1" colspan="1">0.794</td><td align="char" char="." rowspan="1" colspan="1">0.006</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">2‐stearoyl‐GPC</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">−0.794</td><td align="char" char="." rowspan="1" colspan="1">0.006</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Hypoxanthine</td><td align="left" rowspan="1" colspan="1">Imidazopyrimidines</td><td align="char" char="." rowspan="1" colspan="1">−0.782</td><td align="char" char="." rowspan="1" colspan="1">0.008</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">scyllo‐Inositol</td><td align="left" rowspan="1" colspan="1">Organooxygens</td><td align="char" char="." rowspan="1" colspan="1">−0.782</td><td align="char" char="." rowspan="1" colspan="1">0.008</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">myo‐Inositol</td><td align="left" rowspan="1" colspan="1">Organooxygens</td><td align="char" char="." rowspan="1" colspan="1">−0.758</td><td align="char" char="." rowspan="1" colspan="1">0.011</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">1‐stearoyl‐GPC</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">−0.758</td><td align="char" char="." rowspan="1" colspan="1">0.011</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">2‐methylglutaric acid</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.758</td><td align="char" char="." rowspan="1" colspan="1">0.011</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Phenylalanylalanine</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">−0.721</td><td align="char" char="." rowspan="1" colspan="1">0.019</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Valerylcarnitine</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.721</td><td align="char" char="." rowspan="1" colspan="1">0.019</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Creatinine</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">0.709</td><td align="char" char="." rowspan="1" colspan="1">0.022</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Indoleacetate</td><td align="left" rowspan="1" colspan="1">Indoles</td><td align="char" char="." rowspan="1" colspan="1">−0.709</td><td align="char" char="." rowspan="1" colspan="1">0.022</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Tetradecanedioate</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.709</td><td align="char" char="." rowspan="1" colspan="1">0.022</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Caffeic acid</td><td align="left" rowspan="1" colspan="1">Hydroxycinnamic acids</td><td align="char" char="." rowspan="1" colspan="1">−0.697</td><td align="char" char="." rowspan="1" colspan="1">0.025</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Phenylalanylvaline</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">−0.697</td><td align="char" char="." rowspan="1" colspan="1">0.025</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Pyroglutamic acid</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">0.697</td><td align="char" char="." rowspan="1" colspan="1">0.025</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">2 − Hydroxypalmitate</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.673</td><td align="char" char="." rowspan="1" colspan="1">0.033</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Butyrylcarnitine</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.661</td><td align="char" char="." rowspan="1" colspan="1">0.038</td></tr><tr><td align="left" rowspan="1" colspan="1">B</td><td align="left" rowspan="1" colspan="1">Uracil</td><td align="left" rowspan="1" colspan="1">Diazines</td><td align="char" char="." rowspan="1" colspan="1">0.661</td><td align="char" char="." rowspan="1" colspan="1">0.038</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Pipecolate</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">−0.736</td><td align="char" char="." rowspan="1" colspan="1">0.004</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Phenylacetylglutamine</td><td align="left" rowspan="1" colspan="1">Carboxylic acids</td><td align="char" char="." rowspan="1" colspan="1">−0.665</td><td align="char" char="." rowspan="1" colspan="1">0.013</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">1‐docosapentaenoyl‐GPC</td><td align="left" rowspan="1" colspan="1">Glycerophospholipids</td><td align="char" char="." rowspan="1" colspan="1">0.648</td><td align="char" char="." rowspan="1" colspan="1">0.017</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Serotonin</td><td align="left" rowspan="1" colspan="1">Indoles</td><td align="char" char="." rowspan="1" colspan="1">−0.610</td><td align="char" char="." rowspan="1" colspan="1">0.027</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Uric acid</td><td align="left" rowspan="1" colspan="1">Imidazopyrimidines</td><td align="char" char="." rowspan="1" colspan="1">−0.610</td><td align="char" char="." rowspan="1" colspan="1">0.027</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Octenoylcarnitine</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.588</td><td align="char" char="." rowspan="1" colspan="1">0.035</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Cholic acid</td><td align="left" rowspan="1" colspan="1">Steroids</td><td align="char" char="." rowspan="1" colspan="1">0.577</td><td align="char" char="." rowspan="1" colspan="1">0.039</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Glucose</td><td align="left" rowspan="1" colspan="1">Hexoses</td><td align="char" char="." rowspan="1" colspan="1">−0.571</td><td align="char" char="." rowspan="1" colspan="1">0.041</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Hexadecanedioate</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.566</td><td align="char" char="." rowspan="1" colspan="1">0.044</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Eicoseneoyl carnitine</td><td align="left" rowspan="1" colspan="1">Fatty acyls</td><td align="char" char="." rowspan="1" colspan="1">−0.555</td><td align="char" char="." rowspan="1" colspan="1">0.049</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Inosine</td><td align="left" rowspan="1" colspan="1">Purine Nucleosides</td><td align="char" char="." rowspan="1" colspan="1">−0.555</td><td align="char" char="." rowspan="1" colspan="1">0.049</td></tr><tr><td align="left" rowspan="1" colspan="1">A</td><td align="left" rowspan="1" colspan="1">Malic acid</td><td align="left" rowspan="1" colspan="1">Hydroxy acids</td><td align="char" char="." rowspan="1" colspan="1">−0.555</td><td align="char" char="." rowspan="1" colspan="1">0.049</td></tr></tbody></table><table-wrap-foot id="acn351296-ntgp-0004"><fn id="acn351296-note-0007"><p>Spearman correlation between 1199 detected metabolites, in both dataset A and B, and A<italic toggle="yes">β</italic>
+<sub>1–42/1–40</sub> ratio. The table shows the annotated metabolites that show a significant correlation (<italic toggle="yes">P</italic> &lt; 0.05).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="acn351296-sec-0020"><title>Biological significance of annotated metabolites</title><p>To examine the biological significance of 23 annotated metabolites from dataset A and dataset B, we performed the Ingenuity Pathway Analysis (IPA). Canonical pathways identified include “Asparagine Biosynthesis I,” “tRNA Charging,” “Asparagine Degradation I,” “Glutamine Degradation I,” and “IL‐12 signaling and production in Macrophages" (Fig. <xref rid="acn351296-fig-0002" ref-type="fig">2A</xref>). Along with pathway enrichment, the IPA also enriched metabolites for two different categories “Disease and Disorders” and “Molecular and Cellular Functions” (Fig. <xref rid="acn351296-sup-0002" ref-type="supplementary-material">S2</xref>). We explored these categories to understand the role of these metabolites in the presymptomatic MC. In “Molecular and Cellular functions,” the metabolites were part of the cellular process “Lipid metabolism,” “Cellular Growth and proliferation” (Fig. <xref rid="acn351296-sup-0002" ref-type="supplementary-material">S2</xref>), “Peroxidation of lipid,” “Production of reactive oxygen species,” and “Neuronal cell death.” In addition, under the category “Disease and Disorders” the metabolites were linked to the disease‐related phenotypes including “Metabolic disease,” “Endocrine system disorder,” and “Chronic inflammatory disorder” (Fig. <xref rid="acn351296-fig-0002" ref-type="fig">2E</xref> and <xref rid="acn351296-fig-0002" ref-type="fig">F</xref>, Fig. <xref rid="acn351296-sup-0002" ref-type="supplementary-material">S2</xref>).</p><fig fig-type="Figure" xml:lang="en" id="acn351296-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>(A) Enriched canonical pathways for 23 annotated metabolites, which were differentially expressed between presymptomatic <italic toggle="yes">PSEN1</italic> MC and NC. (B–D) In “Molecular and Cellular Functions” terms, identified metabolites were associated with (B) “Production of reactive oxygen species” (C) “Peroxidation of lipid,” (D) “Neuronal cell death”. (E–F). In “Disease and Disorders” terms, under “Metabolic disease” (E) “Glucose metabolism disorder” and in “Inflammatory disease” (F) “Chronic inflammatory disorder” metabolite network was identified.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-3" position="float" orientation="portrait" xlink:href="ACN3-8-579-g003.jpg"/></fig><p>Metabolites are the functional endpoint of biological processes, which do not act alone and are regulated by upstream regulators at a given physiological condition.<xref rid="acn351296-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref>, <xref rid="acn351296-bib-0027" ref-type="ref">
+<sup>27</sup>
+</xref> Therefore, with the help of the “Upstream Regulator Analysis”<xref rid="acn351296-bib-0021" ref-type="ref">
+<sup>21</sup>
+</xref> algorithm part of IPA, (supported by the Ingenuity<sup>®</sup> Knowledge Base) various, statistically significant, regulators of the 23 metabolites were identified (Table <xref rid="acn351296-sup-0005" ref-type="supplementary-material">S4</xref>). These upstream regulators include the transcription factors TFE3 (Transcription factor E3), ZBTB20 (Zinc finger‐ and BTB domain‐containing protein 20) and CEBPB (CCAAT‐Enhancer Binding Protein‐<italic toggle="yes">β</italic>). Moreover, along with transcription factors, IPA identified the enzymes DDAH2 (dimethylarginine dimethylaminohydrolase‐2), RGS16 (Regulator of G Protein Signaling 16), FMO3 (flavin monooxygenase‐3), and PIK3CA (phosphatidylinositol‐4,5‐bisphosphate 3‐kinase alpha), which are part of regulatory networks. Furthermore, metabolites that are part of “Lipid metabolism” and “Cell cycle” were visualized using IPA (Fig. <xref rid="acn351296-fig-0003" ref-type="fig">3A</xref> and <xref rid="acn351296-fig-0003" ref-type="fig">B</xref>).</p><fig fig-type="Figure" xml:lang="en" id="acn351296-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>(A) Network of metabolites and its regulators involved in the “Cell cycle.” (B) Molecular network of differentially expressed metabolites and their upstream regulators involved in the “Lipid metabolism.”</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-5" position="float" orientation="portrait" xlink:href="ACN3-8-579-g002.jpg"/></fig></sec></sec><sec sec-type="discussion" id="acn351296-sec-0021"><title>Discussion</title><p>In this study, we performed an untargeted screening of plasma metabolites in male presymptomatic <italic toggle="yes">PSEN1‐</italic>H163Y MC known to exhibit brain glucose hypometabolism early in the preclinical phase, up to 20 years prior to expected onset age.<xref rid="acn351296-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref> It has been reported that the plasma metabolome significantly varies between males and females.<xref rid="acn351296-bib-0028" ref-type="ref">
+<sup>28</sup>
+</xref> Due to the nonavailability of female presymptomatic carriers, our study does not include plasma from female subjects. The presymptomatic metabolite profile identified in our study is therefore not confounded by any gender bias in the blood metabolite profile. <italic toggle="yes">APOEε4</italic> is represented in both MC and NC and metabolite correlation analysis did not indicate skewness.<xref rid="acn351296-bib-0028" ref-type="ref">
+<sup>28</sup>
+</xref> In presymptomatic MC, amino acids, fatty acyls, carboxylic acids, hexoses, purine nucleosides, glycerophosphatidylcholines, and bile acids were significantly altered when compared to NC (Table <xref rid="acn351296-tbl-0002" ref-type="table">2</xref>). Interestingly, these classes of metabolites are also associated with sporadic AD.<xref rid="acn351296-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="acn351296-bib-0032" ref-type="ref">
+<sup>32</sup>
+</xref> Notably, we found asparagine, propionyl‐l‐carnitine, glycerophosphatidylcholine species, and asymmetric dimethylarginine (Table <xref rid="acn351296-tbl-0002" ref-type="table">2</xref>), which were part of the metabolite panel that previously has been reported to predict the clinical transition from presymptomatic to prodromal or symptomatic late‐onset AD.<xref rid="acn351296-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref>
+</p><p>We identified differential metabolites associated with “Production of reactive oxygen species,” “lipid peroxidation,” “glucose metabolism disorder,” and “chronic inflammatory disorder” (Fig. <xref rid="acn351296-fig-0002" ref-type="fig">2</xref>, Fig. <xref rid="acn351296-sup-0002" ref-type="supplementary-material">S2</xref>) which are known to be inherent of FAD pathobiology.<xref rid="acn351296-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref>, <xref rid="acn351296-bib-0033" ref-type="ref">
+<sup>33</sup>
+</xref>, <xref rid="acn351296-bib-0034" ref-type="ref">
+<sup>34</sup>
+</xref>, <xref rid="acn351296-bib-0035" ref-type="ref">
+<sup>35</sup>
+</xref>, <xref rid="acn351296-bib-0036" ref-type="ref">
+<sup>36</sup>
+</xref> Amyloid‐beta mediated mitochondrial dysfunction associated with glucose hypometabolism is an indicator of molecular events, which precede amyloid aggregation.<xref rid="acn351296-bib-0037" ref-type="ref">
+<sup>37</sup>
+</xref>, <xref rid="acn351296-bib-0038" ref-type="ref">
+<sup>38</sup>
+</xref>, <xref rid="acn351296-bib-0039" ref-type="ref">
+<sup>39</sup>
+</xref> Oligomeric forms of A<italic toggle="yes">β</italic> can give rise to oxidative stress placing themselves in the lipid bilayer which causes lipid peroxidation, at the end leading to neuronal cell death.<xref rid="acn351296-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref>, <xref rid="acn351296-bib-0040" ref-type="ref">
+<sup>40</sup>
+</xref>, <xref rid="acn351296-bib-0041" ref-type="ref">
+<sup>41</sup>
+</xref> Furthermore, increased levels of 1‐docosapentaenoyl‐GPC (positive correlation), decreased levels of glucose (negative correlation), and uric acid (negative correlation) in MC were significantly correlated with A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> (Table <xref rid="acn351296-tbl-0002" ref-type="table">2</xref>). Besides, several metabolites were significantly correlated with A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40,</sub> but not identified in the univariate analysis, probably due to a lack of statistical power (Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S3</xref>). Plasma A<italic toggle="yes">β</italic> measurement is a growing frontier<xref rid="acn351296-bib-0025" ref-type="ref">
+<sup>25</sup>
+</xref>, <xref rid="acn351296-bib-0042" ref-type="ref">
+<sup>42</sup>
+</xref> and its measurement is associated with several challenges both technical and biological.<xref rid="acn351296-bib-0043" ref-type="ref">
+<sup>43</sup>
+</xref>, <xref rid="acn351296-bib-0044" ref-type="ref">
+<sup>44</sup>
+</xref> A<italic toggle="yes">β</italic> measurement is affected by age,<xref rid="acn351296-bib-0045" ref-type="ref">
+<sup>45</sup>
+</xref> gender,<xref rid="acn351296-bib-0046" ref-type="ref">
+<sup>46</sup>
+</xref> body mass index,<xref rid="acn351296-bib-0047" ref-type="ref">
+<sup>47</sup>
+</xref> and high density lipoproteins levels<xref rid="acn351296-bib-0047" ref-type="ref">
+<sup>47</sup>
+</xref> of the subjects. Moreover, plasma A<italic toggle="yes">β</italic> levels are associated with time to freezing blood samples as well as the volume of blood collected from the study subjects.<xref rid="acn351296-bib-0043" ref-type="ref">
+<sup>43</sup>
+</xref>, <xref rid="acn351296-bib-0044" ref-type="ref">
+<sup>44</sup>
+</xref> More recent studies have also indicated only weak correlations between plasma A<italic toggle="yes">β</italic> levels and A<italic toggle="yes">β</italic> levels measured in CSF and brain by PET‐imaging, indicating limitations in the diagnostic value of plasma A<italic toggle="yes">β</italic> with the current methodologies.<xref rid="acn351296-bib-0024" ref-type="ref">
+<sup>24</sup>
+</xref> Furthermore, despite the difficulties of A<italic toggle="yes">β</italic> measurements in plasma the variability due to between individual differences in A<italic toggle="yes">β</italic> production or degradation is very much reduced when the ratio A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> is used (as here), since it normalizes for this, and for possible variability due to preanalytical procedures (either sample handling and storage).<xref rid="acn351296-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref> In mass spectrometry assays, isotope‐labeled calibrators are also added to the samples before processing and analyses, which give more exact measures of the A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> ratio as compared with then analyses are performed by separate immunoassays.<xref rid="acn351296-bib-0019" ref-type="ref">
+<sup>19</sup>
+</xref>, <xref rid="acn351296-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref> The suggested upstream regulators of the identified metabolites in our study are proposed to play a role in modulating different cellular events. In the event of mitochondrial dysfunction, TFE3 is activated and plays a vital role in regulating energy metabolism.<xref rid="acn351296-bib-0048" ref-type="ref">
+<sup>48</sup>
+</xref> In addition, ZBTB20 is another upstream regulator that plays an essential role in glucose homeostasis.<xref rid="acn351296-bib-0049" ref-type="ref">
+<sup>49</sup>
+</xref> Thus our results give several indications of a dysfunctional energy metabolism in AD.<xref rid="acn351296-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref>, <xref rid="acn351296-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref>, <xref rid="acn351296-bib-0033" ref-type="ref">
+<sup>33</sup>
+</xref>, <xref rid="acn351296-bib-0037" ref-type="ref">
+<sup>37</sup>
+</xref>, <xref rid="acn351296-bib-0050" ref-type="ref">
+<sup>50</sup>
+</xref>, <xref rid="acn351296-bib-0051" ref-type="ref">
+<sup>51</sup>
+</xref>
+</p><p>In the context of inflammation, astrocytes and microglia are the principal players in AD<xref rid="acn351296-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref>, <xref rid="acn351296-bib-0052" ref-type="ref">
+<sup>52</sup>
+</xref> and their activation is characteristic of the preclinical phase.<xref rid="acn351296-bib-0053" ref-type="ref">
+<sup>53</sup>
+</xref> A<italic toggle="yes">β</italic> activates microglia (Brain resident macrophages<xref rid="acn351296-bib-0054" ref-type="ref">
+<sup>54</sup>
+</xref> which trigger a proinflammatory cascade, likely IL‐12, and IL‐23.<xref rid="acn351296-bib-0055" ref-type="ref">
+<sup>55</sup>
+</xref>, <xref rid="acn351296-bib-0056" ref-type="ref">
+<sup>56</sup>
+</xref>, <xref rid="acn351296-bib-0057" ref-type="ref">
+<sup>57</sup>
+</xref> The metabolites found in our study (Fig. <xref rid="acn351296-fig-0002" ref-type="fig">2A</xref>) are associated with the IL‐12 pathway. Activated microglia induce neurotoxic reactive astrocytes.<xref rid="acn351296-bib-0058" ref-type="ref">
+<sup>58</sup>
+</xref> Moreover, the metabolite upstream‐regulator CEBPB identified here, is activated by A<italic toggle="yes">β</italic> in glial cells, which in turn initiates the inflammatory cascade.<xref rid="acn351296-bib-0059" ref-type="ref">
+<sup>59</sup>
+</xref>
+</p><p>A rare case of <italic toggle="yes">PSEN1</italic>‐H163Y reduced penetrance (RP)<xref rid="acn351296-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref> is also part of our study. We included the plasma samples collected before the average age of onset in the family (52 ± 6) and the RP case exhibits a similar metabolic profile to the other MC (Fig. <xref rid="acn351296-fig-0001" ref-type="fig">1</xref>). Such reduced penetrance cases are rare and have been shown to have other protective genetic or environmental modifiers.<xref rid="acn351296-bib-0060" ref-type="ref">
+<sup>60</sup>
+</xref> Further experimental studies employing single‐cell genomics<xref rid="acn351296-bib-0061" ref-type="ref">
+<sup>61</sup>
+</xref> and directly induced neurons from fibroblasts<xref rid="acn351296-bib-0062" ref-type="ref">
+<sup>62</sup>
+</xref> can shed more light on possible mechanisms leading to resilience.</p><p>This pilot‐scale study has its limitations. The study design is observational, it is difficult to control all the confounding factors, for example, the metabolite profile is highly influenced by lifetime immunological experience,<xref rid="acn351296-bib-0063" ref-type="ref">
+<sup>63</sup>
+</xref> gut microbiota<xref rid="acn351296-bib-0064" ref-type="ref">
+<sup>64</sup>
+</xref> and exposome.<xref rid="acn351296-bib-0065" ref-type="ref">
+<sup>65</sup>
+</xref> Also, the medication history as well as preceding diet of the subjects and time of plasma sampling was not accounted for. However, a study evaluating fasting versus nonfasting, in the same individuals (i.e. repeat samples fasting and postprandial, incl. repeat samples), found no effects<xref rid="acn351296-bib-0066" ref-type="ref">
+<sup>66</sup>
+</xref> on A<italic toggle="yes">β</italic>
+<sub>1–42</sub> or A<italic toggle="yes">β</italic>1–40. The metabolites found in dataset A and dataset B are not comparable rather they complement each other. Considering the low frequency of the <italic toggle="yes">PSEN1</italic> mutation carriers in our Swedish cohorts the sample size was small, and the <italic toggle="yes">P</italic> values were not corrected for multiple comparisons<xref rid="acn351296-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref> in the univariate analysis. It has been shown that blood metabolites are strongly associated with age, yet their association is highly selective. In our analysis, we found pyroglutamic acid and 2‐oleoyl‐GPC to be correlated with age (Table <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S2</xref>).</p><p>Here, we report plasma metabolites and their upstream regulators and pathways, which were dysregulated in presymptomatic <italic toggle="yes">PSEN1</italic>‐H163Y mutation carriers. These are consistent with previous findings of FAD pathophysiology. It is estimated that there are 25 424 blood metabolites<xref rid="acn351296-bib-0067" ref-type="ref">
+<sup>67</sup>
+</xref>, <xref rid="acn351296-bib-0068" ref-type="ref">
+<sup>68</sup>
+</xref> and due to contemporary technical limitations, a large fraction of them remain unannotated. In this study, we found several unannotated metabolites (Tables <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S1 and S3</xref>) that will be of significant interest to future FAD metabolomics studies. Understanding these unannotated metabolites will provide a comprehensive understanding of common metabolites that exist in both datasets A and B (Tables <xref rid="acn351296-sup-0004" ref-type="supplementary-material">S1 and S3</xref>). However, results from this pilot study need to be evaluated in a larger FAD cohort. Considering the low frequency of FAD cases in the Swedish population, acquiring the optimal sample size for similar studies remains the biggest hurdle. The FAD cases can be highly informative on the cellular and molecular front when metabolomics are integrated with multi‐omics datasets.<xref rid="acn351296-bib-0027" ref-type="ref">
+<sup>27</sup>
+</xref>, <xref rid="acn351296-bib-0069" ref-type="ref">
+<sup>69</sup>
+</xref>
+</p></sec><sec sec-type="COI-statement" id="acn351296-sec-0023"><title>Conflict of Interest</title><p>None.</p></sec><sec id="acn351296-sec-0024"><title>Funding Information</title><p>The study was supported by grants provided by Swedish Alzheimer’s Foundation, Hjärnfonden, Demensfonden, Karolinska Geriatric Foundation, Stiftelsen för Gamla Tjänarinnor, Stohnes Foundation, Swedish Research Council (2015‐02926 and 2018‐02754), Karolinska Institutet StratNeuro postdoc funding, and ALF Region Stockholm (County Council), Schörling Foundation ‐ Swedish FTD Initiative.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="acn351296-sup-0001" position="float" orientation="portrait"><caption><p>
+<bold>Figure S1.</bold> PCA of all 24 plasma samples in the study, which were analyzed for 1199 metabolites in an untargeted manner.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-8-579-s002.eps" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="acn351296-sup-0002" position="float" orientation="portrait"><caption><p>
+<bold>Figure S2.</bold> List of GO terms under the category of “Molecular and Cellular Functions” and “Disease and Disorders,” which were enriched for the 23 annotated metabolites in the Ingenuity Pathway Analysis (IPA).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-8-579-s004.eps" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="acn351296-sup-0003" position="float" orientation="portrait"><caption><p>
+<bold>Figure S3.</bold> Boxplot showing the distribution of the A<italic toggle="yes">β</italic>
+<sub>1–42</sub>/A<italic toggle="yes">β</italic>
+<sub>1–40</sub> ratio for dataset A (left) and dataset B (right).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-8-579-s003.eps" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="acn351296-sup-0004" position="float" orientation="portrait"><caption><p>
+<bold>Table S1.</bold> The unannotated metabolites presented as “mass@retention time,” that showed a significant (<italic toggle="yes">P</italic> &lt; 0.05) difference between MC and NC. Log2 foldchange shown as the difference between MC and NC, with positive values indicating higher relative metabolite levels in MC, and vice versa.</p><p>
+<bold>Table S2.</bold> The Spearman’s correlation between 23 metabolites and age at the time of sampling, number of storage years and presence of <italic toggle="yes">APOEε4</italic> allele (<italic toggle="yes">P</italic> &lt; 0.05 value was considered as significant).</p><p>
+<bold>Table S3.</bold> Spearman correlation between 1199 detected metabolites, in both dataset “A” and “B”, and A<italic toggle="yes">β</italic>
+<sub>1–42/1–40</sub>‐ratio.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-8-579-s005.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="acn351296-sup-0005" position="float" orientation="portrait"><caption><p>
+<bold>Table S4.</bold> List of upstream regulators, which were enriched for the 23 annotated metabolites in the Ingenuity Pathway Analysis (IPA).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-8-579-s006.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="acn351296-sup-0006" position="float" orientation="portrait"><caption><p>
+<bold>Data S1.</bold> Methodological description of plasma metabolite profiling using mass spectrometry.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-8-579-s001.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="acn351296-sec-0022"><title>Acknowledgments</title><p>Swedish Metabolomics Centre, Umeå, Sweden (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.swedishmetabolomicscentre.se">www.swedishmetabolomicscentre.se</ext-link>) is acknowledged for metabolic profiling by GC–MS and LC–MS. The study was supported by grants provided by Swedish Alzheimer’s foundation, Hjärnfonden, Demensfonden, Karolinska geriatric foundation, Stiftelsen för Gamla Tjänarinnor, Stohnes foundation, Swedish research council (2015‐02926 and 2018‐02754), Karolinska Institutet StratNeuro postdoc funding, and ALF Region Stockholm (County Council), Schörling Foundation ‐ Swedish FTD Initiative. We are thankful to Kalicharan Patra for critical discussion and insights in addressing the reviewer’s comments.</p></ack><sec sec-type="data-availability" id="acn351296-sec-0026"><title>Data Availability Statement</title><p>Datasets can be accessed at MetaboLights (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.ebi.ac.uk/metabolights/">https://www.ebi.ac.uk/metabolights/</ext-link>) with identifier MTBLS1721.</p></sec><ref-list content-type="cited-references" id="acn351296-bibl-0001"><title>References</title><ref id="acn351296-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="acn351296-cit-0001">
+<string-name name-style="western">
+<surname>Toledo</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kastenmuller</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Metabolic network failures in Alzheimer's disease: a biochemical road map</article-title>. <source xml:lang="en">Alzheimers Dement</source>
+<year>2017</year>;<volume>13</volume>:<fpage>965</fpage>–<lpage>984</lpage>.<pub-id pub-id-type="pmid">28341160</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2017.01.020</pub-id><pub-id pub-id-type="pmcid">PMC5866045</pub-id></mixed-citation></ref><ref id="acn351296-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="acn351296-cit-0002">
+<string-name name-style="western">
+<surname>Thordardottir</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kinhult Stahlbom</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Almkvist</surname>
+<given-names>O</given-names>
+</string-name>, et al. <article-title>The effects of different familial Alzheimer's disease mutations on APP processing in vivo</article-title>. <source xml:lang="en">Alzheimers Res Ther</source>
+<year>2017</year>;<volume>9</volume>:<fpage>9</fpage>.<pub-id pub-id-type="pmid">28209190</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-017-0234-1</pub-id><pub-id pub-id-type="pmcid">PMC5312523</pub-id></mixed-citation></ref><ref id="acn351296-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="acn351296-cit-0003">
+<string-name name-style="western">
+<surname>Van Cauwenberghe</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Broeckhoven</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sleegers</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>The genetic landscape of Alzheimer disease: clinical implications and perspectives</article-title>. <source xml:lang="en">Genet Med</source>
+<year>2016</year>;<volume>18</volume>:<fpage>421</fpage>–<lpage>430</lpage>.<pub-id pub-id-type="pmid">26312828</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/gim.2015.117</pub-id><pub-id pub-id-type="pmcid">PMC4857183</pub-id></mixed-citation></ref><ref id="acn351296-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="acn351296-cit-0004">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Analysis of 138 pathogenic mutations in presenilin‐1 on the in vitro production of Abeta42 and Abeta40 peptides by gamma‐secretase</article-title>. <source xml:lang="en">Proc Natl Acad Sci USA</source>
+<year>2017</year>;<volume>114</volume>:<fpage>E476</fpage>–<lpage>E485</lpage>.<pub-id pub-id-type="pmid">27930341</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1618657114</pub-id><pub-id pub-id-type="pmcid">PMC5278480</pub-id></mixed-citation></ref><ref id="acn351296-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="acn351296-cit-0005">
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Metabolomics in the development and progression of dementia: a systematic review</article-title>. <source xml:lang="en">Front Neurosci</source>
+<year>2019</year>;<volume>13</volume>:<fpage>343</fpage>.<pub-id pub-id-type="pmid">31031585</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fnins.2019.00343</pub-id><pub-id pub-id-type="pmcid">PMC6474157</pub-id></mixed-citation></ref><ref id="acn351296-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="acn351296-cit-0006">
+<string-name name-style="western">
+<surname>Mapstone</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nalls</surname>
+<given-names>MA</given-names>
+</string-name>, et al. <article-title>What success can teach us about failure: the plasma metabolome of older adults with superior memory and lessons for Alzheimer's disease</article-title>. <source xml:lang="en">Neurobiol Aging</source>
+<year>2017</year>;<volume>51</volume>:<fpage>148</fpage>–<lpage>155</lpage>.<pub-id pub-id-type="pmid">27939698</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2016.11.007</pub-id><pub-id pub-id-type="pmcid">PMC5985530</pub-id></mixed-citation></ref><ref id="acn351296-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="acn351296-cit-0007">
+<string-name name-style="western">
+<surname>Fiandaca</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheema</surname>
+<given-names>AK</given-names>
+</string-name>, et al. <article-title>Plasma 24‐metabolite panel predicts preclinical transition to clinical stages of Alzheimer's disease</article-title>. <source xml:lang="en">Front Neurol</source>
+<year>2015</year>;<volume>6</volume>:<fpage>237</fpage>.<pub-id pub-id-type="pmid">26617567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fneur.2015.00237</pub-id><pub-id pub-id-type="pmcid">PMC4642213</pub-id></mixed-citation></ref><ref id="acn351296-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="acn351296-cit-0008">
+<string-name name-style="western">
+<surname>Trushina</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dutta</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Persson</surname>
+<given-names>X‐MT</given-names>
+</string-name>, et al. <article-title>Identification of altered metabolic pathways in plasma and CSF in mild cognitive impairment and Alzheimer’s disease using metabolomics</article-title>. <source xml:lang="en">PLoS One</source>
+<year>2013</year>;<volume>8</volume>:<elocation-id>e63644</elocation-id>.<pub-id pub-id-type="pmid">23700429</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0063644</pub-id><pub-id pub-id-type="pmcid">PMC3658985</pub-id></mixed-citation></ref><ref id="acn351296-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="acn351296-cit-0009">
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>CN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>KL</given-names>
+</string-name>, et al. <article-title>A metabolomic approach to identifying biomarkers in blood of Alzheimer's disease</article-title>. <source xml:lang="en">Ann Clin Transl Neurol</source>
+<year>2019</year>;<volume>6</volume>:<fpage>537</fpage>–<lpage>545</lpage>.<pub-id pub-id-type="pmid">30911577</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.726</pub-id><pub-id pub-id-type="pmcid">PMC6414491</pub-id></mixed-citation></ref><ref id="acn351296-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="acn351296-cit-0010">
+<string-name name-style="western">
+<surname>Wilkins</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trushina</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Application of metabolomics in Alzheimer’s disease</article-title>. <source xml:lang="en">Front Neurol</source>
+<year>2018</year>;<volume>8</volume>:<fpage>719</fpage>.<pub-id pub-id-type="pmid">29375465</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fneur.2017.00719</pub-id><pub-id pub-id-type="pmcid">PMC5770363</pub-id></mixed-citation></ref><ref id="acn351296-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="acn351296-cit-0011">
+<string-name name-style="western">
+<surname>Chatterjee</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lim</surname>
+<given-names>WL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shui</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Plasma phospholipid and sphingolipid alterations in presenilin1 mutation carriers: a pilot study</article-title>. <source xml:lang="en">J Alzheimers Dis</source>
+<year>2016</year>;<volume>50</volume>:<fpage>887</fpage>–<lpage>894</lpage>.<pub-id pub-id-type="pmid">26836186</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-150948</pub-id><pub-id pub-id-type="pmcid">PMC4943576</pub-id></mixed-citation></ref><ref id="acn351296-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="acn351296-cit-0012">
+<string-name name-style="western">
+<surname>Kaiser</surname>
+<given-names>NC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Melrose</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Neuropsychological and neuroimaging markers in early versus late‐onset Alzheimer's disease</article-title>. <source xml:lang="en">Am J Alzheimer's Dis Other Dement</source>
+<year>2012</year>;<volume>27</volume>:<fpage>520</fpage>–<lpage>529</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1533317512459798</pub-id><pub-id pub-id-type="pmcid">PMC4112191</pub-id><pub-id pub-id-type="pmid">22990206</pub-id></mixed-citation></ref><ref id="acn351296-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="acn351296-cit-0013">
+<string-name name-style="western">
+<surname>Mosconi</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pupi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Leon</surname>
+<given-names>MJ</given-names>
+</string-name>. <article-title>Brain glucose hypometabolism and oxidative stress in preclinical Alzheimer's disease</article-title>. <source xml:lang="en">Ann N Y Acad Sci</source>
+<year>2008</year>;<volume>1147</volume>:<fpage>180</fpage>–<lpage>195</lpage>.<pub-id pub-id-type="pmid">19076441</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1196/annals.1427.007</pub-id><pub-id pub-id-type="pmcid">PMC2661241</pub-id></mixed-citation></ref><ref id="acn351296-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="acn351296-cit-0014">
+<string-name name-style="western">
+<surname>Scholl</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Almkvist</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Axelman</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Glucose metabolism and PIB binding in carriers of a His163Tyr presenilin 1 mutation</article-title>. <source xml:lang="en">Neurobiol Aging</source>
+<year>2011</year>;<volume>32</volume>:<fpage>1388</fpage>–<lpage>1399</lpage>.<pub-id pub-id-type="pmid">19796846</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2009.08.016</pub-id></mixed-citation></ref><ref id="acn351296-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="acn351296-cit-0015">
+<string-name name-style="western">
+<surname>Thordardottir</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodriguez‐Vieitez</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Almkvist</surname>
+<given-names>O</given-names>
+</string-name>, et al. <article-title>Reduced penetrance of the PSEN1 H163Y autosomal dominant Alzheimer mutation: a 22‐year follow‐up study</article-title>. <source xml:lang="en">Alzheimers Res Ther</source>
+<year>2018</year>;<volume>10</volume>:<fpage>45</fpage>.<pub-id pub-id-type="pmid">29747683</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-018-0374-y</pub-id><pub-id pub-id-type="pmcid">PMC5944151</pub-id></mixed-citation></ref><ref id="acn351296-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="acn351296-cit-0016">
+<string-name name-style="western">
+<surname>Axelman</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Basun</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lannfelt</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Wide range of disease onset in a family with Alzheimer disease and a His163Tyr mutation in the presenilin‐1 gene</article-title>. <source xml:lang="en">Arch Neurol</source>
+<year>1998</year>;<volume>55</volume>:<fpage>698</fpage>–<lpage>702</lpage>.<pub-id pub-id-type="pmid">9605727</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/archneur.55.5.698</pub-id></mixed-citation></ref><ref id="acn351296-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="acn351296-cit-0017">
+<string-name name-style="western">
+<surname>Almkvist</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodriguez‐Vieitez</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thordardottir</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Predicting cognitive decline across four decades in mutation carriers and non‐carriers in autosomal‐dominant Alzheimer's disease</article-title>. <source xml:lang="en">J Int Neuropsychol Soc</source>
+<year>2017</year>;<volume>23</volume>:<fpage>195</fpage>–<lpage>203</lpage>.<pub-id pub-id-type="pmid">28079014</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1017/S1355617716001028</pub-id></mixed-citation></ref><ref id="acn351296-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="acn351296-cit-0018">
+<string-name name-style="western">
+<surname>Diamanti</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cavalli</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pan</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Intra‐ and inter‐individual metabolic profiling s carnitine and lysophosphatidylcholine pathways as key molecular defects in type 2 diabetes</article-title>. <source xml:lang="en">Sci Rep</source>
+<year>2019</year>;<volume>9</volume>:<fpage>9653</fpage>.<pub-id pub-id-type="pmid">31273253</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-019-45906-5</pub-id><pub-id pub-id-type="pmcid">PMC6609645</pub-id></mixed-citation></ref><ref id="acn351296-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="acn351296-cit-0019">
+<string-name name-style="western">
+<surname>Pannee</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tornqvist</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Westerlund</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>The amyloid‐beta degradation pattern in plasma–a possible tool for clinical trials in Alzheimer's disease</article-title>. <source xml:lang="en">Neurosci Lett</source>
+<year>2014</year>;<volume>573</volume>:<fpage>7</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="pmid">24796810</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neulet.2014.04.041</pub-id></mixed-citation></ref><ref id="acn351296-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="acn351296-cit-0020">
+<string-name name-style="western">
+<surname>Pannee</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Portelius</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oppermann</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>A selected reaction monitoring (SRM)‐based method for absolute quantification of Abeta38, Abeta40, and Abeta42 in cerebrospinal fluid of Alzheimer's disease patients and healthy controls</article-title>. <source xml:lang="en">J Alzheimers Dis</source>
+<year>2013</year>;<volume>33</volume>:<fpage>1021</fpage>–<lpage>1032</lpage>.<pub-id pub-id-type="pmid">23076076</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-2012-121471</pub-id></mixed-citation></ref><ref id="acn351296-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="acn351296-cit-0021">
+<string-name name-style="western">
+<surname>Kramer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Green</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pollard</surname>
+<given-names>J</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name name-style="western">
+<surname>Tugendreich</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Causal analysis approaches in Ingenuity Pathway Analysis</article-title>. <source xml:lang="en">Bioinformatics</source>
+<year>2014</year>;<volume>30</volume>:<fpage>523</fpage>–<lpage>530</lpage>.<pub-id pub-id-type="pmid">24336805</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btt703</pub-id><pub-id pub-id-type="pmcid">PMC3928520</pub-id></mixed-citation></ref><ref id="acn351296-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="acn351296-cit-0022">
+<string-name name-style="western">
+<surname>Folstein</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Folstein</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McHugh</surname>
+<given-names>PR</given-names>
+</string-name>. <article-title>"Mini‐mental state". A practical method for grading the cognitive state of patients for the clinician</article-title>. <source xml:lang="en">J Psychiatr Res</source>
+<year>1975</year>;<volume>12</volume>:<fpage>189</fpage>–<lpage>198</lpage>.<pub-id pub-id-type="pmid">1202204</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0022-3956(75)90026-6</pub-id></mixed-citation></ref><ref id="acn351296-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="acn351296-cit-0023">
+<string-name name-style="western">
+<surname>Wagner‐Golbs</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Neuber</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kamlage</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Effects of long‐term storage at ‐80 degrees C on the human plasma metabolome</article-title>. <source xml:lang="en">Metabolites</source>
+<year>2019</year>;<volume>9</volume>:<fpage>99</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/metabo9050099</pub-id><pub-id pub-id-type="pmcid">PMC6572224</pub-id><pub-id pub-id-type="pmid">31108909</pub-id></mixed-citation></ref><ref id="acn351296-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="acn351296-cit-0024">
+<string-name name-style="western">
+<surname>Janelidze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stomrud</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palmqvist</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Plasma beta‐amyloid in Alzheimer's disease and vascular disease</article-title>. <source xml:lang="en">Sci Rep</source>
+<year>2016</year>;<volume>6</volume>:<fpage>26801</fpage>.<pub-id pub-id-type="pmid">27241045</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep26801</pub-id><pub-id pub-id-type="pmcid">PMC4886210</pub-id></mixed-citation></ref><ref id="acn351296-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="acn351296-cit-0025">
+<string-name name-style="western">
+<surname>Hampel</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Bryant</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Molinuevo</surname>
+<given-names>JL</given-names>
+</string-name>, et al. <article-title>Blood‐based biomarkers for Alzheimer disease: mapping the road to the clinic</article-title>. <source xml:lang="en">Nat Rev Neurol</source>
+<year>2018</year>;<volume>14</volume>:<fpage>639</fpage>–<lpage>652</lpage>.<pub-id pub-id-type="pmid">30297701</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41582-018-0079-7</pub-id><pub-id pub-id-type="pmcid">PMC6211654</pub-id></mixed-citation></ref><ref id="acn351296-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="acn351296-cit-0026">
+<string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>ECB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dammer</surname>
+<given-names>EB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duong</surname>
+<given-names>DM</given-names>
+</string-name>, et al. <article-title>Large‐scale proteomic analysis of Alzheimer's disease brain and cerebrospinal fluid reveals early changes in energy metabolism associated with microglia and astrocyte activation</article-title>. <source xml:lang="en">Nat Med</source>
+<year>2020</year>;<volume>26</volume>:<fpage>769</fpage>–<lpage>780</lpage>.<pub-id pub-id-type="pmid">32284590</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-020-0815-6</pub-id><pub-id pub-id-type="pmcid">PMC7405761</pub-id></mixed-citation></ref><ref id="acn351296-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="acn351296-cit-0027">
+<string-name name-style="western">
+<surname>Pinu</surname>
+<given-names>FR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beale</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paten</surname>
+<given-names>AM</given-names>
+</string-name>, et al. <article-title>Systems biology and multi‐omics integration: viewpoints from the metabolomics research community</article-title>. <source xml:lang="en">Metabolites.</source>
+<year>2019</year>;<volume>9</volume>:<fpage>76</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/metabo9040076</pub-id><pub-id pub-id-type="pmcid">PMC6523452</pub-id><pub-id pub-id-type="pmid">31003499</pub-id></mixed-citation></ref><ref id="acn351296-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="acn351296-cit-0028">
+<string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kueider‐Paisley</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Sex and APOE epsilon4 genotype modify the Alzheimer's disease serum metabolome</article-title>. <source xml:lang="en">Nat Commun</source>
+<year>2020</year>;<volume>11</volume>:<fpage>1148</fpage>.<pub-id pub-id-type="pmid">32123170</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-020-14959-w</pub-id><pub-id pub-id-type="pmcid">PMC7052223</pub-id></mixed-citation></ref><ref id="acn351296-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="acn351296-cit-0029">
+<string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kueider‐Paisley</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mahmoudian Dehkordi</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Altered bile acid profile in mild cognitive impairment and Alzheimer's disease: relationship to neuroimaging and CSF biomarkers</article-title>. <source xml:lang="en">Alzheimers Dement</source>
+<year>2019</year>;<volume>15</volume>:<fpage>232</fpage>–<lpage>244</lpage>.<pub-id pub-id-type="pmid">30337152</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2018.08.012</pub-id><pub-id pub-id-type="pmcid">PMC6454538</pub-id></mixed-citation></ref><ref id="acn351296-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="acn351296-cit-0030">
+<string-name name-style="western">
+<surname>MahmoudianDehkordi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Altered bile acid profile associates with cognitive impairment in Alzheimer's disease‐an emerging role for gut microbiome</article-title>. <source xml:lang="en">Alzheimers Dement</source>
+<year>2019</year>;<volume>15</volume>:<fpage>76</fpage>–<lpage>92</lpage>.<pub-id pub-id-type="pmid">30337151</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2018.07.217</pub-id><pub-id pub-id-type="pmcid">PMC6487485</pub-id></mixed-citation></ref><ref id="acn351296-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="acn351296-cit-0031">
+<string-name name-style="western">
+<surname>Varma</surname>
+<given-names>VR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oommen</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Varma</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Brain and blood metabolite signatures of pathology and progression in Alzheimer disease: a targeted metabolomics study</article-title>. <source xml:lang="en">PLoS Med</source>
+<year>2018</year>;<volume>15</volume>:<elocation-id>e1002482</elocation-id>.<pub-id pub-id-type="pmid">29370177</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pmed.1002482</pub-id><pub-id pub-id-type="pmcid">PMC5784884</pub-id></mixed-citation></ref><ref id="acn351296-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="acn351296-cit-0032">
+<string-name name-style="western">
+<surname>Olazaran</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gil‐de‐Gomez</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodriguez‐Martin</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>A blood‐based, 7‐metabolite signature for the early diagnosis of Alzheimer's disease</article-title>. <source xml:lang="en">J Alzheimers Dis</source>
+<year>2015</year>;<volume>45</volume>:<fpage>1157</fpage>–<lpage>1173</lpage>.<pub-id pub-id-type="pmid">25649659</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-142925</pub-id></mixed-citation></ref><ref id="acn351296-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="acn351296-cit-0033">
+<string-name name-style="western">
+<surname>Kuehn</surname>
+<given-names>BM</given-names>
+</string-name>. <article-title>In Alzheimer research, glucose metabolism moves to center stage</article-title>. <source xml:lang="en">JAMA</source>
+<year>2020</year>;<volume>323</volume>:<fpage>297</fpage>.<pub-id pub-id-type="pmid">31913419</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2019.20939</pub-id></mixed-citation></ref><ref id="acn351296-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="acn351296-cit-0034">
+<string-name name-style="western">
+<surname>Heneka</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carson</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>El Khoury</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Neuroinflammation in Alzheimer's disease</article-title>. <source xml:lang="en">Lancet Neurol</source>
+<year>2015</year>;<volume>14</volume>:<fpage>388</fpage>–<lpage>405</lpage>.<pub-id pub-id-type="pmid">25792098</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(15)70016-5</pub-id><pub-id pub-id-type="pmcid">PMC5909703</pub-id></mixed-citation></ref><ref id="acn351296-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="acn351296-cit-0035">
+<string-name name-style="western">
+<surname>Hauptmann</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scherping</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Drose</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Mitochondrial dysfunction: an early event in Alzheimer pathology accumulates with age in AD transgenic mice</article-title>. <source xml:lang="en">Neurobiol Aging</source>
+<year>2009</year>;<volume>30</volume>:<fpage>1574</fpage>–<lpage>1586</lpage>.<pub-id pub-id-type="pmid">18295378</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2007.12.005</pub-id></mixed-citation></ref><ref id="acn351296-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="acn351296-cit-0036">
+<string-name name-style="western">
+<surname>Mosconi</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sorbi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Leon</surname>
+<given-names>MJ</given-names>
+</string-name>, et al. <article-title>Hypometabolism exceeds atrophy in presymptomatic early‐onset familial Alzheimer's disease</article-title>. <source xml:lang="en">J Nucl Med</source>
+<year>2006</year>;<volume>47</volume>:<fpage>1778</fpage>–<lpage>1786</lpage>.<pub-id pub-id-type="pmid">17079810</pub-id></mixed-citation></ref><ref id="acn351296-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="acn351296-cit-0037">
+<string-name name-style="western">
+<surname>Teo</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ravi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barardo</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Metabolic stress is a primary pathogenic event in transgenic Caenorhabditis elegans expressing pan‐neuronal human amyloid beta</article-title>. <source xml:lang="en">Elife</source>
+<year>2019</year>;<volume>8</volume>:<elocation-id>e50069</elocation-id>.<pub-id pub-id-type="pmid">31610847</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.50069</pub-id><pub-id pub-id-type="pmcid">PMC6794093</pub-id></mixed-citation></ref><ref id="acn351296-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="acn351296-cit-0038">
+<string-name name-style="western">
+<surname>Ciavardelli</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piras</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Consalvo</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Medium‐chain plasma acylcarnitines, ketone levels, cognition, and gray matter volumes in healthy elderly, mildly cognitively impaired, or Alzheimer's disease subjects</article-title>. <source xml:lang="en">Neurobiol Aging</source>
+<year>2016</year>;<volume>43</volume>:<fpage>1</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="pmid">27255810</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2016.03.005</pub-id></mixed-citation></ref><ref id="acn351296-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="acn351296-cit-0039">
+<string-name name-style="western">
+<surname>Yao</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Irwin</surname>
+<given-names>RW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Mitochondrial bioenergetic deficit precedes Alzheimer's pathology in female mouse model of Alzheimer's disease</article-title>. <source xml:lang="en">Proc Natl Acad Sci USA</source>
+<year>2009</year>;<volume>106</volume>:<fpage>14670</fpage>–<lpage>14675</lpage>.<pub-id pub-id-type="pmid">19667196</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0903563106</pub-id><pub-id pub-id-type="pmcid">PMC2732886</pub-id></mixed-citation></ref><ref id="acn351296-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="acn351296-cit-0040">
+<string-name name-style="western">
+<surname>Pena‐Bautista</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vigor</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galano</surname>
+<given-names>JM</given-names>
+</string-name>, et al. <article-title>New screening approach for Alzheimer's disease risk assessment from urine lipid peroxidation compounds</article-title>. <source xml:lang="en">Sci Rep</source>
+<year>2019</year>;<volume>9</volume>:<fpage>14244</fpage>.<pub-id pub-id-type="pmid">31578419</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-019-50837-2</pub-id><pub-id pub-id-type="pmcid">PMC6775072</pub-id></mixed-citation></ref><ref id="acn351296-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="acn351296-cit-0041">
+<string-name name-style="western">
+<surname>Tonnies</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trushina</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Oxidative stress, synaptic dysfunction, and Alzheimer's disease</article-title>. <source xml:lang="en">J Alzheimers Dis</source>
+<year>2017</year>;<volume>57</volume>:<fpage>1105</fpage>–<lpage>1121</lpage>.<pub-id pub-id-type="pmid">28059794</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-161088</pub-id><pub-id pub-id-type="pmcid">PMC5409043</pub-id></mixed-citation></ref><ref id="acn351296-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="acn351296-cit-0042">
+<string-name name-style="western">
+<surname>O'Bryant</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mielke</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rissman</surname>
+<given-names>RA</given-names>
+</string-name>, et al. <article-title>Blood‐based biomarkers in Alzheimer disease: current state of the science and a novel collaborative paradigm for advancing from discovery to clinic</article-title>. <source xml:lang="en">Alzheimers Dement</source>
+<year>2017</year>;<volume>13</volume>:<fpage>45</fpage>–<lpage>58</lpage>.<pub-id pub-id-type="pmid">27870940</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2016.09.014</pub-id><pub-id pub-id-type="pmcid">PMC5218961</pub-id></mixed-citation></ref><ref id="acn351296-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="acn351296-cit-0043">
+<string-name name-style="western">
+<surname>Figurski</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waligórska</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Toledo</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Improved protocol for measurement of plasma β‐amyloid in longitudinal evaluation of Alzheimer's Disease Neuroimaging Initiative study patients</article-title>. <source xml:lang="en">Alzheimers Dement</source>
+<year>2012</year>;<volume>8</volume>:<fpage>250</fpage>–<lpage>260</lpage>.<pub-id pub-id-type="pmid">22748936</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2012.01.001</pub-id><pub-id pub-id-type="pmcid">PMC3732031</pub-id></mixed-citation></ref><ref id="acn351296-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="acn351296-cit-0044">
+<string-name name-style="western">
+<surname>Toledo</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trojanowski</surname>
+<given-names>JQ</given-names>
+</string-name>. <article-title>Plasma amyloid beta measurements ‐ a desired but elusive Alzheimer's disease biomarker</article-title>. <source xml:lang="en">Alzheimers Res Ther</source>
+<year>2013</year>;<volume>5</volume>:<fpage>8</fpage>.<pub-id pub-id-type="pmid">23470128</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/alzrt162</pub-id><pub-id pub-id-type="pmcid">PMC3706955</pub-id></mixed-citation></ref><ref id="acn351296-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="acn351296-cit-0045">
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Potter</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sigurdson</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>β‐amyloid dynamics in human plasma</article-title>. <source xml:lang="en">Arch Neurol</source>
+<year>2012</year>;<volume>69</volume>:<fpage>1591</fpage>–<lpage>1597</lpage>.<pub-id pub-id-type="pmid">23229043</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/archneurol.2012.18107</pub-id><pub-id pub-id-type="pmcid">PMC3808092</pub-id></mixed-citation></ref><ref id="acn351296-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="acn351296-cit-0046">
+<string-name name-style="western">
+<surname>Metti</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cauley</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ayonayon</surname>
+<given-names>HN</given-names>
+</string-name>, et al. <article-title>The demographic and medical correlates of plasma aβ40 and aβ42</article-title>. <source xml:lang="en">Alzheimer Dis Assoc Disord</source>
+<year>2013</year>;<volume>27</volume>:<fpage>244</fpage>–<lpage>249</lpage>.<pub-id pub-id-type="pmid">22732677</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/WAD.0b013e318260a8cb</pub-id><pub-id pub-id-type="pmcid">PMC3473156</pub-id></mixed-citation></ref><ref id="acn351296-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="acn351296-cit-0047">
+<string-name name-style="western">
+<surname>Mayeux</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Honig</surname>
+<given-names>LS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tang</surname>
+<given-names>M‐X</given-names>
+</string-name>, et al. <article-title>Plasma Aβ40 and Aβ42 and Alzheimer’s disease</article-title>. <source xml:lang="en">Relation Age Mortality Risk</source>
+<year>2003</year>;<volume>61</volume>:<fpage>1185</fpage>–<lpage>1190</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/01.wnl.0000091890.32140.8f</pub-id><pub-id pub-id-type="pmid">14610118</pub-id></mixed-citation></ref><ref id="acn351296-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="acn351296-cit-0048">
+<string-name name-style="western">
+<surname>Raben</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Puertollano</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>TFEB and TFE3: linking lysosomes to cellular adaptation to stress</article-title>. <source xml:lang="en">Annu Rev Cell Dev Biol</source>
+<year>2016</year>;<volume>32</volume>:<fpage>255</fpage>–<lpage>278</lpage>.<pub-id pub-id-type="pmid">27298091</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-cellbio-111315-125407</pub-id><pub-id pub-id-type="pmcid">PMC6490169</pub-id></mixed-citation></ref><ref id="acn351296-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="acn351296-cit-0049">
+<string-name name-style="western">
+<surname>Sutherland</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Zinc finger protein Zbtb20 is essential for postnatal survival and glucose homeostasis</article-title>. <source xml:lang="en">Mol Cell Biol</source>
+<year>2009</year>;<volume>29</volume>:<fpage>2804</fpage>–<lpage>2815</lpage>.<pub-id pub-id-type="pmid">19273596</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/MCB.01667-08</pub-id><pub-id pub-id-type="pmcid">PMC2682054</pub-id></mixed-citation></ref><ref id="acn351296-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="acn351296-cit-0050">
+<string-name name-style="western">
+<surname>Sato</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morishita</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>The roles of lipid and glucose metabolism in modulation of beta‐amyloid, tau, and neurodegeneration in the pathogenesis of Alzheimer disease</article-title>. <source xml:lang="en">Front Aging Neurosci</source>
+<year>2015</year>;<volume>7</volume>:<fpage>199</fpage>.<pub-id pub-id-type="pmid">26557086</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fnagi.2015.00199</pub-id><pub-id pub-id-type="pmcid">PMC4615808</pub-id></mixed-citation></ref><ref id="acn351296-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="acn351296-cit-0051">
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>TB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Luo</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Lipid metabolism in Alzheimer's disease</article-title>. <source xml:lang="en">Brain Res Bull</source>
+<year>2019</year>;<volume>144</volume>:<fpage>68</fpage>–<lpage>74</lpage>.<pub-id pub-id-type="pmid">30472149</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.brainresbull.2018.11.012</pub-id></mixed-citation></ref><ref id="acn351296-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="acn351296-cit-0052">
+<string-name name-style="western">
+<surname>Kinney</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bemiller</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murtishaw</surname>
+<given-names>AS</given-names>
+</string-name>, et al. <article-title>Inflammation as a central mechanism in Alzheimer's disease</article-title>. <source xml:lang="en">Alzheimer's Dement</source>
+<year>2018</year>;<volume>4</volume>:<fpage>575</fpage>–<lpage>590</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.trci.2018.06.014</pub-id><pub-id pub-id-type="pmcid">PMC6214864</pub-id><pub-id pub-id-type="pmid">30406177</pub-id></mixed-citation></ref><ref id="acn351296-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="acn351296-cit-0053">
+<string-name name-style="western">
+<surname>Long</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holtzman</surname>
+<given-names>DM</given-names>
+</string-name>. <article-title>Alzheimer disease: an update on pathobiology and treatment strategies</article-title>. <source xml:lang="en">Cell</source>
+<year>2019</year>;<volume>179</volume>:<fpage>312</fpage>–<lpage>339</lpage>.<pub-id pub-id-type="pmid">31564456</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2019.09.001</pub-id><pub-id pub-id-type="pmcid">PMC6778042</pub-id></mixed-citation></ref><ref id="acn351296-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="acn351296-cit-0054">
+<string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>FC</given-names>
+</string-name>. <article-title>The influence of environment and origin on brain resident macrophages and implications for therapy</article-title>. <source xml:lang="en">Nat Neurosci</source>
+<year>2020</year>;<volume>23</volume>:<fpage>157</fpage>–<lpage>166</lpage>.<pub-id pub-id-type="pmid">31792468</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41593-019-0545-6</pub-id></mixed-citation></ref><ref id="acn351296-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="acn351296-cit-0055">
+<string-name name-style="western">
+<surname>Kreisl</surname>
+<given-names>WC</given-names>
+</string-name>. <article-title>Discerning the relationship between microglial activation and Alzheimer's disease</article-title>. <source xml:lang="en">Brain</source>
+<year>2017</year>;<volume>140</volume>:<fpage>1825</fpage>–<lpage>1828</lpage>.<pub-id pub-id-type="pmid">29177498</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awx151</pub-id></mixed-citation></ref><ref id="acn351296-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="acn351296-cit-0056">
+<string-name name-style="western">
+<surname>Vom Berg</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prokop</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>
+<given-names>KR</given-names>
+</string-name>, et al. <article-title>Inhibition of IL‐12/IL‐23 signaling reduces Alzheimer's disease‐like pathology and cognitive decline</article-title>. <source xml:lang="en">Nat Med</source>
+<year>2012</year>;<volume>18</volume>:<fpage>1812</fpage>–<lpage>1819</lpage>.<pub-id pub-id-type="pmid">23178247</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.2965</pub-id></mixed-citation></ref><ref id="acn351296-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="acn351296-cit-0057">
+<string-name name-style="western">
+<surname>Hansen</surname>
+<given-names>DV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hanson</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sheng</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Microglia in Alzheimer's disease</article-title>. <source xml:lang="en">J Cell Biol</source>
+<year>2018</year>;<volume>217</volume>:<fpage>459</fpage>–<lpage>472</lpage>.<pub-id pub-id-type="pmid">29196460</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1083/jcb.201709069</pub-id><pub-id pub-id-type="pmcid">PMC5800817</pub-id></mixed-citation></ref><ref id="acn351296-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="acn351296-cit-0058">
+<string-name name-style="western">
+<surname>Liddelow</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guttenplan</surname>
+<given-names>KA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clarke</surname>
+<given-names>LE</given-names>
+</string-name>, et al. <article-title>Neurotoxic reactive astrocytes are induced by activated microglia</article-title>. <source xml:lang="en">Nature</source>
+<year>2017</year>;<volume>541</volume>:<fpage>481</fpage>–<lpage>487</lpage>.<pub-id pub-id-type="pmid">28099414</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature21029</pub-id><pub-id pub-id-type="pmcid">PMC5404890</pub-id></mixed-citation></ref><ref id="acn351296-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="acn351296-cit-0059">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>ZH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gong</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>C/EBPbeta regulates delta‐secretase expression and mediates pathogenesis in mouse models of Alzheimer's disease</article-title>. <source xml:lang="en">Nat Commun</source>
+<year>2018</year>;<volume>9</volume>:<fpage>1784</fpage>.<pub-id pub-id-type="pmid">29725016</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-018-04120-z</pub-id><pub-id pub-id-type="pmcid">PMC5934399</pub-id></mixed-citation></ref><ref id="acn351296-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="acn351296-cit-0060">
+<string-name name-style="western">
+<surname>Arboleda‐Velasquez</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lopera</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Hare</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Resistance to autosomal dominant Alzheimer's disease in an APOE3 Christchurch homozygote: a case report</article-title>. <source xml:lang="en">Nat Med</source>
+<year>2019</year>;<volume>25</volume>:<fpage>1680</fpage>–<lpage>1683</lpage>.<pub-id pub-id-type="pmid">31686034</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-019-0611-3</pub-id><pub-id pub-id-type="pmcid">PMC6898984</pub-id></mixed-citation></ref><ref id="acn351296-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="acn351296-cit-0061">
+<string-name name-style="western">
+<surname>Mathys</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davila‐Velderrain</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peng</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Single‐cell transcriptomic analysis of Alzheimer's disease</article-title>. <source xml:lang="en">Nature</source>
+<year>2019</year>;<volume>570</volume>:<fpage>332</fpage>–<lpage>337</lpage>.<pub-id pub-id-type="pmid">31042697</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-019-1195-2</pub-id><pub-id pub-id-type="pmcid">PMC6865822</pub-id></mixed-citation></ref><ref id="acn351296-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="acn351296-cit-0062">
+<string-name name-style="western">
+<surname>Drouin‐Ouellet</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lau</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brattås</surname>
+<given-names>PL</given-names>
+</string-name>, et al. <article-title>REST suppression mediates neural conversion of adult human fibroblasts via microRNA‐dependent and ‐independent pathways</article-title>. <source xml:lang="en">EMBO Mol Med</source>. <year>2017</year>;<volume>9</volume>:<fpage>1117</fpage>–<lpage>1131</lpage>.<pub-id pub-id-type="pmid">28646119</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/emmm.201607471</pub-id><pub-id pub-id-type="pmcid">PMC5538296</pub-id></mixed-citation></ref><ref id="acn351296-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="acn351296-cit-0063">
+<string-name name-style="western">
+<surname>Zmora</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bashiardes</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Levy</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elinav</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>The role of the immune system in metabolic health and disease</article-title>. <source xml:lang="en">Cell Metab</source>
+<year>2017</year>;<volume>25</volume>:<fpage>506</fpage>–<lpage>521</lpage>.<pub-id pub-id-type="pmid">28273474</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmet.2017.02.006</pub-id></mixed-citation></ref><ref id="acn351296-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="acn351296-cit-0064">
+<string-name name-style="western">
+<surname>MahmoudianDehkordi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Altered bile acid profile associates with cognitive impairment in Alzheimer's disease—an emerging role for gut microbiome</article-title>. <source xml:lang="en">Alzheimer's Dement</source>
+<year>2019</year>;<volume>15</volume>:<fpage>76</fpage>–<lpage>92</lpage>.<pub-id pub-id-type="pmid">30337151</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2018.07.217</pub-id><pub-id pub-id-type="pmcid">PMC6487485</pub-id></mixed-citation></ref><ref id="acn351296-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="acn351296-cit-0065">
+<string-name name-style="western">
+<surname>Athersuch</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Keun</surname>
+<given-names>HC</given-names>
+</string-name>. <article-title>Metabolic profiling in human exposome studies</article-title>. <source xml:lang="en">Mutagenesis</source>
+<year>2015</year>;<volume>30</volume>:<fpage>755</fpage>–<lpage>762</lpage>.<pub-id pub-id-type="pmid">26290610</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/mutage/gev060</pub-id></mixed-citation></ref><ref id="acn351296-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="acn351296-cit-0066">
+<string-name name-style="western">
+<surname>Bjerke</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Portelius</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Minthon</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Confounding factors influencing amyloid Beta concentration in cerebrospinal fluid</article-title>. <source xml:lang="en">Int J Alzheimer's Dis</source>
+<year>2010</year>;<volume>2010</volume>:<fpage>1</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.4061/2010/986310</pub-id><pub-id pub-id-type="pmcid">PMC2925386</pub-id><pub-id pub-id-type="pmid">20798852</pub-id></mixed-citation></ref><ref id="acn351296-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="acn351296-cit-0067">
+<string-name name-style="western">
+<surname>Darst</surname>
+<given-names>BF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koscik</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hogan</surname>
+<given-names>KJ</given-names>
+</string-name>, et al. <article-title>Longitudinal plasma metabolomics of aging and sex</article-title>. <source xml:lang="en">Aging</source>
+<year>2019</year>;<volume>11</volume>:<fpage>1262</fpage>–<lpage>1282</lpage>.<pub-id pub-id-type="pmid">30799310</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/aging.101837</pub-id><pub-id pub-id-type="pmcid">PMC6402508</pub-id></mixed-citation></ref><ref id="acn351296-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="acn351296-cit-0068">
+<string-name name-style="western">
+<surname>Wishart</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feunang</surname>
+<given-names>YD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcu</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>HMDB 4.0: the human metabolome database for 2018</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<year>2018</year>;<volume>46</volume>(<issue>D1</issue>):<fpage>D608</fpage>–<lpage>D617</lpage>.<pub-id pub-id-type="pmid">29140435</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkx1089</pub-id><pub-id pub-id-type="pmcid">PMC5753273</pub-id></mixed-citation></ref><ref id="acn351296-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="acn351296-cit-0069">
+<string-name name-style="western">
+<surname>Hasin</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seldin</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lusis</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Multi‐omics approaches to disease</article-title>. <source xml:lang="en">Genome Biol</source>
+<year>2017</year>;<volume>18</volume>:<fpage>83</fpage>.<pub-id pub-id-type="pmid">28476144</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-017-1215-1</pub-id><pub-id pub-id-type="pmcid">PMC5418815</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

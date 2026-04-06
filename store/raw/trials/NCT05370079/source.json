@@ -1,0 +1,309 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05370079",
+      "orgStudyIdInfo": {
+        "id": "69HCL22_0275"
+      },
+      "organization": {
+        "fullName": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      },
+      "briefTitle": "Control Cohort CTRL COH",
+      "officialTitle": "Control Cohort CTRL COH",
+      "acronym": "CTRL COH"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-08-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-08-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-08-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-05-06",
+      "studyFirstSubmitQcDate": "2022-05-06",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospices Civils de Lyon",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Autoimmune encephalitis (AE) and paraneoplastic neurological syndromes (PNS) are rare disease that could be difficult to diagnose. So it necessary to obtain numerous sample from different disease to develop more specific diagnosis kit It could be possible through the characterisation of new genetic biomarkers."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Parkinson's Disease; Amyotrophic Lateral Sclerosis; Glioblastoma; Cancer Without Neurological Disease; Rheumatoid Polyarthritis"
+      ],
+      "keywords": [
+        "Biological collection, control cohort,, new biomarkers"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 350,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control cohort",
+          "type": "OTHER",
+          "description": "Patient with following disease: Parkinson's disease, Amyotrophic lateral sclerosis, Glioblastoma, cancer without neurological disease (pulmonary cancer, breast cancer, ovarian cancer, melanoma, thymoma), rheumatoid arthritis.",
+          "interventionNames": [
+            "Biological: Collection of biological sample (blood and/or CSF)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Collection of biological sample (blood and/or CSF)",
+          "description": "Blood sample will be collected one time for each patient:\n\n2 \\*4ml of blood on dry tube 2 \\*4ml of blood on EDTA tube\n\nIf cerebrospinal fluid (CSF) has been drawn for diagnosis, remaining sample available will be stored in the control cohort (1 ml).",
+          "armGroupLabels": [
+            "Control cohort"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Samples (blood dry and EDTA tube and optional cerebro-spinal-fluid)",
+          "description": "Numbers of samples collected and patients included in the cohort",
+          "timeFrame": "15 minutes"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Description of genetic analysis",
+          "description": "Number of new biomarkers (genetic) and specific HLA (human leucocyte antigen)",
+          "timeFrame": "Data collecting: 3 years Data analysis: 2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* patient with consent\n* patient with following disease: Parkinson's disease, Amyotrophic lateral sclerosis, Glioblastoma, cancer without neurological disease (pulmonary cancer, breast cancer, ovarian cancer, melanoma, thymoma), rheumatoid arthritis.\n\nExclusion Criteria:\n\n* refusal consent\n* patient with neurological disorder compatible with paraneoplastic neurological syndrome or auto-immune encephalitis\n* patient under guardianship",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jerome Honnorat, Pr",
+          "role": "CONTACT",
+          "phone": "(33) 4 72 35 78 06",
+          "email": "jerome.honnorat@chu-lyon.fr"
+        },
+        {
+          "name": "Géraldine Picard, CRA",
+          "role": "CONTACT",
+          "phone": "(33) 4 72 35 58 42",
+          "email": "geraldine.picard@chu-lyon.fr"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jerome Honnorat, Pr",
+          "affiliation": "Centre de référence des syndromes neurologiques paranéoplasiques et encéphalites auto-immunes, Lyon, France",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospices Civils de Lyon",
+          "status": "RECRUITING",
+          "city": "Bron",
+          "zip": "69500",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Jerome HONNORAT, Pr",
+              "role": "CONTACT",
+              "phone": "(33) 4 72 35 78 06",
+              "email": "jerome.honnorat@chu-lyon.fr"
+            },
+            {
+              "name": "Jerome HONNORAT",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010300",
+          "term": "Parkinson Disease"
+        },
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "D005909",
+          "term": "Glioblastoma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020734",
+          "term": "Parkinsonian Disorders"
+        },
+        {
+          "id": "D001480",
+          "term": "Basal Ganglia Diseases"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D000080874",
+          "term": "Synucleinopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001254",
+          "term": "Astrocytoma"
+        },
+        {
+          "id": "D005910",
+          "term": "Glioma"
+        },
+        {
+          "id": "D018302",
+          "term": "Neoplasms, Neuroepithelial"
+        },
+        {
+          "id": "D017599",
+          "term": "Neuroectodermal Tumors"
+        },
+        {
+          "id": "D009373",
+          "term": "Neoplasms, Germ Cell and Embryonal"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D009380",
+          "term": "Neoplasms, Nerve Tissue"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

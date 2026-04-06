@@ -1,0 +1,334 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06917924",
+      "orgStudyIdInfo": {
+        "id": "PNRR-MAD-2022-12375731"
+      },
+      "organization": {
+        "fullName": "A.O.U. Città della Salute e della Scienza",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Patient-tailored Genetic/Biomarker/iPSC Combined Approach in ALS - PERMEALS",
+      "officialTitle": "Towards a PERsonalized MEdicine in Amyotrophic Lateral Sclerosis (ALS) by a Patient-tailored Genetic/Biomarker/iPSC Combined Approach - PERMEALS",
+      "acronym": "PERMEALS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-05-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-05-20",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-11-20",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-03-12",
+      "studyFirstSubmitQcDate": "2025-03-31",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Andrea Calvo",
+        "investigatorTitle": "Principal Investigator, Associate Professor",
+        "investigatorAffiliation": "A.O.U. Città della Salute e della Scienza"
+      },
+      "leadSponsor": {
+        "name": "A.O.U. Città della Salute e della Scienza",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Amyotrophic Lateral Sclerosis (ALS) is a severe and incurable neurodegenerative disease of motor neurons with a dramatic socio-economic impact on the national health system. ALS is a complex disorder with the majority of cases being sporadic and about 15% of cases showing familial history. It is characterized by high genetic heterogeneity, with more than 30 causative genes accounting for 60% of familial and 10% of sporadic cases. The clinical manifestations of ALS are variable with respect to age and site of onset, disease progression, relative upper versus lower motor neuron involvement, genetic background, and the occurrence of cognitive and behavioral change. This remains the case in those families with known disease-causing variants, suggesting that additional disease-modifying factors exist. A variety of wet biomarkers, including neurofilaments and extracellular vesicles, hold great promise in predicting the development of the disease and the variability in its progression. Neuroimaging techniques have been demonstrated to be able to detect abnormalities in motor and non-motor areas with a variety of patterns that reflect disease severity, progression, and duration. Disease heterogeneity is likely underpinned by the presence of different pathogenic mechanisms that can be studied at a molecular level in preclinical models. Human-induced pluripotent stem cells (iPSC) and derived motor neurons have shown functional disease-relevant phenotypes and seem to be particularly useful in modeling the heterogeneity of human ALS. All these pieces of information scattered in different studies have not been combined to drive research toward personalized medicine. In this project, the investigators gathered a team of exceptional and specific expertise in all these aspects of ALS research. The research group will perform an in-depth characterization of the clinical, neuroradiological, genetic, and biochemical levels of a cohort of ALS patients. In particular, researchers will measure selected established biomarkers mirroring fundamental pathophysiological processes in ALS such as neuroaxonal degeneration, alterations in protein homeostasis, TDP-43 pathology, neuroinflammation, and cell-cell communication. The investigators will also use neuroimaging techniques to highlight the structural and functional correlates of neurodegeneration in ALS. Next, researchers will integrate all these data by using artificial intelligence approaches with the aim of identifying different signatures that can be modeled in vitro in patient-derived iPSC. The investigators are confident that the PERMEALS project, by using a combined multi-angled approach, will represent the first step toward a personalized medicine to cure ALS.",
+      "detailedDescription": "Specific aim 1 To perform an unbiased genetic screening and to measure biochemical and neuroradiological biomarkers in a deep-phenotyped cohort of ALS patients.\n\nIn particular, the activities will be divided into four WPs:\n\nWP 1. The investigators will recruit 200 incident patients with a diagnosis of ALS according to the revised El Escorial Criteria and Gold Coast Criteria from the UO1, UO2, and UO4; patients will be classified as classic, bulbar, flail arm, flail leg, and prevalent upper motor neuron ALS. The research group will consider neurophysiological parameters. Given the clinical continuum of ALS with FTD, the cognitive assessment will be evaluated through a complete neuropsychological test battery according to the consensus criteria for the diagnosis of frontotemporal cognitive and behavioral syndromes in ALS. Every patient will be followed up every three months, performing the MRC scale for muscle strength, ALS-FRS-R score for functional status, and King¿s and MITOS staging systems.\n\nWP 2. Genetics The investigators will perform NGS analysis on recruited patients to identify genetic variants associated with ALS susceptibility and phenotypic variability. Annotated variants will be subdivided according to the ACMG criteria and pathogenic, likely pathogenic, and variants of unknown significance (VUS) will be selected for further validation in Aim 3. To prioritize identified variants for analysis, researchers will focus on: 1) genes associated with monogenic types of ALS; 2) genes associated with ALS susceptibility; 3) genes associated with other degenerative diseases overlapping with ALS.\n\nWP 3. Imaging Brain Magnetic Resonance Imaging (MRI) phenotyping will be acquired by UO1, UO2, and UO4 with 3T magnets. The imaging protocol will include: 3D T1-weighted images (gradient-echo sequence Inversion Recovery prepared Fast Sypoiled Gradient Recalled-echo) for voxel-based morphometry (VBM) processing; 3D multi-echo gradient echo sequence for quantitative susceptibility mapping (QSM) analysis; FLuid-Attenuated Inversion Recovery (FLAIR) sequence; gradient-echo (GRE) echo-planar-imaging (EPI) sequence for whole-brain diffusion tensor imaging (DTI); repeated gradient-echo echoplanar imaging T2\\*-weighted sequence for resting-state functional MRI (RS-fMRI) analysis. Brain fluorodeoxyglucose(FDG)-positron emission tomography (PET) will be performed at UO1 and UO4.\n\nWP 4. Biomarker analysis in biofluids. The investigators will measure a panel of protein biomarkers in plasma and CSF to evaluate the relationships between different biomarkers and between each biomarker and genotypic-phenotypic features, and their longitudinal trajectories (at baseline, after 6 and 12 months). The researchers selected established biomarkers mirroring fundamental pathophysiological processes in ALS such as neuroaxonal degeneration (NFL, tau), alterations in protein homeostasis (UCHL1, PPIA), TDP-43 pathology (TDP-43), and neuroinflammation (MCP-1, GFAP, MMP-9, PPIA). All biomarkers will be measured by means of advanced and automated immunoassay workstations that allow measuring proteins in biological fluids with the highest accuracy and sensitivity. Biomarkers will be measured in the plasma of all patients longitudinally (baseline, 6 and 12 months from first evaluation) and in CSF of selected patients. The investigators will analyze EVs isolated from plasma and CSF samples of all patients recruited in the project as markers of alterations in cell-cell communication and protein homeostasis. They will measure biophysical parameters and protein cargos in EVs by an established procedure as described (PMID 34376243).\n\nSpecific aim2 To use Artificial Intelligence (AI) approaches for integrating the different data and correlate genetic and biomarker data with phenotypic traits.\n\nThe investigators will develop AI approaches through machine-learning algorithms for integrating the different phenotypical, genetic, and neurobiological data to provide predictive models of disease phenotype, disease risk, and progression. In particular, they aim at deriving novel ALS subtype re-categorizations to better investigate the heterogeneity of ALS, enlightening novel genetic, neurochemical, and/or molecular divergences or overlaps between subsets of patients through data-driven approaches, and at identifying different patients¿ subtypes and novel ALS-related variants that require more specific therapies for improved treatment. In addition, researches will apply supervised and semi-supervised models for phenotype/disease progression prediction and relevant prognostic factors identification.\n\nSpecific aim 3 To evaluate the biological significance of the identified phenotypes in human ALS motor neurons differentiated from iPSC (induced pluripotent stem cells).\n\nAccording to the genetic data obtained in Aim 1 and to the AI results from Aim 2, a set of pathogenetic/risk variants will be selected to be modeled in vitro. A preliminary functional screening will be performed using human neuroblastoma cells and the more appropriate assay will be chosen based on the type/nature of the identified gene variants. Selected ALS patients' cells (PBMC or fibroblasts) will be then reprogrammed into iPSC using the non-integrating Sendai virus expressing the Yamanaka¿s factors. The obtained iPSC will be fully characterized and differentiated according to well-established protocols to assess their capacity to generate functional motor neurons. Several morphological and viability parameters will be monitored to assess possible differences with wild-type control iPSC already available for the project.\n\nExperimental design aim1:\n\nWP 1. Patients ALS patients (n=200) will be enrolled at diagnosis, following written informed consent. Their motor phenotype will be classified as: classic, bulbar, flail arm, flail leg, and prevalent upper motor neuron ALS according to a published algorithm (PMID 21402743). The cognitive axis will be investigated during the diagnostic work-up through a full neuropsychological assessment, encompassing executive function, social cognition, language, memory, behavior, and neuropsychiatric symptoms, in agreement with the ALS-FTD revised diagnostic criteria (PMID 28054827). Deep family history will be collected, focusing on ALS and FTD, other neurodegenerative diseases, psychiatric disorders, suicide, glaucoma, and Paget's disease of bone. At baseline and in three-month follow-up visits, muscle strength will be assessed using the MRC scale and the ALSFRS-R will be collected. King¿s and MITOS stages at every visit will be extrapolated from the ALSFRS-R score (PMID 24720420, 24336810).\n\nWP 2. Genetics Genomic DNA will be extracted from whole blood. All samples will be pre-screened for C9orf72 hexanucleotide expansion (GGGGCC) and ATXN2 trinucleotide expansion (CAG) according to already established protocols. Whole-genome sequencing (WGS) will be performed on a HiSeq or NovaSeq platform (Illumina) with an expected coverage yield of\\>30x.\n\nRead alignment, variant calling, and quality control will be performed using the BWA/GATK pipeline. ExpansionHunter will be used to determine the presence of large expansion of short tandem repeats (STRs) within genes of interest. Rare variant burden association analysis will be performed using PLINK/SEQ and RVtests, prioritizing variants according to the ACMG guidelines and genes involved in neurodegeneration. Validation of candidate variants associated with ALS susceptibility and phenotypic traits will be performed in independent cohorts, exploiting both internally generated NGS data, as well as public disease-specific databases (Project MinE).\n\nWP 3. Imaging MRI images will be acquired with 3T magnets. Within two weeks from clinical and neuropsychological assessments, eligible patients will undergo MRI sessions of about 30 minutes, acquiring: a high-resolution 3D T1 sequence (gradient-echo sequence Inversion Recovery prepared Fast Spoiled Gradient Recalled-echo) for voxel-based morphometry (VBM) analysis; T2-fluid attenuation inversion recovery (FLAIR) sequence, to exclude severe cerebrovascular disease according to standard clinical neuroradiological criteria; 3D multi-echo gradient echo sequence for quantitative susceptibility mapping (QSM) analysis; spin-echo (SE) EPI sequence (b value=2,000 s/mm2, 64 isotropically distributed gradients, frequency encoding RL) to perform whole-brain Tract-based Spatial Statistics (TBSS) DTI analysis; gradient-echo echo-planar imaging (GRE-EPI) sequence generating 320 T2\\*-weighted volumes of 44 axial slices to perform RS-fMRI. MRI scan will be repeated after 6 and 12 months from baseline. Brain fluorodeoxyglucose (FDG)-positron emission tomography (PET) will be performed at diagnosis.\n\nWP 4. Biomarker analysis in biofluids. A panel of protein biomarkers was selected because of previous evidence of a correlation with clinical variables (PMID: 32385188; 16567701; 35263489; 32515902; 34972208; 28011744; 31742901; 34376243). In particular, NFL, tau, UCHL1, PPIA, TDP-43, MCP-1, GFAP, MMP-9 will be measured in plasma and CSF samples of ALS patients. The levels of plasma biomarkers will be measured in 200 incident patients during disease progression, at three-time points: baseline, 6, and 12 months from the first evaluation, while the levels of CSF biomarkers will be analyzed in selected patients (n=80) at baseline.\n\nEVs will be isolated from plasma samples and characterized for their biophysical properties and protein cargos (PPIA and HSP90). Multidimensional data for each patient will be provided to UO4 for patient characterization and classification.\n\nExperimental design aim 2 The investigators will develop AI approaches through machine-learning algorithms for deriving novel ALS subtype re-categorizations to better investigate the heterogeneity of ALS, and for identifying different patients' subtypes and novel ALS-related variants that require more specific therapies for personalized treatments. The research group will apply both unsupervised models (e.g., from cluster analysis) and supervised and semi-supervised models for phenotype/disease progression prediction and relevant prognostic factor identification. After data processing the investigators will generate several multi-dimensional 'views' for each patient data instance and cluster analysis will be performed to identify robust clusters of patients. They will essentially compare two schemes of data integration: intermediate integration, whereby features from different views are combined prior to clustering, and late integration, whereby a consensus approach will be applied to validate the different clusters of patients emerging from the different views. A linear discriminant analysis will be applied to assess the level of differentiation achieved at the clustering stage with the new groupings of patients. Moreover, among supervised models for relevant factor identification, the research group will apply the XGBoost algorithm, which trains a non-linear model from a dataset with labels and several features available and then uses the trained model to predict the labels on a new dataset's features. The advantage of the XGBoost algorithm is two-fold: first, together with the model, it provides a ranking of importance among the features (and views); second, it is robust to the correlation among features and the unbalance of the groups. Next, to investigate multimodal patterns potentially able to predict disease progression and patient prognosis, the investigators will apply non-parametric techniques to transform patients' survival data into hazard ranks. These models, including, e.g. the GuanRank model, as well as a Random forest analysis, will be used to identify brain MRI/FDG-PET and molecular variables that best predict the cognitive and behavioral scores and physical disability (i.e. phenotypic heterogeneity) and disease prognosis. Further, researchers will apply imbalance-aware hyperSMURF hyper-ensembles (ensemble of the ensemble) handling high class-imbalance by distributional-aware over and under-sampling. These ensembles may achieve state-of-the-art results in prioritizing pathogenic variants in Mendelian genetic diseases and will be applied to recognize the ALS-related variants from those extracted, to support the discovery of pathogenic variants associated with ALS.\n\nThe investigators will generate patient-derived iPSC to conduct a functional characterization of the ALS-associated gene variants identified by the WGS analyses in Aim 1 and further defined by the AI-based approach. Human iPSCs have the great advantage of maintaining the patient's genetic background and of being potentially differentiated into different types of neuro-glial cells, including motoneurons. A subset of gene variants identified in our ALS cohort will be prioritized according to biological parameters, cell pathways involved and AI-derived prediction scores to be modeled in vitro. Blood cells (PBMC) or primary fibroblasts from selected ALS patients will be reprogrammed into iPSC using the non-integrating Sendai virus system as already published by UO2 (PMID: 32125773). The obtained iPSC lines will be fully characterized for the expression of stemness markers, their pluripotency state, and their capacity to spontaneously differentiate into the three embryonic germ layers, and for the absence of gross chromosomal rearrangements after reprogramming. In order to obtain human motoneurons, patient-derived iPSC will be differentiated according to already established protocols which include the formation of embryoid bodies and subsequent maturation of motoneuronal cells for 14-30 days. As a first functional parameter, the capacity of the generated iPSC to properly differentiate into motoneurons will be tested by image analysis of specific neuronal/motoneuronal markers and morphometric parameters by ImageJ software together with cell viability assays. According to the nature of the selected genes, the investigators will design and conduct ad hoc functional assays to further assess the biological effects of the predicted variants.\n\nThe establishment of ALS patient-derived iPSC and motoneurons will allow a personalized in vitro modeling of the disease which represents an important step towards the understanding of the clinical heterogeneity defined in Aim 1."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_ONLY",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "lumbar puncture",
+          "description": "Standard of care of LP"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Clinical classification of the patients using international ALS phenotype criteria",
+          "description": "No. of patients with classic, predominant upper, predominant lower, bulbar, flail arm, flail leg, cachectic, PLS, PMA phenotypes",
+          "timeFrame": "At baseline and after 12 months"
+        },
+        {
+          "measure": "Perform a cognitive classification of the patient",
+          "description": "Verify the presence of cognitive impairment/ language or executive dysfunction in ALS patients using the neuropsychological assessment battery in particular ECAS score",
+          "timeFrame": "At baseline, after 6 months, and after 12 months"
+        },
+        {
+          "measure": "Perform genetic characterization of the patients",
+          "description": "Perform NGS analysis on recruited patients to identify genetic variants associated with ALS susceptibility",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Evaluation of potential biomarkers in biofluids obtained from patients",
+          "description": "No. of patients with abnormal NFL, tau, UCHL1, PPIA, TDP-43, MCP-1, GFAP, MMP-9, PPIA levels in plasma and cerebrospinal fluid from patients.",
+          "timeFrame": "At baseline, after 6 months, and after 12 months"
+        },
+        {
+          "measure": "Evaluation MRI features",
+          "description": "These models, including the GuanRank model and a Random forest analysis, will be used to identify brain MRI and molecular variables that best predict the cognitive and behavioral scores and physical disability (i.e. phenotypic heterogeneity) and disease prognosis.",
+          "timeFrame": "At baseline, after 6 months, and after 12 months for MRI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Generation of patient-derived iPSCs from peripheral blood mononuclears cells (PBMC) or primary fibroblasts.",
+          "description": "A functional characterization of the ALS-associated gene variants identified by the WGS analyses.",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Evaluation of FDG-PET features",
+          "description": "These models, including the GuanRank model and a Random forest analysis, will be used to identify brain FDG-PET and molecular variables that best predict the cognitive and behavioral scores and physical disability (i.e. phenotypic heterogeneity) and disease prognosis.",
+          "timeFrame": "At baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of ALS\n\nExclusion Criteria:\n\n* ALS patients under 18 years old",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "ALS patients enrolled in CRESLA of Torino, ALS center of Istituto Auxiologico of Milano, and ALS center ov University of Napoli Vanvitelli",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "IRCCS Istituto Auxologico Italiano",
+          "status": "RECRUITING",
+          "city": "Milan",
+          "zip": "20149",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Nicola Ticozzi, MD PhD",
+              "role": "CONTACT",
+              "phone": "+39-02-61911-2937",
+              "email": "n.ticozzi@auxologico.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Istituto di Ricerche Farmacologiche Mario Negri IRCCS",
+          "status": "RECRUITING",
+          "city": "Milan",
+          "zip": "20156",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Valentina Bonetto, PhD",
+              "role": "CONTACT",
+              "phone": "+39 02 39014548",
+              "email": "valentina.bonetto@marionegri.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Università degli Studi della Campania \"Luigi Vanvitelli\"",
+          "status": "RECRUITING",
+          "city": "Naples",
+          "zip": "80138",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Francesca Trojsi, MD",
+              "role": "CONTACT",
+              "phone": "+390815665004",
+              "email": "francesca.trojsi@unicampania.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "AOU Citta della Salute e della Scienza di Torino",
+          "status": "RECRUITING",
+          "city": "Torino",
+          "zip": "10126",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Andrea Calvo, MD Phd",
+              "role": "CONTACT",
+              "phone": "+390116709171",
+              "email": "andrea.calvo@unito.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.88856,
+            "lon": 11.99138
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013129",
+          "term": "Spinal Puncture"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001706",
+          "term": "Biopsy"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D003943",
+          "term": "Diagnostic Techniques, Neurological"
+        },
+        {
+          "id": "D011677",
+          "term": "Punctures"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

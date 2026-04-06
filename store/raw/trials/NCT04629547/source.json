@@ -1,0 +1,377 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04629547",
+      "orgStudyIdInfo": {
+        "id": "202008007"
+      },
+      "organization": {
+        "fullName": "Washington University School of Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Sleep Trial to Prevent Alzheimer's Disease",
+      "officialTitle": "Sleep Trial to Prevent Alzheimer's Disease",
+      "acronym": "SToP-AD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-05-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-11-09",
+      "studyFirstSubmitQcDate": "2020-11-09",
+      "studyFirstPostDateStruct": {
+        "date": "2020-11-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Brendan Lucey",
+        "investigatorTitle": "Principal Investigator, Sleep Medicine Section Head",
+        "investigatorAffiliation": "Washington University School of Medicine"
+      },
+      "leadSponsor": {
+        "name": "Washington University School of Medicine",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Good Ventures",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Merck Sharp & Dohme LLC",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine if treatment with the sleep aid suvorexant can decrease the rate of amyloid-β (Aβ) accumulation in the brain.",
+      "detailedDescription": "This study will investigate if long-term treatment with suvorexant will slow amyloid-β accumulation in the brain. Amyloid-β is a protein involved in the disease process leading to Alzheimer's disease. This study will evaluate if suvorexant can decrease the amount of amyloid-beta detected by plasma pT217/T217."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sleep",
+        "Alzheimer Disease"
+      ],
+      "keywords": [
+        "poor sleep",
+        "Amyloid-Beta",
+        "Insomnia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Poor sleep treatment group",
+          "type": "EXPERIMENTAL",
+          "description": "100 participants will be randomized to take suvorexant 20mg daily at h.s. for 18-24 months",
+          "interventionNames": [
+            "Drug: Suvorexant 20 mg"
+          ]
+        },
+        {
+          "label": "Poor sleep control grop",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "100 participants will be randomized to take placebo daily at h.s. for 18-24 months",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Suvorexant 20 mg",
+          "description": "Suvorexant 20mg will be taken nightly for 24 months.",
+          "armGroupLabels": [
+            "Poor sleep treatment group"
+          ],
+          "otherNames": [
+            "Belsomra"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo will be taken nightly for 24 months.",
+          "armGroupLabels": [
+            "Poor sleep control grop"
+          ],
+          "otherNames": [
+            "inactive pill",
+            "sugar pill"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from baseline in Amyloid-β accumulation measured by plasma pT217/T217 in participants treated with 20 mg suvorexant compared to placebo",
+          "description": "Blood collection",
+          "timeFrame": "18-24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in plasma Amyloid-β compared to placebo",
+          "description": "Blood collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in CSF Amyloid-β compared to placebo",
+          "description": "Cerebrospinal fluid collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in plasma tau compared to placebo",
+          "description": "Blood collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in CSF tau compared to placebo",
+          "description": "Cerebrospinal fluid collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in plasma p-tau compared to placebo",
+          "description": "Blood collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in CSF p-tau compared to placebo",
+          "description": "Cerebrospinal fluid collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in cognitive performance compared to placebo",
+          "description": "Measured by a cognitive composite consisting of the Digit Symbol Substitution Test, Animal Naming, Trails B and the Free and Cued Selective Reminding Test. Each test will be z-scored and then averaged together to make the composite.",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in transcriptomics compared to placebo",
+          "description": "blood and optional CSF collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in metabolomics compared to placebo",
+          "description": "blood and optional CSF collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in proteomics compared to placebo",
+          "description": "blood and optional CSF collection",
+          "timeFrame": "18-24 months"
+        },
+        {
+          "measure": "Change in gut microbiome compared to placebo",
+          "description": "optional stool sample collection",
+          "timeFrame": "18-24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female.\n* Any race or ethnicity.\n* Participants must be age ≥65 years and able to sign informed consent.\n* Global Clinical Dementia Rating (CDR) 0.\n* Willing and able to undergo study procedures.\n\nExclusion Criteria:\n\n* History of reported symptoms suggestive of restless legs syndrome, narcolepsy or other central disorder of hypersomnolence, or parasomnia\n* STOP-Bang score \\>6 for participants without PAP\n* Untreated OSA with AHI ≥15 on home sleep test\n* Treated sleep apnea with PAP non-compliance\n\n  * PAP compliance is defined as \\>= 4 hours per night \\>70% of the nights\n* Plasma A-beta and tau test with a plasma p-tau 217% ≤ 1.19\n* Stroke.\n* Chronic kidney disease defined as patients with markers of kidney damage or eGFR of \\< 45 ml/min/1.73m2.\n* Hepatic impairment defined as AST and/or ALT \\> 2x upper limit of normal (normal limits AST: 11-47 IU/L, ALT: 6-53 IU/L).\n* HIV/AIDS.\n* History of substance abuse or alcohol abuse in the proceeding 6 months.\n* Regular alcohol consumption 3 or more days a week over the last 6 months. Regular alcohol consumption is defined as having more than 2 alcoholic beverages within 3 hours of bedtime. Participants that agree to reduce alcohol consumption during the study may not be excluded.\n* History of presence of any clinically significant medical condition, behavioral or psychiatric disorder, or surgical history based on medical record or participant report that could affect the safety of the participant or interfere with study assessments or in the judgement of the Principal-Investigator (PI) if participant is not a good candidate.\n* Has any medical condition that, in the PI's opinion, could increase risk to the participant, limit the participant's ability to tolerate the research procedures, or interfere with the collection/analysis of the data. Potential medical conditions that will be exclusionary at the PI's discretion:\n\n  * Cardiovascular disease requiring medication except for controlled hypertension.\n  * Pulmonary disease.\n  * Type I diabetes.\n  * Neurologic or psychiatric disorder requiring medication.\n  * Tobacco use.\n  * Use of sedating medications.\n  * Use of medications that interact with suvorexant (if cannot be discontinued)\n  * Abnormal safety labs\n* History of current suicidal ideations.\n* Currently pregnant or breast-feeding.\n* In the opinion of the PI, the participant should be excluded due to an abnormal physical examination.\n* Must not have participated in any clinical trial involving a study drug or device within the 30-days prior to study enrollment.\n* Must not participate in another drug or device study prior to the end of this study participation.\n\nExclusion criteria for optional lumbar punctures\n\n-• Contraindication to lumbar puncture (anticoagulants; bleeding disorder; allergy to lidocaine or disinfectant; prior central nervous system or lower back surgery).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "65 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Cristina Toedebusch, BS",
+          "role": "CONTACT",
+          "phone": "3147470646",
+          "email": "toedebuschc@wustl.edu"
+        },
+        {
+          "name": "Chloe Meehan, MA",
+          "role": "CONTACT",
+          "phone": "3142730878",
+          "email": "cmeehan@wustl.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Brendan Lucey, MD",
+          "affiliation": "Washington Univeristy School of Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Washington University School of Medicine",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cristina Toedebusch, BS",
+              "role": "CONTACT",
+              "phone": "13147470646",
+              "email": "toedebuschc@wustl.edu"
+            },
+            {
+              "name": "Brendan Lucey, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D058225",
+          "term": "Plaque, Amyloid"
+        },
+        {
+          "id": "D007319",
+          "term": "Sleep Initiation and Maintenance Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D020919",
+          "term": "Sleep Disorders, Intrinsic"
+        },
+        {
+          "id": "D020920",
+          "term": "Dyssomnias"
+        },
+        {
+          "id": "D012893",
+          "term": "Sleep Wake Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C551624",
+          "term": "suvorexant"
+        },
+        {
+          "id": "D000073893",
+          "term": "Sugars"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

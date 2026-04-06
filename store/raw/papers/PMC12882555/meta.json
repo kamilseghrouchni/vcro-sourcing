@@ -1,0 +1,200 @@
+{
+  "pmid": "41653107",
+  "pmc": "PMC12882555",
+  "doi": "10.1002/alz.71164",
+  "title": "Analyses of plasma multi‐omic data across ancestries identify novel pathways implicated in Alzheimer's disease",
+  "journal": "Alzheimer's & Dementia",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Yang Chengran",
+      "affiliations": [
+        "Department of Psychiatry Washington University School of Medicine St. Louis Missouri USA",
+        "NeuroGenomics and Informatics Center Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Timsina Jigyasha",
+      "affiliations": [
+        "Department of Psychiatry Washington University School of Medicine St. Louis Missouri USA",
+        "NeuroGenomics and Informatics Center Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Liu Menghan",
+      "affiliations": [
+        "Department of Psychiatry Washington University School of Medicine St. Louis Missouri USA",
+        "NeuroGenomics and Informatics Center Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Budde John",
+      "affiliations": [
+        "Department of Psychiatry Washington University School of Medicine St. Louis Missouri USA",
+        "NeuroGenomics and Informatics Center Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Kohlfeld Pat",
+      "affiliations": [
+        "Department of Psychiatry Washington University School of Medicine St. Louis Missouri USA",
+        "NeuroGenomics and Informatics Center Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Brock William",
+      "affiliations": [
+        "Department of Psychiatry Washington University School of Medicine St. Louis Missouri USA",
+        "NeuroGenomics and Informatics Center Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Morris John C.",
+      "affiliations": [
+        "Department of Neurology Washington University School of Medicine St. Louis Missouri USA",
+        "Charles F. and Joanne Knight Alzheimer Disease Research Center Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Holtzman David M.",
+      "affiliations": [
+        "Department of Neurology Washington University School of Medicine St. Louis Missouri USA",
+        "Charles F. and Joanne Knight Alzheimer Disease Research Center Washington University School of Medicine St. Louis Missouri USA",
+        "Hope Center for Neurological Disorders Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Sung Yun Ju",
+      "affiliations": [
+        "Department of Psychiatry Washington University School of Medicine St. Louis Missouri USA",
+        "NeuroGenomics and Informatics Center Washington University School of Medicine St. Louis Missouri USA",
+        "Division of Biostatistics Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    },
+    {
+      "name": "Cruchaga Carlos",
+      "affiliations": [
+        "Department of Psychiatry Washington University School of Medicine St. Louis Missouri USA",
+        "NeuroGenomics and Informatics Center Washington University School of Medicine St. Louis Missouri USA",
+        "Department of Neurology Washington University School of Medicine St. Louis Missouri USA",
+        "Charles F. and Joanne Knight Alzheimer Disease Research Center Washington University School of Medicine St. Louis Missouri USA",
+        "Hope Center for Neurological Disorders Washington University School of Medicine St. Louis Missouri USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "genetic ancestry",
+    "genetic variants",
+    "metabolomics",
+    "omics",
+    "plasma",
+    "proteomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Institutes of Health10.13039/100000002 R01AG044546RF1AG053303RF1AG058501U01AG058922RF1AG074007P30AG066444P01AG03991P01AG026276",
+    "Chan Zuckerberg Initiative10.13039/100014989",
+    "Alzheimer's Association Zenith Fellows Award ZEN‐22‐848604",
+    "National Institute on Aging10.13039/100000049"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2025-07-10",
+  "accepted": "2025-12-30",
+  "reference_pmids": [
+    "30820047",
+    "35379992",
+    "39528825",
+    "39528826",
+    "34239129",
+    "36907103",
+    "24830394",
+    "27866706",
+    "33308443",
+    "34587156",
+    "28278150",
+    "32895551",
+    "38688586",
+    "26854917",
+    "26258848",
+    "29846171",
+    "40789849",
+    "36119389",
+    "38997326",
+    "21165148",
+    "19624122",
+    "33568819",
+    "25722852",
+    "26432245",
+    "37220626",
+    "35853082",
+    "34557778",
+    "38514782",
+    "37151216",
+    "33707775",
+    "37962386",
+    "36370105",
+    "35561170",
+    "31413141",
+    "38172904",
+    "39637861",
+    "37794186",
+    "30617256",
+    "38714706",
+    "34092785",
+    "26811286",
+    "37694991",
+    "39362218",
+    "39549695",
+    "33074286",
+    "36543923",
+    "35717259",
+    "38569016",
+    "32852886",
+    "32929860",
+    "32761777",
+    "32985120",
+    "34857953",
+    "34648354"
+  ],
+  "tables_count": 0,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "background",
+    "research in context",
+    "methods",
+    "ethics declarations",
+    "cohort information",
+    "data quality control (proteomics, metabolomics, genotype data quality control)",
+    "proteomics data quality control",
+    "metabolomics data qc",
+    "genotype qc, imputation, and ancestral group stratification",
+    "integration of proteomics and metabolomics with genotype data",
+    "ad risk gwas",
+    "colocalization of molecular traits and ad",
+    "pathway and cell type enrichment of proteins in",
+    "identification of",
+    "pathway enrichment of proteins and metabolites implicated in ad",
+    "protein–protein interaction prediction of proteins implicated in ad",
+    "cross‐tissue comparisons of proteins and metabolites implicated in ad",
+    "results",
+    "genetic colocalization of proteins and ad",
+    "comparisons of reported ad effector genes identified proteins as alternative effectors",
+    "",
+    "genetic colocalization of metabolites and ad",
+    "biological insights of proteins implicated in ad",
+    "biological insights of metabolites implicated in ad",
+    "comparison of plasma findings with the csf findings on ad",
+    "discussion",
+    "conflict of interest statement",
+    "consent statement",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 11618,
+  "converted_at": "2026-04-06T22:39:05.433031+00:00"
+}

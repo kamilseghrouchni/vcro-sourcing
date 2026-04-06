@@ -1,0 +1,592 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xml:lang="en" article-type="review-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Biomark Insights</journal-id><journal-id journal-id-type="iso-abbrev">Biomark Insights</journal-id><journal-id journal-id-type="pmc-domain-id">906</journal-id><journal-id journal-id-type="pmc-domain">bmi</journal-id><journal-id journal-id-type="publisher-id">BMI</journal-id><journal-title-group><journal-title>Biomarker Insights</journal-title></journal-title-group><issn pub-type="epub">1177-2719</issn><publisher><publisher-name>SAGE Publications</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12575937</article-id><article-id pub-id-type="pmcid-ver">PMC12575937.1</article-id><article-id pub-id-type="pmcaid">12575937</article-id><article-id pub-id-type="pmcaiid">12575937</article-id><article-id pub-id-type="pmid">41180593</article-id><article-id pub-id-type="doi">10.1177/11772719251364018</article-id><article-id pub-id-type="publisher-id">10.1177_11772719251364018</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Review Article</subject></subj-group></article-categories><title-group><article-title>Advancing Clinical Use of Neurofilament Light Chain: Translational Insights From Research to Routine Practice</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>La Civita</surname><given-names initials="E">Evelina</given-names></name><xref rid="aff1-11772719251364018" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Nicolella</surname><given-names initials="V">Valerio</given-names></name><xref rid="aff2-11772719251364018" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Fiorenza</surname><given-names initials="M">Mariano</given-names></name><xref rid="aff1-11772719251364018" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cosimato</surname><given-names initials="V">Vincenzo</given-names></name><xref rid="aff3-11772719251364018" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Castaldo</surname><given-names initials="G">Giuseppe</given-names></name><xref rid="aff4-11772719251364018" ref-type="aff">4</xref><xref rid="aff5-11772719251364018" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Morra</surname><given-names initials="VB">Vincenzo Brescia</given-names></name><xref rid="aff2-11772719251364018" ref-type="aff">2</xref><xref rid="aff6-11772719251364018" ref-type="aff">6</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Moccia</surname><given-names initials="M">Marcello</given-names></name><xref rid="aff4-11772719251364018" ref-type="aff">4</xref><xref rid="aff6-11772719251364018" ref-type="aff">6</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Terracciano</surname><given-names initials="D">Daniela</given-names></name><xref rid="aff1-11772719251364018" ref-type="aff">1</xref><xref rid="corresp1-11772719251364018" ref-type="corresp"/></contrib></contrib-group><aff id="aff1-11772719251364018"><label>1</label>Department of Translational Medical Sciences, Federico II University of Naples, Italy</aff><aff id="aff2-11772719251364018"><label>2</label>Department of Neuroscience, Reproductive Science and Odontostomatology, Federico II University of Naples, Italy</aff><aff id="aff3-11772719251364018"><label>3</label>Division of Laboratory Medicine - Civil Hospital “Maria SS. Addolorata”- Eboli, Salerno, Italy</aff><aff id="aff4-11772719251364018"><label>4</label>Department of Molecular Medicine and Medical Biotechnology, Federico II University of Naples, Italy</aff><aff id="aff5-11772719251364018"><label>5</label>Centre for Advanced Biotechnology (CEINGE), Naples, Italy</aff><aff id="aff6-11772719251364018"><label>6</label>Multiple Sclerosis Unit, Policlinico Federico II University Hospital, Naples, Italy</aff><author-notes><corresp id="corresp1-11772719251364018">Daniela Terracciano, Department of Translational Medical Sciences, Federico II University of Naples, Naples 80131, Italy. Email: <email>daniela.terracciano@unina.it</email></corresp></author-notes><pub-date pub-type="epub"><day>27</day><month>10</month><year>2025</year></pub-date><pub-date pub-type="collection"><year>2025</year></pub-date><volume>20</volume><issue-id pub-id-type="pmc-issue-id">479085</issue-id><elocation-id>11772719251364018</elocation-id><history><date date-type="received"><day>18</day><month>3</month><year>2025</year></date><date date-type="accepted"><day>14</day><month>7</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>27</day><month>10</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>01</day><month>11</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-01-18 15:25:12.793"><day>18</day><month>01</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2025</copyright-statement><copyright-year>2025</copyright-year><copyright-holder content-type="sage">SAGE Publications Ltd unless otherwise noted. Manuscript content on this site is licensed under Creative Commons Licenses</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This article is distributed under the terms of the Creative Commons Attribution-NonCommercial 4.0 License (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">https://creativecommons.org/licenses/by-nc/4.0/</ext-link>) which permits non-commercial use, reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE and Open Access pages (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://us.sagepub.com/en-us/nam/open-access-at-sage">https://us.sagepub.com/en-us/nam/open-access-at-sage</ext-link>).</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="10.1177_11772719251364018.pdf"/><abstract><p>Neurofilament Light Chain (NfL) has emerged as a promising biomarker for neurological diseases. NfL, a structural component of axons, is released into cerebrospinal fluid (CSF) and blood following neuro-axonal damage. Highly sensitive immunometric assays have enabled its reliable quantification in blood, facilitating non-invasive monitoring. Several studies demonstrated strong correlations between NfL levels and the risk of developing different neurological diseases and, in individuals already living with a neurological disease, with the risk of worsening. However, interpretation is affected by factors like age, BMI, renal function, and comorbidities. NfL is already utilized as a diagnostic and prognostic biomarker in clinical practice, particularly in specialized centers and research settings, although no FDA-cleared assay is currently available for routine use. Recent research has highlighted that NfL may represent the first of a new generation of neurological biomarkers, with many more ready to come, such as glial fibrillary acidic protein (GFAP), further improving diagnostic and prognostic accuracy. Despite its promising role in the landscape of biomarkers, challenges remain to implement NfL in daily clinical practice, including standardization of assays, defining reference values, and ensuring methodological consistency. Addressing these limitations will be essential for integrating NfL into routine clinical practice, ultimately advancing precision medicine in neurology.</p></abstract><abstract abstract-type="plain-language-summary"><title>Plain Language Summary</title><p>Neurofilament Light Chain (NfL) is a protein released into the blood and spinal fluid when nerve cells are damaged. Measuring NfL levels can provide valuable insights into brain health and help detect and monitor neurological diseases such as multiple sclerosis (MS), Alzheimer’s disease, and amyotrophic lateral sclerosis (ALS). Recent advances now allow NfL to be measured with a simple blood test instead of a lumbar puncture. While high NfL levels may reveal early nerve damage, factors like age or kidney function can affect results. Ongoing research aims to standardize testing and integrate NfL into routine care.</p></abstract><kwd-group><kwd>neurofilament light chain</kwd><kwd>neurological biomarkers</kwd><kwd>blood-based biomarkers</kwd><kwd>multiple sclerosis</kwd><kwd>neurodegeneration</kwd><kwd>clinical implementation</kwd><kwd>biomarker standardization</kwd><kwd>precision medicine</kwd><kwd>diagnostic biomarkers</kwd><kwd>translational neurology</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January-December 2025</meta-value></custom-meta><custom-meta><meta-name>typesetter</meta-name><meta-value>ts1</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="section1-11772719251364018"><title>Introduction</title><p>Biomarkers for neurological diseases represent a novel challenge for clinical laboratories. In the last few years Neurofilament Light Chain (NfL) has been proposed as a useful biomarker in many neurological disorders, holding potential in diagnosis, monitoring, and prognosis.<sup><xref rid="bibr1-11772719251364018" ref-type="bibr">1</xref>
+<xref rid="bibr2-11772719251364018" ref-type="bibr"/><xref rid="bibr3-11772719251364018" ref-type="bibr"/><xref rid="bibr4-11772719251364018" ref-type="bibr"/><xref rid="bibr5-11772719251364018" ref-type="bibr"/><xref rid="bibr6-11772719251364018" ref-type="bibr"/><xref rid="bibr7-11772719251364018" ref-type="bibr"/><xref rid="bibr8-11772719251364018" ref-type="bibr"/><xref rid="bibr9-11772719251364018" ref-type="bibr"/><xref rid="bibr10-11772719251364018" ref-type="bibr"/><xref rid="bibr11-11772719251364018" ref-type="bibr"/>-<xref rid="bibr12-11772719251364018" ref-type="bibr">12</xref></sup></p><p>NfL reflects neuronal damage and/or loss, one of the key mechanisms underlying permanent disability in both acute and chronic neurological disorders. When neuro-axonal damage (or loss) occurs, cytoskeletal proteins, including neurofilaments, are released into the extracellular space, then the cerebrospinal fluid (CSF), and, at lower concentrations, into the blood.<sup>
+<xref rid="bibr13-11772719251364018" ref-type="bibr">13</xref>
+</sup> As such, neurofilaments are considered one of the most important biomarkers to measure neurodegeneration and other pathology mechanisms leading to neuro-axonal loss in biological fluids, and significant efforts are being made to implement their use in clinical practice.<sup><xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+<xref rid="bibr15-11772719251364018" ref-type="bibr"/><xref rid="bibr16-11772719251364018" ref-type="bibr"/>-<xref rid="bibr17-11772719251364018" ref-type="bibr">17</xref></sup></p><p>The degradation of neurofilaments produces cleavage products, which can expose epitopes that are typically hidden in intact neurons. Highly sensitive immunometric assays can accurately measure circulating levels of neurofilament light chain fragments via these epitopes. For example, human monoclonal antibodies (developed against purified spinal cord proteins from mammals and used as key reagents in commercial tests) interact with epitopes accessible only in NfL cleavage products released due to neurodegeneration-induced protease activity. The disruption of the neuronal membrane due to neuro-axonal loss activates neurofilament proteolysis, exposing epitopes recognized by commercial test antibodies.<sup>
+<xref rid="bibr18-11772719251364018" ref-type="bibr">18</xref>
+</sup> NfL is already widely used in clinical and research settings as a diagnostic and prognostic biomarker across various neurological disorders, despite the absence of an FDA-cleared assay for routine clinical use.</p><p>However, implementing NfL into routine clinical practice faces several challenges, including standardization, pre-analytical variability, and reference value determination. This review integrates clinical and laboratory perspectives to address these challenges and facilitate the widespread adoption of NfL as a routine biomarker.</p></sec><sec sec-type="methods" id="section2-11772719251364018"><title>Methods</title><p>To support this narrative review, we conducted a structured literature search using PubMed and Scopus databases, covering publications from January 2010 to March 2025. Keywords included “neurofilament light chain,” “biomarkers,” “neurological diseases,” “plasma,” “serum,” “diagnostic,” and “prognostic.” We prioritized original studies, meta-analyses, and systematic reviews published in peer-reviewed journals in English. Inclusion criteria focused on studies evaluating the analytical performance, clinical utility, or implementation challenges of NfL in neurological diseases. Where applicable, we referred to international recommendations and guidelines for biomarker validation and implementation in clinical practice. The final selection was based on relevance, methodological quality, and impact on current understanding of NfL as a fluid biomarker.</p><sec id="section3-11772719251364018"><title>Neurofilament Isoforms and Their Role in Neurological Diseases</title><p>The neuronal and axonal cytoskeleton contains 5 neurofilament isoforms: NfL (neurofilament light chain), NfM (medium chain), NfH (heavy chain), α-internexin, and peripherin. Under pathological conditions, the stoichiometry of these isoforms changes, with an increase in NfL and a decrease in NfM and NfH, an adaptation that allows neurons to conserve energy during neuro-axonal loss.<sup>
+<xref rid="bibr19-11772719251364018" ref-type="bibr">19</xref>
+</sup> NfL is more abundant, and, thus, can provide high sensitivity as a biomarker at the individual level, maximizing the analytical sensitivity of measurement methods. The release of a stable cleavage product associated with pathological conditions makes NfL an excellent candidate biomarker for clinical use in neurological diseases.</p><p>The concept of NfL as a biomarker dates back to 1998 when it was first described in cerebrospinal fluid in a study including 60 patients with relapsing-remitting multiple sclerosis (MS). Authors demonstrated that in about 78% of the study population there was a significant correlation between elevated CSF levels of NfL and disability status.<sup>
+<xref rid="bibr20-11772719251364018" ref-type="bibr">20</xref>
+</sup></p><p>In 2016, Gisslén et al demonstrated that NfL concentrations in cerebrospinal fluid and plasma are strongly correlated.<sup>
+<xref rid="bibr21-11772719251364018" ref-type="bibr">21</xref>
+</sup> Although the study was initially focused on monitoring brain damage in HIV infection, it suggested the possibility of measuring NfL in plasma, avoiding the need for invasive lumbar punctures. This finding has subsequently been confirmed in studies on patients with neurodegenerative diseases showing strong correlations between CSF and blood NfL levels and supporting the utility of serum and plasma NfL as a surrogate for CNS pathology.<sup><xref rid="bibr2-11772719251364018" ref-type="bibr">2</xref>,<xref rid="bibr15-11772719251364018" ref-type="bibr">15</xref>,<xref rid="bibr22-11772719251364018" ref-type="bibr">22</xref>
+<xref rid="bibr23-11772719251364018" ref-type="bibr"/><xref rid="bibr24-11772719251364018" ref-type="bibr"/>-<xref rid="bibr25-11772719251364018" ref-type="bibr">25</xref></sup> In one of these studies, which included 180 patients with Alzheimer’s disease, the authors demonstrated that plasma NfL levels were significantly correlated with those in cerebrospinal fluid and were associated with the diagnosis as well as the cognitive, biochemical, and imaging characteristics of the disease, suggesting the potential clinical utility of plasma neurofilament.<sup>
+<xref rid="bibr15-11772719251364018" ref-type="bibr">15</xref>
+</sup> In a recently published analysis of CSF and plasma samples from 567 individuals showed that after symptom onset in Alzheimer disease, NfL levels in CSF continue to increase, whereas in plasma they stabilize. In this study, NfL changes were associated with gray matter atrophy but not with Aβ deposition, suggesting that CSF NfL may be better suited for monitoring symptomatic patients in clinical trials.<sup>
+<xref rid="bibr25-11772719251364018" ref-type="bibr">25</xref>
+</sup> This aspect is particularly important given that disease-modifying therapies for Alzheimer’s disease show the greatest efficacy when initiated during the presymptomatic phase. In this context, fluid biomarkers such as neurofilament light chain (NfL) are essential not only for detecting early neurodegenerative changes but also for monitoring treatment efficacy at the individual level, enabling more personalized and responsive therapeutic strategies. Studies have shown strong correlations between CSF and blood NfL levels, supporting its use as a minimally invasive biomarker for central nervous system pathology.</p></sec><sec id="section4-11772719251364018"><title>Technological Advances and Clinical Implementation</title><p>The breakthrough allowing large-scale blood NfL measurement came with the development of the Simoa technology by Blennow and Zetterberg, which adapted a single-molecule array to NfL detection.<sup>
+<xref rid="bibr26-11772719251364018" ref-type="bibr">26</xref>
+</sup> This technology enhances sensitivity by using miniaturized microwells and nanobeads that capture immunocomplexes, detecting positivity signals even when very few neurofilament molecules are present, thereby enabling measurement in blood.</p><p>The quantification of NfL in body fluids is currently possible through various types of immunometric assays based on different technologies (<xref rid="table1-11772719251364018" ref-type="table">Table 1</xref>).</p><table-wrap position="float" id="table1-11772719251364018" orientation="portrait"><label>Table 1.</label><caption><p>NfL Assays Characteristics.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="10.1177_11772719251364018-table1.jpg"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Manufacturer</th><th align="left" rowspan="1" colspan="1">Quanterix Corporation</th><th align="left" rowspan="1" colspan="1">Fujirebio Diagnostics</th><th align="left" rowspan="1" colspan="1">Roche Diagnostics</th><th align="left" rowspan="1" colspan="1">Siemens Healthcare Diagnostics</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Analyzer</td><td rowspan="1" colspan="1">Simoa<sup>®</sup> HD-X Analyzer™</td><td rowspan="1" colspan="1">Lumipulse<sup>®</sup> G1200</td><td rowspan="1" colspan="1">Cobas<sup>®</sup> 8000 e 801</td><td rowspan="1" colspan="1">Atellica<sup>®</sup> IM Analyzer</td></tr><tr><td rowspan="1" colspan="1">Assay type</td><td rowspan="1" colspan="1">Digital ELISA</td><td rowspan="1" colspan="1">CLIA</td><td rowspan="1" colspan="1">ECLIA</td><td rowspan="1" colspan="1">CLIA</td></tr><tr><td rowspan="1" colspan="1">Assay range pg/ml</td><td rowspan="1" colspan="1">0.5-500</td><td rowspan="1" colspan="1">5.5-5000</td><td rowspan="1" colspan="1">NA</td><td rowspan="1" colspan="1">1-646</td></tr><tr><td rowspan="1" colspan="1">LOD (limit of detection) pg/ml</td><td rowspan="1" colspan="1">0.085</td><td rowspan="1" colspan="1">3</td><td rowspan="1" colspan="1">0.140</td><td rowspan="1" colspan="1">1.3</td></tr><tr><td rowspan="1" colspan="1">Precision studies (%CV)</td><td rowspan="1" colspan="1">Internal Validation:<break/>Intra-assay: &lt;4.63%<break/>Inter-assay: &lt;8.46%</td><td rowspan="1" colspan="1">Internal Validation:<break/>Intra-assay: &lt;3.25%<break/>Inter-assay: &lt;5.50%</td><td rowspan="1" colspan="1">Intra-assay: &lt;5.2% CV<break/>Inter-assay: &lt;7.2%</td><td rowspan="1" colspan="1">Intra-assay: &lt;6.4%<break/>Inter-assay: &lt;12.4%</td></tr><tr><td rowspan="1" colspan="1">Analytical measuring range<sup>
+<xref rid="table-fn1-11772719251364018" ref-type="table-fn">a</xref>
+</sup></td><td rowspan="1" colspan="1">0.345-1140 pg/mL</td><td rowspan="1" colspan="1">2.0-5000 pg/mL</td><td rowspan="1" colspan="1">0.168-1000 pg/mL</td><td rowspan="1" colspan="1">2.5-3000 pg/mL</td></tr><tr><td rowspan="1" colspan="1">Antibody pair</td><td rowspan="1" colspan="1">Human clone 2.1 and 47.3 monoclonal antibodies</td><td rowspan="1" colspan="1">Mouse monoclonal antibodies</td><td rowspan="1" colspan="1">Information not available</td><td rowspan="1" colspan="1">Human clone 2.1 and 47.3 mouse monoclonal antibodies</td></tr><tr><td rowspan="1" colspan="1">Matrix</td><td rowspan="1" colspan="1">Serum, EDTA Plasma, CSF</td><td rowspan="1" colspan="1">Serum, K2EDTA Plasma, Li Hep Plasma, CSF</td><td rowspan="1" colspan="1">Serum, Plasma, CSF</td><td rowspan="1" colspan="1">Serum, EDTA Plasma</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="table-fn1-11772719251364018"><label>a</label><p>The analytical ranges are reported by the manufacturers.</p></fn></table-wrap-foot></table-wrap><p>The first ELISA for measuring NfL was developed in 1996 by Rosengren and collaborators. Since then, additional ELISAs and more sensitive assays, such as SIMOA (single-molecule array) and immunometric assays based on chemiluminescence and electrochemiluminescence, have been developed to detect the very low concentrations present in the blood. ELISA provided reliable measurements but had lower sensitivity compared to Simoa, which allowed detection of NfL at ultra-low concentrations, making it particularly useful for blood-based assessments.<sup>
+<xref rid="bibr27-11772719251364018" ref-type="bibr">27</xref>
+</sup> ECLIA (Electrochemiluminescence Immunoassay) and CLIA (Chemiluminescent Immunoassay) offered high sensitivity and specificity and has been increasingly used for both NfL CSF and blood measurement,<sup>
+<xref rid="bibr28-11772719251364018" ref-type="bibr">28</xref>
+</sup> greatly enhancing its clinical utility, since it allows non-invasive monitoring of neurodegeneration.<sup>
+<xref rid="bibr29-11772719251364018" ref-type="bibr">29</xref>
+</sup> More recently, advances in mass spectrometry-based techniques have provided a highly specific alternative for NfL quantification, particularly useful in research settings where precise molecular characterization is required.<sup>
+<xref rid="bibr30-11772719251364018" ref-type="bibr">30</xref>
+</sup></p><p>Unlike immunoassay-based methods, which rely on antibody specificity and are typically limited to single-analyte detection, mass spectrometry offers high analytical specificity, and the ability to simultaneously quantify multiple biomarkers within a single run. This multiplexing capability is particularly valuable in complex neurological conditions where a panel of biomarkers may provide more comprehensive diagnostic and prognostic information than a single marker alone. Additionally, mass spectrometry is less susceptible to cross-reactivity and matrix effects, making it a promising candidate for standardization and reference method development.</p><p>There are clear differences between the various currently available NfL assays, which may make some of them more suitable for specific clinical applications compared to others:</p><list list-type="simple" id="list1-11772719251364018"><list-item><p>1. Sensitivity and Detection Limit: The Quanterix Simoa<sup>®</sup> HD-X Analyzer™ has the lowest Limit of Detection (LOD) at 0.085 pg/mL, suggesting it is the most sensitive assay, making it particularly useful for detecting low NfL levels, which could be beneficial in screening or early disease detection. In contrast, the Fujirebio and Siemens assays have higher LODs (3 and 1.3 pg/mL, respectively), which may limit their ability to detect very low concentrations.</p></list-item><list-item><p>The Fujirebio assay is based on chemiluminescent enzyme immunoassay (CLEIA) technology and is run on the Lumipulse<sup>®</sup> G platform, while the Siemens assay utilizes CLIA technology on the Atellica<sup>®</sup> IM Analyzer system.</p></list-item><list-item><p>2. Measurement Range and Dynamic Performance: The Fujirebio assay has the broadest measurement range (2.0-5000 pg/mL), which could make it more suitable for monitoring changes over time, especially in disease progression studies where NfL levels may fluctuate significantly. The Quanterix assay, while highly sensitive, has a narrower range (0.345-1140 pg/mL), which may limit its ability to capture extreme values.</p></list-item><list-item><p>3. Precision and Variability: The assays differ in intra- and inter-assay variability, with Fujirebio showing the lowest intra-assay CV (&lt;3.25%) and inter-assay CV (&lt;5.50%), indicating higher reproducibility. On the other hand, Siemens shows the highest inter-assay variability (&lt;12.4%), which might introduce more measurement uncertainty over time.</p></list-item></list><p>The performance of immunometric assays is generally good<sup>
+<xref rid="bibr31-11772719251364018" ref-type="bibr">31</xref>
+</sup>; however, some important challenges remain, such as the standardization of methodologies and the establishment of reliable reference values for clinical practice.</p><p>As highlighted in a meta-analysis by Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> which includes 65 studies (23 on serum and 15 on plasma), a significant difference in absolute NfL values among the reviewed studies was observed, emphasizing the strong need for methodological harmonization.</p><p>Currently, there is no certified reference material for neurofilament light chain, which is partly due to its structural complexity and the presence of different types of modifications, isoforms, and fragments in biological fluids. This is a common issue for many proteins used as biomarkers for neurodegenerative diseases (with the exception of beta-amyloid42, for which certified reference material has been developed for 3 different matrices). In the case of neurofilament, different types of fragments have been identified in various biological matrices, depending on the presence of different proteases. Characterizing these forms (likely through mass spectrometry) will be essential to obtaining certified reference material and standardized methodologies.</p><p>Several collaborative efforts have been undertaken to standardize reference ranges for neurofilament light chain (NfL) and support its clinical integration. The Global NfL Consortium has provided age-stratified reference values by aggregating serum and plasma data from healthy individuals, demonstrating a strong correlation between NfL levels and age. Additionally, Arslan and Zetterberg<sup>
+<xref rid="bibr32-11772719251364018" ref-type="bibr">32</xref>
+</sup> have proposed standardized operating procedures (SOPs) for preanalytical handling, including sample type, collection, and storage, to reduce inter-laboratory variability. Disease-specific cohorts, such as those from the MSBase registry, have also contributed to the delineation of NfL distributions in pathological contexts. Finally, cross-platform comparison studies have attempted to align results obtained through different technologies (eg, Simoa, ECLIA, CLIA), although full harmonization across assays remains a challenge. These efforts represent crucial steps toward the establishment of robust and clinically meaningful reference standards. However, at present standardization challenges remain.<sup>
+<xref rid="bibr33-11772719251364018" ref-type="bibr">33</xref>
+</sup> To facilitate clinical interpretation and improve standardization, several studies have developed reference models for neurofilament light chain (NfL) levels based on large healthy populations.</p><p>Rosengren study published in <italic toggle="yes">Lancet Neurology</italic> by Benkert et al<sup>
+<xref rid="bibr34-11772719251364018" ref-type="bibr">34</xref>
+</sup> established an age- and BMI-adjusted serum NfL reference dataset based on a population study including 1313 European and North American subjects. This model defined <italic toggle="yes">Z</italic>-scores (interchangeable with percentiles) expressing how much an individual’s NfL measurement deviates from the normal population range.</p><p>A broader study on normal values published by Simrén et al reported age-specific cut-off values for individuals aged 5 to 90 years, obtained from a large cohort of healthy subjects using the Simoa method.<sup>
+<xref rid="bibr35-11772719251364018" ref-type="bibr">35</xref>
+</sup></p><p>Online tools (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mybiomarkers.shinyapps.io/Neurofilament" ext-link-type="uri">https://mybiomarkers.shinyapps.io/Neurofilament</ext-link>) are currently available to check whether a given NfL value falls within the normal range. By entering age, NfL value, matrix (CSF or blood), and any diagnosis, the system displays the patient’s condition as a percentile relative to the control population or the population affected by one of the specified diseases.<sup>
+<xref rid="bibr36-11772719251364018" ref-type="bibr">36</xref>
+</sup></p><p>These tools and models represent an important step toward integrating NfL measurement into routine clinical decision-making, enabling more personalized and context-aware interpretation of results.</p></sec><sec id="section5-11772719251364018"><title>Effects of Preanalytical Procedure</title><p>Key pre-analytical factors affecting NfL measurement include sample type (CSF, serum, plasma), storage conditions, and handling procedures.</p><p>For blood samples, it has been shown that the measured neurofilament level varies depending on the type of collection tube used. In a study including 30 samples and using Simoa platform, serum and lithium-heparin tubes showed the highest concentrations compared to EDTA plasma and citrate plasma,<sup>
+<xref rid="bibr37-11772719251364018" ref-type="bibr">37</xref>
+</sup> suggesting the need of matrix-specific reference values. The choice of tube type may also be related to the pathology under investigation; for instance, for amyotrophic lateral sclerosis (ALS) and MS, serum is commonly used, whereas for dementia, plasma has been used more frequently.</p><p>The apparent preference for serum in conditions such as ALS and for plasma in dementia-related studies does not reflect an inherent biological superiority of 1 matrix over the other but rather stems from pre-analytical considerations and the design of individual studies. Factors such as sample availability, processing protocols, storage conditions, and assay validation often drive the choice between serum and plasma. For example, many large-scale ALS cohorts have historically collected and validated NfL measurements in serum, whereas plasma has been more commonly used in Alzheimer’s disease research due to its early inclusion in biomarker discovery pipelines. Ultimately, both matrices can provide reliable NfL measurements when appropriate protocols are followed, and comparisons across studies should account for these methodological differences.</p><p>Serum and plasma NfL levels were significantly correlated. Rübsamen et al suggested that they can be used interchangeably in studies if values are standardized, and they also provide a conversion formula between serum and plasma.<sup>
+<xref rid="bibr38-11772719251364018" ref-type="bibr">38</xref>
+</sup> The correlation between serum and plasma has been confirmed by other authors using different methods.<sup><xref rid="bibr3-11772719251364018" ref-type="bibr">3</xref>,<xref rid="bibr39-11772719251364018" ref-type="bibr">39</xref></sup> Several studies also demonstrated that the biomarker remains stable after 3 to 4 freeze-thaw cycles and when stored at 2°C to 8°C for up to 8 days.<sup>
+<xref rid="bibr4-11772719251364018" ref-type="bibr">4</xref>
+</sup> Additionally, NfL showed a long half-life of approximately 3 weeks, which is longer than that of other proteins used as biomarkers for neurodegenerative diseases, such as GFAP.<sup><xref rid="bibr40-11772719251364018" ref-type="bibr">40</xref>
+<xref rid="bibr41-11772719251364018" ref-type="bibr"/>-<xref rid="bibr42-11772719251364018" ref-type="bibr">42</xref></sup> This observation suggests that NfL as non-invasive biomarker might be less suitable for monitoring acute damage, but more useful for chronic mechanisms.</p><p>Finally, factors such as hemolysis, lipemia, and icterus can interfere with assay performance, highlighting the need for rigorous standardization. Arslan and Zetterberg<sup>
+<xref rid="bibr32-11772719251364018" ref-type="bibr">32</xref>
+</sup> proposed a standard operating procedure (SOP) for the pre-analytical handling of samples in NfL quantification. The following are the main recommendations from for each phase:</p><list list-type="simple" id="list2-11772719251364018"><list-item><p>• Pre-analytical phase:</p></list-item><list-item><p>Use serum or EDTA plasma and avoid centrifugation delays beyond 6 hours. NfL is stable through freeze-thaw cycles and at room temperature, but potential interferences such as hemolysis or lipemia should be controlled. Morning fasting samples are recommended to minimize diurnal variation.</p></list-item><list-item><p>• Analytical phase:</p></list-item><list-item><p>Prefer high-sensitivity platforms and ensure awareness of the calibrator source (bovine vs recombinant human), applying correction factors when needed. Mass spectrometry is highlighted as a promising future reference method.</p></list-item><list-item><p>• Post-analytical phase:</p></list-item><list-item><p>Results should be interpreted using age- and BMI-adjusted <italic toggle="yes">Z</italic>-scores or percentiles. Implement internal quality controls, including duplicate measurements and validated control materials. A normal NfL level does not exclude disease, and elevated values require careful clinical interpretation.</p></list-item></list></sec><sec id="section6-11772719251364018"><title>Confounding Factors in NfL Interpretation</title><p>Several factors influence blood NfL levels, including age,<sup>
+<xref rid="bibr43-11772719251364018" ref-type="bibr">43</xref>
+</sup> BMI,<sup>
+<xref rid="bibr44-11772719251364018" ref-type="bibr">44</xref>
+</sup> renal function,<sup>
+<xref rid="bibr45-11772719251364018" ref-type="bibr">45</xref>
+</sup> and comorbidities such as cardiovascular diseases and risk factors,<sup><xref rid="bibr46-11772719251364018" ref-type="bibr">46</xref>,<xref rid="bibr47-11772719251364018" ref-type="bibr">47</xref></sup> and diabetes.<sup>
+<xref rid="bibr48-11772719251364018" ref-type="bibr">48</xref>
+</sup> Aging leads to physiological neuro-axonal loss and increased blood-brain barrier permeability, resulting in higher NfL levels.<sup>
+<xref rid="bibr43-11772719251364018" ref-type="bibr">43</xref>
+</sup> Additionally, renal impairment reduces NfL clearance, further complicating interpretation.<sup>
+<xref rid="bibr4-11772719251364018" ref-type="bibr">4</xref>
+</sup></p><p>These comorbidities may influence blood NfL levels through mechanisms involving systemic inflammation, vascular dysfunction, or impaired clearance of neurofilament proteins.<sup>
+<xref rid="bibr4-11772719251364018" ref-type="bibr">4</xref>
+</sup></p><p>Body mass index (BMI) has emerged as a particularly relevant confounding factor in the interpretation of neurofilament light chain (NfL) levels, with several studies suggesting a specific and consistent inverse correlation. Higher BMI is associated with lower circulating NfL concentrations, a phenomenon not commonly observed with other neurological biomarkers. This relationship has been observed in both healthy individuals and patient populations, suggesting a biological rather than disease-specific effect.<sup>
+<xref rid="bibr44-11772719251364018" ref-type="bibr">44</xref>
+</sup> Several mechanisms have been proposed to explain this association. One hypothesis is the “volume dilution effect,” whereby increased blood volume in individuals with higher BMI leads to a lower concentration of circulating biomarkers. Additionally, metabolic factors associated with obesity—such as altered protein turnover, systemic inflammation, and insulin resistance—may also influence NfL metabolism or clearance. Importantly, failing to account for BMI may lead to misinterpretation of NfL results, particularly underestimating disease severity in individuals with elevated BMI. To address this, Benkert et al<sup>
+<xref rid="bibr34-11772719251364018" ref-type="bibr">34</xref>
+</sup> proposed an age- and BMI-adjusted <italic toggle="yes">Z</italic>-score model to standardize NfL interpretation. Such models represent a promising approach for incorporating individual patient characteristics into biomarker analysis, ultimately improving diagnostic and prognostic accuracy in routine clinical practice.</p><p>Thus, cardiovascular disease, diabetes, chronic kidney disease, and systemic inflammation can result in elevated NfL levels, potentially leading to false-positive interpretations if not properly accounted for.</p><p>The effects of lifestyle on circulating NfL levels are still poorly explored. Raised NfL can occur in alcohol abuse.<sup>
+<xref rid="bibr49-11772719251364018" ref-type="bibr">49</xref>
+</sup> A review including 18 studies and 8 different contact sports, showed a significant increase in competitive athletes practicing contact sports such as boxing or American football.<sup>
+<xref rid="bibr50-11772719251364018" ref-type="bibr">50</xref>
+</sup></p><p>These elevations are due to true neuronal damage and can mimic disease-related neurodegeneration and complicate diagnostic accuracy if comorbid exposures are not considered. Conversely, in some clinical contexts, the presence of comorbidities may lead to underestimation of NfL levels if dilutional effects (eg, in obesity or pregnancy) alter biomarker distribution or metabolism.</p><p>Sex and ethnicity have been investigated as potential biological variables influencing circulating NfL levels. While several studies report no significant sex differences in healthy individuals,<sup>
+<xref rid="bibr51-11772719251364018" ref-type="bibr">51</xref>
+</sup> others suggest that sex may influence NfL concentrations in disease-specific contexts. For instance, a study on amyotrophic lateral sclerosis (ALS) reported higher NfL levels in women, potentially reflecting greater disease severity or differing neurodegenerative trajectories.<sup>
+<xref rid="bibr52-11772719251364018" ref-type="bibr">52</xref>
+</sup> In contrast, Bridel et al<sup>
+<xref rid="bibr29-11772719251364018" ref-type="bibr">29</xref>
+</sup> conducted a large systematic review and meta-analysis of CSF NfL levels and found that men had slightly higher levels, potentially due to larger brain volume and greater axonal mass, which may contribute to increased baseline NfL release during neurodegeneration. These findings suggest that sex-related biological differences may affect NfL values, particularly in pathological states.</p><p>Regarding ethnicity, current data remain limited due to small cohort sizes and underrepresentation of diverse populations. However, some studies have observed variability in baseline NfL levels across ethnic groups, which may relate to differences in genetic background, environmental exposures, or comorbidities. For example, Harp et al<sup>
+<xref rid="bibr51-11772719251364018" ref-type="bibr">51</xref>
+</sup> developed an age-adjusted model for blood NfL that included exploratory analysis of racial subgroups and highlighted the need for larger, multi-ethnic population studies to define normative values and improve clinical interpretation across diverse populations.</p><p>Further research is warranted to confirm and characterize these differences, particularly in light of the growing emphasis on personalized medicine. Incorporating sex and ethnicity into reference models may enhance the diagnostic and prognostic utility of NfL, especially in diverse clinical settings.</p><p>During pregnancy, serum NfL levels increase in healthy women (despite an expected decrease due to hemodilution), likely related to fetal brain development.<sup>
+<xref rid="bibr4-11772719251364018" ref-type="bibr">4</xref>
+</sup> In pregnant women with MS, circulating NfL levels appear to reflect the risk of relapse.<sup>
+<xref rid="bibr53-11772719251364018" ref-type="bibr">53</xref>
+</sup></p><p>Systematically addressing the impact of comorbidities is vital to ensuring the reliability of NfL as a clinical biomarker and facilitating its adoption in real-world settings, particularly when used for early diagnosis or treatment monitoring in heterogeneous patient populations.</p></sec><sec id="section7-11772719251364018"><title>NfL in Polyneuropathies</title><p>NfL has emerged as a valuable biomarker not only in central nervous system disorders but also in peripheral nervous system (PNS) diseases. In chronic inflammatory demyelinating polyneuropathy (CIDP), elevated serum NfL levels have been associated with active disease states and axonal damage. Studies have demonstrated that patients with CIDP exhibit higher serum NfL concentrations compared to healthy controls, and these levels decrease following effective immunomodulatory treatments, correlating with clinical improvement.<sup>
+<xref rid="bibr54-11772719251364018" ref-type="bibr">54</xref>
+</sup> Similarly, in critical illness polyneuropathy (CIP) and myopathy (CIM), conditions commonly seen in intensive care units, increased plasma NfL levels have been observed.<sup>
+<xref rid="bibr55-11772719251364018" ref-type="bibr">55</xref>
+</sup> Research indicates that patients developing CIP/CIM, particularly in the context of severe COVID-19, show significantly higher NfL concentrations early during ICU admission, suggesting its potential as an early biomarker for ICU-acquired weakness.<sup>
+<xref rid="bibr56-11772719251364018" ref-type="bibr">56</xref>
+</sup> These findings underscore the broader applicability of NfL as a marker of neuronal injury, reinforcing its value in both central and peripheral neurodiagnostics. Incorporating NfL assessment into the diagnostic workup of PNS disorders could facilitate earlier detection, disease monitoring, and evaluation of therapeutic responses.</p></sec><sec id="section8-11772719251364018"><title>Clinical Utility and Future Perspectives</title><p>The increasing relevance of neurofilament as a circulating biomarker in clinical applications became evident in 2023 when the FDA approved Tofersen for the treatment of SOD-1 mutation-associated ALS based on longitudinal reductions in circulating NfL levels.<sup>
+<xref rid="bibr57-11772719251364018" ref-type="bibr">57</xref>
+</sup></p><p>This represented a paradigm shift in how biomarkers are integrated into the regulatory approval process for new drugs. Neurofilament light chain (NfL) enables the design of shorter clinical trials with smaller patient cohorts, as its levels can reveal drug effects earlier than clinical or radiological signs, with greater sensitivity compared to conventional outcome measures. As such, NfL holds significant promise as a biomarker to expedite the development and regulatory approval of novel therapies aimed at altering the course of neurological diseases.</p><p>There is growing evidence that circulating NfL levels were associated with disease severity and progression in many neurological conditions, including Alzheimer disease, amyotrophic lateral sclerosis, MS, and Huntington disease.<sup><xref rid="bibr4-11772719251364018" ref-type="bibr">4</xref>,<xref rid="bibr16-11772719251364018" ref-type="bibr">16</xref>,<xref rid="bibr25-11772719251364018" ref-type="bibr">25</xref>,<xref rid="bibr58-11772719251364018" ref-type="bibr">58</xref></sup> In MS, high NfL levels are strongly associated with clinical and radiological disease activity and may serve as a predictive marker for disease progression, including the transition to progressive stages of the disease.<sup>
+<xref rid="bibr3-11772719251364018" ref-type="bibr">3</xref>
+</sup> Moreover, high NfL levels are linked to MRI structural changes, highlighting its potential as a biomarker for monitoring overall neuro-axonal loss.<sup>
+<xref rid="bibr28-11772719251364018" ref-type="bibr">28</xref>
+</sup></p><p>Despite the growing clinical interest in neurofilament light chain (NfL) as a biomarker, several limitations hinder its widespread implementation in routine practice. NfL is valuable across a wide range of neurological diseases due to its sensitivity to neuroaxonal damage; however, its lack of disease specificity also represents a notable limitation. Then, one of the primary barriers is the requirement for ultra-sensitive detection platforms, which are not yet available in most clinical laboratories. These technologies demand specialized equipment and technical expertise, restricting their use to well-equipped research centers or selected reference laboratories. Additionally, the cost of NfL assays remains relatively high, posing a significant challenge for integration into standard diagnostic workflows, especially in resource-limited settings. These logistical and economic constraints must be addressed to enable broader clinical adoption and equitable access to NfL-based testing.</p><p>NfL is currently used in combination with other biomarkers, including MRI-based methodologies, to enhance diagnostic, and prognostic accuracy across neurological diseases.<sup>
+<xref rid="bibr59-11772719251364018" ref-type="bibr">59</xref>
+</sup></p><p>For instance, in a 2023 study by Hegen et al,<sup>
+<xref rid="bibr60-11772719251364018" ref-type="bibr">60</xref>
+</sup> the added value of combining free light chains (κ-FLC) in predicting disease activity was investigated in a cohort of 86 MS patients. Patients with high NfL <italic toggle="yes">z</italic>-scores and κ-index had a 98% higher risk of relapse within 12 months, whereas patients with only 1 of the 2 elevated variables had a 20% to 30% increased risk, suggesting that combining these 2 biomarkers improves the identification of patients at risk of early relapse. This is not surprising considering that κ-FLC index and NfL reflect different pathophysiological processes (κ-FLC reflects intrathecal B-cell activity, while NfL reflects neuro-axonal damage), and their combination could facilitate prognostic assessment and a personalized medicine approach for MS patients.</p><p>Another encouraging piece of evidence supporting biomarker combination comes from a 2023 study published in JAMA Neurology<sup>
+<xref rid="bibr61-11772719251364018" ref-type="bibr">61</xref>
+</sup>: The combination of high levels of GFAP (a protein released by astrocytes) and neurofilament was associated with a fourfold increased risk of disease progression in MS. Kaplan-Meier curves indicate that 4 years after treatment initiation, 38% of patients with high GFAP and NfL levels showed disease worsening. Again, this is not surprising considering that GFAP and sNfL reflect different pathophysiological aspects (GFAP reflects astrocytes activity<sup>
+<xref rid="bibr62-11772719251364018" ref-type="bibr">62</xref>
+</sup>).</p><p>In addition, ubiquitin carboxy-terminal hydrolase L1 (UCH-L1), a neuronal enzyme, is valuable in assessing neuronal injury severity,<sup>
+<xref rid="bibr63-11772719251364018" ref-type="bibr">63</xref>
+</sup> and tau proteins, especially phosphorylated tau (p-tau), are critical in Alzheimer’s disease (AD) diagnostics.<sup>
+<xref rid="bibr64-11772719251364018" ref-type="bibr">64</xref>
+</sup> Integrating NfL with these complementary biomarkers can provide a more comprehensive understanding of the underlying pathology, thereby improving diagnostic accuracy and informing targeted therapeutic strategies.</p><p><xref rid="table2-11772719251364018" ref-type="table">Table 2</xref> summarizes the role of NfL as a biomarker across various neurological diseases, highlighting its potential in diagnosis, prognosis, and disease monitoring.</p><table-wrap position="float" id="table2-11772719251364018" orientation="portrait"><label>Table 2.</label><caption><p>Blood NfL in Neurological Diseases.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="10.1177_11772719251364018-table2.jpg"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Disease</th><th align="left" rowspan="1" colspan="1">Role as biomarker</th><th align="left" rowspan="1" colspan="1">Evidence summary</th><th align="left" rowspan="1" colspan="1">Key references</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Multiple sclerosis</td><td rowspan="1" colspan="1">Susceptibility risk</td><td rowspan="1" colspan="1">Increased levels before symptom onset</td><td rowspan="1" colspan="1">Disanto et al,<sup>
+<xref rid="bibr28-11772719251364018" ref-type="bibr">28</xref>
+</sup> Benkert et al<sup>
+<xref rid="bibr34-11772719251364018" ref-type="bibr">34</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Disease monitoring</td><td rowspan="1" colspan="1">Correlates with clinical and MRI measures of disease activity</td><td rowspan="1" colspan="1">Barro et al,<sup>
+<xref rid="bibr4-11772719251364018" ref-type="bibr">4</xref>
+</sup> Delcoigne et al,<sup>
+<xref rid="bibr5-11772719251364018" ref-type="bibr">5</xref>
+</sup> Jakimovski et al,<sup>
+<xref rid="bibr6-11772719251364018" ref-type="bibr">6</xref>
+</sup> Kuhle et al,<sup>
+<xref rid="bibr7-11772719251364018" ref-type="bibr">7</xref>
+</sup> Manouchehrinia et al,<sup>
+<xref rid="bibr8-11772719251364018" ref-type="bibr">8</xref>
+</sup> Srpova et al,<sup>
+<xref rid="bibr10-11772719251364018" ref-type="bibr">10</xref>
+</sup> Tavazzi et al,<sup>
+<xref rid="bibr11-11772719251364018" ref-type="bibr">11</xref>
+</sup> Uher et al,<sup>
+<xref rid="bibr12-11772719251364018" ref-type="bibr">12</xref>
+</sup> Khalil et al,<sup>
+<xref rid="bibr13-11772719251364018" ref-type="bibr">13</xref>
+</sup> Benkert et al,<sup>
+<xref rid="bibr34-11772719251364018" ref-type="bibr">34</xref>
+</sup> Meier et al<sup>
+<xref rid="bibr61-11772719251364018" ref-type="bibr">61</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Treatment response</td><td rowspan="1" colspan="1">Decreases with effective treatment</td><td rowspan="1" colspan="1">Delcoigne et al,<sup>
+<xref rid="bibr5-11772719251364018" ref-type="bibr">5</xref>
+</sup> Kuhle et al,<sup>
+<xref rid="bibr7-11772719251364018" ref-type="bibr">7</xref>
+</sup> Manouchehrinia et al,<sup>
+<xref rid="bibr8-11772719251364018" ref-type="bibr">8</xref>
+</sup> Khalil et al,<sup>
+<xref rid="bibr13-11772719251364018" ref-type="bibr">13</xref>
+</sup> Benkert et al<sup>
+<xref rid="bibr34-11772719251364018" ref-type="bibr">34</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Prognostic</td><td rowspan="1" colspan="1">Predicts conversion to progressive MS, relapse rate, and brain atrophy</td><td rowspan="1" colspan="1">Jakimovski et al,<sup>
+<xref rid="bibr6-11772719251364018" ref-type="bibr">6</xref>
+</sup> Kuhle et al,<sup>
+<xref rid="bibr7-11772719251364018" ref-type="bibr">7</xref>
+</sup> Manouchehrinia et al,<sup>
+<xref rid="bibr8-11772719251364018" ref-type="bibr">8</xref>
+</sup> Srpova et al,<sup>
+<xref rid="bibr10-11772719251364018" ref-type="bibr">10</xref>
+</sup> Uher et al,<sup>
+<xref rid="bibr12-11772719251364018" ref-type="bibr">12</xref>
+</sup> Khalil et al,<sup>
+<xref rid="bibr13-11772719251364018" ref-type="bibr">13</xref>
+</sup> Benkert et al,<sup>
+<xref rid="bibr34-11772719251364018" ref-type="bibr">34</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1">Amyotrophic lateral sclerosis</td><td rowspan="1" colspan="1">Susceptibility risk</td><td rowspan="1" colspan="1">Elevated months before symptom onset</td><td rowspan="1" colspan="1">Rosén et al<sup>
+<xref rid="bibr16-11772719251364018" ref-type="bibr">16</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Diagnostic</td><td rowspan="1" colspan="1">Higher levels in ALS compared to ALS mimics</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Rosén et al<sup>
+<xref rid="bibr16-11772719251364018" ref-type="bibr">16</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Disease monitoring</td><td rowspan="1" colspan="1">Levels remain stable over disease progression</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Rosén et al<sup>
+<xref rid="bibr16-11772719251364018" ref-type="bibr">16</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Prognostic</td><td rowspan="1" colspan="1">Higher levels associated with shorter survival</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Rosén et al<sup>
+<xref rid="bibr16-11772719251364018" ref-type="bibr">16</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1">Traumatic brain injury</td><td rowspan="1" colspan="1">Disease monitoring</td><td rowspan="1" colspan="1">Associated with neuronal damage severity</td><td rowspan="1" colspan="1">Thelin et al<sup>
+<xref rid="bibr17-11772719251364018" ref-type="bibr">17</xref>
+</sup> Verduyn et al<sup>
+<xref rid="bibr50-11772719251364018" ref-type="bibr">50</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Prognostic</td><td rowspan="1" colspan="1">Predicts future disability</td><td rowspan="1" colspan="1">Thelin et al<sup>
+<xref rid="bibr17-11772719251364018" ref-type="bibr">17</xref>
+</sup> Verduyn et al<sup>
+<xref rid="bibr50-11772719251364018" ref-type="bibr">50</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1">Frontotemporal dementia</td><td rowspan="1" colspan="1">Susceptibility risk</td><td rowspan="1" colspan="1">Increased in presymptomatic stages</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Rajbanshi et al<sup>
+<xref rid="bibr22-11772719251364018" ref-type="bibr">22</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Diagnostic</td><td rowspan="1" colspan="1">Helps differentiate FTD from psychiatric disorders</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Rajbanshi et al,<sup>
+<xref rid="bibr22-11772719251364018" ref-type="bibr">22</xref>
+</sup> Benussi et al<sup>
+<xref rid="bibr24-11772719251364018" ref-type="bibr">24</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Prognostic</td><td rowspan="1" colspan="1">Associated with worse disease course</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Rajbanshi et al<sup>
+<xref rid="bibr22-11772719251364018" ref-type="bibr">22</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1">Alzheimer’s disease</td><td rowspan="1" colspan="1">Susceptibility risk</td><td rowspan="1" colspan="1">Increased in presymptomatic stages; associated with Aβ and tau pathology</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Mattsson et al,<sup>
+<xref rid="bibr15-11772719251364018" ref-type="bibr">15</xref>
+</sup> Hofmann et al<sup>
+<xref rid="bibr25-11772719251364018" ref-type="bibr">25</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Diagnostic</td><td rowspan="1" colspan="1">Correlates with cognitive decline and brain atrophy</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Mattsson et al,<sup>
+<xref rid="bibr15-11772719251364018" ref-type="bibr">15</xref>
+</sup> Hofmann et al<sup>
+<xref rid="bibr25-11772719251364018" ref-type="bibr">25</xref>
+</sup></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Prognostic</td><td rowspan="1" colspan="1">Predicts progression from MCI to AD</td><td rowspan="1" colspan="1">Forgrave et al,<sup>
+<xref rid="bibr14-11772719251364018" ref-type="bibr">14</xref>
+</sup> Mattsson et al,<sup>
+<xref rid="bibr15-11772719251364018" ref-type="bibr">15</xref>
+</sup> Hofmann et al<sup>
+<xref rid="bibr25-11772719251364018" ref-type="bibr">25</xref>
+</sup></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="table-fn2-11772719251364018"><p>Abbreviations: ALS, amyotrophic lateral sclerosis; FTD, frontotemporal dementia; MRI, magnetic resonance imaging; MS, multiple sclerosis.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec sec-type="conclusions" id="section9-11772719251364018"><title>Conclusion</title><p>The clinical application of NfL as a non-invasive biomarker in neurological diseases is becoming increasingly feasible. As methods continue to improve, blood-based NfL measurement is expected to become a standard tool for early diagnosis, prognosis, and treatment monitoring in various neurological disorders.</p><p>Standardizing methodologies and defining normalized reference values could drive progress in this field, along with defining age-adjusted (and possibly disease-specific) cut-off values. Addressing these issues will be crucial to incorporate NfL into routine clinical practice as a key tool for personalized medicine in neurodegenerative diseases (<xref rid="fig1-11772719251364018" ref-type="fig">Figure 1</xref>). This is a direction that has already begun today but still requires refinement to reach its full potential. Economic and logistical barriers remain key challenges to the clinical implementation of NfL assays. These include the high cost of ultra-sensitive platforms, limited access to standardized kits, and the need for specialized equipment and training. Overcoming these challenges will be essential to ensure broader adoption in routine healthcare settings. With further standardization and broader accessibility, NfL has the potential to become a cornerstone biomarker in personalized neurology.</p><fig position="float" id="fig1-11772719251364018" orientation="portrait"><label>Figure 1.</label><caption><p>Laboratory challenges in NfL clinical implementation. Standardization of techniques, along with the establishment of age-adjusted and disease-specific cut-off values, will be essential for incorporating NfL into routine clinical practice as a fundamental tool in personalized neurology. Parts of the figure were drawn using pictures from Server Medical Art. Servier Medical Art by Servier is licensed under a Creative Commons Attribution 3.0 Unported License.</p></caption><alt-text>Laboratory challenges in NfL clinical implementation. Standardization of techniques, along with the establishment of age-adjusted and disease-specific cut-off values, will be essential for incorporating NfL into routine clinical practice as a fundamental tool in personalized neurology. Parts of the figure were drawn using pictures from Server Medical Art. Servier Medical Art by Servier is licensed under a Creative Commons Attribution 3.0 Unported License.</alt-text><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="10.1177_11772719251364018-fig1.jpg"/></fig></sec></body><back><ack><p>The authors express their gratitude to the Clinical pathology laboratory staff and the Neurology Unit personnel at Federico II University for their valuable material support and insightful discussions that contributed to this work.</p></ack><fn-group><fn fn-type="con"><p><bold>Author Contributions:</bold> D. Terracciano: conceptualization, methodology, data curation, investigation, supervision, project administration, funding acquisition, writing—original draft, formal analysis, writing—review and editing, validation. E. La Civita: methodology, writing—review and editing, formal analysis, data curation, writing—original draft. M. Fiorenza: methodology, data curation. V. Cosimato: methodology, data curation. V. Nicolella: methodology, data curation. M. Moccia: formal analysis, project administration, writing—review and editing, supervision. G. Castaldo: supervision, resources. V. Brescia Morra: supervision, funding acquisition, project administration.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding:</bold> The author(s) received no financial support for the research, authorship, and/or publication of this article.</p></fn><fn fn-type="COI-statement"><p>The author(s) declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.</p></fn><fn fn-type="other"><p><bold>Data Availability Statement:</bold> Data sharing is not applicable to this article as no new data were created or analyzed in this study.</p></fn></fn-group><ref-list><title>References</title><ref id="bibr1-11772719251364018"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Khalil</surname><given-names>M.</given-names></name>
+</person-group>
+<article-title>Are neurofilaments valuable biomarkers for long-term disease prognostication in ms?</article-title>
+<source>Mult Scler</source>. <year>2018</year>;<volume>24</volume>:<fpage>1270</fpage>-<lpage>1271</lpage>.<pub-id pub-id-type="pmid">30066596</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1352458518791518</pub-id></mixed-citation></ref><ref id="bibr2-11772719251364018"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Khalil</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Teunissen</surname><given-names>CE</given-names></name>
+<name name-style="western"><surname>Otto</surname><given-names>M</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Neurofilaments as biomarkers in neurological disorders</article-title>. <source>Nat Rev Neurol</source>. <year>2018</year>;<volume>14</volume>:<fpage>577</fpage>-<lpage>589</lpage>.<pub-id pub-id-type="pmid">30171200</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41582-018-0058-z</pub-id></mixed-citation></ref><ref id="bibr3-11772719251364018"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Nicolella</surname><given-names>V</given-names></name>
+<name name-style="western"><surname>Fiorenza</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Monteiro</surname><given-names>I</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Clinical utility of the lumipulse™ immunoassay for plasma neurofilament light chain in multiple sclerosis</article-title>. <source>J Neurol Sci</source>. <year>2024</year>;<volume>463</volume>:<fpage>123115</fpage>.<pub-id pub-id-type="pmid">38964268</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jns.2024.123115</pub-id></mixed-citation></ref><ref id="bibr4-11772719251364018"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Barro</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Chitnis</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Weiner</surname><given-names>HL.</given-names></name>
+</person-group>
+<article-title>Blood neurofilament light: a critical review of its application to neurologic disease</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2020</year>;<volume>7</volume>:<fpage>2508</fpage>-<lpage>2523</lpage>.<pub-id pub-id-type="pmid">33146954</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.51234</pub-id><pub-id pub-id-type="pmcid">PMC7732243</pub-id></mixed-citation></ref><ref id="bibr5-11772719251364018"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Delcoigne</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Manouchehrinia</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Barro</surname><given-names>C</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Blood neurofilament light levels segregate treatment effects in multiple sclerosis</article-title>. <source>Neurol</source>. <year>2020</year>;<volume>94</volume>:e1201-e1212.</mixed-citation></ref><ref id="bibr6-11772719251364018"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Jakimovski</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Zivadinov</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Ramanthan</surname><given-names>M</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light chain level associations with clinical and cognitive performance in multiple sclerosis: A longitudinal retrospective 5-year study</article-title>. <source>Mult Scler</source>. <year>2020</year>;<volume>26</volume>:<fpage>1670</fpage>-<lpage>1681</lpage>.<pub-id pub-id-type="pmid">31610732</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1352458519881428</pub-id></mixed-citation></ref><ref id="bibr7-11772719251364018"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Kuhle</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Plavina</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Barro</surname><given-names>C</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Neurofilament light levels are associated with long-term outcomes in multiple sclerosis</article-title>. <source>Mult Scler</source>. <year>2020</year>;<volume>26</volume>:<fpage>1691</fpage>-<lpage>1699</lpage>.<pub-id pub-id-type="pmid">31680621</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1352458519885613</pub-id><pub-id pub-id-type="pmcid">PMC7604552</pub-id></mixed-citation></ref><ref id="bibr8-11772719251364018"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Manouchehrinia</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Stridh</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Khademi</surname><given-names>M</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Plasma neurofilament light levels are associated with risk of disability in multiple sclerosis</article-title>. <source>Neurol</source>. <year>2020</year>;<volume>94</volume>:e2457-e2467.</mixed-citation></ref><ref id="bibr9-11772719251364018"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Reinert</surname><given-names>MC</given-names></name>
+<name name-style="western"><surname>Benkert</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Wuerfel</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light chain is a useful biomarker in pediatric multiple sclerosis</article-title>. <source>Neurol Neuroimmunol Neuroinflamm</source>. <year>2020</year>;<volume>7</volume>(4):e749. doi:<pub-id pub-id-type="doi">10.1212/NXI.0000000000000749</pub-id></mixed-citation></ref><ref id="bibr10-11772719251364018"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Srpova</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Uher</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Hrnciarova</surname><given-names>T</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light chain reflects inflammation-driven neurodegeneration and predicts delayed brain volume loss in early stage of multiple sclerosis</article-title>. <source>Mult Scler</source>. <year>2021</year>;<volume>27</volume>:<fpage>52</fpage>-<lpage>60</lpage>.<pub-id pub-id-type="pmid">31961243</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1352458519901272</pub-id></mixed-citation></ref><ref id="bibr11-11772719251364018"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Tavazzi</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Jakimovski</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Kuhle</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light chain and optical coherence tomography measures in MS: A longitudinal study</article-title>. <source>Neurol Neuroimmunol Neuroinflamm</source>. <year>2020</year>;<volume>7</volume>:e737.</mixed-citation></ref><ref id="bibr12-11772719251364018"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Uher</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>McComb</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Galkin</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Neurofilament levels are associated with blood-brain barrier integrity, lymphocyte extravasation, and risk factors following the first demyelinating event in multiple sclerosis</article-title>. <source>Mult Scler</source>. <year>2021</year>;<volume>27</volume>:<fpage>220</fpage>-<lpage>231</lpage>.<pub-id pub-id-type="pmid">32255388</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1352458520912379</pub-id></mixed-citation></ref><ref id="bibr13-11772719251364018"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Khalil</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Teunissen</surname><given-names>CE</given-names></name>
+<name name-style="western"><surname>Lehmann</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Neurofilaments as biomarkers in neurological disorders - towards clinical application</article-title>. <source>Nat Rev Neurol</source>. <year>2024</year>;<volume>20</volume>:<fpage>269</fpage>-<lpage>287</lpage>.<pub-id pub-id-type="pmid">38609644</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41582-024-00955-x</pub-id></mixed-citation></ref><ref id="bibr14-11772719251364018"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Forgrave</surname><given-names>LM</given-names></name>
+<name name-style="western"><surname>Ma</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Best</surname><given-names>JR</given-names></name>
+<name name-style="western"><surname>DeMarco</surname><given-names>ML.</given-names></name>
+</person-group>
+<article-title>The diagnostic performance of neurofilament light chain in CSF and blood for Alzheimer’s disease, frontotemporal dementia, and amyotrophic lateral sclerosis: a systematic review and meta-analysis</article-title>. <source>Alzheimer Dement</source>. <year>2019</year>;<volume>11</volume>:<fpage>730</fpage>-<lpage>743</lpage>.</mixed-citation></ref><ref id="bibr15-11772719251364018"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Mattsson</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Andreasson</surname><given-names>U</given-names></name>
+<name name-style="western"><surname>Zetterberg</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Blennow</surname><given-names>K.</given-names></name>
+</person-group>
+<article-title>Association of plasma neurofilament light with neurodegeneration in patients with Alzheimer disease</article-title>. <source>JAMA Neurol</source>. <year>2017</year>;<volume>74</volume>:<fpage>557</fpage>-<lpage>566</lpage>.<pub-id pub-id-type="pmid">28346578</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2016.6117</pub-id><pub-id pub-id-type="pmcid">PMC5822204</pub-id></mixed-citation></ref><ref id="bibr16-11772719251364018"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Rosén</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Mitre</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Nellgård</surname><given-names>B</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>High levels of neurofilament light and YKL-40 in cerebrospinal fluid are related to poor outcome in ALS</article-title>. <source>J Neurol Sci</source>. <year>2024</year>;<volume>463</volume>:<fpage>123112</fpage>-<lpage>20240625</lpage>.<pub-id pub-id-type="pmid">38972199</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jns.2024.123112</pub-id></mixed-citation></ref><ref id="bibr17-11772719251364018"><label>17</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Thelin</surname><given-names>EP</given-names></name>
+<name name-style="western"><surname>Zeiler</surname><given-names>FA</given-names></name>
+<name name-style="western"><surname>Ercole</surname><given-names>A</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serial sampling of serum protein biomarkers for monitoring human traumatic brain injury dynamics: a systematic review</article-title>. <source>Front Neurol</source>. <year>2017</year>;<volume>8</volume>:<fpage>300</fpage>.<pub-id pub-id-type="pmid">28717351</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fneur.2017.00300</pub-id><pub-id pub-id-type="pmcid">PMC5494601</pub-id></mixed-citation></ref><ref id="bibr18-11772719251364018"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Shaw</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Madorsky</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Uman-type neurofilament light antibodies are effective reagents for the imaging of neurodegeneration</article-title>. <source>Brain Commun</source>. <year>2023</year>;<volume>5</volume>:fcad067.</mixed-citation></ref><ref id="bibr19-11772719251364018"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Zucchi</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Lu</surname><given-names>CH</given-names></name>
+<name name-style="western"><surname>Cho</surname><given-names>Y</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>A motor neuron strategy to save time and energy in neurodegeneration: adaptive protein stoichiometry</article-title>. <source>J Neurochem</source>. <year>2018</year>;<volume>146</volume>:<fpage>631</fpage>-<lpage>641</lpage>.<pub-id pub-id-type="pmid">29959860</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jnc.14542</pub-id><pub-id pub-id-type="pmcid">PMC6175430</pub-id></mixed-citation></ref><ref id="bibr20-11772719251364018"><label>20</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Lycke</surname><given-names>JN</given-names></name>
+<name name-style="western"><surname>Karlsson</surname><given-names>JE</given-names></name>
+<name name-style="western"><surname>Andersen</surname><given-names>O</given-names></name>
+<name name-style="western"><surname>Rosengren</surname><given-names>LE.</given-names></name>
+</person-group>
+<article-title>Neurofilament protein in cerebrospinal fluid: a potential marker of activity in multiple sclerosis</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>1998</year>;<volume>64</volume>:<fpage>402</fpage>-<lpage>404</lpage>.<pub-id pub-id-type="pmid">9527161</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/jnnp.64.3.402</pub-id><pub-id pub-id-type="pmcid">PMC2170011</pub-id></mixed-citation></ref><ref id="bibr21-11772719251364018"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Gisslén</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Price</surname><given-names>RW</given-names></name>
+<name name-style="western"><surname>Andreasson</surname><given-names>U</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Plasma concentration of the neurofilament light protein (NFL) is a biomarker of CNS injury in HIV infection: a cross-sectional study</article-title>. <source>EBioMedicine</source>. <year>2016</year>;<volume>3</volume>:<fpage>135</fpage>-<lpage>140</lpage>.<pub-id pub-id-type="pmid">26870824</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ebiom.2015.11.036</pub-id><pub-id pub-id-type="pmcid">PMC4739412</pub-id></mixed-citation></ref><ref id="bibr22-11772719251364018"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Rajbanshi</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Prufer</surname><given-names>QCAI</given-names></name>
+<name name-style="western"><surname>VandeVrede</surname><given-names>L</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Clinical and neuropathological associations of plasma Abeta(42)/Abeta(40), p-tau217 and neurofilament light in sporadic frontotemporal dementia spectrum disorders</article-title>. <source>Alzheimers Dement Diagn Assess Dis Monit</source>. <year>2025</year>;<volume>17</volume>:e70078.</mixed-citation></ref><ref id="bibr23-11772719251364018"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Bamford</surname><given-names>AR</given-names></name>
+<name name-style="western"><surname>Parkin</surname><given-names>GM</given-names></name>
+<name name-style="western"><surname>Corey-Bloom</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Thomas</surname><given-names>EA.</given-names></name>
+</person-group>
+<article-title>Comparisons of neurodegenerative disease biomarkers across different biological fluids from patients with Huntington’s disease</article-title>. <source>J Neurol</source>. <year>2025</year>;<volume>272</volume>:<fpage>158</fpage>.<pub-id pub-id-type="pmid">39849121</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00415-024-12785-4</pub-id><pub-id pub-id-type="pmcid">PMC11759467</pub-id></mixed-citation></ref><ref id="bibr24-11772719251364018"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Benussi</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Huber</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Tan</surname><given-names>K</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Plasma p-tau217 and neurofilament/p-tau217 ratio in differentiating Alzheimer’s disease from syndromes associated with frontotemporal lobar degeneration</article-title>. <source>Alzheimer Dement</source>. <year>2025</year>;<volume>21</volume>:e14482.</mixed-citation></ref><ref id="bibr25-11772719251364018"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Hofmann</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Häsler</surname><given-names>LM</given-names></name>
+<name name-style="western"><surname>Lambert</surname><given-names>M</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Comparative neurofilament light chain trajectories in CSF and plasma in autosomal dominant Alzheimer’s disease</article-title>. <source>Nat Commun</source>. <year>2024</year>;<volume>15</volume>:<fpage>9982</fpage>.<pub-id pub-id-type="pmid">39557867</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-024-52937-8</pub-id><pub-id pub-id-type="pmcid">PMC11574007</pub-id></mixed-citation></ref><ref id="bibr26-11772719251364018"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Wilson</surname><given-names>DH</given-names></name>
+<name name-style="western"><surname>Rissin</surname><given-names>DM</given-names></name>
+<name name-style="western"><surname>Kan</surname><given-names>CW</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>The simoa HD-1 analyzer: a novel fully automated digital immunoassay analyzer with single-molecule sensitivity and multiplexing</article-title>. <source>J Lab Autom</source>. <year>2016</year>;<volume>21</volume>:<fpage>533</fpage>-<lpage>547</lpage>.<pub-id pub-id-type="pmid">26077162</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/2211068215589580</pub-id></mixed-citation></ref><ref id="bibr27-11772719251364018"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Kuhle</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Barro</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Andreasson</surname><given-names>U</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Comparison of three analytical platforms for quantification of the neurofilament light chain in blood samples: ELISA, electrochemiluminescence immunoassay and Simoa</article-title>. <source>Clin Chem Lab Med</source>. <year>2016</year>;<volume>54</volume>:<fpage>1655</fpage>-<lpage>1661</lpage>.<pub-id pub-id-type="pmid">27071153</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1515/cclm-2015-1195</pub-id></mixed-citation></ref><ref id="bibr28-11772719251364018"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Disanto</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Barro</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Benkert</surname><given-names>P</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum Neurofilament light: a biomarker of neuronal damage in multiple sclerosis</article-title>. <source>Ann Neurol</source>. <year>2017</year>;<volume>81</volume>:<fpage>857</fpage>-<lpage>870</lpage>.<pub-id pub-id-type="pmid">28512753</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.24954</pub-id><pub-id pub-id-type="pmcid">PMC5519945</pub-id></mixed-citation></ref><ref id="bibr29-11772719251364018"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Bridel</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>van Wieringen</surname><given-names>WN</given-names></name>
+<name name-style="western"><surname>Zetterberg</surname><given-names>H</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Diagnostic value of cerebrospinal fluid neurofilament light protein in neurology: a systematic review and meta-analysis</article-title>. <source>JAMA Neurol</source>. <year>2019</year>;<volume>76</volume>:<fpage>1035</fpage>-<lpage>1048</lpage>.<pub-id pub-id-type="pmid">31206160</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2019.1534</pub-id><pub-id pub-id-type="pmcid">PMC6580449</pub-id></mixed-citation></ref><ref id="bibr30-11772719251364018"><label>30</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Gaetani</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Höglund</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Parnetti</surname><given-names>L</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>A new enzyme-linked immunosorbent assay for neurofilament light in cerebrospinal fluid: analytical validation and clinical evaluation</article-title>. <source>Alzheimers Res Ther</source>. <year>2018</year>;<volume>10</volume>:<fpage>8</fpage>.<pub-id pub-id-type="pmid">29370869</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-018-0339-1</pub-id><pub-id pub-id-type="pmcid">PMC6389166</pub-id></mixed-citation></ref><ref id="bibr31-11772719251364018"><label>31</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Coppens</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Lehmann</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Hopley</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Hirtz</surname><given-names>C.</given-names></name>
+</person-group>
+<article-title>Neurofilament-light, a promising biomarker: analytical, metrological and clinical challenges</article-title>. <source>Int J Mol Sci</source>. <year>2023</year>;<volume>24</volume>(14):11624. doi:<pub-id pub-id-type="doi">10.3390/ijms241411624</pub-id></mixed-citation></ref><ref id="bibr32-11772719251364018"><label>32</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Arslan</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Zetterberg</surname><given-names>H.</given-names></name>
+</person-group>
+<article-title>Neurofilament light chain as neuronal injury marker - what is needed to facilitate implementation in clinical laboratory practice?</article-title>
+<source>Clin Chem Lab Med</source>. <year>2023</year>;<volume>61</volume>:<fpage>1140</fpage>-<lpage>1149</lpage>.<pub-id pub-id-type="pmid">36880940</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1515/cclm-2023-0036</pub-id></mixed-citation></ref><ref id="bibr33-11772719251364018"><label>33</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Ashrafzadeh-Kian</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Figdore</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Larson</surname><given-names>B</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Head-to-head comparison of four plasma neurofilament light chain (NfL) immunoassays</article-title>. <source>Clin Chim Acta</source>. <year>2024</year>;<volume>561</volume>:<fpage>119817</fpage>.<pub-id pub-id-type="pmid">38879065</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cca.2024.119817</pub-id></mixed-citation></ref><ref id="bibr34-11772719251364018"><label>34</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Benkert</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Meier</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Schaedelin</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light chain for individual prognostication of disease activity in people with multiple sclerosis: a retrospective modelling and validation study</article-title>. <source>Lancet Neurol</source>. <year>2022</year>;<volume>21</volume>:<fpage>246</fpage>-<lpage>257</lpage>.<pub-id pub-id-type="pmid">35182510</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(22)00009-6</pub-id></mixed-citation></ref><ref id="bibr35-11772719251364018"><label>35</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Simrén</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Andreasson</surname><given-names>U</given-names></name>
+<name name-style="western"><surname>Gobom</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Establishment of reference values for plasma neurofilament light based on healthy individuals aged 5-90 years</article-title>. <source>Brain Commun</source>. <year>2022</year>;<volume>4</volume>:fcac174.</mixed-citation></ref><ref id="bibr36-11772719251364018"><label>36</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Vermunt</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Otte</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Verberk</surname><given-names>IMW</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Age- and disease-specific reference values for neurofilament light presented in an online interactive support interface</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2022</year>;<volume>9</volume>:<fpage>1832</fpage>-<lpage>1837</lpage>.<pub-id pub-id-type="pmid">36196979</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.51676</pub-id><pub-id pub-id-type="pmcid">PMC9639622</pub-id></mixed-citation></ref><ref id="bibr37-11772719251364018"><label>37</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Ashton</surname><given-names>NJ</given-names></name>
+<name name-style="western"><surname>Suárez-Calvet</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Karikari</surname><given-names>TK</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Effects of pre-analytical procedures on blood biomarkers for Alzheimer’s pathophysiology, glial activation, and neurodegeneration</article-title>. <source>Alzheimer Dement</source>. <year>2021</year>;<volume>13</volume>:e12168.</mixed-citation></ref><ref id="bibr38-11772719251364018"><label>38</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Rübsamen</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Willemse</surname><given-names>EAJ</given-names></name>
+<name name-style="western"><surname>Leppert</surname><given-names>D</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>A method to combine neurofilament light measurements from blood serum and plasma in clinical and population-based studies</article-title>. <source>Front Neurol</source>. <year>2022</year>;<volume>13</volume>:<fpage>894119</fpage>.<pub-id pub-id-type="pmid">35775045</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fneur.2022.894119</pub-id><pub-id pub-id-type="pmcid">PMC9237479</pub-id></mixed-citation></ref><ref id="bibr39-11772719251364018"><label>39</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Kwon</surname><given-names>HS</given-names></name>
+<name name-style="western"><surname>Lee</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Kim</surname><given-names>YS</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Comparing neurofilament light chain levels in serum and plasma</article-title>. <source>Dement Neurocogn Dis</source>. <year>2023</year>;<volume>22</volume>:<fpage>109</fpage>-<lpage>111</lpage>.</mixed-citation></ref><ref id="bibr40-11772719251364018"><label>40</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Delaby</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Ladang</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Martinez-Yriarte</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Clinical use and reporting of neurofilament quantification in neurological disorders: a global overview</article-title>. <source>Alzheimer Dement</source>. <year>2025</year>;<volume>21</volume>:e70343.</mixed-citation></ref><ref id="bibr41-11772719251364018"><label>41</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Lee</surname><given-names>JS</given-names></name>
+<name name-style="western"><surname>Kang</surname><given-names>JH</given-names></name>
+<name name-style="western"><surname>Kang</surname><given-names>CH</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Longitudinal measurement of serum neurofilament light chain in patients with CADASIL</article-title>. <source>J Stroke</source>. <year>2025</year>;<volume>27</volume>:<fpage>261</fpage>-<lpage>265</lpage>.<pub-id pub-id-type="pmid">40494586</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.5853/jos.2024.05666</pub-id><pub-id pub-id-type="pmcid">PMC12152448</pub-id></mixed-citation></ref><ref id="bibr42-11772719251364018"><label>42</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Cordts</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Fuetterer</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Wachinger</surname><given-names>A</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Long-term dynamics of CSF and serum neurofilament light chain in adult patients with 5q spinal muscular atrophy treated with Nusinersen</article-title>. <source>Neurol</source>. <year>2025</year>;<volume>104</volume>:e213371.</mixed-citation></ref><ref id="bibr43-11772719251364018"><label>43</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Khalil</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Pirpamer</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Hofer</surname><given-names>E</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light levels in normal aging and their association with morphologic brain changes</article-title>. <source>Nat Commun</source>. <year>2020</year>;<volume>11</volume>:<fpage>812</fpage>.<pub-id pub-id-type="pmid">32041951</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-020-14612-6</pub-id><pub-id pub-id-type="pmcid">PMC7010701</pub-id></mixed-citation></ref><ref id="bibr44-11772719251364018"><label>44</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Manouchehrinia</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Piehl</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Hillert</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Confounding effect of blood volume and body mass index on blood neurofilament light chain levels</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2020</year>;<volume>7</volume>:<fpage>139</fpage>-<lpage>143</lpage>.<pub-id pub-id-type="pmid">31893563</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.50972</pub-id><pub-id pub-id-type="pmcid">PMC6952306</pub-id></mixed-citation></ref><ref id="bibr45-11772719251364018"><label>45</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Tang</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Panizzon</surname><given-names>MS</given-names></name>
+<name name-style="western"><surname>Elman</surname><given-names>JA</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Association of neurofilament light chain with renal function: mechanisms and clinical implications</article-title>. <source>Alzheimers Res Ther</source>. <year>2022</year>;<volume>14</volume>:<fpage>189</fpage>.<pub-id pub-id-type="pmid">36527130</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-022-01134-0</pub-id><pub-id pub-id-type="pmcid">PMC9756450</pub-id></mixed-citation></ref><ref id="bibr46-11772719251364018"><label>46</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Sjölin</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Aulin</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Wallentin</surname><given-names>L</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light chain in patients with atrial fibrillation</article-title>. <source>J Am Heart Assoc</source>. <year>2022</year>;<volume>11</volume>:e025910.</mixed-citation></ref><ref id="bibr47-11772719251364018"><label>47</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Polymeris</surname><given-names>AA</given-names></name>
+<name name-style="western"><surname>Coslovksy</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Aeschbacher</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light in atrial fibrillation: clinical, neuroimaging and cognitive correlates</article-title>. <source>Brain Commun</source>. <year>2020</year>;<volume>2</volume>:fcaa166.</mixed-citation></ref><ref id="bibr48-11772719251364018"><label>48</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Kim</surname><given-names>AS</given-names></name>
+<name name-style="western"><surname>Lee</surname><given-names>JM.</given-names></name>
+</person-group>
+<article-title>The limited role of serum neurofilament light chain in predicting pain severity of patients with diabetic polyneuropathy</article-title>. <source>Sci Rep</source>. <year>2024</year>;<volume>14</volume>:<fpage>15612</fpage>.<pub-id pub-id-type="pmid">38971890</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-024-66444-9</pub-id><pub-id pub-id-type="pmcid">PMC11227535</pub-id></mixed-citation></ref><ref id="bibr49-11772719251364018"><label>49</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Duan</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Gong</surname><given-names>Z</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Neurofilament light chain is a promising biomarker in alcohol dependence</article-title>. <source>Front Psychiatry</source>. <year>2021</year>;<volume>12</volume>:<fpage>754969</fpage>.<pub-id pub-id-type="pmid">34867542</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpsyt.2021.754969</pub-id><pub-id pub-id-type="pmcid">PMC8637455</pub-id></mixed-citation></ref><ref id="bibr50-11772719251364018"><label>50</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Verduyn</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Bjerke</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Duerinck</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>CSF and blood neurofilament levels in athletes participating in physical contact sports: a systematic review</article-title>. <source>Neurol</source>. <year>2021</year>;<volume>96</volume>:<fpage>705</fpage>-<lpage>715</lpage>.</mixed-citation></ref><ref id="bibr51-11772719251364018"><label>51</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Harp</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Thanei</surname><given-names>GA</given-names></name>
+<name name-style="western"><surname>Jia</surname><given-names>X</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Development of an age-adjusted model for blood neurofilament light chain</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2022</year>;<volume>9</volume>:<fpage>444</fpage>-<lpage>453</lpage>.<pub-id pub-id-type="pmid">35229997</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.51524</pub-id><pub-id pub-id-type="pmcid">PMC8994974</pub-id></mixed-citation></ref><ref id="bibr52-11772719251364018"><label>52</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Lu</surname><given-names>CH</given-names></name>
+<name name-style="western"><surname>Macdonald-Wallis</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Gray</surname><given-names>E</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Neurofilament light chain: a prognostic biomarker in amyotrophic lateral sclerosis</article-title>. <source>Neurol</source>. <year>2015</year>;<volume>84</volume>:<fpage>2247</fpage>-<lpage>2257</lpage>.</mixed-citation></ref><ref id="bibr53-11772719251364018"><label>53</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Cuello</surname><given-names>JP</given-names></name>
+<name name-style="western"><surname>Martínez Ginés</surname><given-names>ML</given-names></name>
+<name name-style="western"><surname>Kuhle</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Neurofilament light chain levels in pregnant multiple sclerosis patients: a prospective cohort study</article-title>. <source>Eur J Neurol</source>. <year>2019</year>;<volume>26</volume>:<fpage>1200</fpage>-<lpage>1204</lpage>.<pub-id pub-id-type="pmid">30977955</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/ene.13965</pub-id></mixed-citation></ref><ref id="bibr54-11772719251364018"><label>54</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Hayashi</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Nukui</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Piao</surname><given-names>JL</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum neurofilament light chain in chronic inflammatory demyelinating polyneuropathy</article-title>. <source>Brain Behav</source>. <year>2021</year>;<volume>11</volume>:e02084.</mixed-citation></ref><ref id="bibr55-11772719251364018"><label>55</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Llauradó</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>García-Carmona</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Restrepo-Vera</surname><given-names>JL</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Usefulness of serum neurofilament light chain in chronic inflammatory demyelinating polyradiculoneuropathy</article-title>. <source>J Neurol Sci</source>. <year>2025</year>;<volume>470</volume>:<fpage>123397</fpage>.<pub-id pub-id-type="pmid">39874744</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jns.2025.123397</pub-id></mixed-citation></ref><ref id="bibr56-11772719251364018"><label>56</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Bocci</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Campiglio</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Zardoni</surname><given-names>M</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Critical illness neuropathy in severe COVID-19: a case series</article-title>. <source>Neurol Sci</source>. <year>2021</year>;<volume>42</volume>:<fpage>4893</fpage>-<lpage>4898</lpage>.<pub-id pub-id-type="pmid">34477990</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10072-021-05471-0</pub-id><pub-id pub-id-type="pmcid">PMC8414960</pub-id></mixed-citation></ref><ref id="bibr57-11772719251364018"><label>57</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Mullard</surname><given-names>A.</given-names></name>
+</person-group>
+<article-title>NfL makes regulatory debut as neurodegenerative disease biomarker</article-title>. <source>Nat Rev Drug Discov</source>. <year>2023</year>;<volume>22</volume>:<fpage>431</fpage>-<lpage>434</lpage>.<pub-id pub-id-type="pmid">37198334</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/d41573-023-00083-z</pub-id></mixed-citation></ref><ref id="bibr58-11772719251364018"><label>58</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Sampaio</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Wilkinson</surname><given-names>HA.</given-names></name>
+</person-group>
+<article-title>Facilitating Huntington’s disease research: plasma neurofilament levels as a promising enrichment biomarker for HD-ISS stage 1</article-title>. <source>EBioMedicine</source>. <year>2023</year>;<volume>94</volume>:<fpage>104710</fpage>.<pub-id pub-id-type="pmid">37442063</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ebiom.2023.104710</pub-id><pub-id pub-id-type="pmcid">PMC10362248</pub-id></mixed-citation></ref><ref id="bibr59-11772719251364018"><label>59</label><mixed-citation publication-type="journal">
+<collab>eBioMedicine, eBioMedicine</collab>. <article-title>Blood biomarkers for multiple sclerosis: neurofilament light chain and beyond</article-title>. <source>EBioMedicine</source>. <year>2024</year>;<volume>104</volume>:<fpage>105214</fpage>.<pub-id pub-id-type="pmid">38880550</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ebiom.2024.105214</pub-id><pub-id pub-id-type="pmcid">PMC11245755</pub-id></mixed-citation></ref><ref id="bibr60-11772719251364018"><label>60</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Hegen</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Berek</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Bsteh</surname><given-names>G</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Kappa free light chain and neurofilament light independently predict early multiple sclerosis disease activity-a cohort study</article-title>. <source>EBioMedicine</source>. <year>2023</year>;<volume>91</volume>:<fpage>104573</fpage>.<pub-id pub-id-type="pmid">37086651</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ebiom.2023.104573</pub-id><pub-id pub-id-type="pmcid">PMC10148088</pub-id></mixed-citation></ref><ref id="bibr61-11772719251364018"><label>61</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Meier</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Willemse</surname><given-names>EAJ</given-names></name>
+<name name-style="western"><surname>Schaedelin</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Serum glial fibrillary acidic protein compared with neurofilament light chain as a biomarker for disease progression in multiple sclerosis</article-title>. <source>JAMA Neurol</source>. <year>2023</year>;<volume>80</volume>:<fpage>287</fpage>-<lpage>297</lpage>.<pub-id pub-id-type="pmid">36745446</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2022.5250</pub-id><pub-id pub-id-type="pmcid">PMC10011932</pub-id></mixed-citation></ref><ref id="bibr62-11772719251364018"><label>62</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Kim</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Lee</surname><given-names>EJ</given-names></name>
+<name name-style="western"><surname>Lim</surname><given-names>YM</given-names></name>
+<name name-style="western"><surname>Kim</surname><given-names>KK.</given-names></name>
+</person-group>
+<article-title>Glial fibrillary acidic protein in blood as a disease biomarker of neuromyelitis optica spectrum disorders</article-title>. <source>Front Neurol</source>. <year>2022</year>;<volume>13</volume>:<fpage>865730</fpage>.<pub-id pub-id-type="pmid">35370870</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fneur.2022.865730</pub-id><pub-id pub-id-type="pmcid">PMC8968934</pub-id></mixed-citation></ref><ref id="bibr63-11772719251364018"><label>63</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Puravet</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Oris</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Pereira</surname><given-names>B</given-names></name>
+</person-group>, <etal>et al</etal>. <article-title>Can the Association of the biomarkers GFAP and UCH-L1 predict intracranial injury after mild traumatic brain injury in adults? A systematic review and meta-analysis</article-title>. <source>Ann Emerg Med</source>. Published online April 23, <year>2025</year>. doi:<pub-id pub-id-type="doi">10.1016/j.annemergmed.2025.03.018</pub-id></mixed-citation></ref><ref id="bibr64-11772719251364018"><label>64</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Geng</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>G.</given-names></name>
+</person-group>
+<article-title>Osthole’s capacity to prevent tau aggregation, a key protein in tauopathy and Alzheimer’s disease</article-title>. <source>Int J Biol Macromol</source>. <year>2025</year>;<volume>311</volume>:<fpage>143235</fpage>.<pub-id pub-id-type="pmid">40246112</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ijbiomac.2025.143235</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

@@ -1,0 +1,235 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02612376",
+      "orgStudyIdInfo": {
+        "id": "15-1774"
+      },
+      "organization": {
+        "fullName": "University of Colorado, Denver",
+        "class": "OTHER"
+      },
+      "briefTitle": "Rocky Mountain Alzheimer's Disease Center Longitudinal Biomarker and Clinical Phenotyping Study",
+      "officialTitle": "Rocky Mountain Alzheimer's Disease Center at the University of Colorado School of Medicine (RMADC at UCSOM) Longitudinal Biomarker and Clinical Phenotyping Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Loss of funding",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-11-13",
+      "studyFirstSubmitQcDate": "2015-11-19",
+      "studyFirstPostDateStruct": {
+        "date": "2015-11-23",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-05-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Colorado, Denver",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study plans to establish a large bank of blood, cerebral spinal fluid (CSF), imaging, and clinical data. These data and samples will be used for future research into the causes of Alzheimer's disease (AD), Down Syndrome (DS) and other diseases that cause thinking and memory problems. This future research will also study how treatments for these diseases work. This research may help develop new treatments for some diseases of the nervous system and help understand these diseases better."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Down Syndrome",
+        "Mild Cognitive Impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "25 Years",
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Biospecimens of blood and cerebral spinal fluid"
+      },
+      "enrollmentInfo": {
+        "count": 800,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "AD, DS, Mild Cognitive Impairment",
+          "description": "Persons with age-related Mild Cognitive Impairment (MCI) or Alzheimer Disease (AD) according to clinical diagnosis, consistent with Alzheimer's Association (AA) and the National Institute on Aging (NIA) diagnostic criteria."
+        },
+        {
+          "label": "Healthy Controls",
+          "description": "* Community-dwelling controls\n* An Informant (study partner) available to complete functional interviews/survey measures annually."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Longitudinal collection of biospecimens and data from participants with MCI, AD, DS, healthy controls, and parents of DS individuals.",
+          "description": "Whichever occurs first.",
+          "timeFrame": "Annually for 15 years or death"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Persons with age-related MCI or AD according to clinical diagnosis, consistent with NIA-AA diagnostic criteria\n2. Community-dwelling controls, Age \\> 60 years\n3. Ability to complete baseline assessments\n4. Has an informant (study partner) available to complete functional interviews/survey measures annually\n\nExclusion Criteria:\n\n* Presence of concomitant medical, neurological, or psychiatric illness or condition that in the opinion of the investigators would confound interpretation of study results. These include: Korsakoff encephalopathy; active substance abuse; hepatitis C; opportunistic brain infection; brain tumor; active neoplastic disease (skin tumors other than melanoma are not exclusionary; participants with stable prostate cancer may be included at the discretion of the project director); multiple sclerosis; history of clinically significant stroke; current evidence or history in the past 2 years of focal brain lesion, head injury with loss of consciousness, or DSM-V criteria for any major psychiatric disorder, including psychosis, major depression, bipolar disorder, alcohol or substance abuse; blindness, deafness or any other disability which may prevent the participant from participating or cooperating in the protocol.\n* Presence of contraindication for MRI scan",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "participants with Mild Cognitive Impairment (MCI), AD, healthy controls",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Brianne M Bettcher, PhD",
+          "affiliation": "University of Colorado, Denver",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Colorado, Denver",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D004314",
+          "term": "Down Syndrome"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D008607",
+          "term": "Intellectual Disability"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D000015",
+          "term": "Abnormalities, Multiple"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D025063",
+          "term": "Chromosome Disorders"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

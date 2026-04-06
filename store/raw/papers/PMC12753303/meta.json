@@ -1,0 +1,120 @@
+{
+  "pmid": "41470048",
+  "pmc": "PMC12753303",
+  "doi": "10.1093/bib/bbaf682",
+  "title": "MetImputBERT: a pretrained BERT framework for missing value imputation in NMR metabolomics data",
+  "journal": "Briefings in Bioinformatics",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Qiu Shizheng",
+      "affiliations": [
+        "Faculty of Computing, Harbin Institute of Technology, 92 Xidazhi Street, Nangang District, Harbin, 150001, China"
+      ]
+    },
+    {
+      "name": "Hu Yang",
+      "affiliations": [
+        "Faculty of Computing, Harbin Institute of Technology, 92 Xidazhi Street, Nangang District, Harbin, 150001, China"
+      ]
+    },
+    {
+      "name": "the Alzheimer's Disease Neuroimaging Initiative",
+      "affiliations": []
+    },
+    {
+      "name": "Liu Guiyou",
+      "affiliations": [
+        "Beijing Institute of Brain Disorders, Laboratory of Brain Disorders, Ministry of Science and Technology, Collaborative Innovation Center for Brain Disorders, National Engineering Center of Internet Medical Diagnosis and Treatment Technology, Xuanwu Hospital, Capital Medical University, Beijing, 100069, China",
+        "Department of Epidemiology and Biostatistics, School of Public Health, Wannan Medical College, No. 22, Wenchang Road, Wuhu, 241002, China",
+        "Dongying Branch Center of Collaborative Innovation Center for Brain Disorders, Shengli Oilfield Central Hospital, No. 31 Jinan Road, Dongying, 257034, China",
+        "Clinical Medicine Translational Research Institute, Chengdu Fifth People’s Hospital, Geriatric Diseases Institute of Chengdu, The Second Clinical Medical College, Affiliated Fifth People’s Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu University of Traditional Chinese Medicine, No. 33, Ma Shi Street, Chengdu, 611137, China"
+      ]
+    },
+    {
+      "name": "Wang Yadong",
+      "affiliations": [
+        "Faculty of Computing, Harbin Institute of Technology, 92 Xidazhi Street, Nangang District, Harbin, 150001, China",
+        "Zhengzhou Research Institute, Harbin Institute of Technology, No. 26, Longyuan East 7th Street, Zhengdong New District, Zhengzhou, 450000, China"
+      ]
+    }
+  ],
+  "keywords": [
+    "metabolomics",
+    "missing values",
+    "imputation",
+    "BERT"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Institute on Aging10.13039/100000049 3U01AG024904-09S4RF1AG051550R01AG046171",
+    "Alzheimer's Disease Metabolomics Consortium",
+    "0-1 Original Exploration Category: Fundamental Research Funds for the Central Universities Project 2022FRFK030025",
+    "Heilongjiang Provincial Science and Technology Tackling Project GNCMSSJH2024",
+    "Key Research and Development Program of Heilongjiang Province 2022ZX02C20",
+    "National Natural Science Foundation of China10.13039/501100001809 6237116162331012",
+    "National Key Research and Development Program of China10.13039/501100012166 2021YFF1200105"
+  ],
+  "data_availability_text": "Data availabilityUK Biobank individual-level data can be accessed by applying for access at http://ukbiobank.ac.uk/register-apply/. Ethics approval for the UK Biobank was granted by the North West Multi-Centre Research Ethics Committee in 2006 and was updated regularly after that (https://www.ukbiobank.ac.uk/learn-more-about-uk-biobank/about-us/ethics). All participants provided informed written consent to take part in the study and be followed up through linkage to health-related records. This research has been conducted using the UK Biobank Resource under Application Number 249728. The data for the ADNI cohorts are hosted on the LONI data sharing platform and can be requested at http://adni.loni.usc.edu/data-samples/access-data/.",
+  "license": "",
+  "received": "2025-07-30",
+  "accepted": "2025-11-27",
+  "reference_pmids": [
+    "31377153",
+    "33791972",
+    "29106475",
+    "16443497",
+    "36737450",
+    "38448586",
+    "29420958",
+    "19564179",
+    "29330539",
+    "35578165",
+    "36138150",
+    "34942446",
+    "22039212",
+    "38198570",
+    "25826379",
+    "39572536",
+    "25691689",
+    "37794186",
+    "29370177",
+    "40466240",
+    "40813248",
+    "39543602"
+  ],
+  "tables_count": 2,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "pretraining of metimputbert",
+    "evaluation of imputation performance",
+    "imputation model for the ratio of metabolite combinations",
+    "discussion",
+    "methods",
+    "ukb",
+    "ukb-ppp",
+    "adni",
+    "pretraining datasets and external validation sets",
+    "model architecture",
+    "input embedding",
+    "transformer encoder",
+    "reconstruction head",
+    "pretraining with a mask-and-reconstruct task",
+    "training procedure and hyperparameter optimization",
+    "simulation of missingness",
+    "imputation strategies",
+    "performance evaluation",
+    "statistical analysis and visualization",
+    "software running time",
+    "key points",
+    "supplementary material",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7846,
+  "converted_at": "2026-04-06T22:38:28.964351+00:00"
+}

@@ -1,0 +1,205 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01950910",
+      "orgStudyIdInfo": {
+        "id": "CHS-Neurology-WBC Tissue Bank"
+      },
+      "organization": {
+        "fullName": "Wake Forest University Health Sciences",
+        "class": "OTHER"
+      },
+      "briefTitle": "Establishment of a Tissue Bank (Blood, CSF) for the Understanding of Motor Neuron Disease (MND)",
+      "officialTitle": "Establishment of a Tissue Bank (Blood, CSF) for the Understanding of the Disease Progression and Early Diagnosis of Motor Neuron Disease (MND).",
+      "acronym": "WBC"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-07",
+      "overallStatus": "TERMINATED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2004-03-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-10-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-03-30",
+      "studyFirstSubmitQcDate": "2013-09-23",
+      "studyFirstPostDateStruct": {
+        "date": "2013-09-26",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2022-07-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-07-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Wake Forest University Health Sciences",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Biomarkers are essential for the identification of disease states. There are no early diagnostic or prognostic markers for ALS. The purpose of this study is to identify a panel of biomarkers from blood or spinal fluid of ALS patients and to collect data to better understand disease progression.",
+      "detailedDescription": "Amyotrophic lateral sclerosis (ALS) is a motor neuron disease characterized by progressive degeneration of motor neurons, muscle atrophy and paralysis. There is no reliable early diagnostic test for ALS making identification of the disease difficult at its earliest stages. Early detection is critical to the initiation of early neuroprotective therapy. By the time a reliable diagnosis can be made, substantial damage to motor neurons and muscle has already occurred. The purpose of the current project is to establish a bank of blood samples (serum and protein/RNA/DNA from blood cells) and CSF for use in the development of an early diagnostic test for ALS and to better understand the progression of this disease.\n\nSamples from patients that have a confirmed or unknown diagnosis of motor neuron disease will be examined. ALS and suspected neuromuscular disease (control) samples will be collected for comparison. Investigators will examine various biochemical, metabolic and genetic markers from these samples in hopes of finding differences in the expression between control subjects and ALS patients and how these biomarkers vary during disease progression. Participants will be asked to complete an optional questionnaire to collect data including medication and vitamin use and medical and disease history. This data will be linked to the patient's samples; however, all samples will be deidentified and coded to avoid the possibility of linking results to the patient. Results will not be stored in the patient's medical record."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis"
+      ],
+      "keywords": [
+        "Amyotrophic lateral sclerosis",
+        "motor neuron disease",
+        "biological markers",
+        "biomarkers"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "designInfo": {
+        "observationalModel": "OTHER",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "blood samples (serum and protein/RNA/DNA from blood cells) and CSF"
+      },
+      "enrollmentInfo": {
+        "count": 766,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "subjects w/ non-motor neurodegenerative disease",
+          "description": "subjects with ALS or with non-motor neurodegenerative disease"
+        },
+        {
+          "label": "subjects w/out motorneuron degenerative dis",
+          "description": "subjects without motorneuron degenerative disease"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Levels of ALS biomarkers in blood",
+          "description": "Blood samples will be processed to obtain serum samples and to isolate peripheral blood mononuclear cells (PBMC's). Serum samples will be analyzed for biochemical and metabolic markers of interest and future cell culture as needed. PBMCs will be processed for RNA, DNA or protein isolation. Aliquots of all samples will be stored for future study.",
+          "timeFrame": "After blood is collected from study subjects. Data will be analyzed at one year."
+        },
+        {
+          "measure": "Levels of ALS biomarkers in CSF",
+          "description": "CSF samples will be processed and assayed for biomarkers of interest. An aliquot of CSF sample will be stored for future study.",
+          "timeFrame": "After CSF is collected from study subject. Data will be analyzed at one year."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years old or older\n\nExclusion Criteria:\n\n* less than 18 years old",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "ALS patients in the Charlotte, NC, area.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Benjamin R Brooks, MD",
+          "affiliation": "Neurosciences Institute, Neurology - Charlotte",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Neurosciences Institute, Neurology - Charlotte",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,87 @@
+{
+  "nct_id": "NCT03912987",
+  "title": "TRIAL READY (Clinical Trial Readiness)",
+  "brief_title": "TRIAL READY (Clinical Trial Readiness)",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 610,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis",
+    "Frontotemporal Dementia",
+    "ALS-Frontotemporal Dementia",
+    "Primary Lateral Sclerosis",
+    "Progressive Muscular Atrophy"
+  ],
+  "keywords": [],
+  "sponsor": "University of Miami",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "National Institutes of Health (NIH)",
+    "National Institute of Neurological Disorders and Stroke (NINDS)"
+  ],
+  "lead_pi": {
+    "name": "Michael Benatar",
+    "affiliation": "University of Miami"
+  },
+  "start_date": "2019-01-22",
+  "completion_date": "2026-06",
+  "primary_completion_date": "2026-06",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "DNA, serum, plasma, buffy coat, urine and CSF",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "University of Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Kansas",
+      "city": "Kansas City",
+      "state": "Kansas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    }
+  ],
+  "facilities_count": 3,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Member of at least one of the following categories:\n\n  1. Individuals with a clinical diagnosis of ALS or a related disorder, including FTD, ALS-FTD, PLS, and PMA.\n  2. Individuals never diagnosed with and not at particular risk of developing ALS or a related disorder.\n* Able and willing to comply with relevant procedures.\n\nExclusion Criteria:\n\n* A condition or situation which, in the PI's opinion, could confound the study finding or may interfere significantly with the individual's participation and compliance with the study protocol. This includes (but is not limited to) neurological, psychological and/or medical conditions.",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Longitudinal trajectories (and variability) of leading biological-fluid biomarker candidates.",
+      "description": "In a population of patients with ALS and related disorders who would meet typical clinical trial eligibility, this study aims to define the natural history (and variability) of urinary neurotrophin receptor extracellular domain (p75ECD); blood and cerebrospinal fluid (CSF) neurofilament light (NfL) and phosphorylated neurofilament heavy (pNfH); and among patients with the C9orf72 hexanucleotide repeat expansion mutation (HREM), CSF and peripheral blood mononuclear cell (PBMC) poly(GP).",
+      "timeFrame": "12 months"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Prognostic utility of leading biological-fluid biomarker candidates.",
+      "description": "In a population of patients with ALS and related disorders who would meet typical clinical trial eligibility, quantify the prognostic value that baseline biomarker levels add to readily available clinical factors that are known to predict prognosis.",
+      "timeFrame": "12 months"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "This study, being conducted under the auspice of the CReATe Consortium, will enroll patients with ALS and related disorders as well as healthy controls, with the goal of facilitating clinical validation of leading biological-fluid based biomarker candidates that may aid therapy development for patients with ALS and related disorders.",
+  "detailed_description": "This multi-center study aims to clinically validate leading biological-fluid-based biomarker candidates as potential prognostic and pharmacodynamic biomarkers that have the potential to facilitate therapy development for patients with ALS and related disorders. Biomarker candidates that will be considered include: urinary p75 neurotrophin receptor extracellular domain (p75ECD), blood and cerebrospinal fluid (CSF) phosphorylated neurofilament heavy (pNfH), blood and CSF neurofilament light (NfL) and, in the population with a C9orf72 hexanucleotide repeat expansion, peripheral blood mononuclear cell (PBMC) and CSF levels of the dipeptide repeat protein poly(GP). In pursuit of these goals, the CReATe Consortium is already collecting longitudinal biological samples from patients with ALS and related disorders through the ongoing Phenotype-Genotype-Biomarker (PGB) study. TRIAL READY aims to identify additional patients with the C9orf72 hexanucleotide repeat expansion mutation (HREM), the most common genetic cause of ALS, who may be further followed through the PGB study. This study will also enroll and longitudinally evaluate a cohort of age- and gender-match healthy controls.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:56.003848+00:00"
+}

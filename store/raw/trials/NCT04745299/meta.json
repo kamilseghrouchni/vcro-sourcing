@@ -1,0 +1,127 @@
+{
+  "nct_id": "NCT04745299",
+  "title": "A Double-blind, Randomized, Multicenter, Placebo-Controlled, Parallel, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Lenzumestrocel(Neuronata-R® Inj.) in Patients with Amyotrophic Lateral Sclerosis",
+  "brief_title": "Evaluation the Efficacy and Safety of Mutiple Lenzumestrocel (Neuronata-R® Inj.) Treatment in Patients with ALS",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "phase": "PHASE3",
+  "study_type": "INTERVENTIONAL",
+  "enrollment": 115,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+  ],
+  "keywords": [
+    "Amyotrophic lateral sclerosis",
+    "Mesenchymal stem cell",
+    "cell therapy",
+    "ALS",
+    "neuroprotection",
+    "Phase 3 clinical trial"
+  ],
+  "sponsor": "Corestemchemon, Inc.",
+  "sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "lead_pi": {
+    "name": "Seung Hyun Kim, MD, PhD",
+    "affiliation": "Hanyang University Seoul Hospital"
+  },
+  "start_date": "2021-03-23",
+  "completion_date": "2026-05-03",
+  "primary_completion_date": "2024-12-31",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Pusan National University Yangsan Hospital",
+      "city": "Yangsan",
+      "state": "Kyungsangnam-do",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Hanyang university hospital",
+      "city": "Seoul",
+      "state": "Seoul",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Korea University Anam Hospital",
+      "city": "Seoul",
+      "state": "",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Samsung Medical Center",
+      "city": "Seoul",
+      "state": "",
+      "country": "South Korea",
+      "status": ""
+    },
+    {
+      "name": "Seoul National University Hospital",
+      "city": "Seoul",
+      "state": "",
+      "country": "South Korea",
+      "status": ""
+    }
+  ],
+  "facilities_count": 5,
+  "eligibility_criteria": "\\[Inclusion Criteria\\]\n\n1. Subjects who show both upper motor neuron signs and lower motor neuron signs at the same time in neurological tests.\n2. Among subjects diagnosed with familial or sporadic ALS, subjects falling into clinically definite ALS, probable ALS and probable ALS-lab supported according to The revised World Federation of Neurology El Escorial Criteria\\[Rix Brooks, 2000\\], during 17-weeks period prior to the administration and ALSFRS-R score (progression rate) of 1.03 ± 50%/month (meaning mean value in that total period).\n3. For subjects who are under Riluzole treatment, those who have received stable dose of Riluzole for more than 28 days before screening visit.\n4. Subjects with duration of disease of no more than 2 years from the first diagnosis date.\n5. Subjects whose ALSFRS-R scores are in the range of 31\\~46 at the time of screening (P-V0).\n\n\\[Exclusion Criteria\\]\n\n1. Subjects who received tracheostomy or use ventilators (including positive pressure ventilators; subjects who use non-invasive ventilation for sleep apnea may be allowed after review) at the time of screening (P-V0).\n2. Subjects who received gastrotomy at the time of screening (P-V0).\n3. Subjects for whom clinical efficacy evaluation is not possible because pulmonary functional tests cannot be conducted at the time of screening (P-V0) or subjects whose forced vital capacity is found to be not greater than 40%of the expected value.\n4. Subjects who fall into above Class II according to the New York Heart Association's functional classification, who have showed myocardial infarction, unstable arrhythmia and/or other significant cardiovascular diseases such as unstable angina in the past 3 months, or who show electrocardiographic signs of myocardial infarction or angina at the time of screening (P-V0) or who received stent insertion or coronary artery bypass grafting.\n5. Subjects who have received other investigational products or edaravone within 3 month or 5 half-lives at the time of screening (P-V0) and lead in period visit L-V1 (evaluated by whichever is longer).\n6. Subjects who have experienced epileptic seizure.\n7. Subjects with severe renal disorder (serum creatinine: not less than 2.0 mg/dL).\n8. Subjects with severe hepatic disorder (ALT, AST, or bilirubin: over 2.0 times of the normal upper limit).\n9. Subjects who show hemorrhagic tendency at the time of screening (PT and aPTT \\> 1.5 x ULN)\n10. Subjects who are found to have active viral infections (HBsAg, HCV Ab, HIV Ab, CMV IgM, EBV IgM, HSV IgM and Treponema pallidum) at the time of screening.\n11. Subjects with hypersensitivity to antibiotics (penicillin or streptomycin).\n12. Subjects who have ever received any cell therapy product for the same disease.\n13. Subjects with any malignant tumor in the past 5 years before screening, except malignant tumors with very low risk of metastasis or death.",
+  "eligibility_min_age": "25 Years",
+  "eligibility_max_age": "75 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Joint rank scores (CAFS, Combined Assessment of Functional and Survival)",
+      "description": "Joint rank score is derived from Combined Assessment of Function and Survival. Functional assessment is based on ALSFRS-R scores and survival assessment is based on the period from randomization to physical death. Joint rank score will be calculated with ALSFRS-R score data and survival. For each pairwise comparison, a study participant is assigned a score and then the summed scores are ranked for all participants.\n\nThe higher ranking, the higher score, and the lower ranking, the lower score. And the average rank score is then calculated for each treatment group. A higher mean rank score indicates that participants in that treatment group, on average, fared better.\n\n1. The difference in joint rank scores between multiple administration group and control group at 12 months.\n2. The difference in joint rank scores between single cycle administration group and control group at 6 months",
+      "timeFrame": "at 12 months, and 6 months"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Joint rank scores (CAFS, Combined Assessment of Functional and Survival)",
+      "description": "Joint rank score is derived from Combined Assessment of Function and Survival. Functional assessment is based on ALSFRS-R scores and survival assessment is based on the period from randomization to physical death. Joint rank score will be calculated with ALSFRS-R score data and survival. For each pairwise comparison, a study participant is assigned a score and then the summed scores are ranked for all participants.\n\nThe higher ranking, the higher score, and the lower ranking, the lower score. And the average rank score is then calculated for each treatment group. A higher mean rank score indicates that participants in that treatment group, on average, fared better.\n\nThe difference in joint rank scores between multiple administration group and control group at 6 months.",
+      "timeFrame": "at 6 months"
+    },
+    {
+      "measure": "Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R) score",
+      "description": "ALSFRS-R is an instrument designed to evaluate functional status of subjects with amyotrophic lateral sclerosis (Lou Gehrig's disease), such as gross motor activity, fine motor activity, bulbar function and respiration function. It consists of 12 items; 3 items for mouth functions, 4 items for upper limb and overall fine motor functions, 2 items for lower limb functions and 3 items for respiration functions. Each item is evaluated in 5-point scale (0\\~4). A higher score means a better functional status.\n\n1. Change of ALSFRS-R score measured at baseline and 12 months (multiple administration group and control group)\n2. Change of ALSFRS-R score measured at baseline and 6 months (single cycle administration and control group)",
+      "timeFrame": "at 12 months, 6 months"
+    },
+    {
+      "measure": "Time to event",
+      "description": "Time to Event is defined as physical death, tracheostomy recognized as the point where disease progression functionally stops or chronic use of ventilator, whichever comes earlier. Chronic use of ventilator means that ventilator is used for more than 20 hours in a day and such use is continued for more than 30 days and that a subject in vegetative state requires full supports from other persons to maintain living.\n\n1. Time to event for 12 months (multiple administration group and control group)\n2. Time to event for 6 months (single cycle administration group and control group)",
+      "timeFrame": "at 12 months, 6 months"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": true,
+  "fda_regulated_device": false,
+  "brief_summary": "ALSUMMIT is a double-blind, randomized, placebo-controlled, multi-center, parallel, phase III clinical trial to evaluate and confirm the efficacy and long-term safety of repeated Lenzumestrocel (Neuronata-R® inj.) treatment.",
+  "detailed_description": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disorder characterized by selective and progressive loss of motor neurons. Disease progression leads to death within 2-4 years, but there exists no definite treatment so far.\n\nBased on phase I/II clinical trial(NCT01363401), twice intrathecal autologous bone marrow-derived mesenchymal stem cells (Lenzumestrocel) injections showed significant therapeutic benefit lasting at least six months with safety in patients with ALS.\n\nAdditionally, the switch from pro- to anti-inflammatory conditions, which was indicated from the inverse correlation between TGF-β1 and MCP-1 levels after Lenzumestrocel injections in the good responder, has been considered a plausible beneficial action mechanism.\n\nThis study is designed to investigate the following. First, to reconfirm and evaluate the long-term efficacy of twice injections (single cycle) of Lenzumestrocel, group 1 will receive a single cycle injection with a 26-day interval.\n\nSecond, to evaluate the long-term safety and efficacy of Lenzumestrocel repeated injections, group 2 will receive a single cycle injection a 26-day apart followed by three times injections every three-month interval.\n\nGroup 3 will receive comparator injections.",
+  "interventions": [
+    {
+      "type": "BIOLOGICAL",
+      "name": "Lenzumestrocel",
+      "description": "Single cycle administration group : injections twice in a 26-day interval Multiple administration group : injections twice in a 26-day interval followed by repeated three times injections every three months"
+    },
+    {
+      "type": "DRUG",
+      "name": "Riluzole",
+      "description": "concomitant administration of Riluzole to all groups, except subjects to whom Riluzole administration is deemed impossible owing to adverse events as determined by medical experts"
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo Comparator",
+      "description": "Single cycle administration group: Placebo comparator is injected three times every three months after injection of Lenzumestrocel twice in a 26-day interval.\n\nControl group: Placebo comparator is injected twice in a 26-day interval followed by repeated three times injcections every three months"
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:56.410493+00:00"
+}

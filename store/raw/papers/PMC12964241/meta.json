@@ -1,0 +1,144 @@
+{
+  "pmid": "41797911",
+  "pmc": "PMC12964241",
+  "doi": "10.1016/j.isci.2026.115023",
+  "title": "Association between elevated expression of GDF15/GFRAL and sarcopenia risk",
+  "journal": "iScience",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Zhang Zong-sheng",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fan Pei-dong",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhang Wen-ya",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zou Hao-qi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ni Jin-dong",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yang Xin-ling",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wu Jun",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "health sciences"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data and code availability •Single-cell RNA-seq data have been deposited at GEO with the accession number and are publicly available from the date of publication. Data from the UK Biobank are available on application at www.ukbiobank.ac.uk (ID: 62663).•This article does not report original code.•Additional information required to reanalyze the data reported in this article is available from the lead contact upon request.",
+  "license": "",
+  "received": "2025-08-20",
+  "accepted": "2026-02-11",
+  "reference_pmids": [
+    "39300120",
+    "31281529",
+    "31642809",
+    "34617415",
+    "35051643",
+    "30184485",
+    "36660894",
+    "34831213",
+    "28846099",
+    "33172749",
+    "39672239",
+    "33228454",
+    "37380764",
+    "34381196",
+    "38828887",
+    "25962896",
+    "36361969",
+    "39838667",
+    "40057594",
+    "32477368",
+    "36725366",
+    "38890783",
+    "33690236",
+    "36640326",
+    "39976232",
+    "32661391",
+    "29245123",
+    "37017344",
+    "40167255",
+    "28846098",
+    "35379793",
+    "36271504",
+    "40234625",
+    "38899461",
+    "39643709",
+    "30305743",
+    "31951595",
+    "34715355",
+    "24051346",
+    "31171417",
+    "37212184"
+  ],
+  "tables_count": 3,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "population characteristics",
+    "associations of growth differentiation factor 15 level with sarcopenia risk",
+    "association of glial cell line-derived neurotrophic factor family receptor α-like with sarcopenia risk",
+    "subpopulation analyses",
+    "potential evidence linking the growth differentiation factor 15–glial cell line-derived neurotrophic factor family receptor α-like to skeletal muscle impairment",
+    "discussion",
+    "limitations of the study",
+    "resource availability",
+    "lead contact",
+    "materials availability",
+    "data and code availability",
+    "acknowledgments",
+    "author contributions",
+    "declaration of interests",
+    "star★methods",
+    "key resources table",
+    "experimental model and study participant details",
+    "serum blood samples",
+    "experimental animals",
+    "method details",
+    "study population",
+    "laboratory measurement of gdf15 and gfral",
+    "single-cell rna-seq using 10× genomics chromium",
+    "immunohistochemical staining",
+    "quantification and statistical analysis",
+    "assessment of sarcopenia patients",
+    "covariate measurements",
+    "observational analyses of associations between gdf15/gfral levels and sarcopenia risk",
+    "10× genomics chromium library and sequencing bioanalyses",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7288,
+  "converted_at": "2026-04-06T22:39:26.192726+00:00"
+}

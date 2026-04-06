@@ -1,0 +1,526 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06351592",
+      "orgStudyIdInfo": {
+        "id": "ALN-SOD-ALS-2351"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-510344-20-00",
+          "type": "REGISTRY",
+          "domain": "EU CT Number"
+        }
+      ],
+      "organization": {
+        "fullName": "Regeneron Pharmaceuticals",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "First in Human (FIH) Study of ALN-SOD in Adult Participants With Amyotrophic Lateral Sclerosis Associated With Mutation in the SOD1 Gene (SOD1-ALS)",
+      "officialTitle": "First in Human Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Multiple Ascending Doses of Intrathecally Administered ALN-SOD in Participants With Amyotrophic Lateral Sclerosis and SOD1 Mutations"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-08-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-06-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-06-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-04-02",
+      "studyFirstSubmitQcDate": "2024-04-02",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Regeneron Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is researching an experimental drug called ALN-SOD (called \"study drug\"). This study is focused on people with Amyotrophic Lateral Sclerosis (ALS) caused by a change in a gene called the Superoxide Dismutase-1 (SOD1) gene. This type of ALS is known as \"SOD1-ALS\". This is the first time that ALN-SOD will be given to people.\n\nThe aim of the study is to see how safe and tolerable the study drug is.\n\nThe study is looking at several other research questions, including:\n\n* The effect the study drug has on specific biomarkers, which are substances in the blood or in the fluid that surrounds the brain and spinal cord, known as Cerebrospinal Fluid (CSF)\n* How much study drug is in the blood and in the CSF, at different times\n* Whether the body makes antibodies against the study drug (which could make the drug less effective or could lead to side effects)\n* What effects the study drug has on ALS symptoms"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis (ALS)",
+        "Mutation in the Superoxide Dismutase-1 (SOD1) Gene"
+      ],
+      "keywords": [
+        "Symptomatic",
+        "Known pathogenic mutation",
+        "Predicted pathogenic mutation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Phase 1b: Dose Escalation Phase 2: Cohort Expansion",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Phase 1b: Dose Escalation - Double-blind, randomized, and single crossover Phase 2: Cohort Expansion - Open-label"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 42,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort 1 - Low",
+          "type": "EXPERIMENTAL",
+          "description": "Placebo during 4-Week double-blind treatment period",
+          "interventionNames": [
+            "Drug: ALN-SOD",
+            "Other: Diluent",
+            "Drug: Placebo (PB)"
+          ]
+        },
+        {
+          "label": "Cohort 2 - Mid-Dose",
+          "type": "EXPERIMENTAL",
+          "description": "Placebo during 4-Week double-blind treatment period",
+          "interventionNames": [
+            "Drug: ALN-SOD",
+            "Other: Diluent",
+            "Drug: Placebo (PB)"
+          ]
+        },
+        {
+          "label": "Cohort 3 - High-Dose",
+          "type": "EXPERIMENTAL",
+          "description": "Placebo during 4-Week double-blind treatment period",
+          "interventionNames": [
+            "Drug: ALN-SOD",
+            "Other: Diluent",
+            "Drug: Placebo (PB)"
+          ]
+        },
+        {
+          "label": "Cohort 4 (Optional) - ≤ High Dose",
+          "type": "EXPERIMENTAL",
+          "description": "Placebo during 4-Week double-blind treatment period",
+          "interventionNames": [
+            "Drug: ALN-SOD",
+            "Other: Diluent",
+            "Drug: Placebo (PB)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ALN-SOD",
+          "description": "Administered per the protocol",
+          "armGroupLabels": [
+            "Cohort 1 - Low",
+            "Cohort 2 - Mid-Dose",
+            "Cohort 3 - High-Dose",
+            "Cohort 4 (Optional) - ≤ High Dose"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Diluent",
+          "description": "Administered per the protocol",
+          "armGroupLabels": [
+            "Cohort 1 - Low",
+            "Cohort 2 - Mid-Dose",
+            "Cohort 3 - High-Dose",
+            "Cohort 4 (Optional) - ≤ High Dose"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (PB)",
+          "description": "Administered per the protocol",
+          "armGroupLabels": [
+            "Cohort 1 - Low",
+            "Cohort 2 - Mid-Dose",
+            "Cohort 3 - High-Dose",
+            "Cohort 4 (Optional) - ≤ High Dose"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of Treatment-Emergent Adverse Event (TEAEs) in participants treated with ALN-SOD",
+          "timeFrame": "At week 4 and through week 228"
+        },
+        {
+          "measure": "Severity of TEAEs in participants treated with ALN-SOD",
+          "timeFrame": "At week 4 and through week 228"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Concentration of Neurofilament Light chain (NfL) in plasma over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Change in concentration of NfL in plasma over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Concentration of SOD1 protein in Cerebrospinal Fluid (CSF) over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Change in concentration of SOD1 protein in CSF over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Concentration of NfL in CSF over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Change in concentration of NfL in CSF over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Change in Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R) over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Concentration of ALN-SOD in plasma over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Concentration of ALN-SOD in CSF over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Incidence of Anti-Drug Antibodies (ADAs) to ALN-SOD in serum over time",
+          "timeFrame": "Up to approximately week 228"
+        },
+        {
+          "measure": "Titer of ADAs to ALN-SOD in serum over time",
+          "timeFrame": "Up to approximately week 228"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Weakness attributable to ALS and a SOD1 variant that has been previously described as associated with ALS or is considered likely to cause ALS, as defined in the protocol\n2. Slow Vital Capacity (SVC) ≥50% predicted value based on age, gender and height, measured in upright position\n3. Body Mass Index (BMI) ≤35 kg/m2 at time of screening\n4. If participants are taking riluzole or edaravone, they must be on a stable dose for at least 4 weeks prior to initial dosing visit and are expected to remain at that dose until the end of the study\n5. Platelet count \\>50,000/microliter\n6. Has normal blood pressure readings, as defined in the protocol\n\nKey Exclusion Criteria:\n\n1. Concurrent participation in another interventional clinical trial\n2. Has had a tracheostomy\n3. Has dementia, as assessed by the investigator\n4. Has uncontrolled psychiatric disease, including psychosis, active or recent suicidal ideation, untreated major depression, in the past 30 days\n5. Has a medical history of brain or spinal disease/injury that would interfere with the Lumbar Puncture (LP) process, CSF circulation or safety assessment, as defined in the protocol\n6. Presence of an implanted shunt for the drainage of CSF or an implanted Central Nervous System (CNS) catheter\n7. Presents any concern to the study investigator that might confound the results of the study or poses an additional risk to the participant by their participation in the study\n8. Was hospitalized (ie, \\>24 hours) for any reason other than ALS within 30 days of screening\n9. Has received treatment with tofersen within 6 months prior to screening\n\nNOTE: Other protocol defined inclusion / exclusion criteria apply",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Clinical Trials Administrator",
+          "role": "CONTACT",
+          "phone": "844-734-6643",
+          "email": "clinicaltrials@regeneron.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Clinical Trial Management",
+          "affiliation": "Regeneron Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Concord Repatriation General Hospital",
+          "status": "RECRUITING",
+          "city": "Concord",
+          "state": "New South Wales",
+          "zip": "2139",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.84722,
+            "lon": 151.10381
+          }
+        },
+        {
+          "facility": "Macquarie University",
+          "status": "RECRUITING",
+          "city": "Sydney",
+          "state": "New South Wales",
+          "zip": "2109",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.86785,
+            "lon": 151.20732
+          }
+        },
+        {
+          "facility": "Sunshine Coast University Hospital",
+          "status": "RECRUITING",
+          "city": "Birtinya",
+          "state": "Queensland",
+          "zip": "4575",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -26.74322,
+            "lon": 153.11913
+          }
+        },
+        {
+          "facility": "KU Leuven",
+          "status": "RECRUITING",
+          "city": "Leuven",
+          "state": "Vlaams-Brabant",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "University of Alberta Hospital, Edmonton, Division of Neurology",
+          "status": "RECRUITING",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 2G3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "University Hospital - London Health Sciences Centre",
+          "status": "RECRUITING",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 5A5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Sunnybrook Research Institute",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4N 3M5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Montreal Neurological Institute and Hospital",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3A 2B4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Hokkaido University Hospital",
+          "status": "RECRUITING",
+          "city": "Sapporo",
+          "state": "Hokkaido",
+          "zip": "060-8648",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 43.06667,
+            "lon": 141.35
+          }
+        },
+        {
+          "facility": "Tokushima University Hospital",
+          "status": "RECRUITING",
+          "city": "Tokushima",
+          "state": "Tokushima",
+          "zip": "770-0042",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.06667,
+            "lon": 134.56667
+          }
+        },
+        {
+          "facility": "Toho University Omori Medical Center",
+          "status": "RECRUITING",
+          "city": "Ōta-ku",
+          "state": "Tokyo",
+          "zip": "143-8541",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.56126,
+            "lon": 139.71605
+          }
+        },
+        {
+          "facility": "Kyoto University Hospital",
+          "status": "RECRUITING",
+          "city": "Kyoto",
+          "zip": "606-8507",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.02107,
+            "lon": 135.75385
+          }
+        },
+        {
+          "facility": "Hanyang University Seoul Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "04763",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Seoul National University Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "3080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Kaohsiung Chang Gung Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Kaohsiung City",
+          "zip": "83301",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          }
+        },
+        {
+          "facility": "Taipei Veterans General Hospital",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "zip": "11211",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All Individual Patient Data (IPD) that underlie publicly available results will be considered for sharing.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "When Regeneron has:\n\n* received marketing authorization from major health authorities (e.g., FDA, European Medicines Agency (EMA), Pharmaceuticals and Medical Devices Agency (PMDA), etc.) for the product and indication or has globally discontinued development of the product for all indications on or after April 2020 and has no plans for future development\n* made the study results publicly available (e.g., scientific publication, scientific conference, clinical trial registry)\n* the legal authority to share the data, and\n* ensured the ability to protect participant privacy",
+      "accessCriteria": "Qualified researchers can submit a proposal for access to individual patient or aggregate level data from a Regeneron-sponsored clinical trial through Vivli. Regeneron's Independent Research Request Evaluation Criteria can be found at: https://www.regeneron.com/sites/default/files/Regeneron-External-Data-Sharing-Policy-and-Independent-Research-Request-Evaluation-Criteria.pdf",
+      "url": "https://vivli.org/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

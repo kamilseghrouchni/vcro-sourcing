@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT05309408",
+  "title": "A Longitudinal Analysis of Biomarkers in Patients With ALS",
+  "brief_title": "A Longitudinal Analysis of Biomarkers in Patients With ALS",
+  "status": "UNKNOWN",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 90,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+  ],
+  "keywords": [],
+  "sponsor": "Holy Cross Hospital, Florida",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "Massachusetts General Hospital"
+  ],
+  "lead_pi": {},
+  "start_date": "2021-06-11",
+  "completion_date": "2024-09",
+  "primary_completion_date": "2024-09",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "plasma, serum, whole blood, cerebrospinal fluid (CSF), urine, peripheral blood mononuclear cells (PBMC), deoxyribonucleic acid (DNA), and/or ribonucleic acid (RNA).",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Holy Cross Hospital",
+      "city": "Fort Lauderdale",
+      "state": "Florida",
+      "country": "United States",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\n1. 18 years of age or older at time of consent.\n2. Capable of providing informed consent.\n3. Capable of complying with study procedures.\n4. ALS Subjects only: ALS subjects diagnosed with familial or sporadic ALS as according to the El Escorial Criteria (suspected, possible, probable - lab supported, probable, or definite) or individuals with known gene mutations associated with ALS (regardless of clinical phenotype)\n5. Control Subjects only: Absence of autoimmune myopathy, neuropathy, ALS mimic disorder, or any other neurodegenerative disease or known diagnosis of ALS, or known ALS causative gene\n6. Lumbar Puncture volunteers only: Clinically appropriate to have a lumbar puncture\n\nExclusion Criteria:\n\n1. Presence of a neurodegenerative disease other than ALS\n2. Clinically significant history of unstable medical illness\n3. Inability to comply with study procedures, in the view of the investigator\n4. Lumbar Puncture volunteers only: Presence of bleeding disorder, problems with cerebrospinal fluid pressure, allergy to local anesthetics, a topical or other skin infection at the lumbar puncture site\n5. Lumbar Puncture volunteers only: Taking an anti-platelet or anticoagulant drug, such as Plavix, Brilinta, Ticlid, Warfarin/Coumadin, Lovenox, Elaquis, Pradaxa, Xarelto, etc, and unable to safely hold it for this study. (Aspirin is allowed)\n6. Taking any immunomodulatory or immunosuppressive medication, as determined by the principal investigator.",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Biofluid Biorepository [ Time Frame: + 2.5 Years ]",
+      "description": "This project will create a biorepository of longitudinal biofluid samples, linked to clinical measures, and at home measures in order to further elucidate both potential causes and treatments for ALS.",
+      "timeFrame": "30 months"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "Longitudinally collect biomarkers from patients with amyotrophic lateral sclerosis (ALS) and control participants in order to further elucidate both potential causes and treatments for ALS. Samples and clinical information will be collected from patients with ALS and controls.",
+  "detailed_description": "The objective of the proposed study is to longitudinally collect biomarkers from patients with amyotrophic lateral sclerosis (ALS) and control participants in order to further elucidate both potential causes and treatments for ALS. The investigators will collect blood or any of the following biofluids: blood, urine, and cerebrospinal fluid (CSF), and process, analyze and store plasma, serum, whole blood, cerebrospinal fluid (CSF), urine, peripheral blood mononuclear cells (PBMC), deoxyribonucleic acid (DNA), and/or ribonucleic acid (RNA). Blood collected in this study may also potentially be used to create induced pluripotent stem cells (iPSCs). Excess samples will be stored in a repository at Massachusetts General Hospital ALS Sample Repository for future research on ALS and related motor neuron diseases. Planned analyses may include but will not be limited to: exploring immune cell populations, gene expression profiling, and analysis or metabolites, proteins, RNA, DNA obtained from blood and/or exploring associated clinical parameters. Analyses will explore the differences of these factors between ALS and control subjects.\n\nSamples and clinical information will be collected from patients with ALS and controls. Samples will be collected from ALS subjects a maximum of 7 times over a period of up to 30 months, with approximately 3 months (and no less than 2 months) between visits. Controls will consist of participants who do not have chronic neurodegenerative diseases or diseases that mimic ALS. Up to 60 ALS subjects and 30 control subjects will be enrolled in the study.",
+  "interventions": [
+    {
+      "type": "DIAGNOSTIC_TEST",
+      "name": "Venipuncture",
+      "description": "Venipuncture"
+    },
+    {
+      "type": "DIAGNOSTIC_TEST",
+      "name": "Lumbar Puncture",
+      "description": "Lumbar Puncture"
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:56.993750+00:00"
+}

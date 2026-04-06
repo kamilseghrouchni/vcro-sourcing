@@ -1,0 +1,168 @@
+{
+  "pmid": "35694256",
+  "pmc": "PMC9174950",
+  "doi": "10.3389/fphar.2022.904857",
+  "title": "Comparative Metabolomics Analysis Reveals Key Metabolic Mechanisms and Protein Biomarkers in Alzheimer’s Disease",
+  "journal": "Frontiers in Pharmacology",
+  "year": 2022,
+  "authors": [
+    {
+      "name": "Dai Zhao",
+      "affiliations": [
+        "1 Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China",
+        "2 Department of Rheumatology, First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Hu Tian",
+      "affiliations": [
+        "1 Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Su Shijie",
+      "affiliations": [
+        "1 Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Liu Jinman",
+      "affiliations": [
+        "1 Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Ma Yinzhong",
+      "affiliations": [
+        "3 Institute of Biomedicine and Biotechnology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China"
+      ]
+    },
+    {
+      "name": "Zhuo Yue",
+      "affiliations": [
+        "3 Institute of Biomedicine and Biotechnology, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China"
+      ]
+    },
+    {
+      "name": "Fang Shuhuan",
+      "affiliations": [
+        "1 Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Wang Qi",
+      "affiliations": [
+        "1 Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Mo Zhizhun",
+      "affiliations": [
+        "4 Emergency Department, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, China"
+      ]
+    },
+    {
+      "name": "Pan Huafeng",
+      "affiliations": [
+        "1 Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Fang Jiansong",
+      "affiliations": [
+        "1 Science and Technology Innovation Center, Guangzhou University of Chinese Medicine, Guangzhou, China"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "metabolome",
+    "biomarker",
+    "HER2",
+    "NDF2"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Natural Science Foundation of China 10.13039/501100001809"
+  ],
+  "data_availability_text": "Data Availability StatementThe original contributions presented in the study are included in the article/Supplementary Material, further inquiries can be directed to the corresponding authors.",
+  "license": "",
+  "received": "2022-03-26",
+  "accepted": "2022-04-19",
+  "reference_pmids": [
+    "28467650",
+    "17913914",
+    "29802260",
+    "28476525",
+    "12067738",
+    "32778792",
+    "20392965",
+    "23297063",
+    "23301073",
+    "27133777",
+    "22828014",
+    "32695874",
+    "31991850",
+    "32656864",
+    "35572351",
+    "11056475",
+    "25281826",
+    "28261376",
+    "34757660",
+    "14645205",
+    "25878270",
+    "28659580",
+    "31078433",
+    "33986301",
+    "15916731",
+    "16522871",
+    "31564456",
+    "23509981",
+    "32158425",
+    "23403761",
+    "12120097",
+    "33616735",
+    "10680786",
+    "20346398",
+    "24591104",
+    "25518958",
+    "15812817",
+    "23437108",
+    "34188164",
+    "15755686",
+    "33059700",
+    "31560162",
+    "32711019",
+    "9806879",
+    "33718349",
+    "29139169",
+    "33441136"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "1 introduction",
+    "2 materials and methods",
+    "2.1 identification of alzheimer’s disease-associated metabolites from mouse and human studies",
+    "2.2 pathway enrichment analysis",
+    "2.3 construction of metabolite-centric subnetworks using alzheimer’s disease atlas",
+    "2.4 experimental validation",
+    "2.4.1 appswe/ps1de9 animal models",
+    "2.4.2 western blot analysis",
+    "2.4.3 immunofluorescence",
+    "2.5 network visualization and statistical analysis",
+    "3. results",
+    "3.1 collection of differential metabolites in mouse and human metabolomics",
+    "3.2 key metabolites analysis and enrichment analysis",
+    "3.3 intersection analysis of metabolic pathways between human and alzheimer’s disease mouse",
+    "3.4 analyze metabolite-target networks and identify putative protein markers in alzheimer’s disease",
+    "3.5 experimental validation of human egf receptor and neuronal differentiation 2 as putative protein markers in app/ps1 models",
+    "4 discussion and conclusion",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 6772,
+  "converted_at": "2026-04-06T22:40:12.978828+00:00"
+}

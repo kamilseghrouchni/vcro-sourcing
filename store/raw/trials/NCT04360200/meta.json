@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT04360200",
+  "title": "Cognitive Impairment in Ageing People: A Longitudinal Observational Prospective Study",
+  "brief_title": "Cognitive Impairment in Ageing People",
+  "status": "RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 5000,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "MCI",
+    "Alzheimer Disease",
+    "VAD - Vascular Dementia",
+    "Cognitive Impairment"
+  ],
+  "keywords": [],
+  "sponsor": "Yamei Tang",
+  "sponsor_class": "OTHER",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2020-04-01",
+  "completion_date": "2040-12",
+  "primary_completion_date": "2040-12",
+  "biospecimen_retention": "SAMPLES_WITHOUT_DNA",
+  "biospecimen_description": "Humoral biomarkers in plasma, cerebrospinal fluid, stool, and urine",
+  "ipd_sharing": "UNDECIDED",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University",
+      "city": "Guangzhou",
+      "state": "Guangdong",
+      "country": "China",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients over 50 years old.\n2. Sign informed consent.\n3. According to DSM-IV, the diagnostic standard of dementia was not met.\n4. The clinical dementia rating (CDR) was 0.5.\n\nExclusion criteria:\n\n1. Subjects with mental retardation.\n2. Refuse to have blood sampling, imaging and other examinations.\n3. Uncooperative subjects that have serious organic diseases, or have a history of mental illness, or have physical disability (including severe aphasia).\n4. Contraindications of MR scanning.\n5. Suffering from serious physical or mental illness.",
+  "eligibility_min_age": "50 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Incidence of Dementia",
+      "description": "",
+      "timeFrame": "April 2020 to December 2040"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "The conversion rate of normal elderly to MCI to neurocognitive disorder",
+      "description": "",
+      "timeFrame": "April 2020 to December 2040"
+    },
+    {
+      "measure": "Improvement of Cognitive Function based on Montreal Cognitive Assessment (MoCA) score",
+      "description": "",
+      "timeFrame": "April 2020 to December 2040"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "Mild cognitive impairment (MCI) and neurocognitive disorder such as Alzheimer's disease (AD) and Vascular dementia (VaD) have become common diseases in the elderly. The burden of dementia is rising in China, with major medical, social and economic impacts. To address this important public health problem, cohort study on elderly cognitive disorders should be carry out. The methods of early prevention, early diagnosis and early treatment the cognitive disorders in elderly should be found to reduce the burden of the social and economic issue due to dementia. At present, the international corresponding guidelines have taken gene and brain imaging biomarkers as important indicators of dementia pathogenesis research, accurate diagnosis and targeted intervention. The study will construct a prospective cohort to establish database that provide not only comprehensive epidemiological data on the MCI and neurocognitive disorder in ageing people, but also complete the construction of biological samples bank and clinical diagnosis and treatment information database. Using the database, the study will identify the conversion rates from MCI to dementia and risk factors for the progression from MCI to dementia or AD. The study will also apply and develop brain structural and pathological imaging technology to support precision diagnosis of senile cognitive disorders. The study have goals to identify and validate imaging and blood/CSF biomarkers for the early detection and tracking of cognitive disorders.",
+  "detailed_description": "",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:56.294954+00:00"
+}

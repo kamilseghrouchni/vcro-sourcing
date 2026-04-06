@@ -1,0 +1,280 @@
+{
+  "pmid": "40990156",
+  "pmc": "PMC12461897",
+  "doi": "10.1080/19420862.2025.2562998",
+  "title": "A highly selective TCR-mimic antibody reveals unexpected mechanisms of HBV peptide-MHC recognition and previously unknown target biology",
+  "journal": "mAbs",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Khan Shahzada",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Lum Jeremy",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Stephenson Heather",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Kohli Pawan Bir",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Mortenson David",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Ramakrishnan Dhivya",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Hung Magdeleine",
+      "affiliations": []
+    },
+    {
+      "name": "Ding Sheng",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Seto Elbert",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Lu Sabrina",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Yen Randy",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Jin Debi",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Lee Brian",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Clancy Sheila",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Oakdale Nicole Schirle",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Novikov Nikolai",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Kang Don",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Li Ruidong",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Pan David",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Dave Rutwij",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Lansdon Eric",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Fletcher Simon P",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Garg Abhishek V.",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Thomsen Nathan",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    },
+    {
+      "name": "Balsitis Scott",
+      "affiliations": [
+        "Gilead Sciences, Inc., Foster City, CA, USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Conservation",
+    "core peptide",
+    "diabody",
+    "HBcAg",
+    "HBV",
+    "HBV cure",
+    "HBV genotype",
+    "pMHC complex",
+    "T cell engager",
+    "TCR-like antibody"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Gilead Sciences10.13039/100005564"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "23391846",
+    "15639293",
+    "27917363",
+    "19625407",
+    "29309050",
+    "12477811",
+    "38987588",
+    "31455905",
+    "35361683",
+    "37290591",
+    "28052637",
+    "39389081",
+    "33368377",
+    "29378197",
+    "27552102",
+    "31306680",
+    "30367834",
+    "38808361",
+    "33484968",
+    "36405686",
+    "29018834",
+    "34171437",
+    "39109538",
+    "32770836",
+    "28605637",
+    "22076556",
+    "30700902",
+    "7520476",
+    "30326600",
+    "35464415",
+    "15448372",
+    "17900990",
+    "36439181",
+    "28792537",
+    "21159876",
+    "2326647",
+    "18299400",
+    "9359721",
+    "30713784",
+    "10933393",
+    "9438205",
+    "22678897",
+    "26536627",
+    "18706933",
+    "18505168",
+    "34850325",
+    "36400016",
+    "39042891",
+    "39551604",
+    "32310221",
+    "39594730",
+    "25520398",
+    "23034898",
+    "32532817",
+    "28617587",
+    "7535183",
+    "1565634",
+    "20124692",
+    "16369096",
+    "23793146",
+    "18481394",
+    "19461840",
+    "31588918",
+    "24142950",
+    "19451168",
+    "19505943",
+    "16250045",
+    "667938"
+  ],
+  "tables_count": 0,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "identification of highly selective anti-c18-mhc antibodies",
+    "target specificity of c18-mhc tces",
+    "detailed characterization of antibody specificity for target peptide",
+    "mur35 tce selectively kills hbv+ hepatocytes",
+    "structural basis of peptide selectivity",
+    "mur35 interacts similarly with two predominant c18 peptide variants",
+    "phh killing activity of mur35 tce is restricted to c18-v peptide",
+    "discussion",
+    "materials and methods",
+    "pmhc production",
+    "antibody discovery, production, and purification",
+    "t2 cell binding assays",
+    "biolayer interferometry immunosorbent assay",
+    "killing assays, incucyte, and immunocytochemistry",
+    "x-ray crystallography",
+    "hbv sequencing",
+    "pmhc stability testing",
+    "mass spectrometry of hbv-infected humanized mouse liver",
+    "statistical analyses",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 14139,
+  "converted_at": "2026-04-06T22:37:38.774630+00:00"
+}
