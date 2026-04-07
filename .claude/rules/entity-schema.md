@@ -76,7 +76,7 @@ Every component `entity:` slug must be referenced. Bundles are never standalone.
 - `evidence_type`: direct, inferred, self_reported, composed
 - `confidence`: low, medium, high
 - `bundle.status`: draft, ready, confirmed, executed
-- `back_reference.relation`: parent_institution, sponsor, data_provider, collection_site, assay_platform, lead_pi, co_investigator, collection_protocol, related_trial
+- `back_reference.relation`: parent_institution, sponsor, data_provider, collection_site, assay_platform, lead_pi, co_investigator, collection_protocol, related_trial, composed_into
 
 ## Format rules
 
