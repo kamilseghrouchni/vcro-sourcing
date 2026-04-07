@@ -6,6 +6,8 @@ aliases:
   - ADNI plasma lipidome
   - ADNI lipidomics Baker Institute
   - Alzheimer's Disease Neuroimaging Initiative lipidomics
+  - ADNI AA lipidomics
+  - ADNI African American plasma lipid sub-cohort
 parent_institution: usc-loni-data-coordinating-center
 opportunity_type: published_cohort
 evidence_type: direct
@@ -17,22 +19,26 @@ provenance:
   sources: [PMC12269576, PMC12445873]
   last_compiled: 2026-04-07T00:00:00Z
   provenance_coverage:
-    real_numbers: {status: covered, sources: 1}
+    real_numbers: {status: covered, sources: 2}
     longitudinal_structure: {status: covered, sources: 1}
-    demographic_composition: {status: covered, sources: 1}
+    demographic_composition: {status: covered, sources: 2}
     medication_and_lifestyle_confounders: {status: covered, sources: 1}
-    co_modalities: {status: covered, sources: 1}
+    co_modalities: {status: covered, sources: 2}
     effect_sizes_and_model_performance: {status: covered, sources: 1}
     replication_and_validation: {status: covered, sources: 1}
-    access_and_consent_scope: {status: covered, sources: 1}
+    access_and_consent_scope: {status: covered, sources: 2}
     sample_usability: {status: covered, sources: 1}
-    negative_results: {status: covered, sources: 1}
-    overall_depth: 0.48
-referenced_by: []
+    negative_results: {status: covered, sources: 2}
+    sponsor_and_funding: {status: covered, sources: 1}
+    biospecimen_retention_and_types: {status: covered, sources: 1}
+    overall_depth: 0.57
+referenced_by:
+  - {entity: bundle-ad-plasma-lipidomics-dua-2026-04-07, relation: composed_into}
+  - {entity: bundle-ad-multiplatform-metabolomics-2026-04-07, relation: composed_into}
 scoring:
   scale: {confidence: medium}
   cost: {confidence: medium}
-  quality: {provenance_depth: 0.48, confidence: medium}
+  quality: {provenance_depth: 0.57, confidence: medium}
 card:
   primary_signal: "4730 plasma samples from 1517 ADNI-1/GO/2 participants profiled with Baker Institute targeted LC-MS/MS (781 species); AD vs CN AUC 0.84; MCI-to-AD conversion AUC 0.70 at baseline, validated in ASPREE (n=3495, C-index 0.75)."
   action: "Request data access via ida.loni.usc.edu and verify whether ADMC lipidomics layer requires a separate agreement with Duke University / Baker Institute."
@@ -76,6 +82,14 @@ The effective longitudinal depth is 2 years for most participants; trajectory an
 [ref: PMC12269576]
 
 Mean age >74 means findings may not generalise to early-onset AD (<65). APOE e4 enrichment above population frequency (ADNI recruitment criterion) means models trained here will over-predict APOE e4 contribution in unselected clinic populations. The near-universal fasting status (~95%) is a strength for metabolomics reproducibility.
+
+The African American sub-cohort has distinct demographic features:
+
+> "The African American population (median age: 73.2 years; 37.7% male) and non-Hispanic White population (median age: 74.0 years; 56.2% male) both exhibited distinct AD pathological features in APOE ε4 carriers compared to non-carriers"
+
+[ref: PMC12445873]
+
+The African American arm is predominantly female (62%), which contrasts with the ~44–57% male composition in the full cohort, meaning for the buyer's project sex-stratified analyses in the AA sub-cohort will have limited power.
 
 ## Medication and lifestyle confounders
 
@@ -125,15 +139,33 @@ ADNI lipidomics data is accessible via a formal portal with a data use agreement
 
 Buyers targeting the deDE lipid class as an AD biomarker will be blocked by anticholinesterase confounding unless they can control for medication use. The near-null longitudinal difference between prevalent stable AD and CN (only 2 species) suggests the lipidome mainly captures the transition period rather than the established disease state — relevant for study design (recruit pre-diagnosis, not prevalent AD).
 
-## African American sub-cohort (PMC12445873)
+The African American sub-cohort provides a further negative:
 
-> "The datasets corresponding to the four AD severity indicators (ADAS-Cog 13, t-tau, ABeta42, WMH) were divided into target sample for African Americans (n = 62, 37, 37, 40, respectively)"
+> "In our analysis of the African American population, ether lipid metabolism significantly mediated the association between APOE ε4 and ADAS-Cog 13. However, no significant mediation effects were observed for t-tau, ABeta42, or WMH outcomes, even after applying transfer learning."
 
 [ref: PMC12445873]
 
-An African American analytic sub-cohort (n=37–62 depending on endpoint) from the same ADNI-1/GO/2 participants was used in a separate transfer-learning lipidomics study. This sub-cohort shows a distinct APOE ε4–ether-lipid mediation profile vs the non-Hispanic White arm (ADAS-Cog 13 endpoint), but ether lipid signals for CSF tau/amyloid/WMH endpoints were not reproducible at this small N. A buyer requiring AA-ancestry-specific lipidomics data from ADNI should note that AA ancestry flag availability in the standard ADNI data request tier needs to be confirmed at adni.loni.usc.edu.
+Ether lipid pathway signals for CSF tau/amyloid/WMH endpoints in African Americans are not reproducible at n=37–40, which means for the buyer's project any study targeting ether lipid biomarkers in African-descent AD populations specifically for CSF or imaging endpoints will need substantially larger n (likely >200) before these effects can be confirmed or ruled out.
 
-See separate entity: [[adni-go2-plasma-lipidomics-aa]]
+## Sponsor and funding
+
+> "National Natural Science Foundation of China 82273730 82173612; Shanghai Rising-Star Program 21QA1401300"
+
+[ref: PMC12445873]
+
+The analytical team for the African American sub-analysis is Chinese-government funded rather than NIH/NIA, but the underlying ADNI cohort data is NIA-funded and subject to ADNI's own data-sharing mandate, which means for the buyer's project cohort access posture is determined by ADNI's rules (permissive) not by this paper's funders.
+
+## Biospecimen retention and types
+
+> "Demographic information, APOE genotype, questionnaire data, lipid metabolism data, neuroimaging data, and cerebrospinal fluid (CSF) biomarker data were obtained from the ADNI data repository (adni.loni.usc.edu)."
+
+[ref: PMC12445873]
+
+Four orthogonal AD severity layers (cognitive, CSF protein, MRI structural, lipid metabolic) are co-available on the same participants from the ADNI repository, which means for the buyer's project multi-modal cross-validation of any lipid biomarker against gold-standard AD pathology markers is feasible in a single data request — without requiring physical specimen access for data-only studies.
+
+## African American analytic stratification (PMC12445873)
+
+The ADNI-1/GO/2 cohort includes an African American analytic sub-population: n=62 (ADAS-Cog 13), 37 (t-tau), 37 (ABeta42), and 40 (WMH) participants, all profiled on the same 781-lipid Baker Institute panel. Despite the small n, a distinct APOE ε4–ether-lipid mediation profile was observed for ADAS-Cog 13 vs. the non-Hispanic White arm. This is an analytic stratification, not a separate cohort; the underlying samples come from the same ADNI-1/GO/2 collection. A buyer requiring AA-ancestry-specific lipidomics data from ADNI should note that AA ancestry flag availability in the standard ADNI data request tier needs to be confirmed at adni.loni.usc.edu.
 
 ## Open questions
 
@@ -142,6 +174,8 @@ See separate entity: [[adni-go2-plasma-lipidomics-aa]]
 - ADNI DUA terms for commercial use are not explicit in this paper. Buyers with commercial intent must verify with ADNI/ADMC whether the lipidomics data layer falls under the standard ADNI DUA or requires a separate ADMC agreement.
 - ASPREE sample depletion status is unknown — the case-cohort sub-selection used aliquots from a prior enrichment step, and remaining aliquot inventory is not mentioned. Recommend direct inquiry to Paul Lacaze before planning a new lipidomics request on ASPREE samples.
 - APOE e4 enrichment in ADNI (by design) limits generalisability of the dementia risk model to unselected clinical populations; the paper does not provide a recalibrated model for population-level use. A buyer targeting a diverse or population-based cohort should treat ADNI-trained model coefficients with caution.
+- How many African American participants are in ADNI-3/4 with plasma lipidomics — the PMC12445873 analysis uses ADNI-1/GO/2 only; newer phases may have enrolled additional AA participants.
+- Covariates in the AA sub-analysis are limited to age, sex, years of education — statin and antihypertensive medication confounders are not mentioned for that sub-population.
 
 ## Links
 
@@ -150,5 +184,5 @@ See separate entity: [[adni-go2-plasma-lipidomics-aa]]
 - Data provider: [[baker-heart-diabetes-institute]]
 - Platform: [[baker-institute-lipidomics-lc-ms-qqq]]
 - Lead PIs: [[michael-weiner-ucsf]], [[peter-meikle-baker-institute]], [[rima-kaddurah-daouk-duke]]
-- Co-investigators: [[andrew-saykin-indiana]], [[gabi-kastenmuller-helmholtz-munich]], [[wang-tingting-baker-institute]]
-- Sources: PMC12269576
+- Co-investigators: [[andrew-saykin-indiana]], [[gabi-kastenmuller-helmholtz-munich]], [[wang-tingting-baker-institute]], [[guoyou-qin-fudan]]
+- Sources: PMC12269576, PMC12445873

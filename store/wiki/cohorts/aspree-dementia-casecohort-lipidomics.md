@@ -16,17 +16,19 @@ modality:
   - plasma lipidomics
 provenance:
   sources: [PMC12269576]
-  last_compiled: 2026-04-06T00:00:00Z
+  last_compiled: 2026-04-07T00:00:00Z
   provenance_coverage:
     real_numbers: {status: covered, sources: 1}
     access_and_consent_scope: {status: covered, sources: 1}
     provenance_chain: {status: covered, sources: 1}
-    overall_depth: 0.14
+    longitudinal_structure: {status: covered, sources: 1}
+    demographic_composition: {status: covered, sources: 1}
+    overall_depth: 0.24
 referenced_by: []
 scoring:
   scale: {confidence: low}
   cost: {confidence: low}
-  quality: {provenance_depth: 0.14, confidence: low}
+  quality: {provenance_depth: 0.24, confidence: low}
 card:
   primary_signal: "402 incident dementia cases (6.5-year prospective follow-up) from a population-based Australian RCT (ASPREE); lipidomics on Baker Institute Agilent 6495C (781 species, same platform as ADNI); PI-request-only access."
   action: "Contact Paul Lacaze at Monash University upon reasonable request; budget 3–12 months and assume academic-only consent until confirmed."
@@ -46,6 +48,22 @@ The ASPREE (ASPirin in Reducing Events in the Elderly) Dementia Case-Cohort Lipi
 [ref: PMC12269576]
 
 402 incident dementia cases with 6.5-year prospective follow-up in a population-based setting (vs. clinic-recruited ADNI) make ASPREE a high-value validation platform for any blood-based AD biomarker. However, this is a case-enriched sub-cohort of the full ASPREE (n=19,114), so population weights are needed for any incidence rate calculations.
+
+## Longitudinal structure
+
+> "ASPREE is a large-scale randomised, double-blind, placebo-controlled trial that aimed to evaluate the effects of daily low-dose aspirin on prolonging disability-free survival in 19,114 healthy older adults (aged ≥70 years old)… the case-cohort subset (n = 3495) contained incident dementia (n = 402) with an average follow-up of 6.5 years"
+
+[ref: PMC12269576]
+
+A 6.5-year average prospective follow-up with 402 incident dementia events represents one of the longer and larger population-based lipidome-to-dementia event windows in the published literature, which means for the buyer's project that pre-diagnostic lipid trajectories over multi-year horizons can be assessed — though the ASPREE lipidomics data is a single time-point (baseline), not repeated measurements like ADNI.
+
+## Demographic composition
+
+> "we further refined the sub-cohort to include participants aged 70 years or older of European descent, excluding those genetically related to any other participants"
+
+[ref: PMC12269576]
+
+The sub-cohort is restricted to adults aged ≥70 of European genetic ancestry, which means for the buyer's project findings will not generalise to younger-onset dementia, non-European populations, or under-70s — a substantial limitation for commercial applications targeting diverse or younger populations.
 
 ## Access and consent scope
 

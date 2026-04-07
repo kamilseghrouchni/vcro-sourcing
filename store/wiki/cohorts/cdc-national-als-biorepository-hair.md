@@ -19,16 +19,18 @@ provenance:
     real_numbers: {status: covered, sources: 1}
     demographic_composition: {status: covered, sources: 1}
     collection_protocol_detail: {status: covered, sources: 1}
-    overall_depth: 0.14
+    access_and_consent_scope: {status: covered, sources: 1}
+    sponsor_and_funding: {status: covered, sources: 1}
+    overall_depth: 0.24
 referenced_by: []
 scoring:
   scale: {confidence: low}
   cost: {confidence: low}
-  quality: {provenance_depth: 0.14, confidence: low}
+  quality: {provenance_depth: 0.24, confidence: low}
 card:
   primary_signal: "165 ALS-positive cases only (no controls); nationwide US collection via CDC/ATSDR; more ethnically diverse than Dartmouth arm (18.8% non-White); mean time from diagnosis to hair collection 1 year (SD 2.04 years)."
   action: "Contact CDC/ATSDR HHEAR consortium for access terms; confirm whether physical hair strands or only processed elemental data are available."
-  risk: "Cases only — cannot support an independent case-control study. High variability in collection timing (SD 2.04 years from diagnosis). Single source — provenance depth very low."
+  risk: "Cases only — cannot support an independent case-control study. High variability in collection timing (SD 2.04 years from diagnosis). Single source — provenance depth low."
 ---
 
 # CDC National ALS Biorepository Hair Cohort
@@ -60,6 +62,22 @@ The CDC arm has 4x more non-White representation (18.8% vs 3.5%) than Dartmouth;
 [ref: PMC12444149]
 
 High SD in collection timing (2.04 years) means some CDC samples represent very different disease stages; which means for the buyer's project any time-from-diagnosis stratification analysis will require requesting individual-level timing data, currently not publicly available.
+
+## Access and consent scope
+
+> "Written and informed consent was obtained from each individual in this study. The institutional review boards at Icahn School of Medicine at Mount Sinai, Columbia University and Dartmouth University reviewed and approved this study (Dartmouth IRB Study# 00028053, Columbia University IRB Study# IRB-AAAT2263 and Mount Sinai IRB Study# IRB-16-00742)."
+
+[ref: PMC12444149]
+
+IRB approval at three institutions (Mount Sinai, Columbia, Dartmouth) and written informed consent are in place, which means for the buyer's project ethical and regulatory requirements for secondary use are grounded in documented approvals — but the CDC/ATSDR data access route (DUA, MTA, or consortium membership) is not described in the paper and must be confirmed directly with the HHEAR consortium.
+
+## Sponsor and funding
+
+> "10.13039/100000002US National Institutes of Health (P30ES023515, R01ES026033, U2CES030859, U2CES026561, R35ES030435, UL1TR004419, 1OT2NS136938-01, 1R01ES034133-01) and 10.13039/100005220CDC/ATSDR (R01TS000331, R01TS000324 and R01TS000285)."
+
+[ref: PMC12444149]
+
+Jointly funded by NIH (multiple grants including P30ES023515) and CDC/ATSDR (R01TS000331, R01TS000324, R01TS000285), which means for the buyer's project data-sharing obligations under NIH and CDC policy apply — favouring open access or structured sharing — but the specific access tier for the CDC National ALS Biorepository component requires direct inquiry to the HHEAR programme.
 
 ## Open questions
 

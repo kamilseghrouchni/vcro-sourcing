@@ -11,6 +11,7 @@ provenance:
 referenced_by:
   - {entity: dian-tu-001-gantenerumab-ole, relation: assay_platform}
   - {entity: dian-tu-001-gantenerumab-db, relation: assay_platform}
+  - {entity: dian-obs-natural-history, relation: assay_platform}
 card:
   primary_signal: "Primary amyloid imaging modality in DIAN-TU; annual PiB-PET at OLE baseline and each annual visit alongside CSF and blood collections; 11C tracer requires on-site cyclotron."
   action: "Use PiB-PET data via DIAN-TU data access portal (dian.wustl.edu); on-site 11C cyclotron required for any replication imaging study."

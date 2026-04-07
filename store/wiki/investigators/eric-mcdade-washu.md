@@ -10,6 +10,7 @@ provenance:
 referenced_by:
   - {entity: dian-tu-001-gantenerumab-ole, relation: co_investigator}
   - {entity: dian-tu-001-gantenerumab-db, relation: co_investigator}
+  - {entity: dian-obs-natural-history, relation: co_investigator}
 card:
   primary_signal: "Co-investigator at Washington University in St. Louis on the DIAN-TU-001 gantenerumab trials; key clinical operations lead for the DIAN-TU platform."
   action: "Contact via WashU DIAN-TU for clinical operations or data access queries."

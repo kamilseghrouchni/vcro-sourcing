@@ -12,6 +12,8 @@ provenance:
 referenced_by:
   - {entity: adni-phase1-serum-lipidomics, relation: sponsor}
   - {entity: adni-go2-plasma-lipidomics, relation: sponsor}
+  - {entity: bundle-ad-serum-mxp500-dua-2026-04-07, relation: composed_into}
+  - {entity: bundle-ad-multiplatform-metabolomics-2026-04-07, relation: composed_into}
 card:
   primary_signal: "ADMC is the consortium-level sponsor of ADNI metabolomics data, led by Rima Kaddurah-Daouk at Duke University, distributing lipidomics data via Baker Institute and the LONI portal."
   action: "Review entity; contact ADMC/Duke University team for lipidomics data access if LONI DUA is insufficient."

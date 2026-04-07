@@ -13,6 +13,7 @@ provenance:
 referenced_by:
   - {entity: adni-phase1-serum-lipidomics, relation: parent_institution}
   - {entity: adni-go2-plasma-lipidomics, relation: parent_institution}
+  - {entity: bundle-ad-plasma-lipidomics-dua-2026-04-07, relation: composed_into}
 card:
   primary_signal: "USC LONI hosts the ADNI data portal (ida.loni.usc.edu) and is the Data Coordinating Center for ADNI, distributing all ADNI data including serum and plasma lipidomics under a data use agreement."
   action: "Register and apply for data access at ida.loni.usc.edu; standard DUA process typically 2–4 months."

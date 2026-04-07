@@ -7,7 +7,9 @@ aliases:
 provenance:
   sources: [PMC10933579]
   last_compiled: 2026-04-07T00:00:00Z
-referenced_by: []
+referenced_by:
+  - {entity: bioivt-healthy-plasma-sncrna, relation: co_investigator}
+  - {entity: bioivt-mtb-plasma-sncrna, relation: co_investigator}
 card:
   primary_signal: "Co-investigator at Thomas Jefferson University on the BioIVT plasma sncRNA TB study; contributed to library preparation and bioinformatics analysis."
   action: "Contact Justin Gumas at TJU for methodology or data queries related to the BioIVT TB sncRNA study."

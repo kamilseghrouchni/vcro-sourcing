@@ -7,7 +7,8 @@ aliases:
 provenance:
   sources: [PMC11883504]
   last_compiled: 2026-04-07T00:00:00Z
-referenced_by: []
+referenced_by:
+  - {entity: amyloid-biomarker-study-pooled, relation: co_investigator}
 card:
   primary_signal: "Senior author on the Amyloid Biomarker Study pooled cohort paper; specific institutional affiliation not stated in captured text — confidence low pending verification."
   action: "Look up Pieter Jelle Visser affiliation from full paper to identify primary institution and data access contact."

@@ -1,0 +1,212 @@
+{
+  "request_id": "ad-plasma-metabolomics-biomarker-validation",
+  "scored_at": "2026-04-07T00:00:00Z",
+  "candidates": [
+    {
+      "entity_id": "adni-go2-plasma-lipidomics",
+      "scale": {
+        "usable_n": 1517,
+        "usable_n_evidence": "entity article, Real numbers section: 'we retained a total of 4730 samples from 1519 participants. Of these, 1393 participants had plasma lipidome profiling since baseline.' [ref: PMC12269576]",
+        "usable_n_for_request": 580,
+        "usable_n_for_request_reason": "Of 1517 participants, the AD-vs-CN discriminator training set comprises 580 subjects (243 stable AD + 337 stable CN); for an AD biomarker validation buyer needing longitudinal AD cases with ≥2 timepoints, 329 MCI-to-AD converters + 243 stable AD = ~572 actionable AD-spectrum subjects. Comfortably exceeds n_target=200.",
+        "n_confidence": "medium",
+        "multi_site_potential": "Can be aggregated with aspree-dementia-casecohort-lipidomics (n=3495, same Baker Institute platform) for cross-cohort validation; same LC-MS/MS QqQ methodology enables direct comparison per PMC12269576.",
+        "axis_summary": "580 usable AD-spectrum subjects with longitudinal data; exceeds 200 target; confidence medium because exact statin-naive subset size is not stated in the article."
+      },
+      "cost": {
+        "legs": {
+          "source": {
+            "estimate": "free (data only)",
+            "currency": null,
+            "evidence": "pricing-data.md, Open Research Cohorts section: 'ADNI — Data access: free via LONI portal (https://ida.loni.usc.edu)'; entity article access_and_consent_scope: 'ADNI data are publicly available through the AD Knowledge Portal and the Laboratory of Neuro Imaging Image and Data Archive.'",
+            "note": "Data access is free under DUA; the ADMC lipidomics layer may require a separate request — treat as 'free but DUA overhead' (~EUR 5K–15K legal/admin per pricing-data.md Gaps section)."
+          },
+          "screening_qa": {
+            "estimate": "quote required",
+            "currency": "EUR",
+            "evidence": "No published price for ADNI lipidomics-specific QA re-run; statin covariate model must be applied by buyer or confirmed as pre-applied in the data download. Buyer QA effort not priced in wiki.",
+            "note": "If buyer accepts the published statin-covariate-adjusted dataset without re-QA, cost is analyst time only (~EUR 2K–5K estimated); if buyer requires a clean statin-excluded re-extraction, quote required from Baker Institute."
+          },
+          "assay": {
+            "estimate": "already performed",
+            "currency": null,
+            "evidence": "entity article: 'Lipidomic profiling in the ADNI study was performed on all plasma samples (n = 4730) using our recently expanded targeted lipidomic profiling strategy' [ref: PMC12269576]. Data are downloadable as metabolite concentration matrices.",
+            "note": "Buyer receives pre-processed metabolite data; no re-assay needed unless buyer requires raw instrument files or a fresh run on a different sub-cohort."
+          }
+        },
+        "total_known_low": 5000,
+        "total_known_high": 20000,
+        "currency": "EUR",
+        "within_budget": "yes",
+        "unknowns": ["DUA legal/admin cost (EUR 5K–15K estimated per pricing-data.md Gaps section)", "ADMC/Duke University separate agreement cost (if required)", "statin re-QA cost if buyer rejects covariate-adjusted data"],
+        "timeline": "2–5 months (DUA processing 2–4 months per entity article + data download ~2 weeks). Tight but possible within 6-month window if DUA starts immediately.",
+        "axis_summary": "Source is free; assay already performed; DUA overhead is the main cost driver at EUR 5K–15K. Well within EUR 50K budget even accounting for unknowns. Timeline is the greater risk — 6-month DUA-to-delivery is achievable but not guaranteed."
+      },
+      "quality": {
+        "provenance_depth": 0.57,
+        "depth_decomposition": {
+          "covered_dimensions": [
+            "real_numbers",
+            "longitudinal_structure",
+            "demographic_composition",
+            "medication_and_lifestyle_confounders",
+            "co_modalities",
+            "effect_sizes_and_model_performance",
+            "replication_and_validation",
+            "access_and_consent_scope",
+            "sample_usability",
+            "negative_results",
+            "sponsor_and_funding",
+            "biospecimen_retention_and_types"
+          ],
+          "missing_dimensions": [
+            "collection_protocol_details",
+            "biobank_storage_conditions",
+            "eligibility_criteria",
+            "pre_analytical_handling",
+            "site_harmonisation",
+            "geographic_distribution",
+            "data_dictionary_and_variables",
+            "regulatory_and_ethics",
+            "cost_and_pricing"
+          ]
+        },
+        "pre_analytical": {
+          "fasting": "documented — fasting rate 94.8–96.4% across diagnostic groups [ref: PMC12269576]; near-universal fasting is a strength for plasma lipidomics reproducibility",
+          "tube_type": "plasma confirmed; EDTA/heparin not specified in the primary paper — ADNI biospecimen protocol paper (Huynh et al. 2018) needed for tube type confirmation",
+          "freeze_thaw": "cycle count not stated in PMC12269576; ADNI biospecimen protocol paper referenced but not extracted into wiki yet — gap",
+          "verdict": "partial — fasting (load-bearing for lipidomics) is well documented; tube type and freeze-thaw cycles are gaps that should be confirmed before committing"
+        },
+        "confounders": {
+          "medication_statins": "EXPLICITLY DOCUMENTED: '423 lipid species significantly associated with statin usage (Supplementary Table S6)... after multiple testing correction' [ref: PMC12269576]. Statins are modelled as a covariate, not excluded. Buyer's hard negative 'statin-confounded samples not acceptable' requires buyer to confirm whether covariate adjustment satisfies their criterion.",
+          "medication_omega3": "DOCUMENTED: '398 lipid species associated with omega-3 usage (Supplementary Table S7)' — modelled as covariate",
+          "apoe": "DOCUMENTED: APOE ε4 % provided by diagnostic group; enriched above population frequency by ADNI recruitment design",
+          "verdict": "partial — statins are the request's named hard negative; they are documented and modelled but NOT excluded from the sample set. This is the primary quality risk for this request."
+        },
+        "platform_validation": {
+          "platform": "baker-institute-lipidomics-lc-ms-qqq",
+          "referenced_by_count": 2,
+          "external_replication": "ASPREE (n=3495) on same Baker Institute platform confirmed ether lipid signal (C-index 0.75) [ref: PMC12269576]",
+          "verdict": "good — cross-cohort replication on the same platform with a different disease definition (community dementia vs ADNI AD) confirms platform reproducibility"
+        },
+        "axis_summary": "Pre-analytical partially documented (fasting strong, FT cycles unknown); statins documented and modelled but not excluded — this is the dominant quality risk given the buyer's hard negative. Platform validated in ASPREE. Depth 0.57 = medium confidence."
+      },
+      "axis_confidences": {
+        "scale": "medium",
+        "cost": "medium",
+        "quality": "medium"
+      },
+      "card_for_delivery": {
+        "primary_signal": "580 usable AD-spectrum subjects (≥200 target met) from ADNI-1/GO/2; plasma lipidomics already performed (Baker Institute, 781 species); data free under DUA; EUR 5K–20K all-in estimate vs EUR 50K budget.",
+        "action": "Confirm with ADNI/ADMC whether the downloadable dataset includes statin-covariate-adjusted metabolite matrix; if so, start DUA application immediately at ida.loni.usc.edu to meet 6-month timeline.",
+        "risk": "Statin hard negative: 423 lipid species affected; ADNI provides covariate-adjusted (not statin-excluded) data — buyer must confirm this satisfies 'not acceptable' requirement before proceeding."
+      }
+    },
+    {
+      "entity_id": "adni-go2-serum-metabolomics-mxp500",
+      "scale": {
+        "usable_n": 1430,
+        "usable_n_evidence": "entity article: 'N: 1,430 participants; 4,063 samples. Diagnostic breakdown: CN n=383, stable MCI n=423, MCI converters (CN→MCI) n=66, AD converters (CN/MCI→AD) n=294, AD n=264.' [ref: PMC12706616]",
+        "usable_n_for_request": 558,
+        "usable_n_for_request_reason": "AD converters (n=294) + prevalent AD (n=264) = 558 AD-spectrum subjects with longitudinal data; exceeds n_target=200. Baseline/12mo/24mo timepoints available for most, giving 3-point trajectory minimum.",
+        "n_confidence": "high",
+        "multi_site_potential": "Can be combined with adni-go2-plasma-lipidomics for a multi-platform AD metabolomics bundle (lipidomics + broad metabolomics on overlapping ADNI-1/GO/2 participants); 68.25% cross-platform lipid replication rate documented internally [ref: PMC12706616].",
+        "axis_summary": "558 AD-spectrum subjects usable; exceeds 200 target; confidence high (numbers directly quoted in entity article)."
+      },
+      "cost": {
+        "legs": {
+          "source": {
+            "estimate": "free (data only)",
+            "currency": null,
+            "evidence": "pricing-data.md: 'ADNI — Data access: free via LONI portal'; entity article: 'Access: AD Knowledge Portal for metabolomics data; LONI for clinical/demographic data; two separate DUA processes required.'",
+            "note": "Two separate DUAs required (AD Knowledge Portal + LONI); legal/admin overhead may be EUR 10K–25K for dual-DUA vs single-DUA process."
+          },
+          "screening_qa": {
+            "estimate": "EUR 2,000–5,000 (analyst time, estimated)",
+            "currency": "EUR",
+            "evidence": "No published price for ADNI serum metabolomics QA; estimate based on analyst time to apply the published Boruta medication-metabolite adjustment model (~2–5 days analyst effort at academic core rates).",
+            "note": "Statin and medication confounders are documented via Boruta modelling (41 baseline + 21 longitudinal medication-metabolite associations); buyer may need to apply this model to the downloaded data or request the pre-adjusted matrix."
+          },
+          "assay": {
+            "estimate": "already performed",
+            "currency": null,
+            "evidence": "entity article: 'The ADNI-1/GO/2 Longitudinal Serum Metabolomics Cohort (MXP Quant 500) is the largest longitudinal blood metabolomics study in Alzheimer's disease published to date.' [ref: PMC12706616]. Downloadable as metabolite concentration matrices at AD Knowledge Portal.",
+            "note": "Biocrates MXP Quant 500 kit data already generated; buyer receives 506 post-QC metabolite profiles per sample."
+          }
+        },
+        "total_known_low": 7000,
+        "total_known_high": 30000,
+        "currency": "EUR",
+        "within_budget": "yes",
+        "unknowns": ["Dual DUA legal/admin overhead (EUR 10K–25K estimated)", "ADMC/Duke data layer separate agreement cost (if required for MXP500 data)", "statin re-QA cost if buyer requires a clean statin-excluded subset rather than covariate-adjusted"],
+        "timeline": "3–6 months (dual DUA 3–5 months per entity article + data download ~2 weeks). Tight for 6-month window; timeline risk is higher than for the single-DUA lipidomics cohort.",
+        "axis_summary": "Source is free; assay already performed; screening QA estimated EUR 2K–5K; dual DUA overhead EUR 10K–25K. Total EUR 12K–30K — within budget. Timeline is the dominant risk: dual DUA may push past 6 months."
+      },
+      "quality": {
+        "provenance_depth": 0.62,
+        "depth_decomposition": {
+          "covered_dimensions": [
+            "real_numbers",
+            "longitudinal_structure",
+            "demographic_composition",
+            "medication_and_lifestyle_confounders",
+            "co_modalities",
+            "effect_sizes_and_model_performance",
+            "replication_and_validation",
+            "access_and_consent_scope",
+            "sample_usability",
+            "negative_results",
+            "sponsor_and_funding",
+            "biospecimen_retention_and_types",
+            "eligibility_criteria"
+          ],
+          "missing_dimensions": [
+            "collection_protocol_details",
+            "biobank_storage_conditions",
+            "pre_analytical_handling",
+            "site_harmonisation",
+            "geographic_distribution",
+            "data_dictionary_and_variables",
+            "regulatory_and_ethics",
+            "cost_and_pricing"
+          ]
+        },
+        "pre_analytical": {
+          "fasting": "documented — non-fasting samples removed (n=284 samples, 15 subjects) per entity article; Met-So QC applied [ref: PMC12706616]",
+          "tube_type": "serum (not plasma); 10 µL aliquots; fasting serum confirmed",
+          "matrix_note": "SERUM not PLASMA — buyer specified plasma; serum is a close surrogate for targeted metabolomics but not identical for certain lipid species. Surface explicitly to buyer.",
+          "freeze_thaw": "not stated in entity article — gap",
+          "verdict": "partial — fasting documented and enforced (non-fasting removed); serum vs plasma matrix mismatch with buyer's request is the load-bearing pre-analytical concern"
+        },
+        "confounders": {
+          "medication_statins": "EXPLICITLY MODELLED: 'Medication confounding formally modelled by Boruta feature selection: 41 baseline and 21 longitudinal medication-metabolite associations identified.' [ref: PMC12706616]. Statins are among the medication covariates; not excluded from sample set.",
+          "dietary": "NOT DOCUMENTED: 'Dietary intake and gut microbiome not captured — unresolved confound for bile acid and tryptophan pathway findings.' — gap for bile acid and tryptophan analyses specifically",
+          "apoe": "DOCUMENTED: APOE genotype available as co-modality; ADNI APOE e4 enrichment applies",
+          "verdict": "partial — statins modelled (not excluded) as in the lipidomics cohort; dietary confounding is an additional gap not present in adni-go2-plasma-lipidomics"
+        },
+        "platform_validation": {
+          "platform": "biocrates-mxp-quant-500",
+          "referenced_by_count": 1,
+          "cross_platform_replication": "68.25% of mappable lipids replicated in independent ADNI lipidomics dataset; persistent-class replication rate 85.51% [ref: PMC12706616]",
+          "verdict": "good — strong internal cross-platform replication; no external cohort replication (weakness vs adni-go2-plasma-lipidomics which has ASPREE)"
+        },
+        "axis_summary": "Depth 0.62 (best of the two candidates); fasting enforced; serum not plasma (matrix mismatch); statins modelled not excluded; dietary confounding unresolved; strong internal platform replication but no external cohort. Quality confidence: high on documented dimensions, but matrix mismatch with buyer's 'plasma' requirement is unresolved."
+      },
+      "axis_confidences": {
+        "scale": "high",
+        "cost": "medium",
+        "quality": "high"
+      },
+      "card_for_delivery": {
+        "primary_signal": "558 AD-spectrum subjects (AD converters n=294 + prevalent AD n=264); serum targeted metabolomics already performed (Biocrates MXP500, 506 metabolites); data free under dual DUA; EUR 7K–30K all-in estimate vs EUR 50K budget.",
+        "action": "Confirm serum vs plasma acceptability with buyer; if acceptable, initiate dual DUA applications (AD Knowledge Portal + LONI) simultaneously; apply Boruta medication model to handle statin confounding in downloaded data.",
+        "risk": "Serum matrix (not plasma as requested); statin confounding modelled but not excluded; dual DUA may push access timeline past 6 months."
+      }
+    }
+  ],
+  "axis_legend": {
+    "scale": "Usable N for THIS request, with confidence. Not headline N.",
+    "cost": "Three legs (source + screening_qa + assay), explicit unknowns, no composite total when unknowns exist.",
+    "quality": "Pre-analytical, confounders, platform validation, and provenance depth. Statin confounding is the buyer's hard negative and drives confounder verdicts."
+  }
+}

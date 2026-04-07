@@ -7,6 +7,9 @@ aliases:
 provenance:
   sources: [PMC12706616]
   last_compiled: "2026-04-07"
+referenced_by:
+  - {entity: bundle-ad-serum-mxp500-dua-2026-04-07, relation: composed_into}
+  - {entity: bundle-ad-multiplatform-metabolomics-2026-04-07, relation: composed_into}
 card:
   primary_signal: Expanded Biocrates targeted kit covering 624 metabolites — approximately 3× the coverage of p180; used for the ADNI-1/GO/2 longitudinal serum metabolomics cohort (n=1430, 4063 samples); absolute quantification.
   action: Order kit from Biocrates (biocrates.com); requires 10–20 µL serum/plasma; validated on ADNI longitudinal samples at Helmholtz Munich/Duke ADMC.

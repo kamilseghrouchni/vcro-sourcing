@@ -22,6 +22,9 @@ scoring:
   scale:   {confidence: high}
   cost:    {confidence: medium}
   quality: {provenance_depth: 0.62, confidence: high}
+referenced_by:
+  - {entity: bundle-ad-serum-mxp500-dua-2026-04-07, relation: composed_into}
+  - {entity: bundle-ad-multiplatform-metabolomics-2026-04-07, relation: composed_into}
 ---
 
 ## Overview

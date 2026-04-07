@@ -14,6 +14,8 @@ provenance:
 referenced_by:
   - {entity: adni-go2-plasma-lipidomics, relation: assay_platform}
   - {entity: aspree-dementia-casecohort-lipidomics, relation: assay_platform}
+  - {entity: bundle-ad-plasma-lipidomics-dua-2026-04-07, relation: composed_into}
+  - {entity: bundle-ad-multiplatform-metabolomics-2026-04-07, relation: composed_into}
 card:
   primary_signal: "Baker Institute targeted LC-MS/MS QqQ platform (Agilent 6490/6495C, dMRM, 781 lipid species, 49 lipid classes) generated lipidomics data for both ADNI (n=4730 plasma samples) and ASPREE (n=3495) with NIST SRM 1950 QC every 40 samples."
   action: "Review platform details at metabolomics.baker.edu.au/method; contact Peter Meikle at Baker Institute for platform specifications and cross-cohort harmonisation methodology."

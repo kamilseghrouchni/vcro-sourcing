@@ -63,6 +63,29 @@ First resolve dry run on PMC10103184 + PMC12269576 + PMC10834248 produced two mi
 
 Re-run resolve on the same three papers immediately after the fix and confirm the diff is exactly: Weiner slug change + UC Davis relation split. No other deltas should appear; if they do, the prompt change had unintended scope.
 
+## 2026-04-07 — Bounty multi-source bundle schema gap (caught by first live test)
+
+The first live `vcro-bounty` end-to-end run produced 3 bundles cleanly, but the multi-source bundle (`bundle-ad-multiplatform-metabolomics-2026-04-07`) hit a real schema mismatch:
+
+- The format skill (`.claude/skills/query/bounty/format/SKILL.md`) describes `composition.source.entity` as a single slug per leg.
+- The `vcro-bounty` agent spec describes multi-source bundles as aggregating 2-3 cohort entities in the source leg.
+- The two contracts conflict: the format skill enforces one slug per leg, the bounty agent assumes multiple.
+
+The agent worked around it by embedding the secondary cohort in the contribution text and listing both in `provenance.composed_from`. The bundle landed and the hook accepted it, but the structured projection that the web app would read (the `composition.source.entity` field) only carries one slug.
+
+**Fix options** (deferred until the webapp build forces a decision):
+1. Add a `source.entities: [<slug>, ...]` list field for multi-source bundles. Cleanest, but breaks the symmetry with screening_qa and assay legs.
+2. Document the "primary + additional in provenance.composed_from" pattern in the format skill explicitly. Backwards-compatible, weakens the schema contract.
+3. Split multi-source bundles into N single-source bundles at compose time. Simplest enforcement, but the buyer loses the "this is one procurement package" framing.
+
+**Revisit when**: the webapp's bundle card needs to render multi-source bundles. Until then the workaround holds and lint will not flag it.
+
+## 2026-04-07 — Onboard compliance skill: abstract-only cohorts produce all-unknown tables
+
+The first live `vcro-onboard` run on `university-of-michigan-neurology` produced a `compliance.md` where every consent classification is "unknown" because the cohort's source paper is abstract-only and the access_and_consent_scope dimension only captured the publisher copyright notice. This is the correct honest output but reads as sparse and could confuse a future operator.
+
+**Fix**: add a one-line note to `.claude/skills/catalog/compliance/SKILL.md` acknowledging that abstract-only cohorts will produce all-unknown tables and that this is correct, not a failure mode. Cosmetic; deferred.
+
 
 
 

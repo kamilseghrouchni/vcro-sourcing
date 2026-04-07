@@ -10,6 +10,7 @@ provenance:
   last_compiled: 2026-04-07T00:00:00Z
 referenced_by:
   - {entity: lleida-ad-mci-plasma-csf-gcfid, relation: data_provider}
+  - {entity: pablo-de-olavide-healthy-amyloid-pet-controls, relation: collection_site}
 card:
   primary_signal: "Spanish public biobank (B.0000682) holding plasma, CSF, and DNA from the Lleida AD/MCI cohort; registered with PLATAFORMA BIOBANCOS PT17/0015/0027."
   action: "Submit biobank request to IRBLleida (B.0000682) via PLATAFORMA BIOBANCOS; contact Farida Dakterzada for guidance."
