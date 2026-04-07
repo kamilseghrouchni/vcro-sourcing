@@ -1,0 +1,1710 @@
+{
+  "generated_at": "2026-04-07T17:16:18.616225+00:00",
+  "wiki_root": "store/wiki",
+  "entity_count": 219,
+  "thresholds": {
+    "depth": 0.6,
+    "staleness_days": 365
+  },
+  "gaps": [
+    {
+      "entity_id": "pablo-de-olavide-healthy-amyloid-pet-controls",
+      "type": "cohort",
+      "depth": 0.05,
+      "covered_dims": [
+        "real_numbers"
+      ],
+      "sources": [
+        "PMC11095469"
+      ],
+      "path": "store/wiki/cohorts/pablo-de-olavide-healthy-amyloid-pet-controls.md"
+    },
+    {
+      "entity_id": "uganda-gpc-ugr",
+      "type": "cohort",
+      "depth": 0.05,
+      "covered_dims": [
+        "negative_results"
+      ],
+      "sources": [
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/uganda-gpc-ugr.md"
+    },
+    {
+      "entity_id": "dian-obs-natural-history",
+      "type": "cohort",
+      "depth": 0.1,
+      "covered_dims": [
+        "real_numbers",
+        "co_modalities_and_multi_omics_value"
+      ],
+      "sources": [
+        "PMC12042767"
+      ],
+      "path": "store/wiki/cohorts/dian-obs-natural-history.md"
+    },
+    {
+      "entity_id": "gse148097-als-serum-sncrna",
+      "type": "cohort",
+      "depth": 0.1,
+      "covered_dims": [
+        "real_numbers",
+        "access_and_consent_scope"
+      ],
+      "sources": [
+        "PMC12208959"
+      ],
+      "path": "store/wiki/cohorts/gse148097-als-serum-sncrna.md"
+    },
+    {
+      "entity_id": "million-veteran-program",
+      "type": "cohort",
+      "depth": 0.1,
+      "covered_dims": [
+        "real_numbers",
+        "eligibility_criteria"
+      ],
+      "sources": [
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/million-veteran-program.md"
+    },
+    {
+      "entity_id": "aspree-dementia-casecohort-lipidomics",
+      "type": "cohort",
+      "depth": 0.14,
+      "covered_dims": [
+        "real_numbers",
+        "access_and_consent_scope",
+        "provenance_chain"
+      ],
+      "sources": [
+        "PMC12269576"
+      ],
+      "path": "store/wiki/cohorts/aspree-dementia-casecohort-lipidomics.md"
+    },
+    {
+      "entity_id": "biome-biobank-mount-sinai",
+      "type": "cohort",
+      "depth": 0.14,
+      "covered_dims": [
+        "real_numbers",
+        "demographic_composition",
+        "access_and_consent_scope"
+      ],
+      "sources": [
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/biome-biobank-mount-sinai.md"
+    },
+    {
+      "entity_id": "cdc-national-als-biorepository-hair",
+      "type": "cohort",
+      "depth": 0.14,
+      "covered_dims": [
+        "real_numbers",
+        "demographic_composition",
+        "collection_protocol_detail"
+      ],
+      "sources": [
+        "PMC12444149"
+      ],
+      "path": "store/wiki/cohorts/cdc-national-als-biorepository-hair.md"
+    },
+    {
+      "entity_id": "dpp-lookahead-ili-genomics",
+      "type": "cohort",
+      "depth": 0.14,
+      "covered_dims": [
+        "real_numbers",
+        "eligibility_criteria",
+        "effect_sizes_and_model_performance"
+      ],
+      "sources": [
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/dpp-lookahead-ili-genomics.md"
+    },
+    {
+      "entity_id": "mayo-brain-bank-rnaseq-adkp",
+      "type": "cohort",
+      "depth": 0.19,
+      "covered_dims": [],
+      "sources": [
+        "PMC12789652"
+      ],
+      "path": "store/wiki/cohorts/mayo-brain-bank-rnaseq-adkp.md"
+    },
+    {
+      "entity_id": "msbb-brain-rnaseq-adkp",
+      "type": "cohort",
+      "depth": 0.19,
+      "covered_dims": [],
+      "sources": [
+        "PMC12789652"
+      ],
+      "path": "store/wiki/cohorts/msbb-brain-rnaseq-adkp.md"
+    },
+    {
+      "entity_id": "uk-biobank-plasma-nmr-metabolomics",
+      "type": "cohort",
+      "depth": 0.19,
+      "covered_dims": [
+        "real_numbers",
+        "demographic_composition",
+        "access_and_consent_scope",
+        "effect_sizes_and_model_performance"
+      ],
+      "sources": [
+        "PMC10873397",
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/uk-biobank-plasma-nmr-metabolomics.md"
+    },
+    {
+      "entity_id": "epi-me-mecfs-validation-cornwall",
+      "type": "cohort",
+      "depth": 0.24,
+      "covered_dims": [],
+      "sources": [
+        "PMC12506310"
+      ],
+      "path": "store/wiki/cohorts/epi-me-mecfs-validation-cornwall.md"
+    },
+    {
+      "entity_id": "harbin-first-hospital-als-qpcr-validation",
+      "type": "cohort",
+      "depth": 0.24,
+      "covered_dims": [],
+      "sources": [
+        "PMC12753664"
+      ],
+      "path": "store/wiki/cohorts/harbin-first-hospital-als-qpcr-validation.md"
+    },
+    {
+      "entity_id": "nbb-als-spinalcord-postmortem",
+      "type": "cohort",
+      "depth": 0.24,
+      "covered_dims": [],
+      "sources": [
+        "PMC12603167"
+      ],
+      "path": "store/wiki/cohorts/nbb-als-spinalcord-postmortem.md"
+    },
+    {
+      "entity_id": "amyloid-biomarker-study-pooled",
+      "type": "cohort",
+      "depth": 0.29,
+      "covered_dims": [
+        "real_numbers",
+        "multi_site_recruitment",
+        "eligibility_criteria",
+        "clinical_endpoints_and_scales",
+        "negative_results",
+        "longitudinal_structure"
+      ],
+      "sources": [
+        "PMC11883504"
+      ],
+      "path": "store/wiki/cohorts/amyloid-biomarker-study-pooled.md"
+    },
+    {
+      "entity_id": "delcode-urine-nmr-metabolomics",
+      "type": "cohort",
+      "depth": 0.29,
+      "covered_dims": [
+        "real_numbers",
+        "sample_usability",
+        "collection_protocol_detail",
+        "demographic_composition",
+        "access_and_consent_scope",
+        "sponsor_and_funding"
+      ],
+      "sources": [
+        "PMC10937638"
+      ],
+      "path": "store/wiki/cohorts/delcode-urine-nmr-metabolomics.md"
+    },
+    {
+      "entity_id": "rosmap-brain-rnaseq-adkp",
+      "type": "cohort",
+      "depth": 0.29,
+      "covered_dims": [],
+      "sources": [
+        "PMC12789652"
+      ],
+      "path": "store/wiki/cohorts/rosmap-brain-rnaseq-adkp.md"
+    },
+    {
+      "entity_id": "rotterdam-study-bile-acid-genetics",
+      "type": "cohort",
+      "depth": 0.29,
+      "covered_dims": [],
+      "sources": [
+        "PMC6487485"
+      ],
+      "path": "store/wiki/cohorts/rotterdam-study-bile-acid-genetics.md"
+    },
+    {
+      "entity_id": "wadrc-wrap-stool-metagenomics",
+      "type": "cohort",
+      "depth": 0.29,
+      "covered_dims": [
+        "real_numbers",
+        "collection_protocol_detail",
+        "confounders_and_exposures",
+        "negative_results",
+        "access_and_consent_scope",
+        "co_modalities_and_multi_omics_value"
+      ],
+      "sources": [
+        "PMC10937638"
+      ],
+      "path": "store/wiki/cohorts/wadrc-wrap-stool-metagenomics.md"
+    },
+    {
+      "entity_id": "adni-go2-plasma-lipidomics-aa",
+      "type": "cohort",
+      "depth": 0.33,
+      "covered_dims": [
+        "real_numbers",
+        "demographic_composition",
+        "co_modalities_and_multi_omics_value",
+        "access_and_consent_scope",
+        "negative_results",
+        "sponsor_and_funding",
+        "biospecimen_retention_and_types"
+      ],
+      "sources": [
+        "PMC12445873"
+      ],
+      "path": "store/wiki/cohorts/adni-go2-plasma-lipidomics-aa.md"
+    },
+    {
+      "entity_id": "adni-plasma-bmi-pet-subcohort-407",
+      "type": "cohort",
+      "depth": 0.33,
+      "covered_dims": [],
+      "sources": [
+        "PMC12738121"
+      ],
+      "path": "store/wiki/cohorts/adni-plasma-bmi-pet-subcohort-407.md"
+    },
+    {
+      "entity_id": "blsa-autopsy-brain-metabolomics",
+      "type": "cohort",
+      "depth": 0.33,
+      "covered_dims": [],
+      "sources": [
+        "PMC5784884"
+      ],
+      "path": "store/wiki/cohorts/blsa-autopsy-brain-metabolomics.md"
+    },
+    {
+      "entity_id": "adni2-plasma-mirna-cn-mci-baseline",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [],
+      "sources": [
+        "PMC13032452"
+      ],
+      "path": "store/wiki/cohorts/adni2-plasma-mirna-cn-mci-baseline.md"
+    },
+    {
+      "entity_id": "ages-reykjavik-serum-metabolomics-ad",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [],
+      "sources": [
+        "PMC4947451"
+      ],
+      "path": "store/wiki/cohorts/ages-reykjavik-serum-metabolomics-ad.md"
+    },
+    {
+      "entity_id": "bioivt-healthy-plasma-sncrna",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [
+        "sample_usability",
+        "real_numbers",
+        "demographic_composition",
+        "eligibility_criteria",
+        "provenance_chain",
+        "collection_protocol_detail",
+        "access_and_consent_scope",
+        "sponsor_and_funding"
+      ],
+      "sources": [
+        "PMC10933579"
+      ],
+      "path": "store/wiki/cohorts/bioivt-healthy-plasma-sncrna.md"
+    },
+    {
+      "entity_id": "bioivt-mtb-plasma-sncrna",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [
+        "sample_usability",
+        "real_numbers",
+        "demographic_composition",
+        "eligibility_criteria",
+        "provenance_chain",
+        "collection_protocol_detail",
+        "access_and_consent_scope",
+        "sponsor_and_funding"
+      ],
+      "sources": [
+        "PMC10933579"
+      ],
+      "path": "store/wiki/cohorts/bioivt-mtb-plasma-sncrna.md"
+    },
+    {
+      "entity_id": "cagliari-als-sardinian-casecontrol-2023",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [],
+      "sources": [
+        "PMC12907680"
+      ],
+      "path": "store/wiki/cohorts/cagliari-als-sardinian-casecontrol-2023.md"
+    },
+    {
+      "entity_id": "french-sma-nusinersen-csf-multiomics",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [],
+      "sources": [
+        "PMC12996660"
+      ],
+      "path": "store/wiki/cohorts/french-sma-nusinersen-csf-multiomics.md"
+    },
+    {
+      "entity_id": "rosmap-serum-brain-bile-acid",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [],
+      "sources": [
+        "PMC6487485"
+      ],
+      "path": "store/wiki/cohorts/rosmap-serum-brain-bile-acid.md"
+    },
+    {
+      "entity_id": "shandong-ad-urine-lcms-metabolomics",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [
+        "real_numbers",
+        "sample_usability",
+        "demographic_composition",
+        "confounders_and_exposures",
+        "collection_protocol_detail",
+        "effect_sizes_and_model_performance",
+        "access_and_consent_scope",
+        "replication_and_validation"
+      ],
+      "sources": [
+        "PMC11807997"
+      ],
+      "path": "store/wiki/cohorts/shandong-ad-urine-lcms-metabolomics.md"
+    },
+    {
+      "entity_id": "sod1g93a-mouse-irccs-san-martino",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [
+        "real_numbers",
+        "longitudinal_structure",
+        "sample_usability",
+        "collection_protocol_detail",
+        "effect_sizes_and_model_performance",
+        "negative_results",
+        "sponsor_and_funding",
+        "access_and_consent_scope"
+      ],
+      "sources": [
+        "PMC12190601"
+      ],
+      "path": "store/wiki/cohorts/sod1g93a-mouse-irccs-san-martino.md"
+    },
+    {
+      "entity_id": "umich-als-fibroblast-mirna-c9",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [],
+      "sources": [
+        "PMC9990999"
+      ],
+      "path": "store/wiki/cohorts/umich-als-fibroblast-mirna-c9.md"
+    },
+    {
+      "entity_id": "university-of-michigan-als-microbiome-metabolomics",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [
+        "co_modalities",
+        "longitudinal_structure",
+        "effect_sizes_and_model_performance",
+        "negative_results",
+        "sponsor_and_funding",
+        "access_and_consent_scope",
+        "sample_usability",
+        "real_numbers"
+      ],
+      "sources": [
+        "PMC10834248"
+      ],
+      "path": "store/wiki/cohorts/university-of-michigan-als-microbiome-metabolomics.md"
+    },
+    {
+      "entity_id": "wicell-als-ipsc-c9-tdp43-sod1",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [],
+      "sources": [
+        "PMC12603167"
+      ],
+      "path": "store/wiki/cohorts/wicell-als-ipsc-c9-tdp43-sod1.md"
+    },
+    {
+      "entity_id": "xjtu-second-sma-typeiii-nusinersen",
+      "type": "cohort",
+      "depth": 0.38,
+      "covered_dims": [],
+      "sources": [
+        "PMC12488785"
+      ],
+      "path": "store/wiki/cohorts/xjtu-second-sma-typeiii-nusinersen.md"
+    },
+    {
+      "entity_id": "adni-multiwave-csf-plasma-biomarker",
+      "type": "cohort",
+      "depth": 0.43,
+      "covered_dims": [],
+      "sources": [
+        "PMC12795606"
+      ],
+      "path": "store/wiki/cohorts/adni-multiwave-csf-plasma-biomarker.md"
+    },
+    {
+      "entity_id": "alspac-offspring-plasma-nmr-metabolomics",
+      "type": "cohort",
+      "depth": 0.43,
+      "covered_dims": [
+        "real_numbers",
+        "sample_usability",
+        "longitudinal_structure",
+        "confounders_and_exposures",
+        "demographic_composition",
+        "co_modalities_and_multi_omics_value",
+        "negative_results",
+        "sponsor_and_funding",
+        "access_and_consent_scope"
+      ],
+      "sources": [
+        "PMC10873397",
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/alspac-offspring-plasma-nmr-metabolomics.md"
+    },
+    {
+      "entity_id": "cgmh-als-plasma-metabolomics-biocrates-p180",
+      "type": "cohort",
+      "depth": 0.43,
+      "covered_dims": [],
+      "sources": [
+        "PMC8699018"
+      ],
+      "path": "store/wiki/cohorts/cgmh-als-plasma-metabolomics-biocrates-p180.md"
+    },
+    {
+      "entity_id": "dartmouth-als-biobank-hair",
+      "type": "cohort",
+      "depth": 0.43,
+      "covered_dims": [
+        "real_numbers",
+        "demographic_composition",
+        "sample_usability",
+        "collection_protocol_detail",
+        "access_and_consent_scope",
+        "sponsor_and_funding",
+        "confounders_and_exposures",
+        "replication_and_validation",
+        "effect_sizes_and_model_performance"
+      ],
+      "sources": [
+        "PMC12444149"
+      ],
+      "path": "store/wiki/cohorts/dartmouth-als-biobank-hair.md"
+    },
+    {
+      "entity_id": "epi-me-mecfs-discovery-lshtm",
+      "type": "cohort",
+      "depth": 0.43,
+      "covered_dims": [],
+      "sources": [
+        "PMC12506310"
+      ],
+      "path": "store/wiki/cohorts/epi-me-mecfs-discovery-lshtm.md"
+    },
+    {
+      "entity_id": "french-sma-nusinersen-plasma-multiomics",
+      "type": "cohort",
+      "depth": 0.43,
+      "covered_dims": [],
+      "sources": [
+        "PMC12996660"
+      ],
+      "path": "store/wiki/cohorts/french-sma-nusinersen-plasma-multiomics.md"
+    },
+    {
+      "entity_id": "hebei-second-hospital-als-inpatient-2017-2024",
+      "type": "cohort",
+      "depth": 0.43,
+      "covered_dims": [],
+      "sources": [
+        "PMC12460092"
+      ],
+      "path": "store/wiki/cohorts/hebei-second-hospital-als-inpatient-2017-2024.md"
+    },
+    {
+      "entity_id": "target-als-longitudinal-biofluid-proteomics",
+      "type": "cohort",
+      "depth": 0.43,
+      "covered_dims": [],
+      "sources": [
+        "PMC12927225"
+      ],
+      "path": "store/wiki/cohorts/target-als-longitudinal-biofluid-proteomics.md"
+    },
+    {
+      "entity_id": "adni-go2-plasma-lipidomics",
+      "type": "cohort",
+      "depth": 0.48,
+      "covered_dims": [
+        "real_numbers",
+        "longitudinal_structure",
+        "demographic_composition",
+        "medication_and_lifestyle_confounders",
+        "co_modalities",
+        "effect_sizes_and_model_performance",
+        "replication_and_validation",
+        "access_and_consent_scope",
+        "sample_usability",
+        "negative_results"
+      ],
+      "sources": [
+        "PMC12269576",
+        "PMC12445873"
+      ],
+      "path": "store/wiki/cohorts/adni-go2-plasma-lipidomics.md"
+    },
+    {
+      "entity_id": "adni-phase1-serum-lipidomics",
+      "type": "cohort",
+      "depth": 0.48,
+      "covered_dims": [
+        "sample_usability",
+        "real_numbers",
+        "longitudinal_structure",
+        "demographic_composition",
+        "co_modalities",
+        "effect_sizes_and_model_performance",
+        "access_and_consent_scope",
+        "negative_results",
+        "published_analysis_code",
+        "provenance_chain"
+      ],
+      "sources": [
+        "PMC10103184"
+      ],
+      "path": "store/wiki/cohorts/adni-phase1-serum-lipidomics.md"
+    },
+    {
+      "entity_id": "adni-plasma-ad-csvd-comorbidity-330",
+      "type": "cohort",
+      "depth": 0.48,
+      "covered_dims": [],
+      "sources": [
+        "PMC12869035"
+      ],
+      "path": "store/wiki/cohorts/adni-plasma-ad-csvd-comorbidity-330.md"
+    },
+    {
+      "entity_id": "blsa-serum-metabolomics-preclinical-ad",
+      "type": "cohort",
+      "depth": 0.48,
+      "covered_dims": [],
+      "sources": [
+        "PMC4947451",
+        "PMC5784884"
+      ],
+      "path": "store/wiki/cohorts/blsa-serum-metabolomics-preclinical-ad.md"
+    },
+    {
+      "entity_id": "dian-tu-001-gantenerumab-db",
+      "type": "cohort",
+      "depth": 0.48,
+      "covered_dims": [
+        "real_numbers",
+        "longitudinal_structure",
+        "biospecimen_retention_and_types",
+        "eligibility_criteria",
+        "demographic_composition",
+        "co_modalities_and_multi_omics_value",
+        "effect_sizes_and_model_performance",
+        "negative_results",
+        "access_and_consent_scope",
+        "sponsor_and_funding"
+      ],
+      "sources": [
+        "PMC12042767"
+      ],
+      "path": "store/wiki/cohorts/dian-tu-001-gantenerumab-db.md"
+    },
+    {
+      "entity_id": "dian-tu-001-gantenerumab-ole",
+      "type": "cohort",
+      "depth": 0.48,
+      "covered_dims": [
+        "real_numbers",
+        "longitudinal_structure",
+        "biospecimen_retention_and_types",
+        "eligibility_criteria",
+        "demographic_composition",
+        "co_modalities_and_multi_omics_value",
+        "effect_sizes_and_model_performance",
+        "negative_results",
+        "access_and_consent_scope",
+        "sponsor_and_funding"
+      ],
+      "sources": [
+        "PMC12042767"
+      ],
+      "path": "store/wiki/cohorts/dian-tu-001-gantenerumab-ole.md"
+    },
+    {
+      "entity_id": "gse168714-als-plasma-sncrna",
+      "type": "cohort",
+      "depth": 0.48,
+      "covered_dims": [
+        "real_numbers",
+        "longitudinal_structure",
+        "confounders_and_exposures",
+        "demographic_composition",
+        "effect_sizes_and_model_performance",
+        "replication_and_validation",
+        "access_and_consent_scope",
+        "published_analysis_code",
+        "clinical_endpoints_and_scales",
+        "provenance_chain"
+      ],
+      "sources": [
+        "PMC12208959"
+      ],
+      "path": "store/wiki/cohorts/gse168714-als-plasma-sncrna.md"
+    },
+    {
+      "entity_id": "swedish-fad-psen1-h163y-plasma",
+      "type": "cohort",
+      "depth": 0.48,
+      "covered_dims": [],
+      "sources": [
+        "PMC7951103"
+      ],
+      "path": "store/wiki/cohorts/swedish-fad-psen1-h163y-plasma.md"
+    },
+    {
+      "entity_id": "adni-bile-acid-serum-biocrates-1464",
+      "type": "cohort",
+      "depth": 0.52,
+      "covered_dims": [],
+      "sources": [
+        "PMC6487485"
+      ],
+      "path": "store/wiki/cohorts/adni-bile-acid-serum-biocrates-1464.md"
+    },
+    {
+      "entity_id": "adni-go2-plasma-oxylipin-endocannabinoid",
+      "type": "cohort",
+      "depth": 0.52,
+      "covered_dims": [],
+      "sources": [
+        "PMC12857118"
+      ],
+      "path": "store/wiki/cohorts/adni-go2-plasma-oxylipin-endocannabinoid.md"
+    },
+    {
+      "entity_id": "adni1-serum-metabolomics-biocrates-p180",
+      "type": "cohort",
+      "depth": 0.52,
+      "covered_dims": [],
+      "sources": [
+        "PMC5784884"
+      ],
+      "path": "store/wiki/cohorts/adni1-serum-metabolomics-biocrates-p180.md"
+    },
+    {
+      "entity_id": "geneva-memory-center-cognitive-cohort",
+      "type": "cohort",
+      "depth": 0.52,
+      "covered_dims": [],
+      "sources": [
+        "PMC12572818"
+      ],
+      "path": "store/wiki/cohorts/geneva-memory-center-cognitive-cohort.md"
+    },
+    {
+      "entity_id": "lleida-ad-mci-plasma-csf-gcfid",
+      "type": "cohort",
+      "depth": 0.52,
+      "covered_dims": [
+        "real_numbers",
+        "sample_usability",
+        "longitudinal_structure",
+        "collection_protocol_detail",
+        "confounders_and_exposures",
+        "demographic_composition",
+        "co_modalities_and_multi_omics_value",
+        "effect_sizes_and_model_performance",
+        "access_and_consent_scope",
+        "eligibility_criteria",
+        "biospecimen_retention_and_types"
+      ],
+      "sources": [
+        "PMC11095469"
+      ],
+      "path": "store/wiki/cohorts/lleida-ad-mci-plasma-csf-gcfid.md"
+    },
+    {
+      "entity_id": "us-als-biorepository-plasma-mirna",
+      "type": "cohort",
+      "depth": 0.52,
+      "covered_dims": [],
+      "sources": [
+        "PMC12705848"
+      ],
+      "path": "store/wiki/cohorts/us-als-biorepository-plasma-mirna.md"
+    },
+    {
+      "entity_id": "xjtu-first-hospital-als-serum-gcms",
+      "type": "cohort",
+      "depth": 0.52,
+      "covered_dims": [],
+      "sources": [
+        "PMC8531355"
+      ],
+      "path": "store/wiki/cohorts/xjtu-first-hospital-als-serum-gcms.md"
+    },
+    {
+      "entity_id": "xjtu-second-sma-typeii-nusinersen",
+      "type": "cohort",
+      "depth": 0.52,
+      "covered_dims": [],
+      "sources": [
+        "PMC12488785"
+      ],
+      "path": "store/wiki/cohorts/xjtu-second-sma-typeii-nusinersen.md"
+    }
+  ],
+  "staleness": [
+    {
+      "entity_id": "adni-bile-acid-serum-biocrates-1464",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC6487485)"
+      ],
+      "sources": [
+        "PMC6487485"
+      ],
+      "path": "store/wiki/cohorts/adni-bile-acid-serum-biocrates-1464.md"
+    },
+    {
+      "entity_id": "adni-go2-plasma-lipidomics-aa",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12445873)"
+      ],
+      "sources": [
+        "PMC12445873"
+      ],
+      "path": "store/wiki/cohorts/adni-go2-plasma-lipidomics-aa.md"
+    },
+    {
+      "entity_id": "adni-go2-plasma-oxylipin-endocannabinoid",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12857118)"
+      ],
+      "sources": [
+        "PMC12857118"
+      ],
+      "path": "store/wiki/cohorts/adni-go2-plasma-oxylipin-endocannabinoid.md"
+    },
+    {
+      "entity_id": "adni-go2-serum-metabolomics-mxp500",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12706616)"
+      ],
+      "sources": [
+        "PMC12706616"
+      ],
+      "path": "store/wiki/cohorts/adni-go2-serum-metabolomics-mxp500.md"
+    },
+    {
+      "entity_id": "adni-multiwave-csf-plasma-biomarker",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12795606)"
+      ],
+      "sources": [
+        "PMC12795606"
+      ],
+      "path": "store/wiki/cohorts/adni-multiwave-csf-plasma-biomarker.md"
+    },
+    {
+      "entity_id": "adni-phase1-serum-lipidomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC10103184)"
+      ],
+      "sources": [
+        "PMC10103184"
+      ],
+      "path": "store/wiki/cohorts/adni-phase1-serum-lipidomics.md"
+    },
+    {
+      "entity_id": "adni-plasma-ad-csvd-comorbidity-330",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12869035)"
+      ],
+      "sources": [
+        "PMC12869035"
+      ],
+      "path": "store/wiki/cohorts/adni-plasma-ad-csvd-comorbidity-330.md"
+    },
+    {
+      "entity_id": "adni-plasma-bmi-pet-subcohort-407",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12738121)"
+      ],
+      "sources": [
+        "PMC12738121"
+      ],
+      "path": "store/wiki/cohorts/adni-plasma-bmi-pet-subcohort-407.md"
+    },
+    {
+      "entity_id": "adni1-serum-metabolomics-biocrates-p180",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC5784884)"
+      ],
+      "sources": [
+        "PMC5784884"
+      ],
+      "path": "store/wiki/cohorts/adni1-serum-metabolomics-biocrates-p180.md"
+    },
+    {
+      "entity_id": "adni2-plasma-mirna-cn-mci-baseline",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC13032452)"
+      ],
+      "sources": [
+        "PMC13032452"
+      ],
+      "path": "store/wiki/cohorts/adni2-plasma-mirna-cn-mci-baseline.md"
+    },
+    {
+      "entity_id": "ages-reykjavik-serum-metabolomics-ad",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC4947451)"
+      ],
+      "sources": [
+        "PMC4947451"
+      ],
+      "path": "store/wiki/cohorts/ages-reykjavik-serum-metabolomics-ad.md"
+    },
+    {
+      "entity_id": "amyloid-biomarker-study-pooled",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC11883504)"
+      ],
+      "sources": [
+        "PMC11883504"
+      ],
+      "path": "store/wiki/cohorts/amyloid-biomarker-study-pooled.md"
+    },
+    {
+      "entity_id": "aspree-dementia-casecohort-lipidomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12269576)"
+      ],
+      "sources": [
+        "PMC12269576"
+      ],
+      "path": "store/wiki/cohorts/aspree-dementia-casecohort-lipidomics.md"
+    },
+    {
+      "entity_id": "bioivt-healthy-plasma-sncrna",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC10933579)"
+      ],
+      "sources": [
+        "PMC10933579"
+      ],
+      "path": "store/wiki/cohorts/bioivt-healthy-plasma-sncrna.md"
+    },
+    {
+      "entity_id": "bioivt-mtb-plasma-sncrna",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC10933579)"
+      ],
+      "sources": [
+        "PMC10933579"
+      ],
+      "path": "store/wiki/cohorts/bioivt-mtb-plasma-sncrna.md"
+    },
+    {
+      "entity_id": "biome-biobank-mount-sinai",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12443623)"
+      ],
+      "sources": [
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/biome-biobank-mount-sinai.md"
+    },
+    {
+      "entity_id": "blsa-autopsy-brain-metabolomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC5784884)"
+      ],
+      "sources": [
+        "PMC5784884"
+      ],
+      "path": "store/wiki/cohorts/blsa-autopsy-brain-metabolomics.md"
+    },
+    {
+      "entity_id": "cagliari-als-sardinian-casecontrol-2023",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12907680)"
+      ],
+      "sources": [
+        "PMC12907680"
+      ],
+      "path": "store/wiki/cohorts/cagliari-als-sardinian-casecontrol-2023.md"
+    },
+    {
+      "entity_id": "cdc-national-als-biorepository-hair",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12444149)"
+      ],
+      "sources": [
+        "PMC12444149"
+      ],
+      "path": "store/wiki/cohorts/cdc-national-als-biorepository-hair.md"
+    },
+    {
+      "entity_id": "cgmh-als-plasma-metabolomics-biocrates-p180",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC8699018)"
+      ],
+      "sources": [
+        "PMC8699018"
+      ],
+      "path": "store/wiki/cohorts/cgmh-als-plasma-metabolomics-biocrates-p180.md"
+    },
+    {
+      "entity_id": "dartmouth-als-biobank-hair",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12444149)"
+      ],
+      "sources": [
+        "PMC12444149"
+      ],
+      "path": "store/wiki/cohorts/dartmouth-als-biobank-hair.md"
+    },
+    {
+      "entity_id": "delcode-urine-nmr-metabolomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC10937638)"
+      ],
+      "sources": [
+        "PMC10937638"
+      ],
+      "path": "store/wiki/cohorts/delcode-urine-nmr-metabolomics.md"
+    },
+    {
+      "entity_id": "dian-obs-natural-history",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12042767)"
+      ],
+      "sources": [
+        "PMC12042767"
+      ],
+      "path": "store/wiki/cohorts/dian-obs-natural-history.md"
+    },
+    {
+      "entity_id": "dian-tu-001-gantenerumab-db",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12042767)"
+      ],
+      "sources": [
+        "PMC12042767"
+      ],
+      "path": "store/wiki/cohorts/dian-tu-001-gantenerumab-db.md"
+    },
+    {
+      "entity_id": "dian-tu-001-gantenerumab-ole",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12042767)"
+      ],
+      "sources": [
+        "PMC12042767"
+      ],
+      "path": "store/wiki/cohorts/dian-tu-001-gantenerumab-ole.md"
+    },
+    {
+      "entity_id": "dpp-lookahead-ili-genomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12443623)"
+      ],
+      "sources": [
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/dpp-lookahead-ili-genomics.md"
+    },
+    {
+      "entity_id": "epi-me-mecfs-discovery-lshtm",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12506310)"
+      ],
+      "sources": [
+        "PMC12506310"
+      ],
+      "path": "store/wiki/cohorts/epi-me-mecfs-discovery-lshtm.md"
+    },
+    {
+      "entity_id": "epi-me-mecfs-validation-cornwall",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12506310)"
+      ],
+      "sources": [
+        "PMC12506310"
+      ],
+      "path": "store/wiki/cohorts/epi-me-mecfs-validation-cornwall.md"
+    },
+    {
+      "entity_id": "french-sma-nusinersen-csf-multiomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12996660)"
+      ],
+      "sources": [
+        "PMC12996660"
+      ],
+      "path": "store/wiki/cohorts/french-sma-nusinersen-csf-multiomics.md"
+    },
+    {
+      "entity_id": "french-sma-nusinersen-plasma-multiomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12996660)"
+      ],
+      "sources": [
+        "PMC12996660"
+      ],
+      "path": "store/wiki/cohorts/french-sma-nusinersen-plasma-multiomics.md"
+    },
+    {
+      "entity_id": "geneva-memory-center-cognitive-cohort",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12572818)"
+      ],
+      "sources": [
+        "PMC12572818"
+      ],
+      "path": "store/wiki/cohorts/geneva-memory-center-cognitive-cohort.md"
+    },
+    {
+      "entity_id": "gse148097-als-serum-sncrna",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12208959)"
+      ],
+      "sources": [
+        "PMC12208959"
+      ],
+      "path": "store/wiki/cohorts/gse148097-als-serum-sncrna.md"
+    },
+    {
+      "entity_id": "gse168714-als-plasma-sncrna",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12208959)"
+      ],
+      "sources": [
+        "PMC12208959"
+      ],
+      "path": "store/wiki/cohorts/gse168714-als-plasma-sncrna.md"
+    },
+    {
+      "entity_id": "harbin-first-hospital-als-qpcr-validation",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12753664)"
+      ],
+      "sources": [
+        "PMC12753664"
+      ],
+      "path": "store/wiki/cohorts/harbin-first-hospital-als-qpcr-validation.md"
+    },
+    {
+      "entity_id": "hebei-second-hospital-als-inpatient-2017-2024",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12460092)"
+      ],
+      "sources": [
+        "PMC12460092"
+      ],
+      "path": "store/wiki/cohorts/hebei-second-hospital-als-inpatient-2017-2024.md"
+    },
+    {
+      "entity_id": "lleida-ad-mci-plasma-csf-gcfid",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC11095469)"
+      ],
+      "sources": [
+        "PMC11095469"
+      ],
+      "path": "store/wiki/cohorts/lleida-ad-mci-plasma-csf-gcfid.md"
+    },
+    {
+      "entity_id": "mayo-brain-bank-rnaseq-adkp",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12789652)"
+      ],
+      "sources": [
+        "PMC12789652"
+      ],
+      "path": "store/wiki/cohorts/mayo-brain-bank-rnaseq-adkp.md"
+    },
+    {
+      "entity_id": "million-veteran-program",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12443623)"
+      ],
+      "sources": [
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/million-veteran-program.md"
+    },
+    {
+      "entity_id": "msbb-brain-rnaseq-adkp",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12789652)"
+      ],
+      "sources": [
+        "PMC12789652"
+      ],
+      "path": "store/wiki/cohorts/msbb-brain-rnaseq-adkp.md"
+    },
+    {
+      "entity_id": "nbb-als-spinalcord-postmortem",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12603167)"
+      ],
+      "sources": [
+        "PMC12603167"
+      ],
+      "path": "store/wiki/cohorts/nbb-als-spinalcord-postmortem.md"
+    },
+    {
+      "entity_id": "pablo-de-olavide-healthy-amyloid-pet-controls",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC11095469)"
+      ],
+      "sources": [
+        "PMC11095469"
+      ],
+      "path": "store/wiki/cohorts/pablo-de-olavide-healthy-amyloid-pet-controls.md"
+    },
+    {
+      "entity_id": "rosmap-brain-rnaseq-adkp",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12789652)"
+      ],
+      "sources": [
+        "PMC12789652"
+      ],
+      "path": "store/wiki/cohorts/rosmap-brain-rnaseq-adkp.md"
+    },
+    {
+      "entity_id": "rosmap-serum-brain-bile-acid",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC6487485)"
+      ],
+      "sources": [
+        "PMC6487485"
+      ],
+      "path": "store/wiki/cohorts/rosmap-serum-brain-bile-acid.md"
+    },
+    {
+      "entity_id": "rotterdam-study-bile-acid-genetics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC6487485)"
+      ],
+      "sources": [
+        "PMC6487485"
+      ],
+      "path": "store/wiki/cohorts/rotterdam-study-bile-acid-genetics.md"
+    },
+    {
+      "entity_id": "shandong-ad-urine-lcms-metabolomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC11807997)"
+      ],
+      "sources": [
+        "PMC11807997"
+      ],
+      "path": "store/wiki/cohorts/shandong-ad-urine-lcms-metabolomics.md"
+    },
+    {
+      "entity_id": "sod1g93a-mouse-irccs-san-martino",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12190601)"
+      ],
+      "sources": [
+        "PMC12190601"
+      ],
+      "path": "store/wiki/cohorts/sod1g93a-mouse-irccs-san-martino.md"
+    },
+    {
+      "entity_id": "swedish-fad-psen1-h163y-plasma",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC7951103)"
+      ],
+      "sources": [
+        "PMC7951103"
+      ],
+      "path": "store/wiki/cohorts/swedish-fad-psen1-h163y-plasma.md"
+    },
+    {
+      "entity_id": "target-als-longitudinal-biofluid-proteomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12927225)"
+      ],
+      "sources": [
+        "PMC12927225"
+      ],
+      "path": "store/wiki/cohorts/target-als-longitudinal-biofluid-proteomics.md"
+    },
+    {
+      "entity_id": "uganda-gpc-ugr",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12443623)"
+      ],
+      "sources": [
+        "PMC12443623"
+      ],
+      "path": "store/wiki/cohorts/uganda-gpc-ugr.md"
+    },
+    {
+      "entity_id": "umich-als-fibroblast-mirna-c9",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC9990999)"
+      ],
+      "sources": [
+        "PMC9990999"
+      ],
+      "path": "store/wiki/cohorts/umich-als-fibroblast-mirna-c9.md"
+    },
+    {
+      "entity_id": "university-of-michigan-als-microbiome-metabolomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC10834248)"
+      ],
+      "sources": [
+        "PMC10834248"
+      ],
+      "path": "store/wiki/cohorts/university-of-michigan-als-microbiome-metabolomics.md"
+    },
+    {
+      "entity_id": "us-als-biorepository-plasma-mirna",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12705848)"
+      ],
+      "sources": [
+        "PMC12705848"
+      ],
+      "path": "store/wiki/cohorts/us-als-biorepository-plasma-mirna.md"
+    },
+    {
+      "entity_id": "wadrc-wrap-stool-metagenomics",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC10937638)"
+      ],
+      "sources": [
+        "PMC10937638"
+      ],
+      "path": "store/wiki/cohorts/wadrc-wrap-stool-metagenomics.md"
+    },
+    {
+      "entity_id": "wicell-als-ipsc-c9-tdp43-sod1",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12603167)"
+      ],
+      "sources": [
+        "PMC12603167"
+      ],
+      "path": "store/wiki/cohorts/wicell-als-ipsc-c9-tdp43-sod1.md"
+    },
+    {
+      "entity_id": "xjtu-first-hospital-als-serum-gcms",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC8531355)"
+      ],
+      "sources": [
+        "PMC8531355"
+      ],
+      "path": "store/wiki/cohorts/xjtu-first-hospital-als-serum-gcms.md"
+    },
+    {
+      "entity_id": "xjtu-second-sma-typeii-nusinersen",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12488785)"
+      ],
+      "sources": [
+        "PMC12488785"
+      ],
+      "path": "store/wiki/cohorts/xjtu-second-sma-typeii-nusinersen.md"
+    },
+    {
+      "entity_id": "xjtu-second-sma-typeiii-nusinersen",
+      "type": "cohort",
+      "flags": [
+        "single_source (PMC12488785)"
+      ],
+      "sources": [
+        "PMC12488785"
+      ],
+      "path": "store/wiki/cohorts/xjtu-second-sma-typeiii-nusinersen.md"
+    }
+  ],
+  "connections": {
+    "missing_back_references": [
+      {
+        "target": "usc-loni-data-coordinating-center",
+        "type": "institution",
+        "missing_back_references": [
+          "adni-go2-plasma-lipidomics-aa"
+        ]
+      },
+      {
+        "target": "baker-institute-lipidomics-lc-ms-qqq",
+        "type": "platform",
+        "missing_back_references": [
+          "adni-go2-plasma-lipidomics-aa"
+        ]
+      },
+      {
+        "target": "guoyou-qin-fudan",
+        "type": "investigator",
+        "missing_back_references": [
+          "adni-go2-plasma-lipidomics-aa"
+        ]
+      },
+      {
+        "target": "adni-go2-plasma-lipidomics-aa",
+        "type": "cohort",
+        "missing_back_references": [
+          "adni-go2-plasma-lipidomics"
+        ]
+      },
+      {
+        "target": "willemijn-jansen-abs",
+        "type": "investigator",
+        "missing_back_references": [
+          "amyloid-biomarker-study-pooled"
+        ]
+      },
+      {
+        "target": "pieter-jelle-visser-abs",
+        "type": "investigator",
+        "missing_back_references": [
+          "amyloid-biomarker-study-pooled"
+        ]
+      },
+      {
+        "target": "justin-gumas-tju",
+        "type": "investigator",
+        "missing_back_references": [
+          "bioivt-healthy-plasma-sncrna",
+          "bioivt-mtb-plasma-sncrna"
+        ]
+      },
+      {
+        "target": "pib-pet-amyloid",
+        "type": "platform",
+        "missing_back_references": [
+          "dian-obs-natural-history"
+        ]
+      },
+      {
+        "target": "eric-mcdade-washu",
+        "type": "investigator",
+        "missing_back_references": [
+          "dian-obs-natural-history"
+        ]
+      },
+      {
+        "target": "irblleida-biobank",
+        "type": "institution",
+        "missing_back_references": [
+          "pablo-de-olavide-healthy-amyloid-pet-controls"
+        ]
+      }
+    ],
+    "top_cited_unread_pmids": [
+      {
+        "id": "PMID:21514250",
+        "citation_count": 34
+      },
+      {
+        "id": "PMID:28341160",
+        "citation_count": 34
+      },
+      {
+        "id": "PMID:36116464",
+        "citation_count": 33
+      },
+      {
+        "id": "PMID:29653606",
+        "citation_count": 27
+      },
+      {
+        "id": "PMID:11464847",
+        "citation_count": 24
+      },
+      {
+        "id": "PMID:32526057",
+        "citation_count": 23
+      },
+      {
+        "id": "PMID:38934362",
+        "citation_count": 23
+      },
+      {
+        "id": "PMID:21514249",
+        "citation_count": 22
+      },
+      {
+        "id": "PMID:32123170",
+        "citation_count": 22
+      },
+      {
+        "id": "PMID:36129998",
+        "citation_count": 21
+      },
+      {
+        "id": "PMID:35829654",
+        "citation_count": 20
+      },
+      {
+        "id": "PMID:24608097",
+        "citation_count": 20
+      },
+      {
+        "id": "PMID:21944778",
+        "citation_count": 19
+      },
+      {
+        "id": "PMID:17023659",
+        "citation_count": 19
+      },
+      {
+        "id": "PMID:30337151",
+        "citation_count": 18
+      },
+      {
+        "id": "PMID:25934855",
+        "citation_count": 18
+      },
+      {
+        "id": "PMID:21944779",
+        "citation_count": 16
+      },
+      {
+        "id": "PMID:30305743",
+        "citation_count": 16
+      },
+      {
+        "id": "PMID:30643292",
+        "citation_count": 16
+      },
+      {
+        "id": "PMID:27830784",
+        "citation_count": 16
+      },
+      {
+        "id": "PMID:24041970",
+        "citation_count": 15
+      },
+      {
+        "id": "PMID:10540002",
+        "citation_count": 15
+      },
+      {
+        "id": "PMID:30820047",
+        "citation_count": 15
+      },
+      {
+        "id": "PMID:36449413",
+        "citation_count": 15
+      },
+      {
+        "id": "PMID:28700839",
+        "citation_count": 15
+      },
+      {
+        "id": "PMID:29370177",
+        "citation_count": 15
+      },
+      {
+        "id": "PMID:30663610",
+        "citation_count": 14
+      },
+      {
+        "id": "PMID:36543887",
+        "citation_count": 14
+      },
+      {
+        "id": "PMID:37459141",
+        "citation_count": 14
+      },
+      {
+        "id": "PMID:1759558",
+        "citation_count": 14
+      }
+    ]
+  },
+  "consistency": [
+    {
+      "parent_institution": "usc-loni-data-coordinating-center",
+      "modality": [
+        "plasma lipidomics"
+      ],
+      "cohort_slugs": [
+        "adni-go2-plasma-lipidomics-aa",
+        "adni-go2-plasma-lipidomics"
+      ],
+      "depths": [
+        0.33,
+        0.48
+      ],
+      "spread": 0.15,
+      "note": "same parent + same modality; verify whether these are truly distinct cohorts or a merge gap"
+    },
+    {
+      "parent_institution": "bioivt",
+      "modality": [
+        "plasma sncrna-seq"
+      ],
+      "cohort_slugs": [
+        "bioivt-healthy-plasma-sncrna",
+        "bioivt-mtb-plasma-sncrna"
+      ],
+      "depths": [
+        0.38,
+        0.38
+      ],
+      "spread": 0.0,
+      "note": "same parent + same modality; verify whether these are truly distinct cohorts or a merge gap"
+    },
+    {
+      "parent_institution": "washu-dian-tu",
+      "modality": [
+        "amyloid pet (pib-pet)",
+        "blood biomarkers",
+        "csf biomarkers",
+        "tau pet",
+        "volumetric mri"
+      ],
+      "cohort_slugs": [
+        "dian-tu-001-gantenerumab-db",
+        "dian-tu-001-gantenerumab-ole"
+      ],
+      "depths": [
+        0.48,
+        0.48
+      ],
+      "spread": 0.0,
+      "note": "same parent + same modality; verify whether these are truly distinct cohorts or a merge gap"
+    },
+    {
+      "parent_institution": "xjtu-second-affiliated-hospital",
+      "modality": [
+        "csf metabolomics",
+        "nusinersen response prediction",
+        "thermo q exactive",
+        "untargeted metabolomics",
+        "uplc-ms/ms"
+      ],
+      "cohort_slugs": [
+        "xjtu-second-sma-typeii-nusinersen",
+        "xjtu-second-sma-typeiii-nusinersen"
+      ],
+      "depths": [
+        0.38,
+        0.52
+      ],
+      "spread": 0.14,
+      "note": "same parent + same modality; verify whether these are truly distinct cohorts or a merge gap"
+    }
+  ]
+}
