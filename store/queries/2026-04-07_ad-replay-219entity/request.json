@@ -1,0 +1,53 @@
+{
+  "request_id": "ad-plasma-metabolomics-validation-200n",
+  "original_text": "Looking for longitudinal plasma metabolomics cohorts in Alzheimer's disease, at least 200 patients, for biomarker validation. We want to minimise statin effects and need commercial-use rights.",
+  "received_at": "2026-04-07T00:00:00Z",
+  "indication": ["Alzheimer's disease"],
+  "indication_inferred": false,
+  "modality": ["plasma", "metabolomics"],
+  "modality_inferred": false,
+  "use_case_type": "biomarker_validation",
+  "use_case_inferred": false,
+  "n_target": 200,
+  "n_target_inferred": false,
+  "longitudinal_required": true,
+  "longitudinal_inferred": false,
+  "commercial_use": true,
+  "commercial_use_inferred": false,
+  "budget": null,
+  "timeline": null,
+  "hard_negatives": [
+    "n_total_less_than_30",
+    "commercial_use_allowed_false",
+    "statin_confounded"
+  ],
+  "required_fields": ["endpoints", "n_total", "sample_types"],
+  "nice_to_have_fields": ["longitudinal", "co_modalities", "collection_protocol"],
+  "scope_notes": "Buyer needs a longitudinal plasma (not serum) cohort in Alzheimer's disease with at least 200 participants for biomarker validation work; statin co-medication is an explicit confounder concern, so cohorts that document and control for statin use are strongly preferred; commercial-use rights under the data access agreement are a hard requirement.",
+  "gaps": [
+    {
+      "field": "budget",
+      "reason": "No budget was stated; cost axis will be reported with open unknowns rather than a within-budget verdict."
+    },
+    {
+      "field": "timeline",
+      "reason": "No delivery deadline was stated; timeline per candidate will be reported but not compared against a target."
+    },
+    {
+      "field": "modality.targeted_vs_untargeted",
+      "reason": "Request says 'metabolomics' but does not specify targeted vs. untargeted; both will be surfaced and the distinction flagged as a buyer decision point."
+    },
+    {
+      "field": "indication.mci_inclusion",
+      "reason": "Request says 'Alzheimer's disease' only; cohorts enrolling MCI alongside AD (common in ADNI lineage) will be included with MCI status flagged as a soft concern."
+    }
+  ],
+  "filter_for_discover": {
+    "indication_match": ["Alzheimer's disease", "AD", "Alzheimer disease", "dementia", "mild cognitive impairment"],
+    "modality_match": ["plasma", "metabolomics", "lipidomics", "untargeted metabolomics", "targeted metabolomics", "LC-MS metabolomics", "NMR metabolomics", "serum metabolomics"],
+    "longitudinal_required": true,
+    "min_n_usable": 200,
+    "commercial_use_required": true,
+    "disease_area_or_modality": false
+  }
+}
