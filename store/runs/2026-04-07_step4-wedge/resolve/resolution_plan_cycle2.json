@@ -1,0 +1,1949 @@
+{
+  "generated_at": "2026-04-07T00:00:00Z",
+  "inputs": {
+    "fragment_files": [
+      "PMC12460092", "PMC12488785", "PMC12506310", "PMC12572818", "PMC12602121",
+      "PMC12603167", "PMC12633721", "PMC12705848", "PMC12706616", "PMC12716194",
+      "PMC12738121", "PMC12753664", "PMC12789652", "PMC12795606", "PMC12857118",
+      "PMC12869035", "PMC12907680", "PMC12927225", "PMC12996660", "PMC13032452",
+      "PMC4947451", "PMC5784884", "PMC6487485", "PMC7896278", "PMC7951103",
+      "PMC8531355", "PMC8699018", "PMC9242903", "PMC9641964", "PMC9990999"
+    ],
+    "wiki_index": "store/wiki/index/master.md",
+    "wiki_existing_entity_count": 31
+  },
+  "resolutions": [
+
+    // ─── PMC12460092 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12460092",
+      "hint_type": "institution",
+      "hint_name": "The Second Hospital of Hebei Medical University",
+      "classification": "NEW",
+      "proposed_entity_id": "second-hospital-hebei-medical-university",
+      "proposed_canonical_name": "The Second Hospital of Hebei Medical University",
+      "proposed_aliases": ["Hebei Medical University Second Hospital"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Single Chinese tertiary neurology site; not in wiki; unambiguous slug."
+    },
+    {
+      "source_pmc": "PMC12460092",
+      "hint_type": "investigator",
+      "hint_name": "Liu Yaling",
+      "classification": "NEW",
+      "proposed_entity_id": "liu-yaling-hebei-second-hospital",
+      "proposed_canonical_name": "Liu Yaling",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at Second Hospital of Hebei Medical University; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12460092",
+      "hint_type": "investigator",
+      "hint_name": "Liu Man",
+      "classification": "NEW",
+      "proposed_entity_id": "liu-man-hebei-second-hospital",
+      "proposed_canonical_name": "Liu Man",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI at Second Hospital of Hebei Medical University; not in wiki; different person from Liu Yaling."
+    },
+    {
+      "source_pmc": "PMC12460092",
+      "hint_type": "cohort",
+      "hint_name": "Second Hospital of Hebei Medical University ALS Inpatient Cohort (2017–2024)",
+      "classification": "NEW",
+      "proposed_entity_id": "hebei-second-hospital-als-inpatient-2017-2024",
+      "proposed_canonical_name": "Second Hospital of Hebei Medical University ALS Inpatient Cohort (2017–2024)",
+      "proposed_aliases": ["Hebei ALS retrospective case-control cohort"],
+      "back_references": [
+        {"from": "hebei-second-hospital-als-inpatient-2017-2024", "to": "second-hospital-hebei-medical-university", "relation": "collection_site"},
+        {"from": "hebei-second-hospital-als-inpatient-2017-2024", "to": "liu-man-hebei-second-hospital", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "Single-site retrospective ALS inpatient series (n=180), clinical variables only, no omics; hospital_inventory_signal; not in wiki."
+    },
+
+    // ─── PMC12488785 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12488785",
+      "hint_type": "institution",
+      "hint_name": "Second Affiliated Hospital of Xi'an Jiaotong University",
+      "classification": "NEW",
+      "proposed_entity_id": "xjtu-second-affiliated-hospital",
+      "proposed_canonical_name": "Second Affiliated Hospital of Xi'an Jiaotong University",
+      "proposed_aliases": ["Xi'an Jiaotong University Second Affiliated Hospital"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Different institution from the First Affiliated Hospital of Xi'an JTU (which appears in PMC8531355); slug is unambiguous."
+    },
+    {
+      "source_pmc": "PMC12488785",
+      "hint_type": "institution",
+      "hint_name": "Hanzhong Central Hospital",
+      "classification": "NEW",
+      "proposed_entity_id": "hanzhong-central-hospital",
+      "proposed_canonical_name": "Hanzhong Central Hospital",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Secondary collection site mentioned in affiliation block; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12488785",
+      "hint_type": "institution",
+      "hint_name": "Majorbio Biomedical Technology Ltd.",
+      "classification": "NEW",
+      "proposed_entity_id": "majorbio-biomedical-technology",
+      "proposed_canonical_name": "Majorbio Biomedical Technology Ltd.",
+      "proposed_aliases": ["Majorbio"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Commercial LC-MS/MS service provider used for SMA metabolomics; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12488785",
+      "hint_type": "investigator",
+      "hint_name": "Yang Changhong",
+      "classification": "NEW",
+      "proposed_entity_id": "yang-changhong-xjtu-second",
+      "proposed_canonical_name": "Yang Changhong",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI at Xi'an JTU Second Affiliated Hospital, SMA nusinersen trial PI; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12488785",
+      "hint_type": "investigator",
+      "hint_name": "Li Dan",
+      "classification": "NEW",
+      "proposed_entity_id": "li-dan-xjtu-second",
+      "proposed_canonical_name": "Li Dan",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at Xi'an JTU Second Affiliated Hospital; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12488785",
+      "hint_type": "platform",
+      "hint_name": "Thermo UHPLC-Q Exactive (UPLC-MS/MS)",
+      "classification": "NEW",
+      "proposed_entity_id": "thermo-uhplc-q-exactive-uplc-ms",
+      "proposed_canonical_name": "Thermo Scientific UHPLC-Q Exactive UPLC-MS/MS (untargeted metabolomics)",
+      "proposed_aliases": ["Thermo Q Exactive UPLC-MS/MS"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Instrument platform for SMA CSF metabolomics; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12488785",
+      "hint_type": "cohort",
+      "hint_name": "Xi'an Jiaotong University Second Affiliated Hospital SMA type II nusinersen cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "xjtu-second-sma-typeii-nusinersen",
+      "proposed_canonical_name": "Xi'an Jiaotong University Second Affiliated Hospital SMA Type II Nusinersen Cohort",
+      "proposed_aliases": ["SMA type II prospective cohort", "Xi'an SMA type II cohort"],
+      "back_references": [
+        {"from": "xjtu-second-sma-typeii-nusinersen", "to": "xjtu-second-affiliated-hospital", "relation": "collection_site"},
+        {"from": "xjtu-second-sma-typeii-nusinersen", "to": "yang-changhong-xjtu-second", "relation": "lead_pi"},
+        {"from": "xjtu-second-sma-typeii-nusinersen", "to": "thermo-uhplc-q-exactive-uplc-ms", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=28 SMA type II children with baseline CSF metabolomics; published_cohort; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12488785",
+      "hint_type": "cohort",
+      "hint_name": "Xi'an Jiaotong University Second Affiliated Hospital SMA type III nusinersen cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "xjtu-second-sma-typeiii-nusinersen",
+      "proposed_canonical_name": "Xi'an Jiaotong University Second Affiliated Hospital SMA Type III Nusinersen Cohort",
+      "proposed_aliases": ["SMA type III prospective cohort", "Xi'an SMA type III cohort"],
+      "back_references": [
+        {"from": "xjtu-second-sma-typeiii-nusinersen", "to": "xjtu-second-affiliated-hospital", "relation": "collection_site"},
+        {"from": "xjtu-second-sma-typeiii-nusinersen", "to": "yang-changhong-xjtu-second", "relation": "lead_pi"},
+        {"from": "xjtu-second-sma-typeiii-nusinersen", "to": "thermo-uhplc-q-exactive-uplc-ms", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=14 SMA type III children analysed separately from type II arm with own OPLS-DA model; distinct cohort entity; not in wiki."
+    },
+
+    // ─── PMC12506310 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12506310",
+      "hint_type": "institution",
+      "hint_name": "London School of Hygiene & Tropical Medicine",
+      "classification": "NEW",
+      "proposed_entity_id": "london-school-hygiene-tropical-medicine",
+      "proposed_canonical_name": "London School of Hygiene & Tropical Medicine",
+      "proposed_aliases": ["LSHTM"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Source biobank for ME/CFS severe cases; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12506310",
+      "hint_type": "institution",
+      "hint_name": "Oxford BioDynamics Plc",
+      "classification": "NEW",
+      "proposed_entity_id": "oxford-biodynamics",
+      "proposed_canonical_name": "Oxford BioDynamics Plc",
+      "proposed_aliases": ["OBD"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Commercial platform developer (EpiSwitch) and sole funder; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12506310",
+      "hint_type": "institution",
+      "hint_name": "Royal Cornwall Hospitals NHS Trust",
+      "classification": "NEW",
+      "proposed_entity_id": "royal-cornwall-hospitals-nhs",
+      "proposed_canonical_name": "Royal Cornwall Hospitals NHS Trust",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Collection site for validation arm samples; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12506310",
+      "hint_type": "investigator",
+      "hint_name": "Pchejetski Dmitri",
+      "classification": "NEW",
+      "proposed_entity_id": "pchejetski-dmitri-uea",
+      "proposed_canonical_name": "Dmitri Pchejetski",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Corresponding author; home institution is University of East Anglia (Norwich Medical School); not in wiki."
+    },
+    {
+      "source_pmc": "PMC12506310",
+      "hint_type": "investigator",
+      "hint_name": "Akoulitchev Alexandre",
+      "classification": "NEW",
+      "proposed_entity_id": "akoulitchev-alexandre-oxford-biodynamics",
+      "proposed_canonical_name": "Alexandre Akoulitchev",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at Oxford BioDynamics; home institution is OBD; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12506310",
+      "hint_type": "platform",
+      "hint_name": "EpiSwitch® Explorer Array (Agilent SurePrint 1M)",
+      "classification": "NEW",
+      "proposed_entity_id": "episwitch-explorer-agilent-sureprint-1m",
+      "proposed_canonical_name": "EpiSwitch® Explorer Array (Agilent SurePrint 1M, 3D genomic chromatin conformation)",
+      "proposed_aliases": ["EpiSwitch CFS array"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Proprietary Oxford BioDynamics 3D-genomics platform; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12506310",
+      "hint_type": "cohort",
+      "hint_name": "EPI-ME ME/CFS discovery cohort (LSHTM Biobank)",
+      "classification": "NEW",
+      "proposed_entity_id": "epi-me-mecfs-discovery-lshtm",
+      "proposed_canonical_name": "EPI-ME ME/CFS Discovery Cohort (LSHTM Biobank)",
+      "proposed_aliases": ["LSHTM ME/CFS severe cohort", "EPI-ME discovery"],
+      "back_references": [
+        {"from": "epi-me-mecfs-discovery-lshtm", "to": "london-school-hygiene-tropical-medicine", "relation": "data_provider"},
+        {"from": "epi-me-mecfs-discovery-lshtm", "to": "oxford-biodynamics", "relation": "sponsor"},
+        {"from": "epi-me-mecfs-discovery-lshtm", "to": "episwitch-explorer-agilent-sureprint-1m", "relation": "assay_platform"},
+        {"from": "epi-me-mecfs-discovery-lshtm", "to": "akoulitchev-alexandre-oxford-biodynamics", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "n=47 severe/housebound ME/CFS whole-blood EDTA frozen samples from LSHTM biobank; distinct from OBD control pool; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12506310",
+      "hint_type": "cohort",
+      "hint_name": "EPI-ME ME/CFS independent validation cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "epi-me-mecfs-validation-cornwall",
+      "proposed_canonical_name": "EPI-ME ME/CFS Independent Validation Cohort",
+      "proposed_aliases": ["EpiSwitch CFS validation set"],
+      "back_references": [
+        {"from": "epi-me-mecfs-validation-cornwall", "to": "royal-cornwall-hospitals-nhs", "relation": "collection_site"},
+        {"from": "epi-me-mecfs-validation-cornwall", "to": "oxford-biodynamics", "relation": "data_provider"}
+      ],
+      "confidence": "high",
+      "reason": "Hold-out validation cohort (n=24 ME/CFS, n=45 controls) not sourced from LSHTM; separate entity from discovery arm."
+    },
+
+    // ─── PMC12572818 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12572818",
+      "hint_type": "institution",
+      "hint_name": "Geneva Memory Center, Geneva University Hospitals",
+      "classification": "NEW",
+      "proposed_entity_id": "geneva-memory-center",
+      "proposed_canonical_name": "Geneva Memory Center, Geneva University Hospitals",
+      "proposed_aliases": ["Centre de la mémoire, HUG"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Single Swiss recruitment site for cognitive impairment cohort; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12572818",
+      "hint_type": "institution",
+      "hint_name": "Leiden Academic Centre for Drug Research, Leiden University",
+      "classification": "NEW",
+      "proposed_entity_id": "lacdr-leiden-university",
+      "proposed_canonical_name": "Leiden Academic Centre for Drug Research (LACDR), Leiden University",
+      "proposed_aliases": ["Leiden LACDR", "Metabolomics and Analytics Centre Leiden"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Metabolomics analysis and data provider; appears also in PMC12857118 (same LACDR Hankemeier group) — resolved as same institution in this plan; not previously in wiki."
+    },
+    {
+      "source_pmc": "PMC12572818",
+      "hint_type": "investigator",
+      "hint_name": "Hosseinkhani Farideh",
+      "classification": "NEW",
+      "proposed_entity_id": "hosseinkhani-farideh-lacdr-leiden",
+      "proposed_canonical_name": "Farideh Hosseinkhani",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI at LACDR Leiden University; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12572818",
+      "hint_type": "investigator",
+      "hint_name": "Frisoni Giovanni B.",
+      "classification": "NEW",
+      "proposed_entity_id": "frisoni-giovanni-geneva",
+      "proposed_canonical_name": "Giovanni B. Frisoni",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at Geneva Memory Center and University of Geneva LANVIE; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12572818",
+      "hint_type": "platform",
+      "hint_name": "SCIEX 6600+ TripleTOF LC-MS/MS (HILIC polar metabolomics + oxylipin profiling)",
+      "classification": "NEW",
+      "proposed_entity_id": "sciex-6600-tripleTOF-hilic-metabolomics",
+      "proposed_canonical_name": "SCIEX 6600+ TripleTOF LC-MS/MS (HILIC polar metabolomics and oxylipin profiling)",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Plasma metabolomics instrument at Leiden; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12572818",
+      "hint_type": "cohort",
+      "hint_name": "Geneva Memory Center cognitive impairment cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "geneva-memory-center-cognitive-cohort",
+      "proposed_canonical_name": "Geneva Memory Center Cognitive Impairment Cohort (COSCODE)",
+      "proposed_aliases": ["Geneva Memory Clinic cohort", "COSCODE cohort"],
+      "back_references": [
+        {"from": "geneva-memory-center-cognitive-cohort", "to": "geneva-memory-center", "relation": "collection_site"},
+        {"from": "geneva-memory-center-cognitive-cohort", "to": "lacdr-leiden-university", "relation": "data_provider"},
+        {"from": "geneva-memory-center-cognitive-cohort", "to": "frisoni-giovanni-geneva", "relation": "lead_pi"},
+        {"from": "geneva-memory-center-cognitive-cohort", "to": "sciex-6600-tripleTOF-hilic-metabolomics", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=278 paired plasma+fecal samples across HC/SCD/MCI/dementia; multi-omics (16S + metabolomics + cytokines); not in wiki."
+    },
+
+    // ─── PMC12602121 (EMPTY) ─────────────────────────────────────────────────
+    // No entity hints — mouse IF-FISH methods paper. Zero resolutions.
+
+    // ─── PMC12603167 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12603167",
+      "hint_type": "institution",
+      "hint_name": "Netherlands Brain Bank",
+      "classification": "NEW",
+      "proposed_entity_id": "netherlands-brain-bank",
+      "proposed_canonical_name": "Netherlands Brain Bank",
+      "proposed_aliases": ["NBB", "e-nbb.org"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Major Dutch postmortem biobank; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12603167",
+      "hint_type": "institution",
+      "hint_name": "Akershus University Hospital",
+      "classification": "NEW",
+      "proposed_entity_id": "akershus-university-hospital",
+      "proposed_canonical_name": "Akershus University Hospital",
+      "proposed_aliases": ["Ahus", "AHUS Lørenskog"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Norwegian hospital where NBB samples were processed; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12603167",
+      "hint_type": "institution",
+      "hint_name": "WiCell Research Institute Inc.",
+      "classification": "NEW",
+      "proposed_entity_id": "wicell-research-institute",
+      "proposed_canonical_name": "WiCell Research Institute Inc.",
+      "proposed_aliases": ["WiCell"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Commercial iPSC supplier for ALS lines; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12603167",
+      "hint_type": "institution",
+      "hint_name": "University of Macau, Institute of Chinese Medical Sciences",
+      "classification": "NEW",
+      "proposed_entity_id": "university-of-macau-icms",
+      "proposed_canonical_name": "Institute of Chinese Medical Sciences, University of Macau",
+      "proposed_aliases": ["ICMS Macau", "State Key Laboratory Chinese Medicine Macau"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI institution; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12603167",
+      "hint_type": "investigator",
+      "hint_name": "Su Huanxing",
+      "classification": "NEW",
+      "proposed_entity_id": "su-huanxing-macau",
+      "proposed_canonical_name": "Huanxing Su",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI at University of Macau ICMS; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12603167",
+      "hint_type": "investigator",
+      "hint_name": "Fang Evandro F",
+      "classification": "NEW",
+      "proposed_entity_id": "fang-evandro-oslo-akershus",
+      "proposed_canonical_name": "Evandro F. Fang",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at University of Oslo / Akershus University Hospital; home institution is Oslo/Akershus; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12603167",
+      "hint_type": "cohort",
+      "hint_name": "Netherlands Brain Bank ALS postmortem spinal cord cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "nbb-als-spinalcord-postmortem",
+      "proposed_canonical_name": "Netherlands Brain Bank ALS Postmortem Spinal Cord Cohort",
+      "proposed_aliases": ["NBB ALS spinal cord", "e-nbb.org ALS samples"],
+      "back_references": [
+        {"from": "nbb-als-spinalcord-postmortem", "to": "netherlands-brain-bank", "relation": "data_provider"},
+        {"from": "nbb-als-spinalcord-postmortem", "to": "akershus-university-hospital", "relation": "collection_site"},
+        {"from": "nbb-als-spinalcord-postmortem", "to": "fang-evandro-oslo-akershus", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "NBB postmortem ALS spinal cord OCT cryosections (n=3 ALS, n=3 controls); distinct from the CGMH or Michigan clinical cohorts; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12603167",
+      "hint_type": "cohort",
+      "hint_name": "WiCell ALS patient iPSC lines (C9/TDP-43/SOD1)",
+      "classification": "NEW",
+      "proposed_entity_id": "wicell-als-ipsc-c9-tdp43-sod1",
+      "proposed_canonical_name": "WiCell ALS Patient iPSC Lines (C9orf72/TDP-43/SOD1)",
+      "proposed_aliases": ["UCLi004-A", "PFIZi013-A", "WC034i", "ALS iPSC lines WiCell"],
+      "back_references": [
+        {"from": "wicell-als-ipsc-c9-tdp43-sod1", "to": "wicell-research-institute", "relation": "data_provider"}
+      ],
+      "confidence": "high",
+      "reason": "Three commercially purchased familial ALS iPSC lines with distinct genotypes; biobank_self_reported signal; not in wiki."
+    },
+
+    // ─── PMC12633721 (EMPTY) ─────────────────────────────────────────────────
+    // Narrative review — no entity hints. Zero resolutions.
+
+    // ─── PMC12705848 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12705848",
+      "hint_type": "institution",
+      "hint_name": "US National ALS Biorepository / ATSDR / CDC",
+      "classification": "NEW",
+      "proposed_entity_id": "us-national-als-biorepository-atsdr",
+      "proposed_canonical_name": "US National ALS Biorepository (ATSDR / CDC)",
+      "proposed_aliases": ["National ALS Biorepository", "ATSDR ALS Biorepository", "National ALS Registry biobank"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Federally-operated national ALS plasma biorepository; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12705848",
+      "hint_type": "institution",
+      "hint_name": "Dartmouth-Hitchcock Medical Center",
+      "classification": "NEW",
+      "proposed_entity_id": "dartmouth-hitchcock-medical-center",
+      "proposed_canonical_name": "Dartmouth-Hitchcock Medical Center",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Collection site for Phase IIa ALS trial samples; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12705848",
+      "hint_type": "investigator",
+      "hint_name": "Banack Sandra Anne",
+      "classification": "NEW",
+      "proposed_entity_id": "banack-sandra-brain-chemistry-labs",
+      "proposed_canonical_name": "Sandra A. Banack",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Corresponding author at Brain Chemistry Labs; home institution is Brain Chemistry Labs; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12705848",
+      "hint_type": "investigator",
+      "hint_name": "Mehta Paul",
+      "classification": "NEW",
+      "proposed_entity_id": "mehta-paul-atsdr-cdc",
+      "proposed_canonical_name": "Paul Mehta",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Co-investigator at ATSDR/CDC; home institution is CDC; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12705848",
+      "hint_type": "investigator",
+      "hint_name": "Stommel Elijah W.",
+      "classification": "NEW",
+      "proposed_entity_id": "stommel-elijah-dartmouth",
+      "proposed_canonical_name": "Elijah W. Stommel",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Co-investigator at Dartmouth-Hitchcock Medical Center; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12705848",
+      "hint_type": "cohort",
+      "hint_name": "US National ALS Biorepository plasma cohort (circulating miRNA sub-study)",
+      "classification": "NEW",
+      "proposed_entity_id": "us-als-biorepository-plasma-mirna",
+      "proposed_canonical_name": "US National ALS Biorepository Plasma Cohort (Circulating miRNA Sub-study)",
+      "proposed_aliases": ["National ALS Biorepository miRNA cohort", "ATSDR ALS plasma miRNA"],
+      "back_references": [
+        {"from": "us-als-biorepository-plasma-mirna", "to": "us-national-als-biorepository-atsdr", "relation": "data_provider"},
+        {"from": "us-als-biorepository-plasma-mirna", "to": "banack-sandra-brain-chemistry-labs", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "n=390 K2EDTA plasma ALS samples from national registry; 393 ALS + 395 controls in 5-cohort study; published_cohort; not in wiki."
+    },
+
+    // ─── PMC12706616 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "institution",
+      "hint_name": "Alzheimer's Disease Neuroimaging Initiative (ADNI)",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "usc-loni-data-coordinating-center",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "ADNI itself is the data infrastructure coordinated by USC LONI, which is already in the wiki as 'usc-loni-data-coordinating-center'; merging the ADNI institution hint into the existing entity."
+    },
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "institution",
+      "hint_name": "Alzheimer's Disease Metabolomics Consortium (ADMC), Duke University",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "alzheimers-disease-metabolomics-consortium",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "ADMC is already in the wiki; same entity referenced by a slightly longer name variant."
+    },
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "institution",
+      "hint_name": "Helmholtz Zentrum München",
+      "classification": "NEW",
+      "proposed_entity_id": "helmholtz-zentrum-munchen",
+      "proposed_canonical_name": "Helmholtz Zentrum München",
+      "proposed_aliases": ["Helmholtz Munich", "HMGU"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Kastenmüller/Arnold home institution; sponsor role via IP; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "investigator",
+      "hint_name": "Rima Kaddurah-Daouk",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "rima-kaddurah-daouk-duke",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Rima Kaddurah-Daouk at Duke University is already in the wiki; same person."
+    },
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "investigator",
+      "hint_name": "Andrew J. Saykin",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "andrew-saykin-indiana",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Andrew Saykin at Indiana University is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "investigator",
+      "hint_name": "Matthias Arnold",
+      "classification": "NEW",
+      "proposed_entity_id": "arnold-matthias-helmholtz-duke",
+      "proposed_canonical_name": "Matthias Arnold",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Corresponding author; dual affiliation Helmholtz/Duke; not in wiki. Home institution is Helmholtz Zentrum München (listed first)."
+    },
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "investigator",
+      "hint_name": "Gabi Kastenmüller",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "gabi-kastenmuller-helmholtz-munich",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Gabi Kastenmüller at Helmholtz Munich is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "platform",
+      "hint_name": "Biocrates MXP® Quant 500",
+      "classification": "NEW",
+      "proposed_entity_id": "biocrates-mxp-quant-500",
+      "proposed_canonical_name": "Biocrates MXP® Quant 500 (targeted serum metabolomics, 624 metabolites)",
+      "proposed_aliases": ["MXP Quant 500"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Distinct platform from Biocrates p180 (used in other papers); 624-metabolite targeted panel; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12706616",
+      "hint_type": "cohort",
+      "hint_name": "ADNI-1/GO/2 longitudinal serum metabolomics cohort (MXP Quant 500)",
+      "classification": "NEW",
+      "proposed_entity_id": "adni-go2-serum-metabolomics-mxp500",
+      "proposed_canonical_name": "ADNI-1/GO/2 Longitudinal Serum Metabolomics Cohort (Biocrates MXP Quant 500)",
+      "proposed_aliases": ["ADNI longitudinal metabolomics", "ADMC ADNI serum metabolomics"],
+      "back_references": [
+        {"from": "adni-go2-serum-metabolomics-mxp500", "to": "usc-loni-data-coordinating-center", "relation": "data_provider"},
+        {"from": "adni-go2-serum-metabolomics-mxp500", "to": "alzheimers-disease-metabolomics-consortium", "relation": "collection_site"},
+        {"from": "adni-go2-serum-metabolomics-mxp500", "to": "rima-kaddurah-daouk-duke", "relation": "lead_pi"},
+        {"from": "adni-go2-serum-metabolomics-mxp500", "to": "biocrates-mxp-quant-500", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "4,063 serum samples / 1,430 participants; Biocrates MXP Quant 500 platform; distinct from the Baker Institute lipidomics and UC Davis UHPLC-QTOF cohorts already in wiki; not in wiki."
+    },
+
+    // ─── PMC12716194 (EMPTY cohort) ───────────────────────────────────────────
+    {
+      "source_pmc": "PMC12716194",
+      "hint_type": "institution",
+      "hint_name": "University of Liverpool — Institute of Systems, Molecular and Integrative Biology",
+      "classification": "NEW",
+      "proposed_entity_id": "university-of-liverpool-ismib",
+      "proposed_canonical_name": "University of Liverpool, Institute of Systems, Molecular and Integrative Biology",
+      "proposed_aliases": ["Liverpool ISMIB"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Methods / biosensor paper; only institution hint present; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12716194",
+      "hint_type": "investigator",
+      "hint_name": "Sharma Sanjiv",
+      "classification": "NEW",
+      "proposed_entity_id": "sharma-sanjiv-liverpool",
+      "proposed_canonical_name": "Sanjiv Sharma",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Corresponding author at University of Liverpool ISMIB; not in wiki."
+    },
+
+    // ─── PMC12738121 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12738121",
+      "hint_type": "institution",
+      "hint_name": "Mallinckrodt Institute of Radiology, Washington University in St. Louis",
+      "classification": "NEW",
+      "proposed_entity_id": "mallinckrodt-radiology-wustl",
+      "proposed_canonical_name": "Mallinckrodt Institute of Radiology, Washington University in St. Louis",
+      "proposed_aliases": ["Mallinckrodt MIR WashU"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Raji group imaging institution; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12738121",
+      "hint_type": "investigator",
+      "hint_name": "Cyrus A. Raji",
+      "classification": "NEW",
+      "proposed_entity_id": "raji-cyrus-wustl-radiology",
+      "proposed_canonical_name": "Cyrus A. Raji",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at Mallinckrodt / WashU; home institution is WashU; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12738121",
+      "hint_type": "cohort",
+      "hint_name": "ADNI plasma biomarker longitudinal sub-cohort (BMI/obesity enriched, amyloid PET-linked)",
+      "classification": "NEW",
+      "proposed_entity_id": "adni-plasma-bmi-pet-subcohort-407",
+      "proposed_canonical_name": "ADNI Plasma Biomarker Longitudinal Sub-cohort (BMI/Obesity Enriched, Amyloid PET-Linked, n=407)",
+      "proposed_aliases": ["ADNI obesity BBM cohort"],
+      "back_references": [
+        {"from": "adni-plasma-bmi-pet-subcohort-407", "to": "usc-loni-data-coordinating-center", "relation": "data_provider"},
+        {"from": "adni-plasma-bmi-pet-subcohort-407", "to": "raji-cyrus-wustl-radiology", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "Distinct ADNI sub-cohort filtered to participants with plasma BBM draw within 6 months of amyloid PET; different analytical scope from the serum metabolomics or oxylipin layers; n=407; not in wiki."
+    },
+
+    // ─── PMC12753664 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12753664",
+      "hint_type": "institution",
+      "hint_name": "The First Affiliated Hospital of Harbin Medical University",
+      "classification": "NEW",
+      "proposed_entity_id": "harbin-medical-university-first-hospital",
+      "proposed_canonical_name": "The First Affiliated Hospital of Harbin Medical University",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Clinical qPCR validation site for ALS gene expression study; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12753664",
+      "hint_type": "investigator",
+      "hint_name": "Wang Shuyu",
+      "classification": "NEW",
+      "proposed_entity_id": "wang-shuyu-harbin-first-hospital",
+      "proposed_canonical_name": "Shuyu Wang",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI at First Affiliated Hospital of Harbin Medical University; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12753664",
+      "hint_type": "cohort",
+      "hint_name": "Harbin Medical University ALS qPCR validation cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "harbin-first-hospital-als-qpcr-validation",
+      "proposed_canonical_name": "Harbin Medical University ALS qPCR Validation Cohort",
+      "proposed_aliases": ["First Affiliated Hospital of Harbin Medical University ALS cohort"],
+      "back_references": [
+        {"from": "harbin-first-hospital-als-qpcr-validation", "to": "harbin-medical-university-first-hospital", "relation": "collection_site"},
+        {"from": "harbin-first-hospital-als-qpcr-validation", "to": "wang-shuyu-harbin-first-hospital", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "n=10 ALS + 10 controls for qPCR gene expression; hospital_inventory_signal; not in wiki."
+    },
+
+    // ─── PMC12789652 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "institution",
+      "hint_name": "Sage Bionetworks / AD Knowledge Portal",
+      "classification": "NEW",
+      "proposed_entity_id": "sage-bionetworks-ad-knowledge-portal",
+      "proposed_canonical_name": "Sage Bionetworks / AD Knowledge Portal",
+      "proposed_aliases": ["AD Knowledge Portal", "Synapse AD Knowledge Portal"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Data distribution platform for ROSMAP/Mayo/MSBB brain RNAseq; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "institution",
+      "hint_name": "Mayo Clinic",
+      "classification": "NEW",
+      "proposed_entity_id": "mayo-clinic",
+      "proposed_canonical_name": "Mayo Clinic",
+      "proposed_aliases": ["Mayo Clinic Rochester"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Mayo Clinic Brain Bank collection site; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "institution",
+      "hint_name": "Icahn School of Medicine at Mount Sinai",
+      "classification": "NEW",
+      "proposed_entity_id": "icahn-mount-sinai",
+      "proposed_canonical_name": "Icahn School of Medicine at Mount Sinai",
+      "proposed_aliases": ["Mount Sinai", "ISMMS", "Mount Sinai Brain Bank"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Mount Sinai Brain Bank collection site; the wiki has 'dinesh-barupal-mount-sinai' as an investigator but no institution entity for Mount Sinai itself; creating institution entity now."
+    },
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "investigator",
+      "hint_name": "Kaddurah-Daouk Rima F.",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "rima-kaddurah-daouk-duke",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Same person as Rima Kaddurah-Daouk already in the wiki."
+    },
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "investigator",
+      "hint_name": "Baloni Priyanka",
+      "classification": "NEW",
+      "proposed_entity_id": "baloni-priyanka-purdue",
+      "proposed_canonical_name": "Priyanka Baloni",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI at Purdue University; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "investigator",
+      "hint_name": "Trushina Eugenia",
+      "classification": "NEW",
+      "proposed_entity_id": "trushina-eugenia-mayo-clinic",
+      "proposed_canonical_name": "Eugenia Trushina",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Co-investigator at Mayo Clinic; home institution is Mayo Clinic; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "cohort",
+      "hint_name": "ROSMAP post-mortem brain RNAseq cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "rosmap-brain-rnaseq-adkp",
+      "proposed_canonical_name": "ROSMAP Post-mortem Brain RNAseq Cohort (AD Knowledge Portal)",
+      "proposed_aliases": ["Religious Orders Study", "Memory and Aging Project", "ROSMAP"],
+      "back_references": [
+        {"from": "rosmap-brain-rnaseq-adkp", "to": "sage-bionetworks-ad-knowledge-portal", "relation": "data_provider"}
+      ],
+      "confidence": "high",
+      "reason": "ROSMAP post-mortem brain RNAseq accessed via AD Knowledge Portal; distinct from blood-based ADNI cohorts; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "cohort",
+      "hint_name": "Mayo Clinic Brain Bank post-mortem brain RNAseq cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "mayo-brain-bank-rnaseq-adkp",
+      "proposed_canonical_name": "Mayo Clinic Brain Bank Post-mortem Brain RNAseq Cohort (AD Knowledge Portal)",
+      "proposed_aliases": ["Mayo Clinic brain bank", "Mayo RNAseq"],
+      "back_references": [
+        {"from": "mayo-brain-bank-rnaseq-adkp", "to": "mayo-clinic", "relation": "collection_site"},
+        {"from": "mayo-brain-bank-rnaseq-adkp", "to": "sage-bionetworks-ad-knowledge-portal", "relation": "data_provider"}
+      ],
+      "confidence": "high",
+      "reason": "Mayo Clinic Brain Bank RNAseq; independent from ROSMAP and MSBB; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12789652",
+      "hint_type": "cohort",
+      "hint_name": "Mount Sinai Brain Bank post-mortem brain RNAseq cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "msbb-brain-rnaseq-adkp",
+      "proposed_canonical_name": "Mount Sinai Brain Bank Post-mortem Brain RNAseq Cohort (AD Knowledge Portal)",
+      "proposed_aliases": ["Mount Sinai Brain Bank", "MSBB"],
+      "back_references": [
+        {"from": "msbb-brain-rnaseq-adkp", "to": "icahn-mount-sinai", "relation": "collection_site"},
+        {"from": "msbb-brain-rnaseq-adkp", "to": "sage-bionetworks-ad-knowledge-portal", "relation": "data_provider"}
+      ],
+      "confidence": "high",
+      "reason": "MSBB brain RNAseq; third independent brain bank cohort in the AD Knowledge Portal set; not in wiki."
+    },
+
+    // ─── PMC12795606 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12795606",
+      "hint_type": "institution",
+      "hint_name": "Laboratory for Neuro Imaging, University of Southern California",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "usc-loni-data-coordinating-center",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "USC LONI data portal for ADNI is the same entity already in the wiki."
+    },
+    {
+      "source_pmc": "PMC12795606",
+      "hint_type": "institution",
+      "hint_name": "Indiana University / Indiana Alzheimer's Disease Research Center",
+      "classification": "NEW",
+      "proposed_entity_id": "indiana-university-adrc",
+      "proposed_canonical_name": "Indiana University / Indiana Alzheimer's Disease Research Center",
+      "proposed_aliases": ["Indiana ADRC", "IU School of Medicine ADRC"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Home institution of Risacher/Saykin ADNI analysis group; collection_site role; not in wiki as institution (wiki has Andrew Saykin as investigator but not the Indiana ADRC institution)."
+    },
+    {
+      "source_pmc": "PMC12795606",
+      "hint_type": "investigator",
+      "hint_name": "Shannon L. Risacher",
+      "classification": "NEW",
+      "proposed_entity_id": "risacher-shannon-indiana",
+      "proposed_canonical_name": "Shannon L. Risacher",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at Indiana University; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12795606",
+      "hint_type": "investigator",
+      "hint_name": "Andrew J. Saykin",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "andrew-saykin-indiana",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC12795606",
+      "hint_type": "investigator",
+      "hint_name": "Michael W. Weiner",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "michael-weiner-ucsf",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Michael Weiner at UCSF already in wiki."
+    },
+    {
+      "source_pmc": "PMC12795606",
+      "hint_type": "cohort",
+      "hint_name": "ADNI multi-phase CSF and plasma biomarker cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "adni-multiwave-csf-plasma-biomarker",
+      "proposed_canonical_name": "ADNI Multi-Phase CSF and Plasma Biomarker Cohort (ADNI 1/GO/2/3)",
+      "proposed_aliases": ["ADNI 1", "ADNI GO", "ADNI 2", "ADNI 3", "ADNI multi-wave"],
+      "back_references": [
+        {"from": "adni-multiwave-csf-plasma-biomarker", "to": "usc-loni-data-coordinating-center", "relation": "data_provider"},
+        {"from": "adni-multiwave-csf-plasma-biomarker", "to": "michael-weiner-ucsf", "relation": "lead_pi"},
+        {"from": "adni-multiwave-csf-plasma-biomarker", "to": "andrew-saykin-indiana", "relation": "co_investigator"}
+      ],
+      "confidence": "high",
+      "reason": "ADNI 1/GO/2/3 combined as single continuously-recruited cohort; n=2,511 with CSF Elecsys + plasma Simoa panels; distinct analytical scope from the ADMC metabolomics layers already in wiki; not in wiki as a cohort entity."
+    },
+
+    // ─── PMC12857118 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12857118",
+      "hint_type": "institution",
+      "hint_name": "West Coast Metabolomics Center, University of California Davis",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "uc-davis-metabolomics-center",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "West Coast Metabolomics Center at UC Davis is the same entity as 'uc-davis-metabolomics-center' already in the wiki."
+    },
+    {
+      "source_pmc": "PMC12857118",
+      "hint_type": "institution",
+      "hint_name": "Metabolomics and Analytics Centre, Leiden University (LACDR)",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "lacdr-leiden-university",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Same LACDR Leiden University proposed in PMC12572818 resolution above; merging into that same NEW entity (accumulated within this plan)."
+    },
+    {
+      "source_pmc": "PMC12857118",
+      "hint_type": "investigator",
+      "hint_name": "Kaddurah-Daouk Rima",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "rima-kaddurah-daouk-duke",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC12857118",
+      "hint_type": "investigator",
+      "hint_name": "Borkowski Kamil",
+      "classification": "NEW",
+      "proposed_entity_id": "borkowski-kamil-uc-davis",
+      "proposed_canonical_name": "Kamil Borkowski",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI at West Coast Metabolomics Center UC Davis; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12857118",
+      "hint_type": "investigator",
+      "hint_name": "Hankemeier Thomas",
+      "classification": "NEW",
+      "proposed_entity_id": "hankemeier-thomas-lacdr-leiden",
+      "proposed_canonical_name": "Thomas Hankemeier",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at LACDR Leiden; home institution is Leiden University; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12857118",
+      "hint_type": "platform",
+      "hint_name": "UHPLC-MS/MS targeted oxylipin-endocannabinoid panel (~260 analytes)",
+      "classification": "NEW",
+      "proposed_entity_id": "uhplc-ms-oxylipin-endocannabinoid-260",
+      "proposed_canonical_name": "UHPLC-MS/MS Targeted Oxylipin-Endocannabinoid Panel (~260 analytes, SCIEX QTRAP, dual-pH)",
+      "proposed_aliases": ["OxyL-EC panel"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Unique lipidomics panel covering oxylipins, endocannabinoids, bile acids; distinct from Biocrates p180 and Baker Institute QqQ platforms; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12857118",
+      "hint_type": "cohort",
+      "hint_name": "ADNI 2/GO oxylipin-endocannabinoid plasma cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "adni-go2-plasma-oxylipin-endocannabinoid",
+      "proposed_canonical_name": "ADNI 2/GO Plasma Oxylipin-Endocannabinoid Cohort (Baseline Cross-sectional)",
+      "proposed_aliases": ["ADNI GO/2 OxyL-EC", "ADNI 2 oxylipin cohort"],
+      "back_references": [
+        {"from": "adni-go2-plasma-oxylipin-endocannabinoid", "to": "usc-loni-data-coordinating-center", "relation": "data_provider"},
+        {"from": "adni-go2-plasma-oxylipin-endocannabinoid", "to": "uc-davis-metabolomics-center", "relation": "collection_site"},
+        {"from": "adni-go2-plasma-oxylipin-endocannabinoid", "to": "rima-kaddurah-daouk-duke", "relation": "lead_pi"},
+        {"from": "adni-go2-plasma-oxylipin-endocannabinoid", "to": "uhplc-ms-oxylipin-endocannabinoid-260", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=763 ADNI 2/GO baseline plasma samples, targeted OxyL-EC 260-analyte panel; distinct assay layer from Baker lipidomics, ADMC p180, and MXP500 cohorts already/being-added; not in wiki."
+    },
+
+    // ─── PMC12869035 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12869035",
+      "hint_type": "institution",
+      "hint_name": "Alzheimer's Disease Neuroimaging Initiative (ADNI)",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "usc-loni-data-coordinating-center",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "ADNI data infrastructure = USC LONI entity already in wiki."
+    },
+    {
+      "source_pmc": "PMC12869035",
+      "hint_type": "institution",
+      "hint_name": "UPenn/ADNI Biomarker Laboratory",
+      "classification": "NEW",
+      "proposed_entity_id": "upenn-adni-biomarker-lab",
+      "proposed_canonical_name": "UPenn/ADNI Biomarker Laboratory",
+      "proposed_aliases": ["University of Pennsylvania ADNI Biomarker Core"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "CSF assay processing site for ADNI samples; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12869035",
+      "hint_type": "investigator",
+      "hint_name": "Yuhua Fan",
+      "classification": "NEW",
+      "proposed_entity_id": "fan-yuhua-guangdong",
+      "proposed_canonical_name": "Yuhua Fan",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "medium",
+      "reason": "Lead PI / corresponding author; affiliation listed as Guangdong China but home institution name not fully specified in paper; using abbreviated 'guangdong' as affiliation token."
+    },
+    {
+      "source_pmc": "PMC12869035",
+      "hint_type": "investigator",
+      "hint_name": "Michael W. Weiner",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "michael-weiner-ucsf",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC12869035",
+      "hint_type": "cohort",
+      "hint_name": "ADNI plasma biomarker AD-CSVD comorbidity cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "adni-plasma-ad-csvd-comorbidity-330",
+      "proposed_canonical_name": "ADNI Plasma Biomarker AD-CSVD Comorbidity Cohort (n=330)",
+      "proposed_aliases": ["ADNI AD-CSVD subset", "ADNI CN/MCI plasma GFAP NfL p-tau217"],
+      "back_references": [
+        {"from": "adni-plasma-ad-csvd-comorbidity-330", "to": "usc-loni-data-coordinating-center", "relation": "data_provider"},
+        {"from": "adni-plasma-ad-csvd-comorbidity-330", "to": "upenn-adni-biomarker-lab", "relation": "collection_site"},
+        {"from": "adni-plasma-ad-csvd-comorbidity-330", "to": "michael-weiner-ucsf", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "Specific ADNI sub-cohort (n=330) requiring all four plasma analytes plus MRI/CSF/PET; distinct filter from other ADNI cohorts; not in wiki."
+    },
+
+    // ─── PMC12907680 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12907680",
+      "hint_type": "institution",
+      "hint_name": "University of Cagliari — ALS Referral Centre",
+      "classification": "NEW",
+      "proposed_entity_id": "university-of-cagliari-als-centre",
+      "proposed_canonical_name": "University of Cagliari ALS Referral Centre",
+      "proposed_aliases": ["Cagliari ALS centre", "Sardinian ALS referral"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Sardinian tertiary referral centre for ALS; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12907680",
+      "hint_type": "investigator",
+      "hint_name": "Sotgia Salvatore",
+      "classification": "NEW",
+      "proposed_entity_id": "sotgia-salvatore-cagliari",
+      "proposed_canonical_name": "Salvatore Sotgia",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI / corresponding author at University of Cagliari; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12907680",
+      "hint_type": "platform",
+      "hint_name": "Waters Acquity UPLC + Waters TQD tandem quadrupole (LC-MS/MS, HILIC)",
+      "classification": "NEW",
+      "proposed_entity_id": "waters-acquity-uplc-tqd-hilic",
+      "proposed_canonical_name": "Waters Acquity UPLC + TQD Tandem Quadrupole (LC-MS/MS, HILIC, TMAO panel)",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Targeted TMAO/trimethylammonium platform used for Sardinian ALS cohort; distinct from other platforms in wiki; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12907680",
+      "hint_type": "cohort",
+      "hint_name": "Sardinian ALS case-control cohort (University of Cagliari, 2023–2024)",
+      "classification": "NEW",
+      "proposed_entity_id": "cagliari-als-sardinian-casecontrol-2023",
+      "proposed_canonical_name": "Sardinian ALS Case-Control Cohort (University of Cagliari, 2023–2024)",
+      "proposed_aliases": ["Sulcis-Iglesiente ALS cohort"],
+      "back_references": [
+        {"from": "cagliari-als-sardinian-casecontrol-2023", "to": "university-of-cagliari-als-centre", "relation": "collection_site"},
+        {"from": "cagliari-als-sardinian-casecontrol-2023", "to": "sotgia-salvatore-cagliari", "relation": "lead_pi"},
+        {"from": "cagliari-als-sardinian-casecontrol-2023", "to": "waters-acquity-uplc-tqd-hilic", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=12 ALS, n=8 controls; Sardinian island population; serum TMAO panel; not in wiki."
+    },
+
+    // ─── PMC12927225 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12927225",
+      "hint_type": "institution",
+      "hint_name": "Target ALS Foundation",
+      "classification": "NEW",
+      "proposed_entity_id": "target-als-foundation",
+      "proposed_canonical_name": "Target ALS Foundation",
+      "proposed_aliases": ["TargetALS"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Biofluid core and data engine operator for ALS proteomics samples; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12927225",
+      "hint_type": "institution",
+      "hint_name": "Clinical Neurochemistry Laboratory, Sahlgrenska University Hospital",
+      "classification": "NEW",
+      "proposed_entity_id": "clinical-neurochemistry-lab-sahlgrenska",
+      "proposed_canonical_name": "Clinical Neurochemistry Laboratory, Sahlgrenska University Hospital",
+      "proposed_aliases": ["Sahlgrenska Clinical Neurochemistry Lab", "CNL Sahlgrenska"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Surplus CSF/plasma collection site and Gobom/Zetterberg lab; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12927225",
+      "hint_type": "investigator",
+      "hint_name": "Gobom Johan",
+      "classification": "NEW",
+      "proposed_entity_id": "gobom-johan-sahlgrenska",
+      "proposed_canonical_name": "Johan Gobom",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at Sahlgrenska / University of Gothenburg; home institution is Sahlgrenska; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12927225",
+      "hint_type": "investigator",
+      "hint_name": "Zetterberg Henrik",
+      "classification": "NEW",
+      "proposed_entity_id": "zetterberg-henrik-sahlgrenska",
+      "proposed_canonical_name": "Henrik Zetterberg",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author; primary affiliation is Sahlgrenska Academy / Gothenburg (listed first despite UCL co-affiliation); not in wiki."
+    },
+    {
+      "source_pmc": "PMC12927225",
+      "hint_type": "platform",
+      "hint_name": "timsTOF HT (Bruker) with Evosep One LC — DIA-PASEF",
+      "classification": "NEW",
+      "proposed_entity_id": "bruker-timstof-ht-evosep-dia-pasef",
+      "proposed_canonical_name": "Bruker timsTOF HT + Evosep One (DIA-PASEF, clinical proteomics)",
+      "proposed_aliases": ["timsTOF DIA-PASEF"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Key platform for ALS clinical proteomics in Target ALS cohort; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12927225",
+      "hint_type": "platform",
+      "hint_name": "TMTpro 35-plex isobaric labelling",
+      "classification": "NEW",
+      "proposed_entity_id": "tmtpro-35plex-isobaric-labelling",
+      "proposed_canonical_name": "TMTpro 35-plex Isobaric Labelling (Thermo Orbitrap, clinical proteomics)",
+      "proposed_aliases": ["TMTpro 35-plex"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Clinical-scale quantitative proteomics label used for ALS 528-sample study; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12927225",
+      "hint_type": "cohort",
+      "hint_name": "Target ALS Longitudinal Biofluid Core — ALS clinical proteomics cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "target-als-longitudinal-biofluid-proteomics",
+      "proposed_canonical_name": "Target ALS Longitudinal Biofluid Core — ALS Clinical Proteomics Cohort",
+      "proposed_aliases": ["Target ALS biofluid cohort", "Target ALS ALS study"],
+      "back_references": [
+        {"from": "target-als-longitudinal-biofluid-proteomics", "to": "target-als-foundation", "relation": "data_provider"},
+        {"from": "target-als-longitudinal-biofluid-proteomics", "to": "clinical-neurochemistry-lab-sahlgrenska", "relation": "collection_site"},
+        {"from": "target-als-longitudinal-biofluid-proteomics", "to": "gobom-johan-sahlgrenska", "relation": "lead_pi"},
+        {"from": "target-als-longitudinal-biofluid-proteomics", "to": "tmtpro-35plex-isobaric-labelling", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=90-100 donors, 528 paired CSF+plasma samples, longitudinal up to 5 timepoints; published_cohort; not in wiki."
+    },
+
+    // ─── PMC12996660 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC12996660",
+      "hint_type": "institution",
+      "hint_name": "Caen University Hospital",
+      "classification": "NEW",
+      "proposed_entity_id": "caen-university-hospital",
+      "proposed_canonical_name": "Caen University Hospital",
+      "proposed_aliases": ["CHU Caen"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "One of two French collection sites for SMA nusinersen cohort; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12996660",
+      "hint_type": "institution",
+      "hint_name": "Toulouse University Hospital",
+      "classification": "NEW",
+      "proposed_entity_id": "toulouse-university-hospital",
+      "proposed_canonical_name": "Toulouse University Hospital",
+      "proposed_aliases": ["CHU Toulouse"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Second French collection site for SMA nusinersen cohort; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12996660",
+      "hint_type": "investigator",
+      "hint_name": "Bekri Soumeya",
+      "classification": "NEW",
+      "proposed_entity_id": "bekri-soumeya-caen",
+      "proposed_canonical_name": "Soumeya Bekri",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author; home institution is Caen University Hospital; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12996660",
+      "hint_type": "platform",
+      "hint_name": "Biocrates AbsoluteIDQ p180 (targeted metabolomics)",
+      "classification": "NEW",
+      "proposed_entity_id": "biocrates-absoluteidq-p180",
+      "proposed_canonical_name": "Biocrates AbsoluteIDQ p180 (targeted metabolomics, 188 metabolites)",
+      "proposed_aliases": ["Biocrates p180", "AbsoluteIDQ p180"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Targeted metabolomics kit used across multiple papers (PMC12996660, PMC4947451, PMC5784884, PMC6487485, PMC8699018); proposing once here as canonical platform entity; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12996660",
+      "hint_type": "platform",
+      "hint_name": "Olink Target 96 Neurology (proximity extension assay proteomics)",
+      "classification": "NEW",
+      "proposed_entity_id": "olink-target96-neurology-pea",
+      "proposed_canonical_name": "Olink Target 96 Neurology (Proximity Extension Assay, 92 proteins)",
+      "proposed_aliases": ["Olink Neurology", "Olink PEA"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Multiplex proteomics platform used for SMA and proteomics papers; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12996660",
+      "hint_type": "cohort",
+      "hint_name": "French SMA Nusinersen cohort — plasma multi-omics",
+      "classification": "NEW",
+      "proposed_entity_id": "french-sma-nusinersen-plasma-multiomics",
+      "proposed_canonical_name": "French SMA Nusinersen Cohort — Plasma Multi-omics (Caen/Toulouse)",
+      "proposed_aliases": ["SMA plasma cohort", "SMA metabolomics and proteomics plasma"],
+      "back_references": [
+        {"from": "french-sma-nusinersen-plasma-multiomics", "to": "caen-university-hospital", "relation": "collection_site"},
+        {"from": "french-sma-nusinersen-plasma-multiomics", "to": "toulouse-university-hospital", "relation": "collection_site"},
+        {"from": "french-sma-nusinersen-plasma-multiomics", "to": "bekri-soumeya-caen", "relation": "lead_pi"},
+        {"from": "french-sma-nusinersen-plasma-multiomics", "to": "biocrates-absoluteidq-p180", "relation": "assay_platform"},
+        {"from": "french-sma-nusinersen-plasma-multiomics", "to": "olink-target96-neurology-pea", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=53 SMA plasma (53 baseline + 23 at d184) from two French centres; dual-omics (metabolomics + proteomics); published_cohort; not in wiki."
+    },
+    {
+      "source_pmc": "PMC12996660",
+      "hint_type": "cohort",
+      "hint_name": "French SMA Nusinersen cohort — CSF multi-omics",
+      "classification": "NEW",
+      "proposed_entity_id": "french-sma-nusinersen-csf-multiomics",
+      "proposed_canonical_name": "French SMA Nusinersen Cohort — CSF Multi-omics (Caen/Toulouse)",
+      "proposed_aliases": ["SMA CSF cohort"],
+      "back_references": [
+        {"from": "french-sma-nusinersen-csf-multiomics", "to": "caen-university-hospital", "relation": "collection_site"},
+        {"from": "french-sma-nusinersen-csf-multiomics", "to": "toulouse-university-hospital", "relation": "collection_site"},
+        {"from": "french-sma-nusinersen-csf-multiomics", "to": "bekri-soumeya-caen", "relation": "lead_pi"},
+        {"from": "french-sma-nusinersen-csf-multiomics", "to": "olink-target96-neurology-pea", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "Separate biofluid type (CSF) with distinct n (28 baseline, 22 d184) and distinct protocols from plasma arm; warranting separate entity."
+    },
+
+    // ─── PMC13032452 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC13032452",
+      "hint_type": "institution",
+      "hint_name": "Oregon Health and Science University (OHSU)",
+      "classification": "NEW",
+      "proposed_entity_id": "ohsu-miRNA-processing",
+      "proposed_canonical_name": "Oregon Health and Science University (OHSU)",
+      "proposed_aliases": ["OHSU"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "miRNA data analysis and processing provider for ADNI plasma miRNA sub-study; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC13032452",
+      "hint_type": "investigator",
+      "hint_name": "Michael W. Weiner",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "michael-weiner-ucsf",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC13032452",
+      "hint_type": "cohort",
+      "hint_name": "ADNI 2 plasma miRNA sub-cohort (CN + MCI, baseline)",
+      "classification": "NEW",
+      "proposed_entity_id": "adni2-plasma-mirna-cn-mci-baseline",
+      "proposed_canonical_name": "ADNI 2 Plasma miRNA Sub-cohort (CN + MCI, Baseline, n=152)",
+      "proposed_aliases": ["ADNI2 plasma miRNA", "ADNI Phase 2 miRNA cohort"],
+      "back_references": [
+        {"from": "adni2-plasma-mirna-cn-mci-baseline", "to": "usc-loni-data-coordinating-center", "relation": "data_provider"},
+        {"from": "adni2-plasma-mirna-cn-mci-baseline", "to": "ohsu-miRNA-processing", "relation": "data_provider"},
+        {"from": "adni2-plasma-mirna-cn-mci-baseline", "to": "michael-weiner-ucsf", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "n=152 ADNI 2 baseline; plasma miRNA (TLDA 64-panel) + FDG-PET; distinct analytical scope from lipidomics/metabolomics ADNI layers; not in wiki."
+    },
+
+    // ─── PMC4947451 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC4947451",
+      "hint_type": "institution",
+      "hint_name": "National Institute on Aging, NIH (Intramural Research Program)",
+      "classification": "NEW",
+      "proposed_entity_id": "nia-nih-intramural",
+      "proposed_canonical_name": "National Institute on Aging, NIH (Intramural Research Program)",
+      "proposed_aliases": ["NIA NIH", "NIA Intramural", "NIA BLSA"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Sponsor and home institution for BLSA and Thambisetty group; not in wiki."
+    },
+    {
+      "source_pmc": "PMC4947451",
+      "hint_type": "institution",
+      "hint_name": "Hjartavernd (Icelandic Heart Association)",
+      "classification": "NEW",
+      "proposed_entity_id": "hjartavernd-icelandic-heart-association",
+      "proposed_canonical_name": "Hjartavernd (Icelandic Heart Association)",
+      "proposed_aliases": ["Icelandic Heart Association", "AGES-RS sponsor"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Sponsor of AGES-Reykjavik Study; not in wiki."
+    },
+    {
+      "source_pmc": "PMC4947451",
+      "hint_type": "investigator",
+      "hint_name": "Madhav Thambisetty",
+      "classification": "NEW",
+      "proposed_entity_id": "thambisetty-madhav-nia",
+      "proposed_canonical_name": "Madhav Thambisetty",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at NIA NIH; not in wiki."
+    },
+    {
+      "source_pmc": "PMC4947451",
+      "hint_type": "cohort",
+      "hint_name": "Baltimore Longitudinal Study of Aging (BLSA) serum metabolomics cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "blsa-serum-metabolomics-preclinical-ad",
+      "proposed_canonical_name": "Baltimore Longitudinal Study of Aging (BLSA) Serum Metabolomics Cohort (Preclinical AD)",
+      "proposed_aliases": ["BLSA serum metabolomics", "BLSA converter cohort"],
+      "back_references": [
+        {"from": "blsa-serum-metabolomics-preclinical-ad", "to": "nia-nih-intramural", "relation": "sponsor"},
+        {"from": "blsa-serum-metabolomics-preclinical-ad", "to": "thambisetty-madhav-nia", "relation": "lead_pi"},
+        {"from": "blsa-serum-metabolomics-preclinical-ad", "to": "biocrates-absoluteidq-p180", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "BLSA longitudinal serum; n=93 converters + n=99 non-converters; published_cohort; not in wiki."
+    },
+    {
+      "source_pmc": "PMC4947451",
+      "hint_type": "cohort",
+      "hint_name": "Age, Gene/Environment Susceptibility-Reykjavik Study (AGES-RS) serum metabolomics cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "ages-reykjavik-serum-metabolomics-ad",
+      "proposed_canonical_name": "Age, Gene/Environment Susceptibility-Reykjavik Study (AGES-RS) Serum Metabolomics Cohort",
+      "proposed_aliases": ["AGES-RS", "AGES-Reykjavik serum metabolomics"],
+      "back_references": [
+        {"from": "ages-reykjavik-serum-metabolomics-ad", "to": "hjartavernd-icelandic-heart-association", "relation": "sponsor"},
+        {"from": "ages-reykjavik-serum-metabolomics-ad", "to": "biocrates-absoluteidq-p180", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "Icelandic longitudinal cohort; n=100 converters + n=100 non-converters; separate from BLSA in institution, location, and results; not in wiki."
+    },
+
+    // ─── PMC5784884 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC5784884",
+      "hint_type": "institution",
+      "hint_name": "ADNI Biomarker Core, University of Pennsylvania",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "upenn-adni-biomarker-lab",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Same UPenn ADNI Biomarker Lab proposed in PMC12869035 above; merging into that new entity."
+    },
+    {
+      "source_pmc": "PMC5784884",
+      "hint_type": "investigator",
+      "hint_name": "Thambisetty Madhav",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "thambisetty-madhav-nia",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Same investigator proposed NEW in PMC4947451 processing above."
+    },
+    {
+      "source_pmc": "PMC5784884",
+      "hint_type": "investigator",
+      "hint_name": "Kaddurah-Daouk Rima",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "rima-kaddurah-daouk-duke",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC5784884",
+      "hint_type": "investigator",
+      "hint_name": "Weiner Michael W.",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "michael-weiner-ucsf",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC5784884",
+      "hint_type": "cohort",
+      "hint_name": "BLSA autopsy cohort (brain tissue metabolomics)",
+      "classification": "NEW",
+      "proposed_entity_id": "blsa-autopsy-brain-metabolomics",
+      "proposed_canonical_name": "BLSA Autopsy Cohort (Brain Tissue Metabolomics, ITG/MFG/CBL)",
+      "proposed_aliases": ["Baltimore Longitudinal Study of Aging autopsy subsample"],
+      "back_references": [
+        {"from": "blsa-autopsy-brain-metabolomics", "to": "nia-nih-intramural", "relation": "sponsor"},
+        {"from": "blsa-autopsy-brain-metabolomics", "to": "thambisetty-madhav-nia", "relation": "lead_pi"},
+        {"from": "blsa-autopsy-brain-metabolomics", "to": "biocrates-absoluteidq-p180", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=44 postmortem brain samples (AD/CN/ASYMAD); distinct from the serum arm in medium and collection event; not in wiki."
+    },
+    {
+      "source_pmc": "PMC5784884",
+      "hint_type": "cohort",
+      "hint_name": "BLSA serum cohort (preclinical AD, converters vs non-converters)",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "blsa-serum-metabolomics-preclinical-ad",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Same BLSA serum converter/non-converter cohort as proposed NEW in PMC4947451; this paper uses n=207 after Met-So exclusion on the same BLSA serum biobank — merging into the same entity."
+    },
+    {
+      "source_pmc": "PMC5784884",
+      "hint_type": "cohort",
+      "hint_name": "ADNI-1 serum cohort (prodromal AD, MCI/normal/AD at baseline)",
+      "classification": "NEW",
+      "proposed_entity_id": "adni1-serum-metabolomics-biocrates-p180",
+      "proposed_canonical_name": "ADNI-1 Serum Metabolomics Cohort (Biocrates p180, Prodromal AD, n=767)",
+      "proposed_aliases": ["ADNI serum metabolomics cohort", "ADNI-1 Biocrates p180"],
+      "back_references": [
+        {"from": "adni1-serum-metabolomics-biocrates-p180", "to": "usc-loni-data-coordinating-center", "relation": "data_provider"},
+        {"from": "adni1-serum-metabolomics-biocrates-p180", "to": "alzheimers-disease-metabolomics-consortium", "relation": "collection_site"},
+        {"from": "adni1-serum-metabolomics-biocrates-p180", "to": "rima-kaddurah-daouk-duke", "relation": "lead_pi"},
+        {"from": "adni1-serum-metabolomics-biocrates-p180", "to": "biocrates-absoluteidq-p180", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=767 ADNI-1 baseline serum with Biocrates p180; distinct wave and platform from the Baker/UC Davis lipidomics cohorts in wiki and from the MXP500 longitudinal cohort; not in wiki."
+    },
+
+    // ─── PMC6487485 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "institution",
+      "hint_name": "Rush University Medical Center",
+      "classification": "NEW",
+      "proposed_entity_id": "rush-university-medical-center",
+      "proposed_canonical_name": "Rush University Medical Center",
+      "proposed_aliases": ["Rush ADRC", "Rush Alzheimer's Disease Center"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Home of ROS/MAP cohort; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "institution",
+      "hint_name": "Erasmus Medical Center",
+      "classification": "NEW",
+      "proposed_entity_id": "erasmus-medical-center",
+      "proposed_canonical_name": "Erasmus Medical Center",
+      "proposed_aliases": ["Erasmus MC", "EMC Rotterdam"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Rotterdam Study genotyping site; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "investigator",
+      "hint_name": "Kaddurah-Daouk Rima",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "rima-kaddurah-daouk-duke",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "investigator",
+      "hint_name": "Saykin Andrew J.",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "andrew-saykin-indiana",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "investigator",
+      "hint_name": "Kastenmüller Gabi",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "gabi-kastenmuller-helmholtz-munich",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "investigator",
+      "hint_name": "Weiner Michael W.",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "michael-weiner-ucsf",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Already in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "investigator",
+      "hint_name": "Bennett David A.",
+      "classification": "NEW",
+      "proposed_entity_id": "bennett-david-rush",
+      "proposed_canonical_name": "David A. Bennett",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI of ROS/MAP at Rush University Medical Center; not in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "cohort",
+      "hint_name": "ADNI bile acid metabolomics cohort (baseline serum)",
+      "classification": "NEW",
+      "proposed_entity_id": "adni-bile-acid-serum-biocrates-1464",
+      "proposed_canonical_name": "ADNI Bile Acid Serum Metabolomics Cohort (Biocrates BA Kit, n=1,464)",
+      "proposed_aliases": ["ADNI1 bile acid cohort", "ADNI baseline bile acids"],
+      "back_references": [
+        {"from": "adni-bile-acid-serum-biocrates-1464", "to": "usc-loni-data-coordinating-center", "relation": "data_provider"},
+        {"from": "adni-bile-acid-serum-biocrates-1464", "to": "alzheimers-disease-metabolomics-consortium", "relation": "collection_site"},
+        {"from": "adni-bile-acid-serum-biocrates-1464", "to": "rima-kaddurah-daouk-duke", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "n=1,464 ADNI serum with targeted bile acid panel (Biocrates BA kit, 15 analytes); largest ADNI bile acid study; distinct from p180 and oxylipin layers; not in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "cohort",
+      "hint_name": "ROS/MAP serum bile acid replication cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "rosmap-serum-brain-bile-acid",
+      "proposed_canonical_name": "ROS/MAP Serum + Postmortem Brain Bile Acid Replication Cohort",
+      "proposed_aliases": ["Religious Orders Study", "Rush Memory and Aging Project bile acid"],
+      "back_references": [
+        {"from": "rosmap-serum-brain-bile-acid", "to": "rush-university-medical-center", "relation": "collection_site"},
+        {"from": "rosmap-serum-brain-bile-acid", "to": "bennett-david-rush", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "n=566 serum + 111 postmortem brain (DLPFC) bile acid profiles from same individuals; distinct from the AD Knowledge Portal RNAseq ROSMAP entity; separate biofluid type; not in wiki."
+    },
+    {
+      "source_pmc": "PMC6487485",
+      "hint_type": "cohort",
+      "hint_name": "Rotterdam Study bile acid genetics subcohort (RS-I)",
+      "classification": "NEW",
+      "proposed_entity_id": "rotterdam-study-bile-acid-genetics",
+      "proposed_canonical_name": "Rotterdam Study (RS-I) Bile Acid Genetics Subcohort",
+      "proposed_aliases": ["RS-I bile acid", "Rotterdam Study RS-I"],
+      "back_references": [
+        {"from": "rotterdam-study-bile-acid-genetics", "to": "erasmus-medical-center", "relation": "collection_site"}
+      ],
+      "confidence": "high",
+      "reason": "n=488 dementia-free RS-I participants with fasting serum BAs + WGS; genetics validation arm only; not in wiki."
+    },
+
+    // ─── PMC7896278 (EMPTY) ──────────────────────────────────────────────────
+    // Forensic serology methods paper — no cohort hints.
+    // Only institution/investigator hints emitted; minimal resolution needed.
+    {
+      "source_pmc": "PMC7896278",
+      "hint_type": "institution",
+      "hint_name": "The Ohio State University",
+      "classification": "NEW",
+      "proposed_entity_id": "ohio-state-university-chemistry",
+      "proposed_canonical_name": "The Ohio State University",
+      "proposed_aliases": ["OSU"],
+      "back_references": [],
+      "confidence": "medium",
+      "reason": "Marginal inclusion — methods paper, no cohort; the PI's home institution is captured for completeness."
+    },
+    {
+      "source_pmc": "PMC7896278",
+      "hint_type": "investigator",
+      "hint_name": "Abraham K. Badu-Tawiah",
+      "classification": "NEW",
+      "proposed_entity_id": "badu-tawiah-abraham-ohio-state",
+      "proposed_canonical_name": "Abraham K. Badu-Tawiah",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "medium",
+      "reason": "Senior author at Ohio State; methods paper only; captured for completeness but low clinical relevance."
+    },
+
+    // ─── PMC7951103 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC7951103",
+      "hint_type": "institution",
+      "hint_name": "Unit for Hereditary Dementias, Karolinska University Hospital-Solna",
+      "classification": "NEW",
+      "proposed_entity_id": "karolinska-hereditary-dementias-unit",
+      "proposed_canonical_name": "Unit for Hereditary Dementias, Karolinska University Hospital-Solna",
+      "proposed_aliases": ["Karolinska FAD unit", "Division for Neurogeriatrics KI"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Swedish FAD study home; collection_site role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC7951103",
+      "hint_type": "institution",
+      "hint_name": "Swedish Metabolomics Centre (SMC), Umeå",
+      "classification": "NEW",
+      "proposed_entity_id": "swedish-metabolomics-centre-umea",
+      "proposed_canonical_name": "Swedish Metabolomics Centre (SMC), Umeå",
+      "proposed_aliases": ["SMC Umeå"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Untargeted GC-MS/LC-MS metabolomics analysis site; data_provider role; not in wiki."
+    },
+    {
+      "source_pmc": "PMC7951103",
+      "hint_type": "investigator",
+      "hint_name": "Graff Caroline",
+      "classification": "NEW",
+      "proposed_entity_id": "graff-caroline-karolinska",
+      "proposed_canonical_name": "Caroline Graff",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Lead PI of Swedish FAD study at Karolinska; not in wiki."
+    },
+    {
+      "source_pmc": "PMC7951103",
+      "hint_type": "investigator",
+      "hint_name": "Zetterberg Henrik",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "zetterberg-henrik-sahlgrenska",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Same Henrik Zetterberg proposed NEW in PMC12927225 above; home institution Sahlgrenska."
+    },
+    {
+      "source_pmc": "PMC7951103",
+      "hint_type": "cohort",
+      "hint_name": "Swedish FAD PSEN1-H163Y Kindred Plasma Cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "swedish-fad-psen1-h163y-plasma",
+      "proposed_canonical_name": "Swedish FAD PSEN1-H163Y Kindred Plasma Cohort (Karolinska, 1995–2017)",
+      "proposed_aliases": ["FAD PSEN1-H163Y cohort", "Karolinska FAD cohort"],
+      "back_references": [
+        {"from": "swedish-fad-psen1-h163y-plasma", "to": "karolinska-hereditary-dementias-unit", "relation": "collection_site"},
+        {"from": "swedish-fad-psen1-h163y-plasma", "to": "swedish-metabolomics-centre-umea", "relation": "assay_platform"},
+        {"from": "swedish-fad-psen1-h163y-plasma", "to": "graff-caroline-karolinska", "relation": "lead_pi"}
+      ],
+      "confidence": "high",
+      "reason": "n=17 males (6 PSEN1-H163Y MC, 11 NC) longitudinal 1995–2017; presymptomatic FAD; published_cohort; not in wiki."
+    },
+
+    // ─── PMC8531355 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC8531355",
+      "hint_type": "institution",
+      "hint_name": "The First Affiliated Hospital, Xi'an Jiaotong University",
+      "classification": "NEW",
+      "proposed_entity_id": "xjtu-first-affiliated-hospital",
+      "proposed_canonical_name": "The First Affiliated Hospital, Xi'an Jiaotong University",
+      "proposed_aliases": ["Xi'an JTU First Affiliated Hospital"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Different institution from XJTU Second Affiliated Hospital (proposed in PMC12488785); First vs. Second are distinct hospitals; not in wiki."
+    },
+    {
+      "source_pmc": "PMC8531355",
+      "hint_type": "investigator",
+      "hint_name": "Dang Jingxia",
+      "classification": "NEW",
+      "proposed_entity_id": "dang-jingxia-xjtu-first",
+      "proposed_canonical_name": "Jingxia Dang",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Senior author at XJTU First Affiliated Hospital; not in wiki."
+    },
+    {
+      "source_pmc": "PMC8531355",
+      "hint_type": "platform",
+      "hint_name": "Agilent 7890A GC / Agilent 5975C MSD (GC/MS, HP-5ms column)",
+      "classification": "NEW",
+      "proposed_entity_id": "agilent-gcms-7890a-5975c-hp5ms",
+      "proposed_canonical_name": "Agilent 7890A GC / 5975C MSD (GC/MS, HP-5ms, untargeted serum metabolomics)",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "GC/MS platform for ALS serum metabolomics; distinct from LC-MS/MS platforms in wiki; not in wiki."
+    },
+    {
+      "source_pmc": "PMC8531355",
+      "hint_type": "cohort",
+      "hint_name": "Xi'an Jiaotong University First Affiliated Hospital ALS Serum Cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "xjtu-first-hospital-als-serum-gcms",
+      "proposed_canonical_name": "Xi'an Jiaotong University First Affiliated Hospital ALS Serum Cohort (GC/MS)",
+      "proposed_aliases": ["XJTU ALS cohort", "Xi'an ALS GC/MS cohort"],
+      "back_references": [
+        {"from": "xjtu-first-hospital-als-serum-gcms", "to": "xjtu-first-affiliated-hospital", "relation": "collection_site"},
+        {"from": "xjtu-first-hospital-als-serum-gcms", "to": "dang-jingxia-xjtu-first", "relation": "lead_pi"},
+        {"from": "xjtu-first-hospital-als-serum-gcms", "to": "agilent-gcms-7890a-5975c-hp5ms", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=23 ALS + 25 controls; clinically definite sporadic ALS; serum GC/MS; hospital_inventory_signal; not in wiki."
+    },
+
+    // ─── PMC8699018 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC8699018",
+      "hint_type": "institution",
+      "hint_name": "Chang Gung Memorial Hospital",
+      "classification": "NEW",
+      "proposed_entity_id": "chang-gung-memorial-hospital",
+      "proposed_canonical_name": "Chang Gung Memorial Hospital",
+      "proposed_aliases": ["CGMH"],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Taiwanese ALS recruitment and plasma collection site; not in wiki."
+    },
+    {
+      "source_pmc": "PMC8699018",
+      "hint_type": "investigator",
+      "hint_name": "Hung-Chou Kuo",
+      "classification": "NEW",
+      "proposed_entity_id": "kuo-hung-chou-cgmh",
+      "proposed_canonical_name": "Hung-Chou Kuo",
+      "proposed_aliases": [],
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Corresponding author at Chang Gung Memorial Hospital; not in wiki."
+    },
+    {
+      "source_pmc": "PMC8699018",
+      "hint_type": "cohort",
+      "hint_name": "CGMH ALS plasma metabolomics cohort (2018–2020)",
+      "classification": "NEW",
+      "proposed_entity_id": "cgmh-als-plasma-metabolomics-biocrates-p180",
+      "proposed_canonical_name": "Chang Gung Memorial Hospital ALS Plasma Metabolomics Cohort (Biocrates p180, 2018–2020)",
+      "proposed_aliases": ["Chang Gung Memorial Hospital ALS cohort", "CGMH ALS Biocrates"],
+      "back_references": [
+        {"from": "cgmh-als-plasma-metabolomics-biocrates-p180", "to": "chang-gung-memorial-hospital", "relation": "collection_site"},
+        {"from": "cgmh-als-plasma-metabolomics-biocrates-p180", "to": "kuo-hung-chou-cgmh", "relation": "lead_pi"},
+        {"from": "cgmh-als-plasma-metabolomics-biocrates-p180", "to": "biocrates-absoluteidq-p180", "relation": "assay_platform"}
+      ],
+      "confidence": "high",
+      "reason": "n=36 ALS + 36 controls; Taiwanese plasma; Biocrates p180; published_cohort; not in wiki."
+    },
+
+    // ─── PMC9242903 (EMPTY) ──────────────────────────────────────────────────
+    // Aptamer biosensor methods paper — no entity hints. Zero resolutions.
+
+    // ─── PMC9641964 (EMPTY) ──────────────────────────────────────────────────
+    // Narrative review — no entity hints. Zero resolutions.
+
+    // ─── PMC9990999 ──────────────────────────────────────────────────────────
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "institution",
+      "hint_name": "University of Michigan, Department of Neurology",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "university-of-michigan-neurology",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Department of Neurology, University of Michigan is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "institution",
+      "hint_name": "NeuroNetwork for Emerging Therapies, University of Michigan",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "neuronetwork-emerging-therapies-michigan",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "NeuroNetwork for Emerging Therapies at University of Michigan is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "institution",
+      "hint_name": "University of North Dakota, Department of Biomedical Sciences",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "university-of-north-dakota-biomedical-sciences",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "University of North Dakota Biomedical Sciences is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "investigator",
+      "hint_name": "Eva L. Feldman",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "eva-feldman-michigan",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Eva Feldman at University of Michigan is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "investigator",
+      "hint_name": "Stephen A. Goutman",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "stephen-goutman-michigan",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Stephen Goutman at University of Michigan is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "investigator",
+      "hint_name": "Junguk Hur",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "junguk-hur-north-dakota",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Junguk Hur at University of North Dakota is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "investigator",
+      "hint_name": "Claudia Figueroa-Romero",
+      "classification": "MERGE_INTO",
+      "target_entity_id": "claudia-figueroa-romero-michigan",
+      "back_references": [],
+      "confidence": "high",
+      "reason": "Claudia Figueroa-Romero at University of Michigan is already in the wiki."
+    },
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "cohort",
+      "hint_name": "University of Michigan ALS skin fibroblast cohort",
+      "classification": "NEW",
+      "proposed_entity_id": "umich-als-fibroblast-mirna-c9",
+      "proposed_canonical_name": "University of Michigan ALS Skin Fibroblast miRNA Cohort (C9-ALS / nonC9-ALS)",
+      "proposed_aliases": ["UMich ALS fibroblast cohort", "C9-ALS fibroblast cohort"],
+      "back_references": [
+        {"from": "umich-als-fibroblast-mirna-c9", "to": "university-of-michigan-neurology", "relation": "collection_site"},
+        {"from": "umich-als-fibroblast-mirna-c9", "to": "neuronetwork-emerging-therapies-michigan", "relation": "sponsor"},
+        {"from": "umich-als-fibroblast-mirna-c9", "to": "eva-feldman-michigan", "relation": "lead_pi"},
+        {"from": "umich-als-fibroblast-mirna-c9", "to": "junguk-hur-north-dakota", "relation": "co_investigator"}
+      ],
+      "confidence": "high",
+      "reason": "Skin fibroblasts (C9-ALS/nonC9-ALS/controls) with miRNA + BrU-seq; distinct from UMich plasma metabolomics cohort already in wiki; not in wiki."
+    },
+    {
+      "source_pmc": "PMC9990999",
+      "hint_type": "cohort",
+      "hint_name": "University of Michigan ALS whole blood cohort",
+      "classification": "AMBIGUOUS",
+      "candidates": ["umich-als-fibroblast-mirna-c9", "university-of-michigan-als-microbiome-metabolomics"],
+      "back_references": [],
+      "confidence": "low",
+      "reason": "The whole blood miRNA arm is from the same University of Michigan NeuroNetwork group that produced the existing 'university-of-michigan-als-microbiome-metabolomics' entity; however, that wiki entity is a microbiome/plasma metabolomics cohort while this is a whole blood miRNA cohort — they may be distinct participant pools or overlapping. Cannot resolve without the full paper Methods; flagging as AMBIGUOUS to prevent incorrect merge."
+    }
+
+  ]
+}
