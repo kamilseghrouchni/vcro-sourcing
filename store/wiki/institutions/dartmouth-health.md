@@ -6,8 +6,8 @@ aliases:
   - Dartmouth Hitchcock
   - Dartmouth Health Department of Neurology
 provenance:
-  sources: [PMC12444149]
-  last_compiled: 2026-04-07T00:00:00Z
+  sources: [PMC12444149, PMC12705848]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: dartmouth-als-biobank-hair, relation: parent_institution}
 card:

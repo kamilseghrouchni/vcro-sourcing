@@ -6,10 +6,11 @@ aliases:
   - UM NeuroNetwork
   - NeuroNetwork UMich
 provenance:
-  sources: [PMC10834248]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC10834248, PMC9990999]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: university-of-michigan-als-microbiome-metabolomics, relation: sponsor}
+  - {entity: umich-als-fibroblast-mirna-c9, relation: sponsor}
 card:
   primary_signal: "NeuroNetwork for Emerging Therapies is the named UMich research unit sponsoring the ALS gut microbiome and plasma metabolomics cohort, with Feldman, Goutman, Guo, and Figueroa-Romero as co-affiliates."
   action: "Review entity; contact Eva Feldman or Stephen Goutman at UMich NeuroNetwork for ALS cohort data access."

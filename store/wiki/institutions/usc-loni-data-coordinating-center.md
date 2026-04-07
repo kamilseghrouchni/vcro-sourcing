@@ -8,8 +8,8 @@ aliases:
   - LONI Image and Data Archive
   - ida.loni.usc.edu
 provenance:
-  sources: [PMC10103184, PMC12269576, PMC12445873]
-  last_compiled: 2026-04-07T00:00:00Z
+  sources: [PMC10103184, PMC12269576, PMC12445873, PMC12706616, PMC12795606, PMC12857118, PMC12869035, PMC13032452]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: adni-phase1-serum-lipidomics, relation: parent_institution}
   - {entity: adni-go2-plasma-lipidomics, relation: parent_institution}

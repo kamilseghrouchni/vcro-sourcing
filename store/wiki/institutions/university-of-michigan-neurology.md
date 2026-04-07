@@ -7,10 +7,11 @@ aliases:
   - University of Michigan Ann Arbor Neurology
   - UMich Neurology
 provenance:
-  sources: [PMC10834248]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC10834248, PMC9990999]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: university-of-michigan-als-microbiome-metabolomics, relation: collection_site}
+  - {entity: umich-als-fibroblast-mirna-c9, relation: collection_site}
 card:
   primary_signal: "Department of Neurology at University of Michigan (Ann Arbor) is the primary collection site for the ALS gut microbiome and plasma metabolomics cohort."
   action: "Review entity; contact Eva Feldman or Stephen Goutman at UMich Neurology for sample and data access."

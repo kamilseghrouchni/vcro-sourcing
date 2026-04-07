@@ -6,8 +6,8 @@ aliases:
   - A.J. Saykin
   - Andrew Saykin
 provenance:
-  sources: [PMC12269576]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC12269576, PMC12706616, PMC12795606, PMC6487485]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: adni-go2-plasma-lipidomics, relation: co_investigator}
 card:

@@ -7,8 +7,8 @@ aliases:
   - University of California Davis metabolomics
   - UCD Metabolomics
 provenance:
-  sources: [PMC10103184]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC10103184, PMC12857118]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: adni-phase1-serum-lipidomics, relation: collection_site}
 card:

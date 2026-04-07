@@ -5,10 +5,11 @@ canonical_name: "Junguk Hur"
 aliases:
   - J. Hur
 provenance:
-  sources: [PMC10834248]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC10834248, PMC9990999]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: university-of-michigan-als-microbiome-metabolomics, relation: co_investigator}
+  - {entity: umich-als-fibroblast-mirna-c9, relation: co_investigator}
 card:
   primary_signal: "Junguk Hur, lead PI for computational and bioinformatics analyses of the UM ALS microbiome-metabolomics cohort, at Department of Biomedical Sciences, University of North Dakota."
   action: "Contact via University of North Dakota for bioinformatics pipeline and network analysis enquiries."

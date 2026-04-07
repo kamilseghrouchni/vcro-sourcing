@@ -6,8 +6,8 @@ aliases:
   - R. Kaddurah-Daouk
   - Rima Kaddurah Daouk
 provenance:
-  sources: [PMC12269576, PMC10937638]
-  last_compiled: 2026-04-07T00:00:00Z
+  sources: [PMC12269576, PMC10937638, PMC12706616, PMC12789652, PMC12857118, PMC5784884, PMC6487485]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: adni-go2-plasma-lipidomics, relation: lead_pi}
   - {entity: delcode-urine-nmr-metabolomics, relation: co_investigator}

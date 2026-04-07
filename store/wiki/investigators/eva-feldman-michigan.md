@@ -6,10 +6,11 @@ aliases:
   - E.L. Feldman
   - Eva Feldman
 provenance:
-  sources: [PMC10834248]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC10834248, PMC9990999]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: university-of-michigan-als-microbiome-metabolomics, relation: lead_pi}
+  - {entity: umich-als-fibroblast-mirna-c9, relation: lead_pi}
 card:
   primary_signal: "Eva L. Feldman, corresponding author and lead PI at UMich / NeuroNetwork for Emerging Therapies, leading the ALS gut microbiome and plasma metabolomics longitudinal cohort study."
   action: "Contact Eva Feldman at UMich (efeldman@umich.edu implied by source) for ALS cohort data access and collaboration."

@@ -6,8 +6,8 @@ aliases:
   - C. Figueroa-Romero
   - Claudia Figueroa Romero
 provenance:
-  sources: [PMC10834248]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC10834248, PMC9990999]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: university-of-michigan-als-microbiome-metabolomics, relation: co_investigator}
 card:

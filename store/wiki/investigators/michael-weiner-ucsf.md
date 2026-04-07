@@ -7,8 +7,8 @@ aliases:
   - Michael Weiner
   - ADNI Principal Investigator
 provenance:
-  sources: [PMC10103184]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC10103184, PMC12795606, PMC12869035, PMC13032452, PMC5784884]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: adni-phase1-serum-lipidomics, relation: lead_pi}
   - {entity: adni-go2-plasma-lipidomics, relation: lead_pi}

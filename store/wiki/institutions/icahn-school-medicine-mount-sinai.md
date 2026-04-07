@@ -6,13 +6,16 @@ aliases:
   - Mount Sinai
   - ISMMS
   - Charles Bronfman Institute for Personalized Medicine
+  - Mount Sinai Brain Bank
+  - MSBB
 provenance:
-  sources: [PMC12443623, PMC12444149]
-  last_compiled: 2026-04-07T00:00:00Z
+  sources: [PMC12443623, PMC12444149, PMC12789652]
+  last_compiled: "2026-04-07"
 referenced_by:
   - {entity: biome-biobank-mount-sinai, relation: parent_institution}
   - {entity: dartmouth-als-biobank-hair, relation: collection_site}
   - {entity: cdc-national-als-biorepository-hair, relation: collection_site}
+  - {entity: msbb-brain-rnaseq-adkp, relation: parent_institution}
 card:
   primary_signal: "New York City academic medical centre hosting BioMe Biobank (EHR-linked, ancestrally diverse); also IRB holder and data custodian for the Dartmouth ALS hair cohort and lead PI Manish Arora's lab."
   action: "Contact BioMe Biobank team for EHR-linked cohort access; for ALS hair data contact manish.arora@mssm.edu with a written proposal."
