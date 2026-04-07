@@ -1,0 +1,184 @@
+{
+  "source": {
+    "pmid": "40287755",
+    "pmc": "PMC12034174",
+    "doi": "10.1186/s13024-025-00833-0",
+    "title": "TDP-43 seeding activity in the olfactory mucosa of patients with amyotrophic lateral sclerosis",
+    "year": 2025,
+    "paper_path": "store/raw/papers/PMC12034174/paper.md"
+  },
+  "entity_hints": {
+    "cohorts": [
+      {
+        "candidate_name": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+        "aliases": ["Carlo Besta MND cohort", "Carlo Besta ALS cohort"],
+        "parent_institution_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta, Milan, Italy",
+        "evidence_quote": "A consecutive cohort of 86 patients diagnosed with sporadic and genetic ALS according to the revised El Escorial criteria was recruited from outpatients and inpatients referred to the Motor Neuron Diseases Centre of the Fondazione IRCCS Istituto Neurologico Carlo Besta (Milan, Italy) between December 2022 and January 2025.",
+        "rationale": "All 86 MND patients were recruited from a single Motor Neuron Diseases Centre at one Italian institution over a defined 2-year window, making them a single clinical collection despite phenotypic and genotypic heterogeneity.",
+        "signal": "hospital_inventory_signal"
+      }
+    ],
+    "institutions": [
+      {
+        "candidate_name": "Fondazione IRCCS Istituto Neurologico Carlo Besta",
+        "evidence_quote": "recruited from outpatients and inpatients referred to the Motor Neuron Diseases Centre of the Fondazione IRCCS Istituto Neurologico Carlo Besta (Milan, Italy)",
+        "role": "data_provider"
+      },
+      {
+        "candidate_name": "Scuola Internazionale Superiore Di Studi Avanzati (SISSA), Trieste",
+        "evidence_quote": "Laboratory of Prion Biology, Department of Neuroscience, Scuola Internazionale Superiore Di Studi Avanzati (SISSA), Trieste, Italy",
+        "role": "collection_site"
+      },
+      {
+        "candidate_name": "University of Milan",
+        "evidence_quote": "Department of Pharmacological and Biomolecular Sciences, University of Milan, Milan, Italy",
+        "role": "sponsor"
+      },
+      {
+        "candidate_name": "University of Verona",
+        "evidence_quote": "Department of Neurosciences, Biomedicine and Movement Sciences, University of Verona, Verona, Italy",
+        "role": "collection_site"
+      }
+    ],
+    "investigators": [
+      {
+        "name": "Fabio Moda",
+        "affiliation": "Unit of Laboratory Medicine, Fondazione IRCCS Istituto Neurologico Carlo Besta; Department of Medical Biotechnology and Translational Medicine, University of Milan",
+        "role": "senior author"
+      },
+      {
+        "name": "Eleonora Dalla Bella",
+        "affiliation": "Unit of Neurology 3 – Neuroalgology and Motor Neuron Disease Centre, Fondazione IRCCS Istituto Neurologico Carlo Besta",
+        "role": "co-investigator"
+      },
+      {
+        "name": "Giuseppe Lauria",
+        "affiliation": "Scientific Directorate, Fondazione IRCCS Istituto Neurologico Carlo Besta; Department of Medical Biotechnology and Translational Medicine, University of Milan",
+        "role": "lead PI"
+      },
+      {
+        "name": "Maria Vizziello",
+        "affiliation": "Department of Pharmacological and Biomolecular Sciences, University of Milan; Unit of Neurology 3 – Neuroalgology and Motor Neuron Disease Centre, Fondazione IRCCS Istituto Neurologico Carlo Besta",
+        "role": "corresponding"
+      }
+    ],
+    "platforms": [
+      {
+        "candidate_name": "Simoa TDP-43 Advantage kit / SR-X instrument (Quanterix)",
+        "evidence_quote": "TDP-43 was measured via the Simoa TDP-43 Advantage kit and the SR-X instrument (Quanterix) according to the manufacturer's instructions."
+      },
+      {
+        "candidate_name": "Lumipulse G600II / Lumipulse G NfL Blood kit (Fujirebio)",
+        "evidence_quote": "NfL levels were determined using the fully automated chemiluminescence enzyme immunoassay (CLEIA) with the Lumipulse G600II instrument and the Lumipulse G NfL Blood kit (Fujirebio)."
+      },
+      {
+        "candidate_name": "FLUOstar CLARIOSTAR microplate reader (BMG Labtech) — TDP-43_SAA",
+        "evidence_quote": "The plate was then sealed with sealing film (Thermo Scientific), placed into a FLUOstar CLARIOSTAR microplate reader (BMG Labtech) and subjected to alternating cycles of shaking (15 s, 100 rpm, double orbital) and incubation (30 min, 42 °C)."
+      },
+      {
+        "candidate_name": "FLUOstar OMEGA microplate reader (BMG Labtech) — αSyn_SAA",
+        "evidence_quote": "placed into a FLUOstar OMEGA microplate reader (BMG Labtech) and subjected to alternating cycles of shaking (1 min, 600 rpm, single orbital) and incubation (1 min, 42 °C)."
+      }
+    ],
+    "trials_referenced": []
+  },
+  "fragments": [
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 2,
+      "dimension_name": "real_numbers",
+      "fact": "121 total subjects enrolled: 65 sporadic MND (35 sALS, 18 bALS, 10 PLS, 2 FOSMN), 21 genetic MND, 17 OND, 22 healthy controls; plasma biomarker substudy used 45 sporadic MND, 10 genetic MND, and 14 controls",
+      "source_quote": "OM samples were collected from patients with (a) sporadic motor neuron diseases (MND), including spinal ALS (n = 35), bulbar ALS (n = 18), primary lateral sclerosis (n = 10), and facial onset sensory and motor neuronopathy (n = 2); (b) genetic MND, including carriers of C9orf72exp (n = 6), TARDBP (n = 4), SQSTM1 (n = 3), C9orf72exp + SQSTM1 (n = 1), OPTN (n = 1), GLE1 (n = 1), FUS (n = 1) and SOD1 (n = 4) mutations; (c) other neurodegenerative disorders (OND), including Alzheimer's disease (n = 3), dementia with Lewy bodies (n = 8) and multiple system atrophy (n = 6); and (d) control subjects (n = 22).",
+      "section": "Abstract / Methods",
+      "implication": "The usable N for any TDP-43 SAA discovery or biomarker study from this cohort is 86 MND patients (not 121), with a plasma substudy of only 55 MND participants, which means for the buyer's project that replication power is limited and any subgroup analysis (e.g., by ALS phenotype or genotype) will be severely underpowered.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 1,
+      "dimension_name": "sample_usability",
+      "fact": "Olfactory mucosa (OM) collected by nasal swab using a fiberoptic rhinoscope; swabs immersed in saline, vortexed, centrifuged at 800×g for 20 min at 4°C; pellet used for SAA. Plasma collected in EDTA tubes after overnight fast, centrifuged at 2500×g for 10 min at 4°C, aliquoted and stored at −80°C.",
+      "source_quote": "OM samples were obtained by a specialized otolaryngologist using a fiberoptic rhinoscope to locate the olfactory mucosa. The medial septal wall, just above the middle turbinate of both nostrils, was gently brushed with a special flocked swab (FLQBrushTM Copan Italia, Brescia, Italy), as previously described. After collection, the swabs were immersed in 9 mL of saline solution, vortexed and then centrifuged at 800 × g for 20 min at 4 °C.",
+      "section": "Methods / OM samples collection and preparation for SAA analyses",
+      "implication": "The primary analyte is olfactory mucosa pellet — not a standard biofluid — which means for the buyer's project that a specialised otolaryngology procedure is required for sample acquisition, ruling out any retrospective use of standard biobank plasma or CSF aliquots without a new prospective collection.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 20,
+      "dimension_name": "collection_protocol_detail",
+      "fact": "Plasma for biomarker measurement collected in EDTA tubes after overnight fast; centrifuged 10 min at 2500×g at 4°C; aliquoted and immediately stored at −80°C; thawed 60 min at room temperature, vortexed 10 s, then centrifuged 5 min at 10,000×g before TDP-43 assay. NfL plasma: thawed 30 min, vortexed 10 s, centrifuged 2000×g at room temperature for 5 min.",
+      "source_quote": "Whole blood was collected in EDTA tubes after an overnight fast. The blood was centrifuged (10 min, 2500 × g at 4 °C), aliquoted and immediately stored at − 80 °C. The plasma samples were thawed for 60 min at room temperature, shaken by vortexing for 10 s and centrifuged (5 min, 10,000 × g at room temperature) before TDP-43 and creatinine level analysis.",
+      "section": "Methods / Evaluation of TDP-43 and NfL levels in plasma samples",
+      "implication": "The plasma pre-analytical protocol (EDTA, fasted, immediate −80°C storage, defined thaw conditions) is documented to a level that allows direct comparability with Simoa-based TDP-43 assays in other cohorts, which means for the buyer's project that cross-cohort calibration is feasible if the same tube type and centrifugation regime are used.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 7,
+      "dimension_name": "effect_sizes_and_model_performance",
+      "fact": "TDP-43_SAA sensitivity 46.9% (38/81 MND cases positive) at 88.9% specificity. Among TDP-43-positive samples, mean last fluorescence in MND (211,789 ± 67,679 AU) was significantly higher than non-MND (71,195 ± 20,980 AU, p < 0.0001). Mean lag phase MND 22.8 ± 9.4 h vs non-MND 11.6 ± 8.3 h (p = 0.0065).",
+      "source_quote": "Under our experimental conditions, the overall sensitivity of TDP-43_SAA, including sporadic and genetic MND cases, reached 46.9% (38/81), with a specificity of 88.9% (considering that 19/22 CTRLs and 5/5 genetic MND cases with FUS and SOD1 mutations were negative).",
+      "section": "Results",
+      "implication": "A sensitivity of ~47% means roughly half of ALS patients would be missed by OM TDP-43_SAA in its current form, which means for the buyer's project that this assay cannot serve as a standalone diagnostic or patient selection tool without further optimisation or combination with other biomarkers.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 11,
+      "dimension_name": "negative_results",
+      "fact": "No significant correlations were found between TDP-43_SAA positivity and any clinical, demographic, or biological parameter tested, including sex, age, BMI, phenotype, cognitive phenotype, disease duration, King's staging, progression rate, Riluzole treatment, plasma TDP-43, or plasma NfL.",
+      "source_quote": "Logistic regression analysis did not reveal any statistically significant correlation between the SAA results for TDP-43 and other clinical parameters investigated, including sex, patient age, BMI, clinical genotype/phenotype, cognitive phenotype, ECAS scores, disease duration, TDP-43 plasma levels, NfL plasma levels, progression rate and treatment with Riluzole (Table 4).",
+      "section": "Results / Lack of significant correlations between TDP-43_SAA and clinical, neuropsychological and biological parameters",
+      "implication": "The absence of any clinical correlate for TDP-43_SAA positivity means for the buyer's project that OM SAA result cannot be used to enrich for a clinically defined subgroup or to pre-stratify patients, limiting its utility as a standalone selection biomarker in trial design.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 16,
+      "dimension_name": "clinical_endpoints_and_scales",
+      "fact": "Motor function tracked by ALSFRS-R and progression rate (ΔFS = (48 – ALSFRS-R) / disease duration in months); cognitive function by Italian ECAS battery (executive, language, memory, visuospatial); clinical staging by King's Clinical Staging System; neurophysiological evaluation by standardised battery.",
+      "source_quote": "For patients with sALS or bALS, motor functional disabilities were measured via the revised version of the ALS Functional Rating Scale (ALSFRS-R), and the disease progression rate (ΔFS) was calculated according to the following formula: (48 – ALSFRS-R score)/disease duration at evaluation (months). Clinical staging was estimated according to King's Clinical Staging System.",
+      "section": "Methods / Clinical, neuropsychological and genetic assessment",
+      "implication": "Rich multi-domain phenotyping (motor, cognitive, staging) on all MND subjects means for the buyer's project that biomarker-to-endpoint correlations can be tested against both functional decline trajectories and cognitive subtypes in the same sample, which is unusual for an MND cohort of this size.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 5,
+      "dimension_name": "demographic_composition",
+      "fact": "Sporadic MND group: mean age 62.9 years (SD 10.1), 48M/17F; genetic MND: mean age 58.9 years (SD 10.1), 10M/11F; controls: mean age 51.9 years (SD 16.8), 11M/11F. No ancestry or ethnicity data reported. Single Italian tertiary centre.",
+      "source_quote": "Sporadic MND: 65, age 62.9 (10.1), Sex 48/17; Genetic MND: 21, age 58.9 (10.1), Sex 10/11; CTRLs: 22, age 51.9 (16.8), Sex 11/11.",
+      "section": "Methods / Study participants (Table 1)",
+      "implication": "The cohort is drawn exclusively from a single Italian tertiary neurology centre with no reported ancestry data, which means for the buyer's project that generalisability to non-European populations or community-based ALS patients is undemonstrated and sex effects (notably male-skewed in sporadic MND) need adjustment in any comparative analysis.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 9,
+      "dimension_name": "access_and_consent_scope",
+      "fact": "Data available from corresponding author on reasonable request; no open portal. Patients provided written informed consent for use of anonymised clinical data for research. Funding from Italian Ministry of Health (Ministero della Salute) grants GR-2021-12372019, PNRR-MAD-2022-12376035, 5M-2018-23680266.",
+      "source_quote": "The datasets used and analysed during the current study are available from the corresponding author on reasonable request. Written informed consent for the use of anonymized clinical data for research purposes was obtained at the time of evaluation from all the subjects included in the analysis.",
+      "section": "Data Availability / Methods / Funding",
+      "implication": "Access requires a direct request to the corresponding author (Fabio Moda at Carlo Besta) with no formal data-access portal, and consent covers research use of anonymised clinical data only — which means for the buyer's project that commercial sample access would require a separate MTA and possibly an ethics amendment, with an unpredictable 3–12 month negotiation timeline.",
+      "confidence": "medium"
+    },
+    {
+      "entity_hint": "Fondazione IRCCS Istituto Neurologico Carlo Besta ALS/MND cohort",
+      "dimension": 17,
+      "dimension_name": "sponsor_and_funding",
+      "fact": "Funded by the Italian Ministry of Health (Ministero della Salute) through grants GR-2021-12372019, PNRR-MAD-2022-12376035, and 5M-2018-23680266, attributed to Fabio Moda.",
+      "source_quote": "http://dx.doi.org/10.13039/501100003196Ministero della SaluteGR-2021-12372019PNRR-MAD-2022-123760355M-2018-23680266RCModaFabio",
+      "section": "Funding",
+      "implication": "Public Italian Ministry of Health funding with no industry co-sponsor means for the buyer's project that data-sharing obligations are research-oriented rather than commercial, and that the cohort was not built for industry access — expect moderate bureaucratic friction and no standing commercial access pathway.",
+      "confidence": "medium"
+    }
+  ],
+  "open_questions": [
+    "Ancestry and ethnicity data are entirely absent — the upstream source that could fill this is the Carlo Besta clinical records or a future publication reporting patient demographics in greater detail.",
+    "The consent form language is described only as covering 'anonymized clinical data for research purposes'; it is unclear whether physical OM or plasma samples are covered for external transfer — a direct inquiry to PI Fabio Moda or the Carlo Besta bioethics committee is needed before assuming sample access.",
+    "Sample depletion risk for OM pellets and plasma aliquots is unknown; the paper does not state how many aliquots were stored per participant or whether any residual material is retained after the reported assays.",
+    "The paper enrolls only 21 genetic MND cases (including rare genotypes n=1), making genotype-stratified conclusions underpowered; whether a larger genotype-enriched extension cohort is planned is not stated.",
+    "No replication cohort for OM TDP-43_SAA sensitivity/specificity is reported; whether the Carlo Besta group has an external validation dataset or cross-site collaboration in progress is unknown and would be critical for any buyer considering this assay for clinical trial patient stratification."
+  ]
+}

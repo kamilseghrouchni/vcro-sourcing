@@ -57,61 +57,96 @@ This is the second safety net under the hook. Garbage cannot land on top of a re
 
 ## Entity article shape
 
-Every article is markdown with YAML frontmatter that satisfies `.claude/rules/entity-schema.md`. The body is a structured set of sections. For cohorts:
+Every article is markdown with YAML frontmatter that satisfies `.claude/rules/entity-schema.md`. The body is a structured set of sections. The shape is constant across domains; the locked A/B/C example rotation in `.claude/rules/example-rotation.md` populates the `disease_area`, `modality`, `aliases`, and `Links` fields differently per domain.
+
+### Schema (domain-agnostic, for cohorts)
 
 ```markdown
 ---
-entity_id: adni-phase1-serum-lipidomics
+entity_id: <slug>
 type: cohort                      # or data_opportunity once promoted
-canonical_name: "ADNI Phase 1 serum lipidomics cohort"
-aliases: ["ADNI lipidomics", "ADNI UC Davis lipidomics"]
-parent_institution: usc-loni-data-coordinating-center
+canonical_name: "..."
+aliases: ["..."]
+parent_institution: <slug>
 opportunity_type: published_cohort
 evidence_type: direct
-disease_area: ["Alzheimer's disease"]
-modality: ["serum lipidomics"]
+disease_area: ["..."]
+modality: ["..."]
 provenance:
-  sources: [PMC10103184]
-  last_compiled: 2026-04-06T...Z
+  sources: [PMC..., NCT..., DOI:...]
+  last_compiled: <ISO datetime>
   provenance_coverage:
-    sample_usability: {status: covered, sources: 1}
-    real_numbers: {status: covered, sources: 1}
-    longitudinal_structure: {status: covered, sources: 1}
+    <dimension_name>: {status: covered, sources: <count>}
     # ... only the dimensions actually evidenced
-    overall_depth: 0.42
-referenced_by: []                 # entities that link to this one (institutions, PIs, platforms)
+    overall_depth: <0..1>
+referenced_by: []                 # entities that link to this one
 scoring:
-  scale:   {confidence: medium}
-  cost:    {confidence: medium}
-  quality: {provenance_depth: 0.42, confidence: medium}
+  scale:   {confidence: low | medium | high}
+  cost:    {confidence: low | medium | high}
+  quality: {provenance_depth: <0..1>, confidence: low | medium | high}
 card:
-  primary_signal: "<<= 200 chars, the one thing a buyer needs to see>"
+  primary_signal: "<<= 200 chars, the standout fact for this cohort>"
   action: "<verb phrase, what the buyer does next>"
   risk: "<single biggest caveat or unknown>"
 ---
 
-# ADNI Phase 1 serum lipidomics cohort
+# <canonical name>
 
 ## Summary
-<2-4 sentences synthesised from the fragments. Plain prose, no bullet points, no hype.>
+<2-4 sentences synthesised from the fragments. Plain prose, no hype.>
 
-## Sample usability
-<for every fragment with this dimension, render a paragraph that ends with the implication. Cite the source as [ref: PMCxxxx]. Do NOT paraphrase the source_quote — use it verbatim in a blockquote.>
-
-## Real numbers
-<same pattern>
-
-## (other dimension sections, only if evidence exists)
+## <dimension_name>
+<for every fragment with this dimension: a paragraph ending with the implication, with the source_quote in a blockquote, citing the source as [ref: PMC...].>
 
 ## Open questions
-- <each open_question from the fragment file, one per line>
+- <one per line, copied from the fragment file>
 
 ## Links
-- Institution: [[usc-loni-data-coordinating-center]]
-- Investigators: [[hayley-shanks-western-ontario]], [[taylor-schmitz-western-ontario]], [[michael-weiner-ucsf]]
-- Platform: [[uc-davis-lipidomics-uhplc-qtof]]
-- Sources: PMC10103184
+- Institution: [[<parent slug>]]
+- Investigators: [[<slug>]], [[<slug>]]
+- Platform: [[<slug>]]
+- Sources: PMC...
 ```
+
+### Three rotating examples (frontmatter only)
+
+**Example A — neuro fluid biomarker.**
+
+```yaml
+entity_id: adni-phase1-serum-lipidomics
+type: cohort
+canonical_name: "ADNI Phase 1 serum lipidomics cohort"
+aliases: ["ADNI UC Davis lipidomics"]
+disease_area: ["Alzheimer's disease"]
+modality: ["serum lipidomics"]
+parent_institution: usc-loni-data-coordinating-center
+```
+
+**Example B — oncology tissue genomics.**
+
+```yaml
+entity_id: tcga-luad-rnaseq
+type: cohort
+canonical_name: "TCGA-LUAD bulk RNA-seq cohort"
+aliases: ["TCGA lung adenocarcinoma RNA-seq"]
+disease_area: ["lung adenocarcinoma", "non-small cell lung cancer"]
+modality: ["FFPE bulk RNA-seq"]
+parent_institution: nci-genomic-data-commons
+```
+
+**Example C — microbiome stool sequencing.**
+
+```yaml
+entity_id: hmp2-ibd-stool-shotgun
+type: cohort
+canonical_name: "HMP2 IBD stool shotgun metagenomics cohort"
+aliases: ["IBDMDB shotgun"]
+disease_area: ["inflammatory bowel disease", "Crohn's disease", "ulcerative colitis"]
+modality: ["stool shotgun metagenomics"]
+parent_institution: broad-institute-microbiome
+```
+
+The body shape (Summary → dimension sections → Open questions → Links) is identical for all three. Only the dimension sections that have evidence get rendered, and the dimension names come from `references/intelligence-dimensions.md`, not from the example narrative.
 
 For institutions, investigators, platforms, protocols: same shape minus the cohort-specific scoring/opportunity_type fields. Institutions MAY use the dual `cards:` block (buyer_view + onboarding_view); see entity-schema.md.
 
@@ -161,18 +196,17 @@ Back-references that target an AMBIGUOUS or rejected entity are dropped and list
 - fragment files: <list>
 
 ## Created
-- adni-phase1-serum-lipidomics (cohort)
-- usc-loni-data-coordinating-center (institution)
+- <slug> (<type>)
 - ...
 
 ## Touched
-- (slug, with note: which new sources got folded in)
+- <slug> — <which new sources got folded in>
 
 ## No-op
-- (slug, with note: source already in provenance.sources)
+- <slug> — source already in provenance.sources
 
 ## Deferred (AMBIGUOUS)
-- platform: "Plasma metabolomics / lipidomics (platform not specified ...)" from PMC10834248. Reason: insufficient detail to slug.
+- <hint_type>: "<hint name>" from PMC.... Reason: <one line>.
 
 ## Hook rejections
 - (path, the schema violations the hook returned)

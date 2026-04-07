@@ -32,44 +32,69 @@ A single JSON file at `out_path` with this shape:
     "wiki_existing_entity_count": 0
   },
   "resolutions": [
-    {
-      "source_pmc": "PMC10103184",
-      "hint_type": "cohort",
-      "hint_name": "ADNI Phase 1 serum lipidomics cohort",
-      "classification": "NEW",
-      "proposed_entity_id": "adni-phase1-serum-lipidomics",
-      "proposed_canonical_name": "ADNI Phase 1 serum lipidomics cohort",
-      "proposed_aliases": ["ADNI lipidomics", "ADNI UC Davis lipidomics"],
+    { "source_pmc": "PMC...", "hint_type": "cohort | institution | investigator | platform | protocol", "hint_name": "...",
+      "classification": "NEW | MERGE_INTO | AMBIGUOUS",
+      "proposed_entity_id": "...",            // NEW only
+      "proposed_canonical_name": "...",       // NEW only
+      "proposed_aliases": ["..."],            // NEW only
+      "target_entity_id": "...",              // MERGE_INTO only
+      "candidates": ["...", "..."],           // AMBIGUOUS only
       "back_references": [
-        {"from": "adni-phase1-serum-lipidomics", "to": "usc-loni-data-coordinating-center", "relation": "parent_institution"},
-        {"from": "adni-phase1-serum-lipidomics", "to": "uc-davis-metabolomics-center", "relation": "collection_platform"}
+        {"from": "<cohort_id>", "to": "<linked_id>", "relation": "<closed enum below>"}
       ],
-      "confidence": "high",
-      "reason": "First cohort hint in an empty wiki. Phase + sample medium + assay are all explicit, so the slug is unambiguous."
-    },
-    {
-      "source_pmc": "PMC12269576",
-      "hint_type": "cohort",
-      "hint_name": "ADNI Phase 1 plasma lipidomics longitudinal cohort",
-      "classification": "MERGE_INTO",
-      "target_entity_id": "adni-phase1-serum-lipidomics",
-      "back_references": [],
-      "confidence": "medium",
-      "reason": "Same parent study (ADNI Phase 1), same UC Davis platform; this paper adds longitudinal timepoints to the existing cohort entity. Note serum vs plasma terminology mismatch — flag for the merge phase to reconcile."
-    },
-    {
-      "source_pmc": "PMC10834248",
-      "hint_type": "investigator",
-      "hint_name": "Eva Feldman",
-      "classification": "AMBIGUOUS",
-      "candidates": ["eva-feldman-michigan", "eva-feldman-ucsf"],
-      "back_references": [],
-      "confidence": "low",
-      "reason": "Two existing entities with the same surname. Need affiliation cross-check before merging. Defer to lint or human review."
-    }
+      "confidence": "high | medium | low",
+      "reason": "one sentence" }
   ]
 }
 ```
+
+### Three rotating example resolutions
+
+The shape above is constant. The three examples below show the same shape against the locked A/B/C example rotation in `.claude/rules/example-rotation.md`.
+
+**Example A — neuro fluid biomarker (NEW cohort with linked back-references).**
+
+```json
+{ "source_pmc": "PMC...", "hint_type": "cohort",
+  "hint_name": "ADNI Phase 1 serum lipidomics cohort",
+  "classification": "NEW",
+  "proposed_entity_id": "adni-phase1-serum-lipidomics",
+  "proposed_canonical_name": "ADNI Phase 1 serum lipidomics cohort",
+  "proposed_aliases": ["ADNI UC Davis lipidomics"],
+  "back_references": [
+    {"from": "<cohort_id>", "to": "usc-loni-data-coordinating-center", "relation": "parent_institution"},
+    {"from": "<cohort_id>", "to": "<assay platform slug>", "relation": "assay_platform"},
+    {"from": "<cohort_id>", "to": "michael-weiner-ucsf", "relation": "lead_pi"}
+  ],
+  "confidence": "high",
+  "reason": "Phase + sample medium + assay are explicit, slug is unambiguous." }
+```
+
+**Example B — oncology tissue genomics (MERGE_INTO across two papers on the same TCGA project).**
+
+```json
+{ "source_pmc": "PMC...",  "hint_type": "cohort",
+  "hint_name": "TCGA-LUAD bulk RNA-seq cohort",
+  "classification": "MERGE_INTO",
+  "target_entity_id": "tcga-luad-rnaseq",
+  "back_references": [],
+  "confidence": "high",
+  "reason": "Same TCGA-LUAD RNA-seq cohort already in the wiki from a prior paper; this paper adds proteomics co-modality evidence to the existing entity. Surface tumor purity drift across the two papers as an open question for merge." }
+```
+
+**Example C — microbiome stool sequencing (AMBIGUOUS investigator collision).**
+
+```json
+{ "source_pmc": "PMC...", "hint_type": "investigator",
+  "hint_name": "R. Xavier",
+  "classification": "AMBIGUOUS",
+  "candidates": ["ramnik-xavier-broad", "raul-xavier-monash"],
+  "back_references": [],
+  "confidence": "low",
+  "reason": "Two existing investigator entities with the same surname initial. Affiliation block in this paper just says 'IBD consortium'; cannot disambiguate without the corresponding-author block. Defer to lint." }
+```
+
+Across the three examples the schema is identical. If your output uses ADNI vocabulary on a TCGA paper, or "lipidomics" on a stool paper, the slug rules below are wrong — re-read the input fragment and let the hint's actual surface drive the slug.
 
 ## Classifications
 
@@ -84,12 +109,12 @@ Every hint gets exactly one of:
 You propose the slug. Merge does not invent one. Consistent slugs are what make the wiki idempotent across runs.
 
 - All lowercase. Hyphens between words. ASCII only. No leading or trailing hyphen.
-- Cohort: `<study>-<phase>-<sample>-<assay>` when known, e.g. `adni-phase1-serum-lipidomics`. Drop fields you do not know rather than inventing them. Worst case fall back to `<first-author-lastname>-<institution-short>-<year>-<indication>`.
-- Institution: short canonical, e.g. `usc-loni-data-coordinating-center`, `university-of-michigan`, `mass-general-hospital`. Drop "the", "of", department suffixes unless they are load bearing.
-- Investigator: `<first>-<last>-<primary-affiliation-short>`, where `primary-affiliation` is the investigator's HOME institution as stated in the affiliation block, never the cohort or consortium they appear in. Example: Michael Weiner is `michael-weiner-ucsf`, NOT `michael-weiner-adni`, even when the paper is about ADNI. If the affiliation field names a consortium (e.g. ADMC, ADNI) and not a home institution, fall back to the corresponding-author affiliation in the paper frontmatter.
-- Platform: `<vendor-or-site>-<technique>`, e.g. `uc-davis-lipidomics-uhplc-qtof`, `nightingale-nmr`, `metabolon-untargeted-hd4`.
-- Protocol: `<institution>-<sample>-<assay>` linked to the cohort that uses it.
-- Bundle: handled by the bounty formatter, not resolve. Skip.
+- **Cohort**: `<study>-<wave>-<sample>-<assay>` when known. Drop fields you do not know rather than inventing them. Worst case fall back to `<first-author-lastname>-<institution-short>-<year>-<indication>`. Examples (one per A/B/C): A `adni-phase1-serum-lipidomics`. B `tcga-luad-rnaseq` or `tcga-luad-wes`. C `prism-ibd-baseline-shotgun`.
+- **Institution**: short canonical, drop "the", "of", department suffixes unless load-bearing. Examples: A `usc-loni-data-coordinating-center`. B `mskcc-tissue-procurement-core`. C `broad-institute-microbiome`.
+- **Investigator**: `<first>-<last>-<primary-affiliation-short>`, where `primary-affiliation` is the investigator's HOME institution as stated in the affiliation block, NEVER the cohort or consortium they appear in. The canonical counter-example: Michael Weiner is `michael-weiner-ucsf`, NOT `michael-weiner-adni`, even when the paper is about ADNI. If the affiliation field names a consortium (ADMC, TCGA, IBDMDB, etc.) and not a home institution, fall back to the corresponding-author affiliation in the paper frontmatter. Rotating examples: A `michael-weiner-ucsf`. B `matthew-meyerson-broad` (NOT `matthew-meyerson-tcga`). C `ramnik-xavier-broad` (NOT `ramnik-xavier-ibdmdb`).
+- **Platform**: `<vendor-or-site>-<technique>`. Examples: A `uc-davis-lipidomics-uhplc-qtof` or `nightingale-nmr`. B `illumina-truseq-rna-exome` or `agilent-sureselect-xt-low-input`. C `illumina-novaseq-shotgun-metagenomics` or `qiime2-dada2-16s-v4`.
+- **Protocol**: `<institution>-<sample>-<assay>` linked to the cohort that uses it.
+- **Bundle**: handled by the bounty formatter, not resolve. Skip.
 
 ## Back references
 
@@ -97,17 +122,17 @@ Whenever you classify a cohort hint as NEW or MERGE_INTO, also emit `back_refere
 
 **Relation enum (closed list, anything outside is rejected by merge):**
 
-- `parent_institution` — the institution that owns or governs the cohort (e.g. ADNI → USC LONI)
-- `sponsor` — funder or sponsoring consortium (e.g. ADMC, NIA)
-- `data_provider` — institution or consortium that distributes the data, distinct from the physical collection site
-- `collection_site` — the institution that physically held the samples (clinic, hospital, biobank)
-- `assay_platform` — the analytical platform or instrument used to generate the data (Baker Institute LC-MS/MS, UC Davis lipidomics UHPLC-QTOF, Nightingale NMR)
-- `lead_pi` — the principal investigator who led the cohort or the paper
-- `co_investigator` — other named investigators on the paper
-- `collection_protocol` — link to a protocol entity describing the operational steps
-- `related_trial` — link to a trial entity (NCT ID)
+- `parent_institution` — the institution that owns or governs the cohort. A: ADNI → USC LONI. B: TCGA-LUAD → NCI/GDC. C: IBDMDB → Broad Institute.
+- `sponsor` — funder or sponsoring consortium. A: ADMC, NIA. B: NCI Cooperative Group, industry sponsor. C: Helmsley Charitable Trust, Crohn's & Colitis Foundation.
+- `data_provider` — institution or consortium that distributes the data, distinct from the physical collection site.
+- `collection_site` — the institution that physically held the samples (clinic, hospital, biobank, processing core).
+- `assay_platform` — the analytical platform or instrument used to generate the data. A: targeted lipidomics LC-MS/MS, UHPLC-QTOF, NMR. B: bulk RNA-seq exome capture, WES, methylation array. C: 16S V4 sequencing, shotgun metagenomics, untargeted metabolomics on stool.
+- `lead_pi` — the principal investigator who led the cohort or the paper.
+- `co_investigator` — other named investigators on the paper.
+- `collection_protocol` — link to a protocol entity describing the operational steps.
+- `related_trial` — link to a trial entity (NCT ID).
 
-A single linked entity gets ONE relation, the most specific one. UC Davis is `assay_platform` if you mean the instrument, `collection_site` if you mean the lab that ran the assay; pick the one the paper actually evidences. If a hint anchors a cohort in two distinct ways (a consortium that is BOTH sponsor and data provider), emit two back_references with two different relations.
+A single linked entity gets ONE relation, the most specific one. An institution that ran the assay is `assay_platform` if the entity is the instrument, `collection_site` if the entity is the lab. Pick the one the paper actually evidences. If a hint anchors a cohort in two distinct ways (a consortium that is BOTH sponsor and data provider), emit two back_references with two different relations.
 
 Merge applies these to the linked entity's `referenced_by` list.
 
@@ -116,9 +141,9 @@ You only emit back references for entities you have ALSO classified in this same
 ## Hard rules
 
 1. **Dry run.** You write only the `resolution_plan.json`. You do not touch `store/wiki/`. If you find yourself wanting to write an entity article, stop and emit a NEW classification instead.
-2. **Same hint name across papers does NOT mean same entity.** "Western Ontario" appearing in an AD paper and an ALS paper might be the same institution OR a different department. If the wiki already has `university-of-western-ontario`, MERGE_INTO. If not, treat the second occurrence as MERGE_INTO the NEW one you proposed for the first paper IN THIS SAME PLAN. (Order matters: process fragment files in input order, and the plan accumulates as you go. The second paper's "Western Ontario" hint should reference the slug you proposed when processing the first paper.)
-3. **Same surname investigator at the same institution → MERGE. Different institutions → AMBIGUOUS.** The wiki cannot disambiguate two `eva-feldman-michigan` entities, so the slug rule already encodes the disambiguation.
-4. **Cohort granularity is a judgment call.** "ADNI Phase 1 serum lipidomics" and "ADNI Phase 2 metabolomics" are SEPARATE cohorts (different wave, different platform). "ADNI Phase 1 serum lipidomics" appearing in two papers with the same UC Davis platform is the SAME cohort. When in doubt, MERGE and let lint split later — splitting is cheaper than de-duping.
+2. **Same hint name across papers does NOT mean same entity.** A university name appearing in two papers from different departments might be the same institution OR different sub-units. If the wiki already has the parent slug, MERGE_INTO. If not, treat the second occurrence as MERGE_INTO the NEW one you proposed for the first paper IN THIS SAME PLAN. Order matters: process fragment files in input order; the plan accumulates as you go.
+3. **Same surname investigator at the same institution → MERGE. Different institutions → AMBIGUOUS.** The wiki cannot disambiguate two same-name same-institution PIs, so the slug rule already encodes the disambiguation.
+4. **Cohort granularity is a judgment call.** Two collections from the same parent study but with different sample medium, assay platform, or wave are SEPARATE cohorts. (A) ADNI Phase 1 serum lipidomics vs ADNI Phase 2 untargeted metabolomics. (B) TCGA-LUAD WES vs TCGA-LUAD RNA-seq vs TCGA-LUAD methylation. (C) HMP1 healthy stool vs HMP2 IBD stool. The same cohort appearing in two papers with the same medium and platform is ONE entity. When in doubt, MERGE and let lint split later — splitting is cheaper than de-duping.
 5. **Never propose slugs for entities the wiki already has.** Always reuse the existing slug.
 6. **Confidence is mandatory.** `high` = unambiguous match or clean NEW. `medium` = small terminology mismatches but the resolution is defensible. `low` = ambiguous, prefer AMBIGUOUS over a low-confidence MERGE_INTO.
 
