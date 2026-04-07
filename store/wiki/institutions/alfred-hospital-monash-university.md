@@ -26,7 +26,3 @@ Alfred Hospital (Melbourne) and Monash University are co-listed as the instituti
 ## Sources
 
 - PMC12269576: "Ethics approval was obtained from the Alfred Hospital Ethics Committee for each cohort. For ASPREE, all participants gave written informed consent and the approval number was (#523/21)."
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

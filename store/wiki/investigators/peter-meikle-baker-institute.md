@@ -26,7 +26,3 @@ Peter J. Meikle is the senior/corresponding author at Baker Heart and Diabetes I
 ## Sources
 
 - PMC12269576: "Baker Heart and Diabetes Institute" (senior/corresponding author; lead PI for lipidomics platform)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

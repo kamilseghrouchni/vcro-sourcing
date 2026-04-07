@@ -24,7 +24,3 @@ Paul Lacaze is the lead PI for ASPREE (ASPirin in Reducing Events in the Elderly
 ## Sources
 
 - PMC12269576: "ASPREE data are available from the corresponding authors upon reasonable request." (Paul Lacaze, Monash University, listed as corresponding author for ASPREE component)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

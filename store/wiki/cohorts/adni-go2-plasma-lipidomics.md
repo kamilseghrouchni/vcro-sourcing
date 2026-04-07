@@ -14,8 +14,8 @@ disease_area:
 modality:
   - plasma lipidomics
 provenance:
-  sources: [PMC12269576]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC12269576, PMC12445873]
+  last_compiled: 2026-04-07T00:00:00Z
   provenance_coverage:
     real_numbers: {status: covered, sources: 1}
     longitudinal_structure: {status: covered, sources: 1}
@@ -124,6 +124,16 @@ ADNI lipidomics data is accessible via a formal portal with a data use agreement
 [ref: PMC12269576]
 
 Buyers targeting the deDE lipid class as an AD biomarker will be blocked by anticholinesterase confounding unless they can control for medication use. The near-null longitudinal difference between prevalent stable AD and CN (only 2 species) suggests the lipidome mainly captures the transition period rather than the established disease state — relevant for study design (recruit pre-diagnosis, not prevalent AD).
+
+## African American sub-cohort (PMC12445873)
+
+> "The datasets corresponding to the four AD severity indicators (ADAS-Cog 13, t-tau, ABeta42, WMH) were divided into target sample for African Americans (n = 62, 37, 37, 40, respectively)"
+
+[ref: PMC12445873]
+
+An African American analytic sub-cohort (n=37–62 depending on endpoint) from the same ADNI-1/GO/2 participants was used in a separate transfer-learning lipidomics study. This sub-cohort shows a distinct APOE ε4–ether-lipid mediation profile vs the non-Hispanic White arm (ADAS-Cog 13 endpoint), but ether lipid signals for CSF tau/amyloid/WMH endpoints were not reproducible at this small N. A buyer requiring AA-ancestry-specific lipidomics data from ADNI should note that AA ancestry flag availability in the standard ADNI data request tier needs to be confirmed at adni.loni.usc.edu.
+
+See separate entity: [[adni-go2-plasma-lipidomics-aa]]
 
 ## Open questions
 

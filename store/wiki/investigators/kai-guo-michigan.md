@@ -24,7 +24,3 @@ Kai Guo holds a lead PI role at the Department of Neurology and the NeuroNetwork
 ## Sources
 
 - PMC10834248: "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan" (lead PI role)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

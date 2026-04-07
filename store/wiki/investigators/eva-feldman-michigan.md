@@ -25,7 +25,3 @@ Eva L. Feldman is the corresponding author and lead PI for the ALS gut microbiom
 ## Sources
 
 - PMC10834248: "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan" (corresponding author affiliation)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

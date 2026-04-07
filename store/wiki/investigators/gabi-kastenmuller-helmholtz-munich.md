@@ -25,7 +25,3 @@ Gabi Kastenmüller is a senior author for bioinformatics at Helmholtz Munich (EM
 ## Sources
 
 - PMC12269576: (Author affiliation: Helmholtz Munich, EMBL-EBI; bioinformatics senior author role)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

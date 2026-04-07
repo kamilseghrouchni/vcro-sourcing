@@ -8,8 +8,8 @@ aliases:
   - LONI Image and Data Archive
   - ida.loni.usc.edu
 provenance:
-  sources: [PMC10103184, PMC12269576]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC10103184, PMC12269576, PMC12445873]
+  last_compiled: 2026-04-07T00:00:00Z
 referenced_by:
   - {entity: adni-phase1-serum-lipidomics, relation: parent_institution}
   - {entity: adni-go2-plasma-lipidomics, relation: parent_institution}
@@ -29,7 +29,5 @@ The USC Laboratory of Neuro Imaging (LONI) serves as the Data Coordinating Cente
 
 - PMC10103184: "Data used in the preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu)"
 - PMC12269576: "ADNI data are publicly available through the AD Knowledge Portal and the Laboratory of Neuro Imaging Image and Data Archive (https://ida.loni.usc.edu/login.jsp)."
+- PMC12445873: "All data used in the analyses reported here are available in the ADNI data repository (adni.loni.usc.edu)." (African American lipidomics sub-cohort from ADNI-1/GO/2)
 
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

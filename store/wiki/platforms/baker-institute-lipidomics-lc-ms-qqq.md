@@ -9,8 +9,8 @@ aliases:
   - Agilent 6495C dMRM lipidomics
   - Baker dMRM 781-species lipidomics
 provenance:
-  sources: [PMC12269576]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC12269576, PMC12445873]
+  last_compiled: 2026-04-07T00:00:00Z
 referenced_by:
   - {entity: adni-go2-plasma-lipidomics, relation: assay_platform}
   - {entity: aspree-dementia-casecohort-lipidomics, relation: assay_platform}
@@ -29,7 +29,5 @@ The Baker Institute targeted lipidomics platform uses reverse-phase liquid chrom
 ## Sources
 
 - PMC12269576: "Lipidomic profiling in the ADNI study was performed on all plasma samples (n = 4730) using our recently expanded targeted lipidomic profiling strategy comprising of reverse phase liquid chromatography in tandem with a QqQ mass spectrometer (Agilent 6490) operating under dynamic multiple reaction monitoring (dMRM) mode… The ASPREE study (n = 3495) used as the validation study was run under identical chromatographic conditions, but using an Agilent 6495C."
+- PMC12445873: 781-lipid Baker Institute panel used for ADNI-1/GO/2 African American sub-cohort (n=62 AA for ADAS-Cog 13, n=37 for CSF endpoints); same platform as the full NHW ADNI lipidomics arm.
 
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

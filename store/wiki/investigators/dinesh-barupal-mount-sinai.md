@@ -25,7 +25,3 @@ Dinesh K. Barupal is a co-investigator for metabolomics methods on the ADNI Phas
 ## Sources
 
 - PMC10103184: "Department of Environmental Medicine and Public Health, Icahn School of Medicine at Mount Sinai" (author affiliation, metabolomics methods co-investigator)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

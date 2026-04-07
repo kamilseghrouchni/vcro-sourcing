@@ -7,8 +7,8 @@ aliases:
   - Baker IDI
   - metabolomics.baker.edu.au
 provenance:
-  sources: [PMC12269576]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC12269576, PMC12445873]
+  last_compiled: 2026-04-07T00:00:00Z
 referenced_by:
   - {entity: adni-go2-plasma-lipidomics, relation: data_provider}
   - {entity: aspree-dementia-casecohort-lipidomics, relation: collection_site}
@@ -27,7 +27,5 @@ Baker Heart and Diabetes Institute (Melbourne, Australia) is the primary lipidom
 ## Sources
 
 - PMC12269576: "Data on lipidome was generated at the Baker Heart and Diabetes Institute, a member of ADMC. Details on the lipid profiling technologies are described at: (https://metabolomics.baker.edu.au/method)."
+- PMC12445873: "Demographic information, APOE genotype, questionnaire data, lipid metabolism data, neuroimaging data, and cerebrospinal fluid (CSF) biomarker data were obtained from the ADNI data repository (adni.loni.usc.edu)." (Baker 781-lipid panel used for ADNI-1/GO/2 African American lipidomics sub-cohort)
 
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

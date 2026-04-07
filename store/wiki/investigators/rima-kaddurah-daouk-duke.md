@@ -6,10 +6,12 @@ aliases:
   - R. Kaddurah-Daouk
   - Rima Kaddurah Daouk
 provenance:
-  sources: [PMC12269576]
-  last_compiled: 2026-04-06T00:00:00Z
+  sources: [PMC12269576, PMC10937638]
+  last_compiled: 2026-04-07T00:00:00Z
 referenced_by:
   - {entity: adni-go2-plasma-lipidomics, relation: lead_pi}
+  - {entity: delcode-urine-nmr-metabolomics, relation: co_investigator}
+  - {entity: wadrc-wrap-stool-metagenomics, relation: co_investigator}
 card:
   primary_signal: "Rima Kaddurah-Daouk, senior author and lead PI for ADMC at Duke University, leads the consortium that funds and coordinates metabolomics data generation for ADNI."
   action: "Contact via Duke University / ADMC for ADNI metabolomics data layer access or ADMC collaboration."
@@ -25,7 +27,5 @@ Rima Kaddurah-Daouk is a senior author and the lead PI for the Alzheimer's Disea
 ## Sources
 
 - PMC12269576: "Metabolomics data is provided by the Alzheimer's Disease Metabolomics Consortium (ADMC) and funded wholly or in part by the following grants… awarded to Dr. Kaddurah-Daouk at Duke University"
+- PMC10937638: "Funding for this project was also provided through NIA grant U19AG063744 Alzheimer's Gut Microbiome Project (AGMP), PI Kaddurah-Daouk at Duke University." (senior author on DELCODE/WADRC formate metabolomics study)
 
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

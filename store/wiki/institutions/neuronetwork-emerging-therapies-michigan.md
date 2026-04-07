@@ -25,7 +25,3 @@ NeuroNetwork for Emerging Therapies is a named research unit within the Universi
 ## Sources
 
 - PMC10834248: "NeuroNetwork for Emerging Therapies, University of Michigan, Ann Arbor, MI 48109, USA"
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

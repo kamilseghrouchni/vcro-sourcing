@@ -26,7 +26,3 @@ The Department of Neurology at the University of Michigan (Ann Arbor, MI) serves
 ## Sources
 
 - PMC10834248: "Department of Neurology, University of Michigan, Ann Arbor, MI 48109, USA"
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

@@ -25,7 +25,3 @@ Hayley R. C. Shanks is the lead author on the ADNI Phase 1 serum lipidomics stud
 ## Sources
 
 - PMC10103184: "Schulich School of Medicine and Dentistry, University of Western Ontario" (lead author affiliation)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

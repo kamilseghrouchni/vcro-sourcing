@@ -24,7 +24,3 @@ Junguk Hur is the lead PI for computational and bioinformatics analyses at the D
 ## Sources
 
 - PMC10834248: "Department of Biomedical Sciences, University of North Dakota, Grand Forks, ND 58202, USA" (lead PI for computational analyses)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

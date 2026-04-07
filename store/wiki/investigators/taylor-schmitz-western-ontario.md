@@ -25,7 +25,3 @@ Taylor W. Schmitz is the senior and corresponding author on the ADNI Phase 1 ser
 ## Sources
 
 - PMC10103184: "Schulich School of Medicine and Dentistry, University of Western Ontario, London, Ontario, Canada N6A 3K7" (senior/corresponding author)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

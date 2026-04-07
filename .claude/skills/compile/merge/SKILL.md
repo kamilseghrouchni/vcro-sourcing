@@ -167,15 +167,33 @@ For each cohort entity, after collecting all merged fragments:
 4. `quality.provenance_depth = overall_depth`.
 5. Set `quality.confidence`: high if depth >= 0.6 AND >= 2 sources, medium if depth >= 0.3, else low.
 
-## Back-reference application
+## Back-reference application (BATCHED — load-bearing for performance)
 
-For each NEW or MERGE_INTO cohort, the resolution plan provides `back_references`. For each back_reference `{from, to, relation}`:
+The naive pattern (load → edit → write per back_reference) explodes into one tool call per back_reference and dominates merge wall time at scale. Do NOT use it. Use the batched pattern below.
 
-1. Locate the target entity article (`to`). If it does not exist yet because its own resolution has not been processed, defer the back-reference and apply it after all primary writes complete.
-2. Load the target file, append `{entity: <from>, relation: <relation>}` to its `referenced_by` list (deduplicate).
-3. Atomic write back through the hook.
+### The batched pattern
 
-Back-references that target an AMBIGUOUS or rejected entity are dropped and listed in the summary.
+1. **Collect.** After all primary entity writes are complete, walk every NEW and MERGE_INTO resolution in the plan and accumulate every `back_reference` `{from, to, relation}` into an in-memory dict keyed by the `to` slug. The result is `{target_slug: [(from, relation), (from, relation), ...]}`. A typical 20-paper plan yields ~50 entries; a 50-paper plan yields ~120 entries.
+
+2. **Filter.** Drop any back_reference whose `to` slug points at an entity that is AMBIGUOUS or that was rejected by the hook earlier in this run. Log each drop in the summary's "Hook rejections" or "Deferred" section.
+
+3. **Apply per target, ONCE.** For each unique target slug in the dict:
+   a. **Read** the target entity file ONCE. Parse the YAML frontmatter into memory.
+   b. **Merge in memory.** For every `(from, relation)` tuple under this slug, append `{entity: from, relation: relation}` to the in-memory `referenced_by` list. Deduplicate against any existing entries (same from + same relation = no-op).
+   c. **Write** the file ONCE with the fully-updated frontmatter. Use the Write tool, not Edit, so that one write replaces the entire file with all back_references applied at once.
+
+This collapses N back_references into M Write calls where M is the count of distinct target entities, typically 5-10× fewer than N. On a 20-paper plan with ~50 back_references targeting ~25 unique entities, this turns 50 sequential Edit calls into 25 Write calls — and because Write is atomic per file rather than diff-then-patch, it is also faster per call.
+
+### What you do NOT do
+
+- **Do NOT use Edit for back_references.** Edit is per-hunk and forces sequential round-trips. Use Read + in-memory merge + Write.
+- **Do NOT loop one back_reference at a time.** Always batch by target slug first.
+- **Do NOT re-read the same target file twice.** Read once, accumulate, write once.
+- **Do NOT defer back_references to a third pass.** All back_references are applied in one batched second pass after primary writes. If a target is missing on the first lookup, that's a bug — primary writes must run in the deterministic order specified below to guarantee every target exists by the time the back-reference pass starts.
+
+### Idempotency
+
+The batched pattern is fully idempotent. Re-running the plan reads the same target files, finds the same `referenced_by` entries already present, deduplicates them, and writes byte-identical files. The byte-identical re-run property still holds.
 
 ## Order of operations within a run
 

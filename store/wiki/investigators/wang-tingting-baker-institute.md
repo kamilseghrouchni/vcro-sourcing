@@ -25,7 +25,3 @@ Wang Tingting is the first author and lead statistical analyst on the ADNI-1/GO/
 ## Sources
 
 - PMC12269576: "Baker Heart and Diabetes Institute" (first author; lead statistical analyst role)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

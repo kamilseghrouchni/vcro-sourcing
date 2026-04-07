@@ -27,7 +27,3 @@ Michael W. Weiner (MD) is the founding and long-serving Principal Investigator o
 ## Sources
 
 - PMC10103184: "The ADNI was launched in 2003 as a public-private partnership, led by Principal Investigator Michael W. Weiner, MD."
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

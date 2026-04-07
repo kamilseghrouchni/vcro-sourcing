@@ -26,7 +26,3 @@ The Department of Biomedical Sciences at the University of North Dakota (Grand F
 ## Sources
 
 - PMC10834248: "Department of Biomedical Sciences, University of North Dakota, Grand Forks, ND 58202, USA"
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

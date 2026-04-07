@@ -33,6 +33,26 @@ Each entry: date, decision/assumption, why, how to revisit.
 - This is the first real-data validation that the three new dimensions are pulling weight, not just adding paperwork. The open questions become the lint queue.
 - **Revisit if**: across the first 20 extracts, dim 19 or 20 produces fragments on fewer than 30% of papers. That would mean the cues are too narrow.
 
+## 2026-04-06 — Corpus is mono-domain (v1 search bias propagates)
+
+Pre-Step-4 audit on the 327 backfilled PMC papers (excluding the 3 already used in dev) bucketed by title + keyword + mesh:
+
+- A (neuro fluid biomarker): 287 (87.8%)
+- B (oncology tissue genomics): 3 (0.9%)
+- C (microbiome stool sequencing): 5 (1.5%)
+- other: 32 (9.8%)
+
+Manual inspection of the B and C hits showed they are all false positives (vitamin D review, MRM-MS methods, liver cancer paper, and 5 neuro-microbiome crossover papers — none are real FFPE oncology or stool shotgun). The 32 "other" are all neuro-adjacent (GWAS, UK Biobank, multi-omics). **The corpus is effectively 100% neuro.**
+
+This is an upstream property of v1's search history, not a bug in the extract or de-bias work. The Step 2.5 de-bias sweep was verified separately on PMC12034174 (ALS olfactory mucosa SAA, intentionally outside A/B/C) and the model handled it correctly. The de-bias generalization test for B and C is therefore deferred until the search layer is expanded to ingest oncology and microbiome papers.
+
+**Implication for Step 4 wedge**: stratification across A/B/C is impossible. The wedge instead tests:
+1. extract robustness across diverse neuro sub-areas (different cohorts, sample types, longitudinal vs cross-sectional, observational vs interventional)
+2. resolve idempotency at scale, especially the AMBIGUOUS path firing on real same-surname-different-institution collisions
+3. merge byte-identical re-run property when dozens of papers reference overlapping ADNI / Michigan / UK Biobank consortia
+
+**Sampling strategy for the 50-paper wedge**: 50 papers randomly drawn from the 327 (deterministic seed for reproducibility). Frozen list at `store/runs/{date}_step4-wedge/papers.txt`.
+
 ## 2026-04-06 — Resolve skill: two slug nits caught on first dry run
 
 First resolve dry run on PMC10103184 + PMC12269576 + PMC10834248 produced two minor issues, both fixed in `compile/resolve/SKILL.md` before merge ever sees the plan:

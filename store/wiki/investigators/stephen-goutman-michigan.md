@@ -25,7 +25,3 @@ Stephen A. Goutman is a senior author at the Department of Neurology and the Neu
 ## Sources
 
 - PMC10834248: "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan" (senior author affiliation)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

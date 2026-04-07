@@ -25,7 +25,3 @@ Claudia Figueroa-Romero holds a lead PI role at the Department of Neurology and 
 ## Sources
 
 - PMC10834248: "Department of Neurology / NeuroNetwork for Emerging Therapies, University of Michigan" (author affiliation)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

@@ -26,7 +26,3 @@ This platform entity represents the 16S rRNA amplicon sequencing approach used f
 ## Sources
 
 - PMC10834248: "16S rRNA sequencing" (platform description in entity hints; full Methods inaccessible)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

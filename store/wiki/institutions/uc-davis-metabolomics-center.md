@@ -26,7 +26,3 @@ UC Davis Metabolomics Center is the physical laboratory that collected and ran t
 ## Sources
 
 - PMC10103184: "lipidomics data collected at baseline using the UC Davis lipidomics platform"
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

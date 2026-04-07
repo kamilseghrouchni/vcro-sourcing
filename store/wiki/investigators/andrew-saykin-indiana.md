@@ -25,7 +25,3 @@ Andrew J. Saykin is the lead PI for ADNI neuroimaging at Indiana University. He 
 ## Sources
 
 - PMC12269576: (Author affiliation: Indiana University, ADNI neuroimaging lead PI role)
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

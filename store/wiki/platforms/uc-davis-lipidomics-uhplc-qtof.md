@@ -26,7 +26,3 @@ The UC Davis Lipidomics platform uses untargeted ultra-high-performance liquid c
 ## Sources
 
 - PMC10103184: "Serum lipidomics data were collected through untargeted ultra-high-performance liquid chromatography quadrupole time-of-flight mass spectrometry. Of the 521 measured lipids from the complete lipidomics data set available on ADNI, we excluded all unannotated lipids...The final data set used in this study consisted of 348 annotated lipids."
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->

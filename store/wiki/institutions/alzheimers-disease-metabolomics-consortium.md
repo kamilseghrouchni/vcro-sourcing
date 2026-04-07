@@ -28,7 +28,3 @@ The Alzheimer's Disease Metabolomics Consortium (ADMC) is the consortium-level s
 
 - PMC10103184: "the Alzheimer's Disease Metabolomics Consortium"
 - PMC12269576: "Metabolomics data is provided by the Alzheimer's Disease Metabolomics Consortium (ADMC) and funded wholly or in part by the following grants… awarded to Dr. Kaddurah-Daouk at Duke University"
-
-## Referenced by
-
-<!-- back-references will be applied by merge pass -->
