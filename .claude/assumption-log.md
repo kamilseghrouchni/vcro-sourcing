@@ -89,3 +89,84 @@ The first live `vcro-onboard` run on `university-of-michigan-neurology` produced
 
 
 
+
+## 2026-04-08 — Merge skill not back-populating `referenced_by:`
+
+Graph-layer implementation (Part 22) surfaced that most institution/investigator/platform entities carry an empty `referenced_by:` header. The merge skill is supposed to apply back-references but on the 220-entity wedge this is mostly a no-op. Not a graph-layer bug — the graph layer works around it via shared `provenance.sources` co-occurrence — but it IS a merge-skill bug that costs back-reference coverage for the rest of the system.
+
+**Fix candidates**:
+1. Extend `.claude/skills/compile/merge/SKILL.md` with an explicit back-reference pass that re-reads targets and appends.
+2. One-shot `scripts/backfill_referenced_by.py` that derives from shared_source + body [[links]] and writes via hook.
+3. Let lint/connections flag it as a finding and recompile affected entities individually.
+
+**Deferred until**: the next merge run OR the lint/connections pass fed by `store/lint/<date>_graph-connections.json` actually flags it as buyer-impacting.
+
+## 2026-04-08 — Bundles inflate graph centrality
+
+Graph-layer Part 22 empirically confirmed that surfacing bundle entities as regular nodes in the graph pushes them into the god-node list disproportionately (`bundle-ad-multiplatform-metabolomics-2026-04-07` at degree 20, rank #8, on a wiki with only 3 bundles). The graph-layer-handoff.md §9 Q1 guessed right (render bundles separately) but assumed the inflation was hypothetical — it isn't.
+
+**Decision**: bundles should be a **separate projection layer**, not mixed into the entity graph. Shipped in v1.1 as `--exclude-bundles` default on the `rebuild` subcommand, with a future optional bundle-overlay toggle in the HTML viewer.
+
+## 2026-04-08 — Hook YAML parser is looser than pyyaml (class A)
+
+`pre-write-entity.py` uses a hand-rolled stdlib YAML parser to stay dependency-free. Exhaustive audit on 2026-04-08 across 221 entities showed:
+- 1 file (`target-als-foundation.md`) passed the hook but failed pyyaml — an unquoted colon in a card `primary_signal` string. Root cause: the hand parser does not detect mapping-in-scalar collisions.
+- 0 field-level divergences on `entity_id / type / canonical_name` across the remaining 220 files. The hand parser is loose but not wrong.
+
+**Decision**: keep the hook stdlib-only (zero install friction at write time), add pyyaml-backed `scripts/wiki_audit.py` as a second-line check, and wire it into `wiki_index.py`'s post-run output. Any pyyaml consumer downstream (graph layer, future tools) is protected because the audit runs on every rebuild.
+
+**Deferred**: if future audits find >5 pyyaml failures, replace the hand parser with pyyaml in the hook and accept the dep. Tracked as an if-and-when, not scheduled.
+
+## 2026-04-08 — Hook does not enforce slug-resolution on frontmatter fields (class B')
+
+`parent_institution:`, `referenced_by[].entity`, and `composition.*.entity` are validated for SLUG FORMAT but never checked against existing files. On 221 entities the audit found 4 misses — all in `parent_institution`: 3 typos (Harbin word-order, Mount Sinai "of", US ALS Biorepository "-atsdr" suffix) and 1 genuinely missing entity (Karolinska University Hospital, referenced from `swedish-fad-psen1-h163y-plasma`).
+
+**Decision**: strict resolution at write time is wrong — compile batches create targets in arbitrary order and would false-fail. Instead:
+1. The hook now appends unresolved slugs to `store/wiki/_pending_links.jsonl` (warn-only, non-blocking).
+2. `scripts/wiki_audit.py` reconciles the pending log against the current file index. Real misses surface there.
+3. `scripts/wiki_index.py` runs the audit at the end of every rebuild.
+
+**Deferred compile-queue item**: `karolinska-university-hospital` — real institution referenced by `swedish-fad-psen1-h163y-plasma` but never compiled. Needs a compile pass on that source PMC.
+
+## 2026-04-08 — Graphify comparison pass: four compile-layer additions
+
+Compared vCRO compile against `safishamsi/graphify` (GitHub). vCRO's
+quote+ID+implication rule, cross-run entity resolution, hook-gated schema,
+and paper-per-subagent granularity are correct for an audit-grade provenance
+graph and stay. Four concrete gaps closed:
+
+1. **SHA256 extract cache** (`scripts/extract_cache.py`, commit `8a36196`).
+   Content-hash keyed on `paper.md`; `store/runs/_cache/extract/<sha>.json`.
+   Re-runs on unchanged papers skip Sonnet entirely. Orchestrator wires
+   check/hydrate/put in Step 0 + Step 1 of `vcro-compile.md`.
+2. **Deterministic XML pre-pass** (`scripts/pmc_prepass.py`, commit `8b23b30`).
+   Regex/stdlib over `source.xml` → `prepass.json` with NCT IDs,
+   GEO/SRA accessions, funding lines, data-availability URLs, affiliations,
+   N-value candidates. Fed to extract subagent as seeded-hint block
+   (verify, don't hunt). Called best-effort from `pmc_convert.py`.
+3. **Numeric `confidence_score` on fragments + scoring axes**
+   (commit `8d97b22`). Range [0.0, 1.0] alongside the bucket enum;
+   `pre-write-entity.py` rejects 0.5 as a reserved non-default
+   (graphify rule). Schema + extract SKILL + hook all updated.
+4. **Post-merge graph hook** (commit `ea7a97b`). `vcro-compile.md` Step 3.5
+   runs `scripts/wiki_graph.py rebuild` + `lint-export` best-effort.
+   Latent clusters and bridge signals refresh in the same run.
+
+**Explicitly not copied** from graphify: `semantically_similar_to` edges.
+Graphify's "graph structure is the similarity signal, no embeddings"
+pitch is cheap on code but produces the exact authority-drift failure
+mode our evidence standard exists to block. If vCRO ever adds
+cohort-similarity edges they must carry a verbatim quote justifying
+the similarity, which breaks graphify's whole primitive — so we park it.
+
+**Known quirk surfaced**: the hand-rolled YAML parser in
+`pre-write-entity.py` does not handle inline `{key: value}` mappings
+for `scoring.*`. Block-form works. Not fixed this pass; tracked under
+the existing "hook YAML parser is looser than pyyaml" entry above.
+
+**Revisit if**: extract cache hit-rate stays <20% after 3 compile runs
+(signals paper.md churn — investigate whether rendering is non-
+deterministic); or if prepass N-value candidates have a false-positive
+rate >10% on Methods/Results scanning (tighten the regex); or if the
+post-merge graph rebuild starts dominating wall time on large wikis
+(downgrade to incremental mode).
