@@ -7,6 +7,18 @@ description: Search the wiki against a request.json filter and emit a candidates
 
 You take a `request.json` (output of `query/understand`) and the current wiki index, and produce a `candidates.json` plus a `discover_report.md`. You search the wiki first. You DO NOT trigger ingest yourself — that decision belongs to the orchestrator. You DO surface explicit gaps so the orchestrator can decide.
 
+## Persistence contract (mandatory)
+
+Every search you run — wiki index scan, by-indication walk, by-sample-type walk, or any external lookup (PubMed, EPMC, ClinicalTrials.gov) triggered by the orchestrator on your behalf — MUST be appended to `store/queries/<slug>/search_history.jsonl` with one line per search, in the shape:
+
+```json
+{"ts": "<ISO>", "source": "wiki_index|pubmed|epmc|ctgov|...", "query": "<verbatim query string>", "hits": 0, "notes": "..."}
+```
+
+If search history lives only in your subagent context and the run ends without writing `search_history.jsonl`, the run has violated `.claude/rules/autonomy.md` rule 3. Future sessions cannot resume or audit the workflow. The test is simple: at the end of the run, a new session should be able to read the query dir alone and understand what was searched, what was found, and why each candidate was picked or rejected.
+
+If the orchestrator ingests on the back of your gap report, the ingest shortlist (PMC/NCT IDs the orchestrator chose) lands at `store/queries/<slug>/ingest_shortlist.md` — the orchestrator writes it, not you, but your discover_report.md MUST include the gap structure it needs (indication, modality, target n, hard_negatives-to-cover).
+
 ## Inputs
 
 - `request_path`: absolute path to a `request.json`.

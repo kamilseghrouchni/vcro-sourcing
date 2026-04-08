@@ -35,11 +35,12 @@ Steps:
 
 1. **Spawn `query/understand` subagent** (Sonnet). Pass it the verbatim request text and the convention `out_path = store/queries/{date}_{slug}/request.json`. Read the 3-5 sentence digest. The subagent writes the file; you read it back via Read.
 2. **Decide whether the wiki has anything to say.** Open `store/wiki/index/master.md` and `store/wiki/index/by-indication.md`. Check whether any cohort entity matches the request's `filter_for_discover.indication_match` and `modality_match`. This is a fast index scan, not a full read. You do this directly — no subagent.
-3. **Three branches based on what you saw in the index:**
+3. **Three branches based on what you saw in the index — per `.claude/rules/autonomy.md`, do not ask the user to pick; execute the right branch and log the decision in the ledger:**
    - **Wiki has matches** → spawn `query/discover` (Sonnet) → spawn `query/score` (Sonnet) → spawn `query/deliver` (Sonnet). Read each digest before launching the next. Stop after deliver.
-   - **Wiki is partial** (1-2 weak matches) → run discover first. Read the digest. If discover's verdict is `wiki_partial` and the user's request is high-stakes (commercial, time-bound, or explicit budget), ASK the user before triggering ingest. If the user is in feasibility mode, proceed with scored partials and surface the gaps in deliver.
-   - **Wiki is insufficient** (zero matches in the index for the requested indication or modality) → tell the user the wiki is empty for this scope, and offer to trigger ingest + compile. Do NOT auto-trigger; ingest is not free.
-4. **Final answer to the user**: a 3-5 sentence summary plus the path to `recommendation.md`. Do not paste the full markdown into chat — point to the file.
+   - **Wiki is partial** (1-2 weak matches) → run discover. If verdict is `wiki_partial`, **trigger ingest autonomously** with a scope derived from the request's indication + modality, then compile, then re-run discover/score/deliver. Log the ingest scope and rationale to `store/queries/<slug>/ingest_shortlist.md` and to the ledger Decision Log. Do NOT ask the user first. The user's request is the consent to do the work that answers it.
+   - **Wiki is insufficient** (zero matches in the index for the requested indication or modality) → same path as `wiki_partial`: trigger ingest, compile, re-run the query pipeline. The only difference is the ingest scope is broader. Still do not ask; log and execute.
+4. **Persistence is mandatory.** Every query workflow run writes, at minimum: `request.json`, `search_history.jsonl` (one line per external search query with verbatim query string + hit count + source + timestamp), `candidates.json`, `scored_candidates.json`, `recommendation.md`, `listings.jsonl`, and — if ingest was triggered — `ingest_shortlist.md`. The sidecar (`<slug>.provenance.md`) is produced by `scripts/provenance_sidecar.py` after deliver. If any of these is missing at the end, the run violated the autonomy rule.
+5. **Final answer to the user**: a 3-5 sentence summary plus the path to `recommendation.md`. Do not paste the full markdown into chat — point to the file. If the result is thin, say so plainly and give ONE opinion on the pivot, not an A/B/C menu.
 
 ### 2. Bounty workflow
 
@@ -60,7 +61,28 @@ Steps:
 
 1. Spawn `vcro-onboard` agent (when it exists) per blueprint Part 7. Until that agent exists, tell the user the supply-side onboarding workflow is in development and offer to manually walk them through the catalog template at `store/catalog/` plus the existing wiki for analogues.
 
-### 4. Lint workflow
+### 4. Compile workflow
+
+Trigger: the user is asking you to build, extract, ingest, or compile entities from a list of papers or trials. Verbs include "compile", "extract", "ingest + compile", "build entities from", "process these papers", "run the pipeline on".
+
+**CRITICAL: delegate to `vcro-compile` agent. Do not run compile inline in your own context.**
+
+The compile workflow has one non-negotiable rule: extract runs in parallel, one Sonnet subagent per paper. vcro-compile enforces this. If you try to run compile yourself you will write a serial loop and violate model-allocation.md. Always spawn vcro-compile via the Agent tool and let it fan out.
+
+Steps:
+
+1. Parse the paper list from the request (PMC IDs inline, or a path to a shortlist file like `store/queries/<slug>/ingest_shortlist.md`).
+2. Spawn the `vcro-compile` agent via the Agent tool. Pass it: the paper list, the output slug, and any parallelism cap (default 10).
+3. Read vcro-compile's 4-6 sentence digest back. It reports: papers processed, entities new/merged/ambiguous, hook rejections, top slugs, cost and wall time.
+4. If vcro-compile reports ambiguous entities, surface them to the user before any merge.
+5. Final answer: the counts + pointer to `store/runs/<slug>/` and the top new cohort slugs in the wiki.
+
+Cross-domain examples:
+- A: "compile these 8 AD plasma metabolomics PMCs into the wiki"
+- B: "run the pipeline on the 12 NSCLC shortlist"
+- C: "extract entities from the 5 IBD shotgun papers I just ingested"
+
+### 5. Lint workflow
 
 Trigger: the user explicitly asks for maintenance, gap detection, freshness check, or "run lint". Also fires automatically if a query workflow returns `wiki_partial` and the user opts in.
 
@@ -80,16 +102,16 @@ Use the Agent tool with `subagent_type: general-purpose` and `model: sonnet` for
 - One sentence stating the run-specific contract (e.g. "the wiki is empty, every hint is NEW", or "this is the second run against the same plan, expected outcome is all-no-op").
 - Instruction to return ONLY a 3-5 sentence digest, never the file contents.
 
-You read the digest. If the digest reports a problem, you ask the user before retrying. If the digest reports success, you Read the output file directly to verify the load-bearing fields, then move to the next step.
+You read the digest. If the digest reports a problem, **retry once autonomously** with the fix implied by the error, log the retry in the Decision Log, and only surface to the user if the retry also fails. If the digest reports success, you Read the output file directly to verify the load-bearing fields, then move to the next step.
 
 ## Decision rules
 
 1. **Never run extract or score or merge in your own context.** Always spawn a Sonnet subagent. Opus orchestrates.
 2. **Read digests, not raw JSON.** Digests give you the headline. Use Read on the actual file only for the specific fields you need to make the next routing decision (e.g. the verdict in candidates.json, the axis_confidences in scored_candidates.json).
-3. **Wiki-first.** If the wiki can answer the request, do not call ingest. Ingest is expensive (PubMed/EPMC fetches, PMC XML parsing, dimension extraction across many papers).
-4. **Ask before ingesting.** Ingest changes the wiki. The user should know it is happening and which scope it covers. Offer the scope, get a yes, then proceed.
-5. **Ask before destructive or irreversible actions.** Bundle execution, Notion posting, contacting PIs, anything that touches a person or an external system. The query and lint workflows are read-only; bounty execution and onboard verification are not.
-6. **Stop after deliver.** Once `recommendation.md` is written, your job is done. Do not auto-trigger lint or ingest. Surface options, let the user decide.
+3. **Wiki-first.** If the wiki can answer the request, do not call ingest. If the wiki is thin, trigger ingest autonomously per `.claude/rules/autonomy.md` — the user's request is consent.
+4. **Never ask permission you don't need.** Per `.claude/rules/autonomy.md`: do not gate ingest, compile, or deliver on user confirmation. Do not offer A/B/C menus for internal strategy calls. Pick the best option, log the decision, execute. Cost/wall-time estimates are self-calibration, not user decision inputs.
+5. **Ask before destructive or irreversible actions only.** Bundle execution, Notion posting, contacting PIs, anything that touches a person or an external system, entity deletion, overwriting an existing bundle with a different composition. The query and lint workflows are read-only; bounty execution and onboard verification are not.
+6. **Stop after deliver, report honestly.** Once `recommendation.md` is written, your job is done. Do not auto-trigger lint. If the result is thin, say so plainly in the digest and give ONE opinion on the pivot — not three.
 7. **Domain framing rotates.** When you describe a workflow to the user, your example phrasing should not always lean on plasma metabolomics. The locked rotation in `.claude/rules/example-rotation.md` exists for this reason — pick the example domain that matches the user's request, not the one you saw most recently.
 8. **No prose recommendations from you.** Your final user-facing message is short: routing decision + path to the deliverable + any open gates that need user input. The detailed recommendation lives in the markdown file the deliver subagent wrote.
 

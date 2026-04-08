@@ -170,3 +170,44 @@ deterministic); or if prepass N-value candidates have a false-positive
 rate >10% on Methods/Results scanning (tighten the regex); or if the
 post-merge graph rebuild starts dominating wall time on large wikis
 (downgrade to incremental mode).
+
+## 2026-04-08 — Autonomy rule + persistence contract (incident-driven)
+
+**Incident.** A live query run on CSF DNA methylation cohorts surfaced three
+failure modes simultaneously:
+1. The orchestrator asked the user to pick between A/B/C strategy options
+   (run PubMed search yes/no; 3 ingest modes; compile-all vs skip-the-wedge)
+   when it had enough information to decide autonomously.
+2. The discover subagent's search history — verbatim queries, hit counts,
+   triage decisions — lived only in the subagent's context. When that context
+   ended, the search history was unrecoverable. Only `request.json` landed
+   on disk.
+3. Cost/wall-time estimates were surfaced as user decision inputs. They are
+   not. Budgets are irrelevant to the user at this stage.
+
+**Decision.**
+- New rule `.claude/rules/autonomy.md` — "do the best thing, then report
+  what you did." Do not ask questions you can answer. Budgets and estimates
+  are self-calibration, not decision gates. Ingest is consented by the
+  user's request. Destructive ops, genuine ambiguity, and missing hard
+  inputs still get asked.
+- `vcro-os.md` decision rules 3-6 rewritten: wiki_partial and wiki_empty
+  now trigger ingest autonomously; A/B/C menus forbidden; retry-once
+  autonomously on subagent failure before surfacing to the user.
+- `query/discover/SKILL.md` adds a persistence contract: every search
+  (wiki scan, PubMed, EPMC, ctgov) must append to
+  `store/queries/<slug>/search_history.jsonl`. Subagent context is not
+  persistence. Failing to write search_history.jsonl is a rule-3 violation.
+- `_commandments.md` rule 5 rewritten from "ask before triggering ingest"
+  to "ingest autonomously when wiki is thin; never ask permission you
+  don't need."
+
+**Why.** The pattern the rule exists to prevent: orchestrators treating
+user attention as cheap and estimate printing as decision-making. Both
+are wrong. The user's attention is the scarce resource; the orchestrator's
+compute is not. And estimates are self-calibration signals for the
+orchestrator, not gates on user consent.
+
+**Revisit if.** A live run surfaces an autonomy-rule incident where the
+orchestrator should have asked and didn't. Log the incident here and
+widen the "still ask" list in autonomy.md accordingly.
