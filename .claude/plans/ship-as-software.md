@@ -73,7 +73,24 @@ Phase completion gate: build → run phase check → run master runner → if bo
 
 **Phases to ship now (in order):** 1 → 2 → 3 → 4 → 7 → 8.
 
-**Phases deferred until after dogfooding:** 5 (docs site), 6 (landing page). User will run the system end-to-end once Phases 1-4 land; packaging for external consumption (docs + landing) comes after real usage reveals what the CLI/workflows actually need. The design for both phases is captured below so they can be picked up unchanged later.
+**Phases deferred until after dogfooding:** 5 (docs site), 6 (landing page), **9 (CLI UX polish — see below)**. User will run the system end-to-end once Phases 1-4 land; packaging for external consumption (docs + landing) and conversational CLI surface come after real usage reveals what the CLI/workflows actually need.
+
+### Phase 9 — CLI UX polish (deferred, captured 2026-04-08)
+
+**The gap.** Right now when a user runs `vcro query "..."` they see raw Claude Code tool traces — `Bash(...)`, `Read(...)`, `python3 scripts/...`. That's a developer-debug surface, not a product surface. A real CLI should stream **outcome-over-output**: status messages describing what is being figured out, not which files are being read. Reference: the Feynman screenshots at `/Users/kamilseghrouchni/Desktop/feynman-screenshots` show the target — shimmering "working…" / "thinking…" phrases, phase-level progress lines, occasional loading bars for long operations.
+
+**Scope (when picked up):**
+- **Phase-level status lines**, one per workflow step. Example for `vcro query`: `understanding…` → `searching wiki (219 entities)…` → `scoring 7 candidates on 3 axes…` → `drafting recommendation…`. Source of truth: each skill's `name:` frontmatter + a one-word gerund per skill.
+- **Shimmer / spinner** while the current phase is active (TTY only, fall back to plain text in non-TTY). Stdlib only — ANSI escapes + a tiny renderer, no `rich`/`tqdm` deps.
+- **Suppress tool-call traces** in the user-facing stream by default; `--verbose` flag re-enables them for debugging. Likely approach: `bin/vcro` wraps the Claude Code subprocess, parses the structured event stream, and re-renders as phase lines.
+- **Loading bars** reserved for quantifiable operations only (compile over N papers, lint scan, installer download). Anything indeterminate stays on the spinner.
+- **Outcome strings, not tool strings.** Every status line completes the sentence "I just figured out that…". Example: "narrowed 219 entities to 12 candidates by indication+modality" — not "ran grep on by-indication.md".
+
+**When to pick it up.** After Phase 8 ships (CLI + installer + lockfile + provenance sidecar + Tier 3 + master runner all green) AND after the user has run each of the 4 core workflows end-to-end at least once. Dogfooding will reveal which phases actually take long enough to warrant a spinner, which ones need a count, and where the raw tool traces feel jarring vs informative.
+
+**Non-goals.** Not a TUI (no curses, no full-screen takeover). Not a web UI (that's the Next.js skill). Not a replacement for `--verbose` debug output.
+
+**Screenshots folder:** `/Users/kamilseghrouchni/Desktop/feynman-screenshots` — reference for the visual target. Re-examine before building.
 
 ## Status roll-up (2026-04-08)
 
@@ -87,6 +104,7 @@ Phase completion gate: build → run phase check → run master runner → if bo
 | **8 — Master runner** | pending | — | `.claude/tests/run_all_checks.sh`. |
 | 5 — Docs site | deferred | — | Captured, post-dogfooding. |
 | 6 — Landing page | deferred | — | Captured, post-dogfooding. |
+| 9 — CLI UX polish | deferred | — | Outcome>output status lines, spinner, suppress tool traces. Feynman screenshots as reference. Post-dogfooding. |
 
 ### Added since plan was written (out-of-band, 2026-04-08)
 
