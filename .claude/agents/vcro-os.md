@@ -65,17 +65,29 @@ Steps:
 
 Trigger: the user is asking you to build, extract, ingest, or compile entities from a list of papers or trials. Verbs include "compile", "extract", "ingest + compile", "build entities from", "process these papers", "run the pipeline on".
 
-**CRITICAL: delegate to `vcro-compile` agent. Do not run compile inline in your own context.**
+**CRITICAL: run compile inline in your own top-level context. Do NOT spawn `vcro-compile` as a subagent.**
 
-The compile workflow has one non-negotiable rule: extract runs in parallel, one Sonnet subagent per paper. vcro-compile enforces this. If you try to run compile yourself you will write a serial loop and violate model-allocation.md. Always spawn vcro-compile via the Agent tool and let it fan out.
+This was the opposite of the old rule and the old rule was wrong. Claude Code's Task tool is one level deep — a subagent cannot spawn its own subagents. If you spawn `vcro-compile` as a child and it tries to fan out 13 parallel extract workers, the nested Task calls get blocked by the harness, and vcro-compile correctly refuses to fall back to a serial loop (commandment 7). The result is a dead run with a fully prepped ledger and no extracts.
+
+The fix: **you** (the top-level orchestrator) are the one doing the compile fan-out. You read `.claude/agents/vcro-compile.md` as instructions, follow its scale-decision table, and spawn the parallel Sonnet extract subagents yourself. This keeps the fan-out at the top level where the Task tool has full privileges. It also matches the autonomy rule and the query/search loop pattern — the orchestrator does the work visibly in one context, it does not hide delegation layers.
+
+"Opus orchestrates, never processes" is still satisfied: **fan-out is orchestration**, and the Sonnet workers that read the papers are still spawned — you're just the spawner instead of a nested agent.
 
 Steps:
 
 1. Parse the paper list from the request (PMC IDs inline, or a path to a shortlist file like `store/queries/<slug>/ingest_shortlist.md`).
-2. Spawn the `vcro-compile` agent via the Agent tool. Pass it: the paper list, the output slug, and any parallelism cap (default 10).
-3. Read vcro-compile's 4-6 sentence digest back. It reports: papers processed, entities new/merged/ambiguous, hook rejections, top slugs, cost and wall time.
-4. If vcro-compile reports ambiguous entities, surface them to the user before any merge.
-5. Final answer: the counts + pointer to `store/runs/<slug>/` and the top new cohort slugs in the wiki.
+2. Read `.claude/agents/vcro-compile.md` — use it as your workflow instructions, not as a subagent to spawn. In particular: Step 0 pre-flight (extract_cache check, prepass check), the scale-decision table, Step 0.5 ledger initialization, Step 1 parallel extract fan-out template (copy-paste the dispatch prompt verbatim into Agent tool calls from YOUR context), Step 2 single resolve subagent, Step 3 single merge subagent, Step 3.5 graph rebuild post-hook.
+3. **You spawn the parallel extract subagents** via multiple Agent tool calls in a single message — one call per paper, `subagent_type: general-purpose`, `model: sonnet`. This works because you are top-level.
+4. Read each subagent's digest. Update the ledger after every wave.
+5. Spawn the resolve + merge subagents sequentially (single Agent call each). Also top-level, also fine.
+6. Final answer to the user: counts + pointer to `store/runs/<slug>/` and the top new cohort slugs.
+
+Cross-domain examples:
+- A: "compile these 8 AD plasma metabolomics PMCs into the wiki"
+- B: "run the pipeline on the 12 NSCLC shortlist"
+- C: "extract entities from the 5 IBD shotgun papers I just ingested"
+
+**Recovery path for a blocked nested-spawn run.** If a prior session got stuck because it tried to spawn vcro-compile as a subagent, the run dir is already prepped (ledger, papers.txt, prepass.json, cache state) and fully idempotent. A fresh top-level session (this workflow) can pick up from the existing `store/runs/<slug>/` and run the fan-out itself — no re-ingest, no re-prepass, no lost state.
 
 Cross-domain examples:
 - A: "compile these 8 AD plasma metabolomics PMCs into the wiki"

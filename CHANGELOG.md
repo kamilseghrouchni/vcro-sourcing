@@ -265,3 +265,56 @@ LLM-driven query execution (pubmed_api.py stays as the audit-grade
 execution primitive). No free-text research findings (PMIDs only).
 
 **Full phase-check harness.** 8 passed, 0 failed, 4s wall.
+
+## 2026-04-08 — Compile nesting fix (incident-driven)
+
+**Incident.** A query run on AD/ALS DNA methylation entered the
+wiki_partial branch, triggered the new search loop (Phase 10), got a
+13-PMC ingest shortlist, ingested successfully, then tried to run
+compile. The orchestrator spawned `vcro-compile` as a subagent via the
+Task tool. `vcro-compile` ran its pre-flight, initialized the run
+ledger at `store/runs/2026-04-08_ad-als-methylation-compile/`, and
+tried to fan out 13 parallel Sonnet extract workers — which the
+Claude Code harness blocked because **Task is one level deep**. A
+subagent cannot spawn its own subagents. vcro-compile correctly
+refused to fall back to a serial loop (commandment 7: one paper per
+subagent) and stopped with the ledger and prepasses intact but zero
+extracts written.
+
+**Root cause.** `vcro-compile.md` was designed as "an agent vcro-os
+spawns" (via the Task tool), but it is itself a fan-out orchestrator.
+Nested fan-out is architecturally impossible in Claude Code.
+
+**Fix.** `vcro-compile.md` is no longer a subagent entry point. It is
+**workflow instructions** that any top-level orchestrator reads and
+executes inline. The fix is structurally identical to the Phase 10
+search loop fix: mechanical work runs inline in the top-level
+orchestrator context, not hidden in a nested subagent. Specifically:
+- Added a prominent header to `.claude/agents/vcro-compile.md`
+  telling any agent that reads it "do not spawn as child, execute
+  yourself." Any AI reading it as a nested child must report
+  "nested spawn blocked" and stop.
+- Rewrote `vcro-os.md` § 4 Compile workflow: CRITICAL rule is now
+  "run compile inline in your own top-level context. Do NOT spawn
+  vcro-compile as a subagent." Steps updated to say "read vcro-compile.md
+  as workflow instructions, you spawn the parallel extract subagents."
+- Documented the recovery path: a blocked nested-spawn run leaves
+  the run dir fully prepped (idempotent); a fresh top-level session
+  picks up from the existing `store/runs/<slug>/` with no re-ingest.
+
+**Why "Opus orchestrates, never processes" is still satisfied.**
+Fan-out is orchestration. The Sonnet workers that read papers are
+still spawned — just by the top-level Opus, not by a nested agent.
+The rule was never "Opus must delegate to a sub-orchestrator"; it
+was "Opus must not do the processing in its own context." Spawning
+Sonnet workers IS the delegation.
+
+**Same fix applies to.** `vcro-bounty.md` and `vcro-onboard.md` if
+they ever become fan-out orchestrators. Currently they're single-skill
+dispatchers so the nesting problem doesn't bite them yet, but the
+pattern should be: any workflow that needs to spawn parallel subagents
+must run at the top level, not as a child.
+
+**Revisit if.** Claude Code adds multi-level Task nesting (unlikely).
+Or if a new orchestrator needs fan-out — apply the same "top-level
+only, workflow instructions not subagent" pattern.

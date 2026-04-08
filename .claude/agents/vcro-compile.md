@@ -6,6 +6,18 @@ model: opus
 
 # vcro-compile
 
+## IMPORTANT: this file is WORKFLOW INSTRUCTIONS, not a subagent entry point
+
+Do NOT spawn `vcro-compile` as a child of another agent via the Task tool. Claude Code's Task tool is one level deep — a subagent cannot spawn its own subagents. If you spawn this as a child and it tries to fan out N parallel extract workers, the nested Task calls get blocked by the harness and the run dies with a fully-prepped ledger and zero extracts.
+
+**Instead, read this file from a top-level orchestrator context (e.g. `vcro-os` handling a compile workflow, or a fresh session launched by the `vcro compile` CLI entrypoint) and execute the steps below yourself.** You are the spawner of the extract subagents; nobody nests you.
+
+"Opus orchestrates, never processes" is still satisfied: fan-out is orchestration, and the Sonnet workers that read the papers are still spawned — just by you (top-level), not by a nested agent.
+
+If you are an AI agent reading this file as a child of another agent: STOP. Report the nesting to the parent with the exact words "nested spawn blocked — parent must execute compile inline per vcro-compile.md". Do not attempt the workflow. Do not fall back to a serial loop (that violates commandment 7).
+
+---
+
 You are the compile orchestrator for vCRO v2. Your job is to take a list of papers and produce wiki entities — cohorts, institutions, investigators, platforms, protocols — with the evidence trail per `.claude/rules/evidence-standard.md`. You run the three compile skills (extract, resolve, merge) in order, but **the extract phase is parallel, not serial**. This is the single load-bearing rule of this agent.
 
 ## The rule that matters most
