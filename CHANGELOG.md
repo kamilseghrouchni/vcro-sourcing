@@ -211,3 +211,57 @@ orchestrator, not gates on user consent.
 **Revisit if.** A live run surfaces an autonomy-rule incident where the
 orchestrator should have asked and didn't. Log the incident here and
 widen the "still ask" list in autonomy.md accordingly.
+
+## 2026-04-08 — Phase 10 shipped: search loop (deterministic machinery + LLM bends)
+
+**Why.** The CSF DNA methylation incident surfaced that vCRO's one-shot
+`pubmed_api.py` pass-through fails on niche and vendor-term queries. EPIC
+and 450K returned zero hits because PubMed's server-side MeSH does not
+expand vendor trade names. The agent had no way to detect the failure and
+loop.
+
+**What shipped.**
+- `scripts/search_coverage.py` — pure-stdlib coverage scorer. Reads a
+  `round_<k>.json` (queries + hits + optional triage), computes
+  unique_pmids, pmids_new, round_delta_pmids, zero_hit_queries,
+  under_threshold_queries, indication/modality coverage, stop condition.
+  Stop ladder: `sufficient` → `round_cap` → `exhausted` →
+  `sufficient_coverage` → null (loop continues).
+- `scripts/search_rewrite.py` — pure-stdlib mechanical rewriter. Reads
+  coverage + round + `references/search-synonyms.md`, walks zero-hit and
+  under-threshold queries, applies vendor→canonical substitutions
+  deterministically. Splits into `mechanical_rewrites` (no LLM needed)
+  vs `needs_llm_judgment` (bubble to orchestrator bend 7).
+- `references/search-synonyms.md` — 60-entry vendor→canonical dictionary.
+  Fenced code block, append-only. Covers EPIC, 450K, Infinium, bisulfite,
+  DNAm, WGBS, 10x, Visium, Olink, Biocrates, major cohort names (ADNI,
+  TCGA, UK Biobank, etc), and common disease/tissue abbreviations
+  (AD, ALS, NSCLC, FFPE, CSF, PBMC, etc).
+- `.claude/skills/query/search/SKILL.md` — new skill. The loop body
+  (7 numbered steps, 4 LLM judgment bends, 3 mechanical Python steps).
+  Explicitly not a subagent — the loop runs in the orchestrator context
+  so every query decision is visible. Directory contract, stop
+  conditions (max_rounds=3, target_new_pmids=20, exhaustion check),
+  persistence contract, triage vocabulary, writing rules for round k+1.
+- `vcro-os.md` query workflow updated: `wiki_partial` and `wiki_empty`
+  branches now run `query/search` inline before compile, not ask.
+- `.claude/tests/check_phase_10_search_loop.sh` — 21 passing assertions
+  covering script existence, skill frontmatter, coverage scoring
+  correctness (zero-hit detection, pmids_new, indication coverage,
+  stop_reason on sufficient/round_cap), rewriter mechanical
+  substitutions (EPIC→MethylationEPIC, bisulfite→bisulfite sequencing,
+  CSF→cerebrospinal fluid, ALS→amyotrophic lateral sclerosis),
+  idempotency, lockfile green.
+
+**Design principle.** "The loop is machinery. Put machinery in Python.
+Judgment happens at bends. Put judgment in the LLM. Every bend writes
+to disk before the loop continues." This preserves determinism,
+auditability, and no hallucinated PMIDs (since PMIDs only grow from
+real API responses) while getting Feynman's iterative behavior.
+
+**Explicitly NOT copied from Feynman.** No 4-parallel-researcher fan-out
+(vCRO search is a narrow IR task, not open-ended research). No
+LLM-driven query execution (pubmed_api.py stays as the audit-grade
+execution primitive). No free-text research findings (PMIDs only).
+
+**Full phase-check harness.** 8 passed, 0 failed, 4s wall.

@@ -1,5 +1,5 @@
 {
-  "skill_count": 19,
+  "skill_count": 20,
   "skills": {
     "agent-endpoint": {
       "name": "agent-endpoint",
@@ -90,6 +90,11 @@
       "name": "query-score",
       "path": ".claude/skills/query/score/SKILL.md",
       "sha256": "86c9aa8529f69d3a5b756c15b65da67067edf73eb7368328237bade2613dc786"
+    },
+    "query/search": {
+      "name": "query-search",
+      "path": ".claude/skills/query/search/SKILL.md",
+      "sha256": "a06bf4050c61682a3995e31d9817a6a4166fc2e9ee4af28c7e922897173cf8e2"
     },
     "query/understand": {
       "name": "query-understand",

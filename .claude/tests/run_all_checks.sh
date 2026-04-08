@@ -43,6 +43,7 @@ run_check "phase 2: installer"                .claude/tests/check_phase_2_instal
 run_check "phase 3: skills lockfile"          .claude/tests/check_phase_3_skills_lock.sh
 run_check "phase 4: provenance sidecar"       .claude/tests/check_phase_4_provenance.sh
 run_check "phase 7: tier 3"                   .claude/tests/check_phase_7_tier3.sh
+run_check "phase 10: search loop"             .claude/tests/check_phase_10_search_loop.sh
 
 # Compile-layer smoke checks (graphify additions, 2026-04-08).
 echo

@@ -101,7 +101,8 @@ Phase completion gate: build → run phase check → run master runner → if bo
 | **3 — Skills lockfile** | pending | — | `scripts/skills_lock.py` + `vcro-skills-lock.json`. |
 | **4 — Provenance sidecar** | pending | — | `scripts/provenance_sidecar.py`. |
 | **7 — Tier 3** | pending | — | `CHANGELOG.md` promotion, verification labels, release workflow, contributing/jobs skills. |
-| **8 — Master runner** | pending | — | `.claude/tests/run_all_checks.sh`. |
+| **8 — Master runner** | ✅ shipped | `5125e30` | `.claude/tests/run_all_checks.sh` + README. 7→8 phases green. |
+| **10 — Search loop** | ✅ shipped (out-of-band) | this commit | `query/search` skill, `search_coverage.py`, `search_rewrite.py`, `search-synonyms.md`. Deterministic loop machinery, LLM judgment at 4 named bends, all rounds persisted to disk. Fixes the CSF DNA methylation failure mode. |
 | 5 — Docs site | deferred | — | Captured, post-dogfooding. |
 | 6 — Landing page | deferred | — | Captured, post-dogfooding. |
 | 9 — CLI UX polish | deferred | — | Outcome>output status lines, spinner, suppress tool traces. Feynman screenshots as reference. Post-dogfooding. |

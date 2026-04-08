@@ -1,0 +1,10 @@
+{
+  "round": 1,
+  "ts": "2026-04-08T12:00:00Z",
+  "queries": [
+    {"source": "pubmed", "query": "CSF EPIC 450K Alzheimer case control", "hits": []},
+    {"source": "pubmed", "query": "CSF DNA methylation Alzheimer", "hits": ["12345","23456","34567","45678","56789"]},
+    {"source": "pubmed", "query": "CSF bisulfite ALS", "hits": []}
+  ],
+  "triage": {"12345":"keep","23456":"keep","34567":"reject:review","45678":"keep","56789":"keep"}
+}
