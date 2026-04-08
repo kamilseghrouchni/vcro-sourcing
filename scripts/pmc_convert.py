@@ -575,6 +575,16 @@ def convert(pmc_id: str, out_dir: str) -> dict:
     with open(os.path.join(paper_dir, "meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta_full, f, indent=2, ensure_ascii=False)
 
+    # Deterministic pre-pass: regex/XML extraction of NCT IDs, funding,
+    # data availability URLs, affiliations, N-value candidates. Fed to
+    # the compile/extract subagent as a seeded-hint block. Best effort —
+    # if the pre-pass fails the conversion still succeeds.
+    try:
+        from pmc_prepass import run_prepass  # type: ignore
+        run_prepass(paper_dir)
+    except Exception as e:
+        sys.stderr.write(f"prepass skipped for {pmc_id}: {e}\n")
+
     return meta_full
 
 
