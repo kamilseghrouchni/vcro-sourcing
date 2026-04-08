@@ -1,0 +1,754 @@
+#!/usr/bin/env python3
+"""
+vcro — open-source AI cohort intelligence agent.
+
+CORE WORKFLOWS map 1:1 to the 4 agents in .claude/agents/:
+  query, bounty, onboard, lint
+
+OPERATOR COMMANDS wrap the plumbing scripts for maintainers:
+  ingest, compile, wiki
+
+UTILITY:
+  version, help
+
+The 17 skills under .claude/skills/ are phases dispatched by the agents
+during a workflow. They are deliberately NOT exposed as CLI commands.
+See /Users/.../plans/cosmic-fluttering-breeze.md for the design rationale.
+
+Stdlib only. No third-party deps.
+"""
+
+import argparse
+import datetime
+import os
+import re
+import shutil
+import subprocess
+import sys
+import textwrap
+
+__version__ = "0.1.0"
+
+# ---- Paths ----------------------------------------------------------------
+
+def repo_root() -> str:
+    """Walk up from this script to find the repo root (the dir containing CLAUDE.md)."""
+    here = os.path.abspath(os.path.dirname(__file__))
+    cur = here
+    for _ in range(8):
+        if os.path.exists(os.path.join(cur, "CLAUDE.md")) and os.path.isdir(os.path.join(cur, ".claude")):
+            return cur
+        parent = os.path.dirname(cur)
+        if parent == cur:
+            break
+        cur = parent
+    # Fallback: parent of bin/
+    return os.path.abspath(os.path.join(here, ".."))
+
+
+REPO = repo_root()
+
+
+def require_claude_cli() -> int:
+    if not shutil.which("claude"):
+        print("error: 'claude' (Claude Code CLI) not found on PATH", file=sys.stderr)
+        print("       install with: curl -fsSL https://claude.ai/install.sh | bash", file=sys.stderr)
+        return 2
+    return 0
+
+
+def require_wiki() -> int:
+    if not os.path.isdir(os.path.join(REPO, "store", "wiki")):
+        print(f"error: store/wiki/ not found under {REPO}", file=sys.stderr)
+        print("       run `vcro ingest papers <PMC...>` + `vcro compile <PMC>` first", file=sys.stderr)
+        return 2
+    return 0
+
+
+def slugify(text: str, maxlen: int = 40) -> str:
+    s = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return s[:maxlen] or "query"
+
+
+def commandments_banner() -> str:
+    """Read .claude/rules/_commandments.md and extract the fenced banner block.
+
+    Pre-pended to every dispatched workflow prompt so Sonnet subagents see
+    the load-bearing rules from token 0 instead of needing to Read each rule
+    file separately. Saves ~3k tokens per spawn.
+    """
+    path = os.path.join(REPO, ".claude", "rules", "_commandments.md")
+    if not os.path.exists(path):
+        return ""
+    with open(path) as f:
+        text = f.read()
+    start = text.find("```\nvCRO commandments")
+    if start == -1:
+        return ""
+    start += 4  # skip the opening ```\n
+    end = text.find("\n```", start)
+    if end == -1:
+        return ""
+    return text[start:end].strip()
+
+
+def with_banner(prompt: str) -> str:
+    """Pre-pend the commandments banner to a dispatch prompt."""
+    banner = commandments_banner()
+    if not banner:
+        return prompt
+    return f"{banner}\n\n---\n\n{prompt}"
+
+
+# ---- Help text ------------------------------------------------------------
+
+HELP = """\
+vcro — open-source AI cohort intelligence agent
+
+USAGE
+  vcro <command> [args]
+
+CORE WORKFLOWS (the product)
+  query <question>           Find cohorts matching a scientific or sourcing question
+  bounty <goal>              Procure samples: budget + outcome → 1-3 bundle options
+  onboard <institution>      Catalog a supply-side institution (biobank, hospital, core)
+  lint                       Scan the wiki for gaps, drift, staleness, broken links
+
+OPERATOR COMMANDS (for power users / maintainers)
+  ingest papers <PMC...>     Fetch + convert PMC papers into store/raw/papers/
+  ingest trials <NCT...>     Fetch + convert ClinicalTrials.gov trials into store/raw/trials/
+  compile <PMC...>           Extract + resolve + merge papers into the wiki (parallel fan-out)
+  wiki rebuild               Regenerate the 7 index files under store/wiki/index/
+  wiki verify                Revalidate every entity against entity-schema.md
+
+UTILITY
+  status <run-id>            Tail a background run's progress log
+  runs                       List recent runs under store/runs/
+  version                    Print vCRO version
+  help [command]             Show help for a command
+
+Run `vcro <command> --help` for command-specific flags.
+Background runs: any workflow supports `--background` to detach and return a run ID.
+See .claude/docs/feynman-analysis.md for the product design rationale.
+"""
+
+
+# ---- Core workflow dispatchers -------------------------------------------
+#
+# All four core workflows spawn a Claude Code session with the right agent
+# loaded and let the Opus orchestrator route. This mirrors scripts/ask.py.
+
+def _dispatch_claude(prompt: str, out_dir: str, max_usd: float, background: bool = False) -> int:
+    """Spawn a claude subprocess with a workflow prompt.
+
+    Foreground: streams claude stdout to the terminal. Returns exit code.
+    Background: detaches claude, writes stdout to store/runs/<slug>/status.log,
+                writes PID to store/runs/<slug>/vcro.pid, prints run ID, returns 0.
+                Use `vcro status <run-id>` to watch progress.
+    """
+    rc = require_claude_cli()
+    if rc:
+        return rc
+    abs_out = os.path.join(REPO, out_dir) if not os.path.isabs(out_dir) else out_dir
+    os.makedirs(abs_out, exist_ok=True)
+    # Pre-pend the commandments banner to every dispatched prompt (A3).
+    full_prompt = with_banner(prompt)
+    cmd = [
+        "claude", "-p", full_prompt,
+        "--permission-mode", "acceptEdits",
+        "--max-budget-usd", str(max_usd),
+        "--output-format", "text",
+    ]
+    if not background:
+        print(f"vcro: dispatching to claude (out={out_dir}, max_usd={max_usd})", file=sys.stderr)
+        try:
+            result = subprocess.run(cmd, check=False, cwd=REPO)
+            return result.returncode
+        except KeyboardInterrupt:
+            print("\nvcro: interrupted", file=sys.stderr)
+            return 130
+
+    # Background: detach, log, return run ID
+    status_log = os.path.join(abs_out, "status.log")
+    prompt_file = os.path.join(abs_out, "prompt.txt")
+    pid_file = os.path.join(abs_out, "vcro.pid")
+    meta_file = os.path.join(abs_out, "vcro.meta.json")
+    with open(prompt_file, "w") as f:
+        f.write(prompt)
+    # Write meta so `vcro status` and `vcro runs` can introspect
+    import json as _json
+    meta = {
+        "run_id": os.path.basename(out_dir.rstrip("/")),
+        "out_dir": out_dir,
+        "started_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "max_usd": max_usd,
+        "cmd": cmd[:3] + ["<prompt omitted>"] + cmd[4:],
+    }
+    with open(meta_file, "w") as f:
+        _json.dump(meta, f, indent=2)
+    # Detach claude. Redirect stdout+stderr to status.log. Use nohup-equivalent via
+    # start_new_session + closing stdin so the parent can exit freely.
+    with open(status_log, "w") as log_fh:
+        log_fh.write(f"# vcro run {meta['run_id']}\n# started: {meta['started_at']}\n\n")
+        log_fh.flush()
+        proc = subprocess.Popen(
+            cmd, cwd=REPO,
+            stdin=subprocess.DEVNULL,
+            stdout=log_fh,
+            stderr=subprocess.STDOUT,
+            start_new_session=True,  # detach from this terminal's process group
+        )
+    with open(pid_file, "w") as f:
+        f.write(str(proc.pid) + "\n")
+    run_id = meta["run_id"]
+    print(f"vcro: dispatched in background", file=sys.stderr)
+    print(f"  run id: {run_id}", file=sys.stderr)
+    print(f"  pid:    {proc.pid}", file=sys.stderr)
+    print(f"  log:    {os.path.relpath(status_log, REPO)}", file=sys.stderr)
+    print(f"\nfollow progress with:", file=sys.stderr)
+    print(f"  vcro status {run_id}", file=sys.stderr)
+    return 0
+
+
+def cmd_query(args) -> int:
+    rc = require_wiki()
+    if rc:
+        return rc
+    date = datetime.date.today().isoformat()
+    slug = args.slug or slugify(args.question)
+    out_dir = os.path.join(args.out_root, f"{date}_{slug}")
+    os.makedirs(out_dir, exist_ok=True)
+    with open(os.path.join(REPO, out_dir, "request_text.txt"), "w") as f:
+        f.write(args.question + "\n")
+    prompt = (
+        "You are running the vcro-os orchestrator agent on a user request. "
+        "Read .claude/agents/vcro-os.md in full, then route the request below "
+        "through the query workflow (understand → discover → score → deliver). "
+        f"Output directory: {out_dir}\n\n"
+        f"User request (verbatim):\n{args.question}\n\n"
+        "Spawn Sonnet subagents for each query phase. Write request.json, "
+        "candidates.json, scored_candidates.json, recommendation.md, "
+        "listings.jsonl, and delta.jsonl into the output directory. "
+        "After deliver completes, return a 4-6 sentence digest naming the "
+        f"verdict and the path to {out_dir}/recommendation.md."
+    )
+    rc = _dispatch_claude(prompt, out_dir, args.max_usd)
+    rec_path = os.path.join(REPO, out_dir, "recommendation.md")
+    if not os.path.exists(rec_path):
+        print(f"vcro: no recommendation written to {rec_path}", file=sys.stderr)
+        return rc or 1
+    if args.show_only_path:
+        print(rec_path)
+    else:
+        print(f"\nvcro: recommendation written to {rec_path}", file=sys.stderr)
+    return 0
+
+
+def cmd_bounty(args) -> int:
+    rc = require_wiki()
+    if rc:
+        return rc
+    date = datetime.date.today().isoformat()
+    slug = args.slug or slugify(args.goal)
+    out_dir = os.path.join(args.out_root, f"{date}_bounty-{slug}")
+    os.makedirs(os.path.join(REPO, out_dir), exist_ok=True)
+    budget_line = f"Budget: {args.budget}" if args.budget else "Budget: (not specified, will ask user)"
+    n_line = f"Target N: {args.n_target}" if args.n_target else "Target N: (not specified, will ask user)"
+    prompt = (
+        "You are running the vcro-os orchestrator on a procurement request. "
+        "Read .claude/agents/vcro-os.md and .claude/agents/vcro-bounty.md in full. "
+        "Route this through the bounty workflow: understand → discover → score → "
+        "vcro-bounty composition → query/bounty/format.\n\n"
+        f"{budget_line}\n{n_line}\nOutput directory: {out_dir}\n\n"
+        f"User goal (verbatim):\n{args.goal}\n\n"
+        "Emit 1-3 bundle entities under store/wiki/bundles/ per vcro-bounty rules "
+        "(wiki-first, three legs always, no fake totals, max 3 bundles). Return a "
+        "4-6 sentence digest naming bundle ids + within_budget flags + dominant unknowns."
+    )
+    return _dispatch_claude(prompt, out_dir, args.max_usd)
+
+
+def cmd_onboard(args) -> int:
+    rc = require_wiki()
+    if rc:
+        return rc
+    date = datetime.date.today().isoformat()
+    slug = slugify(args.institution)
+    out_dir = os.path.join("store", "catalog", slug)
+    os.makedirs(os.path.join(REPO, out_dir), exist_ok=True)
+    prompt = (
+        "You are running the vcro-os orchestrator on a supply-side onboarding request. "
+        "Read .claude/agents/vcro-os.md and .claude/agents/vcro-onboard.md in full. "
+        "Route this through the onboard workflow: resolve institution slug → coverage "
+        "check → catalog/catalog + catalog/compliance + catalog/price → aggregate "
+        f"follow-up gaps.\n\nInstitution: {args.institution}\nOutput directory: {out_dir}\n\n"
+        "Produce listing.md, compliance.md, pricing.md, and follow-up.md. Mark every "
+        "file as DRAFT for institutional review. Return a 4-6 sentence digest with "
+        "the coverage state (well-covered / sparse / empty) and gap count."
+    )
+    return _dispatch_claude(prompt, out_dir, args.max_usd)
+
+
+def cmd_lint(args) -> int:
+    rc = require_wiki()
+    if rc:
+        return rc
+    date = datetime.date.today().isoformat()
+    scan_path = os.path.join("store", "lint", f"{date}_scan.json")
+    os.makedirs(os.path.join(REPO, "store", "lint"), exist_ok=True)
+    # Pre-pass: deterministic scan
+    print(f"vcro lint: running mechanical pre-pass → {scan_path}", file=sys.stderr)
+    pre = subprocess.run(
+        ["python3", "scripts/lint_scan.py", "--wiki", "store/wiki", "--raw", "store/raw",
+         "--out", scan_path],
+        cwd=REPO, check=False,
+    )
+    if pre.returncode != 0:
+        print(f"vcro lint: pre-pass failed (exit {pre.returncode})", file=sys.stderr)
+        return pre.returncode
+    # Claude dispatch for gaps/consistency/staleness/connections classification
+    out_dir = os.path.join("store", "lint", f"{date}_report")
+    os.makedirs(os.path.join(REPO, out_dir), exist_ok=True)
+    prompt = (
+        "You are running the vcro-os orchestrator on a lint workflow. "
+        "Read .claude/agents/vcro-os.md in full. Dispatch Sonnet subagents "
+        "for lint/gaps, lint/consistency, lint/staleness, lint/connections in "
+        f"sequence. Read {scan_path} and the wiki. Aggregate the four slices "
+        f"into {out_dir}/report.md. Return a 4-6 sentence digest with top actionable items."
+    )
+    return _dispatch_claude(prompt, out_dir, args.max_usd)
+
+
+# ---- Operator dispatchers -------------------------------------------------
+
+def cmd_ingest_papers(args) -> int:
+    cmd = ["python3", "scripts/pmc_convert.py", "--out", args.out]
+    if args.pmids_file:
+        cmd += ["--pmids_file", args.pmids_file]
+    else:
+        cmd += ["--pmc_ids"] + args.pmc_ids
+    return subprocess.run(cmd, cwd=REPO, check=False).returncode
+
+
+def cmd_ingest_trials(args) -> int:
+    cmd = ["python3", "scripts/ct_convert.py", "--out", args.out]
+    if args.nct_file:
+        cmd += ["--nct_file", args.nct_file]
+    else:
+        cmd += ["--nct_ids"] + args.nct_ids
+    if args.skip_existing:
+        cmd += ["--skip-existing"]
+    return subprocess.run(cmd, cwd=REPO, check=False).returncode
+
+
+def cmd_compile(args) -> int:
+    rc = require_claude_cli()
+    if rc:
+        return rc
+
+    # Collect PMC IDs: positional args, or --from-file
+    pmcs: list = []
+    if args.from_file:
+        try:
+            with open(os.path.join(REPO, args.from_file)) as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#"):
+                        # Accept bare "PMC12345" or markdown-bulleted lines
+                        tok = line.lstrip("-* ").split()[0] if line else ""
+                        if tok.startswith("PMC") and tok[3:].isdigit():
+                            pmcs.append(tok)
+        except OSError as e:
+            print(f"error: cannot read {args.from_file}: {e}", file=sys.stderr)
+            return 2
+    if args.pmc:
+        pmcs.extend([p for p in args.pmc if p.startswith("PMC")])
+
+    if not pmcs:
+        print("error: no PMC IDs provided. Usage: vcro compile PMC12345 PMC67890 [...]", file=sys.stderr)
+        print("                               or: vcro compile --from-file shortlist.md", file=sys.stderr)
+        return 2
+
+    # De-dup, preserve order
+    seen = set()
+    pmcs = [p for p in pmcs if not (p in seen or seen.add(p))]
+    n = len(pmcs)
+
+    # Check which are already converted
+    missing = [p for p in pmcs if not os.path.exists(
+        os.path.join(REPO, "store", "raw", "papers", p, "paper.md"))]
+    if missing:
+        print(f"error: {len(missing)} paper(s) not ingested yet: {', '.join(missing[:5])}"
+              + (" ..." if len(missing) > 5 else ""), file=sys.stderr)
+        print(f"       run: vcro ingest papers {' '.join(missing)}", file=sys.stderr)
+        return 2
+
+    # Pre-flight estimate (based on 50-paper wedge: ~55K in, ~6K out, ~3 min/paper serial)
+    cost_per = 0.50  # conservative USD per paper extract
+    est_cost = n * cost_per
+    parallel = min(args.parallel, n)
+    est_wall = (n / parallel) * 3 + 2  # extract waves + resolve + merge
+    date = datetime.date.today().isoformat()
+    slug = args.slug or f"compile-{n}p"
+    out_dir = os.path.join("store", "runs", f"{date}_{slug}")
+    os.makedirs(os.path.join(REPO, out_dir, "fragments"), exist_ok=True)
+
+    print(f"\nvcro compile: {n} paper(s) to process", file=sys.stderr)
+    print(f"  Expected: ~${est_cost:.2f}, ~{est_wall:.0f} min wall ({parallel}× parallel extract)", file=sys.stderr)
+    print(f"  Output dir: {out_dir}", file=sys.stderr)
+    if n > 3 and not args.yes:
+        try:
+            resp = input("  Proceed? [y/N] ")
+        except EOFError:
+            resp = ""
+        if resp.strip().lower() not in ("y", "yes"):
+            print("vcro compile: aborted by user", file=sys.stderr)
+            return 1
+
+    # Build the dispatch prompt that tells vcro-compile to fan out
+    pmc_list = "\n".join(f"- {p}" for p in pmcs)
+    prompt = (
+        "You are routing a compile workflow request. Read "
+        ".claude/agents/vcro-compile.md in full and delegate to the "
+        "vcro-compile agent via the Agent tool. The non-negotiable rule "
+        "is PARALLEL fan-out on extract: one Sonnet subagent per paper, "
+        "NEVER a serial loop inside a single subagent.\n\n"
+        f"Papers to compile ({n} total):\n{pmc_list}\n\n"
+        f"Output directory: {out_dir}\n"
+        f"Parallelism cap: {parallel} subagents per wave\n\n"
+        "Expected workflow:\n"
+        f"1. Fan-out extract: spawn {parallel} parallel Sonnet subagents in one message, "
+        "each reading ONE paper.md and writing ONE fragments.<PMC>.json. "
+        f"If N > parallelism cap, batch into ceil(N/{parallel}) waves.\n"
+        "2. Single Sonnet resolve over all fragments vs wiki index.\n"
+        "3. Single Sonnet merge writing entities to store/wiki/ (hook-gated, "
+        "post-write-wiki-reindex hook rebuilds indices automatically).\n\n"
+        "Return a 4-6 sentence digest: extract success/fail counts, entities NEW/MERGED/AMBIGUOUS, "
+        "hook rejections, top 3 new cohort slugs, actual cost and wall time."
+    )
+    return _dispatch_claude(prompt, out_dir, args.max_usd, background=args.background)
+
+
+def cmd_status(args) -> int:
+    """Tail a background run's status.log and report current phase."""
+    import json, glob
+    run_id = args.run_id
+    candidates = [
+        os.path.join(REPO, "store", "runs", run_id),
+        os.path.join(REPO, "store", "queries", run_id),
+    ]
+    out_dir = next((c for c in candidates if os.path.isdir(c)), None)
+    if not out_dir:
+        for root in ["store/runs", "store/queries"]:
+            matches = sorted(glob.glob(os.path.join(REPO, root, f"*{run_id}*")))
+            if matches:
+                out_dir = matches[-1]
+                print(f"vcro status: resolved '{run_id}' → {os.path.relpath(out_dir, REPO)}", file=sys.stderr)
+                break
+    if not out_dir:
+        print(f"error: no run found for id '{run_id}'", file=sys.stderr)
+        print(f"       try `vcro runs` to list recent runs", file=sys.stderr)
+        return 2
+
+    status_log = os.path.join(out_dir, "status.log")
+    pid_file = os.path.join(out_dir, "vcro.pid")
+    meta_file = os.path.join(out_dir, "vcro.meta.json")
+    ledger = os.path.join(out_dir, "ledger.md")
+    run_jsonl = os.path.join(out_dir, "run.jsonl")
+
+    meta = {}
+    if os.path.exists(meta_file):
+        with open(meta_file) as f:
+            try:
+                meta = json.load(f)
+            except Exception:
+                pass
+
+    pid = None
+    alive = False
+    if os.path.exists(pid_file):
+        with open(pid_file) as f:
+            try:
+                pid = int(f.read().strip())
+                os.kill(pid, 0)
+                alive = True
+            except (ValueError, ProcessLookupError, PermissionError):
+                alive = False
+
+    print(f"=== vcro run: {os.path.basename(out_dir)} ===")
+    if meta.get("started_at"):
+        print(f"started: {meta['started_at']}")
+    if pid is not None:
+        print(f"pid:     {pid} ({'ALIVE' if alive else 'STOPPED'})")
+
+    if os.path.exists(ledger):
+        print(f"\n--- ledger.md (head) ---")
+        with open(ledger) as f:
+            lines = f.readlines()
+        for line in lines[:40]:
+            print(line.rstrip())
+        if len(lines) > 40:
+            print(f"... [{len(lines)-40} more lines]")
+
+    if os.path.exists(run_jsonl):
+        phase_counts = {}
+        total_tokens = 0
+        total_wall = 0.0
+        with open(run_jsonl) as f:
+            for line in f:
+                try:
+                    rec = json.loads(line)
+                except Exception:
+                    continue
+                phase_counts[rec.get("phase", "?")] = phase_counts.get(rec.get("phase", "?"), 0) + 1
+                total_tokens += int(rec.get("total_tokens", 0) or 0)
+                total_wall += float(rec.get("wall_seconds", 0) or 0)
+        print(f"\n--- telemetry ---")
+        for phase, n in sorted(phase_counts.items()):
+            print(f"  {phase}: {n} events")
+        print(f"  total tokens: {total_tokens:,}")
+        print(f"  total wall:   {total_wall:.1f}s")
+
+    if os.path.exists(status_log):
+        print(f"\n--- status.log (tail) ---")
+        if args.follow:
+            try:
+                subprocess.run(["tail", "-f", status_log])
+            except KeyboardInterrupt:
+                print("\nvcro status: stopped following", file=sys.stderr)
+        else:
+            with open(status_log) as f:
+                tail = f.readlines()[-30:]
+            for line in tail:
+                print(line.rstrip())
+            print(f"\n(use `vcro status {os.path.basename(out_dir)} --follow` to tail live)")
+    else:
+        print(f"\n(no status.log yet — run may be foreground or just started)")
+
+    return 0
+
+
+def cmd_runs(args) -> int:
+    """List recent runs under store/runs/ and store/queries/."""
+    import json, glob
+    rows = []
+    for root in ["store/runs", "store/queries"]:
+        for d in sorted(glob.glob(os.path.join(REPO, root, "*")), reverse=True):
+            if not os.path.isdir(d):
+                continue
+            run_id = os.path.basename(d)
+            meta_file = os.path.join(d, "vcro.meta.json")
+            pid_file = os.path.join(d, "vcro.pid")
+            started = ""
+            alive = ""
+            if os.path.exists(meta_file):
+                try:
+                    with open(meta_file) as f:
+                        m = json.load(f)
+                    started = m.get("started_at", "")
+                except Exception:
+                    pass
+            if os.path.exists(pid_file):
+                try:
+                    with open(pid_file) as f:
+                        pid = int(f.read().strip())
+                    os.kill(pid, 0)
+                    alive = "ALIVE"
+                except (ValueError, ProcessLookupError, PermissionError):
+                    alive = "STOPPED"
+            rows.append((started, run_id, alive, root))
+            if len(rows) >= args.limit:
+                break
+        if len(rows) >= args.limit:
+            break
+    if not rows:
+        print("no runs found under store/runs/ or store/queries/")
+        return 0
+    print(f"{'STARTED':<22} {'STATUS':<10} {'ROOT':<16} RUN_ID")
+    for started, run_id, alive, root in rows[:args.limit]:
+        print(f"{started[:22]:<22} {alive:<10} {root:<16} {run_id}")
+    return 0
+
+
+def cmd_wiki_rebuild(args) -> int:
+    return subprocess.run(
+        ["python3", "scripts/wiki_index.py", "--wiki", "store/wiki"],
+        cwd=REPO, check=False,
+    ).returncode
+
+
+def cmd_wiki_verify(args) -> int:
+    """Dry-run the pre-write-entity validator across every wiki entity."""
+    hook = os.path.join(REPO, ".claude", "hooks", "pre-write-entity.py")
+    if not os.path.exists(hook):
+        print(f"error: {hook} not found", file=sys.stderr)
+        return 2
+    import json, glob
+    roots = ["cohorts", "institutions", "investigators", "platforms", "protocols", "bundles"]
+    checked = 0
+    failed = 0
+    for root in roots:
+        for path in sorted(glob.glob(os.path.join(REPO, "store", "wiki", root, "*.md"))):
+            rel = os.path.relpath(path, REPO)
+            with open(path) as f:
+                content = f.read()
+            event = {"tool_name": "Write", "tool_input": {"file_path": rel, "content": content}}
+            proc = subprocess.run(
+                ["python3", hook],
+                input=json.dumps(event),
+                text=True, capture_output=True, check=False,
+            )
+            checked += 1
+            if proc.returncode == 2:
+                failed += 1
+                print(f"FAIL {rel}", file=sys.stderr)
+                if proc.stderr:
+                    for line in proc.stderr.strip().splitlines()[:3]:
+                        print(f"     {line}", file=sys.stderr)
+    print(f"\nvcro wiki verify: {checked} entities checked, {failed} failed", file=sys.stderr)
+    return 0 if failed == 0 else 1
+
+
+def cmd_version(args) -> int:
+    print(f"vcro {__version__}")
+    return 0
+
+
+def cmd_help(args) -> int:
+    if args.command:
+        # Delegate to argparse's own help
+        sys.argv = ["vcro", args.command, "--help"]
+        return build_parser().parse_args().func(None) if False else main()
+    print(HELP)
+    return 0
+
+
+# ---- Argparse -------------------------------------------------------------
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
+        prog="vcro",
+        description="Open-source AI cohort intelligence agent",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=HELP,
+        add_help=False,
+    )
+    p.add_argument("-h", "--help", action="store_true", help="Show help and exit")
+    p.add_argument("--version", action="version", version=f"vcro {__version__}")
+    sub = p.add_subparsers(dest="cmd")
+
+    # query
+    q = sub.add_parser("query", help="Find cohorts matching a scientific or sourcing question")
+    q.add_argument("question", help="Natural-language request")
+    q.add_argument("--slug", default="", help="Override the run slug")
+    q.add_argument("--max-usd", type=float, default=10.0, help="Spend cap")
+    q.add_argument("--out-root", default="store/queries", help="Output dir parent")
+    q.add_argument("--show-only-path", action="store_true")
+    q.set_defaults(func=cmd_query)
+
+    # bounty
+    b = sub.add_parser("bounty", help="Procure samples: budget + outcome → bundle options")
+    b.add_argument("goal", help="Procurement goal in natural language")
+    b.add_argument("--budget", default="", help="Budget (e.g. '80000 EUR')")
+    b.add_argument("--n-target", dest="n_target", type=int, default=0, help="Target sample count")
+    b.add_argument("--slug", default="", help="Override the run slug")
+    b.add_argument("--max-usd", type=float, default=10.0, help="Spend cap")
+    b.add_argument("--out-root", default="store/queries")
+    b.set_defaults(func=cmd_bounty)
+
+    # onboard
+    o = sub.add_parser("onboard", help="Catalog a supply-side institution")
+    o.add_argument("institution", help="Institution name, URL, or canonical slug")
+    o.add_argument("--max-usd", type=float, default=10.0, help="Spend cap")
+    o.set_defaults(func=cmd_onboard)
+
+    # lint
+    l = sub.add_parser("lint", help="Scan the wiki for gaps, drift, staleness, broken links")
+    l.add_argument("--max-usd", type=float, default=5.0, help="Spend cap")
+    l.set_defaults(func=cmd_lint)
+
+    # ingest (nested subcommands)
+    ing = sub.add_parser("ingest", help="Fetch + convert sources into store/raw/")
+    ing_sub = ing.add_subparsers(dest="ingest_cmd")
+    ig_p = ing_sub.add_parser("papers", help="Fetch PMC papers")
+    grp = ig_p.add_mutually_exclusive_group(required=True)
+    grp.add_argument("--pmids-file", dest="pmids_file")
+    grp.add_argument("pmc_ids", nargs="*", default=[], help="PMC IDs")
+    ig_p.add_argument("--out", default="store/raw/papers")
+    ig_p.set_defaults(func=cmd_ingest_papers)
+    ig_t = ing_sub.add_parser("trials", help="Fetch ClinicalTrials.gov trials")
+    grp2 = ig_t.add_mutually_exclusive_group(required=True)
+    grp2.add_argument("--nct-file", dest="nct_file")
+    grp2.add_argument("nct_ids", nargs="*", default=[], help="NCT IDs")
+    ig_t.add_argument("--out", default="store/raw/trials")
+    ig_t.add_argument("--skip-existing", action="store_true")
+    ig_t.set_defaults(func=cmd_ingest_trials)
+
+    # compile
+    c = sub.add_parser("compile", help="Extract + resolve + merge PMC papers into the wiki (parallel fan-out)")
+    c.add_argument("pmc", nargs="*", help="PMC IDs (e.g. PMC10103184 PMC6922070 ...)")
+    c.add_argument("--from-file", dest="from_file", default="",
+                   help="Read PMC IDs from a file (one per line, supports bulleted markdown)")
+    c.add_argument("--parallel", type=int, default=10,
+                   help="Max parallel extract subagents per wave (default 10)")
+    c.add_argument("--slug", default="", help="Run slug for the output directory")
+    c.add_argument("--yes", "-y", action="store_true",
+                   help="Skip the pre-flight confirmation prompt")
+    c.add_argument("--background", action="store_true",
+                   help="Detach claude, return a run ID. Follow with `vcro status <id>`.")
+    c.add_argument("--max-usd", type=float, default=15.0, help="Spend cap")
+    c.set_defaults(func=cmd_compile)
+
+    # wiki (nested subcommands)
+    w = sub.add_parser("wiki", help="Maintain the wiki")
+    w_sub = w.add_subparsers(dest="wiki_cmd")
+    wr = w_sub.add_parser("rebuild", help="Regenerate the 7 index files")
+    wr.set_defaults(func=cmd_wiki_rebuild)
+    wv = w_sub.add_parser("verify", help="Revalidate every entity against entity-schema.md")
+    wv.set_defaults(func=cmd_wiki_verify)
+
+    # status / runs
+    st = sub.add_parser("status", help="Tail a background run's progress log")
+    st.add_argument("run_id", help="Run ID (or prefix) under store/runs/ or store/queries/")
+    st.add_argument("--follow", "-f", action="store_true", help="Tail -f the status log")
+    st.set_defaults(func=cmd_status)
+    rn = sub.add_parser("runs", help="List recent runs")
+    rn.add_argument("--limit", type=int, default=15, help="Max runs to list")
+    rn.set_defaults(func=cmd_runs)
+
+    # version / help
+    v = sub.add_parser("version", help="Print vCRO version")
+    v.set_defaults(func=cmd_version)
+    h = sub.add_parser("help", help="Show help for a command")
+    h.add_argument("command", nargs="?", default="")
+    h.set_defaults(func=cmd_help)
+
+    return p
+
+
+def main() -> int:
+    # Hand-roll top-level help so our custom HELP text is the default
+    argv = sys.argv[1:]
+    if not argv or argv[0] in ("-h", "--help", "help") and len(argv) == 1:
+        print(HELP)
+        return 0
+    p = build_parser()
+    args = p.parse_args(argv)
+    if getattr(args, "help", False):
+        print(HELP)
+        return 0
+    if not hasattr(args, "func"):
+        print(HELP)
+        return 0
+    # Guards for nested subcommands with no leaf selected
+    if args.cmd == "ingest" and not getattr(args, "ingest_cmd", None):
+        print("usage: vcro ingest {papers,trials} ...", file=sys.stderr)
+        return 2
+    if args.cmd == "wiki" and not getattr(args, "wiki_cmd", None):
+        print("usage: vcro wiki {rebuild,verify}", file=sys.stderr)
+        return 2
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
