@@ -173,6 +173,13 @@ This ordering is NOT a composite ranking — it is a presentation order designed
 5. **Surface gaps loudly.** The Gaps section is not optional. The user needs to know the wiki's blind spots so they can decide whether to ingest more before committing.
 6. **listings.jsonl is the API.** It is the only artifact the web app touches. No styling, no prose, only frontmatter projection.
 7. **Deliver does not call discover or score.** It reads the JSON outputs. If a file is missing, it errors out — it does NOT auto-trigger upstream skills.
+8. **Every claim in `recommendation.md` carries an honesty label.** Tag each fact with one of `[verified]`, `[inferred]`, `[open_question]`, or `[blocked]`, placed inline after the claim. The vocabulary:
+   - `[verified]` — the claim has a verbatim quote + source ID in the entity article's dimension sections. The most common label; it is the default for every Scale/Quality fact pulled from `scored_candidates.json`.
+   - `[inferred]` — the claim is a reasonable deduction from multiple verified facts but is not itself quoted anywhere. Example: "the cohort is suitable for converter-prediction modelling [inferred]" — usable_n is verified, longitudinal follow-up is verified, but the suitability claim is a rollup.
+   - `[open_question]` — the claim is a known gap, not a fact. Example: "commercial reuse terms are undocumented [open_question]". Appears in the Gaps section AND in Quality when a hard_negative has no documentation.
+   - `[blocked]` — the claim is knowable but was not retrievable in this run. Example: "pricing quote required from vendor [blocked]". Distinct from open_question in that the answer exists somewhere but needs a human step to unblock.
+
+   Untagged claims are a lint violation (`lint/consistency` flags them). The numeric `confidence_score` from `scored_candidates.json` does not replace the label — the label tells the buyer *why* a claim is trusted; the score tells them *how much*.
 
 ## What you do NOT do
 

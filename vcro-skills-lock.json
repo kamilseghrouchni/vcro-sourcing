@@ -1,5 +1,5 @@
 {
-  "skill_count": 17,
+  "skill_count": 19,
   "skills": {
     "agent-endpoint": {
       "name": "agent-endpoint",
@@ -36,6 +36,16 @@
       "path": ".claude/skills/compile/resolve/SKILL.md",
       "sha256": "34c7d880d49013055cfeae86f3a7b93bed52bb96cb99882a9a40faa07b305e51"
     },
+    "contributing": {
+      "name": "contributing",
+      "path": ".claude/skills/contributing/SKILL.md",
+      "sha256": "ad0adf688fb22891659d7e8cf1014f9e56f3d978223b8142eab0e650d86bde4f"
+    },
+    "jobs": {
+      "name": "jobs",
+      "path": ".claude/skills/jobs/SKILL.md",
+      "sha256": "1213f2ce01b3e4b76a60d148a596a6f384610caaa5bcc6ce2442c497034ff5fc"
+    },
     "lint/connections": {
       "name": "lint-connections",
       "path": ".claude/skills/lint/connections/SKILL.md",
@@ -69,7 +79,7 @@
     "query/deliver": {
       "name": "query-deliver",
       "path": ".claude/skills/query/deliver/SKILL.md",
-      "sha256": "1ee2fc855c8870cefca696741101eb6c59c96532798004d193d7d343f81a788e"
+      "sha256": "dcfe1adb1fb70d87179831b624fe933da77cf8e1ece8b74ee3eda0c49e27c96d"
     },
     "query/discover": {
       "name": "query-discover",
