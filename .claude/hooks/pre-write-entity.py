@@ -227,8 +227,22 @@ def validate_frontmatter(fm, path):
         else:
             for axis in ("scale", "cost", "quality"):
                 ax = sc.get(axis)
-                if not isinstance(ax, dict) or ax.get("confidence") not in ALLOWED_CONFIDENCE:
-                    errs.append(f"scoring.{axis}.confidence: required in {sorted(ALLOWED_CONFIDENCE)}")
+                if not isinstance(ax, dict):
+                    errs.append(f"scoring.{axis}: required mapping")
+                    continue
+                has_bucket = ax.get("confidence") in ALLOWED_CONFIDENCE
+                score = ax.get("confidence_score")
+                has_score = isinstance(score, (int, float)) and 0.0 <= float(score) <= 1.0
+                if not (has_bucket or has_score):
+                    errs.append(
+                        f"scoring.{axis}: need confidence in {sorted(ALLOWED_CONFIDENCE)} "
+                        f"or numeric confidence_score 0.0-1.0"
+                    )
+                if has_score and abs(float(score) - 0.5) < 1e-9:
+                    errs.append(
+                        f"scoring.{axis}.confidence_score: 0.5 is reserved as a non-default; "
+                        f"pick a meaningful value or use the bucket"
+                    )
             q = sc.get("quality") or {}
             depth = q.get("provenance_depth")
             if not isinstance(depth, (int, float)) or not (0.0 <= depth <= 1.0):
@@ -266,7 +280,9 @@ def main():
 
     inp = event.get("tool_input") or {}
     target = inp.get("file_path") or inp.get("path") or ""
-    if "/store/wiki/" not in target:
+    # Normalize to catch both absolute and relative paths.
+    norm = os.path.normpath(target).replace(os.sep, "/")
+    if "store/wiki/" not in norm:
         _allow()
 
     # Determine the file content the model is about to land
@@ -296,7 +312,73 @@ def main():
         msg = f"{target}: {len(errs)} schema violation(s):\n" + "\n".join(f"  - {e}" for e in errs)
         _block(msg)
 
+    # Non-blocking: record any slug-valued frontmatter field that does not
+    # resolve to an existing entity file. The hook cannot strictly enforce
+    # resolution because compile batches create targets in arbitrary order,
+    # so we log to _pending_links.jsonl and let scripts/wiki_audit.py
+    # reconcile post-batch. This closes the class B' gap surfaced by the
+    # graph-layer audit on 2026-04-08.
+    _record_pending_links(target, fm)
     _allow()
+
+
+# ---------- slug-resolution (warn-only, post-batch audit reconciles) ----------
+
+SLUG_FIELDS_SIMPLE = ("parent_institution",)
+WIKI_ROOT = "store/wiki"
+WIKI_DIRS = ("cohorts", "institutions", "investigators", "platforms",
+             "protocols", "bundles")
+
+
+def _slug_exists(slug):
+    if not isinstance(slug, str) or not SLUG_RE.match(slug):
+        return False
+    for d in WIKI_DIRS:
+        if os.path.exists(os.path.join(WIKI_ROOT, d, f"{slug}.md")):
+            return True
+    return False
+
+
+def _collect_pending(fm):
+    pending = []
+    for key in SLUG_FIELDS_SIMPLE:
+        val = fm.get(key)
+        if isinstance(val, str) and val and not _slug_exists(val):
+            pending.append({"field": key, "to": val})
+    for i, br in enumerate(fm.get("referenced_by") or []):
+        if isinstance(br, dict):
+            ent = br.get("entity")
+            if isinstance(ent, str) and ent and not _slug_exists(ent):
+                pending.append({"field": f"referenced_by[{i}].entity", "to": ent})
+    comp = fm.get("composition") or {}
+    if isinstance(comp, dict):
+        for leg, val in comp.items():
+            if isinstance(val, dict):
+                ent = val.get("entity")
+                if isinstance(ent, str) and ent and not _slug_exists(ent):
+                    pending.append({"field": f"composition.{leg}.entity", "to": ent})
+    return pending
+
+
+def _record_pending_links(target, fm):
+    pending = _collect_pending(fm)
+    if not pending:
+        return
+    try:
+        os.makedirs(WIKI_ROOT, exist_ok=True)
+        path = os.path.join(WIKI_ROOT, "_pending_links.jsonl")
+        eid = fm.get("entity_id", "")
+        with open(path, "a", encoding="utf-8") as f:
+            for p in pending:
+                f.write(json.dumps({
+                    "from": eid,
+                    "from_file": target,
+                    "field": p["field"],
+                    "to": p["to"],
+                }) + "\n")
+    except Exception:
+        # Non-fatal: the audit script is the real enforcer.
+        pass
 
 
 if __name__ == "__main__":

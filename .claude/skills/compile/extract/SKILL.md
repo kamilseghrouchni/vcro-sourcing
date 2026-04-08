@@ -10,7 +10,21 @@ You are the extract phase of the vCRO v2 compiler. Your job is to read ONE `pape
 ## Inputs
 
 - `paper_path`: absolute path to `store/raw/papers/PMC{id}/paper.md`. The file has YAML frontmatter (`pmid`, `pmc`, `doi`, `title`, `journal`, `year`, `authors[]`) and a faithful markdown body (abstract, sections, tables, acknowledgements, funding, data availability, references).
+- `prepass_path` (sibling `store/raw/papers/PMC{id}/prepass.json`): a deterministic regex/XML pre-pass produced by `scripts/pmc_prepass.py`. Contains `nct_ids`, `geo_accessions`, `data_availability_urls`, `funding_lines`, `affiliations`, and `n_value_candidates` (from Methods/Results/tables). **Read this FIRST** as a seeded hint block — use it to anchor entity hints and N values. Do NOT re-hunt for NCT IDs or N values when the pre-pass already lists them; just verify against the paper text and cite the same `source_quote`. If prepass.json is missing (older paper), fall back to hunting in paper.md.
 - Optional `scope_notes`: a one or two sentence brief describing what the user is looking for. If absent, default to general cohort intelligence (assume the buyer wants to know who the cohort is, what samples exist, whether they can get them, and whether the samples will produce signal).
+
+## Cache-first contract
+
+Before running: the vcro-compile orchestrator runs
+`python3 scripts/extract_cache.py check --paper <paper_path>` keyed on
+the SHA256 of `paper.md`. On a cache hit the orchestrator hydrates the
+cached fragments into this run's fragments dir and skips the Sonnet
+subagent entirely. On a cache miss you run normally and the orchestrator
+calls `extract_cache.py put` after you finish. You do not need to touch
+the cache yourself — but **your output schema MUST match the cached
+format byte-for-byte** (same field names, same JSON ordering via
+`json.dumps(..., sort_keys=False)` if you serialize) so hydrate produces
+a valid fragments file on the next run.
 
 ## What you read
 
@@ -66,7 +80,8 @@ A single JSON object written to stdout. The schema is constant across domains; t
       "source_quote": "<verbatim from paper.md>",
       "section": "Methods / Cohort | Results | Acknowledgements | ...",
       "implication": "<one sentence ending '... which means for the buyer's project ...'>",
-      "confidence": "high | medium | low"
+      "confidence": "high | medium | low",
+      "confidence_score": 0.0
     }
   ],
   "open_questions": [
@@ -123,6 +138,7 @@ The three examples share zero surface vocabulary on purpose. If your output uses
 
 ## Hard rules
 
+0. **Numeric `confidence_score` is required alongside the bucket.** Range 0.0-1.0. **0.5 is reserved as a non-default** — graphify's rule, and the pre-write hook blocks frontmatter writes that use 0.5. Anchor points: 0.95 direct quoted fact, 0.80 clearly stated but inferred unit, 0.65 load-bearing but partial, 0.35 tentative from context, 0.15 speculative. The three-bucket `confidence` (`low|medium|high`) is still emitted for back-compat; the score is the authoritative signal for lint ranking.
 1. **Every fragment carries a verbatim `source_quote`** from the paper.md. No paraphrase. If you cannot find a quote, do not emit the fragment.
 2. **Every fragment carries an `implication`** that finishes the sentence "which means for the buyer's project ...". If you cannot finish that sentence, drop the fragment. Facts without consequences are noise.
 3. **Pick 5 to 8 dimensions per cohort, not all 21.** Pick the dimensions that actually have evidence in this paper. A paper that never mentions consent should not produce a consent fragment.

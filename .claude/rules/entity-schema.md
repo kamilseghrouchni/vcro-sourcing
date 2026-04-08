@@ -29,10 +29,17 @@ evidence_type: <one of: direct | inferred | self_reported | composed>
 disease_area: [<string>, ...]   # non-empty
 modality: [<string>, ...]       # non-empty
 scoring:
-  scale:   {confidence: low|medium|high}
-  cost:    {confidence: low|medium|high}
-  quality: {provenance_depth: <0..1>, confidence: low|medium|high}
+  scale:   {confidence: low|medium|high, confidence_score?: <0..1>}
+  cost:    {confidence: low|medium|high, confidence_score?: <0..1>}
+  quality: {provenance_depth: <0..1>, confidence: low|medium|high, confidence_score?: <0..1>}
 ```
+
+Per-axis confidence accepts EITHER the three-bucket enum (`low|medium|high`)
+OR a numeric `confidence_score` in [0.0, 1.0] — or both. When both are
+present the score is authoritative and the bucket is a fallback for
+tools that do not read floats. **0.5 is reserved as a non-default**
+(graphify rule): picking 0.5 as a placeholder is blocked by the hook.
+Use a meaningful value or stick to the bucket.
 
 ### cohort (when not yet promoted to data_opportunity)
 
