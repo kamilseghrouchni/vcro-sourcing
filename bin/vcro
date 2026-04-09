@@ -13,21 +13,184 @@ UTILITY:
 
 The 17 skills under .claude/skills/ are phases dispatched by the agents
 during a workflow. They are deliberately NOT exposed as CLI commands.
-See /Users/.../plans/cosmic-fluttering-breeze.md for the design rationale.
+See .claude/plans/ship-as-software.md for the design rationale.
 
 Stdlib only. No third-party deps.
 """
 
 import argparse
 import datetime
+import glob
+import json
 import os
 import re
 import shutil
 import subprocess
 import sys
 import textwrap
+import threading
+import time
 
 __version__ = "0.1.0"
+
+
+# ---- UX layer (Phase 9) ---------------------------------------------------
+
+# Colors (ANSI, TTY-only)
+def _is_tty():
+    return hasattr(sys.stderr, "isatty") and sys.stderr.isatty()
+
+def _c(code, text):
+    if not _is_tty():
+        return text
+    return f"\033[{code}m{text}\033[0m"
+
+def _dim(t):    return _c("2", t)
+def _bold(t):   return _c("1", t)
+def _green(t):  return _c("32", t)
+def _cyan(t):   return _c("36", t)
+def _yellow(t): return _c("33", t)
+def _red(t):    return _c("31", t)
+
+BANNER = r"""
+           ╦  ╦╔═╗╦═╗╔═╗
+ ┌─────────╚╗╔╝║  ╠╦╝║ ║─────────┐
+ │  cohort  ╚╝ ╚═╝╩╚═╚═╝         │
+ │  intelligence agent     v{ver}  │
+ └────────────────────────────────┘
+"""
+
+def print_banner():
+    if not _is_tty():
+        return
+    b = BANNER.format(ver=__version__)
+    for line in b.strip().splitlines():
+        print(_dim(line), file=sys.stderr)
+    print(file=sys.stderr)
+
+def phase(msg, icon="∴"):
+    """Print a phase-level status line to stderr."""
+    ts = datetime.datetime.now().strftime("%H:%M:%S")
+    print(f"  {_dim(ts)}  {_cyan(icon)}  {msg}", file=sys.stderr)
+
+def phase_done(msg):
+    phase(msg, icon=_green("✓"))
+
+def phase_warn(msg):
+    phase(msg, icon=_yellow("!"))
+
+def phase_fail(msg):
+    phase(msg, icon=_red("✗"))
+
+def wiki_context():
+    """Print a one-line wiki state summary."""
+    wiki = os.path.join(REPO, "store", "wiki")
+    if not os.path.isdir(wiki):
+        return
+    count = 0
+    for d in ["cohorts", "institutions", "investigators", "platforms", "protocols", "bundles"]:
+        p = os.path.join(wiki, d)
+        if os.path.isdir(p):
+            count += sum(1 for f in os.listdir(p) if f.endswith(".md"))
+    phase(f"wiki: {_bold(str(count))} entities across 6 types")
+
+
+class Spinner:
+    """Minimal TTY spinner. Shows '∴ Working...' with a rotating dot."""
+    FRAMES = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"]
+
+    def __init__(self, msg="working"):
+        self._msg = msg
+        self._stop = threading.Event()
+        self._thread = None
+
+    def start(self):
+        if not _is_tty():
+            phase(f"{self._msg}...")
+            return
+        self._thread = threading.Thread(target=self._spin, daemon=True)
+        self._thread.start()
+
+    def _spin(self):
+        i = 0
+        while not self._stop.is_set():
+            frame = self.FRAMES[i % len(self.FRAMES)]
+            ts = datetime.datetime.now().strftime("%H:%M:%S")
+            line = f"  {_dim(ts)}  {_cyan(frame)}  {_dim(self._msg + '...')}"
+            print(f"\r{line}   ", end="", file=sys.stderr, flush=True)
+            i += 1
+            self._stop.wait(0.12)
+        # Clear the spinner line
+        print(f"\r{' ' * 60}\r", end="", file=sys.stderr, flush=True)
+
+    def stop(self):
+        self._stop.set()
+        if self._thread:
+            self._thread.join(timeout=1)
+
+    def update(self, msg):
+        self._msg = msg
+
+
+def print_outcome(out_dir, workflow):
+    """Scan the output directory and print a clean outcome summary."""
+    abs_dir = os.path.join(REPO, out_dir) if not os.path.isabs(out_dir) else out_dir
+    rec = os.path.join(abs_dir, "recommendation.md")
+    ledger = os.path.join(abs_dir, "ledger.md")
+
+    print(file=sys.stderr)
+    if os.path.exists(rec):
+        phase_done(f"recommendation written → {_bold(os.path.relpath(rec, REPO))}")
+        # Print the verdict section (first 8 non-empty lines after "## Verdict")
+        try:
+            with open(rec) as f:
+                lines = f.readlines()
+            in_verdict = False
+            verdict_lines = []
+            for line in lines:
+                if line.strip().startswith("## Verdict"):
+                    in_verdict = True
+                    continue
+                if in_verdict:
+                    if line.strip().startswith("## "):
+                        break
+                    if line.strip():
+                        verdict_lines.append(line.rstrip())
+                    if len(verdict_lines) >= 6:
+                        break
+            if verdict_lines:
+                print(file=sys.stderr)
+                for vl in verdict_lines:
+                    print(f"  {_dim('│')} {vl}", file=sys.stderr)
+                print(file=sys.stderr)
+        except Exception:
+            pass
+
+    # Count new entities if fragments exist
+    frags_dir = os.path.join(abs_dir, "fragments")
+    if os.path.isdir(frags_dir):
+        n_frags = len([f for f in os.listdir(frags_dir) if f.endswith(".json")])
+        if n_frags:
+            phase_done(f"{n_frags} papers extracted")
+
+    # Mention key output files
+    for name, label in [
+        ("scored_candidates.json", "candidates scored"),
+        ("listings.jsonl", "listings projected"),
+        ("report.md", "lint report written"),
+    ]:
+        p = os.path.join(abs_dir, name)
+        if os.path.exists(p):
+            phase_done(f"{label} → {_dim(os.path.relpath(p, REPO))}")
+
+    # Search history
+    sh = os.path.join(abs_dir, "search", "search_history.jsonl")
+    if os.path.exists(sh):
+        with open(sh) as f:
+            n_searches = sum(1 for _ in f)
+        phase_done(f"{n_searches} searches logged → {_dim('search/search_history.jsonl')}")
+
+    print(file=sys.stderr)
 
 # ---- Paths ----------------------------------------------------------------
 
@@ -138,20 +301,22 @@ See .claude/docs/feynman-analysis.md for the product design rationale.
 # All four core workflows spawn a Claude Code session with the right agent
 # loaded and let the Opus orchestrator route. This mirrors scripts/ask.py.
 
-def _dispatch_claude(prompt: str, out_dir: str, max_usd: float, background: bool = False) -> int:
+def _dispatch_claude(prompt: str, out_dir: str, max_usd: float,
+                     background: bool = False, verbose: bool = False,
+                     workflow: str = "query") -> int:
     """Spawn a claude subprocess with a workflow prompt.
 
-    Foreground: streams claude stdout to the terminal. Returns exit code.
-    Background: detaches claude, writes stdout to store/runs/<slug>/status.log,
-                writes PID to store/runs/<slug>/vcro.pid, prints run ID, returns 0.
-                Use `vcro status <run-id>` to watch progress.
+    Default (product mode): claude stdout goes to <out_dir>/claude.log,
+    the user sees a spinner + phase lines + outcome summary. Pass
+    --verbose to stream claude's raw output to the terminal instead.
+
+    Background: detaches claude, writes stdout to status.log, returns run ID.
     """
     rc = require_claude_cli()
     if rc:
         return rc
     abs_out = os.path.join(REPO, out_dir) if not os.path.isabs(out_dir) else out_dir
     os.makedirs(abs_out, exist_ok=True)
-    # Pre-pend the commandments banner to every dispatched prompt (A3).
     full_prompt = with_banner(prompt)
     cmd = [
         "claude", "-p", full_prompt,
@@ -159,8 +324,13 @@ def _dispatch_claude(prompt: str, out_dir: str, max_usd: float, background: bool
         "--max-budget-usd", str(max_usd),
         "--output-format", "text",
     ]
-    if not background:
-        print(f"vcro: dispatching to claude (out={out_dir}, max_usd={max_usd})", file=sys.stderr)
+
+    if background:
+        return _dispatch_background(cmd, abs_out, out_dir, prompt, max_usd)
+
+    if verbose:
+        # Verbose: stream everything to terminal, no spinner
+        phase("dispatching to claude " + _dim(f"(verbose, max ${max_usd})"))
         try:
             result = subprocess.run(cmd, check=False, cwd=REPO)
             return result.returncode
@@ -168,26 +338,51 @@ def _dispatch_claude(prompt: str, out_dir: str, max_usd: float, background: bool
             print("\nvcro: interrupted", file=sys.stderr)
             return 130
 
-    # Background: detach, log, return run ID
+    # Product mode: log to file, show spinner, print outcome
+    log_path = os.path.join(abs_out, "claude.log")
+    phase(f"dispatching to claude " + _dim(f"(max ${max_usd})"))
+    phase(_dim(f"full trace → {os.path.relpath(log_path, REPO)}"))
+    t0 = time.time()
+    spinner = Spinner(workflow)
+    spinner.start()
+    try:
+        with open(log_path, "w") as log_fh:
+            result = subprocess.run(
+                cmd, cwd=REPO, check=False,
+                stdout=log_fh, stderr=subprocess.STDOUT,
+            )
+    except KeyboardInterrupt:
+        spinner.stop()
+        phase_warn("interrupted")
+        return 130
+    spinner.stop()
+    elapsed = time.time() - t0
+    if result.returncode == 0:
+        phase_done(f"completed in {_bold(f'{elapsed:.0f}s')}")
+    else:
+        phase_fail(f"claude exited {result.returncode} after {elapsed:.0f}s")
+        phase(_dim(f"check {os.path.relpath(log_path, REPO)} for details"))
+    print_outcome(out_dir, workflow)
+    return result.returncode
+
+
+def _dispatch_background(cmd, abs_out, out_dir, prompt, max_usd):
+    """Detach claude, log to status.log, return run ID."""
     status_log = os.path.join(abs_out, "status.log")
     prompt_file = os.path.join(abs_out, "prompt.txt")
     pid_file = os.path.join(abs_out, "vcro.pid")
     meta_file = os.path.join(abs_out, "vcro.meta.json")
     with open(prompt_file, "w") as f:
         f.write(prompt)
-    # Write meta so `vcro status` and `vcro runs` can introspect
-    import json as _json
     meta = {
         "run_id": os.path.basename(out_dir.rstrip("/")),
         "out_dir": out_dir,
-        "started_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "started_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "max_usd": max_usd,
         "cmd": cmd[:3] + ["<prompt omitted>"] + cmd[4:],
     }
     with open(meta_file, "w") as f:
-        _json.dump(meta, f, indent=2)
-    # Detach claude. Redirect stdout+stderr to status.log. Use nohup-equivalent via
-    # start_new_session + closing stdin so the parent can exit freely.
+        json.dump(meta, f, indent=2)
     with open(status_log, "w") as log_fh:
         log_fh.write(f"# vcro run {meta['run_id']}\n# started: {meta['started_at']}\n\n")
         log_fh.flush()
@@ -196,21 +391,22 @@ def _dispatch_claude(prompt: str, out_dir: str, max_usd: float, background: bool
             stdin=subprocess.DEVNULL,
             stdout=log_fh,
             stderr=subprocess.STDOUT,
-            start_new_session=True,  # detach from this terminal's process group
+            start_new_session=True,
         )
     with open(pid_file, "w") as f:
         f.write(str(proc.pid) + "\n")
     run_id = meta["run_id"]
-    print(f"vcro: dispatched in background", file=sys.stderr)
-    print(f"  run id: {run_id}", file=sys.stderr)
+    phase_done(f"dispatched in background")
+    print(f"  run id: {_bold(run_id)}", file=sys.stderr)
     print(f"  pid:    {proc.pid}", file=sys.stderr)
     print(f"  log:    {os.path.relpath(status_log, REPO)}", file=sys.stderr)
-    print(f"\nfollow progress with:", file=sys.stderr)
-    print(f"  vcro status {run_id}", file=sys.stderr)
+    print(f"\n  follow: {_bold(f'vcro status {run_id}')}", file=sys.stderr)
+    print(file=sys.stderr)
     return 0
 
 
 def cmd_query(args) -> int:
+    print_banner()
     rc = require_wiki()
     if rc:
         return rc
@@ -220,6 +416,11 @@ def cmd_query(args) -> int:
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(REPO, out_dir, "request_text.txt"), "w") as f:
         f.write(args.question + "\n")
+
+    phase(f"query: {_bold(args.question[:80])}")
+    wiki_context()
+    phase(f"output → {_dim(out_dir)}")
+
     prompt = (
         "You are running the vcro-os orchestrator agent on a user request. "
         "Read .claude/agents/vcro-os.md in full, then route the request below "
@@ -232,19 +433,20 @@ def cmd_query(args) -> int:
         "After deliver completes, return a 4-6 sentence digest naming the "
         f"verdict and the path to {out_dir}/recommendation.md."
     )
-    rc = _dispatch_claude(prompt, out_dir, args.max_usd)
+    rc = _dispatch_claude(prompt, out_dir, args.max_usd,
+                          verbose=getattr(args, "verbose", False),
+                          workflow="querying")
     rec_path = os.path.join(REPO, out_dir, "recommendation.md")
-    if not os.path.exists(rec_path):
-        print(f"vcro: no recommendation written to {rec_path}", file=sys.stderr)
-        return rc or 1
-    if args.show_only_path:
+    if not os.path.exists(rec_path) and rc == 0:
+        phase_warn("no recommendation.md written")
+        rc = 1
+    if args.show_only_path and os.path.exists(rec_path):
         print(rec_path)
-    else:
-        print(f"\nvcro: recommendation written to {rec_path}", file=sys.stderr)
-    return 0
+    return rc
 
 
 def cmd_bounty(args) -> int:
+    print_banner()
     rc = require_wiki()
     if rc:
         return rc
@@ -252,6 +454,12 @@ def cmd_bounty(args) -> int:
     slug = args.slug or slugify(args.goal)
     out_dir = os.path.join(args.out_root, f"{date}_bounty-{slug}")
     os.makedirs(os.path.join(REPO, out_dir), exist_ok=True)
+
+    phase(f"bounty: {_bold(args.goal[:80])}")
+    if args.budget:
+        phase(f"budget: {_bold(args.budget)}")
+    wiki_context()
+
     budget_line = f"Budget: {args.budget}" if args.budget else "Budget: (not specified, will ask user)"
     n_line = f"Target N: {args.n_target}" if args.n_target else "Target N: (not specified, will ask user)"
     prompt = (
@@ -265,10 +473,13 @@ def cmd_bounty(args) -> int:
         "(wiki-first, three legs always, no fake totals, max 3 bundles). Return a "
         "4-6 sentence digest naming bundle ids + within_budget flags + dominant unknowns."
     )
-    return _dispatch_claude(prompt, out_dir, args.max_usd)
+    return _dispatch_claude(prompt, out_dir, args.max_usd,
+                            verbose=getattr(args, "verbose", False),
+                            workflow="sourcing bundles")
 
 
 def cmd_onboard(args) -> int:
+    print_banner()
     rc = require_wiki()
     if rc:
         return rc
@@ -276,6 +487,10 @@ def cmd_onboard(args) -> int:
     slug = slugify(args.institution)
     out_dir = os.path.join("store", "catalog", slug)
     os.makedirs(os.path.join(REPO, out_dir), exist_ok=True)
+
+    phase(f"onboard: {_bold(args.institution)}")
+    wiki_context()
+
     prompt = (
         "You are running the vcro-os orchestrator on a supply-side onboarding request. "
         "Read .claude/agents/vcro-os.md and .claude/agents/vcro-onboard.md in full. "
@@ -286,26 +501,34 @@ def cmd_onboard(args) -> int:
         "file as DRAFT for institutional review. Return a 4-6 sentence digest with "
         "the coverage state (well-covered / sparse / empty) and gap count."
     )
-    return _dispatch_claude(prompt, out_dir, args.max_usd)
+    return _dispatch_claude(prompt, out_dir, args.max_usd,
+                            verbose=getattr(args, "verbose", False),
+                            workflow="onboarding")
 
 
 def cmd_lint(args) -> int:
+    print_banner()
     rc = require_wiki()
     if rc:
         return rc
     date = datetime.date.today().isoformat()
     scan_path = os.path.join("store", "lint", f"{date}_scan.json")
     os.makedirs(os.path.join(REPO, "store", "lint"), exist_ok=True)
+
+    phase("lint: scanning wiki for gaps, drift, staleness, broken links")
+    wiki_context()
+
     # Pre-pass: deterministic scan
-    print(f"vcro lint: running mechanical pre-pass → {scan_path}", file=sys.stderr)
+    phase("running mechanical pre-pass...")
     pre = subprocess.run(
         ["python3", "scripts/lint_scan.py", "--wiki", "store/wiki", "--raw", "store/raw",
          "--out", scan_path],
         cwd=REPO, check=False,
     )
     if pre.returncode != 0:
-        print(f"vcro lint: pre-pass failed (exit {pre.returncode})", file=sys.stderr)
+        phase_fail(f"pre-pass failed (exit {pre.returncode})")
         return pre.returncode
+    phase_done(f"pre-pass → {_dim(scan_path)}")
     # Claude dispatch for gaps/consistency/staleness/connections classification
     out_dir = os.path.join("store", "lint", f"{date}_report")
     os.makedirs(os.path.join(REPO, out_dir), exist_ok=True)
@@ -316,12 +539,17 @@ def cmd_lint(args) -> int:
         f"sequence. Read {scan_path} and the wiki. Aggregate the four slices "
         f"into {out_dir}/report.md. Return a 4-6 sentence digest with top actionable items."
     )
-    return _dispatch_claude(prompt, out_dir, args.max_usd)
+    return _dispatch_claude(prompt, out_dir, args.max_usd,
+                            verbose=getattr(args, "verbose", False),
+                            workflow="linting")
 
 
 # ---- Operator dispatchers -------------------------------------------------
 
 def cmd_ingest_papers(args) -> int:
+    print_banner()
+    n = len(args.pmc_ids) if args.pmc_ids else "(from file)"
+    phase(f"ingest papers: {_bold(str(n))} PMC IDs → {_dim(args.out)}")
     cmd = ["python3", "scripts/pmc_convert.py", "--out", args.out]
     if args.pmids_file:
         cmd += ["--pmids_file", args.pmids_file]
@@ -342,6 +570,7 @@ def cmd_ingest_trials(args) -> int:
 
 
 def cmd_compile(args) -> int:
+    print_banner()
     rc = require_claude_cli()
     if rc:
         return rc
@@ -393,9 +622,10 @@ def cmd_compile(args) -> int:
     out_dir = os.path.join("store", "runs", f"{date}_{slug}")
     os.makedirs(os.path.join(REPO, out_dir, "fragments"), exist_ok=True)
 
-    print(f"\nvcro compile: {n} paper(s) to process", file=sys.stderr)
-    print(f"  Expected: ~${est_cost:.2f}, ~{est_wall:.0f} min wall ({parallel}× parallel extract)", file=sys.stderr)
-    print(f"  Output dir: {out_dir}", file=sys.stderr)
+    phase(f"compile: {_bold(str(n))} papers")
+    wiki_context()
+    phase(f"output → {_dim(out_dir)}")
+    phase(_dim(f"~{est_wall:.0f} min wall, {parallel}× parallel extract"))
     if n > 3 and not args.yes:
         try:
             resp = input("  Proceed? [y/N] ")
@@ -426,7 +656,10 @@ def cmd_compile(args) -> int:
         "Return a 4-6 sentence digest: extract success/fail counts, entities NEW/MERGED/AMBIGUOUS, "
         "hook rejections, top 3 new cohort slugs, actual cost and wall time."
     )
-    return _dispatch_claude(prompt, out_dir, args.max_usd, background=args.background)
+    return _dispatch_claude(prompt, out_dir, args.max_usd,
+                            background=args.background,
+                            verbose=getattr(args, "verbose", False),
+                            workflow="compiling")
 
 
 def cmd_status(args) -> int:
@@ -644,6 +877,8 @@ def build_parser() -> argparse.ArgumentParser:
     q.add_argument("--max-usd", type=float, default=10.0, help="Spend cap")
     q.add_argument("--out-root", default="store/queries", help="Output dir parent")
     q.add_argument("--show-only-path", action="store_true")
+    q.add_argument("--verbose", "-v", action="store_true",
+                   help="Stream claude's raw output instead of spinner + summary")
     q.set_defaults(func=cmd_query)
 
     # bounty
@@ -654,17 +889,20 @@ def build_parser() -> argparse.ArgumentParser:
     b.add_argument("--slug", default="", help="Override the run slug")
     b.add_argument("--max-usd", type=float, default=10.0, help="Spend cap")
     b.add_argument("--out-root", default="store/queries")
+    b.add_argument("--verbose", "-v", action="store_true")
     b.set_defaults(func=cmd_bounty)
 
     # onboard
     o = sub.add_parser("onboard", help="Catalog a supply-side institution")
     o.add_argument("institution", help="Institution name, URL, or canonical slug")
     o.add_argument("--max-usd", type=float, default=10.0, help="Spend cap")
+    o.add_argument("--verbose", "-v", action="store_true")
     o.set_defaults(func=cmd_onboard)
 
     # lint
     l = sub.add_parser("lint", help="Scan the wiki for gaps, drift, staleness, broken links")
     l.add_argument("--max-usd", type=float, default=5.0, help="Spend cap")
+    l.add_argument("--verbose", "-v", action="store_true")
     l.set_defaults(func=cmd_lint)
 
     # ingest (nested subcommands)
@@ -696,6 +934,8 @@ def build_parser() -> argparse.ArgumentParser:
                    help="Skip the pre-flight confirmation prompt")
     c.add_argument("--background", action="store_true",
                    help="Detach claude, return a run ID. Follow with `vcro status <id>`.")
+    c.add_argument("--verbose", "-v", action="store_true",
+                   help="Stream claude's raw output instead of spinner + summary")
     c.add_argument("--max-usd", type=float, default=15.0, help="Spend cap")
     c.set_defaults(func=cmd_compile)
 
