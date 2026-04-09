@@ -92,20 +92,33 @@ Phase completion gate: build → run phase check → run master runner → if bo
 
 **Screenshots folder:** `/Users/kamilseghrouchni/Desktop/feynman-screenshots` — reference for the visual target. Re-examine before building.
 
-## Status roll-up (2026-04-08)
+## Status roll-up (2026-04-09)
 
 | Phase | Status | Commit | Notes |
 |---|---|---|---|
-| **1 — CLI + slash commands** | ✅ shipped | `adb394f` | `bin/vcro` dispatcher, 5 `.claude/commands/*.md`, `check_phase_1_cli_commands.sh` — 44 passing assertions. |
-| **2 — Installer** | ⏭ next | — | `scripts/install.sh` + `install.ps1` + phase-2 check. |
-| **3 — Skills lockfile** | pending | — | `scripts/skills_lock.py` + `vcro-skills-lock.json`. |
-| **4 — Provenance sidecar** | pending | — | `scripts/provenance_sidecar.py`. |
-| **7 — Tier 3** | pending | — | `CHANGELOG.md` promotion, verification labels, release workflow, contributing/jobs skills. |
-| **8 — Master runner** | ✅ shipped | `5125e30` | `.claude/tests/run_all_checks.sh` + README. 7→8 phases green. |
-| **10 — Search loop** | ✅ shipped (out-of-band) | this commit | `query/search` skill, `search_coverage.py`, `search_rewrite.py`, `search-synonyms.md`. Deterministic loop machinery, LLM judgment at 4 named bends, all rounds persisted to disk. Fixes the CSF DNA methylation failure mode. |
-| 5 — Docs site | deferred | — | Captured, post-dogfooding. |
-| 6 — Landing page | deferred | — | Captured, post-dogfooding. |
-| 9 — CLI UX polish | deferred | — | Outcome>output status lines, spinner, suppress tool traces. Feynman screenshots as reference. Post-dogfooding. |
+| **1 — CLI + slash commands** | ✅ shipped | `adb394f` | `bin/vcro` dispatcher, 5 `.claude/commands/*.md` — 44 assertions. |
+| **2 — Installer** | ✅ shipped | `cad3720` | `scripts/install.sh` + `install.ps1` — 21 assertions. |
+| **3 — Skills lockfile** | ✅ shipped | `25243d5` | `scripts/skills_lock.py` + `vcro-skills-lock.json` (20 skills) — 10 assertions. |
+| **4 — Provenance sidecar** | ✅ shipped | `99e60f9` | `scripts/provenance_sidecar.py` — 9 assertions. |
+| **7 — Tier 3** | ✅ shipped | `7b36f02` | `CHANGELOG.md`, verification labels in deliver, release.yml, contributing+jobs stubs — 19 assertions. |
+| **8 — Master runner** | ✅ shipped | `5125e30` | `.claude/tests/run_all_checks.sh` — 8 phases green, 4s wall. |
+| **10 — Search loop** | ✅ shipped | `bf22e94` | `query/search` skill, `search_coverage.py`, `search_rewrite.py`, `search-synonyms.md` — 21 assertions. |
+| — Autonomy rule | ✅ shipped | `407c9f3` | `.claude/rules/autonomy.md`, persistence contract, vcro-os rewrite. Incident-driven. |
+| — Compile nesting fix | ✅ shipped | `960515e` | vcro-compile is workflow instructions, not a subagent. One-level Task depth fix. |
+| — Graph vs webapp note | ✅ logged | `5e3a2dc` | `.claude/docs/graph-vs-webapp-rendering.md`. Two APIs, never merged. |
+| — Graphify compile additions | ✅ shipped | `8a36196`–`ea7a97b` | Extract cache, XML prepass, numeric confidence_score, post-merge graph hook. |
+| 5 — Docs site | deferred | — | MkDocs, `scripts/docs_build.py`. Post-dogfooding. |
+| 6 — Landing page | deferred | — | `website/index.html`, static, no framework. Post-dogfooding. |
+| 9 — CLI UX polish | deferred | — | Outcome>output status lines, spinner, suppress tool traces. Feynman screenshots as reference. |
+
+### Dogfooding completed (2026-04-08–09)
+
+The AD/ALS DNA methylation compile was the first end-to-end dogfooding run through the shipped pipeline:
+- **Search loop** (Phase 10) ran with evaluate-and-loop, mechanical synonym rewriting, search_history.jsonl persistence.
+- **Ingest** — 13 PMCs ingested via `pmc_convert.py`, all with `prepass.json` siblings.
+- **Compile** — 13/13 extracted (Wave 1: 10 parallel, Wave 2: 3), 68 NEW + 36 MERGE_INTO + 2 AMBIGUOUS. All 13 cached. 0 hook rejections. Wiki grew 219→289 entities.
+- **Compile nesting bug** surfaced and fixed mid-run (Task one-level depth limit). Fix: compile runs inline from top-level, not as a nested subagent.
+- **Autonomy rule** surfaced and shipped mid-run (orchestrator asking user to pick A/B/C options it could decide itself).
 
 ### Added since plan was written (out-of-band, 2026-04-08)
 
