@@ -133,64 +133,179 @@ class Spinner:
 
 
 def print_outcome(out_dir, workflow):
-    """Scan the output directory and print a clean outcome summary."""
+    """Rich terminal renderer for query/compile/bounty outcomes."""
     abs_dir = os.path.join(REPO, out_dir) if not os.path.isabs(out_dir) else out_dir
     rec = os.path.join(abs_dir, "recommendation.md")
-    ledger = os.path.join(abs_dir, "ledger.md")
+    scored = os.path.join(abs_dir, "scored_candidates.json")
 
     print(file=sys.stderr)
-    if os.path.exists(rec):
-        phase_done(f"recommendation written → {_bold(os.path.relpath(rec, REPO))}")
-        # Print the verdict section (first 8 non-empty lines after "## Verdict")
-        try:
-            with open(rec) as f:
-                lines = f.readlines()
-            in_verdict = False
-            verdict_lines = []
-            for line in lines:
-                if line.strip().startswith("## Verdict"):
-                    in_verdict = True
-                    continue
-                if in_verdict:
-                    if line.strip().startswith("## "):
-                        break
-                    if line.strip():
-                        verdict_lines.append(line.rstrip())
-                    if len(verdict_lines) >= 6:
-                        break
-            if verdict_lines:
-                print(file=sys.stderr)
-                for vl in verdict_lines:
-                    print(f"  {_dim('│')} {vl}", file=sys.stderr)
-                print(file=sys.stderr)
-        except Exception:
-            pass
 
-    # Count new entities if fragments exist
-    frags_dir = os.path.join(abs_dir, "fragments")
-    if os.path.isdir(frags_dir):
-        n_frags = len([f for f in os.listdir(frags_dir) if f.endswith(".json")])
-        if n_frags:
-            phase_done(f"{n_frags} papers extracted")
+    if not os.path.exists(rec):
+        # Compile or lint — simpler output
+        frags_dir = os.path.join(abs_dir, "fragments")
+        if os.path.isdir(frags_dir):
+            n_frags = len([f for f in os.listdir(frags_dir) if f.endswith(".json")])
+            if n_frags:
+                phase_done(f"{n_frags} papers extracted")
+        for name, label in [("report.md", "lint report"), ("ledger.md", "compile ledger")]:
+            p = os.path.join(abs_dir, name)
+            if os.path.exists(p):
+                phase_done(f"{label} → {_dim(os.path.relpath(p, REPO))}")
+        print(file=sys.stderr)
+        return
 
-    # Mention key output files
+    # --- Recommendation exists: render rich outcome ---
+
+    try:
+        with open(rec) as f:
+            rec_text = f.read()
+        rec_lines = rec_text.splitlines()
+    except Exception:
+        phase_done(f"recommendation → {_dim(os.path.relpath(rec, REPO))}")
+        return
+
+    # 1. Verdict block
+    verdict = _extract_section(rec_lines, "## Verdict", max_lines=8)
+    if verdict:
+        print(f"  {_bold('━━━ Verdict ━━━')}", file=sys.stderr)
+        print(file=sys.stderr)
+        for vl in verdict:
+            print(f"  {vl}", file=sys.stderr)
+        print(file=sys.stderr)
+
+    # 2. Sourcing paths summary (commission intent)
+    sourcing = _extract_section_headers(rec_lines, "## Sourcing paths", "### Source:")
+    if sourcing:
+        print(f"  {_bold('━━━ Sourcing paths ━━━')}", file=sys.stderr)
+        print(file=sys.stderr)
+        for sp in sourcing:
+            print(f"  {_green('▸')} {sp}", file=sys.stderr)
+        print(file=sys.stderr)
+
+    # 3. Alternative approaches / Recommended cohorts — just names
+    alts = _extract_section_headers(rec_lines, "## Alternative approaches", "### ")
+    cohorts = _extract_section_headers(rec_lines, "## Recommended cohorts", "### ")
+    items = alts or cohorts
+    if items:
+        label = "Alternatives" if alts else "Cohorts"
+        print(f"  {_bold(f'━━━ {label} ━━━')}", file=sys.stderr)
+        print(file=sys.stderr)
+        for item in items:
+            print(f"  {_dim('▹')} {item}", file=sys.stderr)
+        print(file=sys.stderr)
+
+    # 4. Top gaps
+    gaps = _extract_section(rec_lines, "## Gaps and recommendations", max_lines=6)
+    if gaps:
+        print(f"  {_bold('━━━ Gaps ━━━')}", file=sys.stderr)
+        print(file=sys.stderr)
+        for g in gaps:
+            # Bold the gap type labels
+            g = re.sub(r"\*\*(.+?)\*\*", lambda m: _yellow(m.group(1)), g)
+            print(f"  {g}", file=sys.stderr)
+        print(file=sys.stderr)
+
+    # 5. Entity quick-links (wiki files the buyer can open)
+    entities = _collect_entity_links(rec_text)
+    if entities:
+        print(f"  {_bold('━━━ Wiki entities ━━━')}", file=sys.stderr)
+        print(file=sys.stderr)
+        for etype, eid in entities[:12]:
+            path = f"store/wiki/{etype}/{eid}.md"
+            full = os.path.join(REPO, path)
+            if os.path.exists(full):
+                print(f"  {_dim(etype + '/')} {_cyan(eid)}", file=sys.stderr)
+        if len(entities) > 12:
+            print(f"  {_dim(f'  ... +{len(entities)-12} more')}", file=sys.stderr)
+        print(file=sys.stderr)
+
+    # 6. Files produced
+    print(f"  {_bold('━━━ Files ━━━')}", file=sys.stderr)
+    print(file=sys.stderr)
     for name, label in [
-        ("scored_candidates.json", "candidates scored"),
-        ("listings.jsonl", "listings projected"),
-        ("report.md", "lint report written"),
+        ("recommendation.md", "recommendation"),
+        ("scored_candidates.json", "scored candidates"),
+        ("listings.jsonl", "listings"),
+        ("delta.jsonl", "delta"),
     ]:
         p = os.path.join(abs_dir, name)
         if os.path.exists(p):
-            phase_done(f"{label} → {_dim(os.path.relpath(p, REPO))}")
-
-    # Search history
-    sh = os.path.join(abs_dir, "search", "search_history.jsonl")
-    if os.path.exists(sh):
-        with open(sh) as f:
-            n_searches = sum(1 for _ in f)
-        phase_done(f"{n_searches} searches logged → {_dim('search/search_history.jsonl')}")
-
+            rel = os.path.relpath(p, REPO)
+            print(f"  {_green('✓')} {label:<22} {_dim(rel)}", file=sys.stderr)
     print(file=sys.stderr)
+
+    # 7. Follow-up hint
+    slug = os.path.basename(os.path.normpath(out_dir))
+    print(f"  {_bold('━━━ Follow up ━━━')}", file=sys.stderr)
+    print(file=sys.stderr)
+    print(f"  {_dim('open recommendation:')}  open {os.path.relpath(rec, REPO)}", file=sys.stderr)
+    print(f"  {_dim('open an entity:')}      open store/wiki/cohorts/<slug>.md", file=sys.stderr)
+    print(f"  {_dim('ask follow-up:')}       vcro   {_dim('→ then ask about these results')}", file=sys.stderr)
+    print(f"  {_dim('run provenance:')}      python3 scripts/provenance_sidecar.py {os.path.relpath(abs_dir, REPO)}", file=sys.stderr)
+    print(file=sys.stderr)
+
+
+def _extract_section(lines, header, max_lines=8):
+    """Pull up to max_lines of non-empty text after a ## header."""
+    out = []
+    found = False
+    for line in lines:
+        if line.strip().startswith(header):
+            found = True
+            continue
+        if found:
+            if line.strip().startswith("## ") or line.strip().startswith("---"):
+                break
+            if line.strip():
+                out.append(line.rstrip())
+            if len(out) >= max_lines:
+                break
+    return out
+
+
+def _extract_section_headers(lines, section_header, sub_prefix):
+    """Collect sub-section header titles under a given section."""
+    out = []
+    in_section = False
+    for line in lines:
+        if line.strip().startswith(section_header):
+            in_section = True
+            continue
+        if in_section:
+            if line.strip().startswith("## ") and not line.strip().startswith(sub_prefix):
+                break
+            if line.strip().startswith(sub_prefix):
+                title = line.strip().lstrip("#").strip()
+                out.append(title)
+    return out
+
+
+def _collect_entity_links(text):
+    """Find entity IDs referenced in recommendation text."""
+    entities = []
+    seen = set()
+    for m in re.finditer(r'`([\w-]+)`\s*\|?\s*\*\*(?:Specimens?|Type)', text):
+        eid = m.group(1)
+        if eid not in seen:
+            seen.add(eid)
+            etype = _guess_entity_dir(eid)
+            entities.append((etype, eid))
+    # Also catch **Entity ID:** `slug` pattern
+    for m in re.finditer(r'\*\*Entity ID:\*\*\s*`([\w-]+)`', text):
+        eid = m.group(1)
+        if eid not in seen:
+            seen.add(eid)
+            etype = _guess_entity_dir(eid)
+            entities.append((etype, eid))
+    return entities
+
+
+def _guess_entity_dir(eid):
+    """Guess which wiki subdir an entity lives in."""
+    for d in ["cohorts", "institutions", "investigators", "platforms", "protocols", "bundles"]:
+        if os.path.exists(os.path.join(REPO, "store", "wiki", d, f"{eid}.md")):
+            return d
+    return "cohorts"
 
 # ---- Paths ----------------------------------------------------------------
 
@@ -282,6 +397,7 @@ OPERATOR COMMANDS (for power users / maintainers)
   ingest papers <PMC...>     Fetch + convert PMC papers into store/raw/papers/
   ingest trials <NCT...>     Fetch + convert ClinicalTrials.gov trials into store/raw/trials/
   compile <PMC...>           Extract + resolve + merge papers into the wiki (parallel fan-out)
+  wiki browse [keyword]      Browse wiki entities with signal summaries
   wiki rebuild               Regenerate the 7 index files under store/wiki/index/
   wiki verify                Revalidate every entity against entity-schema.md
 
@@ -804,6 +920,60 @@ def cmd_runs(args) -> int:
     return 0
 
 
+def cmd_wiki_browse(args) -> int:
+    """Browse wiki entities with a quick summary view."""
+    print_banner()
+    wiki = os.path.join(REPO, "store", "wiki")
+    dirs = ["cohorts", "institutions", "investigators", "platforms", "protocols", "bundles"]
+    query = (args.filter or "").lower()
+
+    total = 0
+    for d in dirs:
+        p = os.path.join(wiki, d)
+        if not os.path.isdir(p):
+            continue
+        entries = sorted(f[:-3] for f in os.listdir(p) if f.endswith(".md"))
+        if query:
+            entries = [e for e in entries if query in e]
+        if not entries:
+            continue
+        print(f"\n  {_bold(d)} ({len(entries)})", file=sys.stderr)
+        limit = args.limit if args.limit else 10
+        for e in entries[:limit]:
+            full = os.path.join(p, f"{e}.md")
+            # Pull card.primary_signal from frontmatter (quick scan)
+            signal = ""
+            try:
+                with open(full) as f:
+                    for line in f:
+                        if "primary_signal:" in line:
+                            signal = line.split("primary_signal:", 1)[1].strip().strip('"')[:80]
+                            break
+            except Exception:
+                pass
+            if signal:
+                print(f"    {_cyan(e)}", file=sys.stderr)
+                print(f"      {_dim(signal)}", file=sys.stderr)
+            else:
+                print(f"    {_cyan(e)}", file=sys.stderr)
+            total += 1
+        if len(entries) > limit:
+            print(f"    {_dim(f'... +{len(entries)-limit} more (use --all)')}", file=sys.stderr)
+            total += len(entries) - limit
+
+    if total == 0 and query:
+        print(f"\n  no entities matching '{query}'", file=sys.stderr)
+    elif total == 0:
+        print(f"\n  wiki is empty — run vcro ingest + vcro compile first", file=sys.stderr)
+    print(file=sys.stderr)
+
+    # Hint
+    if not query:
+        phase(_dim("filter: vcro wiki browse <keyword>"))
+        phase(_dim("open:   open store/wiki/cohorts/<slug>.md"))
+    return 0
+
+
 def cmd_wiki_rebuild(args) -> int:
     return subprocess.run(
         ["python3", "scripts/wiki_index.py", "--wiki", "store/wiki"],
@@ -941,8 +1111,13 @@ def build_parser() -> argparse.ArgumentParser:
     c.set_defaults(func=cmd_compile)
 
     # wiki (nested subcommands)
-    w = sub.add_parser("wiki", help="Maintain the wiki")
+    w = sub.add_parser("wiki", help="Browse and maintain the wiki")
     w_sub = w.add_subparsers(dest="wiki_cmd")
+    wb = w_sub.add_parser("browse", help="Browse wiki entities with signal summaries")
+    wb.add_argument("filter", nargs="?", default="", help="Filter entities by keyword in slug")
+    wb.add_argument("--all", action="store_true", dest="show_all", help="Show all entities, not just top 10 per type")
+    wb.add_argument("--limit", type=int, default=0, help="Max entities per type (0=10 default)")
+    wb.set_defaults(func=cmd_wiki_browse, limit=0)
     wr = w_sub.add_parser("rebuild", help="Regenerate the 7 index files")
     wr.set_defaults(func=cmd_wiki_rebuild)
     wv = w_sub.add_parser("verify", help="Revalidate every entity against entity-schema.md")
@@ -1011,16 +1186,19 @@ def main() -> int:
     if getattr(args, "help", False):
         print(HELP)
         return 0
-    if not hasattr(args, "func"):
-        print(HELP)
-        return 0
     # Guards for nested subcommands with no leaf selected
     if args.cmd == "ingest" and not getattr(args, "ingest_cmd", None):
         print("usage: vcro ingest {papers,trials} ...", file=sys.stderr)
         return 2
     if args.cmd == "wiki" and not getattr(args, "wiki_cmd", None):
-        print("usage: vcro wiki {rebuild,verify}", file=sys.stderr)
-        return 2
+        # Default: browse
+        args.filter = ""
+        args.show_all = False
+        args.limit = 0
+        return cmd_wiki_browse(args)
+    if not hasattr(args, "func"):
+        print(HELP)
+        return 0
     return args.func(args)
 
 
