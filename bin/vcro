@@ -52,13 +52,12 @@ def _cyan(t):   return _c("36", t)
 def _yellow(t): return _c("33", t)
 def _red(t):    return _c("31", t)
 
-BANNER = r"""
-           ╦  ╦╔═╗╦═╗╔═╗
- ┌─────────╚╗╔╝║  ╠╦╝║ ║─────────┐
- │  cohort  ╚╝ ╚═╝╩╚═╚═╝         │
- │  intelligence agent     v{ver}  │
- └────────────────────────────────┘
-"""
+BANNER = (
+    "  ┌────────────────────────────────┐\n"
+    "  │  vCRO v{ver}                   │\n"
+    "  │  cohort intelligence agent     │\n"
+    "  └────────────────────────────────┘"
+)
 
 def print_banner():
     if not _is_tty():
