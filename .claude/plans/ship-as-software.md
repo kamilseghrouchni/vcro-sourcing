@@ -92,7 +92,7 @@ Phase completion gate: build → run phase check → run master runner → if bo
 
 **Screenshots folder:** `/Users/kamilseghrouchni/Desktop/feynman-screenshots` — reference for the visual target. Re-examine before building.
 
-## Status roll-up (2026-04-09)
+## Status roll-up (2026-04-09, end of session)
 
 | Phase | Status | Commit | Notes |
 |---|---|---|---|
@@ -102,23 +102,45 @@ Phase completion gate: build → run phase check → run master runner → if bo
 | **4 — Provenance sidecar** | ✅ shipped | `99e60f9` | `scripts/provenance_sidecar.py` — 9 assertions. |
 | **7 — Tier 3** | ✅ shipped | `7b36f02` | `CHANGELOG.md`, verification labels in deliver, release.yml, contributing+jobs stubs — 19 assertions. |
 | **8 — Master runner** | ✅ shipped | `5125e30` | `.claude/tests/run_all_checks.sh` — 8 phases green, 4s wall. |
+| **9 — CLI UX polish** | ✅ shipped | `cb55a45` | Banner, spinner, phase lines, outcome summary, `--verbose`. All stdlib. |
 | **10 — Search loop** | ✅ shipped | `bf22e94` | `query/search` skill, `search_coverage.py`, `search_rewrite.py`, `search-synonyms.md` — 21 assertions. |
 | — Autonomy rule | ✅ shipped | `407c9f3` | `.claude/rules/autonomy.md`, persistence contract, vcro-os rewrite. Incident-driven. |
 | — Compile nesting fix | ✅ shipped | `960515e` | vcro-compile is workflow instructions, not a subagent. One-level Task depth fix. |
 | — Graph vs webapp note | ✅ logged | `5e3a2dc` | `.claude/docs/graph-vs-webapp-rendering.md`. Two APIs, never merged. |
 | — Graphify compile additions | ✅ shipped | `8a36196`–`ea7a97b` | Extract cache, XML prepass, numeric confidence_score, post-merge graph hook. |
-| 5 — Docs site | deferred | — | MkDocs, `scripts/docs_build.py`. Post-dogfooding. |
-| 6 — Landing page | deferred | — | `website/index.html`, static, no framework. Post-dogfooding. |
-| 9 — CLI UX polish | deferred | — | Outcome>output status lines, spinner, suppress tool traces. Feynman screenshots as reference. |
+| 5 — Docs site | deferred | — | MkDocs, `scripts/docs_build.py`. Needs design decisions. |
+| 6 — Landing page | deferred | — | `website/index.html`, static, no framework. Needs design decisions. |
 
 ### Dogfooding completed (2026-04-08–09)
 
 The AD/ALS DNA methylation compile was the first end-to-end dogfooding run through the shipped pipeline:
 - **Search loop** (Phase 10) ran with evaluate-and-loop, mechanical synonym rewriting, search_history.jsonl persistence.
 - **Ingest** — 13 PMCs ingested via `pmc_convert.py`, all with `prepass.json` siblings.
-- **Compile** — 13/13 extracted (Wave 1: 10 parallel, Wave 2: 3), 68 NEW + 36 MERGE_INTO + 2 AMBIGUOUS. All 13 cached. 0 hook rejections. Wiki grew 219→289 entities.
+- **Compile** — 13/13 extracted (Wave 1: 10 parallel, Wave 2: 3), 68 NEW + 36 MERGE_INTO + 2 AMBIGUOUS. All 13 cached. 0 hook rejections. Wiki grew 219→289→328 entities (post-merge reindex landed additional linked entities).
 - **Compile nesting bug** surfaced and fixed mid-run (Task one-level depth limit). Fix: compile runs inline from top-level, not as a nested subagent.
 - **Autonomy rule** surfaced and shipped mid-run (orchestrator asking user to pick A/B/C options it could decide itself).
+
+### Current system state (2026-04-09)
+
+- **Wiki**: 328 entities (75 cohorts, 103 institutions, 101 investigators, 46 platforms, 3 bundles).
+- **Skills**: 20 hashed in `vcro-skills-lock.json` (17 original + contributing + jobs + query/search).
+- **Extract cache**: 13 entries, 218.7 KB (AD/ALS methylation compile).
+- **Rules**: 9 files (original 7 + `_commandments.md` + `autonomy.md`).
+- **Agents**: 3 files (vcro-os, vcro-compile, vcro-onboard) — vcro-compile is now workflow instructions, not a subagent entry point.
+- **Test harness**: 8 phases, 4s wall, all green.
+- **CLI**: `bin/vcro` with banner, spinner, phase lines, outcome summary, `--verbose` flag. 4 core workflows + 5 operator commands + 3 utility commands.
+
+### What remains
+
+Only **Phase 5 (docs site)** and **Phase 6 (landing page)** are open. Both need design decisions (MkDocs theme, nav structure, landing copy, examples) that are outside the scope of shipping the runtime. The runtime is complete and dogfooded.
+
+**Next recommended actions** (for a future session):
+1. **Tag `v0.1.0`** — everything needed for a release is shipped: CHANGELOG, release.yml, installer, lockfile, master runner, CLI UX.
+2. **Push branch + PR to main** — or merge directly if solo. Update `REPO_SLUG` in `scripts/install.sh` before publishing.
+3. **Fix `bin/vcro` stale docstring** — already fixed in `cb55a45` (cosmic-fluttering-breeze → ship-as-software).
+4. **Run a fresh `vcro query` with the new UX** — the banner/spinner/outcome surface has not been dogfooded under a real claude dispatch yet (only the plumbing functions are tested).
+5. **Phase 5 (docs site)** when ready — the design is fully captured in the plan, MkDocs + `scripts/docs_build.py`.
+6. **Phase 6 (landing page)** when ready — single static HTML, structure captured in the plan.
 
 ### Added since plan was written (out-of-band, 2026-04-08)
 

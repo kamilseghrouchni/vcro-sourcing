@@ -318,3 +318,38 @@ must run at the top level, not as a child.
 **Revisit if.** Claude Code adds multi-level Task nesting (unlikely).
 Or if a new orchestrator needs fan-out — apply the same "top-level
 only, workflow instructions not subagent" pattern.
+
+## 2026-04-09 — Session outcome: all plan phases shipped + CLI UX
+
+**Session scope.** This session started with a graphify comparison and
+ended with every active phase of the ship-as-software plan shipped,
+dogfooded, and green.
+
+**Commits landed (18 total this session):**
+- `8a36196`–`ea7a97b` — Graphify compile additions (extract cache, XML prepass, numeric confidence_score, post-merge graph hook).
+- `bdc24a6`, `ded1765` — Plan roll-ups and Phase 9 capture.
+- `adb394f` — Phase 1: CLI + 5 slash commands (44 assertions).
+- `cad3720` — Phase 2: Installer bash + powershell (21 assertions).
+- `25243d5` — Phase 3: Skills lockfile, 20 skills (10 assertions).
+- `99e60f9` — Phase 4: Provenance sidecar (9 assertions).
+- `7b36f02` — Phase 7: CHANGELOG, verification labels, release workflow, stubs (19 assertions).
+- `5125e30` — Phase 8: Master runner (8 phases green).
+- `5e3a2dc` — Graph-vs-webapp rendering design note.
+- `407c9f3` — Autonomy rule + persistence contract (incident-driven).
+- `bf22e94` — Phase 10: Search loop with deterministic machinery + LLM bends (21 assertions).
+- `960515e` — Compile nesting fix (vcro-compile is workflow instructions, not subagent).
+- `1bf319f` — Plan status roll-up.
+- `cb55a45` — Phase 9: CLI UX polish (banner, spinner, outcome summary, --verbose).
+
+**Dogfooding run (AD/ALS DNA methylation):**
+- 13 PMCs ingested, prepassed, extracted (Wave 1: 10 parallel, Wave 2: 3), resolved (68 NEW + 36 MERGE_INTO), merged (0 hook rejections).
+- Wiki: 219 → 328 entities.
+- Extract cache: 13 entries seeded.
+- Two incident-driven fixes surfaced and shipped mid-run: autonomy rule (don't ask questions you can answer) and compile nesting bug (Task is one-level deep).
+
+**Current state:**
+- 328 wiki entities, 20 skills locked, 9 rules, 3 agents, 8 test phases green in 4s.
+- CLI ships with banner, spinner, phase lines, outcome summary. `--verbose` for raw traces.
+- Deferred: Phase 5 (docs site) and Phase 6 (landing page) — both need design decisions.
+
+**Next.** Tag v0.1.0, push, dogfood `vcro query` with the new UX under a real claude dispatch.
