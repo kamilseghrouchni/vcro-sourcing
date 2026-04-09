@@ -34,6 +34,7 @@ Cross-domain examples (per the locked rotation):
 Steps:
 
 1. **Spawn `query/understand` subagent** (Sonnet). Pass it the verbatim request text and the convention `out_path = store/queries/{date}_{slug}/request.json`. Read the 3-5 sentence digest. The subagent writes the file; you read it back via Read.
+1b. **Intent gate.** Read `request.json` field `intent`. If `commission` → **switch to the bounty workflow** (Step 2 in § 2 below), even if the user's verb was "find" or "look for." The intent classification from understand overrides verb-based routing. Log the switch in the ledger Decision Log: "Intent classified as commission by understand; routing to bounty workflow despite verb-based query trigger." Commission intent without an explicit budget → proceed anyway with `within_budget: unknown` on all bundles (per `.claude/rules/autonomy.md`). If `intent == mixed`, run the query workflow AND then the bounty workflow in sequence (query for existing data, bounty for sourcing paths). If `intent == access`, continue with step 2 below as normal.
 2. **Decide whether the wiki has anything to say.** Open `store/wiki/index/master.md` and `store/wiki/index/by-indication.md`. Check whether any cohort entity matches the request's `filter_for_discover.indication_match` and `modality_match`. This is a fast index scan, not a full read. You do this directly — no subagent.
 3. **Three branches based on what you saw in the index — per `.claude/rules/autonomy.md`, do not ask the user to pick; execute the right branch and log the decision in the ledger:**
    - **Wiki has matches** → spawn `query/discover` (Sonnet) → spawn `query/score` (Sonnet) → spawn `query/deliver` (Sonnet). Read each digest before launching the next. Stop after deliver.
@@ -44,11 +45,11 @@ Steps:
 
 ### 2. Bounty workflow
 
-Trigger: the user has a budget plus a desired outcome and wants procurement options. Verbs include "I need", "I have $X for", "procure", "source", "bundle".
+Trigger: the user has a budget plus a desired outcome and wants procurement options. Verbs include "I need", "I have $X for", "procure", "source", "bundle". **Also triggers when `query/understand` classifies `intent: commission`** — even if the user's verb was "find" or "look for." Commission intent means the buyer wants specimens for running new assays, which is fundamentally a procurement question.
 
 Steps:
 
-1. Spawn `query/understand` (Sonnet) with the same convention as the query workflow. Confirm the request has both an `n_target` and a `budget`.
+1. Spawn `query/understand` (Sonnet) if not already run (the query workflow's step 1b may have already produced `request.json`). If `intent` is `commission` and `budget` is null, proceed anyway — do NOT ask for a budget. Set `within_budget: unknown` on all bundles. The buyer can add a budget constraint later.
 2. Spawn `query/discover` and `query/score` to identify candidate sources from the wiki.
 3. Spawn `vcro-bounty` agent (when it exists) to compose bundles per blueprint Part 17. The bounty agent owns the three-leg cost composition. Until that agent exists, fall back to running `query/deliver` and tell the user the bundle assembly step is pending.
 4. The user-facing answer points to a bundle markdown file under `store/wiki/bundles/` plus the source recommendation.

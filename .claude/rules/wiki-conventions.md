@@ -39,7 +39,7 @@ YAML frontmatter (the schema enforced by `.claude/hooks/pre-write-entity.py`) fo
 
 1. **Title** — `# <canonical_name>`
 2. **Summary** — 2 to 4 sentences, plain prose, no bullet points, no hype.
-3. **Dimension sections** — one `## <dimension_name>` per evidenced dimension. Each section: a paragraph ending with the implication, the verbatim source quote in a `> blockquote` with `[ref: PMC...]`. Section count = covered_dims_count.
+3. **Dimension sections** — one `## <dimension_name>` per evidenced dimension. Each section: a paragraph ending with the implication, the verbatim source quote in a `> blockquote` with `[ref: PMC...]`. Section count = covered_dims_count. When dimension 15 (biospecimen_retention_and_types) is covered, the section MUST explicitly list the specimen types banked (e.g. "CSF, plasma, DNA, FFPE"), estimated available counts per type, and the access route (biobank name + request process). This is the primary evidence the score skill reads for commission-intent queries — if dim 15 is present but vague ("biospecimens available"), it fails the implication test.
 4. **Open questions** — bulleted list, one per gap. Used by lint.
 5. **Links** — bulleted list of `[[slug]]` references to related entities (institution, investigators, platform, protocol, related cohorts, sources).
 
@@ -63,7 +63,7 @@ card:                                    # OR cards: for institutions
 referenced_by: []                        # back-references applied by merge
 ```
 
-Cohorts and data_opportunities additionally have `opportunity_type`, `evidence_type`, `disease_area`, `modality`, `scoring`. See entity-schema.md for the full closed enums.
+Cohorts and data_opportunities additionally have `opportunity_type`, `evidence_type`, `disease_area`, `modality`, `scoring`. See entity-schema.md for the full closed enums. They MAY also include an optional `specimens:` block (types, estimated_available_n, access_route, depletion_risk) — see entity-schema.md. When present, this enables specimen-aware scoring for commission-intent queries.
 
 ## The card contract
 

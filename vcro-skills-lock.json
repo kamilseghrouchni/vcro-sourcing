@@ -24,7 +24,7 @@
     "compile/extract": {
       "name": "compile-extract",
       "path": ".claude/skills/compile/extract/SKILL.md",
-      "sha256": "f9f0bfd0334964cf2b2622ddfc78558df8c4d1474b26ae0e3228e89f2f70bf0c"
+      "sha256": "b941270f1694e2fc6a969e17683d872e9f9a26fcc910efc9c8620927a7b5c95d"
     },
     "compile/merge": {
       "name": "compile-merge",
@@ -79,17 +79,17 @@
     "query/deliver": {
       "name": "query-deliver",
       "path": ".claude/skills/query/deliver/SKILL.md",
-      "sha256": "dcfe1adb1fb70d87179831b624fe933da77cf8e1ece8b74ee3eda0c49e27c96d"
+      "sha256": "b21f0950831e6054c481f6a7f3a65c97842ebf09d77aa27ea71fe09183cf0c3f"
     },
     "query/discover": {
       "name": "query-discover",
       "path": ".claude/skills/query/discover/SKILL.md",
-      "sha256": "e9c55ab50373d59b8ce084933ad65c9069f5338b64670aec2bbdfe69064fac14"
+      "sha256": "efac16ca001932b6598d44dc78ed52dae786ae0134a7bd60308887a060c1f439"
     },
     "query/score": {
       "name": "query-score",
       "path": ".claude/skills/query/score/SKILL.md",
-      "sha256": "86c9aa8529f69d3a5b756c15b65da67067edf73eb7368328237bade2613dc786"
+      "sha256": "96012e2ce53ae8ac44e41fb79d3ae68fc9d5cee558a7d696abacb19cd91729fa"
     },
     "query/search": {
       "name": "query-search",
@@ -99,7 +99,7 @@
     "query/understand": {
       "name": "query-understand",
       "path": ".claude/skills/query/understand/SKILL.md",
-      "sha256": "a54bd4a0680fbb6101366faa848cccd3f9315e33e1547ee9ca73230735751418"
+      "sha256": "09d158e023ce2a3a6bc0e28b6604ab961bdbad70e499c79b0771456c42f84163"
     }
   },
   "version": 1

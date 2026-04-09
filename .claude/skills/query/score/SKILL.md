@@ -26,6 +26,19 @@ This is the platform's core differentiator. Brokers and competitors return a sin
 5. `references/pricing-data.md` — the verified pricing anchors. Cite specific lines, not vibes.
 6. NOTHING from `store/raw/` and NO web search.
 
+## Intent-dependent axis interpretation
+
+Read `request.json` field `intent` (access | commission | mixed). The three axes are structurally identical regardless of intent. The EVIDENCE that populates them changes:
+
+**For `access` intent** (default): axes score existing data availability and quality. This is the current behavior -- `usable_n_for_request` = subjects with existing data matching the request. Cost source leg = data access fee. Quality pre-analytical = existing data QC.
+
+**For `commission` intent**: axes score specimen availability and fitness for the intended assay.
+- **Scale**: `usable_n_for_request` = estimated banked specimens of the requested type, NOT existing data points. Read the entity's `specimens.estimated_available_n` or dimension 15 section.
+- **Cost**: source leg = specimen acquisition fee from `references/pricing-data.md` or the entity's access route. Assay leg = provider quote for the intended assay. Screening_qa leg = specimen validation/QC cost (e.g. low-input DNA extraction QC).
+- **Quality**: pre-analytical evaluates SPECIMEN FITNESS for the intended assay. Questions: freeze-thaw history? Volume per aliquot? Storage temperature? Expected DNA/RNA yield for the buyer's assay input? Dimension 20 (collection protocol detail) is the key evidence. The load-bearing question is: "will this banked specimen produce signal when subjected to the buyer's assay?" If dim 20 is not covered, pre-analytical verdict is `missing` for commission intent.
+
+**For `mixed` intent**: score BOTH. Include two parallel assessments: existing-data score and specimen-sourcing score. The deliver skill renders both for the buyer.
+
 ## What you produce
 
 The schema is constant across domains. The locked A/B/C example rotation in `.claude/rules/example-rotation.md` populates the per-domain values. The shape:
@@ -70,6 +83,7 @@ The schema is constant across domains. The locked A/B/C example rotation in `.cl
         "axis_summary": "<one line>"
       },
       "axis_confidences": { "scale": "...", "cost": "...", "quality": "..." },
+      "finding_type": "direct_match | sourcing_path | pivot",
       "card_for_delivery": {
         "primary_signal": "<<= 200 chars, request-specific>",
         "action": "<verb phrase, addresses the buyer's gaps>",
@@ -77,6 +91,7 @@ The schema is constant across domains. The locked A/B/C example rotation in `.cl
       }
     }
   ],
+  "finding_type_legend": "`finding_type` classifies what this candidate offers. `direct_match` = existing data matches the request. `sourcing_path` = banked specimens exist, assay must be commissioned. `pivot` = neither data nor specimens match directly; alternative approach needed. The deliver skill uses `finding_type` to select the output format for each candidate.",
   "axis_legend": {
     "scale": "Usable N for THIS request, with confidence. Not headline N.",
     "cost": "Three legs (source + screening_qa + assay), explicit unknowns, no composite total when unknowns exist.",
@@ -193,6 +208,8 @@ For each scored candidate, refresh the card. The card in the entity article was 
 - `risk`: the single biggest unknown for THIS request, not the original entity's generic risk.
 
 Deliver renders this card, not the entity's stored card.
+
+**For `sourcing_path` candidates:** the card fields reframe: `primary_signal` = banked specimen count + type + access route (not existing data count). `action` = specimen request step + assay provider contact (not data portal login). `risk` = specimen fitness uncertainty for the intended assay (not existing data quality caveat).
 
 ## axis_confidences
 

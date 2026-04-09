@@ -37,6 +37,8 @@ Walk the request and pull out:
 - **timeline** — explicit deadline or "as soon as possible" signal. Otherwise null.
 - **hard_negatives** — things the user explicitly does NOT want. e.g. "no FFPE", "no broker-sourced", "exclude statin users".
 - **scope_notes** — one or two sentences in your own words that tell discover what matters most for this request. This is the brief.
+- **intent** — `access` if the buyer wants existing data (signal verbs: "find existing", "what cohorts have data", "download", "access data"). `commission` if the buyer wants specimens for running new assays (signal verbs/phrases: "for running [assay]", "to run [assay]", "source specimens", "find a provider for", "procure", "banked samples", "I need samples to [verb]"). `mixed` if both or ambiguous. Default to `mixed` when unclear — downstream skills handle both paths.
+- **specimen_type_needed** — the physical sample medium the buyer needs (CSF, plasma, FFPE, stool, etc). Distinct from `modality` which captures the assay/platform. "Find CSF for running methylation" → `specimen_type_needed: ["CSF"]`, `modality: ["DNA methylation"]`. If no specimen type is explicitly named, infer from modality if obvious (e.g. "stool shotgun" → stool), otherwise null + gap.
 
 ## What you produce
 
@@ -55,6 +57,10 @@ Single JSON file at `out_path`. The schema is constant across domains; the field
   "modality_inferred": false,
   "use_case_type": "model_training | biomarker_validation | pilot_exploratory | feasibility_check | pricing_only | competitive_intel | unspecified",
   "use_case_inferred": false,
+  "intent": "access | commission | mixed",
+  "intent_inferred": false,
+  "specimen_type_needed": ["CSF", "plasma", "..."],
+  "specimen_type_needed_inferred": false,
   "n_target": 0,
   "n_target_inferred": false,
   "longitudinal_required": false,
@@ -73,6 +79,8 @@ Single JSON file at `out_path`. The schema is constant across domains; the field
   "filter_for_discover": {
     "indication_match": ["..."],
     "modality_match": ["..."],
+    "intent": "access | commission | mixed",
+    "specimen_type_match": ["CSF", "plasma", "..."],
     "longitudinal_required": false,
     "min_n_usable": null,
     "commercial_use_required": false,
@@ -127,6 +135,65 @@ Single JSON file at `out_path`. The schema is constant across domains; the field
   "filter_for_discover": {
     "indication_match": ["inflammatory bowel disease", "IBD", "Crohn's disease", "ulcerative colitis"],
     "modality_match": ["stool", "fecal", "shotgun metagenomics", "metagenomic"],
+    "longitudinal_required": true,
+    "min_n_usable": null } }
+```
+
+### Three rotating commission-intent example filters
+
+**Example A commission — neuro fluid biomarker.** Request: "Find CSF from Alzheimer's patients for running DNA methylation assays, need a provider too."
+
+```json
+{ "indication": ["Alzheimer's disease"],
+  "modality": ["DNA methylation", "EPIC array"],
+  "intent": "commission",
+  "specimen_type_needed": ["CSF"],
+  "use_case_type": "biomarker_validation",
+  "n_target": null, "n_target_inferred": false,
+  "hard_negatives": ["commercial_use_allowed_false"],
+  "filter_for_discover": {
+    "indication_match": ["Alzheimer's disease", "AD"],
+    "modality_match": ["DNA methylation", "methylation array", "EPIC", "450K"],
+    "intent": "commission",
+    "specimen_type_match": ["CSF", "cerebrospinal fluid"],
+    "longitudinal_required": false,
+    "min_n_usable": null } }
+```
+
+**Example B commission — oncology tissue genomics.** Request: "Source FFPE blocks from NSCLC patients for running spatial transcriptomics, at least 100 cases."
+
+```json
+{ "indication": ["non-small cell lung cancer", "NSCLC"],
+  "modality": ["spatial transcriptomics", "Visium"],
+  "intent": "commission",
+  "specimen_type_needed": ["FFPE tissue"],
+  "use_case_type": "model_training",
+  "n_target": 100,
+  "hard_negatives": ["block_age_over_10y"],
+  "filter_for_discover": {
+    "indication_match": ["NSCLC", "lung adenocarcinoma", "LUAD"],
+    "modality_match": ["spatial transcriptomics", "Visium", "10x Genomics"],
+    "intent": "commission",
+    "specimen_type_match": ["FFPE", "FFPE tissue", "FFPE blocks"],
+    "longitudinal_required": false,
+    "min_n_usable": 100 } }
+```
+
+**Example C commission — microbiome stool sequencing.** Request: "I need stool from IBD patients to run shotgun metagenomics, pre and post biologic, cold chain documented."
+
+```json
+{ "indication": ["inflammatory bowel disease", "IBD"],
+  "modality": ["shotgun metagenomics"],
+  "intent": "commission",
+  "specimen_type_needed": ["stool"],
+  "use_case_type": "biomarker_validation",
+  "n_target": null,
+  "hard_negatives": ["no_cold_chain_documentation"],
+  "filter_for_discover": {
+    "indication_match": ["inflammatory bowel disease", "IBD", "Crohn", "ulcerative colitis"],
+    "modality_match": ["shotgun metagenomics", "metagenomics", "WGS"],
+    "intent": "commission",
+    "specimen_type_match": ["stool", "fecal"],
     "longitudinal_required": true,
     "min_n_usable": null } }
 ```

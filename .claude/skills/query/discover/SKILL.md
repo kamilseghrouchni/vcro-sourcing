@@ -58,6 +58,7 @@ The schema is constant; example values below are abbreviated to one rotation slo
       "soft_concerns": ["scoring.quality.confidence: medium — provenance depth 0.x"],
       "card": { "primary_signal": "...", "action": "...", "risk": "..." },
       "provenance_depth": 0.0,
+      "specimen_match": "has_banked_specimens | has_existing_data_only | no_specimen_info",
       "linked_institutions": ["..."],
       "linked_investigators": ["..."]
     }
@@ -66,7 +67,7 @@ The schema is constant; example values below are abbreviated to one rotation slo
     { "entity_id": "<wiki slug>", "reason": "<one sentence>" }
   ],
   "gaps": [
-    { "type": "no_match_for_field | thin_coverage | hard_negative_unaddressed | ...", "detail": "<one sentence>" }
+    { "type": "no_match_for_field | thin_coverage | hard_negative_unaddressed | specimen_gap | ...", "detail": "<one sentence>" }
   ],
   "verdict": "wiki_sufficient | wiki_partial | wiki_insufficient",
   "verdict_reason": "<one sentence the orchestrator can quote>"
@@ -144,6 +145,12 @@ The orchestrator reads `candidates.json`. The user reads `discover_report.md`.
    - A: `statin_confounded` → look in confounders (dim 4) for statin use as a covariate.
    - B: `neoadjuvant_treated` → look in confounders (dim 4) or eligibility (dim 14) for neoadjuvant exclusion or documentation.
    - C: `recent_antibiotics` → look in confounders (dim 4) for antibiotic washout window and documentation.
+5b. **Specimen-type filter (commission intent only).** If `filter_for_discover.intent == commission` or `mixed`:
+   - For each candidate, check `specimens.types` in the entity frontmatter (if the optional `specimens:` block exists). Also scan the entity body for a `## biospecimen_retention_and_types` dimension section mentioning the requested `specimen_type_match` strings.
+   - Tag each candidate with `specimen_match`:
+     - `has_banked_specimens` — entity's specimens block or dim 15 section confirms the requested specimen type is banked and accessible.
+     - `has_existing_data_only` — entity has existing data in the requested modality but no confirmed banked specimens of the needed type. Still a partial match (proves feasibility, provides a comparator).
+     - `no_specimen_info` — entity has no specimen information; the `specimens:` block is absent and dim 15 is not covered.
 6. **Score match strength** for each surviving candidate:
    - **strong** = passes every hard filter, has high or medium provenance depth (>=0.4), and addresses the user's hard_negatives.
    - **partial** = passes hard filters but has low depth (<0.4) OR leaves soft concerns unaddressed.
@@ -158,6 +165,8 @@ After candidates and rejected are populated:
 - **wiki_partial**: 1 to 2 strong candidates, OR no strong but several partials, OR strong matches exist but a critical gap (e.g. user wants ALS and only AD cohorts exist). Surface gaps; orchestrator decides.
 - **wiki_insufficient**: zero candidates pass hard filters, OR the indication has no entities at all in the wiki. Surface this loudly and recommend ingest scope.
 
+**Commission-intent verdict rule.** For `intent == commission`, `wiki_sufficient` requires at least 1 candidate with `specimen_match: has_banked_specimens`. If all candidates are `has_existing_data_only`, the verdict is `wiki_partial` -- the wiki has relevant cohorts but no confirmed specimen sourcing path. This triggers the search loop for papers that document specimen retention.
+
 The verdict is ALWAYS accompanied by a one-sentence `verdict_reason` so the orchestrator can explain the call to the user without re-deriving it.
 
 ## Hard rules
@@ -166,7 +175,7 @@ The verdict is ALWAYS accompanied by a one-sentence `verdict_reason` so the orch
 2. **No raw paper reads.** If you find yourself wanting to open `store/raw/papers/...`, stop and add a gap entry instead.
 3. **No scoring.** You produce match strength (strong/partial/weak), not Scale/Cost/Quality scores. The score skill computes those next.
 4. **Surface, do not act.** You do not call ingest. You do not write to the wiki. You do not modify request.json. You only emit `candidates.json` and `discover_report.md`.
-5. **Explicit gaps.** Every concern that affected your verdict goes in `gaps[]` with a type and a detail. Silent gaps lose information for the orchestrator.
+5. **Explicit gaps.** Every concern that affected your verdict goes in `gaps[]` with a type and a detail. Silent gaps lose information for the orchestrator. Gap type `specimen_gap` means the wiki has cohorts with matching indication/modality but no confirmed banked specimens of the requested type.
 6. **Cite the entity_id, never the canonical name, in JSON.** The deliver layer needs slugs to navigate links. Canonical names are for the markdown report.
 
 ## What you do NOT do

@@ -18,7 +18,7 @@ This file is the **short form** to inject into prompts. When you change a comman
 ```
 vCRO commandments — non-negotiable for every claim, write, and recommendation:
 1. Every fact carries a verbatim source quote, source ID, and implication. Drop the fact if any is missing.
-2. Three independent scoring axes: Scale, Cost, Quality. NEVER composite. Per-axis confidence is required.
+2. Three independent scoring axes: Scale, Cost, Quality. NEVER composite. Per-axis confidence is required. Axes flex on intent: access scores existing data; commission scores specimen availability and fitness for the intended assay.
 3. Wiki entity writes are hook-gated. Bad frontmatter = blocked write. Fix the frontmatter, do not bypass.
 4. Domain framing rotates A/B/C (neuro fluid, oncology FFPE, microbiome stool). Never default to plasma metabolomics.
 5. Wiki-first. Read store/wiki/index/ before scanning raw papers. If the wiki is thin, ingest autonomously per autonomy.md — the user's request is consent. Never ask for permission you don't need.

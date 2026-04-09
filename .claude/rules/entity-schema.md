@@ -41,6 +41,18 @@ tools that do not read floats. **0.5 is reserved as a non-default**
 (graphify rule): picking 0.5 as a placeholder is blocked by the hook.
 Use a meaningful value or stick to the bucket.
 
+**Optional — specimen availability (for commission-intent scoring):**
+
+```yaml
+specimens:
+  types: [<string>, ...]              # e.g. ["CSF", "plasma", "FFPE blocks"]
+  estimated_available_n: <number|null> # banked specimen count, not existing data points
+  access_route: <string|null>         # e.g. "NIA RARC biorepository"
+  depletion_risk: <string|null>       # e.g. "low — well-aliquoted" or "high — prior consumption unknown"
+```
+
+The `specimens` block is OPTIONAL. Existing entities without it remain valid (the hook does not validate optional blocks). When present, it enables the score skill to evaluate specimen availability for commission-intent requests independently of existing data availability. The merge skill populates it from dimension 15 (biospecimen retention) fragments and the `banked_specimens` hint from extract. The key distinction: `modality` describes the assay/data layer; `specimens.types` describes the physical material sitting in a freezer.
+
 ### cohort (when not yet promoted to data_opportunity)
 
 ```yaml

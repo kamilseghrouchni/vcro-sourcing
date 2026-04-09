@@ -22,7 +22,7 @@ The buyer-facing markdown document. Sections, in order:
 ```markdown
 # Recommendation: <one-line restatement of the request>
 
-_Generated for request `<request_id>` on <date>. Wiki entities scanned: <N>._
+_Generated for request `<request_id>` on <date>. Based on <N> cohort analyses across <M> institutions._
 
 ## What you asked for
 
@@ -41,6 +41,16 @@ In structured form:
 <discover.verdict in plain English: wiki sufficient / partial / insufficient>
 
 <one paragraph from discover.verdict_reason explaining why>
+
+## Finding types
+
+The candidates below are grouped by what they offer the buyer:
+
+- **Sourcing paths** — banked specimens exist; the assay must be commissioned. These lead for commission-intent requests.
+- **Recommended cohorts** — existing data matches the request. These lead for access-intent requests.
+- **Alternative approaches** — neither data nor specimens match directly; a pivot is suggested.
+
+Read `finding_type` from each candidate in `scored_candidates.json` to assign the group.
 
 ## Recommended cohorts
 
@@ -86,6 +96,49 @@ For each scored candidate, in axis-confidence-weighted order (see ordering rule 
 ### 2. <next candidate, same shape>
 ...
 
+## Sourcing paths
+
+For each scored candidate with `finding_type: sourcing_path`, in specimen-count-descending order:
+
+### Source: <specimen_type> from <canonical_name>
+**Entity ID:** `<slug>`  |  **Specimens:** <type> (n=<estimated_available_n>)  |  **Access:** <access_route>
+
+- **Specimen count:** <estimated_available_n> [verified|inferred]
+- **Cost per specimen:** <cost.legs.source.estimate> [verified|inferred|blocked]
+- **Consent / commercial use:** <consent_status> [verified|open_question]
+- **Depletion risk:** <depletion_risk> [verified|inferred|open_question]
+- **Collection protocol:** <dim 20 summary — tube type, centrifugation, time-to-freeze> [verified|open_question]
+- **Case-matching metadata:** <available clinical variables for post-hoc matching> [verified|inferred]
+
+### QC / validation risk
+- **Challenge:** <specimen-specific QC concern, e.g. "CSF cfDNA yield is 1-100 ng/mL — low for EPIC input">
+- **Closest analogue:** <reference to prior work on this specimen+assay combo, with [ref: PMC...]>
+- **Recommendation:** <concrete QC step, e.g. "pilot QC on first 10 specimens before full run">
+- **Estimated cost:** <cost.legs.screening_qa.estimate> [verified|inferred|blocked]
+
+### Assay provider
+- **Intended assay:** <from request.modality>
+- **Known providers:** <list from wiki platform entities or pricing-data.md — name, location, capability>
+- **Estimated cost per sample:** <cost.legs.assay.estimate> [verified|inferred|blocked]
+
+### Total sourcing path
+| Leg | Estimate | Evidence |
+|---|---|---|
+| Specimen source | ... | ... |
+| QC / validation | ... | ... |
+| Assay | ... | ... |
+| **Total** | ... | ... |
+
+Timeline: <end-to-end calendar estimate from request to data>
+
+## Alternative approaches
+
+For each scored candidate with `finding_type: pivot`:
+
+- **Why the direct path does not exist:** <one sentence>
+- **Suggested pivot:** <one concrete alternative approach>
+- **Evidence for the pivot:** <cite from wiki entities or search findings>
+
 ## Rejected candidates
 
 For each entry in `candidates.rejected`, one line: **`<entity_id>`** — <reason>.
@@ -128,7 +181,8 @@ Each line follows the schema below. The fields are constant; the values rotate p
     "investigators": ["..."],
     "platforms":     ["..."]
   },
-  "match_strength": "strong | partial | weak"
+  "match_strength": "strong | partial | weak",
+  "finding_type": "direct_match | sourcing_path | pivot"
 }
 ```
 
@@ -156,6 +210,8 @@ Per blueprint Part 19. One line per wiki entity that THIS query touched (read, s
 
 ## Ordering rule
 
+**Finding-type ordering.** For commission-intent requests, `sourcing_path` candidates appear before `direct_match` candidates regardless of axis confidence. Within sourcing_path, order by: (a) specimen_match == has_banked_specimens first, (b) specimen count descending, (c) cost confidence. For access-intent requests, the existing ordering rule (below) applies to all candidates.
+
 Within "Recommended cohorts", order candidates by:
 
 1. `match_strength` (strong before partial before weak).
@@ -180,6 +236,7 @@ This ordering is NOT a composite ranking — it is a presentation order designed
    - `[blocked]` — the claim is knowable but was not retrievable in this run. Example: "pricing quote required from vendor [blocked]". Distinct from open_question in that the answer exists somewhere but needs a human step to unblock.
 
    Untagged claims are a lint violation (`lint/consistency` flags them). The numeric `confidence_score` from `scored_candidates.json` does not replace the label — the label tells the buyer *why* a claim is trusted; the score tells them *how much*.
+9. **Never say "Wiki partial" or "Wiki entities scanned: N" to the buyer.** The wiki is infrastructure. The buyer sees "Based on N cohort analyses across M institutions" — product language, not internal state. If the result is thin, say so with subject-matter framing ("No published study has performed X on Y"), not wiki-state framing ("the wiki has 3 weak matches").
 
 ## What you do NOT do
 

@@ -30,7 +30,13 @@ a valid fragments file on the next run.
 
 1. The frontmatter (for source IDs you must cite).
 2. The full body text. Do not skim. The most load bearing sentences are usually in Methods, Results tables, Acknowledgements, and Data Availability.
-3. `references/intelligence-dimensions.md` for the 21 dimension vocabulary. You do not need to memorize it; pick the 5 to 8 dimensions that actually have evidence in this paper.
+3. `references/intelligence-dimensions.md` for the 21 dimension vocabulary. You do not need to memorize it; pick the 5 to 8 dimensions that actually have evidence in this paper. **Specimen-centric dimensions are high-priority**: when the paper mentions banked specimens, biorepository access, collection protocols, or specimen retention, you MUST include the relevant subset of:
+   - **Dim 10** (sample depletion risk) — aliquots remaining, prior consumption, replenishment
+   - **Dim 15** (biospecimen retention and types) — what's banked, in what format, at what volume
+   - **Dim 19** (provenance chain) — from patient to freezer to assay, broker involvement
+   - **Dim 20** (collection protocol detail) — tube type, centrifugation, time-to-freeze, storage
+   - **Dim 21** (institutional capacity) — trial count, biobank staff, prior commercial requests
+   These dimensions are the backbone of commission-intent queries. If the paper has specimen-level facts and you omit them, the buyer loses the sourcing path. Look in: Methods (specimen collection subsection), Data Availability (biorepository pointers), Trial metadata (`biospecimen_retention`, `biospecimen_description`), Acknowledgements (naming specimen providers).
 4. `.claude/rules/example-rotation.md` for the locked A/B/C example rotation. The shape below is shown in three rotating examples so you do not silently assume the input paper is plasma metabolomics.
 
 ## What you produce
@@ -57,7 +63,16 @@ A single JSON object written to stdout. The schema is constant across domains; t
         "parent_institution_hint": "<institution or consortium that owns the cohort>",
         "evidence_quote": "verbatim text from paper.md",
         "rationale": "one sentence on why this is one cohort and not several",
-        "signal": "published_cohort | hospital_inventory_signal | surplus_trial_samples | biobank_self_reported"
+        "signal": "published_cohort | hospital_inventory_signal | surplus_trial_samples | biobank_self_reported",
+        "banked_specimens": [
+          {
+            "specimen_type": "CSF | plasma | serum | FFPE | stool | DNA | ...",
+            "estimated_n": null,
+            "storage_format": "frozen aliquots at -80C | FFPE blocks | ...",
+            "source_quote": "verbatim from paper.md",
+            "access_route_hint": "NIA RARC biorepository | institutional biobank | ..."
+          }
+        ]
       }
     ],
     "institutions": [
@@ -134,6 +149,14 @@ A single JSON object written to stdout. The schema is constant across domains; t
 }
 ```
 
+**Specimen-centric example fragments (dimension 15 — biospecimen retention):**
+
+**A:** `{"dimension": 15, "dimension_name": "biospecimen_retention_and_types", "fact": "ADNI retains plasma, serum, DNA, CSF, and iPSC; CSF aliquots banked at NIA RARC at $29.09/vial; 202 subjects have same-visit CSF + blood EPIC methylation", "source_quote": "Blood and CSF samples were collected from each individual at intervals of 6-12 months... biospecimens available through NIA RARC", "section": "Methods / Sample collection", "implication": "CSF aliquots exist for assays not yet run — the buyer can commission EPIC methylation on CSF from the same subjects who already have blood methylation data, enabling a cross-matrix comparison", "confidence": "high", "confidence_score": 0.92}`
+
+**B:** `{"dimension": 15, "dimension_name": "biospecimen_retention_and_types", "fact": "TCGA-LUAD retains 522 FFPE blocks + matched frozen tissue + adjacent normal; blocks stored at BSA site, sectioning history includes IHC + WES + RNA-seq", "source_quote": "...", "implication": "Remaining block material may be insufficient for spatial transcriptomics after 3 prior sectioning rounds — depletion check needed before commissioning", "confidence": "medium", "confidence_score": 0.7}`
+
+**C:** `{"dimension": 15, "dimension_name": "biospecimen_retention_and_types", "fact": "PRISM IBD retains whole stool aliquots at -80 plus DNA extracts; 1,300 subjects with ≥2 timepoints", "source_quote": "...", "implication": "DNA extracts enable re-sequencing on alternative platforms without requesting new stool samples; freeze-thaw count on whole aliquots is undocumented", "confidence": "high", "confidence_score": 0.88}`
+
 The three examples share zero surface vocabulary on purpose. If your output uses lipidomics framing on an FFPE paper, or fixation framing on a stool paper, the dimension cues are wrong — re-read the paper and pick from the dimension vocabulary, not from the example narrative.
 
 ## Hard rules
@@ -141,7 +164,7 @@ The three examples share zero surface vocabulary on purpose. If your output uses
 0. **Numeric `confidence_score` is required alongside the bucket.** Range 0.0-1.0. **0.5 is reserved as a non-default** — graphify's rule, and the pre-write hook blocks frontmatter writes that use 0.5. Anchor points: 0.95 direct quoted fact, 0.80 clearly stated but inferred unit, 0.65 load-bearing but partial, 0.35 tentative from context, 0.15 speculative. The three-bucket `confidence` (`low|medium|high`) is still emitted for back-compat; the score is the authoritative signal for lint ranking.
 1. **Every fragment carries a verbatim `source_quote`** from the paper.md. No paraphrase. If you cannot find a quote, do not emit the fragment.
 2. **Every fragment carries an `implication`** that finishes the sentence "which means for the buyer's project ...". If you cannot finish that sentence, drop the fragment. Facts without consequences are noise.
-3. **Pick 5 to 8 dimensions per cohort, not all 21.** Pick the dimensions that actually have evidence in this paper. A paper that never mentions consent should not produce a consent fragment.
+3. **Pick 5 to 8 dimensions per cohort, not all 21.** Pick the dimensions that actually have evidence in this paper. A paper that never mentions consent should not produce a consent fragment. **Exception: when the paper documents biospecimen types banked beyond the published assay, always include dimension 15 (biospecimen retention and types).** This is the fact that enables commission-intent queries — omitting it hides the sourcing path from downstream scoring. Also populate `banked_specimens` in the cohort entity_hint when you emit a dim 15 fragment.
 4. **Negative results count.** "We tried X and it failed" is intelligence. Emit a fragment with `dimension: 11` (negative_results).
 5. **Cohort granularity matters.** Two collections from the same parent study but with different sample medium, assay platform, or collection wave are SEPARATE cohorts. Examples: A — ADNI Phase 1 plasma lipidomics vs ADNI Phase 2 metabolomics. B — TCGA-LUAD whole-exome vs TCGA-LUAD RNA-seq (same cases, different layer). C — HMP1 healthy stool vs HMP2 IBD stool (different recruitment wave). Use candidate_name to disambiguate; the resolve phase collapses true aliases.
 6. **Do NOT invent institution capacity numbers.** If the paper does not state how many samples a biobank holds, leave it for the lint phase to enrich. Better to emit fewer high quality fragments than to guess.

@@ -15,9 +15,19 @@ Brokers and competitors return a single ranked list. The ranking embeds the brok
 
 The score skill MUST emit all three. Deliver MUST render all three. Listings.jsonl MUST project all three. The web app MUST display all three side by side.
 
+## Intent-dependent axis interpretation
+
+The three axes are structurally stable across all intents. What changes is the **evidence** that populates them. The `intent` field in `request.json` (set by `query/understand`) selects the interpretation:
+
+- **Access intent** (buyer wants existing data): Scale = existing data points matching the request. Cost source leg = data access fee. Quality pre-analytical = existing data QC and batch effects.
+- **Commission intent** (buyer wants specimens for running new assays): Scale = banked specimens of the requested type. Cost source leg = specimen acquisition fee (biobank vial cost, shipping). Cost assay leg = provider quote for the intended assay. Quality pre-analytical = specimen fitness for the intended assay — freeze-thaw history, aliquot volume, expected DNA/RNA yield, storage conditions. The load-bearing quality question is: will this banked specimen produce signal when subjected to the buyer's assay? Dimension 20 (collection protocol detail) is the key evidence.
+- **Mixed intent** (buyer wants both, or ambiguous): both assessments rendered in parallel within each axis. The buyer sees "existing data: X" and "specimen sourcing: Y" side by side.
+
+The structural rule ("three axes, never composite, per-axis confidence") does NOT change. The content rule ("what evidence populates each axis") flexes.
+
 ## Axis 1: Scale
 
-The single number that matters is **`usable_n_for_request`**, NOT headline N. Headline N is the cohort's published size; usable N is the count of subjects that survive filtering by the request's criteria (sample type, longitudinal requirement, disease subset, treatment naivety, etc.).
+The single number that matters is **`usable_n_for_request`**, NOT headline N. For commission intent, this counts banked specimens of the requested type, not existing data points. "ADNI has 202 subjects with banked CSF" — the 202 is vials requestable, not EPIC arrays generated. Headline N is the cohort's published size; usable N is the count of subjects that survive filtering by the request's criteria (sample type, longitudinal requirement, disease subset, treatment naivety, etc.).
 
 Required fields:
 - `usable_n` — the cohort's stated headline figure with a verbatim quote.
@@ -27,7 +37,7 @@ Required fields:
 
 ## Axis 2: Cost (three legs, always)
 
-Three legs, always:
+Three legs, always. For commission intent, the source leg is specimen acquisition cost (biobank fee, shipping), not data portal access fee. The assay leg is the provider quote for the buyer's intended assay:
 
 - **source** — cost to acquire the raw data or biospecimens.
 - **screening_qa** — cost to verify the samples are fit for the buyer's specific assay (re-QC, depletion check).
@@ -45,7 +55,7 @@ After the legs:
 
 ## Axis 3: Quality (four sub-axes)
 
-1. **Pre-analytical** — the operational attributes that determine whether the sample produces signal. Domain-specific. Per the locked rotation in `.claude/rules/example-rotation.md`: A fasting + tube type + freeze-thaw, B fixation time + block age + tumor purity, C cold chain + container preservative + time-to-freeze.
+1. **Pre-analytical** — the operational attributes that determine whether the sample produces signal. Domain-specific. Per the locked rotation in `.claude/rules/example-rotation.md`: A fasting + tube type + freeze-thaw, B fixation time + block age + tumor purity, C cold chain + container preservative + time-to-freeze. For commission intent, pre-analytical evaluates **specimen fitness for the INTENDED assay**, not existing data processing quality. The load-bearing question is: will this banked specimen produce signal when subjected to the buyer's assay? Dimension 20 (collection protocol detail) is the key evidence source.
 2. **Confounders** — documented exposures or attributes that alter the readout. Also domain-specific: A lipid-modifying drugs, B neoadjuvant treatment, C antibiotics.
 3. **Platform validation** — has THIS exact sample+platform combo produced reproducible results elsewhere? Look at the linked platform entity's `referenced_by` count.
 4. **Provenance depth** — the mechanical metric: fraction of dimensions covered.
