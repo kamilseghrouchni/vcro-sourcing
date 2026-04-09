@@ -353,3 +353,38 @@ dogfooded, and green.
 - Deferred: Phase 5 (docs site) and Phase 6 (landing page) — both need design decisions.
 
 **Next.** Tag v0.1.0, push, dogfood `vcro query` with the new UX under a real claude dispatch.
+
+## 2026-04-09 — Product reframe: score specimens, not existing data
+
+**Trigger.** Reviewing the AD/ALS CSF DNA methylation recommendation.
+The buyer asked "find patient samples for running methylation assays"
+(commission intent). The system treated it as "find existing
+methylation data" (access intent) and scored 6 cohorts on their blood
+EPIC data quality. The actual answer — 4 cohorts have banked CSF, the
+assay is the missing leg, here's the provider + cost path — was buried
+in footnotes.
+
+**Root cause.** The scoring axes and deliver format were hard-coded for
+access intent (score existing data) when the blueprint explicitly
+defines them for specimen sourcing ("who has what samples, at what
+quality, at what cost, how to access them"). The implementation drifted
+from the blueprint.
+
+**Design note logged.** `.claude/docs/product-scoring-reframe.md`
+captures: (a) the access vs commission intent distinction, (b) how
+the three axes flex based on intent, (c) the three deliver shapes
+(direct match / sourcing path / pivot), (d) the routing fix (detect
+"for running [assay]" as bounty, not query), (e) a concrete example
+of what the CSF methylation answer should look like.
+
+**Blueprint alignment.** The blueprint (Part 1) defines Scale as
+"estimated available N after filtering by sample type, disease status,
+consent scope" — specimen count, not data-point count. Cost is
+"sample acquisition + screening/QA + assay" — freezer to data. Quality
+is "will the samples produce the signal" — specimen fitness, not
+existing-data quality. All three are specimen-centric from the start.
+
+**Next actions.** Update understand skill (intent classification),
+vcro-os routing (commission → bounty), deliver skill (three format
+shapes), score skill (axes flex). No pipeline changes needed — the
+extract already captures specimen-level facts.
