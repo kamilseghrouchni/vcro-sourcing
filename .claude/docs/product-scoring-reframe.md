@@ -120,6 +120,77 @@ The first-order pains listed in the blueprint (Part 1 § First-order pains) are 
 
 The system should always be ready to propose commissioning a new assay on banked specimens — that's the normal case in this market, not the exception. Most cohorts with banked biospecimens have NOT had every possible assay run on them. The buyer's question "find samples for running X" is the primary use case, not an edge case the system handles as a fallback.
 
+## What the blueprint already covers that the recommendation missed
+
+Reading the blueprint end-to-end, the system is designed to answer **seven first-order pains** (Part 1 § First-order pains), not just "what existing data is available":
+
+1. **Demographics** — right patient population (disease, stage, ancestry, age). The recommendation addressed this correctly (AD/ALS split, APOE, age ranges).
+2. **Quality / fit for purpose** — samples must be fit for the *intended* assay. "EDTA plasma for LC/MS. Citrate for coagulation. Heparin for NMR. Mismatches produce noise." The recommendation scored existing blood EPIC quality instead of CSF specimen fitness for EPIC input. This is the core miss.
+3. **Scale** — hundreds of samples, multi-site aggregation. Addressed correctly (N counts present, multi-site potential noted).
+4. **Diversity** — ancestry composition. Partially addressed (EMIF-AD >99% European noted).
+5. **Ethics and legal** — consent scope, commercial use, GDPR, export. The recommendation correctly flagged commercial-use gaps for 4/6 candidates but buried it in Quality sub-axis instead of surfacing it as a top-level gate.
+6. **Pricing opacity** — rate cards, benchmarking. The three-leg cost model was present but all legs said "quote required." The recommendation should have connected to `references/pricing-data.md` for verified analogues and named the $29.09/vial ADNI figure louder.
+7. **Network fragmentation** — samples scattered across hospitals, biobanks, trials, commercial inventories. The recommendation DID find that samples are distributed (EMIF-AD across 11 sites vs ADNI centralized at NIA RARC) but didn't rank by access consolidation.
+
+### Dimensions the recommendation under-weighted
+
+From Part 9 (Intelligence Dimensions), several dimensions are critical for commission-intent queries but were under-represented:
+
+- **Dim 10: Sample depletion risk** — aliquots, prior consumption, replenishment. Not mentioned for any candidate. How many CSF aliquots exist per subject? Have they been partially consumed for protein assays? Critical for knowing if enough DNA remains for EPIC input.
+- **Dim 15: Biospecimen retention and types** — what's banked. The papers explicitly mention "biospecimen_retention: SAMPLES_WITH_DNA" and "biospecimen_description: plasma, serum, DNA, CSF, iPSC" (from trial metadata). The recommendation treated these as background facts instead of the primary answer.
+- **Dim 19: Provenance chain** — where samples originated, which institution collected them, whether a broker was involved. Partially addressed via linked entities but not surfaced as a buyer-facing transparency signal.
+- **Dim 20: Collection protocol detail** — tube type with catalog number, centrifugation protocol, time from LP to freeze, aliquot volume, storage system. NOT MENTIONED ONCE. For a commission-intent query, this is the single most important quality dimension — it determines whether the banked CSF is fit for EPIC input.
+- **Dim 21: Institutional capacity** — how many trials this institution has run, dedicated biobank staff, processed commercial requests before. Not scored. For a commission query, institutional capacity to fulfill a specimen request is directly relevant.
+
+### The opportunity_type model (Part 15) already handles this
+
+The blueprint defines 6 opportunity types. For the CSF methylation case, the relevant framing is:
+
+- The existing cohort entities are `published_cohort` — they document what was measured. This is what the recommendation scored.
+- But the BUYER'S opportunity is closer to `hospital_inventory_signal` — "a trial record or paper implying a hospital holds inventory beyond what was published." ADNI collected CSF. The CSF is banked. Nobody has run methylation on it. That's a hospital inventory signal inferred from the published cohort entity.
+
+The recommendation should have created or surfaced `hospital_inventory_signal` entities for "ADNI banked CSF available for custom assays" alongside the `published_cohort` entities for "ADNI blood EPIC methylation data." Two entities, two opportunity types, from the same source — one is the data, the other is the specimen.
+
+### The bundle model (Part 17) is the right output format
+
+For commission-intent queries, the answer is a **bundle** — a three-leg composition:
+- **Source leg** — entity pointing to the biobank holding CSF specimens (ADNI NIA RARC, $29.09/vial)
+- **Screening/QA leg** — entity pointing to the QC step (low-input DNA extraction from CSF, yield validation, contamination check per Navarra experience)
+- **Assay leg** — entity pointing to the array provider (Diagenode/EpigenDx/Zymo/Active Motif, $150-250/sample EPIC)
+
+The recommendation listed all three legs but scattered them across 6 candidate cards + a gaps section + a provider table instead of composing them into 1-2 concrete bundles. The bounty workflow already knows how to produce bundles; the routing error (query instead of bounty) prevented it.
+
+### What the scoring should have looked like for ADNI CSF
+
+```
+Scale:
+  banked_specimens: ~202 CSF aliquots (same-visit as blood EPIC)
+  estimated_available: "unknown — depends on prior consumption for protein assays"
+  confidence: medium (specimen count inferred from published N, aliquot status unknown)
+
+Cost (three legs):
+  source: $29.09/vial via NIA RARC (verified, references/pricing-data.md)
+  screening_qa: quote required — low-input DNA extraction + QC for EPIC
+  assay: $150-250/sample EPIC array (inferred from references/pricing-data.md)
+  total_known: $180-280/sample + NIA processing
+  within_budget: unknown (buyer did not specify budget)
+
+Quality:
+  pre-analytical: UNKNOWN for CSF DNA methylation. ADNI CSF collected for
+    protein biomarkers — tube type, centrifugation, time-to-freeze for CSF
+    are documented, but DNA quality/yield from these specimens is untested.
+    Collection protocol detail (dim 20) is the critical gap.
+  confounders: GOOD — APOE, age, sex, diagnosis all documented and available
+    for post-hoc matching.
+  platform_validation: NONE — no one has run EPIC on ADNI CSF. The Navarra
+    experience (plasma cfDNA EPIC, ~50% contamination) is the closest analogue
+    and it failed. CSF may differ (higher neuronal fraction).
+  provenance_depth: 0.48 (existing blood entity) — but this is for the blood
+    data, not the CSF specimen path.
+```
+
+That's what specimen-centric scoring looks like. It directly answers: can I get these samples, what will it cost, will they work for my assay?
+
 ## What this does NOT change
 
 - The wiki structure stays. Entities are still cohorts, institutions, platforms.
