@@ -52,18 +52,26 @@ def _cyan(t):   return _c("36", t)
 def _yellow(t): return _c("33", t)
 def _red(t):    return _c("31", t)
 
-BANNER = (
-    "  ┌────────────────────────────────┐\n"
-    "  │  vCRO v{ver}                   │\n"
-    "  │  cohort intelligence agent     │\n"
-    "  └────────────────────────────────┘"
-)
+def _make_banner(ver):
+    """Build the banner with Unicode box-drawing. Computed at call time
+    so character widths are handled explicitly."""
+    lines = [
+        "         ╦  ╦╔═╗╦═╗╔═╗",
+        "┌────────╚╗╔╝║  ╠╦╝║ ║────────┐",
+        "│ cohort  ╚╝ ╚═╝╩╚═╚═╝        │",
+        f"│ intelligence agent    v{ver}  │",
+        "└──────────────────────────────┘",
+    ]
+    # Pad all lines to same visible width inside the box
+    return "\n".join(f"  {l}" for l in lines)
+
+BANNER = ""  # set dynamically in print_banner
 
 def print_banner():
     if not _is_tty():
         return
-    b = BANNER.format(ver=__version__)
-    for line in b.strip().splitlines():
+    b = _make_banner(__version__)
+    for line in b.splitlines():
         print(_dim(line), file=sys.stderr)
     print(file=sys.stderr)
 
