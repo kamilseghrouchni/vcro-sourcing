@@ -24,6 +24,34 @@ The buyer-facing markdown document. Sections, in order:
 
 _Generated for request `<request_id>` on <date>. Based on <N> cohort analyses across <M> institutions._
 
+---
+
+**Can you get it?** <one sentence: yes with caveats / partially / no — cite the discover verdict in plain English>
+
+**Best path:** <one sentence: the single strongest candidate, its usable_n_for_request, and the access route>
+
+**What blocks it:** <one sentence: the single biggest gap or decision gate before the buyer can act>
+
+---
+
+## Sourcing paths at a glance (commission intent only)
+
+If `request.intent` is `commission` or `mixed`, render a chain table immediately after the header. Read `sourcing_chain` from each candidate in `scored_candidates.json`. One row per sourcing path. Columns are the link types present in the chains (they flex per query — not every chain has the same columns). Each cell shows the answer + evidence state tag.
+
+Evidence state tags: `[grounded]` = cited source the buyer can verify. `[inferred]` = deduced from grounded facts. `[open]` = unknown, with a note on what was tried.
+
+```markdown
+| Path | Specimens | Fit? | Provider | Cost | Timeline |
+|------|-----------|------|----------|------|----------|
+| <source>→<provider> | <n> [state] | <verdict> [state] | <name, location> [state] | <range or "quote"> [state] | <estimate> [state] |
+```
+
+The table IS the recommendation for commission intent. Every row is a complete sourcing path the buyer can evaluate in one glance. The detailed per-candidate sections below are drill-down.
+
+For access intent, skip this table entirely — the three-axis scoring sections serve that intent.
+
+---
+
 ## What you asked for
 
 > <verbatim request.original_text>
@@ -160,7 +188,20 @@ If the buyer wants to deepen confidence in any candidate, the open path is to in
 
 Per blueprint Part 16, one JSON line per candidate, projected from the scored block. This is what the web app reads. NO HTML, NO prose — only the listing schema fields.
 
-Each line follows the schema below. The fields are constant; the values rotate per the locked A/B/C example rotation in `.claude/rules/example-rotation.md`.
+The FIRST line of `listings.jsonl` is a recommendation-level summary object (not a candidate):
+
+```json
+{
+  "_type": "recommendation_summary",
+  "can_you_get_it": "<one sentence>",
+  "best_path": "<one sentence>",
+  "what_blocks_it": "<one sentence>",
+  "candidate_count": 0,
+  "sourcing_path_count": 0
+}
+```
+
+Subsequent lines follow the per-candidate schema below. The fields are constant; the values rotate per the locked A/B/C example rotation in `.claude/rules/example-rotation.md`.
 
 ```json
 {
@@ -243,7 +284,7 @@ This ordering is NOT a composite ranking — it is a presentation order designed
 - Do not score. Do not rank by a composite. Do not invent facts.
 - Do not modify the wiki. Do not write to `store/wiki/`.
 - Do not call md_to_notion.py unless `notion_post` is explicitly true.
-- Do not write a "TL;DR" or "Executive summary". The Verdict section IS the TL;DR. Adding more rollups dilutes the axes.
+- Do not write additional summaries beyond the three-line header block (Can you get it? / Best path / What blocks it). That block IS the executive summary. The Verdict section adds context. Adding more rollups dilutes the axes.
 
 ## When there are zero candidates
 

@@ -14,17 +14,20 @@ This is the platform's core differentiator. Brokers and competitors return a sin
 - `candidates_path`: absolute path to a `candidates.json`.
 - `request_path`: absolute path to the corresponding `request.json` (so you can apply request-specific weighting hints to evidence quality, never to the score itself).
 - `wiki_root`: absolute path to `store/wiki/`.
-- `pricing_ref`: absolute path to `references/pricing-data.md`. Used as the pricing anchor for the cost axis.
+- `pricing_ref`: absolute path to `references/pricing-data.md`. Fallback cache for cost estimates — use entity articles and live research first, `pricing-data.md` only when no better source exists.
 - `out_path`: absolute path where you write `scored_candidates.json`. Conventionally `<query_dir>/scored_candidates.json`.
 
 ## What you read
 
 1. `candidates.json` — the survivor set from discover. You score only these.
-2. `request.json` — for `n_target`, `hard_negatives`, and `scope_notes`. The score axes do NOT change based on the request, but the EVIDENCE you cite within them is request-specific (e.g. for an AD validation request you cite the AD-relevant N, not headline N).
+2. `request.json` — for `n_target`, `hard_negatives`, `use_case_type`, and `scope_notes`. The score axes do NOT change based on the request, but the EVIDENCE you cite within them is request-specific.
 3. The full entity article for each candidate cohort: frontmatter + every dimension section. This is where Scale's usable_n, Quality's pre-analytical, and Cost's access route come from.
-4. Linked institution and platform articles for context (parent_institution, assay_platform). The platform article is where the assay leg of cost lives.
-5. `references/pricing-data.md` — the verified pricing anchors. Cite specific lines, not vibes.
-6. NOTHING from `store/raw/` and NO web search.
+4. Linked institution and platform articles for context (parent_institution, assay_platform).
+5. `references/pricing-data.md` — fallback pricing cache. Prefer pricing documented in entity articles or from live research. Use `pricing-data.md` only when no entity-level or live pricing exists. Always cite the source.
+6. `references/providers/<provider>-<assay>.md` — if this file exists for the requested assay, use it to evaluate specimen fitness. Each entry cites a manufacturer protocol or methods paper. If the file doesn't exist, pre-analytical fitness assessment is limited to what the entity article itself documents (which may mean verdict = `missing`). Do NOT substitute your own knowledge of assay requirements.
+7. `store/queries/<slug>/search/prior_art.json` — if this file exists, it contains papers that ran the same or analogous assay on the same specimen type. Use it to populate `platform_validation` and strengthen (or weaken) the `pre_analytical` verdict. A direct prior art hit with `outcome: success` is the strongest evidence for fit-for-purpose.
+8. `store/queries/<slug>/search/providers.json` — if this file exists, it contains assay providers found during the search phase. Use it to populate `cost.legs.assay` with grounded per-sample pricing and provider names. Cite the provider's URL.
+9. NOTHING from `store/raw/` and NO web search. NOTHING from your training data.
 
 ## Intent-dependent axis interpretation
 
@@ -34,10 +37,23 @@ Read `request.json` field `intent` (access | commission | mixed). The three axes
 
 **For `commission` intent**: axes score specimen availability and fitness for the intended assay.
 - **Scale**: `usable_n_for_request` = estimated banked specimens of the requested type, NOT existing data points. Read the entity's `specimens.estimated_available_n` or dimension 15 section.
-- **Cost**: source leg = specimen acquisition fee from `references/pricing-data.md` or the entity's access route. Assay leg = provider quote for the intended assay. Screening_qa leg = specimen validation/QC cost (e.g. low-input DNA extraction QC).
-- **Quality**: pre-analytical evaluates SPECIMEN FITNESS for the intended assay. Questions: freeze-thaw history? Volume per aliquot? Storage temperature? Expected DNA/RNA yield for the buyer's assay input? Dimension 20 (collection protocol detail) is the key evidence. The load-bearing question is: "will this banked specimen produce signal when subjected to the buyer's assay?" If dim 20 is not covered, pre-analytical verdict is `missing` for commission intent.
+- **Cost**: source leg = specimen acquisition fee from `references/pricing-data.md` or the entity's access route. Assay leg = provider quote for the intended assay. Screening_qa leg = specimen validation/QC cost (e.g. low-input DNA extraction QC). Every cost figure must cite its source — if no source exists in the entity or references, the leg is `"quote required" [open_question]`.
+- **Quality**: pre-analytical evaluates SPECIMEN FITNESS for the intended assay. The assessment is **assay-relative**: if `references/providers/<assay>.md` exists, compare the entity's documented specimen attributes against the assay's stated requirements. If the reference file doesn't exist, state what the entity documents and verdict = `missing — no assay requirements reference available`. Do NOT fill assay requirements from training data. Questions to answer from the entity article: freeze-thaw history? Volume per aliquot? Storage temperature? Expected DNA/RNA yield? Dimension 20 (collection protocol detail) is the key evidence. The load-bearing question is: "will this banked specimen produce signal when subjected to the buyer's assay?" If dim 20 is not covered, pre-analytical verdict is `missing` for commission intent.
 
 **For `mixed` intent**: score BOTH. Include two parallel assessments: existing-data score and specimen-sourcing score. The deliver skill renders both for the buyer.
+
+## finding_type assignment — mandatory for every candidate
+
+Use this table. Do NOT guess. Read `intent` from request.json and `specimen_match` from candidates.json:
+
+| intent | specimen_match | finding_type |
+|--------|----------------|-------------|
+| access | any | `direct_match` |
+| commission | `has_banked_specimens` | `sourcing_path` |
+| commission | `has_existing_data_only` | `direct_match` (comparator — existing data proves feasibility) |
+| commission | `no_specimen_info` | `pivot` |
+| mixed | `has_banked_specimens` | `sourcing_path` |
+| mixed | any other | `direct_match` |
 
 ## What you produce
 
@@ -88,7 +104,8 @@ The schema is constant across domains. The locked A/B/C example rotation in `.cl
         "primary_signal": "<<= 200 chars, request-specific>",
         "action": "<verb phrase, addresses the buyer's gaps>",
         "risk": "<single biggest unknown for THIS request>"
-      }
+      },
+      "sourcing_chain": null
     }
   ],
   "finding_type_legend": "`finding_type` classifies what this candidate offers. `direct_match` = existing data matches the request. `sourcing_path` = banked specimens exist, assay must be commissioned. `pivot` = neither data nor specimens match directly; alternative approach needed. The deliver skill uses `finding_type` to select the output format for each candidate.",
@@ -211,6 +228,49 @@ Deliver renders this card, not the entity's stored card.
 
 **For `sourcing_path` candidates:** the card fields reframe: `primary_signal` = banked specimen count + type + access route (not existing data count). `action` = specimen request step + assay provider contact (not data portal login). `risk` = specimen fitness uncertainty for the intended assay (not existing data quality caveat).
 
+## sourcing_chain (commission intent only)
+
+For commission and mixed intent, each candidate gets a `sourcing_chain` — the full path from specimen to data. For access intent, set `sourcing_chain: null`.
+
+The chain is an ordered list of **links**. Each link answers one question, cites its evidence, and carries a state. The link types flex per query — not every chain has the same links. The structure is constant:
+
+```json
+"sourcing_chain": [
+  {
+    "link": "<link type>",
+    "question": "<what this link answers>",
+    "answer": "<concise answer or 'unknown'>",
+    "evidence": "<entity article section | provider file | prior_art.json entry | pricing-data.md line | 'none found'>",
+    "state": "grounded | inferred | open",
+    "note": "<one sentence on what the buyer should do if state is open>"
+  }
+]
+```
+
+### Standard link types for commission intent
+
+Build the chain from these link types. Include a link ONLY if it's relevant to the query. Skip links that don't apply.
+
+1. **specimen_source** — Where are the specimens? Who holds them? How many match the request?
+2. **specimen_fitness** — Will these specimens produce signal for the intended assay? Compare what the entity documents (dim 15, dim 20) against the provider's stated requirements (from `references/providers/<provider>-<assay>.md`). If prior art exists (`prior_art.json`), cite it — a successful prior study on the same matrix is the strongest fitness evidence.
+3. **provider** — Who runs the assay? What are their stated specimen requirements? Where are they located? Populate from `providers.json` and `references/providers/` files. If multiple providers were found, pick the best match for this candidate (geography, matrix validation, pricing) and note alternatives.
+4. **cost** — What does the full path cost? One sub-entry per cost component (specimen acquisition, shipping, QC, assay). Each cites its source or says "quote required [open]".
+5. **logistics** — What's the timeline? What regulatory steps are needed (DUA, MTA, import permit)? Populated from entity card + provider turnaround.
+6. **prior_art** — Has this exact assay × specimen × indication been done before? Populated from `prior_art.json`. A direct hit with outcome=success is the single strongest signal that the path works.
+
+### How to pair candidates with providers
+
+Read `providers.json` (if it exists). For each scored candidate:
+- If the candidate's specimen type matches a provider's `specimen_types_accepted`, pair them.
+- If multiple providers match, produce the chain with the BEST-grounded provider (most links grounded). Note alternatives in the provider link's `note` field.
+- If no provider matches, set the provider link to state=open with note="No provider found for this assay × specimen combination; the gap-resolution step may have searched and failed — check search_history.jsonl."
+
+### Evidence states
+
+- **grounded**: the answer cites a specific source the buyer can verify (URL, PMC ID, entity article section, pricing-data.md line with its own source).
+- **inferred**: reasonable deduction from grounded facts, but not directly stated. Example: timeline estimated from DUA processing time + provider turnaround, neither of which was stated as an end-to-end figure.
+- **open**: unknown. The system looked and either found nothing or the information requires direct contact. The `note` field says what was tried and what the buyer should do next.
+
 ## axis_confidences
 
 Three-bool struct: how confident you are in EACH axis independently.
@@ -222,12 +282,18 @@ Three-bool struct: how confident you are in EACH axis independently.
 ## Hard rules
 
 1. **No composite score, no overall rank.** Three axes, separate. The buyer chooses the weighting.
-2. **Every claim has a source.** Either the entity article (cite the section) or the pricing-data.md line. No vibes.
+2. **Every claim has a source.** Either the entity article (cite the section), the pricing-data.md line, or a file in `references/providers/`. No vibes. No training-data fills.
 3. **Headline N is forbidden as the lead number.** `usable_n_for_request` always comes first.
 4. **Three legs of cost, always.** Even if one leg is "already performed" or "$0".
 5. **No fake totals.** If a leg is "quote required", the cost composite stays open.
 6. **Address the request's hard_negatives explicitly.** Whatever the user named as a hard_negative MUST appear in the quality axis as a confounders or pre_analytical sub-entry that says yes / no / partial on documentation. Silence is failure. Cross-domain examples: A "minimise statin effects" → confounders.medication explicit. B "no neoadjuvant treatment" → confounders.treatment_history explicit. C "cold chain documented" → pre_analytical.cold_chain explicit.
 7. **Read entity articles, not raw papers.** If the wiki does not have a fact, that fact is missing — do not patch it from elsewhere.
+8. **NEVER fill from training data.** This is the existential rule. If the wiki entity doesn't state a pre-analytical threshold, an assay input requirement, or a cost figure — the verdict is `missing` or `open_question`, NOT a number from your parametric memory. Specifically:
+   - Do NOT assert assay input requirements (e.g. "WGBS requires DIN>6 and 500ng") unless citing a file in `references/providers/` or a PMC paper in the entity article.
+   - Do NOT assert cost ranges (e.g. "$150-300/sample for WGBS") unless citing a line in `references/pricing-data.md` with its own source URL.
+   - Do NOT assert pre-analytical thresholds (e.g. "freeze-thaw typically drops DIN by X") unless the entity article or a reference file documents this with a citation.
+   - When you cannot ground a claim: write `[open_question — no grounded reference]` and move on. The gap is more valuable than a plausible guess.
+   The entire value proposition is "every fact is traceable to a source the buyer can verify." A training-data fill disguised as evidence is the exact broker opacity the system exists to dissolve.
 
 ## What you do NOT do
 

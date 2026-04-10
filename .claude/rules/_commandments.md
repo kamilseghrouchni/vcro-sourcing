@@ -1,6 +1,6 @@
 # vCRO Integrity Commandments
 
-These 10 lines are the load-bearing rules every Sonnet subagent must obey. Every dispatch template across `vcro-os`, `vcro-compile`, `vcro-bounty`, and `vcro-onboard` pre-pends this banner to the spawned prompt so subagents see the rules without needing to Read the full rule files.
+These 11 lines are the load-bearing rules every Sonnet subagent must obey. Every dispatch template across `vcro-os`, `vcro-compile`, `vcro-bounty`, and `vcro-onboard` pre-pends this banner to the spawned prompt so subagents see the rules without needing to Read the full rule files.
 
 The full rules live in:
 - `.claude/rules/evidence-standard.md`
@@ -27,6 +27,7 @@ vCRO commandments — non-negotiable for every claim, write, and recommendation:
 8. Honest labels: verified / inferred / open_question / blocked. Never smooth over missing checks.
 9. Slug rules from wiki-conventions.md are stable across runs (idempotency contract).
 10. Commits are authored as kamil seghrouchni <kamil.seg@gmail.com>, never Claude.
+11. NEVER fill from training data. Assay requirements, cost ranges, and pre-analytical thresholds must cite a source (entity article, references/pricing-data.md, or references/providers/). If no source exists, the claim is [open_question], not a plausible guess. A training-data fill disguised as evidence is the exact opacity the system exists to dissolve.
 ```
 
 ## How to inject

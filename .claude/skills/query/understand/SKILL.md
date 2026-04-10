@@ -80,6 +80,7 @@ Single JSON file at `out_path`. The schema is constant across domains; the field
     "indication_match": ["..."],
     "modality_match": ["..."],
     "intent": "access | commission | mixed",
+    "candidate_types": ["cohort", "data_opportunity"],
     "specimen_type_match": ["CSF", "plasma", "..."],
     "longitudinal_required": false,
     "min_n_usable": null,
@@ -155,6 +156,7 @@ Single JSON file at `out_path`. The schema is constant across domains; the field
     "indication_match": ["Alzheimer's disease", "AD"],
     "modality_match": ["DNA methylation", "methylation array", "EPIC", "450K"],
     "intent": "commission",
+    "candidate_types": ["institution", "cohort", "data_opportunity"],
     "specimen_type_match": ["CSF", "cerebrospinal fluid"],
     "longitudinal_required": false,
     "min_n_usable": null } }
@@ -174,6 +176,7 @@ Single JSON file at `out_path`. The schema is constant across domains; the field
     "indication_match": ["NSCLC", "lung adenocarcinoma", "LUAD"],
     "modality_match": ["spatial transcriptomics", "Visium", "10x Genomics"],
     "intent": "commission",
+    "candidate_types": ["institution", "cohort", "data_opportunity"],
     "specimen_type_match": ["FFPE", "FFPE tissue", "FFPE blocks"],
     "longitudinal_required": false,
     "min_n_usable": 100 } }
@@ -193,6 +196,7 @@ Single JSON file at `out_path`. The schema is constant across domains; the field
     "indication_match": ["inflammatory bowel disease", "IBD", "Crohn", "ulcerative colitis"],
     "modality_match": ["shotgun metagenomics", "metagenomics", "WGS"],
     "intent": "commission",
+    "candidate_types": ["institution", "cohort", "data_opportunity"],
     "specimen_type_match": ["stool", "fecal"],
     "longitudinal_required": true,
     "min_n_usable": null } }
@@ -233,6 +237,7 @@ This is the structured filter that `query/discover` will use to scan the wiki in
 - `modality_match`: list of normalized sample/assay strings. Be inclusive on naming conventions because the wiki uses several. A: plasma → plasma; metabolomics → ["metabolomics", "lipidomics", "untargeted metabolomics"]. B: tissue → ["FFPE", "fresh-frozen tumor"]; bulk RNA-seq → ["bulk RNA-seq", "RNA-seq", "transcriptomics"]. C: stool → ["stool", "fecal"]; shotgun → ["shotgun metagenomics", "metagenomic", "WGS metagenomics"].
 - `longitudinal_required`: bool.
 - `min_n_usable`: integer or null. If null, discover does not filter on N.
+- `candidate_types`: list of entity types discover should scan as primary candidates. **Flexes on intent.** Access intent → `["cohort", "data_opportunity"]` (the buyer wants existing data from published studies). Commission intent → `["institution", "cohort", "data_opportunity"]` (the buyer wants specimens — institutions with biobanks/biorepositories are primary candidates, not just linked entities of cohorts). Mixed → `["institution", "cohort", "data_opportunity"]`. This is the key structural difference: for commission, an institution with banked AD blood IS the answer, not a published cohort that happens to mention specimen retention.
 - `disease_area_or_modality`: bool, default false. If true, discover keeps cohorts that match indication OR modality, not both. Use only when the user is in feasibility/scoping mode.
 
 ## gaps[]

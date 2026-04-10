@@ -22,26 +22,230 @@ Domain framing in this doc rotates per `.claude/rules/example-rotation.md` (A ne
 
 There are four top-level workflows. You pick exactly one per request, based on the verbs and nouns in the request.
 
-### 1. Query workflow
+### 1. Query workflow — gate sequence
 
-Trigger: the user is asking what cohorts, samples, or platforms exist for a specific scientific or sourcing question. Verbs include "find", "look for", "what cohorts", "do you have", "is there", "show me".
+Trigger: the user is asking what cohorts, samples, institutions, or sourcing paths exist for a specific scientific or sourcing question.
 
-Cross-domain examples (per the locked rotation):
-- A: "find AD plasma metabolomics cohorts longitudinal n>=200"
-- B: "show me NSCLC FFPE blocks with paired RNA-seq, no neoadjuvant"
-- C: "list IBD shotgun stool cohorts with documented antibiotic washout"
+**The query workflow is a sequence of gates. Each gate has ONE action and ONE decision. Follow them in order. Do NOT skip gates. Do NOT combine gates.**
 
-Steps:
+#### Gate 0: Parse inline
 
-1. **Spawn `query/understand` subagent** (Sonnet). Pass it the verbatim request text and the convention `out_path = store/queries/{date}_{slug}/request.json`. Read the 3-5 sentence digest. The subagent writes the file; you read it back via Read.
-1b. **Intent gate.** Read `request.json` field `intent`. If `commission` → **switch to the bounty workflow** (Step 2 in § 2 below), even if the user's verb was "find" or "look for." The intent classification from understand overrides verb-based routing. Log the switch in the ledger Decision Log: "Intent classified as commission by understand; routing to bounty workflow despite verb-based query trigger." Commission intent without an explicit budget → proceed anyway with `within_budget: unknown` on all bundles (per `.claude/rules/autonomy.md`). If `intent == mixed`, run the query workflow AND then the bounty workflow in sequence (query for existing data, bounty for sourcing paths). If `intent == access`, continue with step 2 below as normal.
-2. **Decide whether the wiki has anything to say.** Open `store/wiki/index/master.md` and `store/wiki/index/by-indication.md`. Check whether any cohort entity matches the request's `filter_for_discover.indication_match` and `modality_match`. This is a fast index scan, not a full read. You do this directly — no subagent.
-3. **Three branches based on what you saw in the index — per `.claude/rules/autonomy.md`, do not ask the user to pick; execute the right branch and log the decision in the ledger:**
-   - **Wiki has matches** → spawn `query/discover` (Sonnet) → spawn `query/score` (Sonnet) → spawn `query/deliver` (Sonnet). Read each digest before launching the next. Stop after deliver.
-   - **Wiki is partial** (1-2 weak matches) → run discover. If verdict is `wiki_partial`, **run `query/search` inline** (the loop body lives in your own context, not a subagent — read `.claude/skills/query/search/SKILL.md`). Iterate PubMed/EuropePMC queries with deterministic coverage scoring and mechanical synonym rewriting until `coverage_k.stop_reason != null`. Every round is persisted to `store/queries/<slug>/search/round_<k>.json` + `coverage_<k>.json`. Then hand the shortlist to `vcro compile`, then re-run discover/score/deliver. Log the full loop in the ledger Decision Log. Do NOT ask the user first.
-   - **Wiki is insufficient** (zero matches in the index for the requested indication or modality) → same path as `wiki_partial`: run `query/search` inline, compile, re-run the query pipeline. The search loop's round 1 will use broader queries because the wiki is empty. Still do not ask; log and execute.
-4. **Persistence is mandatory.** Every query workflow run writes, at minimum: `request.json`, `search_history.jsonl` (one line per external search query with verbatim query string + hit count + source + timestamp), `candidates.json`, `scored_candidates.json`, `recommendation.md`, `listings.jsonl`, and — if ingest was triggered — `ingest_shortlist.md`. The sidecar (`<slug>.provenance.md`) is produced by `scripts/provenance_sidecar.py` after deliver. If any of these is missing at the end, the run violated the autonomy rule.
-5. **Final answer to the user**: a 3-5 sentence summary plus the path to `recommendation.md`. Do not paste the full markdown into chat — point to the file. If the result is thin, say so plainly and give ONE opinion on the pivot, not an A/B/C menu.
+Parse intent, indication, modality, specimen_type, n_target, constraints, and gaps directly from the user's text. Follow the field extraction rules in `query/understand/SKILL.md`. Do NOT spawn `query/understand` as a subagent — do this yourself, inline.
+
+#### Gate 1: Confirm with user — MANDATORY, do NOT skip
+
+In a single turn, output TWO things:
+
+1. **Summary** (text): what you parsed — intent, entity types, indication, specimen/modality, constraints, what was inferred.
+2. **Sharpening questions** (use the `AskUserQuestion` tool): 2-4 interactive select menus. Pick questions that would most change the search direction for THIS request. Each question has 2-4 clickable options. Domain-specific, not generic. See examples below.
+
+**STOP. Wait for user answers.** Do NOT proceed to Gate 2 until the user has answered.
+
+**Non-interactive fallback:** If `AskUserQuestion` fails, is unavailable, or returns no answers (e.g. `-p` mode, batch runs), proceed with your best inferences. Log every inference in the `gaps[]` array of request.json. Surface the inferred values prominently in the final output so the user can correct them post-hoc. The workflow must never deadlock on a missing confirmation.
+
+After user responds (or after fallback): write `request.json` to `store/queries/{date}_{slug}/request.json` incorporating answers or inferences. The file follows the schema in `query/understand/SKILL.md`.
+
+**Commission intent question examples — probe the assay-specific details that determine specimen fitness:**
+- "What specific assay will you run on these specimens?" → `[WGBS / EPIC array / Targeted panel / EM-seq / Other: ___]` — THIS is the single most important question for commission intent. The assay determines DNA input (50ng vs 1ug), integrity requirement (DIN>3 vs DIN>6), and cost ($30 vs $300/sample). Without it, specimen fitness is unscoreable.
+- "What's your minimum DNA/RNA input per sample?" → `[Standard protocol input / Low-input tolerant / Not sure]` — If "not sure", Gate 3c research will determine this from the manufacturer spec.
+- "Do you need just specimens, or also an assay provider?" → `[Specimens only / Specimens + provider / Full service]`
+- "Geographic constraints?" → `[US only / EU only / No constraint]`
+
+**Access intent question examples:**
+- "Individual-level data or summary stats?" → `[Individual / Summary / Both]`
+- "Quality bar?" → `[Clinical-grade / Discovery / Either]`
+
+**Wiki-informed sharpening:** After step 2a (grep wiki index), if you already have a sense of what's in the wiki, weave that into the questions. Example: "The wiki has 5 cohorts with banked AD blood DNA. Three had EPIC arrays run (consuming ~250ng DNA each). If your assay needs >500ng input, residual volume may be insufficient — should we filter for likely-sufficient specimens, or include all and flag depletion risk?" This turns a generic question into a decision that changes the search.
+
+#### Gate 2: Parallel research — ALL sources at once
+
+Fire all research tracks in a **single turn with multiple tool calls**. Do NOT wait for one source before starting another.
+
+```
+Track A: Wiki discover (Sonnet subagent) → then PubMed script (informed by wiki gaps)
+Track B: ClinicalTrials.gov — clinicaltrials_api.py (fire immediately, always)
+Track C: WebSearch — specimen sources (fire immediately, commission only)
+Track D: PubMed prior art — assay × specimen × indication (fire immediately, commission only)
+Track E: WebSearch — assay providers (fire immediately, commission only)
+```
+
+**Track A has a mini-pipeline with orchestrator pre-filtering:**
+
+1. **You (the orchestrator) grep the wiki index** before spawning discover. Use Grep on `store/wiki/index/master.md` with the request's indication + modality terms. This takes 2 seconds and gives you a shortlist of 5-15 entity slugs.
+2. **Pass the slug list to the discover subagent.** The subagent reads ONLY those entity articles — NOT the full index files. This cuts discover from 35 tool calls to ~10.
+3. **After discover returns,** its gaps inform PubMed queries via `scripts/pubmed_api.py` (search for what the wiki DOESN'T have). Snowball queries (seeded from wiki PMIDs in the discovered entities) are part of the PubMed step.
+
+If PubMed finds something already in the wiki, that's fine — redundancy validates.
+
+**Tracks B-E are fully independent.** They fire instantly alongside Track A. No dependency on the wiki verdict.
+
+**How to launch:**
+
+**Step 2a (you, inline, before the parallel turn):** Grep `store/wiki/index/master.md` for the request's indication + modality terms. Extract the matching entity slugs. This is 1-2 Grep calls, ~2 seconds. Example:
+```
+Grep pattern: "(?i)(alzheimer|AD\b).*(methylation|EPIC|blood)"
+  OR "(?i)(methylation|EPIC|blood).*(alzheimer|AD\b)"
+→ yields: emif-ad-mbd-blood-methylation, ehbs-blood-epic-csf-biomarker,
+  delcode-blood-epic-methylation, adni-blood-dnam-csf-biomarker, ...
+```
+
+**Step 2b (single message, all tracks in parallel):**
+- Spawn 1 Agent (Sonnet) for Track A — pass it the **slug list from step 2a** with instruction: "Read ONLY these entity articles, do NOT read index files. Then run `pubmed_api.py` targeting wiki gaps."
+- Call Bash for Track B (`python3 scripts/clinicaltrials_api.py --condition "<indication>" --terms "<specimen_type>"`)
+- Call WebSearch for Track C (commission intent only — `"<indication> biobank <specimen_type> specimens"`)
+- Call Bash for Track D (commission intent only — prior art search per `query/search/SKILL.md`):
+  `python3 scripts/pubmed_api.py --queries "[assay_full_name] [specimen_type] [indication] case control" "[assay_synonym] [specimen_type] [indication]" "[assay_abbrev] OR [synonym_abbrev] [specimen_type] [indication]" --retmax 15`
+  **Critical: expand assay synonyms.** WGBS = WGMS = "whole genome bisulfite sequencing" = "enzymatic methyl-seq". A single-name query misses half the literature.
+- Call WebSearch for Track E (commission intent only — `"[assay_name] service provider" OR "core facility"`)
+
+All calls go out in one turn. Read results as they return.
+
+#### Gate 3: Merge + triage (you, inline — no subagent)
+
+After all tracks return, YOU merge the results. This is mechanical — no LLM subagent needed.
+
+**Step 3a — Collect.** Read these files from the query directory:
+- `candidates.json` (Track A wiki results)
+- `search/track_a_pubmed.json` (Track A PubMed results)
+- `search/track_b_ctgov.json` (Track B ClinicalTrials.gov results)
+- WebSearch results for Track C (specimen sources, in your context)
+- Track D prior art results (in your context from the Bash call)
+- WebSearch results for Track E (providers, in your context)
+
+**Step 3a-ii — Write commission-specific outputs (commission intent only).** Before deduplication:
+- Write `search/prior_art.json` from Track D results. For each hit: extract PMID, title, assay used, specimen type, sample size, outcome (success/partial/failure from title+abstract), relevance (direct/analogous/methods). This is what the score skill reads for platform_validation.
+- Write `search/providers.json` from Track E results + any matching entries in `references/pricing-data.md`. For each provider: name, type (academic_core/commercial_lab/cro), URL, assay offered, cost_per_sample (if published), specimen_types_accepted, location. This is what the score skill reads for cost.legs.assay.
+
+**Step 3b — Deduplicate.** Build one list of unique entries:
+- Papers: deduplicate by PMID. If a PubMed hit is already in `candidates.json` (wiki), skip it — the wiki version is richer.
+- Trials: deduplicate by NCT ID.
+- Web leads: no deduplication needed — these are institutional_leads, not papers.
+- Prior art and providers are NOT deduplicated against the candidate list — they serve different purposes.
+
+**Step 3c — Auto-filter the NEW papers/trials (not wiki candidates).** For each new PMID from PubMed:
+- Already in wiki? → skip (check slugs in `candidates.json` or grep `master.md` for the PMID)
+- Title contains "Review", "Meta-analysis", "Editorial", "Comment"? → `reject:review`
+- Commission intent AND n < 30 in title/abstract? → `keep:institution_signal` (not reject — small studies point to institutions)
+
+**Step 3d — Triage survivors (you, inline).** Read title + abstract of the 5-15 surviving new papers. For each, tag:
+- `keep` — matches indication + modality + specimen type
+- `keep:institution_signal` — small study but names an institution with specimens
+- `reject:<reason>` — off-topic
+
+**Step 3e — Write outputs.** Two files:
+
+1. `ingest_shortlist.md` — the papers/trials to compile:
+```markdown
+## Ready for compile
+- PMC1234567 — AD blood EPIC methylation n=200, keep [reason]
+- NCT07238049 — Oxford dementia study, n=3165, blood DNA retained, keep [biospecimen signal]
+
+## Institution signals (small studies, compile as institution)
+- PMC5555555 — n=12, Emory ADRC, compile_as: institution
+
+## Institutional leads (web, not compilable — surface to user)
+- Biobank Japan: AD blood specimens, targeted bisulfite-seq [url]
+- Tohoku Megabank: matched controls [url]
+
+## Rejected
+- PMID:9999999 — review article
+```
+
+2. Append to `search_history.jsonl` — one line per triage decision.
+
+**Step 3f — Decide next action.** Use this table:
+
+| wiki verdict | new papers to compile? | → action |
+|-------------|----------------------|----------|
+| wiki_sufficient | no | → Gate 4 (score wiki candidates) |
+| wiki_sufficient | yes | → Gate 3b (compile new, then Gate 4 on merged set) |
+| wiki_partial | no | → Gate 4 (score what we have, flag gaps) |
+| wiki_partial | yes | → Gate 3b (compile new, re-discover, then Gate 4) |
+| wiki_insufficient | no | → Gate 4 with empty set (surface "nothing found" honestly) |
+| wiki_insufficient | yes | → Gate 3b (compile new, re-discover, then Gate 4) |
+
+#### Gate 3b: Compile new finds
+
+Hand `ingest_shortlist.md` to compile (inline fan-out per compile workflow in § 4 below). After compile completes: run discover again on the enriched wiki to get an updated candidate set, then proceed to Gate 4.
+
+#### Gate 3c: Gap resolution (commission intent only)
+
+**For access-intent requests:** skip to Gate 4.
+
+For commission intent, the score skill needs grounded evidence for every link in the sourcing chain. Gate 3c walks the data from Gates 2-3 and fills gaps before scoring. An open link is not a dead end — it's a search task.
+
+**Step 3c-1: Provider grounding.** Read `providers.json` (from Track E). For each provider found:
+- Check if `references/providers/<provider-slug>-<assay-slug>.md` exists.
+- If yes: skip (cached evidence is reusable).
+- If no: visit the provider's service page via browser automation (Playwright or Chrome MCP). Extract: specimen requirements, pricing, turnaround, location, matrix validations. Write the provider file per `references/providers/_convention.md`. Cite the URL and verification date.
+- **Bound:** max 2-3 page visits per provider. If the page requires a login or quote form, write `quote required — page requires direct contact` and move on.
+
+**Step 3c-2: Prior art check.** Read Track D results (prior art PubMed search). If Track D found direct prior art (same assay × specimen × indication), the data is already in `prior_art.json` from step 3a-ii — no further action needed. If Track D found nothing and the assay × specimen combination is unusual, run ONE additional PubMed query with broader terms (same assay, any indication) to find methods papers. Write results to `prior_art.json`.
+
+**Step 3c-3: Specimen availability check.** For each candidate whose specimen availability is open (no dim 15, no specimens block):
+- If the entity's institution has a known biobank portal URL (from entity article or institution entity): visit the portal page to check if specimen request forms or catalogs are visible. Extract what's findable.
+- **Bound:** max 1 page visit per candidate. Most biobank portals require authentication — if so, note `specimen availability requires direct inquiry at [URL]`.
+
+**Step 3c-4: Write gap resolution log.** Append to `search_history.jsonl`:
+```json
+{"ts": "...", "source": "gap_resolution", "gap_type": "provider|prior_art|specimen_availability", "target": "...", "action": "...", "outcome": "grounded|open", "notes": "..."}
+```
+
+**Constraint:** Gate 3c is bounded. Total time budget: ~5 minutes. Total web fetches: max 10. If a gap can't be grounded in 2 attempts, it stays open with a note on what was tried. The buyer sees the gap AND knows the system already looked.
+
+#### Gate 4: Score
+
+Spawn `query/score` (Sonnet). Pass it:
+- `candidates.json` from Gate 2 (wiki candidates)
+- `request.json`
+- `search/prior_art.json` (if exists — from Track D + Gate 3c)
+- `search/providers.json` (from Track E)
+- Paths to any `references/providers/<provider>-<assay>.md` files created at Gate 3c
+- `ingest_shortlist.md` from Gate 3 (new papers/trials/institutional leads)
+
+The score skill produces three-axis scoring AND `sourcing_chain` for commission-intent candidates. Strong and partial candidates get full scoring. Weak candidates get lightweight scoring (scale axis only) and are flagged, not dropped.
+
+#### Gate 5: Deliver — MUST write files
+
+Spawn `query/deliver` (Sonnet). The subagent MUST write these files to the query directory:
+- `recommendation.md` — the full report with all cohorts, sourcing paths, institutions, linked papers, demographics, gaps
+- `listings.jsonl` — one JSON line per candidate for the web app
+- `delta.jsonl` — entities touched
+
+The deliver subagent reads `scored_candidates.json` + `candidates.json` + `discover_report.md` + `request.json` and assembles the full report per `query/deliver/SKILL.md`.
+
+**Your chat output is a PREVIEW that teases the full report.** Format:
+
+```
+[2-3 sentence verdict — the headline finding, what surprised, what blocked]
+
+**In the report:**
+- **N sourcing paths** — [name the top 1-2 with specimen counts]
+- **N cohorts scored** — [strongest match with usable_n]
+- **Key blocker:** [the single biggest gap or risk]
+- **Demographics found:** [which cohorts have age/sex/APOE/stage]
+- **Papers reviewed:** N from PubMed, N trials from CT.gov
+
+→ `store/queries/<slug>/recommendation.md`
+```
+
+Then show the report structure so the user knows where to find what:
+
+```
+**Report sections:**
+1. Verdict — why this query is easy/hard/blocked
+2. Sourcing paths — institutions with specimens, access routes, costs
+3. Scored cohorts — 3-axis breakdown (Scale / Cost / Quality)
+4. Institutional leads — biobanks found via web search
+5. Gaps — what's missing, what to do next
+6. Papers reviewed — every source cited with PMC/NCT IDs
+```
+
+The preview names the best candidates and the biggest blocker — enough to decide whether to read the full report. Do NOT paste the full recommendation into chat. Do NOT skip writing the files.
+
+#### Persistence (applies to every gate)
+
+Every query run writes: `request.json`, `candidates.json`, `scored_candidates.json`, `recommendation.md`, `listings.jsonl`, `delta.jsonl`, `search_history.jsonl`. If ingest was triggered: `ingest_shortlist.md`. Missing artifacts = violated autonomy rule.
 
 ### 2. Bounty workflow
 

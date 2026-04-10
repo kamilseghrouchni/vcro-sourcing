@@ -53,7 +53,17 @@ store/
 
 ## Running scripts
 
-All scripts are pure Python stdlib. No pip install needed.
+All **core** scripts are pure Python stdlib — no pip install needed. The optional **graph layer** (`scripts/wiki_graph.py`) uses four pinned extras (`networkx`, `python-louvain`, `pyvis`, `PyYAML`) listed in `requirements-graph.txt`. It's opt-in and isolated; if you don't run it, nothing else in vCRO needs the deps.
+
+Install extras with uv (preferred):
+
+```bash
+uv venv .venv-graph --python 3.12
+uv pip install --python .venv-graph/bin/python -r requirements-graph.txt
+# Then invoke as: .venv-graph/bin/python scripts/wiki_graph.py rebuild
+```
+
+Or with plain pip: `pip install -r requirements-graph.txt`. The script prints a friendly install hint if any dep is missing.
 
 ```bash
 # Ingest
@@ -82,7 +92,15 @@ python3 scripts/pmid_to_pmc.py --pmids_file /tmp/pmids.txt
 
 # Notion delivery
 python3 scripts/md_to_notion.py recommendation.md --page-id <id> --post
+
+# Graph view (opt-in extras — see requirements-graph.txt)
+.venv-graph/bin/python scripts/wiki_graph.py rebuild       # full rebuild → store/wiki/graph/
+.venv-graph/bin/python scripts/wiki_graph.py status        # last-run meta
+.venv-graph/bin/python scripts/wiki_graph.py surprises     # top cross-community bridges
+.venv-graph/bin/python scripts/wiki_graph.py lint-export   # graph-connections.json for lint/connections
 ```
+
+The graph layer is **read-only** over `store/wiki/`. It never mutates entity articles, never adds frontmatter, never calls an LLM. Outputs land in `store/wiki/graph/` (a new namespace, distinct from the auto-generated `store/wiki/index/`): `graph.html` (self-contained interactive viewer), `graph.json`, `communities.md`, `god-nodes.md`, `surprises.md`, `graph-meta.json`. Surprise entries render the existing `card.primary_signal` and `card.risk` of both endpoints verbatim — no generated prose.
 
 ## Skills and agents
 
@@ -123,10 +141,11 @@ python3 scripts/md_to_notion.py recommendation.md --page-id <id> --post
 8. **ISOSpec is not in default provider comparisons.** See transparency-principles.md.
 9. **Negative results count.** Drop dimension-11 fragments are first-class.
 10. **Lint findings feed back to compile.** They are not user-facing reports; they are the orchestrator queue.
+11. **Never fill from training data.** Assay requirements, cost ranges, pre-analytical thresholds must cite a source. `[open_question]` over a plausible guess. See `_commandments.md` #11.
 
 ## Two modes
 
-- **CLI**: Claude Code reads this CLAUDE.md and the skill/rule docs directly. The orchestrator agent (vcro-os) decides which workflow to invoke.
+- **CLI / TUI**: The `vcro` TUI is a thin rendering shell (banner, spinners, tool indicators) over Claude Code. It injects the vcro-os system prompt on turn 0 so Claude Code runs as the orchestrator agent. All routing, agent dispatch, and skill execution happens inside Claude Code natively — the TUI never duplicates that logic.
 - **Production webapp**: Next.js + Vercel AI SDK with `streamText` and `useChat`. The webapp reads `store/queries/<id>/listings.jsonl` and `delta.jsonl` for the user-facing card view; it never parses entity prose.
 
 ## Environment variables
