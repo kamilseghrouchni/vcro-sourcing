@@ -6,7 +6,7 @@ The 5 commands here mirror the CLI product surface in `bin/vcro`:
 
 | Slash command | CLI equivalent | Maps to |
 |---|---|---|
-| `/query` | `vcro query <question>` | `.claude/agents/vcro-os.md` query workflow |
+| `/source` | `vcro source <question>` | `.claude/agents/vcro-os.md` query workflow |
 | `/bounty` | `vcro bounty <goal>` | `.claude/agents/vcro-bounty.md` procurement workflow |
 | `/onboard` | `vcro onboard <institution>` | `.claude/agents/vcro-onboard.md` supply-side workflow |
 | `/lint` | `vcro lint` | `vcro-os` lint workflow (4 lint skills) |
