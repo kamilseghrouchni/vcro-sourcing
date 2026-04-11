@@ -116,11 +116,27 @@ Run 2-3 targeted web searches in parallel with PubMed/CT:
 - `"[indication] biorepository [specimen_type] commercial"`
 - `"[institution from wiki] biobank sample request"`
 
-Web results are NOT compiled into the wiki (no paper to extract from). They're surfaced in `discover_report.md` as `institutional_leads`:
+Web results become **search_lead candidates** in candidates.json — they're immediately scoreable, not just logged. Write results to `search/track_c_specimens.json`:
+
 ```json
-{"type": "institutional_lead", "url": "...", "institution": "...", "specimen_type": "...", "notes": "..."}
+[
+  {
+    "lead_id": "<institution-name-slug>",
+    "candidate_type": "search_lead",
+    "source": "web",
+    "source_url": "https://...",
+    "canonical_name": "SPARC-IBD (Crohn's & Colitis Foundation)",
+    "specimen_type": ["stool"],
+    "headline_n": 7000,
+    "indication": ["inflammatory bowel disease"],
+    "treatment_naive_confirmed": false,
+    "access_route": "CCF specimen request portal",
+    "notes": "..."
+  }
+]
 ```
-These leads can trigger the onboard workflow if the user wants to pursue them. Log each web query in `search_history.jsonl` with `source: "web"`.
+
+The orchestrator at Gate 3c merges these into candidates.json as search_lead entries. The score skill scores them with thin scoring (inline fields only, no wiki article). Log each web query in `search_history.jsonl` with `source: "web"`.
 
 ### Web search — providers (commission intent only)
 
@@ -160,7 +176,9 @@ Gate 3c walks open links in the sourcing chain and fires targeted searches. This
 | pricing_unknown | Provider found but no cost data | Check pricing-data.md; if absent, visit provider pricing page | WebFetch | 1 page per provider |
 | specimen_availability | Entity lacks dim 15, no specimens block | Visit institution biobank/portal page | Playwright/Chrome | 1 page per candidate |
 | prior_art_missing | No paper found for assay × specimen × indication | PubMed with broader terms (same assay, any indication) | pubmed_api.py | 1 query |
-| shipping_regulatory | Cross-border specimen transfer unknown | WebSearch: `"biological specimen import [destination country]"` | WebSearch | 1 query |
+| access_timeline_unknown | DUA/MTA processing time unclear | Read entity card.action for access mechanism; if timeline not stated, WebFetch institution's access FAQ or policy page | WebFetch | 1 page |
+| shipping_requirements | Specimen shipping path unclear | Classify by specimen type: CSF/blood = UN3373 Category B (dry ice, IATA P650); FFPE = ambient; stool = varies by preservative. If cross-border: WebSearch `"biological specimen import [destination country] [specimen type]"` | WebSearch | 1 query |
+| commercial_use_unknown | Commercial terms not in entity | WebSearch `"[institution name] commercial use policy"` or `"[cohort name] commercial access"` | WebSearch | 1 query |
 
 **Constraints:**
 - Total web fetches in Gate 3c: max 10

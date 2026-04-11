@@ -114,10 +114,15 @@ For each scored candidate, in axis-confidence-weighted order (see ordering rule 
 - **Platform validation:** <platform_validation.verdict>. <one line on cross-cohort replication>
 - **Quality summary:** <quality.axis_summary>
 
-**Linked entities**
+**Linked entities** _(wiki_entity candidates only)_
 - Institution: [[<linked_institutions[0]>]]
 - Investigators: [[<linked_investigators[0]>]], [[<linked_investigators[1]>]]
 - Platform: [[<assay platform slug>]]
+
+**Source** _(search_lead candidates only)_
+- Source: [<canonical_name>](<source_url>) — `<source>` lead, not yet in wiki
+- Access: <access_route>
+- _Note: search lead — claims not verified against primary sources. Compile recommended for full provenance._
 
 ---
 

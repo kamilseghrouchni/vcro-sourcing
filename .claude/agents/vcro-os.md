@@ -100,73 +100,53 @@ Grep pattern: "(?i)(alzheimer|AD\b).*(methylation|EPIC|blood)"
 
 All calls go out in one turn. Read results as they return.
 
-#### Gate 3: Merge + triage (you, inline — no subagent)
+#### Gate 3: Merge all results into candidates.json (you, inline — no subagent)
 
-After all tracks return, YOU merge the results. This is mechanical — no LLM subagent needed.
+After all tracks return, YOU merge the results. The principle: **search results are immediately usable. Compile is a background investment for future queries.**
 
-**Step 3a — Collect.** Read these files from the query directory:
-- `candidates.json` (Track A wiki results)
-- `search/track_a_pubmed.json` (Track A PubMed results)
-- `search/track_b_ctgov.json` (Track B ClinicalTrials.gov results)
-- WebSearch results for Track C (specimen sources, in your context)
-- Track D prior art results (in your context from the Bash call)
-- WebSearch results for Track E (providers, in your context)
+`candidates.json` carries two candidate types:
+- **`wiki_entity`** — from Track A discover. Has `entity_id`, resolves to a wiki article on disk. Full scoring.
+- **`search_lead`** — from Tracks B, C, D, and PubMed. Has `lead_id`, `source`, and inline fields. Thin scoring (no wiki article). Immediately usable.
 
-**Step 3a-ii — Write commission-specific outputs (commission intent only).** Before deduplication:
-- Write `search/prior_art.json` from Track D results. For each hit: extract PMID, title, assay used, specimen type, sample size, outcome (success/partial/failure from title+abstract), relevance (direct/analogous/methods). This is what the score skill reads for platform_validation.
-- Write `search/providers.json` from Track E results + any matching entries in `references/pricing-data.md`. For each provider: name, type (academic_core/commercial_lab/cro), URL, assay offered, cost_per_sample (if published), specimen_types_accepted, location. This is what the score skill reads for cost.legs.assay.
+**Step 3a — Collect all track outputs.**
 
-**Step 3b — Deduplicate.** Build one list of unique entries:
-- Papers: deduplicate by PMID. If a PubMed hit is already in `candidates.json` (wiki), skip it — the wiki version is richer.
-- Trials: deduplicate by NCT ID.
-- Web leads: no deduplication needed — these are institutional_leads, not papers.
-- Prior art and providers are NOT deduplicated against the candidate list — they serve different purposes.
+Read:
+- `candidates.json` from Track A (wiki entities — may be empty if wiki has no matches)
+- PubMed results from Track A follow-up (papers)
+- `search/track_b_ctgov.json` from Track B (clinical trials)
+- WebSearch results from Track C (specimen sources — in your context)
+- Track D prior art results (in your context)
+- WebSearch results from Track E (providers — in your context)
 
-**Step 3c — Auto-filter the NEW papers/trials (not wiki candidates).** For each new PMID from PubMed:
-- Already in wiki? → skip (check slugs in `candidates.json` or grep `master.md` for the PMID)
-- Title contains "Review", "Meta-analysis", "Editorial", "Comment"? → `reject:review`
-- Commission intent AND n < 30 in title/abstract? → `keep:institution_signal` (not reject — small studies point to institutions)
+**Step 3b — Write search outputs to disk.** Before merging into candidates:
+- Write `search/prior_art.json` from Track D. Schema: `[{pmid, title, assay, specimen, n, outcome, relevance, key_finding}]`
+- Write `search/providers.json` from Track E + matching entries in `references/pricing-data.md`. Schema: `[{name, type, url, assay_offered, cost_per_sample, cost_source, specimen_types_accepted, location}]`
+- Write `search/track_c_specimens.json` from Track C WebSearch. Schema: `[{lead_id, name, url, specimen_types, headline_n, indication, access_route, notes}]`
+- Write `search/track_b_ctgov.json` from Track B (if not already written by the script)
 
-**Step 3d — Triage survivors (you, inline).** Read title + abstract of the 5-15 surviving new papers. For each, tag:
-- `keep` — matches indication + modality + specimen type
-- `keep:institution_signal` — small study but names an institution with specimens
-- `reject:<reason>` — off-topic
+**Step 3c — Build the unified candidate list.** Start with wiki entities from discover (Track A), then APPEND search leads from all other tracks:
 
-**Step 3e — Write outputs.** Two files:
+For each **PubMed paper** that survived Track A and is NOT already in the wiki:
+- Auto-filter: reject reviews, editorials, comments. Keep cohort studies and institution signals.
+- For each kept paper: create a search_lead entry with `lead_id` from PMID, `source: "pubmed"`, `canonical_name` from title, `headline_n` if parseable from abstract, `specimen_type` if mentioned.
 
-1. `ingest_shortlist.md` — the papers/trials to compile:
-```markdown
-## Ready for compile
-- PMC1234567 — AD blood EPIC methylation n=200, keep [reason]
-- NCT07238049 — Oxford dementia study, n=3165, blood DNA retained, keep [biospecimen signal]
+For each **clinical trial** from Track B:
+- If trial has biospecimen retention: create a search_lead with `lead_id` from NCT ID, `source: "ctgov"`, `canonical_name` from brief_title, `specimen_type` from interventions/conditions, `headline_n` from enrollment.
 
-## Institution signals (small studies, compile as institution)
-- PMC5555555 — n=12, Emory ADRC, compile_as: institution
+For each **institutional lead** from Track C:
+- Create a search_lead with `lead_id` from institution name slug, `source: "web"`, `source_url`, `canonical_name`, `specimen_type`, `headline_n` if found, `access_route`.
 
-## Institutional leads (web, not compilable — surface to user)
-- Biobank Japan: AD blood specimens, targeted bisulfite-seq [url]
-- Tohoku Megabank: matched controls [url]
+Deduplicate: if a PubMed paper matches a wiki entity (same PMID in provenance.sources), keep the wiki entity. If a trial or web lead matches a wiki institution, keep the wiki entity.
 
-## Rejected
-- PMID:9999999 — review article
-```
+**Step 3d — Write unified candidates.json.** Overwrite the file from discover with the merged list. Wiki entities first, then search leads. Every entry has `candidate_type: "wiki_entity"` or `candidate_type: "search_lead"`.
 
-2. Append to `search_history.jsonl` — one line per triage decision.
+**Step 3e — Write ingest_shortlist.md.** Papers and trials worth compiling for future queries. This does NOT block scoring — it's input for Gate 6 (background compile).
 
-**Step 3f — Decide next action.** Use this table:
+**Step 3f — Decide next action.** Always the same:
 
-| wiki verdict | new papers to compile? | → action |
-|-------------|----------------------|----------|
-| wiki_sufficient | no | → Gate 4 (score wiki candidates) |
-| wiki_sufficient | yes | → Gate 3b (compile new, then Gate 4 on merged set) |
-| wiki_partial | no | → Gate 4 (score what we have, flag gaps) |
-| wiki_partial | yes | → Gate 3b (compile new, re-discover, then Gate 4) |
-| wiki_insufficient | no | → Gate 4 with empty set (surface "nothing found" honestly) |
-| wiki_insufficient | yes | → Gate 3b (compile new, re-discover, then Gate 4) |
+→ Gate 3c (gap resolution, commission only) → Gate 4 (score ALL candidates) → Gate 5 (deliver) → Gate 6 (compile in background)
 
-#### Gate 3b: Compile new finds
-
-Hand `ingest_shortlist.md` to compile (inline fan-out per compile workflow in § 4 below). After compile completes: run discover again on the enriched wiki to get an updated candidate set, then proceed to Gate 4.
+There is no "compile first, then score" path. The buyer gets results from what the search found NOW. Compile enriches the wiki for NEXT time.
 
 #### Gate 3c: Gap resolution (commission intent only)
 
@@ -243,9 +223,17 @@ Then show the report structure so the user knows where to find what:
 
 The preview names the best candidates and the biggest blocker — enough to decide whether to read the full report. Do NOT paste the full recommendation into chat. Do NOT skip writing the files.
 
+#### Gate 6: Background compile (fire-and-forget)
+
+After Gate 5 delivers the recommendation, check if `ingest_shortlist.md` has entries under "Ready for compile." If yes, run compile in the background — the buyer already has their recommendation. Compile enriches the wiki so the NEXT query for this domain finds wiki entities directly.
+
+**This gate is optional.** If the user's session ends after Gate 5, compile doesn't run. The ingest_shortlist.md is persisted — a future session can pick it up. Compile never blocks the buyer from seeing results.
+
+To run: follow the compile workflow (§ 4 below) with `ingest_shortlist.md` as input. Use `run_in_background: true` on the Agent calls if available.
+
 #### Persistence (applies to every gate)
 
-Every query run writes: `request.json`, `candidates.json`, `scored_candidates.json`, `recommendation.md`, `listings.jsonl`, `delta.jsonl`, `search_history.jsonl`. If ingest was triggered: `ingest_shortlist.md`. Missing artifacts = violated autonomy rule.
+Every query run writes: `request.json`, `candidates.json` (with both wiki_entity and search_lead types), `scored_candidates.json`, `recommendation.md`, `listings.jsonl`, `delta.jsonl`, `search_history.jsonl`, `ingest_shortlist.md`. Search outputs: `search/prior_art.json`, `search/providers.json`, `search/track_b_ctgov.json`, `search/track_c_specimens.json`. Missing artifacts = violated autonomy rule.
 
 ### 2. Bounty workflow
 
@@ -254,9 +242,9 @@ Trigger: the user has a budget plus a desired outcome and wants procurement opti
 Steps:
 
 1. Spawn `query/understand` (Sonnet) if not already run (the query workflow's step 1b may have already produced `request.json`). If `intent` is `commission` and `budget` is null, proceed anyway — do NOT ask for a budget. Set `within_budget: unknown` on all bundles. The buyer can add a budget constraint later.
-2. Spawn `query/discover` and `query/score` to identify candidate sources from the wiki.
-3. Spawn `vcro-bounty` agent (when it exists) to compose bundles per blueprint Part 17. The bounty agent owns the three-leg cost composition. Until that agent exists, fall back to running `query/deliver` and tell the user the bundle assembly step is pending.
-4. The user-facing answer points to a bundle markdown file under `store/wiki/bundles/` plus the source recommendation.
+2. Spawn `query/discover` and `query/score` to identify candidate sources from the wiki. Score produces `sourcing_chain` for each commission-intent candidate.
+3. Spawn `vcro-bounty` agent to map procurement chains and write bundles. The bounty agent maps the full chain (specimen_source → provider → assay_execution → ...) with per-link evidence states (PUBLISHED / DERIVED / open_question). Every cost figure must cite a source — no training-data fills (commandment 11).
+4. The user-facing answer points to bundle files under `store/wiki/bundles/` showing the chain with evidence states.
 
 ### 3. Onboard workflow
 
