@@ -1,0 +1,148 @@
+{
+  "pmid": "40966649",
+  "pmc": "PMC12445873",
+  "doi": "10.1093/bib/bbaf460",
+  "title": "Transfer learning reveals the mediating mechanisms of cross-ethnic lipid metabolic pathways in the association between APOE gene and Alzheimer’s disease",
+  "journal": "Briefings in Bioinformatics",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Pan Lulu",
+      "affiliations": [
+        "Department of Biostatistics, Key Laboratory of Public Health Safety of Ministry of Education, NHC Key Laboratory for Health Technology Assessment, School of Public Health, Fudan University, 130 Dong’an Road, Xuhui District, Shanghai 200032, China"
+      ]
+    },
+    {
+      "name": "Liu Yahang",
+      "affiliations": [
+        "Department of Biostatistics, Key Laboratory of Public Health Safety of Ministry of Education, NHC Key Laboratory for Health Technology Assessment, School of Public Health, Fudan University, 130 Dong’an Road, Xuhui District, Shanghai 200032, China"
+      ]
+    },
+    {
+      "name": "Huang Chen",
+      "affiliations": [
+        "Department of Biostatistics, Key Laboratory of Public Health Safety of Ministry of Education, NHC Key Laboratory for Health Technology Assessment, School of Public Health, Fudan University, 130 Dong’an Road, Xuhui District, Shanghai 200032, China"
+      ]
+    },
+    {
+      "name": "Lin Ruilang",
+      "affiliations": [
+        "Department of Biostatistics, Key Laboratory of Public Health Safety of Ministry of Education, NHC Key Laboratory for Health Technology Assessment, School of Public Health, Fudan University, 130 Dong’an Road, Xuhui District, Shanghai 200032, China"
+      ]
+    },
+    {
+      "name": "Yu Yongfu",
+      "affiliations": [
+        "Department of Biostatistics, Key Laboratory of Public Health Safety of Ministry of Education, NHC Key Laboratory for Health Technology Assessment, School of Public Health, Fudan University, 130 Dong’an Road, Xuhui District, Shanghai 200032, China",
+        "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, 83 Fen Yang Road, Xuhui District, Shanghai 200031, China"
+      ]
+    },
+    {
+      "name": "Qin Guoyou",
+      "affiliations": [
+        "Department of Biostatistics, Key Laboratory of Public Health Safety of Ministry of Education, NHC Key Laboratory for Health Technology Assessment, School of Public Health, Fudan University, 130 Dong’an Road, Xuhui District, Shanghai 200032, China",
+        "Shanghai Institute of Infectious Disease and Biosecurity, Fudan University, 130 Dong’an Road, Xuhui District, Shanghai 200032, China"
+      ]
+    }
+  ],
+  "keywords": [
+    "transfer learning",
+    "mediation analysis",
+    "Alzheimer’s disease",
+    "lipidomics",
+    "African Americans",
+    "external dataset"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Natural Science Foundation of China10.13039/501100001809 8227373082173612",
+    "Shanghai Rising-Star Program10.13039/501100013105 21QA1401300",
+    "Shanghai Municipal Natural Science Foundation10.13039/100007219 22ZR1414900",
+    "Three-Year Public Health Action Plan of Shanghai GWVI-11.2-XD10GWVI-11.1-01",
+    "Shanghai Talent Programs BJKJ2024050",
+    "Shanghai Municipal Science and Technology Major Project ZD2021CY001"
+  ],
+  "data_availability_text": "Data availabilityAll data used in the analyses reported here are available in the ADNI data repository (adni.loni.usc.edu).",
+  "license": "",
+  "received": "2025-04-24",
+  "accepted": "2025-08-11",
+  "reference_pmids": [
+    "33667416",
+    "30243772",
+    "33756057",
+    "9343467",
+    "26691908",
+    "37357100",
+    "31895518",
+    "30747415",
+    "28916238",
+    "32358220",
+    "35077012",
+    "33527720",
+    "34590409",
+    "30555031",
+    "27357171",
+    "35879655",
+    "38285937",
+    "38337861",
+    "35210933",
+    "38562655",
+    "38948492",
+    "19603084",
+    "35400115",
+    "28342697",
+    "26194313",
+    "30415965",
+    "15576652",
+    "19694267",
+    "26555316",
+    "37093654",
+    "29061565",
+    "24041970",
+    "26744734",
+    "27408938",
+    "18455839",
+    "28054030",
+    "35235294",
+    "18203129",
+    "32939090",
+    "37612411",
+    "33398092",
+    "33978684",
+    "29653606"
+  ],
+  "tables_count": 2,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "transhdm framework",
+    "transfer learning with debiased lasso regression",
+    "detecting transferable datasets",
+    "transfer learning for high-dimensional mediation analysis",
+    "simulation data generation",
+    "study sample",
+    "lipid metabolomic",
+    "neuroimaging analysis",
+    "csf biomarker analysis",
+    "cognitive assessment",
+    "statistical analysis",
+    "results",
+    "simulation study",
+    "application for alzheimer’s disease",
+    "characteristics of participants",
+    "identification of significant mediators",
+    "lipid metabolomic pathway analysis",
+    "sensitivity analysis",
+    "discussion",
+    "conclusion",
+    "key points",
+    "supplementary material",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 18398,
+  "converted_at": "2026-04-06T22:37:35.928151+00:00"
+}

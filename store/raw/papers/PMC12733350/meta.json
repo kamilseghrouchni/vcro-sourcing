@@ -1,0 +1,153 @@
+{
+  "pmid": "41465496",
+  "pmc": "PMC12733350",
+  "doi": "10.3390/ijms262412069",
+  "title": "Region-Specific Expression Patterns of lncRNAs in the Central Nervous System: Cross-Species Comparison and Functional Insights",
+  "journal": "International Journal of Molecular Sciences",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "López-Royo Tresa",
+      "affiliations": [
+        "tlopez@unizar.es (T.L.-R.);",
+        ""
+      ]
+    },
+    {
+      "name": "Gascón Elisa",
+      "affiliations": [
+        "tlopez@unizar.es (T.L.-R.);",
+        ""
+      ]
+    },
+    {
+      "name": "Moreno-Martínez Laura",
+      "affiliations": [
+        "tlopez@unizar.es (T.L.-R.);",
+        ""
+      ]
+    },
+    {
+      "name": "Macías-Redondo Sofía",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zaragoza Pilar",
+      "affiliations": [
+        "tlopez@unizar.es (T.L.-R.);",
+        ""
+      ]
+    },
+    {
+      "name": "Manzano Raquel",
+      "affiliations": [
+        "tlopez@unizar.es (T.L.-R.);",
+        ""
+      ]
+    },
+    {
+      "name": "Osta Rosario",
+      "affiliations": [
+        "tlopez@unizar.es (T.L.-R.);",
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "long noncoding RNAs (lncRNAs)",
+    "CNS",
+    "spinal cord",
+    "brainstem",
+    "frontal cortex"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Instituto de Salud Carlos IIIPI21/00372PT20/00109",
+    "Fondo Europeo de Desarrollo Regional (FEDER) “Una manera de hacer Europa” from the European Union",
+    "Centro de Investigación Biomédica en Red sobre Enfermedades NeurodegenerativasCB18/05/0037",
+    "Consolidated Groups from Gobierno de AragónA19_23R",
+    "Spanish Ministry of Science and InnovationEuropean Union NextGenerationEURecovery, Transformation and Resilience PlanPRTR-C17.I1",
+    "Autonomous Community of Aragón within the framework of the Biotechnology Plan Applied to Health",
+    "Ministerio de Universidades from Gobierno de EspañaFPU19/05625",
+    "Instituto Murciano de Investigación Biosanitaria Virgen de la Arrixaca (IMIB)",
+    "Consejeria de Salud de la Comunidad Autónoma de la Región de Murcia"
+  ],
+  "data_availability_text": "Data Availability StatementThe datasets produced and analyzed during the present study can be obtained from the corresponding author upon reasonable request.",
+  "license": "",
+  "received": "2025-10-16",
+  "accepted": "2025-12-09",
+  "reference_pmids": [
+    "23818866",
+    "19239885",
+    "35098341",
+    "16290135",
+    "22196729",
+    "34349622",
+    "19696892",
+    "24847104",
+    "25734491",
+    "20380817",
+    "30323747",
+    "24233053",
+    "26430155",
+    "26690535",
+    "29079882",
+    "26637795",
+    "20137068",
+    "23583100",
+    "28687705",
+    "38806530",
+    "25798087",
+    "40661236",
+    "26910817",
+    "36331751",
+    "29458374",
+    "33608830",
+    "31942556",
+    "35665903",
+    "34415549",
+    "36361952",
+    "27418812",
+    "23217328",
+    "28635106",
+    "24759129",
+    "35198562",
+    "26070271",
+    "25371168",
+    "37862206",
+    "25968178",
+    "30602787",
+    "28623969",
+    "11846609",
+    "37953349",
+    "22455463"
+  ],
+  "tables_count": 1,
+  "figures_count": 3,
+  "sections_present": [
+    "abstract",
+    "1. introduction",
+    "2. results",
+    "2.1. constitutive lncrna expression across the murine central nervous system",
+    "2.2. conservation of lncrna expression patterns between mouse and human",
+    "2.3. functional and enrichment bioinformatic analysis of lncrnas across cns regions",
+    "3. discussion",
+    "4. materials and methods",
+    "4.1. human sample collection",
+    "4.2. animals",
+    "4.3. mice sample collection",
+    "4.4. rna extraction",
+    "4.5. real-time pcr",
+    "4.6. functional enrichment study",
+    "4.7. statistical analysis",
+    "5. conclusions",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 5912,
+  "converted_at": "2026-04-06T22:38:26.442945+00:00"
+}

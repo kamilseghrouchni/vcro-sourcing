@@ -1,0 +1,219 @@
+{
+  "pmid": "41394403",
+  "pmc": "PMC12698620",
+  "doi": "10.3389/fcell.2025.1674967",
+  "title": "Tissue block-resolved developmental transcriptomic atlas of human fetal brainstem reveals gene modules with implications for neurological disorders",
+  "journal": "Frontiers in Cell and Developmental Biology",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Liu Chengxin",
+      "affiliations": [
+        "Department of Anatomy and Neurobiology, Key Laboratory of Experimental Teratology of the Ministry of Education, Shandong Key Laboratory of Mental Disorders and Intelligent Control, Shandong Key Laboratory of Digital Human and Clinical Anatomy, School of Basic Medical Sciences, Cheeloo College of Medicine, Institute for Sectional Anatomy and Digital Human, Shandong University, Jinan, Shandong, China",
+        "Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Zhou Wenjuan",
+      "affiliations": [
+        "Department of Anatomy and Neurobiology, Key Laboratory of Experimental Teratology of the Ministry of Education, Shandong Key Laboratory of Mental Disorders and Intelligent Control, Shandong Key Laboratory of Digital Human and Clinical Anatomy, School of Basic Medical Sciences, Cheeloo College of Medicine, Institute for Sectional Anatomy and Digital Human, Shandong University, Jinan, Shandong, China",
+        "Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Xing Xin",
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Shandong First Medical University and Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Chen Jiachen",
+      "affiliations": [
+        "Department of Anatomy and Neurobiology, Key Laboratory of Experimental Teratology of the Ministry of Education, Shandong Key Laboratory of Mental Disorders and Intelligent Control, Shandong Key Laboratory of Digital Human and Clinical Anatomy, School of Basic Medical Sciences, Cheeloo College of Medicine, Institute for Sectional Anatomy and Digital Human, Shandong University, Jinan, Shandong, China",
+        "Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Sun Chenxi",
+      "affiliations": [
+        "Department of Anatomy and Neurobiology, Key Laboratory of Experimental Teratology of the Ministry of Education, Shandong Key Laboratory of Mental Disorders and Intelligent Control, Shandong Key Laboratory of Digital Human and Clinical Anatomy, School of Basic Medical Sciences, Cheeloo College of Medicine, Institute for Sectional Anatomy and Digital Human, Shandong University, Jinan, Shandong, China",
+        "Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Liu Shizhou",
+      "affiliations": [
+        "Department of Anatomy and Neurobiology, Key Laboratory of Experimental Teratology of the Ministry of Education, Shandong Key Laboratory of Mental Disorders and Intelligent Control, Shandong Key Laboratory of Digital Human and Clinical Anatomy, School of Basic Medical Sciences, Cheeloo College of Medicine, Institute for Sectional Anatomy and Digital Human, Shandong University, Jinan, Shandong, China",
+        "Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Lou Yunxia",
+      "affiliations": [
+        "Department of Ultrasound, Qilu Hospital of Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Jiao Jianfen",
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Cao Haoling",
+      "affiliations": [
+        "Department of Anatomy and Neurobiology, Key Laboratory of Experimental Teratology of the Ministry of Education, Shandong Key Laboratory of Mental Disorders and Intelligent Control, Shandong Key Laboratory of Digital Human and Clinical Anatomy, School of Basic Medical Sciences, Cheeloo College of Medicine, Institute for Sectional Anatomy and Digital Human, Shandong University, Jinan, Shandong, China",
+        "Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Cui Baoxia",
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Hong Shuhui",
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Shandong First Medical University and Shandong Provincial Qianfoshan Hospital, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Ahmadi Niloufar",
+      "affiliations": [
+        "Department of Anatomy and Neurobiology, Key Laboratory of Experimental Teratology of the Ministry of Education, Shandong Key Laboratory of Mental Disorders and Intelligent Control, Shandong Key Laboratory of Digital Human and Clinical Anatomy, School of Basic Medical Sciences, Cheeloo College of Medicine, Institute for Sectional Anatomy and Digital Human, Shandong University, Jinan, Shandong, China",
+        "Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong, China"
+      ]
+    },
+    {
+      "name": "Tang Yuchun",
+      "affiliations": [
+        "Department of Anatomy and Neurobiology, Key Laboratory of Experimental Teratology of the Ministry of Education, Shandong Key Laboratory of Mental Disorders and Intelligent Control, Shandong Key Laboratory of Digital Human and Clinical Anatomy, School of Basic Medical Sciences, Cheeloo College of Medicine, Institute for Sectional Anatomy and Digital Human, Shandong University, Jinan, Shandong, China",
+        "Institute of Brain and Brain-Inspired Science, Shandong University, Jinan, Shandong, China"
+      ]
+    }
+  ],
+  "keywords": [
+    "fetal gene expression",
+    "fetal development",
+    "brainstem",
+    "RNA sequencing",
+    "gene regulation"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Natural Science Foundation of China10.13039/501100001809 32371197318728028130128032471207",
+    "Major Scientific and Technological Innovation Project of Shandong Province10.13039/501100018532 2017CXGC1501",
+    "Fundamental Research Funds for the Central Universities10.13039/501100012226",
+    "Natural Science Foundation of Shandong Province10.13039/501100007129"
+  ],
+  "data_availability_text": "Data availability statementThe raw and processed RNA-seq data have been deposited in the NCBI Gene Expression Omnibus (GEO) under the accession number GSE307537.",
+  "license": "",
+  "received": "2025-07-28",
+  "accepted": "2025-11-12",
+  "reference_pmids": [
+    "9931323",
+    "9331369",
+    "21303898",
+    "40348857",
+    "23093608",
+    "37824650",
+    "24474760",
+    "35623351",
+    "28901281",
+    "12971891",
+    "18585350",
+    "27774781",
+    "36747013",
+    "34595138",
+    "9597126",
+    "38643019",
+    "26335642",
+    "23323831",
+    "36527956",
+    "19477152",
+    "25751142",
+    "33958802",
+    "20367617",
+    "18084642",
+    "19114008",
+    "18024473",
+    "22388286",
+    "21816040",
+    "18227114",
+    "38091994",
+    "15181976",
+    "25516281",
+    "38923993",
+    "1465219",
+    "11458515",
+    "32954002",
+    "24528004",
+    "9425135",
+    "36200879",
+    "23796553",
+    "26814963",
+    "23041053",
+    "25480548",
+    "25374358",
+    "38900989",
+    "29253653",
+    "37824674",
+    "19855105",
+    "32966778",
+    "16024796",
+    "34646114",
+    "24668635",
+    "31942070",
+    "17641217"
+  ],
+  "tables_count": 1,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "sample acquisition",
+    "sample storage",
+    "tissue sampling",
+    "rna sequencing",
+    "rna extraction",
+    "mrna library preparation",
+    "data filtering",
+    "structure variation detection",
+    "rna identification",
+    "gene quantification differential expression analysis",
+    "wgcna",
+    "gsva",
+    "mfuzz pseudo-timing analysis",
+    "statistical analysis",
+    "immunofluorescence microscopy analysis",
+    "sample fixation",
+    "dehydration and sucrose infiltration",
+    "sucrose infiltration",
+    "freezing and embedding",
+    "sectioning and storage",
+    "immunofluorescence microscopy",
+    "quantification and statistical analysis",
+    "results",
+    "construction of a tissue block-resolved transcriptomic atlas of the developing human fetal brainstem",
+    "analysis of gene expression during fetal brainstem development",
+    "wgcna",
+    "gsva",
+    "temporal paradigm induction of gene expression",
+    "identification of genes associated with neurological disorders",
+    "immunofluorescence staining validation of downstream protein expression for neurological disorder-associated genes",
+    "discussion",
+    "decoding brainstem development through gene co-expression networks",
+    "temporal and spatial dynamics of gene expression",
+    "linking developmental expression to neurological disorders",
+    "limitations and future directions",
+    "conclusion",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11168,
+  "converted_at": "2026-04-06T22:38:20.474033+00:00"
+}

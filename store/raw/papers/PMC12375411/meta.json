@@ -1,0 +1,251 @@
+{
+  "pmid": "40860328",
+  "pmc": "PMC12375411",
+  "doi": "10.1093/exposome/osaf007",
+  "title": "Molecular profiling of neuronal extracellular vesicles reveals brain tissue specific signals",
+  "journal": "Exposome",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Kalia Vrinda",
+      "affiliations": [
+        "Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Jackson Gabriela L",
+      "affiliations": [
+        "Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Dominguez Regina J",
+      "affiliations": [
+        "Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Pinto-Pacheco Brismar",
+      "affiliations": [
+        "Department of Environmental Medicine and Public Health, Icahn School of Medicine at Mount Sinai, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Bloomquist Tessa",
+      "affiliations": [
+        "Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Furnari Julia",
+      "affiliations": [
+        "Department of Neurological Surgery, Columbia University Irving Medical Center, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Banu Matei",
+      "affiliations": [
+        "Stanford Neuroscience Health Center, Stanford Medicine, Palo Alto, CA, United States"
+      ]
+    },
+    {
+      "name": "Volpert Olga",
+      "affiliations": [
+        "NeuroDex Inc, Natick, MA, United States"
+      ]
+    },
+    {
+      "name": "Manz Katherine E",
+      "affiliations": [
+        "Department of Environmental Health Sciences, School of Public Health, University of MI, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Walker Douglas I",
+      "affiliations": [
+        "Gangarosa Department of Environmental Health, Rollins School of Public Health, Emory University, Atlanta, GA, United States"
+      ]
+    },
+    {
+      "name": "Pennell Kurt D",
+      "affiliations": [
+        "School of Engineering, Brown University, Providence, RI, United States"
+      ]
+    },
+    {
+      "name": "Canoll Peter D",
+      "affiliations": [
+        "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Bruce Jeffrey N",
+      "affiliations": [
+        "Department of Neurological Surgery, Columbia University Irving Medical Center, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Eitan Erez",
+      "affiliations": [
+        "NeuroDex Inc, Natick, MA, United States"
+      ]
+    },
+    {
+      "name": "Wu Haotian",
+      "affiliations": [
+        "Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Baccarelli Andrea A",
+      "affiliations": [
+        "Department of Environmental Health, Harvard T. H. Chan School of Public Health, Harvard University, Boston, MA, United States"
+      ]
+    }
+  ],
+  "keywords": [
+    "Extracellular vesicles",
+    "neuronal extracellular vesicles",
+    "microRNAs",
+    "environmental chemicals",
+    "metabolomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Institutes of Health10.13039/100000002 P20AG093975"
+  ],
+  "data_availability_text": "Data availabilityData available from corresponding author upon reasonable request.",
+  "license": "",
+  "received": "2025-01-22",
+  "accepted": "2025-07-24",
+  "reference_pmids": [
+    "27053351",
+    "30602770",
+    "36753414",
+    "33246331",
+    "31594233",
+    "38385571",
+    "21423189",
+    "29467962",
+    "31092696",
+    "26432482",
+    "30923321",
+    "35879759",
+    "35527262",
+    "37071449",
+    "37842184",
+    "35722765",
+    "37012443",
+    "36221381",
+    "37730689",
+    "30895312",
+    "34499398",
+    "34471251",
+    "30610738",
+    "33922642",
+    "36369335",
+    "24045890",
+    "30123182",
+    "37563857",
+    "38667317",
+    "31619081",
+    "38684891",
+    "26580326",
+    "35658413",
+    "22198708",
+    "35436567",
+    "38868956",
+    "25278937",
+    "39498678",
+    "33843938",
+    "34368811",
+    "34668567",
+    "36821578",
+    "32490663",
+    "26229523",
+    "19414529",
+    "23323971",
+    "19910308",
+    "37260078",
+    "29185060",
+    "29805336",
+    "27977166",
+    "24476540",
+    "33199890",
+    "38587201",
+    "18434550",
+    "30011310",
+    "17314675",
+    "32824515",
+    "35743705",
+    "34207213",
+    "16039986",
+    "17721077",
+    "19424584",
+    "17111382",
+    "32010153",
+    "32648622",
+    "30544973",
+    "26646931",
+    "18766170",
+    "28798470",
+    "27252357",
+    "28159509",
+    "38656168",
+    "31418976",
+    "39293651",
+    "34957539",
+    "34012516",
+    "31718094",
+    "32825239",
+    "35992593",
+    "16406223",
+    "20382260",
+    "23710642",
+    "28857071",
+    "34046409",
+    "38902362",
+    "34781208",
+    "26582271",
+    "31640568",
+    "35458006"
+  ],
+  "tables_count": 0,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "samples",
+    "isolation of total evs",
+    "isolation of nevs",
+    "ev characterization of tetraspanins and relevant proteins",
+    "ev concentration and size distribution measurements",
+    "ev imaging",
+    "mirna sequencing",
+    "gas chromatography coupled high-resolution mass spectrometry (environmental chemical analysis)",
+    "liquid chromatography coupled high-resolution mass spectrometry (metabolomics)",
+    "data analysis",
+    "mirna data normalization",
+    "environmental chemical data processing",
+    "mirna pathway analysis",
+    "correlation between molecules in brain tissue and other compartments",
+    "metabolomics data processing and annotation",
+    "metabolite class membership",
+    "enrichment analysis",
+    "analysis of differential levels of super classes and metabolites",
+    "results",
+    "characterization of nevs and total evs",
+    "nevs mirnas are correlated with brain tissue mirnas and target similar pathways",
+    "environmental chemical load in brain tissue is correlated with their concentration in nevs",
+    "metabolomic profile of nevs shows enrichment of metabolites with signaling roles",
+    "discussion",
+    "supplementary material",
+    "supplementary material",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10570,
+  "converted_at": "2026-04-06T22:37:29.863532+00:00"
+}

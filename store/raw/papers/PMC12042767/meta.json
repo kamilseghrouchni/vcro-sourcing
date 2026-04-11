@@ -1,0 +1,488 @@
+{
+  "pmid": "40120616",
+  "pmc": "PMC12042767",
+  "doi": "10.1016/S1474-4422(25)00024-9",
+  "title": "Safety and efficacy of long-term gantenerumab treatment in dominantly inherited Alzheimer’s disease: an open label extension of the phase 2/3 multicentre, randomised, double-blind, placebo-controlled platform DIAN-TU Trial",
+  "journal": "The Lancet. Neurology",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Bateman Randall J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Li Yan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "McDade Eric M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Llibre-Guerra Jorge J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Clifford David B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Atri Alireza",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mills Susan L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Santacruz Anna M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang Guoqiao",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Supnet Charlene",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Benzinger Tammie L. S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gordon Brian A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ibanez Laura",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Klein Gregory",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Baudler Monika",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Doody Rachelle S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Delmar Paul",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kerchner Geoffrey A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bittner Tobias",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wojtowicz Jakub",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bonni Azad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fontoura Paulo",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hofmann Carsten",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kulic Luka",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hassenstab Jason",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aschenbrenner Andrew J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Perrin Richard J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cruchaga Carlos",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Renton Alan E.",
+      "affiliations": [
+        "a, Department of Genetics and Genomic Sciencesb, Icahn School of Medicine Mt. Sinai, New York, NY, USA"
+      ]
+    },
+    {
+      "name": "Xiong Chengjie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Goate Alison A.",
+      "affiliations": [
+        "a, Department of Genetics and Genomic Sciencesb, Icahn School of Medicine Mt. Sinai, New York, NY, USA"
+      ]
+    },
+    {
+      "name": "Morris John C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Holtzman David M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Snider B. Joy",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mummery Catherine",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Brooks William S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wallon David",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Berman Sarah B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Roberson Erik",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Masters Colin L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Galasko Douglas R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jayadev Suman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sanchez-Valle Rachel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pariente Jeremie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kinsella Justin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "van Dyck Christopher H.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gauthier Serge",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hsiung Ging-Yuek Robin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Masellis Mario",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dubois Bruno",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Honig Lawrence S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jack Clifford R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Daniels Alisha",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Aguillón David",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Allegri Ricardo",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chhatwal Jasmeer",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Day Gregory",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fox Nick",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Huey Edward",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ikeuchi Takeshi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jucker Mathias",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lee Jae-Hong",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Levey Allan I.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Levin Johannes",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lopera Francisco",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Roh JeeHoon",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rosa-Neto Pedro",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schofield Peter R.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "for the Dominantly Inherited Alzheimer’s Disease-Trials Unit",
+      "affiliations": []
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data SharingData access to the DIAN–TU trial data will follow the policies of the DIAN–TU data access policy (https://dian.wustl.edu/wp-content/uploads/2021/02/DIANTUResourceSharePublAuthorPolicy_Ver1.0_12Jan2021.pdf), which complies with the guidelines established by the Collaboration for Alzheimer’s Prevention. Patient-related data not included in the paper were generated as part of a clinical trial and may be subject to patient confidentiality. Any data and materials that can be shared will be released via a data/material sharing agreement. Requests to access the DIAN–TU-001 trial data can be made at https://dian.wustl.edu/our-research/for-investigators/diantu-investigator-resources/. All code for data cleaning and analysis associated with the current submission is available upon request to the corresponding author and is provided as part of the replication package.",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "1566067",
+    "27025652",
+    "35542991",
+    "36449413",
+    "37459141",
+    "1671712",
+    "7596406",
+    "7638622",
+    "22784036",
+    "34155411",
+    "38683602",
+    "37966285",
+    "24928124",
+    "30217935",
+    "27697430",
+    "36151869",
+    "33495373",
+    "35971310",
+    "37280110",
+    "25485714",
+    "37117788",
+    "28734653",
+    "26524180",
+    "21211070",
+    "24131566"
+  ],
+  "tables_count": 3,
+  "figures_count": 3,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "study design",
+    "participants",
+    "randomisation and masking",
+    "procedures",
+    "outcomes",
+    "statistical analysis",
+    "role of the funding source",
+    "results",
+    "participant characteristics",
+    "interim analysis primary and secondary outcomes: clinical dementia progression and amyloid plaque removal",
+    "final analysis primary efficacy endpoint: amyloid plaque removal",
+    "final analysis secondary outcomes: key clinical dementia progression",
+    "other secondary outcomes: cognitive and biomarker",
+    "safety",
+    "discussion",
+    "research in context",
+    "evidence before the study",
+    "added value of the study",
+    "implications of all the available evidence",
+    "supplementary material",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11320,
+  "converted_at": "2026-04-06T22:36:53.163572+00:00"
+}

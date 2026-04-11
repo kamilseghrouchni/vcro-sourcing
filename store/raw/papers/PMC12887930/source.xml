@@ -1,0 +1,807 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="jnc70382" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Neurochem</journal-id><journal-id journal-id-type="iso-abbrev">J Neurochem</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">JNC</journal-id><journal-title-group><journal-title>Journal of Neurochemistry</journal-title></journal-title-group><issn pub-type="ppub">0022-3042</issn><issn pub-type="epub">1471-4159</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12887930</article-id><article-id pub-id-type="pmcid-ver">PMC12887930.1</article-id><article-id pub-id-type="pmcaid">12887930</article-id><article-id pub-id-type="pmcaiid">12887930</article-id><article-id pub-id-type="pmid">41664997</article-id><article-id pub-id-type="doi">10.1111/jnc.70382</article-id><article-id pub-id-type="publisher-id">JNC70382</article-id><article-id pub-id-type="other">JNC-2025-1016.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>N‐Truncated Superoxide Dismutase‐1 in Cerebrospinal Fluid Is Folded and Active</article-title></title-group><contrib-group><contrib id="jnc70382-cr-0001" contrib-type="author"><name name-style="western"><surname>Leykam</surname><given-names initials="L">Laura</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-9020-3817</contrib-id><xref rid="jnc70382-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jnc70382-cr-0002" contrib-type="author"><name name-style="western"><surname>Forsberg</surname><given-names initials="KME">Karin M. E.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2911-6026</contrib-id><xref rid="jnc70382-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jnc70382-cr-0003" contrib-type="author"><name name-style="western"><surname>Andersen</surname><given-names initials="PM">Peter M.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0094-5429</contrib-id><xref rid="jnc70382-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jnc70382-cr-0004" contrib-type="author"><name name-style="western"><surname>Brännström</surname><given-names initials="T">Thomas</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4201-8204</contrib-id><xref rid="jnc70382-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="jnc70382-cr-0005" contrib-type="author"><name name-style="western"><surname>Weiner</surname><given-names initials="S">Sophia</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0000-2298-220X</contrib-id><xref rid="jnc70382-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="jnc70382-cr-0006" contrib-type="author"><name name-style="western"><surname>Rönnholm</surname><given-names initials="J">John</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0001-3945-6414</contrib-id><xref rid="jnc70382-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="jnc70382-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="jnc70382-cr-0007" contrib-type="author"><name name-style="western"><surname>Blennow</surname><given-names initials="K">Kaj</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1890-4193</contrib-id><xref rid="jnc70382-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="jnc70382-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="jnc70382-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><xref rid="jnc70382-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="jnc70382-cr-0008" contrib-type="author"><name name-style="western"><surname>Zetterberg</surname><given-names initials="H">Henrik</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3930-4354</contrib-id><xref rid="jnc70382-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="jnc70382-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="jnc70382-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref><xref rid="jnc70382-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref><xref rid="jnc70382-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref><xref rid="jnc70382-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref><xref rid="jnc70382-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref><xref rid="jnc70382-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref></contrib><contrib id="jnc70382-cr-0009" contrib-type="author"><name name-style="western"><surname>Marklund</surname><given-names initials="SL">Stefan L.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3270-2854</contrib-id><xref rid="jnc70382-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jnc70382-cr-0010" contrib-type="author"><name name-style="western"><surname>Gobom</surname><given-names initials="J">Johan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6193-6193</contrib-id><xref rid="jnc70382-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="jnc70382-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="jnc70382-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zetterström</surname><given-names initials="P">Per</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8718-3249</contrib-id><xref rid="jnc70382-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>per.zetterstrom@umu.se</email></address></contrib></contrib-group><aff id="jnc70382-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medical Biosciences, Clinical Chemistry</named-content>
+<institution>Umeå University</institution>
+<city>Umeå</city>
+<country country="SE">Sweden</country>
+</aff><aff id="jnc70382-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Clinical Sciences, Neurosciences</named-content>
+<institution>Umeå University</institution>
+<city>Umeå</city>
+<country country="SE">Sweden</country>
+</aff><aff id="jnc70382-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medical Biosciences, Pathology</named-content>
+<institution>Umeå University</institution>
+<city>Umeå</city>
+<country country="SE">Sweden</country>
+</aff><aff id="jnc70382-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Neuroscience and Physiology, Department of Psychiatry and Neurochemistry</named-content>
+<institution>University of Gothenburg</institution>
+<city>Mölndal</city>
+<country country="SE">Sweden</country>
+</aff><aff id="jnc70382-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Clinical Neurochemistry Lab, Institute of Neuroscience and Physiology</named-content>
+<institution>Sahlgrenska University Hospital</institution>
+<city>Mölndal</city>
+<country country="SE">Sweden</country>
+</aff><aff id="jnc70382-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<institution>Paris Brain Institute, ICM, Pitié‐Salpêtrière Hospital, Sorbonne University</institution>
+<city>Paris</city>
+<country country="FR">France</country>
+</aff><aff id="jnc70382-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Neurodegenerative Disorder Research Center, Division of Life Sciences and Medicine, and Department of Neurology, Institute on Aging and Brain Disorders</named-content>
+<institution>University of Science and Technology of China and First Affiliated Hospital of USTC</institution>
+<city>Hefei</city>
+<country country="CN">People's Republic of China</country>
+</aff><aff id="jnc70382-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurodegenerative Disease</named-content>
+<institution>UCL Institute of Neurology</institution>
+<city>London</city>
+<country country="GB">UK</country>
+</aff><aff id="jnc70382-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<institution>UK Dementia Research Institute, UCL</institution>
+<city>London</city>
+<country country="GB">UK</country>
+</aff><aff id="jnc70382-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<institution>Hong Kong Center for Neurodegenerative Diseases, InnoHK</institution>
+<city>Hong Kong</city>
+<country country="CN">China</country>
+</aff><aff id="jnc70382-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<named-content content-type="organisation-division">Wisconsin Alzheimer's Disease Research Center</named-content>
+<institution>University of Wisconsin School of Medicine and Public Health, University of Wisconsin‐Madison</institution>
+<city>Madison</city>
+<named-content content-type="country-part">Wisconsin</named-content>
+<country country="US">USA</country>
+</aff><aff id="jnc70382-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pathology and Laboratory Medicine</named-content>
+<institution>University of Wisconsin School of Medicine and Public Health</institution>
+<city>Madison</city>
+<named-content content-type="country-part">Wisconsin</named-content>
+<country country="US">USA</country>
+</aff><aff id="jnc70382-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<named-content content-type="organisation-division">Centre for Brain Research</named-content>
+<institution>Indian Institute of Science</institution>
+<city>Bangalore</city>
+<country country="IN">India</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Per Zetterström (<email>per.zetterstrom@umu.se</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>2</month><year>2026</year></pub-date><pub-date pub-type="ppub"><month>2</month><year>2026</year></pub-date><volume>170</volume><issue seq="160">2</issue><issue-id pub-id-type="pmc-issue-id">507343</issue-id><issue-id pub-id-type="doi">10.1111/jnc.v170.2</issue-id><elocation-id>e70382</elocation-id><history><date date-type="rev-recd"><day>14</day><month>1</month><year>2026</year></date><date date-type="received"><day>17</day><month>11</month><year>2025</year></date><date date-type="accepted"><day>26</day><month>1</month><year>2026</year></date></history><pub-history><event event-type="pmc-release"><date><day>10</day><month>02</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>11</day><month>02</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-02-11 00:25:14.143"><day>11</day><month>02</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Journal of Neurochemistry</italic> published by John Wiley &amp; Sons Ltd on behalf of International Society for Neurochemistry.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="JNC-170-0.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:JNC-170-0.pdf"/><abstract><title>ABSTRACT</title><p>Mutations in the antioxidant enzyme superoxide dismutase‐1 (SOD1) are a well‐established cause of amyotrophic lateral sclerosis (ALS). The mutations promote SOD1 misfolding, resulting in protein aggregation and motor neuron degeneration. SOD1 is normally a structurally stable enzyme, and the mechanisms underlying SOD1 misfolding remain poorly understood. Approximately one third of SOD1 in cerebrospinal fluid (CSF) exhibits an N‐terminal truncation, the biological significance of which remains unclear. This is remarkable given the dramatic effects ALS‐linked C‐terminal truncations have on the enzyme. In this study, we identified the truncation site and investigated its impact on SOD1 stability and enzymatic activity. Edman degradation revealed the cleavage site between Asn‐26 and Gly‐27, generating a 26‐residue peptide that was confirmed by mass spectrometry. We analyzed postmortem tissues from different parts of the central nervous system (CNS), including the choroid plexus, and found only trace amounts of N‐terminally truncated SOD1. Biochemical characterization of the SOD1 in CSF was done by size exclusion chromatography, ion exchange chromatography, and mass spectrometry. Our findings demonstrate that SOD1 in CSF retains full enzymatic activity, that the N‐terminally truncated variant is mainly present in heterodimers with native SOD1 subunits, and that the dimer remains folded and active, with both fragments of the truncated SOD1 fixed after proteolysis. Truncated SOD1 was absent in human plasma. In mice, only transgenically expressed human SOD1 underwent truncation in CSF, whereas endogenous murine SOD1 remained intact. Lastly, the N‐terminal truncation does not induce misfolding, unlike the destabilizing effects observed with C‐terminal truncations. The location where the truncation takes place and the underlying mechanism could not be identified. Whether the N‐truncated SOD1 variant contributes to ALS pathogenesis remains to be determined.</p><p>
+<boxed-text position="anchor" content-type="graphic" id="jnc70382-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="JNC-170-0-g003.jpg"/></boxed-text>
+</p></abstract><abstract abstract-type="graphical"><p>Superoxide dismutase 1 (SOD1) mutations cause amyotrophic lateral sclerosis (ALS) through mechanisms involving protein misfolding and aggregation. While C‐terminal truncations of SOD1 promote neurotoxicity, our study reveals that approximately one‐third of SOD1 in cerebrospinal fluid (CSF) is N‐terminally truncated—a striking observation given the structural importance of this region. The cleavage site was between Asn‐26 and Gly‐27. Both fragments stay fixed within the folded β‐barrel architecture and retain full enzymatic activity. Importantly, truncated SOD1 was abundant in CSF but nearly absent in CNS tissue, and its presence was independent of ALS status. We found no correlation between N‐terminal truncation and misfolded SOD1 levels, suggesting no contribution to ALS.<boxed-text position="anchor" content-type="graphic" id="jnc70382-blkfxd-0002" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="JNC-170-0-g001.jpg"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="jnc70382-kwd-0001">amyotrophic lateral sclerosis</kwd><kwd id="jnc70382-kwd-0002">cerebrospinal fluid</kwd><kwd id="jnc70382-kwd-0003">posttranslational modification</kwd><kwd id="jnc70382-kwd-0004">superoxide dismutase‐1</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>European Union’s Horizon Europe research and innovation programme</institution></institution-wrap>
+</funding-source><award-id>101053962</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Fort Knox Charity Foundation</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Olsson och Olsson Foundation</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Vetenskapsrådet</institution><institution-id institution-id-type="doi">10.13039/501100004359</institution-id></institution-wrap>
+</funding-source><award-id>2012‐3167</award-id><award-id>2017‐00915</award-id><award-id>2017‐03100</award-id><award-id>2019‐02397</award-id><award-id>2022‐00732</award-id><award-id>2022‐01018</award-id><award-id>2023‐00356</award-id></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>Knut och Alice Wallenbergs Stiftelse</institution><institution-id institution-id-type="doi">10.13039/501100004063</institution-id></institution-wrap>
+</funding-source><award-id>2012.0091</award-id><award-id>2014.0305</award-id><award-id>2020.0232</award-id></award-group><award-group id="funding-0006"><funding-source>
+<institution-wrap><institution>Swedish Brain Foundation</institution></institution-wrap>
+</funding-source><award-id>2012‐0262</award-id><award-id>2012‐0305</award-id><award-id>2013‐0279</award-id><award-id>2016‐0303</award-id><award-id>2020‐0353</award-id><award-id>2022‐0270</award-id><award-id>2024‐0048</award-id><award-id>ALZ2022‐0006</award-id></award-group><award-group id="funding-0007"><funding-source>
+<institution-wrap><institution>Västerbotten Läns Landsting</institution><institution-id institution-id-type="doi">10.13039/501100002960</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0008"><funding-source>
+<institution-wrap><institution>King Gustaf V:s and Queen Victoria’s Freemason’s Foundation</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0009"><funding-source>
+<institution-wrap><institution>Ulla‐Carin Lindquists stiftelse för ALS‐forskning</institution><institution-id institution-id-type="doi">10.13039/100018007</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0010"><funding-source>
+<institution-wrap><institution>Neuroförbundet Association</institution></institution-wrap>
+</funding-source><award-id>2.1.12‐1605‐14</award-id><award-id>2.1.6‐452‐20</award-id><award-id>223‐1881‐13</award-id><award-id>223‐2808‐12</award-id></award-group><award-group id="funding-0011"><funding-source>
+<institution-wrap><institution>European Partnership on Metrology</institution><institution-id institution-id-type="doi">10.13039/100019599</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0012"><funding-source>
+<institution-wrap><institution>Cure Alzheimer’s Fund</institution><institution-id institution-id-type="doi">10.13039/100007625</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0013"><funding-source>
+<institution-wrap><institution>Stiftelsen för Gamla Tjänarinnor</institution><institution-id institution-id-type="doi">10.13039/100010815</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0014"><funding-source>
+<institution-wrap><institution>National Institute for Health and Care Research</institution><institution-id institution-id-type="doi">10.13039/501100000272</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0015"><funding-source>
+<institution-wrap><institution>University College London</institution><institution-id institution-id-type="doi">10.13039/501100000765</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0016"><funding-source>
+<institution-wrap><institution>UK Dementia Research Institute</institution><institution-id institution-id-type="doi">10.13039/501100017510</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="11"/><table-count count="1"/><page-count count="18"/><word-count count="13300"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.8 mode:remove_FC converted:10.02.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jnc70382-cit-1001">
+<string-name name-style="western">
+<surname>Leykam</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. M. E.</given-names>
+<surname>Forsberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>N‐Truncated Superoxide Dismutase‐1 in Cerebrospinal Fluid Is Folded and Active</article-title>.” <source>Journal of Neurochemistry</source>
+<volume>170</volume>, no. <issue>2</issue>: <elocation-id>e70382</elocation-id>. <pub-id pub-id-type="doi">10.1111/jnc.70382</pub-id>.<pub-id pub-id-type="pmid">41664997</pub-id>
+<pub-id pub-id-type="pmcid">PMC12887930</pub-id></mixed-citation>
+</p></notes></front><body id="jnc70382-body-0001"><def-list list-content="abbreviations" id="jnc70382-dl-0001"><title>Abbreviations</title><def-item><term id="jnc70382-li-0001">ALS</term><def id="jnc70382-li-0002"><p>amyotrophic lateral sclerosis</p></def></def-item><def-item><term id="jnc70382-li-0003">AU</term><def id="jnc70382-li-0004"><p>arbitrary units</p></def></def-item><def-item><term id="jnc70382-li-0005">BSA</term><def id="jnc70382-li-0006"><p>bovine serum albumin</p></def></def-item><def-item><term id="jnc70382-li-0007">CNS</term><def id="jnc70382-li-0008"><p>central nervous system</p></def></def-item><def-item><term id="jnc70382-li-0009">CSF</term><def id="jnc70382-li-0010"><p>cerebrospinal fluid</p></def></def-item><def-item><term id="jnc70382-li-0011">EDTA</term><def id="jnc70382-li-0012"><p>ethylenediaminetetraacetic acid</p></def></def-item><def-item><term id="jnc70382-li-0013">ELISA</term><def id="jnc70382-li-0014"><p>enzyme‐linked immunosorbent assay</p></def></def-item><def-item><term id="jnc70382-li-0015">FA</term><def id="jnc70382-li-0016"><p>formic acid</p></def></def-item><def-item><term id="jnc70382-li-0017">FDR</term><def id="jnc70382-li-0018"><p>false discovery rate</p></def></def-item><def-item><term id="jnc70382-li-0019">IAM</term><def id="jnc70382-li-0020"><p>iodoacetamide</p></def></def-item><def-item><term id="jnc70382-li-0021">PBS</term><def id="jnc70382-li-0022"><p>phosphate‐buffered saline</p></def></def-item><def-item><term id="jnc70382-li-0023">RRID</term><def id="jnc70382-li-0024"><p>research resource identifier</p></def></def-item><def-item><term id="jnc70382-li-0025">RT</term><def id="jnc70382-li-0026"><p>room temperature</p></def></def-item><def-item><term id="jnc70382-li-0027">SD</term><def id="jnc70382-li-0028"><p>standard deviation</p></def></def-item><def-item><term id="jnc70382-li-0029">SEC</term><def id="jnc70382-li-0030"><p>size exclusion chromatography</p></def></def-item><def-item><term id="jnc70382-li-0031">SOD1</term><def id="jnc70382-li-0032"><p>superoxide dismutase1</p></def></def-item></def-list><sec id="jnc70382-sec-0001"><label>1</label><title>Introduction</title><p>Superoxide dismutase‐1 (SOD1, EC 1.15.1.1) is a ubiquitously expressed enzyme that catalyzes the conversion of superoxide radicals into hydrogen peroxide and molecular oxygen in human cells (Marklund <xref rid="jnc70382-bib-0029" ref-type="bibr">1984</xref>; McCord and Fridovich <xref rid="jnc70382-bib-0032" ref-type="bibr">1969</xref>). SOD1 is predominantly cytosolic, but also localizes to the nucleus and mitochondrial intermembrane space and makes up around 0.16% of the total protein content in the human central nervous system (CNS) (Forsberg et al. <xref rid="jnc70382-bib-0016" ref-type="bibr">2010</xref>; Leykam et al. <xref rid="jnc70382-bib-0028" ref-type="bibr">2025</xref>). Functionally, SOD1 forms a 32 kDa homodimer, with each subunit comprising 153 highly conserved amino acids, each subunit containing a copper ion and a zinc ion. The copper ion is alternatively oxidized and reduced as part of the dismutation reaction while the zinc ion mediates the correct folding of the SOD1 monomer: a conformation of an eight‐stranded Greek key β‐barrel, which are connected via seven loops (Parge et al. <xref rid="jnc70382-bib-0035" ref-type="bibr">1992</xref>). Its exceptional structural stability (Stathopulos et al. <xref rid="jnc70382-bib-0040" ref-type="bibr">2006</xref>; Weser et al. <xref rid="jnc70382-bib-0043" ref-type="bibr">1989</xref>) is maintained by the intramolecular disulfide bond between cysteine residues 57 and 146 in each subunit, the dimer formation, and the coordination of primarily the zinc ion but also the copper ion to histidine and aspartic acid residues in the electrostatic loop and β‐strands IV, V and VII (Eleutherio et al. <xref rid="jnc70382-bib-0013" ref-type="bibr">2021</xref>).</p><p>In 1993, mutations in the SOD1 gene were identified as the first genetic cause of amyotrophic lateral sclerosis (ALS) (Rosen et al. <xref rid="jnc70382-bib-0037" ref-type="bibr">1993</xref>). Since then, over 230 mutations in <italic toggle="yes">SOD1</italic> have been reported in ALS patients worldwide, usually as a dominant trait with complete or reduced penetrance, but recessive inheritance and <italic toggle="yes">de novo</italic> mutations have also been found (Andersen et al. <xref rid="jnc70382-bib-0002" ref-type="bibr">1995</xref>; Müller et al. <xref rid="jnc70382-bib-0033" ref-type="bibr">2022</xref>). Accumulated evidence indicates that <italic toggle="yes">SOD1</italic> mutations destabilize the protein, which leads to unfolding and misfolding of the SOD1 monomers. These misfolded species are prone to aggregation, and SOD1 inclusions in motor neurons are considered a hallmark of SOD1‐linked ALS (Kato et al. <xref rid="jnc70382-bib-0025" ref-type="bibr">2000</xref>). Two different tertiary structures of SOD1 aggregates referred to as strains A and B have been identified in transgenic mice overexpressing human SOD1 (Bergh et al. <xref rid="jnc70382-bib-0007" ref-type="bibr">2015</xref>). Indeed, the pathogenic role of such SOD1 aggregates has been investigated by spinal cord inoculation experiments in transgenic ALS model mice and suggest that the human SOD1 aggregates fulfill characteristics of ALS‐transmitting prions (Ayers et al. <xref rid="jnc70382-bib-0005" ref-type="bibr">2014</xref>; Bidhendi et al. <xref rid="jnc70382-bib-0008" ref-type="bibr">2016</xref>). Our previous work demonstrated that aggregates isolated from spinal ventral horns from an ALS patient carrying the G127X mutation likewise transmit SOD1 aggregation and premature ALS‐like disease (Ekhtiari Bidhendi et al. <xref rid="jnc70382-bib-0012" ref-type="bibr">2018</xref>). However, SOD1 inclusions have also been reported in ALS cases lacking <italic toggle="yes">SOD1</italic> mutations (Bosco et al. <xref rid="jnc70382-bib-0010" ref-type="bibr">2010</xref>; Forsberg et al. <xref rid="jnc70382-bib-0014" ref-type="bibr">2011</xref>, <xref rid="jnc70382-bib-0015" ref-type="bibr">2019</xref>, <xref rid="jnc70382-bib-0016" ref-type="bibr">2010</xref>; Grad et al. <xref rid="jnc70382-bib-0019" ref-type="bibr">2011</xref>, <xref rid="jnc70382-bib-0020" ref-type="bibr">2014</xref>), which could imply a greater role for SOD1 in ALS pathogenesis.</p><p>The majority of ALS‐associated <italic toggle="yes">SOD1</italic> mutations are missense variants but over 30 nonsense mutations have been reported which result in insertions and/or deletions of nucleotides with a premature stop codon and a predicted shortened C‐terminally truncated mutant protein (ALSoD, (Wroe et al. <xref rid="jnc70382-bib-0045" ref-type="bibr">2008</xref>)). The best studied of these nonsense mutations is the G127X mutation with an insertion of four base pairs in codon 127 causing a frameshift and the introduction of five new amino acids and a premature stop codon in position 133 (Andersen et al. <xref rid="jnc70382-bib-0004" ref-type="bibr">1997</xref>). The G127X protein is severely destabilized, and most is rapidly degraded in vivo (Jonsson et al. <xref rid="jnc70382-bib-0023" ref-type="bibr">2004</xref>), resulting in low SOD1 activity in erythrocytes of approximately 40% compared to control individuals. This suggests that the mutation has a dominant negative effect on the enzymatic activity of SOD1 (Andersen et al. <xref rid="jnc70382-bib-0004" ref-type="bibr">1997</xref>; Jonsson et al. <xref rid="jnc70382-bib-0023" ref-type="bibr">2004</xref>). In transgenic mice expressing the G127X protein, large amounts of aggregated protein accumulate in terminal stages and aggregated G127X protein is also detected in the CNS in human patients at autopsy (Jonsson et al. <xref rid="jnc70382-bib-0023" ref-type="bibr">2004</xref>).</p><p>Previously, we identified a low‐molecular‐weight SOD1 variant in human cerebrospinal fluid (CSF) samples in addition to the native full‐length human SOD1 protein on western blots (Jacobsson et al. <xref rid="jnc70382-bib-0022" ref-type="bibr">2001</xref>). We concluded that it was an N‐truncated form of SOD1 based on antibodies covering the sequence of the SOD1 molecule and found that the truncated form represented ~30% of all SOD1 in the CSF. Data from Gertsman et al. (<xref rid="jnc70382-bib-0018" ref-type="bibr">2019</xref>) show that a peptide from the N‐terminal end of SOD1 is elevated in CSF from ALS patients. This supports our conclusion that SOD1 is truncated in the N‐terminus. The N‐truncated form was detected in ALS patients with and without SOD1 mutations as well as in controls and was hence not caused by any mutation. Further, analysis of SOD1 protein and SOD1 enzymatic activity suggested that the truncated SOD1 was fully enzymatically active. Considering the pronounced neurotoxicity of C‐terminally truncated SOD1 variants such as G127X, the presence of a large fraction of N‐truncated SOD1 in CSF is remarkable.</p><p>In this study, we further characterize the N‐terminally truncated SOD1 variant. High levels were found in CSF whereas only traces of truncated SOD1 were found in the spinal cord, brain, liver, kidney, gastrocnemius muscle, and blood plasma. We identified the cleavage site and showed that the N‐terminal peptide fragment stays in situ, attached by noncovalent binding to the truncated subunit. The SOD1 dimer remains natively folded, thereby retaining enzymatic activity.</p></sec><sec sec-type="materials-and-methods" id="jnc70382-sec-0002"><label>2</label><title>Material and Methods</title><sec id="jnc70382-sec-0003"><label>2.1</label><title>Patients, Control Participants, and Collection of <styled-content style="fixed-case" toggle="no">CSF</styled-content>
+</title><p>The participating patients and the protocol for CSF collection have been previously described (Leykam et al. <xref rid="jnc70382-bib-0027" ref-type="bibr">2024</xref>). Briefly, with consent from the patient and the Research Ethics Committee at Umeå University (FEK 1994 dnr 94–135 with later amendments) adhering to the Declaration of Helsinki (WMA 1964), patients seen at the Department of Neurology, Umeå University Hospital were asked to donate to medical research any surplus CSF remaining after the diagnostic clinical tests had been performed. CSF was collected via gravity flow into polypropylene tubes, aliquoted into 1.5 mL tubes that were then immediately frozen to −80°C without prior centrifugation. The ALS patients were diagnosed according to the European Federation of Neurological Societies diagnostic algorithm for managing ALS (Andersen et al. <xref rid="jnc70382-bib-0001" ref-type="bibr">2012</xref>). Mutation analysis of <italic toggle="yes">SOD1</italic> and several other ALS‐causing genes was performed as described (Müller et al. <xref rid="jnc70382-bib-0033" ref-type="bibr">2022</xref>). CSF samples were obtained between 1995 and 2023. The control subjects were patients with a variety of nonmotor neuron disease diagnoses seen at the neurological department at Umeå University Hospital; the most common diagnoses were headache, paresthesia, and polyneuropathy. Some of the procedures described herein required larger volumes of CSF not possible to collect from a single individual. For these experiments, CSF was pooled from several subjects, and the pooled CSF was stored at −80°C between experiments.</p></sec><sec id="jnc70382-sec-0004"><label>2.2</label><title>Autopsy Tissues</title><p>Following informed consent from patients or next of kin, tissue specimens from ALS patients and controls were saved and immediately frozen at −80°C (Forsberg et al. <xref rid="jnc70382-bib-0014" ref-type="bibr">2011</xref>, <xref rid="jnc70382-bib-0016" ref-type="bibr">2010</xref>). The protocol was approved by the Research Ethics Committee at Umeå University (dnr 2014–17‐31 M) as well as the Umeå Regional Ethical Review Board and adhered to the principles of the Declaration of Helsinki.</p></sec><sec id="jnc70382-sec-0005"><label>2.3</label><title>Blood Plasma</title><p>Venous blood was drawn via spontaneous flow through 18G needles to minimize hemolysis from five healthy anonymous donors. The blood was mixed with K<sub>2</sub>‐ethylenediaminetetraacetic acid (EDTA), the tubes were inverted over 10 times to mix the blood and anticoagulant, and then centrifuged at 2000 × <italic toggle="yes">g</italic> for 10 min at room temperature (RT, 22°C) to collect the plasma and separated erythrocytes. Absorbance was measured at 415 nm on a CLARIOstar plate‐reader (BMG Labtech, Ortenberg, Germany, cat. no. 430–101) to evaluate hemolysis by the free hemoglobin content of the plasma.</p></sec><sec id="jnc70382-sec-0006"><label>2.4</label><title>Murine <styled-content style="fixed-case" toggle="no">CSF</styled-content>
+</title><p>Mice were euthanized by intraperitoneal injection of pentobarbital (Apoteket AB, Solna, Sweden, cat. no. 338327; 600 mg/kg body weight). Once the animals exhibited no pain reflexes and had ceased breathing, a surgical incision was made at the base of the skull to expose the cisterna magna. A pulled glass capillary with a broken tip was carefully inserted through the dura mater into the cisterna magna, avoiding blood vessels and brain tissue. 3–5 μL CSF was collected, transferred into a prelabeled collection tube, immediately snap‐frozen in liquid nitrogen, and stored at −80°C. until analysis. CSF was pooled from two male nontransgenic C57Bl/6 mice (Charles River Laboratories, Wilmington, MA) both 212 days of age from our in‐house breeding of transgenic mice expressing different human SOD1s and from three male mice expressing wild‐type human SOD1 (line N1029) (Gurney et al. <xref rid="jnc70382-bib-0021" ref-type="bibr">1994</xref>) 470, 473, and 476 days of age, respectively. Transgenic mice are identified using an enzyme‐linked immunosorbent assay (ELISA) detecting human SOD1 (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>). The use and maintenance of the mice and the experimental procedures described in this article were approved by the Regional Ethical Committee for Animal Research (dnr A20‐2023).</p></sec><sec id="jnc70382-sec-0007"><label>2.5</label><title>Homogenization of Tissues</title><p>Cervical and lumbar spinal cord ventral horns, brain gray matter from the precentral gyrus, and superior temporal gyrus as well as choroid plexus and the peripheral tissues liver, kidney, and gastrocnemius muscle were analyzed. Tissues samples were homogenized with an T25D Ultraturrax apparatus (IKA, Staufen, Germany, cat. no 0010004858) for 30 s and followed by pulsed sonication (1 s on/0.5 s off) during 1 min at 10% amplitude with samples on ice using a Branson Digital Sonifier SFX 250 with a 3 mm wide probe (Branson Sonifiers, Danbury, Connecticut, USA, Research Resource Identifier (RRID) SCR_024710) in 25 volumes of ice‐cold phosphate‐buffered saline (PBS, 10 mM K‐phosphate: KH<sub>2</sub>PO<sub>4</sub> e, Barcelona, Spain, cat. no. PO0260/Na<sub>2</sub>HPO<sub>4</sub> Merck, Darmstadt, Germany, cat. no. 1.06580 in 150 mM NaCl Duchefa Biochemie, Haarlem, the Netherlands, cat.no. S0520, pH 7.0) containing an antiproteolytic cocktail (Complete, Roche Diagnostics, Basel, Switzerland, cat. no. 1836145). The homogenates were stored at −80°C until analysis. Before analysis, the tissue homogenates were thawed at RT and sonicated for 1 min before dilutions were made for immunoblotting.</p></sec><sec id="jnc70382-sec-0008"><label>2.6</label><title>Antibodies</title><p>A set of eight antipeptide polyclonal antibodies was previously generated in rabbits immunized with synthetic peptides corresponding to amino acids 3–20, 24–39, 43–57, 57–72, 80–86, 100–115, 111–127, and 131–153 of human SOD1 (hSOD1). In combination, these peptides cover most of the sequence of hSOD1 and have been validated as being specific for unfolded SOD1 without binding to SOD1 with the native conformation (Bergh et al. <xref rid="jnc70382-bib-0007" ref-type="bibr">2015</xref>; Forsberg et al. <xref rid="jnc70382-bib-0014" ref-type="bibr">2011</xref>, <xref rid="jnc70382-bib-0016" ref-type="bibr">2010</xref>; Jonsson et al. <xref rid="jnc70382-bib-0023" ref-type="bibr">2004</xref>). Anti‐SOD1 antibodies were also raised in a goat using fully Cu‐ and Zn‐charged and natively folded hSOD1 purified from human erythrocytes (Marklund et al. <xref rid="jnc70382-bib-0030" ref-type="bibr">1997</xref>) as previously described (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>). All procedures were approved by the Reginal Ethical Committee for Animal Research (dnrs A106‐1997, A46‐2007, and A87‐2011). Antibodies were custom‐made by Agrisera (Umeå, Sweden) and if not commercially available from Agrisera, may be shared upon reasonable request.</p></sec><sec id="jnc70382-sec-0009"><label>2.7</label><title>Immunoblotting</title><p>Western blotting was generally performed as previously described (Leykam et al. <xref rid="jnc70382-bib-0028" ref-type="bibr">2025</xref>). CSF samples, erythrocyte lysates, or tissue homogenates were diluted 1 + 1 with 2 × sample buffer for SDS‐PAGE containing 2‐mercaptoethanol (Sharlau, cat. no. ME00950250) and 10 μL of each sample were loaded on 26 well Criterion TGX Stain‐Free Any‐KD precast gels (Bio‐Rad, Hercules, California, USA, cat. no. 56781259) if not stated otherwise in the figure legend. The running buffer was from Bio‐Rad (cat. no. 1610772). The gels were run for 41 min at 200 V using a PowerPac Basic Power Supply (Bio‐Rad, cat. no. 1645050). Proteins were transferred to nitrocellulose membranes using Trans‐Blot Turbo Midi Nitrocellulose transfer packs (Bio‐Rad, cat. no. 1704159) and a Trans‐Blot Turbo Transfer System (Bio‐Rad, RRID SCR_023156) using the 7 min turbo protocol for midi gels. The membranes were blocked for 1 h at RT in 5% nonfat dry milk dissolved in 20 mM Tris‐buffered saline containing 0.1% Tween‐20 (TBST, TrizmaBase, Sigma Aldrich, St. Louis, Missouri, USA, cat. no. T1503 and Tween‐20, Sigma Aldrich, cat. no. P1379). The 24–39 antipeptide hSOD1 antibody was used at a concentration of 1 μg/mL and incubated over night at 5°C. Following washing with TBST, the filters were incubated for 60 min at room temperature with the secondary HRP‐conjugated polyclonal goat anti‐rabbit antibody (P0440 by DAKO, Santa Clara, California, USA, RRID AB2617138) at a dilution of 1:10000 and subsequently washed with TBST. The chemiluminescent reagent ECL Select (Cytiva, Marlborough, Massachusetts, USA, cat.no. RPN2235) and the ChemiDoc Touch Imager (Bio‐Rad, RRID SCR_019037) was used. Evaluation and quantification of the band intensities was done with the ImageLab software (Bio‐Rad, RRID SCR_014210). For the investigation of disulfide status of SOD1, CSF samples were diluted 1 + 1 with standard 2 × sample buffer containing 2‐mercaptoethanol for the reduced samples or 2 × sample buffer without 2‐mercaptoethanol but containing 20 mM iodoacetamide (IAM, GE Healthcare, Uppsala, Sweden, cat. no. RPW6302) for the nonreduced samples. After electrophoresis the gel was cut in half and one part was incubated 10 min at RT in transfer buffer (48 mM TrizmaBase, 39 mM glycine [Duchefa Biochemie, cat. no. G0709], and 0.37% SDS [Merck, cat. no. 18553]) containing 2% 2‐mercaptoethanol (in‐gel reduction) (Zetterstrom et al. <xref rid="jnc70382-bib-0049" ref-type="bibr">2007</xref>). The gel was washed twice for 5 min with transfer buffer without 2‐mercaptoethanol before being transferred to nitrocellulose membrane together with the other part of the gel. Uncropped western blots are shown in Figure <xref rid="jnc70382-supitem-0001" ref-type="supplementary-material">S1</xref> online.</p></sec><sec id="jnc70382-sec-0010"><label>2.8</label><title>N‐Terminal Protein Sequencing (Edman Degradation)</title><p>Fractions containing SOD1 after MonoQ separation (see below) of CSF from control individuals was concentrated by Amicon Ultra‐15 (Millipore, Burlington, MA, USA, cat. no. UFC901024) centrifugation units with a cellulose cut‐off filter of 10 kDa and separated by SDS PAGE using a 15% Tris–HCl gel (Bio‐rad, cat. no. 3450020). The proteins were transferred to PVDF membranes (GE Healthcare, cat. no. 106000023) and stained with Coomassie blue R‐250 (Fluka, Buchs, Switzerland, cat. no. 27815). Bands representing native and N‐truncated SOD1 were carefully excised with a clean scalpel and transferred to 1.5 mL tubes. Three rounds of samples were sent to Cambridge Peptides LTD (Cambridge, UK, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cambridgepeptides.com" ext-link-type="uri">www.cambridgepeptides.com</ext-link>) and one round of samples to Alphalyse (Odense, Denmark, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.alphalyse.com" ext-link-type="uri">www.alphalyse.com</ext-link>) for N‐terminal protein sequencing.</p></sec><sec id="jnc70382-sec-0011"><label>2.9</label><title>Size Exclusion Chromatography</title><p>Size exclusion chromatography (SEC) was performed as previously described (Zetterstrom et al. <xref rid="jnc70382-bib-0048" ref-type="bibr">2013</xref>). CSF from control individuals was pooled and 250 μL applied to a 1 cm × 30 cm Superdex 200 column (GE Healthcare, cat. no. 17‐5175‐01), eluted at 4°C with PBS at 45 mL/h, and collected in 0.3 mL fractions. The column was calibrated with Gel filtration calibration kits (GE Healthcare, cat. nos. 28‐4038‐41/42 and 17‐0441‐01) using blue dextran (2000 kDa), thyroglobulin (669 kDa), ferritin (440 kDa), aldolase (158 kDa), conalbumin (75 kDa), bovine serum albumin (BSA) (69 kDa), ovalbumin (44 kDa), SOD1 (32 kDa), and ribonuclease A (13.7 kDa). Fractions were stored at −80°C until analysis.</p></sec><sec id="jnc70382-sec-0012"><label>2.10</label><title>Anion‐Exchange Chromatography</title><p>Pools of CSF were made from control individuals. Around 35 mL of each pool were added to 10 mL Amicon Ultra (Millipore, cat. no. UFC801008) centrifugation units with a cellulose cut‐off filter of 10 kDa in three aliquots. After a 5 min centrifugation at 3500 × g in a Sigma 4 K15 centrifuge (Sigma Laborzentrifugen, Osterode am Harz, Germany), with the 11 156 swing out rotor (Sigma Laborzentrifugen), 10 mL of 20 mM Tris–HCl pH 7.5 were added, and the samples were recentrifuged. The centrifugation and buffer supplementation were repeated three additional times. The retentate after the last centrifugation was collected from the retention pocket and the volume adjusted to 10 mL with the Tris–HCl buffer. The sample was loaded onto a 1 mL 5/50 GL MonoQ anion‐exchange column (GE healthcare, cat. no. 17‐5166‐01) equilibrated with 20 mM Tris–HCl pH 7.5 using an ÄKTApurifier 10 chromatography system (GE Healthcare). After washing, bound proteins were eluted with a 30 mL linear gradient of 1 M NaCl in 20 mM Tris–HCl pH 7.5 ending at a concentration of 150 mM NaCl. The flow rate was 1.0 mL/min, fractions of 0.5 mL were collected, and absorbance at 280 nm was continuously recorded.</p></sec><sec id="jnc70382-sec-0013"><label>2.11</label><title>Coupling of Antibodies to M‐280 Tosyl‐Activated Dynabeads</title><p>The antibody raised in a goat against native hSOD1 were coupled to magnetic M‐280 tosyl‐activated Dynabeads (Thermo Fisher Scientific, Waltham, Massachusetts, USA, cat. no 14203) at a concentration of 20 μg antibody per mg beads according to the manufacturer's description. The binding buffer was 0.1 M borate pH 9.5 and 0.1 M borate containing 3 mM ammonium sulfate, and the antibody‐bead coupling was performed using an Intelli‐Mixer RM‐2 L (ELMI, Riga, Latvia, cat. no. 1SE021) agitating the samples at 10 rpm over night at 37°C. Binding efficiency was determined by absorbance at 280 nm measured with a DeVovix DS‐11 spectrophotometer (DeNovix, Wilmington, Delaware, USA, cat. no. DS‐11). The beads were washed once with 1 mL of washing buffer 1 (10 mM sodium phosphate buffer [JT Baker, Radnor, PA, USA, cat. no. O303] pH 7.4 containing 150 mM sodium chloride and 1% BSA IgG1 free [Jackson ImmunoResearch, Cambridgeshire, United Kingdom, cat. no. 001‐000‐162]) and two times with washing buffer 2 (10 mM sodium phosphate buffer pH 7.4 containing 150 mM sodium chloride and 1% BSA IgG1 free with 0.5% NP‐40 [Millipore, cat. no 492016]) and stored at 4°C in washing buffer 2 until use at a concentration of 8.3 mg beads per mL buffer.</p></sec><sec id="jnc70382-sec-0014"><label>2.12</label><title>Immunocapture of <styled-content style="fixed-case" toggle="no">SOD1</styled-content> Protein</title><p>Bead solution (10 μL) containing 83 ng Dynabeads carrying 1.66 ng antibody was transferred to 1.5 mL tubes and washed twice with 500 μL binding buffer (PBS, pH 7.4 with additional 0.15 M sodium chloride, 0.5% BSA IgG1 free and 80 μL/mL Complete EDTA‐free). The tubes were vortexed at 12000 rpm for 15 s, incubated for 2.5 min, placed on a magnetic holder for 2 min and the supernatants were removed. Next, 50 μL CSF diluted 1:2 with binding buffer was added to the antibody beads. After mixing the solution by vortexing at 12000 rpm for 15 s, the tubes were placed onto an Intelli‐Mixer RM‐2 L and incubated for 15 min in RT using the shaking program U at 60 rpm. The tubes were then placed on the magnetic holder and after 2.5 min the sample solution was transferred into a fresh tube for western blot analysis (nonbinding sample). Washing of the beads was done in three consecutive steps, once with 100 μL and twice with 500 μL washing buffer (PBS, pH 7.4 with additional 0.15 M sodium chloride). Samples were vortexed at 12000 rpm for 15 s, incubated for 2.5 min at RT without mixing before being placed on a magnetic holder for 2 min, and the buffer was removed. The 100 μL washing buffer of the first step was saved for later analysis. Elution of the captured SOD1 was performed by adding 50 μL 0.1 M glycine buffer, pH 3. The samples were resuspended at 12000 rpm, incubated for 4 min at RT and placed for 1 min on the magnet. The solution was then immediately transferred to a sample collection tube containing 1.25 μL 1 M Tris–HCl buffer, pH 9 for neutralization of the sample. Collection tubes were again vortexed at 12000 rpm for 15 s. The different samples were then analyzed by western blot. The CSF sample before immunocapture and the nonbinding sample were also analyzed by mass spectrometry. SOD1 was also immunocaptured from blood plasma using the same protocol with the following exceptions: 20 μL bead solution was used per sample, the incubation time was 60 min, the sample size was 500 μL plasma, and bound protein was eluted by boiling in 60 μL 1 × sample buffer for western blot resulting in a 8.3 times concentration of the sample.</p></sec><sec id="jnc70382-sec-0015"><label>2.13</label><title>Isolation of <styled-content style="fixed-case" toggle="no">SOD1</styled-content> by Molecular Weight Cut‐Off Centrifugation</title><p>Five hundred microliter of CSF pooled from control subjects without neurodegenerative diseases were transferred into Amicon Ultra 0.5‐mL cellulose centrifugation units (Millipore, cat. no. UFC501096) with 10 kDa molecular weight cut‐off. The CSF samples were centrifuged at 14000 × g for 30 min at RT and the flow‐through was saved for later analysis. Proteins retained on the filter were collected by reverse spin at 1000 × <italic toggle="yes">g</italic> for 2 min at RT. The collected retentate was brought to a final volume of 500 μL using PBS and frozen at −80°C. The flow‐through and the retentate were analyzed by mass spectrometry or diluted 1:2 with 2 × western blot sample buffer containing 2‐mercaptoethanol for western blot analysis.</p></sec><sec id="jnc70382-sec-0016"><label>2.14</label><title>Mass Spectrometry</title><p>Quantification of N‐acetylated and Cys‐carbamidomethylated SOD1 1–26 (Ac‐ATKAVCVLKGDGPVQGIINFEQKESN) was performed by parallel reaction monitoring (PRM) using a nano‐LC (Ultimate RSLC Nano, Thermo Fisher Scientific) equipped with a C<sub>18</sub> trap and separation columns (PepMap Acclaim 300 μm × 5 mm, Thermo Fisher Scientific, PepMap Acclaim 75 μm × 500 mm, Thermo Fisher Scientific, respectively) coupled to a Fusion Tribrid Orbitrap mass spectrometer equipped with an Easy Spray nano‐ESI source, and fitted with a high field asymmetric waveform ion mobility spectrometry device (all from Thermo Fisher Scientific). The mobile phase consisted of 0.1% formic acid (FA; Thermo Fisher Scientific, cat. no. 28905) (Buffer A) and 84% acetonitrile (ACN, HPLC grade, cat. no. 042880.K2), 0.1% FA (Buffer B). Peptide separation was performed using a linear gradient of 4%–40% Buffer B over 40 min, followed by washing and equilibration. The FAIMS device was operated in the standard resolution mode, using a carrier gas flow of 0.7 L/min and compensation voltage −50 V. Targeted MS/MS spectra were recorded in the Orbitrap of the triply‐charged peptide ion (m/z 948.8235) and its heavy‐labeled analog (m/z 951.4949), using 1.6 m/z quadrupole isolation window, 120 000 resolution, 246 ms ion injection time, 500% AGC target, 29% HCD collision energy. Samples were spiked with 25 fmol synthetic peptide standard (AQUA basic, Thermo Fisher Scientific), labeled with <sup>13</sup>C<sub>6</sub>
+<sup>15</sup>N<sub>2</sub> at Lys‐3, and quantification was performed using the heavy‐to‐light peptide ratio. Data processing was performed using Skyline (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://skyline.ms/project/home/begin.view" ext-link-type="uri">https://skyline.ms/project/home/begin.view</ext-link>).</p></sec><sec id="jnc70382-sec-0017"><label>2.15</label><title>
+<styled-content style="fixed-case" toggle="no">MisELISA</styled-content>
+</title><p>ELISAs that specifically detect misfolded SOD1 have previously been developed in our laboratory (misELISA) (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>). Here we used the misELISA based on antibodies targeting amino acids 57–72 in hSOD1 as the capturing antibody. This antibody reacts only with highly disordered SOD1 species and lacks affinity for the natively folded protein (Bergh et al. <xref rid="jnc70382-bib-0007" ref-type="bibr">2015</xref>; Forsberg et al. <xref rid="jnc70382-bib-0014" ref-type="bibr">2011</xref>, <xref rid="jnc70382-bib-0016" ref-type="bibr">2010</xref>). The secondary antibody was raised in a goat against denatured SOD1. This antibody reacts preferentially with unfolded SOD1 (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>). The misELISA was calibrated with a spinal cord homogenate from a transgenic mouse expressing the G127X mutation in SOD1. One unit of disordered SOD1 is defined as the amount present in 1 g wet weight of the G127X standard (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>).</p></sec><sec id="jnc70382-sec-0018"><label>2.16</label><title>Statistics</title><p>Quantitative data are generally presented as mean ± standard deviation (SD). Statistical analyses were performed using SPSS software (version 29; SPSS Inc., Chicago, IL, USA; RRID:SCR_002865). Given the limited sample size, no formal outlier testing was conducted; instead, all observations were retained for analysis. An independent two‐sided <italic toggle="yes">t</italic>‐test was applied, as the data were normally distributed (Shapiro–Wilk test) and the test is considered robust for small sample sizes, minimizing the risk of overestimating differences. A priori sample size calculation was not feasible for N‐terminally truncated SOD1 levels in samples with high or low misfolded SOD1, as this study represents the first attempt to estimate the effect size. Statistical significance was set at <italic toggle="yes">α</italic> = 0.05. A complete statistical summary is provided as Table <xref rid="jnc70382-supitem-0001" ref-type="supplementary-material">S1</xref>.</p></sec></sec><sec sec-type="results" id="jnc70382-sec-0019"><label>3</label><title>Results</title><sec id="jnc70382-sec-0020"><label>3.1</label><title>Low Molecular‐Weight <styled-content style="fixed-case" toggle="no">SOD1</styled-content> in <styled-content style="fixed-case" toggle="no">CSF</styled-content>
+</title><p>A previous study revealed a distinct band with higher electrophoretic mobility than native SOD1 on western blots of human CSF samples stained by anti‐SOD1 antibodies. The position indicated that the band represented a SOD1 fragment ~3 kDa smaller than the native subunit. Western blots using seven different anti‐SOD1 peptide antibodies, together covering most of the SOD1 sequence, showed that all but the antibody targeting amino acids 3 to 20 of human SOD1 bind to the SOD1 fragment. These results support the interpretation that the observed band corresponds to an N‐terminally truncated SOD1 variant protein present in the analyzed CSF samples from ALS patients and controls (Jacobsson et al. <xref rid="jnc70382-bib-0022" ref-type="bibr">2001</xref>). To validate these findings, we analyzed four pooled CSF samples collected from patients referred to the neurology department at Umeå University Hospital for nonneurodegenerative causes with western blot using an array of eight SOD1‐specific antipeptide antibodies. The results confirmed our findings in the previous study (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1a</xref>). Only the antibody directed against amino acids 3 to 20 in the N‐terminus of SOD1 did not detect the lower molecular weight band. Since both the native band and the band with lower molecular weight are visible using the other antibodies, both forms occur simultaneously in these CSF pools. Also, in samples from single individuals, both controls and ALS patients, both SOD1 variants are seen, and the N‐truncated form is always accompanied by the normal subunit (Leykam et al. <xref rid="jnc70382-bib-0027" ref-type="bibr">2024</xref>). Quantification showed that the N‐terminally truncated SOD1 variant constituted 34% ± 3% (mean ± SD, <italic toggle="yes">n</italic> = 24) of the total SOD1 content in control individuals in good agreement with previous findings (Jacobsson et al. <xref rid="jnc70382-bib-0022" ref-type="bibr">2001</xref>). Attempts to detect the cleaved N‐terminal peptide by western blotting optimized for small proteins were unsuccessful (not shown).</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Western blot showing N‐truncated SOD1. (a) Western blot analysis of four pooled CSF samples using eight anti‐SOD1 peptide antibodies spanning the full protein sequence. The upper band of 18 kDa represents full‐length SOD1 (marked with an arrow), while the lower band of ~15 kDa (marked with an arrowhead) represents the N‐terminally truncated SOD1 species. 12.5% Criterion precast Tris–HCl gels were used. (b) Western blot of murine CSF from nontransgenic C57Bl/6 mice shows no evidence of truncated SOD1 (CSF M). A human hemolysate (RBC) and human CSF (CSF H) are also shown. No band corresponding to N‐truncated SOD1 is visible in human erythrocytes, nor in murine CSF. The anti 57–72 antibody was used due to almost identical sequence of human and murine SOD1 in this region, and it binds both forms of SOD1. (c) CSF collected from three transgenic mice expressing wild‐type human SOD1 was pooled and subjected to western blot to investigate if human SOD1 becomes truncated in a different species (CSF Tg M). Dilutions of a human hemolysate (RBC) and human CSF (CSF H) are also shown. Only a small proportion (&lt; 3%) of the human SOD1 in transgenic mice was found to be truncated. An antibody raised against amino acids 24–39 in human SOD1 was used since it only detects human SOD1 because the human and murine SOD1 sequence are not conserved in this region. (d) Three independent pools of CSF samples from control individuals were analyzed by western blot under reducing conditions and nonreducing conditions (omitting 2‐mercaptoethanol from sample buffer) with or without in‐gel reduction. See Material and Methods for detailed experimental procedures. Both full length and N‐terminally truncated SOD1 migrated further under nonreducing conditions. No extra bands representing nonnative disulfide bonds were seen.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="JNC-170-0-g002.jpg"/></fig><p>To assess cross‐species occurrence of truncated SOD1, murine CSF was analyzed by western blot together with a human hemolysate and CSF sample to benchmark the different SOD1 species. No truncated form of the endogenous murine SOD1 protein could be detected in the CSF (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1b</xref>). Note that murine SOD1 has a higher mobility than human SOD1. To investigate if human SOD1 expressed in mice is truncated in the same way as in humans, CSF was collected from transgenic mice expressing high levels of wild‐type human SOD1 (Gurney et al. <xref rid="jnc70382-bib-0021" ref-type="bibr">1994</xref>). Western blot using an antibody specific for human SOD1 could identify the truncated human SOD1 variant also in CSF from transgenic mice (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1c</xref>), however, in very low concentration. Densiometric analysis of the western blot showed that &lt; 3% of the human SOD1 carried the truncation.</p><p>A critical determinant of SOD1 stability is the intramolecular disulfide bond between Cys57 and Cys146 (Jonsson et al. <xref rid="jnc70382-bib-0024" ref-type="bibr">2006</xref>; Zetterstrom et al. <xref rid="jnc70382-bib-0048" ref-type="bibr">2013</xref>, <xref rid="jnc70382-bib-0049" ref-type="bibr">2007</xref>). To assess the disulfide status of SOD1 in cerebrospinal fluid (CSF), nonreducing western blot analyses were performed in the presence of IAM to prevent disulfide exchange during sample heating prior to electrophoresis. Postelectrophoretic reduction (in‐gel reduction), which can enhance antigen detection, was also employed to improve the likelihood of identifying low‐abundance variants carrying aberrant, nonnative disulfides (Zetterstrom et al. <xref rid="jnc70382-bib-0048" ref-type="bibr">2013</xref>, <xref rid="jnc70382-bib-0049" ref-type="bibr">2007</xref>). Both native and N‐terminally truncated SOD1 species in CSF from control individuals exhibited faster migration when reductant was omitted from the sample buffer (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1d</xref>). The identical shift observed for both forms suggests that each retains the native Cys57‐Cys146 disulfide bond. No additional bands corresponding to nonnative or reduced SOD1 species were detected, even following in‐gel reduction, indicating that all SOD1 present in CSF is fully oxidized (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1d</xref>).</p></sec><sec id="jnc70382-sec-0021"><label>3.2</label><title>Low Molecular‐Weight <styled-content style="fixed-case" toggle="no">SOD1</styled-content> in <styled-content style="fixed-case" toggle="no">CSF</styled-content> Is N‐Truncated</title><p>As shown above, the N‐terminally truncated SOD1 band is reactive with seven different SOD1 antibodies, but not with an N‐terminal antibody having the epitope SOD1 3–20. We therefore aimed to identify the exact position of the cleavage and utilized N‐terminal protein sequencing (Edman degradation). In this method, the N‐terminal residues of a peptide are sequentially cleaved off and identified by HPLC analysis, allowing identification of the amino acid sequence from the N‐terminal end, which in this case will identify the endogenous cleavage site in SOD1. Proteins in a pooled CSF sample were separated by SDS PAGE, blotted onto a PVDF membrane, stained with Coomassie R‐250, and the bands corresponding to both the native and N‐truncated SOD1 variants were excised and sent for sequencing. The upper band could not be N‐terminally sequenced, probably due to N‐terminal acetylation, a posttranslational modification known to be present in SOD1 (Barra et al. <xref rid="jnc70382-bib-0006" ref-type="bibr">1980</xref>) that effectively blocks the Edman method. The lower band could however be sequenced, and the amino acid sequence is illustrated in Figure <xref rid="jnc70382-fig-0002" ref-type="fig">2</xref>. The N‐terminus of this protein is identical to the sequence from position 27 to 37 in human SOD1 showing that the protein is an N‐terminally truncated SOD1 variant cleaved between the residues asparagine 26 and glycine 27 leaving a cleaved peptide of 26 amino acids. The 26 most N‐terminal amino acids of wildtype SOD1 are ATKAVCVLKGDGPVQGIINFEQKESN (after removal of the starting M). The theoretical molecular weight of this peptide is 2.6 kDa in good agreement with the western blot for where the truncated SOD1 variant appears around 3 kDa below the molecular weight of the wildtype SOD1 monomer (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Truncation site in SOD1. (a) Illustration of the SOD1 amino acid sequence with the identified truncation site. With Edman degradation the first 10 amino acids (orange) of the truncated protein could be sequenced (27–37 in full‐length SOD1). The identified sequence is identical to the amino acids of native SOD1 protein from glycine 27 and forward. Hence, the truncation site is positioned between amino acids Asn‐26 and Gly‐27. The sequence of the cleaved peptide in wildtype SOD1 is shown (yellow). (b) The crystal structure of wildtype holo SOD1 (PDB 1HL5, (Strange et al. <xref rid="jnc70382-bib-0042" ref-type="bibr">2003</xref>)) was visualized with the MolsoftBrowser64 version 3.9–4. (Molsoft L.L.C, La Jolla, California, USA). The two SOD1 subunits are colored in blue. The N‐terminal 26 amino acids representing the short peptide fragment are colored in yellow. A ribbon representation shows that the N‐terminal part of SOD1 partly forms the dimer interface and that the cleavage site (orange) is easily accessible at one pole of the monomer. (c) Space filling model showing that the N‐terminal most part of SOD1 is tightly bound to the remaining subunit as well as to the other subunit. The cleaved N‐terminal peptide is highlighted in yellow, the remaining subunit in blue, and the site of truncation in orange.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="JNC-170-0-g005.jpg"/></fig></sec><sec id="jnc70382-sec-0022"><label>3.3</label><title>N‐Truncated <styled-content style="fixed-case" toggle="no">SOD1</styled-content> Variant Is Abundant in <styled-content style="fixed-case" toggle="no">CSF</styled-content> but Not <styled-content style="fixed-case" toggle="no">CNS</styled-content> Tissue</title><p>The CSF reflects the situation of the CNS and is partly formed by secretion in the choroid plexus, partly from CNS extracellular fluid containing secreted proteins and unspecifically leaked protein, as well as proteins released from injured or dying cells (Wichmann et al. <xref rid="jnc70382-bib-0044" ref-type="bibr">2021</xref>). The truncated SOD1 found in CSF might therefore originate from CNS parenchyma. To investigate if the N‐truncated subunit is present in different areas of the central nervous system, we immunoblotted homogenates of postmortem samples from the spinal cord ventral and dorsal horns, motor cortex, temporal lobe, and choroid plexus as well as the peripheral tissues liver, kidney, and skeletal muscle from controls and ALS patients. Trace amounts of a lower molecular weight band, consistent with truncated SOD1, were detected as observed in CSF in some samples from the CNS but also in peripheral tissues. However, the levels were very low compared to CSF and represented &lt; 0.1% of the total SOD1 (Figure <xref rid="jnc70382-fig-0003" ref-type="fig">3</xref>).</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Western blot analysis of CNS and peripheral tissue homogenates, and plasma, showing minimal presence of truncated SOD1 compared to CSF. The upper band of 18 kDa represents full‐length SOD1 (marked with an arrow), while the lower band of ~15 kDa (marked with an arrowhead) represents the N‐terminally truncated SOD1 species. (a) Western blot of spinal cord ventral horn homogenates from ALS patients and control postmortem tissues. SOD1 mutation is stated if present. Long and short exposure is shown. (b) Western blot of postmortem tissues obtained from ALS patients and controls covering the central nervous system as well as the peripheral tissues liver, kidney and gastrocnemius muscle. (c) SOD1 immunocaptured from EDTA plasma. A CSF sample is shown for comparison. (d) Tissue homogenates of choroid plexus from three control individuals. A CSF sample is shown for comparison. None or only faint bands of a truncated SOD1 variant is discernable in CNS, including choroid plexus, and in peripheral tissues and blood plasma.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="JNC-170-0-g006.jpg"/></fig><p>We also analyzed blood plasma, an extracellular fluid like CSF. The total level of SOD1 in blood plasma is about 10% of the CSF levels (Marklund et al. <xref rid="jnc70382-bib-0031" ref-type="bibr">1986</xref>). Normal vacuum collection of venous blood will cause hemolysis and complicate analysis of SOD1 in the blood plasma. Blood was therefore collected by spontaneous flow through 18G needles to reduce hemolysis from five healthy anonymous donors. Analysis of free hemoglobin showed that some hemolysis had occurred, and the levels would indicate that about 1/3 of the SOD1 in the plasma derived from lysed erythrocytes (not shown). However, erythrocytes do not contain any N‐truncated SOD1 (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1b</xref>). The plasma samples had to be concentrated by immunocapture using an antibody that binds native and nonnative forms of SOD1 to be visible by western blotting. The plasma samples did contain small amounts of truncated SOD1 (Figure <xref rid="jnc70382-fig-0003" ref-type="fig">3c</xref>), but far less than is seen in CSF.</p></sec><sec id="jnc70382-sec-0023"><label>3.4</label><title>Biochemical Characterization of the N‐Truncated <styled-content style="fixed-case" toggle="no">SOD1</styled-content>
+</title><p>To evaluate the effect of the N‐terminal truncation on the folding of SOD1, CSF from two neurological controls were evaluated by size exclusion chromatography on a Superdex‐25 column. Both full‐length and truncated SOD1 eluted in fractions 37–45 (Figure <xref rid="jnc70382-fig-0004" ref-type="fig">4</xref>), consistent with native dimeric conformation (Zetterstrom et al. <xref rid="jnc70382-bib-0048" ref-type="bibr">2013</xref>, <xref rid="jnc70382-bib-0049" ref-type="bibr">2007</xref>). No high‐molecular weight forms of SOD1 could be detected in the void volume (Figure <xref rid="jnc70382-fig-0004" ref-type="fig">4</xref>). Folded monomeric SOD1 normally elutes in fractions 42–44 and disordered monomeric SOD1 elutes in fractions 34–36 in this column (Zetterstrom et al. <xref rid="jnc70382-bib-0048" ref-type="bibr">2013</xref>). No evidence for monomeric SOD1 was found in any of these positions in the chromatograms (Figure <xref rid="jnc70382-fig-0004" ref-type="fig">4</xref>). The peaks for the truncated and normal subunits were found in the same fraction with almost identical elution profiles. There is thus no evidence for SOD1 present with a hydrodynamic radius deviating from that of native SOD1, suggesting that the truncated variant is incorporated into the normal dimers. Hence both fragments of the truncated SOD1 seem to stay in their normal positions in the structure of the native dimer.</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Size exclusion chromatography of SOD1 in CSF. Western blot of SEC fractions 23–47 from pooled CSF, showing coelution of full‐length and truncated SOD1 in native dimer range. The 24–39 SOD1‐specific antipeptide antibody was used. Long and short exposure is shown. No SOD1 was found in the void volume (fractions 23–24). The upper band of 18 kDa represents full‐length SOD1 (marked with an arrow), while the lower band of ~15 kDa (marked with an arrowhead) represents the novel N‐terminally truncated SOD1 species. A 12.5% Criterion precast Tris–HCl gel was used.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="JNC-170-0-g010.jpg"/></fig><p>An efficient way to purify SOD1 is by anionic exchange chromatography that can separate SOD1 variants with a single charge difference (Marklund et al. <xref rid="jnc70382-bib-0030" ref-type="bibr">1997</xref>). Hence, the surface charge of SOD1 might be used to separate the truncated from full‐length SOD1 since several potentially charged amino acids are present in the truncated peptide. Anion exchange chromatography using a Mono‐Q column was used to separate N‐truncated from the native SOD1 (Figure <xref rid="jnc70382-fig-0005" ref-type="fig">5</xref>). Native full‐length SOD1 eluted earlier than truncated variants, suggesting subtle charge differences with a slightly more negative surface charge of the truncated SOD1 subunits. In certain fractions, N‐terminally truncated SOD1 was more abundant than the native form, indicating the presence of homodimers composed solely of truncated subunits.</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Anion exchange chromatogram of CSF showing separation of full‐length and truncated SOD1 based on surface charge. (a) Chromatogram from separation of a CSF samples with a MonoQ anion exchange column. Protein absorbance measured with A280 as well as the NaCl gradient used for elution are shown. (b) Fractions of 500 μL were collected and fractions containing 48–56.5 mL as well as 72–74 mL were analyzed with western blot using the 24–39 anti‐SOD1 antibody. The square indicates which fractions from the chromatogram were blotted. The upper band of 18 kDa represents full‐length SOD1 (marked with an arrow), while the lower band of ~15 kDa (marked with an arrowhead) represents the N‐terminally truncated SOD1 species. No SOD1 was found in fractions eluted with high NaCl concentration (72–74 mL).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="JNC-170-0-g011.jpg"/></fig></sec><sec id="jnc70382-sec-0024"><label>3.5</label><title>Peptidomic Identification of the N‐Terminal Peptide From Folded <styled-content style="fixed-case" toggle="no">SOD1</styled-content>
+</title><p>Previous data shows that SOD1 found in CSF has a high specific activity and hence should maintain its native conformation (Jacobsson et al. <xref rid="jnc70382-bib-0022" ref-type="bibr">2001</xref>). Even though the most N‐terminal amino acids in SOD1 are not involved in the formation of the active site and the substrate directing electrostatic loop, they play a crucial role for the stability and activity of the folded protein. The loop structures connecting the β‐barrel sequences together with hydrogen bond bridges between loop side chains and main chain maintain the overall conformational framework (Parge et al. <xref rid="jnc70382-bib-0035" ref-type="bibr">1992</xref>). For SOD1 to be active, the complete protein is needed and C‐terminally truncated SOD1s have shown a total lack of enzymatic activity (Jonsson et al. <xref rid="jnc70382-bib-0023" ref-type="bibr">2004</xref>; Keskin et al. <xref rid="jnc70382-bib-0026" ref-type="bibr">2017</xref>). For the truncated SOD1 to be active the cleaved short and long peptides must stay in their native positions in relation to the remaining subunit in the native fold. Size exclusion chromatography with truncated and native SOD1 eluting in the same fractions supports this hypothesis (Figure <xref rid="jnc70382-fig-0005" ref-type="fig">5</xref>). Three‐dimensional representations of the native SOD1 structure (Figure <xref rid="jnc70382-fig-0002" ref-type="fig">2</xref>) also shows that the N‐terminal peptide forms β‐strands one and two who are tightly bound to β‐strands eight and three to form the β‐barrel. The cleavage site is easily accessible for a peptidase on either side of the molecule. This indicates that the structure is rigid and could stay folded even after cleavage of the peptide backbone between asparagine‐26 and glycine‐27.</p><p>To further verify that the peptide is bound to the remaining subunit, we first separated three different pooled CSF samples by molecular weight using a 10 kDa cut off centrifugation filter. Both the native and the N‐terminally truncated SOD1 variants should be captured on the filter but the short peptide should not. Western blot analysis revealed that both the truncated and the full‐length SOD1 variant were fully captured by the filter in all three samples and no SOD1 was found in the sample that passed the filter (Figure <xref rid="jnc70382-fig-0006" ref-type="fig">6a</xref>). The peptide might conceivably be bound to some other component in the CSF samples and consequently not pass the filter. Therefore, we also used a complementing strategy with immunocapture of SOD1 by an antibody that binds both native and denatured SOD1 (Leykam et al. <xref rid="jnc70382-bib-0027" ref-type="bibr">2024</xref>). Western blot confirmed complete immunocapture of both full‐length and truncated SOD1 from CSF (Figure <xref rid="jnc70382-fig-0006" ref-type="fig">6b</xref>).</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Comparison of SOD1 isolation by molecular weight filtration and immunocapture, confirming peptide retention with the SOD1 protein. The upper band of 18 kDa represents full‐length SOD1 (marked with an arrow), and the lower band of ~15 kDa (marked with an arrowhead) represents the N‐terminally truncated SOD1 species. (a) CSF samples were centrifuged through a 10 kDa cut off filter. 1 denotes the fraction of the sampled that passed the filter and 2 denotes the fraction that was retained on the filter. The SOD1 dimer is 32 kDa and should be retained but the short peptide should pass. Three different samples are shown. (b) Immunocapture with a SOD1 specific antibody. Shown are the CSF pool used for immunocapture; nonbinding denotes the sample after 15 min of binding to the antibodies and removal of the antibody beads with bound protein. All SOD1 is captured on the beads. Next, the beads are washed with buffer and First wash shows that no SOD1 was released by the first washing step. The SOD1 that is bound to the beads is then released by boiling in SDS PAGE sample buffer and shown in the Release lane. Lastly the remaining beads are also loaded on the gel to control for incomplete release (lane marked Beads). Both native and truncated SOD1 are captured in the experiment.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="JNC-170-0-g009.jpg"/></fig><p>To search for the N‐terminal SOD1 peptide, data from a previous explorative peptidomics study (Skillbäck et al. <xref rid="jnc70382-bib-0039" ref-type="bibr">2017</xref>), in which CSF peptides were isolated by 30‐kDa MWCO ultrafiltration, labeled with tandem mass tag (TMT) reagents and analyzed by LC–MS were used. The mass spectrometry data were reinterrogated to search for SOD1 fragments, using automated de novo peptide sequencing (PEAKS X, Bioinformatics Solutions). Eight endogenous peptides were identified with a false discovery rate (FDR) below 1% (highlighted in blue), all containing the acetylated N‐terminal alanine residue. The longest peptide extended to Asn‐26, while the most abundant fragment terminated at Ser‐25 (Figure <xref rid="jnc70382-fig-0007" ref-type="fig">7</xref>). These findings align with the cleavage site determined by Edman degradation and a release of the 1–26 peptide that is subsequently trimmed by exopeptidases from the C‐terminal end. Nearly all the less abundant SOD1 peptides (gray) also derived from the N‐terminal end.</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>Proteomic identification of the short SOD1 peptide. Mass spectrometric identification of endogenous SOD1 peptides in CSF, predominantly from the N‐terminal region. Peptides represented by blue color were significantly detected in the CSF samples while peptides in gray did not reach the limit for FDR that was set to 1%. All identified peptides were from the N‐terminus with the longest peptide ranging from 2 to 26.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-17" orientation="portrait" xlink:href="JNC-170-0-g007.jpg"/></fig><p>To investigate whether this peptide remains attached to the SOD1 subunit in CSF, to maintain an intact quaternary protein structure, we developed a targeted mass spectrometric parallel reaction monitoring assay, with quantification by isotope dilution using a stable isotope labeled peptide analog. Mass spectrometry confirmed the presence of the N‐terminal peptide in the samples retained on the 10 kDa cut‐off filter and the immunocaptured samples (Table <xref rid="jnc70382-tbl-0001" ref-type="table">1</xref>). The N‐terminal peptide was, however, not identified in the filtrate and only in minute amounts in the CSF sample after immunocapture, confirming that the peptide stays attached to the truncated and/or full‐length subunit (Table <xref rid="jnc70382-tbl-0001" ref-type="table">1</xref>). The peptide ratio relative to standard was higher after immunocapture compared to after filtration, indicating that some of the sample may have been trapped by the filter.</p><table-wrap position="float" id="jnc70382-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>N‐terminal SOD1 peptide in CSF identified with mass spectrometry.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">CSF sample</th><th align="center" valign="bottom" rowspan="1" colspan="1">Peptide ratio to standard</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">CSF before immunocapture<sup>*</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">9.1 ± 3.6</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CSF after immunocapture<sup>+</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.31 ± 0.12</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sample passed through filter<sup>#</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sample retained by filter<sup>§</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2.6 ± 0.66</td></tr></tbody></table><table-wrap-foot id="jnc70382-ntgp-0002"><fn id="jnc70382-note-0001"><p>
+<italic toggle="yes">Note:</italic> N‐terminal peptide identified before (*) and after (+) immunocapture of SOD1. N‐terminal peptide identified before (#) and after (§) CSF was passed over a 10 kDa cut‐off filter. All samples analyzed in triplicates.</p></fn></table-wrap-foot></table-wrap></sec><sec id="jnc70382-sec-0025"><label>3.6</label><title>
+<styled-content style="fixed-case" toggle="no">SOD1</styled-content> in <styled-content style="fixed-case" toggle="no">CSF</styled-content> Is Not Further Cleaved Ex Vivo</title><p>Where and how SOD1 is N‐terminally cleaved is not clear. We did not find increased levels of the N‐terminally cleaved form in the choroid plexus, nor in the other regions of CNS investigated (Figure <xref rid="jnc70382-fig-0003" ref-type="fig">3</xref>). One possibility is that SOD1 is cleaved by an endopeptidase present in the CSF. If so, the process is likely to continue in vitro after sampling. To test for this possibility, we incubated two pools of CSF from control individuals at 37°C for 24 h with samples taken berfore incubation and at 1, 4, 6, and 24 h. Note that CSF turns over four times during a 24 h period. The samples were then analyzed by western blot. The absolute amounts or ratio between the full‐length SOD1 and the N‐terminally truncated variant did not change during this incubation indicating that SOD1 was not further cleaved ex vivo (Figure <xref rid="jnc70382-fig-0008" ref-type="fig">8</xref>).</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0008" orientation="portrait"><label>FIGURE 8</label><caption><p>Western blot analysis after CSF incubation at 37°C shows no evidence of further N‐terminal proteolysis. Two pools of CSF were incubated at 37°C and samples for western blot taken after the indicated times. No change in the relative abundance of full‐length and truncated SOD1 was observed during incubation. The upper band of 18 kDa represents full‐length SOD1 (marked with an arrow), and the lower band of ~15 kDa (marked with an arrowhead) represents the N‐terminally truncated SOD1 species.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-19" orientation="portrait" xlink:href="JNC-170-0-g008.jpg"/></fig></sec><sec id="jnc70382-sec-0026"><label>3.7</label><title>N‐Truncation Is Not Correlated With Misfolding of <styled-content style="fixed-case" toggle="no">SOD1</styled-content> in <styled-content style="fixed-case" toggle="no">CSF</styled-content>
+</title><p>Inclusions of aggregated SOD1 in motor neurons are seen as a common hallmark of SOD1‐ linked ALS (Kato et al. <xref rid="jnc70382-bib-0025" ref-type="bibr">2000</xref>). The common evidence suggests that these ALS associated SOD1 aggregates are formed following a prion‐like templated‐assisted manner (Ayers et al. <xref rid="jnc70382-bib-0005" ref-type="bibr">2014</xref>; Bidhendi et al. <xref rid="jnc70382-bib-0008" ref-type="bibr">2016</xref>; Ekhtiari Bidhendi et al. <xref rid="jnc70382-bib-0012" ref-type="bibr">2018</xref>) similar to the one observed for the prion protein PrP<sup>c</sup>. The initial step in this process is the misfolding of the native protein and the N‐truncation could lead to increased SOD1 misfolding.</p><p>We have previously measured the levels of misfolded SOD1 in CSF by an ELISA selective for misfolded SOD1 called misELISA (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>). To determine if the N‐terminally truncated SOD1 is involved in the misfolding of SOD1, we used CSF samples from persons with high levels of misfolded SOD1 and compared them to CSF samples containing low levels of misfolded SOD1 and measured the amount of N‐terminally truncated SOD1 in these samples. Three patients and three controls with low levels of misfolded SOD1 were compared to three patients and three controls with high levels of misfolded SOD1 by western blot. Overall, ALS patients and controls have the same levels of misfolded SOD1 in CSF (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>) as was the case for this small subset: 3.6 ± 1.7 and 4.7 ± 2.6 μU/mL (mean ± SD) for ALS patients and controls, respectively. Western blot analysis revealed no correlation between misfolded SOD1 levels and abundance of truncated SOD1. Quantification of the N‐truncated band in samples with high levels of misfolding yielded an adjusted intensity of 860 ± 330 arbitrary units (AU), whereas samples with low misfolding showed 800 ± 240 AU. The difference was not statistically significant (<italic toggle="yes">p</italic> &gt; 0.05, two‐tailed independent samples <italic toggle="yes">t</italic>‐test; Figure <xref rid="jnc70382-fig-0009" ref-type="fig">9b</xref>). Quantification of the native band produced similar results (Table <xref rid="jnc70382-supitem-0001" ref-type="supplementary-material">S1</xref>). This was a pilot experiment without a preceding power calculation. No physiologically meaningful standardized difference between groups to support a formal power calculation for further experiments was detected. These findings suggest that factors other than the identified N‐truncated SOD1 variant are driving SOD1 unfolding, and a larger study is unlikely to alter this conclusion regardless of sample size. However, the level of truncated SOD1 appeared elevated in these six ALS patients compared to the controls (Figure <xref rid="jnc70382-fig-0009" ref-type="fig">9b</xref>).</p><fig position="float" fig-type="FIGURE" id="jnc70382-fig-0009" orientation="portrait"><label>FIGURE 9</label><caption><p>Western blot comparison of CSF from ALS patients and controls with varying levels of misfolded SOD1; truncated SOD1 levels remained unchanged. (a) CSF samples from ALS patients (<italic toggle="yes">n</italic> = 6) and controls (<italic toggle="yes">n</italic> = 6) with low (3 ALS patients and 3 controls) or high levels (3 ALS patients and 3 controls) of misfolded SOD1 were analyzed by western blots. The upper band of 18 kDa represents full‐length SOD1 (marked with an arrow), while the lower band of ~15 kDa (marked with an arrowhead) represents the novel N‐terminally truncated SOD1 species. Note that the D90A SOD1 variant has a faster migration on western blots. A 12.5% Criterion precast Tris–HCl gel was used. (b) Quantification of the bands showed that there was no difference in the amounts of the N‐truncated SOD1 nor the native full‐length protein in the samples with low or high levels of misfolded SOD1 (<italic toggle="yes">p</italic> &gt; 0.05, two‐tailed independent samples <italic toggle="yes">t</italic>‐test, for a full statistical report, Table <xref rid="jnc70382-supitem-0001" ref-type="supplementary-material">S1</xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-21" orientation="portrait" xlink:href="JNC-170-0-g004.jpg"/></fig><p>The disordered SOD1 detected by misELISA accounts for about 1/1400 of the total SOD1 in human CSF (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>). In disordered SOD1, the N‐terminal peptide is likely to have separated from the longer C‐terminal segment. This might explain the preponderance of SOD1 peptides in CSF derived from the 1–26 sequence (Figure <xref rid="jnc70382-fig-0007" ref-type="fig">7</xref>).</p></sec></sec><sec sec-type="discussion" id="jnc70382-sec-0027"><label>4</label><title>Discussion</title><p>There are three different isoforms of SOD expressed in humans. The detection of a distinct band recognized by multiple anti‐SOD1 antibodies prompted investigation into its molecular identity (Jacobsson et al. <xref rid="jnc70382-bib-0022" ref-type="bibr">2001</xref>). It was hypothesized that it was an N‐truncated variant of SOD1. Our findings confirm this hypothesis and have identified the cleavage sites by mass spectrometry and Edman sequencing.</p><p>N‐terminally truncated SOD1 was detected in CSF and, to a lesser extent, in postmortem CNS tissues. The choroid plexus shows similarly low levels indicating that the truncated SOD1 is not specifically formed during secretion of the CSF. The absence of further cleavage during in vitro incubation suggests that truncation occurs in vivo. Instead, it indicates in situ cleavage in the parenchyma and subsequent release into the CSF or even preferential secretion into the extracellular space. However, the cleavage may still occur in the CSF compartment but only in vivo by for example, a surface‐bound peptidase. Our data indicate that both fragments of the N‐truncated SOD1 remain associated within a folded dimer, as dimers containing truncated SOD1 cannot be separated from native homodimers by size‐exclusion chromatography (Figure <xref rid="jnc70382-fig-0004" ref-type="fig">4</xref>). Dimers incorporating truncated subunits must retain full enzymatic activity, given that SOD1 in CSF exhibits a specific activity of 4.10 U/ng (Leykam et al. <xref rid="jnc70382-bib-0027" ref-type="bibr">2024</xref>), which is comparable to that of fully Cu‐ and Zn‐loaded full‐length SOD1 isolated from erythrocytes (4.18 U/ng; Andersen et al. <xref rid="jnc70382-bib-0003" ref-type="bibr">1998</xref>; Marklund et al. <xref rid="jnc70382-bib-0030" ref-type="bibr">1997</xref>). Consequently, the N‐truncated SOD1 in CSF must be fully active to maintain this activity level. This observation suggests a native‐like structure and implies that proteolytic cleavage occurs in natively folded dimers (Bruns and Kopito <xref rid="jnc70382-bib-0011" ref-type="bibr">2007</xref>). Also, all SOD1 in CSF carries the native Cys57 to Cys146 intrasubunit disulfide bond (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1d</xref>) which is important for structural integrity and enzymatic activity. Still, minute structural differences were observed. SOD1 with truncated subunits was separated from native forms by anion‐exchange chromatography implying subtle changes on the surface of the protein that effect the electrostatic forces and changes the interaction with the resin. We capitalized from this to separate the truncated subunits enough to do N‐terminal sequencing. We identified the truncation site to be after amino acid 26 by both sequencing and mass spectrometry. We successfully identified the cleaved 26‐residue N‐terminal peptide by mass spectrometry. Since immunocapture of native SOD1 also captured the short peptide, we could conclude that both parts are connected in the same structure. The ALS‐causing common A4V <italic toggle="yes">SOD1</italic> mutation illustrates the importance of structural integrity in the N‐terminus of the SOD1 protein. This mutation destabilizes both metalated and apo forms of the SOD1 protein and induces local unfolding in the β‐barrel, which promotes aggregation (Shaw et al. <xref rid="jnc70382-bib-0038" ref-type="bibr">2006</xref>). The small N‐terminal peptide must remain tightly associated within the native structure to avoid inducing comparable structural alterations.</p><p>We were able to demonstrate that the cleaved peptide stays connected to the SOD1 holoprotein and continues to stabilize its conformation and hence functionality. The N‐terminal peptide forms beta‐strand one and two in folded SOD1 and together with beta‐strand three and four forms the folding nucleus of SOD1 monomers (Nordlund and Oliveberg <xref rid="jnc70382-bib-0034" ref-type="bibr">2006</xref>) and is therefore the segment of SOD1 that should unfold last in the unfolding trajectory. Since the peptide normally is tightly bound to the remaining subunit (Figure <xref rid="jnc70382-fig-0002" ref-type="fig">2c</xref>) it is not surprising that it can stay connected after cleavage as long as the dimer is intact. The present results do not indicate a correlation between the N‐truncated SOD1 molecule and misfolding (Figure <xref rid="jnc70382-fig-0009" ref-type="fig">9</xref>). Following, these findings do not support a pathogenic role for the N‐terminal truncation in ALS or its involvement in the formation of the cytosolic SOD1 inclusions observed in ALS patients. This was confirmed by the finding that the truncation event is independent of ALS, since it was also detected in samples obtained from control individuals. We identified the N‐terminal side of Glycine 27 in the amino acid sequence as the truncation site and hence found out that the cleaved peptide contains the 26 most N‐terminal amino acids in the native SOD1 protein. The calculated molecular weight of the cleaved peptide is 2.6 kDa, which fits to the observation of the N‐truncation band ~3 kDa below the molecular weight of monomeric native SOD1 at 18 kDa.</p><p>Whether N‐truncated SOD1—either as individual fragments or incorporated into heterodimeric or homodimeric forms—possesses biological functions beyond its dismutase activity remains unknown, although it is conceivable. Given that the observed biochemical alterations in N‐truncated SOD1 are very subtle and that the levels are minute except in the CSF that is renewed multiple times per day, the truncation may not have significant biological implications. The fact that truncated SOD1 stays folded without release of the fragments could indicate that there is no biological function connected to the individual SOD1 fragments. Supporting this is the fact that we could not detect a comparable truncation in murine SOD1 (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1b</xref>). If one or both fragments would have an important cellular function it would likely be conserved also in mice. However, the truncation process is not human‐specific since transgenic human SOD1 was found truncated in murine CSF although in small amounts (Figure <xref rid="jnc70382-fig-0001" ref-type="fig">1c</xref>). This suggests that the truncation is sequence‐dependent and not conserved across species. We have not been able to analyze CSF from species with a conserved cleavage site (guinea pigs and nonhuman primates).</p><p>The fact that heterodimeric or homodimeric forms containing N‐truncated SOD1 excists may confer partial protection against unfolding, in contrast to homodimers of N‐truncated SOD1. Since we did not observe an increase in misfolding even in samples with a high proportion of N‐truncated SOD1, this could be attributable to the stabilizing effect of heterodimer formation.</p><p>How the N‐terminally cleaved SOD1 variant is formed is not clear. The PeptideCutter tool at the Expasy Bioinformatics Resource Portal (Gasteiger et al. <xref rid="jnc70382-bib-0017" ref-type="bibr">2005</xref>) could not identify any protease that would cut human SOD1 at the identified position between amino acids N26 and G27. However, hydroxylamine (NH<sub>2</sub>OH) chemically cleaves peptides at this exact sequence (Bornstein and Balian <xref rid="jnc70382-bib-0009" ref-type="bibr">1977</xref>) and N26/G27 is the only site in human SOD1. Hydroxylamine can cleave bovine SOD1 albeit at another position (Steinman et al. <xref rid="jnc70382-bib-0041" ref-type="bibr">1974</xref>). The in vitro condition for hydroxylamine cleavage is harsh (2 M NH2OH, pH 9, 45°C, 6 M guanidine as solvent, 4 h reaction time) and the likelihood of such a cleavage in vivo is negligible. Hence, the proteolytic mechanism responsible for the truncation remains unidentified.</p><p>SOD1 is part of a protein family characterized by conserved yet intrinsically disordered regions, which allows the protein to adapt different conformations in these regions and by doing so to execute different functions. Some ALS‐associated SOD1 mutations can interfere with this by reducing the degree of unsorted structures including the N‐terminal A4V mutation. How this alteration is connected to neurodegeneration has not been elucidated (Eleutherio et al. <xref rid="jnc70382-bib-0013" ref-type="bibr">2021</xref>). It is remarkable that SOD1 can carry a 26 amino acid truncation in the N‐terminus when C‐terminal truncations have a dramatic effect on stability and cause highly penetrant and early onset ALS (Jonsson et al. <xref rid="jnc70382-bib-0023" ref-type="bibr">2004</xref>). Our data do not indicate that N‐terminal truncation promotes SOD1 misfolding although a fraction of SOD1 in CSF does misfold at 42°C (Zetterström et al. <xref rid="jnc70382-bib-0046" ref-type="bibr">2011</xref>). Posttranslational modifications like glutathionylation (Marklund et al. <xref rid="jnc70382-bib-0030" ref-type="bibr">1997</xref>; Redler et al. <xref rid="jnc70382-bib-0036" ref-type="bibr">2011</xref>) could partly explain the misfolding.</p></sec><sec sec-type="conclusions" id="jnc70382-sec-0028"><label>5</label><title>Conclusion</title><p>This study identifies the N‐terminal truncation of SOD1 in CSF. Only trace amounts of truncated SOD1 were detected in other human tissues. Our findings suggest that N‐terminal truncation does not contribute to ALS pathogenesis. Notably, truncated SOD1 retains enzymatic activity, and the cleaved peptide remains associated within the native dimer structure. These observations indicate that the N‐terminal peptide contributes to structural stabilization of the SOD1 protein.</p></sec><sec id="jnc70382-sec-0034"><title>Author Contributions</title><p>
+<bold>Laura Leykam:</bold> investigation, visualization, writing – original draft, writing – review and editing. <bold>Karin M. E. Forsberg:</bold> resources, writing – review and editing. <bold>Peter M. Andersen:</bold> resources, writing – review and editing, funding acquisition. <bold>Thomas Brännström:</bold> resources, writing – review and editing, funding acquisition. <bold>Sophia Weiner:</bold> investigation. <bold>John Rönnholm:</bold> investigation. <bold>Kaj Blennow:</bold> resources, writing – review and editing, funding acquisition. <bold>Henrik Zetterberg:</bold> resources, writing – review and editing, funding acquisition. <bold>Stefan L. Marklund:</bold> conceptualization, methodology, supervision, formal analysis, writing – review and editing. <bold>Johan Gobom:</bold> investigation, validation, writing – review and editing. <bold>Per Zetterström:</bold> conceptualization, project administration, writing – review and editing, writing – original draft, visualization, funding acquisition, formal analysis, investigation.</p></sec><sec id="jnc70382-sec-0030"><title>Funding</title><p>The ALS Research Center at Umeå University and Umeå University Hospital is supported by grants from the Swedish Brain Foundation (grants nr. 2012‐0262, 2012‐0305, 2013‐0279, 2016‐0303, 2020‐0353), the Swedish Research Council (grants nr 2012‐3167, 2017‐03100), the Knut and Alice Wallenberg Foundation (grants nr. 2012.0091, 2014.0305, 2020.0232), the Ulla‐Carin Lindquist Foundation, the Neuroförbundet Association, Umeå University Insamlingsstiftelsen (223‐2808‐12, 223‐1881‐13, 2.1.12‐1605‐14, 2.1.6‐452‐20), Västerbotten County Council, King Gustaf V:s and Queen Victoria's Freemason's Foundation, and Fort Knox Charity Foundation/Olsson och Olsson Foundation. H.Z. is a Wallenberg Scholar and a Distinguished Professor at the Swedish Research Council supported by grants from the Swedish Research Council (#2023‐00356, #2022‐01018 and #2019‐02397), the European Union's Horizon Europe research and innovation programme under grant agreement No 101053962, Swedish State Support for Clinical Research (#ALFGBG‐71320), the Alzheimer Drug Discovery Foundation (ADDF), USA (#201809‐2016862), the AD Strategic Fund and the Alzheimer's Association (#ADSF‐21‐831376‐C, #ADSF‐21‐831381‐C, #ADSF‐21‐831377‐C, and #ADSF‐24‐1284328‐C), the European Partnership on Metrology, cofinanced from the European Union's Horizon Europe Research and Innovation Programme and by the Participating States (NEuroBioStand, #22HLT07), the Bluefield Project, Cure Alzheimer's Fund, the Olav Thon Foundation, the Erling‐Persson Family Foundation, Familjen Rönströms Stiftelse, Stiftelsen för Gamla Tjänarinnor, Hjärnfonden, Sweden (#FO2022‐0270), the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska‐Curie grant agreement No 860197 (MIRIADE), the European Union Joint Programme—Neurodegenerative Disease Research (JPND2021‐00694), the National Institute for Health and Care Research University College London Hospitals Biomedical Research Centre, the UK Dementia Research Institute at UCL (UKDRI‐1003), and an anonymous donor. K.B. is supported by the Swedish Research Council (#2017‐00915 and #2022‐00732), the Swedish Alzheimer Foundation (#AF‐930351, #AF‐939721, #AF‐968270, and #AF‐994551), Hjärnfonden, Sweden (#ALZ2022‐0006 and #FO2024‐0048‐TK‐130), the Swedish state under the agreement between the Swedish government and the County Councils, the ALF‐agreement (#ALFGBG‐965240 and #ALFGBG‐1006418), the European Union Joint Program for Neurodegenerative Disorders (JPND2019‐466‐236), the Alzheimer's Association 2021 Zenith Award (ZEN‐21‐848495), the Alzheimer's Association 2022‐2025 Grant (SG‐23‐1038904 QC), La Fondation Recherche Alzheimer (FRA), Paris, France, the Kirsten and Freddy Johansen Foundation, Copenhagen, Denmark, Familjen Rönströms Stiftelse, Stockholm, Sweden, and an anonymous philanthropist and donor.</p></sec><sec sec-type="COI-statement" id="jnc70382-sec-0033"><title>Conflicts of Interest</title><p>L.L., T.B., S.W., J.R., J.G., S.L.M., and P.Z.: nothing to declare. K.M.E.F.: Clinical trial site investigator for Amylyx, Biogen, Ionis Pharmaceuticals, PTC Pharmaceuticals, Sanofi, and ITB‐Med. P.M.A.: Paid consultancies and serve/have served on advisory boards for Biogen, Roche, Arrowhead, Avrion, Regeneron, uniQure, Voyager and Orphazyme A/S; clinical trial site investigator for AB Science, AL‐S Pharma and Lilly, Amylyx, Alexion Pharmaceuticals, Biogen Idec, IBT‐Med, IONIS Pharmaceuticals, Orion Pharma, PTC Pharmaceuticals, Sanofi. Since 1993 Director of the ALS‐genetic laboratory at Umeå University Hospital that performs not‐for‐profit research genetic testing and free genetic testing including for SOD1. Since 2021, member of the ClinGen ALS Gene variant Curation Expert panel. External advisor to the European Medicine Agency. H.Z. has served at scientific advisory boards and/or as a consultant for Abbvie, Acumen, Alector, Alzinova, ALZpath, Amylyx, Annexon, Apellis, Artery Therapeutics, AZTherapies, Cognito Therapeutics, CogRx, Denali, Eisai, Enigma, LabCorp, Merck Sharp &amp; Dohme, Merry Life, Nervgen, Novo Nordisk, Optoceutics, Passage Bio, Pinteon Therapeutics, Prothena, Quanterix, Red Abbey Labs, reMYND, Roche, Samumed, ScandiBio Therapeutics AB, Siemens Healthineers, Triplet Therapeutics, and Wave, has given lectures sponsored by Alzecure, BioArctic, Biogen, Cellectricon, Fujirebio, LabCorp, Lilly, Novo Nordisk, Oy Medix Biochemica AB, Roche, and WebMD, is a cofounder of Brain Biomarker Solutions in Gothenburg AB (BBS), which is a part of the GU Ventures Incubator Program, and is a shareholder of CERimmune Therapeutics (outside submitted work). K.B. has served as a consultant and at advisory boards for Abbvie, AC Immune, ALZPath, AriBio, Beckman‐Coulter, BioArctic, Biogen, Eisai, Lilly, Moleac Pte. Ltd., Neurimmune, Novartis, Ono Pharma, Prothena, Quanterix, Roche Diagnostics, Sanofi and Siemens Healthineers; has served at data monitoring committees for Julius Clinical and Novartis; has given lectures, produced educational materials and participated in educational programs for AC Immune, Biogen, Celdara Medical, Eisai and Roche Diagnostics; and is a cofounder of Brain Biomarker Solutions in Gothenburg AB (BBS), which is a part of the GU Ventures Incubator Program, outside the work presented in this paper.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="jnc70382-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Data S1:</bold> jnc70382‐sup‐0001‐Supinfo1.pdf.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JNC-170-0-s001.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="jnc70382-sec-0029"><title>Acknowledgements</title><p>We are indebted to the patients for their help with this project. The authors thank Eva Bern, Karin Hjertkvist, Eva Jonsson, Matthew Marklund, Ani Minasian, Sara Rimpi, and Agneta Öberg for technical assistance. The ALS Research Center at Umeå University and Umeå University Hospital is supported by grants from the Swedish Brain Foundation (grants nr. 2012‐0262, 2012‐0305, 2013‐0279, 2016‐0303, 2020‐0353), the Swedish Research Council (grants nr 2012‐3167, 2017‐03100), the Knut and Alice Wallenberg Foundation (grants nr. 2012.0091, 2014.0305, 2020.0232), the Ulla‐Carin Lindquist Foundation, the Neuroförbundet Association, Umeå University Insamlingsstiftelsen (223‐2808‐12, 223‐1881‐13, 2.1.12‐1605‐14, 2.1.6‐452‐20), Västerbotten County Council, King Gustaf V:s and Queen Victoria's Freemason's Foundation, and Fort Knox Charity Foundation/Olsson och Olsson Foundation. H.Z. is a Wallenberg Scholar and a Distinguished Professor at the Swedish Research Council supported by grants from the Swedish Research Council (#2023‐00356, #2022‐01018 and #2019‐02397), the European Union's Horizon Europe research and innovation programme under grant agreement No 101053962, Swedish State Support for Clinical Research (#ALFGBG‐71320), the Alzheimer Drug Discovery Foundation (ADDF), USA (#201809‐2016862), the AD Strategic Fund and the Alzheimer's Association (#ADSF‐21‐831376‐C, #ADSF‐21‐831381‐C, #ADSF‐21‐831377‐C, and #ADSF‐24‐1284328‐C), the European Partnership on Metrology, cofinanced from the European Union's Horizon Europe Research and Innovation Programme and by the Participating States (NEuroBioStand, #22HLT07), the Bluefield Project, Cure Alzheimer's Fund, the Olav Thon Foundation, the Erling‐Persson Family Foundation, Familjen Rönströms Stiftelse, Stiftelsen för Gamla Tjänarinnor, Hjärnfonden, Sweden (#FO2022‐0270), the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska‐Curie grant agreement No 860197 (MIRIADE), the European Union Joint Programme—Neurodegenerative Disease Research (JPND2021‐00694), the National Institute for Health and Care Research University College London Hospitals Biomedical Research Centre, the UK Dementia Research Institute at UCL (UKDRI‐1003), and an anonymous donor. K.B. is supported by the Swedish Research Council (#2017‐00915 and #2022‐00732), the Swedish Alzheimer Foundation (#AF‐930351, #AF‐939721, #AF‐968270, and #AF‐994551), Hjärnfonden, Sweden (#ALZ2022‐0006 and #FO2024‐0048‐TK‐130), the Swedish state under the agreement between the Swedish government and the County Councils, the ALF‐agreement (#ALFGBG‐965240 and #ALFGBG‐1006418), the European Union Joint Program for Neurodegenerative Disorders (JPND2019‐466‐236), the Alzheimer's Association 2021 Zenith Award (ZEN‐21‐848495), the Alzheimer's Association 2022‐2025 Grant (SG‐23‐1038904 QC), La Fondation Recherche Alzheimer (FRA), Paris, France, the Kirsten and Freddy Johansen Foundation, Copenhagen, Denmark, Familjen Rönströms Stiftelse, Stockholm, Sweden, and an anonymous philanthropist and donor.</p></ack><sec sec-type="data-availability" id="jnc70382-sec-0032"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request, if of scientific interest and legally and ethically possible.</p></sec><ref-list content-type="cited-references" id="jnc70382-bibl-0001"><title>References</title><ref id="jnc70382-bib-0001"><mixed-citation publication-type="journal" id="jnc70382-cit-0001">
+<string-name name-style="western">
+<surname>Andersen</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Abrahams</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. D.</given-names>
+<surname>Borasio</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>EFNS Guidelines on the Clinical Management of Amyotrophic Lateral Sclerosis (MALS)—Revised Report of an EFNS Task Force</article-title>.” <source>European Journal of Neurology</source>
+<volume>19</volume>, no. <issue>3</issue>: <fpage>360</fpage>–<lpage>375</lpage>. <pub-id pub-id-type="doi">10.1111/j.1468-1331.2011.03501.x</pub-id>.<pub-id pub-id-type="pmid">21914052</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0002"><mixed-citation publication-type="journal" id="jnc70382-cit-0002">
+<string-name name-style="western">
+<surname>Andersen</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Nilsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Ala‐Hurula</surname>
+</string-name>, et al. <year>1995</year>. “<article-title>Amyotrophic Lateral Sclerosis Associated With Homozygosity for an Asp90Ala Mutation in CuZn‐Superoxide Dismutase</article-title>.” <source>Nature Genetics</source>
+<volume>10</volume>, no. <issue>1</issue>: <fpage>61</fpage>–<lpage>66</lpage>. <pub-id pub-id-type="doi">10.1038/ng0595-61</pub-id>.<pub-id pub-id-type="pmid">7647793</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0003"><mixed-citation publication-type="journal" id="jnc70382-cit-0003">
+<string-name name-style="western">
+<surname>Andersen</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Nilsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Forsgren</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Marklund</surname>
+</string-name>. <year>1998</year>. “<article-title>CuZn‐Superoxide Dismutase, Extracellular Superoxide Dismutase, and Glutathione Peroxidase in Blood From Individuals Homozygous for Asp90Ala CuZu‐Superoxide Dismutase Mutation</article-title>.” <source>Journal of Neurochemistry</source>
+<volume>70</volume>, no. <issue>2</issue>: <fpage>715</fpage>–<lpage>720</lpage>. <pub-id pub-id-type="doi">10.1046/j.1471-4159.1998.70020715.x</pub-id>.<pub-id pub-id-type="pmid">9453566</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0004"><mixed-citation publication-type="journal" id="jnc70382-cit-0004">
+<string-name name-style="western">
+<surname>Andersen</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Nilsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Keranen</surname>
+</string-name>, et al. <year>1997</year>. “<article-title>Phenotypic Heterogeneity in Motor Neuron Disease Patients With CuZn‐Superoxide Dismutase Mutations in Scandinavia</article-title>.” <source>Brain</source>
+<volume>120</volume>, no. <issue>Pt 10</issue>: <fpage>1723</fpage>–<lpage>1737</lpage>.<pub-id pub-id-type="pmid">9365366</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/120.10.1723</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0005"><mixed-citation publication-type="journal" id="jnc70382-cit-0005">
+<string-name name-style="western">
+<surname>Ayers</surname>, <given-names>J. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Fromholt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Koch</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Experimental Transmissibility of Mutant SOD1 Motor Neuron Disease</article-title>.” <source>Acta Neuropathologica</source>
+<volume>128</volume>, no. <issue>6</issue>: <fpage>791</fpage>–<lpage>803</lpage>. <pub-id pub-id-type="doi">10.1007/s00401-014-1342-7</pub-id>.<pub-id pub-id-type="pmid">25262000</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0006"><mixed-citation publication-type="journal" id="jnc70382-cit-0006">
+<string-name name-style="western">
+<surname>Barra</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Martini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. V.</given-names>
+<surname>Bannister</surname>
+</string-name>, et al. <year>1980</year>. “<article-title>The Complete Amino Acid Sequence of Human Cu/Zn Superoxide Dismutase</article-title>.” <source>FEBS Letters</source>
+<volume>120</volume>, no. <issue>1</issue>: <fpage>53</fpage>–<lpage>56</lpage>.<pub-id pub-id-type="pmid">7002610</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0014-5793(80)81044-1</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0007"><mixed-citation publication-type="journal" id="jnc70382-cit-0007">
+<string-name name-style="western">
+<surname>Bergh</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Zetterstrom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Structural and Kinetic Analysis of Protein‐Aggregate Strains In Vivo Using Binary Epitope Mapping</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>112</volume>, no. <issue>14</issue>: <fpage>4489</fpage>–<lpage>4494</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1419228112</pub-id>.<pub-id pub-id-type="pmid">25802384</pub-id>
+<pub-id pub-id-type="pmcid">PMC4394267</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0008"><mixed-citation publication-type="journal" id="jnc70382-cit-0008">
+<string-name name-style="western">
+<surname>Bidhendi</surname>, <given-names>E. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bergh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Zetterstrom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Marklund</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Brannstrom</surname>
+</string-name>. <year>2016</year>. “<article-title>Two Superoxide Dismutase Prion Strains Transmit Amyotrophic Lateral Sclerosis‐Like Disease</article-title>.” <source>Journal of Clinical Investigation</source>
+<volume>126</volume>, no. <issue>6</issue>: <fpage>2249</fpage>–<lpage>2253</lpage>. <pub-id pub-id-type="doi">10.1172/JCI84360</pub-id>.<pub-id pub-id-type="pmid">27140399</pub-id>
+<pub-id pub-id-type="pmcid">PMC4887173</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0009"><mixed-citation publication-type="journal" id="jnc70382-cit-0009">
+<string-name name-style="western">
+<surname>Bornstein</surname>, <given-names>P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Balian</surname>
+</string-name>. <year>1977</year>. “<article-title>Cleavage at Asn‐Gly Bonds With Hydroxylamine</article-title>.” <source>Methods in Enzymology</source>
+<volume>47</volume>: <fpage>132</fpage>–<lpage>145</lpage>.<pub-id pub-id-type="pmid">927171</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0076-6879(77)47016-2</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0010"><mixed-citation publication-type="journal" id="jnc70382-cit-0010">
+<string-name name-style="western">
+<surname>Bosco</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Morfini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. M.</given-names>
+<surname>Karabacak</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Wild‐Type and Mutant SOD1 Share an Aberrant Conformation and a Common Pathogenic Pathway in ALS</article-title>.” <source>Nature Neuroscience</source>
+<volume>13</volume>, no. <issue>11</issue>: <fpage>1396</fpage>–<lpage>1403</lpage>. <pub-id pub-id-type="doi">10.1038/nn.2660</pub-id>.<pub-id pub-id-type="pmid">20953194</pub-id>
+<pub-id pub-id-type="pmcid">PMC2967729</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0011"><mixed-citation publication-type="journal" id="jnc70382-cit-0011">
+<string-name name-style="western">
+<surname>Bruns</surname>, <given-names>C. K.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Kopito</surname>
+</string-name>. <year>2007</year>. “<article-title>Impaired Post‐Translational Folding of Familial ALS‐Linked cu, Zn Superoxide Dismutase Mutants</article-title>.” <source>EMBO Journal</source>
+<volume>26</volume>, no. <issue>3</issue>: <fpage>855</fpage>–<lpage>866</lpage>. <pub-id pub-id-type="doi">10.1038/sj.emboj.7601528</pub-id>.<pub-id pub-id-type="pmid">17255946</pub-id>
+<pub-id pub-id-type="pmcid">PMC1794386</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0012"><mixed-citation publication-type="journal" id="jnc70382-cit-0012">
+<string-name name-style="western">
+<surname>Ekhtiari Bidhendi</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bergh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Zetterstrom</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Mutant Superoxide Dismutase Aggregates From Human Spinal Cord Transmit Amyotrophic Lateral Sclerosis</article-title>.” <source>Acta Neuropathologica</source>
+<volume>136</volume>, no. <issue>6</issue>: <fpage>939</fpage>–<lpage>953</lpage>. <pub-id pub-id-type="doi">10.1007/s00401-018-1915-y</pub-id>.<pub-id pub-id-type="pmid">30284034</pub-id>
+<pub-id pub-id-type="pmcid">PMC6280858</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0013"><mixed-citation publication-type="journal" id="jnc70382-cit-0013">
+<string-name name-style="western">
+<surname>Eleutherio</surname>, <given-names>E. C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>Silva Magalhaes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>de Araujo Brasil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Monteiro Neto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>de Holanda Paranhos</surname>
+</string-name>. <year>2021</year>. “<article-title>SOD1, More Than Just an Antioxidant</article-title>.” <source>Archives of Biochemistry and Biophysics</source>
+<volume>697</volume>: <elocation-id>108701</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.abb.2020.108701</pub-id>.<pub-id pub-id-type="pmid">33259795</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0014"><mixed-citation publication-type="journal" id="jnc70382-cit-0014">
+<string-name name-style="western">
+<surname>Forsberg</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Marklund</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Brannstrom</surname>
+</string-name>. <year>2011</year>. “<article-title>Glial Nuclear Aggregates of Superoxide Dismutase‐1 Are Regularly Present in Patients With Amyotrophic Lateral Sclerosis</article-title>.” <source>Acta Neuropathologica</source>
+<volume>121</volume>, no. <issue>5</issue>: <fpage>623</fpage>–<lpage>634</lpage>. <pub-id pub-id-type="doi">10.1007/s00401-011-0805-3</pub-id>.<pub-id pub-id-type="pmid">21287393</pub-id>
+<pub-id pub-id-type="pmcid">PMC3085063</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0015"><mixed-citation publication-type="journal" id="jnc70382-cit-0015">
+<string-name name-style="western">
+<surname>Forsberg</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Graffmo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Pakkenberg</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Misfolded SOD1 Inclusions in Patients With Mutations in C9orf72 and Other ALS/FTD‐Associated Genes</article-title>.” <source>Journal of Neurology, Neurosurgery, and Psychiatry</source>
+<volume>90</volume>, no. <issue>8</issue>: <fpage>861</fpage>–<lpage>869</lpage>. <pub-id pub-id-type="doi">10.1136/jnnp-2018-319386</pub-id>.<pub-id pub-id-type="pmid">30992335</pub-id>
+<pub-id pub-id-type="pmcid">PMC6691870</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0016"><mixed-citation publication-type="journal" id="jnc70382-cit-0016">
+<string-name name-style="western">
+<surname>Forsberg</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Jonsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Novel Antibodies Reveal Inclusions Containing Non‐Native SOD1 in Sporadic ALS Patients</article-title>.” <source>PLoS One</source>
+<volume>5</volume>, no. <issue>7</issue>: <elocation-id>e11552</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0011552</pub-id>.<pub-id pub-id-type="pmid">20644736</pub-id>
+<pub-id pub-id-type="pmcid">PMC2904380</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0017"><mixed-citation publication-type="book" id="jnc70382-cit-0017">
+<string-name name-style="western">
+<surname>Gasteiger</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Hoogland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Gattiker</surname>
+</string-name>, et al. <year>2005</year>. “<part-title>Protein Identification and Analysis Tools on the ExPASy Server</part-title>.” In <source>The Proteomics Protocols Handbook</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Walker</surname>
+</string-name>
+</person-group>, <fpage>571</fpage>–<lpage>607</lpage>. <publisher-name>Humana Press</publisher-name>. <pub-id pub-id-type="doi">10.1385/1-59259-890-0:571</pub-id>.</mixed-citation></ref><ref id="jnc70382-bib-0018"><mixed-citation publication-type="journal" id="jnc70382-cit-0018">
+<string-name name-style="western">
+<surname>Gertsman</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wuu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>McAlonis‐Downes</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>An Endogenous Peptide Marker Differentiates SOD1 Stability and Facilitates Pharmacodynamic Monitoring in SOD1 Amyotrophic Lateral Sclerosis</article-title>.” <source>JCI Insight</source>
+<volume>4</volume>, no. <issue>10</issue>: <elocation-id>e122768</elocation-id>. <pub-id pub-id-type="doi">10.1172/jci.insight.122768</pub-id>.<pub-id pub-id-type="pmid">31092730</pub-id>
+<pub-id pub-id-type="pmcid">PMC6542602</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0019"><mixed-citation publication-type="journal" id="jnc70382-cit-0019">
+<string-name name-style="western">
+<surname>Grad</surname>, <given-names>L. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. C.</given-names>
+<surname>Guest</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Yanai</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Intermolecular Transmission of Superoxide Dismutase 1 Misfolding in Living Cells</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>108</volume>, no. <issue>39</issue>: <fpage>16398</fpage>–<lpage>16403</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1102645108</pub-id>.<pub-id pub-id-type="pmid">21930926</pub-id>
+<pub-id pub-id-type="pmcid">PMC3182705</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0020"><mixed-citation publication-type="journal" id="jnc70382-cit-0020">
+<string-name name-style="western">
+<surname>Grad</surname>, <given-names>L. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Yerbury</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>Turner</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Intercellular Propagated Misfolding of Wild‐Type cu/Zn Superoxide Dismutase Occurs via Exosome‐Dependent and ‐Independent Mechanisms</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>111</volume>, no. <issue>9</issue>: <fpage>3620</fpage>–<lpage>3625</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1312245111</pub-id>.<pub-id pub-id-type="pmid">24550511</pub-id>
+<pub-id pub-id-type="pmcid">PMC3948312</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0021"><mixed-citation publication-type="journal" id="jnc70382-cit-0021">
+<string-name name-style="western">
+<surname>Gurney</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Pu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. Y.</given-names>
+<surname>Chiu</surname>
+</string-name>, et al. <year>1994</year>. “<article-title>Motor Neuron Degeneration in Mice That Express a Human cu,Zn Superoxide Dismutase Mutation</article-title>.” <source>Science</source>
+<volume>264</volume>, no. <issue>5166</issue>: <fpage>1772</fpage>–<lpage>1775</lpage>.<pub-id pub-id-type="pmid">8209258</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.8209258</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0022"><mixed-citation publication-type="journal" id="jnc70382-cit-0022">
+<string-name name-style="western">
+<surname>Jacobsson</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Jonsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Forsgren</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Marklund</surname>
+</string-name>. <year>2001</year>. “<article-title>Superoxide Dismutase in CSF From Amyotrophic Lateral Sclerosis Patients With and Without CuZn‐Superoxide Dismutase Mutations</article-title>.” <source>Brain</source>
+<volume>124</volume>, no. <issue>Pt 7</issue>: <fpage>1461</fpage>–<lpage>1466</lpage>.<pub-id pub-id-type="pmid">11408340</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/124.7.1461</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0023"><mixed-citation publication-type="journal" id="jnc70382-cit-0023">
+<string-name name-style="western">
+<surname>Jonsson</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ernhill</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, et al. <year>2004</year>. “<article-title>Minute Quantities of Misfolded Mutant Superoxide Dismutase‐1 Cause Amyotrophic Lateral Sclerosis</article-title>.” <source>Brain</source>
+<volume>127</volume>, no. <issue>Pt 1</issue>: <fpage>73</fpage>–<lpage>88</lpage>. <pub-id pub-id-type="doi">10.1093/brain/awh005</pub-id>.<pub-id pub-id-type="pmid">14534160</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0024"><mixed-citation publication-type="journal" id="jnc70382-cit-0024">
+<string-name name-style="western">
+<surname>Jonsson</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. S.</given-names>
+<surname>Graffmo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, et al. <year>2006</year>. “<article-title>Disulphide‐Reduced Superoxide Dismutase‐1 in CNS of Transgenic Amyotrophic Lateral Sclerosis Models</article-title>.” <source>Brain</source>
+<volume>129</volume>, no. <issue>Pt 2</issue>: <fpage>451</fpage>–<lpage>464</lpage>. <pub-id pub-id-type="doi">10.1093/brain/awh704</pub-id>.<pub-id pub-id-type="pmid">16330499</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0025"><mixed-citation publication-type="journal" id="jnc70382-cit-0025">
+<string-name name-style="western">
+<surname>Kato</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Takikawa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Nakashima</surname>
+</string-name>, et al. <year>2000</year>. “<article-title>New Consensus Research on Neuropathological Aspects of Familial Amyotrophic Lateral Sclerosis With Superoxide Dismutase 1 (SOD1) Gene Mutations: Inclusions Containing SOD1 in Neurons and Astrocytes</article-title>.” <source>Amyotrophic Lateral Sclerosis and Other Motor Neuron Disorders</source>
+<volume>1</volume>, no. <issue>3</issue>: <fpage>163</fpage>–<lpage>184</lpage>.<pub-id pub-id-type="pmid">11464950</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/14660820050515160</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0026"><mixed-citation publication-type="journal" id="jnc70382-cit-0026">
+<string-name name-style="western">
+<surname>Keskin</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Birve</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Berdynski</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Comprehensive Analysis to Explain Reduced or Increased SOD1 Enzymatic Activity in ALS Patients and Their Relatives</article-title>.” <source>Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration</source>
+<volume>18</volume>, no. <issue>5–6</issue>: <fpage>457</fpage>–<lpage>463</lpage>. <pub-id pub-id-type="doi">10.1080/21678421.2017.1301481</pub-id>.<pub-id pub-id-type="pmid">28325066</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0027"><mixed-citation publication-type="journal" id="jnc70382-cit-0027">
+<string-name name-style="western">
+<surname>Leykam</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. M. E.</given-names>
+<surname>Forsberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Nordstrom</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Specific Analysis of SOD1 Enzymatic Activity in CSF From ALS Patients With and Without SOD1 Mutations</article-title>.” <source>Neurobiology of Disease</source>
+<volume>202</volume>: <elocation-id>106718</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.nbd.2024.106718</pub-id>.<pub-id pub-id-type="pmid">39490682</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0028"><mixed-citation publication-type="journal" id="jnc70382-cit-0028">
+<string-name name-style="western">
+<surname>Leykam</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Jonsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. M. E.</given-names>
+<surname>Forsberg</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>SOD1 Protein Content in Human Central Nervous System and Peripheral Tissues</article-title>.” <source>Journal of Neurochemistry</source>
+<volume>169</volume>, no. <issue>6</issue>: <elocation-id>e70136</elocation-id>. <pub-id pub-id-type="doi">10.1111/jnc.70136</pub-id>.<pub-id pub-id-type="pmid">40548824</pub-id>
+<pub-id pub-id-type="pmcid">PMC12184320</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0029"><mixed-citation publication-type="journal" id="jnc70382-cit-0029">
+<string-name name-style="western">
+<surname>Marklund</surname>, <given-names>S. L.</given-names>
+</string-name>
+<year>1984</year>. “<article-title>Extracellular Superoxide Dismutase in Human Tissues and Human Cell Lines</article-title>.” <source>Journal of Clinical Investigation</source>
+<volume>74</volume>, no. <issue>4</issue>: <fpage>1398</fpage>–<lpage>1403</lpage>. <pub-id pub-id-type="doi">10.1172/jci111550</pub-id>.<pub-id pub-id-type="pmid">6541229</pub-id>
+<pub-id pub-id-type="pmcid">PMC425307</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0030"><mixed-citation publication-type="journal" id="jnc70382-cit-0030">
+<string-name name-style="western">
+<surname>Marklund</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Forsgren</surname>
+</string-name>, et al. <year>1997</year>. “<article-title>Normal Binding and Reactivity of Copper in Mutant Superoxide Dismutase Isolated From Amyotrophic Lateral Sclerosis Patients</article-title>.” <source>Journal of Neurochemistry</source>
+<volume>69</volume>, no. <issue>2</issue>: <fpage>675</fpage>–<lpage>681</lpage>.<pub-id pub-id-type="pmid">9231727</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1046/j.1471-4159.1997.69020675.x</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0031"><mixed-citation publication-type="journal" id="jnc70382-cit-0031">
+<string-name name-style="western">
+<surname>Marklund</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Heiskala</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Westermarck</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Santavuori</surname>
+</string-name>. <year>1986</year>. “<article-title>Superoxide Dismutase Isoenzymes in Cerebrospinal Fluid and Plasma From Patients With Neuronal Ceroid‐Lipofuscinoses</article-title>.” <source>Clinical Science (London, England)</source>
+<volume>71</volume>, no. <issue>1</issue>: <fpage>57</fpage>–<lpage>60</lpage>. <pub-id pub-id-type="doi">10.1042/cs0710057</pub-id>.<pub-id pub-id-type="pmid">3709075</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0032"><mixed-citation publication-type="journal" id="jnc70382-cit-0032">
+<string-name name-style="western">
+<surname>McCord</surname>, <given-names>J. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Fridovich</surname>
+</string-name>. <year>1969</year>. “<article-title>Superoxide Dismutase. An Enzymic Function for Erythrocuprein (Hemocuprein)</article-title>.” <source>Journal of Biological Chemistry</source>
+<volume>244</volume>, no. <issue>22</issue>: <fpage>6049</fpage>–<lpage>6055</lpage>.<pub-id pub-id-type="pmid">5389100</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0033"><mixed-citation publication-type="journal" id="jnc70382-cit-0033">
+<string-name name-style="western">
+<surname>Müller</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Oh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Nordin</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>De Novo Mutations in SOD1 Are a Cause of ALS</article-title>.” <source>Journal of Neurology, Neurosurgery &amp; Psychiatry</source>
+<volume>93</volume>, no. <issue>2</issue>: <fpage>201</fpage>–<lpage>206</lpage>. <pub-id pub-id-type="doi">10.1136/jnnp-2021-327520</pub-id>.<pub-id pub-id-type="pmid">34518333</pub-id>
+<pub-id pub-id-type="pmcid">PMC8784989</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0034"><mixed-citation publication-type="journal" id="jnc70382-cit-0034">
+<string-name name-style="western">
+<surname>Nordlund</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Oliveberg</surname>
+</string-name>. <year>2006</year>. “<article-title>Folding of cu/Zn Superoxide Dismutase Suggests Structural Hotspots for Gain of Neurotoxic Function in ALS: Parallels to Precursors in Amyloid Disease</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>103</volume>, no. <issue>27</issue>: <fpage>10218</fpage>–<lpage>10223</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0601696103</pub-id>.<pub-id pub-id-type="pmid">16798882</pub-id>
+<pub-id pub-id-type="pmcid">PMC1502438</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0035"><mixed-citation publication-type="journal" id="jnc70382-cit-0035">
+<string-name name-style="western">
+<surname>Parge</surname>, <given-names>H. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Hallewell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Tainer</surname>
+</string-name>. <year>1992</year>. “<article-title>Atomic Structures of Wild‐Type and Thermostable Mutant Recombinant Human cu,Zn Superoxide Dismutase</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>89</volume>, no. <issue>13</issue>: <fpage>6109</fpage>–<lpage>6113</lpage>.<pub-id pub-id-type="pmid">1463506</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.89.13.6109</pub-id><pub-id pub-id-type="pmcid">PMC49447</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0036"><mixed-citation publication-type="journal" id="jnc70382-cit-0036">
+<string-name name-style="western">
+<surname>Redler</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. C.</given-names>
+<surname>Wilcox</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Proctor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Fee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Caplow</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. V.</given-names>
+<surname>Dokholyan</surname>
+</string-name>. <year>2011</year>. “<article-title>Glutathionylation at Cys‐111 Induces Dissociation of Wild Type and FALS Mutant SOD1 Dimers</article-title>.” <source>Biochemistry</source>
+<volume>50</volume>, no. <issue>32</issue>: <fpage>7057</fpage>–<lpage>7066</lpage>. <pub-id pub-id-type="doi">10.1021/bi200614y</pub-id>.<pub-id pub-id-type="pmid">21739997</pub-id>
+<pub-id pub-id-type="pmcid">PMC3281512</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0037"><mixed-citation publication-type="journal" id="jnc70382-cit-0037">
+<string-name name-style="western">
+<surname>Rosen</surname>, <given-names>D. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Siddique</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Patterson</surname>
+</string-name>, et al. <year>1993</year>. “<article-title>Mutations in cu/Zn Superoxide Dismutase Gene Are Associated With Familial Amyotrophic Lateral Sclerosis</article-title>.” <source>Nature</source>
+<volume>362</volume>, no. <issue>6415</issue>: <fpage>59</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1038/362059a0</pub-id>.<pub-id pub-id-type="pmid">8446170</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0038"><mixed-citation publication-type="journal" id="jnc70382-cit-0038">
+<string-name name-style="western">
+<surname>Shaw</surname>, <given-names>B. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Durazo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Nersissian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Whitelegge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. F.</given-names>
+<surname>Faull</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Valentine</surname>
+</string-name>. <year>2006</year>. “<article-title>Local Unfolding in a Destabilized, Pathogenic Variant of Superoxide Dismutase 1 Observed With H/D Exchange and Mass Spectrometry*</article-title>.” <source>Journal of Biological Chemistry</source>
+<volume>281</volume>, no. <issue>26</issue>: <fpage>18167</fpage>–<lpage>18176</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M600623200</pub-id>.<pub-id pub-id-type="pmid">16644738</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0039"><mixed-citation publication-type="journal" id="jnc70382-cit-0039">
+<string-name name-style="western">
+<surname>Skillbäck</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Mattsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Hansson</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>A Novel Quantification‐Driven Proteomic Strategy Identifies an Endogenous Peptide of Pleiotrophin as a New Biomarker of Alzheimer's Disease</article-title>.” <source>Scientific Reports</source>
+<volume>7</volume>, no. <issue>1</issue>: <elocation-id>13333</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-017-13831-0</pub-id>.<pub-id pub-id-type="pmid">29042634</pub-id>
+<pub-id pub-id-type="pmcid">PMC5645330</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0040"><mixed-citation publication-type="journal" id="jnc70382-cit-0040">
+<string-name name-style="western">
+<surname>Stathopulos</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Rumfeldt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Karbassi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Siddall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Lepock</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Meiering</surname>
+</string-name>. <year>2006</year>. “<article-title>Calorimetric Analysis of Thermodynamic Stability and Aggregation for Apo and Holo Amyotrophic Lateral Sclerosis‐Associated Gly‐93 Mutants of Superoxide Dismutase</article-title>.” <source>Journal of Biological Chemistry</source>
+<volume>281</volume>, no. <issue>10</issue>: <fpage>6184</fpage>–<lpage>6193</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M509496200</pub-id>.<pub-id pub-id-type="pmid">16407238</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0041"><mixed-citation publication-type="journal" id="jnc70382-cit-0041">
+<string-name name-style="western">
+<surname>Steinman</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V. R.</given-names>
+<surname>Naik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Abernethy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Hill</surname>
+</string-name>. <year>1974</year>. “<article-title>Bovine Erythrocyte Superoxide Dismutase. Complete Amino Acid Sequence</article-title>.” <source>Journal of Biological Chemistry</source>
+<volume>249</volume>, no. <issue>22</issue>: <fpage>7326</fpage>–<lpage>7338</lpage>.<pub-id pub-id-type="pmid">4279916</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0042"><mixed-citation publication-type="journal" id="jnc70382-cit-0042">
+<string-name name-style="western">
+<surname>Strange</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Antonyuk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Hough</surname>
+</string-name>, et al. <year>2003</year>. “<article-title>The Structure of Holo and Metal‐Deficient Wild‐Type Human cu, Zn Superoxide Dismutase and Its Relevance to Familial Amyotrophic Lateral Sclerosis</article-title>.” <source>Journal of Molecular Biology</source>
+<volume>328</volume>, no. <issue>4</issue>: <fpage>877</fpage>–<lpage>891</lpage>. <pub-id pub-id-type="doi">10.1016/s0022-2836(03)00355-3</pub-id>.<pub-id pub-id-type="pmid">12729761</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0043"><mixed-citation publication-type="journal" id="jnc70382-cit-0043">
+<string-name name-style="western">
+<surname>Weser</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Miesel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Hartmann</surname>
+</string-name>. <year>1989</year>. “<article-title>Mummified Enzymes</article-title>.” <source>Nature</source>
+<volume>341</volume>, no. <issue>6244</issue>: <fpage>696</fpage>. <pub-id pub-id-type="doi">10.1038/341696a0</pub-id>.<pub-id pub-id-type="pmid">2677752</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0044"><mixed-citation publication-type="journal" id="jnc70382-cit-0044">
+<string-name name-style="western">
+<surname>Wichmann</surname>, <given-names>T. O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. H.</given-names>
+<surname>Damkier</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pedersen</surname>
+</string-name>. <year>2021</year>. “<article-title>A Brief Overview of the Cerebrospinal Fluid System and Its Implications for Brain and Spinal Cord Diseases</article-title>.” <source>Frontiers in Human Neuroscience</source>
+<volume>15</volume>: <elocation-id>737217</elocation-id>. <pub-id pub-id-type="doi">10.3389/fnhum.2021.737217</pub-id>.<pub-id pub-id-type="pmid">35126070</pub-id>
+<pub-id pub-id-type="pmcid">PMC8813779</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0045"><mixed-citation publication-type="journal" id="jnc70382-cit-0045">
+<string-name name-style="western">
+<surname>Wroe</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wai‐Ling Butler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Powell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Al‐Chalabi</surname>
+</string-name>. <year>2008</year>. “<article-title>ALSOD: The Amyotrophic Lateral Sclerosis Online Database</article-title>.” <source>Amyotrophic Lateral Sclerosis</source>
+<volume>9</volume>, no. <issue>4</issue>: <fpage>249</fpage>–<lpage>250</lpage>. <pub-id pub-id-type="doi">10.1080/17482960802146106</pub-id>.<pub-id pub-id-type="pmid">18608099</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0048"><mixed-citation publication-type="journal" id="jnc70382-cit-0048">
+<string-name name-style="western">
+<surname>Zetterstrom</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. S.</given-names>
+<surname>Graffmo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Brannstrom</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Marklund</surname>
+</string-name>. <year>2013</year>. “<article-title>Composition of Soluble Misfolded Superoxide Dismutase‐1 in Murine Models of Amyotrophic Lateral Sclerosis</article-title>.” <source>Neuromolecular Medicine</source>
+<volume>15</volume>, no. <issue>1</issue>: <fpage>147</fpage>–<lpage>158</lpage>. <pub-id pub-id-type="doi">10.1007/s12017-012-8204-z</pub-id>.<pub-id pub-id-type="pmid">23076707</pub-id>
+</mixed-citation></ref><ref id="jnc70382-bib-0049"><mixed-citation publication-type="journal" id="jnc70382-cit-0049">
+<string-name name-style="western">
+<surname>Zetterstrom</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. G.</given-names>
+<surname>Stewart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Bergemalm</surname>
+</string-name>, et al. <year>2007</year>. “<article-title>Soluble Misfolded Subfractions of Mutant Superoxide Dismutase‐1s Are Enriched in Spinal Cords Throughout Life in Murine ALS Models</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>104</volume>, no. <issue>35</issue>: <fpage>14157</fpage>–<lpage>14162</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0700477104</pub-id>.<pub-id pub-id-type="pmid">17715066</pub-id>
+<pub-id pub-id-type="pmcid">PMC1955813</pub-id></mixed-citation></ref><ref id="jnc70382-bib-0046"><mixed-citation publication-type="journal" id="jnc70382-cit-0046">
+<string-name name-style="western">
+<surname>Zetterström</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Andersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Brännström</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Marklund</surname>
+</string-name>. <year>2011</year>. “<article-title>Misfolded Superoxide Dismutase‐1 in CSF From Amyotrophic Lateral Sclerosis Patients</article-title>.” <source>Journal of Neurochemistry</source>
+<volume>117</volume>, no. <issue>1</issue>: <fpage>91</fpage>–<lpage>99</lpage>. <pub-id pub-id-type="doi">10.1111/j.1471-4159.2011.07177.x</pub-id>.<pub-id pub-id-type="pmid">21226712</pub-id>
+</mixed-citation></ref></ref-list></back></article></pmc-articleset>

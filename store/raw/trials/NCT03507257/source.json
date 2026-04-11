@@ -1,0 +1,1170 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03507257",
+      "orgStudyIdInfo": {
+        "id": "ATRI-003"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R56AG057195",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R56AG057195"
+        }
+      ],
+      "organization": {
+        "fullName": "Indiana University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Longitudinal Early-onset Alzheimer's Disease Study Protocol",
+      "officialTitle": "Longitudinal Early-onset Alzheimer's Disease Study Protocol",
+      "acronym": "LEADS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-04-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-05-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-05-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-04-04",
+      "studyFirstSubmitQcDate": "2018-04-23",
+      "studyFirstPostDateStruct": {
+        "date": "2018-04-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Liana Apostolova",
+        "investigatorTitle": "Professor in Neurology, Radiology, Medical and Molecular Genetics",
+        "investigatorAffiliation": "Indiana University School of Medicine"
+      },
+      "leadSponsor": {
+        "name": "Indiana University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Alzheimer's Therapeutic Research Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute on Aging (NIA)",
+          "class": "NIH"
+        },
+        {
+          "name": "Alzheimer's Association",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The Longitudinal Early-onset Alzheimer's Disease Study (LEADS) is a non-randomized, natural history, non-treatment study designed to look at disease progression in individuals with early onset cognitive impairment. Clinical, cognitive, imaging, biomarker, and genetic characteristics will be assessed across three cohorts: (1) early onset Alzheimer's Disease (EOAD) participants, (2) early onset non-Alzheimer's Disease (EOnonAD) participants, and (3) cognitively normal (CN) control participants.",
+      "detailedDescription": "The LEADS study is a non-randomized, natural history, non-treatment study. Enrolled participants must be 40 - 64 (inclusive) years of age, with MCI due to AD or probable AD dementia (cognitively impaired participants) or have no significant memory impairment (cognitively normal \\[CN\\] participants).\n\nApproximately 850 participants with cognitive impairment (650 with early onset Alzheimer's Disease \\[EOAD\\] and 200 with early onset non-Alzheimer's Disease \\[EOnonAD\\]) and 100 CN participants will be enrolled at approximately 20 sites in the United States. At approximately 5 sites outside of the United States, approximately 400 cognitively impaired participants and 10 CN participants will be enrolled. Cognitively impaired participants will take part in the study for 48+ months; CN participants will take part in the study for 24+ months.\n\nParticipants will undergo longitudinal clinical and cognitive assessments, computerized cognitive tests, biomarker and genetic tests, PET (FDG, amyloid and tau) and MRI brain scans, and optional cerebrospinal fluid (CSF) collection. Participants will be invited to consider autopsy brain donation\n\nThe primary objectives of the LEADS study are to:\n\n* collect longitudinal assessments and biomarker data in individuals with early onset cognitive impairment (EOAD / EOnonAD) and cognitively normal (CN) controls;\n* to compare baseline and longitudinal cognitive and functional characteristics, between EOAD and CN, and EOAD and Late Onset Alzheimer's Disease (LOAD) from the Alzheimer's Disease Neuroimaging Initiative (ADNI); and\n* to study the associations of longitudinal clinical and cognitive assessments with multimodal imaging and biofluid markers that capture different elements of the AD pathophysiological cascade"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Early Onset Alzheimer Disease",
+        "Alzheimer Disease",
+        "Mild Cognitive Impairment"
+      ],
+      "keywords": [
+        "Cognitively Normal",
+        "Amyloid",
+        "Plaques",
+        "Neuroimaging",
+        "Biomarkers",
+        "Cognition Disorder",
+        "Dementia",
+        "Tau",
+        "Early Onset Alzheimer's Disease",
+        "Alzheimer's Disease",
+        "Mild Cognitive Impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "blood, cerebrospinal fluid"
+      },
+      "enrollmentInfo": {
+        "count": 850,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Early Onset Alzheimer's Disease (EOAD)",
+          "description": "* Diagnosis of NIA-AA criteria of MCI due to AD or probable AD dementia\n* Amyloid positive status (florbetaben PET scan with evidence of elevated amyloid as determined by a central read)\n* CDR score ≤ 1.0\n* flortaucipir (18F-AV-1451) PET scanning",
+          "interventionNames": [
+            "Drug: Flortaucipir",
+            "Drug: Florbetaben"
+          ]
+        },
+        {
+          "label": "Cognitively Normal (CN) Controls",
+          "description": "* Meets criteria for cognitively normal, based on an absence of significant impairment in cognitive functions and activities of daily living\n* Mini-Mental State Exam score between 26-30\n* CDR score = 0\n* flortaucipir (18F-AV-1451) PET scanning",
+          "interventionNames": [
+            "Drug: Flortaucipir",
+            "Drug: Florbetaben",
+            "Drug: Fluorodeoxyglucose"
+          ]
+        },
+        {
+          "label": "Early Onset non-Alzheimer's Disease (EOnonAD)",
+          "description": "* Diagnosis of NIA-AA criteria of MCI due to AD or probable AD dementia\n* Amyloid negative status (florbetaben PET scan with no evidence of elevated amyloid as determined by a central read)\n* CDR score ≤ 1.0\n* flortaucipir (18F-AV-1451) PET scanning",
+          "interventionNames": [
+            "Drug: Flortaucipir",
+            "Drug: Florbetaben",
+            "Drug: Fluorodeoxyglucose"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Flortaucipir",
+          "description": "All participants will receive a single bolus intravenous injection of approximately 10 mCi (+/- 10%, 20μg mass dose) of flortaucipir (18F-AV-1451). At approximately 75-minutes post dose, scanning will begin. An approximately 30-minute image acquisition scan will be performed.",
+          "armGroupLabels": [
+            "Cognitively Normal (CN) Controls",
+            "Early Onset Alzheimer's Disease (EOAD)",
+            "Early Onset non-Alzheimer's Disease (EOnonAD)"
+          ],
+          "otherNames": [
+            "18F-AV-1451 (also known as [F-18]T807 or LY3191748)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Florbetaben",
+          "description": "All participants will receive a single bolus intravenous injection of approximately 8 mCi +/- .8mCi of florbetaben (AV-45). At approximately 90-minutes (+/- 10 minutes) post dose, scanning will begin. An approximately 20-minute image acquisition scan will be performed.",
+          "armGroupLabels": [
+            "Cognitively Normal (CN) Controls",
+            "Early Onset Alzheimer's Disease (EOAD)",
+            "Early Onset non-Alzheimer's Disease (EOnonAD)"
+          ],
+          "otherNames": [
+            "AV-45, Neuraceq"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fluorodeoxyglucose",
+          "description": "All participants will receive a single bolus intravenous injection of approximately 5 mCi (+/- 10%, 0.5 mCi) of fluorodeoxyglucose. At approximately 30 minutes post dose, scanning will begin. An approximately 30-minute image acquisition scan will be performed.",
+          "armGroupLabels": [
+            "Cognitively Normal (CN) Controls",
+            "Early Onset non-Alzheimer's Disease (EOnonAD)"
+          ],
+          "otherNames": [
+            "FDG"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of change in cognition as measured by the Alzheimer's Disease Assessment Scale-Cognitive (ADAS-Cog13)",
+          "description": "The ADAS-Cog is an in-person examiner-administered, structured scale that evaluates memory (word recall, word recognition), reasoning (following commands), language (naming, comprehension), orientation, ideational praxis (placing letter in envelope) and constructional praxis (copying geometric designs). Ratings of spoken language, language comprehension, word finding difficulty, and ability to remember test instructions are also obtained.",
+          "timeFrame": "Month 0, Month 12, Month 24, Month 36 (EOAD/EOnonAD only) and Month 48 (EOAD/EOnonAD only)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Rate of change in cognition as measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB)",
+          "description": "The CDR is a semi-structured interview of the informant and participant that assesses for impairment in 8 areas of functioning - memory, orientation, judgment and problem solving, community affairs, home and hobbies, personal care, behavior, personality, and language.",
+          "timeFrame": "CN participants: Month 0 and Month 24; EOAD/EOnonAD participants: Month 0, Month 12, Month 24, Month 36 and Month 48"
+        },
+        {
+          "measure": "Change in tau deposition as measured by flortaucipir (18F-AV-1451) Positron Emission Tomography (PET) imaging",
+          "timeFrame": "Month 0, Month 12 (EOAD only), Month 24 (EOAD only) and Month 36 (EOAD and EOnonAD amyloid positive participants only)"
+        },
+        {
+          "measure": "Change in amyloid deposition as measured by florbetaben using Positron Emission Tomography (PET) imaging",
+          "timeFrame": "Month 0, Month 12 (EOAD only), Month 24 (EOAD only) and Month 36 (EOAD/EOnonAD only"
+        },
+        {
+          "measure": "Neurodegeneration as measured by fluorodeoxyglucose (FDG) Positron Emission Tomography (PET) imaging compared to magnetic resonance imaging (MRI)",
+          "timeFrame": "Month 12 (EOnonAD only) and Month 24 (CN only)"
+        },
+        {
+          "measure": "Change in brain structure using magnetic resonance imaging (MRI)",
+          "timeFrame": "CN participants: Month 0 and Month 24; EOAD/EOnonAD participants: Month 0, Month 12, Month 24 and Month 36"
+        },
+        {
+          "measure": "Change in cerebrospinal fluid (CSF) biomarkers",
+          "timeFrame": "CN participants: Month 0 and Month 24; EOAD/EOnonAD participants: Month 0, Month 12, Month 24, Month 36"
+        },
+        {
+          "measure": "Change in plasma biomarkers",
+          "timeFrame": "CN participants: Month 0, Month 12 and Month 24; EOAD/EOnonAD participants: Month 0, Month 12, Month 24, Month 36 and Month 48"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria for Cognitively Impaired (EOAD and EOnonAD) Cohorts Only:\n\n1. Meets NIA-AA criteria for MCI due to AD or probable AD dementia\n2. Have a global CDR score ≤ 1.0\n3. Have capacity to provide informed consent (IC) or has a legal authorized representative or guardian who provides IC\n4. Age between 40-64 years (inclusive) at the time of consent\n5. Must have a study partner (informant) who spends a minimum average of 10 hours per week with the participant (e.g., family member, significant other, friend, caregiver) who is generally aware of the participants' daily activities and can provide information about the participant's cognitive and functional performance. If the participant does not have a study partner who spends at least 10 face-to-face hours per week, other arrangements for identifying a viable study partner will be granted on a case-by-case basis by the Site PI\n6. Willing and able to complete longitudinal study procedures aside from LP which is an optional procedure\n7. Not pregnant or lactating. Women must be two years post-menopausal, be surgically sterile, or have a negative pregnancy test prior to each PET scan\n8. Fluent in English or Spanish if enrolled in the U.S.\n9. Fluent in English, Spanish, Dutch or Swedish for sites outside the U.S., according to site's spoken language(s).\n\nInclusion Criteria for Cognitively Normal (CN) Cohort Only:\n\n1. Meets criteria for cognitively normal, based on an absence of significant impairment in cognitive functions or activities of daily living\n2. Have a global CDR score = 0\n3. Have capacity to provide informed consent\n4. Have a Mini-Mental State Exam score between 26-30 (inclusive). Exceptions may be made for participant with less than 8 years of education at the discretion of the Site PI\n5. Age between 40-64 years (inclusive) at the time of consent\n6. Must have a study partner (informant) who spends a minimum average of 10 hours per week with the participant (e.g., family member, significant other, friend, caregiver) who is generally aware of the participants' daily activities and can provide information about the participant's cognitive and functional performance. If the participant does not have a study partner who spends 10 face-to-face hours per week, other arrangements for identifying a viable study partner will be granted on a case-by-case basis by the Site PI\n7. Willing and able to complete longitudinal study procedures aside from LP which is an optional procedure\n8. Not pregnant or lactating. Women must be two years post-menopausal, be surgically sterile, or have a negative pregnancy test prior to each PET scan\n9. Fluent in English or Spanish if enrolled in the U.S.\n10. Fluent in English, Spanish, Dutch or Swedish for sites outside the U.S., according to site's spoken language(s).\n\nExclusion Criteria for all (EOAD, EOnonAD and CN) cohorts:\n\n1. Meets core clinical criteria for non-AD dementia\n2. Two or more first degree relatives with a history of early-onset dementia suggestive of autosomal dominant transmission, unless known pathogenic mutations in APP, PSEN1, PSEN2, MAPT, GRN and C9ORF72 have been excluded\n3. Known CLIA certified mutation in an ADAD gene (APP, PSEN1, PSEN2), or other autosomal dominant genes associated with other neurodegenerative disorders (MAPT, GRN, C9ORF72)\n4. Contraindications to 3T MRI (e.g., claustrophobia, pacemaker, select aneurismal clip, artificial heart valve, select ear implants, select stents incompatible with 3T MRI, metal fragments or foreign objects in the eyes, skin or body, etc.)\n5. Lifetime medical history of a brain disorder other than the disorder causing dementia except for headache (exceptions are allowed at the discretion of the Site PI - e.g., seizure disorder thought to be due to EOAD).\n6. MRI scan with evidence of infection or focal lesions, cortical strokes, multiple lacunes (single lacune is allowable unless it meets criteria for strategic lacune affecting cognition)\n7. Any significant systemic illness or unstable medical condition, which could lead to difficulty complying with the protocol (at the discretion of the Site PI)\n8. Research radiation exposure will be assessed by the study physician. If the candidate participant has had more than one nuclear medicine study in the prior 12 months for research-related purposes, study inclusion will require approval from the PET Core\n9. Investigational agents are prohibited 30 days prior to entry\n10. Previous enrollment in a therapeutic trial targeting amyloid or tau.\n11. Participation in other clinical studies with neuropsychological measures, with the exception of participants who are co-enrolled in the NACC Uniform Data Set (UDS) protocol (Note: This criterion is intended to reduce repeat measures effects during neuropsychological testing. Exceptions are allowed at the discretion of the Site PI)\n12. Lifetime history of schizophrenia spectrum disorders (DSM-5 criteria)\n13. Current history (in previous 12 months) of DSM-5 diagnosis of mania, bipolar disorder with or without psychotic features\n14. Current history (in previous 6 months) of moderate or severe substance abuse (nicotine or caffeine is allowed)\n15. Suicidal behaviors in the past 12 months or active suicidal ideations\n16. Residing in a 24-hour care skilled nursing facility (at the time of screening)\n17. (For optional lumbar puncture procedure only):\n\n    a. Clinical laboratory values must be within normal limits or, if abnormal, must be judged to be not clinically significant by the Site PI i. Platelet count \\<100,000/ml ii. INR\\>1.2 iii. Abnormal PT or PTT at screening b. Contraindications to the procedure, including but not limited to severe degenerative joint disease, deformity of the spine, history of a bleeding disorder c. Suspected elevated intracranial pressure, Arnold Chiari malformation or mass lesion d. Use of the anticoagulant medications such as but not limited to warfarin, rivaroxaban, dabigatran\n18. Deemed ineligible by the Site PI for any other reason",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "64 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": "Cognitively Impaired Participants (ie: Early Onset Alzheimer's Disease (EOAD) and Early Onset non-Alzheimer's Disease (EOnonAD)) and Cognitively Normal (CN) Control Participants",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "IU LEADS Team",
+          "role": "CONTACT",
+          "phone": "317-963-7436",
+          "email": "iuLEADS@iupui.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Liana Apostolova, MD",
+          "affiliation": "Indiana University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Banner Sun Health Research Institute",
+          "status": "COMPLETED",
+          "city": "Sun City",
+          "state": "Arizona",
+          "zip": "85351",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.59754,
+            "lon": -112.27182
+          }
+        },
+        {
+          "facility": "University of California, Los Angeles",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lauren Garcia, MPH",
+              "role": "CONTACT",
+              "phone": "310-794-6191",
+              "email": "LAGarcia@mednet.ucla.edu"
+            },
+            {
+              "name": "Leila Parand, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Stanford University",
+          "status": "RECRUITING",
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94304",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stephanie Tran",
+              "role": "CONTACT",
+              "phone": "650-521-7287",
+              "email": "trans@stanford.edu"
+            },
+            {
+              "name": "Sharon Sha, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "University of California, San Francisco",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94121",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Karen Smith",
+              "role": "CONTACT",
+              "phone": "415-353-3266",
+              "email": "Karen.Smith@ucsf.edu"
+            },
+            {
+              "name": "Gil Rabinovici, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Georgetown University",
+          "status": "COMPLETED",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Mayo Clinic, Jacksonville",
+          "status": "RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anton Thomas",
+              "role": "CONTACT",
+              "phone": "904-953-4096",
+              "email": "thomas.anton@mayo.edu"
+            },
+            {
+              "name": "Gregory Day, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Wien Center",
+          "status": "COMPLETED",
+          "city": "Miami Beach",
+          "state": "Florida",
+          "zip": "33140",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.79065,
+            "lon": -80.13005
+          }
+        },
+        {
+          "facility": "Emory University",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Chung",
+              "role": "CONTACT",
+              "phone": "404-712-0195",
+              "email": "jennifer.mei.chung@emory.edu"
+            },
+            {
+              "name": "Erik Johnson, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Northwestern University",
+          "status": "COMPLETED",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Indiana University",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "47405",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "IU LEADS Team",
+              "role": "CONTACT",
+              "phone": "317-963-7436",
+              "email": "iuLEADS@iupui.edu"
+            },
+            {
+              "name": "Liana Apostolova, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Johns Hopkins University",
+          "status": "RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21218",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Fiona Sweeney",
+              "role": "CONTACT",
+              "phone": "410-929-2241",
+              "email": "fsweene4@jhu.edu"
+            },
+            {
+              "name": "Chiadi Onyike, MBBS, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Samuel Murdock",
+              "role": "CONTACT",
+              "phone": "617-643-5568",
+              "email": "smurdock2@mgh.harvard.edu"
+            },
+            {
+              "name": "Brad Dickerson, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Mayo Clinic, Rochester",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Emily Berg",
+              "role": "CONTACT",
+              "phone": "507-293-5669",
+              "email": "berg.emily@mayo.edu"
+            },
+            {
+              "name": "David Jones, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Washington University, St. Louis",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63130",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jessica Wold",
+              "role": "CONTACT",
+              "phone": "314-286-1726",
+              "email": "woldjessicaa@wustl.edu"
+            },
+            {
+              "name": "Kyle Womack, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Columbia University",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Arlene Mejia",
+              "role": "CONTACT",
+              "phone": "212-305-9168",
+              "email": "am4717@cumc.columbia.edu"
+            },
+            {
+              "name": "Lawrence Honig, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "University of Pennsylvania",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Laura Schankel",
+              "role": "CONTACT",
+              "phone": "215-349-8727",
+              "email": "laura.schankel@pennmedicine.upenn.edu"
+            },
+            {
+              "name": "David Wolk, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Butler Hospital",
+          "status": "RECRUITING",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02906",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Outreach Team",
+              "role": "CONTACT",
+              "phone": "401-455-6402",
+              "email": "memory@butler.org"
+            },
+            {
+              "name": "Meghan Riddle, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Houston Methodist Hospital",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chimaoge Onyechi",
+              "role": "CONTACT",
+              "phone": "713-363-7729",
+              "email": "cionyechi@houstonmethodist.org"
+            },
+            {
+              "name": "Joseph Masdeu, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Fleni",
+          "status": "RECRUITING",
+          "city": "Buenos Aires",
+          "zip": "C1428 CABA",
+          "country": "Argentina",
+          "contacts": [
+            {
+              "name": "Julieta Tortonesi",
+              "role": "CONTACT",
+              "email": "jtortonesi@fleni.org.ar"
+            },
+            {
+              "name": "Ricardo Allegri, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Amsterdam UMC",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Amsterdam",
+          "zip": "1081 HZ",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Wiseje van der Flier, Prof. Dr.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Hospital de la Santa Creu i Sant Pau",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "8041",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Nuole Zhu",
+              "role": "CONTACT",
+              "email": "nzhu@santpau.cat"
+            },
+            {
+              "name": "Alberto Lleó Bisa, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Lund University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Malmo",
+          "zip": "214 28",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Erik Stomrud, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.60587,
+            "lon": 13.00073
+          }
+        },
+        {
+          "facility": "University College London",
+          "status": "NOT_YET_RECRUITING",
+          "city": "London",
+          "zip": "WC1N 3BG",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Catherine Mummery, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "19474427",
+          "type": "BACKGROUND",
+          "citation": "Savva GM, Wharton SB, Ince PG, Forster G, Matthews FE, Brayne C; Medical Research Council Cognitive Function and Ageing Study. Age, neuropathology, and dementia. N Engl J Med. 2009 May 28;360(22):2302-9. doi: 10.1056/NEJMoa0806142."
+        },
+        {
+          "pmid": "17568013",
+          "type": "BACKGROUND",
+          "citation": "Schneider JA, Arvanitakis Z, Bang W, Bennett DA. Mixed brain pathologies account for most dementia cases in community-dwelling older persons. Neurology. 2007 Dec 11;69(24):2197-204. doi: 10.1212/01.wnl.0000271090.28148.24. Epub 2007 Jun 13."
+        },
+        {
+          "pmid": "21345175",
+          "type": "BACKGROUND",
+          "citation": "Szigeti K, Doody RS. Should EOAD patients be included in clinical trials? Alzheimers Res Ther. 2011 Feb 8;3(1):4. doi: 10.1186/alzrt63."
+        },
+        {
+          "pmid": "21911656",
+          "type": "BACKGROUND",
+          "citation": "Wingo TS, Lah JJ, Levey AI, Cutler DJ. Autosomal recessive causes likely in early-onset Alzheimer disease. Arch Neurol. 2012 Jan;69(1):59-64. doi: 10.1001/archneurol.2011.221. Epub 2011 Sep 12."
+        },
+        {
+          "pmid": "20061618",
+          "type": "BACKGROUND",
+          "citation": "Koedam EL, Lauffer V, van der Vlies AE, van der Flier WM, Scheltens P, Pijnenburg YA. Early-versus late-onset Alzheimer's disease: more than age alone. J Alzheimers Dis. 2010;19(4):1401-8. doi: 10.3233/JAD-2010-1337."
+        },
+        {
+          "pmid": "22871906",
+          "type": "BACKGROUND",
+          "citation": "Mendez MF, Lee AS, Karve SJ, Shapira JS. Nonamnestic presentations of early-onset Alzheimer's disease. Am J Alzheimers Dis Other Demen. 2012 Sep;27(6):413-20. doi: 10.1177/1533317512454711. Epub 2012 Aug 7."
+        },
+        {
+          "pmid": "17941342",
+          "type": "BACKGROUND",
+          "citation": "Snowden JS, Stopford CL, Julien CL, Thompson JC, Davidson Y, Gibbons L, Pritchard A, Lendon CL, Richardson AM, Varma A, Neary D, Mann D. Cognitive phenotypes in Alzheimer's disease and genetic risk. Cortex. 2007 Oct;43(7):835-45. doi: 10.1016/s0010-9452(08)70683-x."
+        },
+        {
+          "pmid": "8035918",
+          "type": "BACKGROUND",
+          "citation": "Jacobs D, Sano M, Marder K, Bell K, Bylsma F, Lafleche G, Albert M, Brandt J, Stern Y. Age at onset of Alzheimer's disease: relation to pattern of cognitive dysfunction and rate of decline. Neurology. 1994 Jul;44(7):1215-20. doi: 10.1212/wnl.44.7.1215."
+        },
+        {
+          "pmid": "8559362",
+          "type": "BACKGROUND",
+          "citation": "Koss E, Edland S, Fillenbaum G, Mohs R, Clark C, Galasko D, Morris JC. Clinical and neuropsychological differences between patients with earlier and later onset of Alzheimer's disease: A CERAD analysis, Part XII. Neurology. 1996 Jan;46(1):136-41. doi: 10.1212/wnl.46.1.136."
+        },
+        {
+          "pmid": "23411393",
+          "type": "BACKGROUND",
+          "citation": "Xia CF, Arteaga J, Chen G, Gangadharmath U, Gomez LF, Kasi D, Lam C, Liang Q, Liu C, Mocharla VP, Mu F, Sinha A, Su H, Szardenings AK, Walsh JC, Wang E, Yu C, Zhang W, Zhao T, Kolb HC. [(18)F]T807, a novel tau positron emission tomography imaging agent for Alzheimer's disease. Alzheimers Dement. 2013 Nov;9(6):666-76. doi: 10.1016/j.jalz.2012.11.008. Epub 2013 Feb 12."
+        },
+        {
+          "pmid": "15608008",
+          "type": "BACKGROUND",
+          "citation": "Frisoni GB, Testa C, Sabattoli F, Beltramello A, Soininen H, Laakso MP. Structural correlates of early and late onset Alzheimer's disease: voxel based morphometric study. J Neurol Neurosurg Psychiatry. 2005 Jan;76(1):112-4. doi: 10.1136/jnnp.2003.029876."
+        },
+        {
+          "pmid": "15888536",
+          "type": "BACKGROUND",
+          "citation": "Kim EJ, Cho SS, Jeong Y, Park KC, Kang SJ, Kang E, Kim SE, Lee KH, Na DL. Glucose metabolism in early onset versus late onset Alzheimer's disease: an SPM analysis of 120 patients. Brain. 2005 Aug;128(Pt 8):1790-801. doi: 10.1093/brain/awh539. Epub 2005 May 11."
+        },
+        {
+          "pmid": "20080878",
+          "type": "BACKGROUND",
+          "citation": "Rabinovici GD, Furst AJ, Alkalay A, Racine CA, O'Neil JP, Janabi M, Baker SL, Agarwal N, Bonasera SJ, Mormino EC, Weiner MW, Gorno-Tempini ML, Rosen HJ, Miller BL, Jagust WJ. Increased metabolic vulnerability in early-onset Alzheimer's disease is not related to amyloid burden. Brain. 2010 Feb;133(Pt 2):512-28. doi: 10.1093/brain/awp326. Epub 2010 Jan 15."
+        },
+        {
+          "pmid": "23358601",
+          "type": "BACKGROUND",
+          "citation": "Lehmann M, Ghosh PM, Madison C, Laforce R Jr, Corbetta-Rastelli C, Weiner MW, Greicius MD, Seeley WW, Gorno-Tempini ML, Rosen HJ, Miller BL, Jagust WJ, Rabinovici GD. Diverging patterns of amyloid deposition and hypometabolism in clinical variants of probable Alzheimer's disease. Brain. 2013 Mar;136(Pt 3):844-58. doi: 10.1093/brain/aws327. Epub 2013 Jan 28."
+        },
+        {
+          "pmid": "21802369",
+          "type": "BACKGROUND",
+          "citation": "Murray ME, Graff-Radford NR, Ross OA, Petersen RC, Duara R, Dickson DW. Neuropathologically defined subtypes of Alzheimer's disease with distinct clinical characteristics: a retrospective study. Lancet Neurol. 2011 Sep;10(9):785-96. doi: 10.1016/S1474-4422(11)70156-9. Epub 2011 Jul 27."
+        },
+        {
+          "pmid": "26260856",
+          "type": "BACKGROUND",
+          "citation": "Ossenkoppele R, Cohn-Sheehy BI, La Joie R, Vogel JW, Moller C, Lehmann M, van Berckel BN, Seeley WW, Pijnenburg YA, Gorno-Tempini ML, Kramer JH, Barkhof F, Rosen HJ, van der Flier WM, Jagust WJ, Miller BL, Scheltens P, Rabinovici GD. Atrophy patterns in early clinical stages across distinct phenotypes of Alzheimer's disease. Hum Brain Mapp. 2015 Nov;36(11):4421-37. doi: 10.1002/hbm.22927. Epub 2015 Aug 11."
+        },
+        {
+          "pmid": "26141491",
+          "type": "BACKGROUND",
+          "citation": "Ossenkoppele R, Pijnenburg YA, Perry DC, Cohn-Sheehy BI, Scheltens NM, Vogel JW, Kramer JH, van der Vlies AE, La Joie R, Rosen HJ, van der Flier WM, Grinberg LT, Rozemuller AJ, Huang EJ, van Berckel BN, Miller BL, Barkhof F, Jagust WJ, Scheltens P, Seeley WW, Rabinovici GD. The behavioural/dysexecutive variant of Alzheimer's disease: clinical, neuroimaging and pathological features. Brain. 2015 Sep;138(Pt 9):2732-49. doi: 10.1093/brain/awv191. Epub 2015 Jul 2."
+        },
+        {
+          "pmid": "9343467",
+          "type": "BACKGROUND",
+          "citation": "Farrer LA, Cupples LA, Haines JL, Hyman B, Kukull WA, Mayeux R, Myers RH, Pericak-Vance MA, Risch N, van Duijn CM. Effects of age, sex, and ethnicity on the association between apolipoprotein E genotype and Alzheimer disease. A meta-analysis. APOE and Alzheimer Disease Meta Analysis Consortium. JAMA. 1997 Oct 22-29;278(16):1349-56."
+        },
+        {
+          "pmid": "23237904",
+          "type": "BACKGROUND",
+          "citation": "Bettens K, Sleegers K, Van Broeckhoven C. Genetic insights in Alzheimer's disease. Lancet Neurol. 2013 Jan;12(1):92-104. doi: 10.1016/S1474-4422(12)70259-4."
+        },
+        {
+          "pmid": "9008509",
+          "type": "BACKGROUND",
+          "citation": "Blacker D, Haines JL, Rodes L, Terwedow H, Go RC, Harrell LE, Perry RT, Bassett SS, Chase G, Meyers D, Albert MS, Tanzi R. ApoE-4 and age at onset of Alzheimer's disease: the NIMH genetics initiative. Neurology. 1997 Jan;48(1):139-47. doi: 10.1212/wnl.48.1.139."
+        },
+        {
+          "pmid": "21185234",
+          "type": "BACKGROUND",
+          "citation": "van der Flier WM, Pijnenburg YA, Fox NC, Scheltens P. Early-onset versus late-onset Alzheimer's disease: the case of the missing APOE varepsilon4 allele. Lancet Neurol. 2011 Mar;10(3):280-8. doi: 10.1016/S1474-4422(10)70306-9. Epub 2010 Dec 22."
+        },
+        {
+          "pmid": "20943911",
+          "type": "BACKGROUND",
+          "citation": "Andrews-Zwilling Y, Bien-Ly N, Xu Q, Li G, Bernardo A, Yoon SY, Zwilling D, Yan TX, Chen L, Huang Y. Apolipoprotein E4 causes age- and Tau-dependent impairment of GABAergic interneurons, leading to learning and memory deficits in mice. J Neurosci. 2010 Oct 13;30(41):13707-17. doi: 10.1523/JNEUROSCI.4040-10.2010."
+        },
+        {
+          "pmid": "19013250",
+          "type": "BACKGROUND",
+          "citation": "Filippini N, Rao A, Wetten S, Gibson RA, Borrie M, Guzman D, Kertesz A, Loy-English I, Williams J, Nichols T, Whitcher B, Matthews PM. Anatomically-distinct genetic associations of APOE epsilon4 allele load with regional cortical atrophy in Alzheimer's disease. Neuroimage. 2009 Feb 1;44(3):724-8. doi: 10.1016/j.neuroimage.2008.10.003. Epub 2008 Nov 1."
+        },
+        {
+          "pmid": "23283688",
+          "type": "BACKGROUND",
+          "citation": "Knickmeyer RC, Wang J, Zhu H, Geng X, Woolson S, Hamer RM, Konneker T, Lin W, Styner M, Gilmore JH. Common variants in psychiatric risk genes predict brain structure at birth. Cereb Cortex. 2014 May;24(5):1230-46. doi: 10.1093/cercor/bhs401. Epub 2013 Jan 2."
+        },
+        {
+          "pmid": "23300939",
+          "type": "BACKGROUND",
+          "citation": "Leung L, Andrews-Zwilling Y, Yoon SY, Jain S, Ring K, Dai J, Wang MM, Tong L, Walker D, Huang Y. Apolipoprotein E4 causes age- and sex-dependent impairments of hilar GABAergic interneurons and learning and memory deficits in mice. PLoS One. 2012;7(12):e53569. doi: 10.1371/journal.pone.0053569. Epub 2012 Dec 31."
+        },
+        {
+          "pmid": "20479234",
+          "type": "BACKGROUND",
+          "citation": "Wolk DA, Dickerson BC; Alzheimer's Disease Neuroimaging Initiative. Apolipoprotein E (APOE) genotype has dissociable effects on memory and attentional-executive network function in Alzheimer's disease. Proc Natl Acad Sci U S A. 2010 Jun 1;107(22):10256-61. doi: 10.1073/pnas.1001412107. Epub 2010 May 17."
+        },
+        {
+          "pmid": "10563634",
+          "type": "BACKGROUND",
+          "citation": "Geroldi C, Pihlajamaki M, Laakso MP, DeCarli C, Beltramello A, Bianchetti A, Soininen H, Trabucchi M, Frisoni GB. APOE-epsilon4 is associated with less frontal and more medial temporal lobe atrophy in AD. Neurology. 1999 Nov 10;53(8):1825-32. doi: 10.1212/wnl.53.8.1825."
+        },
+        {
+          "pmid": "11673590",
+          "type": "BACKGROUND",
+          "citation": "Hashimoto M, Yasuda M, Tanimukai S, Matsui M, Hirono N, Kazui H, Mori E. Apolipoprotein E epsilon 4 and the pattern of regional brain atrophy in Alzheimer's disease. Neurology. 2001 Oct 23;57(8):1461-6. doi: 10.1212/wnl.57.8.1461."
+        },
+        {
+          "pmid": "11889238",
+          "type": "BACKGROUND",
+          "citation": "Hirono N, Hashimoto M, Yasuda M, Ishii K, Sakamoto S, Kazui H, Mori E. The effect of APOE epsilon4 allele on cerebral glucose metabolism in AD is a function of age at onset. Neurology. 2002 Mar 12;58(5):743-50. doi: 10.1212/wnl.58.5.743."
+        },
+        {
+          "pmid": "8614504",
+          "type": "BACKGROUND",
+          "citation": "Lehtovirta M, Soininen H, Helisalmi S, Mannermaa A, Helkala EL, Hartikainen P, Hanninen T, Ryynanen M, Riekkinen PJ. Clinical and neuropsychological characteristics in familial and sporadic Alzheimer's disease: relation to apolipoprotein E polymorphism. Neurology. 1996 Feb;46(2):413-9. doi: 10.1212/wnl.46.2.413."
+        },
+        {
+          "pmid": "16401755",
+          "type": "BACKGROUND",
+          "citation": "Schott JM, Ridha BH, Crutch SJ, Healy DG, Uphill JB, Warrington EK, Rossor MN, Fox NC. Apolipoprotein e genotype modifies the phenotype of Alzheimer disease. Arch Neurol. 2006 Jan;63(1):155-6. doi: 10.1001/archneur.63.1.155. No abstract available."
+        },
+        {
+          "pmid": "16894123",
+          "type": "BACKGROUND",
+          "citation": "van der Flier WM, Schoonenboom SN, Pijnenburg YA, Fox NC, Scheltens P. The effect of APOE genotype on clinical phenotype in Alzheimer disease. Neurology. 2006 Aug 8;67(3):526-7. doi: 10.1212/01.wnl.0000228222.17111.2a."
+        },
+        {
+          "pmid": "17596691",
+          "type": "BACKGROUND",
+          "citation": "van der Vlies AE, Pijnenburg YA, Koene T, Klein M, Kok A, Scheltens P, van der Flier WM. Cognitive impairment in Alzheimer's disease is modified by APOE genotype. Dement Geriatr Cogn Disord. 2007;24(2):98-103. doi: 10.1159/000104467. Epub 2007 Jun 26."
+        },
+        {
+          "pmid": "22265212",
+          "type": "BACKGROUND",
+          "citation": "Crutch SJ, Lehmann M, Schott JM, Rabinovici GD, Rossor MN, Fox NC. Posterior cortical atrophy. Lancet Neurol. 2012 Feb;11(2):170-8. doi: 10.1016/S1474-4422(11)70289-7."
+        },
+        {
+          "pmid": "19901249",
+          "type": "BACKGROUND",
+          "citation": "Migliaccio R, Agosta F, Rascovsky K, Karydas A, Bonasera S, Rabinovici GD, Miller BL, Gorno-Tempini ML. Clinical syndromes associated with posterior atrophy: early age at onset AD spectrum. Neurology. 2009 Nov 10;73(19):1571-8. doi: 10.1212/WNL.0b013e3181c0d427."
+        },
+        {
+          "pmid": "27016693",
+          "type": "BACKGROUND",
+          "citation": "Cacace R, Sleegers K, Van Broeckhoven C. Molecular genetics of early-onset Alzheimer's disease revisited. Alzheimers Dement. 2016 Jun;12(6):733-48. doi: 10.1016/j.jalz.2016.01.012. Epub 2016 Mar 24."
+        },
+        {
+          "pmid": "26242991",
+          "type": "BACKGROUND",
+          "citation": "Nicolas G, Wallon D, Charbonnier C, Quenez O, Rousseau S, Richard AC, Rovelet-Lecrux A, Coutant S, Le Guennec K, Bacq D, Garnier JG, Olaso R, Boland A, Meyer V, Deleuze JF, Munter HM, Bourque G, Auld D, Montpetit A, Lathrop M, Guyant-Marechal L, Martinaud O, Pariente J, Rollin-Sillaire A, Pasquier F, Le Ber I, Sarazin M, Croisile B, Boutoleau-Bretonniere C, Thomas-Anterion C, Paquet C, Sauvee M, Moreaud O, Gabelle A, Sellal F, Ceccaldi M, Chamard L, Blanc F, Frebourg T, Campion D, Hannequin D. Screening of dementia genes by whole-exome sequencing in early-onset Alzheimer disease: input and lessons. Eur J Hum Genet. 2016 May;24(5):710-6. doi: 10.1038/ejhg.2015.173. Epub 2015 Aug 5."
+        },
+        {
+          "pmid": "24056533",
+          "type": "BACKGROUND",
+          "citation": "Miller ZA, Mandelli ML, Rankin KP, Henry ML, Babiak MC, Frazier DT, Lobach IV, Bettcher BM, Wu TQ, Rabinovici GD, Graff-Radford NR, Miller BL, Gorno-Tempini ML. Handedness and language learning disability differentially distribute in progressive aphasia variants. Brain. 2013 Nov;136(Pt 11):3461-73. doi: 10.1093/brain/awt242. Epub 2013 Sep 20."
+        },
+        {
+          "pmid": "18268195",
+          "type": "BACKGROUND",
+          "citation": "Rogalski E, Johnson N, Weintraub S, Mesulam M. Increased frequency of learning disability in patients with primary progressive aphasia and their first-degree relatives. Arch Neurol. 2008 Feb;65(2):244-8. doi: 10.1001/archneurol.2007.34."
+        },
+        {
+          "pmid": "23543794",
+          "type": "BACKGROUND",
+          "citation": "Miller ZA, Rankin KP, Graff-Radford NR, Takada LT, Sturm VE, Cleveland CM, Criswell LA, Jaeger PA, Stan T, Heggeli KA, Hsu SC, Karydas A, Khan BK, Grinberg LT, Gorno-Tempini ML, Boxer AL, Rosen HJ, Kramer JH, Coppola G, Geschwind DH, Rademakers R, Seeley WW, Wyss-Coray T, Miller BL. TDP-43 frontotemporal lobar degeneration and autoimmune disease. J Neurol Neurosurg Psychiatry. 2013 Sep;84(9):956-62. doi: 10.1136/jnnp-2012-304644. Epub 2013 Mar 30."
+        },
+        {
+          "pmid": "27844039",
+          "type": "BACKGROUND",
+          "citation": "Miller ZA, Sturm VE, Camsari GB, Karydas A, Yokoyama JS, Grinberg LT, Boxer AL, Rosen HJ, Rankin KP, Gorno-Tempini ML, Coppola G, Geschwind DH, Rademakers R, Seeley WW, Graff-Radford NR, Miller BL. Increased prevalence of autoimmune disease within C9 and FTD/MND cohorts: Completing the picture. Neurol Neuroimmunol Neuroinflamm. 2016 Oct 28;3(6):e301. doi: 10.1212/NXI.0000000000000301. eCollection 2016 Dec."
+        },
+        {
+          "pmid": "8232972",
+          "type": "BACKGROUND",
+          "citation": "Morris JC. The Clinical Dementia Rating (CDR): current version and scoring rules. Neurology. 1993 Nov;43(11):2412-4. doi: 10.1212/wnl.43.11.2412-a. No abstract available."
+        },
+        {
+          "pmid": "7069156",
+          "type": "BACKGROUND",
+          "citation": "Pfeffer RI, Kurosaki TT, Harrah CH Jr, Chance JM, Filos S. Measurement of functional activities in older adults in the community. J Gerontol. 1982 May;37(3):323-9. doi: 10.1093/geronj/37.3.323."
+        },
+        {
+          "pmid": "7991117",
+          "type": "BACKGROUND",
+          "citation": "Cummings JL, Mega M, Gray K, Rosenberg-Thompson S, Carusi DA, Gornbein J. The Neuropsychiatric Inventory: comprehensive assessment of psychopathology in dementia. Neurology. 1994 Dec;44(12):2308-14. doi: 10.1212/wnl.44.12.2308."
+        },
+        {
+          "pmid": "7183759",
+          "type": "BACKGROUND",
+          "citation": "Yesavage JA, Brink TL, Rose TL, Lum O, Huang V, Adey M, Leirer VO. Development and validation of a geriatric depression screening scale: a preliminary report. J Psychiatr Res. 1982-1983;17(1):37-49. doi: 10.1016/0022-3956(82)90033-4."
+        },
+        {
+          "pmid": "26646114",
+          "type": "BACKGROUND",
+          "citation": "Panchal H, Paholpak P, Lee G, Carr A, Barsuglia JP, Mather M, Jimenez E, Mendez MF. Neuropsychological and Neuroanatomical Correlates of the Social Norms Questionnaire in Frontotemporal Dementia Versus Alzheimer's Disease. Am J Alzheimers Dis Other Demen. 2016 Jun;31(4):326-32. doi: 10.1177/1533317515617722. Epub 2015 Dec 8."
+        },
+        {
+          "pmid": "15817019",
+          "type": "BACKGROUND",
+          "citation": "Nasreddine ZS, Phillips NA, Bedirian V, Charbonneau S, Whitehead V, Collin I, Cummings JL, Chertkow H. The Montreal Cognitive Assessment, MoCA: a brief screening tool for mild cognitive impairment. J Am Geriatr Soc. 2005 Apr;53(4):695-9. doi: 10.1111/j.1532-5415.2005.53221.x."
+        },
+        {
+          "pmid": "26485498",
+          "type": "BACKGROUND",
+          "citation": "Monsell SE, Dodge HH, Zhou XH, Bu Y, Besser LM, Mock C, Hawes SE, Kukull WA, Weintraub S; Neuropsychology Work Group Advisory to the Clinical Task Force. Results From the NACC Uniform Data Set Neuropsychological Battery Crosswalk Study. Alzheimer Dis Assoc Disord. 2016 Apr-Jun;30(2):134-9. doi: 10.1097/WAD.0000000000000111."
+        },
+        {
+          "pmid": "2522518",
+          "type": "BACKGROUND",
+          "citation": "McKoon G, Ratcliff R. Semantic associations and elaborative inference. J Exp Psychol Learn Mem Cogn. 1989 Mar;15(2):326-38. doi: 10.1037//0278-7393.15.2.326."
+        },
+        {
+          "pmid": "19700669",
+          "type": "BACKGROUND",
+          "citation": "Weintraub S, Mesulam MM, Wieneke C, Rademaker A, Rogalski EJ, Thompson CK. The northwestern anagram test: measuring sentence production in primary progressive aphasia. Am J Alzheimers Dis Other Demen. 2009 Oct-Nov;24(5):408-16. doi: 10.1177/1533317509343104. Epub 2009 Aug 21."
+        },
+        {
+          "pmid": "26412922",
+          "type": "BACKGROUND",
+          "citation": "Lee J, Thompson CK. Phonological facilitation effects on naming latencies and viewing times during noun and verb naming in agrammatic and anomic aphasia. Aphasiology. 2015;29(10):1164-1188. doi: 10.1080/02687038.2015.1035225."
+        },
+        {
+          "pmid": "6496779",
+          "type": "BACKGROUND",
+          "citation": "Rosen WG, Mohs RC, Davis KL. A new rating scale for Alzheimer's disease. Am J Psychiatry. 1984 Nov;141(11):1356-64. doi: 10.1176/ajp.141.11.1356."
+        },
+        {
+          "pmid": "1202204",
+          "type": "BACKGROUND",
+          "citation": "Folstein MF, Folstein SE, McHugh PR. \"Mini-mental state\". A practical method for grading the cognitive state of patients for the clinician. J Psychiatr Res. 1975 Nov;12(3):189-98. doi: 10.1016/0022-3956(75)90026-6. No abstract available."
+        },
+        {
+          "pmid": "29355911",
+          "type": "BACKGROUND",
+          "citation": "Possin KL, Moskowitz T, Erlhoff SJ, Rogers KM, Johnson ET, Steele NZR, Higgins JJ, Stiver J, Alioto AG, Farias ST, Miller BL, Rankin KP. The Brain Health Assessment for Detecting and Diagnosing Neurocognitive Disorders. J Am Geriatr Soc. 2018 Jan;66(1):150-156. doi: 10.1111/jgs.15208."
+        },
+        {
+          "pmid": "26368321",
+          "type": "BACKGROUND",
+          "citation": "Duits FH, Martinez-Lage P, Paquet C, Engelborghs S, Lleo A, Hausner L, Molinuevo JL, Stomrud E, Farotti L, Ramakers IHGB, Tsolaki M, Skarsgard C, Astrand R, Wallin A, Vyhnalek M, Holmber-Clausen M, Forlenza OV, Ghezzi L, Ingelsson M, Hoff EI, Roks G, de Mendonca A, Papma JM, Izagirre A, Taga M, Struyfs H, Alcolea DA, Frolich L, Balasa M, Minthon L, Twisk JWR, Persson S, Zetterberg H, van der Flier WM, Teunissen CE, Scheltens P, Blennow K. Performance and complications of lumbar puncture in memory clinics: Results of the multicenter lumbar puncture feasibility study. Alzheimers Dement. 2016 Feb;12(2):154-163. doi: 10.1016/j.jalz.2015.08.003. Epub 2015 Sep 11."
+        },
+        {
+          "pmid": "28603768",
+          "type": "BACKGROUND",
+          "citation": "Engelborghs S, Niemantsverdriet E, Struyfs H, Blennow K, Brouns R, Comabella M, Dujmovic I, van der Flier W, Frolich L, Galimberti D, Gnanapavan S, Hemmer B, Hoff E, Hort J, Iacobaeus E, Ingelsson M, Jan de Jong F, Jonsson M, Khalil M, Kuhle J, Lleo A, de Mendonca A, Molinuevo JL, Nagels G, Paquet C, Parnetti L, Roks G, Rosa-Neto P, Scheltens P, Skarsgard C, Stomrud E, Tumani H, Visser PJ, Wallin A, Winblad B, Zetterberg H, Duits F, Teunissen CE. Consensus guidelines for lumbar puncture in patients with neurological diseases. Alzheimers Dement (Amst). 2017 May 18;8:111-126. doi: 10.1016/j.dadm.2017.04.007. eCollection 2017."
+        },
+        {
+          "pmid": "28787712",
+          "type": "BACKGROUND",
+          "citation": "Pontecorvo MJ, Siderowf A, Dubois B, Doraiswamy PM, Frisoni GB, Grundman M, Nobili F, Sadowsky CH, Salloway S, Arora AK, Chevrette A, Deberdt W, Dell'Agnello G, Flitter M, Galante N, Lowrey MJ, Lu M, McGeehan A, Devous MD Sr, Mintun MA. Effectiveness of Florbetapir PET Imaging in Changing Patient Management. Dement Geriatr Cogn Disord. 2017;44(3-4):129-143. doi: 10.1159/000478007. Epub 2017 Aug 5."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Study data will be shared broadly through the Laboratory of NeuroImaging (LONI), with aggregate data sharing through the Global Alzheimer's Association Interactive Network (GAAIN). MRI and PET data will also be available for download from the LEADS Image and Data Archive (IDA) website. Genetics, genomics, and related data will be shared with other researchers pursuant to the NIA Genetics Sharing Policy. National Institute on Aging Genetics of Alzheimer's Disease Data Storage Site, with other NIA-approved sites, will make genetic, genomic and related data and associated phenotypic data available to qualified investigators for secondary analysis in accordance with standards established by NIA.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ICF"
+      ],
+      "url": "http://www.loni.usc.edu"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2024-05-23",
+          "uploadDate": "2024-07-10T17:14",
+          "filename": "Prot_003.pdf",
+          "size": 1233978
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        },
+        {
+          "id": "D058225",
+          "term": "Plaque, Amyloid"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D020774",
+          "term": "Pick Disease of the Brain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D057180",
+          "term": "Frontotemporal Dementia"
+        },
+        {
+          "id": "D057174",
+          "term": "Frontotemporal Lobar Degeneration"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591008",
+          "term": "7-(6-fluoropyridin-3-yl)-5H-pyrido(4,3-b)indole"
+        },
+        {
+          "id": "C527756",
+          "term": "4-(N-methylamino)-4'-(2-(2-(2-fluoroethoxy)ethoxy)ethoxy)stilbene"
+        },
+        {
+          "id": "D019788",
+          "term": "Fluorodeoxyglucose F18"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003847",
+          "term": "Deoxyglucose"
+        },
+        {
+          "id": "D003837",
+          "term": "Deoxy Sugars"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

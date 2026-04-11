@@ -1,0 +1,110 @@
+{
+  "request_id": "ad-plasma-metabolomics-validation-200n",
+  "request_path": "/Users/kamilseghrouchni/Desktop/side-projects/vcro-v2/store/queries/2026-04-06_ad-plasma-metabolomics/request.json",
+  "wiki_scanned_at": "2026-04-06T00:00:00Z",
+  "wiki_entity_count": 31,
+  "filter_applied": {
+    "indication_match": ["Alzheimer's disease", "AD", "Alzheimer disease"],
+    "modality_match": ["plasma", "metabolomics", "lipidomics", "untargeted metabolomics", "targeted metabolomics", "LC-MS metabolomics", "NMR metabolomics"],
+    "longitudinal_required": true,
+    "min_n_usable": 200,
+    "commercial_use_required": true,
+    "disease_area_or_modality": false
+  },
+  "candidates": [
+    {
+      "entity_id": "adni-go2-plasma-lipidomics",
+      "type": "cohort",
+      "match_strength": "strong",
+      "match_reasons": [
+        "indication match: Alzheimer's disease",
+        "modality match: plasma lipidomics (Baker Institute LC-MS/MS QqQ, 781 species)",
+        "longitudinal: yes — up to 10 years, most participants at 3 timepoints (baseline, 12 m, 24 m)",
+        "n_usable >= 200: 1517 participants, 4730 samples; AD vs CN discriminator N=580, MCI-converter N=329",
+        "statin confounders documented and controlled as covariate (423 species mapped, excluded from modelling)"
+      ],
+      "disqualifiers": [],
+      "soft_concerns": [
+        "commercial_use unspecified: ADNI LONI DUA does not explicitly permit commercial research; ADMC lipidomics layer may require a separate agreement with Duke University / Baker Institute — must verify before committing",
+        "scoring.quality.confidence: medium — provenance_depth 0.48 (single source PMC12269576)",
+        "targeted lipidomics only (781 species, LC-MS/MS dMRM) — not untargeted metabolomics; buyer should confirm if targeted lipid panel meets their validation scope",
+        "APOE e4 enriched by design; model coefficients may not generalise to unselected clinic populations",
+        "deDE lipid class (highest AD association) excluded due to anticholinesterase confounding — buyer must address this in target cohort"
+      ],
+      "card": {
+        "primary_signal": "4730 plasma samples from 1517 ADNI-1/GO/2 participants profiled with Baker Institute targeted LC-MS/MS (781 species); AD vs CN AUC 0.84; MCI-to-AD conversion AUC 0.70 at baseline, validated in ASPREE (n=3495, C-index 0.75).",
+        "action": "Request data access via ida.loni.usc.edu and verify whether ADMC lipidomics layer requires a separate agreement with Duke University / Baker Institute.",
+        "risk": "ADNI DUA commercial use terms are unspecified; the ADMC lipidomics layer may require a separate request to the ADMC/Duke University team beyond the standard LONI DUA."
+      },
+      "provenance_depth": 0.48,
+      "linked_institutions": ["usc-loni-data-coordinating-center", "alzheimers-disease-metabolomics-consortium", "baker-heart-diabetes-institute"],
+      "linked_investigators": ["michael-weiner-ucsf", "peter-meikle-baker-institute", "rima-kaddurah-daouk-duke", "andrew-saykin-indiana", "gabi-kastenmuller-helmholtz-munich", "wang-tingting-baker-institute"]
+    },
+    {
+      "entity_id": "aspree-dementia-casecohort-lipidomics",
+      "type": "cohort",
+      "match_strength": "partial",
+      "match_reasons": [
+        "indication match: Alzheimer's disease / dementia",
+        "modality match: plasma lipidomics (Baker Institute Agilent 6495C, 781 species, same platform as ADNI)",
+        "longitudinal: yes — 6.5-year prospective follow-up for incident dementia",
+        "n_usable >= 200: 402 incident dementia cases (3495 total sub-cohort)"
+      ],
+      "disqualifiers": [],
+      "soft_concerns": [
+        "commercial_use unspecified: access is PI-request-only (Paul Lacaze, Monash); no formal portal; ethics approval through Alfred Hospital does not address commercial use — must verify",
+        "statin confounders: not documented in wiki entity (dimension not covered); entity depth=0.14 — statin status in ASPREE sub-cohort is unknown",
+        "scoring.quality.confidence: low — provenance_depth 0.14 (minimal coverage, single source PMC12269576 fragment)",
+        "PI-request-only access: no predictable timeline (estimated 3–12 months); sample depletion status unknown",
+        "case-enriched sub-cohort (n=402 of 19,114): population weights needed for any incidence rate estimation; European-descent-only restriction limits diversity generalisability",
+        "targeted lipidomics only — same platform constraint as ADNI; buyer must confirm targeted panel meets validation scope"
+      ],
+      "card": {
+        "primary_signal": "402 incident dementia cases (6.5-year prospective follow-up) from a population-based Australian RCT (ASPREE); lipidomics on Baker Institute Agilent 6495C (781 species, same platform as ADNI); PI-request-only access.",
+        "action": "Contact Paul Lacaze at Monash University upon reasonable request; budget 3–12 months and assume academic-only consent until confirmed.",
+        "risk": "No formal data access portal — access depends entirely on PI willingness (Lacaze/McNeil team at Monash). Commercial use terms are unspecified. Sample depletion status unknown."
+      },
+      "provenance_depth": 0.14,
+      "linked_institutions": ["alfred-hospital-monash-university", "baker-heart-diabetes-institute"],
+      "linked_investigators": ["paul-lacaze-monash", "peter-meikle-baker-institute"]
+    }
+  ],
+  "rejected": [
+    {
+      "entity_id": "adni-phase1-serum-lipidomics",
+      "reason": "Fails two hard filters: (1) modality is serum, not plasma — the request explicitly requires plasma; (2) longitudinal_required=true but serum lipidomics in this cohort is cross-sectional (baseline only) — only the paired MRI is longitudinal. N=313 passes the min threshold but the modality and longitudinal constraints are not met."
+    },
+    {
+      "entity_id": "university-of-michigan-als-microbiome-metabolomics",
+      "reason": "Indication mismatch: amyotrophic lateral sclerosis, not Alzheimer's disease. Eliminated at index-level filter."
+    }
+  ],
+  "gaps": [
+    {
+      "type": "commercial_use_unverified",
+      "field": "commercial_use",
+      "detail": "Neither surviving candidate has explicit commercial-use clearance documented in the wiki. ADNI (strong match) has an unspecified DUA with known academic-bias history; ASPREE (partial match) is PI-request-only with no stated licensing terms. The orchestrator should flag this as a pre-commitment blocker and recommend the buyer verify DUA terms before signing any project agreement."
+    },
+    {
+      "type": "modality_gap",
+      "field": "modality.targeted_vs_untargeted",
+      "detail": "Both surviving candidates use targeted lipidomics (LC-MS/MS QqQ or UHPLC-QTOF, 781 and 724 species respectively), not broad untargeted metabolomics. If the buyer requires untargeted metabolomics (e.g. amino acids, organic acids, TCA intermediates beyond lipids), neither cohort satisfies the scope. The request did not specify targeted vs untargeted — buyer should confirm."
+    },
+    {
+      "type": "thin_wiki_coverage",
+      "detail": "Only 4 cohort entities exist in the wiki; 3 are AD-indication, 2 survive hard filters. The request space (longitudinal plasma metabolomics in AD, n>=200) is much larger than the current wiki can answer. Recommend orchestrator evaluates whether to trigger ingest for additional AD plasma metabolomics papers (suggested PubMed query: 'Alzheimer disease plasma metabolomics longitudinal biomarker validation')."
+    },
+    {
+      "type": "statin_confounding_undocumented",
+      "field": "statin_confounded",
+      "detail": "ASPREE partial candidate has no medication_and_lifestyle_confounders dimension covered (provenance_depth 0.14). Statin prevalence in an elderly Australian RCT population is likely high but is not documented in the wiki entity. This is a soft concern, not a disqualifier, but the buyer's explicit statin concern warrants surfacing."
+    },
+    {
+      "type": "mci_adjacent_cohorts_excluded",
+      "field": "indication",
+      "detail": "The request did not mention MCI or prodromal AD. Both ADNI cohorts enroll MCI participants co-enrolled with AD — the buyer should confirm whether MCI-to-AD conversion sub-cohorts within ADNI are acceptable, as they expand the usable analytical N and enable conversion prediction modelling."
+    }
+  ],
+  "verdict": "wiki_partial",
+  "verdict_reason": "1 strong candidate (adni-go2-plasma-lipidomics) and 1 partial candidate (aspree-dementia-casecohort-lipidomics) survive hard filters; the strong match is well-evidenced but has unresolved commercial-use and modality-scope gaps; wiki coverage is thin (4 total cohort entities) and targeted lipidomics is the only available modality — orchestrator should decide whether to proceed with the 2 matches or trigger ingest for broader AD plasma metabolomics coverage."
+}

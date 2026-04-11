@@ -1,0 +1,107 @@
+{
+  "request_id": "ad-plasma-metabolomics-biomarker-validation",
+  "request_path": "store/queries/2026-04-07_bounty-test/request.json",
+  "wiki_scanned_at": "2026-04-07T00:00:00Z",
+  "wiki_entity_count": 218,
+  "filter_applied": {
+    "indication_match": ["Alzheimer's disease", "AD", "mild cognitive impairment", "MCI"],
+    "modality_match": ["plasma", "serum", "metabolomics", "lipidomics", "untargeted metabolomics", "targeted metabolomics", "LC-MS/MS", "NMR metabolomics"],
+    "longitudinal_required": true,
+    "min_n_usable": 200,
+    "commercial_use_required": false,
+    "disease_area_or_modality": false
+  },
+  "candidates": [
+    {
+      "entity_id": "adni-go2-plasma-lipidomics",
+      "type": "cohort",
+      "match_strength": "strong",
+      "match_reasons": [
+        "indication match: Alzheimer's disease (primary)",
+        "modality match: plasma lipidomics (LC-MS/MS QqQ, 781 species)",
+        "longitudinal: yes — 6-12 month intervals, up to 10 years, most participants have 3 timepoints (baseline/12mo/24mo)",
+        "n usable >= 200 — headline 1517 participants / 4730 samples; AD sub-group 580 (stable AD + CN); longitudinal arm n=1393 at baseline"
+      ],
+      "disqualifiers": [],
+      "soft_concerns": [
+        "statin confounding documented: 423 lipid species significantly associated with statin use (Supp Table S6) — explicit modelling required; buyer must verify statin adjustment approach is acceptable",
+        "ADNI DUA commercial-use terms unspecified — verify before committing",
+        "ADMC lipidomics layer may require a separate agreement beyond the standard LONI DUA",
+        "serum vs plasma label error in Methods section (plasma confirmed elsewhere) — minor but warrants verification"
+      ],
+      "card": {
+        "primary_signal": "4730 plasma samples from 1517 ADNI-1/GO/2 participants profiled with Baker Institute targeted LC-MS/MS (781 species); AD vs CN AUC 0.84; MCI-to-AD conversion AUC 0.70 at baseline, validated in ASPREE (n=3495, C-index 0.75).",
+        "action": "Request data access via ida.loni.usc.edu and verify whether ADMC lipidomics layer requires a separate agreement with Duke University / Baker Institute.",
+        "risk": "ADNI DUA commercial use terms are unspecified; the ADMC lipidomics layer may require a separate request to the ADMC/Duke University team beyond the standard LONI DUA."
+      },
+      "provenance_depth": 0.57,
+      "linked_institutions": ["usc-loni-data-coordinating-center", "alzheimers-disease-metabolomics-consortium", "baker-heart-diabetes-institute"],
+      "linked_investigators": ["michael-weiner-ucsf", "peter-meikle-baker-institute", "rima-kaddurah-daouk-duke"]
+    },
+    {
+      "entity_id": "adni-go2-serum-metabolomics-mxp500",
+      "type": "cohort",
+      "match_strength": "strong",
+      "match_reasons": [
+        "indication match: Alzheimer's disease and mild cognitive impairment",
+        "modality match: targeted metabolomics / serum / LC-MS/MS (Biocrates MXP Quant 500, 506 post-QC metabolites)",
+        "longitudinal: yes — baseline, 12mo, 24mo concentrating ~80% of samples; 10 visit timepoints across 7 years",
+        "n usable >= 200 — 1430 participants / 4063 samples; AD converter arm n=294"
+      ],
+      "disqualifiers": [],
+      "soft_concerns": [
+        "serum matrix (not plasma) — close surrogate but not identical; buyer said 'plasma'; surface explicitly",
+        "statin confounding: 41 baseline and 21 longitudinal medication-metabolite associations identified via Boruta feature selection — documented but not excluded; buyer should verify acceptability",
+        "AD participants exit at 24 months per protocol — no late-stage trajectory data",
+        "MCI converter arm small (n=66) — underpowered for subgroup analyses",
+        "dual DUA process required: AD Knowledge Portal for metabolomics + LONI for clinical data"
+      ],
+      "card": {
+        "primary_signal": "4,063 serum samples from 1,430 ADNI-1/GO/2 participants (up to 10 visits, 7-year span); Biocrates MXP Quant 500 (624 → 506 post-QC metabolites); 311 metabolites associated with AD phenotypes; 128 (41%) persistent; AD converter arm n=294.",
+        "action": "Access metabolomics data at AD Knowledge Portal (doi: 10.7303/9618123) and clinical data at LONI (adni.loni.usc.edu); dual DUA process required; confirm commercial-use terms with LONI and AMP-AD governance.",
+        "risk": "AD participants dropped out after 24 months per protocol — no late-stage trajectory data; MCI-converter arm small (n=66); all replication is internal (no external cohort)."
+      },
+      "provenance_depth": 0.62,
+      "linked_institutions": ["usc-loni-data-coordinating-center", "alzheimers-disease-metabolomics-consortium", "helmholtz-zentrum-munchen"],
+      "linked_investigators": ["rima-kaddurah-daouk-duke", "gabi-kastenmuller-helmholtz-munich"]
+    }
+  ],
+  "rejected": [
+    {
+      "entity_id": "adni-phase1-serum-lipidomics",
+      "reason": "Serum matrix, n=313 — too small for 200-sample longitudinal AD request without clear statin adjustment documentation at the required depth."
+    },
+    {
+      "entity_id": "adni-bile-acid-serum-biocrates-1464",
+      "reason": "Bile acid panel only — not a broad metabolomics platform as implied by request; not longitudinal by design."
+    },
+    {
+      "entity_id": "adni1-serum-metabolomics-biocrates-p180",
+      "reason": "Baseline only (n=767 serum), not longitudinal; p180 panel superseded by MXP500 in scope."
+    },
+    {
+      "entity_id": "blsa-serum-metabolomics-preclinical-ad",
+      "reason": "Pre-clinical AD converters only; n not confirmed >= 200 for longitudinal AD arm; serum matrix."
+    },
+    {
+      "entity_id": "ages-reykjavik-serum-metabolomics-ad",
+      "reason": "n=200 at boundary, serum not plasma, single timepoint structure — fails longitudinal requirement."
+    }
+  ],
+  "gaps": [
+    {
+      "type": "thin_coverage",
+      "detail": "Statin adjustment status for adni-go2-serum-metabolomics-mxp500 is documented via Boruta modelling but the buyer's hard negative ('statin_confounded samples not acceptable') requires confirming whether the published dataset offers a statin-adjusted version or whether buyers must apply the adjustment themselves."
+    },
+    {
+      "type": "thin_coverage",
+      "detail": "Neither candidate explicitly states whether the data download includes a statin-exclusion or statin-covariate flag in the metadata file — buyer may need to request a custom extract."
+    },
+    {
+      "type": "hard_negative_unaddressed",
+      "detail": "adni-go2-plasma-lipidomics documents statin confounding affecting 423 lipid species but does not provide a clean statin-naive subset; buyer should confirm acceptability of statin-adjusted (rather than statin-excluded) data."
+    }
+  ],
+  "verdict": "wiki_partial",
+  "verdict_reason": "Two strong AD longitudinal metabolomics candidates exist (adni-go2-plasma-lipidomics depth=0.57, adni-go2-serum-metabolomics-mxp500 depth=0.62), both exceeding n=200 and confirmed longitudinal, but the statin hard negative is addressed only through statistical modelling rather than sample exclusion — buyer must confirm acceptability before proceeding."
+}

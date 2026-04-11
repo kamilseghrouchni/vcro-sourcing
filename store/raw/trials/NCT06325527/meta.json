@@ -1,0 +1,130 @@
+{
+  "nct_id": "NCT06325527",
+  "title": "Shanghai Cognitive Impairment Study of the Elderly Population: YuGarden Cohort",
+  "brief_title": "Cognitive Impairment Cohort Study of the Elderly Population in YuGarden",
+  "status": "NOT_YET_RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 1872,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Alzheimer Disease",
+    "Neurodegenerative Diseases",
+    "Cognitive Impairment",
+    "Mild Cognitive Impairment"
+  ],
+  "keywords": [
+    "Alzheimer Disease",
+    "Mild Cognitive Impairment",
+    "Cohort"
+  ],
+  "sponsor": "Ruijin Hospital",
+  "sponsor_class": "OTHER",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2024-04-01",
+  "completion_date": "2031-06-01",
+  "primary_completion_date": "2031-04-01",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "peripheral blood, urine, feces, gingival crevicular fluid",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Ruijin Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+      "city": "Shanghai",
+      "state": "Shanghai Municipality",
+      "country": "China",
+      "status": ""
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\n1. The participants are community-dwelling elderly people living in Yuyuan community, Shanghai, aged 60-85 years old, with no gender restriction.\n2. Non-AD patients.\n3. The participants can complete the cognitive tests, biological sample collection, speech tests, neuroimaging examinations, and cooperate with the implementation of the whole process of research.\n4. The participants agree to participate in this study and sign the informed consent form.\n\nExclusion Criteria:\n\n1. Participants who are suffering from severe mental illness, tumor cachexia, severe liver and kidney dysfunction and other serious physical diseases and unable to cooperate with the examination.\n2. Participants who have visual or auditory impairment that hampers the completion of related examination.\n3. Situations when magnetic resonance imaging or other examinations are contraindicated.",
+  "eligibility_min_age": "60 Years",
+  "eligibility_max_age": "85 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Incidence of cognitive impairment",
+      "description": "Number of participants who covert to mild cognitive impairment (MCI) or AD will be recorded to calculate the incidence.",
+      "timeFrame": "8 years"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "The change of Mini-Mental State Examination (MMSE)",
+      "description": "MMSE is a 30-point questionnaire used to measure cognitive function (orientation, registration, attention, calculation, recall, language, repetition, complex commands). Total score ranges from 0 to 30; lower score indicates greater disease severity.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of Barthel Index for Activities of Daily Living (ADL)",
+      "description": "The Barthel Index for Activities of Daily Living is an ordinal scale which measures a person's ability to complete activities of daily living (ADL). The Barthel Index measures the degree of assistance required by an individual on ten mobility and self-care ADL items. The ten items are scored with a number of points, and then a final score is calculated by summing the points awarded to each functional skill.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of blood biomarkers",
+      "description": "p-tau 181, p-tau 217, pE-Aβ3-42, Aβ40, Aβ42, GFAP and NFL will be detected.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of urine biomarkers",
+      "description": "The metabolomic markers in urine will be detected by mass spectrum analysis.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of feces biomarkers",
+      "description": "The metabolomic markers in feces will be detected by mass spectrum analysis.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of gingival crevicular fluid biomarkers",
+      "description": "The metabolomic profiles of gingival crevicular fluid will be detected by mass spectrum analysis.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of electroencephalogram (EEG)",
+      "description": "Electroencephalogram (EEG) is used to measure electrical activity in the brain using small, metal discs (electrodes) attached to the scalp. Recorded frequencies include alpha, beta, delta and theta band power. The EEG signatures of people with cognitive impairment will be further analyzed, and its longitudinal changes will be observed.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of speech information",
+      "description": "Voice data collection: Use a voice recorder to collect the patient's description of \"stealing biscuit map\" language, and save it in SWV format. And the self-developed ASR speech analysis software (China software copyright number: 2016RS164680) will be used for speech analysis.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of structural MRI",
+      "description": "Structural MRI data will be acquired and analyzed through high-resolution T1-weighted MRI and diffusion tensor imaging (DTI).",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of functional MRI",
+      "description": "Functional MRI data will be acquired and analyzed through blood oxygenation level dependent (BOLD) imaging.",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of magnetic susceptibility",
+      "description": "Magnetic susceptibility data will be acquired and analyzed through quantitative susceptibility mapping (QSM).",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "The change of perfusion MR imaging",
+      "description": "Perfusion imaging data will be acquired and analyzed through arterial spin labeling (ASL).",
+      "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+    },
+    {
+      "measure": "Positron emission tomography (PET)",
+      "description": "PET including FDG-PET, Aβ-PET, Tau-PET will be used to detect brain β-amyloid and tau burden.",
+      "timeFrame": "baseline"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "The goal of this prospective observational research with an 8-year follow-up is to study the cognitive changes in the elderly in YuGarden community, Shanghai, China.\n\nThe main questions it aims to answer are:\n\n* incidence of cognitive impairment in community (converting to mild cognitive impairment or Alzheimer's disease)\n* to build a predictive model for the progression of cognitive impairment",
+  "detailed_description": "This study is a prospective observational study which involves a large sample cohort of the elderly aged 60 to 85 years in YuGarden community, Shanghai, China, with an 8-year follow-up. Demographic information, peripheral organs evaluation (facial expression, hearing, OCT angiography), cognitive tests (MMSE, ADL), biospecimen (peripheral blood, urine, feces, gingival crevicular fluid), speech information, neuroimaging (MRI, PET) and electroencephalogram (EEG) will be collected and analyzed. Follow-up visits will be conducted twice a year for 4 visits and each visit includes cognitive tests, biospecimen collection, speech test, MRI and EEG. The primary outcome is the incidence of cognitive impairment indicating people who convert to mild cognitive impairment (MCI) or Alzheimer's disease (AD). Furthermore, a predictive model for the progression of cognitive impairment will be constructed.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:58.184528+00:00"
+}

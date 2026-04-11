@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT05892952",
+  "title": "IONA Longitudinal Cohort Study",
+  "brief_title": "IONA Longitudinal Cohort Study",
+  "status": "RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 10000,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Alzheimer Disease",
+    "Dementia"
+  ],
+  "keywords": [
+    "cohort study",
+    "Alzheimer Disease",
+    "Dementia"
+  ],
+  "sponsor": "Brain Health Scotland Life Sciences Ltd",
+  "sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2023-12-21",
+  "completion_date": "2033-12-21",
+  "primary_completion_date": "2033-12-21",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "Blood samples, Cerobrospinal Fluid samples",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Scottish Brain Sciences Arran Facility",
+      "city": "Edinburgh",
+      "state": "Lothian",
+      "country": "United Kingdom",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "* Age at least 50 years.\n* Living in Scotland.\n* Able to read and write and with minimum 7 years of formal education.\n* Have a study partner who is aged 18 years or older.\n* Have capacity to provide informed consent at baseline.\n* Able to speak English to a level where the cognitive assessments can be completed.",
+  "eligibility_min_age": "50 Years",
+  "eligibility_max_age": "120 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Change over time on the IONACog (a composite neuropsychological battery)",
+      "description": "",
+      "timeFrame": "10 years"
+    },
+    {
+      "measure": "(Enhanced Phenotype only) Change over time in cerebrospinal fluid amyloid beta-42",
+      "description": "",
+      "timeFrame": "10 years"
+    },
+    {
+      "measure": "(Enhanced Phenotype only) Change over time in cerebrospinal fluid phosphorylated tau 181",
+      "description": "",
+      "timeFrame": "10 years"
+    },
+    {
+      "measure": "(Enhanced Phenotype only) Change over time in cerebrospinal fluid total tau",
+      "description": "",
+      "timeFrame": "10 years"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Change over time in dependency (as measured by the Stern Dependency Scale)",
+      "description": "",
+      "timeFrame": "10 years"
+    },
+    {
+      "measure": "Change over time in caregiver burden (as measured by the Zarit Burden Index)",
+      "description": "",
+      "timeFrame": "10 years"
+    },
+    {
+      "measure": "Change over time in quality of life (as measured by the QoL-AD)",
+      "description": "",
+      "timeFrame": "10 years"
+    },
+    {
+      "measure": "(Enhanced Phenotype only) impact of disclosure of Alzheimer's disease biomarkers as measured by the Impact of Events scale-6.",
+      "description": "",
+      "timeFrame": "10 years"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "Understanding more about how diseases that cause dementia develop is critical as the number of people living with, or affected by, dementia in Scotland continues to grow. The IONA Longitudinal Cohort Study (LCS) has been set up to gather information about people's cognitive health (their memory and thinking abilities), their lifestyle and health risk factors for future dementia (such as hearing loss and obesity), genetics and disease biomarkers, over a number of years. The IONA LCS has three main objectives: Firstly to develop this cohort that is well characterised (also known as being \"well-phenotyped\") that represent the Scottish population (taking into consideration age, sex, ethnicity and education). The second objective is to use this data to build disease models to better understand trajectories of diseases, and identify any sub-populations who have different (i.e. better, worse) disease trajectories. Finally the third objective for IONA LCS is to offer people an optional consent to hear about future studies they may be interested in taking part in.",
+  "detailed_description": "IThe IONA Longitudinal Cohort Study (LCS) will provide a well-phenotyped (combining data on risk factors for dementia, cognitive assessment results, disease biomarkers and genetics) population representative of the Scottish population aged 50 and above across the spectrum of risk for, and the earliest disease stages of, AD dementia and other neurodegenerative conditions. Recent therapeutic successes in the treatment of Mild Cognitive Impairment (MCI) due to Alzheimer's disease (AD) and mild AD, as well as progressions in diagnostic tools such as blood-based biomarkers, has energised the field to develop more specific diagnostics and therapies following the best principles of precision medicine. Large, 'real world' cohorts are needed to understand whether these, and other future breakthroughs, are valid in real world populations away from highly selective clinical trials. Precision medicine requires identification of disease sub-populations who share similar diagnostic profiles that reflect similar disease mechanisms and hence are likely to respond consistently to specific therapeutic interventions. This will require detailed clinical, genetic and biological phenotyping. IONA LCS will recruit uniquely in Scotland and will ensure that a large, diverse, real-world population will be available to drive developments globally of more accurate diagnostics and accelerate the development of new disease modifying therapies.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:57.934864+00:00"
+}

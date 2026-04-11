@@ -1,0 +1,59 @@
+{
+  "request_id": "ad-plasma-metabolomics-biomarker-validation",
+  "original_text": "I need 200 longitudinal plasma samples from Alzheimer's disease patients for a metabolomics biomarker validation study. Budget: EUR 50,000 total. Timeline: 6 months from contract signature to data delivery. Statin-confounded samples are not acceptable.",
+  "received_at": "2026-04-07T00:00:00Z",
+  "indication": ["Alzheimer's disease"],
+  "indication_inferred": false,
+  "modality": ["plasma", "metabolomics"],
+  "modality_inferred": false,
+  "use_case_type": "biomarker_validation",
+  "use_case_inferred": false,
+  "n_target": 200,
+  "n_target_inferred": false,
+  "longitudinal_required": true,
+  "longitudinal_inferred": false,
+  "commercial_use": false,
+  "commercial_use_inferred": true,
+  "budget": {
+    "amount": 50000,
+    "currency": "EUR"
+  },
+  "timeline": "6 months from contract signature to data delivery",
+  "hard_negatives": [
+    "n_total_less_than_30",
+    "statin_confounded"
+  ],
+  "required_fields": [
+    "endpoints",
+    "n_total",
+    "sample_types"
+  ],
+  "nice_to_have_fields": [
+    "longitudinal",
+    "co_modalities",
+    "apoe_stratification"
+  ],
+  "scope_notes": "Buyer needs at least 200 longitudinal plasma samples from AD patients for a metabolomics biomarker validation study with a EUR 50K all-in budget and 6-month delivery deadline; statin confounding is a hard exclusion, not a soft concern.",
+  "gaps": [
+    {
+      "field": "commercial_use",
+      "reason": "Buyer did not state commercial vs academic use; inferred non-commercial based on absence of pharma/biotech framing — discover should flag cohorts with ambiguous commercial use clauses."
+    },
+    {
+      "field": "modality_specificity",
+      "reason": "Buyer said 'metabolomics' without specifying targeted vs untargeted or a specific platform — both lipidomics and broad metabolomics panels are in scope."
+    },
+    {
+      "field": "sample_type_matrix",
+      "reason": "Buyer said 'plasma' but ADNI longitudinal metabolomics includes both plasma lipidomics and serum metabolomics cohorts — serum is a close surrogate but not identical; surface both and let buyer choose."
+    }
+  ],
+  "filter_for_discover": {
+    "indication_match": ["Alzheimer's disease", "AD", "mild cognitive impairment", "MCI"],
+    "modality_match": ["plasma", "serum", "metabolomics", "lipidomics", "untargeted metabolomics", "targeted metabolomics", "LC-MS/MS", "NMR metabolomics"],
+    "longitudinal_required": true,
+    "min_n_usable": 200,
+    "commercial_use_required": false,
+    "disease_area_or_modality": false
+  }
+}

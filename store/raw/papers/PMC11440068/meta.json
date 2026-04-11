@@ -1,0 +1,199 @@
+{
+  "pmid": "39241776",
+  "pmc": "PMC11440068",
+  "doi": "10.1016/j.crmeth.2024.100846",
+  "title": "Profiling migration of human monocytes in response to chemotactic and barotactic guidance cues",
+  "journal": "Cell Reports Methods",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Hall Clare K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Barr Olivia M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Delamare Antoine",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burkholder Alex",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tsai Alice",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tian Yuyao",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Felix E. Ellett",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Li Brent M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Tanzi Rudolph E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jorfi Mehdi",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "cell migration",
+    "peripheral immune cells",
+    "microfluidic",
+    "monocytes",
+    "chemotaxis"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data and code availability •The authors declare that all data supporting the findings of this study are available within the paper.•This paper does not report original code.•Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.",
+  "license": "",
+  "received": "2024-02-16",
+  "accepted": "2024-08-09",
+  "reference_pmids": [
+    "21984070",
+    "33446416",
+    "15366706",
+    "33990789",
+    "32780802",
+    "26056232",
+    "25878730",
+    "25852821",
+    "19531531",
+    "20703784",
+    "22708967",
+    "26527183",
+    "36703235",
+    "37231108",
+    "27988845",
+    "29606295",
+    "25216636",
+    "31921102",
+    "21654748",
+    "24655300",
+    "16491140",
+    "14525967",
+    "23365075",
+    "12714572",
+    "16361589",
+    "20138983",
+    "11958825",
+    "30782788",
+    "34160128",
+    "37620442",
+    "28572801",
+    "26332465",
+    "33687725",
+    "31611249",
+    "26633290",
+    "28228272",
+    "28228281",
+    "33150139",
+    "32155438",
+    "32690238",
+    "33509688",
+    "37188691",
+    "24324148",
+    "32855311",
+    "32404937",
+    "31355337",
+    "30982662",
+    "30283724",
+    "25183261",
+    "32005854",
+    "34233910",
+    "25653427",
+    "27354413",
+    "31346169",
+    "27194799",
+    "24560508",
+    "29352259",
+    "27965260",
+    "29861387",
+    "18523269",
+    "25027966",
+    "9558092",
+    "27122054",
+    "25756873",
+    "32005854",
+    "28241321",
+    "36031406",
+    "11751911",
+    "38909022",
+    "34911025",
+    "8877404",
+    "28619036"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "development of the map chip",
+    "human monocytes maintain ccl2 chemotaxis regardless of donor age",
+    "ifn-γ (but not gm-csf) stimulation impairs ccl2 and ccl5 chemotaxis of human monocytes",
+    "biased migration of monocytes toward low hydraulic resistance regardless of donor age",
+    "gm-csf- and ifn-γ-stimulated monocytes maintain migration bias toward low-hydraulic-resistance paths",
+    "hydraulic resistance, not spatial confinement, defines the human monocyte migration path",
+    "human monocytes navigate effectively through complex chemotactic paths",
+    "ifn-γ stimulation impairs monocyte ability to navigate through complex chemotactic paths",
+    "chemokine receptor ccr2 is altered by donor age and proinflammatory cytokine stimulation",
+    "discussion",
+    "limitations of the study",
+    "resource availability",
+    "lead contact",
+    "materials availability",
+    "data and code availability",
+    "acknowledgments",
+    "author contributions",
+    "declaration of interests",
+    "star★methods",
+    "key resources table",
+    "experimental model and study participant details",
+    "design and fabrication of map chips",
+    "study participant information",
+    "method details",
+    "priming of map chips",
+    "modeling ccl2 concentration stability",
+    "monocyte isolation and loading into map chips",
+    "image processing",
+    "flow cytometry of ccr2 and ccr5 receptors",
+    "stimulation of monocytes with gm-csf or m-csf",
+    "quantification and statistical analysis",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14299,
+  "converted_at": "2026-04-06T22:36:26.101365+00:00"
+}

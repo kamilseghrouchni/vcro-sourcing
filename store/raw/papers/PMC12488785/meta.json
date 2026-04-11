@@ -1,0 +1,188 @@
+{
+  "pmid": "40504302",
+  "pmc": "PMC12488785",
+  "doi": "10.1007/s10072-025-08267-8",
+  "title": "Cerebrospinal fluid metabolomics reveals predictive biomarkers of nusinersen therapy efficacy in type II and type III spinal muscular atrophy patients",
+  "journal": "Neurological Sciences",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Li Dan",
+      "affiliations": [
+        "https://ror.org/03aq7kf18grid.452672.00000 0004 1757 5804Department of Pediatrics, the Second Affiliated Hospital of Xi’an Jiaotong University, No.157 Xiwu road, Xi’an, 710004 Shaanxi province China"
+      ]
+    },
+    {
+      "name": "Sun Na",
+      "affiliations": [
+        "https://ror.org/03aq7kf18grid.452672.00000 0004 1757 5804Department of Pediatrics, the Second Affiliated Hospital of Xi’an Jiaotong University, No.157 Xiwu road, Xi’an, 710004 Shaanxi province China"
+      ]
+    },
+    {
+      "name": "Wu Hongbo",
+      "affiliations": [
+        "https://ror.org/03aq7kf18grid.452672.00000 0004 1757 5804Department of Pediatrics, the Second Affiliated Hospital of Xi’an Jiaotong University, No.157 Xiwu road, Xi’an, 710004 Shaanxi province China"
+      ]
+    },
+    {
+      "name": "Wang Xueying",
+      "affiliations": [
+        "https://ror.org/03aq7kf18grid.452672.00000 0004 1757 5804Department of Pediatrics, the Second Affiliated Hospital of Xi’an Jiaotong University, No.157 Xiwu road, Xi’an, 710004 Shaanxi province China"
+      ]
+    },
+    {
+      "name": "Shi Yongjing",
+      "affiliations": [
+        "https://ror.org/03aq7kf18grid.452672.00000 0004 1757 5804Department of Pediatrics, the Second Affiliated Hospital of Xi’an Jiaotong University, No.157 Xiwu road, Xi’an, 710004 Shaanxi province China"
+      ]
+    },
+    {
+      "name": "Yang Lin",
+      "affiliations": [
+        "https://ror.org/03aq7kf18grid.452672.00000 0004 1757 5804Department of Pediatrics, the Second Affiliated Hospital of Xi’an Jiaotong University, No.157 Xiwu road, Xi’an, 710004 Shaanxi province China"
+      ]
+    },
+    {
+      "name": "Huang Shaoping",
+      "affiliations": [
+        "https://ror.org/03aq7kf18grid.452672.00000 0004 1757 5804Department of Pediatrics, the Second Affiliated Hospital of Xi’an Jiaotong University, No.157 Xiwu road, Xi’an, 710004 Shaanxi province China"
+      ]
+    },
+    {
+      "name": "Zhang Kun",
+      "affiliations": [
+        "https://ror.org/05mrmvf37grid.490168.2Department of Pediatrics, Hanzhong Central Hospital, Hanzhong, Shaanxi China"
+      ]
+    },
+    {
+      "name": "Yang Changhong",
+      "affiliations": [
+        "https://ror.org/03aq7kf18grid.452672.00000 0004 1757 5804Department of Pediatrics, the Second Affiliated Hospital of Xi’an Jiaotong University, No.157 Xiwu road, Xi’an, 710004 Shaanxi province China"
+      ]
+    }
+  ],
+  "keywords": [
+    "Spinal muscular atrophy (SMA)",
+    "Nusinersen",
+    "Cerebrospinal fluid (CSF)",
+    "Metabolomics",
+    "Liquid chromatography-tandem mass spectrometry (LC-MS/MS)"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Key R&D Project of Shaanxi Province2021SF-087YangChanghong"
+  ],
+  "data_availability_text": "Data AvailabilityThe datasets generated during and/or analysed during the current study are not publicly available but are available from the corresponding author on reasonable request.",
+  "license": "",
+  "received": "2025-03-11",
+  "accepted": "2025-05-21",
+  "reference_pmids": [
+    "39457418",
+    "33197628",
+    "33197628",
+    "29290580",
+    "29290580",
+    "28644430",
+    "28644430",
+    "37892834",
+    "37109175",
+    "34645478",
+    "34645478",
+    "25346245",
+    "25346245",
+    "39655308",
+    "39655308",
+    "37103747",
+    "37103747",
+    "38849517",
+    "38615366",
+    "38615366",
+    "32900576",
+    "32900576",
+    "29443664",
+    "29443664",
+    "19440247",
+    "19440247",
+    "38361750",
+    "38361750",
+    "22841830",
+    "22841830",
+    "37381696",
+    "37381696",
+    "29433793",
+    "29433793",
+    "34099377",
+    "34099377",
+    "33307321",
+    "33307321",
+    "35738181",
+    "35738181",
+    "36291640",
+    "12067652",
+    "12067652",
+    "16301532",
+    "16301532",
+    "36768569",
+    "35927425",
+    "35927425",
+    "39904776",
+    "39904776",
+    "26180199",
+    "26180199",
+    "20722972",
+    "20722972",
+    "33841099",
+    "33841099",
+    "39463208",
+    "39463208",
+    "39379509",
+    "39379509",
+    "36859720",
+    "36859720",
+    "33731917",
+    "33731917",
+    "25136293",
+    "25136293",
+    "15655504",
+    "15655504",
+    "19053783",
+    "19053783",
+    "18718965",
+    "18718965",
+    "9885950",
+    "9885950",
+    "30619057",
+    "30619057",
+    "34831185",
+    "24919816",
+    "24919816"
+  ],
+  "tables_count": 1,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "study design, patients, and ethics",
+    "nusinersen therapeutic procedures",
+    "hfmse score",
+    "csf sample preparation and liquid chromatography-tandem mass spectrometry acquisition",
+    "data processing",
+    "statistical data analysis",
+    "results",
+    "clinical characters of participants",
+    "csf metabolic profiling of sma",
+    "enrichment analysis of csf metabolomics",
+    "correlation between csf metabolites and clinical features",
+    "receiver operating characteristic curve (roc) analysis",
+    "discussion",
+    "conclusions",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8336,
+  "converted_at": "2026-04-06T22:37:40.767802+00:00"
+}

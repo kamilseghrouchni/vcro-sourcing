@@ -1,0 +1,194 @@
+{
+  "pmid": "41612503",
+  "pmc": "PMC12924518",
+  "doi": "10.1186/s41232-026-00404-w",
+  "title": "Diagnostic potential of cryptic exon-derived peptides in serum extracellular vesicles for sporadic amyotrophic lateral sclerosis",
+  "journal": "Inflammation and Regeneration",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Takahashi Koki",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Keio University Regenerative Medicine Research Center, Kanagawa, 210-0821 Japan"
+      ]
+    },
+    {
+      "name": "Kato Chris",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Keio University Regenerative Medicine Research Center, Kanagawa, 210-0821 Japan",
+        ""
+      ]
+    },
+    {
+      "name": "Ueda Koji",
+      "affiliations": [
+        "https://ror.org/00bv64a69grid.410807.a0000 0001 0037 4131Cancer Proteomics Group, Cancer Precision Medicine Center, Japanese Foundation for Cancer Research, Tokyo, 135-8550 Japan"
+      ]
+    },
+    {
+      "name": "Nakamura Shiho",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Keio University Regenerative Medicine Research Center, Kanagawa, 210-0821 Japan"
+      ]
+    },
+    {
+      "name": "Ozawa Fumiko",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Keio University Regenerative Medicine Research Center, Kanagawa, 210-0821 Japan"
+      ]
+    },
+    {
+      "name": "Moritoki Nobuko",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Electron Microscope Laboratory, Keio University School of Medicine, Tokyo, 160-0082 Japan"
+      ]
+    },
+    {
+      "name": "Shibata Shinsuke",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Electron Microscope Laboratory, Keio University School of Medicine, Tokyo, 160-0082 Japan",
+        "https://ror.org/04ww21r56grid.260975.f0000 0001 0671 5144Division of Microscopic Anatomy, Graduate School of Medical and Dental Sciences, Niigata University, Niigata, 951-8510 Japan"
+      ]
+    },
+    {
+      "name": "Takahashi Shinichi",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Keio University Regenerative Medicine Research Center, Kanagawa, 210-0821 Japan",
+        "https://ror.org/04zb31v77grid.410802.f0000 0001 2216 2631Department of Neurology and Cerebrovascular Medicine, Saitama Medical University International Medical Center, Saitama, 350-1298 Japan"
+      ]
+    },
+    {
+      "name": "Morimoto Satoru",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Keio University Regenerative Medicine Research Center, Kanagawa, 210-0821 Japan",
+        ""
+      ]
+    },
+    {
+      "name": "Okano Hideyuki",
+      "affiliations": [
+        "https://ror.org/02kn6nx58grid.26091.3c0000 0004 1936 9959Keio University Regenerative Medicine Research Center, Kanagawa, 210-0821 Japan",
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "Sporadic amyotrophic lateral sclerosis",
+    "Cryptic exon",
+    "TDP-43",
+    "Cryptic peptide",
+    "Biomarker",
+    "Proteomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/501100001691Japan Society for the Promotion of ScienceJP21H05278JP22K15736JP25H00007MorimotoSatoru",
+    "http://dx.doi.org/10.13039/100009619Japan Agency for Medical Research and DevelopmentJP23bm1123046JP23kk0305024JP25ek0109811JP21wm0425009JP22bm0804003JP22ek0109616JP23bm1423002JP25wm0625519MorimotoSatoruOkanoHideyuki",
+    "UBE Academic Foundation",
+    "the Kato Memorial Trust for Nambyo Research",
+    "Japan Intractable Diseases（Nanbyo）Research Foundation2024A04MorimotoSatoru",
+    "http://dx.doi.org/10.13039/501100003844Inamori Foundation",
+    "Kanagawa Institute of Industrial Science and Technology (KISTEC)"
+  ],
+  "data_availability_text": "Data availabilityAll raw data and codes are available from the corresponding author upon reasonable request.",
+  "license": "",
+  "received": "2025-09-03",
+  "accepted": "2025-12-31",
+  "reference_pmids": [
+    "36543887",
+    "36543887",
+    "40127392",
+    "19922118",
+    "19922118",
+    "32763509",
+    "32763509",
+    "38267984",
+    "38267984",
+    "23931993",
+    "23931993",
+    "26250685",
+    "26250685",
+    "30643292",
+    "30643292",
+    "35197626",
+    "35197626",
+    "40826812",
+    "40826812",
+    "38278991",
+    "38278991",
+    "38277467",
+    "36676070",
+    "36676070",
+    "38311623",
+    "38311623",
+    "38890531",
+    "38890531",
+    "38024184",
+    "38024184",
+    "25934855",
+    "25934855",
+    "29222138",
+    "29222138",
+    "40715064",
+    "40715064",
+    "30105827",
+    "30105827",
+    "33531378",
+    "37607754",
+    "37607754",
+    "37267913",
+    "37267913",
+    "30626653",
+    "36599349",
+    "36599349",
+    "40011722",
+    "40011722",
+    "35492832",
+    "35492832",
+    "37713494",
+    "37713494",
+    "36426357",
+    "36426357",
+    "38997748",
+    "38997748",
+    "31384636",
+    "31384636",
+    "36333292",
+    "36333292",
+    "30423086",
+    "30423086",
+    "23104886",
+    "23104886",
+    "19505943",
+    "19505943",
+    "36949070",
+    "36949070",
+    "29229983",
+    "29229983",
+    "3203132",
+    "3203132"
+  ],
+  "tables_count": 2,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "background",
+    "main text",
+    "participant characteristics",
+    "primary analysis",
+    "discussion",
+    "limitations",
+    "conclusions",
+    "methods",
+    "participant information",
+    "data processing",
+    "statistical analysis",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 5980,
+  "converted_at": "2026-04-06T22:39:13.404159+00:00"
+}

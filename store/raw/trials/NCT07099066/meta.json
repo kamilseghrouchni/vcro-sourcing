@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT07099066",
+  "title": "Generation of Skin Fibroblast Banks, Urine-derived Cells and Biomarker Isolation From Patients With Amyotrophic Lateral Sclerosis (Als)",
+  "brief_title": "Generation of Cell Banks and Biomarker Isolation From Patients With Amyotrophic Lateral Sclerosis (ALS) (HCD-SLA)",
+  "status": "NOT_YET_RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 50,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis (ALS)"
+  ],
+  "keywords": [
+    "Amyotrophic Lateral Sclerosis (ALS)"
+  ],
+  "sponsor": "Human Cell Design",
+  "sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2025-09-01",
+  "completion_date": "2026-06",
+  "primary_completion_date": "2026-04",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "Blood samples.",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [],
+  "facilities_count": 0,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects over 18 years old;\n* Subjects who have given their consent and signed an informed, free and express consent form;\n* Subjects with diagnosed ALS;\n* Subjects affiliated to or benefiting from a social security scheme.\n\nExclusion Criteria:\n\n* Subjects with contraindications to the collection of biological samples (blood, skin, urine).\n* Subjects undergoing treatment likely to affect hemostasis (anticoagulants, platelet anti-aggregants, etc.) in the month prior to inclusion and during the study;\n* Subjects with hereditary or acquired haemostasis disorders;\n* Subjects who have undergone physical treatment (radiotherapy, etc.) on the area to be biopsied in the last 6 months;\n* Lidocaine-intolerant subjects;\n* Subjects who have reached the age of majority and are subject to a protective measure or are unable to express their consent.",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Cell banking",
+      "description": "Number of cell batches cryopreserved that meet predefined quality criteria (cell viability ≥ 80%, absence of mycoplasma). Data will be summarized as percentage of compliant batches over total batches produced.",
+      "timeFrame": "8 months"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "The aim of this research is to establish different cell banks from patients with amyotrophic lateral sclerosis (ALS).",
+  "detailed_description": "The objective of this research is to:\n\n* Create banks of skin fibroblasts from skin biopsy samples\n* Create banks of urine-derived cells (UDCs) from urine samples\n* Build a collection of blood samples to enable isolation of biomarkers.",
+  "interventions": [
+    {
+      "type": "OTHER",
+      "name": "sampling blood",
+      "description": "3 types of sampling : urine, skin and blood."
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:58.999242+00:00"
+}

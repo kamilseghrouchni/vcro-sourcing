@@ -1,0 +1,401 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04124029",
+      "orgStudyIdInfo": {
+        "id": "NURD-011-19F"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "I01-CX-19-008-CDA",
+          "type": "OTHER_GRANT",
+          "domain": "VA Boston Healthcare System"
+        }
+      ],
+      "organization": {
+        "fullName": "VA Office of Research and Development",
+        "class": "FED"
+      },
+      "briefTitle": "Contributions of mTBI to Neurodegeneration Due to Chronic Traumatic Encephalopathy (CTE) and Alzheimer's Disease (AD)",
+      "officialTitle": "Contributions of Mild Traumatic Brain Injury to Neurodegeneration Due to Chronic Traumatic Encephalopathy and Alzheimers Disease"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-10-09",
+      "studyFirstSubmitQcDate": "2019-10-09",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "VA Office of Research and Development",
+        "class": "FED"
+      },
+      "collaborators": [
+        {
+          "name": "VA Boston Healthcare System",
+          "class": "FED"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a research study that aims to examine whether Veterans with mild Traumatic Brain Injuries are at risk for dementia by studying their memory, brain wave activity, brain structure and proteins that can be elevated after brain injury and in dementia.",
+      "detailedDescription": "The specific aim of this project is to examine whether Veterans with mild Traumatic Brain Injuries are at risk for dementia by studying their memory, brain wave activity, brain structure and proteins that can be elevated after brain injury and in dementia.\n\nThis study will recruit patients with a history of mild-moderate traumatic brain injury, mild cognitive impairment, as well as healthy controls in order to better understand how single or repetitive mild Traumatic brain injuries may contribute to the development of dementia. It will be prospective in nature. Participants will be asked to complete a series of 3 study sessions. During the first study session, each subject will be asked to complete a neuropsychological assessment. If the subject's testing scores fall under the study criteria, they will also be asked to complete a computer task. In the second study session, the investigators will measure the subjects brain waves using an EEG while they complete a computer task. During the computer task, subjects will be asked to study a list of words and the investigators will test the subjects on their memory for those words. During the final study session, the investigators will ask subjects to complete (1) an MRI scan, (2) a standard blood draw procedure, and (3) a lumbar puncture procedure.\n\nClinical Implications: These studies will provide a better understanding of which individuals with Traumatic Brain Injury will develop dementia, and how many years in the future dementia may occur."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Mild Traumatic Brain Injury",
+        "Moderate Traumatic Brain Injury",
+        "Mild Cognitive Impairment"
+      ],
+      "keywords": [
+        "Mild Traumatic Brain Injury",
+        "Moderate Traumatic Brain Injury",
+        "Alzheimer's Disease",
+        "Chronic Traumatic Encephalopathy",
+        "Neurodegeneration"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "The investigators will be obtaining whole blood samples and cerebrospinal fluid samples from subjects. Whole blood samples will be used to test for the e4 variant of the Apolipoprotein E (APOE) gene. Cerebrospinal fluid will be extracted to examine the proteinopathy associated with each groups."
+      },
+      "enrollmentInfo": {
+        "count": 800,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Younger mild Traumatic Brain Injury",
+          "description": "mTBI subjects aged 30-59 yo will be recruited who have a physician diagnosis of 1 or more mTBI episodes without concomitant moderate or severe TBI diagnosis (loss of consciousness greater than 30 minutes, posttraumatic amnesia greater than 24 hours, or altered mental status greater than 24 hours). mTBI subjects must pass effort measures on the Test of Memory Malingering (TOMM) and have intact color vision and visual acuity of 20/30 or better in order to be included in the study.",
+          "interventionNames": [
+            "Device: No Intervention is used for this study but all subjects will be asked to complete EEG testing and an MRI scan.",
+            "Procedure: No intervention is used for this study but all subjects will be asked to complete a venous blood draw procedure and a lumbar puncture procedure."
+          ]
+        },
+        {
+          "label": "Older mild Traumatic Brain Injury",
+          "description": "mTBI subjects aged 60- 90 yo will be recruited who have a physician diagnosis of 1 or more mTBI episodes without concomitant moderate or severe TBI diagnosis (loss of consciousness greater than 30 minutes, posttraumatic amnesia greater than 24 hours, or altered mental status greater than 24 hours). mTBI subjects must pass effort measures on the TOMM and have intact color vision and visual acuity of 20/30 or better in order to be included in the study.",
+          "interventionNames": [
+            "Device: No Intervention is used for this study but all subjects will be asked to complete EEG testing and an MRI scan.",
+            "Procedure: No intervention is used for this study but all subjects will be asked to complete a venous blood draw procedure and a lumbar puncture procedure."
+          ]
+        },
+        {
+          "label": "moderate Traumatic Brain Injury",
+          "description": "TBI control subjects, age-, education- and sex-matched with mTBI subjects (aged 30-90) will be recruited who have a physician diagnosis of 1 or more moderate TBI episodes (loss of consciousness greater than 30 minutes, posttraumatic amnesia greater than 24 hours, or altered mental status greater than 24 hours). Moderate TBI subjects must pass effort measures on the TOMM and have intact color vision and visual acuity of 20/30 or better in order to be included in the study.",
+          "interventionNames": [
+            "Device: No Intervention is used for this study but all subjects will be asked to complete EEG testing and an MRI scan.",
+            "Procedure: No intervention is used for this study but all subjects will be asked to complete a venous blood draw procedure and a lumbar puncture procedure."
+          ]
+        },
+        {
+          "label": "Mild Cognitive Impairment (MCI)",
+          "description": "MCI control subjects, age-, education- and sex-matched with older mTBI subjects (aged 60-90) will be recruited if they meet diagnostic criteria for MCI (without a history of TBI) based on the judgement of a behavioral neurologist following the 2011 MCI criteria. Specifically, subjects will test in the impaired range on one or more cognitive domains on neuropsychological testing and will not have impairments in function (i.e. will not meet diagnostic criteria for dementia). MCI subjects will be matched for their Montreal Cognitive Assessment (MoCA) score with older mTBI subjects. Of note, subjects with MCI may or may not meet diagnostic criteria for MCI due to AD. The intent of this control group is to recruit a broad range of MCI subjects without TBI as controls for subjects with cognitive impairment who have a history of mTBI.",
+          "interventionNames": [
+            "Device: No Intervention is used for this study but all subjects will be asked to complete EEG testing and an MRI scan.",
+            "Procedure: No intervention is used for this study but all subjects will be asked to complete a venous blood draw procedure and a lumbar puncture procedure."
+          ]
+        },
+        {
+          "label": "Younger Healthy Controls",
+          "description": "Cognitively normal control subjects, age-, education- and sex-matched with younger mTBI subjects, but lacking and mTBI history. All subjects must be within 1 standard deviation of normal on all neuropsychologic testing in order to be enrolled.",
+          "interventionNames": [
+            "Device: No Intervention is used for this study but all subjects will be asked to complete EEG testing and an MRI scan.",
+            "Procedure: No intervention is used for this study but all subjects will be asked to complete a venous blood draw procedure and a lumbar puncture procedure."
+          ]
+        },
+        {
+          "label": "Older Healthy Controls",
+          "description": "Cognitively normal control subjects, age-, education- and sex-matched with older mTBI subjects, but lacking and mTBI history. All subjects must be within 1 standard deviation of normal on all neuropsychologic testing in order to be enrolled.",
+          "interventionNames": [
+            "Device: No Intervention is used for this study but all subjects will be asked to complete EEG testing and an MRI scan.",
+            "Procedure: No intervention is used for this study but all subjects will be asked to complete a venous blood draw procedure and a lumbar puncture procedure."
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "No Intervention is used for this study but all subjects will be asked to complete EEG testing and an MRI scan.",
+          "description": "No intervention will be used.",
+          "armGroupLabels": [
+            "Mild Cognitive Impairment (MCI)",
+            "Older Healthy Controls",
+            "Older mild Traumatic Brain Injury",
+            "Younger Healthy Controls",
+            "Younger mild Traumatic Brain Injury",
+            "moderate Traumatic Brain Injury"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "No intervention is used for this study but all subjects will be asked to complete a venous blood draw procedure and a lumbar puncture procedure.",
+          "description": "No intervention will be used.",
+          "armGroupLabels": [
+            "Mild Cognitive Impairment (MCI)",
+            "Older Healthy Controls",
+            "Older mild Traumatic Brain Injury",
+            "Younger Healthy Controls",
+            "Younger mild Traumatic Brain Injury",
+            "moderate Traumatic Brain Injury"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To better understand the contribution of mild Traumatic Brain Injury (mTBI) to neurodegeneration with the intent of detecting early behavioral, physiologic, anatomic, and protein evidence of neurodegeneration due to AD and CTE",
+          "description": "The work proposed will allow exploration of the relationships between behavioral, event-related potential (ERP), MRI, and cerebrospinal fluid (CSF) measures at a variety of points along the disease continuum and will allow for future longitudinal studies in this cohort",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Recognition Memory",
+          "description": "Recognition memory will be examined using behavioral estimation techniques to see if recognition memory will be worse in patients with an increased number of mild TBI and with increased time since mild TBI.",
+          "timeFrame": "5 Years"
+        },
+        {
+          "measure": "EEG peak amplitude and latency",
+          "description": "The investigators are trying to see if electrophysiological correlates of recollection will be decreased in patients with a greater number of mTBI episodes and those with increased time since mTBI episodes; and if the electrophysiological correlates of familiarity will be decreased in patients with dementia who have imaging and CSF biomarkers consistent with neurodegeneration.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Cortical, quantitative MRI volume measurements",
+          "description": "The investigators are trying to see if global cortical atrophy, hippocampal and extrahippocampal medial temporal lobe (MTL) atrophy will be increased in patients with a greater number of mTBI episodes and those with increased time since mTBI episodes.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "CSF Proteinopathy",
+          "description": "The investigators are trying to see if a CSF proteinopathy will be present in patients with a greater number of mTBI episodes and those with increased time since mTBI episodes.",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAll Subjects:\n\n* Intact color vision\n* Visual acuity of 20/30 (or better)\n* Patients must pass effort measures on the TOMM\n* Patients must have intact decision-making capacity\n* Patients must have no contraindications to lumbar puncture including:\n* Being on a blood thinner\n* Aspirin or Plavix\n* Have no space occupying lesion on magnetic resonance imaging (MRI)\n* An International Normalized Ratio (INR) value \\< 1.4 and platelet count \\>50,000\n* No epidural infection or overlying cellulitis over the lumbar spine\n* PTSD will be accounted for as a potential confounder and its presence will be included as a covariate in all analyses\n\nMild TBI Subjects:\n\n* Subjects will be recruited who have a physician diagnosis of 1 or more mTBI episodes without concomitant moderate or severe TBI diagnosis\n* Mild TBI: Loss of consciousness greater than 30 minutes, posttraumatic amnesia greater than 24 hours, and/or altered mental status greater than 24 hours\n\nModerate TBI Subjects:\n\n* Subjects will be recruited who have a physician diagnosis of 1 or more moderate TBI episodes\n* Moderate TBI: loss of consciousness greater than 30 minutes, posttraumatic amnesia greater than 24 hours, and altered mental status greater than 24 hours\n\nMCI Subjects:\n\n* Subjects will be recruited that meet diagnostic criteria for MCI (without a history of TBI) based on the judgement of a behavioral neurologist following the 2011 MCI criteria\n* Specifically, subjects will test in the impaired range on one or more cognitive domains on neuropsychological testing and will not have impairments in function, i.e. will not meet diagnostic criteria for dementia\n* Subjects with MCI may or may not meet diagnostic criteria for MCI due to AD\n* MCI subjects will be matched for their MoCA score with older TBI subjects\n\nHealthy Controls:\n\n* Cognitively normal control subjects, age-, education- and sex-matched with mild TBI subjects, but lacking and TBI history\n* All subjects must be within 1 standard deviation of normal on all neuropsychologic testing in order to be enrolled\n\nThe investigators will recruit all subjects without regard to gender, race, ethnicity, socioeconomic status, or other factors to allow results of this research to yield the greatest generalizability\n\nExclusion Criteria:\n\nAll Subjects:\n\n* If the primary language is not English\n* Are unable to understand the informed consent process\n* Have a clinically significant problem with any of the following conditions:\n* A history of TBI within 1 year of study\n* Suicidal or homicidal ideation requiring intervention\n* Schizophrenia\n* Bipolar disorder\n* Active alcohol or drug abuse\n* Clinically significant neurological disease other than those stated in the inclusion criteria\n* Impaired decision-making ability\n* Patients will be excluded if there are contraindications to MRI including:\n* Implants\n* Shrapnel\n* Aneurysm clips\n* Pacemaker\n* Pregnancy\n* Non-TBI subjects must not have had an TBI\n* No contraindication to lumbar puncture or blood draw including:\n* Being on a blood thinner\n* Aspirin or Plavix\n* No space occupying lesion on MRI that makes lumbar puncture contraindicated",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients from the memory disorders clinic will be recruited if they have a (1) history of mild TBI, (2) history of moderate TBI, or (3) mild cognitive impairment. In addition, the investigators will be recruiting healthy controls that meet satisfy the inclusion and exclusion criteria of the study.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Kristina Morreale, BA",
+          "role": "CONTACT",
+          "phone": "(857) 364-2139",
+          "phoneExt": "4554",
+          "email": "Kristina.Morreale@va.gov"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Katherine Turk, MD",
+          "affiliation": "VA Boston Healthcare System Jamaica Plain Campus, Jamaica Plain, MA",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "VA Boston Healthcare System Jamaica Plain Campus, Jamaica Plain, MA",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02130-4817",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kristina Morreale, BA",
+              "role": "CONTACT",
+              "phone": "857-364-2139",
+              "phoneExt": "4554",
+              "email": "Kristina.Morreale@va.gov"
+            },
+            {
+              "name": "Katherine Turk, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "De-identified data will be shared with other investigators upon written request."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001924",
+          "term": "Brain Concussion"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        },
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D000070627",
+          "term": "Chronic Traumatic Encephalopathy"
+        },
+        {
+          "id": "D009410",
+          "term": "Nerve Degeneration"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000070642",
+          "term": "Brain Injuries, Traumatic"
+        },
+        {
+          "id": "D001930",
+          "term": "Brain Injuries"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D006259",
+          "term": "Craniocerebral Trauma"
+        },
+        {
+          "id": "D020196",
+          "term": "Trauma, Nervous System"
+        },
+        {
+          "id": "D016489",
+          "term": "Head Injuries, Closed"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        },
+        {
+          "id": "D014949",
+          "term": "Wounds, Nonpenetrating"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D020208",
+          "term": "Brain Injury, Chronic"
+        },
+        {
+          "id": "D001925",
+          "term": "Brain Damage, Chronic"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

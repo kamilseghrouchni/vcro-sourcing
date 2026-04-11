@@ -1,0 +1,425 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04745299",
+      "orgStudyIdInfo": {
+        "id": "NEURONATA-R_ALS301"
+      },
+      "organization": {
+        "fullName": "Corestemchemon, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluation the Efficacy and Safety of Mutiple Lenzumestrocel (Neuronata-R® Inj.) Treatment in Patients with ALS",
+      "officialTitle": "A Double-blind, Randomized, Multicenter, Placebo-Controlled, Parallel, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Lenzumestrocel(Neuronata-R® Inj.) in Patients with Amyotrophic Lateral Sclerosis",
+      "acronym": "ALSummit"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-03-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-05-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-01-27",
+      "studyFirstSubmitQcDate": "2021-02-07",
+      "studyFirstPostDateStruct": {
+        "date": "2021-02-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Corestemchemon, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "ALSUMMIT is a double-blind, randomized, placebo-controlled, multi-center, parallel, phase III clinical trial to evaluate and confirm the efficacy and long-term safety of repeated Lenzumestrocel (Neuronata-R® inj.) treatment.",
+      "detailedDescription": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disorder characterized by selective and progressive loss of motor neurons. Disease progression leads to death within 2-4 years, but there exists no definite treatment so far.\n\nBased on phase I/II clinical trial(NCT01363401), twice intrathecal autologous bone marrow-derived mesenchymal stem cells (Lenzumestrocel) injections showed significant therapeutic benefit lasting at least six months with safety in patients with ALS.\n\nAdditionally, the switch from pro- to anti-inflammatory conditions, which was indicated from the inverse correlation between TGF-β1 and MCP-1 levels after Lenzumestrocel injections in the good responder, has been considered a plausible beneficial action mechanism.\n\nThis study is designed to investigate the following. First, to reconfirm and evaluate the long-term efficacy of twice injections (single cycle) of Lenzumestrocel, group 1 will receive a single cycle injection with a 26-day interval.\n\nSecond, to evaluate the long-term safety and efficacy of Lenzumestrocel repeated injections, group 2 will receive a single cycle injection a 26-day apart followed by three times injections every three-month interval.\n\nGroup 3 will receive comparator injections."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis"
+      ],
+      "keywords": [
+        "Amyotrophic lateral sclerosis",
+        "Mesenchymal stem cell",
+        "cell therapy",
+        "ALS",
+        "neuroprotection",
+        "Phase 3 clinical trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 115,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Single cycle administration group",
+          "type": "EXPERIMENTAL",
+          "description": "Study drug injections twice in a 26-day interval followed by three times comparator injections every three months.",
+          "interventionNames": [
+            "Biological: Lenzumestrocel",
+            "Drug: Riluzole",
+            "Drug: Placebo Comparator"
+          ]
+        },
+        {
+          "label": "Multiple administation group",
+          "type": "EXPERIMENTAL",
+          "description": "Study drug injections twice in a 26-day interval followed by repeated three times study drug injections every three months.",
+          "interventionNames": [
+            "Biological: Lenzumestrocel",
+            "Drug: Riluzole"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Comparator injections twice in a 26-day interval followed by three times comparator injections every three months.",
+          "interventionNames": [
+            "Drug: Riluzole",
+            "Drug: Placebo Comparator"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Lenzumestrocel",
+          "description": "Single cycle administration group : injections twice in a 26-day interval Multiple administration group : injections twice in a 26-day interval followed by repeated three times injections every three months",
+          "armGroupLabels": [
+            "Multiple administation group",
+            "Single cycle administration group"
+          ],
+          "otherNames": [
+            "Neuronata-R inj",
+            "Autologous Bone Marrow derived Mesenchymal Stem Cell"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Riluzole",
+          "description": "concomitant administration of Riluzole to all groups, except subjects to whom Riluzole administration is deemed impossible owing to adverse events as determined by medical experts",
+          "armGroupLabels": [
+            "Control group",
+            "Multiple administation group",
+            "Single cycle administration group"
+          ],
+          "otherNames": [
+            "Rilutek"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo Comparator",
+          "description": "Single cycle administration group: Placebo comparator is injected three times every three months after injection of Lenzumestrocel twice in a 26-day interval.\n\nControl group: Placebo comparator is injected twice in a 26-day interval followed by repeated three times injcections every three months",
+          "armGroupLabels": [
+            "Control group",
+            "Single cycle administration group"
+          ],
+          "otherNames": [
+            "Normal Saline Inj."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Joint rank scores (CAFS, Combined Assessment of Functional and Survival)",
+          "description": "Joint rank score is derived from Combined Assessment of Function and Survival. Functional assessment is based on ALSFRS-R scores and survival assessment is based on the period from randomization to physical death. Joint rank score will be calculated with ALSFRS-R score data and survival. For each pairwise comparison, a study participant is assigned a score and then the summed scores are ranked for all participants.\n\nThe higher ranking, the higher score, and the lower ranking, the lower score. And the average rank score is then calculated for each treatment group. A higher mean rank score indicates that participants in that treatment group, on average, fared better.\n\n1. The difference in joint rank scores between multiple administration group and control group at 12 months.\n2. The difference in joint rank scores between single cycle administration group and control group at 6 months",
+          "timeFrame": "at 12 months, and 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Joint rank scores (CAFS, Combined Assessment of Functional and Survival)",
+          "description": "Joint rank score is derived from Combined Assessment of Function and Survival. Functional assessment is based on ALSFRS-R scores and survival assessment is based on the period from randomization to physical death. Joint rank score will be calculated with ALSFRS-R score data and survival. For each pairwise comparison, a study participant is assigned a score and then the summed scores are ranked for all participants.\n\nThe higher ranking, the higher score, and the lower ranking, the lower score. And the average rank score is then calculated for each treatment group. A higher mean rank score indicates that participants in that treatment group, on average, fared better.\n\nThe difference in joint rank scores between multiple administration group and control group at 6 months.",
+          "timeFrame": "at 6 months"
+        },
+        {
+          "measure": "Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R) score",
+          "description": "ALSFRS-R is an instrument designed to evaluate functional status of subjects with amyotrophic lateral sclerosis (Lou Gehrig's disease), such as gross motor activity, fine motor activity, bulbar function and respiration function. It consists of 12 items; 3 items for mouth functions, 4 items for upper limb and overall fine motor functions, 2 items for lower limb functions and 3 items for respiration functions. Each item is evaluated in 5-point scale (0\\~4). A higher score means a better functional status.\n\n1. Change of ALSFRS-R score measured at baseline and 12 months (multiple administration group and control group)\n2. Change of ALSFRS-R score measured at baseline and 6 months (single cycle administration and control group)",
+          "timeFrame": "at 12 months, 6 months"
+        },
+        {
+          "measure": "Time to event",
+          "description": "Time to Event is defined as physical death, tracheostomy recognized as the point where disease progression functionally stops or chronic use of ventilator, whichever comes earlier. Chronic use of ventilator means that ventilator is used for more than 20 hours in a day and such use is continued for more than 30 days and that a subject in vegetative state requires full supports from other persons to maintain living.\n\n1. Time to event for 12 months (multiple administration group and control group)\n2. Time to event for 6 months (single cycle administration group and control group)",
+          "timeFrame": "at 12 months, 6 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Slow Vital Capacity (SVC)",
+          "description": "Change to SVC measured at 6, 12 months and 36 months",
+          "timeFrame": "6 months, 12 months, 36 months"
+        },
+        {
+          "measure": "Muscular strength",
+          "description": "Change of Muscular strength which is measured by Hand Held Dynamometer (HHD)",
+          "timeFrame": "6 months, 12 months, 36 months"
+        },
+        {
+          "measure": "Time to event",
+          "description": "Time to event for 36 months",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Time to death",
+          "description": "Time to death means the period from randomization of a subject to physical death.\n\nThe comparison with the time to death between treatment groups and control group.",
+          "timeFrame": "6 months, 12 months, 36 months"
+        },
+        {
+          "measure": "EuroQol Short Form (EQ-5D-5L)",
+          "description": "EQ-5D-5L is designed to measure health conditions and it consists of 5 questions relating to mobility, self-care, usual activities, pain/discomfort and anxiety/depression. 1\\~5 points are given for each question and a higher score means worse condition.\n\nChange of EQ-5D-5L from baseline to 6 month, 12 months, and 36 months.",
+          "timeFrame": "6 month, 12 months, 36 months"
+        },
+        {
+          "measure": "Amyotrophic Lateral Sclerosis Assessment Questionnaire (ALSAQ-40)",
+          "description": "ALSAQ-40 is designed to evaluate disease-specific health conditions of subjects with ALS/motor neural disease. It consists of 40 questions to evaluate 5 aspects of health conditions affected by the disease. Subjects are asked to think about the difficulties they may have experienced during the last 2 weeks. Subjects are asked to indicate the frequency of each event by selecting one of 5 options (0\\~4): never/rarely/sometimes/often/always or cannot do at all.",
+          "timeFrame": "6 month, 12 months, 36 months"
+        },
+        {
+          "measure": "Biological test",
+          "description": "Tests on blood samples and cerebrospinal fluid samples for exploratory investigation of biological markers in plasma, blood and CSF.\n\nComparison of change before and after treatment.\n\n* Measurement cytokines : TGF-β1, IL-10, IL-6, TNF-α, MCP-1, IL-8, IL-1RA, MIP-1β, RANTES and IP-10 etc.\n* Units of Measure: pg/mL\n* Comparative Analysis of how much each cytokine increases or decreases after treatment compared to before treatment.",
+          "timeFrame": "up to 12 months after administration"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "\\[Inclusion Criteria\\]\n\n1. Subjects who show both upper motor neuron signs and lower motor neuron signs at the same time in neurological tests.\n2. Among subjects diagnosed with familial or sporadic ALS, subjects falling into clinically definite ALS, probable ALS and probable ALS-lab supported according to The revised World Federation of Neurology El Escorial Criteria\\[Rix Brooks, 2000\\], during 17-weeks period prior to the administration and ALSFRS-R score (progression rate) of 1.03 ± 50%/month (meaning mean value in that total period).\n3. For subjects who are under Riluzole treatment, those who have received stable dose of Riluzole for more than 28 days before screening visit.\n4. Subjects with duration of disease of no more than 2 years from the first diagnosis date.\n5. Subjects whose ALSFRS-R scores are in the range of 31\\~46 at the time of screening (P-V0).\n\n\\[Exclusion Criteria\\]\n\n1. Subjects who received tracheostomy or use ventilators (including positive pressure ventilators; subjects who use non-invasive ventilation for sleep apnea may be allowed after review) at the time of screening (P-V0).\n2. Subjects who received gastrotomy at the time of screening (P-V0).\n3. Subjects for whom clinical efficacy evaluation is not possible because pulmonary functional tests cannot be conducted at the time of screening (P-V0) or subjects whose forced vital capacity is found to be not greater than 40%of the expected value.\n4. Subjects who fall into above Class II according to the New York Heart Association's functional classification, who have showed myocardial infarction, unstable arrhythmia and/or other significant cardiovascular diseases such as unstable angina in the past 3 months, or who show electrocardiographic signs of myocardial infarction or angina at the time of screening (P-V0) or who received stent insertion or coronary artery bypass grafting.\n5. Subjects who have received other investigational products or edaravone within 3 month or 5 half-lives at the time of screening (P-V0) and lead in period visit L-V1 (evaluated by whichever is longer).\n6. Subjects who have experienced epileptic seizure.\n7. Subjects with severe renal disorder (serum creatinine: not less than 2.0 mg/dL).\n8. Subjects with severe hepatic disorder (ALT, AST, or bilirubin: over 2.0 times of the normal upper limit).\n9. Subjects who show hemorrhagic tendency at the time of screening (PT and aPTT \\> 1.5 x ULN)\n10. Subjects who are found to have active viral infections (HBsAg, HCV Ab, HIV Ab, CMV IgM, EBV IgM, HSV IgM and Treponema pallidum) at the time of screening.\n11. Subjects with hypersensitivity to antibiotics (penicillin or streptomycin).\n12. Subjects who have ever received any cell therapy product for the same disease.\n13. Subjects with any malignant tumor in the past 5 years before screening, except malignant tumors with very low risk of metastasis or death.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "25 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Seung Hyun Kim, MD, PhD",
+          "affiliation": "Hanyang University Seoul Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pusan National University Yangsan Hospital",
+          "city": "Yangsan",
+          "state": "Kyungsangnam-do",
+          "zip": "50612",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.34199,
+            "lon": 129.03358
+          }
+        },
+        {
+          "facility": "Hanyang university hospital",
+          "city": "Seoul",
+          "state": "Seoul",
+          "zip": "04763",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Korea University Anam Hospital",
+          "city": "Seoul",
+          "zip": "02841",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Samsung Medical Center",
+          "city": "Seoul",
+          "zip": "06351",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Seoul National University Hospital",
+          "city": "Seoul",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35585556",
+          "type": "DERIVED",
+          "citation": "Nam JY, Lee TY, Kim K, Chun S, Kim MS, Shin JH, Sung JJ, Kim BJ, Kim BJ, Oh KW, Kim KS, Kim SH. Efficacy and safety of Lenzumestrocel (Neuronata-R(R) inj.) in patients with amyotrophic lateral sclerosis (ALSUMMIT study): study protocol for a multicentre, randomized, double-blind, parallel-group, sham procedure-controlled, phase III trial. Trials. 2022 May 18;23(1):415. doi: 10.1186/s13063-022-06327-4."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019782",
+          "term": "Riluzole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013844",
+          "term": "Thiazoles"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D052160",
+          "term": "Benzothiazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

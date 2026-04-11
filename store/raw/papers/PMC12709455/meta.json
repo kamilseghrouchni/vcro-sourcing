@@ -1,0 +1,161 @@
+{
+  "pmid": "41415504",
+  "pmc": "PMC12709455",
+  "doi": "10.64898/2025.12.08.25341836",
+  "title": "Proteomic profiling of Alzheimer’s disease and Vascular dementia reveals unique underlying signatures",
+  "journal": "medRxiv",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Amin Najaf",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaushik Pallavi",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Belbasis Lazaros",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Xiao Sihao",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Argentieri M. Austin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ahmad Shahzad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Husain Masud",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "van Duijn Cornelia M.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "vascular dementia",
+    "proteome",
+    "APOE",
+    "viral infections"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "The computational aspects of this research were supported by the Wellcome Trust Core Award Grant Number 203141/Z/16/Z and the Oxford NIHR BRC. The views expressed are those of the author(s) and not necessarily those of the NHS, the NIHR or the Department of Health.",
+    "ROSMAP data were provided by the Rush Alzheimer’s Disease Center, Rush University Medical Center, Chicago. Data collection was supported through funding by NIA grants P30AG10161 (ROS), R01AG15819 (ROSMAP; genomics and RNAseq), R01AG17917 (MAP), R01AG30146, R01AG36042 (5hC methylation, ATACseq), RC2AG036547 (H3K9Ac), R01AG36836 (RNAseq), R01AG48015 (monocyte RNAseq) RF1AG57473 (single nucleus RNAseq), U01AG32984 (genomic and whole exome sequencing), U01AG46152 (ROSMAP AMP-AD, targeted proteomics), U01AG46161 (TMT proteomics), U01AG61356 (whole genome sequencing, targeted proteomics, ROSMAP AMP-AD), the Illinois Department of Public Health (ROSMAP), and the Translational Genomics Research Institute (genomic). Najaf Amin is funded by National Institute on Aging (NIH) and Oxford-GSK Institute of Molecular and Computational Medicine (IMCM). Cornelia M van Duijn is supported by the US National Institute on Aging (NIH), NovoNordisk, the Oxford-GSK Institute of Molecular and Computational Medicine (IMCM), Centre of Artificial Intelligence for Precision Medicines (CAIPM) of the University of Oxford and King Abdul Aziz University, Alzheimer Research UK (ARUK), UK National Institute for Health and Care Research (NIHR) Oxford Research Center (BRC), ZonMW (Delta Dementie) and Alzheimer Nederland."
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "35678401",
+    "36348357",
+    "25987538",
+    "32722745",
+    "17445833",
+    "22111063",
+    "35379992",
+    "36411364",
+    "36066633",
+    "39046104",
+    "38347190",
+    "34392488",
+    "33148345",
+    "40665049",
+    "25826379",
+    "29865057",
+    "18581261",
+    "10560657",
+    "1759558",
+    "31015401",
+    "31932804",
+    "30305743",
+    "37794186",
+    "29299446",
+    "30820047",
+    "35039149",
+    "33930186",
+    "34493870",
+    "36864169",
+    "33510477",
+    "27047369",
+    "2592413",
+    "16801949",
+    "25024311",
+    "25652699",
+    "33051572",
+    "38683135",
+    "27206432",
+    "16521002",
+    "12707244",
+    "14983046",
+    "39380021",
+    "22652762"
+  ],
+  "tables_count": 2,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods",
+    "study populations",
+    "definitions of outcomes",
+    "uk biobank",
+    "rosmap",
+    "covariates used in uk biobank",
+    "genotype measurement in uk biobank",
+    "proteomic profiling",
+    "uk biobank",
+    "rosmap",
+    "statistical analysis",
+    "proteomic signatures of ad and vad",
+    "protein pathway analysis",
+    "mendelian randomization (mr)",
+    "results",
+    "general characteristics of the study population",
+    "proteomic signatures of ad in plasma",
+    "proteomic signatures of ad show no overlap between apoe 4+ patients and apoe 4- patients beyond gfap & nefl",
+    "the celsr2 effect in those without apoe 24 variant is confirmed in a apoe stratified gwas analysis",
+    "proteomic signatures of vad suggest dysregulation of the virus receptor pathway",
+    "virus receptors and the risks of varicella zoster (vzv) and herpes simplex (hsv1) viral infections",
+    "replication of proteomic signatures of ad in and vad in the brain (rosmap)",
+    "mendelian randomization analysis identifies specific and common proteins influencing the risk of ad & vad",
+    "discussion",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 8538,
+  "converted_at": "2026-04-06T22:38:23.032393+00:00"
+}

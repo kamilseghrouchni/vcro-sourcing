@@ -1,0 +1,469 @@
+{
+  "nct_id": "NCT06416072",
+  "title": "Alzheimer's Plasma Extension",
+  "brief_title": "Alzheimer's Plasma Extension",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 1000,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Preclinical Alzheimer's Disease",
+    "Early Preclinical Alzheimer's Disease"
+  ],
+  "keywords": [],
+  "sponsor": "University of Southern California",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "Alzheimer's Clinical Trials Consortium (ACTC)",
+    "Alzheimer's Therapeutic Research Institute",
+    "Alzheimer's Association"
+  ],
+  "lead_pi": {},
+  "start_date": "2023-09-21",
+  "completion_date": "2028-06",
+  "primary_completion_date": "2028-06",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "blood, plasma",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "University of Alabama, Birmingham",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Banner Alzheimer's Institute",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Banner Sun Health Research Institute",
+      "city": "Sun City",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of California, Irvine",
+      "city": "Irvine",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Southern California",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Stanford University",
+      "city": "Palo Alto",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Sharp Neurocognitive Research Center",
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of California, San Francisco",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of California, Davis",
+      "city": "Walnut Creek",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Yale University School of Medicine",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Georgetown University",
+      "city": "Washington D.C.",
+      "state": "District of Columbia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Howard University",
+      "city": "Washington D.C.",
+      "state": "District of Columbia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brain Matters Research",
+      "city": "Delray Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mayo Clinic, Jacksonville",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "K2 Medical Research - The Villages",
+      "city": "Lady Lake",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "K2 Medical Research, LLC",
+      "city": "Maitland",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Gonzalez MD & Aswad MD Health Services",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Wien Center for Clinical Research",
+      "city": "Miami Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Charter Research",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of South Florida - Health Byrd Alzheimer Institute",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Emory University",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Northwestern University",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Rush University Medical Center",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Indiana University",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Kansas",
+      "city": "Fairway",
+      "state": "Kansas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Kentucky",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Johns Hopkins University",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Boston University",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brigham and Women's Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Headlands Eastern MA LLC",
+      "city": "Plymouth",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Michigan, Ann Arbor",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mayo Clinic, Rochester",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Washington University, St. Louis",
+      "city": "St Louis",
+      "state": "Missouri",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Cleveland Clinic Lou Ruvo Center for Brain Health, Las Vegas",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mount Sinai School of Medicine",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Columbia University",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Rochester Medical Center",
+      "city": "Rochester",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Wake Forest University Health Sciences",
+      "city": "Winston-Salem",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Case Western Reserve University",
+      "city": "Beachwood",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Cleveland Clinic Lou Ruvo Center for Brain Health, Ohio",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Ohio State University",
+      "city": "Columbus",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Central States Research, LLC",
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Oregon Health & Science University",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Pittsburgh",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Butler Hospital Memory and Aging Program",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Ralph H. Johnson VA Health Care System",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Vanderbilt University Medical Center Center for Cognitive Medicine",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Texas, Southwestern MC at Dallas",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Baylor College of Medicine",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Houston Methodist Neurological Institute",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Texas Health Science Center at San Antonio",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Eastern Virginia Medical School at Old Dominion University",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "National Clinical Research Inc.",
+      "city": "Richmond",
+      "state": "Virginia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Washington, Memory and Brain Wellness Center",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Wisconsin",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "country": "United States",
+      "status": ""
+    }
+  ],
+  "facilities_count": 56,
+  "eligibility_criteria": "Inclusion Criteria:\n\n1. Documentation of the participant's informed consent to study procedures and for the use of protected health information (HIPAA Authorization, if applicable). Informed consent processes and documentation must adhere to state laws/local requirements, including consent provided by the participant's legally authorized representative (LAR), responsible next of kin, surrogate consent with assent, etc.\n2. Previously consented to participate in A3-45 screening.\n3. Has A3-45 screening plasma biomarker results required for determining eligibility to participate in the A3-45 trial.\n4. If an amyloid PET scan was conducted in A3-45, the scan was determined to be below the 20 centiloid cutpoint required for eligibility into the treatment arms of the A3 or A45 trial.\n5. As assessed by the site PI, participant is likely to be able to comply with the protocol, including completion of all required procedures for the duration of the study, and has adequate vision, hearing (hearing aid permitted), and literacy in English or Spanish sufficient for compliance with required testing procedures.\n\nExclusion Criteria:\n\n1. Current treatment with an FDA approved medication for Alzheimer's disease, including prior or current treatment with a prohibited medication.\n2. Enrollment in another investigational study, or intake of investigational drug, within 30 days prior to screening, or five half-lives of the investigational drug, whichever is longer, unless it can be documented that the participant was in the placebo treatment arm.\n\n   Participants enrolled in other observational studies may be permitted with Medical Monitor review and approval.\n3. Screen failed from A3-45 due to not meeting basic inclusion criterion (i.e., age requirement; current diagnosis of AD dementia).",
+  "eligibility_min_age": "55 Years",
+  "eligibility_max_age": "80 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Rate of change from Baseline to Month 48 on plasma beta-amyloid (Aβ) 40 or 42 ratio",
+      "description": "",
+      "timeFrame": "Baseline, Month 12, Month 24, Month 36 and Month 48"
+    },
+    {
+      "measure": "Rate of change from Baseline to Month 48 on plasma phosphorylated tau (ptau) 217",
+      "description": "Assess longitudinal changes from initial visit in plasma phosphorylated tau (ptau) 217 ratio using a proteomics assay",
+      "timeFrame": "Baseline, Month 12, Month 24, Month 36 and Month 48"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Rate of Change from Baseline to Month 48 as measured by the Preclinical Alzheimer Cognitive Composite 5(PACC5)",
+      "description": "PACC5:Free/cued selective reminding test:number of words recalled without cuing/with cuing(0\\[worst\\]-96\\[best recall\\]);Delayed Paragraph Recall test: recall of 1 short story(25 bits information),immediately after reading and again after delay of 30 minutes (0\\[worst\\]-25\\[best recall\\]);Digit-symbol substitution test: Participant uses a key to fill in blank squares as fast as possible in 90 seconds(0\\[none\\]-91\\[best performance\\]);Mini Mental State Score:to evaluate orientation, memory, attention, concentration, naming, repetition, comprehension and ability to create sentence, to copy 2 overlapping pentagons, scored as number of correctly completed items(0\\[worse\\]-30\\[perfect performance\\]);Category fluency task: participants generate words in 60 second belonging to a semantic category(total score:number of appropriate words generated per task, higher values indicate better performance).",
+      "timeFrame": "Baseline, Month 12, Month 24, Month 36 and Month 48"
+    },
+    {
+      "measure": "Rate of Change from Baseline to Month 48 as measured Cognitive Function Index (CFI)",
+      "description": "CFI assessment to assess the participant's perceived ability to perform high-level functional tasks in daily life and sense of overall cognitive functional ability. Study participants (18 questions) and their study partners (15 questions) independently rate the participant's abilities. Total score combines participant and study partner scores, with higher scores indicating greater impairment. For participants, 0 = minimum;18 = maximum. For study partners, 0 = minimum; 15 = maximum. The CFI may be self-administered or completed as an interview conducted by clinical site personnel in-person or, if necessary, over the phone.",
+      "timeFrame": "Baseline, Month 12, Month 24, Month 36 and Month 48"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "The APEX study is a multicenter, observational study designed to capture longitudinal follow-up of plasma biomarkers and cognitive and functional assessments on individuals who screen failed in the AHEAD study over approximately 4 years.\n\nApproximately 1000 participants will be enrolled across three groups:\n\n* Group A: Approximately 500 participants who are discordant on screening (plasma positive / Positron Emission Tomography (PET) negative),\n* Group B: Approximately 250 participants who are concordant on screening (plasma negative / PET negative), and\n* Group C: Approximately 250 participants selected from the individuals who previously screen failed prior to PET for the AHEAD study with oversampling of racial and ethnic populations underrepresented in Alzheimer's disease (AD) clinical trials.\n\nPrimary Objectives:\n\n* Collect longitudinal cognitive and functional assessments and blood-based biomarker data\n* Evaluate, characterize, and compare the longitudinal cognitive and functional data between the three groups of participants\n* Compare longitudinal change across race and ethnicity, sex, and Apolipoprotein E (ApoE) status\n\nExploratory Objectives:\n\n• Collect baseline amyloid PET on participants without prior amyloid PET data (Group C)",
+  "detailed_description": "",
+  "interventions": [
+    {
+      "type": "RADIATION",
+      "name": "NAV4694",
+      "description": "Amyloid PET imaging with NAV4694 injection"
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:58.361406+00:00"
+}

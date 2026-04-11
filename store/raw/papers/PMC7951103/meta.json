@@ -1,0 +1,191 @@
+{
+  "pmid": "33476461",
+  "pmc": "PMC7951103",
+  "doi": "10.1002/acn3.51296",
+  "title": "Plasma metabolomics of presymptomatic PSEN1‐H163Y mutation carriers: a pilot study",
+  "journal": "Annals of Clinical and Translational Neurology",
+  "year": 2021,
+  "authors": [
+    {
+      "name": "Natarajan Karthick",
+      "affiliations": [
+        "Division for Neurogeriatrics Centre for Alzheimer Research Department of Neurobiology, Care Sciences and Society Karolinska Institutet Stockholm Sweden",
+        "Unit for Hereditary Dementias Theme Aging QA12 Karolinska University Hospital‐Solna Stockholm Sweden"
+      ]
+    },
+    {
+      "name": "Ullgren Abbe",
+      "affiliations": [
+        "Division for Neurogeriatrics Centre for Alzheimer Research Department of Neurobiology, Care Sciences and Society Karolinska Institutet Stockholm Sweden",
+        "Unit for Hereditary Dementias Theme Aging QA12 Karolinska University Hospital‐Solna Stockholm Sweden"
+      ]
+    },
+    {
+      "name": "Khoshnood Behzad",
+      "affiliations": [
+        "Division for Neurogeriatrics Centre for Alzheimer Research Department of Neurobiology, Care Sciences and Society Karolinska Institutet Stockholm Sweden",
+        "Unit for Hereditary Dementias Theme Aging QA12 Karolinska University Hospital‐Solna Stockholm Sweden"
+      ]
+    },
+    {
+      "name": "Johansson Charlotte",
+      "affiliations": [
+        "Division for Neurogeriatrics Centre for Alzheimer Research Department of Neurobiology, Care Sciences and Society Karolinska Institutet Stockholm Sweden",
+        "Unit for Hereditary Dementias Theme Aging QA12 Karolinska University Hospital‐Solna Stockholm Sweden"
+      ]
+    },
+    {
+      "name": "Laffita‐Mesa José M.",
+      "affiliations": [
+        "Division for Neurogeriatrics Centre for Alzheimer Research Department of Neurobiology, Care Sciences and Society Karolinska Institutet Stockholm Sweden",
+        "Unit for Hereditary Dementias Theme Aging QA12 Karolinska University Hospital‐Solna Stockholm Sweden"
+      ]
+    },
+    {
+      "name": "Pannee Josef",
+      "affiliations": [
+        "Institute of Neuroscience and Physiology Department of Psychiatry and Neurochemistry The Sahlgrenska Academy at the University of Gothenburg Gothenburg Sweden"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "Institute of Neuroscience and Physiology Department of Psychiatry and Neurochemistry The Sahlgrenska Academy at the University of Gothenburg Gothenburg Sweden",
+        "Department of Molecular Neuroscience UCL Institute of Neurology London WC1N 3BG England"
+      ]
+    },
+    {
+      "name": "Blennow Kaj",
+      "affiliations": [
+        "Institute of Neuroscience and Physiology Department of Psychiatry and Neurochemistry The Sahlgrenska Academy at the University of Gothenburg Gothenburg Sweden"
+      ]
+    },
+    {
+      "name": "Graff Caroline",
+      "affiliations": [
+        "Division for Neurogeriatrics Centre for Alzheimer Research Department of Neurobiology, Care Sciences and Society Karolinska Institutet Stockholm Sweden",
+        "Unit for Hereditary Dementias Theme Aging QA12 Karolinska University Hospital‐Solna Stockholm Sweden"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Swedish Alzheimer’s Foundation",
+    "Hjärnfonden 10.13039/501100000942",
+    "Demensfonden",
+    "Karolinska Geriatric Foundation",
+    "Stiftelsen för Gamla Tjänarinnor 10.13039/100010815",
+    "Stohnes Foundation",
+    "Swedish Research Council 10.13039/5011000043592015‐029262018‐02754",
+    "Karolinska Institutet StratNeuro postdoc funding",
+    "ALF Region Stockholm",
+    "Schörling Foundation ‐ Swedish FTD Initiative"
+  ],
+  "data_availability_text": "Data Availability StatementDatasets can be accessed at MetaboLights (https://www.ebi.ac.uk/metabolights/) with identifier MTBLS1721.",
+  "license": "creativeCommonsBy-nc-nd",
+  "received": "2020-05-24",
+  "accepted": "2020-12-10",
+  "reference_pmids": [
+    "28341160",
+    "28209190",
+    "26312828",
+    "27930341",
+    "31031585",
+    "27939698",
+    "26617567",
+    "23700429",
+    "30911577",
+    "29375465",
+    "26836186",
+    "22990206",
+    "19076441",
+    "19796846",
+    "29747683",
+    "9605727",
+    "28079014",
+    "31273253",
+    "24796810",
+    "23076076",
+    "24336805",
+    "1202204",
+    "31108909",
+    "27241045",
+    "30297701",
+    "32284590",
+    "31003499",
+    "32123170",
+    "30337152",
+    "30337151",
+    "29370177",
+    "25649659",
+    "31913419",
+    "25792098",
+    "18295378",
+    "17079810",
+    "31610847",
+    "27255810",
+    "19667196",
+    "31578419",
+    "28059794",
+    "27870940",
+    "22748936",
+    "23470128",
+    "23229043",
+    "22732677",
+    "14610118",
+    "27298091",
+    "19273596",
+    "26557086",
+    "30472149",
+    "30406177",
+    "31564456",
+    "31792468",
+    "29177498",
+    "23178247",
+    "29196460",
+    "28099414",
+    "29725016",
+    "31686034",
+    "31042697",
+    "28646119",
+    "28273474",
+    "30337151",
+    "26290610",
+    "20798852",
+    "30799310",
+    "29140435",
+    "28476144"
+  ],
+  "tables_count": 3,
+  "figures_count": 3,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "study population",
+    "dna extraction from blood",
+    "genotyping for",
+    "",
+    "plasma sample collection",
+    "metabolite extraction and analysis",
+    "analysis of a",
+    "statistical analysis",
+    "metabolites biological interpretation",
+    "results",
+    "demographics of the study population",
+    "comparison of plasma metabolite levels between presymptomatic mc and nc",
+    "correlations between plasma metabolites and plasma a",
+    "biological significance of annotated metabolites",
+    "discussion",
+    "conflict of interest",
+    "funding information",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8251,
+  "converted_at": "2026-04-06T22:40:04.779363+00:00"
+}

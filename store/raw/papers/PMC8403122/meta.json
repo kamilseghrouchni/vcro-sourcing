@@ -1,0 +1,216 @@
+{
+  "pmid": "34453619",
+  "pmc": "PMC8403122",
+  "doi": "10.1007/s11306-021-01828-w",
+  "title": "Challenges in LC–MS-based metabolomics for Alzheimer’s disease early detection: targeted approaches versus untargeted approaches",
+  "journal": "Metabolomics",
+  "year": 2021,
+  "authors": [
+    {
+      "name": "Reveglia Pierluigi",
+      "affiliations": [
+        "grid.10796.390000000121049995Department of Clinical and Experimental Medicine, University of Foggia, 71122 Foggia, Italy"
+      ]
+    },
+    {
+      "name": "Paolillo Carmela",
+      "affiliations": [
+        "grid.10796.390000000121049995Department of Clinical and Experimental Medicine, University of Foggia, 71122 Foggia, Italy"
+      ]
+    },
+    {
+      "name": "Ferretti Gabriella",
+      "affiliations": [
+        "grid.4691.a0000 0001 0790 385XDepartment of Neuroscience, School of Medicine, University of Naples Federico II, 80131 Napoli, Italy"
+      ]
+    },
+    {
+      "name": "De Carlo Armando",
+      "affiliations": [
+        "grid.10796.390000000121049995Department of Clinical and Experimental Medicine, University of Foggia, 71122 Foggia, Italy",
+        ""
+      ]
+    },
+    {
+      "name": "Angiolillo Antonella",
+      "affiliations": [
+        "grid.10373.360000000122055422Department of Medicine and Health Sciences, Center for Research and Training in Aging Medicine, University of Molise, 86100 Campobasso, Italy"
+      ]
+    },
+    {
+      "name": "Nasso Rosarita",
+      "affiliations": [
+        "grid.4691.a0000 0001 0790 385XDepartment of Neuroscience, School of Medicine, University of Naples Federico II, 80131 Napoli, Italy"
+      ]
+    },
+    {
+      "name": "Caputo Mafalda",
+      "affiliations": [
+        "grid.4691.a0000 0001 0790 385XDepartment of Molecular Medicine and Medical Biotechnology, School of Medicine, University of Naples Federico II, 80131 Napoli, Italy"
+      ]
+    },
+    {
+      "name": "Matrone Carmela",
+      "affiliations": [
+        "grid.4691.a0000 0001 0790 385XDepartment of Neuroscience, School of Medicine, University of Naples Federico II, 80131 Napoli, Italy"
+      ]
+    },
+    {
+      "name": "Di Costanzo Alfonso",
+      "affiliations": [
+        "grid.10373.360000000122055422Department of Medicine and Health Sciences, Center for Research and Training in Aging Medicine, University of Molise, 86100 Campobasso, Italy"
+      ]
+    },
+    {
+      "name": "Corso Gaetano",
+      "affiliations": [
+        "grid.10796.390000000121049995Department of Clinical and Experimental Medicine, University of Foggia, 71122 Foggia, Italy",
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "Biomarkers",
+    "Untargeted metabolomics",
+    "Targeted metabolomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/501100003407Ministero dell’Istruzione, dell’Università e della RicercaPRIN 2017T9JNLTPRIN-2017T9JNLTDi CostanzoAlfonsoCorsoGaetano",
+    "http://dx.doi.org/10.13039/501100003407MIUR/PRINPRIN 2017T9JNLTMatroneCarmela",
+    "Università di Foggia"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2021-01-30",
+  "accepted": "2021-08-06",
+  "reference_pmids": [
+    "25798438",
+    "31639596",
+    "32149739",
+    "25311278",
+    "29512078",
+    "25385447",
+    "15265277",
+    "33294859",
+    "31517024",
+    "32555372",
+    "29805336",
+    "29155564",
+    "26806385",
+    "32123207",
+    "31756036",
+    "28602601",
+    "28626469",
+    "27196316",
+    "22359596",
+    "28527668",
+    "32973179",
+    "23280971",
+    "26161972",
+    "11311463",
+    "18543077",
+    "11860207",
+    "29494574",
+    "19839594",
+    "22985726",
+    "25411574",
+    "24473279",
+    "26825096",
+    "19288586",
+    "20385883",
+    "30297701",
+    "21779331",
+    "12671038",
+    "28758652",
+    "26538545",
+    "28448069",
+    "30175979",
+    "32296585",
+    "22424230",
+    "33173055",
+    "32751526",
+    "22967182",
+    "23917584",
+    "29653606",
+    "29039849",
+    "28132174",
+    "26744734",
+    "27323646",
+    "25904844",
+    "22941854",
+    "31199530",
+    "20457143",
+    "24746363",
+    "31084745",
+    "32013105",
+    "26711459",
+    "18502704",
+    "30337151",
+    "24608097",
+    "29249916",
+    "20636090",
+    "23943322",
+    "31039414",
+    "18728191",
+    "19549834",
+    "32580508",
+    "17471576",
+    "32841564",
+    "29852382",
+    "33137264",
+    "30337152",
+    "17021169",
+    "22832349",
+    "28664464",
+    "25893801",
+    "26957294",
+    "26717242",
+    "32216312",
+    "28360834",
+    "26690411",
+    "27693183",
+    "32580974",
+    "19375179",
+    "17196060",
+    "20307888",
+    "18560755",
+    "32320019",
+    "25442939",
+    "24039616",
+    "28397194",
+    "30831026",
+    "26526912",
+    "32997396",
+    "23700429",
+    "26312828",
+    "29370177",
+    "32543351",
+    "24694177",
+    "30926037",
+    "24041970",
+    "29375465",
+    "27051586",
+    "23543913",
+    "25444251",
+    "28626014",
+    "27722450"
+  ],
+  "tables_count": 1,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "progress in diagnostic criteria: biomarkers in alzheimer’s disease",
+    "metabolomics studies",
+    "untargeted metabolomics studies",
+    "targeted metabolomics studies",
+    "comparison between targeted and untargeted approaches",
+    "perspective",
+    "funding",
+    "references"
+  ],
+  "word_count": 12828,
+  "converted_at": "2026-04-06T22:40:07.079961+00:00"
+}

@@ -1,0 +1,184 @@
+{
+  "pmid": "40791427",
+  "pmc": "PMC12338563",
+  "doi": "10.1101/2025.07.11.664443",
+  "title": "Cell type-specific master metabolic regulators of Alzheimer’s disease",
+  "journal": "bioRxiv",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Qiu Yunguang",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hou Yuan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wetzel Liam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Caldwell Jessica Z.K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhu Xiongwei",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Pieper Andrew A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Liu Tian",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Cheng Feixiong",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "DATA AVAILABILITYThe source code for alzMSR is available via GitHub at: https://github.com/qiusir1/alzMSR. Other source codes will be available upon requests.",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "35829654",
+    "33294859",
+    "34757660",
+    "31257151",
+    "37939162",
+    "28438892",
+    "27623263",
+    "36635456",
+    "31378678",
+    "38652661",
+    "37607931",
+    "21948594",
+    "29307493",
+    "28380372",
+    "31042697",
+    "37774677",
+    "28569836",
+    "36479795",
+    "38216726",
+    "27585651",
+    "39402332",
+    "29071355",
+    "39402379",
+    "31434891",
+    "37985399",
+    "29572349",
+    "39172838",
+    "27154981",
+    "38301270",
+    "37878335",
+    "36799538",
+    "35302785",
+    "20195797",
+    "35066114",
+    "38329121",
+    "36479019",
+    "32572268",
+    "25491543",
+    "36635386",
+    "38448586",
+    "37277652",
+    "35347128",
+    "35379992",
+    "33589840",
+    "34493870",
+    "21920632",
+    "25942042",
+    "31812977",
+    "31978055",
+    "20392695",
+    "37891827",
+    "20733953",
+    "35822270",
+    "23566485",
+    "32123170",
+    "37150125",
+    "25675848",
+    "37264981",
+    "19338303",
+    "36593328",
+    "37774678",
+    "39187705",
+    "39580485",
+    "30668640",
+    "35319157",
+    "34735921",
+    "21248787",
+    "39217154",
+    "20847401",
+    "33085665",
+    "29409532",
+    "31647099",
+    "34788843",
+    "34986597",
+    "26481362",
+    "37933841",
+    "29202222",
+    "37325194",
+    "25261551",
+    "19793966",
+    "35787294"
+  ],
+  "tables_count": 0,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "a systems biology framework to quantify metabolic heterogeneity in ad",
+    "preferentially elevated metabolic heterogeneity in ad microglia but not neurons",
+    "discovery of neuron/microglia-specific metabolite-sensor networks in ad",
+    "long-chain fatty acid palmitic acid reduces tau neuropathology via fabp3",
+    "discover likely causal master metabolic regulators in ad",
+    "a genetically informed metabolite-sensor network specific to neurons/microglia in ad",
+    "gut metabolite indole-3-propionic acid reduces tau phosphorylation via kyat1",
+    "discussion",
+    "methods",
+    "sea-ad single-nucleus cohort.",
+    "metabolic signaling entropy analysis.",
+    "alzheimer’s metabolic pathway activity score.",
+    "scfumes algorithm.",
+    "mendelian randomization analysis.",
+    "gene expression analysis.",
+    "metabolomics data analysis.",
+    "structure analysis.",
+    "human brain samples",
+    "cell culture",
+    "immunocytochemistry and microscopy",
+    "immunoblotting",
+    "antibodies and reagents",
+    "dna plasmid, sirnas, and transfections",
+    "supplementary material",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 9441,
+  "converted_at": "2026-04-06T22:37:17.350422+00:00"
+}

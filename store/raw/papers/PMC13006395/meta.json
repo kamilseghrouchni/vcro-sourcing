@@ -1,0 +1,167 @@
+{
+  "pmid": "41850233",
+  "pmc": "PMC13006395",
+  "doi": "10.1016/j.xcrm.2026.102648",
+  "title": "Identification of tofersen PD-response biomarkers in VALOR clinical trial CSF via multiplexed quantitative proteomics",
+  "journal": "Cell Reports Medicine",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Guise Amanda J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Ferber Kyle L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Young Damon",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Edwards Amanda L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sabouri Somayeh",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fraser Kyle B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Milliman Eric",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Plowey Edward D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zoghbi Jad",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Fradette Stephanie M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Graham Danielle L.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "amyotrophic lateral sclerosis",
+    "pharmacodynamic-response",
+    "cerebrospinal fluid biomarkers",
+    "tofersen",
+    "antisense oligonucleotide therapy",
+    "superoxide dismutase",
+    "glycoprotein non-metastatic melanoma protein B",
+    "SOD1-ALS",
+    "motor neuron disease",
+    "neurofilament"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data and code availability •All data were acquired using commercially available software. Mass spectrometry data were acquired in Xcalibur (Thermo Fisher Scientific) and analyzed using the Sequest search engine built into GFY Core v.3.8 (licensed through Harvard University). Immunoassay data were acquired using SoftMax Pro GxP (v.5.3). Raw mass spectrometry data have been deposited online at ProteomeXchange (PXD061717) and MassIVE (MSV000097291) and are accessible through the following links: https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD061717;https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=9ff8a636b76f4e3aad931d2f0323e262.•This study does not report new algorithms or computational models. Data were analyzed as described in the STAR Methods in Python (v.2.7.11) and R (v.4.2.1).•Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.",
+  "license": "",
+  "received": "2025-04-08",
+  "accepted": "2026-02-03",
+  "reference_pmids": [
+    "8446170",
+    "19483195",
+    "18409196",
+    "30622123",
+    "19191304",
+    "35224491",
+    "36129998",
+    "31701227",
+    "31721001",
+    "22891158",
+    "29519253",
+    "27935101",
+    "28244996",
+    "31218162",
+    "30586924",
+    "25385330",
+    "32391605",
+    "39838446",
+    "31648527",
+    "40017137",
+    "40781905",
+    "34460014",
+    "34247168",
+    "24226387",
+    "8652878",
+    "24203070",
+    "30944313",
+    "26700037",
+    "24927332",
+    "18774840",
+    "34626566",
+    "21183079",
+    "25987413"
+  ],
+  "tables_count": 1,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "quantitative proteomic screening of longitudinal sod1-als csf samples",
+    "identification of pharmacodynamic-response biomarker candidates based on abundance changes from baseline",
+    "increased abundance of csf immunoglobulins is consistent with elevation of csf white blood cell counts in tofersen-treated individuals",
+    "csf gpnmb is a putative biomarker of tofersen pd response",
+    "correlation between csf gpnmb and plasma nfl",
+    "discussion",
+    "limitations of the study",
+    "resource availability",
+    "lead contact",
+    "materials availability",
+    "data and code availability",
+    "acknowledgments",
+    "author contributions",
+    "declaration of interests",
+    "star★methods",
+    "key resources table",
+    "experimental model and study participant details",
+    "method details",
+    "protein isolation and digestion",
+    "peptide labeling with isobaric (tmt) tags",
+    "offline high ph fractionation",
+    "mass spectrometry analysis",
+    "protein identification and quantitation",
+    "data filtering and normalization",
+    "gene ontology enrichment analyses",
+    "quantitative immunoassay-based (elisa) measurement of gpnmb concentrations",
+    "quantification and statistical analysis",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8177,
+  "converted_at": "2026-04-06T22:39:36.268439+00:00"
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>vCRO — What it is</title>
+  <meta name="description" content="vCRO finds specimens that match what you want to do, tells you whether they'll work, and shows you which claims are verified.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Lustria&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg:          #F2EFE9;
+      --bg-card:     #E8E5DE;
+      --bg-feed:     #DFDBD4;
+      --text:        #1A1814;
+      --text-2:      #6B6560;
+      --text-3:      #A09890;
+      --brand:       #00a5b4;
+      --brand-hover: #00b4c3;
+      --bg-term:     #1E1C18;
+      --text-term:   #E8E5DE;
+      --display:     'Lustria', Georgia, serif;
+      --body:        'IBM Plex Sans', system-ui, sans-serif;
+      --mono:        'Geist Mono', 'JetBrains Mono', ui-monospace, monospace;
+      --max-w:       720px;
+      --r:           16px;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--body); font-size: 16px; line-height: 1.7; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { color: var(--brand-hover); }
+    .w { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+
+    .hl { background: linear-gradient(to top, rgba(0,165,180,0.25) 40%, transparent 40%); padding: 0 4px; }
+    .hl-fill { background: rgba(0,165,180,0.15); padding: 2px 8px; border-radius: 6px; }
+    .hl-text { color: var(--brand); }
+
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; max-width: var(--max-w); margin: 0 auto; }
+    .logo { font-family: var(--mono); font-size: 18px; font-weight: 600; color: var(--text); text-decoration: none; }
+    .nav-r { display: flex; gap: 24px; }
+    .nav-r a { color: var(--text-2); font-size: 15px; }
+    .nav-r a:hover { color: var(--text); }
+
+    .hero { padding: 80px 0 40px; }
+    .hero h1 { font-family: var(--display); font-size: 36px; font-weight: 400; line-height: 1.3; margin-bottom: 20px; }
+    .hero p { color: var(--text-2); font-size: 17px; line-height: 1.7; }
+
+    section { padding: 40px 0; }
+    section h2 { font-family: var(--body); font-size: 22px; font-weight: 600; margin-bottom: 16px; }
+    section p, section li { color: var(--text-2); font-size: 15px; line-height: 1.7; }
+    section p { margin-bottom: 12px; }
+
+    .example { background: var(--bg-term); border-radius: var(--r); padding: 24px; font-family: var(--mono); font-size: 13px; line-height: 1.8; color: var(--text-term); margin: 24px 0; white-space: pre-wrap; }
+    .ex-q { color: #E8E5DE; font-weight: 600; }
+    .ex-l { color: #6B6560; }
+    .ex-v { color: #00a5b4; }
+    .ex-w { color: #A09890; font-style: italic; }
+
+    .features { display: grid; gap: 32px; padding: 20px 0; }
+    .feat { padding: 0; }
+    .feat h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+    .feat p { margin-bottom: 0; }
+
+    .chain { background: var(--bg-card); border-radius: var(--r); padding: 20px 24px; font-family: var(--mono); font-size: 13px; line-height: 2; margin: 24px 0; color: var(--text-2); }
+    .chain .link { color: var(--text); font-weight: 600; }
+    .chain .state { font-size: 11px; padding: 2px 6px; border-radius: 4px; margin-left: 4px; }
+    .chain .pub { background: rgba(100,160,100,0.15); color: #4d8a4d; }
+    .chain .der { background: rgba(180,140,50,0.15); color: #9a7a2e; }
+    .chain .opn { background: rgba(200,100,80,0.15); color: #c86450; }
+
+    .principle { border-left: 3px solid var(--brand); padding-left: 16px; margin: 20px 0; }
+    .principle p { margin-bottom: 0; }
+
+    hr { border: none; border-top: 1px solid var(--bg-feed); margin: 48px 0; }
+
+    footer { text-align: center; padding: 60px 0 40px; }
+    footer p { color: var(--text-3); font-size: 14px; }
+    footer a { color: var(--brand); }
+
+    .btn-p { display: inline-block; background: var(--brand); color: white; border-radius: 999px; padding: 12px 28px; font-family: var(--body); font-size: 15px; font-weight: 600; text-decoration: none; transition: background 200ms; margin-top: 24px; }
+    .btn-p:hover { background: var(--brand-hover); color: white; }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 28px; }
+      section h2 { font-size: 19px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="logo" href="/">vCRO</a>
+    <div class="nav-r">
+      <a href="/">Home</a>
+      <a href="docs/">Docs</a>
+      <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="w">
+      <h1>What <span class="hl-fill">vCRO</span> does</h1>
+      <p>
+        Finds specimens that match what you want to do. Tells you whether they'll work
+        for your specific assay at your specific provider. Shows you exactly which claims
+        are verified and which need one phone call. Every number traceable to a source.
+      </p>
+    </div>
+  </header>
+
+  <div class="w">
+
+    <!-- The aha moment -->
+    <section>
+      <h2>You ask</h2>
+
+      <div class="example"><span class="ex-q">I need stool samples from IBD patients to run shotgun
+metagenomics, treatment-naive, at least 100 subjects.</span></div>
+
+      <p>Ten seconds later:</p>
+
+      <div class="example"><span class="ex-v">Can you get it?</span>  <span class="ex-l">Yes, partially — 5 biobanks hold IBD stool at scale.</span>
+<span class="ex-v">Best path:</span>       <span class="ex-l">SPARC-IBD → Cornell Microbiome Core, ~$25K for 100 samples.</span>
+<span class="ex-v">What blocks it:</span>  <span class="ex-l">Treatment-naive subset count — one inquiry to CCF unlocks it.</span></div>
+
+      <p>Then a table showing every sourcing path with per-link evidence states.
+      Green = grounded. Open = unknown, here's who to contact. No fake numbers.</p>
+    </section>
+
+    <hr>
+
+    <!-- What makes this different -->
+    <section>
+      <h2>Six things that are <span class="hl">different</span></h2>
+
+      <div class="features">
+
+        <div class="feat">
+          <h3>Every number traces to a source</h3>
+          <p>
+            Brokers say "WGBS costs $150-300/sample." We say "IMR charges $875/sample for 22Gb depth
+            <span class="hl-text">[verified: imr.bio/pricing.html]</span>. Cornell charges $250/sample standard depth
+            <span class="hl-text">[verified: epicore.med.cornell.edu]</span>." The buyer clicks the link and sees the same number.
+          </p>
+        </div>
+
+        <div class="feat">
+          <h3>The system goes and looks</h3>
+          <p>
+            Ask about a domain with zero wiki data. The system doesn't say "nothing found."
+            It searches PubMed, ClinicalTrials.gov, the web. Visits provider pages. Extracts stated
+            requirements. Delivers a sourcing chain from what it found. Then compiles into the wiki
+            so the next question gets an instant answer.
+          </p>
+        </div>
+
+        <div class="feat">
+          <h3>The answer is a chain, not a report</h3>
+          <p>Not 25 pages of prose. A chain:</p>
+          <div class="chain">
+            <span class="link">specimen source</span> <span class="state pub">PUBLISHED</span> →
+            <span class="link">specimen fitness</span> <span class="state der">DERIVED</span> →
+            <span class="link">provider</span> <span class="state pub">PUBLISHED</span> →
+            <span class="link">cost</span> <span class="state pub">PUBLISHED</span> →
+            <span class="link">timeline</span> <span class="state opn">open</span>
+          </div>
+          <p>The buyer sees which links are solid and which need one phone call.</p>
+        </div>
+
+        <div class="feat">
+          <h3>Fit-for-purpose is provider-specific</h3>
+          <p>
+            "Will these specimens work for my assay?" depends on who runs it.
+            Psomagen needs >200ng and DIN>7.0. Cornell accepts standard input. EM-seq works with 10ng.
+            The system pairs your specimen source with a specific provider and evaluates fitness against
+            that provider's stated requirements.
+          </p>
+        </div>
+
+        <div class="feat">
+          <h3>Honest gaps over fake answers</h3>
+          <p>
+            When the system can't ground a claim:
+            <code style="font-family:var(--mono); font-size:13px; color:#c86450">[open_question — searched psomagen.com, no DIN threshold found for stool matrix]</code>.
+            A gap with provenance is infinitely more useful than a confident-sounding number from training data.
+          </p>
+        </div>
+
+        <div class="feat">
+          <h3>The wiki compounds</h3>
+          <p>
+            First query in a new domain: search, score thin leads, deliver immediately, compile in background.
+            Second query: wiki has entities, discover finds them instantly, full scoring with provenance depth.
+            The product gets faster with every query. But the first buyer never waits.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- The chain in practice -->
+    <section>
+      <h2>What a bounty found that a broker <span class="hl">wouldn't tell you</span></h2>
+      <p>Real query: 500 AD CSF samples for Olink targeted proteomics.</p>
+
+      <div class="features" style="gap:20px">
+        <div class="principle">
+          <p><strong>The cost picture.</strong>
+          Academic core rate cards show Olink Target 96 at $113/sample, not the $40-60 that appears in training data.
+          For 500 samples: $61K, not $25K. SomaScan 7K: $720/sample. For 500 samples: $365K, not $75K.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>The blocking gate.</strong>
+          ADNI specimens are "not for use in technology development." A commercial buyer who doesn't know this
+          wastes 6-10 weeks on the RARC application before hitting a policy wall. The chain flags it on link 1.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>The provider landscape.</strong>
+          9 academic cores found, 4 with published CSF-validated pricing.
+          IU Indianapolis at $113. UCSD at $165. UH Houston at $100.
+          The buyer picks based on real numbers, not a single vendor quote.</p>
+        </div>
+
+        <div class="principle">
+          <p><strong>The feasibility evidence.</strong>
+          4 published studies ran Olink PEA on AD CSF at scale (797 samples in Nature Aging 2023,
+          463 DIAN CSF in Cell 2024). Prior art is the strongest signal that the path works.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Less is more -->
+    <section>
+      <h2>Less is more</h2>
+
+      <p>The aha is not more features. It's fewer lies.</p>
+
+      <div style="margin-top:16px">
+        <p>No composite score. Three axes, buyer picks the weight.</p>
+        <p>No training-data fills. <code style="font-family:var(--mono);font-size:13px;color:#c86450">[open_question]</code> over a plausible guess.</p>
+        <p>No compile gate. Search results are immediately usable.</p>
+        <p>No prose where a table works. The chain table is the recommendation.</p>
+        <p>No wiki-link to a nonexistent entity. Source URL or nothing.</p>
+      </div>
+
+      <div class="principle" style="margin-top:32px">
+        <p>Every piece of information the buyer sees is either grounded — they can verify it —
+        or honestly flagged — they know it's unverified. The system never smooth-talks. It shows its work.</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- How it works (brief) -->
+    <section>
+      <h2>How it works</h2>
+
+      <p>vCRO is an open-source CLI that runs on <a href="https://claude.ai/code">Claude Code</a>.
+      It builds a knowledge graph of biological specimens — who has what, where, at what quality,
+      under what consent, at what cost.</p>
+
+      <p>Four phases in a loop:</p>
+
+      <div class="example" style="font-size:14px; line-height:2"><span class="ex-v">Ingest</span>    papers, trials, biobank uploads → immutable markdown
+<span class="ex-v">Compile</span>  raw docs → structured wiki entities, cross-linked
+<span class="ex-v">Query</span>    read the wiki, score candidates, deliver a recommendation
+<span class="ex-v">Lint</span>     scan for gaps, staleness, broken links → feed back to compile</div>
+
+      <p>The wiki starts empty and grows with every question. 20 skills. 4 agents.
+      MIT licensed. Your data stays on your machine.</p>
+
+      <a class="btn-p" href="docs/getting-started/quickstart.html">Get started</a>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="w">
+      <p><a href="/">Home</a> · <a href="docs/">Docs</a> · <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a></p>
+      <p style="margin-top:12px">&copy; 2026 vCRO &middot; MIT License</p>
+    </div>
+  </footer>
+
+</body>
+</html>

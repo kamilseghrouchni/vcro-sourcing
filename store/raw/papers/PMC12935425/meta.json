@@ -1,0 +1,202 @@
+{
+  "pmid": "41740144",
+  "pmc": "PMC12935425",
+  "doi": "10.2196/82891",
+  "title": "Efficacy of Bacopa monnieri (Linn.) on Cognitive Function and Alterations in Blood Metabolites in Patients With Amnestic Mild Cognitive Impairment and Early Alzheimer Disease: Protocol for an Exploratory Double-Blind, Randomized, Placebo-Controlled Trial",
+  "journal": "JMIR Research Protocols",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Dwivedi Abhilasha",
+      "affiliations": [
+        "Department of Neurology, Faculty of Neurology, All India Institute of Medical Sciences, 7th Floor, Room no. 708, New Delhi, 110029, India, 91 8929466868"
+      ]
+    },
+    {
+      "name": "Anjali Anjali",
+      "affiliations": [
+        "Department of Neurology, Faculty of Neurology, All India Institute of Medical Sciences, 7th Floor, Room no. 708, New Delhi, 110029, India, 91 8929466868"
+      ]
+    },
+    {
+      "name": "Narzari Hina",
+      "affiliations": [
+        "Department of Biostatistics, All India Institute of Medical Sciences, New Delhi, India"
+      ]
+    },
+    {
+      "name": "Kumar Yashwant",
+      "affiliations": [
+        "Noncommunicable Diseases, Translational Health Science and Technology Institute, Faridabad, India"
+      ]
+    },
+    {
+      "name": "Sharma Hanuman Prasad",
+      "affiliations": [
+        "Bioanalytics Facility, Centralized Core Research Facility, All India Institute of Medical Sciences, New Delhi, India"
+      ]
+    },
+    {
+      "name": "Dubey Aditi",
+      "affiliations": [
+        "Department of Neurology, Faculty of Neurology, All India Institute of Medical Sciences, 7th Floor, Room no. 708, New Delhi, 110029, India, 91 8929466868"
+      ]
+    },
+    {
+      "name": "Nilima Nilima",
+      "affiliations": [
+        "Department of Biostatistics, All India Institute of Medical Sciences, New Delhi, India"
+      ]
+    },
+    {
+      "name": "Rajan Roopa",
+      "affiliations": [
+        "Department of Neurology, Faculty of Neurology, All India Institute of Medical Sciences, 7th Floor, Room no. 708, New Delhi, 110029, India, 91 8929466868"
+      ]
+    },
+    {
+      "name": "Bhushan Singh Mamta",
+      "affiliations": [
+        "Department of Neurology, Faculty of Neurology, All India Institute of Medical Sciences, 7th Floor, Room no. 708, New Delhi, 110029, India, 91 8929466868"
+      ]
+    },
+    {
+      "name": "Vishnu Venugopalan Y",
+      "affiliations": [
+        "Department of Neurology, Faculty of Neurology, All India Institute of Medical Sciences, 7th Floor, Room no. 708, New Delhi, 110029, India, 91 8929466868"
+      ]
+    },
+    {
+      "name": "Bhatia Rohit",
+      "affiliations": [
+        "Department of Neurology, Faculty of Neurology, All India Institute of Medical Sciences, 7th Floor, Room no. 708, New Delhi, 110029, India, 91 8929466868"
+      ]
+    },
+    {
+      "name": "Sharma Gautam",
+      "affiliations": [
+        "Department of Cardiology, Incharge Center for Integrative Medicine and Research, Faculty of Cardiology, All India Institute of Medical Sciences, Delhi, India"
+      ]
+    },
+    {
+      "name": "Gupta Anu",
+      "affiliations": [
+        "Department of Neurology, Faculty of Neurology, All India Institute of Medical Sciences, 7th Floor, Room no. 708, New Delhi, 110029, India, 91 8929466868"
+      ]
+    }
+  ],
+  "keywords": [
+    "Bacopa monnieri (Linn.)",
+    "mild cognitive impairment",
+    "MCI",
+    "amnestic",
+    "Alzheimer disease",
+    "AD",
+    "metabolomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2025-08-23",
+  "accepted": "2025-12-31",
+  "reference_pmids": [
+    "39343474",
+    "38324518",
+    "37965493",
+    "16549412",
+    "27065855",
+    "39081336",
+    "38059250",
+    "35078087",
+    "28588366",
+    "23055641",
+    "19808086",
+    "23949198",
+    "26413117",
+    "25737970",
+    "22447676",
+    "26413129",
+    "26413126",
+    "21783922",
+    "13680815",
+    "16914834",
+    "18755259",
+    "24252493",
+    "23320031",
+    "35612544",
+    "34063409",
+    "41006122",
+    "33269100",
+    "32793799",
+    "31824405",
+    "36295851",
+    "33164929",
+    "41229615",
+    "21514249",
+    "33412549",
+    "29213896",
+    "32188967",
+    "16252378",
+    "32184582",
+    "28641411",
+    "32678274",
+    "40583793",
+    "33692683",
+    "29188854",
+    "20703343",
+    "12093601",
+    "23354535",
+    "17442556",
+    "18683852",
+    "33688125",
+    "38671841"
+  ],
+  "tables_count": 3,
+  "figures_count": 1,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "background",
+    "need for the study",
+    "objectives",
+    "methods",
+    "study design",
+    "study settings",
+    "study population (inclusion criteria)",
+    "exclusion criteria",
+    "recruitment and baseline assessment",
+    "blood sample collection and storage",
+    "randomization",
+    "allocation concealment",
+    "blinding",
+    "intervention arm",
+    "control arm",
+    "methodology for metabolomics",
+    "sample preparation for protein extraction",
+    "lc-ms/ms methodology",
+    "data processing",
+    "follow-up",
+    "outcomes",
+    "ethical considerations",
+    "statistical methods",
+    "sample size estimation",
+    "planned analyses",
+    "reporting guidelines",
+    "dissemination of results",
+    "results",
+    "study status and timeline",
+    "baseline characteristics",
+    "deviations from original registered protocol",
+    "discussion",
+    "principal findings",
+    "strengths and limitations",
+    "future work",
+    "conclusion",
+    "supplementary material",
+    "acknowledgements",
+    "references"
+  ],
+  "word_count": 9006,
+  "converted_at": "2026-04-06T22:39:17.404374+00:00"
+}

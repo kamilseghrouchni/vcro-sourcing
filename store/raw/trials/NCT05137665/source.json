@@ -1,0 +1,610 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05137665",
+      "orgStudyIdInfo": {
+        "id": "21-500-101-70-09"
+      },
+      "organization": {
+        "fullName": "Target ALS Foundation, Inc.",
+        "class": "OTHER"
+      },
+      "briefTitle": "Target ALS Biomarker Study; Longitudinal Biofluids, Clinical Measures, and At Home Measures",
+      "officialTitle": "Target ALS Biomarker Study; Longitudinal Biofluids, Clinical Measures, and At - Home Measures",
+      "acronym": "TALSLB"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-06-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-11-16",
+      "studyFirstSubmitQcDate": "2021-11-16",
+      "studyFirstPostDateStruct": {
+        "date": "2021-11-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Target ALS Foundation, Inc.",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of the study is to generate a biorepository of longitudinal biofluids-blood (plasma and serum), cerebral spinal fluid (CSF) and urine linked to genetics and longitudinal clinical information that are made available to the research community. To accomplish these goals, we will enroll 800 Amyotrophic Lateral Sclerosis (ALS) patients and 200 healthy controls from sites globally, over a 5 year time frame. Additionally, speech and motor function and spirometry measures will be collected bi-weekly in a subset of participants. ALS participants will be asked to come to the clinic for 5 study visits approximately every 4 months. Healthy participants will be coming for 2 study visits with a 12-month interval between visits. These samples and clinical information will be stored in a de-identified manner and made available for investigators to use in future research studies.",
+      "detailedDescription": "An industry wide survey performed by Dr. Lyle Ostrow at Johns Hopkins University indicated that longitudinal biofluids linked to detailed clinical information are critical to continued drug development for amyotrophic lateral sclerosis (ALS), with CSF being the top biofluid often lacking in longitudinal sample biorepositories. There have been prior efforts for longitudinal collection of biofluids matched to clinical information, but those sample sets are limited in size and quickly utilized by the research community. Based upon input from industry leaders, we propose the creation of a Target ALS longitudinal biofluids biorepository linked to patient genetic and clinical information.\n\nGiven the heterogeneous clinical and biologic nature of ALS, a repository of longitudinal samples linked to clinical and genetic information is essential to help identify and verify ALS biomarkers (1,2). Recent studies to identify ALS biomarkers have used longitudinal samples from either the sporadic patient population or from those that harbor genetic mutations known to cause ALS but are not yet symptomatic (3,4). Beyond exploring the relationship between known causative genes and candidate biomarkers, the Target ALS Postmortem Core has collected postmortem ALS tissue samples that have been used to generate large transcriptomic databases that are linked to whole genome sequencing information. These data have been valuable at finding new subtypes of ALS linked to transcriptomic profiles from the tissue samples (5). The current study utilizes some of the medical centers participating in the Target ALS Postmortem Core to create a longitudinal biofluids repository form living ALS patients and health controls. A select number of participating sites will have a portion of ALS participants (approx. 150) have the option to take part in at home speech measures. Additionally, a select number of participating sites will also take part in at- home spirometry measures for approximately 100 ALS participants and approximately 50 healthy case control participants, for a total of 150 participants. The added feature of these at- home measures are to further evaluate the potential for at home measures in future clinical trials and ability to obtain enriched speech and vital capacity measures to correlate to downstream biomarker studies using biofluid or genetic data. There is a growing interest in the use of at home speech analytics to classify and monitor ALS patients, with recent studies indicating the value for these at home measures in both clinical research and clinical trial settings (6-8). Our study will not only expand upon these early findings but also include at home spirometry measures of vital capacity to evaluate the ability to obtain reliable vital capacity measures at home.\n\nOur proposed study will provide valuable longitudinal biofluids linked to clinical information, genetic data, at-home speech measures, and vital capacity measures for use in future research studies. Target ALS has planned to generate proteomic, lipidomic and metabolomic datasets using the longitudinal biofluids collected in this study. Inclusion of samples with racial and ethnic diversity will further strengthen study outcomes to be applied to ALS communities more broadly. These de-identified samples and clinical information will be available to investigators throughout the world to enhance ALS research and ultimately improved treatments for ALS. There is a long history of benefit for biorepositories with linked clinical data to be instrumental in research progress. Most studies that identify biomarkers or validate biomarkers for human diseases typically require banked samples that are linked to clinical information to determine sensitivity and specificity of the biomarker for that disease or to demonstrate change over the course of the disease."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis",
+        "Movement Disorders",
+        "Degenerative Disorder",
+        "Motor Neuron Disease"
+      ],
+      "keywords": [
+        "Amyotrophic Lateral Sclerosis",
+        "ALS Amyotrophic Lateral Sclerosis",
+        "Target ALS",
+        "Longitudinal Biofluids",
+        "Barrow Neurological Institute",
+        "New York Genome Center",
+        "Biofluids Biorepository",
+        "Genomic-wide association studies",
+        "observational study",
+        "Biofluid Samples"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "5 Years",
+      "designInfo": {
+        "observationalModel": "OTHER",
+        "timePerspective": "OTHER"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Participating sites will label and freeze up to two blood tubes collected from each study participant for DNA extraction and analysis. DNA extraction and sequencing will be performed at the New York Genome Center (NYGC), Psomagen, or another central lab that Target ALS partners with. DNA may be stored, used in genome-wide association studies (GWAS), whole genome sequencing, exome sequencing, or for any other known or as yet undiscovered DNA analysis applicable to understanding or targeting disease, with a particular emphasis on ALS. The information from these genetic studies may be made available to collaborators in academia, not-for-profit settings, or industry for appropriate research. Results of DNA testing from this study will not go into the participant's medical record."
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Amyotrophic Lateral Sclerosis ALS",
+          "description": "This is a global, multi-center study of ALS participants and healthy controls that will have up to 20 sites globally. Target enrollment will be approximately 1000 participants with 800 ALS participants and 200 healthy control cases. Research participants with suspected, possible, probable, probable- laboratory supported, and definite Amyotrophic Lateral Sclerosis (ALS), according to the revised El Escorial Criteria (EEC) or with a diagnosis based on the Gold Coast Criteria will be seen at the Screening/Baseline Visit(s) (Visit 1) and follow-up will occur at approximate 4-month internals for up to 5 visits per participant."
+        },
+        {
+          "label": "Healthy",
+          "description": "Healthy control participants will have a neurological exam to confirm non-neurologic disease status and participants will have one follow up visit approximately 12 months after their baseline visit. Upon consenting for participation, all study participants will undergo the activities and biofluid collections at each visit."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Biofluid Biorepository",
+          "description": "This project will create a biorepository of longitudinal biofluid samples, linked to clinical measures, and at home measures",
+          "timeFrame": "+ 3.5 Years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "ALS Participants:\n\n1. Age 18 or older.\n2. A diagnosis of ALS in accordance with Gold Coast criteria.\n3. Full Vital Capacity (FVC) of ≥30% or at the discretion of the Principal Investigator for the participant's predicted value for gender, height, and age at the time of screening.\n4. Ability to provide informed consent and understand the purpose and risks of the study.\n5. Ability to comply with study procedures and assessments, in the opinion of the Principal Investigator.\n\nHealthy Control Participants:\n\n1. Age 18 or older.\n2. No history of neurological disease, in the opinion of the Principal Investigator.\n3. No known ALS- associated genetic mutations at the time of consent.\n4. Ability to provide informed consent and understand the purpose and risks of the study.\n5. Ability to comply with study procedures and assessments, in the opinion of the Principal Investigator.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "A biorepository of longitudinal blood (plasma and serum), cerebral spinal fluid (CSF) and urine linked to genetics and longitudinal clinical information that are made available to the research community will be made from ALS and healthy control participants. This is a large multi-center study, including several international sites with the goal of developing a robust sample set from genetic and racially diverse populations. To enable well-powered biomarker research, the enrollment goal is at least 800 ALS patients and 200 healthy participants in five years.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Laura Dugom, MPH",
+          "role": "CONTACT",
+          "phone": "919-440-2073",
+          "email": "laura.dugom@targetals.org"
+        },
+        {
+          "name": "Robert Bowser, PhD",
+          "role": "CONTACT",
+          "phone": "602-406-8989",
+          "email": "robert.bowser@dignityhealth.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Laura Dugom, MPH",
+          "affiliation": "Target ALS Foundation, Inc.",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Amy Easton, PhD",
+          "affiliation": "Target ALS Foundation, Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Barrow Neurological Institute",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85013",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Whitney Dailey, MS",
+              "role": "CONTACT",
+              "phone": "602-406-7804",
+              "phoneExt": "67804",
+              "email": "whitney.dailey@dignityhealth.org"
+            },
+            {
+              "name": "Shafeeq Ladha, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "University of California San Diego",
+          "status": "RECRUITING",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92121",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Gil Gutierrez",
+              "role": "CONTACT",
+              "email": "grg005@health.ucsd.edu"
+            },
+            {
+              "name": "John Ravits, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Georgetown University",
+          "status": "RECRUITING",
+          "city": "Georgetown",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cassie Holmes, NP",
+              "role": "CONTACT",
+              "email": "cjh278@georgetown.edu"
+            },
+            {
+              "name": "Brent Harris, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Nicholas Streicher, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.90483,
+            "lon": -77.06248
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "status": "RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Huy Tran",
+              "role": "CONTACT",
+              "email": "tran.huy1@mayo.edu"
+            },
+            {
+              "name": "Bjorn Oskarsson, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Northwestern University",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Arleen Matos",
+              "role": "CONTACT",
+              "phone": "(312) 503-0748",
+              "email": "arleen.matos@northwestern.edu"
+            },
+            {
+              "name": "Emma Schmidt",
+              "role": "CONTACT",
+              "email": "emma.schmidt@northwestern.edu"
+            },
+            {
+              "name": "Senda Ajroud- Driss, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lada Filippov",
+              "role": "CONTACT",
+              "phone": "617-724-7048",
+              "email": "lfilippov@mgh.harvard.edu"
+            },
+            {
+              "name": "Carolyn Dwyer",
+              "role": "CONTACT",
+              "phone": "617-724-7928",
+              "email": "targetals@mgb.org"
+            },
+            {
+              "name": "James Berry, MD MPH",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Washington University",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nathan Budden",
+              "role": "CONTACT",
+              "email": "budden@wustl.edu"
+            },
+            {
+              "name": "Tim Miller, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Cindy Ly, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Columbia University",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ben Hoover",
+              "role": "CONTACT",
+              "email": "bnh2119@cumc.columbia.edu"
+            },
+            {
+              "name": "Sarah Griffen",
+              "role": "CONTACT",
+              "email": "sjg2220@cumc.columbia.edu"
+            },
+            {
+              "name": "Neil Shneider, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Matthew Harms, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Hala Khan, MPH",
+              "role": "CONTACT",
+              "email": "Hala.Khan@bcm.edu"
+            },
+            {
+              "name": "Jorge Zapiain",
+              "role": "CONTACT",
+              "email": "Jorge.ZaragozaZapiain@bcm.edu"
+            },
+            {
+              "name": "Lydia Jane Sharp, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "James Orengo, MD PhD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Washington",
+          "status": "RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98195",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kaycie Opiyo",
+              "role": "CONTACT",
+              "email": "tkaycie@uw.edu"
+            },
+            {
+              "name": "Michael Weiss, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Instituto Roosevelt",
+          "status": "RECRUITING",
+          "city": "Bogotá",
+          "country": "Colombia",
+          "contacts": [
+            {
+              "name": "Manuela Quiroga Carrillo",
+              "role": "CONTACT",
+              "email": "mquiroga@ioir.org.co"
+            },
+            {
+              "name": "Luisa Fernanda Acevedo Moreno",
+              "role": "CONTACT",
+              "email": "l.acevedo@ioir.org.co"
+            },
+            {
+              "name": "Martha Pena, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "CHALS-CCT UPR MScience",
+          "status": "RECRUITING",
+          "city": "San Juan",
+          "zip": "00935",
+          "country": "Puerto Rico",
+          "contacts": [
+            {
+              "name": "Frances Aponte",
+              "role": "CONTACT",
+              "email": "frances.aponte2@upr.edu"
+            },
+            {
+              "name": "Valerie Wojna, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Brenda Deliz, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 18.46633,
+            "lon": -66.10572
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30941088",
+          "type": "BACKGROUND",
+          "citation": "Chipika RH, Finegan E, Li Hi Shing S, Hardiman O, Bede P. Tracking a Fast-Moving Disease: Longitudinal Markers, Monitoring, and Clinical Trial Endpoints in ALS. Front Neurol. 2019 Mar 19;10:229. doi: 10.3389/fneur.2019.00229. eCollection 2019."
+        },
+        {
+          "pmid": "31432691",
+          "type": "BACKGROUND",
+          "citation": "Benatar M, Wuu J, Lombardi V, Jeromin A, Bowser R, Andersen PM, Malaspina A. Neurofilaments in pre-symptomatic ALS and the impact of genotype. Amyotroph Lateral Scler Frontotemporal Degener. 2019 Nov;20(7-8):538-548. doi: 10.1080/21678421.2019.1646769. Epub 2019 Aug 21."
+        },
+        {
+          "pmid": "32515902",
+          "type": "BACKGROUND",
+          "citation": "Huang F, Zhu Y, Hsiao-Nakamoto J, Tang X, Dugas JC, Moscovitch-Lopatin M, Glass JD, Brown RH Jr, Ladha SS, Lacomis D, Harris JM, Scearce-Levie K, Ho C, Bowser R, Berry JD. Longitudinal biomarkers in amyotrophic lateral sclerosis. Ann Clin Transl Neurol. 2020 Jul;7(7):1103-1116. doi: 10.1002/acn3.51078. Epub 2020 Jun 9."
+        },
+        {
+          "pmid": "31665631",
+          "type": "BACKGROUND",
+          "citation": "Tam OH, Rozhkov NV, Shaw R, Kim D, Hubbard I, Fennessey S, Propp N; NYGC ALS Consortium; Fagegaltier D, Harris BT, Ostrow LW, Phatnani H, Ravits J, Dubnau J, Gale Hammell M. Postmortem Cortex Samples Identify Distinct Molecular Subtypes of ALS: Retrotransposon Activation, Oxidative Stress, and Activated Glia. Cell Rep. 2019 Oct 29;29(5):1164-1177.e5. doi: 10.1016/j.celrep.2019.09.066."
+        },
+        {
+          "pmid": "32126556",
+          "type": "BACKGROUND",
+          "citation": "Vieira H, Costa N, Sousa T, Reis S, Coelho L. Voice-Based Classification of Amyotrophic Lateral Sclerosis: Where Are We and Where Are We Going? A Systematic Review. Neurodegener Dis. 2019;19(5-6):163-170. doi: 10.1159/000506259. Epub 2020 Mar 3."
+        },
+        {
+          "pmid": "32138555",
+          "type": "BACKGROUND",
+          "citation": "Barnett C, Green JR, Marzouqah R, Stipancic KL, Berry JD, Korngut L, Genge A, Shoesmith C, Briemberg H, Abrahao A, Kalra S, Zinman L, Yunusova Y. Reliability and validity of speech & pause measures during passage reading in ALS. Amyotroph Lateral Scler Frontotemporal Degener. 2020 Feb;21(1-2):42-50. doi: 10.1080/21678421.2019.1697888. Epub 2019 Dec 6."
+        },
+        {
+          "pmid": "32515889",
+          "type": "BACKGROUND",
+          "citation": "Rutkove SB, Narayanaswami P, Berisha V, Liss J, Hahn S, Shelton K, Qi K, Pandeya S, Shefner JM. Improved ALS clinical trials through frequent at-home self-assessment: a proof of concept study. Ann Clin Transl Neurol. 2020 Jul;7(7):1148-1157. doi: 10.1002/acn3.51096. Epub 2020 Jun 9."
+        },
+        {
+          "pmid": "23834161",
+          "type": "BACKGROUND",
+          "citation": "Quinn C, Macklin EA, Atassi N, Bowser R, Boylan K, Cudkowicz M, Fournier C, Ladha SS, Lacomis D, Berry J. Post-lumbar puncture headache is reduced with use of atraumatic needles in ALS. Amyotroph Lateral Scler Frontotemporal Degener. 2013 Dec;14(7-8):632-4. doi: 10.3109/21678421.2013.808227. Epub 2013 Jul 8. No abstract available."
+        },
+        {
+          "pmid": "16705110",
+          "type": "BACKGROUND",
+          "citation": "Schievink WI. Spontaneous spinal cerebrospinal fluid leaks and intracranial hypotension. JAMA. 2006 May 17;295(19):2286-96. doi: 10.1001/jama.295.19.2286."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "These samples and clinical information will be stored in a de-identified manner and made available for investigators to use in future research studies.\n\nIt is expected to take approximately 5 years to complete all sample and data collection for the study. The first phase of the study will involve activating all sites participating in the study, and will take about 4 months to complete. The enrollment period is expected to be about 5 years. Active assessment for each subject will be for 16-18 months from the time of enrollment. After the end of active assessment period (5 years), the bio-samples and clinical information from the study will be made available for future research.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "Greater than 5+ Years",
+      "accessCriteria": "Access available using published manuscripts and stored biofluids using LIMS.",
+      "url": "https://www.targetals.org/resource/longitudinal-biofluids-core"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

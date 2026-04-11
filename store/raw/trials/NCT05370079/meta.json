@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT05370079",
+  "title": "Control Cohort CTRL COH",
+  "brief_title": "Control Cohort CTRL COH",
+  "status": "RECRUITING",
+  "phase": "NA",
+  "study_type": "INTERVENTIONAL",
+  "enrollment": 350,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Parkinson's Disease; Amyotrophic Lateral Sclerosis; Glioblastoma; Cancer Without Neurological Disease; Rheumatoid Polyarthritis"
+  ],
+  "keywords": [
+    "Biological collection, control cohort,, new biomarkers"
+  ],
+  "sponsor": "Hospices Civils de Lyon",
+  "sponsor_class": "OTHER",
+  "collaborators": [],
+  "lead_pi": {
+    "name": "Jerome Honnorat, Pr",
+    "affiliation": "Centre de référence des syndromes neurologiques paranéoplasiques et encéphalites auto-immunes, Lyon, France"
+  },
+  "start_date": "2023-08-08",
+  "completion_date": "2028-08-08",
+  "primary_completion_date": "2028-08-08",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Hospices Civils de Lyon",
+      "city": "Bron",
+      "state": "",
+      "country": "France",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* patient with consent\n* patient with following disease: Parkinson's disease, Amyotrophic lateral sclerosis, Glioblastoma, cancer without neurological disease (pulmonary cancer, breast cancer, ovarian cancer, melanoma, thymoma), rheumatoid arthritis.\n\nExclusion Criteria:\n\n* refusal consent\n* patient with neurological disorder compatible with paraneoplastic neurological syndrome or auto-immune encephalitis\n* patient under guardianship",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Samples (blood dry and EDTA tube and optional cerebro-spinal-fluid)",
+      "description": "Numbers of samples collected and patients included in the cohort",
+      "timeFrame": "15 minutes"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Description of genetic analysis",
+      "description": "Number of new biomarkers (genetic) and specific HLA (human leucocyte antigen)",
+      "timeFrame": "Data collecting: 3 years Data analysis: 2 years"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "Autoimmune encephalitis (AE) and paraneoplastic neurological syndromes (PNS) are rare disease that could be difficult to diagnose. So it necessary to obtain numerous sample from different disease to develop more specific diagnosis kit It could be possible through the characterisation of new genetic biomarkers.",
+  "detailed_description": "",
+  "interventions": [
+    {
+      "type": "BIOLOGICAL",
+      "name": "Collection of biological sample (blood and/or CSF)",
+      "description": "Blood sample will be collected one time for each patient:\n\n2 \\*4ml of blood on dry tube 2 \\*4ml of blood on EDTA tube\n\nIf cerebrospinal fluid (CSF) has been drawn for diagnosis, remaining sample available will be stored in the control cohort (1 ml)."
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:57.110273+00:00"
+}

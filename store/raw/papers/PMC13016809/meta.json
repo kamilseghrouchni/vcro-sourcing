@@ -1,0 +1,185 @@
+{
+  "pmid": "40974012",
+  "pmc": "PMC13016809",
+  "doi": "10.1093/brain/awaf346",
+  "title": "Staging Alzheimer’s disease through amyloid and tau PET",
+  "journal": "Brain",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Johnson Derek R",
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Wiste Heather J",
+      "affiliations": [
+        "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Lowe Val",
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Schwarz Christopher G",
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Knopman David S",
+      "affiliations": [
+        "Department of Neurology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Vemuri Prashanthi",
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Kantarci Kejal",
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Boeve Bradley F",
+      "affiliations": [
+        "Department of Neurology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Graff-Radford Jonathan",
+      "affiliations": [
+        "Department of Neurology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Cogswell Petrice M",
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Senjem Matthew C",
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN 55905, USA",
+        "Department of Information Technology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Therneau Terry M",
+      "affiliations": [
+        "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Griswold Michael E",
+      "affiliations": [
+        "Department of Data Science, University of Mississippi Medical Center, Jackson, MS 39216, USA"
+      ]
+    },
+    {
+      "name": "Hu Mingzhao",
+      "affiliations": [
+        "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Petersen Ronald C",
+      "affiliations": [
+        "Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN 55905, USA",
+        "Department of Neurology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    },
+    {
+      "name": "Jack Clifford R",
+      "affiliations": [
+        "Department of Radiology, Mayo Clinic, Rochester, MN 55905, USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "dementia",
+    "neuroimaging",
+    "biomarker"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Institutes of Health10.13039/100000002 R37 AG011378RO1 AG041851R01 AG056366R01 NS097495U01 AG06786R01 AG034676",
+    "Alzheimer’s Disease Neuroimaging Initiative10.13039/100014041",
+    "National Institute on Aging10.13039/100000049",
+    "National Institute of Biomedical Imaging and Bioengineering10.13039/100000070",
+    "Johnson & Johnson Pharmaceutical Research & Development10.13039/100014489",
+    "Northern California Institute for Research and Education10.13039/100009804",
+    "University of Southern California10.13039/100006034"
+  ],
+  "data_availability_text": "Data availabilityData from the Mayo cohort are available to qualified academic and industry researchers by request to the MCSA and ADRC Executive Committee (https://www.mayo.edu/research/centers-programs/alzheimers-disease-research-center/research-activities/mayo-clinic-study-aging/for-researchers/data-sharing-resources). Data used in preparation of this article were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in analysis or writing of this report. A complete listing of ADNI investigators can be found at: http://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf",
+  "license": "",
+  "received": "2025-03-23",
+  "accepted": "2025-08-15",
+  "reference_pmids": [
+    "38934362",
+    "29653606",
+    "21514247",
+    "38778353",
+    "38265198",
+    "36710683",
+    "40582836",
+    "37357276",
+    "36789483",
+    "36357681",
+    "38429551",
+    "40276985",
+    "18259084",
+    "39258539",
+    "15324362",
+    "31280871",
+    "14676056",
+    "14991808",
+    "23411393",
+    "30475770",
+    "27697430",
+    "25443857",
+    "29743601",
+    "30347188",
+    "34890793",
+    "39041435",
+    "37424964",
+    "39041435",
+    "27931796",
+    "26194310",
+    "20451870",
+    "18302232",
+    "39614747",
+    "39394841",
+    "39120898",
+    "39776249"
+  ],
+  "tables_count": 3,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "participants",
+    "protocol approval and patient consent",
+    "imaging methods",
+    "biofluid methods",
+    "statistical methods",
+    "results",
+    "discussion",
+    "supplementary material",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8778,
+  "converted_at": "2026-04-06T22:39:40.900150+00:00"
+}

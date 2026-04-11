@@ -1,0 +1,314 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05309408",
+      "orgStudyIdInfo": {
+        "id": "HNR21-001"
+      },
+      "organization": {
+        "fullName": "Holy Cross Hospital, Florida",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Longitudinal Analysis of Biomarkers in Patients With ALS",
+      "officialTitle": "A Longitudinal Analysis of Biomarkers in Patients With ALS",
+      "acronym": "LAB-PALS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-06-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-01-20",
+      "studyFirstSubmitQcDate": "2022-04-01",
+      "studyFirstPostDateStruct": {
+        "date": "2022-04-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-09-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Holy Cross Hospital, Florida",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Massachusetts General Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Longitudinally collect biomarkers from patients with amyotrophic lateral sclerosis (ALS) and control participants in order to further elucidate both potential causes and treatments for ALS. Samples and clinical information will be collected from patients with ALS and controls.",
+      "detailedDescription": "The objective of the proposed study is to longitudinally collect biomarkers from patients with amyotrophic lateral sclerosis (ALS) and control participants in order to further elucidate both potential causes and treatments for ALS. The investigators will collect blood or any of the following biofluids: blood, urine, and cerebrospinal fluid (CSF), and process, analyze and store plasma, serum, whole blood, cerebrospinal fluid (CSF), urine, peripheral blood mononuclear cells (PBMC), deoxyribonucleic acid (DNA), and/or ribonucleic acid (RNA). Blood collected in this study may also potentially be used to create induced pluripotent stem cells (iPSCs). Excess samples will be stored in a repository at Massachusetts General Hospital ALS Sample Repository for future research on ALS and related motor neuron diseases. Planned analyses may include but will not be limited to: exploring immune cell populations, gene expression profiling, and analysis or metabolites, proteins, RNA, DNA obtained from blood and/or exploring associated clinical parameters. Analyses will explore the differences of these factors between ALS and control subjects.\n\nSamples and clinical information will be collected from patients with ALS and controls. Samples will be collected from ALS subjects a maximum of 7 times over a period of up to 30 months, with approximately 3 months (and no less than 2 months) between visits. Controls will consist of participants who do not have chronic neurodegenerative diseases or diseases that mimic ALS. Up to 60 ALS subjects and 30 control subjects will be enrolled in the study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "CROSS_SECTIONAL"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "plasma, serum, whole blood, cerebrospinal fluid (CSF), urine, peripheral blood mononuclear cells (PBMC), deoxyribonucleic acid (DNA), and/or ribonucleic acid (RNA)."
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ALS",
+          "description": "Patients with Amyotrophic Lateral Sclerosis (ALS)",
+          "interventionNames": [
+            "Diagnostic Test: Venipuncture",
+            "Diagnostic Test: Lumbar Puncture"
+          ]
+        },
+        {
+          "label": "Control",
+          "description": "Participants who do not have chronic neuromuscular diseases or diseases that mimic ALS.",
+          "interventionNames": [
+            "Diagnostic Test: Venipuncture",
+            "Diagnostic Test: Lumbar Puncture"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Venipuncture",
+          "description": "Venipuncture",
+          "armGroupLabels": [
+            "ALS",
+            "Control"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Lumbar Puncture",
+          "description": "Lumbar Puncture",
+          "armGroupLabels": [
+            "ALS",
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Biofluid Biorepository [ Time Frame: + 2.5 Years ]",
+          "description": "This project will create a biorepository of longitudinal biofluid samples, linked to clinical measures, and at home measures in order to further elucidate both potential causes and treatments for ALS.",
+          "timeFrame": "30 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. 18 years of age or older at time of consent.\n2. Capable of providing informed consent.\n3. Capable of complying with study procedures.\n4. ALS Subjects only: ALS subjects diagnosed with familial or sporadic ALS as according to the El Escorial Criteria (suspected, possible, probable - lab supported, probable, or definite) or individuals with known gene mutations associated with ALS (regardless of clinical phenotype)\n5. Control Subjects only: Absence of autoimmune myopathy, neuropathy, ALS mimic disorder, or any other neurodegenerative disease or known diagnosis of ALS, or known ALS causative gene\n6. Lumbar Puncture volunteers only: Clinically appropriate to have a lumbar puncture\n\nExclusion Criteria:\n\n1. Presence of a neurodegenerative disease other than ALS\n2. Clinically significant history of unstable medical illness\n3. Inability to comply with study procedures, in the view of the investigator\n4. Lumbar Puncture volunteers only: Presence of bleeding disorder, problems with cerebrospinal fluid pressure, allergy to local anesthetics, a topical or other skin infection at the lumbar puncture site\n5. Lumbar Puncture volunteers only: Taking an anti-platelet or anticoagulant drug, such as Plavix, Brilinta, Ticlid, Warfarin/Coumadin, Lovenox, Elaquis, Pradaxa, Xarelto, etc, and unable to safely hold it for this study. (Aspirin is allowed)\n6. Taking any immunomodulatory or immunosuppressive medication, as determined by the principal investigator.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "60 ALS subjects and 30 control subjects will be enrolled in the study",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Ashley Stepler",
+          "role": "CONTACT",
+          "phone": "954-542-3442",
+          "email": "ashley.stepler@holy-cross.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Wilson Burke",
+          "affiliation": "Director",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Holy Cross Hospital",
+          "status": "RECRUITING",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33308",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ashley Stepler",
+              "role": "CONTACT",
+              "phone": "954-542-3442",
+              "email": "ashley.stepler@holy-cross.com"
+            },
+            {
+              "name": "Gustavo Alameda, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018962",
+          "term": "Phlebotomy"
+        },
+        {
+          "id": "D013129",
+          "term": "Spinal Puncture"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001800",
+          "term": "Blood Specimen Collection"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D011677",
+          "term": "Punctures"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D001706",
+          "term": "Biopsy"
+        },
+        {
+          "id": "D003943",
+          "term": "Diagnostic Techniques, Neurological"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

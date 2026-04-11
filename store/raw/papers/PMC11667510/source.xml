@@ -1,0 +1,1407 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz14249" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11667510</article-id><article-id pub-id-type="pmcid-ver">PMC11667510.1</article-id><article-id pub-id-type="pmcaid">11667510</article-id><article-id pub-id-type="pmcaiid">11667510</article-id><article-id pub-id-type="pmid">39439201</article-id><article-id pub-id-type="doi">10.1002/alz.14249</article-id><article-id pub-id-type="publisher-id">ALZ14249</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Comparative brain metabolomics reveals shared and distinct metabolic alterations in Alzheimer's disease and progressive supranuclear palsy</article-title><alt-title alt-title-type="left-running-head">BATRA <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz14249-cr-0001" contrib-type="author"><name name-style="western"><surname>Batra</surname><given-names initials="R">Richa</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3708-0086</contrib-id><xref rid="alz14249-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz14249-cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>Krumsiek</surname><given-names initials="J">Jan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4734-3791</contrib-id><xref rid="alz14249-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>jak2043@med.cornell.edu</email></address></contrib><contrib id="alz14249-cr-0003" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="X">Xue</given-names></name><xref rid="alz14249-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz14249-cr-0004" contrib-type="author"><name name-style="western"><surname>Allen</surname><given-names initials="M">Mariet</given-names></name><xref rid="alz14249-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz14249-cr-0005" contrib-type="author"><name name-style="western"><surname>Blach</surname><given-names initials="C">Colette</given-names></name><xref rid="alz14249-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz14249-cr-0006" contrib-type="author"><name name-style="western"><surname>Kastenmüller</surname><given-names initials="G">Gabi</given-names></name><xref rid="alz14249-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz14249-cr-0007" contrib-type="author"><name name-style="western"><surname>Arnold</surname><given-names initials="M">Matthias</given-names></name><xref rid="alz14249-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="alz14249-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz14249-cr-0008" contrib-type="author" corresp="yes"><name name-style="western"><surname>Ertekin‐Taner</surname><given-names initials="N">Nilüfer</given-names></name><xref rid="alz14249-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz14249-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>taner.nilufer@mayo.edu</email></address></contrib><contrib id="alz14249-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Kaddurah‐Daouk</surname><given-names initials="R">Rima</given-names></name><xref rid="alz14249-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><address><email>rima.kaddurahdaouk@duke.edu</email></address></contrib><contrib id="alz14249-cr-0010" contrib-type="author"><collab collab-type="authors">for the Alzheimer's Disease Metabolomics Consortium (ADMC)</collab></contrib></contrib-group><aff id="alz14249-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Physiology and Biophysics</named-content>
+<named-content content-type="organisation-division">Institute for Computational Biomedicine</named-content>
+<named-content content-type="organisation-division">Englander Institute for Precision Medicine</named-content>
+<institution>Weill Cornell Medicine</institution>
+<city>New York</city>
+<named-content content-type="country-part">New York</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz14249-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Quantitative Health Sciences</named-content>
+<institution>Mayo Clinic Florida</institution>
+<city>Jacksonville</city>
+<named-content content-type="country-part">Florida</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz14249-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neuroscience</named-content>
+<institution>Mayo Clinic Florida</institution>
+<city>Jacksonville</city>
+<named-content content-type="country-part">Florida</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz14249-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Psychiatry and Behavioral Sciences</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz14249-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Computational Biology</named-content>
+<institution>Helmholtz Zentrum München—German Research Center for Environmental Health</institution>
+<city>Neuherberg</city>
+<country country="DE">Germany</country>
+</aff><aff id="alz14249-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Mayo Clinic Florida</institution>
+<city>Jacksonville</city>
+<named-content content-type="country-part">Florida</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz14249-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Psychiatry and Behavioral Sciences</named-content>
+<named-content content-type="organisation-division">Duke Institute for Brain Sciences and Department of Medicine</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Jan Krumsiek, Department of Physiology and Biophysics, Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Weill Cornell Medicine, 1305 York Avenue, New York, NY 10021, USA.<break/> Email: <email>jak2043@med.cornell.edu</email>
+<break/>Nilüfer Ertekin‐Taner, Department of Neuroscience, Mayo Clinic Florida, Jacksonville, FL 32224, USA.<break/> Email: <email>taner.nilufer@mayo.edu</email>
+<break/>Rima Kaddurah‐Daouk, Department of Psychiatry and Behavioral Sciences, Duke Institute for Brain Sciences and Department of Medicine, Duke University, Durham, NC 27708, USA.<break/> Email: <email>rima.kaddurahdaouk@duke.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>22</day><month>10</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2024</year></pub-date><volume>20</volume><issue seq="60">12</issue><issue-id pub-id-type="pmc-issue-id">477664</issue-id><issue-id pub-id-type="doi">10.1002/alz.v20.12</issue-id><fpage>8294</fpage><lpage>8307</lpage><history><date date-type="rev-recd"><day>14</day><month>8</month><year>2024</year></date><date date-type="received"><day>24</day><month>1</month><year>2024</year></date><date date-type="accepted"><day>15</day><month>8</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>22</day><month>10</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>25</day><month>12</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-12-25 00:25:38.870"><day>25</day><month>12</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-20-8294.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-20-8294.pdf"/><related-article xmlns:xlink="http://www.w3.org/1999/xlink" related-article-type="preprint" xml:lang="en" xlink:title="research-article" journal-id="medRxiv" journal-id-type="nlm-ta" ext-link-type="pmc" xlink:href="PMC10402214"><article-title>Comparative brain metabolomics reveals shared and distinct metabolic alterations in Alzheimer’s disease and progressive supranuclear palsy</article-title><date><day>27</day><month>7</month><year>2023</year></date><elocation-id>2023.07.25.23293055</elocation-id><source>medRxiv</source><pub-id pub-id-type="doi">10.1101/2023.07.25.23293055</pub-id><pub-id pub-id-type="pmcid">PMC10402214</pub-id><pub-id pub-id-type="pmid">37546878</pub-id></related-article><abstract><title>Abstract</title><sec id="alz14249-sec-0010"><title>BACKGROUND</title><p>Metabolic dysregulation is a hallmark of neurodegenerative diseases, including Alzheimer's disease (AD) and progressive supranuclear palsy (PSP). Although metabolic dysregulation is a common link between these two tauopathies, a comprehensive brain metabolic comparison of the diseases has not yet been performed.</p></sec><sec id="alz14249-sec-0020"><title>METHODS</title><p>We analyzed 342 postmortem brain samples from the Mayo Clinic Brain Bank and examined 658 metabolites in the cerebellar cortex and the temporal cortex between the two tauopathies.</p></sec><sec id="alz14249-sec-0030"><title>RESULTS</title><p>Our findings indicate that both diseases display oxidative stress associated with lipid metabolism, mitochondrial dysfunction linked to lysine metabolism, and an indication of tau‐induced polyamine stress response. However, specific to AD, we detected glutathione‐related neuroinflammation, deregulations of enzymes tied to purines, and cognitive deficits associated with vitamin B.</p></sec><sec id="alz14249-sec-0040"><title>DISCUSSION</title><p>Our findings underscore vast alterations in the brain's metabolome, illuminating shared neurodegenerative pathways and disease‐specific traits in AD and PSP.</p></sec><sec id="alz14249-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz14249-list-0001"><list-item><p>First high‐throughput metabolic comparison of Alzheimer's diesease (AD) versus progressive supranuclear palsy (PSP) in brain tissue.</p></list-item><list-item><p>Cerebellar cortex (CER) shows substantial AD‐related metabolic changes, despite limited proteinopathy.</p></list-item><list-item><p>AD impacts both CER and temporal cortex (TCX); PSP's changes are primarily in CER.</p></list-item><list-item><p>AD and PSP share metabolic alterations despite major pathological differences.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz14249-kwd-0001">Alzheimer's disease</kwd><kwd id="alz14249-kwd-0002">brain</kwd><kwd id="alz14249-kwd-0003">cognitive deficit</kwd><kwd id="alz14249-kwd-0004">metabolism</kwd><kwd id="alz14249-kwd-0005">mitochondrial dysfunction</kwd><kwd id="alz14249-kwd-0006">neuroinflammation</kwd><kwd id="alz14249-kwd-0007">oxidative stress</kwd><kwd id="alz14249-kwd-0008">progressive supranuclear palsy</kwd><kwd id="alz14249-kwd-0009">tau‐mediated stress</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>National Institute on Aging's Accelerating Medicines Partnership</funding-source></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>NIH
+</institution><institution-id institution-id-type="doi">10.13039/100000002</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>Mayo Clinic
+</institution><institution-id institution-id-type="doi">10.13039/100000871</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0004"><funding-source><institution-wrap><institution>NIA
+</institution><institution-id institution-id-type="doi">10.13039/100000049</institution-id></institution-wrap></funding-source><award-id>P50 AG016574</award-id><award-id>R01 AG032990</award-id><award-id>U01 AG046139</award-id><award-id>R01 AG018023</award-id><award-id>U01 AG006576</award-id><award-id>U01 AG006786</award-id><award-id>R01 AG025711</award-id><award-id>R01 AG017216</award-id><award-id>R01 AG003949</award-id><award-id>R01AG061796</award-id><award-id>U19AG074879</award-id><award-id>1U19AG063744</award-id><award-id>1R01AG069901‐01A1</award-id><award-id>U01AG061357</award-id><award-id>P30AG10161</award-id><award-id>P30AG72975</award-id><award-id>R01AG15819</award-id><award-id>R01AG17917</award-id><award-id>U01AG46152</award-id><award-id>U01AG61356</award-id><award-id>RF1AG058942</award-id><award-id>RF1AG059093</award-id><award-id>U01AG061359</award-id><award-id>P30AG19610</award-id></award-group><award-group id="funding-0005"><funding-source><institution-wrap><institution>National Institute of Neurological Disorders and Stroke
+</institution><institution-id institution-id-type="doi">10.13039/100000065</institution-id></institution-wrap></funding-source><award-id>R01 NS080820</award-id><award-id>U24 NS072026</award-id></award-group><award-group id="funding-0006"><funding-source><institution-wrap><institution>Arizona Department of Health Services
+</institution><institution-id institution-id-type="doi">10.13039/100007306</institution-id></institution-wrap></funding-source><award-id>211002</award-id></award-group><award-group id="funding-0007"><funding-source><institution-wrap><institution>Arizona Biomedical Research Commission
+</institution><institution-id institution-id-type="doi">10.13039/100008335</institution-id></institution-wrap></funding-source><award-id>4001</award-id><award-id>0011</award-id><award-id>05‐901</award-id><award-id>1001</award-id></award-group><award-group id="funding-0008"><funding-source>Alzheimer's Association award</funding-source><award-id>AARFD‐22‐974775</award-id></award-group><award-group id="funding-0009"><funding-source>Alzheimer's Association Zenith Award</funding-source></award-group><award-group id="funding-0010"><funding-source><institution-wrap><institution>Michael J. Fox Foundation for Parkinson's Research
+</institution><institution-id institution-id-type="doi">10.13039/100000864</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0011"><funding-source>Arizona Alzheimers Research Center</funding-source></award-group><award-group id="funding-0012"><funding-source>Sun Health Research Institute</funding-source></award-group><award-group id="funding-0013"><funding-source><institution-wrap><institution>Mayo Foundation
+</institution><institution-id institution-id-type="doi">10.13039/100007048</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0014"><funding-source>CurePSP Foundation</funding-source></award-group></funding-group><counts><fig-count count="4"/><table-count count="1"/><page-count count="14"/><word-count count="8659"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.1 mode:remove_FC converted:24.12.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz14249-cit-0083">
+<string-name name-style="western">
+<surname>Batra</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Krumsiek</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>Comparative brain metabolomics reveals shared and distinct metabolic alterations in Alzheimer's disease and progressive supranuclear palsy</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>20</volume>:<fpage>8294</fpage>–<lpage>8307</lpage>. <pub-id pub-id-type="doi">10.1002/alz.14249</pub-id>
+<pub-id pub-id-type="pmcid">PMC11667510</pub-id><pub-id pub-id-type="pmid">39439201</pub-id></mixed-citation>
+</p><fn-group><fn id="alz14249-note-0001"><p>The full list of contributing scientists is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sites.duke.edu/adnimetab/team/" ext-link-type="uri">https://sites.duke.edu/adnimetab/team/</ext-link>.</p></fn><fn id="alz14249-note-0002" fn-type="equal"><p>Richa Batra, Jan Krumsiek, and Xue Wang contributed equally to this work.</p></fn></fn-group></notes></front><body><sec id="alz14249-sec-0060"><label>1</label><title>BACKGROUND</title><p>Tau protein hyperphosphorylation and its abnormal accumulation in the brain is a hallmark of several neurodegenerative diseases, including Alzheimer's disease (AD) and progressive supranuclear palsy (PSP).<xref rid="alz14249-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> The major clinical symptom of AD is dementia, which predominantly impairs memory,<xref rid="alz14249-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> whereas PSP is a Parkinsonian movement disorder.<xref rid="alz14249-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Despite both representing tauopathies, these diseases have several key differences: First, AD is a dual proteinopathy, displaying deposition of both amyloid beta (Aβ) and tau tangles, whereas PSP is considered to be a pure tauopathy.<xref rid="alz14249-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> Second, the specific tau proteins in the two diseases differ in their protein isoforms.<xref rid="alz14249-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> Although AD presents neuronal tangles composed of tau of both three (3R) and four (4R) microtubule‐binding repeat isoforms, shifting from 3R to 4R with disease progression,<xref rid="alz14249-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> PSP demonstrates different tau‐inclusion patterns predominantly composed of 4R in neurons, astrocytes, oligodendrocytes, and white matter. Furthermore, although both diseases are associated with tau‐encoding microtubule‐associated protein tau (<italic toggle="yes">MAPT</italic>) haplotypes,<xref rid="alz14249-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="alz14249-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> distinct genetic risk factors have been discovered for AD<xref rid="alz14249-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> and PSP,<xref rid="alz14249-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> signifying divergent genetic components contributing to these two diseases. These differences in the genetic risk, involved proteins, and tau isoforms might be the basis of the divergent molecular and clinical presentations of these two pathologies.</p><p>In a comparison of the two diseases at the molecular level, we previously reported a high overlap in transcriptomic signatures of these diseases,<xref rid="alz14249-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz14249-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> including dysregulation of biological processes such as myelination. As a particularly affected cellular process, metabolic dysregulation involving mitochondrial dysfunction is a common disease pathway in neurodegenerative diseases.<xref rid="alz14249-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Especially in AD pathology, such metabolic modulation is an established key component, affecting cellular processes both in the brain and in the periphery.<xref rid="alz14249-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz14249-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz14249-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="alz14249-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz14249-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="alz14249-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="alz14249-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> Moreover, our recent study on postmortem human brain tissue suggested tau as the potential driver of AD‐associated metabolic alterations in the central nervous system.<xref rid="alz14249-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> In the context of PSP, several small‐scale studies have indicated the presence of metabolic dysregulation in cerebrospinal fluid (CSF) and in blood.<xref rid="alz14249-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="alz14249-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+</p><p>Because AD and PSP share the above‐mentioned pathological features, namely, tauopathy and metabolic alterations, comparing their metabolomic profiles can help identify shared biological pathways that could be targeted for therapeutic interventions. Conducting a thorough brain metabolic comparison of the two diseases is crucial to determine the precise alterations in metabolic homeostasis, which is a hallmark of neurodegenerative diseases.<xref rid="alz14249-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz14249-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> To date, there have been no brain metabolic profiling studies of PSP and no comparative metabolomic studies for these tauopathies.</p><p>To address this need, we present a human brain‐based metabolic comparison derived from a sizable cohort of neuropathologically diagnosed AD, PSP, and control donors. We analyzed 342 brain samples, comprising 181 from the cerebellar cortex (CER) and 161 from the temporal cortex (TCX). These two brain regions exhibit varying degrees of proteinopathy across the two diseases, with CER being largely unaffected in both<xref rid="alz14249-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="alz14249-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> and TCX being affected predominantly in AD.<xref rid="alz14249-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="alz14249-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> However, proteinopathy in the CER of patients with AD seems to emerge at later stages,<xref rid="alz14249-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> and this region has been reported to exhibit disease‐driven changes, including atrophy, diffused amyloid presence, and increased microglial activity.<xref rid="alz14249-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> From the perspective of PSP, proteinopathy has traditionally been reported only in the anterior CER<xref rid="alz14249-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>; however, a recent whole‐brain magnetic resonance spectroscopy (MRS)–based study has revealed metabolic changes across various brain regions including both CER and TCX.<xref rid="alz14249-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> Moreover, our previous research has identified transcriptomic alterations common to both diseases and brain regions,<xref rid="alz14249-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz14249-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> suggesting that despite differences in gross pathology, widespread regulatory changes occur in both of these neurodegenerative diseases in both brain regions. Our aim here was to determine if the metabolome, similar to the transcriptome, is also affected across brain regions with varying degrees of proteinopathies and across neurodegenerative diseases—AD and PSP. An overview of the study is depicted in Figure <xref rid="alz14249-fig-0001" ref-type="fig">1</xref>.</p><fig position="float" fig-type="FIGURE" id="alz14249-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Study overview: 342 Mayo Clinic Brain Bank samples were included in this analysis. For each sample, diagnosis and demographic information were available. Metabolomic profiling was performed on samples from the cerebellar cortex (CER) and temporal cortex (TCX) regions. Metabolic signatures of each diagnosis, namely, Alzheimer's disease (AD) and progressive supranuclear palsy (PSP) in comparison to metabolic profiles of controls without neurodegenerative disease. A comparison of the metabolic signatures of the two tauopathies was performed, highlighting the overlap in altered metabolites and metabolic pathways commonly dysregulated in the two diseases.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-20-8294-g002.jpg"/></fig></sec><sec id="alz14249-sec-0070"><label>2</label><title>METHODS</title><sec id="alz14249-sec-0080"><label>2.1</label><title>Cohorts, clinical data, and neuropathological data</title><p>The Mayo Clinic cohort consisted of 162 TCX and 182 CER samples. Among those samples, 138 TCX and CER samples were from the same brain donor. AD, PSP, and control donors were neuropathologically diagnosed at autopsy. AD donors met the neuropathologic criteria for definite AD according to the national institute of neurological and communicative disorders and stroke and the Alzheimer's disease and related disorders association (NINCDS‐ADRDA) criteria<xref rid="alz14249-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> and had a Braak score of ≥4.0. All PSP donors are from the Mayo Clinic Brain Bank and were diagnosed according to national institute of neurological disorders and stroke (NINDS) neuropathologic criteria criteria.<xref rid="alz14249-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> All PSP brains also met the new Rainwater criteria.<xref rid="alz14249-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> Control donors each had Braak neurofibrillary tangle (NFT) stage of 3.0 or less, consortium to establish a registry for Alzheimer's disease (CERAD)<xref rid="alz14249-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> neuritic and cortical plaque densities of 0 (none) or 1 (sparse), and lacked any of the following pathologic diagnoses: AD, Parkinson's disease (PD), dementia with Lewy bodies (DLB), vascular dementia (VaD), PSP, motor neuron disease (MND), corticobasal degeneration (CBD), Pick's disease (PiD), Huntington's disease (HD), frontotemporal lobar degeneration (FTLD), hippocampal sclerosis (HipScl), or dementia lacking distinctive histology (DLDH). These are archival brain bank samples. Information on diet, weight, and body mass index (BMI) is not available. All the donors in this study were non‐Hispanic Whites of North American or European descent. Details on this cohort have also been provided in previous studies.<xref rid="alz14249-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz14249-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="alz14249-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz14249-sec-0090"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz14249-list-0002"><list-item><p>
+<bold>Systematic review</bold>: Although Alzheimer's disease (AD) and progressive supranuclear palsy (PSP) differ in genetic factors, symptoms, and proteinopathy, they share alterations in myelination and mitochondrial metabolism. Metabolic dysregulation is a hallmark of neurodegenerative diseases and a common feature of AD and PSP; however, a comprehensive brain metabolic comparison of these diseases has been missing so far.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: We examined 658 metabolites in cerebellar cortex (CER) and temporal cortex (TCX) brain regions using 342 AD, PSP, or control brain samples from the Mayo Clinic Brain Bank. Our study shows that AD metabolically affects both CER and TCX regions, whereas PSP's impact is mostly in CER. Our study is a first step toward cataloging the common and divergent metabolic changes observed in AD and PSP.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Future research using spatial metabolomics or induced pluripotent stem cell (iPSC)‐derived cells will allow detailed comparisons of the metabolic changes in these diseases at a specific cell type level.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="alz14249-sec-0100"><label>2.2</label><title>Metabolomics profiling</title><p>The untargeted DiscoveryHD4 metabolomics platform from Metabolon Inc. was used to measure brain metabolic profiles. Fractions of the tissue samples were used for two ultra‐high performance liquid chromatography–tandem mass spectrometry (UPLC‐MS/MS; positive ionization), a UPLC‐MS/MS (negative ionization), and a UPLC‐MS/MS polar platform (negative ionization). Based on the spectra, area under the curve (AUC) was used to quantify the peak intensities. An internal spectral database was used for compound identification. Further details can be found in File S1 and a previous publication.<xref rid="alz14249-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>
+</p></sec><sec id="alz14249-sec-0110"><label>2.3</label><title>Data preprocessing</title><p>A total of 827 metabolites were identified by the metabolomics platform. Of these, 658 metabolites with &lt;25% missing values were used for the analysis; the remaining 169 were excluded. To correct for sample‐wise variation, probabilistic quotient normalization was performed,<xref rid="alz14249-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> followed by log<sub>2</sub> transformation. To impute the remaining missing values, a <italic toggle="yes">k</italic>‐nearest‐neighbor–based algorithm was applied as described previously.<xref rid="alz14249-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> The local outlier factor method was used for outlier detection,<xref rid="alz14249-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> identifying no<xref rid="alz14249-fig-0001" ref-type="fig"> </xref> samples to be excluded. Two hundred seventy‐eight irregularly high or low single concentrations with absolute z‐score above <italic toggle="yes">q = abs(qnorm</italic>[0.0125/<italic toggle="yes">n</italic>]), with <italic toggle="yes">n</italic> representing the number of samples, were set to missing. This formula finds the cutoff for values with less than 2.5% two‐tailed probability to originate from the same normal distribution as the rest of the measurement values, after applying a Bonferroni‐inspired correction factor (division by sample size). These values were then imputed using a <italic toggle="yes">k</italic>‐nearest‐neighbor–based algorithm.<xref rid="alz14249-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> All preprocessing was performed using the maplet R package.<xref rid="alz14249-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>
+</p></sec><sec id="alz14249-sec-0120"><label>2.4</label><title>Differential analysis of metabolites</title><p>Of 344 samples, 342 were used for the analysis; 2 with missing apolipoprotein E (<italic toggle="yes">APOE</italic>) ε4 status were excluded. To identify metabolites associated with diagnosis, two subsequent logistic regressions were used as described previously.<xref rid="alz14249-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="alz14249-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> The first model included diagnosis as the outcome, metabolites as the predictors, but no confounding factors. <italic toggle="yes">p</italic>‐Values of this model were corrected using the Benjamini–Hochberg (BH) method<xref rid="alz14249-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> for multiple hypothesis testing. The second logistic regression model included diagnosis as the outcome, metabolites with adjusted <italic toggle="yes">p</italic>‐values &lt; 0.25 from the first model as predictors, and sex, number of <italic toggle="yes">APOE</italic> ε4 alleles, and age at death as confounders. Metabolites with <italic toggle="yes">p</italic>‐value &lt; 0.05 in the second model were used to define the metabolic signatures of the diseases. To estimate the statistical power of the associations for each comparison, we utilized the “pwrss.z.logistic” function from the R package “pwrss.” This function was employed to conduct power calculations for logistic regression at an alpha level of 0.05. We based these calculations on a range of effect sizes derived from the first model (as described above), using the maximum and minimum effect sizes observed in our results to define the upper and lower limits of this range.</p><p>To determine the effect of postmortem interval (PMI) on the associations, the association analysis was repeated including PMI as a covariate in the second model. For this analysis, 153 samples with missing PMI information were excluded. The results from the analysis are available in Tables <xref rid="alz14249-supinfo-0001" ref-type="">S1–S9</xref>.</p><p>For a selected set of metabolites, that is, from polyamine metabolism, pairwise ratios were computed (Tables <xref rid="alz14249-supinfo-0001" ref-type="">S10</xref> and <xref rid="alz14249-supinfo-0001" ref-type="">S11</xref>). The rationale is explained in Section <xref rid="alz14249-sec-0260" ref-type="sec">3.3.2</xref> under the heading “Polyamine metabolism and tau‐mediated stress.” To this end, exponentials of the log<sub>2</sub> transformed metabolic profiles were computed, ratios were generated, and then log<sub>2</sub> transformed. The differential analysis of these ratios was performed in the same way as individual metabolites.</p></sec><sec id="alz14249-sec-0130"><label>2.5</label><title>Pathway analysis</title><p>For functional annotation of the significantly altered metabolites, Metabolon's sub‐pathway annotations were used. For functional annotation of metabolic signatures in the CER region described in the Section <xref rid="alz14249-sec-0160" ref-type="sec">3.2</xref>, the total number of metabolites per pathway and, for each disease (AD and PSP) number of metabolites that were lower or higher compared to controls were reported. Supplementary Tables<xref rid="alz14249-supinfo-0001" ref-type=""> </xref> contain the complete list of annotations.</p></sec></sec><sec id="alz14249-sec-0140"><label>3</label><title>RESULTS</title><sec id="alz14249-sec-0150"><label>3.1</label><title>Metabolic signatures of the two diseases</title><p>We analyzed 342 brain samples from the Mayo Clinic Brain Bank, from AD and PSP patients as well as controls without neurodegenerative pathologic diagnoses, across two brain regions: CER and TCX. Demographic characteristics of the samples across the diagnoses and brain regions are shown in Table <xref rid="alz14249-tbl-0001" ref-type="table">1</xref>.</p><table-wrap position="float" id="alz14249-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Cohort overview.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="left" colspan="3" style="border-bottom:solid 1px #000000" rowspan="1">Cerebellar cortex (CER, <italic toggle="yes">n</italic> = 181)</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" rowspan="1">Temporal cortex (TCX, <italic toggle="yes">n</italic> = 161)</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">
+<p>AD</p>
+<p>(<italic toggle="yes">n</italic> = 79)</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>PSP</p>
+<p>(<italic toggle="yes">n</italic> = 78)</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>Control</p>
+<p>(<italic toggle="yes">n</italic> = 24)</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>AD</p>
+<p>(<italic toggle="yes">n</italic> = 63)</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>PSP</p>
+<p>(<italic toggle="yes">n</italic> = 78)</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>Control</p>
+<p>(<italic toggle="yes">n</italic> = 20)</p>
+</th></tr></thead><tbody><tr><td colspan="7" align="left" rowspan="1">Sex</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Male</td><td align="char" rowspan="1" colspan="1">32</td><td align="char" rowspan="1" colspan="1">47</td><td align="char" rowspan="1" colspan="1">11</td><td align="char" rowspan="1" colspan="1">27</td><td align="char" rowspan="1" colspan="1">46</td><td align="char" rowspan="1" colspan="1">8</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Female</td><td align="char" rowspan="1" colspan="1">47</td><td align="char" rowspan="1" colspan="1">31</td><td align="char" rowspan="1" colspan="1">13</td><td align="char" rowspan="1" colspan="1">36</td><td align="char" rowspan="1" colspan="1">32</td><td align="char" rowspan="1" colspan="1">12</td></tr><tr><td align="left" rowspan="1" colspan="1">Age at death<xref rid="alz14249-tbl1-note-0001" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">84 (78, 89)</td><td align="left" rowspan="1" colspan="1">74 (69, 79)</td><td align="left" rowspan="1" colspan="1">90 (87, 90)</td><td align="left" rowspan="1" colspan="1">86 (81, 90)</td><td align="left" rowspan="1" colspan="1">74 (69, 79)</td><td align="left" rowspan="1" colspan="1">90 (88, 90)</td></tr><tr><td colspan="7" align="left" rowspan="1">
+<italic toggle="yes">APOE</italic> ε4 allele</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">0</td><td align="char" rowspan="1" colspan="1">38</td><td align="char" rowspan="1" colspan="1">66</td><td align="char" rowspan="1" colspan="1">21</td><td align="char" rowspan="1" colspan="1">28</td><td align="char" rowspan="1" colspan="1">67</td><td align="char" rowspan="1" colspan="1">17</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">1</td><td align="char" rowspan="1" colspan="1">36</td><td align="char" rowspan="1" colspan="1">11</td><td align="char" rowspan="1" colspan="1">3</td><td align="char" rowspan="1" colspan="1">31</td><td align="char" rowspan="1" colspan="1">10</td><td align="char" rowspan="1" colspan="1">3</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">2</td><td align="char" rowspan="1" colspan="1">5</td><td align="char" rowspan="1" colspan="1">1</td><td align="char" rowspan="1" colspan="1">0</td><td align="char" rowspan="1" colspan="1">4</td><td align="char" rowspan="1" colspan="1">1</td><td align="char" rowspan="1" colspan="1">0</td></tr></tbody></table><table-wrap-foot><fn id="alz14249-tbl1-note-0002"><p>Abbreviations: AD, Alzheimer's disease; <italic toggle="yes">APOE</italic>, apolipoprotein E; IQR, interquartile range, that is, middle 50% of the value range; PSP, progressive supranuclear palsy.</p></fn><fn id="alz14249-tbl1-note-0001"><label>
+<sup>a</sup>
+</label><p>Median (IQR).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Samples were profiled using an untargeted LC‐MS/MS–based metabolomics platform. This resulted in measurements of 658 metabolites from various metabolic “super‐pathways” (Figure <xref rid="alz14249-fig-0002" ref-type="fig">2A</xref>, Table <xref rid="alz14249-supinfo-0001" ref-type="">S1</xref>), covering lipids (44.4%), amino acids (23.3%), nucleotides (7.0%), carbohydrates (5.3%), cofactors and vitamins (3.8%), peptides (2.7%), xenobiotics (2.7%), energy‐related metabolites (1.5%), and a series of uncharacterized metabolites (9.3%).</p><fig position="float" fig-type="FIGURE" id="alz14249-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Overview of metabolites and their associations with Alzheimer's disease (AD) and progressive supranuclear palsy (PSP). (A) Distribution of metabolites detected by metabolomics platform across metabolic classes. (B) Number of metabolic associations for each brain region and each disease. (C) Overlap of metabolic associations between the two diseases in cerebellar cortex samples. (D) Overlap of metabolic associations between the two diseases in temporal cortex samples.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-20-8294-g003.jpg"/></fig><p>To determine the metabolic imprint of the two diseases in the brain, we performed a brain region–wise statistical comparison between disease and control samples. All models were corrected for disease‐associated confounding variables, including the number of <italic toggle="yes">APOE</italic> ε4 alleles, age at death, and sex. All donors were non‐Hispanic White. Of note, potentially confounding variables BMI and years of education were unavailable in this archival brain bank cohort. PMI was available only in a subset and was, therefore, not included in the main analysis. In the CER region, a total of 153 metabolites were associated with AD; 35 were associated with PSP (Figure <xref rid="alz14249-fig-0002" ref-type="fig">2B</xref>), of which 27 were commonly associated with both diseases (Figure <xref rid="alz14249-fig-0002" ref-type="fig">2C</xref>). In the TCX region, 63 metabolites were associated with AD, only two were associated with PSP (Figure <xref rid="alz14249-fig-0002" ref-type="fig">2B</xref>), and none were shared between the two diseases (Figure <xref rid="alz14249-fig-0002" ref-type="fig">2D</xref>). Detailed statistical results from the two brain regions can be found in Tables <xref rid="alz14249-supinfo-0001" ref-type="">S2–S5</xref>. A comparison of the effect sizes across diseases within the same brain region and across the brain regions in the same disease is shown in Figure <xref rid="alz14249-supinfo-0001" ref-type="">S1</xref>. A visual representation of the power analysis of these associations are available in Figure <xref rid="alz14249-supinfo-0001" ref-type="">S2</xref>. Statistical results in the subset of samples with PMI can be found in Table <xref rid="alz14249-supinfo-0001" ref-type="">S6–S9</xref>.</p><p>Overall, AD‐related metabolic alterations were observed in both brain regions, whereas PSP‐related alterations had a regional preference for CER and were less pronounced compared to AD‐related alterations. Of note, the sample sizes were comparable for both brain regions as well as diseases (Table <xref rid="alz14249-tbl-0001" ref-type="table">1</xref>), suggesting that statistical power was unlikely to cause this discrepancy. In the following, we focused on the CER region for a detailed comparison of AD and PSP, as this region had commonly perturbed metabolites between these two diseases, whereas TCX had none.</p></sec><sec id="alz14249-sec-0160"><label>3.2</label><title>Comparison of AD and PSP metabolic signatures in CER</title><p>To compare the metabolic signatures of the two diseases in CER, each metabolite was categorized using a “sub‐pathway” annotation. One hundred fifty‐three metabolites were significantly associated with AD, 136 of these 153 were annotated with 53 pathways, and the remaining 17 metabolites were MS peaks without any identifiable characteristics and thus were excluded from further analysis. Similarly, 35 metabolites were significantly associated with PSP, 30 of which were annotated with 19 pathways, and the remaining 5 metabolites were uncharacterized and thus were excluded from further analysis. Overall, 35 pathways were exclusively dysregulated in AD, 1 pathway was exclusive to PSP, and 18 pathways were shared across the two diseases. These pathways were distributed across all eight super‐pathways, with amino acids and lipids representing the groups with the most changes (Figure <xref rid="alz14249-fig-0003" ref-type="fig">3</xref>).</p><fig position="float" fig-type="FIGURE" id="alz14249-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Functional annotation of metabolic signatures in the cerebellar cortex (CER) region. Within the CER region, for each disease and pathway, the number of positively or negatively associated metabolites is shown in orange and green boxes, respectively. These pathways are further annotated by super‐pathways. The significance of these pathways in one or both diseases is shown per pathway. Venn diagram depicts the overlap of the number of significant pathways in the two diseases. FA, fatty acid; LC, long chain.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-20-8294-g004.jpg"/></fig><sec id="alz14249-sec-0180"><label>3.2.1</label><title>Pathways exclusively dysregulated in AD</title><p>A total of 35 pathways were dysregulated in AD but not in PSP. Among these, various amino acid pathways were negatively associated with AD including the urea cycle, alanine and aspartate, tyrosine, and branched‐chain amino acid (BCAA) metabolism, whereas glutathione metabolism was positively associated. In addition, the metabolism of vitamins B1, B2, and B6 was negatively associated with AD, whereas vitamin C metabolism was positively associated. Moreover, several pathways belonging to the metabolic groups of peptides, carbohydrates, energy metabolites, and nucleotide metabolism were dysregulated only in AD.</p></sec><sec id="alz14249-sec-0190"><label>3.2.2</label><title>Pathways exclusively dysregulated in PSP</title><p>Dicarboxylate metabolism was the only pathway uniquely dysregulated in PSP. However, within this pathway, only one of the seven metabolites, the fatty acid 3‐hydroxyadipate, was significantly lower in PSP as compared to controls, whereas changes in the remaining six metabolites were insignificant. Thus, there is limited evidence to support the dysregulation of this pathway in PSP.</p></sec><sec id="alz14249-sec-0200"><label>3.2.3</label><title>Pathways commonly dysregulated in both diseases</title><p>Eighteen pathways were commonly perturbed in AD and PSP. These pathways were mainly from the amino acid and lipid groups. Within the amino acid group, creatine, glutamate, and lysine metabolism were positively associated with both diseases, whereas polyamine, glycine, and histidine metabolism were negatively associated. Within the lipid group, ceramides, diacylglycerol, and phospholipids were positively associated with both diseases, whereas sphingomyelin, lysophospholipid, phosphatidylcholine, phosphoethanolamine, and Fatty Acid (acylcarnitine, monounsaturated) were negatively associated.</p><p>Overall, in the two diseases, common metabolic perturbations were better captured at the functional level of pathways (18/54 changed, 33.34%) than at the individual metabolite level (27/161 changed, 16.77%).</p></sec></sec><sec id="alz14249-sec-0210"><label>3.3</label><title>Functional insights into unique and shared metabolic dysregulation in AD and PSP in CER</title><p>As outlined earlier, in the CER region, 35 metabolic pathways were exclusively dysregulated in AD, only 1 pathway was exclusively dysregulated in PSP, and 18 pathways were shared across the diseases (Figure <xref rid="alz14249-fig-0004" ref-type="fig">4</xref>). In the following, we discuss functional insights into the commonalities and differences of metabolic dysregulation in the two diseases based on selected pathways.</p><fig position="float" fig-type="FIGURE" id="alz14249-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Comparison of deregulated pathways in the two diseases. Within the cerebellar cortex region, 35 pathways were exclusively dysregulated in Alzheimer's disease (AD), 18 pathways were shared between the two diseases, and 1 pathway was dysregulated exclusively in progressive supranuclear palsy (PSP). The labeled processes indicate selected pathways discussed in the text. Included for illustrative purposes are stylistic representations of the tau isoform associated with each tauopathy. Within these protein structures, residues in R1–R4 and in the C‐terminal domain are colored purple, blue, green, gold, and orange, respectively.<xref rid="alz14249-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-20-8294-g001.jpg"/></fig><sec id="alz14249-sec-0220"><label>3.3.1</label><title>Metabolic pathways altered exclusively in AD in CER</title><p>Within the CER region, 35 metabolic pathways were dysregulated exclusively in AD. Based on the number of metabolites altered, we highlight the three most perturbed pathways from three different metabolic groups in the following.</p><sec id="alz14249-sec-0230"><title>Glutathione metabolism and neuroinflammation</title><p>Neuroinflammation is central to AD pathogenesis and is marked by the release of pro‐inflammatory molecules as well as reactive oxygen species.<xref rid="alz14249-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> Antioxidants such as glutathione play a key role in combating oxidative stress resulting from neuroinflammation.<xref rid="alz14249-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> Neuroinflammation and oxidative stress in the brain are believed to mediate neuronal dysfunction and death.<xref rid="alz14249-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> In our data, 7 of 13 metabolites from glutathione metabolism were higher in AD as compared to controls. Of these seven, glutathione disulphide bond glutathione molecule (GSSG), ophthalmate, and 4‐hydroxy‐nonenal‐glutathione are known biomarkers of oxidative stress.<xref rid="alz14249-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref>, <xref rid="alz14249-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>, <xref rid="alz14249-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> Of note, based on genomic and transcriptomic data, we have demonstrated previously that this pathway is disrupted in AD.<xref rid="alz14249-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>
+</p></sec><sec id="alz14249-sec-0240"><title>Purine metabolism and enzymatic reactions</title><p>Purine bases serve as cofactors for various biochemical reactions and are thus crucial for many metabolic processes.<xref rid="alz14249-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> Moreover, adenosine has been implicated in the modulation of cognition and memory, as well as the permeability of the blood–brain barrier.<xref rid="alz14249-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref> In our data, five metabolites from adenine metabolism and one from guanine metabolism were higher in AD as compared to controls. Purine metabolism has been shown to be perturbed in AD; however, effect directions were inconsistent between CSF and brain regions.<xref rid="alz14249-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz14249-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="alz14249-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> Overall, our findings indicate a dysregulation of purines in AD brains, which has the potential to alter various brain functions.</p></sec><sec id="alz14249-sec-0250"><title>Vitamin B metabolism and cognitive deficit</title><p>Multiple B vitamins are considered protective against cognitive decline.<xref rid="alz14249-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> In our data, thiamine (vitamin B1), riboflavin (vitamin B2), and pyridoxine (vitamin B6) were found to be lower in AD compared to controls. Thiamine‐dependent enzymes play central roles in glucose metabolism.<xref rid="alz14249-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref> In AD brains, a reduction in thiamine levels has been associated with the diminished activity of thiamine‐dependent enzymes, including transketolase from the pentose phosphate pathway and 2‐ketoglutarate dehydrogenase complex from the tricarboxylic acid (TCA) cycle.<xref rid="alz14249-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, <xref rid="alz14249-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref> Riboflavin and pyridoxine in their co‐enzymatic forms are involved in one‐carbon metabolism.<xref rid="alz14249-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref> Riboflavin acts as a cofactor in the folate cycle, whereas pyridoxine is involved in the transsulphuration pathway.<xref rid="alz14249-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref> Overall, these vitamins are essential for a well‐functioning metabolism, and reduction in their levels has been associated with a decline in cognitive functions.<xref rid="alz14249-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref>, <xref rid="alz14249-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref>
+</p><p>Of note, all the above‐mentioned AD‐related metabolic dysregulations identified in the CER region were also detected in our previous findings in the dorsolateral prefrontal cortex region of the religious order study and memory aging project (ROS/MAP) cohort.<xref rid="alz14249-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>
+</p></sec></sec><sec id="alz14249-sec-0260"><label>3.3.2</label><title>Metabolic pathways altered in both diseases</title><p>Within the CER region, 18 metabolic pathways were dysregulated in both diseases. In the following, we highlight pathways from the two biggest metabolic classes, lipids and amino acids.</p><sec id="alz14249-sec-0270"><title>Lipid metabolism and oxidative stress</title><p>In neurodegenerative diseases, lipid metabolism has been implicated widely in disease pathogenesis, including in amyloid beta (Aβ)‐associated lipid rafts, increased lipid peroxidation,<xref rid="alz14249-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref> altered cholesterol and lipid homeostasis,<xref rid="alz14249-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref> as well as phospholipase‐2‐mediated lipid cleavage.<xref rid="alz14249-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref> In our data, lipids from various lipid classes were dysregulated, with 15 lipids dysregulated in AD and 8 of those 15 also dysregulated in PSP.</p><p>Oxidative stress, a hallmark of neurodegenerative diseases, induces lipid peroxidation, which leads to increased phospholipase activity.<xref rid="alz14249-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref>, <xref rid="alz14249-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref> The breakdown of phospholipids by phospholipases leads to compromised membrane integrity,<xref rid="alz14249-bib-0057" ref-type="bibr">
+<sup>57</sup>
+</xref> which affects neuronal excitability.<xref rid="alz14249-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref> In our data, several phosphatidylcholines (PCs), the major membrane phospholipids, were lower in both diseases compared to controls. Phospholipases degrade PCs into lyso‐PCs, which get further broken down into glycerophoshorylcholine (GPC) and fatty acids.<xref rid="alz14249-bib-0058" ref-type="bibr">
+<sup>58</sup>
+</xref> GPC was high in both diseases as compared to controls in our study.</p><p>Moreover, oxidative stress is also known to increase ceramide production, which in turn may trigger synaptic dysfunction and neuronal death.<xref rid="alz14249-bib-0059" ref-type="bibr">
+<sup>59</sup>
+</xref> Ceramides play an important role in many cellular processes, including lipid signaling, metabolic homeostasis, and mitochondria‐linked apoptosis.<xref rid="alz14249-bib-0060" ref-type="bibr">
+<sup>60</sup>
+</xref> In our data, ceramide levels were positively associated with both diseases with varying degrees. <italic toggle="yes">N</italic>‐stearoyl‐sphingadienine (d18:2/18:0)* was high in both diseases compared to controls, whereas lactosyl‐<italic toggle="yes">N</italic>‐stearoyl‐sphingosine (d18:1/18:0)*, a lactosylceramide, and <italic toggle="yes">N</italic>‐stearoyl‐sphinganine (d18:0/18:0)*, a dihydroceramide, were high only in AD compared to controls. Moreover, the myelin sheath that assists in signal transduction across neurons is composed of ceramides.<xref rid="alz14249-bib-0060" ref-type="bibr">
+<sup>60</sup>
+</xref> Notably, in our previous transcriptome‐based studies, we observed myelination dysregulation in both AD and PSP.<xref rid="alz14249-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz14249-bib-0061" ref-type="bibr">
+<sup>61</sup>
+</xref>
+</p></sec><sec id="alz14249-sec-0280"><title>Lysine metabolism and mitochondrial dysfunction</title><p>Lysine is an essential amino acid that can be catabolized by two pathways: the saccharopine pathway in mitochondria and the pipecolate pathway in cytosol.<xref rid="alz14249-bib-0062" ref-type="bibr">
+<sup>62</sup>
+</xref> In our data, 10 metabolites from lysine metabolism were dysregulated. Of these, all 10 were perturbed in AD, whereas only 3 metabolites were altered in PSP. One of the 10 metabolites was saccharopine, which was high in both AD and PSP as compared to controls. Previous studies in <italic toggle="yes">Caenorhabditis elegans</italic> and mice have argued that saccharopine accumulation leads to mitochondrial dysfunction.<xref rid="alz14249-bib-0063" ref-type="bibr">
+<sup>63</sup>
+</xref> Our results are thus another potential piece of evidence in support of mitochondrial dysregulation in the pathogenesis of tauopathies.<xref rid="alz14249-bib-0064" ref-type="bibr">
+<sup>64</sup>
+</xref>
+</p></sec><sec id="alz14249-sec-0290"><title>Polyamine metabolism and tau‐mediated stress</title><p>In our study, two of the eight metabolites from polyamine metabolism, spermidine and spermine, were significantly lower in both tauopathies compared to controls. Polyamines are known for their neuroprotective effects, such as the clearance of apoptotic cells via efferocytosis<xref rid="alz14249-bib-0065" ref-type="bibr">
+<sup>65</sup>
+</xref> and autophagy<xref rid="alz14249-bib-0066" ref-type="bibr">
+<sup>66</sup>
+</xref>; both mechanisms are affected in AD and other neurodegenerative diseases.<xref rid="alz14249-bib-0067" ref-type="bibr">
+<sup>67</sup>
+</xref> Moreover, mouse‐based studies have speculated a complex interaction between polyamines and tau neuropathology.<xref rid="alz14249-bib-0068" ref-type="bibr">
+<sup>68</sup>
+</xref>, <xref rid="alz14249-bib-0069" ref-type="bibr">
+<sup>69</sup>
+</xref> Specifically, it has been hypothesized that spermidine and spermine reduce tau fibrillization, oligomerization, and tau seeding/propagation, whereas tau can lead to polyamine stress response.<xref rid="alz14249-bib-0068" ref-type="bibr">
+<sup>68</sup>
+</xref> The polyamine stress response is defined as an alteration in the brain polyamine metabolism that is stimulated by a stressor leading to an increase in putrescine level, while levels of spermine and spermidine decrease or remain unchanged.<xref rid="alz14249-bib-0070" ref-type="bibr">
+<sup>70</sup>
+</xref>, <xref rid="alz14249-bib-0071" ref-type="bibr">
+<sup>71</sup>
+</xref> Notably, in our data, putrescine levels were unchanged. Previous metabolomic studies have reported that metabolite ratios may serve as proxies for enzymatic activity, in particular when two metabolites correspond to the immediate substrates and products of an enzymatic transformation.<xref rid="alz14249-bib-0072" ref-type="bibr">
+<sup>72</sup>
+</xref> Therefore, we performed a ratio analysis for the metabolites in the polyamine metabolite pathway because putrescine is the substrate to produce spermidine, which in turn is the substrate to produce spermine in a reversible reaction. (Tables <xref rid="alz14249-supinfo-0001" ref-type="">S10 and S11</xref>). In our analysis, ratios of putrescine/spermidine and putrescine/spermine were higher in both tauopathies as compared to controls, indicating relatively higher levels of putrescine compared to the other polyamines.</p></sec></sec></sec></sec><sec id="alz14249-sec-0300"><label>4</label><title>DISCUSSION</title><p>The two tauopathies AD and PSP exhibit several shared and unique characteristics. They differ in the genetic risk factors involved, tau‐isoforms, main symptoms, and type of proteinopathy, with PSP being a pure tauopathy and AD exhibiting deposition of Aβ along with tau.<xref rid="alz14249-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> At the molecular level, the two diseases display similarities, particularly in the alterations of biological processes including myelination<xref rid="alz14249-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> and mitochondrial metabolism.<xref rid="alz14249-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> However, prior to this study, the comparative analysis of metabolic alterations, a key feature of neurodegeneration,<xref rid="alz14249-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> between AD and PSP had not been explored. To address this gap, we conducted a comprehensive assessment using a sizable cohort of 342 samples of AD, PSP, and control donors from the Mayo Clinic Brain Bank. We profiled 658 metabolites across CER and TCX brain regions and provided a detailed comparative account of metabolic alterations in AD and PSP. Of the 658 metabolites, 200 (30.4%) were significantly associated with at least one of the diseases in at least one of the regions. In the following, we discuss the key findings of our study.</p><p>Our results show that AD‐related metabolic alterations encompass both regions, namely, CER and TCX. We identified 153 AD‐associated metabolic alterations within the CER region and 63 alterations within the TCX region. Remarkably, we found a larger number of metabolic alterations in CER compared to TCX. This was unexpected, as CER is relatively devoid of significant gross neuropathology in AD.<xref rid="alz14249-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> We speculate that the metabolic alterations observed in CER may be due to the presence of either neuropathology in late‐phase AD<xref rid="alz14249-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> or toxic Aβ/tau oligomer species<xref rid="alz14249-bib-0073" ref-type="bibr">
+<sup>73</sup>
+</xref> transported from other brain regions due to the functional and structural connectivity between CER and other brain regions including the hippocampus, which is affected early in AD.<xref rid="alz14249-bib-0074" ref-type="bibr">
+<sup>74</sup>
+</xref> Alternatively, the metabolic changes seen in CER could reflect the modulation of CER because of the pathological changes in other regions of the brain, for example, due to altered neural network connectivity.<xref rid="alz14249-bib-0075" ref-type="bibr">
+<sup>75</sup>
+</xref> The greater number of metabolic alterations in the CER compared to the TCX could indicate the varying metabolic needs of these regions and how these needs shift with age or during neurodegeneration.<xref rid="alz14249-bib-0076" ref-type="bibr">
+<sup>76</sup>
+</xref> Furthermore, our results indicate that PSP‐related metabolic alterations were scarce in TCX (two metabolites), whereas some metabolic alterations were observed in CER (35 metabolites). Because TCX has limited neuropathology in PSP,<xref rid="alz14249-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> our results were in line with what may be expected from this relatively unaffected region. Although the CER generally shows minimal significant neuropathology in PSP,<xref rid="alz14249-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> it may still be susceptible to metabolic alterations for the above‐mentioned reasons.</p><p>Within the CER region, AD and PSP differed significantly in the number of metabolic alterations (153 in AD and 35 in PSP). As opposed to our previous speculation that tau is the potential driver of AD‐associated metabolic alterations in the dorsolateral prefrontal cortex,<xref rid="alz14249-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> the current results stipulate that tau may not be the sole driver of metabolic alterations in the CER. Based on these results, it can be inferred that various factors differentiating these diseases may have contributed to the differences in their metabolic imprint. Furthermore, although our analysis adjusted for age as a covariate, the observed differences in age could potentially contribute to the variance in the number of metabolic alterations identified within AD and PSP brains. The median age at death of PSP donors was lower than that of AD donors, and controls were older than both AD and PSP cases.</p><p>Despite the differences in the two tauopathies, common metabolic processes were altered across the two diseases. Pathway analysis of the altered metabolites in the CER region indicated a higher overlap in affected biological processes (33.34%) across the pathologies as compared to individual metabolites (16.77%). We found metabolic alterations shared between the two tauopathies in various pathways and highlighted the specifics of several selected pathways. We speculate that these similarities in the two diseases can result from either common metabolic rewiring to combat the neurodegenerative processes or common perturbation of the metabolism due to the neurodegenerative process. AD showed more unique alterations, whereas PSP shared most of its altered processes with AD. We found that lipid metabolism–mediated oxidative stress, lysine metabolism‐associated mitochondrial dysfunction, and tau‐mediated polyamine stress were shared processes between the two diseases. Meanwhile, glutathione metabolism–mediated oxidative stress and neuroinflammation, purine‐linked enzymatic deregulations, and vitamin B–associated cognitive deficits were unique to AD.</p><p>Our study had several limitations. First, confounding variables including BMI, years of education, and PMI were unavailable either in all or a subset of donors in this cohort. Thus, we could not adjust for potential differences in certain metabolites that may be due to these factors. Second, the measured metabolites could be further influenced by factors such as medication and supplement use,<xref rid="alz14249-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> diet, the gut microbiome,<xref rid="alz14249-bib-0077" ref-type="bibr">
+<sup>77</sup>
+</xref>, <xref rid="alz14249-bib-0078" ref-type="bibr">
+<sup>78</sup>
+</xref> and comorbidities, potentially affecting some of our results. Third, although both our transcriptomics‐based and metabolomics‐based studies identified substantial PSP‐associated molecular alterations in the brain regions currently examined, our study design lacks a brain region substantially affected by neuropathology in PSP. Fourth, in our hypothesis‐generating analysis, we have used a less‐conservative false discovery rate threshold of 25%, as compared to the traditional threshold of 5% accepting, the possibility that up to one in four metabolites might be a false positive in our results. Fifth, bulk tissue profiling as used in this study lacks resolution at the single‐cell level that might be necessary to distinguish the contribution of various cell fractions. Differential proportions of cell types or differences in microenvironment could affect bulk levels of metabolites in various ways. (1) Significant differences in cell proportion could alter the levels of metabolites in the bulk sample.<xref rid="alz14249-bib-0079" ref-type="bibr">
+<sup>79</sup>
+</xref> (2) Neuropathology could reprogram certain cell types to produce different levels of metabolites. For instance, tau accumulation within neurons could reprogram their metabolism, leading to aberrations at both the metabolome and transcriptome levels.<xref rid="alz14249-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> (3) The cellular microenvironment could influence the metabolic profiles of certain cell types. For example, pathology leads to the activation of microglial cells,<xref rid="alz14249-bib-0080" ref-type="bibr">
+<sup>80</sup>
+</xref> which could have a different metabolic profile than a microglial cell in a steady state. In summary, one or more of these mechanisms may drive the changes in metabolic profiles at the cell type–specific level. Future studies need to focus on single‐cell or spatial metabolic profiling approaches to delineate these mechanisms. To our knowledge, this is the first study to conduct a comparative metabolome analysis between AD and PSP, and also in two brain regions. Consequently, our findings are based on statistical associations from a single cohort. Nevertheless, the discovery of metabolic pathways commonly perturbed in both AD and PSP in this study ‐ along with prior metabolomic and transcriptomic studies that support associations of some of these pathways with AD and/or PSP, including lipid metabolism<xref rid="alz14249-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>, <xref rid="alz14249-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref>, <xref rid="alz14249-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref>; oxidative stress,<xref rid="alz14249-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref>, <xref rid="alz14249-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref> ceramides<xref rid="alz14249-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz14249-bib-0060" ref-type="bibr">
+<sup>60</sup>
+</xref>, <xref rid="alz14249-bib-0061" ref-type="bibr">
+<sup>61</sup>
+</xref> and mitochondrial metabolism<xref rid="alz14249-bib-0064" ref-type="bibr">
+<sup>64</sup>
+</xref> ‐ highlight the robust and replicable nature of our findings.</p><p>In summary, we presented the first large‐scale metabolic comparison of two tauopathies—AD and PSP—focusing on two different brain regions. Our study is a step toward cataloging the common and divergent metabolic changes observed in these two diseases. Our findings support the hypothesis that many metabolic changes are common to neurodegeneration (both AD and PSP) and reflect molecular disruptions that are not driven by gross pathology, since most perturbations occur in CER, which has limited neuropathology in both diseases. Future studies on experimental model systems, such as induced pluripotent stem cell (iPSC) cell lines or mouse models of tauopathy, ß‐amyloidosis, or both could further support our findings and enable longitudinal assessment of metabolomic changes. One specific example would be targeting enzymes from polyamine metabolism (spermidine synthase (SRM) or spermine synthase (SMS)) as a therapeutic strategy. Through genetic (e.g., CRISPR) or pharmacological means, altering these enzymes in advanced cell lines like human iPSC 4R tauopathy models<xref rid="alz14249-bib-0081" ref-type="bibr">
+<sup>81</sup>
+</xref> could shed light on their role in tau pathology and cell health, offering insights into novel ways to combat tauopathies. Likewise, blood and CSF metabolome studies of longitudinally followed human cohorts can reveal the temporal progression of these changes and align them to brain tau, Aß, and neurodegeneration when combined with neuroimaging.<xref rid="alz14249-bib-0082" ref-type="bibr">
+<sup>82</sup>
+</xref> Follow‐up studies in additional postmortem cohorts are needed to investigate the specific metabolic pathways commonly implicated in these and other neurodegenerative diseases. Moreover, the contribution of specific cell types toward the observed metabolic changes remains to be determined. Future studies with specific cell populations, using either spatial metabolomics or iPSC‐derived cell type populations, will enable a precise comparison of the metabolic changes in the two diseases at the cell type–specific level.</p></sec><sec id="alz14249-sec-0310"><title>AUTHOR CONTRIBUTIONS</title><p>Richa Batra, Jan Krumsiek, Xue Wang, Nilüfer Ertekin‐Taner, and Rima Kaddurah‐Daouk designed the study and analytic approaches. Richa Batra and Jan Krumsiek designed the computational and statistical methods, performed the analysis, interpreted the results, and drafted the manuscript. Mariet Allen, Matthias Arnold, and Gabi Kastenmüller contributed to scientific discussions. Nilüfer Ertekin‐Taner, Xue Wang, and Mariet Allen provided samples and phenotypic data on the Mayo Clinic cohort, interpreted the results, and edited the manuscript. Colette Blach curated and managed data. Nilüfer Ertekin‐Taner acquired funding, and provided supervision and overall direction for the Mayo Clinic cohort. Rima Kaddurah‐Daouk acquired funding and is the overall principal investigator of the Alzheimer's Disease Metabolomics Consortium. All authors read and reviewed the manuscript.</p></sec><sec sec-type="COI-statement" id="alz14249-sec-0330"><title>CONFLICT OF INTEREST STATEMENT</title><p>R.K‐D., M.Arnold, G.K. are (through their institutions) inventors on key patents in the field of metabolomics, including applications for Alzheimer's disease. R.K‐D. holds equity in Metabolon Inc., a metabolomics technologies company. This platform was used in the current analyses. R.K‐D. formed Chymia LLC and PsyProtix, a Duke University biotechnology spinout aiming to transform the treatment of mental health disorders. M.Arnold and G.K. hold equity in Chymia LLC and IP in PsyProtix. J.K. holds equity in Chymia LLC, IP in PsyProtix, and equity in   iollo. N.E.T. is an inventor on a patent through Mayo Clinic in PSP therapeutics. R.B., X.W., M.Allen, and C.B., have no conflicts. Author disclosures are available in the <xref rid="alz14249-supinfo-0001" ref-type="">supporting information</xref>.</p></sec><sec id="alz14249-sec-0360"><title>ETHICS STATEMENT</title><p>This study was approved by the appropriate Mayo Clinic Institutional Review Board.</p></sec><sec id="alz14249-sec-0370"><title>CONSENT STATEMENT</title><p>All participants or next‐of‐kin provided consent.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz14249-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz14249-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-8294-s002.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz14249-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-8294-s005.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz14249-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-8294-s004.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz14249-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-8294-s003.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz14249-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-20-8294-s001.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz14249-sec-0320"><title>ACKNOWLEDGMENTS</title><p>We thank the patients and families for their participation, without whom these studies would not have been possible. Richa Batra thanks her colleagues from the Krumsiek lab for fruitful discussions and support in this work. This work was done as part of the National Institute on Aging's (NIA) Accelerating Medicines Partnership for Alzheimer's Disease (AMP‐AD) and was supported by National Institutes of Health (NIH) grants 1U19AG063744, 1R01AG069901‐01A1, U01AG061357, P30AG10161, P30AG72975, R01AG15819, R01AG17917, U01AG46152, U01AG61356, RF1AG058942, RF1AG059093, and U01AG061359. The results published here are in whole or in part based on data obtained from the AD Knowledge Portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adknowledgeportal.org" ext-link-type="uri">https://adknowledgeportal.org</ext-link>). The Mayo Clinic samples are part of the RNAseq study data led by Dr. Nilüfer Ertekin‐Taner, Mayo Clinic, Jacksonville, Florida as part of the multi‐Principal Investigator U01 AG046139 (MPIs Golde, Ertekin‐Taner, Younkin, Price). Samples were provided from the following sources: The Mayo Clinic Brain Bank. Data collection was supported through funding by NIA grants P50 AG016574, R01 AG032990, U01 AG046139, R01 AG018023, U01 AG006576, U01 AG006786, R01 AG025711, R01 AG017216, and R01 AG003949, National Institute of Neurological Disorders and Stroke (NINDS) grant R01 NS080820, CurePSP Foundation, and support from Mayo Foundation. Study data include samples collected through the Sun Health Research Institute Brain and Body Donation Program of Sun City, Arizona. The Brain and Body Donation Program is supported by NINDS (U24 NS072026 National Brain and Tissue Resource for Parkinson's Disease and Related Disorders), the NIA (P30 AG19610 Arizona Alzheimers Disease Core Center), the Arizona Department of Health Services (contract 211002, Arizona Alzheimer's Research Center), the Arizona Biomedical Research Commission (contracts 4001, 0011, 05‐901, and 1001 to the Arizona Parkinson's Disease Consortium), and the Michael J. Fox Foundation for Parkinson's Research. Richa Batra is also supported by Alzheimer's Association award AARFD‐22‐974775. Nilüfer Ertekin‐Taner, Xue Wang, and Mariet Allen are supported by R01AG061796, U01AG046139, and U19AG074879. N.E.T. is also supported by the Alzheimer's Association Zenith Award.</p></ack><sec sec-type="data-availability" id="alz14249-sec-0350"><title>DATA AVAILABILITY STATEMENT</title><p>Metabolomics as well as clinical data for the Mayo Clinic cohorts are available via the AD Knowledge Portal. The AD Knowledge Portal is a platform for accessing data, analyses, and tools generated by the Accelerating Medicines Partnership (AMP‐AD) Target Discovery Program and other National Institute on Aging (NIA)–supported programs to enable open‐science practices and accelerate translational learning. The data, analyses, and tools are shared early in the research cycle without a publication embargo on a secondary use. Data are available for general research use according to the following requirements for data access and data attribution (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adknowledgeportal.org/DataAccess/Instructions" ext-link-type="uri" specific-use="software is-supplemented-by">https://adknowledgeportal.org/DataAccess/Instructions</ext-link>). For access to the metabolomics data used in this manuscript see: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.synapse.org/#!Synapse:syn26446587" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.synapse.org/#!Synapse:syn26446587</ext-link>
+</p><p>An interactive view of AD associations from this study can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://krumsieklab.shinyapps.io/tauopathies/" ext-link-type="uri" specific-use="software is-supplemented-by">https://krumsieklab.shinyapps.io/tauopathies/</ext-link>
+</p><p>All R scripts to generate the tables and figures of this paper are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/krumsieklab/ad-mayo-tauopathies" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/krumsieklab/ad‐mayo‐tauopathies</ext-link>
+</p></sec><ref-list id="alz14249-bibl-0001"><title>REFERENCES</title><ref id="alz14249-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz14249-cit-0001">
+<string-name name-style="western">
+<surname>Uversky</surname>
+<given-names>VN</given-names>
+</string-name>. <article-title>Intrinsically disordered proteins and their (disordered) proteomes in neurodegenerative disorders</article-title>. <source>Front Aging Neurosci</source>. <year>2015</year>;<volume>7</volume>:<fpage>18</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnagi.2015.00018</pub-id>
+<pub-id pub-id-type="pmid">25784874</pub-id>
+<pub-id pub-id-type="pmcid">PMC4345837</pub-id></mixed-citation></ref><ref id="alz14249-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz14249-cit-0002">
+<string-name name-style="western">
+<surname>Knopman</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amieva</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>RC</given-names>
+</string-name>, et al. <article-title>Alzheimer disease</article-title>. <source>Nat Rev Dis Primer</source>. <year>2021</year>;<volume>7</volume>(<issue>1</issue>):<fpage>33</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41572-021-00269-y</pub-id>
+<pub-id pub-id-type="pmcid">PMC8574196</pub-id><pub-id pub-id-type="pmid">33986301</pub-id></mixed-citation></ref><ref id="alz14249-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz14249-cit-0003">
+<string-name name-style="western">
+<surname>Kurz</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ebersbach</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Respondek</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giese</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arzberger</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Höglinger</surname>
+<given-names>GU</given-names>
+</string-name>. <article-title>An autopsy‐confirmed case of progressive supranuclear palsy with predominant postural instability</article-title>. <source>Acta Neuropathol Commun</source>. <year>2016</year>;<volume>4</volume>:<fpage>120</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s40478-016-0391-7</pub-id>
+<pub-id pub-id-type="pmid">27842578</pub-id>
+<pub-id pub-id-type="pmcid">PMC5109838</pub-id></mixed-citation></ref><ref id="alz14249-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz14249-cit-0004">
+<string-name name-style="western">
+<surname>Wagshal</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sankaranarayanan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guss</surname>
+<given-names>V</given-names>
+</string-name>, et al. <article-title>Divergent CSF τ alterations in two common tauopathies: Alzheimer's disease and progressive supranuclear palsy</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2015</year>;<volume>86</volume>(<issue>3</issue>):<fpage>244</fpage>‐<lpage>250</lpage>. doi:<pub-id pub-id-type="doi">10.1136/jnnp-2014-308004</pub-id>
+<pub-id pub-id-type="pmid">24899730</pub-id>
+<pub-id pub-id-type="pmcid">PMC4256124</pub-id></mixed-citation></ref><ref id="alz14249-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz14249-cit-0005">
+<string-name name-style="western">
+<surname>Uchihara</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Neurofibrillary changes undergoing morphological and biochemical changes—How does tau with the profile shift of from four repeat to three repeat spread in Alzheimer brain?</article-title>
+<source>Neuropathol Off J Jpn Soc Neuropathol</source>. <year>2020</year>;<volume>40</volume>(<issue>5</issue>):<fpage>450</fpage>‐<lpage>459</lpage>. doi:<pub-id pub-id-type="doi">10.1111/neup.12669</pub-id>
+<pub-id pub-id-type="pmid">32698244</pub-id></mixed-citation></ref><ref id="alz14249-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz14249-cit-0006">
+<string-name name-style="western">
+<surname>Allen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kachadoorian</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Quicksall</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Association of MAPT haplotypes with Alzheimer's disease risk and MAPT brain gene expression levels</article-title>. <source>Alzheimers Res Ther</source>. <year>2014</year>;<volume>6</volume>(<issue>4</issue>):<fpage>39</fpage>. doi:<pub-id pub-id-type="doi">10.1186/alzrt268</pub-id>
+<pub-id pub-id-type="pmid">25324900</pub-id>
+<pub-id pub-id-type="pmcid">PMC4198935</pub-id></mixed-citation></ref><ref id="alz14249-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz14249-cit-0007">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Won</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Joint genome‐wide association study of progressive supranuclear palsy identifies novel susceptibility loci and genetic correlation to neurodegenerative diseases</article-title>. <source>Mol Neurodegener</source>. <year>2018</year>;<volume>13</volume>(<issue>1</issue>):<fpage>41</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13024-018-0270-8</pub-id>
+<pub-id pub-id-type="pmid">30089514</pub-id>
+<pub-id pub-id-type="pmcid">PMC6083608</pub-id></mixed-citation></ref><ref id="alz14249-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz14249-cit-0008">
+<string-name name-style="western">
+<surname>Bellenguez</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Küçükali</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jansen</surname>
+<given-names>IE</given-names>
+</string-name>, et al. <article-title>New insights into the genetic etiology of Alzheimer's disease and related dementias</article-title>. <source>Nat Genet</source>. <year>2022</year>;<volume>54</volume>(<issue>4</issue>):<fpage>412</fpage>‐<lpage>436</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-022-01024-z</pub-id>
+<pub-id pub-id-type="pmid">35379992</pub-id>
+<pub-id pub-id-type="pmcid">PMC9005347</pub-id></mixed-citation></ref><ref id="alz14249-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz14249-cit-0009">
+<string-name name-style="western">
+<surname>Allen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burgess</surname>
+<given-names>JD</given-names>
+</string-name>, et al. <article-title>Conserved brain myelination networks are altered in Alzheimer's and other neurodegenerative diseases</article-title>. <source>Alzheimers Dement</source>. <year>2018</year>;<volume>14</volume>(<issue>3</issue>):<fpage>352</fpage>‐<lpage>366</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jalz.2017.09.012</pub-id>
+<pub-id pub-id-type="pmid">29107053</pub-id>
+<pub-id pub-id-type="pmcid">PMC5866744</pub-id></mixed-citation></ref><ref id="alz14249-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz14249-cit-0010">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>İş</surname>
+<given-names>Ö</given-names>
+</string-name>, et al. <article-title>Alzheimer's disease and progressive supranuclear palsy share similar transcriptomic changes in distinct brain regions</article-title>. <source>J Clin Invest</source>. <year>2022</year>;<volume>132</volume>(<issue>2</issue>). doi:<pub-id pub-id-type="doi">10.1172/JCI149904</pub-id>
+<pub-id pub-id-type="pmcid">PMC8759790</pub-id><pub-id pub-id-type="pmid">34813500</pub-id></mixed-citation></ref><ref id="alz14249-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz14249-cit-0011">
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beal</surname>
+<given-names>MF</given-names>
+</string-name>. <article-title>Mitochondrial dysfunction and oxidative stress in neurodegenerative diseases</article-title>. <source>Nature</source>. <year>2006</year>;<volume>443</volume>(<issue>7113</issue>):<fpage>787</fpage>‐<lpage>795</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nature05292</pub-id>
+<pub-id pub-id-type="pmid">17051205</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz14249-cit-0012">
+<string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kueider‐Paisley</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>MahmoudianDehkordi</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Altered bile acid profile in mild cognitive impairment and Alzheimer's disease: relationship to neuroimaging and CSF biomarkers</article-title>. <source>Alzheimers Dement</source>. <year>2019</year>;<volume>15</volume>(<issue>2</issue>):<fpage>232</fpage>‐<lpage>244</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jalz.2018.08.012</pub-id>
+<pub-id pub-id-type="pmid">30337152</pub-id>
+<pub-id pub-id-type="pmcid">PMC6454538</pub-id></mixed-citation></ref><ref id="alz14249-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz14249-cit-0013">
+<string-name name-style="western">
+<surname>Kaddurah‐Daouk</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sharma</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Alterations in metabolic pathways and networks in Alzheimer's disease</article-title>. <source>Transl Psychiatry</source>. <year>2013</year>;<volume>3</volume>:<elocation-id>e244</elocation-id>. doi:<pub-id pub-id-type="doi">10.1038/tp.2013.18</pub-id>
+<pub-id pub-id-type="pmid">23571809</pub-id>
+<pub-id pub-id-type="pmcid">PMC3641405</pub-id></mixed-citation></ref><ref id="alz14249-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz14249-cit-0014">
+<string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kueider‐Paisley</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Sex and APOE ε4 genotype modify the Alzheimer's disease serum metabolome</article-title>. <source>Nat Commun</source>. <year>2020</year>;<volume>11</volume>(<issue>1</issue>):<fpage>1148</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-020-14959-w</pub-id>
+<pub-id pub-id-type="pmid">32123170</pub-id>
+<pub-id pub-id-type="pmcid">PMC7052223</pub-id></mixed-citation></ref><ref id="alz14249-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz14249-cit-0015">
+<string-name name-style="western">
+<surname>Batra</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wörheide</surname>
+<given-names>MA</given-names>
+</string-name>, et al. <article-title>The landscape of metabolic brain alterations in Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>3</issue>):<fpage>980</fpage>‐<lpage>998</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ALZ.12714</pub-id>
+<pub-id pub-id-type="pmid">35829654</pub-id>
+<pub-id pub-id-type="pmcid">PMC9837312</pub-id></mixed-citation></ref><ref id="alz14249-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz14249-cit-0016">
+<string-name name-style="western">
+<surname>Toledo</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kastenmüller</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Metabolic network failures in Alzheimer's disease: a biochemical road map</article-title>. <source>Alzheimers Dement</source>. <year>2017</year>;<volume>13</volume>(<issue>9</issue>):<fpage>965</fpage>‐<lpage>984</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jalz.2017.01.020</pub-id>
+<pub-id pub-id-type="pmid">28341160</pub-id>
+<pub-id pub-id-type="pmcid">PMC5866045</pub-id></mixed-citation></ref><ref id="alz14249-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz14249-cit-0017">
+<string-name name-style="western">
+<surname>Mahajan</surname>
+<given-names>UV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Varma</surname>
+<given-names>VR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Griswold</surname>
+<given-names>ME</given-names>
+</string-name>, et al. <article-title>Dysregulation of multiple metabolic networks related to brain transmethylation and polyamine pathways in Alzheimer disease: a targeted metabolomic and transcriptomic study</article-title>. <source>PLoS Med</source>. <year>2020</year>;<volume>17</volume>(<issue>1</issue>):<elocation-id>e1003012</elocation-id>. doi:<pub-id pub-id-type="doi">10.1371/JOURNAL.PMED.1003012</pub-id>
+<pub-id pub-id-type="pmid">31978055</pub-id>
+<pub-id pub-id-type="pmcid">PMC6980402</pub-id></mixed-citation></ref><ref id="alz14249-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz14249-cit-0018">
+<string-name name-style="western">
+<surname>MahmoudianDehkordi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Altered bile acid profile associates with cognitive impairment in Alzheimer's disease‐An emerging role for gut microbiome</article-title>. <source>Alzheimers Dement</source>. <year>2019</year>;<volume>15</volume>(<issue>1</issue>):<fpage>76</fpage>‐<lpage>92</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jalz.2018.07.217</pub-id>
+<pub-id pub-id-type="pmid">30337151</pub-id>
+<pub-id pub-id-type="pmcid">PMC6487485</pub-id></mixed-citation></ref><ref id="alz14249-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz14249-cit-0019">
+<string-name name-style="western">
+<surname>Mori</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ishikawa</surname>
+<given-names>KI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saiki</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Plasma metabolite biomarkers for multiple system atrophy and progressive supranuclear palsy</article-title>. <source>PloS ONE</source>. <year>2019</year>;<volume>14</volume>(<issue>9</issue>):<elocation-id>e0223113</elocation-id>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0223113</pub-id>
+<pub-id pub-id-type="pmid">31560709</pub-id>
+<pub-id pub-id-type="pmcid">PMC6764690</pub-id></mixed-citation></ref><ref id="alz14249-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz14249-cit-0020">
+<string-name name-style="western">
+<surname>Takahashi</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iwaoka</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Takahashi</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Cerebrospinal fluid levels of oxidative stress measured using diacron‐reactive oxygen metabolites and biological antioxidant potential in patients with Parkinson's disease and progressive supranuclear palsy</article-title>. <source>Neurosci Lett</source>. <year>2021</year>;<volume>757</volume>:<elocation-id>135975</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.neulet.2021.135975</pub-id>
+<pub-id pub-id-type="pmid">34023404</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz14249-cit-0021">
+<string-name name-style="western">
+<surname>Wilson</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cookson</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Den Bosch</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holtzman</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dewachter</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Hallmarks of neurodegenerative diseases</article-title>. <source>Cell</source>. <year>2023</year>;<volume>186</volume>(<issue>4</issue>):<fpage>693</fpage>‐<lpage>714</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cell.2022.12.032</pub-id>
+<pub-id pub-id-type="pmid">36803602</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz14249-cit-0022">
+<string-name name-style="western">
+<surname>Roemer</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grinberg</surname>
+<given-names>LT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Crary</surname>
+<given-names>JF</given-names>
+</string-name>, et al. <article-title>Rainwater charitable foundation criteria for the neuropathologic diagnosis of progressive supranuclear palsy</article-title>. <source>Acta Neuropathol</source>. <year>2022</year>;<volume>144</volume>(<issue>4</issue>):<fpage>603</fpage>‐<lpage>614</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00401-022-02479-4</pub-id>
+<pub-id pub-id-type="pmid">35947184</pub-id>
+<pub-id pub-id-type="pmcid">PMC9468104</pub-id></mixed-citation></ref><ref id="alz14249-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz14249-cit-0023">
+<string-name name-style="western">
+<surname>Braak</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Braak</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Neuropathological stageing of Alzheimer‐related changes</article-title>. <source>Acta Neuropathol</source>. <year>1991</year>;<volume>82</volume>(<issue>4</issue>):<fpage>239</fpage>‐<lpage>259</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF00308809</pub-id>
+<pub-id pub-id-type="pmid">1759558</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz14249-cit-0024">
+<string-name name-style="western">
+<surname>Kovacs</surname>
+<given-names>GG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lukic</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Irwin</surname>
+<given-names>DJ</given-names>
+</string-name>, et al. <article-title>Distribution patterns of tau pathology in progressive supranuclear palsy</article-title>. <source>Acta Neuropathol</source>. <year>2020</year>;<volume>140</volume>(<issue>2</issue>):<fpage>99</fpage>‐<lpage>119</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00401-020-02158-2</pub-id>
+<pub-id pub-id-type="pmid">32383020</pub-id>
+<pub-id pub-id-type="pmcid">PMC7360645</pub-id></mixed-citation></ref><ref id="alz14249-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz14249-cit-0025">
+<string-name name-style="western">
+<surname>Hampel</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hardy</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>The amyloid‐β pathway in Alzheimer's disease</article-title>. <source>Mol Psychiatry</source>. <year>2021</year>;<volume>26</volume>(<issue>10</issue>):<fpage>5481</fpage>‐<lpage>5503</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41380-021-01249-0</pub-id>
+<pub-id pub-id-type="pmid">34456336</pub-id>
+<pub-id pub-id-type="pmcid">PMC8758495</pub-id></mixed-citation></ref><ref id="alz14249-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz14249-cit-0026">
+<string-name name-style="western">
+<surname>Larner</surname>
+<given-names>AJ</given-names>
+</string-name>. <article-title>The cerebellum in Alzheimer's disease</article-title>. <source>Dement Geriatr Cogn Disord</source>. <year>1997</year>;<volume>8</volume>(<issue>4</issue>):<fpage>203</fpage>‐<lpage>209</lpage>. doi:<pub-id pub-id-type="doi">10.1159/000106632</pub-id>
+<pub-id pub-id-type="pmid">9213064</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="alz14249-cit-0027">
+<string-name name-style="western">
+<surname>Burciu</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ofori</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shukla</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Distinct patterns of brain activity in progressive supranuclear palsy and Parkinson's disease</article-title>. <source>Mov Disord</source>. <year>2015</year>;<volume>30</volume>(<issue>9</issue>):<fpage>1248</fpage>‐<lpage>1258</lpage>. doi:<pub-id pub-id-type="doi">10.1002/mds.26294</pub-id>
+<pub-id pub-id-type="pmid">26148135</pub-id>
+<pub-id pub-id-type="pmcid">PMC4578977</pub-id></mixed-citation></ref><ref id="alz14249-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz14249-cit-0028">
+<string-name name-style="western">
+<surname>Klietz</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mahmoudi</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maudsley</surname>
+<given-names>AA</given-names>
+</string-name>, et al. <article-title>Whole‐brain magnetic resonance spectroscopy reveals distinct alterations in neurometabolic profile in progressive supranuclear palsy</article-title>. <source>Mov Disord</source>. doi:<pub-id pub-id-type="doi">10.1002/mds.29456</pub-id>
+<pub-id pub-id-type="pmid">37289057</pub-id></mixed-citation></ref><ref id="alz14249-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz14249-cit-0029">
+<string-name name-style="western">
+<surname>McKhann</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Drachman</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Folstein</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Katzman</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Price</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stadlan</surname>
+<given-names>EM</given-names>
+</string-name>. <article-title>Clinical diagnosis of Alzheimer's disease: report of the NINCDS‐ADRDA work group⋆ under the auspices of department of health and human services task force on alzheimer's disease</article-title>. <source>Neurology</source>. <year>1984</year>;<volume>34</volume>(<issue>7</issue>):<fpage>939</fpage>‐<lpage>944</lpage>. doi:<pub-id pub-id-type="doi">10.1212/wnl.34.7.939</pub-id>
+<pub-id pub-id-type="pmid">6610841</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz14249-cit-0030">
+<string-name name-style="western">
+<surname>Hauw</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Daniel</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dickson</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Preliminary NINDS neuropathologic criteria for Steele‐Richardson‐Olszewski syndrome (progressive supranuclear palsy)</article-title>. <source>Neurology</source>. <year>1994</year>;<volume>44</volume>(<issue>11</issue>):<fpage>2015</fpage>‐<lpage>2015</lpage>. doi:<pub-id pub-id-type="doi">10.1212/WNL.44.11.2015</pub-id>
+<pub-id pub-id-type="pmid">7969952</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz14249-cit-0031">
+<string-name name-style="western">
+<surname>Mirra</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gearing</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McKeel</surname>
+<given-names>DW</given-names>
+</string-name>, et al. <article-title>Interlaboratory comparison of neuropathology assessments in Alzheimer's disease: a study of the Consortium to Establish a Registry for Alzheimer's Disease (CERAD)</article-title>. <source>J Neuropathol Exp Neurol</source>. <year>1994</year>;<volume>53</volume>(<issue>3</issue>):<fpage>303</fpage>‐<lpage>315</lpage>. doi:<pub-id pub-id-type="doi">10.1097/00005072-199405000-00012</pub-id>
+<pub-id pub-id-type="pmid">8176413</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz14249-cit-0032">
+<string-name name-style="western">
+<surname>Allen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carrasquillo</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Funk</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Human whole genome genotype and transcriptome data for Alzheimer's and other neurodegenerative diseases</article-title>. <source>Sci Data</source>. <year>2016</year>;<volume>3</volume>:<elocation-id>160089</elocation-id>. doi:<pub-id pub-id-type="doi">10.1038/sdata.2016.89</pub-id>
+<pub-id pub-id-type="pmid">27727239</pub-id>
+<pub-id pub-id-type="pmcid">PMC5058336</pub-id></mixed-citation></ref><ref id="alz14249-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="alz14249-cit-0033">
+<string-name name-style="western">
+<surname>Dieterle</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ross</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schlotterbeck</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Senn</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Probabilistic quotient normalization as robust method to account for dilution of complex biological mixtures. Application in1H NMR metabonomics</article-title>. <source>Anal Chem</source>. <year>2006</year>;<volume>78</volume>(<issue>13</issue>):<fpage>4281</fpage>‐<lpage>4290</lpage>. doi:<pub-id pub-id-type="doi">10.1021/ac051632c</pub-id>
+<pub-id pub-id-type="pmid">16808434</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="alz14249-cit-0034">
+<string-name name-style="western">
+<surname>Do</surname>
+<given-names>KT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wahl</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raffler</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Characterization of missing values in untargeted MS‐based metabolomics data and evaluation of missing data handling strategies</article-title>. <source>Metabolomics</source>. <year>2018</year>;<volume>14</volume>(<issue>10</issue>):<fpage>128</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s11306-018-1420-2</pub-id>
+<pub-id pub-id-type="pmid">30830398</pub-id>
+<pub-id pub-id-type="pmcid">PMC6153696</pub-id></mixed-citation></ref><ref id="alz14249-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="alz14249-cit-0035">
+<string-name name-style="western">
+<surname>Breunig</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kriegel</surname>
+<given-names>HP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ng</surname>
+<given-names>RT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sander</surname>
+<given-names>J.</given-names>
+</string-name>. <article-title>LOF: identifying density‐based local outliers</article-title>. <source>Proc 2000 ACM SIGMOD Int Conf Manag Data—SIGMOD</source>. <year>2000</year>;<volume>29</volume>(<issue>2</issue>):<fpage>93</fpage>‐<lpage>104</lpage>. doi:<pub-id pub-id-type="doi">10.1145/342009.335388</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="alz14249-cit-0036">
+<string-name name-style="western">
+<surname>Chetnik</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benedetti</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gomari</surname>
+<given-names>DP</given-names>
+</string-name>, et al. <article-title>Maplet : an extensible R toolbox for modular and reproducible metabolomics pipelines</article-title>. <source>Bioinformatics</source>. <year>2022</year>;<volume>38</volume>(<issue>4</issue>):<fpage>1168</fpage>‐<lpage>1170</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bioinformatics/btab741</pub-id>
+<pub-id pub-id-type="pmid">34694386</pub-id>
+<pub-id pub-id-type="pmcid">PMC8796365</pub-id></mixed-citation></ref><ref id="alz14249-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="alz14249-cit-0037">
+<string-name name-style="western">
+<surname>Zehetmayer</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Posch</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>False discovery rate control in two‐stage designs</article-title>. <source>BMC Bioinformatics</source>. <year>2012</year>;<volume>13</volume>:<fpage>81</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1471-2105-13-81</pub-id>
+<pub-id pub-id-type="pmid">22559038</pub-id>
+<pub-id pub-id-type="pmcid">PMC3496575</pub-id></mixed-citation></ref><ref id="alz14249-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="alz14249-cit-0038">
+<string-name name-style="western">
+<surname>Benjamini</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hochberg</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Controlling the false discovery rate: a practical and powerful approach to multiple testing</article-title>. <source>J R Stat Soc Ser B Methodol</source>. <year>1995</year>;<volume>57</volume>(<issue>1</issue>):<fpage>289</fpage>‐<lpage>300</lpage>. doi:<pub-id pub-id-type="doi">10.1111/J.2517-6161.1995.TB02031.X</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="alz14249-cit-0039">
+<string-name name-style="western">
+<surname>Leng</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Edison</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Neuroinflammation and microglial activation in Alzheimer disease: where do we go from here?</article-title>
+<source>Nat Rev Neurol</source>. <year>2021</year>;<volume>17</volume>(<issue>3</issue>):<fpage>157</fpage>‐<lpage>172</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41582-020-00435-y</pub-id>
+<pub-id pub-id-type="pmid">33318676</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="alz14249-cit-0040">
+<string-name name-style="western">
+<surname>Rose</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Melnyk</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pavliv</surname>
+<given-names>O</given-names>
+</string-name>, et al. <article-title>Evidence of oxidative damage and inflammation associated with low glutathione redox status in the autism brain</article-title>. <source>Transl Psychiatry</source>. <year>2012</year>;<volume>2</volume>(<issue>7</issue>):<elocation-id>e134</elocation-id>. doi:<pub-id pub-id-type="doi">10.1038/tp.2012.61</pub-id>
+<pub-id pub-id-type="pmid">22781167</pub-id>
+<pub-id pub-id-type="pmcid">PMC3410618</pub-id></mixed-citation></ref><ref id="alz14249-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="alz14249-cit-0041">
+<string-name name-style="western">
+<surname>Dello</surname>
+<given-names>SAWG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Neis</surname>
+<given-names>EPJG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Jong</surname>
+<given-names>MC</given-names>
+</string-name>, et al. <article-title>Systematic review of ophthalmate as a novel biomarker of hepatic glutathione depletion</article-title>. <source>Clin Nutr</source>. <year>2013</year>;<volume>32</volume>(<issue>3</issue>):<fpage>325</fpage>‐<lpage>330</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.clnu.2012.10.008</pub-id>
+<pub-id pub-id-type="pmid">23182341</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="alz14249-cit-0042">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thiyagarajah</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Song</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Altered central and blood glutathione in Alzheimer's disease and mild cognitive impairment: a meta‐analysis</article-title>. <source>Alzheimers Res Ther</source>. <year>2022</year>;<volume>14</volume>(<issue>1</issue>):<fpage>1</fpage>‐<lpage>17</lpage>. doi:<pub-id pub-id-type="doi">10.1186/S13195-022-00961-5/TABLES/4</pub-id>
+<pub-id pub-id-type="pmid">35123548</pub-id>
+<pub-id pub-id-type="pmcid">PMC8818133</pub-id></mixed-citation></ref><ref id="alz14249-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="alz14249-cit-0043">
+<string-name name-style="western">
+<surname>Dalleau</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baradat</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guéraud</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huc</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Cell death and diseases related to oxidative stress: 4‐hydroxynonenal (HNE) in the balance</article-title>. <source>Cell Death Differ</source>. <year>2013</year>;<volume>20</volume>(<issue>12</issue>):<fpage>1615</fpage>‐<lpage>1630</lpage>. doi:<pub-id pub-id-type="doi">10.1038/cdd.2013.138</pub-id>
+<pub-id pub-id-type="pmid">24096871</pub-id>
+<pub-id pub-id-type="pmcid">PMC3824598</pub-id></mixed-citation></ref><ref id="alz14249-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="alz14249-cit-0044">
+<string-name name-style="western">
+<surname>Allen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zou</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chai</surname>
+<given-names>HS</given-names>
+</string-name>, et al. <article-title>Glutathione S‐transferase omega genes in Alzheimer and Parkinson disease risk, age‐at‐diagnosis and brain gene expression: an association study with mechanistic implications</article-title>. <source>Mol Neurodegener</source>. <year>2012</year>;<volume>7</volume>(<issue>1</issue>):<fpage>13</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1750-1326-7-13</pub-id>
+<pub-id pub-id-type="pmid">22494505</pub-id>
+<pub-id pub-id-type="pmcid">PMC3393625</pub-id></mixed-citation></ref><ref id="alz14249-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="alz14249-cit-0045">
+<string-name name-style="western">
+<surname>Ansoleaga</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jové</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schlüter</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Deregulation of purine metabolism in Alzheimer's disease</article-title>. <source>Neurobiol Aging</source>. <year>2015</year>;<volume>36</volume>(<issue>1</issue>):<fpage>68</fpage>‐<lpage>80</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2014.08.004</pub-id>
+<pub-id pub-id-type="pmid">25311278</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="alz14249-cit-0046">
+<string-name name-style="western">
+<surname>Kaddurah‐Daouk</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rozen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matson</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Metabolomic changes in autopsy‐confirmed Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2011</year>;<volume>7</volume>(<issue>3</issue>):<fpage>309</fpage>‐<lpage>317</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jalz.2010.06.001</pub-id>
+<pub-id pub-id-type="pmid">21075060</pub-id>
+<pub-id pub-id-type="pmcid">PMC3061205</pub-id></mixed-citation></ref><ref id="alz14249-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="alz14249-cit-0047">
+<string-name name-style="western">
+<surname>Morris</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tangney</surname>
+<given-names>CC</given-names>
+</string-name>. <article-title>Thoughts on B‐vitamins and dementia</article-title>. <source>J Alzheimers Dis</source>. <year>2006</year>;<volume>9</volume>(<issue>4</issue>):<fpage>429</fpage>‐<lpage>433</lpage>.<pub-id pub-id-type="pmid">16917152</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/jad-2006-9409</pub-id><pub-id pub-id-type="pmcid">PMC3428233</pub-id></mixed-citation></ref><ref id="alz14249-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="alz14249-cit-0048">
+<string-name name-style="western">
+<surname>Gibson</surname>
+<given-names>GE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hirsch</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fonzetti</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jordon</surname>
+<given-names>BD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cirio</surname>
+<given-names>RT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elder</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Vitamin B1 (thiamine) and dementia</article-title>. <source>Ann NY Acad Sci</source>. <year>2016</year>;<volume>1367</volume>(<issue>1</issue>):<fpage>21</fpage>‐<lpage>30</lpage>. doi:<pub-id pub-id-type="doi">10.1111/nyas.13031</pub-id>
+<pub-id pub-id-type="pmid">26971083</pub-id>
+<pub-id pub-id-type="pmcid">PMC4846521</pub-id></mixed-citation></ref><ref id="alz14249-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="alz14249-cit-0049">
+<string-name name-style="western">
+<surname>Gibson</surname>
+<given-names>GE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sheu</surname>
+<given-names>KF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blass</surname>
+<given-names>JP</given-names>
+</string-name>, et al. <article-title>Reduced activities of thiamine‐dependent enzymes in the brains and peripheral tissues of patients with Alzheimer's disease</article-title>. <source>Arch Neurol</source>. <year>1988</year>;<volume>45</volume>(<issue>8</issue>):<fpage>836</fpage>‐<lpage>840</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archneur.1988.00520320022009</pub-id>
+<pub-id pub-id-type="pmid">3395256</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="alz14249-cit-0050">
+<string-name name-style="western">
+<surname>Porter</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoey</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hughes</surname>
+<given-names>CF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ward</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McNulty</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Consequences and public health implications of low b‐vitamin status in ageing</article-title>. <source>Nutrients</source>. <year>2016</year>;<volume>8</volume>(<issue>11</issue>):<fpage>725</fpage>. doi:<pub-id pub-id-type="doi">10.3390/nu8110725</pub-id>
+<pub-id pub-id-type="pmid">27854316</pub-id>
+<pub-id pub-id-type="pmcid">PMC5133110</pub-id></mixed-citation></ref><ref id="alz14249-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="alz14249-cit-0051">
+<string-name name-style="western">
+<surname>An</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feng</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>Dietary intakes and biomarker patterns of folate, vitamin B6, and vitamin B12 can be associated with cognitive impairment by hypermethylation of redox‐related genes NUDT15 and TXNRD1</article-title>. <source>Clin Epigenetics</source>. <year>2019</year>;<volume>11</volume>(<issue>1</issue>):<fpage>139</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13148-019-0741-y</pub-id>
+<pub-id pub-id-type="pmid">31601260</pub-id>
+<pub-id pub-id-type="pmcid">PMC6787977</pub-id></mixed-citation></ref><ref id="alz14249-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="alz14249-cit-0052">
+<string-name name-style="western">
+<surname>Gómez‐Ramos</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Díaz‐Nido</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perry</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Avila</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Effect of the lipid peroxidation product acrolein on tau phosphorylation in neural cells</article-title>. <source>J Neurosci Res</source>. <year>2003</year>;<volume>71</volume>(<issue>6</issue>):<fpage>863</fpage>‐<lpage>870</lpage>. doi:<pub-id pub-id-type="doi">10.1002/jnr.10525</pub-id>
+<pub-id pub-id-type="pmid">12605413</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="alz14249-cit-0053">
+<string-name name-style="western">
+<surname>Adibhatla</surname>
+<given-names>RM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hatcher</surname>
+<given-names>JF</given-names>
+</string-name>. <article-title>Role of lipids in brain injury and diseases</article-title>. <source>Future Lipidol</source>. <year>2007</year>;<volume>2</volume>(<issue>4</issue>):<fpage>403</fpage>‐<lpage>422</lpage>. doi:<pub-id pub-id-type="doi">10.2217/17460875.2.4.403</pub-id>
+<pub-id pub-id-type="pmid">18176634</pub-id>
+<pub-id pub-id-type="pmcid">PMC2174836</pub-id></mixed-citation></ref><ref id="alz14249-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="alz14249-cit-0054">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>GY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jensen</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Simonyi</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Phospholipase A2 in the central nervous system: implications for neurodegenerative diseases</article-title>. <source>J Lipid Res</source>. <year>2004</year>;<volume>45</volume>(<issue>2</issue>). doi:<pub-id pub-id-type="doi">10.1194/jlr.R300016-JLR200</pub-id>
+<pub-id pub-id-type="pmid">14657205</pub-id></mixed-citation></ref><ref id="alz14249-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="alz14249-cit-0055">
+<string-name name-style="western">
+<surname>Hermann</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Watson</surname>
+<given-names>SN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wildering</surname>
+<given-names>WC</given-names>
+</string-name>. <article-title>Phospholipase A2 – nexus of aging, oxidative stress, neuronal excitability, and functional decline of the aging nervous system? Insights from a snail model system of neuronal aging and age‐associated memory impairment</article-title>. <source>Front Genet</source>. <year>2014</year>;<volume>5</volume>:<fpage>419</fpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.frontiersin.org/articles/10.3389/fgene.2014.00419" ext-link-type="uri">https://www.frontiersin.org/articles/10.3389/fgene.2014.00419</ext-link>
+<pub-id pub-id-type="pmid">25538730</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fgene.2014.00419</pub-id><pub-id pub-id-type="pmcid">PMC4255604</pub-id></mixed-citation></ref><ref id="alz14249-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="alz14249-cit-0056">
+<string-name name-style="western">
+<surname>Niedzielska</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smaga</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gawlik</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Oxidative stress in neurodegenerative diseases</article-title>. <source>Mol Neurobiol</source>. <year>2016</year>;<volume>53</volume>(<issue>6</issue>):<fpage>4094</fpage>‐<lpage>4125</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12035-015-9337-5</pub-id>
+<pub-id pub-id-type="pmid">26198567</pub-id>
+<pub-id pub-id-type="pmcid">PMC4937091</pub-id></mixed-citation></ref><ref id="alz14249-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="alz14249-cit-0057">
+<string-name name-style="western">
+<surname>Dias</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nylandsted</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Plasma membrane integrity in health and disease: significance and therapeutic potential</article-title>. <source>Cell Discov</source>. <year>2021</year>;<volume>7</volume>(<issue>1</issue>):<fpage>4</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41421-020-00233-2</pub-id>
+<pub-id pub-id-type="pmid">33462191</pub-id>
+<pub-id pub-id-type="pmcid">PMC7813858</pub-id></mixed-citation></ref><ref id="alz14249-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="alz14249-cit-0058">
+<string-name name-style="western">
+<surname>Klein</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Membrane breakdown in acute and chronic neurodegeneration: focus on choline‐containing phospholipids</article-title>. <source>J Neural Transm</source>. <year>2000</year>;<volume>107</volume>(<issue>8‐9</issue>):<fpage>1027</fpage>‐<lpage>1063</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s007020070051</pub-id>
+<pub-id pub-id-type="pmid">11041281</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="alz14249-cit-0059">
+<string-name name-style="western">
+<surname>Cutler</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelly</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Storie</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Involvement of oxidative stress‐induced abnormalities in ceramide and cholesterol metabolism in brain aging and Alzheimer's disease</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2004</year>;<volume>101</volume>(<issue>7</issue>):<fpage>2070</fpage>‐<lpage>2075</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.0305799101</pub-id>
+<pub-id pub-id-type="pmid">14970312</pub-id>
+<pub-id pub-id-type="pmcid">PMC357053</pub-id></mixed-citation></ref><ref id="alz14249-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="alz14249-cit-0060">
+<string-name name-style="western">
+<surname>Pant</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aguilera‐Albesa</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pujol</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Ceramide signalling in inherited and multifactorial brain metabolic diseases</article-title>. <source>Neurobiol Dis</source>. <year>2020</year>;<volume>143</volume>:<elocation-id>105014</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.nbd.2020.105014</pub-id>
+<pub-id pub-id-type="pmid">32653675</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="alz14249-cit-0061">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Deciphering cellular transcriptional alterations in Alzheimer's disease brains</article-title>. <source>Mol Neurodegener</source>. <year>2020</year>;<volume>15</volume>(<issue>1</issue>):<fpage>38</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13024-020-00392-6</pub-id>
+<pub-id pub-id-type="pmid">32660529</pub-id>
+<pub-id pub-id-type="pmcid">PMC7359236</pub-id></mixed-citation></ref><ref id="alz14249-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="alz14249-cit-0062">
+<string-name name-style="western">
+<surname>Hallen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jamie</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooper</surname>
+<given-names>AJL</given-names>
+</string-name>. <article-title>Lysine metabolism in mammalian brain: an update on the importance of recent discoveries</article-title>. <source>Amino Acids</source>. <year>2013</year>;<volume>45</volume>(<issue>6</issue>):<fpage>1249</fpage>‐<lpage>1272</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00726-013-1590-1</pub-id>
+<pub-id pub-id-type="pmid">24043460</pub-id>
+<pub-id pub-id-type="pmcid">PMC3838446</pub-id></mixed-citation></ref><ref id="alz14249-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="alz14249-cit-0063">
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>The lysine catabolite saccharopine impairs development by disrupting mitochondrial homeostasis</article-title>. <source>J Cell Biol</source>. <year>2019</year>;<volume>218</volume>(<issue>2</issue>):<fpage>580</fpage>‐<lpage>597</lpage>. doi:<pub-id pub-id-type="doi">10.1083/jcb.201807204</pub-id>
+<pub-id pub-id-type="pmid">30573525</pub-id>
+<pub-id pub-id-type="pmcid">PMC6363459</pub-id></mixed-citation></ref><ref id="alz14249-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="alz14249-cit-0064">
+<string-name name-style="western">
+<surname>Pérez</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jara</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Quintanilla</surname>
+<given-names>RA</given-names>
+</string-name>. <article-title>Contribution of tau pathology to mitochondrial impairment in neurodegeneration</article-title>. <source>Front Neurosci</source>. <year>2018</year>;<volume>12</volume>:<fpage>441</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnins.2018.00441</pub-id>
+<pub-id pub-id-type="pmid">30026680</pub-id>
+<pub-id pub-id-type="pmcid">PMC6041396</pub-id></mixed-citation></ref><ref id="alz14249-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="alz14249-cit-0065">
+<string-name name-style="western">
+<surname>Yurdagul</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Subramanian</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>Macrophage metabolism of apoptotic cell‐derived arginine promotes continual efferocytosis and resolution of injury</article-title>. <source>Cell Metab</source>. <year>2020</year>;<volume>31</volume>(<issue>3</issue>):<fpage>518</fpage>‐<lpage>533.e10</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmet.2020.01.001</pub-id>
+<pub-id pub-id-type="pmid">32004476</pub-id>
+<pub-id pub-id-type="pmcid">PMC7173557</pub-id></mixed-citation></ref><ref id="alz14249-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="alz14249-cit-0066">
+<string-name name-style="western">
+<surname>Freitag</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sterczyk</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wendlinger</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Spermidine reduces neuroinflammation and soluble amyloid beta in an Alzheimer's disease mouse model</article-title>. <source>J Neuroinflammation</source>. <year>2022</year>;<volume>19</volume>(<issue>1</issue>):<fpage>172</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12974-022-02534-7</pub-id>
+<pub-id pub-id-type="pmid">35780157</pub-id>
+<pub-id pub-id-type="pmcid">PMC9250727</pub-id></mixed-citation></ref><ref id="alz14249-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="alz14249-cit-0067">
+<string-name name-style="western">
+<surname>Boada‐Romero</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martinez</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heckmann</surname>
+<given-names>BL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Green</surname>
+<given-names>DR</given-names>
+</string-name>. <article-title>The clearance of dead cells by efferocytosis</article-title>. <source>Nat Rev Mol Cell Biol</source>. <year>2020</year>;<volume>21</volume>(<issue>7</issue>):<fpage>398</fpage>‐<lpage>414</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41580-020-0232-1</pub-id>
+<pub-id pub-id-type="pmid">32251387</pub-id>
+<pub-id pub-id-type="pmcid">PMC7392086</pub-id></mixed-citation></ref><ref id="alz14249-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="alz14249-cit-0068">
+<string-name name-style="western">
+<surname>Sandusky‐Beltran</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kovalenko</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Placides</surname>
+<given-names>DS</given-names>
+</string-name>, et al. <article-title>Aberrant AZIN2 and polyamine metabolism precipitates tau neuropathology</article-title>. <source>J Clin Invest</source>. <year>2021</year>;<volume>131</volume>(<issue>4</issue>):<elocation-id>e126299</elocation-id>. doi:<pub-id pub-id-type="doi">10.1172/JCI126299</pub-id>
+<pub-id pub-id-type="pmid">33586680</pub-id>
+<pub-id pub-id-type="pmcid">PMC7880423</pub-id></mixed-citation></ref><ref id="alz14249-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="alz14249-cit-0069">
+<string-name name-style="western">
+<surname>Sandusky‐Beltran</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kovalenko</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Spermidine/spermine‐N1‐acetyltransferase ablation impacts tauopathy‐induced polyamine stress response</article-title>. <source>Alzheimers Res Ther</source>. <year>2019</year>;<volume>11</volume>:<fpage>58</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13195-019-0507-y</pub-id>
+<pub-id pub-id-type="pmid">31253191</pub-id>
+<pub-id pub-id-type="pmcid">PMC6599347</pub-id></mixed-citation></ref><ref id="alz14249-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="alz14249-cit-0070">
+<string-name name-style="western">
+<surname>Gilad</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gilad</surname>
+<given-names>VH</given-names>
+</string-name>. <article-title>Overview of the brain polyamine‐stress‐response: regulation, development, and modulation by lithium and role in cell survival</article-title>. <source>Cell Mol Neurobiol</source>. <year>2003</year>;<volume>23</volume>:<fpage>637</fpage>‐<lpage>649</lpage>.<pub-id pub-id-type="pmid">14514021</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1023/A:1025036532672</pub-id><pub-id pub-id-type="pmcid">PMC11530194</pub-id></mixed-citation></ref><ref id="alz14249-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="alz14249-cit-0071">
+<string-name name-style="western">
+<surname>Hayashi</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tanaka</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morizumi</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kitamura</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hattori</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Polyamine levels in brain and plasma after acute restraint or water‐immersion restraint stress in mice</article-title>. <source>Neurosci Lett</source>. <year>2004</year>;<volume>355</volume>(<issue>1</issue>):<fpage>57</fpage>‐<lpage>60</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neulet.2003.10.027</pub-id>
+<pub-id pub-id-type="pmid">14729234</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="alz14249-cit-0072">
+<string-name name-style="western">
+<surname>Gieger</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Geistlinger</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Altmaier</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Genetics meets metabolomics: a genome‐wide association study of metabolite profiles in human serum</article-title>. <source>PLOS Genet</source>. <year>2008</year>;<volume>4</volume>(<issue>11</issue>):<elocation-id>e1000282</elocation-id>. doi:<pub-id pub-id-type="doi">10.1371/journal.pgen.1000282</pub-id>
+<pub-id pub-id-type="pmid">19043545</pub-id>
+<pub-id pub-id-type="pmcid">PMC2581785</pub-id></mixed-citation></ref><ref id="alz14249-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="alz14249-cit-0073">
+<string-name name-style="western">
+<surname>Puangmalai</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bhatt</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Montalbano</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Internalization mechanisms of brain‐derived tau oligomers from patients with Alzheimer's disease, progressive supranuclear palsy and dementia with Lewy bodies</article-title>. <source>Cell Death Dis</source>. <year>2020</year>;<volume>11</volume>(<issue>5</issue>):<fpage>314</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41419-020-2503-3</pub-id>
+<pub-id pub-id-type="pmid">32366836</pub-id>
+<pub-id pub-id-type="pmcid">PMC7198578</pub-id></mixed-citation></ref><ref id="alz14249-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="alz14249-cit-0074">
+<string-name name-style="western">
+<surname>Bernard</surname>
+<given-names>JA</given-names>
+</string-name>. <article-title>Cerebello‐hippocampal interactions in the human brain: a new pathway for insights into aging</article-title>. <source>Cerebellum Lond Engl</source>. doi:<pub-id pub-id-type="doi">10.1007/s12311-024-01670-5</pub-id>
+<pub-id pub-id-type="pmcid">PMC11371944</pub-id><pub-id pub-id-type="pmid">38438826</pub-id></mixed-citation></ref><ref id="alz14249-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="alz14249-cit-0075">
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seeley</surname>
+<given-names>WW</given-names>
+</string-name>. <article-title>Network dysfunction in Alzheimer's disease and frontotemporal dementia: implications for psychiatry</article-title>. <source>Biol Psychiatry</source>. <year>2014</year>;<volume>75</volume>(<issue>7</issue>):<fpage>565</fpage>‐<lpage>573</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.biopsych.2014.01.020</pub-id>
+<pub-id pub-id-type="pmid">24629669</pub-id>
+</mixed-citation></ref><ref id="alz14249-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="alz14249-cit-0076">
+<string-name name-style="western">
+<surname>Tomasi</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Volkow</surname>
+<given-names>ND</given-names>
+</string-name>. <article-title>Energetic cost of brain functional connectivity</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2013</year>;<volume>110</volume>(<issue>33</issue>):<fpage>13642</fpage>‐<lpage>13647</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1303346110</pub-id>
+<pub-id pub-id-type="pmid">23898179</pub-id>
+<pub-id pub-id-type="pmcid">PMC3746878</pub-id></mixed-citation></ref><ref id="alz14249-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="alz14249-cit-0077">
+<string-name name-style="western">
+<surname>Le Chatelier</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nielsen</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qin</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Richness of human gut microbiome correlates with metabolic markers</article-title>. <source>Nat 2013 5007464</source>. <year>2013</year>;<volume>500</volume>(<issue>7464</issue>):<fpage>541</fpage>‐<lpage>546</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nature12506</pub-id>
+<pub-id pub-id-type="pmid">23985870</pub-id></mixed-citation></ref><ref id="alz14249-bib-0078"><label>78</label><mixed-citation publication-type="journal" id="alz14249-cit-0078">
+<string-name name-style="western">
+<surname>Bell</surname>
+<given-names>LK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Edwards</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grieger</surname>
+<given-names>JA</given-names>
+</string-name>. <article-title>The relationship between dietary patterns and metabolic health in a representative sample of adult Australians</article-title>. <source>Nutrients</source>. <year>2015</year>;<volume>7</volume>(<issue>8</issue>):<fpage>6491</fpage>. doi:<pub-id pub-id-type="doi">10.3390/NU7085295</pub-id>
+<pub-id pub-id-type="pmid">26251918</pub-id>
+<pub-id pub-id-type="pmcid">PMC4555134</pub-id></mixed-citation></ref><ref id="alz14249-bib-0079"><label>79</label><mixed-citation publication-type="journal" id="alz14249-cit-0079">
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lim</surname>
+<given-names>CS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaang</surname>
+<given-names>BK</given-names>
+</string-name>. <article-title>Cell type‐specific gene expression profiling in brain tissue: comparison between TRAP, LCM and RNA‐seq</article-title>. <source>BMB Rep</source>. <year>2015</year>;<volume>48</volume>(<issue>7</issue>):<fpage>388</fpage>‐<lpage>394</lpage>. doi:<pub-id pub-id-type="doi">10.5483/BMBRep.2015.48.7.218</pub-id>
+<pub-id pub-id-type="pmid">25603796</pub-id>
+<pub-id pub-id-type="pmcid">PMC4577288</pub-id></mixed-citation></ref><ref id="alz14249-bib-0080"><label>80</label><mixed-citation publication-type="journal" id="alz14249-cit-0080">
+<string-name name-style="western">
+<surname>Streit</surname>
+<given-names>WJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xue</surname>
+<given-names>QS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tischer</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bechmann</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Microglial pathology</article-title>. <source>Acta Neuropathol Commun</source>. <year>2014</year>;<volume>2</volume>(<issue>1</issue>):<fpage>142</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s40478-014-0142-6</pub-id>
+<pub-id pub-id-type="pmid">25257319</pub-id>
+<pub-id pub-id-type="pmcid">PMC4180960</pub-id></mixed-citation></ref><ref id="alz14249-bib-0081"><label>81</label><mixed-citation publication-type="journal" id="alz14249-cit-0081">
+<string-name name-style="western">
+<surname>Parra Bravo</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giani</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perez</surname>
+<given-names>JM</given-names>
+</string-name>, et al. <article-title>Human iPSC 4R tauopathy model uncovers modifiers of tau propagation</article-title>. <source>Cell</source>. <year>2024</year>;<volume>187</volume>(<issue>10</issue>):<fpage>2446</fpage>‐<lpage>2464.e.22</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cell.2024.03.015</pub-id>
+<pub-id pub-id-type="pmid">38582079</pub-id>
+<pub-id pub-id-type="pmcid">PMC11365117</pub-id></mixed-citation></ref><ref id="alz14249-bib-0082"><label>82</label><mixed-citation publication-type="journal" id="alz14249-cit-0082">
+<string-name name-style="western">
+<surname>Veitch</surname>
+<given-names>DP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aisen</surname>
+<given-names>PS</given-names>
+</string-name>, et al. <article-title>Understanding disease progression and improving Alzheimer's disease clinical trials: recent highlights from the Alzheimer's Disease Neuroimaging Initiative</article-title>. <source>Alzheimers Dement</source>. <year>2019</year>;<volume>15</volume>(<issue>1</issue>):<fpage>106</fpage>‐<lpage>152</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jalz.2018.08.005</pub-id>
+<pub-id pub-id-type="pmid">30321505</pub-id>
+</mixed-citation></ref></ref-list></back></article></pmc-articleset>

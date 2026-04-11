@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT03136679",
+  "title": "Discovery of Novel Biomarkers That Will Lead to the Early Detection of Alzheimer's Disease",
+  "brief_title": "Discovery of Novel Biomarkers That Will Lead to the Early Detection of Alzheimer's Disease",
+  "status": "COMPLETED",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 95,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Mild Cognitive Impairment",
+    "Alzheimer Disease"
+  ],
+  "keywords": [],
+  "sponsor": "Baylor Research Institute",
+  "sponsor_class": "OTHER",
+  "collaborators": [],
+  "lead_pi": {},
+  "start_date": "2011-03-22",
+  "completion_date": "2021-11-24",
+  "primary_completion_date": "2021-11-24",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "All samples will be analyzed using a targeted metabolomic platform by liquid chromatography mass spectrometry (LC-MS). Further analysis will include determining 28 metabolite ratios from this data that will indicate activity of specific pathways. In addition, the investigators will analyze plasma samples for levels of vitamin B9 (folate), vitamin B12, vitamin B6, and several other metabolites related to methylation (8 metabolites).\n\nDNA will be extracted from whole blood for genotyping of the following mutations using Taqman® SNP genotyping assays from Life Technologies. This analysis will include genotyping of ApoE4 and SNP's related to folate metabolism.",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Baylor AT&T Memory Center",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\nA. Both Males and females B. Patients at least 40-years of age C. Mild Cognitive Impairment D. Alzheimer 's disease\n\n1. Mild\n2. Moderate\n3. Severe\n\nExclusion Criteria:\n\nA. No recent major surgery within the last 6 months B. Free of any malignant disease C. No chronic renal disease D. No other major neurodegenerative disorders (i.e. Parkinson's disease, multiple sclerosis)",
+  "eligibility_min_age": "40 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Discovery of novel biomarkers that will lead to the early detection of Alzheimer's disease.",
+      "description": "The primary goal of this proposal is to identify metabolic biomarkers in plasma and urine that can distinguish normal or mild cognitively impaired subjects from subjects at different severities of AD.",
+      "timeFrame": "6 months"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "This study will perform a targeted metabolic analysis in blood and urine samples from subjects attending the Baylor AT\\&T Memory Center. The aim is to identify novel biomarkers that can distinguish normal aging subjects with no cognitive impairment from those with mild, moderate or severe cognitive impairment associated with Alzheimer's disease. Subjects will also be screened for B-vitamin deficiencies that may correlate with other metabolic biomarkers and Alzheimer's disease.",
+  "detailed_description": "All subjects will be clinically assessed using standard measures of clinical care. Cognitive function will be assessed by the Montreal Cognitive Assessment (MoCA). Disease severity will be assessed by the Clinical Dementia Rating Scale (CDR). Social function will be assessed by the Functional Activities Questionnaire (FAQ). Based on clinical assessment, subjects will be classified into one of the following groups.\n\n1. Normal (Spouse or Caregiver)\n2. Mild cognitive impairment\n3. Alzheimer's disease A. Mild B. Moderate C. Severe\n\nThe investigators plan to enroll 60 subjects in each group from 1 and 2; 40 subjects in each of the groups 3A and 3B and 20 subjects in group 3C.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:55.238744+00:00"
+}

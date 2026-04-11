@@ -1,0 +1,634 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07287397",
+      "orgStudyIdInfo": {
+        "id": "VTx-002-01-001"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025-522697-37-00",
+          "type": "CTIS"
+        },
+        {
+          "id": "PIONEER-ALS",
+          "type": "OTHER",
+          "domain": "VectoryTherapeutics"
+        }
+      ],
+      "organization": {
+        "fullName": "Vector Y Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study is to Assess the Safety and Tolerability of VTx-002 in Participants With ALS",
+      "officialTitle": "Phase 1/2 Investigation of Novel Experimental Regimen in Amyotrophic Lateral Sclerosis (Pioneer-ALS): An Open-Label, Uncontrolled, Multicenter Study to Assess the Safety and Tolerability of Two Doses of VTx-002",
+      "acronym": "ALS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-12-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-10-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-10-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-11-19",
+      "studyFirstSubmitQcDate": "2025-12-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Vector Y Therapeutics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "PIONEER-ALS is a Phase 1/2, multicenter, open-label, ascending dose, uncontrolled, first-in-human study that will evaluate the safety, tolerability and effects on clinical and biomarker endpoints of intracisternal administration of Vtx-002 in participants with Amyotrophic Lateral Sclerosis (ALS).\n\nTwo escalating dose (low dose and high dose) cohorts are planned. The duration of the study will be a maximum of 5 years and 5 weeks (265 weeks) for each participant. The screening period may last up to 5 weeks to complete screening procedures.",
+      "detailedDescription": "All participants will receive a single injection of the study drug. During the first year of the study there will be 12 visits to the study center, including 1 overnight stay after dosing. There will be a further 4 remote visits (telephone or video call).\n\nFrom Year 2-5 there will be 8 further visits. These will be every 6 months and will be either in-person at the study site or remote (telephone or video call) if needed or preferred.\n\nThroughout the 5-year observation period, there will be up to 20 study visits to complete follow-up tests and assessments and monitor the ongoing effects of the study drug."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis"
+      ],
+      "keywords": [
+        "ALS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "All participants will receive a single injection of the study drug. The study will use 2 different dose levels of the study drug. Participants will be assigned to 1 of 2 groups: Group 1 (Low dose) or Group 2 (High dose). Each group will have 6 participants. The dose that participants receive will depend on their time of joining the study.\n\nDosing will be staggered as a safety precaution with a safety monitoring committee review of health-related information in between each participant being dosed.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 12,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Gene Therapy Group 1: Dose 1 (Low Dose)",
+          "type": "EXPERIMENTAL",
+          "description": "Gene Therapy: VTx-002 6 participants will receive dose 1 administered intra cisterna magna. Dosing of the first 3 participants will be staggered at specific timepoints apart and with a safety monitoring committee review of health-related information in between each participant being dosed.\n\nVTx-002 is a single dose therapy\n\nDrug: Optional Rescue Medication: Methylprednisolone The study doctor may administer corticosteroids (methylprednisolone or prednisone) if a participant experiences immune reactions or other side effects.",
+          "interventionNames": [
+            "Genetic: VTx-002",
+            "Drug: Optional Rescue medication - Corticosteroids: Methylprednisolone"
+          ]
+        },
+        {
+          "label": "Gene Therapy Group 2: Dose 2 (High Dose)",
+          "type": "EXPERIMENTAL",
+          "description": "Gene Therapy: VTx-002 6 participants will receive dose 2 administered intra cisterna magna.\n\nThe participant dosing in group 2 will be staggered as it was in group 1. VTx-002 is a single dose therapy.\n\nDrug: Optional Rescue Medication - Methylprednisolone The study doctor may administer corticosteroids (methylprednisolone or prednisone) if a participant experiences immune reactions or other side effects.",
+          "interventionNames": [
+            "Genetic: VTx-002",
+            "Drug: Optional Rescue medication - Corticosteroids: Methylprednisolone"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "VTx-002",
+          "description": "An investigational gene therapy targeting a specific protein.",
+          "armGroupLabels": [
+            "Gene Therapy Group 1: Dose 1 (Low Dose)",
+            "Gene Therapy Group 2: Dose 2 (High Dose)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Optional Rescue medication - Corticosteroids: Methylprednisolone",
+          "description": "This intervention will only be administered if the study doctor concludes this is necessary based on the review of clinical and laboratory findings.",
+          "armGroupLabels": [
+            "Gene Therapy Group 1: Dose 1 (Low Dose)",
+            "Gene Therapy Group 2: Dose 2 (High Dose)"
+          ],
+          "otherNames": [
+            "Prednisone",
+            "Prednisolone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The number of participants with treatment related adverse events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "Assessed by reviewing the nature, incidence, severity, relatedness, seriousness and outcome of treatment emergent adverse events.",
+          "timeFrame": "Over 5 years"
+        },
+        {
+          "measure": "The number of participants with treatment related adverse events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "Assessed by reviewing laboratory values",
+          "timeFrame": "Over 5 years"
+        },
+        {
+          "measure": "The number of participants with treatment related adverse events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "Assessed by reviewing Magnetic Resonance Imaging (MRI) findings.",
+          "timeFrame": "Over 5 years"
+        },
+        {
+          "measure": "The number of participants with treatment related adverse events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "Assessed by review of Treatment Induced Peripheral Neuropathy Assessment Scale (TNAS)\n\n\\*TNAS a brief participant-reported questionnaire used to measure the severity and progression of peripheral neuropathy. Each item is rated on a scale of 0 to 10, where 0 means no symptom and 10 means the symptom is as bad as it can possibly be.",
+          "timeFrame": "over 5 years"
+        },
+        {
+          "measure": "The number of participants with treatment related adverse events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "Assessed by reviewing cellular responses by analyzing blood samples.",
+          "timeFrame": "Over 5 years"
+        },
+        {
+          "measure": "The number of participants with treatment related adverse events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "Assessed by reviewing scores of the Columbia Suicide Severity Rating Scale (C-SSRS)\n\n\\*C-SSRS is a widely used, evidence-based suicide risk assessment tool that helps identify whether someone is at risk for suicide and gauge the level of support needed. A low score is associated with a lower risk level in this brief questionnaire.",
+          "timeFrame": "Over 5 years"
+        },
+        {
+          "measure": "The number of participants with treatment related adverse events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "Assessed by performing 4 formal interim analyses\n\n1. 6 months after Gene Therapy Group 1 receive the single dose treatment\n2. 6 months after Gene Therapy Group 2 receive the single dose treatment\n3. 12 months after Gene Therapy Group 1 receive the single dose treatment\n4. 12 months after Gene Therapy Group 2 receive the single dose treatment",
+          "timeFrame": "At month 6 and month 12"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To assess whether VTx-002 works to prevent the progression of ALS and what dose can be used for future clinical studies.",
+          "description": "Changes certain blood values",
+          "timeFrame": "At month 6 and month 12"
+        },
+        {
+          "measure": "To assess whether VTx-002 works to prevent the progression of ALS and what dose can be used for future clinical studies.",
+          "description": "Time to assisted permanent ventilation or death",
+          "timeFrame": "over 12 months"
+        },
+        {
+          "measure": "To assess whether VTx-002 works to prevent the progression of ALS and what dose can be used for future clinical studies.",
+          "description": "Immune responses assessed by analyzing blood samples",
+          "timeFrame": "Over 5 years"
+        },
+        {
+          "measure": "To assess whether VTx-002 works to prevent the progression of ALS and what dose can be used for future clinical studies.",
+          "description": "Change in Slow Vital Capacity",
+          "timeFrame": "At month 6 and month 12"
+        },
+        {
+          "measure": "To assess whether VTx-002 works to prevent the progression of ALS and what dose can be used for future clinical studies.",
+          "description": "Changes in CSF values",
+          "timeFrame": "At month 6 and month 12"
+        },
+        {
+          "measure": "To assess whether VTx-002 works to prevent the progression of ALS and what dose can be used for future clinical studies.",
+          "description": "Change in Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R)",
+          "timeFrame": "At month 6 and month 12 *ALSFRS-R is a scale used to monitor disease progression. The 12 questions. Questions are scored from 0 to 4, with a maximum score of 48 indicating full function and a minimum score of 0 indicating significant impairment."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "To assess changes in biomarkers",
+          "description": "Analysis of blood samples to assess viral shedding",
+          "timeFrame": "Over 5 years"
+        },
+        {
+          "measure": "To assess changes in muscle strength assessments from baseline.",
+          "description": "Change in muscle strength measured by Hand-held Dynamometry",
+          "timeFrame": "Measured at month 6 and month 12"
+        },
+        {
+          "measure": "To assess disease severity and improvement",
+          "description": "Disease severity and improvement measured using the Clinical Global Impression (CGI) scales for Severity (CGI-S) and Improvement (CGI-I).\n\nThe CGI scales each use a seven-point scale where 1 indicates less severe (CGI-S) or most improved (CGI-I) and 7 indicates more severe illness (CGI-S) or worsening of condition (CGI-I)",
+          "timeFrame": "over 12 months"
+        },
+        {
+          "measure": "To assess immunogenicity of VTx002",
+          "description": "Assessed by the review of the immunogenicity to the capsid and transgene by analyzing blood samples.",
+          "timeFrame": "Over 5 years"
+        },
+        {
+          "measure": "To assess changes Health Related Quality of Life",
+          "description": "Change in Health Related Quality of Life measured using the EQ5D-L questionnaire.\n\n\\*The EQ5D-L is a self-completed questionnaire assessing five core dimensions (Mobility, Self-care, Usual Activities, Pain/Discomfort, Anxiety/Depression). It is scored by combining patient responses across the five dimensions and then converting to a single utility score whereby 1.0 indicates perfect health and 0 indicates death",
+          "timeFrame": "Measured at month 6 and month 12"
+        },
+        {
+          "measure": "To assess changes Health Related Quality of Life",
+          "description": "Change in Health Related Quality of Life measured using the ALSAQ-5 questionnaire.\n\n\\*The ALSAQ-5 is a brief, 5-item questionnaire used to measure the impact of Amyotrophic Lateral Sclerosis on a patient's quality of life. Five key areas are rated for difficulties and converted to a total score from 0 (worst) to 100 (best)",
+          "timeFrame": "Measured at month 6 and month 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Capable of, and willing to, provide written informed consent and comply with study procedures, including visits to the study site and visit requirements\n2. Male or female ≥ 18 years of age\n3. Has a diagnosis of ALS according to the El Escorial criteria (Brooks, et al., 2000) (probable, laboratory results supported; clinically probable, clinically definite)\n4. Confirmed absence of ALS caused by FUS and SOD1 gene mutations confirmed by laboratory tests.\n5. A maximum of 18 months since first appearance of weakness (e.g., limb weakness, dysarthria, dysphagia, shortness of breath)\n6. Erect (seated) SVC % predicted ≥ 80% at Screening\n7. Treatment Research Initiative to Cure ALS (TRICALS) risk score between -2 and -6 at Screening\n8. Has a reliable caregiver/partner/legal representative willing and able to support the participant in participation in the study and to give informed consent on behalf of the participant in the case that disease progression prevents the participant of giving consent (local legal rules will apply).\n9. Treatment with riluzole and/or edaravone is allowed if treatment was started and has remained at a stable dose for at least 2 weeks (riluzole) or one treatment cycle (edaravone) before the Screening visit\n10. Women of childbearing potential (WOCBP) and male participants with female partners who are WOCBP must agree to use highly effective contraception during and after the study. WOCBP cannot be pregnant or breastfeeding\n11. Women of nonchildbearing potential must be post-menopausal or surgically sterile (e.g. hysterectomy, bilateral tubal ligation, ovaries removed)\n\nKey Exclusion Criteria:\n\n1. Diagnosis of a significant CNS or peripheral nervous system disease other than ALS that may be a cause for the participant's ALS symptoms or may confound study objectives\n2. Spinal, cervical, or brain MRI/MRA indicating clinically significant abnormality\n3. Presence of tracheostomy and feeding tube at Screening\n4. Contraindications to corticosteroid use (e.g. due to osteoporosis, uncontrolled blood pressure, diabetes or cholesterol).\n\n5\\. Significant concomitant disease or condition within 6 months of Screening that could pose an unacceptable safety risk to the participant or interfere with the participant's ability to comply with study procedures, e.g. heart disease, uncontrolled diabetes, liver disease, autoimmune diseases needing strong immune-suppressing drugs, cancer, etc or a current psychiatric diagnosis.\n\n6\\. Clinically significant abnormalities in laboratory test results at Screening for example poor liver or kidney function, abnormal clotting or infections such as Hepatitis or HIV\n\n7\\. Use of blood thinners (e.g., warfarin, heparin, and novel oral anticoagulants) and being unable to safely stop them before certain study procedures.\n\n8\\. Contraindications to imaging methods MRI, MRA, CT due to claustrophobia and/or intolerance to contrast agents.\n\n9\\. Contraindications to general anaesthesia (GA) or deep sedation\n\n10 Positive test for illegal drugs (except prescribed medications or permitted medicinal/recreational marijuana if used responsibly)\n\n11\\. Generally frail or if the Investigator deems participation in the study would not be in the best interest of the participant or is likely to prohibit further participation during the study\n\nOther protocol-defined inclusion/exclusion criteria may apply\n\n\\-",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Dr Olga Uspenskaya Chief medical Officer, VectorY Therapeutics, M.D; PhD",
+          "role": "CONTACT",
+          "phone": "patients@vectorytx.com",
+          "email": "patients@vectorytx.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "St Joseph's Hospital and medical Center - Barrow Neurological Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85013",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr S Ladha, Doctor of Medicine",
+              "role": "CONTACT",
+              "phone": "(602) 406-6262",
+              "email": "fulton.research@commonspirit.org"
+            },
+            {
+              "name": "Dr Shafeeq Ladha, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "University of California San Diego Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92121",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr John Ravits, Doctor of Medicine",
+              "role": "CONTACT",
+              "phone": "(858) 246-1154",
+              "email": "jravits@health.ucsd.edu"
+            },
+            {
+              "name": "Dr John Ravits, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Mayo Clinic in Florida",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr Bjorn Oskarsson, Doctor of Medicine",
+              "role": "CONTACT",
+              "phone": "(904) 953-0407",
+              "email": "oskarsson.bjorn@mayo.edu"
+            },
+            {
+              "name": "Dr Bjorn Oskarsson, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "University of Miami School of Science",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr Michael Benatar, Doctor of Medicine",
+              "role": "CONTACT",
+              "phone": "(305) 243-6480",
+              "email": "mbenatar@med.miami.edu"
+            },
+            {
+              "name": "Dr Michael Benatar, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Sean M. Healey & AMG Center for ALS at Massachusetts General Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Winifred Asigri Study Coordinator",
+              "role": "CONTACT",
+              "phone": "(617) 724-5659",
+              "email": "pioneeralshealey@mgb.org"
+            },
+            {
+              "name": "Dr Doreen Ho, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Herbert Irving Comprehensive Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr Neil Schneider, Doctor of Medicine",
+              "role": "CONTACT",
+              "phone": "(212) 342-3107",
+              "email": "ns327@columbia.edu"
+            },
+            {
+              "name": "Dr Neil Schneider, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "University of Pennsylvania",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr Colin Quinn, Doctor of Medicine",
+              "role": "CONTACT",
+              "phone": "(703) 283-7370",
+              "email": "colin.quinn2@pennmedicine.upenn.edu"
+            },
+            {
+              "name": "Dr Colin Quinn, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "UZ Leuven",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Leuven",
+          "country": "Belgium",
+          "contacts": [
+            {
+              "name": "Evi Parente Study Coordinator",
+              "role": "CONTACT",
+              "phone": "+ 32 1638668",
+              "email": "evi.parente@uzleuven.be"
+            },
+            {
+              "name": "Ann Dhondt Study Coordinator",
+              "role": "CONTACT",
+              "phone": "+ 32 16347577",
+              "email": "ann.dhondt@uzleuven.be"
+            },
+            {
+              "name": "Dr Philip Van Damme, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "UMC Utrecht",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Utrecht",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Prof Leonard Van Den Berg, Doctor of Medicine",
+              "role": "CONTACT",
+              "phone": "+31 887555555",
+              "email": "l.h.vandenberg@umcutrecht.nl"
+            },
+            {
+              "name": "Prof Leonard Van Den Berg, Doctor of Medicine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "Kings College Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "London",
+          "zip": "SE5 9RS",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Dr Ammar Al-Chalabi, Doctor of Medicine",
+              "role": "CONTACT",
+              "phone": "+44 2032991778",
+              "email": "ammar.al-chalabi@kcl.ac.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Royal Hallamshire Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Sheffield",
+          "zip": "S10 2JF",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Dr Chris McDermott, Doctor of medicine",
+              "role": "CONTACT",
+              "phone": "+44 114 226 1049"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.38297,
+            "lon": -1.4659
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06",
+      "removedCountries": [
+        "Spain"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011241",
+          "term": "Prednisone"
+        },
+        {
+          "id": "D011239",
+          "term": "Prednisolone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011244",
+          "term": "Pregnadienediols"
+        },
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D011246",
+          "term": "Pregnadienetriols"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

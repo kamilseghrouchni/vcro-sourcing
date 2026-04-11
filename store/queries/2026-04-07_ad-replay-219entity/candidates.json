@@ -1,0 +1,245 @@
+{
+  "request_id": "ad-plasma-metabolomics-validation-200n",
+  "request_path": "/Users/kamilseghrouchni/Desktop/side-projects/vcro-v2/store/queries/2026-04-07_ad-replay-219entity/request.json",
+  "wiki_scanned_at": "2026-04-07T00:00:00Z",
+  "wiki_entity_count": 219,
+  "filter_applied": {
+    "indication_match": ["Alzheimer's disease", "AD", "Alzheimer disease", "dementia", "mild cognitive impairment"],
+    "modality_match": ["plasma", "metabolomics", "lipidomics", "untargeted metabolomics", "targeted metabolomics", "LC-MS metabolomics", "NMR metabolomics", "serum metabolomics"],
+    "longitudinal_required": true,
+    "min_n_usable": 200,
+    "commercial_use_required": true,
+    "disease_area_or_modality": false
+  },
+  "candidates": [
+    {
+      "entity_id": "adni-go2-plasma-lipidomics",
+      "type": "cohort",
+      "match_strength": "strong",
+      "match_reasons": [
+        "indication match: Alzheimer's disease (primary disease area)",
+        "modality match: plasma lipidomics (Baker Institute LC-MS/MS QqQ, 781 species, EDTA plasma, ~95% fasting)",
+        "longitudinal: yes — up to 10 visits over 10 years; most participants at 3 timepoints (baseline, 12 m, 24 m)",
+        "n usable >= 200: 1517 participants (4730 samples); AD-vs-CN discriminator N=580; MCI-to-AD converter N=329",
+        "statin confounders documented: 423 lipid species mapped to statin use (Supplementary Table S6), formally modelled and controlled"
+      ],
+      "disqualifiers": [],
+      "soft_concerns": [
+        "commercial_use unspecified: ADNI LONI DUA does not explicitly permit commercial research; ADMC lipidomics layer may require a separate agreement with Duke University — must verify before committing",
+        "targeted lipidomics only (781 lipid species, LC-MS/MS dMRM) — not broad untargeted metabolomics; buyer should confirm if lipid-centric panel meets validation scope",
+        "deDE lipid class (strongest AD signal) excluded due to anticholinesterase confounding — buyer must address in target cohort",
+        "APOE ε4 enriched by design; model coefficients may not generalise to unselected clinic populations",
+        "provenance_depth 0.48 — medium confidence; single primary source PMC12269576"
+      ],
+      "card": {
+        "primary_signal": "4730 plasma samples from 1517 ADNI-1/GO/2 participants profiled with Baker Institute targeted LC-MS/MS (781 species); AD vs CN AUC 0.84; MCI-to-AD conversion AUC 0.70 at baseline, externally validated in ASPREE (n=3495, C-index 0.75); statin confounding formally quantified and controlled.",
+        "action": "Request data access via ida.loni.usc.edu; run a parallel request to ADMC/Duke University (Kaddurah-Daouk lab) to confirm whether the ADMC lipidomics layer permits commercial use beyond the standard LONI DUA.",
+        "risk": "Commercial-use terms under the ADMC lipidomics data layer are unspecified in the wiki; this is the single biggest gating risk before committing to a commercial project on this data."
+      },
+      "provenance_depth": 0.48,
+      "linked_institutions": ["usc-loni-data-coordinating-center", "alzheimers-disease-metabolomics-consortium", "baker-heart-diabetes-institute"],
+      "linked_investigators": ["michael-weiner-ucsf", "peter-meikle-baker-institute", "rima-kaddurah-daouk-duke", "andrew-saykin-indiana", "gabi-kastenmuller-helmholtz-munich", "wang-tingting-baker-institute"]
+    },
+    {
+      "entity_id": "adni-go2-serum-metabolomics-mxp500",
+      "type": "cohort",
+      "match_strength": "strong",
+      "match_reasons": [
+        "indication match: Alzheimer's disease (primary disease area)",
+        "modality match: targeted metabolomics / LC-MS/MS — 506 metabolites across 26 biochemical classes including lipids, amino acids, bile acids, acylcarnitines (Biocrates MXP Quant 500)",
+        "longitudinal: yes — up to 10 visit timepoints over 7-year span; 4063 samples from 1430 participants",
+        "n usable >= 200: 1430 participants; AD converter arm n=294; AD n=264; CN n=383",
+        "statin confounders formally modelled: Boruta feature selection identified 41 baseline and 21 longitudinal medication-metabolite associations"
+      ],
+      "disqualifiers": [],
+      "soft_concerns": [
+        "SERUM not plasma: request explicitly requires plasma; serum and plasma are non-interchangeable for many metabolomics applications — buyer must confirm if serum is acceptable before building pipeline on this cohort",
+        "dual DUA process: metabolomics data at AD Knowledge Portal, clinical data at LONI — two separate data access agreements required, longer timeline",
+        "commercial_use_unverified: ADNI/AMP-AD dual governance; AMP-AD Knowledge Portal commercial-use terms need verification",
+        "MCI-converter arm small (n=66) — underpowered for most subgroup analyses; main actionable arm is AD converters (n=294)",
+        "all replication is internal (68.25% cross-platform replication within ADNI datasets) — no external cohort validation published for MXP500 findings"
+      ],
+      "card": {
+        "primary_signal": "4063 fasting SERUM samples from 1430 ADNI-1/GO/2 participants; Biocrates MXP Quant 500 (506 post-QC metabolites); 311 metabolites associated with AD phenotypes; 128 (41%) persistent across ≥2 timepoints; AD converter arm n=294; broadest metabolic coverage of any longitudinal AD blood study to date.",
+        "action": "Access metabolomics data at AD Knowledge Portal (doi: 10.7303/9618123) and clinical data at LONI (adni.loni.usc.edu); confirm AMP-AD Knowledge Portal commercial-use terms; confirm serum vs plasma compatibility with buyer's intended assay.",
+        "risk": "Matrix mismatch: serum not plasma — for lipidomics and targeted metabolomics applications this alters ~15-30% of quantified species; buyer must explicitly accept serum or treat this as a separate programme from any plasma-based assay development."
+      },
+      "provenance_depth": 0.62,
+      "linked_institutions": ["usc-loni-data-coordinating-center", "alzheimers-disease-metabolomics-consortium"],
+      "linked_investigators": ["rima-kaddurah-daouk-duke", "andrew-saykin-indiana"]
+    },
+    {
+      "entity_id": "aspree-dementia-casecohort-lipidomics",
+      "type": "cohort",
+      "match_strength": "partial",
+      "match_reasons": [
+        "indication match: Alzheimer's disease / dementia (incident dementia, ~50% AD dementia in population-based trials)",
+        "modality match: plasma lipidomics (Baker Institute Agilent 6495C, 781 species, same platform as ADNI, NIST SRM 1950 cross-cohort harmonised)",
+        "longitudinal: yes — 6.5-year prospective follow-up for incident dementia endpoints",
+        "n usable >= 200: 3495 total participants (402 incident dementia cases)"
+      ],
+      "disqualifiers": [],
+      "soft_concerns": [
+        "commercial_use_unspecified: PI-request-only access (Paul Lacaze, Monash); ethics approval Alfred Hospital #523/21 does not address commercial use — must verify before committing",
+        "statin confounders not documented: provenance_depth 0.14 — medication/lifestyle confounder dimension not covered; statin prevalence in elderly Australian RCT population is likely high but undocumented in wiki",
+        "PI-request-only access: no formal portal; timeline unpredictable (3–12 months); sample depletion status unknown",
+        "incident dementia endpoint — not confirmed AD diagnosis (some cases will be vascular or mixed dementia); buyer should confirm AD confirmation rate",
+        "targeted lipidomics only (same platform constraint as ADNI-plasma candidate) — not untargeted metabolomics"
+      ],
+      "card": {
+        "primary_signal": "402 incident dementia cases (6.5-year prospective follow-up) from population-based Australian RCT (ASPREE, n=3495 sub-cohort); same Baker Institute plasma lipidomics platform as ADNI (781 species, NIST-harmonised); lipidome risk score C-index 0.75 in this cohort — the single published external validation for ADNI lipidomics.",
+        "action": "Contact Paul Lacaze (Monash University) upon reasonable request; explicitly ask about commercial-use terms and statin use documentation before committing project resources.",
+        "risk": "No formal data access portal — access depends on PI willingness; commercial use is unspecified; statin status not documented in wiki; incident dementia endpoint may underenrich for confirmed AD."
+      },
+      "provenance_depth": 0.14,
+      "linked_institutions": ["alfred-hospital-monash-university", "baker-heart-diabetes-institute"],
+      "linked_investigators": ["paul-lacaze-monash", "peter-meikle-baker-institute"]
+    },
+    {
+      "entity_id": "lleida-ad-mci-plasma-csf-gcfid",
+      "type": "cohort",
+      "match_strength": "weak",
+      "match_reasons": [
+        "indication match: Alzheimer's disease / mild cognitive impairment",
+        "modality match: plasma fatty acid profiling (GC-FID) — metabolomics by broad definition; paired CSF biomarkers",
+        "longitudinal: yes — MCI arm followed ~58 months (48 converters / 44 non-converters)",
+        "n usable >= 200: 289 total (103 AD / 89 MCI / 94 CTL); borderline but above threshold"
+      ],
+      "disqualifiers": [],
+      "soft_concerns": [
+        "statin NOT documented: explicitly flagged in wiki as a major confounder gap for fatty acid signals — hard negative unaddressed",
+        "GC-FID modality provides total fatty acid mol% only — no lipid class resolution; not equivalent to LC-MS metabolomics or lipidomics panels",
+        "commercial_use_unverified: IRBLleida Biobank B.0000682; commercial terms not stated",
+        "n=289 is only 44% above the 200-participant minimum; any additional attrition drops below threshold",
+        "Adding FA profile did not significantly improve AUC over APOE ε4 alone — weak standalone signal for biomarker validation",
+        "provenance_depth 0.52 — but statin gap is the operative concern for this request"
+      ],
+      "card": {
+        "primary_signal": "289 AD/MCI/CTL participants from Lleida, Spain; paired EDTA plasma (GC-FID fatty acids) + CSF ATN biomarkers + APOE; IRBLleida Biobank B.0000682; MCI sub-cohort followed 58 months with 48 converters — only cohort in wiki with prospective MCI conversion and plasma FA profiling outside ADNI.",
+        "action": "Contact Farida Dakterzada (lead PI, IRBLleida) for access and commercial-use clarification; explicitly ask for statin use documentation and residual aliquot inventory.",
+        "risk": "Statin use undocumented — a direct violation of buyer's hard negative; GC-FID modality produces FA mol% only, not a full metabolomics panel; N borderline at 289."
+      },
+      "provenance_depth": 0.52,
+      "linked_institutions": ["hospital-santa-maria-lleida"],
+      "linked_investigators": []
+    }
+  ],
+  "rejected": [
+    {
+      "entity_id": "adni-go2-plasma-oxylipin-endocannabinoid",
+      "reason": "Fails longitudinal filter: cross-sectional baseline only (763 ADNI 2/GO participants); no longitudinal oxylipin re-assay performed."
+    },
+    {
+      "entity_id": "adni-bile-acid-serum-biocrates-1464",
+      "reason": "Fails two hard filters: (1) matrix is serum not plasma; (2) bile acid layer is cross-sectional baseline only — no longitudinal re-assay."
+    },
+    {
+      "entity_id": "adni1-serum-metabolomics-biocrates-p180",
+      "reason": "Fails two hard filters: (1) matrix is serum not plasma; (2) analysis is cross-sectional baseline only for the p180 metabolomics layer."
+    },
+    {
+      "entity_id": "adni-phase1-serum-lipidomics",
+      "reason": "Fails two hard filters: (1) matrix is serum not plasma; (2) longitudinal structure is limited (this Phase 1 layer primarily cross-sectional for lipidomics)."
+    },
+    {
+      "entity_id": "adni-multiwave-csf-plasma-biomarker",
+      "reason": "Modality mismatch: plasma analytes are immunoassay biomarkers (p-tau181, NfL, Aβ42/40) — not metabolomics or lipidomics."
+    },
+    {
+      "entity_id": "adni-plasma-ad-csvd-comorbidity-330",
+      "reason": "Modality mismatch: plasma analytes are immunoassay biomarkers (GFAP, NfL, p-tau217, Aβ42/40) — not metabolomics."
+    },
+    {
+      "entity_id": "adni-plasma-bmi-pet-subcohort-407",
+      "reason": "Modality mismatch: plasma analytes are immunoassay biomarkers (p-tau217, %p-tau217, GFAP, NfL) — not metabolomics."
+    },
+    {
+      "entity_id": "adni2-plasma-mirna-cn-mci-baseline",
+      "reason": "Modality mismatch: plasma miRNA (RT-qPCR) is not metabolomics; N=152 below 200 threshold; cross-sectional baseline only."
+    },
+    {
+      "entity_id": "blsa-serum-metabolomics-preclinical-ad",
+      "reason": "Fails plasma modality filter (serum only); N=207 is borderline but access is NIA MTA with no open portal and statin confounders are undocumented."
+    },
+    {
+      "entity_id": "ages-reykjavik-serum-metabolomics-ad",
+      "reason": "Fails plasma modality filter (serum only); near-chance metabolomics classification (AUC 0.395–0.481) makes this a negative control, not a validation candidate."
+    },
+    {
+      "entity_id": "rosmap-serum-brain-bile-acid",
+      "reason": "Fails plasma modality filter (serum only); AD arm in serum sub-cohort is only n=11 — severely underpowered; bile acid layer only."
+    },
+    {
+      "entity_id": "uk-biobank-plasma-nmr-metabolomics",
+      "reason": "Not a clinical AD patient cohort: AD relevance is via Mendelian randomisation (genetic risk scores only); NMR metabolomics sub-cohort N not specified; longitudinal re-assay not documented."
+    },
+    {
+      "entity_id": "alspac-offspring-plasma-nmr-metabolomics",
+      "reason": "Not an AD patient cohort: AD relevance is Mendelian randomisation genetics only; participants are healthy offspring cohort."
+    },
+    {
+      "entity_id": "delcode-urine-nmr-metabolomics",
+      "reason": "Modality mismatch: urine NMR, not plasma metabolomics."
+    },
+    {
+      "entity_id": "shandong-ad-urine-lcms-metabolomics",
+      "reason": "Modality mismatch: urine LC-MS, not plasma metabolomics."
+    },
+    {
+      "entity_id": "amyloid-biomarker-study-pooled",
+      "reason": "Modality mismatch: amyloid biomarker study (PET/CSF/plasma immunoassay for Aβ), not metabolomics."
+    },
+    {
+      "entity_id": "dian-obs-natural-history",
+      "reason": "Indication mismatch: dominantly inherited AD (rare DIAD mutation carriers), not sporadic AD; no metabolomics modality."
+    },
+    {
+      "entity_id": "adni-go2-plasma-lipidomics-aa",
+      "reason": "Sub-cohort of adni-go2-plasma-lipidomics (same samples, AA ancestry stratum only); n=37–62 — critically underpowered, well below 200 threshold."
+    },
+    {
+      "entity_id": "adni-plasma-ad-csvd-comorbidity-330",
+      "reason": "Already rejected above — immunoassay biomarkers not metabolomics."
+    },
+    {
+      "entity_id": "blsa-autopsy-brain-metabolomics",
+      "reason": "Postmortem brain tissue, not plasma; n=44 — well below threshold."
+    },
+    {
+      "entity_id": "mayo-brain-bank-rnaseq-adkp",
+      "reason": "Brain RNA-seq, not plasma metabolomics."
+    },
+    {
+      "entity_id": "rosmap-brain-rnaseq-adkp",
+      "reason": "Brain RNA-seq, not plasma metabolomics."
+    }
+  ],
+  "gaps": [
+    {
+      "type": "commercial_use_unverified",
+      "detail": "Neither of the two strong candidates (adni-go2-plasma-lipidomics, adni-go2-serum-metabolomics-mxp500) has explicit commercial-use clearance documented in the wiki. ADNI operates under LONI DUA and AMP-AD governance; commercial terms must be verified directly before project commitment."
+    },
+    {
+      "type": "modality_gap_targeted_only",
+      "detail": "All AD plasma metabolomics cohorts in the wiki use targeted platforms (Baker Institute LC-MS/MS, Biocrates MXP500, Biocrates p180, GC-FID). If the buyer requires broad untargeted metabolomics (covering TCA intermediates, organic acids, amino acids beyond lipids), no cohort in the current wiki satisfies the scope. Buyer should clarify targeted vs. untargeted requirement."
+    },
+    {
+      "type": "plasma_vs_serum_ambiguity",
+      "detail": "The strongest new candidate from the 219-entity wiki (adni-go2-serum-metabolomics-mxp500, depth=0.62) uses serum not plasma. Serum and plasma are non-interchangeable for many metabolomics applications. If serum is acceptable to the buyer, the effective candidate pool doubles."
+    },
+    {
+      "type": "statin_confounding_undocumented",
+      "detail": "Only adni-go2-plasma-lipidomics and adni-go2-serum-metabolomics-mxp500 formally document and model statin confounding. All other candidates (aspree, lleida) are silent on statin use — a direct mismatch with buyer's explicit hard negative."
+    },
+    {
+      "type": "multi_site_aggregation_possible",
+      "detail": "Three cohorts use the Biocrates platform (adni-go2-serum-metabolomics-mxp500 uses MXP500; adni1-serum-metabolomics-biocrates-p180 and blsa use p180; ages-reykjavik uses p180). Cross-cohort aggregation on the p180 metabolite intersection set is feasible but serum-only. Two cohorts use Baker Institute LC-MS/MS (adni-go2-plasma-lipidomics and aspree-dementia-casecohort-lipidomics) — these ARE plasma and ARE cross-cohort harmonised (NIST SRM 1950 protocol documented). Aggregating these two plasma lipidomics datasets is the highest-confidence multi-site option currently in the wiki."
+    },
+    {
+      "type": "thin_coverage_non_adni",
+      "detail": "The 219-entity wiki is heavily enriched for ADNI-lineage cohorts (>10 ADNI sub-cohorts). Independent longitudinal plasma metabolomics studies in AD outside the ADNI ecosystem are underrepresented. AIBL (Australian Imaging, Biomarker & Lifestyle study), PREVENT-AD, and PREVENT-Dementia cohorts are not yet in the wiki and could fill this gap."
+    }
+  ],
+  "verdict": "wiki_partial",
+  "verdict_reason": "Two strong candidates (adni-go2-plasma-lipidomics at depth 0.48, adni-go2-serum-metabolomics-mxp500 at depth 0.62) plus one partial (aspree) and one weak (lleida) survive hard filters; the serum MXP500 cohort is new to this run and significantly deepens the metabolomics coverage beyond lipidomics, but commercial-use terms remain unverified for all candidates and serum vs. plasma matrix compatibility requires buyer confirmation."
+}

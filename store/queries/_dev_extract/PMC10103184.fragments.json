@@ -1,0 +1,185 @@
+{
+  "source": {
+    "pmid": "37064049",
+    "pmc": "PMC10103184",
+    "doi": "10.1093/braincomms/fcac318",
+    "title": "Serum unsaturated phosphatidylcholines predict longitudinal basal forebrain degeneration in Alzheimer's disease",
+    "year": 2022,
+    "paper_path": "store/raw/papers/PMC10103184/paper.md"
+  },
+  "entity_hints": {
+    "cohorts": [
+      {
+        "candidate_name": "ADNI Phase 1 serum lipidomics cohort",
+        "aliases": [
+          "ADNI Phase 1 UC Davis lipidomics",
+          "ADNI lipidomics subset"
+        ],
+        "parent_institution_hint": "USC LONI / ADNI consortium",
+        "evidence_quote": "a total of 313 participants (181 males, 132 females) from ADNI Phase 1 were included in our lipidomics analyses, and 223 participants (127 males, 96 females) were included in our neuroimaging analyses",
+        "rationale": "These participants come from ADNI Phase 1 specifically, selected by availability of UC Davis untargeted serum lipidomics, CSF biomarkers, and structural MRI; they form a distinct analytical sub-cohort within the broader ADNI umbrella.",
+        "signal": "published_cohort"
+      }
+    ],
+    "institutions": [
+      {
+        "candidate_name": "Alzheimer's Disease Neuroimaging Initiative (ADNI) / USC LONI",
+        "evidence_quote": "Data used in the preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu)",
+        "role": "data provider"
+      },
+      {
+        "candidate_name": "UC Davis Metabolomics Center",
+        "evidence_quote": "lipidomics data collected at baseline using the UC Davis lipidomics platform",
+        "role": "collection site"
+      },
+      {
+        "candidate_name": "Schulich School of Medicine and Dentistry, University of Western Ontario",
+        "evidence_quote": "Schulich School of Medicine and Dentistry, University of Western Ontario, London, Ontario, Canada N6A 3K7",
+        "role": "sponsor"
+      },
+      {
+        "candidate_name": "Alzheimer's Disease Metabolomics Consortium",
+        "evidence_quote": "the Alzheimer's Disease Metabolomics Consortium",
+        "role": "sponsor"
+      }
+    ],
+    "investigators": [
+      {
+        "name": "Taylor W. Schmitz",
+        "affiliation": "Schulich School of Medicine and Dentistry, University of Western Ontario; Lawson Health Research Institute; Robarts Research Institute; Western Institute for Neuroscience",
+        "role": "senior author / corresponding"
+      },
+      {
+        "name": "Hayley R. C. Shanks",
+        "affiliation": "Schulich School of Medicine and Dentistry, University of Western Ontario",
+        "role": "lead PI"
+      },
+      {
+        "name": "Dinesh K. Barupal",
+        "affiliation": "Department of Environmental Medicine and Public Health, Icahn School of Medicine at Mount Sinai",
+        "role": "co-investigator (metabolomics methods)"
+      },
+      {
+        "name": "Michael W. Weiner",
+        "affiliation": "ADNI Principal Investigator",
+        "role": "lead PI (ADNI)"
+      }
+    ],
+    "platforms": [
+      {
+        "candidate_name": "UC Davis UHPLC-QTOF untargeted serum lipidomics",
+        "evidence_quote": "Serum lipidomics data were collected through untargeted ultra-high-performance liquid chromatography quadrupole time-of-flight mass spectrometry. For information on serum lipidomics data collection and processing in ADNI, see [ref 44]"
+      }
+    ],
+    "trials_referenced": []
+  },
+  "fragments": [
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 2,
+      "dimension_name": "real_numbers",
+      "fact": "313 ADNI Phase 1 participants with serum lipidomics and CSF biomarkers; 223 of these additionally had two timepoints of longitudinal structural MRI (~2 years apart). Normal CSF group: n=77 full, n=62 MRI subset. Abnormal CSF group (preclinical + MCI + AD): n=236 full, n=161 MRI subset.",
+      "source_quote": "a total of 313 participants (181 males, 132 females) from ADNI Phase 1 were included in our lipidomics analyses, and 223 participants (127 males, 96 females) were included in our neuroimaging analyses",
+      "section": "Materials and methods / ADNI data",
+      "implication": "The usable analytical N for any lipid-MRI association model is 223 (not the broader ADNI headline figure); the disease-enriched arm is 161 but includes mixed MCI and AD, limiting power to separate early-stage from late-stage signals.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 1,
+      "dimension_name": "sample_usability",
+      "fact": "Serum was used (not plasma). Lipidomics was untargeted UHPLC-QTOF collected at baseline on the UC Davis platform, covering 521 measured lipids of which 348 were annotated and used. No tube type, fasting status, or freeze-thaw cycle count is reported in this paper.",
+      "source_quote": "Serum lipidomics data were collected through untargeted ultra-high-performance liquid chromatography quadrupole time-of-flight mass spectrometry. Of the 521 measured lipids from the complete lipidomics data set available on ADNI, we excluded all unannotated lipids...The final data set used in this study consisted of 348 annotated lipids.",
+      "section": "Materials and methods / Serum lipidomics data",
+      "implication": "Serum rather than EDTA plasma introduces ~30% metabolite-level differences; cross-study comparison to plasma-based lipidomics cohorts (e.g. UK Biobank) requires careful normalisation. Fasting status and freeze-thaw count are undocumented here — a buyer should consult the ADNI biospecimen protocol paper (ref 44) before planning an assay replication.",
+      "confidence": "medium"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 3,
+      "dimension_name": "longitudinal_structure",
+      "fact": "Two MRI timepoints approximately 2 years apart were collected for the neuroimaging subset. Serum lipidomics was collected at baseline only (one timepoint). Interscan interval in years was used to compute annual percent grey matter change.",
+      "source_quote": "Longitudinal structural MRI data were collected at baseline and ~6-month follow-ups...two timepoints (~2 years apart) of their longitudinal T1-weighted imaging data. The interscan interval in years was used to regularize the deformations",
+      "section": "Materials and methods / Longitudinal structural MRI",
+      "implication": "Serum lipidomics is cross-sectional (baseline only), limiting causal inference; the MRI longitudinal window is 2 years, which captures early-to-moderate progression but may miss late-stage dynamics. A buyer needing multi-timepoint metabolomics would need to seek a different ADNI phase or supplementary dataset.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 5,
+      "dimension_name": "demographic_composition",
+      "fact": "Full sample: 313 participants, mean age ~74.6-75.3 years, 57.8% male overall. Abnormal CSF group: 70.3% APOE4 carriers vs 10.4% in normal CSF. Diagnostic breakdown in abnormal CSF: 29 CN / 123 MCI / 84 AD. BMI: normal CSF 27.20 (4.23), abnormal CSF 25.37 (3.67). Ethnicity not reported.",
+      "source_quote": "% APOE4 carriers: 10.4 [normal CSF] vs 70.3 [abnormal CSF]; Age: 75.30 (5.50) vs 74.60 (7.32); CN/MCI/Alzheimer's disease: 77/0/0 vs 29/123/84",
+      "section": "Results / Group characteristics (Table 1)",
+      "implication": "Heavy APOE4 enrichment in the disease arm (70%) is useful for APOE-stratified biomarker modelling but means findings may over-represent APOE4-driven biology. Ethnicity is unreported — the cohort is likely predominantly White given ADNI Phase 1 demographics, limiting generalisability to diverse populations. Mean age ~75 excludes early-onset AD (<65).",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 6,
+      "dimension_name": "co_modalities",
+      "fact": "Same participants have: CSF pTau/Aβ ratio (Alzheimer's disease pathology stratification), longitudinal T1-weighted structural MRI (2 timepoints, ~2 years), and serum lipidomics. ADNI Phase 1 more broadly also includes PET, GWAS, and neuropsychological batteries (ADNI composite memory and executive function scores reported here).",
+      "source_quote": "participants from ADNI needed to have (i) lipidomics data collected at baseline using the UC Davis lipidomics platform, (ii) information on body mass index (BMI), and (iii) CSF biomarkers of Aβ and pTau. For analyses relating lipidomics data to neuroimaging measures, participants needed to additionally have longitudinal structural MRI data.",
+      "section": "Materials and methods / ADNI data",
+      "implication": "Triple-modality (lipidomics + CSF + longitudinal MRI) on the same subjects is rare and enables lipid-to-pathology-to-neurodegeneration chain modelling. A buyer can cross-reference lipid hits against CSF Aβ/pTau status and brain atrophy trajectories within this dataset without recruiting new participants.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 7,
+      "dimension_name": "effect_sizes_and_model_performance",
+      "fact": "Unsaturated phosphatidylcholines predicted NbM longitudinal degeneration: PLS latent variable P=0.0008 (5000 permutations). Whole-brain PLS: unsaturated PC P=0.0022, unsaturated acylcarnitines P=0.0018. Six of 23 lipid clusters were significantly altered by CSF pTau/Aβ after FDR correction (unsaturated triglycerides p=2.5e-8, galactosylceramides p=9.4e-7, phospholipid ethers p=0.010, unsaturated PC p=0.012, diglycerides p=0.025, plasmalogens p=0.027).",
+      "source_quote": "a single significant latent variable...baseline levels of serum unsaturated phosphatidylcholines predicted longitudinal degeneration within the NbM (P = 0.0008 on 5000 permutation tests)...Unsaturated phosphatidylcholines (P = 0.0022 on 5000 permutations) and unsaturated acylcarnitines (P = 0.0018 on 5000 permutations) were the only lipid clusters that produced a significant latent variable",
+      "section": "Results / Serum phosphatidylcholines are associated with NbM degeneration",
+      "implication": "The signal is multivariate (PLS), not a single-metabolite AUC — a buyer cannot directly extract a diagnostic cut-off, but the finding is statistically robust across 5000 permutations and anatomically specific to basal forebrain targets, making it a credible hypothesis-generation signal for further assay development.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 9,
+      "dimension_name": "access_and_consent_scope",
+      "fact": "All raw data are freely available from https://ida.loni.usc.edu. ADNI participants gave informed consent according to the Declaration of Helsinki. Analysis code: ChemRICH on GitHub (https://github.com/barupal/ChemRICH), MRI preprocessing in SPM12 (open source), PLS software freely available at https://www.rotman-baycrest.on.ca.",
+      "source_quote": "All raw data used in this study are freely available from https://ida.loni.usc.edu...All ADNI participants gave informed consent according to the Declaration of Helsinki prior to participating in any part of ADNI, and all data collection protocols were approved by the institution where the work was performed.",
+      "section": "Data Availability / Materials and methods",
+      "implication": "Access route is a DUA through LONI (ida.loni.usc.edu) — standard academic process, typically 2-4 months. No mention of commercial use clause; ADNI DUAs historically restrict commercial use of raw data. A commercial buyer should verify DUA terms before committing to a project timeline.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 11,
+      "dimension_name": "negative_results",
+      "fact": "Saturated phosphatidylcholines cluster did NOT differ between normal and abnormal CSF groups. 17 of 23 lipid clusters showed no significant alteration by CSF pTau/Aβ. Unsaturated acylcarnitines lost significance when age and BMI were removed as covariates (P=0.099), indicating that relationship is largely age/BMI-driven rather than disease-specific.",
+      "source_quote": "Unsaturated acylcarnitines do not significantly predict grey matter degeneration (P = 0.099 on 5000 permutations) [when age and BMI excluded]...Saturated phosphatidylcholines [cluster p=1 in Table 2]",
+      "section": "Results / Influence of age, BMI and sex",
+      "implication": "A buyer pursuing acylcarnitines as stand-alone AD biomarkers in this cohort would likely find a confounded signal; the effect collapses after controlling for age and BMI. Saturated PC classes are not differentially expressed and should not be prioritised for AD stratification assays using this dataset.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 12,
+      "dimension_name": "published_analysis_code",
+      "fact": "ChemRICH R code publicly available on GitHub. Longitudinal MRI preprocessing pipeline in MATLAB/SPM12. PLS analysis software freely available from Rotman-Baycrest. Raw data freely available from LONI portal.",
+      "source_quote": "The ChemRICH analysis was performed in R. The code to perform ChemRICH can be found online (https://github.com/barupal/ChemRICH). Longitudinal structural MRI preprocessing was performed in MATLAB using SPM12 (https://www.fil.ion.ucl.ac.uk/spm/software/download/). PLS analyses were performed in MATLAB version 2019b, using PLS software which is freely available (https://www.rotman-baycrest.on.ca).",
+      "section": "Data Availability",
+      "implication": "A buyer can reproduce the full analytical pipeline from raw LONI data; no proprietary black boxes in the workflow. R + MATLAB dependency means some team capacity in both languages is needed, or only the ChemRICH and PLS steps need to be replicated.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI Phase 1 serum lipidomics cohort",
+      "dimension": 19,
+      "dimension_name": "provenance_chain",
+      "fact": "Samples collected under ADNI Phase 1 (launched 2003); serum lipidomics assayed by UC Davis using UHPLC-QTOF; data deposited at USC LONI (ida.loni.usc.edu). Funded by NIH (U01 AG024904), DoD (W81XWH-12-2-0012), NIA, Alzheimer's Association, and a large consortium of pharma companies. Metabolomics data processing referenced to a separate ADNI lipidomics methods paper [ref 44 in text].",
+      "source_quote": "Data used in the preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). The ADNI was launched in 2003 as a public-private partnership, led by Principal Investigator Michael W. Weiner, MD.",
+      "section": "Materials and methods / ADNI data; Funding",
+      "implication": "The provenance chain from patient to assay to portal is well-documented at the consortium level (patient → ADNI multi-site → UC Davis assay → USC LONI repository). The specific ADNI lipidomics QC protocol is in a separate cited paper [ref 44] and must be consulted to confirm freeze-thaw and pre-analytical handling — that link in the chain is not directly documented in this paper.",
+      "confidence": "medium"
+    }
+  ],
+  "open_questions": [
+    "Tube type (EDTA/heparin/SST), fasting status, and freeze-thaw cycle count for ADNI Phase 1 serum are not stated in this paper. Must consult ADNI lipidomics methods reference [ref 44, Barupal et al.] before planning assay replication or cross-cohort comparison.",
+    "Ethnicity/ancestry breakdown is not reported; ADNI Phase 1 is known to be predominantly non-Hispanic White, which limits generalisability claims. Worth confirming from ADNI data dictionary on LONI before advising a buyer on diverse population coverage.",
+    "Commercial use clause of the ADNI LONI DUA is not stated in this paper. A commercial buyer must verify whether the DUA permits commercial research before committing to a procurement timeline.",
+    "The APOE4-by-CSF interaction on phosphatidylcholines was noted as plausible but not formally tested due to sample size ('we did not have the sample size to examine interactions between APOE4 and CSF'). A buyer needing APOE-stratified lipid models would need to pool with additional ADNI phases or other cohorts.",
+    "Only serum lipidomics (not plasma) was available in ADNI Phase 1 at the time of the study. If plasma-based lipidomics results are needed for comparison, this sub-cohort cannot directly provide them."
+  ]
+}

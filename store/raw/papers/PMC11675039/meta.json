@@ -1,0 +1,127 @@
+{
+  "pmid": "39727843",
+  "pmc": "PMC11675039",
+  "doi": "10.3390/bios14120578",
+  "title": "Development of a Sensitive and Reliable Meso Scale Discovery-Based Electrochemiluminescence Immunoassay to Quantify TDP-43 in Human Biofluids",
+  "journal": "Biosensors",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "An Jiyan",
+      "affiliations": [
+        "jiyan.an@barrowneuro.org (J.A.); lathika.gopalakrishnan@barrowneuro.org (L.G.); vrortega04@gmail.com (V.O.); jpsaul@gmail.com (J.S.); renu.kadali@dignityhealth.org (R.K.)"
+      ]
+    },
+    {
+      "name": "Gopalakrishnan Lathika",
+      "affiliations": [
+        "jiyan.an@barrowneuro.org (J.A.); lathika.gopalakrishnan@barrowneuro.org (L.G.); vrortega04@gmail.com (V.O.); jpsaul@gmail.com (J.S.); renu.kadali@dignityhealth.org (R.K.)"
+      ]
+    },
+    {
+      "name": "Ortega Vanessa",
+      "affiliations": [
+        "jiyan.an@barrowneuro.org (J.A.); lathika.gopalakrishnan@barrowneuro.org (L.G.); vrortega04@gmail.com (V.O.); jpsaul@gmail.com (J.S.); renu.kadali@dignityhealth.org (R.K.)"
+      ]
+    },
+    {
+      "name": "Saul Justin",
+      "affiliations": [
+        "jiyan.an@barrowneuro.org (J.A.); lathika.gopalakrishnan@barrowneuro.org (L.G.); vrortega04@gmail.com (V.O.); jpsaul@gmail.com (J.S.); renu.kadali@dignityhealth.org (R.K.)"
+      ]
+    },
+    {
+      "name": "Kadali Renu",
+      "affiliations": [
+        "jiyan.an@barrowneuro.org (J.A.); lathika.gopalakrishnan@barrowneuro.org (L.G.); vrortega04@gmail.com (V.O.); jpsaul@gmail.com (J.S.); renu.kadali@dignityhealth.org (R.K.)"
+      ]
+    },
+    {
+      "name": "Bowser Robert",
+      "affiliations": [
+        "jiyan.an@barrowneuro.org (J.A.); lathika.gopalakrishnan@barrowneuro.org (L.G.); vrortega04@gmail.com (V.O.); jpsaul@gmail.com (J.S.); renu.kadali@dignityhealth.org (R.K.)",
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "TDP-43",
+    "immunoassay",
+    "MSD",
+    "ALS",
+    "biomarker",
+    "neurodegenerative disease"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Target ALSTT-2019-IMA-S1"
+  ],
+  "data_availability_text": "Data Availability StatementThe data that support the findings of this study are available via a data use agreement from the corresponding author upon reasonable request.",
+  "license": "",
+  "received": "2024-09-10",
+  "accepted": "2024-11-22",
+  "reference_pmids": [
+    "27647646",
+    "31039256",
+    "31400306",
+    "18957508",
+    "18305110",
+    "17469116",
+    "11470789",
+    "30837838",
+    "29486049",
+    "34209287",
+    "27679482",
+    "32581773",
+    "18989684",
+    "19001167",
+    "33732797",
+    "36937522",
+    "23524657",
+    "30913220",
+    "21783422",
+    "37450244",
+    "20043239",
+    "19018245",
+    "38304795",
+    "33144793",
+    "36217158",
+    "31031584",
+    "30578840",
+    "39294194"
+  ],
+  "tables_count": 1,
+  "figures_count": 8,
+  "sections_present": [
+    "abstract",
+    "1. introduction",
+    "2. materials and methods",
+    "2.1. materials",
+    "2.2. sample collection and preparation",
+    "2.3. meso scale discovery (msd) assay conditions",
+    "2.4. msd assay performance and reproducibility",
+    "2.4.1. reproducibility and precision",
+    "2.4.2. dilution linearity",
+    "2.4.3. spike-in recovery",
+    "2.4.4. specificity test",
+    "2.5. tdp-43 measures in clinical samples",
+    "2.6. figures and tables",
+    "3. results",
+    "3.1. antibody selection for assay development",
+    "3.2. optimization of assay parameters",
+    "3.3. precision, sensitivity, and specificity",
+    "3.4. freeze–thaw stability",
+    "3.5. parallelism and spike-in recovery",
+    "3.6. quantification of tdp-43 in blood samples of als patients and healthy controls",
+    "4. discussion",
+    "4.1. antibody screening",
+    "4.2. decrease in tdp-43 in als plasma and serum",
+    "5. conclusions",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 6817,
+  "converted_at": "2026-04-06T22:36:31.479336+00:00"
+}

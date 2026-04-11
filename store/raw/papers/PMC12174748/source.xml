@@ -1,0 +1,1063 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="ana27208" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ann Neurol</journal-id><journal-id journal-id-type="iso-abbrev">Ann Neurol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">ANA</journal-id><journal-title-group><journal-title>Annals of Neurology</journal-title></journal-title-group><issn pub-type="ppub">0364-5134</issn><issn pub-type="epub">1531-8249</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12174748</article-id><article-id pub-id-type="pmcid-ver">PMC12174748.1</article-id><article-id pub-id-type="pmcaid">12174748</article-id><article-id pub-id-type="pmcaiid">12174748</article-id><article-id pub-id-type="pmid">39976286</article-id><article-id pub-id-type="doi">10.1002/ana.27208</article-id><article-id pub-id-type="publisher-id">ANA27208</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Longitudinal Metabolomics in Amyotrophic Lateral Sclerosis Implicates Impaired Lipid Metabolism</article-title><alt-title alt-title-type="right-running-head">Impaired lipid metabolism in ALS</alt-title><alt-title alt-title-type="left-running-head">Guo et al</alt-title></title-group><contrib-group><contrib id="ana27208-cr-0001" contrib-type="author"><name name-style="western"><surname>Guo</surname><given-names initials="K">Kai</given-names></name><degrees>PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4651-781X</contrib-id><xref rid="ana27208-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ana27208-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ana27208-note-0001" ref-type="author-notes">
+<sup>†</sup>
+</xref></contrib><contrib id="ana27208-cr-0002" contrib-type="author"><name name-style="western"><surname>Savelieff</surname><given-names initials="MG">Masha G.</given-names></name><degrees>PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5575-2494</contrib-id><xref rid="ana27208-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="ana27208-note-0001" ref-type="author-notes">
+<sup>†</sup>
+</xref></contrib><contrib id="ana27208-cr-0003" contrib-type="author"><name name-style="western"><surname>Jang</surname><given-names initials="DG">Dae‐Gyu</given-names></name><degrees>PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0009-7966-1322</contrib-id><xref rid="ana27208-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ana27208-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ana27208-cr-0004" contrib-type="author"><name name-style="western"><surname>Teener</surname><given-names initials="SJ">Samuel J.</given-names></name><degrees>BSc</degrees><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0003-9072-8184</contrib-id><xref rid="ana27208-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ana27208-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ana27208-cr-0005" contrib-type="author"><name name-style="western"><surname>Zhao</surname><given-names initials="L">Lili</given-names></name><degrees>PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6366-8206</contrib-id><xref rid="ana27208-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ana27208-cr-0006" contrib-type="author"><name name-style="western"><surname>Hur</surname><given-names initials="J">Junguk</given-names></name><degrees>PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0736-2149</contrib-id><xref rid="ana27208-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ana27208-cr-0007" contrib-type="author"><name name-style="western"><surname>Goutman</surname><given-names initials="SA">Stephen A.</given-names></name><degrees>MD, MS</degrees><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8780-6637</contrib-id><address><email>sgoutman@med.umich.edu</email></address><xref rid="ana27208-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ana27208-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ana27208-cr-0008" contrib-type="author" corresp="yes"><name name-style="western"><surname>Feldman</surname><given-names initials="EL">Eva L.</given-names></name><degrees>MD, PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9162-2694</contrib-id><xref rid="ana27208-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ana27208-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>efeldman@umich.edu</email></address></contrib></contrib-group><aff id="ana27208-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>University of Michigan</institution>
+<city>Ann Arbor</city>
+<named-content content-type="country-part">MI</named-content>
+</aff><aff id="ana27208-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">NeuroNetwork for Emerging Therapies</named-content>
+<institution>University of Michigan</institution>
+<city>Ann Arbor</city>
+<named-content content-type="country-part">MI</named-content>
+</aff><aff id="ana27208-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biomedical Sciences</named-content>
+<institution>University of North Dakota</institution>
+<city>Grand Forks</city>
+<named-content content-type="country-part">ND</named-content>
+</aff><aff id="ana27208-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biostatistics</named-content>
+<institution>University of Michigan</institution>
+<city>Ann Arbor</city>
+<named-content content-type="country-part">MI</named-content>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+Address correspondence to Dr Feldman, Department of Neurology, University of Michigan, 109 Zina Pitcher Place, Ann Arbor, MI 48109‐5223. E‐mail: <email>efeldman@umich.edu</email>
+<break/>
+Dr Goutman, Department of Neurology, University of Michigan, 109 Zina Pitcher Place, Ann Arbor, MI 48109‐2200. E‐mail: <email>sgoutman@med.umich.edu</email>
+<break/>
+</corresp><fn id="ana27208-note-0001" fn-type="equal"><label>†</label><p>Kai Guo and Masha G. Savelieff contributed equally to this study and are to be considered co‐first authors.</p></fn></author-notes><pub-date pub-type="epub"><day>20</day><month>2</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>7</month><year>2025</year></pub-date><volume>98</volume><issue seq="70">1</issue><issue-id pub-id-type="pmc-issue-id">490961</issue-id><issue-id pub-id-type="doi">10.1002/ana.v98.1</issue-id><fpage>19</fpage><lpage>34</lpage><history><date date-type="rev-recd"><day>19</day><month>12</month><year>2024</year></date><date date-type="received"><day>26</day><month>8</month><year>2024</year></date><date date-type="accepted"><day>26</day><month>1</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>18</day><month>06</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>19</day><month>06</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-06-19 00:25:15.143"><day>19</day><month>06</month><year>2025</year></date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">12174748</article-id><article-id pub-id-type="doi">10.1002/ana.27208</article-id><article-version>1</article-version><pub-date><day>20</day><month>02</month><year>2025</year></pub-date></event><event event-type="pmc-version" specific-use="not-live"><article-id pub-id-type="pmcaiid">12176521</article-id><article-id pub-id-type="doi">10.1002/ana.27208</article-id><article-id pub-id-type="manuscript-id">NIHMS2056622</article-id><article-version>2</article-version><pub-date><day>20</day><month>02</month><year>2025</year></pub-date><date date-type="pmc-release"><day>01</day><month>07</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Annals of Neurology</italic> published by Wiley Periodicals LLC on behalf of American Neurological Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ANA-98-19.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ANA-98-19.pdf"/><abstract><sec id="ana27208-sec-0001"><title>Objective</title><p>Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease characterized by altered metabolome and energy homeostasis, manifesting with body mass index changes and hypermetabolism—both prognostic of disease progression and survival. The cross‐sectional ALS metabolome has been characterized, but longitudinal correlations to functional decline are lacking.</p></sec><sec id="ana27208-sec-0002"><title>Methods</title><p>We longitudinally evaluated metabolomes from ALS plasma and terminal postmortem spinal cord and brain motor cortex tissue. We constructed 3 plasma models. A linear mixed effects model correlated all metabolite levels across all timepoints to their corresponding functional scores. An interaction model predicted a longitudinal change in function from baseline metabolites, whereas a progression model identified metabolites linked to a 20% or 50% drop in function. In postmortem samples, differential metabolites in onset versus second spinal cord segments served as a surrogate of disease progression. Mendelian randomization assessed potential causality from metabolites.</p></sec><sec id="ana27208-sec-0003"><title>Results</title><p>In plasma, all models primarily selected lipid metabolites and sub‐pathways, in addition to amino acids, xenobiotics, and various less frequently selected pathways. Among lipids, fatty acids and sphingomyelins were predominant, along with plasmalogens, phosphatidylcholines, and lysophospholipids. Sex interaction findings were nominal. In the spinal cord, sphingomyelin and long‐chain saturated and monounsaturated fatty acids were more abundant in the onset segment tissue, whereas phosphatidylcholines and phosphatidylethanolamines were less abundant. Mendelian randomization suggested that impaired carnitine and short chain acylcarnitine metabolism may be genetically determined in ALS, along with various antioxidant derivatives.</p></sec><sec id="ana27208-sec-0004"><title>Interpretation</title><p>Our findings suggest metabolomic changes primarily involving different lipid classes and carnitine metabolism may underscore ALS severity and progression. ANN NEUROL 2025;98:19–34</p></sec></abstract><funding-group><award-group id="funding-0001"><funding-source>the Sinai Medical Staff Foundation</funding-source></award-group><award-group id="funding-0002"><funding-source>National Center for Advancing Translational Sciences at the National Institutes of Health</funding-source><award-id>UL1TR002240</award-id></award-group><award-group id="funding-0003"><funding-source>the Coleman Therapeutic Discovery Fund</funding-source></award-group><award-group id="funding-0004"><funding-source>the A. Alfred Taubman Medical Research Institute</funding-source></award-group><award-group id="funding-0005"><funding-source>the NeuroNetwork for Emerging Therapies, University of Michigan</funding-source></award-group><award-group id="funding-0006"><funding-source><institution-wrap><institution>National Institute of Neurological Disorders and Stroke
+</institution><institution-id institution-id-type="doi">10.13039/100000065</institution-id></institution-wrap></funding-source><award-id>R01NS127188</award-id></award-group><award-group id="funding-0007"><funding-source>the Dr. Randall Whitcomb Fund for ALS Genetics</funding-source></award-group><award-group id="funding-0008"><funding-source>the Robert A. Epstein and Joan M. Chernoff‐Epstein Emerging Scholar Fund</funding-source></award-group><award-group id="funding-0009"><funding-source>the Scott L. Pranger ALS Clinic Fund</funding-source></award-group><award-group id="funding-0010"><funding-source><institution-wrap><institution>Michigan Institute for Clinical and Health Research
+</institution><institution-id institution-id-type="doi">10.13039/100008269</institution-id></institution-wrap></funding-source><award-id>UL1TR000433</award-id></award-group><award-group id="funding-0011"><funding-source><institution-wrap><institution>Centers for Disease Control and Prevention
+</institution><institution-id institution-id-type="doi">10.13039/100000030</institution-id></institution-wrap></funding-source><award-id>R01TS000289</award-id></award-group><award-group id="funding-0012"><funding-source><institution-wrap><institution>National Institute of Environmental Health Sciences
+</institution><institution-id institution-id-type="doi">10.13039/100000066</institution-id></institution-wrap></funding-source><award-id>K23ES027221</award-id><award-id>R01ES030049</award-id></award-group><award-group id="funding-0013"><funding-source>the Peter R. Clark Fund for ALS Research</funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="2"/><page-count count="16"/><word-count count="9800"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>July 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.7 mode:remove_FC converted:18.06.2025</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ana27208-body-0001"><p>Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease with death from respiratory failure within 2 to 4 years of symptom onset.<xref rid="ana27208-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="ana27208-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> Although the primary pathology in ALS occurs in the central nervous system,<xref rid="ana27208-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> changes in the metabolome,<xref rid="ana27208-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="ana27208-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> energy homeostasis,<xref rid="ana27208-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> and body mass index (BMI)<xref rid="ana27208-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="ana27208-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> are an integral part of the disease process.</p><p>Altered metabolism in ALS is complex and multifaceted; patients with ALS experience global hypermetabolism<xref rid="ana27208-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> with elevated resting energy expenditure.<xref rid="ana27208-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Metabolic changes occur across various tissues, including the brain, spinal cord, and muscles, and result from alterations in both glucose and lipid metabolism as well as impaired mitochondrial function with inefficient tricarboxylic acid cycle and oxidative phosphorylation activity.<xref rid="ana27208-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> This impaired metabolic function in ALS manifests by altered levels in energy substrates and intermediates; poor energy production in ALS could also impact downstream processes, inducing broad changes to the metabolome overall, including to bioactive metabolites and lipids.<xref rid="ana27208-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> In cross‐sectional analysis, specific metabolites significantly correlate with disease status, based on the revised ALS functional rating scale revised (ALSFRS‐R),<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> suggestive that metabolic status may reflect functional status.</p><p>Moreover, hypermetabolism<xref rid="ana27208-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> and steeper BMI changes<xref rid="ana27208-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> associate with faster disease progression and poorer survival, indicating that metabolome changes may occur over the disease course longitudinally. However, despite well‐established associations between the metabolome and ALS,<xref rid="ana27208-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="ana27208-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="ana27208-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> most previous studies were cross‐sectional. Our goal in this study was to overcome limitations of cross‐sectional analyses and assess longitudinal changes in the ALS metabolome throughout the disease course, including the terminal timepoint. We hypothesized that plasma metabolite changes would track with disease progression, serving as potential biomarkers, and offering new insights into ALS pathophysiology.</p><p>We performed untargeted plasma metabolomics early in the disease course and longitudinally 6 and 12 months later. In tandem, postmortem spinal cord and brain motor cortex were also analyzed in a participant subset, the first analysis, to our knowledge, of various central nervous system tissues in human ALS. In plasma, we generated models that were associated with metabolite abundance to ALS functional status by ALSFRS‐R across the disease course. An interaction model leveraged baseline metabolites to predict change in ALSFRS‐R and progression model identified metabolites linked to a 20% and 50% drop in ALSFRS‐R relative to baseline score. We also performed sex interaction analyses because the patient's sex can impact metabolism<xref rid="ana27208-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> and ALS,<xref rid="ana27208-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="ana27208-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> including metabolites.<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> In tissue, mirroring disease progression, we assessed differential metabolites in the onset versus opposing spinal cord segment to identify species potentially linked to temporal changes in disease.</p><p>By leveraging longitudinal metabolomic profiles from a prospective cohort of individuals with ALS, our analysis identified several plasma lipid metabolites and lipid sub‐pathways that correlated with disease course, along with select amino acids and xenobiotics. In the spinal cord, select sphingomyelin and long‐chain saturated and monounsaturated fatty acid species were nominally more abundant in the onset tissue, whereas select phosphatidylcholines and phosphatidylethanolamines were less abundant. Mendelian randomization identified impaired carnitine and short chain acylcarnitine metabolism as possible genetic determinants in ALS, along with various antioxidant derivatives. Our findings reveal longitudinal changes in the ALS metabolome that associate with disease progression, yielding potential new ALS biomarkers and therapeutic targets.</p><sec sec-type="materials-and-methods" id="ana27208-sec-0006"><title>Materials and Methods</title><sec id="ana27208-sec-0007"><title>
+Participants and Biosamples
+</title><p>Protocols were previously published and details are provided in the Supplementary Information (SI).<xref rid="ana27208-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="ana27208-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> Briefly, all patients with ALS seen at the University of Michigan Pranger ALS Clinic older than 18 years and able to communicate in English were invited to participate and provided oral and written informed consent. Patients with ALS were diagnosed using the original/revised El Escorial criteria, and all were included meeting the criteria of definite, probable, probable‐laboratory supported, possible (revised criteria),<xref rid="ana27208-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> or suspected (original criteria).<xref rid="ana27208-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> All patients with ALS also met the Gold Coast criteria.<xref rid="ana27208-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> Patients provided non‐fasting plasma samples during their regular clinic visit, which were collected at baseline (T1) and approximate 6‐month intervals (T2 at 6 months and T3 at 12 months; Fig <xref rid="ana27208-fig-0001" ref-type="fig">1A</xref>). Brain and spinal cord samples were from patients who consented to donate tissue following their deaths. The University of Michigan institutional review board approved the study (HUM00028826).</p><fig position="float" fig-type="FIGURE" id="ana27208-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Overview of study design and models. (A) Number of ALS participants at each timepoint in the plasma cohort (<italic toggle="yes">blue</italic>) and spinal cord and brain cohort (<italic toggle="yes">green</italic>). (<bold>B</bold>) Graphic representation of the models for plasma metabolomics analysis. Linear mixed effects model 1 correlated metabolite abundances to ALSFRS‐R scores across all timepoints (at baseline [T1], 6 months [T2], and 12 months [T3]) for all participants (case 1, case 2, …, ith case). Linear regressions for each participant as fine red lines. Linear regression accounting for the entire metabolite and ALSFRS‐R dataset across all timepoints shown as a bold red line. Longitudinal interaction model 2 correlated baseline metabolite abundances (T1 time point only) to predict ALSFRS‐R change at 6 months for all participants (only case 1 and case 2 shown). For metabolite 1, differing baseline metabolite abundances predicted differing ALSFRS‐R change at 6 months (different slopes) indicating a time interaction. In this illustration, higher metabolite 1 levels predict faster decline. Thus, metabolite 1 predicts ALS progression. For metabolite 2, differing baseline metabolite abundances correlate to the same ALSFRS‐R change at 6 months (same slopes) indicating no time interaction. Thus, metabolite 2 does not predict ALS progression. Progression model 3 correlated baseline metabolites to 20% or 50% drop in ALSFRS‐R. For case 1 with less severe disease, 50% drop in ALSFRS‐R shown as an illustration. For case 2 with more severe disease, 50% drop in ALSFRS‐R shown. The same percent drop in ALSFRS‐R translates to differing net changes in ALSFRS‐R over potentially different time scales based on the initial disease severity. Figure created in part in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://biorender.com" ext-link-type="uri">Biorender.com</ext-link>. ALS = amyotrophic lateral sclerosis; ALSFRS‐R = amyotrophic lateral sclerosis functional rating scale revised. [Color figure can be viewed at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.annalsofneurology.org" ext-link-type="uri">www.annalsofneurology.org</ext-link>]</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ANA-98-19-g003.jpg"/></fig></sec><sec id="ana27208-sec-0008"><title>
+Metabolomic Profiling
+</title><p>Metabolon (Durham, NC) performed untargeted metabolomics of plasma and central nervous tissue samples by ultrahigh‐performance liquid chromatography‐tandem mass spectroscopy; details are provided in the Supplementary Information. Metabolomics was performed in 2 batches. Internal standards accounted for instrument variability and a well‐characterized human plasma technical replicate accounted for process variability.</p></sec><sec id="ana27208-sec-0009"><title>
+Statistical and Data Analysis
+</title><p>Statistical and data analysis details are provided in the Supplementary Information.</p><sec id="ana27208-sec-0010"><title>
+Participant Demographics
+</title><p>Participant demographics were summarized by median (25th to 75th percentiles) for continuous variables and counts (percentages) for categorical variables.</p></sec><sec id="ana27208-sec-0011"><title>
+Plasma Metabolite to <styled-content style="fixed-case" toggle="no">ALSFRS‐R</styled-content> Models
+</title><p>The longitudinal plasma metabolomics dataset contained a total of 692 metabolites measured from 548 samples from 317 participants. Three plasma models were constructed: model 1 (linear mixed effects model), model 2 (longitudinal interaction model), and model 3 (progression model; Fig <xref rid="ana27208-fig-0001" ref-type="fig">1B</xref>). Model 1 used all metabolite abundances measured at all timepoints, that is, from baseline up to 12 months, and their corresponding ALSFRS‐R scores at the time of sample collection. Model 2 used baseline metabolite abundance to predict the longitudinal change in ALSFRS‐R, from baseline to 6 months, to examine disease progression, assuming a constant rate over time. There were 15 missing values for the ALSFRS‐R score out of 387 total scores, or 3.9%. Missing ALSFRS‐R scores were imputed with the average values between the data points preceding and following the timepoint of the missing value. Models 1 and 2 adjusted for age, sex, BMI at study entry, and onset segment. Benjamini‐Hochberg (BH)‐adjusted <italic toggle="yes">p</italic> values &lt;0.05 were computed for models 1 and 2 (Supplementary Tables <xref rid="ana27208-supitem-0002" ref-type="supplementary-material">[Link]</xref>, <xref rid="ana27208-supitem-0003" ref-type="supplementary-material">[Link]</xref>, <xref rid="ana27208-supitem-0005" ref-type="supplementary-material">[Link]</xref>, and <xref rid="ana27208-supitem-0006" ref-type="supplementary-material">S5</xref>). Model 1 results were reported using a threshold of BH‐adjusted <italic toggle="yes">p</italic> values of &lt;0.05. Model 2 results were reported using a nominal <italic toggle="yes">p</italic> value &lt;0.05 due to the more exploratory nature of this analysis, with lower power to detect due to the added variable of time versus model 1.</p><p>Model 3 was a Cox regression model that correlated baseline metabolite abundance to progression to an event (PTE), defined as a 20% (PTE20) or 50% (PTE50) decline in ALSFRS‐R relative to diagnostic ALSFRS‐R score.<xref rid="ana27208-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> PTE20 was defined as the first longitudinal ALSFRS‐R score that was ≤ 0.8 × initial ALSFRS‐R or death. PTE50 was defined as the first longitudinal ALSFRS‐R score that was ≤ 0.5 × initial ALSFRS‐R or death. Participants who did not experience PTE20 or PTE50 or were lost to follow‐up were censored. The model was adjusted for age at initial sample, sex, BMI at entry, onset segment (bulbar versus non‐bulbar, ie, cervical and lumbar), diagnostic ALSFRS‐R, time between symptom onset and diagnosis, and definite versus non‐definite (ie, probable, probable‐laboratory supported, possible, and suspected) diagnostic El Escorial criteria. BH‐adjusted <italic toggle="yes">p</italic> values &lt;0.05 were computed for model 3 (Supplementary Tables <xref rid="ana27208-supitem-0007" ref-type="supplementary-material">S6</xref> and <xref rid="ana27208-supitem-0008" ref-type="supplementary-material">S7</xref>), but results were reported using a nominal <italic toggle="yes">p</italic> value &lt;0.05 due to the more exploratory nature of this analysis, with lower power to detect due to the right‐censored data.</p></sec><sec id="ana27208-sec-0012"><title>
+Plasma Metabolomics Pathway Analysis
+</title><p>Unsupervised gene set variation analysis assessed pathway activity in each participant sample based on the abundance of all metabolites within each pathway for models 1, 2, and 3.</p></sec><sec id="ana27208-sec-0013"><title>
+Plasma Metabolomics Sex Interaction Analysis
+</title><p>Sex interaction analyses were performed for models 1 and 2 by adding the interaction effects between sex and pathway as model covariates. Models were adjusted for age, BMI, and onset segment. BH‐adjusted <italic toggle="yes">p</italic> values &lt;0.05 were computed for the sex interaction of models 1 and 2 (Supplementary Table <xref rid="ana27208-supitem-0004" ref-type="supplementary-material">S3</xref>), but results were reported using a nominal <italic toggle="yes">p</italic> value &lt;0.05 due to the more exploratory nature of this analysis, with lower power to detect due to the added variable of sex versus models 1 and 2.</p></sec><sec id="ana27208-sec-0014"><title>
+Spinal Cord and Brain Metabolomics Analyses
+</title><p>Analysis first examined unique and overlapping metabolites across lumbar spinal cord, cervical spinal cord, and brain motor cortex samples, summarized by sub‐pathways and super‐pathways. Next, analysis of differential metabolites in the onset versus a second spinal cord segment was used as a surrogate of disease progression. Pairwise Wilcoxon test identified significant metabolites and pathways; BH‐adjusted <italic toggle="yes">p</italic> values &lt;0.05 were computed (Supplementary Table <xref rid="ana27208-supitem-0010" ref-type="supplementary-material">S9</xref>), but results were reported using nominal <italic toggle="yes">p</italic> values &lt;0.05 due to the small sample size.</p></sec><sec id="ana27208-sec-0015"><title>
+Mendelian Randomization
+</title><p>Mendelian randomization (MR) was performed using single‐nucleotide polymorphisms from published genome wide association studies of ALS<xref rid="ana27208-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> and plasma metabolites<xref rid="ana27208-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> in participants of European ancestry because participants in this study were 97% White. Significance was based on inverse variance weighted (IVW) <italic toggle="yes">p</italic> value &lt;0.05.</p></sec></sec></sec><sec sec-type="results" id="ana27208-sec-0016"><title>Results</title><sec id="ana27208-sec-0017"><title>
+<styled-content style="fixed-case" toggle="no">ALS</styled-content> Participant Characteristics of Plasma Cohort
+</title><p>From 317 participants with ALS, we had available 548 plasma samples, 317 at baseline (previously published),<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> 142 at T2 (ie, 6 months), and 87 at T3 (ie, 12 months; Table <xref rid="ana27208-tbl-0001" ref-type="table">1</xref>). The cohort was typical of ALS, with baseline median age of 64.0 years, within peak ALS prevalence, greater proportion of male subjects, and a distribution of bulbar versus spinal (cervical and lumbar) onset within anticipated ranges,<xref rid="ana27208-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> which remained relatively constant longitudinally. As expected with time, participants grew older (<italic toggle="yes">p</italic> value &lt;0.0001, T1 to T3) and disease progressed, based on an ALSFRS‐R decline (<italic toggle="yes">p</italic> value &lt;0.0001, T1 to T3). Median BMI for the ALS cohort did not change significantly with time.</p><table-wrap position="float" id="ana27208-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Demographics of ALS Participants of Plasma Cohort</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">T1 (baseline) (n = 317)</th><th align="center" valign="bottom" rowspan="1" colspan="1">T2 (6 mo) (n = 142)</th><th align="center" valign="bottom" rowspan="1" colspan="1">T3 (12 mo) (n = 87)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Age at plasma collection, yr</td><td align="center" valign="top" rowspan="1" colspan="1">64.0 (56.0–71.0)</td><td align="center" valign="top" rowspan="1" colspan="1">64.2 (55.3–70.4)</td><td align="center" valign="top" rowspan="1" colspan="1">65.0 (58.1–70.7)</td><td align="left" valign="top" rowspan="1" colspan="1">&lt;0.0001</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sex</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F</td><td align="center" valign="top" rowspan="1" colspan="1">145 (45.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">62 (43.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">40 (46.0%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">M</td><td align="center" valign="top" rowspan="1" colspan="1">172 (54.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">80 (56.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">47 (54.0%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">BMI at study entry, kg/m<sup>2</sup>
+</td><td align="center" valign="top" rowspan="1" colspan="1">26.1 (23.2–29.8)</td><td align="center" valign="top" rowspan="1" colspan="1">26.6 (23.4–29.8)</td><td align="center" valign="top" rowspan="1" colspan="1">27.1 (23.4–29.5)</td><td align="left" valign="top" rowspan="1" colspan="1">0.98</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Race/ethnicity</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Asian</td><td align="center" valign="top" rowspan="1" colspan="1">2 (0.6%)</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Hispanic</td><td align="center" valign="top" rowspan="1" colspan="1">1 (0.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Black or African American</td><td align="center" valign="top" rowspan="1" colspan="1">7 (2.2%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (2.8%)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (2.3%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">White</td><td align="center" valign="top" rowspan="1" colspan="1">307 (96.8%)</td><td align="center" valign="top" rowspan="1" colspan="1">138 (97.2%)</td><td align="center" valign="top" rowspan="1" colspan="1">85 (97.7%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Family history of ALS</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">302 (95.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">136 (95.8%)</td><td align="center" valign="top" rowspan="1" colspan="1">83 (95.4%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">15 (4.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">6 (4.2%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (4.6%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">C9orf72</italic> repeat expansion status</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Positive</td><td align="center" valign="top" rowspan="1" colspan="1">21 (6.6%)</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Intermediate</td><td align="center" valign="top" rowspan="1" colspan="1">2 (0.6%)</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Negative</td><td align="center" valign="top" rowspan="1" colspan="1">230 (72.6%)</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Unknown/missing</td><td align="center" valign="top" rowspan="1" colspan="1">64 (20.2%)</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Diagnostic El Escorial criteria</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Definite</td><td align="center" valign="top" rowspan="1" colspan="1">85 (26.8%)</td><td align="center" valign="top" rowspan="1" colspan="1">32 (22.5%)</td><td align="center" valign="top" rowspan="1" colspan="1">20 (23.0%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Probable</td><td align="center" valign="top" rowspan="1" colspan="1">94 (29.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">45 (31.7)</td><td align="center" valign="top" rowspan="1" colspan="1">28 (32.2%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Probable, laboratory supported</td><td align="center" valign="top" rowspan="1" colspan="1">77 (24.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">33 (23.2%)</td><td align="center" valign="top" rowspan="1" colspan="1">17 (19.5%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Possible</td><td align="center" valign="top" rowspan="1" colspan="1">43 (13.6%)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (14.8%)</td><td align="center" valign="top" rowspan="1" colspan="1">16 (18.4%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Suspected</td><td align="center" valign="top" rowspan="1" colspan="1">18 (5.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">11 (7.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">6 (6.9%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Missing</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age at symptom onset, yr</td><td align="center" valign="top" rowspan="1" colspan="1">61.7 (53.0–68.2)</td><td align="center" valign="top" rowspan="1" colspan="1">61.1 (52.3–67.2)</td><td align="center" valign="top" rowspan="1" colspan="1">61.6 (53.7–67.2)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age at diagnosis, yr</td><td align="center" valign="top" rowspan="1" colspan="1">63.2 (54.5–69.7)</td><td align="center" valign="top" rowspan="1" colspan="1">62.2 (53.6–68.7)</td><td align="center" valign="top" rowspan="1" colspan="1">62.6 (54.9–69.0)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Time from symptom onset to diagnosis, yr</td><td align="center" valign="top" rowspan="1" colspan="1">1.0 (0.6–1.7)</td><td align="center" valign="top" rowspan="1" colspan="1">1.1 (0.9–1.6)</td><td align="center" valign="top" rowspan="1" colspan="1">1.6 (1.4–1.9)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Time from diagnosis to time of sample collection, yr</td><td align="center" valign="top" rowspan="1" colspan="1">0.6 (0.4–1.0)</td><td align="center" valign="top" rowspan="1" colspan="1">1.2 (0.7–1.9)</td><td align="center" valign="top" rowspan="1" colspan="1">1.2 (0.7–1.9)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">ALSFRS‐R at plasma collection</td><td align="center" valign="top" rowspan="1" colspan="1">32 (26–37)</td><td align="center" valign="top" rowspan="1" colspan="1">29 (23–35)</td><td align="center" valign="top" rowspan="1" colspan="1">27 (19–33)</td><td align="left" valign="top" rowspan="1" colspan="1">&lt;0.0001</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Onset segment</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Bulbar</td><td align="center" valign="top" rowspan="1" colspan="1">90 (28.4%)</td><td align="center" valign="top" rowspan="1" colspan="1">33 (23.2%)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (24.1%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Cervical</td><td align="center" valign="top" rowspan="1" colspan="1">109 (34.4%)</td><td align="center" valign="top" rowspan="1" colspan="1">56 (39.4%)</td><td align="center" valign="top" rowspan="1" colspan="1">32 (36.8%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Lumbar</td><td align="center" valign="top" rowspan="1" colspan="1">118 (37.2%)</td><td align="center" valign="top" rowspan="1" colspan="1">53 (37.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">34 (39.1%)</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot id="ana27208-ntgp-0002"><fn id="ana27208-note-0002"><p>Continuous variables, age at plasma collection (years), BMI at study entry (kg/m<sup>2</sup>), and ALSFRS‐R at plasma collection, represented as median (25th – 75th percentile).</p></fn><fn id="ana27208-note-0003"><p>Categorical variables, sex, race/ethnicity, family history of ALS, and onset segment, represented as N (%; rounded to the first decimal place).</p></fn><fn id="ana27208-note-0004"><p>Significance with time assessed by a linear mixed model.</p></fn><fn id="ana27208-note-0005"><p>ALS = amyotrophic lateral sclerosis; ALSFRS‐R = amyotrophic lateral sclerosis functional rating scale – revised; BMI = body mass index.</p></fn></table-wrap-foot></table-wrap></sec><sec id="ana27208-sec-0018"><title>
+Plasma Metabolomics Linear Mixed Effects Model 1
+</title><p>Model 1 investigated the association of metabolite abundance to the corresponding ALSFRS‐R score at the time of sample collection across all timepoints, from baseline to 12 months. This model is an extension of our previously published purely cross‐sectional baseline analysis<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> by further correlating metabolite levels to ALSFRS‐R across the continuum of disease. Model 1 selected 262 significant metabolites (adjusted <italic toggle="yes">p</italic> value &lt;0.05), of which 80 contributed significantly to the model (|beta| &gt; 0.2; Fig <xref rid="ana27208-fig-0002" ref-type="fig">2A</xref>, Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S1A</xref>, Supplementary Table <xref rid="ana27208-supitem-0004" ref-type="supplementary-material">S3</xref>). Lipids were prominently featured (54%, primarily positively correlated to ALSFRS‐R), followed by xenobiotics (19%, exclusively positively correlated to ALSFRS‐R), amino acids (19%, two‐thirds positively correlated to ALSFRS‐R), and a few percent of various additional metabolites. The lipid class constituted fatty acids (26%), sphingomyelins (23%), plasmalogens (16%), lysoplasmalogens and lysophospholipids (12%), phosphatidylcholines (9%), and a few percent of various additional lipids. The most significant metabolite was the plasmalogen 1‐(1‐enyl‐palmitoyl)‐2‐linoleoyl‐GPC (P‐16:0/18:2) (adjusted <italic toggle="yes">p</italic> value = 5.29E‐28), which also contributed the most to model 1 (β = 0.495).</p><fig position="float" fig-type="FIGURE" id="ana27208-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Plasma metabolomics linear mixed effects model 1. Metabolite abundance to ALSFRS‐R across all timepoints. (A) Heatmap visualization of the relative abundance in the top 25 metabolites out of 80 (see Supplementary Table <xref rid="ana27208-supitem-0002" ref-type="supplementary-material">S1</xref>) with adjusted <italic toggle="yes">p</italic> value &lt;0.05 and |beta| &gt; 0.2 to ALSFRS‐R. (B) Heatmap visualization of the relative abundance of the top 25 enriched sub‐pathways with adjusted <italic toggle="yes">p</italic> value &lt;0.05 to ALSFRS‐R (see Supplementary Table <xref rid="ana27208-supitem-0003" ref-type="supplementary-material">S2</xref>). Heatmaps grouped by male (<italic toggle="yes">black</italic>) and female (<italic toggle="yes">gray</italic>) and sorted by ALSFRS‐R, from high (<italic toggle="yes">red</italic>; better functional status) to low score (<italic toggle="yes">turquoise</italic>; poorer functional status). Relative abundance scaled from higher (red) to lower (blue) according to the legend. Single asterisk * indicates a compound that has not been confirmed based on a standard, but that the analytical platform is confident in its identity. Double asterisk ** indicates a compound for which a standard is not available, but that the analytical platform is reasonably confident in its identity, or the information provided. ADMA, asymmetric dimethylarginine; ALSFRS‐R = amyotrophic lateral sclerosis functional rating scale revised; GPC = glycerophosphocholine; GPE = glycerophosphoethanolamine; SDMA = symmetric dimethylarginine. Legends ordered according to metabolite/sub‐pathway order in heatmaps. [Color figure can be viewed at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.annalsofneurology.org" ext-link-type="uri">www.annalsofneurology.org</ext-link>]</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ANA-98-19-g002.jpg"/></fig><p>Next, model 1 assessed the aggregated levels of sub‐pathway metabolite members to identify sub‐pathways significantly associated with ALSFRS‐R scores across all timepoints. There were 56 significant sub‐pathways (adjusted <italic toggle="yes">p</italic> value &lt;0.05), of which 18 correlated positively and 38 negatively with ALSFRS‐R scores (Fig <xref rid="ana27208-fig-0002" ref-type="fig">2B</xref>, see Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S1B</xref>, Supplementary Table <xref rid="ana27208-supitem-0003" ref-type="supplementary-material">S2</xref>). Lipid sub‐pathways continued to be predominant, at 39% (of which approximately 60% correlated negatively with ALSFRS‐R), followed by xenobiotics (16%) and amino acids (14%), with fewer sub‐pathways from nucleotides (7%), cofactors and vitamins (7%), peptides (7%), carbohydrates (5%), and energy (3.6%). Of lipid sub‐pathways, most were related to fatty acids (41%); however, sub‐pathways were selected, for example, primary and secondary bile metabolism, that were not represented when we examined individual metabolites. Evaluating sub‐pathway level significance also identified candidates not selected by examining individual metabolites, for example, sub‐pathways belonging to the carbohydrate super‐pathway.</p><p>Sex interaction in model 1 was nominal, with 6 sub‐pathways belonging to amino acid, lipid, carbohydrate, and xenobiotic super‐pathways (see Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S1C</xref>, Supplementary Table <xref rid="ana27208-supitem-0004" ref-type="supplementary-material">S3</xref>).</p></sec><sec id="ana27208-sec-0019"><title>
+Plasma Metabolomics Longitudinal Interaction Model 2
+</title><p>We next assessed whether baseline metabolite abundances could predict ALSFRS‐R at 6 months, that is, predict net change in functional status 6 months from baseline. Given the interaction analysis, we focused on the 52 nominally significant metabolites with a time interaction, of which 31 correlated positively with ALSFRS‐R change, that is, with functional decline, and 21 correlated negatively with disease progression (Fig <xref rid="ana27208-fig-0003" ref-type="fig">3</xref>, see Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S2A</xref>, Supplementary Table <xref rid="ana27208-supitem-0005" ref-type="supplementary-material">S4</xref>). Most were lipids, compromising 52% (approximately 56% positively correlated to ALSFRS‐R change), followed by amino acids (25%, approximately equally positively or negatively correlated to ALSFRS‐R change), xenobiotics (12%, all positively correlated to ALSFRS‐R change), and various others (12%). Of the lipids, fatty acids (26%), diacylglycerols (22%), phosphatidylcholines (22%), and other phosphatidyl species (15%) were represented, with only a single sphingomyelin and single hexosylceramide species.</p><fig position="float" fig-type="FIGURE" id="ana27208-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Plasma metabolomics longitudinal interaction model 2. Baseline metabolite abundance to predict ALSFRS‐R change at 6 months. Heatmap visualization of the relative abundance of the top 25 baseline metabolites (see Supplementary Table <xref rid="ana27208-supitem-0005" ref-type="supplementary-material">S4</xref>) with nominal <italic toggle="yes">p</italic> value &lt;0.05 to change in ALSFRS‐R. Heatmaps grouped by male (<italic toggle="yes">black</italic>) and female (<italic toggle="yes">gray</italic>) and sorted by ALSFRS‐R, from high (<italic toggle="yes">red</italic>; better functional status) to low score (<italic toggle="yes">turquoise</italic>; poorer functional status). Relative abundance scaled from higher (<italic toggle="yes">red</italic>) to lower (<italic toggle="yes">blue</italic>) according to the legend. Single asterisk * indicates a compound that has not been confirmed based on a standard, but that the analytical platform is confident in its identity. ALSFRS‐R = amyotrophic lateral sclerosis functional rating scale revised; GPC = glycerophosphocholine; GPE = glycerophosphoethanolamine. Legend ordered according to metabolite order in heatmap. [Color figure can be viewed at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.annalsofneurology.org" ext-link-type="uri">www.annalsofneurology.org</ext-link>]</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ANA-98-19-g004.jpg"/></fig><p>Summing baseline metabolites identified 7 nominally significant sub‐pathways linked to net ALSFRS‐R change, 3 that were lipid sub‐pathways, with diacylglycerol as the most significant (negatively linked to ALSFRS‐R), along with fatty acid, amino (positively linked to ALSFRS‐R), and sphingosines (negatively linked to ALSFRS‐R; Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S2B</xref>, see Supplementary Table <xref rid="ana27208-supitem-0006" ref-type="supplementary-material">S5</xref>). Additional pathways were food component/plant (xenobiotics super‐pathway), vitamin A metabolism (cofactors and vitamins super‐pathway), glutathione metabolism (amino acid super‐pathway), and drug – gastrointestinal (xenobiotics super‐pathway). Model 2 selected some sub‐pathways that model 1 selected, that is, vitamin A metabolism, food component plant, drug (gastrointestinal), and fatty acid (amino), but also selected unique sub‐pathways, including glutathione metabolism, sphingosines, and diacylglycerol (Fig <xref rid="ana27208-fig-0004" ref-type="fig">4</xref>), possibly indicative of sub‐pathways that may predict functional status.</p><fig position="float" fig-type="FIGURE" id="ana27208-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Sub‐pathways selected across all 3 models, linear mixed effects, longitudinal interaction, and progression models. Dot plot of sub‐pathways selected by longitudinal interaction (model 1, only top 25 sub‐pathways shown), longitudinal interaction (model 2), and progression (model 3, progression to event for 50% drop in initial ALSFRS‐R) models. Larger dot size represents higher sub‐pathway significance level. For model 1, dot color represents estimate that correlates positively (<italic toggle="yes">red</italic>) or negatively (<italic toggle="yes">blue</italic>) with ALSFRS‐R. For model 2, dot color represents estimate that correlates positively (<italic toggle="yes">red</italic>) or negatively (<italic toggle="yes">blue</italic>) with change in ALSFRS‐R at 6 months. For model 3, dot color represents estimate that correlates positively (<italic toggle="yes">red</italic>) or negatively (<italic toggle="yes">blue</italic>) with progression to 50% drop in initial ALSFRS‐R. ALSFRS‐R = amyotrophic lateral sclerosis functional rating scale revised. [Color figure can be viewed at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.annalsofneurology.org" ext-link-type="uri">www.annalsofneurology.org</ext-link>]</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ANA-98-19-g006.jpg"/></fig><p>Sex interaction analysis of model 2 yielded no significant sub‐pathways.</p></sec><sec id="ana27208-sec-0020"><title>
+Plasma Metabolomics Progression Model 3
+</title><p>Finally, model 3 was PTE, defined as a drop of 20% (PTE20) or 50% (PTE50) in function relative to baseline ALSFRS‐R. This model then correlated baseline metabolite abundance to time between diagnosis to this decrease, of 20 or 50%, in the baseline ALSFRS‐R score. For participants earlier in their disease course with higher ALSFRS‐R scores, a drop of 20% or 50% translates to a relatively larger ALSFRS‐R change compared with participants later in their disease course with lower ALSFRS‐R scores (see Fig <xref rid="ana27208-fig-0001" ref-type="fig">1B</xref>). Therefore, this model indirectly accounts for disease severity of participants. The choice of event was based on a survey of ALS clinicians and researchers, where 90% of respondents considered a 20% drop in ALSFRS‐R as “somewhat clinically significant,” and a drop of 50% as “very clinically meaningful.”<xref rid="ana27208-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> PTE has been used previously to evaluate ALS progression.<xref rid="ana27208-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+</p><p>PTE20 and PTE50 selected 55 and 61 nominally significant metabolites, respectively, which overlapped to a significant extent (46 shared metabolites; see Supplementary Table <xref rid="ana27208-supitem-0007" ref-type="supplementary-material">S6</xref>). Most PTE20‐selected metabolites were lipids (55%), followed by amino acids (25%) and xenobiotics (13%), mirrored, as expected, by PTE50‐selected metabolites, which were 49% lipids, 26% amino acids, and 15% xenobiotics. For the PTE20 model, within lipid super‐pathways, there were 27% sphingomyelins, 13% lysophospholipids, 10% monoacylglycerols, and 27% of various fatty acid species. The breakdown by lipids for the PTE50 model was similar, as anticipated, with 39% sphingomyelins, 13% lysophospholipids, 10% monoacylglycerols, 19% of various fatty acid species, and, additionally, 10% hexosylceramides. We next performed pathway enrichment analysis of all selected metabolites to identify sub‐pathways especially relevant to ALS progression (Fig <xref rid="ana27208-fig-0005" ref-type="fig">5</xref>). Both sphingomyelins and monoacylglycerols were significantly enriched for PTE20 and PTE50, suggesting these lipid sub‐pathways are relevant to ALS progression, across the spectrum of disease severity. None of the amino acid or xenobiotic sub‐pathways were enriched.</p><fig position="float" fig-type="FIGURE" id="ana27208-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Plasma metabolomics progression model 3. Baseline metabolite abundance to progression to event. The events were defined as a 20% (PTE20) and 50% (PTE50) drop in diagnostic ALSFRS‐R score. Dot plot of enrichment analysis of PTE20 and PTE50 metabolites selected by model 3 (see Supplementary Table <xref rid="ana27208-supitem-0007" ref-type="supplementary-material">S6</xref>). Dot color represents least (<italic toggle="yes">light pink</italic>) to most (<italic toggle="yes">red</italic>) significant enriched sub‐pathways; dot size represents the number of metabolite members in sub‐pathways. ALSFRS‐R = amyotrophic lateral sclerosis functional rating scale revised; PTE20 = progression to an event defined as a 20% decline in ALSFRS‐R; PTE50 = progression to an event defined as a 50% decline in ALSFRS‐R. [Color figure can be viewed at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.annalsofneurology.org" ext-link-type="uri">www.annalsofneurology.org</ext-link>]</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ANA-98-19-g001.jpg"/></fig><p>When we summed sub‐pathway metabolites, new significant sub‐pathways emerged for PTE20 and PTE50, including oxidative phosphorylation and dipeptides (see Supplementary Table <xref rid="ana27208-supitem-0008" ref-type="supplementary-material">S7</xref>), in addition to sub‐pathways that represented singly selected metabolites, for example, monoacylglycerols, fatty acids. Interestingly, PTE20 and PTE50 sub‐pathway examination did not select sphingomyelins, as opposed to examination by single metabolites, which selected several sphingomyelins. This may again suggest dysregulation of specific sphingomyelin species in ALS as opposed to general impairment in the entire sub‐pathway.</p><p>Last, there was some overlap between model 3 PTE50 with both model 1 and model 2, although there were also uniquely selected metabolites, such as hexosylceramides and medium chain fatty acids (see Fig <xref rid="ana27208-fig-0004" ref-type="fig">4</xref>).</p></sec><sec id="ana27208-sec-0021"><title>
+<styled-content style="fixed-case" toggle="no">ALS</styled-content> Participant and Sample Characteristics of Spinal Cord and Brain Cohort
+</title><p>As a terminal timepoint, we also metabolically profiled 94 cervical and 81 lumbar spinal cord and 87 brain motor cortex tissue samples from 103 ALS cases (Table <xref rid="ana27208-tbl-0002" ref-type="table">2</xref>). Ten (9.7%) participants provided 1 sample, 27 (26.2%) provided 2 samples, and 66 (64.1%) provided all 3 samples (see Table <xref rid="ana27208-tbl-0002" ref-type="table">2</xref>, Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S3A</xref>). Among cervical tissue donors, median age at diagnosis was 64.2 years and median age at autopsy was 65.5 years with 37.2% bulbar, 33.0% cervical, and 25.5% lumbar onset ALS. Findings were similar among lumbar and motor cortex sample donors except they varied slightly in the distribution of onset segment.</p><table-wrap position="float" id="ana27208-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Demographics of ALS Participants of Spinal Cord and Brain Cohort by Sample Type</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">Cervical samples (n = 94)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Lumbar samples (n = 81)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Motor cortex samples (n = 87)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Age at diagnosis, yr</td><td align="center" valign="top" rowspan="1" colspan="1">64.2 (57.5–71.8)</td><td align="center" valign="top" rowspan="1" colspan="1">64.0 (57.7–71.1)</td><td align="center" valign="top" rowspan="1" colspan="1">64.3 (57.6–71.7)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age at autopsy, yr</td><td align="center" valign="top" rowspan="1" colspan="1">65.5 (59.8–73.3)</td><td align="center" valign="top" rowspan="1" colspan="1">65.4 (59.8–73.3)</td><td align="center" valign="top" rowspan="1" colspan="1">65.5 (59.9–73.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sex</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F</td><td align="center" valign="top" rowspan="1" colspan="1">47 (50%)</td><td align="center" valign="top" rowspan="1" colspan="1">41 (50.6%)</td><td align="center" valign="top" rowspan="1" colspan="1">46 (52.9%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">M</td><td align="center" valign="top" rowspan="1" colspan="1">47 (50%)</td><td align="center" valign="top" rowspan="1" colspan="1">40 (49.4%)</td><td align="center" valign="top" rowspan="1" colspan="1">41 (47.1%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Race/ethnicity</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Asian</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Hispanic</td><td align="center" valign="top" rowspan="1" colspan="1">1 (1.1%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="center" valign="top" rowspan="1" colspan="1">1 (1.1%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Black or African American</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">White</td><td align="center" valign="top" rowspan="1" colspan="1">93 (98.9%)</td><td align="center" valign="top" rowspan="1" colspan="1">81 (100%)</td><td align="center" valign="top" rowspan="1" colspan="1">86 (98.9%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Family history of ALS</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">No</td><td align="center" valign="top" rowspan="1" colspan="1">74 (78.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">63 (77.8%)</td><td align="center" valign="top" rowspan="1" colspan="1">65 (74.7%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Yes</td><td align="center" valign="top" rowspan="1" colspan="1">10 (10.6%)</td><td align="center" valign="top" rowspan="1" colspan="1">9 (11.1%)</td><td align="center" valign="top" rowspan="1" colspan="1">11 (12.6%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Unknown</td><td align="center" valign="top" rowspan="1" colspan="1">10 (10.6%)</td><td align="center" valign="top" rowspan="1" colspan="1">9 (11.1%)</td><td align="center" valign="top" rowspan="1" colspan="1">11 (12.6%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Diagnostic El Escorial criteria</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Definite</td><td align="center" valign="top" rowspan="1" colspan="1">30 (31.9%)</td><td align="center" valign="top" rowspan="1" colspan="1">25 (30.9%)</td><td align="center" valign="top" rowspan="1" colspan="1">27 (31.0%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Probable</td><td align="center" valign="top" rowspan="1" colspan="1">27 (28.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">20 (24.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">25 (28.7%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Probable, laboratory supported</td><td align="center" valign="top" rowspan="1" colspan="1">17 (18.1%)</td><td align="center" valign="top" rowspan="1" colspan="1">15 (18.5%)</td><td align="center" valign="top" rowspan="1" colspan="1">17 (19.5%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Possible</td><td align="center" valign="top" rowspan="1" colspan="1">11 (11.7%)</td><td align="center" valign="top" rowspan="1" colspan="1">12 (14.8%)</td><td align="center" valign="top" rowspan="1" colspan="1">11 (12.6%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Suspected</td><td align="center" valign="top" rowspan="1" colspan="1">4 (4.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (4.9%)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (2.3%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Missing</td><td align="center" valign="top" rowspan="1" colspan="1">5 (5.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">5 (6.2%)</td><td align="center" valign="top" rowspan="1" colspan="1">5 (5.7%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age at symptom onset, yr</td><td align="center" valign="top" rowspan="1" colspan="1">62.1 (54.6–70.2)</td><td align="center" valign="top" rowspan="1" colspan="1">61.8 (55.9–70.2)</td><td align="center" valign="top" rowspan="1" colspan="1">62.3 (54.7–70.2)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age at diagnosis, yr</td><td align="center" valign="top" rowspan="1" colspan="1">64.2 (57.5–71.8)</td><td align="center" valign="top" rowspan="1" colspan="1">64.0 (57.7–71.1)</td><td align="center" valign="top" rowspan="1" colspan="1">64.3 (57.6–71.7)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Time from symptom onset to diagnosis, yr</td><td align="center" valign="top" rowspan="1" colspan="1">1.1 (0.6–2.0)</td><td align="center" valign="top" rowspan="1" colspan="1">1.1 (0.6–2.0)</td><td align="center" valign="top" rowspan="1" colspan="1">1.1 (0.7–1.9)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Time from diagnosis to time of autopsy, yr</td><td align="center" valign="top" rowspan="1" colspan="1">1.9 (1.3–2.9)</td><td align="center" valign="top" rowspan="1" colspan="1">1.9 (1.3–2.9)</td><td align="center" valign="top" rowspan="1" colspan="1">1.8 (1.2–2.9)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Final recorded ALSFRS‐R</td><td align="center" valign="top" rowspan="1" colspan="1">36 (32–39)</td><td align="center" valign="top" rowspan="1" colspan="1">36 (32–40)</td><td align="center" valign="top" rowspan="1" colspan="1">36 (31.25–39)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Onset segment</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Bulbar</td><td align="center" valign="top" rowspan="1" colspan="1">35 (37.2%)</td><td align="center" valign="top" rowspan="1" colspan="1">28 (34.6%)</td><td align="center" valign="top" rowspan="1" colspan="1">30 (34.5%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Cervical</td><td align="center" valign="top" rowspan="1" colspan="1">31 (33.0%)</td><td align="center" valign="top" rowspan="1" colspan="1">28 (34.6%)</td><td align="center" valign="top" rowspan="1" colspan="1">27 (31.0%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Lumbar</td><td align="center" valign="top" rowspan="1" colspan="1">24 (25.5%)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (25.9%)</td><td align="center" valign="top" rowspan="1" colspan="1">26 (29.9%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Unknown</td><td align="center" valign="top" rowspan="1" colspan="1">4 (4.3%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (4.9%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (4.6%)</td></tr></tbody></table><table-wrap-foot id="ana27208-ntgp-0003"><fn id="ana27208-note-0006"><p>Continuous variables, age at plasma collection (years), BMI at study entry (kg/m<sup>2</sup>), and ALSFRS‐R at plasma collection, represented as median (25th – 75th percentile).</p></fn><fn id="ana27208-note-0007"><p>Categorical variables, sex, race/ethnicity, family history of ALS, and onset segment, represented as N (%; rounded to the first decimal place).</p></fn><fn id="ana27208-note-0008"><p>Significance with time assessed by a linear mixed model.</p></fn><fn id="ana27208-note-0009"><p>ALS = amyotrophic lateral sclerosis; ALSFRS‐R = amyotrophic lateral sclerosis functional rating scale – revised; BMI = body mass index.</p></fn></table-wrap-foot></table-wrap></sec><sec id="ana27208-sec-0022"><title>
+<styled-content style="fixed-case" toggle="no">ALS</styled-content> Cervical and Lumbar Spinal Cord and Motor Cortex Metabolites
+</title><p>We detected 703, 665, and 701 metabolites in the cervical, lumbar, and motor cortex samples, respectively, that were annotated and with &lt;20% missingness (see Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S3B</xref>). Regarding metabolite overlap, 564 were shared by all 3 tissues, 638 were shared by cervical and lumbar, and 593 and 595 were shared by cervical and lumbar, respectively, with motor cortex (see Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S3B</xref>, Supplementary Table <xref rid="ana27208-supitem-0009" ref-type="supplementary-material">S8</xref>). There were 36, 36, and 41 metabolites unique to the cervical, lumbar, and cortex, respectively. As anticipated for myelin‐rich nervous tissue, 256 (45%) of the 564 metabolites shared by all tissue types belonged to the lipid super‐pathway. Second most abundant were 146 metabolites (26%) of the amino acid super‐pathway, followed by nucleotide, carbohydrate, cofactors and vitamins, peptide, xenobiotics, energy, and partially characterized molecules. These 564 metabolites represented 97 sub‐pathways, top among them the lysophospholipid, methionine, cysteine, S‐adenosylmethionine, and taurine metabolism, and sphingomyelin sub‐pathways with 24, 22, and 21 members, respectively (see Supplementary Table <xref rid="ana27208-supitem-0009" ref-type="supplementary-material">S8</xref>). In sum, fatty acid acylcarnitines, spanning saturated long‐chain, saturated medium‐chain, short‐chain, monounsaturated, and polyunsaturated species, had 30 metabolite members.</p></sec><sec id="ana27208-sec-0023"><title>
+Differential Metabolites in Onset Versus Second Spinal Cord Segment in <styled-content style="fixed-case" toggle="no">ALS</styled-content>
+</title><p>We did not have control autopsy tissue; therefore, to identify metabolites linked to ALS progression, we assessed differential species between the onset tissue versus the second segment as a surrogate. We compared the lumbar to the cervical metabolites in the 20 participants with lumbar onset ALS that provided both lumbar and cervical samples, and cervical to lumbar metabolites in the 18 participants with cervical onset that provided both samples. No metabolites significantly differed between the onset versus the second segment, although 33 were nominally significant (Fig <xref rid="ana27208-fig-0006" ref-type="fig">6</xref>, see Supplementary Table <xref rid="ana27208-supitem-0010" ref-type="supplementary-material">S9</xref>). Most were lipids (69%), especially sphingomyelins (15% of total) and long‐chain saturated and monounsaturated fatty acids (12% of total), that were more abundant in the onset tissue. In contrast, phosphatidylcholines (9% of total) and phosphatidylethanolamines (6% of total) were more abundant in the progression tissue. Other significantly differential metabolites included amino acids (3 species, 9% of total), cofactors and vitamins (3 species, 9% of total), energy metabolites (2 species, 6% of total), and very few others. Only sphingomyelins and lipids enriched (Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S4</xref>). Finally, progression was the strongest determinant of metabolite abundance compared to sex or onset segment.</p><fig position="float" fig-type="FIGURE" id="ana27208-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Differential metabolites in onset versus second segment spinal cord tissue in ALS. Heatmap visualization of the relative abundance of the 33 metabolites (see Supplementary Table <xref rid="ana27208-supitem-0010" ref-type="supplementary-material">S9</xref>) with a <italic toggle="yes">p</italic> value &lt;0.05 that differed in onset versus second segment. Heatmap grouped by onset (<italic toggle="yes">green</italic>) and second (<italic toggle="yes">blue</italic>) segment, cervical (<italic toggle="yes">red</italic>), and lumbar (<italic toggle="yes">yellow</italic>) onset, and male (<italic toggle="yes">black</italic>; M) and female (<italic toggle="yes">gray</italic>; F). Relative abundance scaled from higher (<italic toggle="yes">red</italic>) to lower (<italic toggle="yes">blue</italic>) according to the legend. Single asterisk * indicates a compound that has not been confirmed based on a standard, but that the analytical platform is confident in its identity. ALS = amyotrophic lateral sclerosis; GPC = glycerophosphocholine; GPE = glycerophosphoethanolamine. [Color figure can be viewed at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.annalsofneurology.org" ext-link-type="uri">www.annalsofneurology.org</ext-link>]</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ANA-98-19-g005.jpg"/></fig></sec><sec id="ana27208-sec-0024"><title>
+Mendelian Randomization and Possible Causal Relation of Metabolites to <styled-content style="fixed-case" toggle="no">ALS</styled-content>
+</title><p>We performed MR using a large genome wide association study of patients with ALS (n = 27,205) and controls (n = 110,881) of European ancestry,<xref rid="ana27208-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> as well as one of 8,299 participants of European ancestry linked to 1,702 plasma metabolites.<xref rid="ana27208-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> Datasets of European ancestry were selected because participants in this study were 97% White. MR identified 114 significant metabolites (IVW <italic toggle="yes">p</italic> value &lt;0.05), of which 98 were annotated (Supplementary Table <xref rid="ana27208-supitem-0011" ref-type="supplementary-material">S10</xref>). Heterogeneity and pleiotropy testing yielded no significant metabolites. As might be expected from models 1, 2, and 3, which consistently selected lipid, amino acid, and xenobiotic super‐pathways, MR metabolites were, in large part, lipids (25%), amino acids (20%), and xenobiotics (16%), with a smaller proportion of energy, carbohydrate, nucleotide, peptide, cofactor, and vitamin, and partially characterized molecules. Among lipid sub‐pathways, sphingomyelin and diverse fatty acid and carnitine metabolism sub‐pathways were more prominently featured, which contained short‐ and medium‐chain fatty acid acylcarnitine metabolites, along with a few various additional lipid sub‐pathways.</p><p>MR metabolites overlapped with metabolites both significantly and nominally selected by each of the models, 1, 2, and 3, and the central nervous system analysis (see Supplementary Table <xref rid="ana27208-supitem-0011" ref-type="supplementary-material">S10</xref>). Most of the overlapping metabolites were lipids and amino acids. One highly recurrent candidate was sphingomyelin (d18:2/24:1 and d18:1/24:2), which may have genetically determined elevated levels in ALS via 32 single‐nucleotide polymorphisms. In model 1, sphingomyelin (d18:2/24:1 and d18:1/24:2) levels correlated negatively with ALSFRS‐R, that is, higher levels with lower functional status, and it favored the time to event for a 20% or 50% drop in ALSFRS‐R in model 3. Finally, in the central nervous system model, sphingomyelin (d18:2/24:1 and d18:1/24:2) was more abundant in the onset than in the second segment, a reflection of more progressive disease.</p><p>Pathway enrichment yielded carnitine and fatty acid metabolism (BCAA metabolism), containing 2 short‐chain fatty acid acylcarnitine species (butyrylcarnitine and propionylcarnitine; Supplementary Fig <xref rid="ana27208-supitem-0001" ref-type="supplementary-material">S5</xref>). However, the most significantly enriched sub‐pathways were hemoglobin and porphyrin metabolism and partially characterized molecules, both containing bilirubin and biliverdin, and various related degradation products. Glutathione metabolism was also highlighted, comprising antioxidant derivatives and oxidized byproducts thereof.</p></sec></sec><sec sec-type="discussion" id="ana27208-sec-0025"><title>Discussion</title><p>ALS pathophysiology is characterized by changes to the metabolome<xref rid="ana27208-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="ana27208-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> and energy homeostasis,<xref rid="ana27208-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="ana27208-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> manifesting clinically by correlation of BMI<xref rid="ana27208-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="ana27208-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="ana27208-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> and hypermetabolism<xref rid="ana27208-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> to disease progression and survival. Low BMI at diagnosis or BMI loss in the years leading up to diagnosis may presage rapid ALS progression.<xref rid="ana27208-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="ana27208-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> Similarly, hypermetabolism in ALS adversely affects survival,<xref rid="ana27208-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="ana27208-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> with elevated resting energy expenditure.<xref rid="ana27208-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> Thus, overall, metabolic, and metabolomic changes may underscore ALS progression. Indeed, we<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="ana27208-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> and others<xref rid="ana27208-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> demonstrated that specific plasma and cerebrospinal fluid (CSF) metabolites, lipids, and/or metabolic modules correlate with cross‐sectional ALS functional status<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="ana27208-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> and BMI trajectories.<xref rid="ana27208-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> Specifically, we found that ALS plasma was characterized by altered lipid, amino acid, and xenobiotic sub‐pathways, with several lipid species, including sphingomyelins and long‐chain acylcarnitines, correlated to cross‐sectional ALSFRS‐R.</p><p>Herein, we hypothesized that ALS progression would be similarly marked by longitudinal changes in metabolome. We examined individual metabolites as well as sub‐pathways because the sum of their collective member metabolites contributes to biological processes. We extend our prior findings in this new longitudinal dataset comprising granular metabolomic and functional data. Across the continuum of disease, individual lipid species and/or lipid sub‐pathways continue to remain prominent in all models 1, 2, and 3, including sphingomyelins, fatty acids, plasmalogens, phosphatidylcholines, and lysophospholipids. Interestingly, fatty acid, but not sphingomyelin, sub‐pathways remained prominent in sub‐pathway analysis, possibly suggesting broadly impaired fatty acid metabolism in ALS, linked to functional status, but only alterations in specific sphingomyelin species. The 2 models that integrated changes to ALSFRS‐R, models 2 and 3, selected several fatty acid sub‐pathways, especially long‐chain saturated acylcarnitine species, which may suggest that impaired baseline fatty acid metabolism may be prognostic of disease progression, aligned with hypermetabolism in ALS.<xref rid="ana27208-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="ana27208-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>
+</p><p>We also build on prior work by analysis of differential metabolite species between onset versus second spinal cord segment, as a surrogate of ALS progression and as a terminal timepoint. This metabolomic analysis is, to our knowledge, the largest to date, in terms of sample size and the types of central nervous system tissue assessed.<xref rid="ana27208-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> We found that most differential metabolites were lipids; among them, a few sphingomyelin and long‐chain saturated and monounsaturated fatty acid species were nominally more abundant in the onset segment, whereas phosphatidylcholines and phosphatidylethanolamines were nominally less abundant.</p><p>Although impaired metabolism in ALS, especially of lipids,<xref rid="ana27208-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="ana27208-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> is relatively well‐established, few prior studies were longitudinal.<xref rid="ana27208-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="ana27208-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>, <xref rid="ana27208-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, <xref rid="ana27208-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> A relatively small analysis of ALS CSF identified altered glycolytic metabolite abundance at the 2‐year follow‐up by proton nuclear magnetic resonance, a method of limited resolution, so the study lacked granular metabolomic information.<xref rid="ana27208-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> A mass spectrometry analysis of serum found ALS cases (n = 40) were uniquely perturbed in sphingolipids and glycerophospholipids at the 2‐year follow‐up versus controls, as herein, but the study lacked correlation to functional status. Finally, a relatively small mass spectrometry lipidomics analysis of serum from ALS (n = 28) versus control (n = 22) participants identified 14 lipid classes that changed with time in ALS, especially diacylglycerols,<xref rid="ana27208-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> which we noted as a differential class herein. Although the investigators did not examine correlation of lipid abundance to ALSFRS‐R, they found that diacylglycerol (18:1/18:1) correlated to neurofilament light chain levels,<xref rid="ana27208-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> a marker of neuronal damage and progression in ALS. Collectively, the reported literature, albeit using small sample sizes, supports our current findings.</p><p>Besides tracking with disease progression, and potentially serving as biomarkers, metabolomic changes can also shed insight into ALS pathophysiology and potential treatment avenues. We previously reported altered β‐oxidation metabolites in cross‐sectional ALS plasma analysis, evidenced by partially metabolized acylcarnitine intermediates.<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Here, we noted the presence of long‐chain acylcarnitines linked to ALSFRS‐R in plasma and spinal cord tissue, now also supporting aberrant β‐oxidation in ALS progression.<xref rid="ana27208-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref>, <xref rid="ana27208-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> Evidence from mutant <italic toggle="yes">SOD1</italic> mouse models also uphold altered β‐oxidation and fatty acid metabolism, including in the spinal cord.<xref rid="ana27208-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>, <xref rid="ana27208-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> Enhancing β‐oxidation capacity by administering L‐carnitine to <italic toggle="yes">SOD1</italic>
+<sup>G93A</sup> mice slows motor function deterioration and extends life.<xref rid="ana27208-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> However, although the precursor acetyl‐L‐carnitine has been considered as a potential ALS treatment,<xref rid="ana27208-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> an idea supported by the current findings, it is not approved clinically. Moreover, our prior<xref rid="ana27208-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> and current MR analysis indicates possible genetically determined causality from specific fatty acid, acylcarnitine, and carnitine species, further bolstering dysfunctional β‐oxidation in ALS. Enrichment analysis persisted in selecting carnitine and fatty acid metabolism, underscoring the centrality of this metabolic pathway in ALS, along with sub‐pathways comprising antioxidant derivatives and oxidized byproducts, possibly linked to oxidative stress, another ALS hallmark.<xref rid="ana27208-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>
+</p><p>We also previously reported differential plasma sphingomyelins in ALS versus control participants, linked to cross‐sectional ALSFRS‐R.<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> We expand these findings here by showing that sphingomyelins further correlate with disease progression longitudinally in plasma and in onset versus second spinal cord segment, adding to the growing literature on this lipid class in ALS.<xref rid="ana27208-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> Cross‐sectional studies have noted altered sphingolipids, including sphingomyelins, in ALS plasma<xref rid="ana27208-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> and spinal cord,<xref rid="ana27208-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>, <xref rid="ana27208-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="ana27208-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> corroborated by longitudinal studies in early<xref rid="ana27208-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref> and symptomatic stages.<xref rid="ana27208-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, <xref rid="ana27208-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> Modifying activity of enzymes involved in specific sphingolipid species biosynthesis, for example, glucocerebrosides, alters ALS progression rate in mouse models.<xref rid="ana27208-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="ana27208-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref> Moreover, the occurrence of monogenic childhood‐onset ALS with mutant serine palmitoyltransferase subunit 1<xref rid="ana27208-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> further supports a causative or early role for sphingolipid metabolism in ALS. Indeed, our MR analysis identified a sphingolipid, sphingomyelin (d18:2/24:1 and d18:1/24:2), with potentially genetically determined elevated levels in ALS, which was shared with metabolites selected by models 1 and 3, as well as the central nervous system analysis. The specific role of this sphingomyelin (d18:2/24:1 and d18:1/24:2) in ALS remains unclear, but warrants further investigation.</p><p>In addition to fatty acids and sphingomyelins, we found plasma plasmalogens, phosphatidylcholines, lysoplasmalogens, lysophospholipids, and diacylglycerols and/or sub‐pathways correlated with ALSFRS‐R over time. In the spinal cord, phosphatidylcholine and phosphatidylethanolamine metabolites were more abundant in the second segment. ALS changes in plasmalogens, phosphatidylcholines, lysophosphatidylcholines, and/or phosphatidylethanolamines have been observed in cross‐sectional<xref rid="ana27208-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> and longitudinal assessments.<xref rid="ana27208-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="ana27208-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, <xref rid="ana27208-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> Plasmalogens,<xref rid="ana27208-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref> phosphatidylcholines, and phosphatidylethanolamines<xref rid="ana27208-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref> are cell membrane components that regulate various biological functions, for example, mitochondrial function, membrane fusion, proliferation, survival, and cholesterol efflux. Phosphatidylcholines and phosphatidylethanolamines are synthesized from diacylglycerols through the Kennedy pathway,<xref rid="ana27208-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref> rendering the pool of these bioactive lipids interconnected.</p><p>Model 1 also selected bile acid lipid sub‐pathways, that may be indicative of impaired lipid absorption and metabolism in the gut; indeed, patients with ALS may have an altered microbiome<xref rid="ana27208-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref> and some microbiome‐derived metabolites in the current study, for example, indolelactate, correlated with ALSFRS‐R. In our previous gut microbiome‐plasma metabolome correlation, gut microbial structure at the phylum and genera level differed in ALS versus control participants.<xref rid="ana27208-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> In the integrated analyses, several microbiota genera/species strongly correlated to multiple metabolites, primarily lipids, including bile acids, which associated to functional ALS status and differentiated cases from controls.</p><p>Besides lipids, amino acid metabolism and xenobiotics were recurrent in all 3 plasma models but to a lesser extent in spinal cord tissue. Altered amino acid metabolism in ALS has also been reported by cross‐sectional<xref rid="ana27208-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>, <xref rid="ana27208-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref>, <xref rid="ana27208-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref> and longitudinal<xref rid="ana27208-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>, <xref rid="ana27208-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref> human and animal studies, including of histidine, arginine, and proline,<xref rid="ana27208-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref> as well as creatine metabolism.<xref rid="ana27208-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> The latter, creatine, however, is likely a byproduct of muscle wasting. Selected xenobiotic metabolites in baseline and longitudinal analysis belonged mostly to xanthine and benzoate metabolism and food component/plant sub‐pathways, as previously seen in cross‐sectional studies.<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Sub‐pathway analysis further selected various drug sub‐pathways. Notably, “drug, gastrointestinal” and “drug, respiratory” abundance increased with disease progression, likely reflecting symptom management of patients with ALS.</p><p>Our study has some limitations. First, a limitation intrinsic to most human studies, is the tissue issue, because our longitudinal analysis was restricted to accessible blood samples, which may not necessarily reflect the disease process in nervous tissue or may instead reflect downstream processes. However, there is no method to longitudinally capture brain and spinal cord tissue, which was only represented at the terminal timepoint by the spinal cord and brain cohort. Nevertheless, metabolomics analysis of plasma, though non‐organ specific, can still reflect complex biochemical processes occurring throughout the body, including impaired systemic metabolism in ALS. Second, we had some cohort attrition in our longitudinal analysis, frequent in ALS studies,<xref rid="ana27208-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref> which may have biased our findings. Third, our study involved ALS participants that had not fasted prior to providing blood collection because it was deemed unethical to request it. However, although diet influences circulating lipid levels, studies have shown that a plasma lipidomics signature of disease can occur independent of diet and/or fasting state.<xref rid="ana27208-bib-0057" ref-type="bibr">
+<sup>57</sup>
+</xref>, <xref rid="ana27208-bib-0058" ref-type="bibr">
+<sup>58</sup>
+</xref> Moreover, although we collected blood from patients with ALS at the same time intervals, samples may have been collected at different timepoints in their disease course. In addition, we assumed a linear rate of disease progression to impute missing ALSFRS‐R scores, which is often, but not always, the case.<xref rid="ana27208-bib-0059" ref-type="bibr">
+<sup>59</sup>
+</xref> However, ALSFRS‐R scores had to be imputed for only 3.9% of the data. A fourth limitation was the time window between a patient's death and the time of autopsy, which may have allowed for postmortem changes in the metabolome. Additionally, the spinal cord and brain cohort was relatively small and did not include any tissues from healthy controls to facilitate direct comparisons with ALS, which instead relied on comparisons of the initial to the second affected spinal segment as a surrogate of disease progression. Finally, because this was an exploratory study that encompassed all detected metabolites, we lost power to detect significant correlations of specific metabolites and pathways to ALSFRS‐R scores and relied on nominal <italic toggle="yes">p</italic> values for models 2 and 3, sex interaction analysis, and central nervous system metabolites. Future larger studies that analyze select target metabolites and pathways are needed to confirm our more exploratory findings.</p><p>Nevertheless, our study also had many strengths, including a longitudinal design using an agnostic metabolome‐wide analysis platform that detects and identifies an extensive number of metabolites in plasma from a relatively large cohort of ALS participants. Additionally, the metabolomic platform included multiple standards to assure low day‐to‐day variability and ability to mitigate batch effects. In our data analysis pipeline, we performed a sex interaction analysis for the longitudinal plasma data, which is relevant to ALS, including differences to metabolites and lipids by male versus female patients<xref rid="ana27208-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>; however, the spinal cord and brain cohort was too small to examine the impact of sex on central nervous tissue metabolomes. Finally, we also assessed both metabolites individually and cumulatively within sub‐pathways. The former method identified robust single metabolites, whereas the second measured the sum of metabolites within sub‐pathways, which considers minor but cumulative contributions from multiple metabolites, an appropriate approach for a heterogeneous disease like ALS.</p><p>In summary, we show for the first time, to our knowledge, that differences especially in plasma lipid species and sub‐pathways, amino acids, xenobiotics, and various additional less frequently selected pathways, track with ALS progression, specifically with functional status by ALSFRS‐R. Examination by lipid class pinpointed fatty acids and sphingomyelins, along with plasmalogens, phosphatidylcholines, and lysophospholipids. In the spinal cord, sphingomyelin and long‐chain saturated and monounsaturated fatty acid species were nominally more abundant in onset tissue, whereas phosphatidylcholines and phosphatidylethanolamines were less abundant. Overall, our findings suggest that metabolic and metabolomic changes may underscore disease severity and progression in ALS and offer new opportunities for both biomarker and therapeutic development.</p></sec><sec id="ana27208-sec-0027"><title>Author Contributions</title><p>S.A.G. and E.L.F. contributed to the conception and design of the study. K.G., M.G.S., D.‐G.J., S.J.T., L.Z., J.H., S.A.G., and E.L.F. contributed to the acquisition and analysis of data. M.G.S., S.A.G., and E.L.F. contributed to drafting the text or preparing the figures.</p></sec><sec sec-type="COI-statement" id="ana27208-sec-0028"><title>Potential Conflicts of Interest</title><p>The authors report no competing interests relevant to this publication.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ana27208-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Data S1.</bold> Supporting Information.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s011.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S1.</bold> Plasma metabolites selected by linear mixed effects model 1.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s007.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S2.</bold> Plasma sub‐pathways selected by linear mixed effects model 1.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s005.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S3.</bold> Plasma sub‐pathways selected by sex interaction analysis of linear mixed effects model 1.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s003.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S4.</bold> Plasma metabolites selected by longitudinal interaction model 2 at 6 months.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s010.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0006" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S5.</bold> Plasma sub‐pathways selected by longitudinal interaction model 2.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s001.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0007" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S6.</bold> Plasma metabolites selected by progression model 3, PTE20 and PTE50, and enrichment.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s009.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0008" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S7.</bold> Plasma sub‐pathways selected by progression model 3, PTE20 and PTE50.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s006.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0009" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S8.</bold> Metabolites and sub‐pathways detected across ALS spinal cord and motor cortex tissue.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s004.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0010" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S9.</bold> Metabolites differing in onset versus second spinal cord segment in ALS.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s002.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0011" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S10.</bold> Metabolites linked to ALS risk identified by Mendelian randomization.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s012.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ana27208-supitem-0012" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supplementary Table S11.</bold> Heterogeneity and pleiotropy tests for metabolites from the Mendelian randomization for ALS risk.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANA-98-19-s008.xlsx" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="ana27208-sec-0026"><title>Acknowledgments</title><p>The authors are grateful to the study participants and their families. We also thank Jayna Duell, RN, Caroline Piecuch, Amanda Williams, Hasan Farid, Blake Swihart, Daniel Burger, Crystal Pacut, Ian Webber‐Davis, and Matt Perkins at Michigan Medicine for facilitating participant consent and sample collection. This work was supported by the Michigan Institute for Clinical and Health Research (MICHR, UL1TR000433), the National Center for Advancing Translational Sciences at the National Institutes of Health (UL1TR002240), NINDS R01NS127188, NIEHS R01ES030049, and NIEHS K23ES027221, the Centers for Disease Control and Prevention (R01TS000289), the Coleman Therapeutic Discovery Fund, the Peter R. Clark Fund for ALS Research, the Sinai Medical Staff Foundation, the Robert A. Epstein and Joan M. Chernoff‐Epstein Emerging Scholar Fund, the Dr. Randall Whitcomb Fund for ALS Genetics, the Scott L. Pranger ALS Clinic Fund, the A. Alfred Taubman Medical Research Institute, and the NeuroNetwork for Emerging Therapies, University of Michigan.</p></ack><sec sec-type="data-availability" id="ana27208-sec-0030"><title>Data Availability</title><p>Anonymized data will be shared upon request from any qualified investigator.</p></sec><ref-list id="ana27208-bibl-0001" content-type="cited-references"><title>References</title><ref id="ana27208-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ana27208-cit-0001">
+<string-name name-style="western">
+<surname>Feldman</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petri</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Amyotrophic lateral sclerosis</article-title>. <source>Lancet</source>
+<year>2022</year>;<volume>400</volume>:<fpage>1363</fpage>–<lpage>1380</lpage>. <pub-id pub-id-type="doi">10.1016/s0140-6736(22)01272-7</pub-id>.<pub-id pub-id-type="pmid">36116464</pub-id>
+<pub-id pub-id-type="pmcid">PMC10089700</pub-id></mixed-citation></ref><ref id="ana27208-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ana27208-cit-0002">
+<string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hardiman</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Chalabi</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Recent advances in the diagnosis and prognosis of amyotrophic lateral sclerosis</article-title>. <source>Lancet Neurol</source>
+<year>2022</year>;<volume>21</volume>:<fpage>480</fpage>–<lpage>493</lpage>. <pub-id pub-id-type="doi">10.1016/s1474-4422(21)00465-8</pub-id>.<pub-id pub-id-type="pmid">35334233</pub-id>
+<pub-id pub-id-type="pmcid">PMC9513753</pub-id></mixed-citation></ref><ref id="ana27208-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ana27208-cit-0003">
+<string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hardiman</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Chalabi</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Emerging insights into the complex genetics and pathophysiology of amyotrophic lateral sclerosis</article-title>. <source>Lancet Neurol</source>
+<year>2022</year>;<volume>21</volume>:<fpage>465</fpage>–<lpage>479</lpage>. <pub-id pub-id-type="doi">10.1016/s1474-4422(21)00414-2</pub-id>.<pub-id pub-id-type="pmid">35334234</pub-id>
+<pub-id pub-id-type="pmcid">PMC9513754</pub-id></mixed-citation></ref><ref id="ana27208-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ana27208-cit-0004">
+<string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boss</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Untargeted metabolomics yields insight into ALS disease mechanisms</article-title>. <source>J Neurol Neurosurg Psychiatry</source>
+<year>2020</year>;<volume>91</volume>:<fpage>1329</fpage>–<lpage>1338</lpage>. <pub-id pub-id-type="doi">10.1136/jnnp-2020-323611</pub-id>.<pub-id pub-id-type="pmid">32928939</pub-id>
+<pub-id pub-id-type="pmcid">PMC7677469</pub-id></mixed-citation></ref><ref id="ana27208-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ana27208-cit-0005">
+<string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Savelieff</surname>
+<given-names>MG</given-names>
+</string-name>, et al. <article-title>Metabolomics identifies shared lipid pathways in independent amyotrophic lateral sclerosis cohorts</article-title>. <source>Brain</source>
+<year>2022</year>;<volume>145</volume>:<fpage>4425</fpage>–<lpage>4439</lpage>. <pub-id pub-id-type="doi">10.1093/brain/awac025</pub-id>.<pub-id pub-id-type="pmid">35088843</pub-id>
+<pub-id pub-id-type="pmcid">PMC9762943</pub-id></mixed-citation></ref><ref id="ana27208-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ana27208-cit-0006">
+<string-name name-style="western">
+<surname>Blasco</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Veyrat‐Durebex</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bocca</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Lipidomics reveals cerebrospinal‐fluid signatures of ALS</article-title>. <source>Sci Rep</source>
+<year>2017</year>;<volume>7</volume>:<elocation-id>17652</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-017-17389-9</pub-id>.<pub-id pub-id-type="pmid">29247199</pub-id>
+<pub-id pub-id-type="pmcid">PMC5732162</pub-id></mixed-citation></ref><ref id="ana27208-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="ana27208-cit-0007">
+<string-name name-style="western">
+<surname>Dupuis</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pradat</surname>
+<given-names>PF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ludolph</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Loeffler</surname>
+<given-names>JP</given-names>
+</string-name>. <article-title>Energy metabolism in amyotrophic lateral sclerosis</article-title>. <source>Lancet Neurol</source>
+<year>2011</year>;<volume>10</volume>:<fpage>75</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1016/s1474-4422(10)70224-6</pub-id>.<pub-id pub-id-type="pmid">21035400</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="ana27208-cit-0008">
+<string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boss</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iyer</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Body mass index associates with amyotrophic lateral sclerosis survival and metabolomic profiles</article-title>. <source>Muscle Nerve</source>
+<year>2022</year>;<volume>67</volume>:<fpage>208</fpage>–<lpage>216</lpage>. <pub-id pub-id-type="doi">10.1002/mus.27744</pub-id>.<pub-id pub-id-type="pmid">36321729</pub-id>
+<pub-id pub-id-type="pmcid">PMC9957813</pub-id></mixed-citation></ref><ref id="ana27208-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="ana27208-cit-0009">
+<string-name name-style="western">
+<surname>Blasco</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lanznaster</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Veyrat‐Durebex</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Understanding and managing metabolic dysfunction in amyotrophic lateral sclerosis</article-title>. <source>Expert Rev Neurother</source>
+<year>2020</year>;<volume>20</volume>:<fpage>907</fpage>–<lpage>919</lpage>. <pub-id pub-id-type="doi">10.1080/14737175.2020.1788389</pub-id>.<pub-id pub-id-type="pmid">32583696</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="ana27208-cit-0010">
+<string-name name-style="western">
+<surname>Bauckneht</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lai</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miceli</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Spinal cord hypermetabolism extends to skeletal muscle in amyotrophic lateral sclerosis: a computational approach to [18F]‐fluorodeoxyglucose PET/CT images</article-title>. <source>EJNMMI Res</source>
+<year>2020</year>;<volume>10</volume>:<elocation-id>23</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13550-020-0607-5</pub-id>.<pub-id pub-id-type="pmid">32201914</pub-id>
+<pub-id pub-id-type="pmcid">PMC7085992</pub-id></mixed-citation></ref><ref id="ana27208-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="ana27208-cit-0011">
+<string-name name-style="western">
+<surname>Bouteloup</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Desport</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clavelou</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Hypermetabolism in ALS patients: an early and persistent phenomenon</article-title>. <source>J Neurol</source>
+<year>2009</year>;<volume>256</volume>:<fpage>1236</fpage>–<lpage>1242</lpage>. <pub-id pub-id-type="doi">10.1007/s00415-009-5100-z</pub-id>.<pub-id pub-id-type="pmid">19306035</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="ana27208-cit-0012">
+<string-name name-style="western">
+<surname>Steyn</surname>
+<given-names>FJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ioannides</surname>
+<given-names>ZA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Eijk</surname>
+<given-names>RPA</given-names>
+</string-name>, et al. <article-title>Hypermetabolism in ALS is associated with greater functional decline and shorter survival</article-title>. <source>J Neurol Neurosurg Psychiatry</source>
+<year>2018</year>;<volume>89</volume>:<fpage>1016</fpage>–<lpage>1023</lpage>. <pub-id pub-id-type="doi">10.1136/jnnp-2017-317887</pub-id>.<pub-id pub-id-type="pmid">29706605</pub-id>
+<pub-id pub-id-type="pmcid">PMC6166607</pub-id></mixed-citation></ref><ref id="ana27208-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="ana27208-cit-0013">
+<string-name name-style="western">
+<surname>Shimizu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nakayama</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matsuda</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Prognostic significance of body weight variation after diagnosis in ALS: a single‐centre prospective cohort study</article-title>. <source>J Neurol</source>
+<year>2019</year>;<volume>266</volume>:<fpage>1412</fpage>–<lpage>1420</lpage>. <pub-id pub-id-type="doi">10.1007/s00415-019-09276-2</pub-id>.<pub-id pub-id-type="pmid">30868220</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="ana27208-cit-0014">
+<string-name name-style="western">
+<surname>Sol</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jové</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Povedano</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Lipidomic traits of plasma and cerebrospinal fluid in amyotrophic lateral sclerosis correlate with disease progression</article-title>. <source>Brain Commun</source>
+<year>2021</year>;<volume>3</volume>:<elocation-id>fcab143</elocation-id>. <pub-id pub-id-type="doi">10.1093/braincomms/fcab143</pub-id>.<pub-id pub-id-type="pmid">34396104</pub-id>
+<pub-id pub-id-type="pmcid">PMC8361390</pub-id></mixed-citation></ref><ref id="ana27208-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="ana27208-cit-0015">
+<string-name name-style="western">
+<surname>Ishikawa</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maekawa</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saito</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Plasma and serum lipidomics of healthy white adults shows characteristic profiles by subjects' gender and age</article-title>. <source>PLoS One</source>
+<year>2014</year>;<volume>9</volume>:<elocation-id>e91806</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0091806</pub-id>.<pub-id pub-id-type="pmid">24632803</pub-id>
+<pub-id pub-id-type="pmcid">PMC3954792</pub-id></mixed-citation></ref><ref id="ana27208-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="ana27208-cit-0016">
+<string-name name-style="western">
+<surname>Murdock</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boss</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Amyotrophic lateral sclerosis survival associates with neutrophils in a sex‐specific manner</article-title>. <source>Neurol Neuroimmunol Neuroinflamm</source>
+<year>2021</year>;<volume>8</volume>: <elocation-id>e953</elocation-id>. <pub-id pub-id-type="doi">10.1212/nxi.0000000000000953</pub-id>.<pub-id pub-id-type="pmid">33531377</pub-id>
+<pub-id pub-id-type="pmcid">PMC8057067</pub-id></mixed-citation></ref><ref id="ana27208-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="ana27208-cit-0017">
+<string-name name-style="western">
+<surname>Chiò</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moglia</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Canosa</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>ALS phenotype is influenced by age, sex, and genetics: a population‐based study</article-title>. <source>Neurology</source>
+<year>2020</year>;<volume>94</volume>:<fpage>e802</fpage>–<lpage>e810</lpage>. <pub-id pub-id-type="doi">10.1212/WNL.0000000000008869</pub-id>.<pub-id pub-id-type="pmid">31907290</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="ana27208-cit-0018">
+<string-name name-style="western">
+<surname>Su</surname>
+<given-names>FC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goutman</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chernyak</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Association of environmental toxins with amyotrophic lateral sclerosis</article-title>. <source>JAMA Neurol</source>
+<year>2016</year>;<volume>73</volume>:<fpage>803</fpage>–<lpage>811</lpage>. <pub-id pub-id-type="doi">10.1001/jamaneurol.2016.0594</pub-id>.<pub-id pub-id-type="pmid">27159543</pub-id>
+<pub-id pub-id-type="pmcid">PMC5032145</pub-id></mixed-citation></ref><ref id="ana27208-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="ana27208-cit-0019">
+<string-name name-style="western">
+<surname>Brooks</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swash</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Munsat</surname>
+<given-names>TL</given-names>
+</string-name>. <article-title>El Escorial revisited: revised criteria for the diagnosis of amyotrophic lateral sclerosis</article-title>. <source>Amyotroph Lateral Scler Other Motor Neuron Disord</source>
+<year>2000</year>;<volume>1</volume>:<fpage>293</fpage>–<lpage>299</lpage>.<pub-id pub-id-type="pmid">11464847</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/146608200300079536</pub-id></mixed-citation></ref><ref id="ana27208-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="ana27208-cit-0020">
+<string-name name-style="western">
+<surname>Brooks</surname>
+<given-names>BR</given-names>
+</string-name>, <collab collab-type="authors">El Escorial World Federation of Neurology criteria for the diagnosis of amyotrophic lateral sclerosis</collab>
+. <article-title>Subcommittee on motor neuron diseases/amyotrophic lateral sclerosis of the world Federation of Neurology Research Group on neuromuscular diseases and the El Escorial “clinical limits of amyotrophic lateral sclerosis” workshop contributors</article-title>. <source>J Neurol Sci</source>
+<year>1994</year>;<volume>124</volume>:<fpage>96</fpage>–<lpage>107</lpage>.<pub-id pub-id-type="pmid">7807156</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0022-510x(94)90191-0</pub-id></mixed-citation></ref><ref id="ana27208-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="ana27208-cit-0021">
+<string-name name-style="western">
+<surname>Shefner</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Chalabi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baker</surname>
+<given-names>MR</given-names>
+</string-name>, et al. <article-title>A proposal for new diagnostic criteria for ALS</article-title>. <source>Clin Neurophysiol</source>
+<year>2020</year>;<volume>131</volume>:<fpage>1975</fpage>–<lpage>1978</lpage>. <pub-id pub-id-type="doi">10.1016/j.clinph.2020.04.005</pub-id>.<pub-id pub-id-type="pmid">32387049</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="ana27208-cit-0022">
+<string-name name-style="western">
+<surname>Murdock</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pawlowski</surname>
+<given-names>KD</given-names>
+</string-name>, et al. <article-title>Peripheral immune profiles predict ALS progression in an age‐ and sex‐dependent manner</article-title>. <source>Neurol Neuroimmunol Neuroinflamm</source>
+<year>2024</year>;<volume>11</volume>:<elocation-id>e200241</elocation-id>. <pub-id pub-id-type="doi">10.1212/nxi.0000000000200241</pub-id>.<pub-id pub-id-type="pmid">38626361</pub-id>
+<pub-id pub-id-type="pmcid">PMC11087030</pub-id></mixed-citation></ref><ref id="ana27208-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="ana27208-cit-0023">
+<string-name name-style="western">
+<surname>van Rheenen</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van der Spek</surname>
+<given-names>RAA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bakker</surname>
+<given-names>MK</given-names>
+</string-name>, et al. <article-title>Common and rare variant association analyses in amyotrophic lateral sclerosis identify 15 risk loci with distinct genetic architectures and neuron‐specific biology</article-title>. <source>Nature Genet</source>
+<year>2021</year>;<volume>53</volume>:<fpage>1636</fpage>–<lpage>1648</lpage>. <pub-id pub-id-type="doi">10.1038/s41588-021-00973-1</pub-id>.<pub-id pub-id-type="pmid">34873335</pub-id>
+<pub-id pub-id-type="pmcid">PMC8648564</pub-id></mixed-citation></ref><ref id="ana27208-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="ana27208-cit-0024">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pettersson‐Kymmer</surname>
+<given-names>U</given-names>
+</string-name>, et al. <article-title>Genomic atlas of the plasma metabolome prioritizes metabolites implicated in human diseases</article-title>. <source>Nat Genet</source>
+<year>2023</year>;<volume>55</volume>:<fpage>44</fpage>–<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1038/s41588-022-01270-1</pub-id>.<pub-id pub-id-type="pmid">36635386</pub-id>
+<pub-id pub-id-type="pmcid">PMC7614162</pub-id></mixed-citation></ref><ref id="ana27208-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="ana27208-cit-0025">
+<string-name name-style="western">
+<surname>Castrillo‐Viguera</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grasso</surname>
+<given-names>DL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Simpson</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Clinical significance in the change of decline in ALSFRS‐R</article-title>. <source>Amyotroph Lateral Scler</source>
+<year>2010</year>;<volume>11</volume>:<fpage>178</fpage>–<lpage>180</lpage>. <pub-id pub-id-type="doi">10.3109/17482960903093710</pub-id>.<pub-id pub-id-type="pmid">19634063</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="ana27208-cit-0026">
+<string-name name-style="western">
+<surname>Peter</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosenbohm</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dupuis</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Life course body mass index and risk and prognosis of amyotrophic lateral sclerosis: results from the ALS registry Swabia</article-title>. <source>Eur J Epidemiol</source>
+<year>2017</year>;<volume>32</volume>:<fpage>901</fpage>–<lpage>908</lpage>. <pub-id pub-id-type="doi">10.1007/s10654-017-0318-z</pub-id>.<pub-id pub-id-type="pmid">28975435</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="ana27208-cit-0027">
+<string-name name-style="western">
+<surname>Jésus</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fayemendy</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nicol</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Hypermetabolism is a deleterious prognostic factor in patients with amyotrophic lateral sclerosis</article-title>. <source>Eur J Neurol</source>
+<year>2018</year>;<volume>25</volume>:<fpage>97</fpage>–<lpage>104</lpage>. <pub-id pub-id-type="doi">10.1111/ene.13468</pub-id>.<pub-id pub-id-type="pmid">28940704</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="ana27208-cit-0028">
+<string-name name-style="western">
+<surname>Desport</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Preux</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Magy</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Factors correlated with hypermetabolism in patients with amyotrophic lateral sclerosis</article-title>. <source>Am J Clin Nutr</source>
+<year>2001</year>;<volume>74</volume>:<fpage>328</fpage>–<lpage>334</lpage>. <pub-id pub-id-type="doi">10.1093/ajcn/74.3.328</pub-id>.<pub-id pub-id-type="pmid">11522556</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="ana27208-cit-0029">
+<string-name name-style="western">
+<surname>Sohn</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ping</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Glass</surname>
+<given-names>JD</given-names>
+</string-name>, et al. <article-title>Interrogating the metabolomic profile of amyotrophic lateral sclerosis in the post‐mortem human brain by infrared matrix‐assisted laser desorption electrospray ionization (IR‐MALDESI) mass spectrometry imaging (MSI)</article-title>. <source>Metabolites</source>
+<year>2022</year>;<volume>12</volume>:<elocation-id>1096</elocation-id>. <pub-id pub-id-type="doi">10.3390/metabo12111096</pub-id>.<pub-id pub-id-type="pmid">36355179</pub-id>
+<pub-id pub-id-type="pmcid">PMC9696666</pub-id></mixed-citation></ref><ref id="ana27208-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="ana27208-cit-0030">
+<string-name name-style="western">
+<surname>Alessenko</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gutner</surname>
+<given-names>UA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shupik</surname>
+<given-names>MA</given-names>
+</string-name>. <article-title>Involvement of lipids in the pathogenesis of amyotrophic lateral sclerosis</article-title>. <source>Life Basel</source>
+<year>2023</year>;<volume>13</volume>:<elocation-id>510</elocation-id>. <pub-id pub-id-type="doi">10.3390/life13020510</pub-id>.<pub-id pub-id-type="pmid">36836867</pub-id>
+<pub-id pub-id-type="pmcid">PMC9966871</pub-id></mixed-citation></ref><ref id="ana27208-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="ana27208-cit-0031">
+<string-name name-style="western">
+<surname>Phan</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bhatia</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Multiple pathways of lipid dysregulation in amyotrophic lateral sclerosis</article-title>. <source>Brain Commun</source>
+<year>2023</year>;<volume>5</volume>:<elocation-id>fcac340</elocation-id>. <pub-id pub-id-type="doi">10.1093/braincomms/fcac340</pub-id>.<pub-id pub-id-type="pmid">36632187</pub-id>
+<pub-id pub-id-type="pmcid">PMC9825811</pub-id></mixed-citation></ref><ref id="ana27208-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="ana27208-cit-0032">
+<string-name name-style="western">
+<surname>Gray</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Larkin</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claridge</surname>
+<given-names>TD</given-names>
+</string-name>, et al. <article-title>The longitudinal cerebrospinal fluid metabolomic profile of amyotrophic lateral sclerosis</article-title>. <source>Amyotroph Lateral Scler Frontotemporal Degener</source>
+<year>2015</year>;<volume>16</volume>:<fpage>456</fpage>–<lpage>463</lpage>. <pub-id pub-id-type="doi">10.3109/21678421.2015.1053490</pub-id>.<pub-id pub-id-type="pmid">26121274</pub-id>
+<pub-id pub-id-type="pmcid">PMC4720042</pub-id></mixed-citation></ref><ref id="ana27208-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="ana27208-cit-0033">
+<string-name name-style="western">
+<surname>Area‐Gomez</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Larrea</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yun</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Lipidomics study of plasma from patients suggest that ALS and PLS are part of a continuum of motor neuron disorders</article-title>. <source>Sci Rep</source>
+<year>2021</year>;<volume>11</volume>:<elocation-id>13562</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-021-92112-3</pub-id>.<pub-id pub-id-type="pmid">34193885</pub-id>
+<pub-id pub-id-type="pmcid">PMC8245424</pub-id></mixed-citation></ref><ref id="ana27208-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="ana27208-cit-0034">
+<string-name name-style="western">
+<surname>Valbuena</surname>
+<given-names>GN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cantoni</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tortarolo</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Spinal cord metabolic signatures in models of fast‐ and slow‐progressing SOD1(G93A) amyotrophic lateral sclerosis</article-title>. <source>Front Neurosci</source>
+<year>2019</year>;<volume>13</volume>:<elocation-id>1276</elocation-id>. <pub-id pub-id-type="doi">10.3389/fnins.2019.01276</pub-id>.<pub-id pub-id-type="pmid">31920474</pub-id>
+<pub-id pub-id-type="pmcid">PMC6914819</pub-id></mixed-citation></ref><ref id="ana27208-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="ana27208-cit-0035">
+<string-name name-style="western">
+<surname>Eid</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rumora</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beirowski</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>New perspectives in diabetic neuropathy</article-title>. <source>Neuron</source>
+<year>2023</year>;<volume>111</volume>:<fpage>2623</fpage>–<lpage>2641</lpage>. <pub-id pub-id-type="doi">10.1016/j.neuron.2023.05.003</pub-id>.<pub-id pub-id-type="pmid">37263266</pub-id>
+<pub-id pub-id-type="pmcid">PMC10525009</pub-id></mixed-citation></ref><ref id="ana27208-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="ana27208-cit-0036">
+<string-name name-style="western">
+<surname>Adams</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoppel</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lok</surname>
+<given-names>KH</given-names>
+</string-name>, et al. <article-title>Plasma acylcarnitine profiles suggest incomplete long‐chain fatty acid beta‐oxidation and altered tricarboxylic acid cycle activity in type 2 diabetic African‐American women</article-title>. <source>J Nutr</source>
+<year>2009</year>;<volume>139</volume>:<fpage>1073</fpage>–<lpage>1081</lpage>. <pub-id pub-id-type="doi">10.3945/jn.108.103754</pub-id>.<pub-id pub-id-type="pmid">19369366</pub-id>
+<pub-id pub-id-type="pmcid">PMC2714383</pub-id></mixed-citation></ref><ref id="ana27208-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="ana27208-cit-0037">
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Integrative analysis of metabolomics and proteomics unravels purine metabolism dysregulation in the SOD1(G93A) mouse model of amyotrophic lateral sclerosis</article-title>. <source>Neurobiol Dis</source>
+<year>2023</year>;<volume>181</volume>:<elocation-id>106110</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.nbd.2023.106110</pub-id>.<pub-id pub-id-type="pmid">37001614</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="ana27208-cit-0038">
+<string-name name-style="western">
+<surname>Pharaoh</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sataranatarajan</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Street</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Metabolic and stress response changes precede disease onset in the spinal cord of mutant SOD1 ALS mice</article-title>. <source>Front Neurosci</source>
+<year>2019</year>;<volume>13</volume>:<elocation-id>487</elocation-id>. <pub-id pub-id-type="doi">10.3389/fnins.2019.00487</pub-id>.<pub-id pub-id-type="pmid">31213966</pub-id>
+<pub-id pub-id-type="pmcid">PMC6554287</pub-id></mixed-citation></ref><ref id="ana27208-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="ana27208-cit-0039">
+<string-name name-style="western">
+<surname>Kira</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nishikawa</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ochi</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>L‐carnitine suppresses the onset of neuromuscular degeneration and increases the life span of mice with familial amyotrophic lateral sclerosis</article-title>. <source>Brain Res</source>
+<year>2006</year>;<volume>1070</volume>:<fpage>206</fpage>–<lpage>214</lpage>. <pub-id pub-id-type="doi">10.1016/j.brainres.2005.11.052</pub-id>.<pub-id pub-id-type="pmid">16412993</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="ana27208-cit-0040">
+<string-name name-style="western">
+<surname>De Marchi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Venkatesan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saraceno</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Acetyl‐L‐carnitine and amyotrophic lateral sclerosis: current evidence</article-title>. <source>CNS Neurol Disord Durg Targets</source>
+<year>2024</year>;<volume>23</volume>:<fpage>588</fpage>–<lpage>601</lpage>. <pub-id pub-id-type="doi">10.2174/1871527322666230330083757</pub-id>.<pub-id pub-id-type="pmid">36998125</pub-id></mixed-citation></ref><ref id="ana27208-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="ana27208-cit-0041">
+<string-name name-style="western">
+<surname>Guo</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Figueroa‐Romero</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Noureldein</surname>
+<given-names>MH</given-names>
+</string-name>, et al. <article-title>Gut microbiome correlates with plasma lipids in amyotrophic lateral sclerosis</article-title>. <source>Brain</source>
+<year>2023</year>;<volume>147</volume>:<fpage>665</fpage>–<lpage>679</lpage>. <pub-id pub-id-type="doi">10.1093/brain/awad306</pub-id>.<pub-id pub-id-type="pmcid">PMC10834248</pub-id><pub-id pub-id-type="pmid">37721161</pub-id></mixed-citation></ref><ref id="ana27208-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="ana27208-cit-0042">
+<string-name name-style="western">
+<surname>Bouscary</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Quessada</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>René</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>Sphingolipids metabolism alteration in the central nervous system: amyotrophic lateral sclerosis (ALS) and other neurodegenerative diseases</article-title>. <source>Semin Cell Dev Biol</source>
+<year>2021</year>;<volume>112</volume>:<fpage>82</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1016/j.semcdb.2020.10.008</pub-id>.<pub-id pub-id-type="pmid">33160824</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="ana27208-cit-0043">
+<string-name name-style="western">
+<surname>Lawton</surname>
+<given-names>KA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>
+<given-names>MV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alexander</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Plasma metabolomic biomarker panel to distinguish patients with amyotrophic lateral sclerosis from disease mimics</article-title>. <source>Amyotroph Lateral Scler Frontotemporal Degener</source>
+<year>2014</year>;<volume>15</volume>:<fpage>362</fpage>–<lpage>370</lpage>. <pub-id pub-id-type="doi">10.3109/21678421.2014.908311</pub-id>.<pub-id pub-id-type="pmid">24984169</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="ana27208-cit-0044">
+<string-name name-style="western">
+<surname>Henriques</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Croixmarie</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bouscary</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Sphingolipid metabolism is dysregulated at transcriptomic and metabolic levels in the spinal cord of an animal model of amyotrophic lateral sclerosis</article-title>. <source>Front Mol Neurosci</source>
+<year>2017</year>;<volume>10</volume>:<elocation-id>433</elocation-id>. <pub-id pub-id-type="doi">10.3389/fnmol.2017.00433</pub-id>.<pub-id pub-id-type="pmid">29354030</pub-id>
+<pub-id pub-id-type="pmcid">PMC5758557</pub-id></mixed-citation></ref><ref id="ana27208-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="ana27208-cit-0045">
+<string-name name-style="western">
+<surname>Henriques</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Croixmarie</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Priestman</surname>
+<given-names>DA</given-names>
+</string-name>, et al. <article-title>Amyotrophic lateral sclerosis and denervation alter sphingolipids and up‐regulate glucosylceramide synthase</article-title>. <source>Hum Mol Genet</source>
+<year>2015</year>;<volume>24</volume>:<fpage>7390</fpage>–<lpage>7405</lpage>. <pub-id pub-id-type="doi">10.1093/hmg/ddv439</pub-id>.<pub-id pub-id-type="pmid">26483191</pub-id>
+<pub-id pub-id-type="pmcid">PMC4664174</pub-id></mixed-citation></ref><ref id="ana27208-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="ana27208-cit-0046">
+<string-name name-style="western">
+<surname>Dodge</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Treleaven</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pacheco</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Glycosphingolipids are modulators of disease pathogenesis in amyotrophic lateral sclerosis</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<year>2015</year>;<volume>112</volume>:<fpage>8100</fpage>–<lpage>8105</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1508767112</pub-id>.<pub-id pub-id-type="pmid">26056266</pub-id>
+<pub-id pub-id-type="pmcid">PMC4491749</pub-id></mixed-citation></ref><ref id="ana27208-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="ana27208-cit-0047">
+<string-name name-style="western">
+<surname>Mohassel</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donkervoort</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lone</surname>
+<given-names>MA</given-names>
+</string-name>, et al. <article-title>Childhood amyotrophic lateral sclerosis caused by excess sphingolipid synthesis</article-title>. <source>Nat Med</source>
+<year>2021</year>;<volume>27</volume>:<fpage>1197</fpage>–<lpage>1204</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-021-01346-1</pub-id>.<pub-id pub-id-type="pmid">34059824</pub-id>
+<pub-id pub-id-type="pmcid">PMC9309980</pub-id></mixed-citation></ref><ref id="ana27208-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="ana27208-cit-0048">
+<string-name name-style="western">
+<surname>Farooqui</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horrocks</surname>
+<given-names>LA</given-names>
+</string-name>. <article-title>Book review: plasmalogens: workhorse lipids of membranes in normal and injured neurons and glia</article-title>. <source>Neuroscientist</source>
+<year>2001</year>;<volume>7</volume>:<fpage>232</fpage>–<lpage>245</lpage>. <pub-id pub-id-type="doi">10.1177/107385840100700308</pub-id>.<pub-id pub-id-type="pmid">11499402</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="ana27208-cit-0049">
+<string-name name-style="western">
+<surname>Basu Ball</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Neff</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gohil</surname>
+<given-names>VM</given-names>
+</string-name>. <article-title>The role of nonbilayer phospholipids in mitochondrial structure and function</article-title>. <source>FEBS Lett</source>
+<year>2018</year>;<volume>592</volume>:<fpage>1273</fpage>–<lpage>1290</lpage>. <pub-id pub-id-type="doi">10.1002/1873-3468.12887</pub-id>.<pub-id pub-id-type="pmid">29067684</pub-id>
+<pub-id pub-id-type="pmcid">PMC5918238</pub-id></mixed-citation></ref><ref id="ana27208-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="ana27208-cit-0050">
+<string-name name-style="western">
+<surname>Gibellini</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>TK</given-names>
+</string-name>. <article-title>The Kennedy pathway‐‐De novo synthesis of phosphatidylethanolamine and phosphatidylcholine</article-title>. <source>IUBMB Life</source>
+<year>2010</year>;<volume>62</volume>:<fpage>414</fpage>–<lpage>428</lpage>. <pub-id pub-id-type="doi">10.1002/iub.337</pub-id>.<pub-id pub-id-type="pmid">20503434</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="ana27208-cit-0051">
+<string-name name-style="western">
+<surname>Boddy</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giovannelli</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sassani</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>The gut microbiome: a key player in the complexity of amyotrophic lateral sclerosis (ALS)</article-title>. <source>BMC Med</source>
+<year>2021</year>;<volume>19</volume>:<elocation-id>13</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12916-020-01885-3</pub-id>.<pub-id pub-id-type="pmid">33468103</pub-id>
+<pub-id pub-id-type="pmcid">PMC7816375</pub-id></mixed-citation></ref><ref id="ana27208-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="ana27208-cit-0052">
+<string-name name-style="western">
+<surname>Patin</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corcia</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vourc'h</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Omics to explore amyotrophic lateral sclerosis evolution: the central role of arginine and proline metabolism</article-title>. <source>Mol Neurobiol</source>
+<year>2017</year>;<volume>54</volume>:<fpage>5361</fpage>–<lpage>5374</lpage>. <pub-id pub-id-type="doi">10.1007/s12035-016-0078-x</pub-id>.<pub-id pub-id-type="pmid">27590138</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="ana27208-cit-0053">
+<string-name name-style="western">
+<surname>Blasco</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nadal‐Desbarats</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pradat</surname>
+<given-names>PF</given-names>
+</string-name>, et al. <article-title>Biomarkers in amyotrophic lateral sclerosis: combining metabolomic and clinical parameters to define disease progression</article-title>. <source>Eur J Neurol</source>
+<year>2016</year>;<volume>23</volume>:<fpage>346</fpage>–<lpage>353</lpage>. <pub-id pub-id-type="doi">10.1111/ene.12851</pub-id>.<pub-id pub-id-type="pmid">26508442</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="ana27208-cit-0054">
+<string-name name-style="western">
+<surname>Kumar</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bala</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kalita</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Metabolomic analysis of serum by (1) H NMR spectroscopy in amyotrophic lateral sclerosis</article-title>. <source>Clin Chim Acta</source>
+<year>2010</year>;<volume>411</volume>:<fpage>563</fpage>–<lpage>567</lpage>. <pub-id pub-id-type="doi">10.1016/j.cca.2010.01.016</pub-id>.<pub-id pub-id-type="pmid">20096678</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="ana27208-cit-0055">
+<string-name name-style="western">
+<surname>Bame</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grier</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Needleman</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brusilow</surname>
+<given-names>WS</given-names>
+</string-name>. <article-title>Amino acids as biomarkers in the SOD1(G93A) mouse model of ALS</article-title>. <source>Biochim Biophys Acta</source>
+<year>2014</year>;<volume>1842</volume>:<fpage>79</fpage>–<lpage>87</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbadis.2013.10.004</pub-id>.<pub-id pub-id-type="pmid">24129262</pub-id>
+</mixed-citation></ref><ref id="ana27208-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="ana27208-cit-0056">
+<string-name name-style="western">
+<surname>Atassi</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yerramilli‐Rao</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Szymonifka</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Analysis of start‐up, retention, and adherence in ALS clinical trials</article-title>. <source>Neurology</source>
+<year>2013</year>;<volume>81</volume>:<fpage>1350</fpage>–<lpage>1355</lpage>. <pub-id pub-id-type="doi">10.1212/WNL.0b013e3182a823e0</pub-id>.<pub-id pub-id-type="pmid">24005339</pub-id>
+<pub-id pub-id-type="pmcid">PMC3806927</pub-id></mixed-citation></ref><ref id="ana27208-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="ana27208-cit-0057">
+<string-name name-style="western">
+<surname>Rhee</surname>
+<given-names>EP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Larson</surname>
+<given-names>MG</given-names>
+</string-name>, et al. <article-title>Lipid profiling identifies a triacylglycerol signature of insulin resistance and improves diabetes prediction in humans</article-title>. <source>J Clin Invest</source>
+<year>2011</year>;<volume>121</volume>:<fpage>1402</fpage>–<lpage>1411</lpage>. <pub-id pub-id-type="doi">10.1172/jci44442</pub-id>.<pub-id pub-id-type="pmid">21403394</pub-id>
+<pub-id pub-id-type="pmcid">PMC3069773</pub-id></mixed-citation></ref><ref id="ana27208-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="ana27208-cit-0058">
+<string-name name-style="western">
+<surname>Anderson</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Curtis</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jen</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Plasma metabolomics supports non‐fasted sampling for metabolic profiling across a spectrum of glucose tolerance in the Nile rat model for type 2 diabetes</article-title>. <source>Lab Anim (NY)</source>
+<year>2023</year>;<volume>52</volume>:<fpage>269</fpage>–<lpage>277</lpage>. <pub-id pub-id-type="doi">10.1038/s41684-023-01268-0</pub-id>.<pub-id pub-id-type="pmid">37857753</pub-id>
+<pub-id pub-id-type="pmcid">PMC10611569</pub-id></mixed-citation></ref><ref id="ana27208-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="ana27208-cit-0059">
+<string-name name-style="western">
+<surname>Ramamoorthy</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Severson</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ghosh</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Identifying patterns in amyotrophic lateral sclerosis progression from sparse longitudinal data</article-title>. <source>Nat Comput Sci</source>
+<year>2022</year>;<volume>2</volume>:<fpage>605</fpage>–<lpage>616</lpage>. <pub-id pub-id-type="doi">10.1038/s43588-022-00299-w</pub-id>.<pub-id pub-id-type="pmid">38177466</pub-id>
+<pub-id pub-id-type="pmcid">PMC10766562</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

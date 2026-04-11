@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT02050464",
+  "title": "Virtual Physiological Human (VPH) Dementia Research Enabled by IT - Prospective Cohort Kuopio",
+  "brief_title": "Computational Tools for Early Diagnosis of Memory Disorders",
+  "status": "COMPLETED",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 126,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Alzheimer Disease",
+    "Frontotemporal Dementia",
+    "Dementia, Vascular",
+    "Mild Cognitive Impairment"
+  ],
+  "keywords": [
+    "Alzheimer Disease",
+    "Frontotemporal Dementia",
+    "Dementia, Vascular",
+    "Mild Cognitive Impairment",
+    "Diagnosis",
+    "Risk factors",
+    "Biomarkers",
+    "AD",
+    "FTD",
+    "VAD",
+    "MCI"
+  ],
+  "sponsor": "University of Eastern Finland",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "University of Sheffield",
+    "VTT Technical Research Centre of Finland",
+    "Klinik Hirslanden, Zurich",
+    "Sheffield Teaching Hospitals NHS Foundation Trust"
+  ],
+  "lead_pi": {
+    "name": "Hilkka Soininen, Professor",
+    "affiliation": "University of Eastern Finland"
+  },
+  "start_date": "2013-12",
+  "completion_date": "2017-04",
+  "primary_completion_date": "2017-04",
+  "biospecimen_retention": "SAMPLES_WITH_DNA",
+  "biospecimen_description": "whole blood, serum, plasma, white cells",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Department of Neurology and Brain Research Unit, Institute of Clinical Medicine, University of Eastern Finland",
+      "city": "Kuopio",
+      "state": "",
+      "country": "Finland",
+      "status": ""
+    },
+    {
+      "name": "Kuopio University Hospital",
+      "city": "Kuopio",
+      "state": "",
+      "country": "Finland",
+      "status": ""
+    },
+    {
+      "name": "VTT Technical Research Centre of Finland",
+      "city": "Tampere",
+      "state": "",
+      "country": "Finland",
+      "status": ""
+    }
+  ],
+  "facilities_count": 3,
+  "eligibility_criteria": "Inclusion Criteria:\n\nInclusion criteria for subjects with dementia (AD, VAD, FTD) - The inclusion criteria will be based on international research criteria:\n\n* Diagnosis of probable AD according to National Institute of Neurological and Communicative Disorders and Stroke Alzheimer's (NINCDS-ADRDA) criteria (McKhann et al.1984) and diagnosis of prodromal AD according to Dubois et al., 2007 criteria\n* Diagnosis of FTD according to the clinical diagnostic criteria of Neary et al., 1998\n* Diagnosis of VAD according to diagnostic criteria for research studies by the NINDSAIREN International Workshop (Román et al., 1993)\n\nInclusion criteria for subjects with MCI\n\n* Referral because of cognitive impairments\n* Diagnosis criteria for amnestic and nonamnestic MCI (Petersen, 2004, Petersen and Morris, 2005)\n\nInclusion criteria for control subjects\n\n* Mini-mental state examination (MMSE) score above or equal to 27\n* Overall score on the Clinical Dementia Rating (CDR) scale of 0\n\nExclusion Criteria:\n\nExclusion criteria for all subjects\n\n* Other causes of dementia\n* Obvious brain, systemic or psychiatric disorders that could potentially affect cognitive functions such as stroke, severe depression, or endocrine disorders\n\nExclusion criteria for control subjects and subjects with MCI\n\n\\- Diagnosis of dementia according to DSM-IV (Diagnostic and Statistical Manual of Mental Disorders, 4th Edition) criteria at baseline",
+  "eligibility_min_age": "50 Years",
+  "eligibility_max_age": "85 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Sensitivity, specificity and accuracy of models for diagnosis of memory disorders",
+      "description": "The models developed the VPH-DARE project will be tested in this prospective cohort. Sensitivity, specificity and accuracy of the model will be tested in differential diagnosis between the study groups as well as the accuracy of prediction cognitive decline as measured by neuropsychological test battery in the MCI group.",
+      "timeFrame": "during a single visit, i.e., day 1 and for one study group (MCI) after 18 month follow-up"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "The Virtual Physiological Human: DementiA Research Enabled by IT (VPH-DARE@IT) is a four-year IT-project funded through the European Union (EU). The project consortium involves a total of 21 universities and industrial partners from 10 European countries. The project delivers the first patient-specific predictive models for early differential diagnosis of dementia and their evolution. An integrated clinical decision support platform will be validated / tested by access to a dozen databases of international cross-sectional and longitudinal studies. As a part of the VPH-DARE@IT project, a new prospective cohort will be collected in Kuopio. This prospective cohort will be used to test further the modeling approaches and tools developed by using the retrospective databases.",
+  "detailed_description": "The Virtual Physiological Human: DementiA Research Enabled by IT (VPH-DARE@IT) is a four-year IT-project funded through the European Union (EU). The project will develop multiscale models of the ageing brain in order to account simultaneously for the patient-specific biochemical, metabolic and biomechanical brain substrate, as well as for genetic, clinical, demographic and lifestyle determinants. An integrated clinical decision support platform will be validated and tested by access to a dozen databases of international cross-sectional and longitudinal studies.\n\nModeling approaches developed by using the retrospective databases will be tested using a new prospective cohort that will be collected in Kuopio as a part of the VPH-DARE@IT project. The study population at university of Eastern Finland (UEF) will be a total of 120 subjects: 20 healthy controls (HC), 20 mild to moderate Alzheimer's disease (AD) patients, 20 vascular dementia (VAD) patients, 20 fronto-temporal dementia (FTD) patients and 40 subjects with mild cognitive impairment (MCI). This study is referred as VPH-DARE@IT Prospective study in Kuopio or \"ProsKuopio\".",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:54.873958+00:00"
+}

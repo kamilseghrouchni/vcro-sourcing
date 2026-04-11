@@ -1,0 +1,598 @@
+{
+  "nct_id": "NCT02008357",
+  "title": "Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4 Study)",
+  "brief_title": "Clinical Trial of Solanezumab for Older Individuals Who May be at Risk for Memory Loss",
+  "status": "COMPLETED",
+  "phase": "PHASE3",
+  "study_type": "INTERVENTIONAL",
+  "enrollment": 1169,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Cognition Disorders"
+  ],
+  "keywords": [
+    "Cognition",
+    "Prevention"
+  ],
+  "sponsor": "Eli Lilly and Company",
+  "sponsor_class": "INDUSTRY",
+  "collaborators": [
+    "Alzheimer's Therapeutic Research Institute"
+  ],
+  "lead_pi": {},
+  "start_date": "2014-02-28",
+  "completion_date": "2023-06-08",
+  "primary_completion_date": "2022-12-27",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "University of Alabama at Birmingham",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Banner Health Research Institute",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Barrow Neurological Institute",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Banner Sun Health Research Institute",
+      "city": "Sun City",
+      "state": "Arizona",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Institute for Memory Impairment & Neurological Disorders",
+      "city": "Irvine",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of California - San Diego",
+      "city": "La Jolla",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Southern California School of Medicine",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of California - Los Angeles",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Univ of California Irvine College of Medicine",
+      "city": "Orange",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Veterans Affairs Medical Center Palo Alto",
+      "city": "Palo Alto",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Sutter Medical Group",
+      "city": "Sacramento",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Univ of California San Francisco",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Syrentis Clinical Research",
+      "city": "Santa Ana",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of California, Davis - Health Systems",
+      "city": "Walnut Creek",
+      "state": "California",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Yale University School of Medicine",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Georgetown University Hospital",
+      "city": "Washington D.C.",
+      "state": "District of Columbia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Howard University Hospital",
+      "city": "Washington D.C.",
+      "state": "District of Columbia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brain Matters Research",
+      "city": "Delray Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mayo Clinic-Jacksonville",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Wien Center for Clinical Research",
+      "city": "Miami Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Compass Research - Orlando",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of South Florida",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Compass Research -The Villages",
+      "city": "The Villages",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Premiere Research Institute at Palm Beach Neurology",
+      "city": "West Palm Beach",
+      "state": "Florida",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Emory University",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Northwestern University",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Rush Alzheimer's Disease Center",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Great Lakes Clinical Trials",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Indiana University School of Medicine",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Iowa",
+      "city": "Iowa City",
+      "state": "Iowa",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Kansas Hospital",
+      "city": "Fairway",
+      "state": "Kansas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Kentucky",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Pennington Biomedical Research Center",
+      "city": "Baton Rouge",
+      "state": "Louisiana",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Johns Hopkins University School of Medicine",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Brigham and Womens Hospital",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Boston University Medical Center",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Michigan",
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mayo Clinic",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Washington University School of Medicine",
+      "city": "St Louis",
+      "state": "Missouri",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Univ of Nebraska Med Center",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Cleveland Clinic of Las Vegas",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Dent Neurological Institute",
+      "city": "Amherst",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "New York University Medical Center",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Weill Cornell Medical College",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Mount Sinai School of Medicine",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Columbia University Medical Center",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Rochester",
+      "city": "Rochester",
+      "state": "New York",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Wake Forest University School of Medicine",
+      "city": "Winston-Salem",
+      "state": "North Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Case Western Reserve University",
+      "city": "Beachwood",
+      "state": "Ohio",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Tulsa Clinical Research LLC",
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Oregon Health and Science University",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Drexel University College of Medicine at EPPI",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Pennsylvania Hospital",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Pittsburgh Medical Center",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Butler Hospital",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Rhode Island Hospital",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Roper Hospital",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Texas Southwestern Medical Center at Dallas",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Baylor College of Medicine",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "Houston Methodist",
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Washington School of Medicine",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "University of Wisconsin-Madison Hospital and Health Clinic",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "country": "United States",
+      "status": ""
+    },
+    {
+      "name": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+      "city": "Parkville",
+      "state": "Victoria",
+      "country": "Australia",
+      "status": ""
+    },
+    {
+      "name": "For additional information regarding investigative sites for this trial, contact 1-888-545-5972 Mon - Fri, 9 AM to 4 PM or 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri, 9 AM to 5 PM Eastern Time or speak with your personal physician.",
+      "city": "London",
+      "state": "",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "For additional information regarding investigative sites for this trial, contact 1-888-545-5972 Mon - Fri, 9 AM to 4 PM or 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri, 9 AM to 5 PM Eastern Time or speak with your personal physician.",
+      "city": "Toronto",
+      "state": "",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "Sunnybrook Health Sciences Centre",
+      "city": "Toronto",
+      "state": "",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "For additional information regarding investigative sites for this trial, contact 1-888-545-5972 Mon - Fri, 9 AM to 4 PM or 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri, 9 AM to 5 PM Eastern Time or speak with your personal physician.",
+      "city": "Vancouver",
+      "state": "",
+      "country": "Canada",
+      "status": ""
+    },
+    {
+      "name": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+      "city": "Bunkyō City",
+      "state": "",
+      "country": "Japan",
+      "status": ""
+    }
+  ],
+  "facilities_count": 68,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Has a Mini-Mental State Examination (MMSE) score at screening of 25 to 30\n* Has a global Clinical Dementia Rating (CDR) scale score at screening of 0\n* Has a Logical Memory II score at screening of 6 to 18\n* Has a florbetapir positron emission tomography (PET) scan that shows evidence of brain amyloid pathology at screening\n* Has a study partner that is willing to participate as a source of information and has at least weekly contact with the participant (contact can be in-person, via telephone or electronic communication)\n\nExclusion Criteria:\n\n* Is receiving a prescription acetylcholinesterase inhibitor (AChEI) and/or memantine at screening or baseline\n* Lacks good venous access, such that intravenous drug delivery or multiple blood draws would be precluded\n* Has current serious or unstable illness including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease or other conditions that, in the investigator's opinion, could interfere with the analyses of safety and efficacy in this study\n* Has had a history within the last 5 years of a serious infectious disease affecting the brain (including neurosyphilis, meningitis, or encephalitis) or head trauma resulting in protracted loss of consciousness\n* Has had a history within the last 5 years of a primary or recurrent malignant disease with the exception of any in situ cancer that was appropriately treated and is being appropriately monitored, such as resected cutaneous squamous cell carcinoma in situ or in situ prostate cancer with normal prostate-specific antigen post-treatment\n* Has a known history of human immunodeficiency virus (HIV), clinically significant multiple or severe drug allergies, or severe post-treatment hypersensitivity reactions (including, but not limited to, erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, or exfoliative dermatitis)\n* Is clinically judged by the investigator to be at serious risk for suicide\n* Has a history within the past 2 years of major depression or bipolar disorder as defined by the most current version of the Diagnostic and Statistical Manual of Mental Disorders (DSM)\n* Has a history within the past 5 years of chronic alcohol or drug abuse/dependence as defined by the most current version of the DSM\n\nOpen-Label Inclusion Criteria:\n\n* All participants who complete the placebo-controlled period will be allowed to continue into the open-label period",
+  "eligibility_min_age": "65 Years",
+  "eligibility_max_age": "85 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "Change From Baseline of the Preclinical Alzheimer Cognitive Composite (PACC) Score",
+      "description": "PACC has 4 components: Free and Cued Selective Reminding Test (0 (worst)-96 (best recall); Delayed Paragraph Recall test (Range 0 (worst)-25 (best recall); Wechsler Adult Intelligence scale: Digit Symbol Substitution Test (DSST): (ranges 0 \\[none\\]-91 \\[best performance\\]) and Mini Mental State Examination (Range 0 \\[worst\\] - 30 \\[best performance\\]). Component scores are transformed using an established normalization method into z-scores. Each of 4 component change scores is divided by baseline sample standard deviation (SD) of that component. These z scores are summed to form the composite score. Thus, a change of 1 baseline standard deviation on each component would correspond to a 4-point change on the composite. A z-score of 0 is equal to the mean and implies how many SD higher or lower score as compared with baseline score, with increase signifying improvement.",
+      "timeFrame": "Baseline, Week approximately 240"
+    },
+    {
+      "measure": "Change From Baseline of the Preclinical Alzheimer Cognitive Composite (PACC) Score",
+      "description": "PACC has 4 components: Free and Cued Selective Reminding Test (0 (worst)-96 (best recall); Delayed Paragraph Recall test (Range 0 (worst)-25 (best recall); Wechsler Adult Intelligence scale: Digit Symbol Substitution Test (DSST): (ranges 0 \\[none\\]-91 \\[best performance\\]) and Mini Mental State Examination (Range 0 \\[worst\\] - 30 \\[best performance\\]). Component scores are transformed using an established normalization method into z-scores. Each of 4 component change scores is divided by baseline sample standard deviation (SD) of that component. These z scores are summed to form the composite score. Thus, a change of 1 baseline standard deviation on each component would correspond to a 4-point change on the composite. A z-score of 0 is equal to the mean and implies how many SD higher or lower score as compared with baseline score, with increase signifying improvement.",
+      "timeFrame": "Baseline, Week 336"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Change From Baseline in Cognitive Function Index (CFI)",
+      "description": "The CFI is a modified version of the Mail-in Cognitive Function Screening Instrument, a participant- and study partner/informant-reported outcome measure developed by the Alzheimer's Disease Cooperative Study (ADCS). This assessment includes 15 questions (14 of which contribute to the total score, and 1 additional unscored item) that assess the participant's perceived ability to perform high-level functional tasks in daily-life and sense of overall cognitive functional ability. Study participants and their informants independently rate the participant's abilities. A total score is calculated by combining participant-reported and an informant-reported scores, and ranges from 0 to 14 (yes=1; no=0; maybe=0.5 for each question) with higher scores indicating greater impairment. LS mean was derived using natural cubic spline models with factors for treatment, time, and covariates = age, baseline florbetapir cortical SUVr score, years of education, APOE4 carrier status (n).",
+      "timeFrame": "Baseline, Week approximately 240"
+    },
+    {
+      "measure": "Change From Baseline in Cognitive Function Index (CFI)",
+      "description": "The CFI is a modified version of the Mail-in Cognitive Function Screening Instrument, a participant- and study partner/informant-reported outcome measure developed by the ADCS. This assessment includes 15 questions (14 of which contribute to the total score, and 1 additional unscored item) that assess the participant's perceived ability to perform high-level functional tasks in daily-life and sense of overall cognitive functional ability. Study participants and their informants independently rate the participant's abilities. A total score is calculated by combining participant-reported and an informant-reported scores, and ranges from 0 to 14 (yes=1; no=0; maybe=0.5 for each question) with higher scores indicating greater impairment.",
+      "timeFrame": "Baseline, Week 336"
+    },
+    {
+      "measure": "Change From Baseline in Alzheimer's Disease Cooperative Study-Activities Daily Living-Prevention Questionnaire (ADCS-ADL-Prevention Questionnaire) Score",
+      "description": "The ADCS-ADL-prevention questionnaire is a functional measure composed of 18 items that includes 15 activities of daily living rated on a 4-point scale and 3 high level function items. Study participants and their informants independently rate the participant's level of ability (with no difficulty = 3, with some difficulty = 2, with a lot of difficulty = 1, did not do/don't know = 0). Informants are additionally asked to evaluate whether activities were completed less often, required more time to complete, and if any errors were made performing the task. High-level function items are rated as \"yes\" or \"no\". The total score is the sum of the scores of the 15 activities of daily living questions (range: 0-45) with higher scores indicating less impairment.",
+      "timeFrame": "Baseline, Week approximately 240"
+    },
+    {
+      "measure": "Change From Baseline in Alzheimer's Disease Cooperative Study-Activities Daily Living-Prevention Questionnaire (ADCS-ADL-Prevention Questionnaire) Score",
+      "description": "The ADCS-ADL-prevention questionnaire is a functional measure composed of 18 items that includes 15 activities of daily living rated on a 4-point scale and 3 high level function items. Study participants and their informants independently rate the participant's level of ability (with no difficulty = 3, with some difficulty = 2, with a lot of difficulty = 1, did not do/don't know = 0). Informants are additionally asked to evaluate whether activities were completed less often, required more time to complete, and if any errors were made performing the task. High-level function items are rated as \"yes\" or \"no\". The scores range from 0 to 45 with higher scores indicating less impairment. The total score is the sum of the scores of the 15 activities of daily living questions (range: 0-45) with higher scores indicating less impairment.",
+      "timeFrame": "Baseline, Week 336"
+    },
+    {
+      "measure": "Change From Baseline in Mean Composite Standardized Uptake Value Ratio (SUVr)",
+      "description": "Deposition of abnormal tau protein in the brain associated with AD was assessed by quantitative positron emission tomography (PET) scan using flortaucipir F-18. Flortaucipir is an F-18-labeled small molecule that binds with high affinity and selectivity to aggregated tau, and provides a measure of aggregated tau deposition in the brain, expressed as flortaucipir SUVr. LS Mean was calculated using an analysis of covariance (ANCOVA) model with fixed effects of baseline florbetapir result, treatment, APOE4 Carrier Status (yes/no), and age at baseline",
+      "timeFrame": "Baseline, Week approximately 240"
+    },
+    {
+      "measure": "Change From Baseline in Cerebrospinal Fluid (CSF) Tau Biomarkers",
+      "description": "CSF concentrations of total tau and tau phosphorylated protein concentrations were analyzed using validated Immunoassay method. LS mean was derived using an analysis of covariance (ANCOVA) model with fixed effects of baseline CSF, treatment, APOE4 Carrier Status (yes/no) and age at baseline.",
+      "timeFrame": "Baseline, Week approximately 240"
+    },
+    {
+      "measure": "Change From Baseline of Cerebrospinal Fluid (CSF) Concentrations of Amyloid Beta (Aβ)",
+      "description": "CSF biomarker concentrations were analyzed for Aβ 1-40 and Aβ 1-42 using Innotest Enzyme-linked immunosorbent assays (ELISA) method. LS mean was derived using an ANCOVA model with fixed effects of baseline CSF, treatment, APOE4 Carrier Status (yes/no) and age at baseline.",
+      "timeFrame": "Baseline, Week approximately 240"
+    },
+    {
+      "measure": "Change From Baseline in Brain Volume as Measured by Volumetric Magnetic Resonance Imaging (vMRI)",
+      "description": "Alzheimer's disease is also associated with pronounced brain atrophy, reflecting bulk neurodegenerative loss of gray and white matter. Progression of brain atrophy is assessed by vMRI, providing regional quantification of volume loss. Negative change from baseline indicates greater disease severity. Total hippocampal volume and Total Lateral Ventricular Volume were analyzed for vMRI parameters. LS mean was derived using an ANCOVA model with fixed effects of baseline vMRI value, treatment, age at baseline, education, APOE4 Carrier Status (yes/no), and baseline florbetapir cortical SUVr.",
+      "timeFrame": "Baseline, Week approximately 240"
+    },
+    {
+      "measure": "Change From Baseline on the Clinical Dementia Rating-Sum of Boxes Score (CDR-SB)",
+      "description": "The CDR-SB is an interviewer administered scale and impairment is scored in each of categories: memory, orientation, judgment and problem solving, community affairs, home and hobbies and personal care. Impairment is scored on a scale in which none = 0, questionable = 0.5, mild = 1, moderate = 2 and severe = 3. The 6 individual category ratings, or \"box scores\", were added together to give the CDR-Sum of Boxes which ranges from 0-18. Higher score indicates severe impairment.",
+      "timeFrame": "Baseline, Week 336"
+    },
+    {
+      "measure": "Change From Baseline on the Computerized Cognitive Composite (C3)",
+      "description": "The C3 includes tasks from the CogState battery aimed at measuring processing speed, working memory, visual navigation, and executive function. The C3 also include 2 investigator-developed sensitive episodic memory probes of hippocampal function. A composite score is generated and CogState scores are measured on a linear scale (with no maximum score) and a reduction in scores compared to baseline indicates an improvement in cognitive functions.",
+      "timeFrame": "Baseline, Week 336"
+    }
+  ],
+  "has_results": true,
+  "fda_regulated_drug": true,
+  "fda_regulated_device": false,
+  "brief_summary": "The purpose of this study is to test whether an investigational drug called solanezumab can slow the progression of memory problems associated with brain amyloid (protein that forms plaques in the brains of people with Alzheimer Disease \\[AD\\]).",
+  "detailed_description": "The A4 study is a clinical trial for older individuals who have evidence of amyloid plaque build-up in their brains who may be at risk for memory loss and cognitive decline due to Alzheimer's disease. The A4 study will test an anti-amyloid investigational drug in older individuals who do not yet show symptoms of Alzheimer's disease cognitive impairment or dementia with the aim of slowing memory and cognitive decline. The A4 study will also test whether anti-amyloid treatment can delay the progression of AD related brain injury on imaging and other biomarkers.",
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "Administered IV"
+    },
+    {
+      "type": "DRUG",
+      "name": "Solanezumab",
+      "description": "Administered IV"
+    }
+  ],
+  "converted_at": "2026-04-06T21:26:43.524459+00:00"
+}

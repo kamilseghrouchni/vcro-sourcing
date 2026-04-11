@@ -1,0 +1,807 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07161999",
+      "orgStudyIdInfo": {
+        "id": "C302-CLN-2301"
+      },
+      "organization": {
+        "fullName": "Coya Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study of COYA 302 for the Treatment of ALS",
+      "officialTitle": "Phase 2, Randomized, Double-Blind, Placebo-Controlled, Multi-Center, 24-Week Study With Additional 24-Week Blinded Active Extension to Evaluate the Safety and Efficacy of COYA 302 for the Treatment of Amyotrophic Lateral Sclerosis (ALS)",
+      "acronym": "ALSTARS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "RECRUITING",
+      "startDateStruct": {
+        "date": "2025-10-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-08-31",
+      "studyFirstSubmitQcDate": "2025-08-31",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Coya Therapeutics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The ALSTARS trial will be conducted across 20-25 sites in the US and Canada, and will evaluate the safety and efficacy of an investigational treatment called COYA 302 for adults with Amyotrophic Lateral Sclerosis (ALS).\n\nCOYA 302 is an investigational and proprietary biologic combination therapy with a dual immunomodulatory mechanism of action intended to enhance the anti-inflammatory function of regulatory T cells (Tregs) and suppress the inflammation produced by activated monocytes and macrophages. It is comprised of low dose interleukin-2 (LD IL-2) and DRL\\_AB (a biosimilar candidate for abatacept). Participants will be randomly assigned to receive one of 2 regimens of COYA 302 or placebo (an inactive substance) for 24-weeks in the double-blind (DB) period. Those who complete this part of the study may be eligible to receive one of the two regimens of COYA 302 for an additional 24 weeks in a blinded active extension phase (EXT).\n\nThe study will assess changes in disease progression using established ALS clinical outcome measures, including the ALS Functional Rating Scale-Revised (ALSFRS-R), neurofilament (NfL), maximal inspiratory pressure (MIP), slow vital capacity (SVC), and neurological assessments. Additional objectives include evaluation of biomarkers and safety through routine clinical assessments and adverse event monitoring."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "DB: COYA 302 Regimen 1",
+          "type": "EXPERIMENTAL",
+          "description": "Regimen 1: COYA 302 (0.10 mg \\[1M IU\\] LD IL-2 and 125 mg DRL\\_AB) (Week 1) and matching placebo (Week 3) administered via subcutaneous (SC) injection for 5 consecutive days every other week. This dosing regimen will be repeated until completing 6 (six) 4-week cycles, for a total of 24 weeks.",
+          "interventionNames": [
+            "Drug: COYA 302",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "DB: COYA 302 Regimen 2",
+          "type": "EXPERIMENTAL",
+          "description": "Regimen 2: COYA 302 (0.10 mg \\[1M IU\\] LD IL-2 and 125 mg DRL\\_AB) (Weeks 1 and 3) administered via SC injection for 5 consecutive days every other week. This dosing regimen will be repeated until completing 6 (six) 4-week cycles, for a total of 24 weeks.",
+          "interventionNames": [
+            "Drug: COYA 302"
+          ]
+        },
+        {
+          "label": "DB: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo LD IL-2 and Placebo DRL\\_AB (Weeks 1 and 3) administered via SC injection for 5 consecutive days every other week. This dosing regimen will be repeated until completing 6 (six) 4-week cycles, for a total of 24 weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "EXT: Regimen 1",
+          "type": "EXPERIMENTAL",
+          "description": "Regimen 1: COYA 302 (0.10 mg \\[1M IU\\] LD IL-2 and 125 mg DRL\\_AB) (Week 1) and matching placebo (week 3) administered via SC injection for 5 consecutive days every other week. This dosing regimen will be repeated until completing 6 (six) 4-week cycles, for a total of 24 weeks.",
+          "interventionNames": [
+            "Drug: COYA 302"
+          ]
+        },
+        {
+          "label": "EXT: Regimen 2",
+          "type": "EXPERIMENTAL",
+          "description": "Regimen 2: COYA 302 (0.10 mg \\[1M IU\\] LD IL-2 and 125 mg DRL\\_AB) (Weeks 1 and 3) administered via SC injection for 5 consecutive days every other week. This dosing regimen will be repeated until completing 6 (six) 4-week cycles, for a total of 24 weeks.",
+          "interventionNames": [
+            "Drug: COYA 302"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "COYA 302",
+          "description": "Administered as specified in the treatment arm.",
+          "armGroupLabels": [
+            "DB: COYA 302 Regimen 1",
+            "DB: COYA 302 Regimen 2",
+            "EXT: Regimen 1",
+            "EXT: Regimen 2"
+          ],
+          "otherNames": [
+            "LD rhIL-2 and CTLA-4 Ig"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Administered as specified in the treatment arm.",
+          "armGroupLabels": [
+            "DB: COYA 302 Regimen 1",
+            "DB: Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The change in disease progression as measured by the Revised ALS Functional Rating Scale (ALSFRS-R)",
+          "description": "The ALSFRS-R is an ordinal rating scale used to determine a participant's subjective assessment of their capability and independence with 12 functional activities. The maximal score is 48.",
+          "timeFrame": "Baseline to Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Serum neurofilament light chain (NfL)",
+          "description": "Serum NfL will be quantified as a biomarker of neuroaxonal injury.",
+          "timeFrame": "Baseline to Week 24"
+        },
+        {
+          "measure": "Maximal Inspiratory Pressure (MIP)",
+          "description": "MIP is a measure of respiratory muscle strength and will be evaluated as an indicator of pulmonary function decline.",
+          "timeFrame": "Baseline to Week 24"
+        },
+        {
+          "measure": "Combined Assessment of Function and Survival (CAFS)",
+          "description": "CAFS is a ranked analysis combining functional decline (ALSFRS-R change) and survival status to provide a composite efficacy endpoint.",
+          "timeFrame": "Baseline to Week 24"
+        },
+        {
+          "measure": "Slow Vital Capacity (SVC)",
+          "description": "SVC is a measure of respiratory function.",
+          "timeFrame": "Baseline to Week 24"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Sporadic or familial ALS, diagnosed as clinically probable, lab-supported probable, or definite ALS according to the revised El Escorial criteria\n2. Male or female participants aged 18 to 80\n3. Time since onset of ALS symptoms ≤28 months from Screening.\n4. ALSFRS-R total score ≥35 at Screening\n5. Rate of progression at baseline between -0.5 and -1.5 points per month on ALSFRS-R total score.\n6. SVC ≥70% of predicted capacity.\n7. Participants receiving riluzole must be on a stable dose for at least 30 days prior to Screening, with intent to stay on stable dosage throughout the study. If not on a stable dose of riluzole for at least 30 days prior to Screening, willing to refrain from initiation of the agent for the duration of the trial.\n8. Participants receiving edaravone (intravenous \\[IV\\] or oral, RADICAVA®) must have completed at least one treatment cycle prior to Screening, with intent to remain on stable dosage throughout the study. If participant has not completed at least one treatment cycle of edaravone at the time of Screening, willing to refrain from initiation of the agent for the duration of the trial.\n9. Participants receiving tofersen (QALSODY®) must have completed 90 days of treatment prior to Screening, with intent to remain on stable dosage throughout the study. If participant has not completed at least 90 days of tofersen at the time of Screening, willing to refrain from initiation of the agent for the duration of the trial.\n\nKey Exclusion Criteria:\n\n1. Any clinically significant and/or unstable medical (including active systemic infections requiring treatment), surgical, or psychiatric condition or laboratory abnormality other than ALS, in the judgement of the Investigator.\n2. Active suicidality (e.g., any suicide attempts within the past 12 months or any current suicidal intent, including a plan, as assessed by the C-SSRS, score of \"YES\" on questions 4 or 5; and/or based on clinical evaluation by the Investigator).\n3. Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) levels greater than 3 times the upper limit of normal (ULN).\n4. Significant renal impairment as determined by estimated glomerular filtration rate (eGFR) of \\<60 mL/min.\n5. Pre-existing chronic obstructive pulmonary disease or significant pulmonary impairment including those with an FEV1 ≤ 2 liters or \\< 75% predicted for height and age, in the judgement of the Investigator.\n6. Clinically significant history of cardiac function impairment including cardiac ejection fraction below 40%, ventricular wall motion abnormalities, or coronary artery disease.\n7. Any organ allografts.\n8. A positive tuberculosis (TB) test indicating a latent TB infection or a positive test for viral hepatitis.\n9. Currently receiving or have received abatacept treatment within 75 days prior to Screening.\n10. Currently receiving or have received interleukin-2 (IL-2) treatment within 30 days prior to Screening.\n11. Currently receiving or expected to receive immunosuppressant therapy (e.g., cyclosporine, sirolimus, tacrolimus, mycophenolate mofetil, systemic steroids) over the course of the study.\n12. Planning to receive a live vaccine during the study or within 3 months of discontinuation.\n13. Current participation in another interventional clinical trial and/or participation in any investigational medication or device clinical trial within 30 days prior to Screening or 5 half-lives of elimination of the investigational medication, whichever is longer.\n14. Previous participation in any COYA 302 (LD rhIL-2 and DRL\\_AB) study.\n15. Uncontrolled autoimmune condition.\n16. Presence of an indwelling central catheter.\n\nNOTE: Other protocol defined Inclusion/Exclusion criteria may apply.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Medical Director",
+          "role": "CONTACT",
+          "phone": "800-587-8170",
+          "email": "clinicaltrials@coyatherapeutics.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Barrow Neurological Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85013",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Noelle Lemme",
+              "role": "CONTACT",
+              "phone": "602-406-6262",
+              "email": "Fulton.research@commonspirit.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coordinator",
+              "role": "CONTACT",
+              "phone": "(310) 423-3277",
+              "email": "GroupneuromuscularResearch@cshs.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "California Pacific Medical Center",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Study Information",
+              "role": "CONTACT",
+              "phone": "(415) 463-0379",
+              "email": "clinicalresearch@sutterhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Nova Southeastern University",
+          "status": "RECRUITING",
+          "city": "Davie",
+          "state": "Florida",
+          "zip": "33314",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Donovan Mott Study Coordinator",
+              "role": "CONTACT",
+              "phone": "(954) 262-6387",
+              "email": "Donovan.Mott@nova.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.06287,
+            "lon": -80.2331
+          }
+        },
+        {
+          "facility": "University of Florida Clinical and Translational Research Center",
+          "status": "RECRUITING",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32610",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Steshyn",
+              "role": "CONTACT",
+              "phone": "(352) 733-2412",
+              "email": "Jennifer.steshyn@neurology.ufl.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        },
+        {
+          "facility": "University Of Miami",
+          "status": "RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jessica Hernandez",
+              "role": "CONTACT",
+              "phone": "(305)243-2345",
+              "email": "jph93@miami.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "University of South Florida",
+          "status": "RECRUITING",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33612",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jessica Shaw",
+              "role": "CONTACT",
+              "phone": "813-974-9413",
+              "email": "jessshaw@usf.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Emory University",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katherine Terrebonne",
+              "role": "CONTACT",
+              "phone": "(404)727-5193",
+              "email": "Katherine.cummings@emory.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Northwestern",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sanjana Malla",
+              "role": "CONTACT",
+              "phone": "312-503-4903",
+              "email": "Sanjana.malla@northwestern.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Johns Hopkins",
+          "status": "RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Delayna Willie",
+              "role": "CONTACT",
+              "phone": "410-614-1196",
+              "email": "dwillie2@jh.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sophie Cohen",
+              "role": "CONTACT",
+              "phone": "617-643-7828",
+              "email": "coya302healey@mgb.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Michigan",
+          "status": "RECRUITING",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jayna Duell & Alyssa Braun",
+              "role": "CONTACT",
+              "phone": "734-936-8775",
+              "email": "jkballar@med.umich.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Washington University",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Study Information-ALS Center Clinical Research",
+              "role": "CONTACT",
+              "phone": "(314) 362-6981",
+              "email": "als@wustl.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Neurology Associates, P.C. Somnos Clinical Research",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Lincoln",
+          "state": "Nebraska",
+          "zip": "68510",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.8,
+            "lon": -96.66696
+          }
+        },
+        {
+          "facility": "Columbia University Medical Center ALS Center",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "ALS Center",
+              "role": "CONTACT",
+              "phone": "877-426-5637",
+              "email": "alsresearch@cumc.columbia.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Thomas Jefferson University-Weinberg ALS Center",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Gemma Krautzel",
+              "role": "CONTACT",
+              "phone": "267-582-6061",
+              "email": "Gemma.krautzel@jefferson.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Temple Neurology",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19140",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kathleen Hatala",
+              "role": "CONTACT",
+              "email": "Kathleen.hatala@tuhs.temple.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Austin Neuromuscular Center; National Neuromuscular Research Institute, PLLC",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78759",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marisol Barrientos Garcia",
+              "role": "CONTACT",
+              "phone": "512-920-0140",
+              "phoneExt": "214",
+              "email": "marisol@austinneuromuscle.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Texas Neurology, PA",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75206",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Haley Rucker",
+              "role": "CONTACT",
+              "phone": "214-827-3610",
+              "email": "hrucker@texasneurology.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Houston Methodist Stanley H. Appel Department of Neurology",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Aramide Balogun",
+              "role": "CONTACT",
+              "phone": "713-441-6955",
+              "email": "abalogun@houstonmethodist.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "The University of Texas Health Science Center",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Randee Kent-Baron",
+              "role": "CONTACT",
+              "phone": "210.450.8454",
+              "email": "kentbaron@uthscsa.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "University of British Columbia",
+          "status": "RECRUITING",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V6T1Z3",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Study Information",
+              "role": "CONTACT",
+              "phone": "604-827-2311",
+              "email": "ALSRDClinicRes@vch.ca"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "London Health Sciences Center",
+          "status": "RECRUITING",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 3K7",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Study Coorinator",
+              "role": "CONTACT",
+              "phone": "519-661-2111",
+              "email": "denise.hulley@lhsc.on.ca"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "University of Toronto/Sunnybrook Health Sciences Center",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5S 3H2",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Caroline Giuricich",
+              "role": "CONTACT",
+              "phone": "416-480-6100",
+              "email": "alsresearch@sunnybrook.ca"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Hopital Neurologique de Montreal",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3A 2B4",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Kevin Munoz",
+              "role": "CONTACT",
+              "phone": "514-398-5262",
+              "email": "kevin.munoz@gengepartners.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069594",
+          "term": "Abatacept"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018796",
+          "term": "Immunoconjugates"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

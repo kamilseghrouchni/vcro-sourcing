@@ -1,0 +1,3710 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03456882",
+      "orgStudyIdInfo": {
+        "id": "RNS60"
+      },
+      "organization": {
+        "fullName": "Mario Negri Institute for Pharmacological Research",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of RNS60 on ALS Biomarkers",
+      "officialTitle": "The Effect of RNS60 on ALS Biomarkers",
+      "acronym": "RNS60"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-05-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-11-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-05-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-02-02",
+      "studyFirstSubmitQcDate": "2018-02-28",
+      "studyFirstPostDateStruct": {
+        "date": "2018-03-07",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2022-10-19",
+      "resultsFirstSubmitQcDate": "2023-04-20",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-04-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-04-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Mario Negri Institute for Pharmacological Research",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "ALS Association",
+          "class": "OTHER"
+        },
+        {
+          "name": "Get Out Onlus",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Amyotrophic Lateral Sclerosis (ALS) is a rare lethal neurodegenerative disease involving inflammation. Riluzole, the only drug for ALS, improves median survival by 3 months. This prompts new treatments of ALS. RNS60 is an experimental drug with favorable effects in preclinical studies of neuroinflammation and neurodegeneration. Based on significant efficacy demonstrated in preclinical studies and its excellent clinical safety profile, RNS60 is a promising candidate for a drug to treat ALS. Developing a pharmacodynamic marker will be a first and important step for dose finding and exploration of the mechanism of action in human, and pave the way to trials measuring drug efficacy.\n\nThe Investigator propose a multicenter, randomized, double-blind, placebo-controlled, parallel group, Phase II trial. The study centers will be located in Italy and at Massachusetts General Hospital (MGH) in Boston. A total of 142 ALS patients will be randomly assigned to RNS60 or placebo (administered by intravenous infusion once/week and inhaled via nebulization every morning for 24 weeks). All participants will also take riluzole (50-mg tablet twice/day). Blood samples for biomarker analysis (protein, RNA) will be collected in the screening period, on day 1, week 4,12 and 24. Both safety and potential therapeutic effects of RNS60 will be also assessed.",
+      "detailedDescription": "ALS is a rare neurodegenerative disease that affects motor neurons in the spinal cord, brainstem and motor cortex. The only drug showing to improve survival in patients with ALS is riluzole. However, the benefits of riluzole only consist in a three-month delay of death while disability and other outcome measures are virtually unaffected. This highlights the need to test novel approaches with documented activity on markers of disease mechanisms and, at the same time, able to slow the progression of the disease.\n\nThe major determinants of motor neuron death in ALS remain to be established. Emerging evidence points to an involvement of the adaptive immune response in disease progression. RNS60 is a novel agent with immunomodulatory properties. Adding to previous reports of anti-inflammatory and neuroprotective activities of RNS601,2,3,4, our group showed a protective effect of RNS60 on motor neurons in both in vitro and in vivo models of familial ALS carrying the SOD1G93A mutation (unpublished data). Therefore, RNS60 presents itself as a promising candidate for the treatment of ALS patients. Its exceptional safety profile, demonstrated both in preclinical toxicology studies and FDA-approved clinical phase I studies upon inhaled and IV administration, supports testing of RNS60 in clinical phase II studies in ALS.\n\nThe investigators have identified six candidate pharmacodynamic markers of RNS60 that have previously been associated with ALS: 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.\n\nThe investigators have measured and reported the effects on T-reg and IL172 in experimental allergic encephalitis. The investigators also have preliminary unpublished data on MCP1 in allergic asthma.\n\nThis background provides the sound rationale for a phase II, biomarker-driven, placebo-controlled, randomized clinical trial.\n\nPrimary Objective:\n\n1\\. To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.\n\nSecondary Objectives:\n\n1. The preliminary efficacy of RNS60 on functional disability, as measured by the ALSFRS-R scale;\n2. The preliminary efficacy of RNS60 in prolonging survival (or time to tracheostomy, whichever comes first);\n3. The preliminary efficacy of RNS60 in slowing the decline of forced vital capacity (FVC) from baseline;\n4. The tolerability and safety of RNS60 through the identification of unexpected adverse events;\n5. The impact of RNS60 on quality of life as measured by ALSAQ-40 scale.\n\nRNS60 has been tested in three Phase I safety studies in the USA (NCT01264783, NCT01057498, and NCT01511302), and a recently completed Phase IIa (NCT02422121) study in UK. Two additional investigator initiated Phase IIa trials are currently ongoing, one at Mass General Hospital (NCT02525471), and one at the University of Zurich (with University of Innsbruck as a second site). The choice of measuring both biological and clinical markers of disease in the same study reflects the attempt to accurately capture the complete clinical impact of RNS60 treatment. If both the biomarker results and clinical measures of the study support the purported efficacy of the drug, a follow-up study (or studies) will be designed to confirm the efficacy of RNS60 in a larger patient population. It is also possible that this study may result in promising biomarker findings but null clinical findings. If this were the case, more dose-finding work would be necessary before ruling out a possible clinical effect. Conversely, positive clinical findings accompanied by negative biomarker findings may necessitate the identification of new biomarkers of target engagement to further guide the drug development process."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis"
+      ],
+      "keywords": [
+        "AMYOTROPHIC LATERAL SCLEROSIS",
+        "RNS60",
+        "Biomarkers",
+        "clinical trial",
+        "therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multicenter, randomized, double-blind, placebo-controlled, parallel group, add-on phase II trial. ALS Patients who meet the study's inclusion/exclusion criteria and sign the Informed Consent Form will be enrolled. A total of 142 subjects will be randomly assigned to receive treatment with either RNS60 or placebo while concomitantly taking riluzole (50 mg tablet t.i.d.). RNS60 or placebo will be administered intravenously once a week as well as inhaled via nebulization every morning in the remaining six days of each week for 24 weeks. Blood samples for biomarker analysis will be collected on day 1, week 4, w12, and w24. Safety and preliminary efficacy will be assessed by way of physical exam, vital signs and AEs. Changes in disability and quality of life will be assessed using the ALSFRS-R scale, FVC and ALSAQ-40 scale. Each patient will be followed up for a maximum period of 48 weeks (24-week treatment + 24-week follow up) or until death or tracheostomy, whichever occurs first.",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Double blinde study.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 147,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "RNS60",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.",
+          "interventionNames": [
+            "Drug: RNS60"
+          ]
+        },
+        {
+          "label": "NORMAL SALINE",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).",
+          "interventionNames": [
+            "Drug: RNS60"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "RNS60",
+          "description": "normal saline plus oxigen in nanobubble",
+          "armGroupLabels": [
+            "NORMAL SALINE",
+            "RNS60"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pharmacodynamic Biomarkers: MCP-1 On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 0 - week 24)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: Cyp-A On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 0 - week 24)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: Actin-NT On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 0 - week 24)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: 3-NT On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 0 - week 24)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: IL-17 On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 0 - week 24)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: Nfl On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 0 - week 24)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: FOXP3 mRNA On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 0 - week 24)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: CD25 mRNA On-treatment Period Variation",
+          "description": "1\\. To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 0 - week 24)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "ALSFRS-R On-treatment and Off-treatment Variation",
+          "description": "\\*\\*ALSFRS-R = ALS Functional Rating Scale - Revised\\*\\* The mean change of ALSFRS-R (\\*\\*min score 0 corresponding to maximum functional impairment - max score 48 corresponding to no functional impairment; higher score = better outcome\\*\\*) over the on-treatment period and the off-treatment follow-up period. Measured at weeks 0, 4, 12, 24, 36, 48.",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)"
+        },
+        {
+          "measure": "Survival",
+          "description": "The cumulative survival probability at 4, 12, 24, 36 and 48 weeks in the two treatment arms.",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)"
+        },
+        {
+          "measure": "FVC% On-treatment and Off-treatment Variation",
+          "description": "The mean change of Forced Vital Capacity percent value (FVC%) over the on-treatment period and the off-treatment follow-up period. Measured at weeks 0, 4, 12, 24, 36, 48.",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)"
+        },
+        {
+          "measure": "AE Leading to Treatment Discontinuation",
+          "description": "The total number of subjects in the two treatment arms experiencing at least one adverse event (AE) leading to treatment discontinuation at 4, 12 and 24 weeks",
+          "timeFrame": "24 weeks on-treatment period"
+        },
+        {
+          "measure": "ALSAQ-40 Scale",
+          "description": "\\*\\*ALSAQ-40=ALS Assessment Questionnaire - 40 items\\*\\* The mean change of ALSAQ-40 over the on-treatment period and the off-treatment follow-up period. Measured at weeks 0, 24, 48. The ALSAQ-40 is a 40-item questionnaire measuring health status and health related quality of life in ALS patients. It is divided in 5 domains: the physical mobility (it addresses problems of mobility); the ADL (activities of daily living) and independence (it addresses a variety of limitations in ADL); the eating and drinking (it adresses problems eating solid foods, swallowing and drinking liquids); the communication (it addresses a variety of problems in communicating with others); the emotional reactions (it addresses various emotional problems).\n\n\\*\\*\n\nFor each domain the score has the following range:\n\nMin score =0 corresponding to the better condition - max score =100 corresponding to the worse condition. (A higher score corresponds to a better outcome )\n\n\\*\\*",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: MCP-1 Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 24 - week 48)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: Cyp-A Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 24 - week 48)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: Actin-NT Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 24 - week 48)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: 3-NT Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 24 - week 48)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: IL-17 Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 24 - week 48)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: FOXP3 mRNA Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 24 - week 48)"
+        },
+        {
+          "measure": "Pharmacodynamic Biomarkers: CD25 mRNA Off-treatment Period Variation",
+          "description": "1\\. To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "timeFrame": "24 weeks (week 24 - week 48)"
+        },
+        {
+          "measure": "Mean Number of AE",
+          "description": "The mean number of AEs per treatment arm at 4, 12, 24 and 48 weeks",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18 through 80 years inclusive;\n2. Geographically accessible to the site and able to come to the site once a week for 24 weeks;\n3. Definite, probable, probable laboratory supported ALS diagnosis according to the revised El Escorial criteria; 4) Disease duration 6 to 24 months from symptom onset;\n\n5\\) Self sufficiency: Satisfactory bulbar and spinal function (score 3+ on the ALSFRS-R for swallowing, cutting food and handling utensils, and walking); 6) Satisfactory respiratory function (FVC ≥80% of predicted); 7) Documented progression of symptoms in the last three months, as measured by the ALSFRS-R scale; 8) Ability to understand and comply with the study requirements and to give written informed consent personally or via a legally authorized representative; 9) Treatment with riluzole 50 mg twice/day for at least 1 month prior to screening visit.\n\nSelf sufficiency: this term reflect independence in daily living activities. It is an intuitive parameter to indicate preservation of key functional activities, and - not least - it has shown to be a valid and reliable measure\n\nExclusion Criteria:\n\n1. History of HIV, clinically significant chronic hepatitis, antecedent polio infection, or other active infection;\n2. Motor neuron disease (MND) other than ALS;\n3. Involvement of systems other than motor possibly determining a functional impairment (as measured by the end-points) for the entire duration of the study;\n4. Other severe clinical conditions (e.g., cardiovascular disorders, neoplasms) with impact on survival or functional disability in the next 12 months;\n5. Renal insufficiency as defined by a serum creatinine \\> 1.5 times the upper limit of normal;\n6. Poor compliance with previous treatments;\n7. Other experimental treatments in the preceding 3 months;\n8. Women who are lactating or able to become pregnant (e.g. who are not post menopausal, surgically sterile, or using inadequate birth control) and men unable to practice contraception for the duration of the treatment and 3 months after its completion;\n9. Unwillingness or inability to take riluzole; 10) Poor capability to use an inhalation device;\n10. Abnormal liver function defined as AST and/or ALT \\> 3 times the upper limit of the normal.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ettore Beghi, MD",
+          "affiliation": "IRCCS Istituto di ricerche farmacologiche Mario Negri di Milano",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Azienda Opsedaliera Universitaria Consorziale Policlinico- Università degli studi di Bari",
+          "city": "Bari",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.12066,
+            "lon": 16.86982
+          }
+        },
+        {
+          "facility": "Spedali civili di Brescia",
+          "city": "Brescia",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "IRCCS Azienda Ospedaliera Universitaria San Martino IST",
+          "city": "Genova",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera Universitaria POLICLINICO \"G. MARTINO\"",
+          "city": "Messina",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.19394,
+            "lon": 15.55256
+          }
+        },
+        {
+          "facility": "Ospedale San Raffaele",
+          "city": "Miano",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.88816,
+            "lon": 14.25339
+          }
+        },
+        {
+          "facility": "Centro Clinico NEMO - Fondazione Serena Onlus",
+          "city": "Milan",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Presidio Ospedaliero Provinciale - Nuovo Ospedale Civile \"S. Agostino Estense\"",
+          "city": "Modena",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.64783,
+            "lon": 10.92539
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera Universitaria della Seconda Univ. Degli Studi di Napoli (AOU-SUN)",
+          "city": "Naples",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero Universitaria Maggiore della Carità",
+          "city": "Novara",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.44694,
+            "lon": 8.62118
+          }
+        },
+        {
+          "facility": "Ospedale San Francesco ASSL Nuoro",
+          "city": "Nuoro",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.31991,
+            "lon": 9.32568
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera di Padova-Università degli studi di Padova",
+          "city": "Padova",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.38225,
+            "lon": 11.14261
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera Universitaria Policlinico \"P Giaccone\"",
+          "city": "Palermo",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Istituto Neurologico Nazionale \"C. Mondino\"",
+          "city": "Pavia",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.19205,
+            "lon": 9.15917
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero-Universitaria Pisana,",
+          "city": "Pisa",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero-Universitaria Pisana",
+          "city": "Pisa",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          }
+        },
+        {
+          "facility": "Centro Clinico Nemo- Policlinico Gemelli",
+          "city": "Roma",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "POLICLINICO UMBERTO I - Università di Roma \"La Sapienza\"",
+          "city": "Roma",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "IRCCS Casa sollievo della Sofferenza",
+          "city": "San Giovanni Rotondo",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.70643,
+            "lon": 15.7277
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera Universitaria Senese (AOUS)",
+          "city": "Siena",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera \"Santa Maria\" di Terni",
+          "city": "Terni",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.56335,
+            "lon": 12.64329
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero-Universitaria Città della Salute e della Scienza di Torino.",
+          "city": "Torino",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.88856,
+            "lon": 11.99138
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera \"Card. G. Panico\"",
+          "city": "Tricase",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 39.93018,
+            "lon": 18.35421
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39182589",
+          "type": "DERIVED",
+          "citation": "Pupillo E, Bianchi E, Bonetto V, Pasetto L, Bendotti C, Paganoni S, Mandrioli J, Mazzini L; RNS60-ALS Study Group. Long-term survival of participants in a phase II randomized trial of RNS60 in amyotrophic lateral sclerosis. Brain Behav Immun. 2024 Nov;122:456-462. doi: 10.1016/j.bbi.2024.08.044. Epub 2024 Aug 28."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "We enrolled 5 patients more than what was planned in the protocol.",
+      "recruitmentDetails": "Trial participants were enrolled at 22 Italian Expert ALS Centers from May 2017 to January 2020",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "RNS60",
+          "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+        },
+        {
+          "id": "FG001",
+          "title": "NORMAL SALINE",
+          "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "74"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "73"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "60"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "50"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "23"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "RNS60",
+          "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+        },
+        {
+          "id": "BG001",
+          "title": "NORMAL SALINE",
+          "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "74"
+            },
+            {
+              "groupId": "BG001",
+              "value": "73"
+            },
+            {
+              "groupId": "BG002",
+              "value": "147"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "59.3",
+                      "spread": "10.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "56.0",
+                      "spread": "10.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "57.7",
+                      "spread": "10.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "48"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "99"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "73"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "147"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Italy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "73"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "147"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Pharmacodynamic Biomarkers: MCP-1 On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 0 - week 24)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.6",
+                      "spread": "1.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.2",
+                      "spread": "1.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Global test of treatment\\*time interaction effect. Null hypothesis: the change over time is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.6346",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 24 - baseline) within treatment groups. Null hypothesis: the change from baseline to week 24 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3585",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "2.4",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "2.6",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pharmacodynamic Biomarkers: Cyp-A On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 0 - week 24)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.6",
+                      "spread": "14.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.9",
+                      "spread": "14.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Global test of treatment\\*time interaction effect. Null hypothesis: the change over time is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.4388",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 24 - baseline) within treatment groups. Null hypothesis: the change from baseline to week 24 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.9887",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "-0.3",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "20.2",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pharmacodynamic Biomarkers: Actin-NT On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 0 - week 24)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.4",
+                      "spread": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.9",
+                      "spread": "10.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Global test of treatment\\*time interaction effect. Null hypothesis: the change over time is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.9622",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 24 - baseline) within treatment groups. Null hypothesis: the change from baseline to week 24 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.6533",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "6.5",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "14.3",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pharmacodynamic Biomarkers: 3-NT On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 0 - week 24)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.3",
+                      "spread": "13.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.4",
+                      "spread": "14.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Global test of treatment\\*time interaction effect. Null hypothesis: the change over time is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.9137",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 24 - baseline) within treatment groups. Null hypothesis: the change from baseline to week 24 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3985",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "16.7",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "19.7",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pharmacodynamic Biomarkers: IL-17 On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 0 - week 24)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.12",
+                      "spread": "0.15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.39",
+                      "spread": "0.15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Global test of treatment\\*time interaction effect. Null hypothesis: the change over time is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.2543",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 24 - baseline) within treatment groups. Null hypothesis: the change from baseline to week 24 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.2209",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "-0.27",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.22",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pharmacodynamic Biomarkers: Nfl On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 0 - week 24)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.7",
+                      "spread": "2.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.6",
+                      "spread": "2.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Global test of treatment\\*time interaction effect. Null hypothesis: the change over time is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.2738",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 24 - baseline) within treatment groups. Null hypothesis: the change from baseline to week 24 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.4239",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "-2.9",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "3.7",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pharmacodynamic Biomarkers: FOXP3 mRNA On-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 0 - week 24)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.14",
+                      "spread": "0.18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.20",
+                      "spread": "0.18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Global test of treatment\\*time interaction effect. Null hypothesis: the change over time is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.1708",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 24 - baseline) within treatment groups. Null hypothesis: the change from baseline to week 24 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.8133",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "0.06",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.25",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pharmacodynamic Biomarkers: CD25 mRNA On-treatment Period Variation",
+          "description": "1\\. To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 0 - week 24)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.01",
+                      "spread": "0.08"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.10",
+                      "spread": "0.09"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Global test of treatment\\*time interaction effect. Null hypothesis: the change over time is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.5239",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 24 - baseline) within treatment groups. Null hypothesis: the change from baseline to week 24 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.4401",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "0.09",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.12",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "ALSFRS-R On-treatment and Off-treatment Variation",
+          "description": "\\*\\*ALSFRS-R = ALS Functional Rating Scale - Revised\\*\\* The mean change of ALSFRS-R (\\*\\*min score 0 corresponding to maximum functional impairment - max score 48 corresponding to no functional impairment; higher score = better outcome\\*\\*) over the on-treatment period and the off-treatment follow-up period. Measured at weeks 0, 4, 12, 24, 36, 48.",
+          "populationDescription": "Intention to Treat population (all randomized subjects)",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "Score on a scale per week",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Slope on-treatment period (change per week from baseline to week 24)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.26",
+                      "spread": "0.03"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.28",
+                      "spread": "0.03"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Slope off-treatment follow-up period (change per week from week 24 to week 48)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.26",
+                      "spread": "0.03"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.24",
+                      "spread": "0.03"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast of the slopes during the on-treatment period (change per week, from baseline to week 24) between treatment groups. Null hypothesis: the rate of change from baseline to week 24 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.5725",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "0.02",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.04"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast of the slopes during the off-treatment follow-up period (change per week, from week 24 to week 48) between treatment groups. Null hypothesis: the rate of change from week 24 to week 48 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.5728",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "-0.02",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.04",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Survival",
+          "description": "The cumulative survival probability at 4, 12, 24, 36 and 48 weeks in the two treatment arms.",
+          "populationDescription": "Intention to Treat population (all randomized subjects)",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 36",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 48",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Null hypothesis: the survival curves over the on-treatment and the off-treatment follow-up period are not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.9212",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "FVC% On-treatment and Off-treatment Variation",
+          "description": "The mean change of Forced Vital Capacity percent value (FVC%) over the on-treatment period and the off-treatment follow-up period. Measured at weeks 0, 4, 12, 24, 36, 48.",
+          "populationDescription": "Intention to Treat population (all randomized subjects)",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "percent predicted/weeks",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Slope on-treatment period (change per week from baseline to week 24)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.46",
+                      "spread": "0.11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.87",
+                      "spread": "0.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Slope off-treatment follow-up period (change per week from week 24 to week 48)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.45",
+                      "spread": "0.11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.54",
+                      "spread": "0.13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast of the slopes during the on-treatment period (change per week, from baseline to week 24) between treatment groups. Null hypothesis: the rate of change from baseline to week 24 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0101",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "0.41",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.16",
+              "estimateComment": "RNS60 vs. Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast of the slopes during the off-treatment follow-up period (change per week, from week 24 to week 48) between treatment groups. Null hypothesis: the rate of change from week 24 to week 48 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.5924",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "0.09",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.18",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "AE Leading to Treatment Discontinuation",
+          "description": "The total number of subjects in the two treatment arms experiencing at least one adverse event (AE) leading to treatment discontinuation at 4, 12 and 24 weeks",
+          "populationDescription": "Intention to Treat population (all randomized subjects)",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 weeks on-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "AE treatment discontinuation 4 weeks. Null hypothesis: the percentage of patients experiencing at least one adverse event leading to treatment discontinuation within 4 weeks is not different between groups",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.9598",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Fisher Exact"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "AE treatment discontinuation 12 weeks. Null hypothesis: the percentage of patients experiencing at least one adverse event leading to treatment discontinuation within 12 weeks is not different between groups",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.9390",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Fisher Exact"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "AE treatment discontinuation 24 weeks. Null hypothesis: the percentage of patients experiencing at least one adverse event leading to treatment discontinuation within 24 weeks is not different between groups",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3442",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Fisher Exact"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "ALSAQ-40 Scale",
+          "description": "\\*\\*ALSAQ-40=ALS Assessment Questionnaire - 40 items\\*\\* The mean change of ALSAQ-40 over the on-treatment period and the off-treatment follow-up period. Measured at weeks 0, 24, 48. The ALSAQ-40 is a 40-item questionnaire measuring health status and health related quality of life in ALS patients. It is divided in 5 domains: the physical mobility (it addresses problems of mobility); the ADL (activities of daily living) and independence (it addresses a variety of limitations in ADL); the eating and drinking (it adresses problems eating solid foods, swallowing and drinking liquids); the communication (it addresses a variety of problems in communicating with others); the emotional reactions (it addresses various emotional problems).\n\n\\*\\*\n\nFor each domain the score has the following range:\n\nMin score =0 corresponding to the better condition - max score =100 corresponding to the worse condition. (A higher score corresponds to a better outcome )\n\n\\*\\*",
+          "populationDescription": "Intention to Treat population (all randomized subjects)",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "Score on a scale per week",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "ALSAQ-40 physical mobility domain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.45",
+                      "spread": "0.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.58",
+                      "spread": "0.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ADL and independence domain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.47",
+                      "spread": "0.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.59",
+                      "spread": "0.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "eating and drinking domain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.19",
+                      "spread": "0.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.38",
+                      "spread": "0.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "communication domain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.29",
+                      "spread": "0.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.33",
+                      "spread": "0.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "emotional reactions domain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.18",
+                      "spread": "0.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.25",
+                      "spread": "0.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "ALSAQ-40 physical mobility. Contrast of the slopes during the on-treatment and off-treatment follow-up period (change per week, from baseline to week 48) between treatment groups. Null hypothesis: the rate of change from baseline to week 48 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.1503",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "-0.13",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.1",
+              "estimateComment": "RNS60 vs. Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "ALSAQ-40 ADL and independence.Contrast of the slopes during the on-treatment and off-treatment follow-up period (change per week, from baseline to week 48) between treatment groups. Null hypothesis: the rate of change from baseline to week 48 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.1556",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "-0.12",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.1",
+              "estimateComment": "RNS60 vs. Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "ALSAQ-40 eating and drinking. Contrast of the slopes during the on-treatment and off-treatment follow-up period (change per week, from baseline to week 48) between treatment groups. Null hypothesis: the rate of change from baseline to week 48 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0319",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "-0.19",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.1",
+              "estimateComment": "RNS60 vs. Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "ALSAQ-40 communication. Contrast of the slopes during the on-treatment and off-treatment follow-up period (change per week, from baseline to week 48) between treatment groups. Null hypothesis: the rate of change from baseline to week 48 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.6419",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "-0.04",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.1",
+              "estimateComment": "RNS60 vs. Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "ALSAQ-40 emotional reactions. Contrast of the slopes during the on-treatment and off-treatment follow-up period (change per week, from baseline to week 48) between treatment groups. Null hypothesis: the rate of change from baseline to week 48 is not different between groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3951",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Linear mixed model with random intercept,slope,unstructured variance covariance matrix.Independent variables:time,treatment,treatment\\*time interaction",
+              "paramType": "difference between mean slopes",
+              "paramValue": "0.07",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.1",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacodynamic Biomarkers: MCP-1 Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.1",
+                      "spread": "2.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.2",
+                      "spread": "3.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 48 - week 24) within treatment groups. Null hypothesis: the change from week 24 to week 48 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.9563",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "-0.2",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "3.8",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacodynamic Biomarkers: Cyp-A Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.0",
+                      "spread": "16.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-12.5",
+                      "spread": "16.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 48 - week 24) within treatment groups. Null hypothesis: the change from week 24 to week 48 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.2253",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "28.5",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "23.4",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacodynamic Biomarkers: Actin-NT Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.8",
+                      "spread": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.9",
+                      "spread": "11.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 48 - week 24) within treatment groups. Null hypothesis: the change from week 24 to week 48 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.6263",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "-7.7",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "15.7",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacodynamic Biomarkers: 3-NT Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-26.3",
+                      "spread": "14.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-7.3",
+                      "spread": "15.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 48 - week 24) within treatment groups. Null hypothesis: the change from week 24 to week 48 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3671",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-19.0",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "21.0",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacodynamic Biomarkers: IL-17 Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.15",
+                      "spread": "0.15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.11",
+                      "spread": "0.16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 48 - week 24) within treatment groups. Null hypothesis: the change from week 24 to week 48 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.845",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "-0.04",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.22",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacodynamic Biomarkers: FOXP3 mRNA Off-treatment Period Variation",
+          "description": "To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.55",
+                      "spread": "0.22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.15",
+                      "spread": "0.23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 48 - week 24) within treatment groups. Null hypothesis: the change from week 24 to week 48 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.2161",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction.",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "-0.40",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.32",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacodynamic Biomarkers: CD25 mRNA Off-treatment Period Variation",
+          "description": "1\\. To measure the effect of RNS60 treatment on selected pharmacodynamic biomarkers in ALS patients concurrently treated with riluzole. Candidate markers include 1. T-reg (measured via FOXP3 and CD25 mRNA); 2. Cyp-A; 3. 3-NT; 4. Actin-NT; 5. MCP-1; 6. IL-17.",
+          "populationDescription": "Mean change of plasma levels of Monocyte Chemoattractant Protein-1 (MCP-1) during the on-treatment period (from baseline to week 24). Measured at weeks 0, 4, 12, 24.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "pg/ml",
+          "timeFrame": "24 weeks (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.21",
+                      "spread": "0.11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.11",
+                      "spread": "0.11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Contrast between treatment groups of the differences (week 48 - week 24) within treatment groups. Null hypothesis: the change from week 24 to week 48 is not different between treatment groups.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.4962",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "repeated measures ANOVA",
+              "statisticalComment": "Repeated measures ANOVA with unstructured variance covariance matrix. Independent variables: time, treatment and treatment\\*time interaction",
+              "paramType": "Mean Difference (Net)",
+              "paramValue": "0.1",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.15",
+              "estimateComment": "RNS60 vs. Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mean Number of AE",
+          "description": "The mean number of AEs per treatment arm at 4, 12, 24 and 48 weeks",
+          "populationDescription": "Intention to Treat population (all randomized subjects)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Adverse events",
+          "timeFrame": "24 weeks on-treatment period (week 0 - week 24) + 24 weeks off-treatment follow-up period (week 24 - week 48)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RNS60",
+              "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble"
+            },
+            {
+              "id": "OG001",
+              "title": "NORMAL SALINE",
+              "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "73"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.4",
+                      "spread": "0.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.5",
+                      "spread": "1.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1",
+                      "spread": "1.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.2",
+                      "spread": "2.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.7",
+                      "spread": "2.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2",
+                      "spread": "3.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "week 48",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.9",
+                      "spread": "2.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.1",
+                      "spread": "3.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Mean AE treatment discontinuation 4 weeks. Null hypothesis: the number of adverse events occurred within 4 weeks is not different between groups",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.8738",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Mean AE treatment discontinuation 12 weeks. Null hypothesis: the number of adverse events occurred within 12 weeks is not different between groups",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.7556",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Mean AE treatment discontinuation 24 weeks. Null hypothesis: the number of adverse events occurred within 24 weeks is not different between groups",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.6477",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Mean AE treatment discontinuation 48 weeks. Null hypothesis: the number of adverse events occurred within 48 weeks is not different between groups",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.6084",
+              "pValueComment": "Significance level set to 0.05",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "24 weeks on-treatment period + 24 weeks off-treatment follow-up period",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "RNS60",
+          "description": "RNS60 for injection, i.e. in the IV bags, is produced using 0.9% Sodium Chloride for injection. RNS60 for inhalation, i.e. in the syringes, is produced using 0.9% Sodium Chloride for irrigation. Syringes and IV bags are to remain refrigerated at 2 to 8°C (36 to 46°F) when not in use. RNS60 meets its stability specification for 12 months.\n\nRNS60: normal saline plus oxigen in nanobubble",
+          "deathsNumAffected": 7,
+          "deathsNumAtRisk": 74,
+          "seriousNumAffected": 5,
+          "seriousNumAtRisk": 74,
+          "otherNumAffected": 44,
+          "otherNumAtRisk": 74
+        },
+        {
+          "id": "EG001",
+          "title": "NORMAL SALINE",
+          "description": "Normal saline (NS) for injection, i.e. in the IV bags, is packaged 0.9% Sodium Chloride for injection. NS for inhalation, i.e. in the syringes, is packaged 0.9% Sodium Chloride for irrigation. NS does not require refrigerated storage for use. However, for blinding purposes refrigeration is required before distributing to subjects. NS meets stability specifications for 24 months.\n\nRNS60 has been tested in three Phase I safety studies, NCT01264783, NCT01057498, and NCT01511302 in the USA, and a Phase IIa (NCT02422121) study in UK without any safety concern. Two other Investigator initiated Phase IIa trials are currently ongoing, one in Mass General Hospital (NCT02525471), and one in the University of Zurich (with University of Innsbruck as a second site).\n\nRNS60: normal saline plus oxigen in nanobubble",
+          "deathsNumAffected": 6,
+          "deathsNumAtRisk": 73,
+          "seriousNumAffected": 5,
+          "seriousNumAtRisk": 73,
+          "otherNumAffected": 48,
+          "otherNumAtRisk": 73
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "BRONCHIAL OBSTRUCTION",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "BRONCHOPNEUMONIA",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "CHOLECYSTITIS",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "FALL",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "FRACTURE",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "HEART ATTACK",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "HYPERTENSION",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "PANCREATITIS",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "PNEUMONIA",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "RESPIRATORY INFECTION",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "SYNCOPE",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 73
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "ABDOMINAL COLIC",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 8,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "ACHALASIA EVENT",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "BRONCHITIS",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "CHILLS",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "DERMATITIS",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 8,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "DIARREHA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "FALL",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 6,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "FLU",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 11,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 11,
+              "numAffected": 11,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "FRACTURE",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 6,
+              "numAffected": 6,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "HEADACHE",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 11,
+              "numAffected": 11,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "HEMATOMA",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "HYPERTENSION",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "JOINT PAIN",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "LUMBOSCIATALGIA",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "MALAISE",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 6,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "NASAL CONGESTION",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "NAUSEA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 73
+            }
+          ]
+        },
+        {
+          "term": "TEMPERATURE",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 73
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was limited by the COVID-19 outbreak that started in Italy in February 2020. The pandemic caused restrictions in terms of participant access to trial sites and limitations in the performance of respiratory function tests. This context led to missing visits and missing data.\n\nAlso, the drug administration route that required weekly visits to the participating center, with significant discomfort for disabled patients."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Elisabetta Pupillo",
+        "organization": "Istituto di Ricerche Farmacologiche Mario Negri IRCCS",
+        "email": "elisabetta.pupillo@marionegri.it",
+        "phone": "+390239014605"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2018-11-12",
+          "uploadDate": "2022-10-19T18:42",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 862330
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2023-03-29",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000627108",
+          "term": "RNS60"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

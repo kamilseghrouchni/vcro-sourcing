@@ -1,0 +1,249 @@
+{
+  "pmid": "40789849",
+  "pmc": "PMC12339932",
+  "doi": "10.1038/s41467-025-62463-w",
+  "title": "European and African ancestry-specific plasma protein-QTL and metabolite-QTL analyses identify ancestry-specific T2D effector proteins and metabolites",
+  "journal": "Nature Communications",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Yang Chengran",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Gorijala Priyanka",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Timsina Jigyasha",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Wang Lihua",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Liu Menghan",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Wang Ciyang",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Brock William",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Wang Yueyao",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Urano Fumihiko",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Division of Endocrinology, Metabolism, and Lipid Research, Washington University School of Medicine, MSC 8127-0021-09, St. Louis, USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Pathology and Immunology, Washington University School of Medicine, St. Louis, USA"
+      ]
+    },
+    {
+      "name": "Sung Yun Ju",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Division of Biostatistics, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Cruchaga Carlos",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002NeuroGenomics and Informatics Center, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Hope Center for Neurological Disorders, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Charles F. and Joanne Knight Alzheimer Disease Research Center, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Genomics",
+    "Diabetes"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data availabilityThe summary statistics of all four EUR and AFR protein and metabolite QTLs generated in this study have been deposited in the National Institute on Aging Genetics of Alzheimer’s Disease Data Storage Site (NIAGADS) with accession NG00180 (https://dss.niagads.org/datasets/) and GWAS catalog (https://www.ebi.ac.uk/gwas/). The NIAGADS team is processing the uploaded files as of 30 MAY 2025. The accession numbers for the GWAS catalog are from GCST90607080 to GCST90623789. The four datasets also are available in the BOX folders listed below: EUR-pQTL: (https://wustl.box.com/s/a009fncyeykdsyslnci0npa1q2z4vk4d), AFR-pQTL: (https://wustl.box.com/s/sn43u2254qx77h4ekwge073ipmi949fy); EUR-mQTL: (https://wustl.box.com/s/k0pdz3akrwc2nl9fo05i0ng9qs84yspr); AFR-mQTL: (https://wustl.box.com/s/vyxnyduanon1xf8arevk5y4hp8jazl53) The PheWeb browser for visualizing and downloading all plasma omics QTL results is at (https://ontime.wustl.edu/). Plasma proteomics and metabolomics data for the Knight ADRC participants is available at the Knight ADRC at: (https://live-knightadrc-washu.pantheonsite.io/professionals-clinicians/request-center-resources/). Requests for clinical or proteomic/metabolomic data from individual investigators will be reviewed to ensure compliance with patient confidentiality. Please see knightadrc.wustl.edu for details on accessing available data and study protocols. The Genotype data for all the Knight ADRC participants is available at the NIAGADS at (https://dss.niagads.org/datasets/ng00127/).",
+  "license": "",
+  "received": "2024-03-22",
+  "accepted": "2025-07-19",
+  "reference_pmids": [
+    "30901543",
+    "30901543",
+    "31915397",
+    "31915397",
+    "33568819",
+    "33568819",
+    "36777996",
+    "36777996",
+    "35551307",
+    "35551307",
+    "32541925",
+    "32541925",
+    "38374256",
+    "24830394",
+    "24830394",
+    "34587156",
+    "34587156",
+    "26258848",
+    "26258848",
+    "26854917",
+    "26854917",
+    "26432245",
+    "26432245",
+    "21165148",
+    "21165148",
+    "19624122",
+    "19624122",
+    "35870639",
+    "35870639",
+    "37794186",
+    "34239129",
+    "34239129",
+    "26395773",
+    "26395773",
+    "34857953",
+    "33414548",
+    "33414548",
+    "35347128",
+    "35347128",
+    "36635386",
+    "35120996",
+    "35120996",
+    "32504056",
+    "32504056",
+    "30478440",
+    "30478440",
+    "36829244",
+    "36829244",
+    "35501419",
+    "36608684",
+    "36608684",
+    "29632380",
+    "29632380",
+    "29126136",
+    "29126136",
+    "35202437",
+    "35202437",
+    "28411170",
+    "28411170",
+    "15458395",
+    "15458395",
+    "38057571",
+    "38057571",
+    "33571421",
+    "36504281",
+    "39528825",
+    "31959995",
+    "33406325",
+    "33406325",
+    "36119389",
+    "36119389",
+    "25722852",
+    "25722852",
+    "27268795",
+    "27268795",
+    "35504290",
+    "33707775",
+    "33707775",
+    "28575171",
+    "28575171",
+    "24930139",
+    "24930139",
+    "33734315",
+    "33734315",
+    "34009297",
+    "33662620",
+    "33662620",
+    "27457963",
+    "27457963",
+    "24990607",
+    "24990607",
+    "37220626",
+    "35853082",
+    "35853082",
+    "34557778",
+    "34557778",
+    "40789849"
+  ],
+  "tables_count": 0,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "genetic architecture of the plasma proteome in participants of african and european ancestry",
+    "genetic architecture of the plasma metabolome in participants of african and european ancestry",
+    "ancestry-specific pqtls and mqtls",
+    "identification of the t2d effector proteins and metabolites in an ancestry-matched manner via intact",
+    "implications of proteins and metabolites underlying the risk of ancestry-matched t2d",
+    "discussion",
+    "methods",
+    "ethics declarations",
+    "cohort information",
+    "proteomics data qc",
+    "metabolomics data qc",
+    "genotype qc, imputation, and ancestral group stratification",
+    "identification of pqtls",
+    "identification of mqtls",
+    "filtering the inflation features",
+    "annotation of the xqtls",
+    "replication of xqtls with external studies",
+    "pathway enrichment of metabolites with mqtls",
+    "definition of ld block and pleiotropy",
+    "identification of ancestry-specific qtls",
+    "power analysis of ancestry-specific qtls",
+    "cross-reference of the ancestry-specific xqtls with external studies",
+    "t2d risk gwas",
+    "intact procedure of proteins/metabolites on t2d",
+    "pwas weight calculation",
+    "pwas association test with t2d",
+    "mwas weight calculation",
+    "mwas association test with t2d",
+    "colocalization of molecular traits (proteins/metabolites) and t2d",
+    "identification of ancestry-specific t2d effector findings",
+    "cross-reference on the effector genes of proteins/metabolites on t2d",
+    "cross-reference on the effector proteins or metabolites themselves on t2d",
+    "pathway enrichment of proteins and metabolites implicated in t2d",
+    "cell-type specificity analysis of the proteins/metabolites on t2d",
+    "druggable target query of the proteins/metabolites implicated in t2d",
+    "pheweb browser for interactively visualizing qtl datasets",
+    "reporting summary",
+    "supplementary information",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 16578,
+  "converted_at": "2026-04-06T22:37:17.890211+00:00"
+}

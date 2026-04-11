@@ -1,0 +1,280 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03912987",
+      "orgStudyIdInfo": {
+        "id": "20180908"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U01NS107027",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U01NS107027"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Miami",
+        "class": "OTHER"
+      },
+      "briefTitle": "TRIAL READY (Clinical Trial Readiness)",
+      "officialTitle": "TRIAL READY (Clinical Trial Readiness)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-01-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-02-27",
+      "studyFirstSubmitQcDate": "2019-04-10",
+      "studyFirstPostDateStruct": {
+        "date": "2019-04-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Michael Benatar",
+        "investigatorTitle": "Chief, Neuromuscular Division",
+        "investigatorAffiliation": "University of Miami"
+      },
+      "leadSponsor": {
+        "name": "University of Miami",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Institute of Neurological Disorders and Stroke (NINDS)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study, being conducted under the auspice of the CReATe Consortium, will enroll patients with ALS and related disorders as well as healthy controls, with the goal of facilitating clinical validation of leading biological-fluid based biomarker candidates that may aid therapy development for patients with ALS and related disorders.",
+      "detailedDescription": "This multi-center study aims to clinically validate leading biological-fluid-based biomarker candidates as potential prognostic and pharmacodynamic biomarkers that have the potential to facilitate therapy development for patients with ALS and related disorders. Biomarker candidates that will be considered include: urinary p75 neurotrophin receptor extracellular domain (p75ECD), blood and cerebrospinal fluid (CSF) phosphorylated neurofilament heavy (pNfH), blood and CSF neurofilament light (NfL) and, in the population with a C9orf72 hexanucleotide repeat expansion, peripheral blood mononuclear cell (PBMC) and CSF levels of the dipeptide repeat protein poly(GP). In pursuit of these goals, the CReATe Consortium is already collecting longitudinal biological samples from patients with ALS and related disorders through the ongoing Phenotype-Genotype-Biomarker (PGB) study. TRIAL READY aims to identify additional patients with the C9orf72 hexanucleotide repeat expansion mutation (HREM), the most common genetic cause of ALS, who may be further followed through the PGB study. This study will also enroll and longitudinally evaluate a cohort of age- and gender-match healthy controls."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis",
+        "Frontotemporal Dementia",
+        "ALS-Frontotemporal Dementia",
+        "Primary Lateral Sclerosis",
+        "Progressive Muscular Atrophy"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "DNA, serum, plasma, buffy coat, urine and CSF"
+      },
+      "enrollmentInfo": {
+        "count": 610,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Affected",
+          "description": "Affected with ALS or a related disorder, including ALS-FTD, FTD, PLS, and PMA."
+        },
+        {
+          "label": "Healthy Controls",
+          "description": "Those never diagnosed with and not at particular risk for developing ALS or a related disorder."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Longitudinal trajectories (and variability) of leading biological-fluid biomarker candidates.",
+          "description": "In a population of patients with ALS and related disorders who would meet typical clinical trial eligibility, this study aims to define the natural history (and variability) of urinary neurotrophin receptor extracellular domain (p75ECD); blood and cerebrospinal fluid (CSF) neurofilament light (NfL) and phosphorylated neurofilament heavy (pNfH); and among patients with the C9orf72 hexanucleotide repeat expansion mutation (HREM), CSF and peripheral blood mononuclear cell (PBMC) poly(GP).",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Prognostic utility of leading biological-fluid biomarker candidates.",
+          "description": "In a population of patients with ALS and related disorders who would meet typical clinical trial eligibility, quantify the prognostic value that baseline biomarker levels add to readily available clinical factors that are known to predict prognosis.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Member of at least one of the following categories:\n\n  1. Individuals with a clinical diagnosis of ALS or a related disorder, including FTD, ALS-FTD, PLS, and PMA.\n  2. Individuals never diagnosed with and not at particular risk of developing ALS or a related disorder.\n* Able and willing to comply with relevant procedures.\n\nExclusion Criteria:\n\n* A condition or situation which, in the PI's opinion, could confound the study finding or may interfere significantly with the individual's participation and compliance with the study protocol. This includes (but is not limited to) neurological, psychological and/or medical conditions.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with ALS or a related neurodegenerative disorder, including FTD, ALS-FTD, PLS and PMA. Individuals never diagnosed with and not at particular risk of developing ALS or a related disorder.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Michael Benatar",
+          "affiliation": "University of Miami",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Miami",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "University of Kansas",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "D057180",
+          "term": "Frontotemporal Dementia"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D009134",
+          "term": "Muscular Atrophy, Spinal"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D057174",
+          "term": "Frontotemporal Lobar Degeneration"
+        },
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

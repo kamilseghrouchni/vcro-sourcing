@@ -1,0 +1,230 @@
+{
+  "source": {
+    "pmid": "40592256",
+    "pmc": "PMC12269576",
+    "doi": "10.1016/j.ebiom.2025.105826",
+    "title": "Trajectory of plasma lipidome associated with the risk of late-onset Alzheimer's disease: a longitudinal cohort study",
+    "year": 2025,
+    "paper_path": "store/raw/papers/PMC12269576/paper.md"
+  },
+  "entity_hints": {
+    "cohorts": [
+      {
+        "candidate_name": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+        "aliases": ["ADNI lipidomics", "ADNI plasma lipidome", "Alzheimer's Disease Neuroimaging Initiative lipidomics"],
+        "parent_institution_hint": "University of Southern California LONI / Alzheimer's Disease Metabolomics Consortium (ADMC) at Duke University / Baker Heart and Diabetes Institute",
+        "evidence_quote": "We employed longitudinal lipidomic profiling on 4730 plasma samples from 1517 participants of the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort",
+        "rationale": "ADNI-1, -GO, and -2 are treated as a single pooled cohort for this analysis with a shared lipidomics assay, study cohort included as a covariate; the paper analyses them as one combined dataset across all phases.",
+        "signal": "published_cohort"
+      },
+      {
+        "candidate_name": "ASPREE dementia case-cohort lipidomics subset",
+        "aliases": ["ASPREE lipidomics", "ASPREE sub-cohort"],
+        "parent_institution_hint": "Baker Heart and Diabetes Institute / Monash University / ASPREE study team",
+        "evidence_quote": "we selected participants from the initial ASPREE cohort who had imputed genotype data after quality control and had no prior diagnosis of dementia. After these criteria were applied, 13,349 participants remained. From this group, we identified a case-cohort subset (n = 3976)… the case-cohort subset (n = 3495) contained incident dementia (n = 402)",
+        "rationale": "ASPREE is a distinct, independently collected validation cohort (Australian RCT) with its own lipidomics run under identical chromatographic conditions but separate from ADNI; treated throughout the paper as an external validation set.",
+        "signal": "published_cohort"
+      }
+    ],
+    "institutions": [
+      {
+        "candidate_name": "Baker Heart and Diabetes Institute",
+        "evidence_quote": "Data on lipidome was generated at the Baker Heart and Diabetes Institute, a member of ADMC. Details on the lipid profiling technologies are described at: (https://metabolomics.baker.edu.au/method).",
+        "role": "data provider"
+      },
+      {
+        "candidate_name": "Alzheimer's Disease Metabolomics Consortium (ADMC) / Duke University",
+        "evidence_quote": "Metabolomics data is provided by the Alzheimer's Disease Metabolomics Consortium (ADMC) and funded wholly or in part by the following grants… awarded to Dr. Kaddurah-Daouk at Duke University",
+        "role": "data provider"
+      },
+      {
+        "candidate_name": "USC Laboratory of Neuro Imaging (LONI)",
+        "evidence_quote": "ADNI data are publicly available through the AD Knowledge Portal and the Laboratory of Neuro Imaging Image and Data Archive (https://ida.loni.usc.edu/login.jsp).",
+        "role": "data provider"
+      },
+      {
+        "candidate_name": "Alfred Hospital / Monash University (ASPREE ethics)",
+        "evidence_quote": "Ethics approval was obtained from the Alfred Hospital Ethics Committee for each cohort. For ADNI, all participants gave written informed consent, and the approval number was (#183/19). For ASPREE, all participants gave written informed consent and the approval number was (#523/21).",
+        "role": "collection site"
+      }
+    ],
+    "investigators": [
+      {
+        "name": "Peter J. Meikle",
+        "affiliation": "Baker Heart and Diabetes Institute",
+        "role": "senior author / lead PI (lipidomics)"
+      },
+      {
+        "name": "Rima Kaddurah-Daouk",
+        "affiliation": "Duke University",
+        "role": "senior author / lead PI (ADMC)"
+      },
+      {
+        "name": "Gabi Kastenmüller",
+        "affiliation": "Helmholtz Munich (EMBL-EBI)",
+        "role": "senior author / lead PI (bioinformatics)"
+      },
+      {
+        "name": "Paul Lacaze",
+        "affiliation": "Monash University (ASPREE)",
+        "role": "lead PI (ASPREE)"
+      },
+      {
+        "name": "Andrew J. Saykin",
+        "affiliation": "Indiana University (ADNI)",
+        "role": "lead PI (ADNI neuroimaging)"
+      },
+      {
+        "name": "Wang Tingting",
+        "affiliation": "Baker Heart and Diabetes Institute",
+        "role": "lead statistical analyst / first author"
+      }
+    ],
+    "platforms": [
+      {
+        "candidate_name": "Baker Institute targeted LC-MS/MS lipidomics (Agilent 6490 / 6495C, dMRM, 781 lipid species, 49 lipid classes)",
+        "evidence_quote": "Lipidomic profiling in the ADNI study was performed on all plasma samples (n = 4730) using our recently expanded targeted lipidomic profiling strategy comprising of reverse phase liquid chromatography in tandem with a QqQ mass spectrometer (Agilent 6490) operating under dynamic multiple reaction monitoring (dMRM) mode… The ASPREE study (n = 3495) used as the validation study was run under identical chromatographic conditions, but using an Agilent 6495C."
+      }
+    ],
+    "trials_referenced": []
+  },
+  "fragments": [
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 2,
+      "dimension_name": "real_numbers",
+      "fact": "4730 plasma samples from 1517 participants total; 1393 with baseline lipidomics; diagnostic breakdown at baseline: stable CN n=337, stable MCI n=413, AD dementia converters n=329, stable AD n=243, MCI converters n=71; most participants had visits at baseline (n=1393), 12 months (n=1188), and 24 months (n=1089)",
+      "source_quote": "we retained a total of 4730 samples from 1519 participants. Of these, 1393 participants had plasma lipidome profiling since baseline… Most participants had visits at baseline (n = 1393), 12 months (n = 1188) and 24 months (n = 1089), with a decline in participant numbers in other time points",
+      "section": "Methods / Participants",
+      "implication": "The usable training set for an AD-vs-CN discriminator is 580 subjects (243 AD + 337 CN); for MCI-to-AD conversion prediction the signal population is 329 converters — substantially smaller than the 4730-sample headline number. A buyer planning a replication study or model fine-tuning must plan around these sub-group sizes, not the aggregate.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 3,
+      "dimension_name": "longitudinal_structure",
+      "fact": "Up to 13 time points over 10 years; most participants have only 3 repeated measurements (baseline, 12mo, 24mo); few individuals have long-term follow-ups beyond 7 visits; 22% dropout by year 2 (from n=1393 to n=1089)",
+      "source_quote": "At intervals of 6–12 months, blood and clinical data were collected from each individual, up to a maximum of 10 years… Most participants had visits at baseline (n = 1393), 12 months (n = 1188) and 24 months (n = 1089), with a decline in participant numbers in other time points… most participants had 3 repeated measurements, with fewer individuals having long-term follow-ups beyond seven visits",
+      "section": "Methods / Participants",
+      "implication": "The effective longitudinal depth is 2 years for most participants; trajectory analyses beyond that are underpowered. A buyer needing dense long-term progression data (e.g., 5+ timepoints) will find ADNI lipidomics sparse past 24 months.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 5,
+      "dimension_name": "demographic_composition",
+      "fact": "Mean age ~74 years across groups; ~49–60% male depending on diagnostic group; APOE e4 enriched in AD converters (49% one copy, 14% two copies) and stable AD (48% one copy, 21% two copies); European ancestry implied (consistent with ADNI historical recruitment); BMI 25–27 kg/m2; fasting status ~95% fasting",
+      "source_quote": "Age (years): Stable CN 74.14 (5.99), Stable MCI 71.85 (7.67), AD dementia converters 74.22 (6.85), Stable AD 74.93 (7.64)… Gender (% male): 49.3, 56.7, 59.6, 56.4… APOE ε4 (%): [AD converters: 36.6% zero copies, 49.1% one copy, 14.3% two copies]… Fasting (% Yes): 94.8–96.4%",
+      "section": "Methods / Participants / Table 1",
+      "implication": "Mean age >74 means findings may not generalise to early-onset AD (<65). APOE e4 enrichment above population frequency (ADNI recruitment criterion) means models trained here will over-predict APOE e4 contribution in unselected clinic populations. The near-universal fasting status (~95%) is a strength for metabolomics reproducibility.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 4,
+      "dimension_name": "medication_and_lifestyle_confounders",
+      "fact": "Statin use is a significant confounder: 423 lipid species significantly associated with statin usage (linear regression, FDR p<0.05); omega-3 supplementation affected 398 lipid species; both included as covariates. Two novel deDE lipid species (deDE 18:2, deDE 20:4) — top hits by cross-sectional association — were excluded from all models due to strong confounding by anticholinesterase medication.",
+      "source_quote": "we identified 423 lipid species significantly associated with statin usage (Supplementary Table S6) and 398 lipid species associated with omega-3 usage (Supplementary Table S7), both after multiple testing correction… two previously unreported lipid species from the dehydrodesmosterol ester (deDE) class… exhibited the strongest relationships with AD dementia… However… we observed substantial associations between dehydrodesmosterol esters and anti-cholinesterase medication use. Due to potential confounding effects, this lipid class was excluded from subsequent modelling analyses.",
+      "section": "Methods / Statistics; Results / Development of dementia risk model",
+      "implication": "Any buyer running a lipidomics study on a population with different statin, omega-3, or cholinesterase inhibitor prevalence will see systematic shifts in ~400–420 lipid species relative to ADNI findings. The deDE class — likely the most disease-associated lipid class in the paper — cannot be used without first controlling for anticholinesterase use in the target cohort.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 6,
+      "dimension_name": "co_modalities",
+      "fact": "Amyloid PET (AmyPET) available for n=742; CSF phosphorylated tau p-tau181 and p-tau217 available for n=1009; temporal lobar FDG-PET (FDG_Temp) for n=1059; ADAS-Cog13 cognitive score for n=1310; MMSE and CDR collected across all participants",
+      "source_quote": "we additionally introduced three AD related biomarkers in ADNI: 1) \"AmyPet\" (n = 742) – a global cortical amyloid deposition measured from amyloid PET scans; 2) \"pTau\" (n = 1009) – CSF phosphorylated tau (p-tau) levels; 3) \"FDG_Temp\" (temporal lobar fludeoxyglucose uptake; n = 1059).",
+      "section": "Methods / Participants",
+      "implication": "Amyloid PET, CSF tau, and FDG-PET on ~700–1000 of the same participants enables multi-modal validation of any lipidomics-derived biomarker against the gold-standard AD pathology markers — a key regulatory requirement. This is among the richest multi-modal AD datasets available for blood metabolomics cross-validation.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 7,
+      "dimension_name": "effect_sizes_and_model_performance",
+      "fact": "Dementia risk model (baseline lipidomics): AUC 0.84 (95% CI 0.81–0.86) for AD vs CN; AUC 0.70 (95% CI 0.66–0.74) for MCI-to-AD conversion prediction at baseline, improving to 0.73 at 24 months. Longitudinal trajectory: 33 lipid species significantly different in AD converters vs non-converters (FDR<0.05), primarily ether lipids; 3–4.8% reduction in ether lipid species in converters. Lipidomic score significantly associated with amyloid PET (β=0.308, p=4.03×10⁻⁴), CSF p-tau (β=0.167, p=0.024), FDG_Temp (β=−0.286, p=1.34×10⁻⁴).",
+      "source_quote": "the lipidome-based model effectively distinguished stable AD from cognitively normal (CN) individuals, achieving an AUC of 0.84 (95% CI: 0.81–0.86)… the lipidome-based model improved discrimination with an AUC of 0.70 (95% CI: 0.66–0.74)… AD dementia converters show a 3–4.8% reduction in these ether lipid species compared to the non-converting CN and MCI groups",
+      "section": "Results",
+      "implication": "AUC 0.70 for MCI-to-AD conversion is clinically modest and below the performance of p-tau181-based models (AUC ~0.78–0.91 reported in same paper Discussion). The lipidome adds incremental value over APOE+clinical risk factors (NRI 0.24, IDI 0.12) but is unlikely to replace CSF/plasma tau biomarkers. A buyer should position lipidomics as a complementary, cost-effective screen rather than a standalone diagnostic.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 8,
+      "dimension_name": "replication_and_validation",
+      "fact": "External validation in ASPREE sub-cohort (n=3495, 402 incident dementia): lipidome-only risk score C-index 0.75 (95% CI 0.73–0.78) vs base model C-index 0.73, a 2% improvement. HR=1.21 (95% CI 1.08–1.36, p=9.85×10⁻⁴). 724 of 749 lipid species overlapped between ADNI and ASPREE enabling cross-cohort transfer.",
+      "source_quote": "The addition of dementia risk scores to the base model improved the C-index up to 0.75 (95% CI = 0.73–0.78), demonstrating a moderate enhancement in predictive accuracy… the lipidome only risk score showed a significant association with incident dementia risk with a HR = 1.21 (95% CI = 1.08–1.36) and p = 9.85 × 10−04",
+      "section": "Results / External validation",
+      "implication": "Cross-cohort replication in ASPREE (a different country, different disease definition, lipidomics on same platform) confirms that the ether lipid signal is not ADNI-specific. However, the 2% C-index gain is modest, meaning the lipidomic model adds limited independent predictive value above comprehensive clinical risk factors + APOE genotype. A buyer expecting large standalone lift from lipidomics alone should temper expectations.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 9,
+      "dimension_name": "access_and_consent_scope",
+      "fact": "ADNI data publicly available via LONI portal (https://ida.loni.usc.edu/login.jsp) and AD Knowledge Portal; requires registration and data use agreement. Lipidomics data specifically provided through ADMC at Duke University. All ADNI participants gave written informed consent.",
+      "source_quote": "ADNI data are publicly available through the AD Knowledge Portal and the Laboratory of Neuro Imaging Image and Data Archive (https://ida.loni.usc.edu/login.jsp)… All authors had access to the underlying data, which is also available to the scientific community through the ADNI website.",
+      "section": "Data sharing statement / Contributors",
+      "implication": "ADNI lipidomics data is accessible via a formal portal with a data use agreement — standard academic process, typically 2–4 months. Commercial use terms are not stated explicitly; buyers with commercial intent should verify with ADNI whether the DUA permits commercial research before committing. The ADMC lipidomics data layer may require a separate request to the ADMC/Duke University team.",
+      "confidence": "medium"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 1,
+      "dimension_name": "sample_usability",
+      "fact": "Plasma samples (not serum) collected at intervals of 6–12 months; 10 µL aliquots extracted with butanol:methanol 1:1 single-phase protocol; NIST SRM 1950 plasma quality control every 40 samples; fasting status ~95% fasting; platform: reverse-phase LC-MS/MS (Agilent 6490 dMRM); 781 lipid species, 49 lipid classes (749 used in models after SIM exclusion).",
+      "source_quote": "Serum samples (10 μL) were extracted using a single-phase process comprised of 90 μL of butanol:methanol 1:1 and 10 μL of an internal standard mix… Quality control procedures included pooled plasma samples every 20 samples, blanks every 40 samples, and National Institute of Standards and Technology (NIST) Standard Reference Material (SRM) 1950 plasma every 40 samples",
+      "section": "Methods / Lipidomic profiling",
+      "implication": "The paper mislabels ADNI samples as 'serum' in the extraction description but confirms plasma collection elsewhere — worth flagging as a potential transcription error. The 95% fasting rate and NIST SRM 1950 QC make this dataset directly comparable to other plasma LC-MS/MS lipidomics studies. The 10 µL aliquot volume suggests multiple replicate aliquots are likely available per subject, but depletion status is not stated.",
+      "confidence": "medium"
+    },
+    {
+      "entity_hint": "ADNI-1/GO/2 longitudinal plasma lipidomics cohort",
+      "dimension": 11,
+      "dimension_name": "negative_results",
+      "fact": "Dementia-associated lipids deDE(18:2) and deDE(20:4) — the two strongest cross-sectional hits — were entirely excluded from modeling due to anticholinesterase confounding. Only 2 lipid species (sphingosines Sph 18:1 and Sph d18:2) showed significantly different trajectories between stable AD and stable CN groups over time. Lipidome-based model added only 2% improvement in C-index over traditional risk factors in ASPREE.",
+      "source_quote": "two previously unreported lipid species from the dehydrodesmosterol ester (deDE) class… exhibited the strongest relationships with AD dementia… However… we observed substantial associations between dehydrodesmosterol esters and anti-cholinesterase medication use. Due to potential confounding effects, this lipid class was excluded… When comparing stable AD dementia and CN, only two sphingosine lipid species including Sph (18:1) and Sph (d18:2) showed significantly different trajectories",
+      "section": "Results",
+      "implication": "Buyers targeting the deDE lipid class as an AD biomarker will be blocked by anticholinesterase confounding unless they can control for medication use. The near-null longitudinal difference between prevalent stable AD and CN (only 2 species) suggests the lipidome mainly captures the transition period rather than the established disease state — relevant for study design (recruit pre-diagnosis, not prevalent AD).",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ASPREE dementia case-cohort lipidomics subset",
+      "dimension": 2,
+      "dimension_name": "real_numbers",
+      "fact": "Case-cohort subset n=3495; incident dementia n=402; cognitively normal n=3093; mean age 74.8 years (CN) / 77.9 years (incident dementia); average follow-up 6.5 years; European descent; enriched for APOE e4 homozygotes (n=149) and e2 homozygotes (n=56).",
+      "source_quote": "the case-cohort subset (n = 3495) contained incident dementia (n = 402) with an average follow-up of 6.5 years… we further refined the sub-cohort to include participants aged 70 years or older of European descent",
+      "section": "Methods / Participants",
+      "implication": "402 incident dementia cases with 6.5-year prospective follow-up in a population-based setting (vs. clinic-recruited ADNI) make ASPREE a high-value validation platform for any blood-based AD biomarker. However, this is a case-enriched sub-cohort of the full ASPREE (n=19,114), so population weights are needed for any incidence rate calculations.",
+      "confidence": "high"
+    },
+    {
+      "entity_hint": "ASPREE dementia case-cohort lipidomics subset",
+      "dimension": 9,
+      "dimension_name": "access_and_consent_scope",
+      "fact": "ASPREE data available from corresponding authors upon reasonable request; no public portal mentioned.",
+      "source_quote": "ASPREE data are available from the corresponding authors upon reasonable request.",
+      "section": "Data sharing statement",
+      "implication": "No formal data access portal for ASPREE lipidomics — access depends entirely on PI willingness (Lacaze/McNeil team). Timeline is unpredictable. Commercial use terms are unspecified; a buyer should budget 3–12 months and assume academic-only consent until confirmed otherwise.",
+      "confidence": "medium"
+    },
+    {
+      "entity_hint": "ASPREE dementia case-cohort lipidomics subset",
+      "dimension": 19,
+      "dimension_name": "provenance_chain",
+      "fact": "ASPREE lipidomics generated at Baker Heart and Diabetes Institute using identical platform to ADNI (Agilent 6495C); lipid-specific NIST SRM 1950 correction factors applied to harmonise cross-cohort discrepancies; 724 of 749 lipid species overlap with ADNI.",
+      "source_quote": "The ASPREE study (n = 3495) used as the validation study was run under identical chromatographic conditions, but using an Agilent 6495C. Both studies were conducted in batches of 486 samples… To correct inter-cohort discrepancies, we applied lipid-specific correction factors, calculated as the ratio between the NIST SRM 1950 reference concentration… and the median concentration of NIST SRM 1950 samples within each separate cohort.",
+      "section": "Methods / Lipidomic profiling",
+      "implication": "The provenance chain for ASPREE lipidomics is transparent (patient → Baker Institute assay → NIST-corrected data → analysis). The cross-cohort harmonisation method is documented, which means a buyer could replicate it. The fact that both cohorts were assayed at the same lab (Baker) on the same platform reduces inter-lab variability risk substantially.",
+      "confidence": "high"
+    }
+  ],
+  "open_questions": [
+    "The Methods section describes extraction of 'serum samples (10 μL)' but the study consistently refers to plasma collection in ADNI. This appears to be a copy-paste error from a prior methods paper (ref 46, Alshehry et al.). Buyer should confirm plasma vs serum for ADNI samples before cross-study comparison — serum vs plasma lipidomics are not interchangeable.",
+    "Freeze-thaw cycle count and time-from-venipuncture-to-freeze are not stated for either ADNI or ASPREE. The ADNI biospecimen protocol paper should be checked (ref 20, Huynh et al. 2018) for pre-analytical details.",
+    "ADNI DUA terms for commercial use are not explicit in this paper. Buyers with commercial intent must verify with ADNI/ADMC whether the lipidomics data layer falls under the standard ADNI DUA or requires a separate ADMC agreement.",
+    "ASPREE sample depletion status is unknown — the case-cohort sub-selection used aliquots from a prior enrichment step, and remaining aliquot inventory is not mentioned. Recommend direct inquiry to Paul Lacaze before planning a new lipidomics request on ASPREE samples.",
+    "APOE e4 enrichment in ADNI (by design) limits generalisability of the dementia risk model to unselected clinical populations; the paper does not provide a recalibrated model for population-level use. A buyer targeting a diverse or population-based cohort should treat ADNI-trained model coefficients with caution."
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "pmid": "38480804",
+  "pmc": "PMC10937638",
+  "doi": "10.1038/s41598-024-55960-3",
+  "title": "Whole-body metabolic modelling reveals microbiome and genomic interactions on reduced urine formate levels in Alzheimer’s disease",
+  "journal": "Scientific Reports",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Martinelli Filippo",
+      "affiliations": [
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789School of Medicine, University of Galway, Galway, Ireland",
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789The Ryan Institute, University of Galway, Galway, Ireland"
+      ]
+    },
+    {
+      "name": "Heinken Almut",
+      "affiliations": [
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789School of Medicine, University of Galway, Galway, Ireland",
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789The Ryan Institute, University of Galway, Galway, Ireland",
+        "https://ror.org/04vfs2w97grid.29172.3f0000 0001 2194 6418Inserm UMRS 1256 NGERE, University of Lorraine, Nancy, France"
+      ]
+    },
+    {
+      "name": "Henning Ann-Kristin",
+      "affiliations": [
+        "https://ror.org/025vngs54grid.412469.c0000 0000 9116 8976Institute of Clinical Chemistry and Laboratory Medicine, University Medicine Greifswald, Greifswald, Germany"
+      ]
+    },
+    {
+      "name": "Ulmer Maria A.",
+      "affiliations": [
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Computational Biology, Helmholtz Zentrum München – German Research Center for Environmental Health, Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Hensen Tim",
+      "affiliations": [
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789School of Medicine, University of Galway, Galway, Ireland",
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789The Ryan Institute, University of Galway, Galway, Ireland"
+      ]
+    },
+    {
+      "name": "González Antonio",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Arnold Matthias",
+      "affiliations": [
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Computational Biology, Helmholtz Zentrum München – German Research Center for Environmental Health, Neuherberg, Germany",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioural Sciences, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Asthana Sanjay",
+      "affiliations": [
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, School of Medicine and Public Health, University of Wisconsin, Madison, USA"
+      ]
+    },
+    {
+      "name": "Budde Kathrin",
+      "affiliations": [
+        "https://ror.org/025vngs54grid.412469.c0000 0000 9116 8976Institute of Clinical Chemistry and Laboratory Medicine, University Medicine Greifswald, Greifswald, Germany"
+      ]
+    },
+    {
+      "name": "Engelman Corinne D.",
+      "affiliations": [
+        "grid.14003.360000 0001 2167 3675Department of Population Health Sciences, University of Wisconsin School of Medicine and Public Health, Madison, Wisconsin USA"
+      ]
+    },
+    {
+      "name": "Estaki Mehrbod",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Grabe Hans-Jörgen",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Rostock/Greifswald, Germany"
+      ]
+    },
+    {
+      "name": "Heston Margo B.",
+      "affiliations": [
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, School of Medicine and Public Health, University of Wisconsin, Madison, USA"
+      ]
+    },
+    {
+      "name": "Johnson Sterling",
+      "affiliations": [
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, School of Medicine and Public Health, University of Wisconsin, Madison, USA"
+      ]
+    },
+    {
+      "name": "Kastenmüller Gabi",
+      "affiliations": [
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Computational Biology, Helmholtz Zentrum München – German Research Center for Environmental Health, Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Martino Cameron",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "McDonald Daniel",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Rey Federico E.",
+      "affiliations": [
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Department of Bacteriology, University of Wisconsin-Madison, Madison, WI USA"
+      ]
+    },
+    {
+      "name": "Kilimann Ingo",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Rostock, Germany",
+        "grid.10493.3f0000000121858338Department of Psychosomatic Medicine, University Medicine Rostock, Rostock, Germany"
+      ]
+    },
+    {
+      "name": "Peters Olive",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Berlin, Germany",
+        "https://ror.org/001w7jn25grid.6363.00000 0001 2218 4662Department of Psychiatry, Charité-Universitätsmedizin Berlin, Berlin, Germany"
+      ]
+    },
+    {
+      "name": "Wang Xiao",
+      "affiliations": [
+        "https://ror.org/001w7jn25grid.6363.00000 0001 2218 4662Department of Psychiatry, Charité-Universitätsmedizin Berlin, Berlin, Germany"
+      ]
+    },
+    {
+      "name": "Spruth Eike Jakob",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Berlin, Germany",
+        "https://ror.org/001w7jn25grid.6363.00000 0001 2218 4662Department of Psychiatry and Psychotherapy, Charité, Berlin, Germany"
+      ]
+    },
+    {
+      "name": "Schneider Anja",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Bonn, Germany",
+        "https://ror.org/041nas322grid.10388.320000 0001 2240 3300Department of Neurology, University of Bonn, Bonn, Germany"
+      ]
+    },
+    {
+      "name": "Fliessbach Klaus",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Bonn, Germany",
+        "https://ror.org/041nas322grid.10388.320000 0001 2240 3300Department of Neurology, University of Bonn, Bonn, Germany"
+      ]
+    },
+    {
+      "name": "Wiltfang Jens",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Goettingen, Germany",
+        "https://ror.org/01y9bpm73grid.7450.60000 0001 2364 4210Department of Psychiatry and Psychotherapy, University of Goettingen, Goettingen, Germany",
+        "https://ror.org/00nt41z93grid.7311.40000 0001 2323 6065Neurosciences and Signaling Group, Department of Medical Sciences, Institute of Biomedicine (iBiMED), University of Aveiro, Aveiro, Portugal"
+      ]
+    },
+    {
+      "name": "Hansen Niels",
+      "affiliations": [
+        "https://ror.org/01y9bpm73grid.7450.60000 0001 2364 4210Department of Psychiatry and Psychotherapy, University of Goettingen, Goettingen, Germany"
+      ]
+    },
+    {
+      "name": "Glanz Wenzel",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Magdeburg, Germany"
+      ]
+    },
+    {
+      "name": "Buerger Katharina",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Munich, Germany",
+        "grid.411095.80000 0004 0477 2585Institute for Stroke and Dementia Research (ISD), University Hospital, LMU Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Janowitz Daniel",
+      "affiliations": [
+        "grid.411095.80000 0004 0477 2585Institute for Stroke and Dementia Research (ISD), University Hospital, LMU Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Laske Christoph",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Tübingen, Germany",
+        "https://ror.org/04zzwzx41grid.428620.aSection for Dementia Research, Hertie Institute for Clinical Brain Research, Tübingen, Germany",
+        "https://ror.org/03a1kwz48grid.10392.390000 0001 2190 1447Section for Dementia Research, Department of Psychiatry and Psychotherapy, University of Tübingen, Tübingen, Germany"
+      ]
+    },
+    {
+      "name": "Munk Matthias H.",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Tübingen, Germany",
+        "https://ror.org/03a1kwz48grid.10392.390000 0001 2190 1447Section for Dementia Research, Department of Psychiatry and Psychotherapy, University of Tübingen, Tübingen, Germany"
+      ]
+    },
+    {
+      "name": "Spottke Annika",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Bonn, Germany",
+        "https://ror.org/041nas322grid.10388.320000 0001 2240 3300Department of Neurology, University of Bonn, Bonn, Germany"
+      ]
+    },
+    {
+      "name": "Roy Nina",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Bonn, Germany"
+      ]
+    },
+    {
+      "name": "Nauck Matthias",
+      "affiliations": [
+        "grid.5603.0DZHK (German Centre for Cardiovascular Research), Partner Site Greifswald, University Medicine, Greifswald, Germany",
+        "https://ror.org/025vngs54grid.412469.c0000 0000 9116 8976Institute of Clinical Chemistry and Laboratory Medicine, University Medicine Greifswald, Greifswald, Germany"
+      ]
+    },
+    {
+      "name": "Teipel Stefan",
+      "affiliations": [
+        "grid.424247.30000 0004 0438 0426German Center of Neurodegenerative Diseases (DZNE), Rostock, Germany",
+        "grid.10493.3f0000000121858338Department of Psychosomatic Medicine, University Medicine Rostock, Rostock, Germany"
+      ]
+    },
+    {
+      "name": "Knight Rob",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA USA",
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Center for Microbiome Innovation, University of California San Diego, La Jolla, CA USA",
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Shu Chien-Gene Lay Department of Engineering, University of California San Diego, La Jolla, CA USA",
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Halıcıoğlu Data Science Institute, University of California San Diego, La Jolla, CA USA",
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima F.",
+      "affiliations": [
+        "https://ror.org/03njmea73grid.414179.e0000 0001 2232 0951Department of Medicine, Duke University Medical Center, Durham, USA"
+      ]
+    },
+    {
+      "name": "Bendlin Barbara B.",
+      "affiliations": [
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, School of Medicine and Public Health, University of Wisconsin, Madison, USA"
+      ]
+    },
+    {
+      "name": "Hertel Johannes",
+      "affiliations": [
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789School of Medicine, University of Galway, Galway, Ireland",
+        "grid.5603.0DZHK (German Centre for Cardiovascular Research), Partner Site Greifswald, University Medicine, Greifswald, Germany"
+      ]
+    },
+    {
+      "name": "Thiele Ines",
+      "affiliations": [
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789School of Medicine, University of Galway, Galway, Ireland",
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789The Ryan Institute, University of Galway, Galway, Ireland",
+        "https://ror.org/03bea9k73grid.6142.10000 0004 0488 0789School of Microbiology, University of Galway, Galway, Ireland",
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "Metabolic modelling",
+    "Constraint-based modelling",
+    "Microbiome",
+    "Formate",
+    "Metabolomics",
+    "Host-microbiome",
+    "Pathways",
+    "Co-metabolism",
+    "Metabolomics",
+    "Biochemistry",
+    "Systems biology",
+    "Biomarkers",
+    "Medical research",
+    "Computational biology and bioinformatics",
+    "Computational models"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100000049National Institute on Aging",
+    "http://dx.doi.org/10.13039/100000057National Institute of General Medical Sciences",
+    "http://dx.doi.org/10.13039/100000009Foundation for the National Institutes of Health",
+    "http://dx.doi.org/10.13039/501100000781European Research Council",
+    "http://dx.doi.org/10.13039/501100001602Science Foundation Ireland"
+  ],
+  "data_availability_text": "Data availabilityThe data supporting the conclusions of this study are accessible; however, constraints are imposed on their public availability. Notwithstanding, these data can be procured from the authors upon the submission of a reasonable request. Data from the DELCODE cohort will be made available on request to Johannes Hertel (Johannes.Hertel@med.uni-greifswald.de). Data from the WISCONSIN cohort will be made available on request to Barbara B. Bendlin (bbb@medicine.wisc.edu).",
+  "license": "",
+  "received": "2023-08-29",
+  "accepted": "2024-02-29",
+  "reference_pmids": [
+    "33050556",
+    "33050556",
+    "33986301",
+    "33986301",
+    "29213697",
+    "29213697",
+    "28341160",
+    "28341160",
+    "27974040",
+    "27974040",
+    "32814025",
+    "32814025",
+    "31460832",
+    "31460832",
+    "31610413",
+    "31610413",
+    "32969566",
+    "32969566",
+    "32949638",
+    "32949638",
+    "30337151",
+    "30337151",
+    "30337152",
+    "30337152",
+    "31402327",
+    "31402327",
+    "36533170",
+    "36533170",
+    "20057383",
+    "20057383",
+    "20212490",
+    "20212490",
+    "27893703",
+    "27893703",
+    "36658342",
+    "36658342",
+    "37873072",
+    "37873072",
+    "30462168",
+    "30462168",
+    "35157025",
+    "35157025",
+    "34057024",
+    "34057024",
+    "32463598",
+    "32463598",
+    "37438876",
+    "37438876",
+    "35874091",
+    "35874091",
+    "29415768",
+    "29415768",
+    "29051531",
+    "29051531",
+    "8350998",
+    "8350998",
+    "25199842",
+    "25199842",
+    "35369727",
+    "35369727",
+    "31792218",
+    "31792218",
+    "30275573",
+    "30275573",
+    "27431368",
+    "27431368",
+    "33248648",
+    "33248648",
+    "34777195",
+    "34777195",
+    "32878308",
+    "32878308",
+    "3321963",
+    "3321963",
+    "32793799",
+    "32793799",
+    "23571809",
+    "23571809",
+    "32360535",
+    "32360535",
+    "29562518",
+    "29562518",
+    "28261376",
+    "28261376",
+    "27511838",
+    "27511838",
+    "10739429",
+    "10739429",
+    "33422142",
+    "33422142",
+    "31779690",
+    "31779690",
+    "32974014",
+    "32974014",
+    "33935641",
+    "33935641",
+    "31496932",
+    "31496932",
+    "31196170",
+    "31196170",
+    "29457794",
+    "29457794",
+    "23455439",
+    "23455439",
+    "34473240",
+    "34473240",
+    "30256983",
+    "30256983",
+    "24798886",
+    "24798886",
+    "21514249",
+    "21514249",
+    "21514250",
+    "21514250",
+    "26601079",
+    "26601079",
+    "30060179",
+    "30060179",
+    "30143216",
+    "30143216",
+    "30376508",
+    "30376508",
+    "29322089",
+    "29322089",
+    "30423086",
+    "30423086",
+    "29750242",
+    "29750242",
+    "22388286",
+    "22388286",
+    "23022739",
+    "23022739",
+    "20483314",
+    "20483314",
+    "30371894",
+    "30371894",
+    "30787451",
+    "30787451",
+    "20920235",
+    "20920235",
+    "32668255",
+    "32668255"
+  ],
+  "tables_count": 0,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "metabolomic analysis reveals decreased fumarate and formate concentrations in the urine of people with ad",
+    "microbiome models showed no difference in metabolic content",
+    "microbes’ abundance shifts in ad-dementia",
+    "no alteration in formate urine secretion fluxes was predicted between ad dementia participants and healthy controls",
+    "microbial metabolites contribute to the variation in urine formate secretion through host-microbiome co-metabolism",
+    "host formate originates from the metabolism of dietary and microbial metabolites",
+    "reactions involved in the urine formate secretion are associated with ad",
+    "discussion",
+    "methods",
+    "statistical analyses",
+    "delcode cohort",
+    "study sample",
+    "descriptive sample statistics of targeted metabolome data",
+    "statistical analyses of the nmr metabolome data",
+    "wisconsin cohort",
+    "faecal samples",
+    "sequencing and processing of metagenomic data",
+    "construction of personalised microbiome metabolic models",
+    "species abundances evaluation",
+    "diet constraints",
+    "microbiome model simulations",
+    "interrogation of whole-body metabolic (wbm) personalised models",
+    "differences in secretion fluxes between ad cases and controls",
+    "investigation of host-microbiota co-metabolism",
+    "genetic involvement in host formate production pathways in ad",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 12659,
+  "converted_at": "2026-04-06T22:36:15.423981+00:00"
+}

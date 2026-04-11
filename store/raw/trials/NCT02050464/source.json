@@ -1,0 +1,343 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02050464",
+      "orgStudyIdInfo": {
+        "id": "207094"
+      },
+      "organization": {
+        "fullName": "University of Eastern Finland",
+        "class": "OTHER"
+      },
+      "briefTitle": "Computational Tools for Early Diagnosis of Memory Disorders",
+      "officialTitle": "Virtual Physiological Human (VPH) Dementia Research Enabled by IT - Prospective Cohort Kuopio",
+      "acronym": "ProsKuopio"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-01-15",
+      "studyFirstSubmitQcDate": "2014-01-28",
+      "studyFirstPostDateStruct": {
+        "date": "2014-01-30",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-05-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-05-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Hilkka Soininen",
+        "investigatorTitle": "Hilkka Soininen, Professor, MD, PhD",
+        "investigatorAffiliation": "University of Eastern Finland"
+      },
+      "leadSponsor": {
+        "name": "University of Eastern Finland",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Sheffield",
+          "class": "OTHER"
+        },
+        {
+          "name": "VTT Technical Research Centre of Finland",
+          "class": "OTHER"
+        },
+        {
+          "name": "Klinik Hirslanden, Zurich",
+          "class": "OTHER"
+        },
+        {
+          "name": "Sheffield Teaching Hospitals NHS Foundation Trust",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The Virtual Physiological Human: DementiA Research Enabled by IT (VPH-DARE@IT) is a four-year IT-project funded through the European Union (EU). The project consortium involves a total of 21 universities and industrial partners from 10 European countries. The project delivers the first patient-specific predictive models for early differential diagnosis of dementia and their evolution. An integrated clinical decision support platform will be validated / tested by access to a dozen databases of international cross-sectional and longitudinal studies. As a part of the VPH-DARE@IT project, a new prospective cohort will be collected in Kuopio. This prospective cohort will be used to test further the modeling approaches and tools developed by using the retrospective databases.",
+      "detailedDescription": "The Virtual Physiological Human: DementiA Research Enabled by IT (VPH-DARE@IT) is a four-year IT-project funded through the European Union (EU). The project will develop multiscale models of the ageing brain in order to account simultaneously for the patient-specific biochemical, metabolic and biomechanical brain substrate, as well as for genetic, clinical, demographic and lifestyle determinants. An integrated clinical decision support platform will be validated and tested by access to a dozen databases of international cross-sectional and longitudinal studies.\n\nModeling approaches developed by using the retrospective databases will be tested using a new prospective cohort that will be collected in Kuopio as a part of the VPH-DARE@IT project. The study population at university of Eastern Finland (UEF) will be a total of 120 subjects: 20 healthy controls (HC), 20 mild to moderate Alzheimer's disease (AD) patients, 20 vascular dementia (VAD) patients, 20 fronto-temporal dementia (FTD) patients and 40 subjects with mild cognitive impairment (MCI). This study is referred as VPH-DARE@IT Prospective study in Kuopio or \"ProsKuopio\"."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Frontotemporal Dementia",
+        "Dementia, Vascular",
+        "Mild Cognitive Impairment"
+      ],
+      "keywords": [
+        "Alzheimer Disease",
+        "Frontotemporal Dementia",
+        "Dementia, Vascular",
+        "Mild Cognitive Impairment",
+        "Diagnosis",
+        "Risk factors",
+        "Biomarkers",
+        "AD",
+        "FTD",
+        "VAD",
+        "MCI"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "18 Months",
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "whole blood, serum, plasma, white cells"
+      },
+      "enrollmentInfo": {
+        "count": 126,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Healthy controls",
+          "description": "Healthy controls"
+        },
+        {
+          "label": "Alzheimer's disease",
+          "description": "Patients with mild Alzheimer's disease"
+        },
+        {
+          "label": "Vascular dementia",
+          "description": "Patients with vascular dementia"
+        },
+        {
+          "label": "Fronto-temporal dementia",
+          "description": "Patients with fronto-temporal dementia"
+        },
+        {
+          "label": "Mild cognitive impairment",
+          "description": "Patients with mild cognitive impairment"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Sensitivity, specificity and accuracy of models for diagnosis of memory disorders",
+          "description": "The models developed the VPH-DARE project will be tested in this prospective cohort. Sensitivity, specificity and accuracy of the model will be tested in differential diagnosis between the study groups as well as the accuracy of prediction cognitive decline as measured by neuropsychological test battery in the MCI group.",
+          "timeFrame": "during a single visit, i.e., day 1 and for one study group (MCI) after 18 month follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nInclusion criteria for subjects with dementia (AD, VAD, FTD) - The inclusion criteria will be based on international research criteria:\n\n* Diagnosis of probable AD according to National Institute of Neurological and Communicative Disorders and Stroke Alzheimer's (NINCDS-ADRDA) criteria (McKhann et al.1984) and diagnosis of prodromal AD according to Dubois et al., 2007 criteria\n* Diagnosis of FTD according to the clinical diagnostic criteria of Neary et al., 1998\n* Diagnosis of VAD according to diagnostic criteria for research studies by the NINDSAIREN International Workshop (Román et al., 1993)\n\nInclusion criteria for subjects with MCI\n\n* Referral because of cognitive impairments\n* Diagnosis criteria for amnestic and nonamnestic MCI (Petersen, 2004, Petersen and Morris, 2005)\n\nInclusion criteria for control subjects\n\n* Mini-mental state examination (MMSE) score above or equal to 27\n* Overall score on the Clinical Dementia Rating (CDR) scale of 0\n\nExclusion Criteria:\n\nExclusion criteria for all subjects\n\n* Other causes of dementia\n* Obvious brain, systemic or psychiatric disorders that could potentially affect cognitive functions such as stroke, severe depression, or endocrine disorders\n\nExclusion criteria for control subjects and subjects with MCI\n\n\\- Diagnosis of dementia according to DSM-IV (Diagnostic and Statistical Manual of Mental Disorders, 4th Edition) criteria at baseline",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Control subjects with normal cognition\n\nThe Alzheimer's disease, Fronto-temporal dementia, Vascular dementia, and Mild Cognitive Impairment will be recruited during their visit in the Neurological clinic at the Kuopio University Hospital.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Hilkka Soininen, Professor",
+          "affiliation": "University of Eastern Finland",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Neurology and Brain Research Unit, Institute of Clinical Medicine, University of Eastern Finland",
+          "city": "Kuopio",
+          "zip": "FI-70211",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 62.89238,
+            "lon": 27.67703
+          }
+        },
+        {
+          "facility": "Kuopio University Hospital",
+          "city": "Kuopio",
+          "zip": "FI-70211",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 62.89238,
+            "lon": 27.67703
+          }
+        },
+        {
+          "facility": "VTT Technical Research Centre of Finland",
+          "city": "Tampere",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 61.49911,
+            "lon": 23.78712
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Click here for more information about VPH-DARE@IT project",
+          "url": "http://www.vph-dare.eu"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D057180",
+          "term": "Frontotemporal Dementia"
+        },
+        {
+          "id": "D015140",
+          "term": "Dementia, Vascular"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        },
+        {
+          "id": "D004194",
+          "term": "Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D057174",
+          "term": "Frontotemporal Lobar Degeneration"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D002537",
+          "term": "Intracranial Arteriosclerosis"
+        },
+        {
+          "id": "D020765",
+          "term": "Intracranial Arterial Diseases"
+        },
+        {
+          "id": "D056784",
+          "term": "Leukoencephalopathies"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

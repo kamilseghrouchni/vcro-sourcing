@@ -1,0 +1,841 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06416072",
+      "orgStudyIdInfo": {
+        "id": "ATRI-013"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "5R01AG054029",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/5R01AG054029"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Southern California",
+        "class": "OTHER"
+      },
+      "briefTitle": "Alzheimer's Plasma Extension",
+      "officialTitle": "Alzheimer's Plasma Extension",
+      "acronym": "APEX"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-02-21",
+      "studyFirstSubmitQcDate": "2024-05-14",
+      "studyFirstPostDateStruct": {
+        "date": "2024-05-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Paul S. Aisen",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Southern California"
+      },
+      "leadSponsor": {
+        "name": "University of Southern California",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Alzheimer's Clinical Trials Consortium (ACTC)",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Alzheimer's Therapeutic Research Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "Alzheimer's Association",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The APEX study is a multicenter, observational study designed to capture longitudinal follow-up of plasma biomarkers and cognitive and functional assessments on individuals who screen failed in the AHEAD study over approximately 4 years.\n\nApproximately 1000 participants will be enrolled across three groups:\n\n* Group A: Approximately 500 participants who are discordant on screening (plasma positive / Positron Emission Tomography (PET) negative),\n* Group B: Approximately 250 participants who are concordant on screening (plasma negative / PET negative), and\n* Group C: Approximately 250 participants selected from the individuals who previously screen failed prior to PET for the AHEAD study with oversampling of racial and ethnic populations underrepresented in Alzheimer's disease (AD) clinical trials.\n\nPrimary Objectives:\n\n* Collect longitudinal cognitive and functional assessments and blood-based biomarker data\n* Evaluate, characterize, and compare the longitudinal cognitive and functional data between the three groups of participants\n* Compare longitudinal change across race and ethnicity, sex, and Apolipoprotein E (ApoE) status\n\nExploratory Objectives:\n\n• Collect baseline amyloid PET on participants without prior amyloid PET data (Group C)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Preclinical Alzheimer's Disease",
+        "Early Preclinical Alzheimer's Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "blood, plasma"
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A",
+          "description": "Approximately 500 participants who screen failed from the AHEAD study that were plasma positive / PET negative"
+        },
+        {
+          "label": "Group B",
+          "description": "Approximately 250 participants who screen failed from the AHEAD study that were plasma negative / PET negative"
+        },
+        {
+          "label": "Group C",
+          "description": "Approximately 250 participants who screen failed prior to PET imaging will undergo amyloid PET imaging with NAV4694 injection.",
+          "interventionNames": [
+            "Radiation: NAV4694"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "NAV4694",
+          "description": "Amyloid PET imaging with NAV4694 injection",
+          "armGroupLabels": [
+            "Group C"
+          ],
+          "otherNames": [
+            "[18F]NAV4694"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of change from Baseline to Month 48 on plasma beta-amyloid (Aβ) 40 or 42 ratio",
+          "timeFrame": "Baseline, Month 12, Month 24, Month 36 and Month 48"
+        },
+        {
+          "measure": "Rate of change from Baseline to Month 48 on plasma phosphorylated tau (ptau) 217",
+          "description": "Assess longitudinal changes from initial visit in plasma phosphorylated tau (ptau) 217 ratio using a proteomics assay",
+          "timeFrame": "Baseline, Month 12, Month 24, Month 36 and Month 48"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Rate of Change from Baseline to Month 48 as measured by the Preclinical Alzheimer Cognitive Composite 5(PACC5)",
+          "description": "PACC5:Free/cued selective reminding test:number of words recalled without cuing/with cuing(0\\[worst\\]-96\\[best recall\\]);Delayed Paragraph Recall test: recall of 1 short story(25 bits information),immediately after reading and again after delay of 30 minutes (0\\[worst\\]-25\\[best recall\\]);Digit-symbol substitution test: Participant uses a key to fill in blank squares as fast as possible in 90 seconds(0\\[none\\]-91\\[best performance\\]);Mini Mental State Score:to evaluate orientation, memory, attention, concentration, naming, repetition, comprehension and ability to create sentence, to copy 2 overlapping pentagons, scored as number of correctly completed items(0\\[worse\\]-30\\[perfect performance\\]);Category fluency task: participants generate words in 60 second belonging to a semantic category(total score:number of appropriate words generated per task, higher values indicate better performance).",
+          "timeFrame": "Baseline, Month 12, Month 24, Month 36 and Month 48"
+        },
+        {
+          "measure": "Rate of Change from Baseline to Month 48 as measured Cognitive Function Index (CFI)",
+          "description": "CFI assessment to assess the participant's perceived ability to perform high-level functional tasks in daily life and sense of overall cognitive functional ability. Study participants (18 questions) and their study partners (15 questions) independently rate the participant's abilities. Total score combines participant and study partner scores, with higher scores indicating greater impairment. For participants, 0 = minimum;18 = maximum. For study partners, 0 = minimum; 15 = maximum. The CFI may be self-administered or completed as an interview conducted by clinical site personnel in-person or, if necessary, over the phone.",
+          "timeFrame": "Baseline, Month 12, Month 24, Month 36 and Month 48"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Collection of baseline amyloid PET on participants without prior amyloid PET data",
+          "timeFrame": "Baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Documentation of the participant's informed consent to study procedures and for the use of protected health information (HIPAA Authorization, if applicable). Informed consent processes and documentation must adhere to state laws/local requirements, including consent provided by the participant's legally authorized representative (LAR), responsible next of kin, surrogate consent with assent, etc.\n2. Previously consented to participate in A3-45 screening.\n3. Has A3-45 screening plasma biomarker results required for determining eligibility to participate in the A3-45 trial.\n4. If an amyloid PET scan was conducted in A3-45, the scan was determined to be below the 20 centiloid cutpoint required for eligibility into the treatment arms of the A3 or A45 trial.\n5. As assessed by the site PI, participant is likely to be able to comply with the protocol, including completion of all required procedures for the duration of the study, and has adequate vision, hearing (hearing aid permitted), and literacy in English or Spanish sufficient for compliance with required testing procedures.\n\nExclusion Criteria:\n\n1. Current treatment with an FDA approved medication for Alzheimer's disease, including prior or current treatment with a prohibited medication.\n2. Enrollment in another investigational study, or intake of investigational drug, within 30 days prior to screening, or five half-lives of the investigational drug, whichever is longer, unless it can be documented that the participant was in the placebo treatment arm.\n\n   Participants enrolled in other observational studies may be permitted with Medical Monitor review and approval.\n3. Screen failed from A3-45 due to not meeting basic inclusion criterion (i.e., age requirement; current diagnosis of AD dementia).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "55 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "This study will enroll approximately 1000 participants who screen failed from the AHEAD study without evidence of elevated or intermediate amyloid by plasma biomarker or by amyloid PET scan at screening. Participants will have consented to participate in the AHEAD study and previously met demographic, cognitive and clinical criteria, however, had screening plasma biomarker and/or PET scan results that fell below the ABeta threshold levels required for randomization into the treatment arms for the AHEAD study.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Paul Aisen, MD",
+          "affiliation": "University of Southern California (USC) Alzheimer's Therapeutic Research Institute (ATRI)",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Reisa Sperling, MD",
+          "affiliation": "Brigham and Women's Hospital and Massachusetts General Hospital",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama, Birmingham",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35233",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Banner Alzheimer's Institute",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85006",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Banner Sun Health Research Institute",
+          "city": "Sun City",
+          "state": "Arizona",
+          "zip": "85351",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.59754,
+            "lon": -112.27182
+          }
+        },
+        {
+          "facility": "University of California, Irvine",
+          "city": "Irvine",
+          "state": "California",
+          "zip": "92697",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.66946,
+            "lon": -117.82311
+          }
+        },
+        {
+          "facility": "University of Southern California",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Stanford University",
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94304",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "Sharp Neurocognitive Research Center",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "University of California, San Francisco",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94158",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "University of California, Davis",
+          "city": "Walnut Creek",
+          "state": "California",
+          "zip": "94598",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.90631,
+            "lon": -122.06496
+          }
+        },
+        {
+          "facility": "Yale University School of Medicine",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06510",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Georgetown University",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Howard University",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Brain Matters Research",
+          "city": "Delray Beach",
+          "state": "Florida",
+          "zip": "33445",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.46146,
+            "lon": -80.07282
+          }
+        },
+        {
+          "facility": "Mayo Clinic, Jacksonville",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "K2 Medical Research - The Villages",
+          "city": "Lady Lake",
+          "state": "Florida",
+          "zip": "32159",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.91749,
+            "lon": -81.92286
+          }
+        },
+        {
+          "facility": "K2 Medical Research, LLC",
+          "city": "Maitland",
+          "state": "Florida",
+          "zip": "32751",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.62778,
+            "lon": -81.36312
+          }
+        },
+        {
+          "facility": "Gonzalez MD & Aswad MD Health Services",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33135",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Wien Center for Clinical Research",
+          "city": "Miami Beach",
+          "state": "Florida",
+          "zip": "33140",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.79065,
+            "lon": -80.13005
+          }
+        },
+        {
+          "facility": "Charter Research",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "University of South Florida - Health Byrd Alzheimer Institute",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33613",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Emory University",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Northwestern University",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Rush University Medical Center",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Indiana University",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "University of Kansas",
+          "city": "Fairway",
+          "state": "Kansas",
+          "zip": "66205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.02223,
+            "lon": -94.6319
+          }
+        },
+        {
+          "facility": "University of Kentucky",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40504",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Johns Hopkins University",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Boston University",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Brigham and Women's Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "21155",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Headlands Eastern MA LLC",
+          "city": "Plymouth",
+          "state": "Massachusetts",
+          "zip": "02360",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.95844,
+            "lon": -70.66726
+          }
+        },
+        {
+          "facility": "University of Michigan, Ann Arbor",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Mayo Clinic, Rochester",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Washington University, St. Louis",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Lou Ruvo Center for Brain Health, Las Vegas",
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "Mount Sinai School of Medicine",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Columbia University",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "University of Rochester Medical Center",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14620",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "Wake Forest University Health Sciences",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Case Western Reserve University",
+          "city": "Beachwood",
+          "state": "Ohio",
+          "zip": "44122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4645,
+            "lon": -81.50873
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Lou Ruvo Center for Brain Health, Ohio",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Ohio State University",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Central States Research, LLC",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "Oregon Health & Science University",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "University of Pittsburgh",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Butler Hospital Memory and Aging Program",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02906",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Ralph H. Johnson VA Health Care System",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Vanderbilt University Medical Center Center for Cognitive Medicine",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "University of Texas, Southwestern MC at Dallas",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Houston Methodist Neurological Institute",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Texas Health Science Center at San Antonio",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Eastern Virginia Medical School at Old Dominion University",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23510",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "National Clinical Research Inc.",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23294",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "University of Washington, Memory and Brain Wellness Center",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "University of Wisconsin",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53792",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Alzheimer's Clinical Trials Consortium",
+          "url": "https://www.actcinfo.org/"
+        },
+        {
+          "label": "Alzheimer's Therapeutic Research Institute",
+          "url": "https://atri.usc.edu/"
+        },
+        {
+          "label": "APEX Study Home Page",
+          "url": "https://www.actcinfo.org/alzheimers-plasma-extension-apex-study/"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    }
+  },
+  "hasResults": false
+}

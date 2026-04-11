@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entity types - vCRO Docs</title>
+  <meta name="description" content="The six entity types in the vCRO wiki graph.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Lustria&family=Geist+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg:          #F2EFE9;
+      --bg-card:     #E8E5DE;
+      --bg-feed:     #DFDBD4;
+      --bg-sidebar:  #E8E5DE;
+      --text:        #1A1814;
+      --text-2:      #6B6560;
+      --text-3:      #A09890;
+      --brand:       #00a5b4;
+      --brand-hover: #00b4c3;
+      --brand-dim:   rgba(0,165,180,0.10);
+      --bg-term:     #1E1C18;
+      --text-term:   #E8E5DE;
+      --display:     'Lustria', Georgia, serif;
+      --body:        'IBM Plex Sans', system-ui, sans-serif;
+      --mono:        'Geist Mono', 'JetBrains Mono', ui-monospace, monospace;
+
+      --sidebar-w:   260px;
+      --content-max: 720px;
+      --gap:         20px;
+      --pad:         32px;
+      --r:           12px;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--body); font-size: 16px; line-height: 1.7; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { color: var(--brand-hover); }
+
+    .topbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: var(--bg); border-bottom: 1px solid var(--bg-feed);
+      height: 56px; display: flex; align-items: center; padding: 0 24px;
+    }
+    .topbar-inner {
+      display: flex; align-items: center; justify-content: space-between; width: 100%;
+    }
+    .logo { font-family: var(--mono); font-size: 17px; font-weight: 600; color: var(--text); text-decoration: none; }
+    .logo span { color: var(--text-3); font-weight: 400; margin-left: 6px; font-size: 14px; }
+    .topbar-links { display: flex; gap: 20px; align-items: center; }
+    .topbar-links a { color: var(--text-2); font-size: 14px; }
+    .topbar-links a:hover { color: var(--text); }
+    .topbar-links a.active { color: var(--brand); }
+    .hamburger { display: none; background: none; border: none; font-size: 22px; color: var(--text); cursor: pointer; padding: 4px; }
+
+    .layout { display: flex; margin-top: 56px; min-height: calc(100vh - 56px); }
+
+    .sidebar {
+      position: fixed; top: 56px; left: 0; bottom: 0;
+      width: var(--sidebar-w); background: var(--bg-sidebar);
+      overflow-y: auto; padding: 24px 0;
+      border-right: 1px solid var(--bg-feed);
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-thumb { background: var(--bg-feed); border-radius: 2px; }
+
+    .nav-section { margin-bottom: 24px; }
+    .nav-section-title {
+      font-family: var(--mono); font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.8px;
+      color: var(--text-3); padding: 0 24px; margin-bottom: 6px;
+    }
+    .nav-section a {
+      display: block; padding: 5px 24px 5px 24px;
+      font-size: 14px; color: var(--text-2); text-decoration: none;
+      transition: color 120ms, background 120ms;
+      border-left: 2px solid transparent;
+    }
+    .nav-section a:hover { color: var(--text); background: var(--bg-feed); }
+    .nav-section a.active {
+      color: var(--brand); border-left-color: var(--brand);
+      background: var(--brand-dim); font-weight: 600;
+    }
+
+    .content {
+      margin-left: var(--sidebar-w); flex: 1;
+      padding: 48px 48px 80px; max-width: calc(var(--content-max) + 96px);
+    }
+
+    .content h1 {
+      font-family: var(--display); font-size: 36px; font-weight: 400;
+      line-height: 1.25; margin-bottom: 12px;
+    }
+    .content h2 {
+      font-family: var(--body); font-size: 22px; font-weight: 700;
+      margin-top: 48px; margin-bottom: 12px; color: var(--text);
+    }
+    .content h3 {
+      font-family: var(--body); font-size: 17px; font-weight: 700;
+      margin-top: 32px; margin-bottom: 8px;
+    }
+    .content p { margin-bottom: 16px; color: var(--text); }
+    .content .lead { font-size: 17px; color: var(--text-2); line-height: 1.7; margin-bottom: 32px; }
+
+    .content ul, .content ol { margin-bottom: 16px; padding-left: 24px; }
+    .content li { margin-bottom: 6px; }
+    .content li::marker { color: var(--text-3); }
+
+    .content code {
+      font-family: var(--mono); font-size: 14px;
+      background: var(--bg-feed); padding: 2px 6px; border-radius: 4px;
+    }
+    .content pre {
+      background: var(--bg-term); color: var(--text-term);
+      padding: 20px 24px; border-radius: var(--r);
+      font-family: var(--mono); font-size: 13px; line-height: 1.6;
+      overflow-x: auto; margin-bottom: 24px;
+    }
+    .content pre code { background: none; padding: 0; color: inherit; }
+
+    .content blockquote {
+      border-left: 3px solid var(--brand); padding: 12px 20px;
+      background: var(--brand-dim); border-radius: 0 var(--r) var(--r) 0;
+      margin-bottom: 16px; font-size: 15px; color: var(--text-2);
+    }
+    .content blockquote p { margin-bottom: 0; color: var(--text-2); }
+
+    .content hr { border: none; border-top: 1px solid var(--bg-feed); margin: 40px 0; }
+
+    .card {
+      background: var(--bg-card); border-radius: var(--r); padding: 24px;
+      margin-bottom: var(--gap);
+    }
+    .card h3 { margin-top: 0; }
+    .card p:last-child { margin-bottom: 0; }
+
+    .card-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: var(--gap); margin-bottom: 24px;
+    }
+
+    .tag {
+      display: inline-block; font-family: var(--mono); font-size: 11px;
+      padding: 2px 8px; border-radius: 999px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.3px; margin-right: 6px;
+    }
+    .t-cohort    { background: rgba(0,165,180,0.12); color: #00a5b4; }
+    .t-inst      { background: rgba(100,160,100,0.12); color: #4d8a4d; }
+    .t-inv       { background: rgba(180,140,50,0.12); color: #9a7a2e; }
+    .t-platform  { background: rgba(120,130,160,0.12); color: #6872a0; }
+    .t-bundle    { background: rgba(200,100,80,0.12); color: #c86450; }
+    .t-protocol  { background: rgba(160,120,180,0.12); color: #8a5ea0; }
+
+    .entity-preview {
+      background: var(--bg-term); border-radius: var(--r);
+      padding: 24px; font-family: var(--mono); font-size: 13px;
+      line-height: 1.6; color: var(--text-term); overflow-x: auto;
+      margin-bottom: 24px;
+    }
+    .entity-preview .ey { color: #b48c32; }
+    .entity-preview .ev { color: #E8E5DE; }
+    .entity-preview .ek { color: #00a5b4; }
+    .entity-preview .ec { color: #6B6560; }
+
+    .doc-footer {
+      border-top: 1px solid var(--bg-feed); margin-top: 64px;
+      padding-top: 24px; display: flex; justify-content: space-between;
+      font-size: 14px; color: var(--text-3);
+    }
+    .doc-footer a { color: var(--text-2); }
+
+    @media (max-width: 860px) {
+      .sidebar {
+        position: fixed; left: -280px; width: 280px; z-index: 200;
+        transition: left 200ms ease; top: 56px;
+        box-shadow: none;
+      }
+      .sidebar.open { left: 0; box-shadow: 4px 0 20px rgba(0,0,0,0.08); }
+      .content { margin-left: 0; padding: 32px 20px 60px; }
+      .card-grid { grid-template-columns: 1fr; }
+      .hamburger { display: block; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
+        <a class="logo" href="../../">vCRO <span>docs</span></a>
+      </div>
+      <div class="topbar-links">
+        <a href="../" class="active">Docs</a>
+        <a href="../../">Home</a>
+        <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <nav class="sidebar" id="sidebar">
+
+      <div class="nav-section">
+        <div class="nav-section-title">Getting Started</div>
+        <a href="../getting-started/installation.html">Installation</a>
+        <a href="../getting-started/quickstart.html">Quick Start</a>
+        <a href="../getting-started/setup.html">Setup</a>
+        <a href="../getting-started/configuration.html">Configuration</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">The Wiki</div>
+        <a href="how-it-works.html">How it works</a>
+        <a href="entity-types.html" class="active">Entity types</a>
+        <a href="evidence-standard.html">Evidence standard</a>
+        <a href="scoring.html">Scoring</a>
+        <a href="provenance.html">Provenance</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">Workflows</div>
+        <a href="../workflows/query.html">Query</a>
+        <a href="../workflows/bounty.html">Bounty</a>
+        <a href="../workflows/onboard.html">Onboard</a>
+        <a href="../workflows/lint.html">Lint</a>
+        <a href="../workflows/compile.html">Compile</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">Agents</div>
+        <a href="../agents/vcro-os.html">vcro-os</a>
+        <a href="../agents/vcro-bounty.html">vcro-bounty</a>
+        <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">Skills &amp; Rules</div>
+        <a href="../skills/compile.html">Compile skills</a>
+        <a href="../skills/query.html">Query skills</a>
+        <a href="../skills/catalog.html">Catalog skills</a>
+        <a href="../skills/lint.html">Lint skills</a>
+        <a href="../skills/rules.html">Rules reference</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">Reference</div>
+        <a href="../reference/cli.html">CLI Commands</a>
+        <a href="../reference/slash-commands.html">Slash Commands</a>
+        <a href="../reference/entity-schema.html">Entity Schema</a>
+        <a href="../reference/wiki-conventions.html">Wiki Conventions</a>
+      </div>
+
+    </nav>
+
+    <main class="content" id="content">
+
+      <h1>Entity types</h1>
+      <p class="lead">
+        The wiki is a typed graph. Six entity types, each a markdown file with YAML frontmatter.
+      </p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3><span class="tag t-cohort">cohort</span> Cohort / data_opportunity</h3>
+          <p>A group of subjects with biological samples or data. The primary unit of sourcing intelligence. One file per cohort in <code>store/wiki/cohorts/</code>.</p>
+        </div>
+        <div class="card">
+          <h3><span class="tag t-inst">institution</span> Institution</h3>
+          <p>A university, hospital, biobank, or commercial vendor that hosts or manages cohorts. Links to the cohorts it holds and the investigators who work there.</p>
+        </div>
+        <div class="card">
+          <h3><span class="tag t-inv">investigator</span> Investigator</h3>
+          <p>A PI or co-investigator linked to one or more cohorts. The slug uses their home institution, not the cohort or consortium they appear in.</p>
+        </div>
+        <div class="card">
+          <h3><span class="tag t-platform">platform</span> Platform</h3>
+          <p>An assay, instrument, or analytical method used to generate data. Links to cohorts that used it and carries validation history.</p>
+        </div>
+        <div class="card">
+          <h3><span class="tag t-protocol">protocol</span> Protocol</h3>
+          <p>A documented collection or processing protocol tied to a specific cohort. The evidence source for pre-analytical quality scoring.</p>
+        </div>
+        <div class="card">
+          <h3><span class="tag t-bundle">bundle</span> Bundle</h3>
+          <p>A procurement package composed of source + screening/QA + assay legs. Created by the bounty workflow when a buyer needs a complete sourcing plan.</p>
+        </div>
+      </div>
+
+      <h2>What an entity looks like</h2>
+
+      <p>
+        Every entity is a markdown file with YAML frontmatter followed by prose sections. Here is a real cohort from the wiki -- the ADNI blood DNA methylation substudy.
+      </p>
+
+      <h3>Frontmatter</h3>
+
+      <div class="entity-preview">
+<span class="ec">---</span>
+<span class="ek">entity_id</span>: <span class="ev">adni-blood-dnam-csf-biomarker</span>
+<span class="ek">type</span>: <span class="ev">data_opportunity</span>
+<span class="ek">canonical_name</span>: <span class="ey">"ADNI Whole-Blood EPIC Methylation + CSF Biomarker Matched Substudy (n=202)"</span>
+<span class="ek">opportunity_type</span>: <span class="ev">published_cohort</span>
+<span class="ek">evidence_type</span>: <span class="ev">direct</span>
+<span class="ek">disease_area</span>: <span class="ev">["Alzheimer's disease", "cognitively normal"]</span>
+<span class="ek">modality</span>: <span class="ev">["whole-blood EPIC methylation", "CSF biomarkers"]</span>
+<span class="ek">provenance</span>:
+  <span class="ek">sources</span>: <span class="ev">[PMC9980279, PMC10088180, PMC11838696]</span>
+  <span class="ek">last_compiled</span>: <span class="ey">"2026-04-08"</span>
+<span class="ek">scoring</span>:
+  <span class="ek">scale</span>:   <span class="ev">{confidence: high}</span>
+  <span class="ek">cost</span>:    <span class="ev">{confidence: medium}</span>
+  <span class="ek">quality</span>: <span class="ev">{provenance_depth: 0.48, confidence: medium}</span>
+<span class="ek">card</span>:
+  <span class="ek">primary_signal</span>: <span class="ey">"202 subjects with same-visit whole-blood EPIC methylation + CSF biomarkers"</span>
+  <span class="ek">action</span>: <span class="ey">"Apply for ADNI data access via adni.loni.usc.edu"</span>
+  <span class="ek">risk</span>: <span class="ey">"n=202 is underpowered for subgroup EWAS; commercial-use terms need verification"</span>
+<span class="ec">---</span>
+      </div>
+
+      <h3>A dimension section</h3>
+
+      <p>
+        After the frontmatter, each entity has dimension sections -- one per evidenced dimension. Each section ends with the implication and contains at least one verbatim source quote.
+      </p>
+
+      <div class="entity-preview">
+<span class="ek">## real_numbers</span>
+
+<span class="ev">202 subjects total (123 cognitively normal, 79 AD cases, all age &gt;65);
+a separate ADNI subset of 263 subjects has matched EPIC methylation
+and Affymetrix U219 gene expression.</span>
+
+<span class="ec">&gt; "Our study included samples from a total of 202 subjects
+&gt; (123 cognitively normal, 79 AD cases) ... matched whole blood
+&gt; DNA methylation, CSF biomarkers data measured on the same
+&gt; subjects and at the same clinical visits in the ADNI study."
+&gt; [ref: PMC10088180]</span>
+
+<span class="ev">Which means for the buyer's project: the usable N for a joint
+methylation + CSF biomarker study is 202, with 79 AD cases; this is
+below typical EWAS power thresholds, so any replication study must
+budget for an independent cohort of at least equivalent size.</span>
+      </div>
+
+      <h2>The card contract</h2>
+
+      <p>
+        The <code>card:</code> block is the API between the wiki and any consumer -- the web app, the CLI, an external agent. Three fields:
+      </p>
+
+      <ul>
+        <li><strong>primary_signal</strong> -- the single standout fact. 200 characters max.</li>
+        <li><strong>action</strong> -- what to do next. A verb phrase. 120 characters max.</li>
+        <li><strong>risk</strong> -- the single biggest unknown or caveat. 200 characters max.</li>
+      </ul>
+
+      <p>
+        The web app never parses prose. It reads frontmatter only. If the card is wrong, the user sees wrong data. The card is the contract.
+      </p>
+
+      <h2>Cross-links</h2>
+
+      <p>
+        Entities link to each other via <code>[[slug]]</code> references in the body and <code>referenced_by</code> arrays in the frontmatter. The compile/merge phase maintains back-references automatically.
+      </p>
+
+      <p>
+        The graph emerges from these links. Investigators connect to institutions. Institutions connect to cohorts. Cohorts connect to platforms. A query like "who else has EPIC methylation data on AD?" traverses these links -- it does not re-read papers.
+      </p>
+
+      <div class="doc-footer">
+        <a href="how-it-works.html">&#8592; Previous: How it works</a>
+        <a href="evidence-standard.html">Next: Evidence standard &#8594;</a>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open')}
+    document.getElementById('content').addEventListener('click',function(){document.getElementById('sidebar').classList.remove('open')})
+  </script>
+</body>
+</html>

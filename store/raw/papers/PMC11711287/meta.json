@@ -1,0 +1,378 @@
+{
+  "pmid": "39779882",
+  "pmc": "PMC11711287",
+  "doi": "10.1038/s43856-024-00682-w",
+  "title": "Consuming a modified Mediterranean ketogenic diet reverses the peripheral lipid signature of Alzheimer’s disease in humans",
+  "journal": "Communications Medicine",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Neth Bryan J.",
+      "affiliations": [
+        "https://ror.org/02qp3tb03grid.66875.3a0000 0004 0459 167XDepartment of Neurology, Mayo Clinic, Rochester, MN USA"
+      ]
+    },
+    {
+      "name": "Huynh Kevin",
+      "affiliations": [
+        "https://ror.org/03rke0285grid.1051.50000 0000 9760 5620Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne, VIC Australia",
+        "https://ror.org/01rxfrp27grid.1018.80000 0001 2342 0938Baker Department of Cardiovascular Research Translation and Implementation, La Trobe University, Bundoora, VIC Australia"
+      ]
+    },
+    {
+      "name": "Giles Corey",
+      "affiliations": [
+        "https://ror.org/03rke0285grid.1051.50000 0000 9760 5620Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne, VIC Australia",
+        "https://ror.org/01rxfrp27grid.1018.80000 0001 2342 0938Baker Department of Cardiovascular Research Translation and Implementation, La Trobe University, Bundoora, VIC Australia"
+      ]
+    },
+    {
+      "name": "Wang Tingting",
+      "affiliations": [
+        "https://ror.org/03rke0285grid.1051.50000 0000 9760 5620Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne, VIC Australia"
+      ]
+    },
+    {
+      "name": "Mellett Natalie A.",
+      "affiliations": [
+        "https://ror.org/03rke0285grid.1051.50000 0000 9760 5620Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne, VIC Australia"
+      ]
+    },
+    {
+      "name": "Duong Thy",
+      "affiliations": [
+        "https://ror.org/03rke0285grid.1051.50000 0000 9760 5620Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne, VIC Australia"
+      ]
+    },
+    {
+      "name": "Blach Colette",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Duke Molecular Physiology Institute, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Schimmel Leyla",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Register Thomas C.",
+      "affiliations": [
+        "https://ror.org/0207ad724grid.241167.70000 0001 2185 3318Department of Pathology – Comparative Medicine, Wake Forest University School of Medicine, Winston Salem, NC USA"
+      ]
+    },
+    {
+      "name": "Blennow Kaj",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden",
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Department of Neurodegenerative Disease, UCL Institute of Neurology, London, UK",
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute at UCL, London, UK",
+        "https://ror.org/00q4vv597grid.24515.370000 0004 1937 1450Hong Kong Center for Neurodegenerative Diseases, Clear Water Bay, Hong Kong, China",
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, University of Wisconsin School of Medicine and Public Health, University of Wisconsin-Madison, Madison, WI USA"
+      ]
+    },
+    {
+      "name": "Batra Richa",
+      "affiliations": [
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Department of Physiology and Biophysics, Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Schweickart Annalise",
+      "affiliations": [
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Department of Physiology and Biophysics, Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Dilmore Amanda Hazel",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Martino Cameron",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Arnold Matthias",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00cfam450grid.4567.00000 0004 0483 2525Institute of Computational Biology, Helmholtz Zentrum München—German Research Center for Environmental Health, Neuherberg, Germany"
+      ]
+    },
+    {
+      "name": "Krumsiek Jan",
+      "affiliations": [
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Department of Physiology and Biophysics, Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Han Xianlin",
+      "affiliations": [
+        "https://ror.org/02f6dcw23grid.267309.90000 0001 0629 5880Barshop Institute for Longevity and Aging Studies, University of Texas Health Science Center at San Antonio, San Antonio, TX USA"
+      ]
+    },
+    {
+      "name": "Dorrestein Pieter C.",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Knight Rob",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Departments of Pediatrics, Computer Science and Engineering, Bioengineering, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Meikle Peter J.",
+      "affiliations": [
+        "https://ror.org/03rke0285grid.1051.50000 0000 9760 5620Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne, VIC Australia",
+        "https://ror.org/01rxfrp27grid.1018.80000 0001 2342 0938Baker Department of Cardiovascular Research Translation and Implementation, La Trobe University, Bundoora, VIC Australia"
+      ]
+    },
+    {
+      "name": "Craft Suzanne",
+      "affiliations": [
+        "https://ror.org/0207ad724grid.241167.70000 0001 2185 3318Department of Gerontology and Geriatric Medicine, Wake Forest University School of Medicine, Winston Salem, NC USA"
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Duke Institute of Brain Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Medicine, Duke University, Durham, NC USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Cognitive neuroscience",
+    "Alzheimer's disease",
+    "Metabolomics",
+    "Phospholipids"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/100000002U.S. Department of Health & Human Services | National Institutes of Health (NIH)R01AG046171, RF1AG051550, RF1AG057452, R01AG059093, RF1AG058942, U01AG061359, U19AG063744Kaddurah-DaoukRima",
+    "https://doi.org/10.13039/100000009Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)#DAOU16AMPAKaddurah-DaoukRima"
+  ],
+  "data_availability_text": "Data availabilityThe data for each figure is in the following supplementary Data files: Fig. 1, Supplementary Data 1, Fig. 2, Supplementary Data 2, Fig. 3, Supplementary Data 3–5, Fig. 4, Supplementary Sata 6, Figs. 5, 6, Supplementary Data 7. Previously published lipidomics data on the ADNI and AIBL study are available for use upon account creation and application to the ADNI Data Sharing and Publications Committee (https://adni.loni.usc.edu/data-samples/adni-data/#AccessData). Previously generated summary statistics for these studies are available at 10.1038/s41467-020-19473-7.",
+  "license": "",
+  "received": "2023-07-25",
+  "accepted": "2024-10-15",
+  "reference_pmids": [
+    "35289055",
+    "35289055",
+    "35229269",
+    "35229269",
+    "34103732",
+    "34103732",
+    "24360540",
+    "24360540",
+    "34101789",
+    "34101789",
+    "19049574",
+    "19049574",
+    "17332207",
+    "17332207",
+    "20078222",
+    "20078222",
+    "19332337",
+    "19332337",
+    "24386671",
+    "24386671",
+    "19049584",
+    "19049584",
+    "29370177",
+    "29370177",
+    "23700429",
+    "23700429",
+    "21075060",
+    "21075060",
+    "24252434",
+    "24252434",
+    "21779331",
+    "21779331",
+    "33294859",
+    "33294859",
+    "31517024",
+    "31517024",
+    "30457571",
+    "30457571",
+    "35829654",
+    "32358220",
+    "32358220",
+    "35481667",
+    "35481667",
+    "34757660",
+    "34757660",
+    "32715599",
+    "32715599",
+    "34396103",
+    "34396103",
+    "30337152",
+    "30337152",
+    "28341160",
+    "28341160",
+    "8113790",
+    "8113790",
+    "19303044",
+    "19303044",
+    "16052242",
+    "16052242",
+    "33173055",
+    "33173055",
+    "15977990",
+    "15977990",
+    "17986151",
+    "17986151",
+    "25677824",
+    "25677824",
+    "25229711",
+    "25229711",
+    "25173806",
+    "25173806",
+    "24951455",
+    "24951455",
+    "35077012",
+    "35077012",
+    "31757576",
+    "31757576",
+    "21514249",
+    "21514249",
+    "25960448",
+    "25960448",
+    "26807004",
+    "11208950",
+    "11208950",
+    "30415965",
+    "30415965",
+    "29700597",
+    "29700597",
+    "30568991",
+    "30568991",
+    "20683186",
+    "20683186",
+    "6496779",
+    "6496779",
+    "11569918",
+    "11569918",
+    "1998729",
+    "1998729",
+    "12788931",
+    "12788931",
+    "13996476",
+    "13996476",
+    "28523433",
+    "28523433",
+    "7859340",
+    "7859340",
+    "11275267",
+    "11275267",
+    "33351229",
+    "33351229",
+    "27388466",
+    "27388466",
+    "21942574",
+    "21942574",
+    "29377010",
+    "29377010",
+    "29163128",
+    "29163128",
+    "10805800",
+    "10805800",
+    "33868013",
+    "33868013",
+    "19641727",
+    "19641727",
+    "17447017",
+    "17447017",
+    "14525681",
+    "14525681",
+    "20040248",
+    "20040248",
+    "11359882",
+    "11359882",
+    "35281262",
+    "30992016",
+    "30992016",
+    "32209662",
+    "32209662",
+    "30974122",
+    "11734571",
+    "11734571",
+    "33843280",
+    "33843280",
+    "19273747",
+    "19273747",
+    "31402974",
+    "31402974",
+    "34203094",
+    "34203094",
+    "29204622",
+    "29204622",
+    "26811286",
+    "26811286",
+    "35275549",
+    "25771249",
+    "25771249",
+    "28141738",
+    "28141738",
+    "23670253",
+    "23670253",
+    "18845187",
+    "18845187",
+    "23801097",
+    "23801097"
+  ],
+  "tables_count": 1,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "study participants",
+    "procedure",
+    "diet intervention and education",
+    "blood collection and processing",
+    "lipid extraction and lipidomic analysis (plasma)",
+    "lumbar puncture",
+    "csf measures",
+    "neuropsychological evaluation",
+    "statistics and reproducibility",
+    "reporting summary",
+    "results",
+    "the modified mediterranean ketogenic diet significantly altered the plasma lipidome at a class level",
+    "fatty acid oxidation",
+    "ether lipid metabolism",
+    "reductions in pathological sphingolipids",
+    "lipid species-specific responses to the modified mediterranean ketogenic diet",
+    "fatty acid oxidation",
+    "ether lipid metabolism",
+    "the impact of the mmkd intervention to the plasma lipidome was stronger in specific subgroups",
+    "cognitive group interaction",
+    "apoe genotype interaction",
+    "sex-specific interactions",
+    "alteration to the plasma lipidome with the modified mediterranean ketogenic diet is inversely related to the signature observed in alzheimer’s disease",
+    "changes to several csf and cognitive markers of alzheimer’s disease correlated with the changes in the peripheral lipidome",
+    "discussion",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14721,
+  "converted_at": "2026-04-06T22:36:35.292932+00:00"
+}

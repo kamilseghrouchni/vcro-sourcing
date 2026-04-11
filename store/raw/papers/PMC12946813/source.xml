@@ -1,0 +1,1338 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz71244" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12946813</article-id><article-id pub-id-type="pmcid-ver">PMC12946813.1</article-id><article-id pub-id-type="pmcaid">12946813</article-id><article-id pub-id-type="pmcaiid">12946813</article-id><article-id pub-id-type="pmid">41755682</article-id><article-id pub-id-type="doi">10.1002/alz.71244</article-id><article-id pub-id-type="publisher-id">ALZ71244</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Sex differences in Alzheimer's disease plasma biomarker levels and clinical utility</article-title><alt-title alt-title-type="left-running-head">MILÀ‐ALOMÀ <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz71244-cr-0001" contrib-type="author"><name name-style="western"><surname>Milà‐Alomà</surname><given-names initials="M">Marta</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5687-4597</contrib-id><xref rid="alz71244-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71244-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71244-cr-0002" contrib-type="author"><name name-style="western"><surname>Hausle</surname><given-names initials="I">Isabella</given-names></name><xref rid="alz71244-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz71244-cr-0003" contrib-type="author"><name name-style="western"><surname>Myoraku</surname><given-names initials="A">Alison</given-names></name><xref rid="alz71244-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz71244-cr-0004" contrib-type="author"><name name-style="western"><surname>Sorensen</surname><given-names initials="C">Clara</given-names></name><xref rid="alz71244-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz71244-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71244-cr-0005" contrib-type="author"><name name-style="western"><surname>Thropp</surname><given-names initials="P">Pamela</given-names></name><xref rid="alz71244-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz71244-cr-0006" contrib-type="author"><name name-style="western"><surname>Shaw</surname><given-names initials="LM">Leslie M.</given-names></name><xref rid="alz71244-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz71244-cr-0007" contrib-type="author"><name name-style="western"><surname>Weiner</surname><given-names initials="MW">Michael W.</given-names></name><xref rid="alz71244-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71244-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71244-cr-0008" contrib-type="author" corresp="yes"><name name-style="western"><surname>Tosun</surname><given-names initials="D">Duygu</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8644-7724</contrib-id><xref rid="alz71244-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71244-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>duygu.tosun@ucsf.edu</email></address></contrib><contrib id="alz71244-cr-0009" contrib-type="author"><collab collab-type="authors">for the Alzheimer's Disease Neuroimaging Initiative</collab><xref rid="alz71244-note-0001" ref-type="author-notes">
+<sup>#</sup>
+</xref></contrib></contrib-group><aff id="alz71244-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>Northern California Institute for Research and Education</institution>
+<city>San Francisco</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71244-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Radiology and Biomedical Imaging</named-content>
+<institution>University of California San Francisco</institution>
+<city>San Francisco</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71244-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>University of California Berkeley/San Francisco Graduate Program in Bioengineering</institution>
+<city>Berkeley</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71244-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pathology and Laboratory Medicine, Perelman School of Medicine</named-content>
+<institution>University of Pennsylvania</institution>
+<city>Philadelphia</city>
+<named-content content-type="country-part">Pennsylvania</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Duygu Tosun; Department of Radiology and Biomedical Imaging, University of California San, Francisco, San Francisco, CA, USA.<break/> Email: <email>duygu.tosun@ucsf.edu</email>
+<break/>
+</corresp><fn id="alz71244-note-0001"><label>#</label><p>Alzheimer's Disease Neuroimaging Initiative (ADNI): Data used in preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in analysis or writing of this report. A complete listing of ADNI investigators can be found at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://adni.loni.usc.edu/wpcontent/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf" ext-link-type="uri">http://adni.loni.usc.edu/wpcontent/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf</ext-link>
+</p></fn></author-notes><pub-date pub-type="epub"><day>27</day><month>2</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2026</year></pub-date><volume>22</volume><issue seq="1050">2</issue><issue-id pub-id-type="pmc-issue-id">506440</issue-id><issue-id pub-id-type="doi">10.1002/alz.v22.2</issue-id><elocation-id>e71244</elocation-id><history><date date-type="rev-recd"><day>30</day><month>1</month><year>2026</year></date><date date-type="received"><day>28</day><month>10</month><year>2025</year></date><date date-type="accepted"><day>02</day><month>2</month><year>2026</year></date></history><pub-history><event event-type="pmc-release"><date><day>27</day><month>02</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>28</day><month>02</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-02-28 13:25:12.950"><day>28</day><month>02</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-22-e71244.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-22-e71244.pdf"/><abstract><title>Abstract</title><sec id="alz71244-sec-0010"><title>INTRODUCTION</title><p>Sex differences in Alzheimer's disease (AD) plasma biomarkers remain understudied despite higher AD risk in women.</p></sec><sec id="alz71244-sec-0020"><title>METHODS</title><p>We examined sex differences in plasma amyloid beta (Aβ)42/40, phosphorylated tau (p‐tau)217, p‐tau217/Aβ42, glial fibrillary acidic protein (GFAP), and neurofilament light chain (NfL) in cognitively unimpaired (CU) and cognitively impaired (CI) Alzheimer's Disease Neuroimaging Initiative participants. For Aβ42/40, p‐tau217, and p‐tau217/Aβ42, we evaluated amyloid positron emission tomography positivity classification performance and associations with cognitive trajectories using sex interactions and sex‐stratified models.</p></sec><sec id="alz71244-sec-0030"><title>RESULTS</title><p>Among CU participants, men had lower Aβ42 and GFAP, and higher p‐tau217/Aβ42. Among the CI group, GFAP, p‐tau217 and p‐tau217/Aβ42 were higher in women. Overall classification performance was similar across sexes; however, p‐tau217 and p‐tau217/Aβ42 showed higher specificity and positive predictive value in CU women, with the opposite pattern observed in CI participants. In CU participants, p‐tau217 and p‐tau217/Aβ42 predicted modified Preclinical Alzheimer Cognitive Composite decline only in women.</p></sec><sec id="alz71244-sec-0040"><title>DISCUSSION</title><p>Sex‐specific plasma biomarker cutoffs may not be necessary. However, sex influences biomarker levels, classification metrics, and prognostic value, highlighting the importance of considering sex differences when interpreting biomarker results and optimizing trial enrichment strategies.</p></sec></abstract><abstract abstract-type="highlights"><title>Highlights</title><p>
+<list list-type="bullet" id="alz71244-list-0001"><list-item><p>Cognitively unimpaired (CU) men have lower plasma amyloid beta (Aβ)42 while cognitively impaired (CI) women have higher plasma phosphorylated tau (p‐tau)217.</p></list-item><list-item><p>Plasma glial fibrillary acidic protein is elevated in women in both CU and CI groups.</p></list-item><list-item><p>Overall performance for classifying amyloid positron emission tomography positivity is similar across sexes.</p></list-item><list-item><p>P‐tau217 and p‐tau217/Aβ42 specificity and positive predictive value vary by sex and cognitive stage</p></list-item><list-item><p>In the CU group, a positive plasma biomarker status predicts cognitive decline only in women.</p></list-item></list>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz71244-kwd-0001">Alzheimer's disease</kwd><kwd id="alz71244-kwd-0002">blood‐based biomarkers</kwd><kwd id="alz71244-kwd-0003">clinical trials</kwd><kwd id="alz71244-kwd-0004">diagnostic</kwd><kwd id="alz71244-kwd-0005">preclinical</kwd><kwd id="alz71244-kwd-0006">prodromal</kwd><kwd id="alz71244-kwd-0007">prognostic</kwd><kwd id="alz71244-kwd-0008">sex</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Institutes of Health</institution><institution-id institution-id-type="doi">10.13039/100000002</institution-id></institution-wrap>
+</funding-source><award-id>U19 AG024904</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>National Institute of Biomedical Imaging and Bioengineering</institution><institution-id institution-id-type="doi">10.13039/100000070</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Canadian Institutes of Health Research</institution><institution-id institution-id-type="doi">10.13039/501100000024</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Foundation for the National Institutes of Health</institution><institution-id institution-id-type="doi">10.13039/100000009</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="3"/><table-count count="1"/><page-count count="16"/><word-count count="9738"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.1 mode:remove_FC converted:27.02.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="alz71244-sec-0050"><label>1</label><title>BACKGROUND</title><p>Implementation of reliable plasma biomarkers for Alzheimer's disease (AD) would streamline diagnostics, reduce cost, and improve patient management through precision medicine.<xref rid="alz71244-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> From a research perspective, it is paramount to better understand how these plasma biomarkers can be optimally incorporated into clinical trial design. As the field shifts toward a biological definition of AD and emphasizes early intervention,<xref rid="alz71244-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> plasma biomarkers are key for identifying individuals suitable for clinical trials and disease‐modifying treatment. This includes identifying cognitively unimpaired (CU) individuals with amyloid pathology for prevention trials and selecting symptomatic patients with a specific disease burden who are most likely to respond to disease‐modifying treatments.</p><p>Key plasma biomarkers, particularly amyloid beta (Aβ)42/40 and phosphorylated tau 217 (p‐tau217), accurately detect the amyloid pathology characteristic of AD.<xref rid="alz71244-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="alz71244-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="alz71244-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="alz71244-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> The p‐tau217/Aβ42 ratio also closely correlates with AD pathology and predicts disease progression.<xref rid="alz71244-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="alz71244-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz71244-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> Assays combining these biomarkers have recently received US Food and Drug Administration clearance or are under regulatory review for detecting brain amyloid pathology.<xref rid="alz71244-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="alz71244-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz71244-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Other important biomarkers include glial fibrillary acidic protein (GFAP), which is closely associated with amyloid pathology,<xref rid="alz71244-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz71244-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="alz71244-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> and neurofilament light chain (NfL), an established marker of non‐specific neurodegeneration.<xref rid="alz71244-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="alz71244-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> Despite their promise, the reported performance of these biomarkers varies considerably among studies, potentially influenced by clinical stage and individual traits.</p><p>Sex is an important factor in AD, with well‐recognized differences spanning pathophysiology and clinical presentation.<xref rid="alz71244-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="alz71244-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> Women show greater vulnerability to certain AD risk factors, including apolipoprotein E (<italic toggle="yes">APOE</italic>) ε4,<xref rid="alz71244-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="alz71244-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="alz71244-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> and exhibit higher burdens of tau pathology,<xref rid="alz71244-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="alz71244-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="alz71244-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="alz71244-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="alz71244-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> neurodegeneration,<xref rid="alz71244-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="alz71244-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> and faster disease progression.<xref rid="alz71244-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="alz71244-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, <xref rid="alz71244-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>, <xref rid="alz71244-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> However, women may have a greater resilience to the initial pathological changes of AD in its early stages.<xref rid="alz71244-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>, <xref rid="alz71244-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, <xref rid="alz71244-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>
+</p><p>Despite these known differences, research into how sex affects AD plasma biomarkers remains limited and has produced conflicting results.<xref rid="alz71244-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> Most studies found no sex differences in plasma Aβ42/40,<xref rid="alz71244-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>, <xref rid="alz71244-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> although one study reported lower levels specifically in CU women.<xref rid="alz71244-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> Meanwhile, some studies have reported no sex differences in plasma p‐tau species,<xref rid="alz71244-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>, <xref rid="alz71244-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>, <xref rid="alz71244-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>, <xref rid="alz71244-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>, <xref rid="alz71244-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref>, <xref rid="alz71244-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> NfL,<xref rid="alz71244-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> or GFAP,<xref rid="alz71244-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="alz71244-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> and others have found higher levels of p‐tau217 in CU men,<xref rid="alz71244-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> or higher plasma GFAP<xref rid="alz71244-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz71244-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz71244-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> in women. Notably, a recent study reported a sex‐specific association between plasma p‐tau217, verbal memory, and medial temporal lobe atrophy in CU women.<xref rid="alz71244-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> Research in autosomal dominant AD also suggested that sex‐specific differences in plasma p‐tau217 and NfL may affect cognitive performance.<xref rid="alz71244-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>
+</p><p>Although the source of discrepancies in plasma biomarker differences by sex is unclear, one possibility is that they are driven by sex differences in peripheral physiology that may influence biomarker concentrations independently of central nervous system pathology. Factors such as body mass index (BMI), renal function, plasma protein concentrations, immune function, or hormonal profiles, often differ between men and women<xref rid="alz71244-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>, <xref rid="alz71244-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref>, <xref rid="alz71244-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, <xref rid="alz71244-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref> and can significantly influence analyte concentrations, possibly contributing to sex‐specific variations in plasma biomarker levels.<xref rid="alz71244-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref>
+</p><p>Understanding how sex influences not only plasma biomarker levels but their classification and prognostic performance is critical for optimizing their use. Sex‐specific variations could impact the identification of individuals with underlying amyloid pathology or those at the greatest risk of progression—precisely those benefiting most from disease‐modifying therapies. Recent clinical trial results have suggested sex differences in treatment efficacy,<xref rid="alz71244-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref>, <xref rid="alz71244-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref> raising the possibility that this variability stems partially from how biomarkers identified and characterized men and women. Investigating these sex effects could therefore improve clinical trial enrichment, ensure equitable treatment evaluation, and enhance biomarker precision in research and practice.</p><p>This study aimed to evaluate potential sex differences in key AD plasma biomarkers, and their implications for detecting AD pathology and predicting disease progression. We investigated how sex impacts biomarker levels, their accuracy in identifying amyloid positron emission tomography (PET)‐positive individuals, and their association with cognitive decline. Focusing on the preclinical and prodromal disease stages, our analysis included CU and cognitively impaired (CI) participants from the Alzheimer's Disease Neuroimaging Initiative (ADNI) study. Unlike most studies that treat sex as a biological confounding variable, we investigated sex as a direct modifier of plasma biomarker performance, analyzing their utility from a sex‐specific perspective.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz71244-sec-0060"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz71244-list-0002"><list-item><p>
+<bold>Systematic review</bold>: The authors reviewed the literature on sex differences in Alzheimer's disease (AD) plasma biomarkers, focusing on amyloid beta 42/40, phosphorylated tau 217, glial fibrillary acidic protein, and neurofilament light chain. While sex differences in AD pathology and clinical progression are well established, prior studies on plasma biomarkers have rarely examined whether classification performance or prognostic value differ between men and women.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Our results suggest that sex‐specific cutoffs may not be necessary for identifying amyloid positron emission tomography positivity using plasma biomarkers. However, sex differences were observed in plasma biomarker levels and in their association with cognitive trajectories, which should be considered when interpreting plasma biomarker results and their clinical implications.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Future studies should investigate mechanisms underlying sex differences in plasma biomarker profiles, including hormonal, metabolic, and vascular contributors. Validation in diverse cohorts and exploration of sex‐informed analytical strategies may improve biomarker interpretation and help optimize participant selection and outcome monitoring in clinical trials.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="alz71244-sec-0070"><label>2</label><title>METHODS</title><sec id="alz71244-sec-0080"><label>2.1</label><title>Study participants</title><p>ADNI participants classified as CU (Clinical Dementia Rating [CDR] = 0) or CI (CDR &gt; 0) with available Fujirebio plasma Aβ42/40 and p‐tau217, and Quanterix NfL and GFAP measurements were included (<italic toggle="yes">N</italic> = 1508; <italic toggle="yes">N</italic> = 768 CU and <italic toggle="yes">N</italic> = 740 CI). A subset of 815 individuals (<italic toggle="yes">N</italic> = 466 CU and <italic toggle="yes">N</italic> = 349 CI) had available C2N Aβ42/40, and 462 individuals (<italic toggle="yes">N</italic> = 204 CU and <italic toggle="yes">N</italic> = 258 CI) had available C2N p‐tau217 and %p‐tau217.</p><p>For cross‐sectional analyses assessing the performance of plasma biomarkers to classify amyloid PET positivity, we included participants who had an amyloid PET scan within 1 year of plasma sample collection (<italic toggle="yes">N</italic> = 1119 [<italic toggle="yes">N</italic> = 593 CU and <italic toggle="yes">N</italic> = 526 CI] with Fujirebio plasma biomarkers, and <italic toggle="yes">N</italic> = 646 [<italic toggle="yes">N</italic> = 368 CU and <italic toggle="yes">N</italic> = 278 CI] for C2N plasma biomarkers). For longitudinal analyses evaluating the association of plasma biomarkers with cognitive decline, we selected the earliest available plasma sample to maximize the duration of follow‐up, including up to 5 years of annual cognitive assessments. This resulted in <italic toggle="yes">N</italic> = 1051 (<italic toggle="yes">N</italic> = 504 CU and <italic toggle="yes">N</italic> = 547 CI) individuals with Fujirebio plasma biomarkers and <italic toggle="yes">N</italic> = 492 (<italic toggle="yes">N</italic> = 222 CU and <italic toggle="yes">N</italic> = 270 CI) individuals with C2N plasma biomarkers. In the Fujirebio sample, participants had a median of three observations (interquartile range [IQR] 2–5), with 66.2% having three or more observations. In the C2N sample, participants had a median of five observations (IQR 3–6), with 81.3% having three or more observations.</p><p>The diagnostic criteria for ADNI participants have been described previously.<xref rid="alz71244-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref> Ethno‐racial background and sex were self‐reported, and <italic toggle="yes">APOE</italic> genotyping was performed as part of the standard ADNI protocol.</p></sec><sec id="alz71244-sec-0090"><label>2.2</label><title>Plasma biomarker measurements</title><p>Plasma samples were collected, processed, and stored according to the standardized ADNI protocols.<xref rid="alz71244-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref> Analyses were performed using the following assays: Fujirebio Diagnostics Lumipulse (Fujirebio; Aβ42, Aβ40, p‐tau217), C2N Diagnostics PrecivityAD2 (C2N; Aβ42, Aβ40, p‐tau217, and %p‐tau217), and Quanterix Neurology 4‐Plex (Quanterix) assays (NfL and GFAP).<xref rid="alz71244-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> A total of 376 (43.7%) C2N PrecivityAD2 p‐tau217 measurements fell below the assay's reliable detection range and were imputed. To minimize bias, these imputed values were excluded except for binary classification of participants (positive/negative), for which the imputed p‐tau217 values did not influence the classification outcome. Corresponding %p‐tau217 values derived from imputed p‐tau217 measurements were excluded from all analyses.</p></sec><sec id="alz71244-sec-0100"><label>2.3</label><title>Amyloid and tau PET acquisition, processing, and status determination</title><p>Amyloid PET imaging with <sup>18</sup>F‐florbetapir or <sup>18</sup>F‐florbetaben was conducted at each ADNI site adhering to standardized protocols.<xref rid="alz71244-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref> Global standardized uptake value ratios (SUVRs) were calculated by averaging across cortical regions (frontal, cingulate, parietal, and lateral temporal) defined by FreeSurfer version 7.1. SUVRs were normalized to whole cerebellum and Centiloid values were derived using the transformations provided by the ADNI PET Core.<xref rid="alz71244-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref> A Centiloid value of 25 was used to define amyloid PET positivity.</p><p>Tau PET imaging with <sup>18</sup>F‐flortaucipir was conducted at each ADNI site following standardized protocols. SUVRs were calculated for a mesial‐temporal (entorhinal, parahippocampus, and amygdala) meta‐region of interest (ROI) defined by FreeSurfer version 7.1. SUVRs were normalized to the inferior cerebellar gray matter reference region, using the SUIT template.<xref rid="alz71244-bib-0057" ref-type="bibr">
+<sup>57</sup>
+</xref>
+</p></sec><sec id="alz71244-sec-0110"><label>2.4</label><title>Cognitive assessments</title><p>Participants were classified as CU if they had a CDR global score of 0 and as CI if they had a CDR global score &gt; 0. To assess the association of plasma biomarkers with cognitive trajectories, we used cognitive outcomes commonly used in AD clinical trials: the Digit Symbol Substitution Test version of the modified Preclinical Alzheimer Cognitive Composite (mPACC) for CU individuals,<xref rid="alz71244-bib-0058" ref-type="bibr">
+<sup>58</sup>
+</xref> and the CDR Sum of Boxes (CDR‐SB)<xref rid="alz71244-bib-0059" ref-type="bibr">
+<sup>59</sup>
+</xref> and Alzheimer's Disease Assessment Scale Cognitive subscale consisting of 13 items (ADAS‐Cog13)<xref rid="alz71244-bib-0060" ref-type="bibr">
+<sup>60</sup>
+</xref> for CI individuals.</p></sec><sec id="alz71244-sec-0120"><label>2.5</label><title>Statistical analyses</title><p>All analyses were run separately for CU and CI participants. Sex differences in age and BMI were assessed using a <italic toggle="yes">t</italic> test, and Pearson chi‐squared (<italic toggle="yes">χ</italic>
+<sup>2</sup>) was used to compare frequency of <italic toggle="yes">APOE</italic> ε4 carriership (carrier vs. non‐carrier), education attainment, ethno‐racial background, cognitive status, and frequency of comorbidities. Differences in cognitive scores were tested with one‐way analysis of covariance (ANCOVA) adjusted by age, the presence of at least one <italic toggle="yes">APOE</italic> ε4 allele (<italic toggle="yes">APOE</italic> ε4 status), and education attainment. Sex differences in plasma biomarker levels were evaluated using three different models: (1) unadjusted one‐way analysis of variance (ANOVA); (2) ANCOVA adjusted by age; and (3) ANCOVA adjusted by age and BMI, given previous evidence of BMI influence on plasma biomarker levels.<xref rid="alz71244-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, <xref rid="alz71244-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref> Additionally, we assessed sex differences in common comorbid conditions (dyslipidemia, diabetes, hypertension, chronic kidney disease, and obesity), and models were further adjusted for these conditions when their prevalence differed by sex. Finally, age‐adjusted ANCOVA was used to examine the potential interactions between sex and <italic toggle="yes">APOE</italic> ε4 status, or sex and amyloid PET status on plasma biomarker levels.</p><p>We performed receiver operating characteristic (ROC) curve analysis to evaluate the accuracy of plasma biomarkers for identifying amyloid PET positivity. The analysis was conducted on the entire sample and then stratified by sex. The resulting areas under the curve (AUCs) were compared using the DeLong test. For our primary analysis, we determined an optimal amyloid PET positivity classification threshold for the entire sample by selecting the cutoff that maximized the sum of sensitivity and specificity, also known as the Youden index. At this threshold, we calculated sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV), with 95% confidence intervals derived from 1000 bootstrap resamples. To assess performance consistency, this common threshold was applied to men and women separately. We then derived sex‐specific optimal thresholds to determine whether they improved classification performance compared to the common threshold.</p><p>We also conducted a two‐cutoff analysis to improve classification confidence. We established a high‐sensitivity threshold (maximum specificity with ≥ 90% sensitivity) and a high‐specificity threshold (maximum sensitivity with ≥ 90% specificity). Cases with values between these two cutoffs were classified as “intermediate.”<xref rid="alz71244-bib-0061" ref-type="bibr">
+<sup>61</sup>
+</xref>, <xref rid="alz71244-bib-0062" ref-type="bibr">
+<sup>62</sup>
+</xref>
+</p><p>For all analyses, sex differences in accuracy, sensitivity, and specificity were examined using the Pearson <italic toggle="yes">χ</italic>
+<sup>2</sup> test, while differences in PPV and NPV were evaluated using permutation tests (10,000 iterations). Additionally, sex differences in the proportion of “intermediate” cases were compared using a Pearson <italic toggle="yes">χ</italic>
+<sup>2</sup> test.</p><p>Finally, to examine sex differences in the association between baseline plasma biomarker–based amyloid positivity and cognitive decline, we first classified participants as plasma biomarker positive or negative using the binary cutoffs derived from the whole sample. We then fit linear mixed effects models with random intercepts and slopes, including the three‐way interaction among sex, time, and biomarker group (positive/negative). In addition, separate models evaluated the main effect of biomarker group on cognitive decline (time by biomarker group interaction) in the overall sample and within sex‐stratified subsamples. Models were adjusted for the interactions of time with age, <italic toggle="yes">APOE</italic> ε4 status, and education attainment. For reference, these analyses were also performed using amyloid PET positivity stratification.</p><p>For plasma biomarkers that showed significant associations with cognitive decline in the primary analyses, we conducted post hoc sensitivity analyses. These included additional adjustment for plasma GFAP to assess whether these associations were independent of differences in astroglial reactivity, and separate models adjusting for BMI, given prior reports of paradoxical associations between higher BMI and cognitive outcomes, particularly in women.<xref rid="alz71244-bib-0063" ref-type="bibr">
+<sup>63</sup>
+</xref> Finally, to ensure that the inclusion of participants with mild dementia (CDR ≥ 1) did not confound our findings, we performed a sensitivity analysis restricted to participants with mild cognitive impairment (MCI; CDR = 0.5).</p><p>Of note, analyses of classification performance and associations with cognitive decline focused on core AD plasma biomarkers (Aβ42/40, p‐tau217, and p‐tau217/Aβ42) due to their relevance for AD clinical trial enrichment; GFAP and NfL were excluded from these specific utility analyses.</p><p>For all longitudinal analyses, follow‐up cognitive data was restricted to up to 5 years, to ensure that cognitive trajectories could be reasonably modeled using linear methods. In regression analyses, normality of residuals was tested with visual inspection of the histograms. All tests were two tailed, with a significance level of <italic toggle="yes">α</italic>  =  0.05. <italic toggle="yes">p</italic> values reported in the text and tables correspond to unadjusted values. To control for multiple comparisons, the false discovery rate (FDR)<xref rid="alz71244-bib-0064" ref-type="bibr">
+<sup>64</sup>
+</xref> method was applied across the number of plasma biomarkers tested. In the text, only results that remained statistically significant after FDR correction are discussed, unless otherwise specified. In tables and figures, <italic toggle="yes">p</italic> values surviving FDR correction are denoted with asterisks. Statistical analyses and figures were performed in open‐source statistical software R v.4.1.2.</p></sec></sec><sec id="alz71244-sec-0130"><label>3</label><title>RESULTS</title><sec id="alz71244-sec-0140"><label>3.1</label><title>Participants’ baseline characteristics and sex differences in plasma biomarker levels</title><p>Participants’ characteristics by cognitive status and sex are shown in Table <xref rid="alz71244-tbl-0001" ref-type="table">1</xref>. Compared to women, men were older and had higher education attainment in both CU and CI groups, and the proportion of non‐Hispanic Black individuals was higher in women in both CU and CI groups. Within CU individuals, men presented with lower cognitive performance in their Mini‐Mental State Examination, mPACC, and ADAS‐Cog13 scores, while no differences in cognitive performance between men and women were found in the CI group. There were no sex differences in the frequency of common comorbidities aside from a higher prevalence of dyslipidemia in CU men compared to CU women. BMI was significantly higher in CI men compared to women.</p><table-wrap position="float" id="alz71244-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Participant characteristics and biomarker levels by cognitive status and sex.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="char" char="." span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="char" char="." span="1"/><thead><tr><th align="left" rowspan="1" colspan="1"/><th colspan="5" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Cognitively unimpaired</th><th colspan="5" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Cognitively impaired</th></tr><tr><th align="left" rowspan="1" colspan="1"/><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Men</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Women</th><th align="char" rowspan="1" colspan="1"/><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Men</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Women</th><th align="char" rowspan="1" colspan="1"/></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"> </th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic>
+</th><th align="left" rowspan="1" colspan="1">Value</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">N</italic>
+</th><th align="left" rowspan="1" colspan="1">Value</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> value</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic>
+</th><th align="left" rowspan="1" colspan="1">Value</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic>
+</th><th align="left" rowspan="1" colspan="1">Value</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> value</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Age, years </td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">76.1 ± 7.75</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">72.3 ± 8.70</td><td align="char" rowspan="1" colspan="1">
+<bold>&lt;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">408</td><td align="left" rowspan="1" colspan="1">77.3 ± 8.05</td><td align="left" rowspan="1" colspan="1">332</td><td align="left" rowspan="1" colspan="1">75.1 ± 8.82</td><td align="char" rowspan="1" colspan="1">
+<bold>0.0003</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">APOE</italic> ε4 carriers, <italic toggle="yes">n</italic> (%) </td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">106 (32.1)</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">149 (34.0)</td><td align="char" rowspan="1" colspan="1">0.63</td><td align="left" rowspan="1" colspan="1">408</td><td align="left" rowspan="1" colspan="1">204 (50.0)</td><td align="left" rowspan="1" colspan="1">332</td><td align="left" rowspan="1" colspan="1">179 (53.9)</td><td align="char" rowspan="1" colspan="1">0.32</td></tr><tr><td align="left" rowspan="1" colspan="1">Ethno‐racial background (non‐Hispanic White/non‐Hispanic Black/other), <italic toggle="yes">n</italic> (%)</td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">268 (81.2) / 31 (9.40) / 31 (9.40</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">314 (71.7) / 87 (19.9) / 37 (8.40)</td><td align="char" rowspan="1" colspan="1">
+<bold>0.0004</bold>
+</td><td align="left" rowspan="1" colspan="1">408</td><td align="left" rowspan="1" colspan="1">375 (91.9) / 13 (3.20) / 20 (4.90)</td><td align="left" rowspan="1" colspan="1">332</td><td align="left" rowspan="1" colspan="1">261 (78.6) / 47 (14.2) / 24 (7.20)</td><td align="char" rowspan="1" colspan="1">
+<bold>&lt;0.0001</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<p>Education attainment</p>
+<p>(high school or less/college/postgraduate), <italic toggle="yes">n</italic> (%)</p>
+</td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">19 (5.80) / 122 (37.0) / 189 (57.3)</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">45 (10.3) / 191 (43.6) / 202 (46.1)</td><td align="char" rowspan="1" colspan="1">
+<bold>0.004</bold>
+</td><td align="left" rowspan="1" colspan="1">408</td><td align="left" rowspan="1" colspan="1">63 (15.4) / 173 (42.4) / 172 (42.2)</td><td align="left" rowspan="1" colspan="1">332</td><td align="left" rowspan="1" colspan="1">53 (16.0) / 168 (50.6) / 111 (33.4)</td><td align="char" rowspan="1" colspan="1">
+<bold>0.042</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">CDR Global 0/0.5/ ≥ 1, <italic toggle="yes">n</italic> (%)</td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">330 (100.0) / 0 (0.0) / 0 (0.0)</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">438 (100.0) / 0 (0.0) / 0 (0.0)</td><td align="char" rowspan="1" colspan="1">—</td><td align="left" rowspan="1" colspan="1">408</td><td align="left" rowspan="1" colspan="1">0 (0.0) / 259 (63.5) / 149 (36.5)</td><td align="left" rowspan="1" colspan="1">332</td><td align="left" rowspan="1" colspan="1">0 (0.0) / 242 (72.9) / 90 (27.1)</td><td align="char" rowspan="1" colspan="1">
+<bold>0.008</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">MMSE </td><td align="left" rowspan="1" colspan="1">328</td><td align="left" rowspan="1" colspan="1">28.7 ± 1.54</td><td align="left" rowspan="1" colspan="1">434</td><td align="left" rowspan="1" colspan="1">29.1 ± 1.14</td><td align="char" rowspan="1" colspan="1">
+<bold>0.0013</bold>
+</td><td align="left" rowspan="1" colspan="1">404</td><td align="left" rowspan="1" colspan="1">24.2 ± 5.45</td><td align="left" rowspan="1" colspan="1">331</td><td align="left" rowspan="1" colspan="1">24.6 ± 5.52</td><td align="char" rowspan="1" colspan="1">0.32</td></tr><tr><td align="left" rowspan="1" colspan="1">CDRSB </td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">0.05 ± 0.16</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">0.05 ± 0.15</td><td align="char" rowspan="1" colspan="1">0.52</td><td align="left" rowspan="1" colspan="1">408</td><td align="left" rowspan="1" colspan="1">3.97 ± 3.46</td><td align="left" rowspan="1" colspan="1">332</td><td align="left" rowspan="1" colspan="1">3.40 ± 3.50</td><td align="char" rowspan="1" colspan="1">0.089</td></tr><tr><td align="left" rowspan="1" colspan="1">ADAS‐Cog13 </td><td align="left" rowspan="1" colspan="1">328</td><td align="left" rowspan="1" colspan="1">11.0 ± 4.87</td><td align="left" rowspan="1" colspan="1">427</td><td align="left" rowspan="1" colspan="1">8.17 ± 4.61</td><td align="char" rowspan="1" colspan="1">
+<bold>&lt;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">390</td><td align="left" rowspan="1" colspan="1">24.1 ± 12.8</td><td align="left" rowspan="1" colspan="1">315</td><td align="left" rowspan="1" colspan="1">22.3 ± 13.4</td><td align="char" rowspan="1" colspan="1">0.14</td></tr><tr><td align="left" rowspan="1" colspan="1">mPACC</td><td align="left" rowspan="1" colspan="1">185</td><td align="left" rowspan="1" colspan="1">−0.89 ± 3.27</td><td align="left" rowspan="1" colspan="1">222</td><td align="left" rowspan="1" colspan="1">0.57 ± 2.94</td><td align="char" rowspan="1" colspan="1">
+<bold>&lt;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">301</td><td align="left" rowspan="1" colspan="1">−12.3 ± 10.9</td><td align="left" rowspan="1" colspan="1">209</td><td align="left" rowspan="1" colspan="1">−12.7 ± 9.31</td><td align="char" rowspan="1" colspan="1">0.74</td></tr><tr><td align="left" rowspan="1" colspan="1">BMI, kg/m<sup>2</sup>
+</td><td align="left" rowspan="1" colspan="1">326</td><td align="left" rowspan="1" colspan="1">27.3 ± 4.24</td><td align="left" rowspan="1" colspan="1">432</td><td align="left" rowspan="1" colspan="1">27.4 ± 6.13</td><td align="char" rowspan="1" colspan="1">0.72</td><td align="left" rowspan="1" colspan="1">401</td><td align="left" rowspan="1" colspan="1">27.0 ± 4.27</td><td align="left" rowspan="1" colspan="1">323</td><td align="left" rowspan="1" colspan="1">26.1 ± 5.49</td><td align="char" rowspan="1" colspan="1">
+<bold>0.019</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Dyslipidemia, <italic toggle="yes">n</italic> (%) </td><td align="left" rowspan="1" colspan="1">135</td><td align="left" rowspan="1" colspan="1">59 (17.9)</td><td align="left" rowspan="1" colspan="1">112</td><td align="left" rowspan="1" colspan="1">41 (9.40)</td><td align="char" rowspan="1" colspan="1">
+<bold>0.0008</bold>
+</td><td align="left" rowspan="1" colspan="1">207</td><td align="left" rowspan="1" colspan="1">70 (17.2)</td><td align="left" rowspan="1" colspan="1">133</td><td align="left" rowspan="1" colspan="1">64 (19.3)</td><td align="char" rowspan="1" colspan="1">0.52</td></tr><tr><td align="left" rowspan="1" colspan="1">Diabetes, <italic toggle="yes">n</italic> (%) </td><td align="left" rowspan="1" colspan="1">135</td><td align="left" rowspan="1" colspan="1">8 (5.90)</td><td align="left" rowspan="1" colspan="1">112</td><td align="left" rowspan="1" colspan="1">7 (6.20)</td><td align="char" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">207</td><td align="left" rowspan="1" colspan="1">22 (10.6)</td><td align="left" rowspan="1" colspan="1">133</td><td align="left" rowspan="1" colspan="1">9 (6.80)</td><td align="char" rowspan="1" colspan="1">0.31</td></tr><tr><td align="left" rowspan="1" colspan="1">Hypertension, <italic toggle="yes">n</italic> (%) </td><td align="left" rowspan="1" colspan="1">327</td><td align="left" rowspan="1" colspan="1">116 (35.5)</td><td align="left" rowspan="1" colspan="1">435</td><td align="left" rowspan="1" colspan="1">141 (32.4)</td><td align="char" rowspan="1" colspan="1">0.42</td><td align="left" rowspan="1" colspan="1">405</td><td align="left" rowspan="1" colspan="1">143 (35.3)</td><td align="left" rowspan="1" colspan="1">325</td><td align="left" rowspan="1" colspan="1">107 (32.9)</td><td align="char" rowspan="1" colspan="1">0.55</td></tr><tr><td align="left" rowspan="1" colspan="1">Chronic kidney disease, <italic toggle="yes">n</italic> (%) </td><td align="left" rowspan="1" colspan="1">135</td><td align="left" rowspan="1" colspan="1">37 (27.4)</td><td align="left" rowspan="1" colspan="1">112</td><td align="left" rowspan="1" colspan="1">28 (25.0)</td><td align="char" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">207</td><td align="left" rowspan="1" colspan="1">53 (25.6)</td><td align="left" rowspan="1" colspan="1">133</td><td align="left" rowspan="1" colspan="1">35 (26.3)</td><td align="char" rowspan="1" colspan="1">0.98</td></tr><tr><td align="left" rowspan="1" colspan="1">Obesity, <italic toggle="yes">n</italic> (%) </td><td align="left" rowspan="1" colspan="1">326</td><td align="left" rowspan="1" colspan="1">73 (22.5)</td><td align="left" rowspan="1" colspan="1">432</td><td align="left" rowspan="1" colspan="1">122 (28.6)</td><td align="char" rowspan="1" colspan="1">0.067</td><td align="left" rowspan="1" colspan="1">401</td><td align="left" rowspan="1" colspan="1">73 (18.2)</td><td align="left" rowspan="1" colspan="1">323</td><td align="left" rowspan="1" colspan="1">69 (21.4)</td><td align="char" rowspan="1" colspan="1">0.33</td></tr><tr><td align="left" rowspan="1" colspan="1">Amyloid PET, Centiloid </td><td align="left" rowspan="1" colspan="1">250</td><td align="left" rowspan="1" colspan="1">18.7 ± 34. 7</td><td align="left" rowspan="1" colspan="1">343</td><td align="left" rowspan="1" colspan="1">22.2 ± 34.5</td><td align="char" rowspan="1" colspan="1">
+<bold>0.025</bold>
+</td><td align="left" rowspan="1" colspan="1">273</td><td align="left" rowspan="1" colspan="1">53.3 ± 53. 9</td><td align="left" rowspan="1" colspan="1">253</td><td align="left" rowspan="1" colspan="1">54.4 ± 50.7</td><td align="char" rowspan="1" colspan="1">0.49</td></tr><tr><td align="left" rowspan="1" colspan="1">Amyloid PET positive, <italic toggle="yes">n</italic> (%) </td><td align="left" rowspan="1" colspan="1">252</td><td align="left" rowspan="1" colspan="1">78 (31.0)</td><td align="left" rowspan="1" colspan="1">346</td><td align="left" rowspan="1" colspan="1">110 (31.8)</td><td align="char" rowspan="1" colspan="1">0.90</td><td align="left" rowspan="1" colspan="1">282</td><td align="left" rowspan="1" colspan="1">163 (57.8)</td><td align="left" rowspan="1" colspan="1">254</td><td align="left" rowspan="1" colspan="1">152 (59.8)</td><td align="char" rowspan="1" colspan="1">0.70</td></tr><tr><td align="left" rowspan="1" colspan="1">Mesial‐temporal tau PET SUVR</td><td align="left" rowspan="1" colspan="1">194</td><td align="left" rowspan="1" colspan="1">1.19 ± 0.19</td><td align="left" rowspan="1" colspan="1">270</td><td align="left" rowspan="1" colspan="1">1.21 ± 0.22</td><td align="char" rowspan="1" colspan="1">
+<bold>0.003</bold>
+</td><td align="left" rowspan="1" colspan="1">199</td><td align="left" rowspan="1" colspan="1">1.53 ± 0.47</td><td align="left" rowspan="1" colspan="1">189</td><td align="left" rowspan="1" colspan="1">1.69 ± 0.65</td><td align="char" rowspan="1" colspan="1">
+<bold>0.004</bold>
+</td></tr><tr><td colspan="11" align="left" rowspan="1">
+<bold>Plasma biomarkers</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Fujirebio Aβ42, pg/mL</td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">26.4 ± 8.86</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">27.1 ± 5.79</td><td align="char" rowspan="1" colspan="1">
+<bold>0.008*</bold>
+</td><td align="left" rowspan="1" colspan="1">399</td><td align="left" rowspan="1" colspan="1">26.5 ± 6.07</td><td align="left" rowspan="1" colspan="1">331</td><td align="left" rowspan="1" colspan="1">25.9 ± 7.26</td><td align="char" rowspan="1" colspan="1">0.83</td></tr><tr><td align="left" rowspan="1" colspan="1">C2N Aβ42, pg/mL</td><td align="left" rowspan="1" colspan="1">194</td><td align="left" rowspan="1" colspan="1">44.6 ± 8.66</td><td align="left" rowspan="1" colspan="1">272</td><td align="left" rowspan="1" colspan="1">46.3 ± 11.3</td><td align="char" rowspan="1" colspan="1">
+<bold>0.009*</bold>
+</td><td align="left" rowspan="1" colspan="1">168</td><td align="left" rowspan="1" colspan="1">43.5 ± 10.13</td><td align="left" rowspan="1" colspan="1">181</td><td align="left" rowspan="1" colspan="1">44.6 ± 9.84</td><td align="char" rowspan="1" colspan="1">0.15</td></tr><tr><td align="left" rowspan="1" colspan="1">Fujirebio Aβ40, pg/mL</td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">308 ± 119</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">308 ± 66.5</td><td align="char" rowspan="1" colspan="1">0.10</td><td align="left" rowspan="1" colspan="1">399</td><td align="left" rowspan="1" colspan="1">321 ± 72.3</td><td align="left" rowspan="1" colspan="1">331</td><td align="left" rowspan="1" colspan="1">319 ± 94.3</td><td align="char" rowspan="1" colspan="1">0.34</td></tr><tr><td align="left" rowspan="1" colspan="1">C2N Aβ40, pg/mL</td><td align="left" rowspan="1" colspan="1">194</td><td align="left" rowspan="1" colspan="1">452 ± 91.0</td><td align="left" rowspan="1" colspan="1">272</td><td align="left" rowspan="1" colspan="1">457 ± 99.1</td><td align="char" rowspan="1" colspan="1">
+<bold>0.040</bold>
+</td><td align="left" rowspan="1" colspan="1">168</td><td align="left" rowspan="1" colspan="1">465 ± 98.8</td><td align="left" rowspan="1" colspan="1">181</td><td align="left" rowspan="1" colspan="1">464 ± 91.5</td><td align="char" rowspan="1" colspan="1">0.57</td></tr><tr><td align="left" rowspan="1" colspan="1">Fujirebio Aβ42/40</td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">0.090 ± 0.013</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">0.091 ± 0.013</td><td align="char" rowspan="1" colspan="1">0.18</td><td align="left" rowspan="1" colspan="1">399</td><td align="left" rowspan="1" colspan="1">0.085 ± 0.011</td><td align="left" rowspan="1" colspan="1">331</td><td align="left" rowspan="1" colspan="1">0.085 ± 0.012</td><td align="char" rowspan="1" colspan="1">
+<bold>0.041</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">C2N Aβ42/40</td><td align="left" rowspan="1" colspan="1">194</td><td align="left" rowspan="1" colspan="1">0.095 ± 0.011</td><td align="left" rowspan="1" colspan="1">272</td><td align="left" rowspan="1" colspan="1">0.098 ± 0.015</td><td align="char" rowspan="1" colspan="1">0.30</td><td align="left" rowspan="1" colspan="1">168</td><td align="left" rowspan="1" colspan="1">0.094 ± 0.012</td><td align="left" rowspan="1" colspan="1">181</td><td align="left" rowspan="1" colspan="1">0.098 ± 0.014</td><td align="char" rowspan="1" colspan="1">
+<bold>0.047</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Fujirebio p‐tau217, pg/mL </td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">0.21 ± 0.25</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">0.17 ± 0.17</td><td align="char" rowspan="1" colspan="1">0.24</td><td align="left" rowspan="1" colspan="1">402</td><td align="left" rowspan="1" colspan="1">0.43 ± 0.36</td><td align="left" rowspan="1" colspan="1">331</td><td align="left" rowspan="1" colspan="1">0.52 ± 0.47</td><td align="char" rowspan="1" colspan="1">
+<bold>0.004*</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">C2N p‐tau217, pg/mL</td><td align="left" rowspan="1" colspan="1">86</td><td align="left" rowspan="1" colspan="1">2.77 ± 1.60</td><td align="left" rowspan="1" colspan="1">118</td><td align="left" rowspan="1" colspan="1">2.89 ± 1.68</td><td align="char" rowspan="1" colspan="1">0.41</td><td align="left" rowspan="1" colspan="1">125</td><td align="left" rowspan="1" colspan="1">4.45 ± 3.16</td><td align="left" rowspan="1" colspan="1">133</td><td align="left" rowspan="1" colspan="1">5.85 ± 4.21</td><td align="char" rowspan="1" colspan="1">
+<bold>0.003*</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">C2N %p‐tau217, %</td><td align="left" rowspan="1" colspan="1">86</td><td align="left" rowspan="1" colspan="1">4.46 ± 1.92</td><td align="left" rowspan="1" colspan="1">118</td><td align="left" rowspan="1" colspan="1">4.61 ± 2.45</td><td align="char" rowspan="1" colspan="1">0.59</td><td align="left" rowspan="1" colspan="1">125</td><td align="left" rowspan="1" colspan="1">7.15 ± 4.84</td><td align="left" rowspan="1" colspan="1">133</td><td align="left" rowspan="1" colspan="1">8.52 ± 5.13</td><td align="char" rowspan="1" colspan="1">
+<bold>0.036</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Fujirebio p‐tau217/Aβ42</td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">0.007 ± 0.009</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">0.006 ± 0.006</td><td align="char" rowspan="1" colspan="1">
+<bold>0.004*</bold>
+</td><td align="left" rowspan="1" colspan="1">402</td><td align="left" rowspan="1" colspan="1">0.016 ± 0.015</td><td align="left" rowspan="1" colspan="1">331</td><td align="left" rowspan="1" colspan="1">0.019 ± 0.022</td><td align="char" rowspan="1" colspan="1">
+<bold>0.001*</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Quanterix NfL, pg/mL </td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">20.9 ± 13.6</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">18.2 ± 10.4</td><td align="char" rowspan="1" colspan="1">0.85</td><td align="left" rowspan="1" colspan="1">402</td><td align="left" rowspan="1" colspan="1">28.0 ± 15.6</td><td align="left" rowspan="1" colspan="1">331</td><td align="left" rowspan="1" colspan="1">26.2 ± 15.6</td><td align="char" rowspan="1" colspan="1">0.88</td></tr><tr><td align="left" rowspan="1" colspan="1">Quanterix GFAP, pg/mL </td><td align="left" rowspan="1" colspan="1">330</td><td align="left" rowspan="1" colspan="1">155 ± 84.7</td><td align="left" rowspan="1" colspan="1">438</td><td align="left" rowspan="1" colspan="1">168 ± 95.6</td><td align="char" rowspan="1" colspan="1">
+<bold>&lt;0.0001*</bold>
+</td><td align="left" rowspan="1" colspan="1">402</td><td align="left" rowspan="1" colspan="1">210 ± 113</td><td align="left" rowspan="1" colspan="1">331</td><td align="left" rowspan="1" colspan="1">245 ± 135</td><td align="char" rowspan="1" colspan="1">
+<bold>&lt;0.0001*</bold>
+</td></tr></tbody></table><table-wrap-foot><fn id="alz71244-tbl1-note-0001"><p>Notes: Data are shown as mean ± standard deviation or <italic toggle="yes">n</italic> (%). <italic toggle="yes">t</italic> tests were used to evaluate sex differences in continuous variables and Pearson chi‐squared (<italic toggle="yes">χ</italic>
+<sup>2</sup>) test for categorical variables. Amyloid PET Centiloid values, mesial‐temporal tau PET SUVR, or plasma biomarkers were compared with analyses of covariance adjusting by age. Models including cognition were adjusted by age and education attainment. Amyloid PET positivity was established at 25 Centiloids. Amyloid PET within 1 year of plasma collection was available for <italic toggle="yes">N</italic> = 1119 participants with Fujirebio plasma biomarkers (<italic toggle="yes">N</italic> = 593 CU and <italic toggle="yes">N</italic> = 526 CI) and for <italic toggle="yes">N</italic> = 646 individuals with C2N plasma biomarkers (<italic toggle="yes">N</italic> = 368 CU and <italic toggle="yes">N</italic> = 278 CI). BMI, obesity, and hypertension data correspond to measurements obtained within 1 year of plasma collection. Participants were classified as obese when BMI &gt; 30 kg/m<sup>2</sup>, and as hypertensive when systolic blood pressure ≥ 130 mmHg and diastolic blood pressure ≥ 80 mmHg. Medical history of chronic kidney disease, diabetes, and dyslipidemia was collected at study entry. For sex differences in plasma biomarker levels, asterisks (*) indicate statistical significance after FDR correction for multiple comparisons.</p></fn><fn id="alz71244-tbl1-note-0002"><p>Abbreviations: Aβ amyloid beta; ADAS‐Cog13, Alzheimer's Disease Assessment Scale 13‐item Cognitive subscale; <italic toggle="yes">APOE</italic>, apolipoprotein E; BMI, body mass index; CDR, Clinical Dementia Rating; CDRSB, Clinical Dementia Rating Sum of Boxes; CI, cognitively impaired; CU, cognitively unimpaired; FDR, false discovery rate; GFAP, glial fibrillary acidic protein; MMSE, Mini‐Mental State Examination; mPACC, modified Preclinical Alzheimer Cognitive Composite; NfL, neurofilament light chain; PET, positron emission tomography; p‐tau, phosphorylated tau; SUVR, standardized uptake value ratio.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Regarding AD biomarker levels, after accounting for the effect of age, CU women had higher amyloid PET Centiloid values compared to men (<italic toggle="yes">β</italic> = 0.19, <italic toggle="yes">p </italic>= 0.025), although there were no statistically significant sex differences in the frequency of amyloid PET positivity (<italic toggle="yes">p </italic>= 0.90). Mesial‐temporal tau PET uptake was higher in women compared to men in both CU (<italic toggle="yes">β</italic> = 0.28, <italic toggle="yes">p </italic>= 0.003) and CI (<italic toggle="yes">β</italic> = 0.30, <italic toggle="yes">p </italic>= 0.004) groups.</p><p>For plasma biomarkers, we first evaluated the agreement between the two analytical platforms (Fujirebio and C2N) to ensure consistency. We observed strong correlations between assays measuring the same analyte, particularly for p‐tau217 (Spearman rho = 0.58 in CU individuals and 0.91 in CI individuals; Figures <xref rid="alz71244-supinfo-0001" ref-type="">S1</xref> and <xref rid="alz71244-supinfo-0001" ref-type="">S2</xref> in supporting information), confirming that both platforms capture similar pathological signals. GFAP was elevated in women compared to men in both CU (<italic toggle="yes">β</italic> = 0.36, <italic toggle="yes">p </italic>&lt; 0.0001) and CI (<italic toggle="yes">β</italic> = 0.38, <italic toggle="yes">p </italic>&lt; 0.0001) groups. CU men had a higher Fujirebio p‐tau217/Aβ42 ratio than women (<italic toggle="yes">β</italic> = −0.21, <italic toggle="yes">p </italic>= 0.004), and lower Aβ42 levels (<italic toggle="yes">β</italic> = 0.29, <italic toggle="yes">p </italic>= 0.008 for Fujirebio and <italic toggle="yes">β</italic> = 0.24, <italic toggle="yes">p </italic>= 0.009 for C2N Aβ42, respectively), while there were no differences in p‐tau217 measures (Figure <xref rid="alz71244-fig-0001" ref-type="fig">1</xref>; Table <xref rid="alz71244-tbl-0001" ref-type="table">1</xref>). Conversely, in the CI group, women had a higher Fujirebio p‐tau217/Aβ42 ratio (<italic toggle="yes">β</italic> = 0.22, <italic toggle="yes">p </italic>= 0.001) and higher levels of p‐tau217 measures (<italic toggle="yes">β</italic> = 0.22, <italic toggle="yes">p </italic>= 0.004 for Fujirebio p‐tau217 and <italic toggle="yes">β</italic> = 0.37, <italic toggle="yes">p </italic>= 0.003 for C2N p‐tau217, respectively). Sex differences in C2N %p‐tau217 and in C2N and Fujirebio Aβ42/40 levels were also observed in CI participants, although they did not survive multiple comparison correction (Figure <xref rid="alz71244-fig-0001" ref-type="fig">1</xref>, Table <xref rid="alz71244-tbl-0001" ref-type="table">1</xref>, and Table <xref rid="alz71244-supinfo-0001" ref-type="">S1</xref> in supporting information).</p><fig position="float" fig-type="FIGURE" id="alz71244-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Alzheimer's disease plasma biomarker levels by sex in cognitively unimpaired and cognitively impaired individuals. Box plots show median (horizontal bar), IQR (hinges), and 1.5 × IQR (whiskers). Asterisks indicate significant differences in plasma biomarker levels between men and women tested with an analysis of covariance adjusted for age, after false discovery rate multiple comparison correction. ** <italic toggle="yes">p </italic>&lt; 0.01; ***<italic toggle="yes">p </italic>&lt; 0.001. Aβ, amyloid beta; GFAP, glial fibrillary acidic protein; IQR, interquartile range; NfL, neurofilament light chain; p‐tau, phosphorylated tau</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-22-e71244-g001.jpg"/></fig><p>Sex differences in plasma Fujirebio and C2N Aβ42, Fujirebio p‐tau217/Aβ42 ratio, and GFAP in CU were maintained after further adjustment for BMI (Table <xref rid="alz71244-supinfo-0001" ref-type="">S1</xref>). Results also remained unchanged when accounting for the higher frequency of dyslipidemia observed in CU men (<italic toggle="yes">β</italic> = 0.24, <italic toggle="yes">p </italic>= 0.011 for C2N Aβ42; <italic toggle="yes">β</italic> = 0.19, <italic toggle="yes">p </italic>= 0.008 for Fujirebio Aβ42; <italic toggle="yes">β</italic> = −0.20, <italic toggle="yes">p </italic>= 0.006 for Fujirebio p‐tau217/Aβ42 ratio; <italic toggle="yes">β</italic> = 0.36, <italic toggle="yes">p </italic>&lt; 0.0001 for GFAP). In the CI group, the observed sex differences in plasma biomarkers were maintained after adjusting for BMI except for the nominal difference in C2N Aβ42/40 (<italic toggle="yes">p </italic>= 0.055; Table <xref rid="alz71244-supinfo-0001" ref-type="">S1</xref>).</p><p>Notably, sex did not modify the association of any plasma biomarker with <italic toggle="yes">APOE</italic> ε4 status or amyloid PET status, suggesting the observed differences in plasma biomarker levels are independent of these factors (Table <xref rid="alz71244-supinfo-0001" ref-type="">S2</xref> in supporting information).</p></sec><sec id="alz71244-sec-0150"><label>3.2</label><title>Sex differences in identifying amyloid PET–positive individuals</title><p>We evaluated whether the classification performance of core AD plasma biomarkers (Aβ42/40, p‐tau217, and p‐tau217/Aβ42) for identifying amyloid PET positivity differed by sex. First, a single optimal threshold for each biomarker was derived from the entire cohort. The performance of this common threshold was then assessed across the entire cohort, as well as separately within men and women, to determine whether the model performed similarly between sexes. We found no significant sex differences in the overall discriminative ability, as measured by the AUC, for any plasma biomarker in either the CU or CI groups (all DeLong test <italic toggle="yes">p</italic> &gt; 0.05; Figure <xref rid="alz71244-fig-0002" ref-type="fig">2</xref> and Tables <xref rid="alz71244-supinfo-0001" ref-type="">S3</xref> and <xref rid="alz71244-supinfo-0001" ref-type="">S4</xref> in supporting information).</p><fig position="float" fig-type="FIGURE" id="alz71244-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Core Alzheimer's disease plasma biomarkers’ performance to identify cognitively unimpaired and cognitively impaired amyloid PET‐positive individuals in the overall cohort and by sex. ROC analyses were conducted for the discrimination between amyloid PET‐positive and amyloid PET‐negative individuals in the entire sample and stratified by sex. AUC differences were tested using a two‐sided DeLong test. We determined the optimal threshold for the entire sample using the Youden index. To assess performance consistency, this common threshold was applied to men and women separately. At this threshold, we calculated accuracy, sensitivity, specificity, PPV, and NPV, with 95% CIs derived from 1000 bootstrap resamples. The error bars denote the 95% CIs. Sex differences in accuracy, sensitivity, and specificity were evaluated using the Pearson <italic toggle="yes">χ</italic>
+<sup>2</sup> test. PPV and NPV were compared using permutation tests (10,000 iterations). Amyloid PET positivity was established at 25 Centiloid. *<italic toggle="yes">p </italic>&lt; 0.05 compared to men; **<italic toggle="yes">p </italic>&lt; 0.01 compared to men. Aβ, amyloid beta; AUC, area under the curve; CI confidence interval; IQR, interquartile range; NPV, negative predictive value; PET, positron emission tomography; PPV, positive predictive value; p‐tau, phosphorylated tau; ROC, receiver operating characteristic</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-22-e71244-g002.jpg"/></fig><p>However, when applying the common, cohort‐derived optimal thresholds, we observed sex differences in specific classification metrics: among CU individuals, Fujirebio p‐tau217 demonstrated higher accuracy in women (80.8% in women vs. 71.6% in men; <italic toggle="yes">p </italic>= 0.011), which was driven by a higher specificity (80.8% in women vs. 66.3% in men; <italic toggle="yes">p </italic>= 0.001) and PPV (66.2% in women vs. 52.8% in men; <italic toggle="yes">p </italic>= 0.033), with comparable sensitivity (<italic toggle="yes">p </italic>= 0.79) and NPV (<italic toggle="yes">p </italic>= 0.85). This pattern was mirrored by the p‐tau217/Aβ42 ratio, which also showed significantly higher accuracy (83.1% vs. 76.0%; <italic toggle="yes">p </italic>= 0.033) and specificity (82.9% vs. 70.9%; <italic toggle="yes">p </italic>= 0.006) in women compared to men, with comparable sensitivity (<italic toggle="yes">p </italic>= 0.62; Figure <xref rid="alz71244-fig-0002" ref-type="fig">2</xref>; Table <xref rid="alz71244-supinfo-0001" ref-type="">S3</xref>). In contrast, among CI participants, the Fujirebio p‐tau217/Aβ42 ratio showed significantly lower specificity in women compared to men (87.3% vs. 95.7%; <italic toggle="yes">p </italic>= 0.042). No other significant sex‐based differences in classification performance were observed for any biomarker in this group (Figure <xref rid="alz71244-fig-0002" ref-type="fig">2</xref>; Table <xref rid="alz71244-supinfo-0001" ref-type="">S4</xref> in supporting information).</p><p>We next derived and applied sex‐specific optimal thresholds to determine whether this approach would mitigate the performance differences observed with the common cutoff (Tables <xref rid="alz71244-supinfo-0001" ref-type="">S5</xref> and <xref rid="alz71244-supinfo-0001" ref-type="">S6</xref> in supporting information). Within CU participants, the pattern of higher specificity and PPV in women for the Fujirebio assays remained such that Fujirebio p‐tau217 had a significantly higher specificity in women (86.8% in women vs. 59.3% in men, <italic toggle="yes">p </italic>&lt; 0.0001), as was PPV (73.3% in women vs. 50.7% in men, <italic toggle="yes">p </italic>= 0.0004). Notably, this was accompanied by lower sensitivity in women compared to men (78.0% vs. 92.3%, <italic toggle="yes">p </italic>= 0.015). Similarly, Fujirebio p‐tau217/Aβ42 ratio showed a higher accuracy (84.3% vs. 75.6%, <italic toggle="yes">p </italic>= 0.001), specificity (85.5% vs. 69.8%, <italic toggle="yes">p </italic>= 0.0002), and PPV (72.4% vs. 57.0%, <italic toggle="yes">p </italic>= 0.009) in women than in men (Table <xref rid="alz71244-supinfo-0001" ref-type="">S5</xref>). Within CI participants, several biomarkers demonstrated lower performance in women. The Fujirebio p‐tau217 and p‐tau217/Aβ42 ratio had significantly less specificity in women than in men (84.3% vs. 94.0%, <italic toggle="yes">p </italic>= 0.034; and 87.3% vs. 95.7%, <italic toggle="yes">p </italic>= 0.042, respectively). The C2N p‐tau217 assay was significantly less accurate (67.3% vs. 86.8%, <italic toggle="yes">p </italic>= 0.006), less sensitive (60.5% vs. 85.1%, <italic toggle="yes">p </italic>= 0.002), and had a significantly lower NPV (37.0% vs. 68.8%, <italic toggle="yes">p </italic>= 0.003) in women compared to men (Table <xref rid="alz71244-supinfo-0001" ref-type="">S6</xref>).</p><p>Next, we evaluated performance using a two‐cutoff approach, in which thresholds for positivity and negativity were derived from the entire cohort and then applied to men and women separately (Tables <xref rid="alz71244-supinfo-0001" ref-type="">S7</xref> and <xref rid="alz71244-supinfo-0001" ref-type="">S8</xref> in supporting information). Within CU participants, this analysis showed a similar pattern to the single‐cutoff approach. The Fujirebio p‐tau217/Aβ42 ratio demonstrated higher accuracy (88.9% vs. 82.6%, <italic toggle="yes">p </italic>= 0.022), specificity (91.8% vs. 80.5%, <italic toggle="yes">p </italic>= 0.006), and PPV (81.0% vs. 63.8%, <italic toggle="yes">p </italic>= 0.026) in women compared to men, though the differences were not statistically significant for p‐tau217 alone (Table <xref rid="alz71244-supinfo-0001" ref-type="">S7</xref>). In CI participants (Table <xref rid="alz71244-supinfo-0001" ref-type="">S8</xref>), the Fujirebio p‐tau217/Aβ42 ratio had a significantly lower specificity in women than in men (86.1% vs. 94.8%, <italic toggle="yes">p </italic>= 0.048). No other statistically significant sex differences were observed. The proportion of cases classified as intermediate did not significantly differ between sexes in either cognitive group.</p><p>Finally, we derived and applied two‐cutoff models that were optimized separately for each sex (Tables <xref rid="alz71244-supinfo-0001" ref-type="">S9</xref> and <xref rid="alz71244-supinfo-0001" ref-type="">S10</xref> in supporting information). There were no significant sex differences in classification performance parameters in CU (Table <xref rid="alz71244-supinfo-0001" ref-type="">S9</xref>) or CI groups (Table <xref rid="alz71244-supinfo-0001" ref-type="">S10</xref>). However, a significantly higher proportion of women were classified as “intermediate” compared to men for several key biomarkers. Specifically, in CU individuals, this was observed for the C2N Aβ42/40 ratio (63.8% in women vs. 29.9% in men, <italic toggle="yes">p </italic>&lt; 0.0001). In CI individuals, a higher proportion of women were classified as intermediate for the Fujirebio Aβ42/40 (53.8% in women vs. 43.6% in men, <italic toggle="yes">p </italic>= 0.008) and p‐tau217/Aβ42 (5.2% in women vs. 0.5% in men, <italic toggle="yes">p </italic>&lt; 0.0001), as well as for C2N p‐tau217 (35.3% in women vs. 6.4% in men, <italic toggle="yes">p </italic>&lt; 0.0001).</p></sec><sec id="alz71244-sec-0160"><label>3.3</label><title>Sex differences in the association of plasma biomarker–based amyloid PET positivity with cognitive trajectories</title><p>For individuals with available plasma biomarkers and subsequent longitudinal cognitive data, we tested whether a positive core AD plasma biomarker status indicative of amyloid PET positivity (plasma Aβ42/40, p‐tau217, and p‐tau217/Aβ42) was associated with faster rates of cognitive decline and whether this association was modified by sex. For reference, the analysis was also performed using amyloid PET positivity stratification. Characteristics of participants with longitudinal cognitive data at their first plasma visit are shown in Tables <xref rid="alz71244-supinfo-0001" ref-type="">S11</xref> and <xref rid="alz71244-supinfo-0001" ref-type="">S12</xref> in supporting information. Among the 504 CU individuals with Fujirebio plasma biomarkers, 101 (20.0%) progressed to CI by their last follow‐up visit, including 55 men (25.2%) and 46 women (16.1%). Among the 222 CU individuals with C2N plasma biomarkers, 39 (17.6%) progressed to CI including 18 men (18.0%) and 21 women (17.2%).</p><p>In the whole CU sample, a positive status for amyloid PET, the Fujirebio p‐tau217/Aβ42 ratio, and Fujirebio and C2N p‐tau217 in plasma were associated with a greater decline on the mPACC over time (Table <xref rid="alz71244-supinfo-0001" ref-type="">S13</xref> in supporting information). Crucially, we found a significant three‐way interaction among biomarker status, sex, and time for both Fujirebio p‐tau217 (<italic toggle="yes">p </italic>= 0.003) and C2N p‐tau217 (<italic toggle="yes">p </italic>= 0.004), and the Fujirebio p‐tau217/Aβ42 ratio (<italic toggle="yes">p </italic>= 0.0009; Figure <xref rid="alz71244-fig-0003" ref-type="fig">3</xref> and Table <xref rid="alz71244-supinfo-0001" ref-type="">S13</xref>). Post hoc sex‐stratified analyses showed that a positive status on these plasma biomarkers was associated with a decline only in women (Fujirebio p‐tau217: <italic toggle="yes">β</italic> = −0.72, <italic toggle="yes">p </italic>&lt; 0.0001 in women and <italic toggle="yes">β</italic> = −0.18, <italic toggle="yes">p </italic>= 0.23 in men; C2N p‐tau217: <italic toggle="yes">β</italic> = −0.63, <italic toggle="yes">p </italic>= 0.0006 in women and <italic toggle="yes">β</italic> = 0.17, <italic toggle="yes">p </italic>= 0.39 in men; p‐tau217/Aβ42 ratio: <italic toggle="yes">β</italic> = −0.79, <italic toggle="yes">p </italic>&lt; 0.0001 in women and <italic toggle="yes">β</italic> = −0.15, <italic toggle="yes">p </italic>= 0.31 in men; Table <xref rid="alz71244-supinfo-0001" ref-type="">S13</xref>). Similarly, amyloid PET positivity was also significantly associated with mPACC decline in women (<italic toggle="yes">β</italic> = −0.92, <italic toggle="yes">p </italic>&lt; 0.0001) and not in men (<italic toggle="yes">β</italic> = −0.49, <italic toggle="yes">p </italic>= 0.17) in stratified analyses, although the interaction term was not significant (<italic toggle="yes">p </italic>= 0.12). In sensitivity analyses including GFAP as a covariate, the sex interaction remained statistically significant for Fujirebio p‐tau217 and p‐tau217/Aβ42 (<italic toggle="yes">β</italic> = −0.59, <italic toggle="yes">p </italic>= 0.002 and <italic toggle="yes">β</italic> = −0.64, <italic toggle="yes">p </italic>= 0.0006, respectively). These analyses could not be performed for C2N p‐tau217 due to the low number (<italic toggle="yes">n</italic> = 32) of CU individuals with concurrent Quanterix biomarkers. Similarly, further adjusting the models for BMI did not alter these results (<italic toggle="yes">β</italic> = −0.58, <italic toggle="yes">p </italic>= 0.002 for Fujirebio p‐tau217; <italic toggle="yes">β</italic> = −0.63, <italic toggle="yes">p </italic>= 0.0009 for Fujirebio p‐tau217/Aβ42; <italic toggle="yes">β</italic> = −0.81, <italic toggle="yes">p </italic>= 0.002 for C2N p‐tau217).</p><fig position="float" fig-type="FIGURE" id="alz71244-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Association of core Alzheimer's disease plasma biomarker status with cognitive trajectories by sex. Longitudinal trajectories of mPACC scores (for CU individuals) or CDR‐SB (for CI individuals) by sex and plasma biomarker status. Each line connects multiple observations from the same individual. Participants were classified as plasma biomarker positive or negative using binary cutoffs derived from the entire sample. Linear mixed effects models with random intercepts and slopes were fitted. <italic toggle="yes">p</italic> values for the three‐way interaction among sex, time, and biomarker group are shown. Models were adjusted for the interactions of time with age, <italic toggle="yes">APOE</italic> ε4 status, and education attainment. Asterisks (*) indicate statistical significance after FDR correction for multiple comparisons. AD, Alzheimer's disease; <italic toggle="yes">APOE</italic>, apolipoprotein E; CDR‐SB, Clinical Dementia Rating Sum of Boxes; CI, cognitively impaired; CU, cognitively unimpaired; FDR, false discovery rate; mPACC, modified Preclinical Alzheimer Cognitive Composite</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-22-e71244-g003.jpg"/></fig><p>In the whole CI sample (Table <xref rid="alz71244-supinfo-0001" ref-type="">S14</xref> in supporting information), a positive status for amyloid PET and for all plasma biomarkers was associated with a steeper decline on the CDR‐SB over time. Unlike in the CU group, there were no significant interactions with sex (all <italic toggle="yes">p </italic>&gt; 0.05), with biomarkers being associated with cognitive decline similarly in men and women in the CI stage (Figure <xref rid="alz71244-fig-0003" ref-type="fig">3</xref> and Table <xref rid="alz71244-supinfo-0001" ref-type="">S14</xref>). Using ADAS‐Cog 13 as cognitive outcome in the CI group rendered very similar results (Table <xref rid="alz71244-supinfo-0001" ref-type="">S15</xref> in supporting information). Finally, sensitivity analyses restricted to participants with MCI (CDR = 0.5) yielded results consistent with the primary analyses, confirming that findings in the CI group were not driven by the inclusion of individuals with dementia (Tables <xref rid="alz71244-supinfo-0001" ref-type="">S16</xref> and <xref rid="alz71244-supinfo-0001" ref-type="">S17</xref> in supporting information).</p></sec></sec><sec id="alz71244-sec-0170"><label>4</label><title>DISCUSSION</title><p>In this study, we assessed sex differences in AD plasma biomarker levels, and their clinical utility in CU and CI ADNI individuals. Our main findings were: (1) plasma GFAP was higher in women across both CU and CI individuals. In the CU group, men showed lower Aβ42 and higher p‐tau217/Aβ42 ratio, whereas in CI individuals, p‐tau217 and p‐tau217/Aβ42 were higher in women. (2) Despite similar overall classification performance, classification metrics differed by sex particularly for p‐tau217 and p‐tau217/Aβ42, and differences depended on clinical disease stage. (3) In CU individuals, plasma p‐tau217 and p‐tau217/Aβ42‐based amyloid positivity was predictive of cognitive decline only in women, while no sex differences in the plasma biomarkers’ association with cognitive decline were observed in CI individuals.</p><p>Our study revealed significant sex differences in plasma biomarker levels. Plasma GFAP concentrations were consistently higher in women than in men across both CU and CI groups. This finding aligns with previous reports<xref rid="alz71244-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz71244-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz71244-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> and may reflect sex differences in astrocytic responses to amyloid pathology, which could influence downstream tau accumulation.<xref rid="alz71244-bib-0065" ref-type="bibr">
+<sup>65</sup>
+</xref>, <xref rid="alz71244-bib-0066" ref-type="bibr">
+<sup>66</sup>
+</xref>, <xref rid="alz71244-bib-0067" ref-type="bibr">
+<sup>67</sup>
+</xref> Other differences in plasma biomarker levels were found that depended on disease stage. In CU individuals, both Fujirebio and C2N plasma Aβ42 were lower in men; however, the absence of a lower Aβ42/40 ratio or higher amyloid PET burden in men suggests that this difference may reflect variability in Aβ42 production, clearance, or on peripheral factors influencing Aβ42 plasma levels rather than amyloid deposition.<xref rid="alz71244-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref>, <xref rid="alz71244-bib-0068" ref-type="bibr">
+<sup>68</sup>
+</xref> Notably, because p‐tau217 did not differ by sex in CU individuals, the higher Fujirebio p‐tau217/Aβ42 ratio observed in men was likely driven by lower Aβ42. In CI individuals, all plasma p‐tau217 measures were higher in women, a finding that is consistent with reports of greater tau pathology burden and more advanced disease stage in women compared to men.<xref rid="alz71244-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="alz71244-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="alz71244-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>, <xref rid="alz71244-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="alz71244-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>, <xref rid="alz71244-bib-0069" ref-type="bibr">
+<sup>69</sup>
+</xref> This pattern is further supported by the higher mesial‐temporal tau PET signal observed in women across both cognitive groups. However, among CU individuals, this higher regional tau burden did not yet appear to be reflected in plasma biomarker levels, which may be explained by plasma p‐tau217 being more tightly linked to amyloid than tau pathology in CU individuals.<xref rid="alz71244-bib-0070" ref-type="bibr">
+<sup>70</sup>
+</xref>, <xref rid="alz71244-fig-0001" ref-type="fig"> </xref>, <xref rid="alz71244-fig-0002" ref-type="fig"> </xref>, <xref rid="alz71244-fig-0003" ref-type="fig"> </xref>
+</p><p>Observed sex differences in plasma biomarker levels were not explained by differences in BMI or in prevalence of comorbidities,<xref rid="alz71244-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>, <xref rid="alz71244-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, <xref rid="alz71244-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>, <xref rid="alz71244-bib-0071" ref-type="bibr">
+<sup>71</sup>
+</xref> suggesting the presence of intrinsic biological differences between sexes for these biomarkers. Furthermore, sex‐related differences in blood–brain barrier (BBB) integrity or transport mechanisms may also contribute to observed variations in plasma biomarker levels. Although direct measures of BBB function were not available in this study, future research should assess its role as a potential biological modifier of plasma biomarker concentrations.</p><p>Next, we evaluated sex differences in the performance of core AD plasma biomarkers to identify amyloid PET positivity, a critical question for their use in clinical trials. While the overall classification performance (AUC) did not differ between sexes, key performance metrics varied by sex and disease stage. Specifically, for Fujirebio p‐tau217 and its ratio with Aβ42, classification accuracy was higher in CU women (driven by greater specificity and PPV), whereas the opposite was true in CI individuals, in which men showed higher specificity. These differences persisted even after applying sex‐optimized cutoffs, suggesting they are not fully explained by differences in biomarker levels and may reflect more complex biological interactions. Although a two‐cutoff approach attenuated these differences, it resulted in a larger “intermediate” range for women, pointing to greater biological variability or overlap in biomarker distributions. Overall, while sex‐specific cutoffs may not be necessary, these findings have important implications. Using a unified cutoff in prevention trials may lead to a higher rate of false‐positive classifications in CU men; however, in trials for symptomatic individuals, the same approach could result in more false positives among women, potentially impacting the assessment of treatment efficacy.</p><p>Finally, we examined whether the association between plasma biomarker–based amyloid positivity stratification and rates of cognitive decline differed by sex. We applied uniform thresholds for this analysis because our data‐driven derivation of sex‐specific cutoffs did not indicate a consistently higher threshold was necessary for men or women. Furthermore, applying arbitrarily different thresholds by sex would restrict the sample to those with the highest pathological burden, potentially confounding the analysis by selecting for disease severity rather than sex‐specific biology. Among CU individuals, a positive biomarker status for Fujirebio p‐tau217, p‐tau217/Aβ42, and C2N p‐tau217 was associated with faster decline in mPACC over time, specifically in women. A similar trend was observed for amyloid PET status, although the three‐way interaction among sex, time, and amyloid PET status did not reach statistical significance. These findings suggest greater vulnerability to downstream effects of AD pathology, particularly p‐tau–related processes, even at preclinical stages. The higher tau PET burden observed in CU women may further contribute to this faster cognitive decline. It is worth noting that while higher BMI in late life has been associated with paradoxical protective effects on cognition, particularly in women,<xref rid="alz71244-bib-0063" ref-type="bibr">
+<sup>63</sup>
+</xref> BMI did not differ between sexes in our CU sample (<italic toggle="yes">p </italic>= 0.72). Furthermore, sensitivity analyses confirmed that the sex‐specific prognostic value of plasma biomarkers remained robust after adjusting for BMI or baseline plasma GFAP concentration, indicating that neither the BMI paradox nor higher GFAP levels in women are likely to drive our findings. Future studies with larger sample sizes could further explore potential synergistic interactions among amyloid, tau, and astrocytic biomarkers in a sex‐dependent manner. In contrast, in CI individuals, a positive plasma biomarker status was associated with a similar rate of cognitive decline in women and men, despite higher p‐tau levels in women. This pattern suggests that once a certain pathological burden is reached, cognitive decline progresses at a comparable rate across sexes.</p><p>Remarkably, results were consistent across CDR‐SB and ADAS‐Cog13, the most widely used cognitive outcomes in clinical trials. The fact that these results were observed for p‐tau217 biomarkers and not for Aβ42/40 is consistent with previous literature supporting a tighter association of tau biomarkers with cognitive decline,<xref rid="alz71244-bib-0072" ref-type="bibr">
+<sup>72</sup>
+</xref>, <xref rid="alz71244-bib-0073" ref-type="bibr">
+<sup>73</sup>
+</xref>, <xref rid="alz71244-bib-0074" ref-type="bibr">
+<sup>74</sup>
+</xref>, <xref rid="alz71244-bib-0075" ref-type="bibr">
+<sup>75</sup>
+</xref> as well as higher tau vulnerability among women.<xref rid="alz71244-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="alz71244-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="alz71244-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="alz71244-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> Consistent with our findings, previous studies on tau PET have reported stronger tau‐related cognitive decline in CU women,<xref rid="alz71244-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="alz71244-bib-0076" ref-type="bibr">
+<sup>76</sup>
+</xref> and a recent study found a female‐specific association between plasma p‐tau217 and cognitive and brain atrophy trajectories specifically in CU individuals.<xref rid="alz71244-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> Our results extend these observations in a larger ADNI sample and across multiple AD plasma biomarkers.</p><p>Strengths of our study include being the first to comprehensively examine sex differences in key AD plasma biomarkers and their impact on biomarker performance in clinical trial contexts, leveraging the large and well‐characterized ADNI cohort. Inclusion of two major analytical platforms (Fujirebio and C2N) adds robustness and generalizability to our findings. While sample sizes for C2N biomarkers were smaller than for Fujirebio, the strong agreement observed between these platforms in our study and others<xref rid="alz71244-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> supports the robustness of our sex‐specific findings across different assays. Moreover, we applied a comprehensive analytical framework to assess sex differences in classification performance beyond simple stratification, by testing whether a unified cutoff performed differently by sex and by further evaluating sex‐optimized models. However, our study has several limitations that should be acknowledged. First, although we did adjust our analyses for BMI or comorbidities when sex differences were present, information on certain comorbid conditions such as diabetes, dyslipidemia, and chronic kidney disease was obtained at study entry rather than at the time of plasma biomarker collection. Due to the lack of concurrent data at plasma collection, we could not explore additional peripheral factors potentially influencing plasma levels, such as kidney function. Second, plasma biomarker cutoffs were optimized for amyloid PET positivity, introducing a degree of circularity in the classification accuracy analyses. Third, mPACC and ADAS‐Cog are heavily weighted toward verbal memory measures. Given the well‐established female advantage in verbal domains, they may effectively mask early cognitive deficits.<xref rid="alz71244-bib-0077" ref-type="bibr">
+<sup>77</sup>
+</xref> Consequently, the steeper decline observed in biomarker‐positive CU women might reflect a rapid deterioration occurring once this verbal cognitive reserve is exhausted. Future studies incorporating non‐verbal memory measures are needed to fully disentangle these domain‐specific sex differences.</p><p>In summary, we comprehensively studied potential sex differences in the levels and utility of main AD plasma biomarkers and found that they differ by sex and disease stage, particularly for p‐tau217 or p‐tau217/Aβ42. Although our findings indicate that implementing sex‐specific biomarker cutoffs does not significantly improve identification of amyloid PET positivity, sex remains a critical biological variable. Among CU individuals, higher specificity and PPV in women, together with the stronger association between biomarker positivity and subsequent cognitive decline, suggest that women may be more reliably identified as at risk of AD using current markers. In contrast, among CI participants, amyloid PET positivity classification accuracy appeared slightly higher in men, and biomarker positivity predicted cognitive decline similarly in men and women. These results highlight that while diagnostic thresholds may remain uniform, consideration of sex differences, particularly in preclinical and prodromal populations, is essential to optimize trial recruitment, improve sensitivity to treatment effects, and enhance clinical interpretation of plasma biomarker results.</p></sec><sec sec-type="COI-statement" id="alz71244-sec-0190"><title>CONFLICT OF INTEREST STATEMENT</title><p>M.M.A. reports support for the present manuscript from the Alzheimer's Association Research Fellowship (AARF‐23‐1141384). I.H. reports support for the present manuscript from the National Institute on Aging. A.M., C.S., and ADNI report no conflicts of interest. P.T. reports support for the present manuscript via an NIH grant to their institution. L.M.S. reports grants from NIA/NIH (P30 AG072979; U19 <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="AG024904">AG024904</ext-link>; R01 AG06) and the Department of Defense (W81XWH2211081‐B) paid to their institution. L.M.S. also reports consulting fees and honoraria for lectures from Biogen and Roche, as well as in‐kind support (reagents/equipment) from Fujirebio and Roche for the ADNI4 study paid to their institution. M.W.W. reports institutional research support from NIH, Department of Defense, California Department of Public Health, Siemens, Biogen, Hillblom Foundation, Alzheimer's Association, Johnson &amp; Johnson, Kevin and Connie Shanahan, GE, VUmc, Australian Catholic University, The Stroke Foundation, and the Veterans Administration. M.W.W. reports consulting fees from Acadia Pharmaceuticals, Acumen Pharmaceuticals, Boxer Capital, BrightFocus Foundation, Cerecin, Clario/BioClinica, Dementia Society of Japan, Eisai, Guidepoint, Health and Wellness Partners, Indiana University, LCN Consulting, Merck Sharp &amp; Dohme Corp., Duke University, Owkin France, NovoNordisk, ProMIS Neurosciences, Prova Education, Sai Med Partners, T3D Therapeutics, USC, WebMD, MEDA Corp., Quantum Leap Health, REGENLIFE, GLG Consulting, and IXICO. He reports honoraria and/or travel support from the China Association for Alzheimer's Disease, Taipei Medical University, Cleveland Clinic, Banner Health, AD/PD Congress, Foundation of Learning, Health Society (Japan), INSPIRE Project (U. Toulouse), Japan Society for Dementia Research, Korean Dementia Society, National Center for Geriatrics and Gerontology (Japan), and University of Wisconsin Madison. He serves on advisory boards/committees for ADNI, UCSF, ProMIS Neurosciences, Acumen Pharmaceuticals, and Duke University. He holds stock/options in Alzeca, Alzheon, Inc., ALZPath, and Anven. D.T. reports NIH grants paid to their institution; grants from the Michael J. Fox Foundation (MJFF); consulting fees from Alzheon, Veravas, and Roche; and honoraria from NIH, MJFF, and Aligning Science Across Parkinson's (ASAP). Author disclosures are available in the <xref rid="alz71244-supinfo-0001" ref-type="">supporting information</xref>.</p></sec><sec id="alz71244-sec-0200"><title>CONSENT STATEMENT</title><p>Written informed consent was obtained from each participant or their legally authorized representative.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz71244-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz71244-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71244-s001.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz71244-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71244-s002.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz71244-sec-0180"><title>ACKNOWLEDGMENTS</title><p>We would like to acknowledge ADNI for ADNI participant data analyzed in this study. Data collection and sharing for the ADNI is funded by the National Institute on Aging (National Institutes of Health Grant U19 AG024904). The grantee organization is the Northern California Institute for Research and Education. In the past, ADNI has also received funding from the National Institute of Biomedical Imaging and Bioengineering, the Canadian Institutes of Health Research, and private sector contributions through the Foundation for the National Institutes of Health (FNIH) including generous contributions from the following: AbbVie; Alzheimer's Association; Alzheimer's Drug Discovery Foundation; Araclon Biotech; BioClinica, Inc.; Biogen; Bristol‐Myers Squibb Company; CereSpir, Inc.; Cogstate; Eisai Inc.; Elan Pharmaceuticals, Inc.; Eli Lilly and Company; EuroImmun; F. Hoffmann‐La Roche Ltd and its affiliated company Genentech, Inc.; Fujirebio; GE Healthcare; IXICO Ltd.; Janssen Alzheimer Immunotherapy Research &amp; Development, LLC; Johnson &amp; Johnson Pharmaceutical Research &amp; Development LLC; Lumosity; Lundbeck; Merck &amp; Co., Inc.; Meso Scale Diagnostics, LLC; NeuroRx Research; Neurotrack Technologies; Novartis Pharmaceuticals Corporation; Pfizer Inc.; Piramal Imaging; Servier; Takeda Pharmaceutical Company Limited; and Transition Therapeutics. Data used in the preparation of this article were obtained from the ADNI database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in the analysis or writing of this report. A complete listing of ADNI investigators can be found at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf" ext-link-type="uri">http://adni.loni.usc.edu/wp‐content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf</ext-link>.M.M.A. receives funding from Alzheimer's Association Research Fellowship grant program (AARF‐23‐1141384). This work was supported by National Institutes of Health (NIH) grants (U19 AG024904, R01 AG091657, U01 AG068057, and U24 AG074855) to D.T.</p></ack><ref-list id="alz71244-bibl-0001"><title>REFERENCES</title><ref id="alz71244-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz71244-cite-0002">
+<string-name name-style="western">
+<surname>Hansson</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dage</surname>
+<given-names>J</given-names>
+</string-name>, <article-title>Blood biomarkers for Alzheimer's disease in clinical practice and trials</article-title>. <source>Nat Aging</source>. <year>2023</year>;<volume>3</volume>(<issue>5</issue>):<fpage>506</fpage>‐<lpage>519</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s43587-023-00403-3</pub-id>
+<pub-id pub-id-type="pmid">37202517</pub-id>
+<pub-id pub-id-type="pmcid">PMC10979350</pub-id></mixed-citation></ref><ref id="alz71244-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz71244-cite-0003">
+<string-name name-style="western">
+<surname>Jack</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andrews</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beach</surname>
+<given-names>TG</given-names>
+</string-name>, et al. <article-title>Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's association workgroup</article-title>. <source>Alzheimers Dement</source>. <year>2024</year>;<volume>20</volume>(<issue>8</issue>):<fpage>5143</fpage>‐<lpage>5169</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alz.13859</pub-id>
+<pub-id pub-id-type="pmid">38934362</pub-id>
+<pub-id pub-id-type="pmcid">PMC11350039</pub-id></mixed-citation></ref><ref id="alz71244-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz71244-cite-0004">
+<string-name name-style="western">
+<surname>Zicha</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bateman</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>LM</given-names>
+</string-name>, et al. <article-title>Comparative analytical performance of multiple plasma Aβ42 and Aβ40 assays and their ability to predict positron emission tomography amyloid positivity</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>3</issue>):<fpage>956</fpage>‐<lpage>966</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alz.12697</pub-id>
+<pub-id pub-id-type="pmid">35820077</pub-id>
+<pub-id pub-id-type="pmcid">PMC10518222</pub-id></mixed-citation></ref><ref id="alz71244-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz71244-cite-0005">
+<string-name name-style="western">
+<surname>Janelidze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bali</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ashton</surname>
+<given-names>NJ</given-names>
+</string-name>, et al. <article-title>Head‐to‐head comparison of 10 plasma phospho‐tau assays in prodromal Alzheimer's disease</article-title>. <source>Brain</source>. <year>2023</year>;<volume>146</volume>(<issue>4</issue>):<fpage>1592</fpage>‐<lpage>1601</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/awac333</pub-id>
+<pub-id pub-id-type="pmid">36087307</pub-id>
+<pub-id pub-id-type="pmcid">PMC10115176</pub-id></mixed-citation></ref><ref id="alz71244-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz71244-cite-0006">
+<string-name name-style="western">
+<surname>Schindler</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>KK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saef</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Head‐to‐head comparison of leading blood tests for Alzheimer's disease pathology</article-title>. <source>Alzheimers Dement</source>. <year>2024</year>;<volume>20</volume>(<issue>11</issue>):<fpage>8074</fpage>‐<lpage>8096</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alz.14315</pub-id>
+<pub-id pub-id-type="pmid">39394841</pub-id>
+<pub-id pub-id-type="pmcid">PMC11567821</pub-id></mixed-citation></ref><ref id="alz71244-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz71244-cite-0007">
+<string-name name-style="western">
+<surname>Milà‐Alomà</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ashton</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shekari</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Plasma p‐tau231 and p‐tau217 as state markers of amyloid‐β pathology in preclinical Alzheimer's disease</article-title>. <source>Nat Med</source>. <year>2022</year>;<volume>28</volume>(<issue>9</issue>):<fpage>1797</fpage>‐<lpage>1801</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41591-022-01925-w</pub-id>
+<pub-id pub-id-type="pmid">35953717</pub-id>
+<pub-id pub-id-type="pmcid">PMC9499867</pub-id></mixed-citation></ref><ref id="alz71244-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz71244-cite-0008">
+<string-name name-style="western">
+<surname>Lehmann</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gabelle</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duchiron</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Comparative performance of plasma pTau181/Aβ42, pTau217/Aβ42 ratios, and individual measurements in detecting brain amyloidosis</article-title>. <source>EBioMedicine</source>. <year>2025</year>;<volume>117</volume>:<elocation-id>105805</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.ebiom.2025.105805</pub-id>
+<pub-id pub-id-type="pmid">40513421</pub-id>
+<pub-id pub-id-type="pmcid">PMC12192541</pub-id></mixed-citation></ref><ref id="alz71244-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz71244-cite-0009">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lan</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Diagnostic accuracy of plasma p‐tau217/Aβ42 for Alzheimer's disease in clinical and community cohorts</article-title>. <source>Alzheimers Dement</source>. <year>2025</year>;<volume>21</volume>(<issue>3</issue>):<elocation-id>e70038</elocation-id>. doi:<pub-id pub-id-type="doi">10.1002/alz.70038</pub-id>
+<pub-id pub-id-type="pmid">40156286</pub-id>
+<pub-id pub-id-type="pmcid">PMC11953589</pub-id></mixed-citation></ref><ref id="alz71244-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz71244-cite-0010">
+<string-name name-style="western">
+<surname>Niimi</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Janelidze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sato</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Combining plasma Aβ and p‐tau217 improves detection of brain amyloid in non‐demented elderly</article-title>. <source>Alzheimers Res Ther</source>. <year>2024</year>;<volume>16</volume>(<issue>1</issue>):<fpage>115</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13195-024-01469-w</pub-id>
+<pub-id pub-id-type="pmid">38778353</pub-id>
+<pub-id pub-id-type="pmcid">PMC11112892</pub-id></mixed-citation></ref><ref id="alz71244-bib-0010"><label>10</label><mixed-citation publication-type="miscellaneous" id="alz71244-cite-0011">
+<collab collab-type="authors">C<sub>2</sub>N Diagnotics</collab>
+. <article-title>C2N submits US FDA regulatory filing for its Alzheimer's disease blood test</article-title>. <italic toggle="yes">Precivity</italic>, October 1, 2025. Accessed October 7, 2025. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://precivityad.com/news/c2n-submits-us-fda-regulatory-filing-for-its-alzheimers-disease-blood-test" ext-link-type="uri">https://precivityad.com/news/c2n‐submits‐us‐fda‐regulatory‐filing‐for‐its‐alzheimers‐disease‐blood‐test</ext-link>
+</mixed-citation></ref><ref id="alz71244-bib-0011"><label>11</label><mixed-citation publication-type="miscellaneous" id="alz71244-cite-0012">
+<collab collab-type="authors">U.S. Food &amp; Drug Administration</collab>
+. <article-title>FDA clears first blood test used in diagnosing Alzheimer's disease</article-title>. <italic toggle="yes">FDA News Release</italic>. May 16, 2025. Accessed October 7, 2025. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease" ext-link-type="uri">https://www.fda.gov/news‐events/press‐announcements/fda‐clears‐first‐blood‐test‐used‐diagnosing‐alzheimers‐disease</ext-link>
+</mixed-citation></ref><ref id="alz71244-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz71244-cite-0013">
+<string-name name-style="western">
+<surname>Meyer</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirmess</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eastwood</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Clinical validation of the PrecivityAD<sub>2</sub> blood test: a mass spectrometry‐based test with algorithm combining %p‐tau217 and Aβ42/40 ratio to identify presence of brain amyloid</article-title>. <source>Alzheimers Dement</source>. <year>2024</year>;<volume>20</volume>(<issue>5</issue>):<fpage>3179</fpage>‐<lpage>3192</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.13764" ext-link-type="uri">10.1002/alz.13764</ext-link>
+<pub-id pub-id-type="pmid">38491912</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13764</pub-id><pub-id pub-id-type="pmcid">PMC11095426</pub-id></mixed-citation></ref><ref id="alz71244-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz71244-cite-0014">
+<string-name name-style="western">
+<surname>Benedet</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milà‐Alomà</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vrillon</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Differences between plasma and cerebrospinal fluid glial fibrillary acidic protein levels across the Alzheimer disease continuum</article-title>. <source>JAMA Neurol</source>. <year>2021</year>;<volume>78</volume>(<issue>12</issue>):<fpage>1471</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2021.3671" ext-link-type="uri">10.1001/jamaneurol.2021.3671</ext-link>
+<pub-id pub-id-type="pmid">34661615</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2021.3671</pub-id><pub-id pub-id-type="pmcid">PMC8524356</pub-id></mixed-citation></ref><ref id="alz71244-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz71244-cite-0015">
+<string-name name-style="western">
+<surname>Chatterjee</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pedrini</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stoops</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Plasma glial fibrillary acidic protein is elevated in cognitively normal older adults at risk of Alzheimer's disease</article-title>. <source>Transl Psychiatry</source>. <year>2021</year>;<volume>11</volume>(<issue>1</issue>):<fpage>27</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41398-020-01137-1" ext-link-type="uri">10.1038/s41398‐020‐01137‐1</ext-link>
+<pub-id pub-id-type="pmid">33431793</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41398-020-01137-1</pub-id><pub-id pub-id-type="pmcid">PMC7801513</pub-id></mixed-citation></ref><ref id="alz71244-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz71244-cite-0016">
+<string-name name-style="western">
+<surname>Pereira</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Janelidze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Plasma GFAP is an early marker of amyloid‐β but not tau pathology in Alzheimer's disease</article-title>. <source>Brain</source>. <year>2021</year>;<volume>144</volume>(<issue>11</issue>):<fpage>3505</fpage>‐<lpage>3516</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/brain/awab223" ext-link-type="uri">10.1093/brain/awab223</ext-link>
+<pub-id pub-id-type="pmid">34259835</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awab223</pub-id><pub-id pub-id-type="pmcid">PMC8677538</pub-id></mixed-citation></ref><ref id="alz71244-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz71244-cite-0017">
+<string-name name-style="western">
+<surname>Mattsson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cullen</surname>
+<given-names>NC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andreasson</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, <article-title>Association between longitudinal plasma neurofilament light and neurodegeneration in patients with Alzheimer disease</article-title>. <source>JAMA Neurol</source>. <year>2019</year>;<volume>76</volume>(<issue>7</issue>):<fpage>791</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2019.0765" ext-link-type="uri">10.1001/jamaneurol.2019.0765</ext-link>
+<pub-id pub-id-type="pmid">31009028</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2019.0765</pub-id><pub-id pub-id-type="pmcid">PMC6583067</pub-id></mixed-citation></ref><ref id="alz71244-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz71244-cite-0018">
+<string-name name-style="western">
+<surname>Ashton</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Janelidze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al Khleifat</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>A multicentre validation study of the diagnostic value of plasma neurofilament light</article-title>. <source>Nat Commun</source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>3400</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41467-021-23620-z" ext-link-type="uri">10.1038/s41467‐021‐23620‐z</ext-link>
+<pub-id pub-id-type="pmid">34099648</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-021-23620-z</pub-id><pub-id pub-id-type="pmcid">PMC8185001</pub-id></mixed-citation></ref><ref id="alz71244-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz71244-cite-0019">
+<string-name name-style="western">
+<surname>Ferretti</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iulita</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cavedo</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Sex differences in Alzheimer disease—the gateway to precision medicine</article-title>. <source>Nat Rev Neurol</source>. <year>2018</year>;<volume>14</volume>(<issue>8</issue>):<fpage>457</fpage>‐<lpage>469</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41582-018-0032-9" ext-link-type="uri">10.1038/s41582‐018‐0032‐9</ext-link>
+<pub-id pub-id-type="pmid">29985474</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41582-018-0032-9</pub-id></mixed-citation></ref><ref id="alz71244-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz71244-cite-0020">
+<string-name name-style="western">
+<surname>Nebel</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aggarwal</surname>
+<given-names>NT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barnes</surname>
+<given-names>LL</given-names>
+</string-name>, et al. <article-title>Understanding the impact of sex and gender in Alzheimer's disease: a call to action</article-title>. <source>Alzheimers Dement</source>. <year>2018</year>;<volume>14</volume>(<issue>9</issue>):<fpage>1171</fpage>‐<lpage>1183</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.jalz.2018.04.008" ext-link-type="uri">10.1016/j.jalz.2018.04.008</ext-link>
+<pub-id pub-id-type="pmid">29907423</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2018.04.008</pub-id><pub-id pub-id-type="pmcid">PMC6400070</pub-id></mixed-citation></ref><ref id="alz71244-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz71244-cite-0021">
+<string-name name-style="western">
+<surname>Altmann</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tian</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Henderson</surname>
+<given-names>VW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greicius</surname>
+<given-names>MD</given-names>
+</string-name>, <article-title>Sex modifies the APOE‐related risk of developing Alzheimer disease</article-title>. <source>Ann Neurol</source>. <year>2014</year>;<volume>75</volume>(<issue>4</issue>):<fpage>563</fpage>‐<lpage>573</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/ana.24135" ext-link-type="uri">10.1002/ana.24135</ext-link>
+<pub-id pub-id-type="pmid">24623176</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.24135</pub-id><pub-id pub-id-type="pmcid">PMC4117990</pub-id></mixed-citation></ref><ref id="alz71244-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz71244-cite-0022">
+<string-name name-style="western">
+<surname>Neu</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pa</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kukull</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Apolipoprotein E genotype and sex risk factors for Alzheimer disease</article-title>. <source>JAMA Neurol</source>. <year>2017</year>;<volume>74</volume>(<issue>10</issue>):<fpage>1178</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2017.2188" ext-link-type="uri">10.1001/jamaneurol.2017.2188</ext-link>
+<pub-id pub-id-type="pmid">28846757</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2017.2188</pub-id><pub-id pub-id-type="pmcid">PMC5759346</pub-id></mixed-citation></ref><ref id="alz71244-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz71244-cite-0023">
+<string-name name-style="western">
+<surname>Hohman</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dumitrescu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barnes</surname>
+<given-names>LL</given-names>
+</string-name>, et al. <article-title>Sex‐specific association of apolipoprotein E with cerebrospinal fluid levels of tau</article-title>. <source>JAMA Neurol</source>. <year>2018</year>;<volume>75</volume>(<issue>8</issue>):<fpage>989</fpage>‐<lpage>998</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2018.0821" ext-link-type="uri">10.1001/jamaneurol.2018.0821</ext-link>
+<pub-id pub-id-type="pmid">29801024</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2018.0821</pub-id><pub-id pub-id-type="pmcid">PMC6142927</pub-id></mixed-citation></ref><ref id="alz71244-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz71244-cite-0024">
+<string-name name-style="western">
+<surname>Buckley</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mormino</surname>
+<given-names>EC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rabin</surname>
+<given-names>JS</given-names>
+</string-name>, et al. <article-title>Sex differences in the association of global amyloid and regional tau deposition measured by positron emission tomography in clinically normal older adults</article-title>. <source>JAMA Neurol</source>. <year>2019</year>;<volume>02129</volume>:<fpage>1</fpage>‐<lpage>10</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2018.4693" ext-link-type="uri">10.1001/jamaneurol.2018.4693</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2018.4693</pub-id><pub-id pub-id-type="pmcid">PMC6515599</pub-id><pub-id pub-id-type="pmid">30715078</pub-id></mixed-citation></ref><ref id="alz71244-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz71244-cite-0025">
+<string-name name-style="western">
+<surname>Buckley</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scott</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jacobs</surname>
+<given-names>HIL</given-names>
+</string-name>, et al. <article-title>Sex mediates relationships between regional tau pathology and cognitive decline</article-title>. <source>Ann Neurol</source>. <year>2020</year>;<volume>88</volume>(<issue>5</issue>):<fpage>921</fpage>‐<lpage>932</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/ana.25878" ext-link-type="uri">10.1002/ana.25878</ext-link>
+<pub-id pub-id-type="pmid">32799367</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.25878</pub-id><pub-id pub-id-type="pmcid">PMC7581543</pub-id></mixed-citation></ref><ref id="alz71244-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz71244-cite-0026">
+<string-name name-style="western">
+<surname>Smith</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strandberg</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mattsson‐Carlgren</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>The accumulation rate of tau aggregates is higher in females and younger amyloid‐positive subjects</article-title>. <source>Brain</source>. <year>2020</year>;<volume>143</volume>(<issue>12</issue>):<fpage>3805</fpage>‐<lpage>3815</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/brain/awaa327" ext-link-type="uri">10.1093/brain/awaa327</ext-link>
+<pub-id pub-id-type="pmid">33439987</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awaa327</pub-id><pub-id pub-id-type="pmcid">PMC7805812</pub-id></mixed-citation></ref><ref id="alz71244-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz71244-cite-0027">
+<string-name name-style="western">
+<surname>Oveisgharan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arvanitakis</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farfel</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>DA</given-names>
+</string-name>, <article-title>Sex differences in Alzheimer's disease and common neuropathologies of aging</article-title>. <source>Acta Neuropathol</source>. <year>2018</year>;<volume>136</volume>(<issue>6</issue>):<fpage>887</fpage>‐<lpage>900</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1007/s00401-018-1920-1" ext-link-type="uri">10.1007/s00401‐018‐1920‐1</ext-link>
+<pub-id pub-id-type="pmid">30334074</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00401-018-1920-1</pub-id><pub-id pub-id-type="pmcid">PMC6279593</pub-id></mixed-citation></ref><ref id="alz71244-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="alz71244-cite-0028">
+<string-name name-style="western">
+<surname>Koran</surname>
+<given-names>MEI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wagener</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hohman</surname>
+<given-names>TJ</given-names>
+</string-name>, <article-title>Initiative for the AN. Sex differences in the association between AD biomarkers and cognitive decline</article-title>. <source>Brain Imaging Behav</source>. <year>2017</year>;<volume>11</volume>(<issue>1</issue>):<fpage>205</fpage>‐<lpage>213</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1007/s11682-016-9523-8" ext-link-type="uri">10.1007/s11682‐016‐9523‐8</ext-link>
+<pub-id pub-id-type="pmid">26843008</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11682-016-9523-8</pub-id><pub-id pub-id-type="pmcid">PMC4972701</pub-id></mixed-citation></ref><ref id="alz71244-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz71244-cite-0029">
+<string-name name-style="western">
+<surname>Ramanan</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Castillo</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knopman</surname>
+<given-names>DS</given-names>
+</string-name>, et al. <article-title>Association of apolipoprotein E ɛ4, educational level, and sex with tau deposition and tau‐mediated metabolic dysfunction in older adults</article-title>. <source>JAMA Netw Open</source>. <year>2019</year>;<volume>2</volume>(<issue>10</issue>):<elocation-id>e1913909</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamanetworkopen.2019.13909" ext-link-type="uri">10.1001/jamanetworkopen.2019.13909</ext-link>
+<pub-id pub-id-type="pmid">31642932</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamanetworkopen.2019.13909</pub-id><pub-id pub-id-type="pmcid">PMC6820045</pub-id></mixed-citation></ref><ref id="alz71244-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz71244-cite-0030">
+<string-name name-style="western">
+<surname>Buckley</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mormino</surname>
+<given-names>EC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amariglio</surname>
+<given-names>RE</given-names>
+</string-name>, et al. <article-title>Sex, amyloid, and APOE ε4 and risk of cognitive decline in preclinical Alzheimer's disease: findings from three well‐characterized cohorts</article-title>. <source>Alzheimers Dement</source>. <year>2018</year>;<volume>14</volume>(<issue>9</issue>):<fpage>1193</fpage>‐<lpage>1203</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.jalz.2018.04.010" ext-link-type="uri">10.1016/j.jalz.2018.04.010</ext-link>
+<pub-id pub-id-type="pmid">29803541</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2018.04.010</pub-id><pub-id pub-id-type="pmcid">PMC6131023</pub-id></mixed-citation></ref><ref id="alz71244-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz71244-cite-0031">
+<string-name name-style="western">
+<surname>Irvine</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Laws</surname>
+<given-names>KR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gale</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kondel</surname>
+<given-names>TK</given-names>
+</string-name>, <article-title>Greater cognitive deterioration in women than men with Alzheimer's disease: a meta analysis</article-title>. <source>J Clin Exp Neuropsychol</source>. <year>2012</year>;<volume>34</volume>(<issue>9</issue>):<fpage>989</fpage>‐<lpage>998</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1080/13803395.2012.712676" ext-link-type="uri">10.1080/13803395.2012.712676</ext-link>
+<pub-id pub-id-type="pmid">22913619</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/13803395.2012.712676</pub-id></mixed-citation></ref><ref id="alz71244-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz71244-cite-0032">
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>KA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choudhury</surname>
+<given-names>KR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rathakrishnan</surname>
+<given-names>BG</given-names>
+</string-name>, et al. <article-title>Marked gender differences in progression of mild cognitive impairment over 8 years</article-title>. <source>Alzheimers Dement</source>. <year>2015</year>;<volume>1</volume>(<issue>2</issue>):<fpage>103</fpage>‐<lpage>110</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.trci.2015.07.001" ext-link-type="uri">10.1016/j.trci.2015.07.001</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.trci.2015.07.001</pub-id><pub-id pub-id-type="pmcid">PMC4593067</pub-id><pub-id pub-id-type="pmid">26451386</pub-id></mixed-citation></ref><ref id="alz71244-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz71244-cite-0033">
+<string-name name-style="western">
+<surname>Sundermann</surname>
+<given-names>EE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Biegon</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rubin</surname>
+<given-names>LH</given-names>
+</string-name>, et al. <article-title>Better verbal memory in women than men in MCI despite similar levels of hippocampal atrophy</article-title>. <source>Neurology</source>. <year>2016</year>;<volume>86</volume>(<issue>15</issue>):<fpage>1368</fpage>‐<lpage>1376</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1212/WNL.0000000000002570" ext-link-type="uri">10.1212/WNL.0000000000002570</ext-link>
+<pub-id pub-id-type="pmid">26984945</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000002570</pub-id><pub-id pub-id-type="pmcid">PMC4831033</pub-id></mixed-citation></ref><ref id="alz71244-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="alz71244-cite-0034">
+<string-name name-style="western">
+<surname>Sundermann</surname>
+<given-names>EE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maki</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reddy</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bondi</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Biegon</surname>
+<given-names>A</given-names>
+</string-name>, <collab collab-type="authors">Initiative for the ADN</collab>
+. <article-title>Women's higher brain metabolic rate compensates for early Alzheimer's pathology</article-title>. <source>Alzheimers Dement</source>. <year>2020</year>;<volume>12</volume>(<issue>1</issue>):<elocation-id>e12121</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/dad2.12121" ext-link-type="uri">10.1002/dad2.12121</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/dad2.12121</pub-id><pub-id pub-id-type="pmcid">PMC7678742</pub-id><pub-id pub-id-type="pmid">33251322</pub-id></mixed-citation></ref><ref id="alz71244-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="alz71244-cite-0035">
+<string-name name-style="western">
+<surname>Digma</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Madsen</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rissman</surname>
+<given-names>RA</given-names>
+</string-name>, et al. <article-title>Women can bear a bigger burden: ante‐ and post‐mortem evidence for reserve in the face of tau</article-title>. <source>Brain Commun</source>. <year>2020</year>;<volume>2</volume>(<issue>1</issue>):<elocation-id>fcaa025</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/braincomms/fcaa025" ext-link-type="uri">10.1093/braincomms/fcaa025</ext-link>
+<pub-id pub-id-type="pmid">32337508</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/braincomms/fcaa025</pub-id><pub-id pub-id-type="pmcid">PMC7166251</pub-id></mixed-citation></ref><ref id="alz71244-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="alz71244-cite-0036">
+<string-name name-style="western">
+<surname>Aksnes</surname>
+<given-names>M</given-names>
+</string-name>, <article-title>Sex differences in biofluid biomarkers for Alzheimer's disease</article-title>. <source>Neurodegener Dis</source>. <year>2025</year>;<volume>25</volume>(<issue>3</issue>):<fpage>134</fpage>‐<lpage>144</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1159/000545717" ext-link-type="uri">10.1159/000545717</ext-link>
+<pub-id pub-id-type="pmid">40418910</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1159/000545717</pub-id></mixed-citation></ref><ref id="alz71244-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="alz71244-cite-0037">
+<string-name name-style="western">
+<surname>Brickman</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manly</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Honig</surname>
+<given-names>LS</given-names>
+</string-name>, et al. <article-title>Plasma p‐tau181, p‐tau217, and other blood‐based Alzheimer's disease biomarkers in a multi‐ethnic, community study</article-title>. <source>Alzheimers Dement</source>. <year>2021</year>;<volume>17</volume>(<issue>8</issue>):<fpage>1353</fpage>‐<lpage>1364</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.12301" ext-link-type="uri">10.1002/alz.12301</ext-link>
+<pub-id pub-id-type="pmid">33580742</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12301</pub-id><pub-id pub-id-type="pmcid">PMC8451860</pub-id></mixed-citation></ref><ref id="alz71244-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="alz71244-cite-0038">
+<string-name name-style="western">
+<surname>Syrjanen</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Campbell</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Algeciras‐Schimnich</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Associations of amyloid and neurodegeneration plasma biomarkers with comorbidities</article-title>. <source>Alzheimers Dement</source>. <year>2022</year>;<volume>18</volume>(<issue>6</issue>):<fpage>1128</fpage>‐<lpage>1140</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.12466" ext-link-type="uri">10.1002/alz.12466</ext-link>
+<pub-id pub-id-type="pmid">34569696</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12466</pub-id><pub-id pub-id-type="pmcid">PMC8957642</pub-id></mixed-citation></ref><ref id="alz71244-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="alz71244-cite-0039">
+<string-name name-style="western">
+<surname>Mielke</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frank</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dage</surname>
+<given-names>JL</given-names>
+</string-name>, et al. <article-title>Comparison of plasma phosphorylated tau species with amyloid and tau positron emission tomography, neurodegeneration, vascular pathology, and cognitive outcomes</article-title>. <source>JAMA Neurol</source>. <year>2021</year>;<volume>78</volume>(<issue>9</issue>):<fpage>1</fpage>‐<lpage>11</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2021.2293" ext-link-type="uri">10.1001/jamaneurol.2021.2293</ext-link>
+<pub-id pub-id-type="pmid">34309632</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2021.2293</pub-id><pub-id pub-id-type="pmcid">PMC8314178</pub-id></mixed-citation></ref><ref id="alz71244-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="alz71244-cite-0040">
+<string-name name-style="western">
+<surname>Keshavan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pannee</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karikari</surname>
+<given-names>TK</given-names>
+</string-name>, et al. <article-title>Population‐based blood screening for preclinical Alzheimer's disease in a British birth cohort at age 70</article-title>. <source>Brain</source>. <year>2021</year>;<volume>144</volume>(<issue>2</issue>):<fpage>434</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/BRAIN/AWAA403" ext-link-type="uri">10.1093/BRAIN/AWAA403</ext-link>
+<pub-id pub-id-type="pmid">33479777</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awaa403</pub-id><pub-id pub-id-type="pmcid">PMC7940173</pub-id></mixed-citation></ref><ref id="alz71244-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="alz71244-cite-0041">
+<string-name name-style="western">
+<surname>Mielke</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dage</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frank</surname>
+<given-names>RD</given-names>
+</string-name>, et al. <article-title>Performance of plasma phosphorylated tau 181 and 217 in the community</article-title>. <source>Nat Med</source>. <year>2022</year>;<volume>28</volume>(<issue>7</issue>):<fpage>1398</fpage>‐<lpage>1405</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41591-022-01822-2" ext-link-type="uri">10.1038/s41591‐022‐01822‐2</ext-link>
+<pub-id pub-id-type="pmid">35618838</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-022-01822-2</pub-id><pub-id pub-id-type="pmcid">PMC9329262</pub-id></mixed-citation></ref><ref id="alz71244-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="alz71244-cite-0042">
+<string-name name-style="western">
+<surname>Tsiknia</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Edland</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sundermann</surname>
+<given-names>EE</given-names>
+</string-name>, et al. <article-title>Sex differences in plasma p‐tau181 associations with Alzheimer's disease biomarkers, cognitive decline, and clinical progression</article-title>. <source>Mol Psychiatry</source>. <year>2022</year>;<volume>27</volume>(<issue>10</issue>):<fpage>4314</fpage>‐<lpage>4322</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41380-022-01675-8" ext-link-type="uri">10.1038/s41380‐022‐01675‐8</ext-link>
+<pub-id pub-id-type="pmid">35768637</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41380-022-01675-8</pub-id><pub-id pub-id-type="pmcid">PMC9718670</pub-id></mixed-citation></ref><ref id="alz71244-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="alz71244-cite-0043">
+<string-name name-style="western">
+<surname>Saloner</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>VandeVrede</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Asken</surname>
+<given-names>BM</given-names>
+</string-name>, et al. <article-title>Plasma phosphorylated tau‐217 exhibits sex‐specific prognostication of cognitive decline and brain atrophy in cognitively unimpaired adults</article-title>. <source>Alzheimers Dement</source>. <year>2024</year>;<volume>20</volume>(<issue>1</issue>):<fpage>376</fpage>‐<lpage>387</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.13454" ext-link-type="uri">10.1002/alz.13454</ext-link>
+<pub-id pub-id-type="pmid">37639492</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13454</pub-id><pub-id pub-id-type="pmcid">PMC10843677</pub-id></mixed-citation></ref><ref id="alz71244-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="alz71244-cite-0044">
+<string-name name-style="western">
+<surname>Pelkmans</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shekari</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brugulat‐Serrat</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Astrocyte biomarkers GFAP and YKL‐40 mediate early Alzheimer's disease progression</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>20</volume>(<issue>1</issue>):<fpage>483</fpage>‐<lpage>493</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.13450" ext-link-type="uri">10.1002/alz.13450</ext-link>
+<pub-id pub-id-type="pmid">37690071</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13450</pub-id><pub-id pub-id-type="pmcid">PMC10917053</pub-id></mixed-citation></ref><ref id="alz71244-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="alz71244-cite-0045">
+<string-name name-style="western">
+<surname>Labonte</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pettway</surname>
+<given-names>EC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sugarman</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Sex differences on tau, astrocytic and neurodegeneration plasma biomarkers</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>S14</issue>):<elocation-id>e071807</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.071807" ext-link-type="uri">10.1002/alz.071807</ext-link>
+</mixed-citation></ref><ref id="alz71244-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="alz71244-cite-0046">
+<string-name name-style="western">
+<surname>Vila‐Castelar</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Langella</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Sex differences in blood biomarkers and cognitive performance in individuals with autosomal dominant Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>9</issue>):<fpage>4127</fpage>‐<lpage>4138</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.13314" ext-link-type="uri">10.1002/alz.13314</ext-link>
+<pub-id pub-id-type="pmid">37279390</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13314</pub-id><pub-id pub-id-type="pmcid">PMC10527358</pub-id></mixed-citation></ref><ref id="alz71244-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="alz71244-cite-0047">
+<string-name name-style="western">
+<surname>Chesnaye</surname>
+<given-names>NC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carrero</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hecking</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jager</surname>
+<given-names>KJ</given-names>
+</string-name>, <article-title>Differences in the epidemiology, management and outcomes of kidney disease in men and women</article-title>. <source>Nat Rev Nephrol</source>. <year>2024</year>;<volume>20</volume>(<issue>1</issue>):<fpage>7</fpage>‐<lpage>20</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41581-023-00784-z" ext-link-type="uri">10.1038/s41581‐023‐00784‐z</ext-link>
+<pub-id pub-id-type="pmid">37985869</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41581-023-00784-z</pub-id></mixed-citation></ref><ref id="alz71244-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="alz71244-cite-0048">
+<string-name name-style="western">
+<surname>Muscogiuri</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verde</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vetrani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barrea</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Savastano</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Colao</surname>
+<given-names>A</given-names>
+</string-name>, <article-title>Obesity: a gender‐view</article-title>. <source>J Endocrinol Invest</source>. <year>2024</year>;<volume>47</volume>(<issue>2</issue>):<fpage>299</fpage>‐<lpage>306</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1007/s40618-023-02196-z" ext-link-type="uri">10.1007/s40618‐023‐02196‐z</ext-link>
+<pub-id pub-id-type="pmid">37740888</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s40618-023-02196-z</pub-id><pub-id pub-id-type="pmcid">PMC10859324</pub-id></mixed-citation></ref><ref id="alz71244-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="alz71244-cite-0049">
+<string-name name-style="western">
+<surname>Pichet Binette</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Janelidze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cullen</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Confounding factors of Alzheimer's disease plasma biomarkers and their impact on clinical performance</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>4</issue>):<fpage>1403</fpage>‐<lpage>1414</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.12787" ext-link-type="uri">10.1002/alz.12787</ext-link>
+<pub-id pub-id-type="pmid">36152307</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12787</pub-id><pub-id pub-id-type="pmcid">PMC10499000</pub-id></mixed-citation></ref><ref id="alz71244-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="alz71244-cite-0050">
+<string-name name-style="western">
+<surname>Mohammadi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rahmani</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dolatshahi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schindler</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raji</surname>
+<given-names>CA</given-names>
+</string-name>, <article-title>Effects of obesity on plasma biomarker and amyloid PET trajectories in Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2025</year>;<volume>17</volume>(<issue>3</issue>):<elocation-id>e70143</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/dad2.70143" ext-link-type="uri">10.1002/dad2.70143</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/dad2.70143</pub-id><pub-id pub-id-type="pmcid">PMC12226245</pub-id><pub-id pub-id-type="pmid">40620424</pub-id></mixed-citation></ref><ref id="alz71244-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="alz71244-cite-0051">
+<string-name name-style="western">
+<surname>Mielke</surname>
+<given-names>MM</given-names>
+</string-name>, <article-title>Consideration of sex differences in the measurement and interpretation of Alzheimer's disease‐related biofluid‐based biomarkers</article-title>. <source>J Appl Lab Med</source>. <year>2020</year>;<volume>5</volume>(<issue>1</issue>):<fpage>158</fpage>‐<lpage>169</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1373/jalm.2019.030023" ext-link-type="uri">10.1373/jalm.2019.030023</ext-link>
+<pub-id pub-id-type="pmid">31811073</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1373/jalm.2019.030023</pub-id><pub-id pub-id-type="pmcid">PMC7246149</pub-id></mixed-citation></ref><ref id="alz71244-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="alz71244-cite-0052">
+<string-name name-style="western">
+<surname>Buckley</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gong</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Woodward</surname>
+<given-names>M</given-names>
+</string-name>, <article-title>A call to action to address sex differences in Alzheimer disease clinical trials</article-title>. <source>JAMA Neurol</source>. <year>2023</year>;<volume>80</volume>:<fpage>769</fpage>‐<lpage>770</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2023.1059" ext-link-type="uri">10.1001/jamaneurol.2023.1059</ext-link>
+<pub-id pub-id-type="pmid">37155156</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2023.1059</pub-id><pub-id pub-id-type="pmcid">PMC11446568</pub-id></mixed-citation></ref><ref id="alz71244-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="alz71244-cite-0053">
+<string-name name-style="western">
+<surname>Andrews</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ducharme</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chertkow</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sormani</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Collins</surname>
+<given-names>DL</given-names>
+</string-name>, <article-title>The higher benefit of lecanemab in males compared to females in CLARITY AD is probably due to a real sex effect</article-title>. <source>Alzheimers Dement</source>. <year>2025</year>;<volume>21</volume>(<issue>1</issue>):<elocation-id>e14467</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.14467" ext-link-type="uri">10.1002/alz.14467</ext-link>
+<pub-id pub-id-type="pmid">39887549</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.14467</pub-id><pub-id pub-id-type="pmcid">PMC11779744</pub-id></mixed-citation></ref><ref id="alz71244-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="alz71244-cite-0054">
+<string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>RC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aisen</surname>
+<given-names>PS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beckett</surname>
+<given-names>LA</given-names>
+</string-name>, et al. <article-title>Alzheimer's disease neuroimaging initiative (ADNI): clinical characterization</article-title>. <source>Neurology</source>. <year>2010</year>;<volume>74</volume>(<issue>3</issue>):<fpage>201</fpage>‐<lpage>209</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1212/WNL.0b013e3181cb3e25" ext-link-type="uri">10.1212/WNL.0b013e3181cb3e25</ext-link>
+<pub-id pub-id-type="pmid">20042704</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0b013e3181cb3e25</pub-id><pub-id pub-id-type="pmcid">PMC2809036</pub-id></mixed-citation></ref><ref id="alz71244-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="alz71244-cite-0055">
+<string-name name-style="western">
+<surname>Kang</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Korecka</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Figurski</surname>
+<given-names>MJ</given-names>
+</string-name>, et al. <article-title>The Alzheimer's disease neuroimaging initiative 2 biomarker core: a review of progress and plans</article-title>. <source>Alzheimers Dement</source>. <year>2015</year>;<volume>11</volume>(<issue>7</issue>):<fpage>772</fpage>‐<lpage>791</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.jalz.2015.05.003" ext-link-type="uri">10.1016/j.jalz.2015.05.003</ext-link>
+<pub-id pub-id-type="pmid">26194312</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2015.05.003</pub-id><pub-id pub-id-type="pmcid">PMC5127404</pub-id></mixed-citation></ref><ref id="alz71244-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="alz71244-cite-0056">
+<string-name name-style="western">
+<surname>Jagust</surname>
+<given-names>WJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Landau</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koeppe</surname>
+<given-names>RA</given-names>
+</string-name>, et al. <article-title>The Alzheimer's disease neuroimaging initiative 2 PET core: 2015</article-title>. <source>Alzheimers Dement</source>. <year>2015</year>;<volume>11</volume>(<issue>7</issue>):<fpage>757</fpage>‐<lpage>771</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.jalz.2015.05.001" ext-link-type="uri">10.1016/j.jalz.2015.05.001</ext-link>
+<pub-id pub-id-type="pmid">26194311</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jalz.2015.05.001</pub-id><pub-id pub-id-type="pmcid">PMC4510459</pub-id></mixed-citation></ref><ref id="alz71244-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="alz71244-cite-0057">
+<string-name name-style="western">
+<surname>Royse</surname>
+<given-names>SK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Minhas</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lopresti</surname>
+<given-names>BJ</given-names>
+</string-name>, et al. <article-title>Validation of amyloid PET positivity thresholds in centiloids: a multisite PET study approach</article-title>. <source>Alzheimers Res Ther</source>. <year>2021</year>;<volume>13</volume>(<issue>1</issue>):<fpage>99</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s13195-021-00836-1" ext-link-type="uri">10.1186/s13195‐021‐00836‐1</ext-link>
+<pub-id pub-id-type="pmid">33971965</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-021-00836-1</pub-id><pub-id pub-id-type="pmcid">PMC8111744</pub-id></mixed-citation></ref><ref id="alz71244-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="alz71244-cite-0058">
+<string-name name-style="western">
+<surname>Diedrichsen</surname>
+<given-names>J</given-names>
+</string-name>, <article-title>A spatially unbiased atlas template of the human cerebellum</article-title>. <source>Neuroimage</source>. <year>2006</year>;<volume>33</volume>(<issue>1</issue>):<fpage>127</fpage>‐<lpage>138</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.neuroimage.2006.05.056" ext-link-type="uri">10.1016/j.neuroimage.2006.05.056</ext-link>
+<pub-id pub-id-type="pmid">16904911</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neuroimage.2006.05.056</pub-id></mixed-citation></ref><ref id="alz71244-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="alz71244-cite-0059">
+<string-name name-style="western">
+<surname>Donohue</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sperling</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>CK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weiner</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aisen</surname>
+<given-names>PS</given-names>
+</string-name>, <article-title>Association between elevated brain amyloid and subsequent cognitive decline among cognitively normal persons</article-title>. <source>JAMA</source>. <year>2017</year>;<volume>317</volume>(<issue>22</issue>):<fpage>2305</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jama.2017.6669" ext-link-type="uri">10.1001/jama.2017.6669</ext-link>
+<pub-id pub-id-type="pmid">28609533</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2017.6669</pub-id><pub-id pub-id-type="pmcid">PMC5736301</pub-id></mixed-citation></ref><ref id="alz71244-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="alz71244-cite-0060">
+<string-name name-style="western">
+<surname>Morris</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ivanoiu</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>The clinical dementia rating (CDR): current version and scoring rules</article-title>. <source>Neurology</source>. <year>1993</year>;<volume>43</volume>(<issue>11</issue>):<fpage>2412</fpage>‐<lpage>2414</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1212/wnl.0b013e318221ad47" ext-link-type="uri">10.1212/wnl.0b013e318221ad47</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/wnl.43.11.2412-a</pub-id><pub-id pub-id-type="pmid">8232972</pub-id></mixed-citation></ref><ref id="alz71244-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="alz71244-cite-0061">
+<string-name name-style="western">
+<surname>Mohs</surname>
+<given-names>RC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knopman</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>RC</given-names>
+</string-name>, et al. <article-title>Development of cognitive instruments for use in clinical trials of antidementia drugs: additions to the Alzheimer's disease assessment scale that broaden its scope. The Alzheimer's disease cooperative study</article-title>. <source>Alzheimer Dis Assoc Disord</source>. <year>1997</year>;<volume>11</volume> Suppl <issue>2</issue>:<fpage>S13</fpage>‐<lpage>S21</lpage>.<pub-id pub-id-type="pmid">9236948</pub-id>
+</mixed-citation></ref><ref id="alz71244-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="alz71244-cite-0062">
+<string-name name-style="western">
+<surname>Schindler</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galasko</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pereira</surname>
+<given-names>AC</given-names>
+</string-name>, et al. <article-title>Acceptable performance of blood biomarker tests of amyloid pathology—recommendations from the global CEO initiative on Alzheimer's disease</article-title>. <source>Nat Rev Neurol</source>. <year>2024</year>;<volume>20</volume>(<issue>7</issue>):<fpage>426</fpage>‐<lpage>439</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41582-024-00977-5" ext-link-type="uri">10.1038/s41582‐024‐00977‐5</ext-link>
+<pub-id pub-id-type="pmid">38866966</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41582-024-00977-5</pub-id></mixed-citation></ref><ref id="alz71244-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="alz71244-cite-0063">
+<string-name name-style="western">
+<surname>Cousins</surname>
+<given-names>KAQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Korecka</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wan</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Comparison of plasma p‐tau217/Aβ42, p‐tau217, and Aβ42/Aβ40 biomarkers by race to detect Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2025</year>;<volume>21</volume>(<issue>8</issue>):<elocation-id>e70469</elocation-id>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.70469" ext-link-type="uri">10.1002/alz.70469</ext-link>
+<pub-id pub-id-type="pmid">40801297</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.70469</pub-id><pub-id pub-id-type="pmcid">PMC12344574</pub-id></mixed-citation></ref><ref id="alz71244-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="alz71244-cite-0064">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sundermann</surname>
+<given-names>EE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buckley</surname>
+<given-names>RF</given-names>
+</string-name>, et al. <article-title>Sex differences in the associations of obesity with Tau, amyloid PET, and cognitive outcomes in preclinical Alzheimer's disease: cross‐Sectional A4 study</article-title>. <source>J Alzheimers Dis</source>. <year>2023</year>;<volume>95</volume>(<issue>2</issue>):<fpage>615</fpage>‐<lpage>624</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3233/JAD-230466" ext-link-type="uri">10.3233/JAD‐230466</ext-link>
+<pub-id pub-id-type="pmid">37574737</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3233/JAD-230466</pub-id><pub-id pub-id-type="pmcid">PMC11827697</pub-id></mixed-citation></ref><ref id="alz71244-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="alz71244-cite-0065">
+<string-name name-style="western">
+<surname>Benjamini</surname>
+<given-names>Yoav</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hochberg</surname>
+<given-names>Y</given-names>
+</string-name>, <article-title>Controlling the false discovery rate: a practical and powerful approach to multiple testing</article-title>. <source>J R Stat Soc Ser B (Methological)</source>. <year>1995</year>;<volume>57</volume>(<issue>1</issue>):<fpage>289</fpage>‐<lpage>300</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.2517-6161.1995.tb02031.x</pub-id>
+</mixed-citation></ref><ref id="alz71244-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="alz71244-cite-0066">
+<string-name name-style="western">
+<surname>Vila‐Castelar</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Akinci</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palpatzis</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Sex/gender effects of glial reactivity on preclinical Alzheimer's disease pathology</article-title>. <source>Mol Psychiatry</source>. <year>2025</year>;<volume>30</volume>(<issue>4</issue>):<fpage>1430</fpage>‐<lpage>1439</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41380-024-02753-9" ext-link-type="uri">10.1038/s41380‐024‐02753‐9</ext-link>
+<pub-id pub-id-type="pmid">39384963</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41380-024-02753-9</pub-id><pub-id pub-id-type="pmcid">PMC11919761</pub-id></mixed-citation></ref><ref id="alz71244-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="alz71244-cite-0067">
+<string-name name-style="western">
+<surname>Boccalini</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peretti</surname>
+<given-names>DE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scheffler</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Sex differences in the association of Alzheimer's disease biomarkers and cognition in a multicenter memory clinic study</article-title>. <source>Alzheimers Res Ther</source>. <year>2025</year>;<volume>17</volume>(<issue>1</issue>):<fpage>46</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s13195-025-01684-z" ext-link-type="uri">10.1186/s13195‐025‐01684‐z</ext-link>
+<pub-id pub-id-type="pmid">39966925</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-025-01684-z</pub-id><pub-id pub-id-type="pmcid">PMC11837373</pub-id></mixed-citation></ref><ref id="alz71244-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="alz71244-cite-0068">
+<string-name name-style="western">
+<surname>Bellaver</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Povala</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferreira</surname>
+<given-names>PCL</given-names>
+</string-name>, et al. <article-title>Astrocyte reactivity influences amyloid‐β effects on tau pathology in preclinical Alzheimer's disease</article-title>. <source>Nat Med</source>. <year>2023</year>;<volume>29</volume>(<issue>7</issue>):<fpage>1775</fpage>‐<lpage>1781</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41591-023-02380-x" ext-link-type="uri">10.1038/s41591‐023‐02380‐x</ext-link>
+<pub-id pub-id-type="pmid">37248300</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-023-02380-x</pub-id><pub-id pub-id-type="pmcid">PMC10353939</pub-id></mixed-citation></ref><ref id="alz71244-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="alz71244-cite-0069">
+<string-name name-style="western">
+<surname>Janelidze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mattsson</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>CSF A β 42/A β 40 and A β 42/A β 38 ratios: better diagnostic markers of Alzheimer disease</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2016</year>;<volume>3</volume>(<issue>3</issue>):<fpage>154</fpage>‐<lpage>165</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/acn3.274" ext-link-type="uri">10.1002/acn3.274</ext-link>
+<pub-id pub-id-type="pmid">27042676</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.274</pub-id><pub-id pub-id-type="pmcid">PMC4774260</pub-id></mixed-citation></ref><ref id="alz71244-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="alz71244-cite-0070">
+<string-name name-style="western">
+<surname>Barnes</surname>
+<given-names>LL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bienias</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Evans</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>DA</given-names>
+</string-name>, <article-title>Sex differences in the clinical manifestations of Alzheimer disease pathology</article-title>. <source>Arch Gen Psychiatry</source>. <year>2005</year>;<volume>62</volume>(<issue>6</issue>):<fpage>685</fpage>‐<lpage>691</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/archpsyc.62.6.685" ext-link-type="uri">10.1001/archpsyc.62.6.685</ext-link>
+<pub-id pub-id-type="pmid">15939846</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/archpsyc.62.6.685</pub-id></mixed-citation></ref><ref id="alz71244-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="alz71244-cite-0071">
+<string-name name-style="western">
+<surname>Therriault</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vermeiren</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Servaes</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Association of phosphorylated tau biomarkers with amyloid positron emission tomography vs tau positron emission tomography</article-title>. <source>JAMA Neurol</source>. <year>2022</year>;<volume>80</volume>(<issue>2</issue>):<fpage>188</fpage>‐<lpage>199</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2022.4485" ext-link-type="uri">10.1001/jamaneurol.2022.4485</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2022.4485</pub-id><pub-id pub-id-type="pmcid">PMC9856704</pub-id><pub-id pub-id-type="pmid">36508198</pub-id></mixed-citation></ref><ref id="alz71244-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="alz71244-cite-0072">
+<string-name name-style="western">
+<surname>O'Bryant</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hall</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>LA</given-names>
+</string-name>, <article-title>Team for the HHS. Medical comorbidities and ethnicity impact plasma Alzheimer's disease biomarkers: important considerations for clinical trials and practice</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>1</issue>):<fpage>36</fpage>‐<lpage>43</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.12647" ext-link-type="uri">10.1002/alz.12647</ext-link>
+<pub-id pub-id-type="pmid">35235702</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12647</pub-id></mixed-citation></ref><ref id="alz71244-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="alz71244-cite-0073">
+<string-name name-style="western">
+<surname>Pontecorvo</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Devous</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kennedy</surname>
+<given-names>I</given-names>
+</string-name>, et al. <article-title>A multicentre longitudinal study of flortaucipir (18F) in normal ageing, mild cognitive impairment and Alzheimer's disease dementia</article-title>. <source>Brain</source>. <year>2019</year>;<volume>142</volume>(<issue>6</issue>):<fpage>1723</fpage>‐<lpage>1735</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1093/brain/awz090" ext-link-type="uri">10.1093/brain/awz090</ext-link>
+<pub-id pub-id-type="pmid">31009046</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awz090</pub-id><pub-id pub-id-type="pmcid">PMC6536847</pub-id></mixed-citation></ref><ref id="alz71244-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="alz71244-cite-0074">
+<string-name name-style="western">
+<surname>Biel</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brendel</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rubinski</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Tau‐PET and in vivo Braak‐staging as prognostic markers of future cognitive decline in cognitively normal to demented individuals</article-title>. <source>Alzheimers Res Ther</source>. <year>2021</year>;<volume>13</volume>(<issue>1</issue>):<fpage>137</fpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1186/s13195-021-00880-x" ext-link-type="uri">10.1186/s13195‐021‐00880‐x</ext-link>
+<pub-id pub-id-type="pmid">34384484</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13195-021-00880-x</pub-id><pub-id pub-id-type="pmcid">PMC8361801</pub-id></mixed-citation></ref><ref id="alz71244-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="alz71244-cite-0075">
+<string-name name-style="western">
+<surname>Strikwerda‐Brown</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hobbs</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gonneaud</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Association of elevated amyloid and tau positron emission tomography signal with near‐term development of Alzheimer disease symptoms in older adults without cognitive impairment</article-title>. <source>JAMA Neurol</source>. <year>2022</year>;<volume>79</volume>(<issue>10</issue>):<fpage>975</fpage>‐<lpage>985</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1001/jamaneurol.2022.2379" ext-link-type="uri">10.1001/jamaneurol.2022.2379</ext-link>
+<pub-id pub-id-type="pmid">35907254</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2022.2379</pub-id><pub-id pub-id-type="pmcid">PMC9339146</pub-id></mixed-citation></ref><ref id="alz71244-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="alz71244-cite-0076">
+<string-name name-style="western">
+<surname>Ossenkoppele</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pichet Binette</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Groot</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Amyloid and tau PET‐positive cognitively unimpaired individuals are at high risk for future cognitive decline</article-title>. <source>Nat Med</source>. <year>2022</year>;<volume>28</volume>(<issue>11</issue>):<fpage>2381</fpage>‐<lpage>2387</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41591-022-02049-x" ext-link-type="uri">10.1038/s41591‐022‐02049‐x</ext-link>
+<pub-id pub-id-type="pmid">36357681</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-022-02049-x</pub-id><pub-id pub-id-type="pmcid">PMC9671808</pub-id></mixed-citation></ref><ref id="alz71244-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="alz71244-cite-0077">
+<string-name name-style="western">
+<surname>Banks</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andrews</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Digma</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Sex differences in Alzheimer's disease: do differences in tau explain the verbal memory gap?</article-title>
+<source>Neurobiol Aging</source>. <year>2021</year>;<volume>107</volume>:<fpage>70</fpage>‐<lpage>77</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.neurobiolaging.2021.05.013" ext-link-type="uri">10.1016/j.neurobiolaging.2021.05.013</ext-link>
+<pub-id pub-id-type="pmid">34399127</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2021.05.013</pub-id><pub-id pub-id-type="pmcid">PMC8963683</pub-id></mixed-citation></ref><ref id="alz71244-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="alz71244-cite-0078">
+<string-name name-style="western">
+<surname>Sundermann</surname>
+<given-names>EE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maki</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rubin</surname>
+<given-names>LH</given-names>
+</string-name>, et al. <article-title>Female advantage in verbal memory: evidence of sex‐specific cognitive reserve</article-title>. <source>Neurology</source>. <year>2016</year>;<volume>87</volume>(<issue>18</issue>):<fpage>1916</fpage>‐<lpage>1924</lpage>. doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1212/WNL.0000000000003288" ext-link-type="uri">10.1212/WNL.0000000000003288</ext-link>
+<pub-id pub-id-type="pmid">27708128</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000003288</pub-id><pub-id pub-id-type="pmcid">PMC5100712</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

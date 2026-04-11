@@ -1,0 +1,292 @@
+{
+  "pmid": "39358810",
+  "pmc": "PMC11448018",
+  "doi": "10.1186/s13195-024-01578-6",
+  "title": "Multi-omics analysis reveals the key factors involved in the severity of the Alzheimer’s disease",
+  "journal": "Alzheimer's Research & Therapy",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Meng Lingqi",
+      "affiliations": [
+        "grid.5037.10000000121581746Science for Life Laboratory, KTH - Royal Institute of Technology, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Jin Han",
+      "affiliations": [
+        "grid.5037.10000000121581746Science for Life Laboratory, KTH - Royal Institute of Technology, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Yulug Burak",
+      "affiliations": [
+        "https://ror.org/01zxaph450000 0004 5896 2261Department of Neurology and Neuroscience, Faculty of Medicine, Alanya Alaaddin Keykubat University, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Altay Ozlem",
+      "affiliations": [
+        "grid.5037.10000000121581746Science for Life Laboratory, KTH - Royal Institute of Technology, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Li Xiangyu",
+      "affiliations": [
+        "grid.5037.10000000121581746Science for Life Laboratory, KTH - Royal Institute of Technology, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Hanoglu Lutfu",
+      "affiliations": [
+        "https://ror.org/037jwzz50grid.411781.a0000 0004 0471 9346Department of Neurology, Faculty of Medicine, Istanbul Medipol University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "name": "Cankaya Seyda",
+      "affiliations": [
+        "https://ror.org/01zxaph450000 0004 5896 2261Department of Neurology and Neuroscience, Faculty of Medicine, Alanya Alaaddin Keykubat University, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Coskun Ebru",
+      "affiliations": [
+        "https://ror.org/037jwzz50grid.411781.a0000 0004 0471 9346Department of Neurology, Faculty of Medicine, Istanbul Medipol University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "name": "Idil Ezgi",
+      "affiliations": [
+        "https://ror.org/01zxaph450000 0004 5896 2261Department of Neurology and Neuroscience, Faculty of Medicine, Alanya Alaaddin Keykubat University, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Nogaylar Rahim",
+      "affiliations": [
+        "https://ror.org/01zxaph450000 0004 5896 2261Department of Neurology and Neuroscience, Faculty of Medicine, Alanya Alaaddin Keykubat University, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Ozsimsek Ahmet",
+      "affiliations": [
+        "https://ror.org/01zxaph450000 0004 5896 2261Department of Neurology and Neuroscience, Faculty of Medicine, Alanya Alaaddin Keykubat University, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Shoaie Saeed",
+      "affiliations": [
+        "https://ror.org/0220mzb33grid.13097.3c0000 0001 2322 6764Centre for Host-Microbiome Interaction’s, Faculty of Dentistry, Oral & Craniofacial Sciences, King’s College London, London, UK"
+      ]
+    },
+    {
+      "name": "Turkez Hasan",
+      "affiliations": [
+        "https://ror.org/03je5c526grid.411445.10000 0001 0775 759XDepartment of Medical Biology, Faculty of Medicine, Atatürk University, Erzurum, Turkey"
+      ]
+    },
+    {
+      "name": "Nielsen Jens",
+      "affiliations": [
+        "https://ror.org/040wg7k59grid.5371.00000 0001 0775 6028Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden"
+      ]
+    },
+    {
+      "name": "Zhang Cheng",
+      "affiliations": [
+        "grid.5037.10000000121581746Science for Life Laboratory, KTH - Royal Institute of Technology, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Borén Jan",
+      "affiliations": [
+        "grid.8761.80000 0000 9919 9582Department of Molecular and Clinical Medicine, University of Gothenburg and Sahlgrenska University Hospital, Gothenburg, Sweden"
+      ]
+    },
+    {
+      "name": "Uhlén Mathias",
+      "affiliations": [
+        "grid.5037.10000000121581746Science for Life Laboratory, KTH - Royal Institute of Technology, Stockholm, Sweden"
+      ]
+    },
+    {
+      "name": "Mardinoglu Adil",
+      "affiliations": [
+        "grid.5037.10000000121581746Science for Life Laboratory, KTH - Royal Institute of Technology, Stockholm, Sweden",
+        "https://ror.org/0220mzb33grid.13097.3c0000 0001 2322 6764Centre for Host-Microbiome Interaction’s, Faculty of Dentistry, Oral & Craniofacial Sciences, King’s College London, London, UK"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Royal Institute of Technology"
+  ],
+  "data_availability_text": "Availability of data and materialsThe data and code produced during the course of this research can be accessed from our GitHub repository at https://github.com/lingqime/AD-baseline. Please note that for access to the raw clinical data, interested parties are requested to directly get in touch with the designated lead contact.",
+  "license": "",
+  "received": "2024-02-26",
+  "accepted": "2024-09-22",
+  "reference_pmids": [
+    "6241289",
+    "6241289",
+    "35933992",
+    "35933992",
+    "31517566",
+    "31517566",
+    "9046040",
+    "9046040",
+    "32393329",
+    "32393329",
+    "31891371",
+    "31891371",
+    "33294859",
+    "6181768",
+    "6181768",
+    "31496932",
+    "34838088",
+    "32358220",
+    "32358220",
+    "22541558",
+    "36823356",
+    "25840462",
+    "25840462",
+    "30737462",
+    "30737462",
+    "33377125",
+    "33377125",
+    "27776263",
+    "32290475",
+    "32290475",
+    "33586518",
+    "33586518",
+    "34295339",
+    "27641441",
+    "27641441",
+    "30746447",
+    "33725119",
+    "33725119",
+    "37315112",
+    "37315112",
+    "35367088",
+    "35367088",
+    "22133871",
+    "22133871",
+    "10411344",
+    "10411344",
+    "35668160",
+    "35668160",
+    "12235302",
+    "12235302",
+    "24523237",
+    "24523237",
+    "17003372",
+    "17003372",
+    "30171200",
+    "30171200",
+    "31434232",
+    "31434232",
+    "8666153",
+    "8666153",
+    "16567719",
+    "16567719",
+    "25213836",
+    "25213836",
+    "29093468",
+    "29093468",
+    "31422081",
+    "31422081",
+    "31063846",
+    "31063846",
+    "20205675",
+    "20205675",
+    "25287287",
+    "25287287",
+    "18305538",
+    "18305538",
+    "31477562",
+    "31477562",
+    "16710293",
+    "16710293",
+    "32989324",
+    "32989324",
+    "28367951",
+    "33779492",
+    "33779492",
+    "32525583",
+    "32525583",
+    "33871553",
+    "33871553",
+    "36182936",
+    "36182936",
+    "35236828",
+    "35236828",
+    "34259835",
+    "34259835",
+    "36131358",
+    "36131358",
+    "25571976",
+    "25571976",
+    "17101822",
+    "17101822",
+    "36243006",
+    "35236957",
+    "35236957",
+    "20842183",
+    "20842183",
+    "16762377",
+    "16762377",
+    "31519728",
+    "31519728",
+    "28139139",
+    "28139139",
+    "36513730",
+    "36513730",
+    "33948567",
+    "27094079",
+    "27094079",
+    "32132899",
+    "27662322",
+    "27662322",
+    "24041970",
+    "24041970",
+    "32424284",
+    "32424284",
+    "6115400",
+    "6115400",
+    "31694759",
+    "31694759",
+    "36703196",
+    "35128832",
+    "35128832",
+    "29758946",
+    "29758946"
+  ],
+  "tables_count": 0,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "result",
+    "clinical and demographic characteristics of ad patients stratified by adas-cog scores",
+    "differential plasma inflammation proteins in ad patients with varying adas-cog scores",
+    "differential plasma metabolites in ad patients with varying adas-cog scores",
+    "the dysbiosis of the gut and saliva microbiome in ad patients",
+    "association among different omics in ad patients",
+    "prediction of adas-cog scores based on multi-omics factor analysis",
+    "discussion",
+    "star methods",
+    "lead contact",
+    "clinical trial design and oversight",
+    "eligibility criteria of clinical trial participants",
+    "proteomics analysis",
+    "untargeted metabolomics analysis",
+    "metagenomics data analysis",
+    "statistical analysis",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14404,
+  "converted_at": "2026-04-06T22:36:26.876277+00:00"
+}

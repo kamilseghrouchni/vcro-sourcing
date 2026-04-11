@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT06874231",
+  "title": "Clinical Application of a Brain Connectivity Marker for Early Detection of Alzheimer's Disease",
+  "brief_title": "Brain Connectivity Marker for Alzheimer's Disease",
+  "status": "RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 120,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Alzheimer Disease"
+  ],
+  "keywords": [
+    "MRI",
+    "Cognition",
+    "MEG/EEG",
+    "Biomarkers"
+  ],
+  "sponsor": "Karolinska Institutet",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "The Swedish Research Council"
+  ],
+  "lead_pi": {},
+  "start_date": "2023-04-01",
+  "completion_date": "2027-07-31",
+  "primary_completion_date": "2027-07-31",
+  "biospecimen_retention": "SAMPLES_WITHOUT_DNA",
+  "biospecimen_description": "Cerebrospinal fluid and blood plasma.",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Karolinska University Hospital",
+      "city": "Stockholm",
+      "state": "Solna",
+      "country": "Sweden",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria:\n\n1. Inclusion criteria for subjects with subjective cognitive complaints:\n\n   * MMSE (Mini-mental test) or MoCA (Montreal Cognitive Assessment) points between 26 and 30.\n   * Absence of cognitive impairment.\n   * Memory problems reported by the participant/family member.\n   * Do not fulfill criteria for mild cognitive impairment or dementia.\n   * Must speak and understand Swedish.\n2. Inclusion criteria for patients with mild cognitive impairment:\n\n   * MMSE (Mini-mental test) or MoCA (Montreal Cognitive Assessment) points between 24 and 30.\n   * Impaired memory function.\n   * Do not fulfill criteria for dementia.\n   * Must speak and understand Swedish.\n   * Must have abnormal cerebrospinal fluid amyloid-β 42/40 ratio levels, which is a biomarker of Alzheimer's disease.\n3. Specific inclusion criteria for patients with Alzheimer's disease:\n\n   * MMSE (Mini-mental test) or MoCA (Montreal Cognitive Assessment) points between 18 and 28.\n   * Impaired memory function in addition to impaired executive abilities, language function, visuospatial ability and/or attention/psychomotor speed.\n   * Meet NINCDS-ADRDA and DSM-IV criteria for probable Alzheimer's disease.\n   * Must speak and understand Swedish.\n   * Must have abnormal spinal fluid amyloid-β 42/40 ratio levels, which is a biomarker of Alzheimer's disease.\n\nExclusion Criteria:\n\n* Alcohol or drug abuse.\n* Unstable somatic disease or organ failure.\n* Refuse to cerebrospinal fluid testing and/or blood sampling, neuropsychological testing, brain imaging, electroencephalogram or magnetoencephalogram.\n\nIn addition, participants who have claustrophobia or some form of metal implant in their body that may interfere with the brain imaging scan will be excluded from the study.",
+  "eligibility_min_age": "40 Years",
+  "eligibility_max_age": "85 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Brain connectivity can predict the development of Alzheimer's disease",
+      "description": "The investigators will build a multilayer network for each patient using DWI and fMRI images, following a methodology similar to that described in Multiplex Connectome Changes Across the Alzheimer's Disease Spectrum Using Gray Matter and Amyloid Data. Specifically, each patient's brain connectivity will be modeled as a multiplex network, where distinct imaging modalities define different layers. The structural connectivity layer will be derived from diffusion-weighted imaging (DWI), capturing white matter fiber tract connections between brain regions. The functional connectivity layer will be built using functional MRI (fMRI), measuring temporal correlations of neural activity across regions. Nodes in the network will correspond to anatomically defined brain regions, and inter-layer edges will be established to link homologous regions across layers, enabling integration of structural and functional information.",
+      "timeFrame": "4 years"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Relationship between multilayer connectivity and other imaging sequences, cognition and biofluid biomarkers",
+      "description": "The investigators will measure the association between multilayer brain connectivity with biomarkers and clinical measures from the participants, including markers of amyloid, tau, vascular pathology and tests measuring memory, executive function, language and visuospatial skills. These analyses will be conducted using linear regression and linear mixed effects models for longitudinal outcomes.",
+      "timeFrame": "4 years"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "The main purpose of this project is to establish whether changes in brain connectivity can be used to predict the development of Alzheimer's disease (AD).",
+  "detailed_description": "To achieve this aim, the investigators will perform six different studies that have been designed to achieve the following specific objectives:\n\n1.1. Identify changes of brain connectivity in individuals who show abnormal AD amyloid biomarkers in the cerebrospinal fluid and blood.\n\n1.2. To assess the correlation between brain connectivity changes and biomarkers of synaptic dysfunction and inflammation as well as alterations of electrical brain signals.\n\n1.3. Establish whether alterations of brain connectivity could be improved after patients start treatment with cholinesterase inhibitors.\n\n1.4. Assess differences in brain connectivity between patients receiving treatment with statins and those not taking this medication.\n\n1.5. Determine whether brain connectivity changes can predict longitudinal cognitive decline and conversion to AD dementia.\n\n1.6. Assess whether different microorganisms can grow more rapidly in the cerebrospinal fluid from AD patients compared to controls and whether their levels are associated with brain connectivity.\n\n1.7. Evaluate the relationship between brain connectivity and the integrity of the locus coeruleus, which is the earliest site of AD pathology",
+  "interventions": [
+    {
+      "type": "OTHER",
+      "name": "Neuroimaging",
+      "description": "The investigators will collect imaging sequence, cognitive test scores, clinical data and biofluid samples"
+    }
+  ],
+  "converted_at": "2026-04-06T22:33:58.677889+00:00"
+}

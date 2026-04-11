@@ -1,0 +1,175 @@
+{
+  "pmid": "41206819",
+  "pmc": "PMC12597848",
+  "doi": "10.1007/s00415-025-13498-y",
+  "title": "Plasma NfL and GFAP in the preclinical stages of neurodegenerative diseases: insights from the UK Biobank",
+  "journal": "Journal of Neurology",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Buonocore Jolanda",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Institute of Neurology, Department of Medical and Surgical Sciences, Magna Graecia University, Catanzaro, Italy",
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Neuroscience Research Center, Magna Graecia University, Catanzaro, Italy"
+      ]
+    },
+    {
+      "name": "Fratto Enrico",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Institute of Neurology, Department of Medical and Surgical Sciences, Magna Graecia University, Catanzaro, Italy"
+      ]
+    },
+    {
+      "name": "Arcuri Fulvia",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Neuroscience Research Center, Magna Graecia University, Catanzaro, Italy"
+      ]
+    },
+    {
+      "name": "Vescio Basilio",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Neuroscience Research Center, Magna Graecia University, Catanzaro, Italy",
+        ""
+      ]
+    },
+    {
+      "name": "Calomino Camilla",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Neuroscience Research Center, Magna Graecia University, Catanzaro, Italy"
+      ]
+    },
+    {
+      "name": "Talarico Mariagrazia",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Laboratory of Stem Cells, Department of Medical and Surgical Sciences, Magna Graecia University, Catanzaro, Italy"
+      ]
+    },
+    {
+      "name": "Cristiani Costanza Maria",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Neuroscience Research Center, Magna Graecia University, Catanzaro, Italy"
+      ]
+    },
+    {
+      "name": "Quattrone Aldo",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Neuroscience Research Center, Magna Graecia University, Catanzaro, Italy"
+      ]
+    },
+    {
+      "name": "Quattrone Andrea",
+      "affiliations": [
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Institute of Neurology, Department of Medical and Surgical Sciences, Magna Graecia University, Catanzaro, Italy",
+        "https://ror.org/0530bdk91grid.411489.10000 0001 2168 2547Neuroscience Research Center, Magna Graecia University, Catanzaro, Italy"
+      ]
+    }
+  ],
+  "keywords": [
+    "Neurofilament light chain",
+    "Glial fibrillary acidic protein",
+    "UK Biobank",
+    "Neurodegenerative diseases",
+    "Plasma biomarkers"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Università degli studi \"Magna Graecia\" di Catanzaro"
+  ],
+  "data_availability_text": "Data availabilityThe UK Biobank is an open-access resource available at https://www.ukbiobank.ac.uk/researchers/. Data can be obtained from the UK Biobank by submitting a data request proposal. The data supporting this study’s findings were used under license for the current study (Application #147093) and are not publicly available.",
+  "license": "",
+  "received": "2025-09-15",
+  "accepted": "2025-10-26",
+  "reference_pmids": [
+    "31813850",
+    "31813850",
+    "34083813",
+    "34083813",
+    "38934362",
+    "38934362",
+    "39797511",
+    "39797511",
+    "28512753",
+    "28512753",
+    "30967444",
+    "30967444",
+    "38609644",
+    "38609644",
+    "34099648",
+    "34099648",
+    "32514050",
+    "32514050",
+    "38678852",
+    "38678852",
+    "40180649",
+    "40180649",
+    "39164268",
+    "39164268",
+    "30737333",
+    "30737333",
+    "31123861",
+    "31123861",
+    "38976826",
+    "38976826",
+    "30664784",
+    "30664784",
+    "35115728",
+    "35115728",
+    "36056631",
+    "36056631",
+    "38940331",
+    "38940331",
+    "39596444",
+    "39596444",
+    "39254698",
+    "39254698",
+    "36781585",
+    "36781585",
+    "31937580",
+    "31937580",
+    "39641397",
+    "39641397",
+    "30224549",
+    "30224549",
+    "38735950",
+    "38735950",
+    "38354532",
+    "38354532",
+    "40551293",
+    "40551293",
+    "38825840",
+    "38825840",
+    "37459141",
+    "37459141",
+    "39700727",
+    "39700727",
+    "39249107",
+    "39249107",
+    "40891495",
+    "40891495",
+    "39962630",
+    "39962630"
+  ],
+  "tables_count": 1,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "participants",
+    "plasma nfl and gfap levels",
+    "statistical analysis",
+    "results",
+    "population characteristics",
+    "nfl and gfap comparisons across groups",
+    "proportion and temporal trends of elevated nfl and gfap levels across clinical groups",
+    "association between peripheral nfl and gfap and risk of neurodegenerative diseases",
+    "discussion",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8118,
+  "converted_at": "2026-04-06T22:37:53.967131+00:00"
+}

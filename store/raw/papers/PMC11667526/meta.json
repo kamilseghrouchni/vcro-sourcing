@@ -1,0 +1,177 @@
+{
+  "pmid": "39511865",
+  "pmc": "PMC11667526",
+  "doi": "10.1002/alz.14319",
+  "title": "Assessing polyomic risk to predict Alzheimer's disease using a machine learning model",
+  "journal": "Alzheimer's & Dementia",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Ngai Tiffany",
+      "affiliations": [
+        "Department of Neurology Genetics and Aging Research Unit and the McCance Center for Brain Health Massachusetts General Hospital and Harvard Medical School Charlestown Massachusetts USA",
+        "Department of Systems Design Engineering University of Waterloo Waterloo Ontario Canada"
+      ]
+    },
+    {
+      "name": "Willett Julian",
+      "affiliations": [
+        "Department of Neurology Genetics and Aging Research Unit and the McCance Center for Brain Health Massachusetts General Hospital and Harvard Medical School Charlestown Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Waqas Mohammad",
+      "affiliations": [
+        "Department of Neurology Genetics and Aging Research Unit and the McCance Center for Brain Health Massachusetts General Hospital and Harvard Medical School Charlestown Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Fishbein Lucas H.",
+      "affiliations": [
+        "Department of Neurology Genetics and Aging Research Unit and the McCance Center for Brain Health Massachusetts General Hospital and Harvard Medical School Charlestown Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Choi Younjung",
+      "affiliations": [
+        "Department of Neurology Genetics and Aging Research Unit and the McCance Center for Brain Health Massachusetts General Hospital and Harvard Medical School Charlestown Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Hahn Georg",
+      "affiliations": [
+        "Division of Pharmacoepidemiology and Pharmacoeconomics Department of Medicine Brigham and Women's Hospital and Harvard Medical School Boston Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Mullin Kristina",
+      "affiliations": [
+        "Department of Neurology Genetics and Aging Research Unit and the McCance Center for Brain Health Massachusetts General Hospital and Harvard Medical School Charlestown Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Lange Christoph",
+      "affiliations": [
+        "Channing Division of Network Medicine Department of Medicine Brigham and Women's Hospital and Harvard Medical School Boston Massachusetts USA",
+        "Department of Biostatistics Harvard T.H. Chan School of Public Health Boston Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Hecker Julian",
+      "affiliations": [
+        "Channing Division of Network Medicine Department of Medicine Brigham and Women's Hospital and Harvard Medical School Boston Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Tanzi Rudolph E.",
+      "affiliations": [
+        "Department of Neurology Genetics and Aging Research Unit and the McCance Center for Brain Health Massachusetts General Hospital and Harvard Medical School Charlestown Massachusetts USA"
+      ]
+    },
+    {
+      "name": "Prokopenko Dmitry",
+      "affiliations": [
+        "Department of Neurology Genetics and Aging Research Unit and the McCance Center for Brain Health Massachusetts General Hospital and Harvard Medical School Charlestown Massachusetts USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "machine learning",
+    "omics",
+    "polyomic model",
+    "prediction"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Cure Alzheimer's Fund 10.13039/100007625",
+    "NIH 10.13039/100000002T32GM007748"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2024-04-22",
+  "accepted": "2024-09-13",
+  "reference_pmids": [
+    "35652476",
+    "34998485",
+    "31709776",
+    "34101796",
+    "36911809",
+    "26354982",
+    "38382645",
+    "33794304",
+    "28433052",
+    "22436749",
+    "35273459",
+    "37224538",
+    "33547343",
+    "34881778",
+    "39572536",
+    "36624143",
+    "28323831",
+    "35848024",
+    "38987645",
+    "31492558",
+    "33794997",
+    "38761503",
+    "38706273",
+    "38962175",
+    "38982682",
+    "38836403",
+    "25826379",
+    "30305743",
+    "33568819",
+    "35501852",
+    "33942721",
+    "37794188",
+    "37794186",
+    "30617256",
+    "32211503",
+    "31417202",
+    "18652544",
+    "29207961",
+    "37015381",
+    "38914859",
+    "32651155",
+    "37641120",
+    "36095183",
+    "32607472",
+    "37118500",
+    "27130306",
+    "20831921",
+    "39126053",
+    "32300635",
+    "37174709",
+    "33717172",
+    "38016990",
+    "34376796",
+    "32059761"
+  ],
+  "tables_count": 5,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methodology",
+    "data collection",
+    "research in context",
+    "data preprocessing",
+    "models used",
+    "metrics used",
+    "training on multiple data modalities (multimodal training)",
+    "ad‐by‐proxy investigation",
+    "feature importance",
+    "results",
+    "feature importance evaluation",
+    "discussion",
+    "author contributions",
+    "conflict of interest statement",
+    "consent statement",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 10933,
+  "converted_at": "2026-04-06T22:36:29.983324+00:00"
+}

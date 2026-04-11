@@ -1,0 +1,390 @@
+{
+  "pmid": "41709913",
+  "pmc": "PMC12909123",
+  "doi": "10.1038/s44400-025-00047-7",
+  "title": "15 years of longitudinal genetic, clinical, cognitive, imaging, and biochemical measures in DIAN",
+  "journal": "Npj Dementia",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Daniels Alisha J.",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "McDade Eric",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Llibre-Guerra Jorge J.",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Xiong Chengjie",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Perrin Richard J.",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Ibanez Laura",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Supnet-Bell Charlene",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Cruchaga Carlos",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Goate Alison",
+      "affiliations": [
+        "https://ror.org/04a9tmd77grid.59734.3c0000 0001 0670 2351Icahn School of Medicine at Mount Sinai, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Renton Alan E.",
+      "affiliations": [
+        "https://ror.org/04a9tmd77grid.59734.3c0000 0001 0670 2351Icahn School of Medicine at Mount Sinai, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Benzinger Tammie L. S.",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Gordon Brian A.",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Hassenstab Jason",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Karch Celeste",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Levey Allan",
+      "affiliations": [
+        "https://ror.org/03czfpz43grid.189967.80000 0004 1936 7398Goizueta Alzheimer’s Disease Research Center, Emory University, Atlanta, GA USA"
+      ]
+    },
+    {
+      "name": "Morris John C.",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Buckles Virginia",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Allegri Ricardo F.",
+      "affiliations": [
+        "https://ror.org/0145s0423grid.418954.50000 0004 0620 9892Institute of Neurological Research FLENI, Buenos Aires, Argentina"
+      ]
+    },
+    {
+      "name": "Chrem Patricio",
+      "affiliations": [
+        "https://ror.org/0145s0423grid.418954.50000 0004 0620 9892Institute of Neurological Research FLENI, Buenos Aires, Argentina"
+      ]
+    },
+    {
+      "name": "Berman Sarah B.",
+      "affiliations": [
+        "https://ror.org/01an3r305grid.21925.3d0000 0004 1936 9000University of Pittsburgh, Pittsburgh, PA USA"
+      ]
+    },
+    {
+      "name": "Chhatwal Jasmeer P.",
+      "affiliations": [
+        "https://ror.org/03vek6s52grid.38142.3c000000041936754XMassachusetts General and Brigham & Women’s Hospitals, Harvard Medical School, Boston, MA USA"
+      ]
+    },
+    {
+      "name": "Farlow Martin R.",
+      "affiliations": [
+        "https://ror.org/05gxnyn08grid.257413.60000 0001 2287 3919Indiana University School of Medicine, Indianapolis, IN USA"
+      ]
+    },
+    {
+      "name": "Fox Nick C.",
+      "affiliations": [
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute at University College London, London, UK",
+        "https://ror.org/02jx3x895grid.83440.3b0000 0001 2190 1201University College London, London, UK"
+      ]
+    },
+    {
+      "name": "Day Gregory S.",
+      "affiliations": [
+        "https://ror.org/03zzw1w08grid.417467.70000 0004 0443 9942Mayo Clinic in Florida, Jacksonville, FL USA"
+      ]
+    },
+    {
+      "name": "Ikeuchi Takeshi",
+      "affiliations": [
+        "https://ror.org/04ww21r56grid.260975.f0000 0001 0671 5144Brain Research Institute, Niigata University, Niigata, Japan"
+      ]
+    },
+    {
+      "name": "Jucker Mathias",
+      "affiliations": [
+        "https://ror.org/043j0f473grid.424247.30000 0004 0438 0426DZNE, German Center for Neurodegenerative Diseases, Tübingen, Germany"
+      ]
+    },
+    {
+      "name": "Levin Johannes",
+      "affiliations": [
+        "https://ror.org/043j0f473grid.424247.30000 0004 0438 0426DZNE, German Center for Neurodegenerative Diseases, Munich, Germany",
+        "https://ror.org/05591te55grid.5252.00000 0004 1936 973XLudwig-Maximilians-Universität München, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Lee Jae-Hong",
+      "affiliations": [
+        "https://ror.org/03s5q0090grid.413967.e0000 0004 5947 6580Asan Medical Center, Seoul, South Korea"
+      ]
+    },
+    {
+      "name": "Aguillon David",
+      "affiliations": [
+        "https://ror.org/03bp5hc83grid.412881.60000 0000 8882 5269Universidad de Antioquia, Medellin, Colombia"
+      ]
+    },
+    {
+      "name": "Takada Leonel",
+      "affiliations": [
+        "https://ror.org/03mhtag13grid.456641.40000 0004 0603 1756Fundacao Faculdade de Medicina, Sao Paulo, Brazil"
+      ]
+    },
+    {
+      "name": "Sosa Ana Luisa",
+      "affiliations": [
+        "https://ror.org/05k637k59grid.419204.a0000 0000 8637 5954Instituto Nacional de Neurologia y Neurocirugla Innn, Mexico City, Mexico"
+      ]
+    },
+    {
+      "name": "Martins Ralph",
+      "affiliations": [
+        "https://ror.org/05jhnwe22grid.1038.a0000 0004 0389 4302Edith Cowan University, Joondalup, WA Australia"
+      ]
+    },
+    {
+      "name": "Mori Hiroshi",
+      "affiliations": [
+        "grid.518217.80000 0005 0893 4200Osaka City University, Osaka, Japan"
+      ]
+    },
+    {
+      "name": "Noble James M.",
+      "affiliations": [
+        "https://ror.org/01esghr10grid.239585.00000 0001 2285 2675Taub Institute for Research on Alzheimer’s Disease and the Aging Brain, Department of Neurology, and GH Sergievsky Center, Columbia University Irving Medical Center, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Salloway Stephen",
+      "affiliations": [
+        "https://ror.org/00z9zsj19grid.273271.20000 0000 8593 9332Brown University, Butler Hospital, Providence, RI USA"
+      ]
+    },
+    {
+      "name": "Huey Edward",
+      "affiliations": [
+        "https://ror.org/00z9zsj19grid.273271.20000 0000 8593 9332Brown University, Butler Hospital, Providence, RI USA"
+      ]
+    },
+    {
+      "name": "Sánchez-Valle Raquel",
+      "affiliations": [
+        "https://ror.org/02a2kzf50grid.410458.c0000 0000 9635 9413Hospital Clínic de Barcelona. IDIBAPS. University of Barcelona, Barcelona, Spain"
+      ]
+    },
+    {
+      "name": "Schofield Peter R.",
+      "affiliations": [
+        "https://ror.org/03r8z3t63grid.1005.40000 0004 4902 0432Discipline of Psychiatry and Mental Health, University of New South Wales, Sydney, NSW Australia"
+      ]
+    },
+    {
+      "name": "Roh Jee Hoon",
+      "affiliations": [
+        "https://ror.org/02cs2sd33grid.411134.20000 0004 0474 0479Korea University, Korea University Anam Hospital, Seoul, South Korea"
+      ]
+    },
+    {
+      "name": "Bateman Randall J.",
+      "affiliations": [
+        "https://ror.org/03x3g5467Washington University School of Medicine, St Louis, St Louis, MO USA"
+      ]
+    },
+    {
+      "name": "the Dominantly Inherited Alzheimer NetworkDanielsAlisha J.alisha.daniels@wustl.edu1McDadeEric1Llibre-GuerraJorge J.1XiongChengjie1PerrinRichard J.1IbanezLaura1Supnet-BellCharlene1CruchagaCarlos1GoateAlison2RentonAlan E.2GordonBrian A.1HassenstabJason1KarchCeleste1LeveyAllan3MorrisJohn C.1BucklesVirginia1AllegriRicardo F.4ChremPatricio4BermanSarah B.5ChhatwalJasmeer P.6FarlowMartin R.7FoxNick C.89DayGregory S.10IkeuchiTakeshi11JuckerMathias12LevinJohannes1314LeeJae-Hong15AguillonDavid16TakadaLeonel17SosaAna Luisa18MartinsRalph19MoriHiroshi20NobleJames M.21SallowayStephen22HueyEdward22Sánchez-ValleRaquel23SchofieldPeter R.24RohJee Hoon25BatemanRandall J.batemanr@wustl.edu1BenzingerTammie L. S.1HoltzmanDavid M.1FaganAnne M.1FranklinErin1XuXiong1LuRuijin1WangGuoqiao1LiYan1GremmingerEmily1CourtneyLaura1JeromeGina1HerriesElizabeth1StauberJennifer1BakerBryce1MintonMatthew1PicarelloDanielle M.2HornbeckRuss1ChenAllison1ChenCharles1FloresShaney1Joseph-MathurinNelly1JarmanSteve1JacksonKelley1KeefeSarah1KoudelisDeborah1MassoumzadehParinaz1McCulloughAustin1McKayNicole1NicklausJoyce1PulizosChristine1WangQing1SabaredzovicEdita1SmithHunter1ScottJalen1SimmonsAshlee1RizzoJacqueline1SullivanJennifer1StoutSarah1AschenbrennerAndrew J.1MarshJacob1BarthelemyNicolas1XuJinbin1JohnsonErik C. B.3SeyfriedNicholas T.3SuraceEzequiel4VazquezSilvia4IkonomovicSnezana5NadkarniNeelesh K.5CashDavid M.89RyanNatalie S.89Graff-RadfordNeill R.10KasugaKensaku11LaskeChristoph12HofmannAnna12Kuder-BulettaElke12Graber-SultanSusanne12ObermuellerUlrike12RoedenbeckYvonne1314VogleinJonathan1314LoperaFrancisco16MilenaYudy16RamirezLaura16BrooksWilliam S.24BecharaJacob A.24NiimiYoshiki26Rosa-NetoPedro27RingmanJohn28MastersColin29",
+      "affiliations": []
+    }
+  ],
+  "keywords": [
+    "Genetic markers",
+    "Alzheimer's disease",
+    "Diagnostic markers",
+    "Predictive markers",
+    "Prognostic markers",
+    "Cognitive neuroscience",
+    "Alzheimer's disease"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/100000957Alzheimer's AssociationSG-20-690363-DIAN",
+    "Raul Carrea Institute for Neurological Research (FLENI)",
+    "Research and Development Grants for Dementia from Japan Agency for Medical Research and Development (AMED)JP23dk0207066JP23dk0207066",
+    "German Center for Neurodegenerative Diseases (DZNE)",
+    "Korea Health Technology R&D Project through the Korea Health Industry Development Institute (KHIDI)",
+    "https://doi.org/10.13039/100020206Korea Dementia Research Center",
+    "https://doi.org/10.13039/501100024859Ministry of Health Office for Healthcare TransformationHI21C0066",
+    "Spanish Institute of Health Carlos III (ISCIII)",
+    "https://doi.org/10.13039/100000049National Institute on AgingU19AG032438"
+  ],
+  "data_availability_text": "Data availabilityThe datasets generated during the current study are not publicly available due to the sensitive nature of this human subjects data set, but are available from the corresponding author on reasonable request. All requests for data must be submitted in writing via the electronic data request form available on the DIAN website (https://dian.wustl.edu/our-research/for-investigators/dian-observational-study-investigator-resources/](https:/dian.wustl.edu/our-research/for-investigators/dian-observational-study-investigator-resources). Currently human data generated in this research is quality controlled and preserved with the DIAN Obs Biostatistics Core and in process to transition to the Washington University Becker Medical Library’s Digital Commons Data Repository and the Research Infrastructure Service (RIS). This repository meets the desirable characteristics of an acceptable NIH repository under the NIH Data Management and Sharing Policy implemented on January 25, 2023. The Core and Project primary data is highly sensitive and will be protected. Access will require a data request, followed by review and approval before access is granted. Those who wish to submit a data request will be able to see the types of data that are available, but a formal online request will be required to protect our subjects and for tracking purposes. The request form will include investigator affiliation, contact information, funding support, institutional review board (IRB) approval (if applicable), an NIH-style biosketch, and a brief description of the project, including specific aims, study design, characteristics of the data requested, and analysis plans. Investigators requesting data will also be required to sign a data user agreement and an acknowledgement agreement. The request will be received by the study data sharing committee, which will review for appropriateness. Upon their approval to release the data, a DUA will be required to be in place before the requested data is released. Each request is tracked by the DIAN Administration Core, and a data sharing report will be generated for progress and final reports to the National Institute on Aging (NIA). Each data request will specify the data elements required for the planned analyses. The Biostatistics Core personnel will prepare a file containing only these data elements, together with a participant identification number (not the DIAN ID# but an identifier recoded to protect confidentiality), so that questions about particular individuals can be resolved without the investigator’s knowledge of the participant’s identity. Image data will be available to approved investigators in post-processed formats via the DIAN Central Neuroimaging Data Archive (CNDA) after a formal DUA has been signed by both institutions. For data generated in this study, the following software may be useful for manipulating and utilizing the shared data: SAS, R, STATA, Python and MATLAB.",
+  "license": "",
+  "received": "2025-01-23",
+  "accepted": "2025-11-13",
+  "reference_pmids": [
+    "24016464",
+    "22784036",
+    "22784036",
+    "24194552",
+    "24194552",
+    "29397305",
+    "29397305",
+    "30217935",
+    "30217935",
+    "30753379",
+    "30753379",
+    "23134660",
+    "23134660",
+    "16987729",
+    "16987729",
+    "27583651",
+    "27583651",
+    "28943286",
+    "28943286",
+    "35871346",
+    "35871346",
+    "37406134",
+    "37406134",
+    "31825500",
+    "37429916",
+    "37429916",
+    "37231491",
+    "37231491",
+    "1759558",
+    "1759558",
+    "16906426",
+    "16906426",
+    "12084879",
+    "12084879",
+    "2864910",
+    "2864910",
+    "2011243",
+    "2011243",
+    "9330978",
+    "9330978",
+    "22101365",
+    "22101365",
+    "8909416",
+    "8909416",
+    "16237129",
+    "16237129",
+    "16914880",
+    "16914880",
+    "12498954",
+    "12498954",
+    "33399945",
+    "33399945",
+    "17579875",
+    "17579875",
+    "19924424",
+    "19924424",
+    "26810071",
+    "26810071",
+    "36512061",
+    "36512061",
+    "20656037",
+    "20656037",
+    "15534346",
+    "15534346",
+    "24363827",
+    "24363827",
+    "35044258",
+    "35044258",
+    "35755087",
+    "35755087",
+    "29182052",
+    "29182052",
+    "35925685",
+    "35925685",
+    "29761523",
+    "37550416",
+    "37550416",
+    "38934362",
+    "38934362",
+    "29376869"
+  ],
+  "tables_count": 7,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "study description",
+    "discussion",
+    "methods",
+    "administration core",
+    "clinical core",
+    "genetics core",
+    "cognition core",
+    "imaging core",
+    "biomarker core",
+    "neuropathology core",
+    "biostatistics core",
+    "scientific projects",
+    "future initiatives",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10934,
+  "converted_at": "2026-04-06T22:39:12.052725+00:00"
+}

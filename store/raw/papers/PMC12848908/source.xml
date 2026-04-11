@@ -1,0 +1,686 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz71100" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12848908</article-id><article-id pub-id-type="pmcid-ver">PMC12848908.1</article-id><article-id pub-id-type="pmcaid">12848908</article-id><article-id pub-id-type="pmcaiid">12848908</article-id><article-id pub-id-type="pmid">41603414</article-id><article-id pub-id-type="doi">10.1002/alz.71100</article-id><article-id pub-id-type="publisher-id">ALZ71100</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Multi‐omic expression of the VEGF family relates to Alzheimer's disease across diverse populations</article-title><alt-title alt-title-type="left-running-head">LIBBY <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="alz71100-cr-0001" contrib-type="author"><name name-style="western"><surname>Libby</surname><given-names initials="JB">Julia B.</given-names></name><xref rid="alz71100-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz71100-cr-0002" contrib-type="author"><name name-style="western"><surname>Deters</surname><given-names initials="KD">Kacie D.</given-names></name><xref rid="alz71100-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz71100-cr-0003" contrib-type="author"><name name-style="western"><surname>Ertekin‐Taner</surname><given-names initials="N">Nilüfer</given-names></name><xref rid="alz71100-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="alz71100-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz71100-cr-0004" contrib-type="author"><name name-style="western"><surname>Carrasquillo</surname><given-names initials="MM">Minerva M.</given-names></name><xref rid="alz71100-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71100-cr-0005" contrib-type="author"><name name-style="western"><surname>Allen</surname><given-names initials="M">Mariet</given-names></name><xref rid="alz71100-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz71100-cr-0006" contrib-type="author"><name name-style="western"><surname>De Jager</surname><given-names initials="P">Philip</given-names></name><xref rid="alz71100-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="alz71100-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz71100-cr-0007" contrib-type="author"><name name-style="western"><surname>Menon</surname><given-names initials="V">Vilas</given-names></name><xref rid="alz71100-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz71100-cr-0008" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="B">Bin</given-names></name><xref rid="alz71100-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz71100-cr-0009" contrib-type="author"><name name-style="western"><surname>Haroutunian</surname><given-names initials="V">Vahram</given-names></name><xref rid="alz71100-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="alz71100-cr-0010" contrib-type="author"><name name-style="western"><surname>Levey</surname><given-names initials="AI">Allan I.</given-names></name><xref rid="alz71100-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="alz71100-cr-0011" contrib-type="author"><name name-style="western"><surname>Seyfried</surname><given-names initials="NT">Nicholas T.</given-names></name><xref rid="alz71100-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib><contrib id="alz71100-cr-0012" contrib-type="author"><name name-style="western"><surname>Kaddurah‐Daouk</surname><given-names initials="R">Rima</given-names></name><xref rid="alz71100-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref><xref rid="alz71100-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref><xref rid="alz71100-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref></contrib><contrib id="alz71100-cr-0013" contrib-type="author"><name name-style="western"><surname>Finkbeiner</surname><given-names initials="S">Steve</given-names></name><xref rid="alz71100-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="alz71100-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><xref rid="alz71100-aff-0016" ref-type="aff">
+<sup>16</sup>
+</xref></contrib><contrib id="alz71100-cr-0014" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="D">Daifeng</given-names></name><xref rid="alz71100-aff-0017" ref-type="aff">
+<sup>17</sup>
+</xref><xref rid="alz71100-aff-0018" ref-type="aff">
+<sup>18</sup>
+</xref></contrib><contrib id="alz71100-cr-0015" contrib-type="author"><name name-style="western"><surname>Greenwood</surname><given-names initials="AK">Anna K.</given-names></name><xref rid="alz71100-aff-0019" ref-type="aff">
+<sup>19</sup>
+</xref></contrib><contrib id="alz71100-cr-0016" contrib-type="author"><name name-style="western"><surname>Vander Linden</surname><given-names initials="A">Abby</given-names></name><xref rid="alz71100-aff-0019" ref-type="aff">
+<sup>19</sup>
+</xref></contrib><contrib id="alz71100-cr-0017" contrib-type="author"><name name-style="western"><surname>Heath</surname><given-names initials="L">Laura</given-names></name><xref rid="alz71100-aff-0019" ref-type="aff">
+<sup>19</sup>
+</xref></contrib><contrib id="alz71100-cr-0018" contrib-type="author"><name name-style="western"><surname>Poehlman</surname><given-names initials="WL">William L.</given-names></name><xref rid="alz71100-aff-0019" ref-type="aff">
+<sup>19</sup>
+</xref></contrib><contrib id="alz71100-cr-0019" contrib-type="author"><name name-style="western"><surname>Dumitrescu</surname><given-names initials="L">Logan</given-names></name><xref rid="alz71100-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71100-aff-0020" ref-type="aff">
+<sup>20</sup>
+</xref></contrib><contrib id="alz71100-cr-0020" contrib-type="author"><name name-style="western"><surname>Petyuk</surname><given-names initials="VA">Vladislav A.</given-names></name><xref rid="alz71100-aff-0021" ref-type="aff">
+<sup>21</sup>
+</xref></contrib><contrib id="alz71100-cr-0021" contrib-type="author"><name name-style="western"><surname>Bennett</surname><given-names initials="DA">David A.</given-names></name><xref rid="alz71100-aff-0022" ref-type="aff">
+<sup>22</sup>
+</xref></contrib><contrib id="alz71100-cr-0022" contrib-type="author"><name name-style="western"><surname>Schneider</surname><given-names initials="JA">Julie A.</given-names></name><xref rid="alz71100-aff-0022" ref-type="aff">
+<sup>22</sup>
+</xref></contrib><contrib id="alz71100-cr-0023" contrib-type="author"><name name-style="western"><surname>Barnes</surname><given-names initials="LL">Lisa L.</given-names></name><xref rid="alz71100-aff-0022" ref-type="aff">
+<sup>22</sup>
+</xref></contrib><contrib id="alz71100-cr-0024" contrib-type="author" corresp="yes"><name name-style="western"><surname>Hohman</surname><given-names initials="TJ">Timothy J.</given-names></name><xref rid="alz71100-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="alz71100-aff-0020" ref-type="aff">
+<sup>20</sup>
+</xref><address><email>timothy.j.hohman@vumc.org</email></address></contrib></contrib-group><aff id="alz71100-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Vanderbilt Memory and Alzheimer's Center</named-content>
+<institution>Vanderbilt University Medical Center</institution>
+<city>Nashville</city>
+<named-content content-type="country-part">Tennessee</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Integrative Biology and Physiology</named-content>
+<institution>University of California</institution>
+<city>Los Angeles</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neuroscience</named-content>
+<institution>Mayo Clinic Florida</institution>
+<city>Jacksonville</city>
+<named-content content-type="country-part">Florida</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Mayo Clinic Florida</institution>
+<city>Jacksonville</city>
+<named-content content-type="country-part">Florida</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<named-content content-type="organisation-division">Center for Translational and Computational Neuroimmunology</named-content>
+<institution>Columbia University Medical Center</institution>
+<city>New York</city>
+<named-content content-type="country-part">New York</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Cell Circuits Program</named-content>
+<institution>Broad Institute of MIT and Harvard</institution>
+<city>Cambridge</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Mount Sinai Center for Transformative Disease Modeling</named-content>
+<institution>Icahn School of Medicine at Mount Sinai</institution>
+<city>New York</city>
+<named-content content-type="country-part">New York</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Departments of Psychiatry and Neuroscience</named-content>
+<institution>Icahn School of Medicine and JJ Peters VA MIRECC</institution>
+<city>New York</city>
+<named-content content-type="country-part">New York</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<institution>Emory University School of Medicine</institution>
+<city>Atlanta</city>
+<named-content content-type="country-part">Georgia</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biochemistry</named-content>
+<institution>Emory University School of Medicine</institution>
+<city>Atlanta</city>
+<named-content content-type="country-part">Georgia</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<named-content content-type="organisation-division">Department of Psychiatry and Behavioral Sciences</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">Duke Institute of Brain Sciences</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<institution>Duke University</institution>
+<city>Durham</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0014">
+<label>
+<sup>14</sup>
+</label>
+<named-content content-type="organisation-division">Center for Systems and Therapeutics</named-content>
+<institution>Gladstone Institutes</institution>
+<city>San Francisco</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0015">
+<label>
+<sup>15</sup>
+</label>
+<named-content content-type="organisation-division">Department of Physiology</named-content>
+<institution>University of California</institution>
+<city>San Francisco</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0016">
+<label>
+<sup>16</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>University of California</institution>
+<city>San Francisco</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0017">
+<label>
+<sup>17</sup>
+</label>
+<named-content content-type="organisation-division">Waisman Center</named-content>
+<institution>University of Wisconsin‐Madison</institution>
+<city>Madison</city>
+<named-content content-type="country-part">Wisconsin</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0018">
+<label>
+<sup>18</sup>
+</label>
+<named-content content-type="organisation-division">Departments of Biostatistics and Medical Informatics</named-content>
+<named-content content-type="organisation-division">School of Medicine and Public Health</named-content>
+<institution>University of Wisconsin‐Madison</institution>
+<city>Madison</city>
+<named-content content-type="country-part">Wisconsin</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0019">
+<label>
+<sup>19</sup>
+</label>
+<institution>Sage Bionetworks</institution>
+<city>Seattle</city>
+<named-content content-type="country-part">Washington</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0020">
+<label>
+<sup>20</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<named-content content-type="organisation-division">Vanderbilt Genetics Institute</named-content>
+<institution>Vanderbilt University Medical Center</institution>
+<city>Nashville</city>
+<named-content content-type="country-part">Tennessee</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0021">
+<label>
+<sup>21</sup>
+</label>
+<named-content content-type="organisation-division">Biological Sciences Division</named-content>
+<institution>Pacific Northwest National Laboratory</institution>
+<city>Richland</city>
+<named-content content-type="country-part">Washington</named-content>
+<country country="US">USA</country>
+</aff><aff id="alz71100-aff-0022">
+<label>
+<sup>22</sup>
+</label>
+<named-content content-type="organisation-division">Rush Alzheimer's Disease Center</named-content>
+<institution>Rush University Medical Center</institution>
+<city>Chicago</city>
+<named-content content-type="country-part">Illinois</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Timothy J. Hohman, Vanderbilt Memory &amp; Alzheimer's Center, 3319 West End Ave, 8th Floor; Nashville, TN 37203, USA.<break/> Email: <email>timothy.j.hohman@vumc.org</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>1</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>1</month><year>2026</year></pub-date><volume>22</volume><issue seq="810">1</issue><issue-id pub-id-type="pmc-issue-id">503538</issue-id><issue-id pub-id-type="doi">10.1002/alz.v22.1</issue-id><elocation-id>e71100</elocation-id><history><date date-type="rev-recd"><day>05</day><month>11</month><year>2025</year></date><date date-type="received"><day>25</day><month>6</month><year>2025</year></date><date date-type="accepted"><day>06</day><month>11</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>28</day><month>01</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>29</day><month>01</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-01-30 03:25:13.613"><day>30</day><month>01</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-22-e71100.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-22-e71100.pdf"/><abstract><title>Abstract</title><sec id="alz71100-sec-0010"><title>INTRODUCTION</title><p>The vascular endothelial growth factor (VEGF) signaling family plays a role in neurodegenerative diseases, including Alzheimer's disease (AD). Previous work has shown widespread effects of the members <italic toggle="yes">FLT1</italic>, <italic toggle="yes">FLT4</italic>, and <italic toggle="yes">VEGFB</italic> on AD outcomes. However, these analyses have focused within the non‐Hispanic White (NHW) population.</p></sec><sec id="alz71100-sec-0020"><title>NETHODS</title><p>The goal of this study was to analyze the effects of the <italic toggle="yes">VEGF</italic> family in underrepresented populations, leveraging large and diverse bulk RNA sequencing and tandem mass tag–mass spectrometry (TMT‐MS) proteomic data. Outcomes included measures of AD pathology and diagnosis.</p></sec><sec id="alz71100-sec-0030"><title>RESULTS</title><p>Within underrepresented populations, we replicated previously reported effects of <italic toggle="yes">FLT1</italic> and <italic toggle="yes">FLT4</italic>, whereby higher protein abundance was observed in the AD brain and was associated with higher neuropathology burden. In stratified analyses, these associations were largely consistent across race and ethnicity.</p></sec><sec id="alz71100-sec-0040"><title>DISCUSSION</title><p>This multi‐omic study on the role of the <italic toggle="yes">VEGF</italic> family in AD emphasizes the need for more representative studies focused on therapeutic targets for AD.</p></sec><sec id="alz71100-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz71100-list-0001"><list-item><p>Vascular endothelial growth factor (VEGF) genes and proteins were quantified in four different brain regions. Samples included participants from four different populations.</p></list-item><list-item><p>Previously observed effects were replicated in diverse populations.</p></list-item><list-item><p>This study is the largest multi‐omic study of the vascular endothelial growth factor (VEGF) genes among Alzheimer's disease (AD) participants from diverse populations.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz71100-kwd-0001">Alzheimer's disease</kwd><kwd id="alz71100-kwd-0002">brain multi‐omics</kwd><kwd id="alz71100-kwd-0003">bulk RNA sequencing</kwd><kwd id="alz71100-kwd-0004">cognition</kwd><kwd id="alz71100-kwd-0005">diverse populations</kwd><kwd id="alz71100-kwd-0006">neuropathology</kwd><kwd id="alz71100-kwd-0007">TMT‐MS</kwd><kwd id="alz71100-kwd-0008">VEGF</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>NIH</institution><institution-id institution-id-type="doi">10.13039/100000002</institution-id></institution-wrap>
+</funding-source><award-id>U01AG046139</award-id><award-id>U01AG046170</award-id><award-id>U01AG061357</award-id><award-id>U01AG061356</award-id><award-id>U01AG061359</award-id><award-id>R01AG067025</award-id><award-id>R01AG061518</award-id><award-id>U19AG063744</award-id><award-id>U19AG063744‐04S1</award-id><award-id>U01AG024904‐09S4</award-id><award-id>R01AG046171</award-id><award-id>RF1AG059093</award-id><award-id>RF1AG058942</award-id><award-id>RF1AG051550</award-id><award-id>P30AG10161</award-id><award-id>P30AG72975</award-id><award-id>R01AG15819</award-id><award-id>R01AG17917</award-id><award-id>U01AG46152</award-id><award-id>U01AG61356</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="1"/><page-count count="11"/><word-count count="5839"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.8 mode:remove_FC converted:28.01.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz71100-cite-0001">
+<string-name name-style="western">
+<surname>Libby</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deters</surname>
+<given-names>KD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ertekin‐Taner</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Multi‐omic expression of the VEGF family relates to Alzheimer's disease across diverse populations</article-title>. <source>Alzheimer's Dement</source>. <year>2026</year>;<volume>22</volume>:<elocation-id>e71100</elocation-id>. <pub-id pub-id-type="doi">10.1002/alz.71100</pub-id>
+<pub-id pub-id-type="pmid">41603414</pub-id></mixed-citation>
+</p></notes></front><body><sec id="alz71100-sec-0060"><label>1</label><title>BACKGROUND</title><p>The vascular endothelial growth factor (<italic toggle="yes">VEGF</italic>) signaling family is significantly involved in multiple processes related to the growth and maintenance of both vascular cells and neuronal cells.<xref rid="alz71100-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="alz71100-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> This signaling family includes five ligand encoding genes (<italic toggle="yes">VEGFA</italic>, <italic toggle="yes">VEGFB</italic>, <italic toggle="yes">VEGFC</italic>, <italic toggle="yes">VEGFD</italic>, and placental growth factor [<italic toggle="yes">PGF]</italic>), three receptor genes (<italic toggle="yes">FLT1</italic>, <italic toggle="yes">KDR</italic>, and <italic toggle="yes">FLT4</italic>), and two co‐receptor genes (<italic toggle="yes">NRP1</italic>, <italic toggle="yes">NRP2</italic>). These genes have been implicated in numerous neurological conditions like brain injury,<xref rid="alz71100-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Parkinson's disease,<xref rid="alz71100-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> stroke,<xref rid="alz71100-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="alz71100-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> and Alzheimer's disease (AD).<xref rid="alz71100-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="alz71100-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>
+</p><p>Previous work from our group has deeply characterized the effects of the <italic toggle="yes">VEGF</italic> family on AD leveraging multi‐omic approaches.<xref rid="alz71100-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz71100-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz71100-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="alz71100-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz71100-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Across our studies, we have provided strong evidence that elevated <italic toggle="yes">VEGFB</italic>, <italic toggle="yes">FLT1</italic>, <italic toggle="yes">FLT4</italic>, and <italic toggle="yes">PGF</italic> in the brain relate to worse cognitive outcomes and higher levels of AD neuropathology.<xref rid="alz71100-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz71100-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz71100-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="alz71100-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz71100-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Yet, all of these analyses have been limited to cohorts enriched for non‐Hispanic White (NHW) participants, limiting generalizability in populations that bear a disproportionate risk for AD and related dementias.<xref rid="alz71100-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz71100-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> The Accelerating Medicine Partnership for Alzheimer's Disease (AMP‐AD) Diversity Initiative has provided an exciting opportunity to expand our work to groups underrepresented in science and clarify which <italic toggle="yes">VEGF</italic> family associations are observed across populations.</p><p>Therefore, the goal of this study is to investigate whether previously observed effects of the <italic toggle="yes">VEGF</italic> family on AD replicate within more diverse populations using data from cohorts dedicated to this goal. Specifically, we investigate the effects of the various <italic toggle="yes">VEGF</italic> family members on measures of AD pathology and AD diagnosis leveraging data generated from multiple brain regions at both the transcriptome and proteomic level. Finally, we formally assess the effects within underrepresented populations to examine if previously observed effects are generalizable across populations.</p></sec><sec id="alz71100-sec-0070"><label>2</label><title>METHODS</title><sec id="alz71100-sec-0080"><label>2.1</label><title>Participants</title><p>Data from <italic toggle="yes">post mortem</italic> brain samples were obtained from the AMP‐AD Diversity Initiative, which collected data enriched for donors from African American (AA) and Latin American (LA) populations within the United States from five AMP‐AD contributing institutions, including Mayo Clinic, Rush University Medical Center, Mount Sinai, Columbia University, and Emory University. Further population information can be found in greater detail within the AMP‐AD cohort study, which breaks down population demographics by contributing institution.<xref rid="alz71100-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> In order to reach the sample sizes required for the AMP‐AD Diversity Initiative, brains from multiple studies and brain banks were ascertained from each of the contributing universities. Brains from the Mayo Clinic came from the Mayo Clinic Brain Bank, the Banner Sun Health Research Institute Brain Bank, or from the University of Florida Brain Bank. The brains from Mt. Sinai came from the Mt. Sinai Brain Bank. The brains from Rush University came from the Clinical Core of the Rush AD Research Center (ADRC), the Latino Core Study, the Minority Aging Research Study, the Religious Orders Study, or the Rush Memory an Aging Project. The brains from Columbia University were ascertained from the Bigg Institute Brain Bank, the Estudia Familiar de Influencia Genetica en Alzheimer Study, the National Institute on Aging AD Family Based Study, the Washington Heights Inwood Columbia Aging Project, or the Columbia ADRC. Each of these cohort studies and brain banks differed in their acquisition protocols as outlined in the flagship manuscript for AMP‐AD Diversity Initiative.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz71100-sec-0090"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz71100-list-0002"><list-item><p>
+<bold>Systematic review</bold>: The authors reviewed the literature using traditional sources (e.g., PubMed, Google Scholar). Many studies have characterized the role of the vascular endothelial growth factor (VEGF) family in Alzheimer's disease (AD) within the non‐Hispanic White (NHW) population, though few to date have looked within diverse populations. A representative summary of discovery multi‐omic analyses of <italic toggle="yes">VEGF</italic> within AD, including an emphasis on the largest studies to date and the lack of diversity within these studies, were appropriately cited.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: This study replicated multiple effects within diverse populations of <italic toggle="yes">VEGF</italic> gene expression on AD neuropathology and cognitive performance, previously recorded primarily in the NHW population.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Replication of the results reported here is needed, specifically in larger and more diverse cohorts. Additionally, future work is needed to understand the role of social determinants of health on population effects.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="alz71100-sec-0100"><label>2.2</label><title>Phenotype data</title><p>Sample collection methods and neuropathological categorization decisions varied across contributing sites. Therefore, the AMP‐AD team harmonized the data across sites following the protocols established by Alzheimer's Disease Sequencing Project Phenotype Harmonization Consortium (ADSP‐PHC; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vmacdata.org/adsp-phc" ext-link-type="uri">https://vmacdata.org/adsp‐phc</ext-link>). The phenotype data collected from these sites were harmonized by mapping onto common data elements that were largely based on the NACC neuropathology data dictionary. Resulting phenotypes included categorical measures of brain amyloidosis (Thal phasing, Consortium to Establish a Registry for Alzheimer's Disease [CERAD] staging), and tau tangle pathology (Braak staging). Similarly, clinical diagnostic methods largely varied across contributing sites with very few brain banks providing the clinical data needed to make a clinical diagnosis. Therefore, AMP‐AD made the decision to focus on a neuropathology‐derived diagnosis. Using CERAD and BRAAK staging, participants were placed into neuropathology diagnostic groups of either “Control”, “AD”, “Other”, or “Missing/Unknown”. A “Control” diagnosis was assigned to participants with BRAAK stage ≤ III and CERAD measure equal to none or sparse neuritic plaques. An “AD” diagnosis was assigned to participants with BRAAK stage ≥ IV and CERAD measure equal to moderate or frequent neuritic plaques. Any participants not falling in either of these criteria were assigned to “Other”, while participants without comprehensive neuropathology data were assigned “Missing/Unknown”. Further categorization decisions made by AMP‐AD have been previously characterized in greater detail.<xref rid="alz71100-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>
+</p><p>For race‐stratified models, population variables were combined to create a variable reflecting both reported race and ethnicity, while maximizing sample sizes for the groups. The groups created included NHW, non‐Hispanic Black (NHB), Hispanic, and Other for the few participants that didn't fall into the previous categories. Due to a low sample size, the individuals that fell into the “Other” category were not included in race‐stratified analyses.</p></sec><sec id="alz71100-sec-0110"><label>2.3</label><title>Bulk RNA sequencing</title><p>Bulk RNA sequencing was performed across the contributing centers within four brain regions: dorsolateral prefrontal cortex (DLPFC), caudate nucleus (CN), superior temporal gyrus (STG), and temporal pole (TP). Data are available on the AMP‐AD Knowledge Portal (syn2580853). Brain regions were selected to capture molecular profile differences across regions at varying stages of AD neuropathology. Processing and alignment protocol followed published protocol.<xref rid="alz71100-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> To summarize, reads were assigned to Ensembl (zGRChr38, v112) reference genome using STAR (v2.5.2b). From aligned reads, gene counts computed using featureCounts from Subread (v2.0.0), and Picard metrics were calculated (v2.18.27). Sample filters included removing samples with RNA integrity number (RIN) &lt; 3, <italic toggle="yes">post mortem</italic> interval (PMI) &gt; 24 h, outliers in principle component analysis (PCA), or samples who were missing RIN or any required demographic variables. Gene filters included removing genes with missing gene length or guanine–cytosine (GC) content prior to normalization. Remaining gene counts were quantile‐normalized and then filtered so that any expression values &gt; 3 standard deviations (SD) from the mean were excluded.</p><p>To prevent observed effects from being driven by technical differences, expression went through further iterative normalization using software from the limma R package,<xref rid="alz71100-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> adjusting for batch, age at death, RNA integrity number (RIN), and percentage of coding, intronic, and intergenic bases, and sensitivity models were rerun with this expression data.</p></sec><sec id="alz71100-sec-0120"><label>2.4</label><title>Tandem mass tag–mass spectrometry base proteomics</title><p>Protein abundance was quantified using isobaric tandem mass tag–mass spectrometry (TMT‐MS) at Emory University on 1,105 DLPFC tissue samples and 280 STG tissue samples from contributing centers (syn53185479) using protocol previously described.<xref rid="alz71100-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> Quality control of resulting expression included removing proteins that have missing data in &gt; 50% of the samples, taking the ratio of the protein abundance to all protein abundance for that sample to account for sample loading differences, log2 transformation of the ratio, removing samples that were outliers in PCA analysis, and regressing out batch effects. The resulting data included 1,086 DLPFC samples and 278 STG samples. Five STG samples missing phenotype data were excluded in analyses, leaving 273 STG samples. Quantification produced measurements for FLT1, NRP1, and NRP2 in DLPFC samples and FLT1, FLT4, NRP1, and NRP2 in STG samples.</p></sec><sec id="alz71100-sec-0130"><label>2.5</label><title>Statistical analyses</title><p>Statistical analyses were completed using R (version 4.3.0) and code is available from the authors upon request. Significance was set at a priori to <italic toggle="yes">α</italic> = 0.05. Analyses in this study were run in all tissues, while excluding the TP region due to insufficient data for regressions.</p><p>Generalized linear regression models were used to test <italic toggle="yes">VEGF</italic> associations with binary variables including the presence or absence of amyloid pathology and diagnosis. For the model looking at diagnosis, we removed participants with a diagnosis of “Other” or “Missing/Unknown”, leaving diagnostic groups of “Control” and “AD”. Ordinal logistic regression models were used to test associations with ordinal variables including Thal phase, Braak stage, and CERAD score. Additional race‐stratified models looking within NHW, NHB, and Hispanic populations separately were used to test <italic toggle="yes">VEGF</italic> associations with pathology and diagnosis within these specific populations. All models covaried for sex, apolipoprotein E (<italic toggle="yes">APOE)</italic> ‐ε4 carrier status, age at death, and PMI.</p><p>All nominally significant associations, classified as an uncorrected <italic toggle="yes">p</italic> &lt; 0.05, are reported in the text. <italic toggle="yes">p</italic>‐values were corrected for multiple comparisons for all VEGF predictors across all data types and outcomes using false discovery rate (FDR) procedure, including 615 models. All results are included in Table <xref rid="alz71100-supinfo-0001" ref-type="">S1</xref> with both uncorrected and corrected p‐values. Throughout the text, nominal p‐values that passed FDR correction are denoted by an asterisk.</p></sec></sec><sec id="alz71100-sec-0140"><label>3</label><title>RESULTS</title><p>Participant characteristics are presented by data type and tissue in Table <xref rid="alz71100-tbl-0001" ref-type="table">1</xref>. Bulk RNA sequencing data included a higher percentage of NHB and Hispanic participants than NHW, while TMT‐MS data included a higher percentage of NHW participants than NHB, followed by Hispanic. Both males and females were well‐represented across tissues and data types. Most participants were cognitively impaired, with a little less than half being <italic toggle="yes">APOE</italic>‐ε4 carriers.</p><table-wrap position="float" id="alz71100-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Participant characteristics</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr><th rowspan="2" align="left" colspan="1">Parameter</th><th colspan="3" style="border-bottom:solid 1px #000000" align="left" rowspan="1">Bulk RNA</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">TMT</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">DLPFC (<italic toggle="yes">N</italic> = 508)</th><th align="left" rowspan="1" colspan="1">STG (<italic toggle="yes">N</italic> = 498)</th><th align="left" rowspan="1" colspan="1">CN (<italic toggle="yes">N</italic> = 449)</th><th align="left" rowspan="1" colspan="1">DLPFC (<italic toggle="yes">N</italic> = 980)</th><th align="left" rowspan="1" colspan="1">STG (<italic toggle="yes">N</italic> = 238)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Female, <italic toggle="yes">N</italic> (%)</td><td align="left" rowspan="1" colspan="1">274 (54)</td><td align="left" rowspan="1" colspan="1">265 (53)</td><td align="left" rowspan="1" colspan="1">260 (58)</td><td align="left" rowspan="1" colspan="1">579 (59)</td><td align="left" rowspan="1" colspan="1">121 (51)</td></tr><tr><td align="left" rowspan="1" colspan="1">Non‐Hispanic Black, <italic toggle="yes">N</italic> (%)</td><td align="left" rowspan="1" colspan="1">179 (35)</td><td align="left" rowspan="1" colspan="1">147 (30)</td><td align="left" rowspan="1" colspan="1">179 (40)</td><td align="left" rowspan="1" colspan="1">271 (28)</td><td align="left" rowspan="1" colspan="1">76 (32)</td></tr><tr><td align="left" rowspan="1" colspan="1">Hispanic, <italic toggle="yes">N</italic> (%)</td><td align="left" rowspan="1" colspan="1">208 (41)</td><td align="left" rowspan="1" colspan="1">205 (41)</td><td align="left" rowspan="1" colspan="1">235 (53)</td><td align="left" rowspan="1" colspan="1">259 (27)</td><td align="left" rowspan="1" colspan="1">48 (20)</td></tr><tr><td align="left" rowspan="1" colspan="1">Non‐Hispanic White, <italic toggle="yes">N</italic> (%)</td><td align="left" rowspan="1" colspan="1">108 (21)</td><td align="left" rowspan="1" colspan="1">140 (28)</td><td align="left" rowspan="1" colspan="1">26 (6)</td><td align="left" rowspan="1" colspan="1">430 (44)</td><td align="left" rowspan="1" colspan="1">114 (48)</td></tr><tr><td align="left" rowspan="1" colspan="1">Age at death</td><td align="left" rowspan="1" colspan="1">78.5 ± 11.5</td><td align="left" rowspan="1" colspan="1">78.2 ± 11.5</td><td align="left" rowspan="1" colspan="1">78.7 ± 11.2</td><td align="left" rowspan="1" colspan="1">80.5 ± 10.6</td><td align="left" rowspan="1" colspan="1">76.3 ± 12.9</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">Post mortem</italic> interval</td><td align="left" rowspan="1" colspan="1">8.9 ± 5.6</td><td align="left" rowspan="1" colspan="1">8.6 ± 5.5</td><td align="left" rowspan="1" colspan="1">9.6 ± 5.8</td><td align="left" rowspan="1" colspan="1">10.4 ± 13.7</td><td align="left" rowspan="1" colspan="1">11.0 ± 10.4</td></tr><tr><td align="left" rowspan="1" colspan="1">Cognitively normal, <italic toggle="yes">N</italic> (%)</td><td align="left" rowspan="1" colspan="1">84 (17)</td><td align="left" rowspan="1" colspan="1">112 (23)</td><td align="left" rowspan="1" colspan="1">55 (12)</td><td align="left" rowspan="1" colspan="1">213 (22)</td><td align="left" rowspan="1" colspan="1">63 (27)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">APOE4</italic> carriers, <italic toggle="yes">N</italic> (%)</td><td align="left" rowspan="1" colspan="1">214 (43)</td><td align="left" rowspan="1" colspan="1">185 (38)</td><td align="left" rowspan="1" colspan="1">191 (45)</td><td align="left" rowspan="1" colspan="1">374 (41)</td><td align="left" rowspan="1" colspan="1">112 (48)</td></tr></tbody></table><table-wrap-foot><fn id="alz71100-tbl1-note-0001"><p>Abbreviations: APOE, apolipoprotein E; CN, caudate nucleus; DLPFC, dorsolateral prefrontal cortex; STG, superior temporal gyrus; TMT, tandem mass tag.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><sec id="alz71100-sec-0150"><label>3.1</label><title>VEGF inter‐tissue correlations</title><p>To aid in interpretability of analyses performed on the same genes across various brain tissues, we first examined the correlation of bulk RNA expression of each <italic toggle="yes">VEGF</italic> gene in the three brain tissues in overlapping samples (<italic toggle="yes">N</italic> = 312). Most of the <italic toggle="yes">VEGF</italic> genes were moderately positively correlated across tissues (<italic toggle="yes">r</italic> &gt; 0.25). However, <italic toggle="yes">FLT4</italic> expression in the CN was weakly correlated with expression in the STG (<italic toggle="yes">r</italic> = 0.08) and the DLPFC (<italic toggle="yes">r</italic> = 0.1). Additionally, <italic toggle="yes">NRP2</italic> expression in the CN was slightly less correlated with STG expression than the average across genes (<italic toggle="yes">r</italic> = 0.19).</p></sec><sec id="alz71100-sec-0160"><label>3.2</label><title>VEGF associations with measures of AD pathology and AD diagnosis</title><sec id="alz71100-sec-0170"><label>3.2.1</label><title>Results across racial and ethnic groups</title><p>Figure <xref rid="alz71100-fig-0001" ref-type="fig">1</xref> summarizes results for <italic toggle="yes">VEGF</italic> gene associations, with all racial and ethnic groups combined, with AD pathology measures and diagnosis for all tissues and data types. Full analysis results may be found in Table <xref rid="alz71100-supinfo-0001" ref-type="">S1</xref>. At the transcript level, increased <italic toggle="yes">VEGFA</italic> expression was associated with lower amyloid and tau including CERAD stage in the CN (<italic toggle="yes">β</italic> = −0.55, <italic toggle="yes">p</italic> = 0.002), Braak stage in the CN (<italic toggle="yes">β</italic> = −0.38, <italic toggle="yes">p</italic> = 0.005) and STG (<italic toggle="yes">β</italic> = −0.37, <italic toggle="yes">p</italic> = 0.006), and Thal phase in the STG (<italic toggle="yes">β</italic> = −0.35, <italic toggle="yes">p</italic> = 0.04). Increased <italic toggle="yes">VEGFB</italic> expression was associated with higher measures of pathology including a higher Thal phase in the STG (<italic toggle="yes">β</italic> = 1.09, <italic toggle="yes">p</italic> = 0.005) and the DLPFC (<italic toggle="yes">β</italic> = 0.84, <italic toggle="yes">p</italic> = 0.02), higher Braak stage in the STG (<italic toggle="yes">β</italic> = 0.69, <italic toggle="yes">p</italic> = 0.01) and in the DLPFC (<italic toggle="yes">β</italic> = 0.61, <italic toggle="yes">p</italic> = 0.03), and a higher CERAD score in the STG (<italic toggle="yes">β</italic> = 0.93, <italic toggle="yes">p</italic> = 0.02). Within the STG, <italic toggle="yes">VEGFC</italic> was associated with a higher Braak stage (<italic toggle="yes">β</italic> = 0.37, <italic toggle="yes">p</italic> = 0.02), and increased <italic toggle="yes">KDR</italic> expression within the DLPFC was associated with a higher Thal phase (<italic toggle="yes">β</italic> = 0.39, <italic toggle="yes">p</italic> = 0.04).</p><fig position="float" fig-type="FIGURE" id="alz71100-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>This figure illustrates associations of <italic toggle="yes">VEGF</italic> family members and outcomes across the two datatypes, while also indicating which associations passed corrections for all tests. The <italic toggle="yes">x</italic>‐axis for each gene is the data types, with the type of data measurement on the bottom and brain region on the top. The <italic toggle="yes">y</italic>‐axis contains the outcomes. The color of each square indicates the strength of the association where more red colors indicate positive associations, and more blue colors indicate negative associations. A gray colored box indicates a beta closer to zero. White boxes indicate no measured expression for the given gene. Associations reaching nominal significance are indicated by a black dot, and associations passing corrections for all tests are indicated with a black asterisk. Tissue CN, caudate nucleus; DLPFC, dorsolateral prefrontal cortex; STG, superior temporal gyrus; VEGF, vascular endothelial growth factor</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-22-e71100-g003.jpg"/></fig><p>Widespread effects of <italic toggle="yes">FLT1</italic> expression in the brain were observed on measures of pathology. Within the DLPFC, increased expression of <italic toggle="yes">FLT1</italic> was associated with a higher Braak stage (<italic toggle="yes">β</italic> = 0.45, <italic toggle="yes">p</italic> = 0.003) and Thal phase (<italic toggle="yes">β</italic> = 0.54, <italic toggle="yes">p</italic> = 0.004). In the STG, expression of <italic toggle="yes">FLT1</italic> was associated with a higher Braak stage (<italic toggle="yes">β</italic> = 0.48, <italic toggle="yes">p</italic> = 0.002), Thal phase (<italic toggle="yes">β</italic> = 0.43, <italic toggle="yes">p</italic> = 0.03), and CERAD score (<italic toggle="yes">β</italic> = 0.50, <italic toggle="yes">p</italic> = 0.04). Increased expression of <italic toggle="yes">FLT4</italic> was also associated with a higher Braak stage in the STG (<italic toggle="yes">β</italic> = 0.45, <italic toggle="yes">p</italic> = 0.01). <italic toggle="yes">NRP2</italic> expression in the STG was associated with a higher Thal phase (<italic toggle="yes">β</italic> = 0.69, <italic toggle="yes">p</italic> = 0.03). Interestingly, <italic toggle="yes">NRP1</italic> expression was associated with a lower Braak stage in the DLPFC (<italic toggle="yes">β</italic> = ‐0.56, <italic toggle="yes">p</italic> = 0.02) and a lower CERAD score in the CN (<italic toggle="yes">β</italic> = −0.60, <italic toggle="yes">p</italic> = 0.03).</p><p>When looking at transcriptomic associations with AD diagnosis, multiple genes were upregulated in the AD brain including <italic toggle="yes">VEGFB</italic> (<italic toggle="yes">β</italic> = 1.21, <italic toggle="yes">p</italic> = 0.007), <italic toggle="yes">FLT1</italic> (<italic toggle="yes">β</italic> = 0.68, <italic toggle="yes">p</italic> = 0.007), and <italic toggle="yes">FLT4</italic> (<italic toggle="yes">β</italic> = 0.55, <italic toggle="yes">p</italic> = 0.04) in the STG, whereas <italic toggle="yes">VEGFA</italic> expression was downregulated in the CN (Figure <xref rid="alz71100-fig-0002" ref-type="fig">2A</xref>, <italic toggle="yes">β</italic> = −0.83, <italic toggle="yes">p</italic> = 0.0009*).</p><fig position="float" fig-type="FIGURE" id="alz71100-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>(A) VEGFA RNA expression association with diagnosis in the CN. (B, C) FLT1 protein expression associations with diagnosis in the DLPFC and STG, respectively. (D) FLT4 STG protein expression with diagnosis. Diagnosis coding: CN, cognitively normal; AD, Alzheimer's disease. DLPFC, dorsolateral prefrontal cortex; VEGFA, vascular endothelial growth factor A</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-22-e71100-g002.jpg"/></fig><p>At the proteomic level, widespread effects of FLT1 expression were also observed across tissues. Within the DLPFC, FLT1 expression was associated with the presence of amyloid (Figure <xref rid="alz71100-fig-0003" ref-type="fig">3A</xref>, <italic toggle="yes">β</italic> = 5.33, <italic toggle="yes">p</italic> = 1.48e<sup>−19</sup>*), a higher Braak stage (Figure <xref rid="alz71100-fig-0003" ref-type="fig">3B</xref>, <italic toggle="yes">β</italic> = 3.17, <italic toggle="yes">p</italic> = 7.13e<sup>−32</sup>*), CERAD score (Figure <xref rid="alz71100-fig-0003" ref-type="fig">3C</xref>, <italic toggle="yes">β</italic> = 4.58, <italic toggle="yes">p</italic> = 1.18e<sup>−29</sup>*), and Thal phase (Figure <xref rid="alz71100-fig-0003" ref-type="fig">3D</xref>, <italic toggle="yes">β</italic> = 4.38, <italic toggle="yes">p</italic> = 3.34e<sup>−20</sup>*). Within the STG, higher expression of FLT1 was associated with a higher Braak stage (Figure <xref rid="alz71100-fig-0003" ref-type="fig">3E</xref>, <italic toggle="yes">β</italic> = 2.05, <italic toggle="yes">p</italic> = 0.001). Additionally, increased expression of FLT4 in the STG was associated with a higher Braak stage (<italic toggle="yes">β</italic> = 1.68, <italic toggle="yes">p</italic> = 0.006).</p><fig position="float" fig-type="FIGURE" id="alz71100-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>(A–D) FLT1 DLPFC protein expression associations with amyloid status, Braak stage, CERAD score, and Thal phase, respectively. (E) FLT1 STG RNA expression association with Braak stage. CERAD, Consortium to Establish a Registry for Alzheimer's Disease; DLPFC, dorsolateral prefrontal cortex; STG, superior temporal gyrus</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-22-e71100-g004.jpg"/></fig><p>Proteomic effects on AD diagnosis included upregulation of FLT1 in the DLPFC (Figure <xref rid="alz71100-fig-0002" ref-type="fig">2B</xref>, <italic toggle="yes">β</italic> = 5.80, <italic toggle="yes">p</italic> = 1.19 × 10<sup>−24</sup>*) and STG (Figure <xref rid="alz71100-fig-0002" ref-type="fig">2C</xref>, <italic toggle="yes">β</italic> = 4.26, <italic toggle="yes">p</italic> = 5.67 × 10<sup>−05</sup>*) and upregulation of FLT4 in the STG region (Figure <xref rid="alz71100-fig-0002" ref-type="fig">2D</xref>, <italic toggle="yes">β</italic> = 3.64, <italic toggle="yes">p</italic> = 0.0002*).</p></sec><sec id="alz71100-sec-0180"><label>3.2.2</label><title>Effects by race/ethnicity</title><p>When looking at effects within each population separately, multiple strong signals within NHB and Hispanic populations that corrected for multiple comparisons were observed that were previously observed solely in NHW. At the transcriptomic level, within the NHB population, <italic toggle="yes">VEGFA</italic> expression in the CN was associated with lower CERAD scores (Figure <xref rid="alz71100-fig-0004" ref-type="fig">4A</xref>, <italic toggle="yes">β</italic> = −1.03, <italic toggle="yes">p</italic> = 8.55 × 10<sup>−05</sup>*) and Braak stages (Figure <xref rid="alz71100-fig-0004" ref-type="fig">4B</xref>, <italic toggle="yes">β</italic> = −0.74, <italic toggle="yes">p</italic> = 0.0002*).</p><fig position="float" fig-type="FIGURE" id="alz71100-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Associations of <italic toggle="yes">VEGFA</italic> RNA expression in the CN with (A) CERAD score and (B) Braak stage within each population. CERAD, Consortium to Establish a Registry for Alzheimer's Disease; CN, caudate nucleus; VEGFA, vascular endothelial growth factor A</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-22-e71100-g005.jpg"/></fig><p>At the proteome level, widespread effects of FLT1 expression within the DLPFC was observed within the NHB and Hispanic populations. Within the NHB population, FLT1 protein expression in the DLPFC was associated with worse measurements of pathology, including the presence of amyloid pathology (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5A</xref>, <italic toggle="yes">β</italic> = 3.94, <italic toggle="yes">p</italic> = 3.63 × 10<sup>−05</sup>*), a worse CERAD score (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5B</xref>, <italic toggle="yes">β</italic> = 5.53, <italic toggle="yes">p</italic> = 2.00 × 10<sup>−09</sup>*), Braak stage (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5C</xref>, <italic toggle="yes">β</italic> = 2.84, <italic toggle="yes">p</italic> = 1.74 × 10<sup>−08</sup>*), and Thal phase (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5D</xref>, <italic toggle="yes">β</italic> = 3.97, <italic toggle="yes">p</italic> = 4.29 × 10<sup>−09</sup>*). Similar effects were observed within the Hispanic population where higher FLT1 protein expression in the DLPFC was associated with a higher Braak stage (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5C</xref>, <italic toggle="yes">β</italic> = 3.23, <italic toggle="yes">p</italic> = 4.80 × 10<sup>−08</sup>*), Thal phase (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5D</xref>, <italic toggle="yes">β</italic> = 4.35, <italic toggle="yes">p</italic> = 8.07 × 10<sup>−07</sup>*), and CERAD score (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5B</xref>, <italic toggle="yes">β</italic> = 3.82, <italic toggle="yes">p</italic> = 0.001*). Additionally, DLPFC expression of FLT1 was associated with AD cases in both NHB (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5E</xref>, <italic toggle="yes">β</italic> = 5.10, <italic toggle="yes">p</italic> = 2.90 × 10<sup>−06</sup>*) and Hispanic (Figure <xref rid="alz71100-fig-0005" ref-type="fig">5E</xref>, <italic toggle="yes">β</italic> = 4.36, <italic toggle="yes">p</italic> = 0.001*) populations.</p><fig position="float" fig-type="FIGURE" id="alz71100-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Associations of FLT1 protein expression in the DLPFC with (A) amyloid status, (B) CERAD score, (C) Braak stage, (D) Thal phase, and (E) diagnosis within each population. Diagnosis coding: CN, cognitively normal; AD, Alzheimer's disease. CERAD, Consortium to Establish a Registry for Alzheimer's Disease; DLPFC, dorsolateral prefrontal cortex</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ALZ-22-e71100-g001.jpg"/></fig><p>All nominally significant stratified results are included in Table <xref rid="alz71100-supinfo-0001" ref-type="">S1</xref>.</p></sec></sec></sec><sec id="alz71100-sec-0190"><label>4</label><title>DISCUSSION</title><p>In this analysis, we replicated previously reported effects of multiple members of the VEGF gene family in a highly diverse population including NHW, NHB, and Hispanic populations. Specifically, we observed robust effects of <italic toggle="yes">FLT1</italic> expression at both the transcript and protein level on multiple measures of AD pathology and diagnosis. Also consistent with previous findings, we observed protective effects of <italic toggle="yes">VEGFA</italic> and <italic toggle="yes">NRP1</italic> expression, and detrimental effects of <italic toggle="yes">VEGFB</italic>, <italic toggle="yes">KDR</italic>, <italic toggle="yes">NRP2</italic>, and <italic toggle="yes">FLT4</italic> expression on AD.</p><p>
+<italic toggle="yes">FLT1</italic> expression was higher among AD cases compared to controls and higher expression was associated with higher levels of AD neuropathology. These effects have been observed by our group multiple times across varying tissues, cohorts, and now across diverse populations. We first observed the effect of <italic toggle="yes">FLT1</italic> expression on cognitive trajectories and AD diagnosis in the prefrontal cortex (PFC).<xref rid="alz71100-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> This signal was also comprehensively observed in a separate publication on multiple levels including bulk RNA sequencing, TMT, and single‐nucleus RNA sequencing.<xref rid="alz71100-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Specifically, <italic toggle="yes">FLT1</italic> expression in the DLPFC both at the transcriptomic and proteomic levels was associated with higher levels of AD pathology, including amyloid and tau, and was associated with worse cognitive performance across multiple brain tissues. When looking at cell‐specific effects, <italic toggle="yes">FLT1</italic> expression in microglial cells appeared to be driving the effect on cognition, which was later replicated in an independent single‐nucleus dataset.<xref rid="alz71100-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> In this analysis, we observed our strongest effects on pathology and diagnosis at the proteomic level, further solidifying a potential mechanistic role of <italic toggle="yes">FLT1</italic> expression on AD that is consistent across populations.</p><p>We also observed detrimental effects of <italic toggle="yes">VEGFB</italic> expression on pathology levels and diagnosis across the DLPFC and STG brain tissues. While these effects didn't correct for multiple comparisons, these results have been observed consistently across studies.<xref rid="alz71100-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz71100-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz71100-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> The appearance of these signals in addition to <italic toggle="yes">FLT1</italic> indicate a strong role of the <italic toggle="yes">FLT1</italic>‐<italic toggle="yes">VEGFB</italic> signaling pathway in neurodegeneration and neuronal dysfunction. <italic toggle="yes">VEGFB</italic> has been shown to play a role in neuronal survival and regeneration.<xref rid="alz71100-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="alz71100-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="alz71100-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> While these effects are beneficial under normal conditions, in the presence of AD pathology, <italic toggle="yes">VEGFB</italic> signaling has been shown to result in an increase in angiogenesis and immune activation.<xref rid="alz71100-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> However, the role of <italic toggle="yes">VEGFB</italic> signaling within disease conditions may be cell type specific. Notably, in our small nuclear RNA (snRNA) results reported earlier this year,<xref rid="alz71100-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> we identified a differential association for <italic toggle="yes">VEGFB</italic> by cell type, where higher levels were associated with worse outcomes in oligodendrocytes, but better outcomes in neurons. Given that the present data are tissue homogenate, it is possible that differences in cell fraction contribute to the heterogeneity observed across various studies. Future single‐cell analysis could help clarify these differences.</p><p>In addition to the <italic toggle="yes">FLT1</italic> and <italic toggle="yes">VEGFB</italic> signals, multiple additional signals were observed that were consistent with previous findings. In particular, a signal that has continued to appear across studies is the detrimental role of <italic toggle="yes">FLT4</italic> on AD pathology and diagnosis. Here we observed a strong association between increased FLT4 expression at the proteomic level and AD diagnosis, surviving correction for multiple comparisons. While the direction of this effect has varied across brain regions,<xref rid="alz71100-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>
+<italic toggle="yes">FLT4</italic> appears to play a strong role in AD related pathways. Specifically, <italic toggle="yes">FLT4</italic> signals have consistently appeared alongside <italic toggle="yes">FLT1</italic> signals, indicating common pathways may be at play driving the upregulation of both <italic toggle="yes">FLT1</italic> and <italic toggle="yes">FLT4</italic> most likely in response to the presence of AD pathology<xref rid="alz71100-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="alz71100-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>.</p><p>We also observed significant and nominal effects of the receptor and ligand pair <italic toggle="yes">VEGFA</italic> and <italic toggle="yes">KDR</italic>,<xref rid="alz71100-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> respectively, where increased <italic toggle="yes">VEGFA</italic> expression across regions was protective against AD pathology, and <italic toggle="yes">KDR</italic> expression in the DLPFC was associated with worse AD pathology. These weaker signals have shown up less consistently across studies,<xref rid="alz71100-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="alz71100-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> but indicate a potential role of related pathways involving this pair, including the canonical angiogenesis pathway which is important for the production and healing of blood vessels.<xref rid="alz71100-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> We also observed nominal effects of <italic toggle="yes">NRP1</italic> and <italic toggle="yes">NRP2</italic>, where <italic toggle="yes">NRP1</italic> appeared protective against AD pathology and <italic toggle="yes">NRP2</italic> associated with worse AD pathology. These signals rarely appear across studies, but seem to have tissue and cell specific effects when appearing,<xref rid="alz71100-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="alz71100-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="alz71100-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> suggesting more work is needed to clarify these complex associations.</p><p>Due to the heterogeneous nature of AD across different populations, we performed sensitivity analyses looking at the effects within underrepresented groups. The observed results were consistent within these populations with previously observed associations reported in NHW populations. These encouraging results emphasize the potential of VEGF therapeutic targets in the general population, specifically <italic toggle="yes">FLT1</italic> which had widespread detrimental effects on pathology and diagnosis across populations. However, one study alone is not enough evidence to validate this effect across all populations. There is still a great need for diversity in AD studies, particularly at the clinical trial level. Diverse populations have been historically, and continue to be, left out or underrepresented in AD trials. One report in 2022 estimated across 101 AD drug clinical trials, on average 94% of participants were White individuals.<xref rid="alz71100-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> With NHB and Hispanic populations being at a greater risk for AD,<xref rid="alz71100-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> the inclusion of these populations in studies is greatly needed to truly understand and safely treat AD in the general population.</p><p>This study has multiple strengths. It is the largest and most diverse multi‐omic analysis of the VEGF signaling family effects on AD and aging to date, leveraging harmonized data from the AMP‐AD Diversity Initiative. In addition, this study evaluated VEGF family associations across multiple brain regions at the transcript and protein level. Despite the extensive multi‐omic data used, we were limited to looking within only a few brain regions for the bulk RNA data and even fewer for the TMT proteomic data. More regional expression data are needed to better fully characterize the effect <italic toggle="yes">VEGF</italic> has in the AD and aging brain. Another limitation was the lack of continuous measurements of pathology or cognition that may have reduced our statistical power relative to previous studies. Additionally, due to the heterogeneous nature of the data collected by each contributing site, we were limited to looking at a neuropathology‐derived diagnosis without a clinically derived diagnosis for validation. Additional studies specifically looking at a clinical diagnosis are needed for validation of our observed effects on a neuropathology‐derived diagnosis. Further, while the study here is diverse, we had a limited set of covariates that could fully evaluate social determinants of health, creating challenges in the interpretation of population effects.</p><p>To conclude, we provide robust evidence for the detrimental role of <italic toggle="yes">FLT1</italic> signaling in AD across populations and build on our previous work in NHW populations to clarify the role of the VEGF family in the AD brain in populations historically underrepresented in science. Future studies characterizing the brain at single‐cell resolution within diverse populations, and the modifying role of gene (e.g., <italic toggle="yes">APOE</italic>) and genetic ancestry effects will help move these novel candidates forward as potential targets for precision interventions.</p></sec><sec sec-type="COI-statement" id="alz71100-sec-0210"><title>CONFLICT OF INTEREST STATEMENT</title><p>R.K.D. is an inventor on a series of patents on use of metabolomics for the diagnosis and treatment of CNS diseases and holds equity in Metabolon Inc., Chymia LLC and PsyProtix. T.J.H. is on the scientific advisory board for Vivid Genomics, is deputy editor for Alzheimer's &amp; Dementia: Translational Research and Clinical Intervention, and is Senior Associate Editor for Alzheimer's &amp; Dementia. J.B.L., K.D.D., N.E.T., M.M.C., M.A., P.D.J., S.F., D.W., A.K.G., A.V.L., L.H., W.L.P., L.D., V.A.P., D.A.B., J.A.S., and L.L.B. have nothing to disclose. Author disclosures are available in the <xref rid="alz71100-supinfo-0001" ref-type="">Supporting Information</xref>
+</p></sec><sec id="alz71100-sec-0220"><title>CONSENT STATEMENT</title><p>Studies included in the AMP‐AD Diverse Cohort Study were approved by the institutional review board (IRB) at the respective institutions, including the Mayo Clinic, Mount Sinai, Rush University Medical Center, Emory University, and Columbia University. All human subjects provided informed consent and signed an Anatomic Gift Act. Secondary analyses of this extant data were approved by the Vanderbilt University Medical Center IRB. All Research was conducted according to the ethical standards outlined in the Declaration of Helsinki.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz71100-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz71100-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71100-s001.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz71100-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-22-e71100-s002.xlsx" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz71100-sec-0200"><title>ACKNOWLEDGMENTS</title><p>The results published here are in whole or in part based on data obtained from the AD Knowledge Portal (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adknowledgeportal.org/" ext-link-type="uri">https://adknowledgeportal.org/</ext-link>). We thank the participants of participants of the Religious Order Study, Memory and Aging Project, the Minority Aging Research Study, Rush Alzheimer's Disease Research Center, Mount Sinai/JJ Peters VA Medical Center NIH Brain and Tissue Repository, National Institute of Mental Health Human Brain Collection Core (NIMH HBCC), Mayo Clinic Brain Bank, Sun Health Research Institute Brain and Body Donation Program, Goizueta Alzheimer's Disease Research Center, New York Brain Bank at Columbia University, New York Genome Center and the Biggs Institute Brain Bank for their generous donations. Data and analysis contributing investigators include Nilüfer Ertekin–Taner, Minerva Carrasquillo, Mariet Allen (Mayo Clinic, Jacksonville, FL), David Bennett, Lisa Barnes (Rush University), Philip De Jager, Vilas Menon (Columbia University), Bin Zhang, Vahram Haroutanian (Icahn School of Medicine at Mount Sinai), Allan Levey, Nick Seyfried (Emory University), Rima Kaddurah‐Daouk (Duke University), Steve Finkbeiner (University of California‐San Francisco/Gladstone Institutes), Daifeng Wang (University of Wisconsin‐Madison), Stefano Marenco (NIMH HBCC), Anna Greenwood, Abby Vander Linden, Laura Heath, William Poehlman (Sage Bionetworks). Data generation was supported by the following NIH grants: U01AG046139, U01AG046170, U01AG061357, U01AG061356, U01AG061359, and R01AG067025. RADC cohorts are supported by NIA grants P30AG10161, P30AG72975, R01AG15819, R01AG17917, U01AG46152, and U01AG61356. This project was enabled in part by the Alzheimer's Gut Microbiome Project (AGMP), supported by the National Institute on Aging grants: 1U19AG063744 and 3U19AG063744‐04S1, awarded to Dr. Kaddurah‐Daouk at Duke University in partnership with multiple academic institutions. As such, the investigators within the AGMP not listed in this publication's authors’ list, provided analysis‐ready data, but did not participate in designing the study, conducting the analyses or writing of this manuscript. A listing of AGMP Investigators can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://alzheimergut.org/meet-the-team/" ext-link-type="uri">https://alzheimergut.org/meet‐the‐team/</ext-link>. A complete listing of the AD Metabolomics Consortium (ADMC) investigators can be found at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sites.duke.edu/adnimetab/team/" ext-link-type="uri">https://sites.duke.edu/adnimetab/team/</ext-link>. Metabolomics data used in preparation of this article were generated by the Alzheimer's Disease Metabolomics Consortium (ADMC). Metabolomics data will be available via the AD Knowledge Portal hosted by Sage Bionetworks. As such, the investigators within the ADMC other than named authors provided data but did not participate in analysis or writing of this report. A complete listing of ADMC investigators can be found at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sites.duke.edu/adnimetab/team/" ext-link-type="uri">https://sites.duke.edu/adnimetab/team/</ext-link>. The NIA supported the Alzheimer Disease Metabolomics Consortium which is a part of NIA's national initiatives AMP‐AD and M2OVE‐AD (R01 AG046171, RF1AG059093, RF1AG058942, RF1 AG051550, 3U01AG061359, 3U01 AG024904‐09S4). Additional support from R01AG061518.</p></ack><ref-list id="alz71100-bibl-0001"><title>REFERENCES</title><ref id="alz71100-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz71100-cite-0002">
+<string-name name-style="western">
+<surname>Ruiz de Almodovar</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lambrechts</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mazzone</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carmeliet</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Role and therapeutic potential of VEGF in the nervous system</article-title>. <source>Physiol Rev</source>. <year>2009</year>;<volume>89</volume>(<issue>2</issue>):<fpage>607</fpage>‐<lpage>648</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1152/physrev.00031.2008" ext-link-type="uri">10.1152/physrev.00031.2008</ext-link>
+<pub-id pub-id-type="pmid">19342615</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1152/physrev.00031.2008</pub-id></mixed-citation></ref><ref id="alz71100-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz71100-cite-0003">
+<string-name name-style="western">
+<surname>Olsson</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dimberg</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kreuger</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claesson‐Welsh</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>VEGF receptor signalling? In control of vascular function</article-title>. <source>Nat Rev Mol Cell Biol</source>. <year>2006</year>;<volume>7</volume>(<issue>5</issue>):<fpage>359</fpage>.<pub-id pub-id-type="pmid">16633338</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrm1911</pub-id></mixed-citation></ref><ref id="alz71100-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz71100-cite-0004">
+<string-name name-style="western">
+<surname>Linton</surname>
+<given-names>AE</given-names>
+</string-name>. <article-title>Pathologic sequelae of vascular cognitive impairment and dementia sheds light on potential targets for intervention</article-title>. <source>Cereb Circ‐Cogn Behav</source>. <year>2021</year>;<volume>2</volume>:<elocation-id>100030</elocation-id>.<pub-id pub-id-type="pmid">36324710</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cccb.2021.100030</pub-id><pub-id pub-id-type="pmcid">PMC9616287</pub-id></mixed-citation></ref><ref id="alz71100-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz71100-cite-0005">
+<string-name name-style="western">
+<surname>Ceci</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lacal</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barbaccia</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mercuri</surname>
+<given-names>NB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Graziani</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledonne</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>The VEGFs/VEGFRs system in Alzheimer's and Parkinson's diseases: pathophysiological roles and therapeutic implications</article-title>. <source>Pharmacol Res</source>. <year>2024</year>;<volume>201</volume>:<elocation-id>107101</elocation-id>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.phrs.2024.107101" ext-link-type="uri">10.1016/j.phrs.2024.107101</ext-link>
+<pub-id pub-id-type="pmid">38336311</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.phrs.2024.107101</pub-id></mixed-citation></ref><ref id="alz71100-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz71100-cite-0006">
+<string-name name-style="western">
+<surname>Greenberg</surname>
+<given-names>DA</given-names>
+</string-name>. <article-title>Vascular endothelial growth factors (VEGFs) and stroke</article-title>. <source>Cell Mol Life Sci</source>. <year>2013</year>;<volume>70</volume>(<issue>10</issue>):<fpage>1753</fpage>‐<lpage>1761</lpage>.<pub-id pub-id-type="pmid">23475070</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00018-013-1282-8</pub-id><pub-id pub-id-type="pmcid">PMC3634892</pub-id></mixed-citation></ref><ref id="alz71100-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz71100-cite-0007">
+<string-name name-style="western">
+<surname>Ng</surname>
+<given-names>TKS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ho</surname>
+<given-names>CSH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tam</surname>
+<given-names>WWS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kua</surname>
+<given-names>EH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ho</surname>
+<given-names>RCM</given-names>
+</string-name>. <article-title>Decreased serum brain‐derived neurotrophic factor (BDNF) levels in patients with Alzheimer's Disease (AD): a systematic review and meta‐analysis</article-title>. <source>Int J Mol Sci</source>. <year>2019</year>;<volume>20</volume>(<issue>2</issue>):<fpage>257</fpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3390/ijms20020257" ext-link-type="uri">10.3390/ijms20020257</ext-link>
+<pub-id pub-id-type="pmid">30634650</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms20020257</pub-id><pub-id pub-id-type="pmcid">PMC6358753</pub-id></mixed-citation></ref><ref id="alz71100-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz71100-cite-0008">
+<string-name name-style="western">
+<surname>Storkebaum</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carmeliet</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>VEGF: a critical player in neurodegeneration</article-title>. <source>J Clin Invest</source>. <year>2004</year>;<volume>113</volume>(<issue>1</issue>):<fpage>14</fpage>‐<lpage>18</lpage>.<pub-id pub-id-type="pmid">14702101</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI200420682</pub-id><pub-id pub-id-type="pmcid">PMC300888</pub-id></mixed-citation></ref><ref id="alz71100-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz71100-cite-0009">
+<string-name name-style="western">
+<surname>Hohman</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bell</surname>
+<given-names>SP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jefferson</surname>
+<given-names>AL</given-names>
+</string-name>. <article-title>The role of vascular endothelial growth factor in neurodegeneration and cognitive decline: exploring interactions with biomarkers of Alzheimer Disease</article-title>. <source>JAMA Neurol</source>. <year>2015</year>;<volume>72</volume>(<issue>5</issue>):<fpage>520</fpage>‐<lpage>529</lpage>.<pub-id pub-id-type="pmid">25751166</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaneurol.2014.4761</pub-id><pub-id pub-id-type="pmcid">PMC4428948</pub-id></mixed-citation></ref><ref id="alz71100-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz71100-cite-0010">
+<string-name name-style="western">
+<surname>Mahoney</surname>
+<given-names>ER</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dumitrescu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moore</surname>
+<given-names>AM</given-names>
+</string-name>, et al. <article-title>Brain expression of the vascular endothelial growth factor gene family in cognitive aging and Alzheimer's disease</article-title>. <source>Mol Psychiatry</source>. <year>2021</year>;<volume>26</volume>:<fpage>888</fpage>‐<lpage>896</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1038/s41380-019-0458-5" ext-link-type="uri">10.1038/s41380‐019‐0458‐5</ext-link>
+<pub-id pub-id-type="pmid">31332262</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41380-019-0458-5</pub-id><pub-id pub-id-type="pmcid">PMC6980445</pub-id></mixed-citation></ref><ref id="alz71100-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz71100-cite-0011">
+<string-name name-style="western">
+<surname>Libby</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seto</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khan</surname>
+<given-names>OA</given-names>
+</string-name>, et al. <article-title>Whole blood transcript and protein abundance of the vascular endothelial growth factor family relate to cognitive performance</article-title>. <source>Neurobiol Aging</source>. <year>2023</year>;<volume>124</volume>:<fpage>11</fpage>‐<lpage>17</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.neurobiolaging.2023.01.002" ext-link-type="uri">10.1016/j.neurobiolaging.2023.01.002</ext-link>
+<pub-id pub-id-type="pmid">36680854</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2023.01.002</pub-id><pub-id pub-id-type="pmcid">PMC9957941</pub-id></mixed-citation></ref><ref id="alz71100-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz71100-cite-0012">
+<string-name name-style="western">
+<surname>Seto</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dumitrescu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mahoney</surname>
+<given-names>ER</given-names>
+</string-name>, et al. <article-title>Multi‐omic characterization of brain changes in the vascular endothelial growth factor family during aging and Alzheimer's disease</article-title>. <source>Neurobiol Aging</source>. <year>2023</year>;<volume>126</volume>:<fpage>25</fpage>‐<lpage>33</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.neurobiolaging.2023.01.010" ext-link-type="uri">10.1016/j.neurobiolaging.2023.01.010</ext-link>
+<pub-id pub-id-type="pmid">36905877</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neurobiolaging.2023.01.010</pub-id><pub-id pub-id-type="pmcid">PMC10106439</pub-id></mixed-citation></ref><ref id="alz71100-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz71100-cite-0013">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Libby</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dumitrescu</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Association of 10 VEGF Family Genes with Alzheimer's Disease Endophenotypes at Single Cell Resolution</article-title>. <source>Alzheimer's Dement</source>. <year>2025</year>; <volume>21</volume>: <elocation-id>e14419</elocation-id>. doi: <pub-id pub-id-type="doi">10.1002/alz.14419</pub-id>
+<pub-id pub-id-type="pmid">39641382</pub-id>
+<pub-id pub-id-type="pmcid">PMC11848196</pub-id></mixed-citation></ref><ref id="alz71100-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz71100-cite-0014">
+<string-name name-style="western">
+<surname>Lennon</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aita</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Del Bene</surname>
+<given-names>VA</given-names>
+</string-name>, et al. <article-title>Black and White individuals differ in dementia prevalence, risk factors, and symptomatic presentation</article-title>. <source>Alzheimers Dement</source>. <year>2022</year>;<volume>18</volume>(<issue>8</issue>):<fpage>1461</fpage>‐<lpage>1471</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.12509" ext-link-type="uri">10.1002/alz.12509</ext-link>
+<pub-id pub-id-type="pmid">34854531</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12509</pub-id><pub-id pub-id-type="pmcid">PMC9160212</pub-id></mixed-citation></ref><ref id="alz71100-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz71100-cite-0015">
+<collab collab-type="authors">Alzheimer's Association</collab>
+. <article-title>2024 Alzheimer's Disease Facts and Figures</article-title>. <source>Alzheimers Dement J Alzheimers Assoc</source>. <year>2024</year>;<volume>20</volume>(<issue>5</issue>):<fpage>3708</fpage>‐<lpage>3821</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.13809</pub-id><pub-id pub-id-type="pmcid">PMC11095490</pub-id><pub-id pub-id-type="pmid">38689398</pub-id></mixed-citation></ref><ref id="alz71100-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz71100-cite-0016">
+<string-name name-style="western">
+<surname>Reddy</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heath</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>vander</surname>
+<given-names>LindenA</given-names>
+</string-name>, et al. <article-title>Bridging the Gap: Multi‐Omics Profiling of Brain Tissue in Alzheimer's Disease and Older Controls in Multi‐Ethnic Populations</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>20</volume>: <fpage>7174</fpage>‐<lpage>7192</lpage>. <pub-id pub-id-type="doi">10.1002/alz.14208</pub-id>
+<pub-id pub-id-type="pmid">39215503</pub-id>
+<pub-id pub-id-type="pmcid">PMC11485084</pub-id></mixed-citation></ref><ref id="alz71100-bib-0016"><label>16</label><mixed-citation publication-type="miscellaneous" id="alz71100-cite-0017">
+<string-name name-style="western">
+<surname>Logsdon</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perumal</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swarup</surname>
+<given-names>V</given-names>
+</string-name>, et al. <article-title>Meta‐analysis of the human brain transcriptome identifies heterogeneity across human AD coexpression modules robust to sample collection and methodological approach</article-title>. <italic toggle="yes">bioRxiv</italic>. Published online 2019:<elocation-id>510420</elocation-id>. doi: <pub-id pub-id-type="doi">10.1101/510420</pub-id>
+</mixed-citation></ref><ref id="alz71100-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz71100-cite-0018">
+<string-name name-style="western">
+<surname>Ritchie</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Phipson</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>limma powers differential expression analyses for RNA‐sequencing and microarray studies</article-title>. <source>Nucleic Acids Res</source>. <year>2015</year>;<volume>43</volume>(<issue>7</issue>):<fpage>e47</fpage>‐<lpage>e47</lpage>.<pub-id pub-id-type="pmid">25605792</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkv007</pub-id><pub-id pub-id-type="pmcid">PMC4402510</pub-id></mixed-citation></ref><ref id="alz71100-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz71100-cite-0019">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagai</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>VEGF‐B inhibits apoptosis via VEGFR‐1–mediated suppression of the expression of BH3‐only protein genes in mice and rats</article-title>. <source>J Clin Invest</source>. <year>2008</year>;<volume>118</volume>(<issue>3</issue>):<fpage>913</fpage>.<pub-id pub-id-type="pmid">18259607</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI33673</pub-id><pub-id pub-id-type="pmcid">PMC2230661</pub-id></mixed-citation></ref><ref id="alz71100-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz71100-cite-0020">
+<string-name name-style="western">
+<surname>Dhondt</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peeraer</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verheyen</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Neuronal FLT1 receptor and its selective ligand VEGF‐B protect against retrograde degeneration of sensory neurons</article-title>. <source>FASEB J Off Publ Fed Am Soc Exp Biol</source>. <year>2011</year>;<volume>25</volume>(<issue>5</issue>):<fpage>1461</fpage>‐<lpage>1473</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1096/fj.10-170944" ext-link-type="uri">10.1096/fj.10‐170944</ext-link>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1096/fj.10-170944</pub-id><pub-id pub-id-type="pmcid">PMC3079296</pub-id><pub-id pub-id-type="pmid">21248239</pub-id></mixed-citation></ref><ref id="alz71100-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz71100-cite-0021">
+<string-name name-style="western">
+<surname>Yue</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hariri</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caballero</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Comparative study of the neurotrophic effects elicited by VEGF‐B and GDNF in preclinical in vivo models of Parkinson's disease</article-title>. <source>Neuroscience</source>. <year>2014</year>;<volume>258</volume>:<fpage>385</fpage>‐<lpage>400</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.neuroscience.2013.11.038" ext-link-type="uri">10.1016/j.neuroscience.2013.11.038</ext-link>
+<pub-id pub-id-type="pmid">24291725</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neuroscience.2013.11.038</pub-id><pub-id pub-id-type="pmcid">PMC3923582</pub-id></mixed-citation></ref><ref id="alz71100-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz71100-cite-0022">
+<string-name name-style="western">
+<surname>Lau</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cao</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fu</surname>
+<given-names>AKY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ip</surname>
+<given-names>NY</given-names>
+</string-name>. <article-title>Single‐nucleus transcriptome analysis reveals dysregulation of angiogenic endothelial cells and neuroprotective glia in Alzheimer's disease</article-title>. <source>Proc Natl Acad Sci</source>. <year>2020</year>;<volume>117</volume>(<issue>41</issue>):<elocation-id>25800</elocation-id>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1073/pnas.2008762117" ext-link-type="uri">10.1073/pnas.2008762117</ext-link>
+<pub-id pub-id-type="pmid">32989152</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2008762117</pub-id><pub-id pub-id-type="pmcid">PMC7568283</pub-id></mixed-citation></ref><ref id="alz71100-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz71100-cite-0023">
+<string-name name-style="western">
+<surname>Ulyatt</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Walker</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ponnambalam</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Hypoxia differentially regulates VEGFR1 and VEGFR2 levels and alters intracellular signaling and cell migration in endothelial cells</article-title>. <source>Biochem Biophys Res Commun</source>. <year>2011</year>;<volume>404</volume>(<issue>3</issue>):<fpage>774</fpage>‐<lpage>779</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1016/j.bbrc.2010.12.057" ext-link-type="uri">10.1016/j.bbrc.2010.12.057</ext-link>
+<pub-id pub-id-type="pmid">21168388</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbrc.2010.12.057</pub-id></mixed-citation></ref><ref id="alz71100-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz71100-cite-0024">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xia</surname>
+<given-names>XB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>HZ</given-names>
+</string-name>. <article-title>Expression of FLT4 in hypoxia‐induced neovascular models in vitro and in vivo</article-title>. <source>Int J Ophthalmol</source>. <year>2011</year>;<volume>4</volume>(<issue>1</issue>):<fpage>26</fpage>‐<lpage>29</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.3980/j.issn.2222-3959.2011.01.05" ext-link-type="uri">10.3980/j.issn.2222‐3959.2011.01.05</ext-link>
+<pub-id pub-id-type="pmid">22553602</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3980/j.issn.2222-3959.2011.01.05</pub-id><pub-id pub-id-type="pmcid">PMC3340666</pub-id></mixed-citation></ref><ref id="alz71100-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz71100-cite-0025">
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jia</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Decreased serum levels of the angiogenic factors VEGF and TGF‐β1 in Alzheimer's disease and amnestic mild cognitive impairment</article-title>. <source>Neurosci Lett</source>. <year>2013</year>;<volume>550</volume>:<fpage>60</fpage>‐<lpage>63</lpage>.<pub-id pub-id-type="pmid">23827227</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.neulet.2013.06.031</pub-id></mixed-citation></ref><ref id="alz71100-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz71100-cite-0026">
+<string-name name-style="western">
+<surname>Franzen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van den Berg</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Diversity in Alzheimer's disease drug trials: the importance of eligibility criteria</article-title>. <source>Alzheimers Dement</source>. <year>2022</year>;<volume>18</volume>(<issue>4</issue>):<fpage>810</fpage>‐<lpage>823</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://10.1002/alz.12433" ext-link-type="uri">10.1002/alz.12433</ext-link>
+<pub-id pub-id-type="pmid">34590409</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12433</pub-id><pub-id pub-id-type="pmcid">PMC8964823</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

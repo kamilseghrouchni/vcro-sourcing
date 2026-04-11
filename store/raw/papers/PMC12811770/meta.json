@@ -1,0 +1,323 @@
+{
+  "pmid": "41326303",
+  "pmc": "PMC12811770",
+  "doi": "10.1016/j.tjpad.2025.100398",
+  "title": "Towards an AI biomedical scientist: Accelerating discoveries in neurodegenerative disease",
+  "journal": "The Journal of Prevention of Alzheimer's Disease",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Roberts Kaleigh F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Landsness Eric C.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Reese Justin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Elbert Donald",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Strobel Gabrielle",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wu Elizabeth",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chen Yixin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lai Albert",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Abrams Zachary B.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhu Mingfang",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Melendez Justin",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Koutarapu Srinivas",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Song Sihui",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Chen Yun",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lazar Robert",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Barnaghi Payam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Crary John F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sardi Sergio Pablo",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Voss Marc D.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Krishnan Rajaraman",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schwartz Joel W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mallon Ron",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Jimenez-Maggiora Gustavo A.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wang Chenguang",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sandmann Thomas",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bose Niranjan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Phatak Mukta",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wittenberg Gayle",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Kevrekidis Yannis G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mitchell Cassie S.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mitchener Ludovico",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Raj Towfique",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Foschini Luca",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Moore Gregory J.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Bateman Randall J.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "Artificial intelligence",
+    "Alzheimer's disease",
+    "Large language model",
+    "Biomedical AI",
+    "Multimodal datasets"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2025-09-04",
+  "accepted": "2025-10-20",
+  "reference_pmids": [
+    "38382645",
+    "40120616",
+    "37459141",
+    "40506692",
+    "38400792",
+    "27328301",
+    "32669685",
+    "31835422",
+    "12459050",
+    "38737803",
+    "38556123",
+    "39174776",
+    "36600070",
+    "37532811",
+    "36618779",
+    "39486399",
+    "40830185",
+    "31501885",
+    "36156661",
+    "37438534",
+    "38295178",
+    "40191546",
+    "39652598",
+    "32724046",
+    "34493770",
+    "39005485",
+    "31334227",
+    "40730228",
+    "40169865",
+    "37698424",
+    "38683602",
+    "33085189",
+    "40387289",
+    "40664833",
+    "25982516",
+    "17804958",
+    "40407102",
+    "29184913",
+    "19470201",
+    "39187705",
+    "29415768",
+    "36484017",
+    "39351424",
+    "37458272",
+    "35971310",
+    "30362018",
+    "38374344",
+    "40225241",
+    "25412575",
+    "36653562",
+    "38997326",
+    "30332613",
+    "41125650",
+    "40877465",
+    "37193038",
+    "26938265",
+    "39865315",
+    "37689815",
+    "41035533",
+    "40993125",
+    "32258429",
+    "40968279",
+    "30617331",
+    "28662064",
+    "40909204",
+    "26978244"
+  ],
+  "tables_count": 2,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "introduction: the need for innovation in alzheimer’s research",
+    "what is an ai biomedical scientist?",
+    "core ai technologies",
+    "current ai tools and systems",
+    "why alzheimer’s disease is the ideal proving ground",
+    "phase 1: minimum viable products (mvps) in development",
+    "phase 2: toward an integrated platform and foundation models for scientific discovery",
+    "challenges and mitigation strategies",
+    "anticipated impact on alzheimer’s research",
+    "future vision",
+    "call to action",
+    "declaration of generative ai and ai-assisted technologies in the writing process",
+    "declaration of competing interest",
+    "acknowledgements",
+    "references"
+  ],
+  "word_count": 10108,
+  "converted_at": "2026-04-06T22:38:44.366255+00:00"
+}

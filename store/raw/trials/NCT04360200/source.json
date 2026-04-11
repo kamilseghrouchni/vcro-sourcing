@@ -1,0 +1,235 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04360200",
+      "orgStudyIdInfo": {
+        "id": "202003-3"
+      },
+      "organization": {
+        "fullName": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cognitive Impairment in Ageing People",
+      "officialTitle": "Cognitive Impairment in Ageing People: A Longitudinal Observational Prospective Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2040-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2040-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-04-12",
+      "studyFirstSubmitQcDate": "2020-04-21",
+      "studyFirstPostDateStruct": {
+        "date": "2020-04-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-09-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-09-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Yamei Tang",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University"
+      },
+      "leadSponsor": {
+        "name": "Yamei Tang",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Mild cognitive impairment (MCI) and neurocognitive disorder such as Alzheimer's disease (AD) and Vascular dementia (VaD) have become common diseases in the elderly. The burden of dementia is rising in China, with major medical, social and economic impacts. To address this important public health problem, cohort study on elderly cognitive disorders should be carry out. The methods of early prevention, early diagnosis and early treatment the cognitive disorders in elderly should be found to reduce the burden of the social and economic issue due to dementia. At present, the international corresponding guidelines have taken gene and brain imaging biomarkers as important indicators of dementia pathogenesis research, accurate diagnosis and targeted intervention. The study will construct a prospective cohort to establish database that provide not only comprehensive epidemiological data on the MCI and neurocognitive disorder in ageing people, but also complete the construction of biological samples bank and clinical diagnosis and treatment information database. Using the database, the study will identify the conversion rates from MCI to dementia and risk factors for the progression from MCI to dementia or AD. The study will also apply and develop brain structural and pathological imaging technology to support precision diagnosis of senile cognitive disorders. The study have goals to identify and validate imaging and blood/CSF biomarkers for the early detection and tracking of cognitive disorders."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "MCI",
+        "Alzheimer Disease",
+        "VAD - Vascular Dementia",
+        "Cognitive Impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITHOUT_DNA",
+        "description": "Humoral biomarkers in plasma, cerebrospinal fluid, stool, and urine"
+      },
+      "enrollmentInfo": {
+        "count": 5000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Normal Aging",
+          "description": "Normal Aging with normal cognitive function"
+        },
+        {
+          "label": "Mild cognitive impairment (MCI)",
+          "description": "Mild cognitive impairment subjects with memory loss as predominant symptom"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of Dementia",
+          "timeFrame": "April 2020 to December 2040"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The conversion rate of normal elderly to MCI to neurocognitive disorder",
+          "timeFrame": "April 2020 to December 2040"
+        },
+        {
+          "measure": "Improvement of Cognitive Function based on Montreal Cognitive Assessment (MoCA) score",
+          "timeFrame": "April 2020 to December 2040"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients over 50 years old.\n2. Sign informed consent.\n3. According to DSM-IV, the diagnostic standard of dementia was not met.\n4. The clinical dementia rating (CDR) was 0.5.\n\nExclusion criteria:\n\n1. Subjects with mental retardation.\n2. Refuse to have blood sampling, imaging and other examinations.\n3. Uncooperative subjects that have serious organic diseases, or have a history of mental illness, or have physical disability (including severe aphasia).\n4. Contraindications of MR scanning.\n5. Suffering from serious physical or mental illness.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Adult Chinese aged 50 and up, receiving outpatient or inpatient service of Department of Neurology, Sun Yat-sen Memorial Hospital, Sun Yat-sen University.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yamei Tang",
+          "role": "CONTACT",
+          "phone": "+86-020-34070569",
+          "email": "yameitang@hotmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510120",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yamet Tang, M. D., Ph. D",
+              "role": "CONTACT",
+              "phone": "86-020-34070569",
+              "email": "yameitang@hotmail.com"
+            },
+            {
+              "name": "Yamei Tang, M. D., Ph. D",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35002683",
+          "type": "DERIVED",
+          "citation": "Zhu Y, Pan D, He L, Rong X, Li H, Li Y, Pi Y, Xu Y, Tang Y. China Registry Study on Cognitive Impairment in the Elderly: Protocol of a Prospective Cohort Study. Front Aging Neurosci. 2021 Dec 23;13:797704. doi: 10.3389/fnagi.2021.797704. eCollection 2021."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

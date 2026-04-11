@@ -1,0 +1,57 @@
+{
+  "request_id": "ad-plasma-metabolomics-validation-200n",
+  "original_text": "Looking for longitudinal plasma metabolomics cohorts in Alzheimer's disease, at least 200 patients, for biomarker validation. We want to minimise statin effects and need commercial-use rights.",
+  "received_at": "2026-04-06T00:00:00Z",
+  "indication": ["Alzheimer's disease"],
+  "indication_inferred": false,
+  "modality": ["plasma", "metabolomics"],
+  "modality_inferred": false,
+  "use_case_type": "biomarker_validation",
+  "use_case_inferred": false,
+  "n_target": 200,
+  "n_target_inferred": false,
+  "longitudinal_required": true,
+  "longitudinal_inferred": false,
+  "commercial_use": true,
+  "commercial_use_inferred": false,
+  "budget": null,
+  "timeline": null,
+  "hard_negatives": [
+    "n_total_less_than_30",
+    "commercial_use_allowed_false",
+    "statin_confounded"
+  ],
+  "required_fields": ["endpoints", "n_total", "sample_types"],
+  "nice_to_have_fields": ["longitudinal", "co_modalities", "statin_exclusion_documented", "demographic_diversity"],
+  "scope_notes": "Buyer requires longitudinal plasma metabolomics cohorts in Alzheimer's disease for biomarker validation, with a minimum of 200 usable participants and confirmed commercial-use rights. Statin confounding is an explicit concern — prioritise cohorts that either exclude statin users or document statin use as a covariate.",
+  "gaps": [
+    {
+      "field": "commercial_use",
+      "reason": "User stated 'need commercial-use rights' directly, so commercial_use=true is given, not inferred. However, no specific licensing framework (e.g. MTA, data sharing agreement type) was specified — discover should surface access route and licensing terms for each cohort."
+    },
+    {
+      "field": "modality",
+      "reason": "User said 'metabolomics' without specifying targeted vs. untargeted or platform (e.g. LC-MS, NMR). filter_for_discover includes lipidomics and untargeted metabolomics as adjacent matches; flag if only targeted panels are available."
+    },
+    {
+      "field": "budget",
+      "reason": "Not stated. Discover will surface options without filtering by cost."
+    },
+    {
+      "field": "timeline",
+      "reason": "Not stated. No urgency signal detected."
+    },
+    {
+      "field": "indication",
+      "reason": "MCI (mild cognitive impairment) and prodromal AD cohorts were not mentioned. These are adjacent and commonly co-enrolled in AD metabolomics studies — not included in filter_for_discover by default; buyer should confirm whether MCI conversion sub-cohorts are acceptable."
+    }
+  ],
+  "filter_for_discover": {
+    "indication_match": ["Alzheimer's disease", "AD", "Alzheimer disease"],
+    "modality_match": ["plasma", "metabolomics", "lipidomics", "untargeted metabolomics", "targeted metabolomics", "LC-MS metabolomics", "NMR metabolomics"],
+    "longitudinal_required": true,
+    "min_n_usable": 200,
+    "commercial_use_required": true,
+    "disease_area_or_modality": false
+  }
+}

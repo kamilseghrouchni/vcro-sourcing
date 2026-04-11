@@ -1,0 +1,278 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06325527",
+      "orgStudyIdInfo": {
+        "id": "YuGarden-01"
+      },
+      "organization": {
+        "fullName": "Ruijin Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cognitive Impairment Cohort Study of the Elderly Population in YuGarden",
+      "officialTitle": "Shanghai Cognitive Impairment Study of the Elderly Population: YuGarden Cohort"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-02",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-04-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-04-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-06-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-02-26",
+      "studyFirstSubmitQcDate": "2024-03-15",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-03-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ruijin Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this prospective observational research with an 8-year follow-up is to study the cognitive changes in the elderly in YuGarden community, Shanghai, China.\n\nThe main questions it aims to answer are:\n\n* incidence of cognitive impairment in community (converting to mild cognitive impairment or Alzheimer's disease)\n* to build a predictive model for the progression of cognitive impairment",
+      "detailedDescription": "This study is a prospective observational study which involves a large sample cohort of the elderly aged 60 to 85 years in YuGarden community, Shanghai, China, with an 8-year follow-up. Demographic information, peripheral organs evaluation (facial expression, hearing, OCT angiography), cognitive tests (MMSE, ADL), biospecimen (peripheral blood, urine, feces, gingival crevicular fluid), speech information, neuroimaging (MRI, PET) and electroencephalogram (EEG) will be collected and analyzed. Follow-up visits will be conducted twice a year for 4 visits and each visit includes cognitive tests, biospecimen collection, speech test, MRI and EEG. The primary outcome is the incidence of cognitive impairment indicating people who convert to mild cognitive impairment (MCI) or Alzheimer's disease (AD). Furthermore, a predictive model for the progression of cognitive impairment will be constructed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Neurodegenerative Diseases",
+        "Cognitive Impairment",
+        "Mild Cognitive Impairment"
+      ],
+      "keywords": [
+        "Alzheimer Disease",
+        "Mild Cognitive Impairment",
+        "Cohort"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "peripheral blood, urine, feces, gingival crevicular fluid"
+      },
+      "enrollmentInfo": {
+        "count": 1872,
+        "type": "ESTIMATED"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of cognitive impairment",
+          "description": "Number of participants who covert to mild cognitive impairment (MCI) or AD will be recorded to calculate the incidence.",
+          "timeFrame": "8 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The change of Mini-Mental State Examination (MMSE)",
+          "description": "MMSE is a 30-point questionnaire used to measure cognitive function (orientation, registration, attention, calculation, recall, language, repetition, complex commands). Total score ranges from 0 to 30; lower score indicates greater disease severity.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of Barthel Index for Activities of Daily Living (ADL)",
+          "description": "The Barthel Index for Activities of Daily Living is an ordinal scale which measures a person's ability to complete activities of daily living (ADL). The Barthel Index measures the degree of assistance required by an individual on ten mobility and self-care ADL items. The ten items are scored with a number of points, and then a final score is calculated by summing the points awarded to each functional skill.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of blood biomarkers",
+          "description": "p-tau 181, p-tau 217, pE-Aβ3-42, Aβ40, Aβ42, GFAP and NFL will be detected.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of urine biomarkers",
+          "description": "The metabolomic markers in urine will be detected by mass spectrum analysis.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of feces biomarkers",
+          "description": "The metabolomic markers in feces will be detected by mass spectrum analysis.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of gingival crevicular fluid biomarkers",
+          "description": "The metabolomic profiles of gingival crevicular fluid will be detected by mass spectrum analysis.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of electroencephalogram (EEG)",
+          "description": "Electroencephalogram (EEG) is used to measure electrical activity in the brain using small, metal discs (electrodes) attached to the scalp. Recorded frequencies include alpha, beta, delta and theta band power. The EEG signatures of people with cognitive impairment will be further analyzed, and its longitudinal changes will be observed.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of speech information",
+          "description": "Voice data collection: Use a voice recorder to collect the patient's description of \"stealing biscuit map\" language, and save it in SWV format. And the self-developed ASR speech analysis software (China software copyright number: 2016RS164680) will be used for speech analysis.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of structural MRI",
+          "description": "Structural MRI data will be acquired and analyzed through high-resolution T1-weighted MRI and diffusion tensor imaging (DTI).",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of functional MRI",
+          "description": "Functional MRI data will be acquired and analyzed through blood oxygenation level dependent (BOLD) imaging.",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of magnetic susceptibility",
+          "description": "Magnetic susceptibility data will be acquired and analyzed through quantitative susceptibility mapping (QSM).",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "The change of perfusion MR imaging",
+          "description": "Perfusion imaging data will be acquired and analyzed through arterial spin labeling (ASL).",
+          "timeFrame": "baseline, 2 year, 4 year, 6 year, 8 year"
+        },
+        {
+          "measure": "Positron emission tomography (PET)",
+          "description": "PET including FDG-PET, Aβ-PET, Tau-PET will be used to detect brain β-amyloid and tau burden.",
+          "timeFrame": "baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. The participants are community-dwelling elderly people living in Yuyuan community, Shanghai, aged 60-85 years old, with no gender restriction.\n2. Non-AD patients.\n3. The participants can complete the cognitive tests, biological sample collection, speech tests, neuroimaging examinations, and cooperate with the implementation of the whole process of research.\n4. The participants agree to participate in this study and sign the informed consent form.\n\nExclusion Criteria:\n\n1. Participants who are suffering from severe mental illness, tumor cachexia, severe liver and kidney dysfunction and other serious physical diseases and unable to cooperate with the examination.\n2. Participants who have visual or auditory impairment that hampers the completion of related examination.\n3. Situations when magnetic resonance imaging or other examinations are contraindicated.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The population in this study includes permanent residence in YuGarden community in Shanghai with all genders and all ethnic groups aged between 60 and 85.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Gang Wang, MD, PhD",
+          "role": "CONTACT",
+          "phone": "086-021-64370045",
+          "email": "wg11424@rjh.com.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Gang Wang, MD, PhD",
+          "affiliation": "Ruijin Hospital",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ruijin Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jinwen Xiao",
+              "role": "CONTACT",
+              "phone": "13917310784",
+              "email": "jw_xiao78@163.com"
+            },
+            {
+              "name": "Gang Wang",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

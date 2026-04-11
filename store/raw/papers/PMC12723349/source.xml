@@ -1,0 +1,1407 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="eji70119" xml:lang="en" article-type="review-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Eur J Immunol</journal-id><journal-id journal-id-type="iso-abbrev">Eur J Immunol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">EJI</journal-id><journal-title-group><journal-title>European Journal of Immunology</journal-title></journal-title-group><issn pub-type="ppub">0014-2980</issn><issn pub-type="epub">1521-4141</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12723349</article-id><article-id pub-id-type="pmcid-ver">PMC12723349.1</article-id><article-id pub-id-type="pmcaid">12723349</article-id><article-id pub-id-type="pmcaiid">12723349</article-id><article-id pub-id-type="pmid">41431371</article-id><article-id pub-id-type="doi">10.1002/eji.70119</article-id><article-id pub-id-type="publisher-id">EJI70119</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Review</subject></subj-group><subj-group subj-group-type="heading"><subject>Highlights‐Reviews</subject><subj-group subj-group-type="heading"><subject>Review</subject><subj-group subj-group-type="heading"><subject>Basic</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title>Spatially Resolved Profiling of Compartmentalized Muscle and Brain Inflammation</article-title></title-group><contrib-group><contrib id="eji70119-cr-0001" contrib-type="author"><name name-style="western"><surname>Dobbertin</surname><given-names initials="T">Thorge</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0005-8657-7111</contrib-id><xref rid="eji70119-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="eji70119-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="eji70119-cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>Schirmer</surname><given-names initials="L">Lucas</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7142-4116</contrib-id><xref rid="eji70119-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="eji70119-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="eji70119-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address><email>lucas.schirmer@medma.uni-heidelberg.de</email></address></contrib></contrib-group><aff id="eji70119-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Division of Neuroimmunology, Department of Neurology, Medical Faculty Mannheim</named-content>
+<institution>Heidelberg University</institution>
+<city>Mannheim</city>
+<country country="DE">Germany</country>
+</aff><aff id="eji70119-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Faculty of Biosciences</named-content>
+<institution>Heidelberg University</institution>
+<city>Heidelberg</city>
+<country country="DE">Germany</country>
+</aff><aff id="eji70119-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Interdisciplinary Center for Neurosciences (IZN)</named-content>
+<institution>Heidelberg University</institution>
+<city>Heidelberg</city>
+<country country="DE">Germany</country>
+</aff><aff id="eji70119-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Mannheim Center for Translational Neuroscience (MCTN) and Institute for Innate Immunoscience (MI3), Medical Faculty Mannheim</named-content>
+<institution>Heidelberg University</institution>
+<city>Mannheim</city>
+<country country="DE">Germany</country>
+</aff><pub-date pub-type="epub"><day>22</day><month>12</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>12</month><year>2025</year></pub-date><volume>55</volume><issue seq="220">12</issue><issue-id pub-id-type="pmc-issue-id">502972</issue-id><issue-id pub-id-type="doi">10.1002/eji.v55.12</issue-id><elocation-id>e70119</elocation-id><history><date date-type="rev-recd"><day>08</day><month>12</month><year>2025</year></date><date date-type="received"><day>05</day><month>8</month><year>2025</year></date><date date-type="accepted"><day>09</day><month>12</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>23</day><month>12</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>24</day><month>12</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-12-24 07:25:12.710"><day>24</day><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">European Journal of Immunology</italic> published by Wiley‐VCH GmbH.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="EJI-55-e70119.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:EJI-55-e70119.pdf"/><abstract><title>ABSTRACT</title><p>Spatial omics technologies enable high‐resolution mapping of transcriptomic, proteomic, and metabolic profiles within intact tissues, revealing how immune, stromal, and parenchymal cells interact in situ during inflammation. Chronic inflammation in skeletal muscle and the central nervous system is spatially organized within defined niches that shape disease progression and therapeutic response. In skeletal muscle, spatial analyses have uncovered fiber‐type‐specific vulnerability, regenerative trajectories, and immune–stromal crosstalk in disorders such as Duchenne muscular dystrophy and inclusion body myositis. In the central nervous system, these approaches have revealed compartmentalized neuroinflammation in multiple sclerosis, innate immune activation in amyotrophic lateral sclerosis, and immune evasion in glioma. Integration with single‐cell gene expression enables inference of cell–cell communication networks and identification of spatial gradients of immune activation and tissue remodeling. Despite major advances, clinical translation remains limited by small cohorts, methodological variability, and insufficient functional validation. As spatial profiling becomes more accessible, standardized, and scalable, it promises to stratify inflammatory disease states, identify tissue‐resident immune programs, and guide mechanism‐based therapies. Hence, spatial omics provide an unprecedented opportunity to resolve the cellular architecture of inflammation, revealing not only where immune activity occurs, but how it is orchestrated within complex tissue microenvironments.</p></abstract><abstract id="eji70119-abs-0001" abstract-type="graphical"><p>This review summarizes emerging spatially resolved multi‐omics approaches revealing organized cell–cell interactions in skeletal muscle and brain inflammation. These tools uncover radiating molecular programs and niche‐specific immunopathology that shape cellular reactivity and vulnerability.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="EJI-55-e70119-g001.jpg"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="eji70119-kwd-0001">inflammation</kwd><kwd id="eji70119-kwd-0002">immunopathology</kwd><kwd id="eji70119-kwd-0003">neuroimmunology</kwd><kwd id="eji70119-kwd-0004">proteomics</kwd><kwd id="eji70119-kwd-0005">transcriptomics</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Gemeinnützige Hertie‐Stiftung</institution><institution-id institution-id-type="doi">10.13039/501100003493</institution-id></institution-wrap>
+</funding-source><award-id>P1180016</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Deutsche Forschungsgemeinschaft</institution><institution-id institution-id-type="doi">10.13039/501100001659</institution-id></institution-wrap>
+</funding-source><award-id>GRK2727(InCheck)</award-id><award-id>FOR2690(SCHI1330/7‐2)</award-id><award-id>SPP2395(SCHI1330/10‐1)</award-id><award-id>FOR5705(SCHI1330/13‐1)</award-id><award-id>SCHI1330/2‐1</award-id><award-id>SCHI1330/4‐1</award-id><award-id>SCHI1330/11‐1</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>H2020 European Research Council</institution><institution-id institution-id-type="doi">10.13039/100010663</institution-id></institution-wrap>
+</funding-source><award-id>950584</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="1"/><page-count count="20"/><word-count count="9983"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:23.12.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="eji70119-cit-0001">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Dobbertin</surname>
+</string-name> and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Schirmer</surname>
+</string-name>, “<article-title>Spatially Resolved Profiling of Compartmentalized Muscle and Brain Inflammation</article-title>.” <source>European Journal of Immunology</source>
+<volume>55</volume>, no. <issue>12</issue> (<year>2025</year>): <elocation-id>e70119</elocation-id>. <pub-id pub-id-type="doi">10.1002/eji.70119</pub-id>
+<pub-id pub-id-type="pmid">41431371</pub-id></mixed-citation>
+</p></notes></front><body><def-list list-content="abbreviations" id="eji70119-dl-0001"><title>Abbreviations</title><def-item><term>5′RACE</term><def><p>5′ rapid amplification of cDNA ends</p></def></def-item><def-item><term>AD</term><def><p>Alzheimer's disease</p></def></def-item><def-item><term>ALS</term><def><p>amyotrophic lateral sclerosis</p></def></def-item><def-item><term>BCR</term><def><p>B cell receptor</p></def></def-item><def-item><term>CCC</term><def><p>cell–cell communication</p></def></def-item><def-item><term>CD</term><def><p>cluster of differentiation</p></def></def-item><def-item><term>CNS</term><def><p>central nervous system</p></def></def-item><def-item><term>DMD</term><def><p>Duchenne muscular dystrophy</p></def></def-item><def-item><term>DSP</term><def><p>digital spatial profiling</p></def></def-item><def-item><term>EAE</term><def><p>experimental autoimmune encephalomyelitis</p></def></def-item><def-item><term>EC</term><def><p>endothelial cell</p></def></def-item><def-item><term>FAP</term><def><p>fibro‐adipogenic progenitor</p></def></def-item><def-item><term>FISH</term><def><p>fluorescence in situ hybridization</p></def></def-item><def-item><term>H&amp;E</term><def><p>hematoxylin and eosin</p></def></def-item><def-item><term>HSP</term><def><p>heat shock protein</p></def></def-item><def-item><term>IF</term><def><p>immunofluorescence</p></def></def-item><def-item><term>IHC</term><def><p>immunohistochemistry</p></def></def-item><def-item><term>IIM</term><def><p>idiopathic immune‐mediated myopathy</p></def></def-item><def-item><term>IMC</term><def><p>imaging mass cytometry</p></def></def-item><def-item><term>ISH</term><def><p>in situ hybridization</p></def></def-item><def-item><term>ISS</term><def><p>in situ sequencing</p></def></def-item><def-item><term>LCM</term><def><p>laser capture microdissection</p></def></def-item><def-item><term>MHC</term><def><p>major histocompatibility complex</p></def></def-item><def-item><term>MIBI</term><def><p>multiplexed ion beam imaging</p></def></def-item><def-item><term>MS</term><def><p>multiple sclerosis</p></def></def-item><def-item><term>MSI</term><def><p>mass spectrometry imaging</p></def></def-item><def-item><term>MYH</term><def><p>myosin heavy chain</p></def></def-item><def-item><term>NGS</term><def><p>next‐generation sequencing</p></def></def-item><def-item><term>NMJ</term><def><p>neuromuscular junction</p></def></def-item><def-item><term>RNA‐seq</term><def><p>RNA sequencing</p></def></def-item><def-item><term>scRNA‐seq</term><def><p>single cell RNA‐sequencing</p></def></def-item><def-item><term>snRNA‐seq</term><def><p>single‐nucleus RNA‐sequencing</p></def></def-item><def-item><term>TCR</term><def><p>T cell receptor</p></def></def-item></def-list><sec id="eji70119-sec-0010"><label>1</label><title>Introduction</title><p>Cells in the human body are not randomly distributed but function within specialized microenvironments or niches. In chronic inflammatory diseases such as idiopathic immune‐mediated myopathies (IIMs) and multiple sclerosis (MS), inflammation is not diffuse but compartmentalized, localizing to distinct tissue regions characterized by specific cellular compositions and signaling dynamics [<xref rid="eji70119-bib-0001" ref-type="bibr">1</xref>, <xref rid="eji70119-bib-0002" ref-type="bibr">2</xref>, <xref rid="eji70119-bib-0003" ref-type="bibr">3</xref>]. These immune niches are shaped by both intrinsic genomic regulation and context‐specific intracellular signaling pathways. Over the past decade, advances in single‐cell technologies have enabled detailed profiling of cellular transcriptomes, allowing researchers to define cell types and states with high precision. However, most bulk and single‐cell methods rely on tissue dissociation, resulting in the loss of critical spatial information.</p><p>Spatial omics technologies have emerged to fill this gap, offering the ability to map molecular profiles directly within the intact tissue architecture [<xref rid="eji70119-bib-0004" ref-type="bibr">4</xref>, <xref rid="eji70119-bib-0005" ref-type="bibr">5</xref>, <xref rid="eji70119-bib-0006" ref-type="bibr">6</xref>, <xref rid="eji70119-bib-0007" ref-type="bibr">7</xref>]. This enables high‐resolution analysis of cells within their native microenvironment and the elucidation of local cellular interactions. While spatial omics have primarily focused on the transcriptome, there is growing momentum toward spatially resolving additional molecular layers, including the (epi‐)genome, proteome, lipidome, glycome, and metabolome. These multidimensional spatial readouts allow researchers to:
+<list list-type="alpha-lower" id="eji70119-list-0001"><list-item><p>define and classify cellular neighborhoods, and</p></list-item><list-item><p>identify interaction networks across different cell types and molecular modalities [<xref rid="eji70119-bib-0008" ref-type="bibr">8</xref>, <xref rid="eji70119-bib-0009" ref-type="bibr">9</xref>, <xref rid="eji70119-bib-0010" ref-type="bibr">10</xref>, <xref rid="eji70119-bib-0011" ref-type="bibr">11</xref>].</p></list-item></list>
+</p><p>Despite recent improvements in spatial profiling depth and resolution [<xref rid="eji70119-bib-0007" ref-type="bibr">7</xref>, <xref rid="eji70119-bib-0012" ref-type="bibr">12</xref>, <xref rid="eji70119-bib-0013" ref-type="bibr">13</xref>, <xref rid="eji70119-bib-0014" ref-type="bibr">14</xref>, <xref rid="eji70119-bib-0015" ref-type="bibr">15</xref>], these methods often demand significant resources and time, particularly when compared with nonspatial bulk or single‐cell omics. Nevertheless, the added spatial dimension is critical for understanding not just which cells are present, but how they interact—physically, functionally, and molecularly—within organized tissue compartments. Importantly, intercellular networks often span across spatial domains and molecular layers, making integrative multimodal approaches essential. As a result, there is increasing interest in combining spatial and nonspatial datasets to maximize biological insight [<xref rid="eji70119-bib-0016" ref-type="bibr">16</xref>, <xref rid="eji70119-bib-0017" ref-type="bibr">17</xref>, <xref rid="eji70119-bib-0018" ref-type="bibr">18</xref>, <xref rid="eji70119-bib-0019" ref-type="bibr">19</xref>].</p><p>In this review, we highlight recent methodological and conceptual advances in spatially resolved profiling, with a focus on their application to muscle and brain tissues. These highly structured and functionally complex organs are particularly well suited to spatial approaches, especially in the study of inflammation, degeneration, and regeneration [<xref rid="eji70119-bib-0020" ref-type="bibr">20</xref>, <xref rid="eji70119-bib-0021" ref-type="bibr">21</xref>, <xref rid="eji70119-bib-0022" ref-type="bibr">22</xref>, <xref rid="eji70119-bib-0023" ref-type="bibr">23</xref>, <xref rid="eji70119-bib-0024" ref-type="bibr">24</xref>, <xref rid="eji70119-bib-0025" ref-type="bibr">25</xref>]. Spatial analysis has revealed how dynamic cellular states evolve in response to disease or injury, and how immune cells interact with resident cell types such as myofibers, neurons, glia, and stromal cells. Such interactions are often central drivers of disease‐specific pathology [<xref rid="eji70119-bib-0001" ref-type="bibr">1</xref>, <xref rid="eji70119-bib-0003" ref-type="bibr">3</xref>, <xref rid="eji70119-bib-0026" ref-type="bibr">26</xref>, <xref rid="eji70119-bib-0027" ref-type="bibr">27</xref>, <xref rid="eji70119-bib-0028" ref-type="bibr">28</xref>, <xref rid="eji70119-bib-0029" ref-type="bibr">29</xref>], underlining the need to move beyond mere immune cell enumeration toward a more holistic understanding of immune‐tissue communication. We present and discuss recent studies that leveraged spatial profiling to gain systems‐level insights into organized tissue compartments in the context of chronic inflammation. These examples underscore the power of spatial approaches in elucidating niche‐specific mechanisms of immune crosstalk and tissue remodeling in both health and disease.</p></sec><sec id="eji70119-sec-0020"><label>2</label><title>Advancing Omics through Spatial Methodologies</title><p>Histological slides remain a cornerstone of clinical diagnostics and prognostics, serving as the gold standard in routine medical practice. With the rise of omics technologies, there is a growing effort to enhance conventional tools by integrating molecular data, thereby generating fully profiled, spatially annotated tissue maps. Achieving this goal, however, still faces key challenges, including (a) limited spatial resolution, (b) constrained multiplexing and throughput, and (c) the complexity of multimodal data integration.</p><sec id="eji70119-sec-0030"><label>2.1</label><title>Spatial Transcriptomics</title><p>A major breakthrough came in 2016, when next‐generation sequencing (NGS) was first combined with spatial barcoding, enabling transcriptome‐wide profiling within tissue sections [<xref rid="eji70119-bib-0004" ref-type="bibr">4</xref>]. Initial techniques, such as barcoded solid‐phase RNA capture, were limited to ∼100 µm resolution. However, rapid advances have led to high‐resolution platforms like HDST, Slide‐seqV2, and Visium‐HD, now achieving resolutions of 2–20 µm [<xref rid="eji70119-bib-0005" ref-type="bibr">5</xref>, <xref rid="eji70119-bib-0006" ref-type="bibr">6</xref>, <xref rid="eji70119-bib-0007" ref-type="bibr">7</xref>, <xref rid="eji70119-bib-0012" ref-type="bibr">12</xref>]. More recently, methods such as Stereo‐seq, Seq‐Scope, and PIXEL‐seq have pushed the limits further, reaching submicron resolution (∼0.2–1.22 µm) [<xref rid="eji70119-bib-0013" ref-type="bibr">13</xref>, <xref rid="eji70119-bib-0014" ref-type="bibr">14</xref>, <xref rid="eji70119-bib-0030" ref-type="bibr">30</xref>]. Importantly, these nominal resolutions are often based on the physical size of barcoded capture features, which do not necessarily reflect the true biological resolution due to molecular diffusion and capture variability [<xref rid="eji70119-bib-0014" ref-type="bibr">14</xref>, <xref rid="eji70119-bib-0015" ref-type="bibr">15</xref>].  An alternative strategy involves in situ hybridization (ISH), which enables direct tagging of RNA molecules using fluorophore‐labeled probes for visualization, as seen in commercial systems like Xenium (formerly CartaNA), MERSCOPE, and CosMx SMI, as well as academic platforms including MERFISH [<xref rid="eji70119-bib-0031" ref-type="bibr">31</xref>], EEL fluorescent in situ hybridization (FISH) [<xref rid="eji70119-bib-0032" ref-type="bibr">32</xref>], and STARmap PLUS [<xref rid="eji70119-bib-0033" ref-type="bibr">33</xref>]. While many of these platforms, like STARmap and Xenium, also employ in situ sequencing (ISS) chemistries, they differ in their resolution, sensitivity, and compatibility with various tissue types [<xref rid="eji70119-bib-0034" ref-type="bibr">34</xref>]. ISH can theoretically reach single‐molecule resolution but is limited by optical constraints, probe design, and the need for preselected gene panels, often focusing on cell type‐specific markers and, hence, not covering the whole transcriptome. Computational approaches such as PERSIST [<xref rid="eji70119-bib-0035" ref-type="bibr">35</xref>] aim to optimize gene panel design, yet trade‐offs between resolution, transcriptome coverage, and discovery potential remain.</p></sec><sec id="eji70119-sec-0040"><label>2.2</label><title>Mapping Intercellular Communication</title><p>In parallel to improved spatial resolution and multiplexing depth, spatial transcriptomic data are increasingly leveraged to dissect cell–cell communication (CCC) within complex tissue environments. Cellular interactions can be inferred from the gene expression of known ligand–receptor pairs and mapped to specific tissue niches, thereby elucidating how cells communicate within their microenvironment. Although CCC analysis involves physical interactions and metabolites, these elements are partially reflected in molecular signaling. With the increasing availability of data, particularly transcriptome and protein–protein interactions cataloged in databases, various computational methods have been developed to predict interactions within datasets [<xref rid="eji70119-bib-0011" ref-type="bibr">11</xref>]. Several computational frameworks, like LIANA, which aggregates multiple CCC tools [<xref rid="eji70119-bib-0036" ref-type="bibr">36</xref>], CellChat, focusing on pathway‐level activity [<xref rid="eji70119-bib-0037" ref-type="bibr">37</xref>], and NicheNet, linking ligands to downstream targets [<xref rid="eji70119-bib-0038" ref-type="bibr">38</xref>], offer robust solutions to predict CCC events. Signaling pathways not only facilitate the definition of intra‐ and intercellular communication within a tissue but also help explain how cellular niches respond to environmental cues, tissue injury, and inflammation. Initially, tools were designed for bulk data from homogenized tissue or single‐cell data from dissociated tissue and then applied to spatial data [<xref rid="eji70119-bib-0008" ref-type="bibr">8</xref>]. More are continuously being developed specifically for spatial data [<xref rid="eji70119-bib-0009" ref-type="bibr">9</xref>, <xref rid="eji70119-bib-0010" ref-type="bibr">10</xref>], incorporating information on cell proximity, gradients, and anatomical boundaries. Although spatial profiling enables colocalization of ligand and receptor pairs, follow‐up functional studies are generally needed to validate biological inference.</p></sec><sec id="eji70119-sec-0050"><label>2.3</label><title>Spatial Proteomics and Metabolomics</title><p>Despite the widespread adoption of transcriptomic profiling, its capability to infer protein levels remains debated and is not sufficient to fully describe individual cell states [<xref rid="eji70119-bib-0039" ref-type="bibr">39</xref>]. For a more complete understanding of cellular processes and relationships, the use and implementation of other modalities beyond transcriptomics is highly beneficial, such as cell‐type‐specific and spatially resolved proteomics, lipidomics, and metabolomics. Spatial proteomics offers a more immediate, functional readout of cell state. Traditional methods such as immunofluorescence (IF) and immunohistochemistry (IHC) are well established but limited in throughput and multiplexing. Newer techniques, including sequential immunofluorescence like COMET [<xref rid="eji70119-bib-0040" ref-type="bibr">40</xref>], CODEX/Phenocycler [<xref rid="eji70119-bib-0041" ref-type="bibr">41</xref>], imaging mass cytometry (IMC) [<xref rid="eji70119-bib-0042" ref-type="bibr">42</xref>], and multiplexed ion beam imaging (MIBI) [<xref rid="eji70119-bib-0043" ref-type="bibr">43</xref>, <xref rid="eji70119-bib-0044" ref-type="bibr">44</xref>], now enable the simultaneous visualization of dozens to over 100 proteins in a single tissue section. A promising frontier lies in dual transcriptomic–proteomic profiling from the same tissue section, as shown via the commercial GeoMx DSP [<xref rid="eji70119-bib-0045" ref-type="bibr">45</xref>] platform, enabling direct comparison of spatially resolved RNA and protein expression. While antibody‐based approaches depend on predefined panels that constrain discovery, mass spectrometry‐based methods such as laser capture microdissection (LCM) followed by LC‐tandem mass spectrometry offer label‐free quantification of proteins, endogenous metabolites, and lipids despite generally lower spatial coverage [<xref rid="eji70119-bib-0046" ref-type="bibr">46</xref>]. At the cost of molecular depth, Mass spectrometry imaging (MSI) achieves generally higher spatial resolution in situ, as shown in both neurological and neuromuscular disorders [<xref rid="eji70119-bib-0047" ref-type="bibr">47</xref>, <xref rid="eji70119-bib-0048" ref-type="bibr">48</xref>].</p></sec><sec id="eji70119-sec-0060"><label>2.4</label><title>Computational Integration and Future Directions</title><p>Complementing these experimental advances, computational frameworks have evolved to analyze and integrate spatial omics data. These datasets are not only large but also multimodal, containing image data, coordinate matrices, and diverse molecular profiles. This demands scalable, spatially aware analytical tools for robust downstream analysis. A fundamental step is cell type deconvolution, where spot‐level transcriptomes (typically from spatial transcriptomics platforms) are linked to single‐cell or single‐nucleus RNA‐seq reference datasets [<xref rid="eji70119-bib-0049" ref-type="bibr">49</xref>]. Tools like Cell2location [<xref rid="eji70119-bib-0017" ref-type="bibr">17</xref>], Tangram [<xref rid="eji70119-bib-0016" ref-type="bibr">16</xref>], and Seurat [<xref rid="eji70119-bib-0018" ref-type="bibr">18</xref>] have been used to map neuronal subtypes across cortical layers or immune infiltration patterns in muscle tissues. This may be followed by gene/protein validations or additional modalities to get a robust, complete spatial tissue profile (Figure <xref rid="eji70119-fig-0001" ref-type="fig">1</xref>). Of note, for higher‐resolution spatial methods, subcellular segmentation is needed to assign molecules to individual cells [<xref rid="eji70119-bib-0019" ref-type="bibr">19</xref>, <xref rid="eji70119-bib-0050" ref-type="bibr">50</xref>]. In tissues or experimental settings where segmentation is impractical, alternative approaches such as pseudo‐cell localization can be employed to map expression patterns [<xref rid="eji70119-bib-0051" ref-type="bibr">51</xref>]. There is also increasing demand for integrative analysis across different modalities and for standardized, reproducible pipelines across experiments and datasets. Frameworks like SpatialData [<xref rid="eji70119-bib-0052" ref-type="bibr">52</xref>] and PysoDb [<xref rid="eji70119-bib-0053" ref-type="bibr">53</xref>] address this gap by offering open, extensible infrastructures for the storage, annotation, and analysis of spatially resolved multi‐omics data. These technologies represent only a snapshot of a rapidly evolving field. As spatial omics methods continue to improve in resolution and scalability, researchers must carefully match experimental design—including tissue type, resolution needs, and throughput—to the biological questions. In this review, we highlight recent applications of spatial molecular profiling in muscle and brain, two structurally complex and functionally dynamic organs. We explore how these tools have advanced our understanding of chronic inflammation at the systems level.</p><fig position="float" fig-type="FIGURE" id="eji70119-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Conceptual framework for spatially informed tissue profiling. High‐throughput molecular phenotyping via single‐cell or single‐nucleus RNA sequencing enables the characterization of expression in each cell. Cell types or states can be clustered following dimensional reduction, most commonly UMAP. Individual genes or small subsets can be localized in spatial transcriptomic datasets. At the same time, transcriptional identities (like cell types) can be projected onto spatial maps, integrating both modalities. From there, several downstream applications may be used. Including [<xref rid="eji70119-bib-0001" ref-type="bibr">1</xref>] Single gene validations using orthogonal imaging‐based methods like FISH or IHC [<xref rid="eji70119-bib-0002" ref-type="bibr">2</xref>] Functionally validate spatial findings in culture models in vitro or in animal models in vivo [<xref rid="eji70119-bib-0003" ref-type="bibr">3</xref>] Expand the analysis to incorporate other modalities (omics) that in turn may be integrated. Created with Biorender.com.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="EJI-55-e70119-g003.jpg"/></fig><boxed-text position="float" content-type="box" orientation="portrait"><sec id="eji70119-sec-0070"><title>Spatially resolved adaptive immune cell profiling</title><p>Clonal expansion and tissue infiltration of lymphocytes, such as T and B cells, are hallmark features of antigen‐driven, adaptive immune responses. The adaptive immune system is characterized by its specificity for antigenic determinants, typically short peptides presented via major histocompatibility complex (MHC) molecules, and its ability to establish long‐lasting immunological memory.</p><p>To recognize the vast diversity of potential antigens, T and B cells express highly variable receptors (TCRs and BCRs), generated through somatic recombination of variable (V), diversity (D), and joining (J) gene segments. Each lymphocyte clone expresses a unique receptor defined primarily by the hypervariable complementarity‐determining region 3 (CDR3), which forms at the V(D)J junction and dictates antigen specificity. As a result, unlike other immune cell types that can be classified by shared marker gene expression, T and B cells require V(D)J sequencing to resolve their clonal identity and diversity [<xref rid="eji70119-bib-0054" ref-type="bibr">54</xref>]. Importantly, the composition of a receptor repertoire of an individual can provide insights into disease states; for example, TCR and BCR sequence data alone have been used to predict viral infections with high accuracy [<xref rid="eji70119-bib-0055" ref-type="bibr">55</xref>]. Integrating receptor repertoire profiling with spatial information offers powerful insights into the tissue organization of adaptive immune responses. Spatial mapping of TCR/BCR sequences enables the identification of immune niches and the analysis of lymphocyte behavior in situ, such as clonal expansion near antigen sources, the spatial trajectory of immune cell infiltration, and B cell maturation within germinal centers. However, most conventional transcriptomic protocols rely on 3′‐end sequencing strategies optimized for poly‐A tail capture. These approaches fail to recover the critical 5′ variable regions of TCR and BCR transcripts, where the clonotype‐defining sequences reside.</p><p>Two major technical challenges limit the recovery of V(D)J information from spatial data: first, receptor transcripts are typically expressed at low levels relative to the whole transcriptome, reducing their detectability. Second, the V(D)J region lies upstream of a long 3′ constant region, often making it inaccessible in standard 3′ capture methods. Consequently, many spatial transcriptomics platforms lose essential clonotype information, diminishing their utility for adaptive immune profiling. Deep sequencing can partially mitigate low transcript abundance but is resource‐intensive and may increase background noise, complicating downstream error correction and analysis. To address these issues, most workflows incorporate targeted V(D)J enrichment strategies. These include PCR amplification of less variable J or C regions, 5′‐Rapid Amplification of cDNA Ends (5′RACE), and hybrid capture approaches. Such enrichment enables more accurate detection of clonally expanded lymphocytes, tracking of differentiation trajectories, and functional characterization of immune responses [<xref rid="eji70119-bib-0056" ref-type="bibr">56</xref>]. Capture‐based enrichment has also been successfully combined with long‐read sequencing (e.g., Oxford Nanopore) to obtain full‐length TCR/BCR sequences [<xref rid="eji70119-bib-0054" ref-type="bibr">54</xref>]. More recently, enrichment protocols have been adapted for spatial applications, allowing for localized mapping of TCR [<xref rid="eji70119-bib-0057" ref-type="bibr">57</xref>, <xref rid="eji70119-bib-0058" ref-type="bibr">58</xref>] and combined TCR/BCR repertoires [<xref rid="eji70119-bib-0059" ref-type="bibr">59</xref>].</p><p>Despite these advances, several critical challenges persist. Labeling strategies must be further refined to improve the capture efficiency of low‐abundance receptor transcripts without introducing technical bias. Spatial resolution must be sufficient to resolve closely adjacent lymphocytes sized ∼7 µm [<xref rid="eji70119-bib-0060" ref-type="bibr">60</xref>], particularly in dense inflammatory infiltrates. Moreover, integrated computational frameworks capable of linking spatial position, clonotype identity, and transcriptional state into coherent models of immune organization are still in development [<xref rid="eji70119-bib-0061" ref-type="bibr">61</xref>]. Meeting these challenges will be essential for fully leveraging spatial omics technologies to decode adaptive immune responses in the tissue context.</p></sec></boxed-text></sec></sec><sec id="eji70119-sec-0080"><label>3</label><title>Spatial Mapping of Muscle Inflammation</title><p>Skeletal muscle is a highly specialized and structurally organized tissue composed of diverse cell types, including innervated myofibers, fibroblasts (Fb), endothelial cells (EC), pericytes, resident and infiltrating immune cells, and muscle stem/progenitor cells (Figure <xref rid="eji70119-fig-0002" ref-type="fig">2</xref>). The myofibers, consisting of multinucleated, contractile cells expressing myosin heavy chain (MYH), serve as the primary functional units of muscle tissue. These fibers exhibit functional heterogeneity, with distinct MYH isoforms defining different fiber types: “slow” oxidative Type 1 fibers express MYH7, while the “fast” but more fatigue‐prone Type 2 fibers express isoforms such as MYH2, MYH4, and MYH1. Myofibers also differ in metabolic properties, with Types 1 and 2A being oxidative and Types 2B and 2X primarily glycolytic. The spatial organization of skeletal muscle is equally critical to its function. Myofibers are ensheathed by the endomysium, grouped into fascicles surrounded by the perimysium, and embedded within a hierarchical extracellular matrix. Additional structures, ranging from the sarcolemma and internal myofibrils to the vascular and neuromuscular networks, contribute to tissue integrity, metabolic support, and regenerative capacity.</p><fig position="float" fig-type="FIGURE" id="eji70119-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Spatial and molecular communication in (inflamed) brain and muscle tissue. Muscle fibers interact with both immune cells (like lymphocytes, macrophages, and neutrophils) and stromal cells (like fibroblasts, endothelial cells, pericytes, and adipocytes). Similarly, neurons engage with both proximal microglia and macroglia (like oligodendrocytes, astrocytes, and ependymal cells). These interactions present a dynamic network where infiltrating immune cells impair tissue function and repair, while tissue damage in turn shapes immune activation and remodeling. HSPs: heat shock proteins. Created with Biorender.com.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="EJI-55-e70119-g002.jpg"/></fig><p>Recent advances in spatial omics technologies have provided unprecedented insight into the maintenance, remodeling, and pathological disruption of these tissue architectures (Table <xref rid="eji70119-tbl-0001" ref-type="table">1</xref>). For example, studies have revealed the expansion and altered signaling of fibro‐adipogenic progenitor cells (FAPs) during muscle regeneration. In myotoxin‐induced injury models, researchers identified novel transitional myogenic progenitor cell populations (“committed”, “fusing” myogenic cells) bridging classical Pax7 quiescence to Acta1 maturation [<xref rid="eji70119-bib-0020" ref-type="bibr">20</xref>]. They further integrated sc/snRNA‐seq data with Visium spatial transcriptomics to map spatiotemporal gradients of myogenesis in the days past injury (dpi) at the injury zone. This included coordinated stromal‐immune remodeling marked by an increase of Pdgfra‐expressing FAPs and a decrease of patrolling M2‐like monocytes 5–7 dpi. CCC analysis using CellChat further demonstrated increased spatial co‐expression of <italic toggle="yes">Mdk</italic> (FAPs) and its receptors <italic toggle="yes">Ncl/Lrp1</italic> (myogenic cells) during regenerative responses. Similarly, in Duchenne muscular dystrophy (DMD) mouse models, integrated Visium spatial and single‐cell transcriptomics revealed FAP expansion and CCC networks emanating from dystrophic regions, with distinct inflammatory (<italic toggle="yes">Ccl2</italic>, <italic toggle="yes">Ccl7</italic>, and <italic toggle="yes">Spp1</italic>) and regenerative‐like enriched collagen expressing FAPs clusters [<xref rid="eji70119-bib-0021" ref-type="bibr">21</xref>]. Taken together, the integration of spatial data revealed emerging myocyte and FAP cell states during muscle regeneration and inflammatory signals radiating from injury zones to healthy tissue, promoting pervasive fibrosis.</p><table-wrap position="float" id="eji70119-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Overview of spatially informed studies in skeletal muscle and the central nervous system.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr><th align="center" colspan="8" style="border-bottom:solid 1px #000000" rowspan="1">Skeletal muscle tissue</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Title of publication</th><th align="center" rowspan="1" colspan="1">First author</th><th align="center" rowspan="1" colspan="1">Year of publication</th><th align="center" rowspan="1" colspan="1">Spatially resolved methods</th><th align="center" rowspan="1" colspan="1">Species</th><th align="center" rowspan="1" colspan="1">Context/disease</th><th align="center" rowspan="1" colspan="1">Tissue type</th><th align="center" rowspan="1" colspan="1">Main results</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Large‐scale integration of single‐cell transcriptomic data captures transitional progenitor states in mouse skeletal muscle regeneration</td><td align="center" rowspan="1" colspan="1"> David McKellar</td><td align="center" rowspan="1" colspan="1"> 2021</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold> 2–7 dpi) integrated with scRNA‐seq &amp; snRNA‐seq (0–21 dpi)</td><td align="center" rowspan="1" colspan="1">
+<p>Mouse (4–7 months)</p>
+</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0002"><list-item><p>Induced Injury (notexin &amp; cardiotoxin)</p></list-item><list-item><p>Regenerative myogenesis</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Tibialis muscle</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0003"><list-item><p>Identified novel, rare, short‐lived progenitor states and transitional cell subtypes in regenerating muscle</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Spatial proteomics reveals heterogeneity in neural markers underpinning high‐fat diet‐induced myopathy in male mice</td><td align="center" rowspan="1" colspan="1">Lydia Hardowar</td><td align="center" rowspan="1" colspan="1">2023 (preprint)</td><td align="center" rowspan="1" colspan="1">Spatial proteomics (<bold>GeoMx</bold>), IF</td><td align="center" rowspan="1" colspan="1">Mouse</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0004"><list-item><p>High‐fat diet–induced metabolic myopathy (12 weeks of feeding)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Tibialis muscle</td><td align="center" rowspan="1" colspan="1">
+<p>Structural damage correlates with inflammatory infiltration and maladaptive muscle remodeling</p>
+<p>Expression of neuronal markers, indicating denervation, in desmin fibers</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Regenerating human skeletal muscle forms an emerging niche in vivo to support PAX7 cells</td><td align="center" rowspan="1" colspan="1">Michael R. Hicks</td><td align="center" rowspan="1" colspan="1">2023</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>GeoMx</bold> 60–120 dpi) paired with snRNA‐seq (8 dpi), IF, histology</td><td align="center" rowspan="1" colspan="1">Mouse chimeric model (Human cells engrafted into mouse host)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="simple" id="eji70119-list-0005"><list-item><list list-type="bullet" id="eji70119-list-0006"><list-item><p>Muscle regeneration in DMD + cardiotoxin re‐injury (60 dp first injury)</p></list-item></list></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Human SMPCs engrafted into mouse tibialis muscle</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0007"><list-item><p>ACTC1‐expressing myofiber interacts with PAX7 SMPCs to enable muscle regeneration in niches</p></list-item><list-item><p>ACTC1 depletion also reduces number of SMPCs</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Single‐cell and spatial transcriptomics identify a macrophage population associated with skeletal muscle fibrosis</td><td align="center" rowspan="1" colspan="1">Gerald Coulis</td><td align="center" rowspan="1" colspan="1"> 2023</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold>) combined with scRNA‐seq, IF</td><td align="center" rowspan="1" colspan="1">
+<p>Mouse (4–52 weeks)</p>
+<p>Human</p>
+</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0008"><list-item><p>DMD</p></list-item><list-item><p>VCP</p></list-item><list-item><p>DUX4</p></list-item><list-item><p>Inflammatory (IBM, ASS, IMNM) and dystrophic (DMD, LGMD) myopathies </p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Quadriceps</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0009"><list-item><p>Macrophage clusters not matching classical M1/M2 states</p></list-item><list-item><p>Profibrotic macrophage cluster with characterizing elevated <italic toggle="yes">Gal‐3</italic> (<italic toggle="yes">GAL‐3</italic>) expression also found in (muscle disease) human cell population</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Spatial metabolomics reveals skeletal myofiber subtypes</td><td align="center" rowspan="1" colspan="1">Lanfang Luo</td><td align="center" rowspan="1" colspan="1">2023</td><td align="center" rowspan="1" colspan="1">Spatial Metabolomics (<bold>MALDI‐MSI</bold>) paired with LC‐MS, IF</td><td align="center" rowspan="1" colspan="1">Mouse (4–6 months)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0010"><list-item><p>Physiological muscle (fiber‐type profiling)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Gastrocnemius and soleus</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0011"><list-item><p>Fiber metabolic phenotypes</p></list-item><list-item><p>Novel myofiber subtype with hybrid fatty acid oxidative and glycolytic metabolism</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">A cellular and molecular spatial atlas of dystrophic muscle</td><td align="center" rowspan="1" colspan="1">Michael J. Stec</td><td align="center" rowspan="1" colspan="1">2023</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold> 1–5 dpi) integrated with scRNA‐seq</td><td align="center" rowspan="1" colspan="1">
+<p>Mouse (6 weeks or severely dystrophic)</p>
+</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0012"><list-item><p>DMD</p></list-item><list-item><p>Induced injury by cardiotoxin</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Gastrocnemius/plantaris muscle complex</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0013"><list-item><p>Propagation of inflammatory and regenerative signals in discrete spatial patches with outspreading CCC</p></list-item><list-item><p>Targets for DMD study and therapy (like collagens, <italic toggle="yes">Spp1</italic>)</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Spatiotemporal transcriptomic mapping of regenerative inflammation in skeletal muscle reveals a dynamic multilayered tissue architecture</td><td align="center" rowspan="1" colspan="1">Andreas Patsalos</td><td align="center" rowspan="1" colspan="1">2024</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold> 4–8 dpi) combined with scRNA‐seq (1–2 dpi), IF, and histology</td><td align="center" rowspan="1" colspan="1">
+<p>Mouse (2 months)</p>
+</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0014"><list-item><p>DMD</p></list-item><list-item><p>Induced injury by cardiotoxin</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Tibialis muscle</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0015"><list-item><p>Identified spatial organization of monocyte/macrophage and DC subtypes into regenerative inflammation zones (RIZs) that coordinate clearing and myogenesis; glucocorticoid treatment disrupts these zones</p></list-item><list-item><p>Dendritic cell and (anti‐inflammatory) macrophage subsets</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Spatial multi‐omics in whole skeletal muscle reveals complex tissue architecture</td><td align="center" rowspan="1" colspan="1">Clara Martínez Mir</td><td align="center" rowspan="1" colspan="1">2024</td><td align="center" rowspan="1" colspan="1">3D spatial transcriptomics (<bold>TOMOseq</bold>) integrated with spatial metabolomics, lipidomics (<bold>MALDI‐MSI</bold>), RNA‐FISH validations</td><td align="center" rowspan="1" colspan="1">
+<p>Mouse (4–6 months)</p>
+</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0016"><list-item><p>Healthy muscle</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Tibialis muscle</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0017"><list-item><p>Proximal‐distal myofiber distribution with distinct metabolic, lipidomic, and gene expression zones</p></list-item><list-item><p>Integrated analysis of spatial transcriptome and metabolome across fiber types</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Cell type mapping of inflammatory muscle diseases highlights selective myofiber vulnerability in inclusion body myositis</td><td align="center" rowspan="1" colspan="1">Sven Wischnewski</td><td align="center" rowspan="1" colspan="1">2024</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold>) integrated with snRNA‐seq RNA‐FISH validations</td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0018"><list-item><p>IBM</p></list-item><list-item><p>IMNM</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Quadriceps</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0019"><list-item><p>Selective type 2A fiber vulnerability in IBM</p></list-item><list-item><p>Genomic and protein stress‐associated pathways driving IBM</p></list-item><list-item><p>Localization of immune and profibrotic niches</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">High‐resolution spatial transcriptomic atlas of mouse soleus muscle: Unveiling single cell and subcellular heterogeneity in health and denervation</td><td align="center" rowspan="1" colspan="1">Jer‐En Hsu</td><td align="center" rowspan="1" colspan="1">2024 (preprint)</td><td align="center" rowspan="1" colspan="1">Spatial Transcriptomics (<bold>Seq‐Scope</bold> 3–7 dpi) paired with Histology</td><td align="center" rowspan="1" colspan="1">Mouse (6 months)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0020"><list-item><p>Denervation (surgical nerve removal)</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Soleus (with and without sciatic nerve)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0021"><list-item><p>Novel hybrid fibers at a transitional state</p></list-item><list-item><p>Mapped NMJ nuclei</p></list-item><list-item><p>Fiber differences to stress and Denervation‐induced ECM remodeling dynamics</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Transcriptomic analysis of skeletal muscle regeneration across mouse lifespan identifies altered stem cell states</td><td align="center" rowspan="1" colspan="1"> Lauren D. Walter</td><td align="center" rowspan="1" colspan="1"> 2024</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Slide‐Seq</bold> 5 dpi) integrated with scRNA‐seq (0–7 dpi)</td><td align="center" rowspan="1" colspan="1">Mouse (4–26 months)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0022"><list-item><p>Induced injury by notexin</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Tibialis muscle</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0023"><list-item><p>Spatial atlas from 4–26 months old mice</p></list-item><list-item><p>Resident and immune cell lineages with differences across age groups</p></list-item><list-item><p>Senescent‐like Stem cell subset in older mice impairing regeneration</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">In situ spatial transcriptomic analysis of human skeletal muscle using the Xenium platform</td><td align="center" rowspan="1" colspan="1"> Nejc Umek</td><td align="center" rowspan="1" colspan="1"> 2025</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Xenium</bold>) combined with IHC</td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0024"><list-item><p>Aging</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Quadriceps</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0025"><list-item><p>DEGs for fiber types, location (fiber vs perimysium), and age</p></list-item><list-item><p>Higher transcript density confirmed in Type 1 fiber, especially in nuclear proximity</p></list-item></list>
+</td></tr></tbody></table><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr><th align="center" colspan="8" style="border-bottom:solid 1px #000000" rowspan="1">Central nervous system</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Title of publication</th><th align="center" rowspan="1" colspan="1">First author</th><th align="center" rowspan="1" colspan="1">Year of publication</th><th align="center" rowspan="1" colspan="1">Spatially resolved methods</th><th align="center" rowspan="1" colspan="1">Species</th><th align="center" rowspan="1" colspan="1">Context/disease</th><th align="center" rowspan="1" colspan="1">Tissue type</th><th align="center" rowspan="1" colspan="1">Main results</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Spatiotemporal dynamics of molecular pathology in amyotrophic lateral sclerosis</td><td align="center" rowspan="1" colspan="1">Silas Maniatis</td><td align="center" rowspan="1" colspan="1">2019</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>ST</bold>), FISH validations</td><td align="center" rowspan="1" colspan="1">Mouse (SOD1‐G93A) Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0026"><list-item><p>ALS</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Spinal cord (lumbar, cervical)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0027"><list-item><p>Spatially vulnerable spinal cord niches manifest during disease progression</p></list-item><list-item><p>Innate immune response and neuroinflammation are followed by oxidative stress, protein misfolding, and complement cascade</p></list-item><list-item><p>Molecular modules (like complement‐, microglia activation, and Interferon signaling) shared between advanced stage ALS mouse model and human tissue</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Transcriptome‐scale spatial gene expression in the human dorsolateral prefrontal cortex</td><td align="center" rowspan="1" colspan="1">Kristen R. Maynard</td><td align="center" rowspan="1" colspan="1">2021</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold>) integrated with snRNA‐seq RNA‐FISH validations</td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0028"><list-item><p>Healthy brain coordination</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Dorsolateral prefrontal cortex</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0029"><list-item><p>Cortical layer enriched gene signatures (like autism associated genes enriched in layer V) implicate intracortical information processing as a potential mechanism for genetic risk</p></list-item><list-item><p>Full cortical depth and underlying white matter mapped</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Dense functional and molecular readout of a circuit hub in sensory cortex</td><td align="center" rowspan="1" colspan="1">Cameron Condylis</td><td align="center" rowspan="1" colspan="1">2022</td><td align="center" rowspan="1" colspan="1">Two‐photon calcium imaging followed by spatial transcriptomics (<bold>multiplexed FISH</bold>) "CRACK" platform</td><td align="center" rowspan="1" colspan="1">Mouse (6–8 weeks)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0030"><list-item><p>Sensory processing during behavior</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Primary somatosensory cortex</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0031"><list-item><p>Inhibitory and excitatory neuronal subclasses with <italic toggle="yes">Baz1a</italic>‐expressing neurons as sensory‐driven circuit organizers</p></list-item><list-item><p>Platform to map both functional and transcriptional neuronal cell states in situ</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">T‐cell dysfunction in the glioblastoma microenvironment is mediated by myeloid cells releasing interleukin‐10</td><td align="center" rowspan="1" colspan="1">Vidhya M. Ravi</td><td align="center" rowspan="1" colspan="1">2022</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold>) integrated with scRNA‐seq </td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0032"><list-item><p>Immunosuppressive T‐cell exhaustion in glioblastoma</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Tumor tissue (neuroglia)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0033"><list-item><p>Myeloid cells expressing <italic toggle="yes">HMOX1</italic> and releasing immunosuppressive IL‐10 are enriched in mesenchymal like tumor region</p></list-item><list-item><p>Exhausted T cells also localize with such mesenchymal tumor compartments, but exhaustion is reversible, blocking IL‐10 or JAK‐STAT signaling downstream</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Spatiotemporal molecular dynamics of the developing human thalamus</td><td align="center" rowspan="1" colspan="1">Chang N. Kim</td><td align="center" rowspan="1" colspan="1">2023</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>MERSCOPE</bold>) integrated with scRNA‐seq</td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0034"><list-item><p>Thalamic development</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Prenatal thalamus</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0035"><list-item><p>Differentiation trajectories of thalamic neurons</p></list-item><list-item><p>Developmental timepoints in fetal thalamus, like Gluta‐ and GABAergic neurons, during the first trimester</p></list-item><list-item><p>Spatial gradients during glial cell maturation</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Spatial transcriptomics reveal neuron‐astrocyte synergy in long‐term memory</td><td align="center" rowspan="1" colspan="1">Wenfei Sun</td><td align="center" rowspan="1" colspan="1">2023</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>MERSCOPE</bold>) integrated with scRNA‐seq, RNA‐FISH validations</td><td align="center" rowspan="1" colspan="1">Mouse (49–56 days)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0036"><list-item><p>Long‐term fear memory</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Basolateral amygdala</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0037"><list-item><p>Core memory engram formed by <italic toggle="yes">Penk</italic>⁺/<italic toggle="yes">Tac</italic>
+<sup>−</sup> neurons interacting with adjacent astrocytes, also showing memory‐associated gene signatures</p></list-item><list-item><p>Functionally interactive niche with spatial proximity of involved cells necessary for memory consolidation, as verified in loss‐of‐function assays</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Cellular architecture of evolving neuroinflammatory lesions and multiple sclerosis pathology</td><td align="center" rowspan="1" colspan="1">Petra Kukunja</td><td align="center" rowspan="1" colspan="1">2024</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Cartana</bold> and <bold>Xenium</bold>) IHC, IF validations</td><td align="center" rowspan="1" colspan="1">
+<p>Mouse (EAE) (9–13 weeks)</p>
+<p>Human</p>
+</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0038"><list-item><p>MS</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Spinal cord, select brain regions</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0039"><list-item><p>Disease‐associated glia cells also identified in lesion‐free regions</p></list-item><list-item><p>Radial rim architecture with immune core that is resolved in later lesion stages, while glial shell remains</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Spatially resolved gene signatures of white matter lesion progression in multiple sclerosis</td><td align="center" rowspan="1" colspan="1">Astrid M. Alsema</td><td align="center" rowspan="1" colspan="1">2024</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>GeoMx, Visium, and Cartana</bold>) integrated with snRNA‐seq IHC validations</td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0040"><list-item><p>MS</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Subcortical lesions</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0041"><list-item><p>White matter molecular lesion rims even in absence of MRI features</p></list-item><list-item><p>Molecular trajectories from white matter into different lesion types with a focus on transitional activated/inactivated lesions</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Cell type mapping reveals tissue niches and interactions in subcortical multiple sclerosis lesions</td><td align="center" rowspan="1" colspan="1">Celia Lerma‐Martin</td><td align="center" rowspan="1" colspan="1">2024</td><td align="center" rowspan="1" colspan="1">
+<p>Spatial transcriptomics (<bold>Visium</bold>) integrated with snRNA‐seq</p>
+<p>IHC, IF, RNA‐FISH validations</p>
+</td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0042"><list-item><p>MS</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Chronically active vs. inactive brain lesions</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0043"><list-item><p>Immune and glial cell types mapped in a discrete lesion niche with a novel astrocyte subtype in the lesion core</p></list-item><list-item><p>Transcriptomic patterns of astrocyte to glia signaling at the lesion rim and CCC between glial, immune, and vascular cells </p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Spatio‐temporal transcriptomics of chromothriptic SHH‐medulloblastoma identifies multiple genetic clones that resist treatment and drive relapse</td><td align="center" rowspan="1" colspan="1">Ilia Kats</td><td align="center" rowspan="1" colspan="1">2024</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold>), FISH validations</td><td align="center" rowspan="1" colspan="1">Human &amp; xenograft in mouse (6–10 weeks)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0044"><list-item><p>Treatment‐resistant SHH medulloblastoma with or without chromothripsis</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Tumor tissue (neurons)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0045"><list-item><p>Distinct genetic clones with treatment differences inferred from SNVs and spatially mapped</p></list-item><list-item><p>Chromothriptic tumors showed higher stem/proliferative signals but lower immune infiltration &amp; differentiation</p></list-item><list-item><p>Invasive tumor microtubes chromotryptic enriched</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Broad rim lesions are a new pathological and imaging biomarker for rapid disease progression in multiple sclerosis</td><td align="center" rowspan="1" colspan="1">Laura Airas</td><td align="center" rowspan="1" colspan="1">2025</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>GeoMx</bold>), PET imaging validations</td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0046"><list-item><p>MS</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">
+<p>Brain lesions</p>
+<p>PET‐MRI imaging group</p>
+</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0047"><list-item><p>Expressional gradient at the lesion rim with activated myeloid cells</p></list-item><list-item><p>Myeloid inflammatory cell state that correlates with more rapid MS progression, visible via TSPO PET</p></list-item></list>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Programs, origins, and immunomodulatory functions of myeloid cells in glioma</td><td align="center" rowspan="1" colspan="1">Tyler E. Miller</td><td align="center" rowspan="1" colspan="1">2025</td><td align="center" rowspan="1" colspan="1">Spatial transcriptomics (<bold>Visium</bold>) integrated with scRNA‐seq, snATAC dataset</td><td align="center" rowspan="1" colspan="1">Human</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0048"><list-item><p>Glioma</p></list-item></list>
+</td><td align="center" rowspan="1" colspan="1">Tumor tissue (neuroglia)</td><td align="center" rowspan="1" colspan="1">
+<list list-type="bullet" id="eji70119-list-0049"><list-item><p>Spatially patterned myeloid immunomodulatory patterns (like inflammatory, scavenger‐immunosuppressive, etc.)</p></list-item><list-item><p>Myeloid programs correlate with different spatial niches, like the scavenger immunosuppressive state enriched in hypoxic and vascular niches (which is tied to immunotherapy resistance)</p></list-item></list>
+</td></tr></tbody></table><table-wrap-foot><fn id="eji70119-tbl1-note-0001"><p>
+<italic toggle="yes">Note</italic>: Selected recent studies from both human and mouse tissue focusing on spatial transcriptomics, proteomics, and metabolomics. Studies are ordered by year of publication for each organ.</p></fn><fn id="eji70119-tbl1-note-0002"><p>Abbreviation: ACTC1: actin alpha cardiac muscle 1, ALS: amyotrophic lateral sclerosis, ASS: antisynthetase syndrome, CCC: cell–cell communication, CRACK: calcium imaging‐based spatial transcriptomics platform, DEGs: differentially expressed genes, DLPFC: dorsolateral prefrontal cortex, DMD: Duchenne muscular dystrophy (mdx mice), dpi: days past injury, DUX4: mouse model with facioscapulohumeral muscular dystrophy‐like pathophysiology, EAE: experimental autoimmune encephalomyelitis, ECM: extracellular matrix, FISH: fluorescence in situ hybridization, Gal‐3: galectin‐3, GeoMx: GeoMx Digital Spatial Profiler, GABAergic: gamma‐aminobutyric acid–producing (inhibitory) neurons, Gluta‐: glutamatergic (excitatory neuron subtype), HMOX1: heme oxygenase 1, H&amp;E: hematoxylin and eosin, IBM: inclusion body myositis, IHC: immunohistochemistry, IF: immunofluorescence, IMNM: immune‐mediated necrotizing myopathy, ISH: in situ hybridization, LC‐MS: liquid chromatography–mass spectrometry, LGMD: limb‐girdle muscular dystrophy, MALDI‐MSI: matrix‐assisted laser desorption/ionization mass spectrometry imaging, MERSCOPE: multiplexed error‐robust fluorescence in situ hybridization platform, MRI: magnetic resonance imaging, MS: multiple sclerosis, NMJ: neuromuscular junction, PAX7: paired box protein Pax‐7, Penk: proenkephalin, PET: positron emission tomography, RIZs: regenerative inflammation zones, sc/snRNA‐seq: single‐cell/single‐nuclei RNA sequencing, Seq‐Scope: spatial transcriptomics platform using patterned flow cells, SHH: Sonic Hedgehog, SMPC: skeletal muscle progenitor cell, snATAC: single‐nucleus assay for transposase‐accessible chromatin, SOD1: superoxide dismutase 1 Spp1: secreted phosphoprotein 1, ST: spatial transcriptomics (adapted from Ståhl et al.), Tac: tachykinin, TOMOseq: transcriptome tomography sequencing, TSPO PET: translocator protein positron emission tomography, VSP: valosin‐containing protein (IBM like mouse model), Visium: Visium Spatial Gene Expression platform.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>One of the key advantages of spatial profiling lies in its compatibility with histological analysis. For instance, Seq‐Scope spatial data (submicron resolution) were segmented with the help of H&amp;E images to identify previously unrecognized transitional fiber states and niche specialization in denervated murine soleus muscle tissue, extending beyond classical Type 1/2 classifications [<xref rid="eji70119-bib-0062" ref-type="bibr">62</xref>]. Distinct myofiber types showed differential expression of heat shock proteins (HSP) and stress‐response genes following denervation. Increased macrophage and fibroblast recruitment to the neuromuscular junction (NMJ) was also observed, pointing to broader tissue‐level remodeling involving immune and stromal components. Analogous to “radiating inflammation signals” in murine injury and DMD models, denervation signals (like <italic toggle="yes">Hspb1</italic>, <italic toggle="yes">Hspa8)</italic> emanated from postsynaptic areas (marked by <italic toggle="yes">Prkar1a</italic>) of NMJs to surrounding healthy tissue.</p><p>The complexity of myofiber heterogeneity in both healthy and diseased muscle has been explored using complementary spatial modalities. In a high‐fat diet‐induced myopathy mouse model, spatial proteomics via GeoMx (NanoString) revealed aberrant expression of neuronal markers in desmin‐expressing myofibers, suggesting denervation and increased vulnerability [<xref rid="eji70119-bib-0063" ref-type="bibr">63</xref>]. Moreover, MSI studies have uncovered metabolic heterogeneity within and between fiber subtypes. Distinct metabolomic profiles were observed among Type 1 and Type 2B fibers in mice, including a novel “2b‐mito<sup>high</sup>” subtype characterized by both glycolytic and fatty acid oxidation signatures [<xref rid="eji70119-bib-0064" ref-type="bibr">64</xref>]. Another study integrating transcriptomics (TOMOseq) and spatial metabolomics (MSI) revealed metabolically distinct fiber zones along the central‐proximal/distal (slow‐fast fibers) axis of the murine tibialis muscle [<xref rid="eji70119-bib-0065" ref-type="bibr">65</xref>].</p><p>Such insights from mouse studies are increasingly being translated to human muscle biology. MSI was successfully applied to profile human muscle injury, revealing microbleeding with increased heme in degenerated regions. This contrasted increased HO‐1 in intact regions and fiber type (e.g., MyHC‐2A) specific lipid enrichment [<xref rid="eji70119-bib-0066" ref-type="bibr">66</xref>]. Several studies have combined scRNA‐seq and Visium to profile immune and stromal cells in diseased muscle and validate macrophage phenotypes in patient biopsies. One study identified six macrophage subpopulations, including <italic toggle="yes">Spp1</italic>‐ and <italic toggle="yes">Lgals3</italic>‐expressing subtypes in dystrophic regions of DMD mice, with human analogs detected in biopsies from patients with DMD, inclusion body myositis (IBM), and other inflammatory myopathies [<xref rid="eji70119-bib-0026" ref-type="bibr">26</xref>]. Similarly, another study uncovered the multilayered architecture underlying inflammation and regeneration in DMD and acute injury mouse models [<xref rid="eji70119-bib-0067" ref-type="bibr">67</xref>]. They defined immune‐mediated tissue remodeling by coordinated spatial zones of immune infiltration and progenitor cell activity termed “regenerative inflammation zones” (RIZs) supported through analyses of human DMD biopsies. Myeloid subtypes like growth factor expressing “GPNMB macrophages” were identified in scRNA data and mapped around damaged myofibers using integrated (deconvoluted) Visium spatial profiling.</p><p>Further supporting translational potential, xenograft models have enabled in vivo tracking of human muscle regeneration in murine hosts. In one such study, human muscle progenitor cells were engrafted into satellite cell‐depleted mice postinjury. Using GeoMx spatial transcriptomics and snRNA‐seq, the authors mapped regenerative transcriptional programs, showing how PAX7<sup>+</sup> expressing progenitor cells interact with ACTC1<sup>+</sup> myofibers in distinct regenerative niches [<xref rid="eji70119-bib-0068" ref-type="bibr">68</xref>].</p><p>Spatial omics technologies are also being directly applied to human skeletal muscle. For example, one study employed the Xenium platform with histology and IHC to spatially resolve gene expression across fiber types and tissue compartments, identifying nuclear and perinuclear transcript enrichment in Type 1 fibers [<xref rid="eji70119-bib-0069" ref-type="bibr">69</xref>]. However, ISS‐based profiling remains challenged by manual segmentation, particularly in polynucleated muscle fibers, due to the lack of robust automated pipelines [<xref rid="eji70119-bib-0050" ref-type="bibr">50</xref>]. A recent preprint addressed this issue by generating a fully annotated dataset using IMC and immunofluorescence, laying the groundwork for machine learning‐based segmentation and classification of large biopsy datasets [<xref rid="eji70119-bib-0070" ref-type="bibr">70</xref>].</p><p>Disease‐focused integrative studies have further revealed key spatial features of pathological remodeling in patient samples. In IBM, the combination of snRNA‐seq, Visium spatial data, and ISH validation revealed selective loss of Type 2A fibers due to genomic and proteotoxic stress [<xref rid="eji70119-bib-0001" ref-type="bibr">1</xref>]. The study also identified <italic toggle="yes">COL15A1</italic>‐expressing profibrotic myofibers and discrete immune niches, highlighting spatial coupling between fiber pathology and focal immune activation.</p><p>Collectively, spatial omics technologies have opened new avenues for understanding how cellular organization and intercellular communication shape muscle health and disease. These approaches have illuminated complex processes of degeneration, regeneration, and fibrosis radiating from central zones throughout healthy tissue. The spatial distribution of myogenic, FAP, and macrophage subsets would be missed by traditional methods. While translational momentum is growing [<xref rid="eji70119-bib-0071" ref-type="bibr">71</xref>], robust functional validation of spatially identified targets remains essential to bridge the gap between discovery and clinical application in muscular dystrophies, inflammatory myopathies, and other muscle disorders.</p></sec><sec id="eji70119-sec-0090"><label>4</label><title>Spatial Mapping of Inflammation in the Central Nervous System</title><p>Over the past decade, spatial omics technologies have progressed from theoretical promise to practical utility, particularly in neuroscience. Building on the robust cell type annotation achieved through sc/snRNA‐seq, spatial transcriptomics enabled researchers to combine high‐throughput gene expression profiling with spatial resolution, allowing molecular signatures to be linked to defined anatomical structures. Initially viewed as an extension of single‐cell‐based cell type classification, the field has since evolved into a diverse and multimodal technological landscape with steadily increasing resolution and throughput. This transformation has proven especially valuable in the study of neuroinflammation, where neuron‐glia interactions are tightly regulated by spatial proximity, local microenvironmental signals, and dynamic cell states (Figure <xref rid="eji70119-fig-0002" ref-type="fig">2</xref>) [<xref rid="eji70119-bib-0022" ref-type="bibr">22</xref>].</p><p>Recent studies illustrate how spatial profiling can delineate the molecular, cellular, and functional architecture of the CNS with increasing granularity (Table <xref rid="eji70119-tbl-0001" ref-type="table">1</xref>). For example, large‐scale transcriptomic atlases have charted region‐specific cell types and transcriptional programs across human brain structures [<xref rid="eji70119-bib-0024" ref-type="bibr">24</xref>, <xref rid="eji70119-bib-0025" ref-type="bibr">25</xref>, <xref rid="eji70119-bib-0072" ref-type="bibr">72</xref>]. These analyses revealed that histologically defined regions also exhibit transcriptional continuity with neighboring areas. However, such studies were based on region‐specific dissections and snRNA‐seq, presuming perfect anatomical separation, a limitation addressed by smaller‐scale spatial transcriptomics studies. One such study employed Visium to investigate neocortical lamination in the human brain [<xref rid="eji70119-bib-0023" ref-type="bibr">23</xref>], achieving less biased gene mapping across layers and revealing Alzheimer‐associated gene enrichment in layer V. Notably, this study also facilitated transcriptomic detection beyond cell bodies, previously a challenge in CNS sequencing. In the dorsolateral prefrontal cortex, dendrites and axons were exclusively represented in a subset of Visium spots, demonstrating that spatial profiling can capture nonsomatic neural compartments. Likewise, proteomic mapping via MIBI of Alzheimer's disease (AD) human brain tissue has revealed microglial, dynamic subpopulations like CD33/CD44 high and HLA‐DR/P2RY12/ApoE low expressing cells [<xref rid="eji70119-bib-0029" ref-type="bibr">29</xref>]. Underscoring the value of multimodal spatial mapping to identify pathological niches within tissue of high cellular heterogeneity. Together, both large‐scale atlases and focused spatial maps provide a foundation for studying the spatiotemporal dynamics of neurodevelopment and disease.</p><p>Spatial approaches are particularly well‐suited to uncovering transient progenitor states and migratory trajectories, which are difficult to capture using bulk or dissociated methods. For instance, researchers profiled neuronal and glial lineages across the prenatal human thalamus using snRNA‐seq, then integrated MERFISH‐based ISH data to spatially resolve transcriptional states in developing regions [<xref rid="eji70119-bib-0073" ref-type="bibr">73</xref>]. They identified spatial gradients of glutamatergic and GABAergic neurons, some likely derived from midbrain or telencephalic precursors. Similarly, microglia showed medial‐lateral maturation gradients. Such spatial microglial cell state patterns were also observed by another group before that utilized scRNA‐seq followed by FISH and IF spatial mapping [<xref rid="eji70119-bib-0074" ref-type="bibr">74</xref>]. They linked cell clusters to pathological locations both in murine experimental autoimmune encephalomyelitis (EAE) and human MS samples, revealing partly evolutionary conserved transcriptomic signatures. Hence, spatial omics deciphered both molecular and cellular features that correlate with function.</p><p>Yet, functional validation remains critical for linking expression patterns to behavior, circuit activity, and pathology. A notable approach coupled two‐photon calcium imaging in mice with high‐plex FISH in the same cortical tissue, identifying Baz1a as a sensory‐driven circuit regulator that activates somatostatin‐expressing interneurons [<xref rid="eji70119-bib-0075" ref-type="bibr">75</xref>]. Another study in mice paired in vivo imaging with spatial transcriptomics to align gene expression with state‐dependent neuronal activity, finding that transcriptomic principal components predicted rest vs. arousal responses correlating with receptor expression and axonal localization [<xref rid="eji70119-bib-0076" ref-type="bibr">76</xref>]. Additional work using MERFISH spatial proximity analyses uncovered interactive murine astrocyte‐neuron niches underlying cognitive function, later validated through loss‐of‐function assays [<xref rid="eji70119-bib-0077" ref-type="bibr">77</xref>]. These examples show how spatial omics can bridge molecular and functional brain organization, ultimately reflecting in vivo CCC events in the context of chronic brain inflammation.</p><p>In the context of disease, spatial omics have helped map inflammation, degeneration, and immune responses onto defined brain regions. Whole transcriptome spatial sequencing identified localized molecular modules in the ventral horn of ALS mouse models, highlighting early innate immune activation and oxidative stress preceding motor neuron degeneration [<xref rid="eji70119-bib-0028" ref-type="bibr">28</xref>]. In the same study, human postmortem spinal cord analyses revealed a similar ventral enrichment of <italic toggle="yes">GFAP</italic>, complement, interferon, and antigen presentation genes, pointing to conserved microglial dysfunction across species. In the human ALS‐afflicted motor cortex, spatial transcriptomics revealed gene modules associated with TDP‐43 pathology and metabolic stress localized to specific cortical layers [<xref rid="eji70119-bib-0078" ref-type="bibr">78</xref>]. Spatially dysregulated expression of a glutamate receptor and a deubiquitinase, with increased <italic toggle="yes">GRM3</italic> in cerebellar interneurons and increased <italic toggle="yes">USP47</italic> in granule cells, pointed to localized excitotoxicity and proteostasis disturbances, although the spatial resolution of 100 µm per spot limited identification of cellular niches. Additionally, researchers looked at the metabolome using MSI in a mouse model of Parkinson's disease [<xref rid="eji70119-bib-0079" ref-type="bibr">79</xref>]. This translational study investigated the use of icaritin, demonstrating stabilized mitochondrial function and subsequent reduced neuroinflammation as indicated by, for example, NLRP3 inflammasome and reduced IL‐1ß release.</p><p>Glioma and glioblastoma research has also benefited from spatial approaches on human tissue. One study identified distinct myeloid programs, including a “scavenger immunosuppressive” module enriched in hypoxic/vascular niches correlating with therapy resistance [<xref rid="eji70119-bib-0080" ref-type="bibr">80</xref>]. Intrinsic tumor heterogeneity was profiled, showing <italic toggle="yes">FAM20C</italic>‐mediated invasive gene programs at neuron‐rich glioma borders [<xref rid="eji70119-bib-0081" ref-type="bibr">81</xref>]. Both studies mapped transcriptional programs using the Visium platform. Going beyond the transcriptome, MSI profiling helped identify protein signatures, correlating clinically with higher patient survival rates [<xref rid="eji70119-bib-0082" ref-type="bibr">82</xref>]. Standardization of COMET sequential IF (∼40 markers) now enables reproducible high‐throughput profiling across human and mouse CNS samples [<xref rid="eji70119-bib-0083" ref-type="bibr">83</xref>].</p><p>Together, these studies illustrate how spatially resolved transcriptomics and proteomics facilitated cell type mapping, thereby unmasking the anatomical compartmentalization of tumor heterogeneity linked to immune suppression and therapeutic resistance in brain cancers.</p><p>Inflammation in ALS is likely to be secondary to motor neuron degeneration, and in glioma, it is believed to be strongly shaped by the local disturbed microenvironment. Multiple sclerosis (MS) instead displays a heterogeneous lesion evolution, where demyelination, compartmentalized inflammation, and subsequent neurodegeneration take place. This multifocal, but also region‐specific pathology was previously profiled in human tissue through integration of snRNA‐seq to identify cellular niches with Visium, to map these cell types, and smFISH to verify inferred molecular interactions [<xref rid="eji70119-bib-0002" ref-type="bibr">2</xref>]. For example, this approach helped precisely profile the lesion with the presence of myelin‐phagocytosing macrophages and the identification of a ciliated astrocyte subtype that had not been reported before. CCC inference revealed interactions such as <italic toggle="yes">HMGB</italic>‐<italic toggle="yes">CD163</italic> and <italic toggle="yes">CD14</italic>‐<italic toggle="yes">ITGB1</italic>, linking astrocytes, myeloid, and endothelial cells. Subtle gene expression shifts and communication gradients in periplaque white matter paralleled earlier EAE mouse data showing parenchymal inflammatory infiltration [<xref rid="eji70119-bib-0084" ref-type="bibr">84</xref>]. Using ISS (CartaNA/Xenium), others tracked temporal glial activation during EAE and confirmed radial lesion organization in archival human tissue [<xref rid="eji70119-bib-0003" ref-type="bibr">3</xref>].</p><p>A multiplatform study integrated Visium and GeoMx with ISS to identify three transcriptional trajectories from normal‐appearing human white matter to lesion rim and core [<xref rid="eji70119-bib-0027" ref-type="bibr">27</xref>], proposing that rim formation may precede lesion core expansion. Another GeoMx study profiled human broad rim lesions visible via TSPO‐PET, confirming that these rims harbor distinct, myeloid‐centric inflammatory programs [<xref rid="eji70119-bib-0085" ref-type="bibr">85</xref>].</p><p>Future studies should focus on longitudinal spatial profiling across disease stages and therapeutic responses, integrating multimodal data, single‐cell resolution, and functional validation to fully capture MS pathogenesis and treatment effects.</p></sec><sec id="eji70119-sec-0100"><label>5</label><title>Conclusion and Future Perspective</title><p>Cell identity and functional state are not fixed but exist along spatial and temporal gradients, shaped by dynamic, context‐specific interactions within the tissue microenvironment [<xref rid="eji70119-bib-0074" ref-type="bibr">74</xref>, <xref rid="eji70119-bib-0077" ref-type="bibr">77</xref>]. Spatial profiling technologies seek to decode these gradients, ultimately aiming to construct predictive and mechanistic models of tissue physiology and pathology that integrate deep molecular information and inform clinical decision‐making [<xref rid="eji70119-bib-0011" ref-type="bibr">11</xref>]. While continuous technical innovation is pushing the limits of resolution, now approaching subcellular precision, this often involves trade‐offs in terms of multiplexing capacity, throughput, time, and cost [<xref rid="eji70119-bib-0007" ref-type="bibr">7</xref>, <xref rid="eji70119-bib-0012" ref-type="bibr">12</xref>, <xref rid="eji70119-bib-0013" ref-type="bibr">13</xref>, <xref rid="eji70119-bib-0051" ref-type="bibr">51</xref>]. As spatial profiling matures, standardization and broader accessibility, especially through centralized platforms and core facilities, will be essential to ensure that these technologies can be widely applied across diverse tissues, disease states, and research settings [<xref rid="eji70119-bib-0015" ref-type="bibr">15</xref>, <xref rid="eji70119-bib-0052" ref-type="bibr">52</xref>, <xref rid="eji70119-bib-0053" ref-type="bibr">53</xref>].</p><p>To truly unlock the potential of spatial omics for understanding tissue function and dysfunction, and to accelerate its clinical translation, several key challenges must be addressed: (a) the current lack of standardized protocols and cross‐platform comparability [<xref rid="eji70119-bib-0015" ref-type="bibr">15</xref>, <xref rid="eji70119-bib-0050" ref-type="bibr">50</xref>, <xref rid="eji70119-bib-0053" ref-type="bibr">53</xref>, <xref rid="eji70119-bib-0086" ref-type="bibr">86</xref>], (b) the need for larger cohorts and sample sizes that enable statistically meaningful insights, and (c) the integration of functional validation, such as perturbation or lineage tracing studies, to confirm biological relevance.</p><p>In skeletal muscle, spatially resolved profiling has already advanced our understanding of fiber‐type heterogeneity, regenerative dynamics, and immune–stromal–vascular crosstalk in both health and disease [<xref rid="eji70119-bib-0001" ref-type="bibr">1</xref>, <xref rid="eji70119-bib-0020" ref-type="bibr">20</xref>, <xref rid="eji70119-bib-0021" ref-type="bibr">21</xref>, <xref rid="eji70119-bib-0026" ref-type="bibr">26</xref>, <xref rid="eji70119-bib-0062" ref-type="bibr">62</xref>, <xref rid="eji70119-bib-0064" ref-type="bibr">64</xref>, <xref rid="eji70119-bib-0065" ref-type="bibr">65</xref>, <xref rid="eji70119-bib-0067" ref-type="bibr">67</xref>, <xref rid="eji70119-bib-0068" ref-type="bibr">68</xref>, <xref rid="eji70119-bib-0069" ref-type="bibr">69</xref>, <xref rid="eji70119-bib-0087" ref-type="bibr">87</xref>]. In the CNS, similar approaches have revealed spatially organized programs underlying neurodevelopment, neurodegeneration, tumor progression, and inflammation [<xref rid="eji70119-bib-0002" ref-type="bibr">2</xref>, <xref rid="eji70119-bib-0003" ref-type="bibr">3</xref>, <xref rid="eji70119-bib-0023" ref-type="bibr">23</xref>, <xref rid="eji70119-bib-0025" ref-type="bibr">25</xref>, <xref rid="eji70119-bib-0027" ref-type="bibr">27</xref>, <xref rid="eji70119-bib-0028" ref-type="bibr">28</xref>, <xref rid="eji70119-bib-0029" ref-type="bibr">29</xref>, <xref rid="eji70119-bib-0072" ref-type="bibr">72</xref>, <xref rid="eji70119-bib-0073" ref-type="bibr">73</xref>, <xref rid="eji70119-bib-0075" ref-type="bibr">75</xref>, <xref rid="eji70119-bib-0077" ref-type="bibr">77</xref>, <xref rid="eji70119-bib-0080" ref-type="bibr">80</xref>, <xref rid="eji70119-bib-0081" ref-type="bibr">81</xref>, <xref rid="eji70119-bib-0085" ref-type="bibr">85</xref>, <xref rid="eji70119-bib-0088" ref-type="bibr">88</xref>, <xref rid="eji70119-bib-0089" ref-type="bibr">89</xref>, <xref rid="eji70119-bib-0090" ref-type="bibr">90</xref>]. These studies not only uncover novel cell types and disease‐associated states but also begin to highlight cellular and molecular features that could stratify patients or predict disease progression.</p><p>However, the path toward clinical integration remains challenging. Current diagnostic workflows, particularly in pathology, are still largely based on classical histology and immunohistochemistry [<xref rid="eji70119-bib-0091" ref-type="bibr">91</xref>, <xref rid="eji70119-bib-0092" ref-type="bibr">92</xref>, <xref rid="eji70119-bib-0093" ref-type="bibr">93</xref>]. Therefore, candidate biomarkers emerging from spatial omics studies should ideally be detectable using established platforms, such as IHC/IF, to bridge discovery and clinical utility. A key limitation remains the small cohort sizes in most spatial studies to date, which hampers reproducibility, statistical power, and the generalization of findings [<xref rid="eji70119-bib-0001" ref-type="bibr">1</xref>, <xref rid="eji70119-bib-0002" ref-type="bibr">2</xref>].</p><p>Looking ahead, the future of spatial omics lies in converging methodological rigor, multi‐omic integration, and clinical relevance. Building harmonized atlases of tissue pathology across large, well‐characterized patient cohorts [<xref rid="eji70119-bib-0031" ref-type="bibr">31</xref>], developing interoperable pipelines for analysis [<xref rid="eji70119-bib-0019" ref-type="bibr">19</xref>, <xref rid="eji70119-bib-0052" ref-type="bibr">52</xref>], and validating key findings through targeted perturbation will be central. Importantly, as spatial technologies become more scalable and accessible, they may move from the research setting into clinical workflows [<xref rid="eji70119-bib-0040" ref-type="bibr">40</xref>, <xref rid="eji70119-bib-0083" ref-type="bibr">83</xref>] — first as tools for biomarker validation and prognosis, and ultimately as components of precision diagnostics. The promise of spatial biology is not only to describe where things happen in tissue but to explain how and why, ultimately, paving the way for mechanism‐guided, spatially informed therapeutic strategies.</p></sec><sec id="eji70119-sec-0120"><title>Ethics Statement</title><p>This article did not generate any new experiments using animals or any human studies.</p></sec><sec sec-type="COI-statement" id="eji70119-sec-0130"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec></body><back><ack id="eji70119-sec-0110"><title>Acknowledgments</title><p>L.S. acknowledges support by the German Research Foundation (‘InCheck’ GRK 2727, ‘PruSearch’ FOR 2690, ‘NeuroFlame’ FOR 5705, ‘MacTrac’ SPP 2395, individual research grants SCHI 1330/2‐1, 4‐1, and 11‐1), the European Research Council (‘DecOmPress’ ERC StG, No 950584), and the Hertie Foundation (P1180016 to L.S.). T.D. is a member of the German Research Foundation‐funded Research Training Group ‘InCheck’ (GRK 2727) and the Heidelberg Biosciences International Graduate School (HBIGS).</p><p>Open access funding enabled and organized by Projekt DEAL.</p></ack><sec sec-type="data-availability" id="eji70119-sec-0150"><title>Data Availability Statement</title><p>Data sharing is not applicable to this article as no new datasets were generated or analyzed during the current study.</p></sec><ref-list id="eji70119-bibl-0001"><title>References</title><ref id="eji70119-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="eji70119-cite-0001">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wischnewski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Thäwel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ikenaga</surname>
+</string-name>, et al., “<article-title>Cell Type Mapping of Inflammatory Muscle Diseases Highlights Selective Myofiber Vulnerability in Inclusion Body Myositis</article-title>,” <source>Nature Aging</source>
+<volume>4</volume>, no. <issue>7</issue> (<year>2024</year>): <fpage>969</fpage>–<lpage>983</lpage>, <pub-id pub-id-type="doi">10.1038/s43587-024-00645-9</pub-id>.<pub-id pub-id-type="pmid">38834884</pub-id>
+<pub-id pub-id-type="pmcid">PMC11257986</pub-id></mixed-citation></ref><ref id="eji70119-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="eji70119-cite-0002">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lerma‐Martin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Badia‐I‐Mompel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. O.</given-names>
+<surname>Ramirez Flores</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Sekol</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. S. L.</given-names>
+<surname>Schäfer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Riedl</surname>
+</string-name>, “<article-title>Cell Type Mapping Reveals Tissue Niches and Interactions in Subcortical Multiple Sclerosis Lesions</article-title>,” <source>Nature Neuroscience</source>
+<volume>27</volume>, no. <issue>12</issue> (<year>2024</year>): <fpage>2354</fpage>–<lpage>2365</lpage>, <pub-id pub-id-type="doi">10.1038/s41593-024-01796-z</pub-id>.<pub-id pub-id-type="pmid">39501036</pub-id>
+<pub-id pub-id-type="pmcid">PMC11614744</pub-id></mixed-citation></ref><ref id="eji70119-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="eji70119-cite-0003">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kukanja</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Langseth</surname>
+</string-name>,<string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Rubio Rodríguez‐Kirby</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Agirre</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Zheng</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Raman</surname>
+</string-name>, “<article-title>Cellular Architecture of Evolving Neuroinflammatory Lesions and Multiple Sclerosis Pathology</article-title>,” <source>Cell</source>
+<volume>187</volume>, no. <issue>8</issue> (<year>2024</year>): <fpage>1990</fpage>–<lpage>2009.e19</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2024.02.030</pub-id>.<pub-id pub-id-type="pmid">38513664</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="eji70119-cite-0004">
+<string-name name-style="western">
+<given-names>P. L.</given-names>
+<surname>Ståhl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Salmén</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Vickovic</surname>
+</string-name>, et al., “<article-title>Visualization and Analysis of Gene Expression in Tissue Sections by Spatial Transcriptomics</article-title>,” <source>Science</source>
+<volume>353</volume>, no. <issue>6294</issue> (<year>2016</year>): <fpage>78</fpage>–<lpage>82</lpage>.<pub-id pub-id-type="pmid">27365449</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aaf2403</pub-id></mixed-citation></ref><ref id="eji70119-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="eji70119-cite-0005">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Vickovic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Eraslan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Salmén</surname>
+</string-name>, et al., “<article-title>High‐Definition Spatial Transcriptomics for In Situ Tissue Profiling</article-title>,” <source>Nature Methods</source>
+<volume>16</volume>, no. <issue>10</issue> (<year>2019</year>): <fpage>987</fpage>–<lpage>990</lpage>, <pub-id pub-id-type="doi">10.1038/s41592-019-0548-y</pub-id>.<pub-id pub-id-type="pmid">31501547</pub-id>
+<pub-id pub-id-type="pmcid">PMC6765407</pub-id></mixed-citation></ref><ref id="eji70119-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="eji70119-cite-0006">
+<string-name name-style="western">
+<given-names>S. G.</given-names>
+<surname>Rodriques</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Stickels</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Goeva</surname>
+</string-name>, et al., “<article-title>Slide‐seq: A Scalable Technology for Measuring Genome‐wide Expression at High Spatial Resolution</article-title>,” <source>Science</source>
+<volume>363</volume>, no. <issue>6434</issue> (<year>2019</year>): <fpage>1463</fpage>–<lpage>1467</lpage>, <pub-id pub-id-type="doi">10.1126/science.aaw1219</pub-id>.<pub-id pub-id-type="pmid">30923225</pub-id>
+<pub-id pub-id-type="pmcid">PMC6927209</pub-id></mixed-citation></ref><ref id="eji70119-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="eji70119-cite-0007">
+<string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Stickels</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Murray</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kumar</surname>
+</string-name>, et al., “<article-title>Highly Sensitive Spatial Transcriptomics at Near‐Cellular Resolution with Slide‐seqV2</article-title>,” <source>Nature Biotechnology</source>
+<volume>39</volume>, no. <issue>3</issue> (<year>2021</year>): <fpage>313</fpage>–<lpage>319</lpage>, <pub-id pub-id-type="doi">10.1038/s41587-020-0739-1</pub-id>.<pub-id pub-id-type="pmcid">PMC8606189</pub-id><pub-id pub-id-type="pmid">33288904</pub-id></mixed-citation></ref><ref id="eji70119-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="eji70119-cite-0008">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Palla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Spitzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Klein</surname>
+</string-name>, et al., “<article-title>Squidpy: A Scalable Framework for Spatial Omics Analysis</article-title>,” <source>Nature Methods</source>
+<volume>19</volume>, no. <issue>2</issue> (<year>2022</year>): <fpage>171</fpage>–<lpage>178</lpage>, <pub-id pub-id-type="doi">10.1038/s41592-021-01358-2</pub-id>.<pub-id pub-id-type="pmid">35102346</pub-id>
+<pub-id pub-id-type="pmcid">PMC8828470</pub-id></mixed-citation></ref><ref id="eji70119-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="eji70119-cite-0009">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Cang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. A.</given-names>
+<surname>Almet</surname>
+</string-name>, et al., “<article-title>Screening Cell‐Cell Communication in Spatial Transcriptomics via Collective Optimal Transport</article-title>,” <source>Nature Methods</source>
+<volume>20</volume>, no. <issue>2</issue> (<year>2023</year>): <fpage>218</fpage>–<lpage>228</lpage>, <pub-id pub-id-type="doi">10.1038/s41592-022-01728-4</pub-id>.<pub-id pub-id-type="pmid">36690742</pub-id>
+<pub-id pub-id-type="pmcid">PMC9911355</pub-id></mixed-citation></ref><ref id="eji70119-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="eji70119-cite-0010">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Armingol</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ghaddar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Joshi</surname>
+</string-name>, et al., “<article-title>Inferring a Spatial Code of Cell‐Cell Interactions Across a Whole Animal Body</article-title>,” <source>Plos Computational Biology</source>
+<volume>18</volume>, no. <issue>11</issue> (<year>2022</year>): <elocation-id>e1010715</elocation-id>, <pub-id pub-id-type="doi">10.1371/journal.pcbi.1010715</pub-id>.<pub-id pub-id-type="pmid">36395331</pub-id>
+<pub-id pub-id-type="pmcid">PMC9714814</pub-id></mixed-citation></ref><ref id="eji70119-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="eji70119-cite-0011">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Armingol</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Officer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Harismendy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. E.</given-names>
+<surname>Lewis</surname>
+</string-name>, “<article-title>Deciphering Cell‐Cell Interactions and Communication From Gene Expression</article-title>,” <source>Nature Reviews Genetics</source>
+<volume>22</volume>, no. <issue>2</issue> (<year>2021</year>): <fpage>71</fpage>–<lpage>88</lpage>, <pub-id pub-id-type="doi">10.1038/s41576-020-00292-x</pub-id>.<pub-id pub-id-type="pmcid">PMC7649713</pub-id><pub-id pub-id-type="pmid">33168968</pub-id></mixed-citation></ref><ref id="eji70119-bib-0012"><label>12</label><mixed-citation publication-type="book" id="eji70119-cite-0012">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nagendran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Sapida</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Arthur</surname>
+</string-name>, et al., “<part-title>Visium HD Enables Spatially Resolved, Single‐Cell Scale Resolution Mapping of FFPE Human Breast Cancer tissue</part-title>,” <source>Regular and Young Investigator Award Abstracts</source> (<publisher-name>BMJ Publishing Group Ltd</publisher-name>, <year>2023</year>), <pub-id pub-id-type="doi">10.1136/jitc-2023-sitc2023.1457</pub-id>.</mixed-citation></ref><ref id="eji70119-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="eji70119-cite-0013">
+<string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Cho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Xi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Si</surname>
+</string-name>, et al., “<article-title>Microscopic Examination of Spatial Transcriptome Using Seq‐Scope</article-title>,” <source>Cell</source>
+<volume>184</volume>, no. <issue>13</issue> (<year>2021</year>): <fpage>3559</fpage>–<lpage>3572</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2021.05.010</pub-id>.<pub-id pub-id-type="pmid">34115981</pub-id>
+<pub-id pub-id-type="pmcid">PMC8238917</pub-id></mixed-citation></ref><ref id="eji70119-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="eji70119-cite-0014">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Liao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Cheng</surname>
+</string-name>, et al., “<article-title>Spatiotemporal Transcriptomic Atlas of Mouse Organogenesis Using DNA Nanoball‐Patterned Arrays</article-title>,” <source>Cell</source>
+<volume>185</volume>, no. <issue>10</issue> (<year>2022</year>): <fpage>1777</fpage>–<lpage>1792</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2022.04.003</pub-id>.<pub-id pub-id-type="pmid">35512705</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="eji70119-cite-0015">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>You</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Li</surname>
+</string-name>, et al., “<article-title>Systematic Comparison of Sequencing‐Based Spatial Transcriptomic Methods</article-title>,” <source>Nature Methods</source>
+<volume>21</volume>, no. <issue>9</issue> (<year>2024</year>): <fpage>1743</fpage>–<lpage>1754</lpage>, <pub-id pub-id-type="doi">10.1038/s41592-024-02325-3</pub-id>.<pub-id pub-id-type="pmid">38965443</pub-id>
+<pub-id pub-id-type="pmcid">PMC11399101</pub-id></mixed-citation></ref><ref id="eji70119-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="eji70119-cite-0016">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Biancalani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Scalia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Buffoni</surname>
+</string-name>, et al., “<article-title>Deep Learning and Alignment of Spatially Resolved Single‐Cell Transcriptomes with Tangram</article-title>,” <source>Nature Methods</source>
+<volume>18</volume>, no. <issue>11</issue> (<year>2021</year>): <fpage>1352</fpage>–<lpage>1362</lpage>, <pub-id pub-id-type="doi">10.1038/s41592-021-01264-7</pub-id>.<pub-id pub-id-type="pmid">34711971</pub-id>
+<pub-id pub-id-type="pmcid">PMC8566243</pub-id></mixed-citation></ref><ref id="eji70119-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="eji70119-cite-0017">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Kleshchevnikov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Shmatko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Dann</surname>
+</string-name>, et al., “<article-title>Cell2location Maps Fine‐Grained Cell Types in Spatial Transcriptomics</article-title>,” <source>Nature Biotechnology</source>
+<volume>40</volume>, no. <issue>5</issue> (<year>2022</year>): <fpage>661</fpage>–<lpage>671</lpage>, <pub-id pub-id-type="doi">10.1038/s41587-021-01139-4</pub-id>.<pub-id pub-id-type="pmid">35027729</pub-id></mixed-citation></ref><ref id="eji70119-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="eji70119-cite-0018">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Stuart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Kowalski</surname>
+</string-name>, et al., “<article-title>Dictionary Learning for Integrative, Multimodal and Scalable Single‐Cell Analysis</article-title>,” <source>Nature Biotechnology</source>
+<volume>42</volume>, no. <issue>2</issue> (<year>2024</year>): <fpage>293</fpage>–<lpage>304</lpage>, <pub-id pub-id-type="doi">10.1038/s41587-023-01767-y</pub-id>.<pub-id pub-id-type="pmcid">PMC10928517</pub-id><pub-id pub-id-type="pmid">37231261</pub-id></mixed-citation></ref><ref id="eji70119-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="eji70119-cite-0019">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Dries</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Dong</surname>
+</string-name>, et al., “<article-title>Giotto: A Toolbox for Integrative Analysis and Visualization of Spatial Expression Data</article-title>,” <source>Genome Biology</source>
+<volume>22</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>78</fpage>, <pub-id pub-id-type="doi">10.1186/s13059-021-02286-2</pub-id>.<pub-id pub-id-type="pmid">33685491</pub-id>
+<pub-id pub-id-type="pmcid">PMC7938609</pub-id></mixed-citation></ref><ref id="eji70119-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="eji70119-cite-0020">
+<string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>McKellar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>Walter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. T.</given-names>
+<surname>Song</surname>
+</string-name>, et al., “<article-title>Large‐Scale Integration of Single‐Cell Transcriptomic Data Captures Transitional Progenitor States in Mouse Skeletal Muscle Regeneration</article-title>,” <source>Communications Biology</source>
+<volume>4</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>1280</fpage>, <pub-id pub-id-type="doi">10.1038/s42003-021-02810-x</pub-id>.<pub-id pub-id-type="pmid">34773081</pub-id>
+<pub-id pub-id-type="pmcid">PMC8589952</pub-id></mixed-citation></ref><ref id="eji70119-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="eji70119-cite-0021">
+<string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Stec</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Adler</surname>
+</string-name>, et al., “<article-title>A Cellular and Molecular Spatial Atlas of Dystrophic Muscle</article-title>,” <source>PNAS</source>
+<volume>120</volume>, no. <issue>29</issue> (<year>2023</year>): <elocation-id>e2221249120</elocation-id>, <pub-id pub-id-type="doi">10.1073/pnas.2221249120</pub-id>.<pub-id pub-id-type="pmid">37410813</pub-id>
+<pub-id pub-id-type="pmcid">PMC10629561</pub-id></mixed-citation></ref><ref id="eji70119-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="eji70119-cite-0022">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Lein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Borm</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Linnarsson</surname>
+</string-name>, “<article-title>The Promise of Spatial Transcriptomics for Neuroscience in the Era of Molecular Cell Typing</article-title>,” <source>Science</source>
+<volume>358</volume>, no. <issue>6359</issue> (<year>2017</year>): <fpage>64</fpage>–<lpage>69</lpage>, <pub-id pub-id-type="doi">10.1126/science.aan6827</pub-id>.<pub-id pub-id-type="pmid">28983044</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="eji70119-cite-0023">
+<string-name name-style="western">
+<given-names>K. R.</given-names>
+<surname>Maynard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Collado‐Torres</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. M.</given-names>
+<surname>Weber</surname>
+</string-name>, et al., “<article-title>Transcriptome‐Scale Spatial Gene Expression in the Human Dorsolateral Prefrontal Cortex</article-title>,” <source>Nature Neuroscience</source>
+<volume>24</volume>, no. <issue>3</issue> (<year>2021</year>): <fpage>425</fpage>–<lpage>436</lpage>, <pub-id pub-id-type="doi">10.1038/s41593-020-00787-0</pub-id>.<pub-id pub-id-type="pmid">33558695</pub-id>
+<pub-id pub-id-type="pmcid">PMC8095368</pub-id></mixed-citation></ref><ref id="eji70119-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="eji70119-cite-0024">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Siletti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Hodge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mossi Albiach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Ding</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Hu</surname>
+</string-name>, “<article-title>Transcriptomic Diversity of Cell Types Across the Adult Human Brain</article-title>,” <source>Science</source>
+<volume>382</volume>, no. <issue>6667</issue> (<year>2023</year>): <elocation-id>eadd7046</elocation-id>, <pub-id pub-id-type="doi">10.1126/science.add7046</pub-id>.<pub-id pub-id-type="pmid">37824663</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="eji70119-cite-0025">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Huang</surname>
+</string-name>, et al., “<article-title>A Brain Cell Atlas Integrating Single‐Cell Transcriptomes Across Human Brain Regions</article-title>,” <source>Nature Medicine</source>
+<volume>30</volume>, no. <issue>9</issue> (<year>2024</year>): <fpage>2679</fpage>–<lpage>2691</lpage>, <pub-id pub-id-type="doi">10.1038/s41591-024-03150-z</pub-id>.<pub-id pub-id-type="pmcid">PMC11405287</pub-id><pub-id pub-id-type="pmid">39095595</pub-id></mixed-citation></ref><ref id="eji70119-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="eji70119-cite-0026">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Coulis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Jaime</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Guerrero‐Juarez</surname>
+</string-name>, et al., “<article-title>Single‐Cell and Spatial Transcriptomics Identify a Macrophage Population Associated with Skeletal Muscle Fibrosis</article-title>,” <source>Science Advances</source>
+<volume>9</volume>, no. <issue>27</issue> (<year>2023</year>): <elocation-id>eadd9984</elocation-id>, <pub-id pub-id-type="doi">10.1126/sciadv.add9984</pub-id>.<pub-id pub-id-type="pmid">37418531</pub-id>
+<pub-id pub-id-type="pmcid">PMC10328414</pub-id></mixed-citation></ref><ref id="eji70119-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="eji70119-cite-0027">
+<string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Alsema</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H. C.</given-names>
+<surname>Wijering</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Miedema</surname>
+</string-name>, et al., “<article-title>Spatially Resolved Gene Signatures of White Matter Lesion Progression in Multiple Sclerosis</article-title>,” <source>Nature Neuroscience</source>
+<volume>27</volume>, no. <issue>12</issue> (<year>2024</year>): <fpage>2341</fpage>–<lpage>2353</lpage>, <pub-id pub-id-type="doi">10.1038/s41593-024-01765-6</pub-id>.<pub-id pub-id-type="pmid">39501035</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="eji70119-cite-0028">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Maniatis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Äijö</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Vickovic</surname>
+</string-name>, et al., “<article-title>Spatiotemporal Dynamics of Molecular Pathology in Amyotrophic Lateral Sclerosis</article-title>,” <source>Science</source>
+<volume>364</volume>, no. <issue>6435</issue> (<year>2019</year>): <fpage>89</fpage>–<lpage>93</lpage>, <pub-id pub-id-type="doi">10.1126/science.aav9776</pub-id>.<pub-id pub-id-type="pmid">30948552</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="eji70119-cite-0029">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Mrdjen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>Cannon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Amouzgar</surname>
+</string-name>, et al., “<article-title>Spatial Proteomics of Alzheimer's Disease‐Specific Human Microglial States</article-title>,” <source>Nature Immunology</source>
+<volume>26</volume>, no. <issue>8</issue> (<year>2025</year>): <fpage>1397</fpage>–<lpage>1410</lpage>, <pub-id pub-id-type="doi">10.1038/s41590-025-02203-w</pub-id>.<pub-id pub-id-type="pmid">40696045</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="eji70119-cite-0030">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Dong</surname>
+</string-name>, et al., “<article-title>Polony Gels Enable Amplifiable DNA Stamping and Spatial Transcriptomics of Chronic Pain</article-title>,” <source>Cell</source>
+<volume>185</volume>, no. <issue>24</issue> (<year>2022</year>): <fpage>4621</fpage>–<lpage>4633</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2022.10.021</pub-id>.<pub-id pub-id-type="pmid">36368323</pub-id>
+<pub-id pub-id-type="pmcid">PMC9691594</pub-id></mixed-citation></ref><ref id="eji70119-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="eji70119-cite-0031">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Jung</surname>
+</string-name>, et al., “<article-title>Molecularly Defined and Spatially Resolved Cell Atlas of the Whole Mouse Brain</article-title>,” <source>Nature</source>
+<volume>624</volume>, no. <issue>7991</issue> (<year>2023</year>): <fpage>343</fpage>–<lpage>354</lpage>, <pub-id pub-id-type="doi">10.1038/s41586-023-06808-9</pub-id>.<pub-id pub-id-type="pmid">38092912</pub-id>
+<pub-id pub-id-type="pmcid">PMC10719103</pub-id></mixed-citation></ref><ref id="eji70119-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="eji70119-cite-0032">
+<string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Borm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mossi Albiach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. C. A.</given-names>
+<surname>Mannens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Janusauskas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Özgün</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Fernández‐García</surname>
+</string-name>, “<article-title>Scalable In Situ Single‐Cell Profiling by Electrophoretic Capture of mRNA Using EEL FISH</article-title>,” <source>Nature Biotechnology</source>
+<volume>41</volume>, no. <issue>2</issue> (<year>2023</year>): <fpage>222</fpage>–<lpage>231</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41587-022-01455-3</pub-id><pub-id pub-id-type="pmcid">PMC9931581</pub-id><pub-id pub-id-type="pmid">36138169</pub-id></mixed-citation></ref><ref id="eji70119-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="eji70119-cite-0033">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhou</surname>
+</string-name>, et al., “<article-title>Spatial Atlas of the Mouse Central Nervous System at Molecular Resolution</article-title>,” <source>Nature</source>
+<volume>622</volume>, no. <issue>7983</issue> (<year>2023</year>): <fpage>552</fpage>–<lpage>561</lpage>, <pub-id pub-id-type="doi">10.1038/s41586-023-06569-5</pub-id>.<pub-id pub-id-type="pmid">37758947</pub-id>
+<pub-id pub-id-type="pmcid">PMC10709140</pub-id></mixed-citation></ref><ref id="eji70119-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="eji70119-cite-0034">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Hartman</surname>
+</string-name> and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Satija</surname>
+</string-name>, “<article-title>Comparative Analysis of Multiplexed In Situ Gene Expression Profiling Technologies</article-title>,” <source>bioRxiv</source>
+<year>2024</year>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/38260366" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/38260366</ext-link>.</mixed-citation></ref><ref id="eji70119-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="eji70119-cite-0035">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Covert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Gala</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Svoboda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Sümbül</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. I.</given-names>
+<surname>Lee</surname>
+</string-name>, “<article-title>Predictive and Robust Gene Selection for Spatial Transcriptomics</article-title>,” <source>Nature Communications</source>
+<volume>14</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>2091</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-023-37392-1</pub-id>.<pub-id pub-id-type="pmcid">PMC10097645</pub-id><pub-id pub-id-type="pmid">37045821</pub-id></mixed-citation></ref><ref id="eji70119-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="eji70119-cite-0036">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Dimitrov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Türei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Garrido‐Rodriguez</surname>
+</string-name>, et al., “<article-title>Comparison of Methods and Resources for Cell‐Cell Communication Inference From Single‐cell RNA‐Seq Data</article-title>,” <source>Nature Communications</source>
+<volume>13</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>3224</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-022-30755-0</pub-id>.<pub-id pub-id-type="pmcid">PMC9184522</pub-id><pub-id pub-id-type="pmid">35680885</pub-id></mixed-citation></ref><ref id="eji70119-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="eji70119-cite-0037">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Jin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. F.</given-names>
+<surname>Guerrero‐Juarez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al., “<article-title>Inference and Analysis of Cell‐Cell Communication Using CellChat</article-title>,” <source>Nature Communications</source>
+<volume>12</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>1088</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-021-21246-9</pub-id>.<pub-id pub-id-type="pmcid">PMC7889871</pub-id><pub-id pub-id-type="pmid">33597522</pub-id></mixed-citation></ref><ref id="eji70119-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="eji70119-cite-0038">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Browaeys</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Saelens</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Saeys</surname>
+</string-name>, “<article-title>NicheNet: Modeling Intercellular Communication by Linking Ligands to Target Genes</article-title>,” <source>Nature Methods</source>
+<volume>17</volume>, no. <issue>2</issue> (<year>2020</year>): <fpage>159</fpage>–<lpage>162</lpage>, <pub-id pub-id-type="doi">10.1038/s41592-019-0667-5</pub-id>.<pub-id pub-id-type="pmid">31819264</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="eji70119-cite-0039">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Beyer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Aebersold</surname>
+</string-name>, “<article-title>On the Dependency of Cellular Protein Levels on mRNA Abundance</article-title>,” <source>Cell</source>
+<volume>165</volume>, no. <issue>3</issue> (<year>2016</year>): <fpage>535</fpage>–<lpage>550</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2016.03.014</pub-id>.<pub-id pub-id-type="pmid">27104977</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0040"><label>40</label><mixed-citation publication-type="book" id="eji70119-cite-0040">
+<collab collab-type="authors">Lunaphore Technologies SA</collab>
+. <publisher-name>Springer Nature</publisher-name>. [cited 2025 Jul 30]. <source>Lunaphore Technologies: Multiplex Spatial Biology Made Simple</source>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.nature.com/articles/d43747-022-00020-w" ext-link-type="uri">https://www.nature.com/articles/d43747‐022‐00020‐w</ext-link>.</mixed-citation></ref><ref id="eji70119-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="eji70119-cite-0041">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Goltsev</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Samusik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kennedy‐Darling</surname>
+</string-name>, et al., “<article-title>Deep Profiling of Mouse Splenic Architecture with CODEX Multiplexed Imaging</article-title>,” <source>Cell</source>
+<volume>174</volume>, no. <issue>4</issue> (<year>2018</year>): <fpage>968</fpage>–<lpage>981</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2018.07.010</pub-id>.<pub-id pub-id-type="pmid">30078711</pub-id>
+<pub-id pub-id-type="pmcid">PMC6086938</pub-id></mixed-citation></ref><ref id="eji70119-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="eji70119-cite-0042">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Giesen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>HAO</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Schapiro</surname>
+</string-name>, et al., “<article-title>Highly Multiplexed Imaging of Tumor Tissues with Subcellular Resolution by Mass Cytometry</article-title>,” <source>Nature Methods</source>
+<volume>11</volume>, no. <issue>4</issue> (<year>2014</year>): <fpage>417</fpage>–<lpage>422</lpage>, <pub-id pub-id-type="doi">10.1038/nmeth.2869</pub-id>.<pub-id pub-id-type="pmid">24584193</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="eji70119-cite-0043">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Keren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Bosse</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Thompson</surname>
+</string-name>, et al., “<article-title>MIBI‐TOF: A Multiplexed Imaging Platform Relates Cellular Phenotypes and Tissue Structure</article-title>,” <source>Science Advances</source>
+<volume>5</volume>, no. <issue>10</issue> (<year>2019</year>): <elocation-id>eaax5851</elocation-id>, <pub-id pub-id-type="doi">10.1126/sciadv.aax5851</pub-id>.<pub-id pub-id-type="pmid">31633026</pub-id>
+<pub-id pub-id-type="pmcid">PMC6785247</pub-id></mixed-citation></ref><ref id="eji70119-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="eji70119-cite-0044">
+<string-name name-style="western">
+<given-names>F. J.</given-names>
+<surname>Hartmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Mrdjen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>McCaffrey</surname>
+</string-name>, et al., “<article-title>Single‐Cell Metabolic Profiling of Human Cytotoxic T Cells</article-title>,” <source>Nature Biotechnology</source>
+<volume>39</volume>, no. <issue>2</issue> (<year>2021</year>): <fpage>186</fpage>–<lpage>197</lpage>, <pub-id pub-id-type="doi">10.1038/s41587-020-0651-8</pub-id>.<pub-id pub-id-type="pmcid">PMC7878201</pub-id><pub-id pub-id-type="pmid">32868913</pub-id></mixed-citation></ref><ref id="eji70119-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="eji70119-cite-0045">
+<string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Merritt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. T.</given-names>
+<surname>Ong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Church</surname>
+</string-name>, et al., “<article-title>Multiplex Digital Spatial Profiling of Proteins and RNA in Fixed Tissue</article-title>,” <source>Nature Biotechnology</source>
+<volume>38</volume>, no. <issue>5</issue> (<year>2020</year>): <fpage>586</fpage>–<lpage>599</lpage>, <pub-id pub-id-type="doi">10.1038/s41587-020-0472-9</pub-id>.<pub-id pub-id-type="pmid">32393914</pub-id></mixed-citation></ref><ref id="eji70119-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="eji70119-cite-0046">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Wu</surname>
+</string-name>, et al., “<article-title>Spatial Proteomics of Single Cells and Organelles on Tissue Slides Using Filter‐aided Expansion Proteomics</article-title>,” <source>Nature Communications</source>
+<volume>15</volume>, no. <issue>1</issue> (<year>2024</year>): <fpage>9378</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-024-53683-7</pub-id>.<pub-id pub-id-type="pmcid">PMC11525631</pub-id><pub-id pub-id-type="pmid">39477916</pub-id></mixed-citation></ref><ref id="eji70119-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="eji70119-cite-0047">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Ojeda‐Pérez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Campos‐Sandoval</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>García‐Bonilla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Cárdenas‐García</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Páez‐González</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Jiménez</surname>
+</string-name>, “<article-title>Identification of Key Molecular Biomarkers Involved in Reactive and Neurodegenerative Processes Present in Inherited Congenital Hydrocephalus</article-title>,” <source>Fluids Barriers CNS</source>
+<volume>18</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>30</fpage>, <pub-id pub-id-type="doi">10.1186/s12987-021-00263-2</pub-id>.<pub-id pub-id-type="pmid">34215285</pub-id>
+<pub-id pub-id-type="pmcid">PMC8254311</pub-id></mixed-citation></ref><ref id="eji70119-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="eji70119-cite-0048">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Dabaj</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ferey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Marguet</surname>
+</string-name>, et al., “<article-title>Muscle Metabolic Remodelling Patterns in Duchenne Muscular Dystrophy Revealed by Ultra‐High‐Resolution Mass Spectrometry Imaging</article-title>,” <source>Scientific Reports</source>
+<volume>11</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>1906</fpage>, <pub-id pub-id-type="doi">10.1038/s41598-021-81090-1</pub-id>.<pub-id pub-id-type="pmid">33479270</pub-id>
+<pub-id pub-id-type="pmcid">PMC7819988</pub-id></mixed-citation></ref><ref id="eji70119-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="eji70119-cite-0049">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Yao</surname>
+</string-name>, et al., “<article-title>Deconvolution Algorithms for Inference of the Cell‐type Composition of the Spatial Transcriptome</article-title>,” <source>Computational and Structural Biotechnology Journal</source>
+<volume>21</volume> (<year>2023</year>): <fpage>176</fpage>–<lpage>184</lpage>, <pub-id pub-id-type="doi">10.1016/j.csbj.2022.12.001</pub-id>.<pub-id pub-id-type="pmid">36544473</pub-id>
+<pub-id pub-id-type="pmcid">PMC9755226</pub-id></mixed-citation></ref><ref id="eji70119-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="eji70119-cite-0050">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Jin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. K.</given-names>
+<surname>Smyth</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, “<article-title>Benchmarking Cell Type Annotation Methods for 10x Xenium Spatial Transcriptomics Data</article-title>,” <source>BMC Bioinformatics [Electronic Resource]</source>
+<volume>26</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>22</fpage>, <pub-id pub-id-type="doi">10.1186/s12859-025-06044-0</pub-id>.<pub-id pub-id-type="pmid">39833693</pub-id>
+<pub-id pub-id-type="pmcid">PMC11744978</pub-id></mixed-citation></ref><ref id="eji70119-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="eji70119-cite-0051">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Si</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hwang</surname>
+</string-name>, et al., “<article-title>FICTURE: Scalable Segmentation‐Free Analysis of Submicron‐Resolution Spatial Transcriptomics</article-title>,” <source>Nature Methods</source>
+<volume>21</volume>, no. <issue>10</issue> (<year>2024</year>): <fpage>1843</fpage>–<lpage>1854</lpage>, <pub-id pub-id-type="doi">10.1038/s41592-024-02415-2</pub-id>.<pub-id pub-id-type="pmid">39266749</pub-id>
+<pub-id pub-id-type="pmcid">PMC11466694</pub-id></mixed-citation></ref><ref id="eji70119-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="eji70119-cite-0052">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Marconato</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Palla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Yamauchi</surname>
+</string-name>, et al., “<article-title>SpatialData: An Open and Universal Data Framework for Spatial Omics</article-title>,” <source>Nature Methods</source>
+<volume>22</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>58</fpage>–<lpage>62</lpage>, <pub-id pub-id-type="doi">10.1038/s41592-024-02212-x</pub-id>.<pub-id pub-id-type="pmid">38509327</pub-id>
+<pub-id pub-id-type="pmcid">PMC11725494</pub-id></mixed-citation></ref><ref id="eji70119-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="eji70119-cite-0053">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Yuan</surname>
+</string-name>, “<article-title>Streamlining Spatial Omics Data Analysis With Pysodb</article-title>,” <source>Nature Protocols</source>
+<volume>19</volume>, no. <issue>3</issue> (<year>2024</year>): <fpage>831</fpage>–<lpage>895</lpage>, <pub-id pub-id-type="doi">10.1038/s41596-023-00925-5</pub-id>.<pub-id pub-id-type="pmid">38135744</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="eji70119-cite-0054">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Al‐Eryani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Carswell</surname>
+</string-name>, et al., “<article-title>High‐throughput Targeted Long‐Read Single Cell Sequencing Reveals the Clonal and Transcriptional Landscape of Lymphocytes</article-title>,” <source>Nature Communications</source>
+<volume>10</volume>, no. <issue>1</issue> (<year>2019</year>): <fpage>3120</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-019-11049-4</pub-id>.<pub-id pub-id-type="pmcid">PMC6635368</pub-id><pub-id pub-id-type="pmid">31311926</pub-id></mixed-citation></ref><ref id="eji70119-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="eji70119-cite-0055">
+<string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Zaslavsky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Craig</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Michuda</surname>
+</string-name>, et al., “<article-title>Disease Diagnostics Using Machine Learning of B Cell and T Cell Receptor Sequences</article-title>,” <source>Science</source>
+<volume>387</volume>, no. <issue>6736</issue> (<year>2025</year>): <elocation-id>eadp2407</elocation-id>, <pub-id pub-id-type="doi">10.1126/science.adp2407</pub-id>.<pub-id pub-id-type="pmid">39977494</pub-id>
+<pub-id pub-id-type="pmcid">PMC12061481</pub-id></mixed-citation></ref><ref id="eji70119-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="eji70119-cite-0056">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Mhanna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bashour</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Lê Quý</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Barennes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Rawat</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Greiff</surname>
+</string-name>, “<article-title>Adaptive Immune Receptor Repertoire Analysis</article-title>,” <source>Nat Rev Methods Primers</source>
+<volume>4</volume>, no. <issue>1</issue> (<year>2024</year>), <pub-id pub-id-type="doi">10.1038/s43586-023-00284-1</pub-id>.</mixed-citation></ref><ref id="eji70119-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="eji70119-cite-0057">
+<string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Benotmane</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kueckelhaus</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Will</surname>
+</string-name>, et al., “<article-title>High‐Sensitive Spatially Resolved T Cell Receptor Sequencing With SPTCR‐seq</article-title>,” <source>Nature Communications</source>
+<volume>14</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>7432</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-023-43201-6</pub-id>.<pub-id pub-id-type="pmcid">PMC10654577</pub-id><pub-id pub-id-type="pmid">37973846</pub-id></mixed-citation></ref><ref id="eji70119-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="eji70119-cite-0058">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Iorgulescu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Li</surname>
+</string-name>, et al., “<article-title>Spatial Maps of T Cell Receptors and Transcriptomes Reveal Distinct Immune Niches and Interactions in the Adaptive Immune Response</article-title>,” <source>Immunity</source>
+<volume>55</volume>, no. <issue>10</issue> (<year>2022</year>): <fpage>1940</fpage>–<lpage>1952</lpage>, <pub-id pub-id-type="doi">10.1016/j.immuni.2022.09.002</pub-id>.<pub-id pub-id-type="pmid">36223726</pub-id>
+<pub-id pub-id-type="pmcid">PMC9745674</pub-id></mixed-citation></ref><ref id="eji70119-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="eji70119-cite-0059">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Engblom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Thrane</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Lin</surname>
+</string-name>, et al., “<article-title>Spatial Transcriptomics of B Cell and T Cell Receptors Reveals Lymphocyte Clonal Dynamics</article-title>,” <source>Science</source>
+<volume>382</volume>, no. <issue>6675</issue> (<year>2023</year>): <elocation-id>eadf8486</elocation-id>, <pub-id pub-id-type="doi">10.1126/science.adf8486</pub-id>.<pub-id pub-id-type="pmid">38060664</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="eji70119-cite-0060">
+<string-name name-style="western">
+<given-names>D. I.</given-names>
+<surname>Strokotov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Yurkin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. V.</given-names>
+<surname>Gilev</surname>
+</string-name>, et al., “<article-title>Is There a Difference Between T‐ and B‐lymphocyte Morphology?</article-title>,” <source>Journal of Biomedical Optics</source>
+<volume>14</volume>, no. <issue>6</issue> (<year>2009</year>): <elocation-id>064036</elocation-id>, <pub-id pub-id-type="doi">10.1117/1.3275471</pub-id>.<pub-id pub-id-type="pmid">20059274</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0061"><label>61</label><mixed-citation publication-type="miscellaneous" id="eji70119-cite-0061">
+<string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>McCord</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Kan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hyslop</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. Y.</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Hofferek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. J. S.</given-names>
+<surname>Jr</surname>
+</string-name>, et al. <article-title>Single‐Cell, Spatially‐Resolved TCR Profiling Links T Cell Phenotype and Clonality in Human Tumors</article-title>. bioRxiv. <year>2025</year>, <pub-id pub-id-type="doi">10.1101/2025.08.06.668925</pub-id>.</mixed-citation></ref><ref id="eji70119-bib-0062"><label>62</label><mixed-citation publication-type="miscellaneous" id="eji70119-cite-0062">
+<string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Hsu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Ruiz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hwang</surname>
+</string-name>, et al. <article-title>High‐resolution Spatial Transcriptomic Atlas of Mouse Soleus Muscle: Unveiling Single Cell and Subcellular Heterogeneity in Health and Denervation</article-title>. bioRxivorg. <year>2024</year>, <pub-id pub-id-type="doi">10.1101/2024.02.26.582103</pub-id>.</mixed-citation></ref><ref id="eji70119-bib-0063"><label>63</label><mixed-citation publication-type="miscellaneous" id="eji70119-cite-0063">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Hardowar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Vadakekolathu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rutella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Hulse</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. L.</given-names>
+<surname>Doig</surname>
+</string-name>. <article-title>Spatial Proteomics Reveals Heterogeneity in Neural Markers Underpinning High‐Fat Diet‐Induced Myopathy in Male Mice</article-title>. bioRxiv. <year>2023</year>, <pub-id pub-id-type="doi">10.1101/2023.06.12.544330</pub-id>.</mixed-citation></ref><ref id="eji70119-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="eji70119-cite-0064">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Liang</surname>
+</string-name>, et al., “<article-title>Spatial Metabolomics Reveals Skeletal Myofiber Subtypes</article-title>,” <source>Science Advances</source>
+<volume>9</volume>, no. <issue>5</issue> (<year>2023</year>): <elocation-id>eadd0455</elocation-id>, <pub-id pub-id-type="doi">10.1126/sciadv.add0455</pub-id>.<pub-id pub-id-type="pmid">36735792</pub-id>
+<pub-id pub-id-type="pmcid">PMC10939097</pub-id></mixed-citation></ref><ref id="eji70119-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="eji70119-cite-0065">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Martínez Mir</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Pisterzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>De Poorter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Rilou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>van Kranenburg</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Heijs</surname>
+</string-name>, “<article-title>Spatial Multi‐omics in Whole Skeletal Muscle Reveals Complex Tissue Architecture</article-title>,” <source>Communications Biology</source>
+<volume>7</volume>, no. <issue>1</issue> (<year>2024</year>): <fpage>1272</fpage>, <pub-id pub-id-type="doi">10.1038/s42003-024-06949-1</pub-id>.<pub-id pub-id-type="pmid">39369093</pub-id>
+<pub-id pub-id-type="pmcid">PMC11455876</pub-id></mixed-citation></ref><ref id="eji70119-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="eji70119-cite-0066">
+<string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Olie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>van Zeijl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>El Abdellaoui</surname>
+</string-name>, et al., “<article-title>The Metabolic Landscape in Chronic Rotator Cuff Tear Reveals Tissue‐region‐specific Signatures</article-title>,” <source>J Cachexia Sarcopenia Muscle</source>
+<volume>13</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>532</fpage>–<lpage>543</lpage>, <pub-id pub-id-type="doi">10.1002/jcsm.12873</pub-id>.<pub-id pub-id-type="pmid">34866353</pub-id>
+<pub-id pub-id-type="pmcid">PMC8818701</pub-id></mixed-citation></ref><ref id="eji70119-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="eji70119-cite-0067">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Patsalos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Halasz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Oleksak</surname>
+</string-name>, et al., “<article-title>Spatiotemporal Transcriptomic Mapping of Regenerative Inflammation in Skeletal Muscle Reveals a Dynamic Multilayered Tissue Architecture</article-title>,” <source>Journal of Clinical Investigation</source>
+<volume>134</volume>, no. <issue>20</issue> (<year>2024</year>), <pub-id pub-id-type="doi">10.1172/JCI173858</pub-id>.<pub-id pub-id-type="pmcid">PMC11473166</pub-id><pub-id pub-id-type="pmid">39190487</pub-id></mixed-citation></ref><ref id="eji70119-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="eji70119-cite-0068">
+<string-name name-style="western">
+<given-names>M. R.</given-names>
+<surname>Hicks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. K.</given-names>
+<surname>Saleh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Clock</surname>
+</string-name>, et al., “<article-title>Regenerating human Skeletal Muscle Forms an Emerging Niche in Vivo to Support PAX7 Cells</article-title>,” <source>Nature Cell Biology</source>
+<volume>25</volume>, no. <issue>12</issue> (<year>2023</year>): <fpage>1758</fpage>–<lpage>1773</lpage>, <pub-id pub-id-type="doi">10.1038/s41556-023-01271-0</pub-id>.<pub-id pub-id-type="pmid">37919520</pub-id>
+<pub-id pub-id-type="pmcid">PMC10709143</pub-id></mixed-citation></ref><ref id="eji70119-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="eji70119-cite-0069">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Umek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Meznarič</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ž.</given-names>
+<surname>Šink</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Blagotinšek Cokan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Prosenc Zmrzljak</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Horvat</surname>
+</string-name>, “<article-title>In Situ Spatial Transcriptomic Analysis of human Skeletal Muscle Using the Xenium Platform</article-title>,” <source>Cell and Tissue Research</source>
+<volume>399</volume>, no. <issue>3</issue> (<year>2025</year>): <fpage>291</fpage>–<lpage>302</lpage>, <pub-id pub-id-type="doi">10.1007/s00441-024-03945-z</pub-id>.<pub-id pub-id-type="pmid">39786556</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0070"><label>70</label><mixed-citation publication-type="miscellaneous" id="eji70119-cite-0070">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Khan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lawless</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vincent</surname>
+</string-name>, et al. <article-title>NCL‐SM: A fully annotated dataset of images from human skeletal muscle biopsies</article-title>. arXiv [cs.CV]. <year>2023</year>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://arxiv.org/abs/2311.15113" ext-link-type="uri">http://arxiv.org/abs/2311.15113</ext-link>.</mixed-citation></ref><ref id="eji70119-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="eji70119-cite-0093">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Heezen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Mao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>van Putten</surname>
+</string-name>, et al., “<article-title>15O Spatial Transcriptomics Analysis of Becker and Duchenne Skeletal Muscle to Decipher Histopathological Alterations in Dystrophinopathies</article-title>,” <source>Neuromuscular Disorders</source>
+<volume>43</volume>, no. <issue>104441.403</issue> (<year>2024</year>): 104441.403, <pub-id pub-id-type="doi">10.1016/j.nmd.2024.07.412</pub-id>.</mixed-citation></ref><ref id="eji70119-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="eji70119-cite-0071">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. G.</given-names>
+<surname>Koh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Kim</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Kim</surname>
+</string-name>, “<article-title>An Integrative Single‐cell Atlas for Exploring the Cellular and Temporal Specificity of Genes Related to Neurological Disorders During human Brain Development</article-title>,” <source>Experimental &amp; Molecular Medicine</source>
+<volume>56</volume>, no. <issue>10</issue> (<year>2024</year>): <fpage>2271</fpage>–<lpage>2282</lpage>, <pub-id pub-id-type="doi">10.1038/s12276-024-01328-6</pub-id>.<pub-id pub-id-type="pmid">39363111</pub-id>
+<pub-id pub-id-type="pmcid">PMC11541755</pub-id></mixed-citation></ref><ref id="eji70119-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="eji70119-cite-0072">
+<string-name name-style="western">
+<given-names>C. N.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Shin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. J.</given-names>
+<surname>Nowakowski</surname>
+</string-name>, “<article-title>Spatiotemporal Molecular Dynamics of the Developing Human Thalamus</article-title>,” <source>Science</source>
+<volume>382</volume>, no. <issue>6667</issue> (<year>2023</year>): <elocation-id>eadf9941</elocation-id>, <pub-id pub-id-type="doi">10.1126/science.adf9941</pub-id>.<pub-id pub-id-type="pmid">37824646</pub-id>
+<pub-id pub-id-type="pmcid">PMC10758299</pub-id></mixed-citation></ref><ref id="eji70119-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="eji70119-cite-0073">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Masuda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Sankowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Staszewski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Böttcher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Amann</surname>
+</string-name>, and <string-name name-style="western">
+<surname>Sagar</surname>
+</string-name>, “<article-title>Spatial and Temporal Heterogeneity of Mouse and human Microglia at Single‐cell Resolution</article-title>,” <source>Nature</source>
+<volume>566</volume>, no. <issue>7744</issue> (<year>2019</year>): <fpage>388</fpage>–<lpage>392</lpage>, <pub-id pub-id-type="doi">10.1038/s41586-019-0924-x</pub-id>.<pub-id pub-id-type="pmid">30760929</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="eji70119-cite-0074">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Condylis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ghanbari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Manjrekar</surname>
+</string-name>, et al., “<article-title>Dense Functional and Molecular Readout of a Circuit Hub in Sensory Cortex</article-title>,” <source>Science</source>
+<volume>375</volume>, no. <issue>6576</issue> (<year>2022</year>): <elocation-id>eabl5981</elocation-id>, <pub-id pub-id-type="doi">10.1126/science.abl5981</pub-id>.<pub-id pub-id-type="pmid">34990233</pub-id>
+<pub-id pub-id-type="pmcid">PMC9255671</pub-id></mixed-citation></ref><ref id="eji70119-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="eji70119-cite-0075">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bugeon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Duffield</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dipoppa</surname>
+</string-name>, et al., “<article-title>A Transcriptomic Axis Predicts state Modulation of Cortical Interneurons</article-title>,” <source>Nature</source>
+<volume>607</volume>, no. <issue>7918</issue> (<year>2022</year>): <fpage>330</fpage>–<lpage>338</lpage>, <pub-id pub-id-type="doi">10.1038/s41586-022-04915-7</pub-id>.<pub-id pub-id-type="pmid">35794483</pub-id>
+<pub-id pub-id-type="pmcid">PMC9279161</pub-id></mixed-citation></ref><ref id="eji70119-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="eji70119-cite-0076">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Jiang</surname>
+</string-name>, et al., “<article-title>Spatial Transcriptomics Reveal Neuron‐astrocyte Synergy in Long‐term Memory</article-title>,” <source>Nature</source>
+<volume>627</volume>, no. <issue>8003</issue> (<year>2024</year>): <fpage>374</fpage>–<lpage>381</lpage>, <pub-id pub-id-type="doi">10.1038/s41586-023-07011-6</pub-id>.<pub-id pub-id-type="pmid">38326616</pub-id>
+<pub-id pub-id-type="pmcid">PMC10937396</pub-id></mixed-citation></ref><ref id="eji70119-bib-0078"><label>78</label><mixed-citation publication-type="journal" id="eji70119-cite-0077">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Gregory</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>McDade</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. R.</given-names>
+<surname>Livesey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Croy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Marion de Proce</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Aitman</surname>
+</string-name>, “<article-title>Spatial Transcriptomics Identifies Spatially Dysregulated Expression of GRM3 and USP47 in Amyotrophic Lateral Sclerosis</article-title>,” <source>Neuropathology and Applied Neurobiology</source>
+<volume>46</volume>, no. <issue>5</issue> (<year>2020</year>): <fpage>441</fpage>–<lpage>457</lpage>, <pub-id pub-id-type="doi">10.1111/nan.12597</pub-id>.<pub-id pub-id-type="pmid">31925813</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0079"><label>79</label><mixed-citation publication-type="journal" id="eji70119-cite-0078">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. Y.</given-names>
+<surname>Gao</surname>
+</string-name>, et al., “<article-title>Icaritin Provides Neuroprotection in Parkinson's disease by Attenuating Neuroinflammation, Oxidative Stress, and Energy Deficiency</article-title>,” <source>Antioxidants (Basel)</source>
+<volume>10</volume>, no. <issue>4</issue> (<year>2021</year>): <fpage>529</fpage>, <pub-id pub-id-type="doi">10.3390/antiox10040529</pub-id>.<pub-id pub-id-type="pmid">33805302</pub-id>
+<pub-id pub-id-type="pmcid">PMC8066334</pub-id></mixed-citation></ref><ref id="eji70119-bib-0080"><label>80</label><mixed-citation publication-type="journal" id="eji70119-cite-0079">
+<string-name name-style="western">
+<given-names>T. E.</given-names>
+<surname>Miller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>El Farran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. P.</given-names>
+<surname>Couturier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>D'Antonio</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Verga</surname>
+</string-name>, “<article-title>Programs, Origins and Immunomodulatory Functions of Myeloid Cells in Glioma</article-title>,” <source>Nature</source> (<year>2025</year>), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/40011771" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/40011771</ext-link>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-025-08633-8</pub-id><pub-id pub-id-type="pmcid">PMC12018266</pub-id><pub-id pub-id-type="pmid">40011771</pub-id></mixed-citation></ref><ref id="eji70119-bib-0081"><label>81</label><mixed-citation publication-type="journal" id="eji70119-cite-0080">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Xiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Song</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>He</surname>
+</string-name>, “<article-title>Spatial Transcriptomics Reveals Niche‐specific Enrichment and Vulnerabilities of Radial Glial Stem‐Like Cells in Malignant Gliomas</article-title>,” <source>Nature Communications</source>
+<volume>14</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>1028</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-023-36707-6</pub-id>.<pub-id pub-id-type="pmcid">PMC9950149</pub-id><pub-id pub-id-type="pmid">36823172</pub-id></mixed-citation></ref><ref id="eji70119-bib-0082"><label>82</label><mixed-citation publication-type="journal" id="eji70119-cite-0081">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Duhamel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Drelich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wisztorski</surname>
+</string-name>, et al., “<article-title>Spatial Analysis of the Glioblastoma Proteome Reveals Specific Molecular Signatures and Markers of Survival</article-title>,” <source>Nature Communications</source>
+<volume>13</volume>, no. <issue>1</issue> (<year>2022</year>): <fpage>6665</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-022-34208-6</pub-id>.<pub-id pub-id-type="pmcid">PMC9636229</pub-id><pub-id pub-id-type="pmid">36333286</pub-id></mixed-citation></ref><ref id="eji70119-bib-0083"><label>83</label><mixed-citation publication-type="miscellaneous" id="eji70119-cite-0082">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Najem</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pacheco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Turunen</surname>
+</string-name>, et al. <article-title>High Dimensional Proteomic Multiplex Imaging of the Central Nervous System Using the COMET<sup>TM</sup> System</article-title>. bioRxivorg. <year>2025</year>, <pub-id pub-id-type="doi">10.1101/2025.02.14.638299</pub-id>.</mixed-citation></ref><ref id="eji70119-bib-0084"><label>84</label><mixed-citation publication-type="journal" id="eji70119-cite-0083">
+<string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Gadani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kim</surname>
+</string-name>, et al., “<article-title>Spatial Transcriptomics of Meningeal Inflammation Reveals Inflammatory Gene Signatures in Adjacent Brain Parenchyma</article-title>,” <source>Elife</source>
+<volume>12</volume> (<year>2024</year>), <pub-id pub-id-type="doi">10.7554/eLife.88414</pub-id>.<pub-id pub-id-type="pmcid">PMC11524578</pub-id><pub-id pub-id-type="pmid">39475792</pub-id></mixed-citation></ref><ref id="eji70119-bib-0085"><label>85</label><mixed-citation publication-type="journal" id="eji70119-cite-0084">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Klotz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Smolders</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lehto</surname>
+</string-name>, et al., “<article-title>Broad Rim Lesions Are a New Pathological and Imaging Biomarker for Rapid Disease Progression in Multiple Sclerosis</article-title>,” <source>Nature Medicine</source> (<year>2025</year>): <fpage>1</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-025-03625-7</pub-id><pub-id pub-id-type="pmcid">PMC12176629</pub-id><pub-id pub-id-type="pmid">40301560</pub-id></mixed-citation></ref><ref id="eji70119-bib-0086"><label>86</label><mixed-citation publication-type="journal" id="eji70119-cite-0085">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Bonev</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Castelo‐Branco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Chen</surname>
+</string-name>, et al., “<article-title>Opportunities and Challenges of Single‐Cell and Spatially Resolved Genomics Methods for Neuroscience Discovery</article-title>,” <source>Nature Neuroscience</source>
+<volume>27</volume>, no. <issue>12</issue> (<year>2024</year>): <fpage>2292</fpage>–<lpage>2309</lpage>, <pub-id pub-id-type="doi">10.1038/s41593-024-01806-0</pub-id>.<pub-id pub-id-type="pmid">39627587</pub-id>
+<pub-id pub-id-type="pmcid">PMC11999325</pub-id></mixed-citation></ref><ref id="eji70119-bib-0087"><label>87</label><mixed-citation publication-type="journal" id="eji70119-cite-0086">
+<string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>Walter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Orton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Ntekas</surname>
+</string-name>, et al., “<article-title>Transcriptomic Analysis of Skeletal Muscle Regeneration Across Mouse Lifespan Identifies Altered Stem Cell States</article-title>,” <source>Nature Aging</source>
+<volume>4</volume>, no. <issue>12</issue> (<year>2024</year>): <fpage>1862</fpage>–<lpage>1881</lpage>, <pub-id pub-id-type="doi">10.1038/s43587-024-00756-3</pub-id>.<pub-id pub-id-type="pmid">39578558</pub-id>
+<pub-id pub-id-type="pmcid">PMC11645289</pub-id></mixed-citation></ref><ref id="eji70119-bib-0088"><label>88</label><mixed-citation publication-type="journal" id="eji70119-cite-0087">
+<string-name name-style="western">
+<given-names>V. M.</given-names>
+<surname>Ravi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Will</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kueckelhaus</surname>
+</string-name>, et al., “<article-title>Spatially Resolved Multi‐Omics Deciphers Bidirectional Tumor‐Host Interdependence in Glioblastoma</article-title>,” <source>Cancer Cell</source>
+<volume>40</volume>, no. <issue>6</issue> (<year>2022</year>): <fpage>639</fpage>–<lpage>655</lpage>, <pub-id pub-id-type="doi">10.1016/j.ccell.2022.05.009</pub-id>.<pub-id pub-id-type="pmid">35700707</pub-id>
+</mixed-citation></ref><ref id="eji70119-bib-0089"><label>89</label><mixed-citation publication-type="journal" id="eji70119-cite-0088">
+<string-name name-style="western">
+<given-names>V. M.</given-names>
+<surname>Ravi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Neidert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Will</surname>
+</string-name>, et al., “<article-title>T‐cell Dysfunction in the Glioblastoma Microenvironment Is Mediated by Myeloid Cells Releasing Interleukin‐10</article-title>,” <source>Nature Communications</source>
+<volume>13</volume>, no. <issue>1</issue> (<year>2022</year>), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.nature.com/articles/s41467-022-28523-1.pdf" ext-link-type="uri">https://www.nature.com/articles/s41467‐022‐28523‐1.pdf</ext-link>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-022-28523-1</pub-id><pub-id pub-id-type="pmcid">PMC8854421</pub-id><pub-id pub-id-type="pmid">35177622</pub-id></mixed-citation></ref><ref id="eji70119-bib-0090"><label>90</label><mixed-citation publication-type="journal" id="eji70119-cite-0089">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Kats</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Simovic‐Lorenz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. S.</given-names>
+<surname>Schreiber</surname>
+</string-name>, et al., “<article-title>Spatio‐Temporal Transcriptomics of Chromothriptic SHH‐Medulloblastoma Identifies Multiple Genetic Clones that Resist Treatment and Drive Relapse</article-title>,” <source>Nature Communications</source>
+<volume>15</volume>, no. <issue>1</issue> (<year>2024</year>): <elocation-id>10370</elocation-id>, <pub-id pub-id-type="doi">10.1038/s41467-024-54709-w</pub-id>.<pub-id pub-id-type="pmcid">PMC11604656</pub-id><pub-id pub-id-type="pmid">39609432</pub-id></mixed-citation></ref><ref id="eji70119-bib-0091"><label>91</label><mixed-citation publication-type="journal" id="eji70119-cite-0090">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Shin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kim</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kim</surname>
+</string-name>, “<article-title>Spatial Omics in Clinical Research: A Comprehensive Review of Technologies and Guidelines for Applications</article-title>,” <source>International Journal of Molecular Sciences</source>
+<volume>26</volume>, no. <issue>9</issue> (<year>2025</year>): <fpage>3949</fpage>, <pub-id pub-id-type="doi">10.3390/ijms26093949</pub-id>.<pub-id pub-id-type="pmid">40362187</pub-id>
+<pub-id pub-id-type="pmcid">PMC12071594</pub-id></mixed-citation></ref><ref id="eji70119-bib-0092"><label>92</label><mixed-citation publication-type="journal" id="eji70119-cite-0091">
+<string-name name-style="western">
+<given-names>T. M.</given-names>
+<surname>Abraham</surname>
+</string-name> and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Levenson</surname>
+</string-name>, “<article-title>Current Landscape of Advanced Imaging Tools for Pathology Diagnostics</article-title>,” <source>Modern Pathology</source>
+<volume>37</volume>, no. <issue>4</issue> (<year>2024</year>): <elocation-id>100443</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.modpat.2024.100443</pub-id>.<pub-id pub-id-type="pmid">38311312</pub-id>
+<pub-id pub-id-type="pmcid">PMC12054849</pub-id></mixed-citation></ref><ref id="eji70119-bib-0093"><label>93</label><mixed-citation publication-type="journal" id="eji70119-cite-0092">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Pati</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Karkampouna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Bonollo</surname>
+</string-name>, et al., “<article-title>Accelerating Histopathology Workflows With Generative AI‐Based Virtually Multiplexed Tumour Profiling</article-title>,” <source>Nature Machine Intelligence</source>
+<volume>6</volume>, no. <issue>9</issue> (<year>2024</year>): <fpage>1077</fpage>–<lpage>1093</lpage>, <pub-id pub-id-type="doi">10.1038/s42256-024-00889-5</pub-id>.<pub-id pub-id-type="pmcid">PMC11415301</pub-id><pub-id pub-id-type="pmid">39309216</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

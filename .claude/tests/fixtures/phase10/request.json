@@ -1,0 +1,7 @@
+{
+  "request_id": "test_csf_dnam",
+  "filter_for_discover": {
+    "indications": ["Alzheimer", "ALS"],
+    "modalities": ["DNA methylation"]
+  }
+}

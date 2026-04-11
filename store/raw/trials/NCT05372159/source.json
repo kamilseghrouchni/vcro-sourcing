@@ -1,0 +1,388 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05372159",
+      "orgStudyIdInfo": {
+        "id": "120158"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "K23AG045966",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/K23AG045966"
+        },
+        {
+          "id": "R01AG034962",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01AG034962"
+        },
+        {
+          "id": "F32AG046093",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/F32AG046093"
+        },
+        {
+          "id": "K24AG046373",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/K24AG046373"
+        },
+        {
+          "id": "R01NS100980",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01NS100980"
+        },
+        {
+          "id": "R01AG056534",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01AG056534"
+        },
+        {
+          "id": "F32AG058395",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/F32AG058395"
+        },
+        {
+          "id": "F31AG066358",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/F31AG066358"
+        },
+        {
+          "id": "IIRG-08-8873",
+          "type": "OTHER_GRANT",
+          "domain": "Alzheimer's Association"
+        }
+      ],
+      "organization": {
+        "fullName": "Vanderbilt University Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Vanderbilt Memory and Aging Project",
+      "officialTitle": "Vanderbilt Memory and Aging Project",
+      "acronym": "VMAP"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-09-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-01-27",
+      "studyFirstSubmitQcDate": "2022-05-11",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Angela Jefferson",
+        "investigatorTitle": "Professor of Neurology",
+        "investigatorAffiliation": "Vanderbilt University Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Vanderbilt University Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Aging (NIA)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Institute of Neurological Disorders and Stroke (NINDS)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will use an observational cohort to cross-sectionally and longitudinally relate vascular health to clinical, imaging, and biological markers of early Alzheimer's disease and cerebrovascular disease among aging adults. Adjusting for relevant clinical covariates, we will test the hypothesis that vascular health is associated with clinical, brain magnetic resonance imaging (MRI), neuropsychological, and cerebrospinal fluid markers of early cerebrovascular and Alzheimer's disease changes (i.e., prior to the onset of significant cognitive decline or dementia). Secondarily, we will examine medical and genetic factors that might mediate associations between vascular health and brain aging, such as inflammatory processes, insulin resistance, and genetic factors (e.g., APOE, a susceptibility risk factor for dementia). Findings will advance knowledge regarding the role that vascular health plays in brain aging.",
+      "detailedDescription": "As the population ages, Alzheimer's disease and dementia are becoming a public health crisis. In the initial cycle, the Vanderbilt Memory \\& Aging Project was established to examine cardiovascular function in relation to structural neuroimaging changes and cognition. The investigators tested whether associations were more prominent in clinically symptomatic individuals. The investigators successfully enrolled several hundred participants age 60 and older, data successfully supported multiple training grant opportunities (e.g., National Research Service Awards, Career Development Awards), and the investigators published numerous papers. The results suggest subclinical cardiovascular changes relate to worse cognition, white matter changes, and cerebral atrophy, especially in the hippocampus and other cortical regions primarily affected in Alzheimer's disease. Evidence to date supports the central hypothesis that well-established homeostatic mechanisms designed to protect cerebral blood supply become less effective with age, altering the integrity of cerebral hemodynamics, and lowering the threshold for neurodegenerative and cognitive changes. Interestingly, preliminary associations between subclinical cardiovascular integrity and cerebral hemodynamics are stronger among carriers of the apolipoprotein E ε4 (APOE-ε4) allele, an Alzheimer's disease genetic risk factor. Furthermore, findings are more prominent in cognitively unimpaired participants, suggesting subtle cardiac hemodynamic changes may act as an underrecognized precipitating contributor of neurodegeneration and corresponding cognitive decline, distinct from the exacerbating effects of overt cerebrovascular disease. In the next cycle, the investigators propose to better characterize underlying mechanisms linking early cardiac hemodynamic changes to abnormal brain aging in cognitively unimpaired participants, and test whether APOE-ε4 moderates the effect of vascular damage on brain health. The investigators will follow the existing cohort and supplement it with enrollment of several hundred cognitively unimpaired participants to increase statistical power for more comprehensive analyses. The new participants will complete serial longitudinal assessments with identical procedures plus lumbar puncture for cerebrospinal fluid acquisition. Innovative translational efforts leveraging sophisticated neuroimaging and molecular biomarkers are critical to better detect early, asymptomatic cardiac hemodynamic changes, which may be more influential in initiating downstream cerebrovascular and neurodegenerative processes than previously recognized."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Aging",
+        "Aged, 80 and Over",
+        "Biomarkers",
+        "Brain",
+        "Case-Control Studies",
+        "Cognitive Dysfunction",
+        "Neuropsychological Tests"
+      ],
+      "keywords": [
+        "Alzheimer's disease",
+        "biomarkers",
+        "brain MRI",
+        "cardiac MRI",
+        "mild cognitive impairment",
+        "vascular risk factors",
+        "longitudinal studies"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Cerebral spinal fluid, plasma, serum, PAXGene, blood clot."
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cognitively healthy adults",
+          "description": "Eligible participants completed a 4-hour screening visit, and a consensus team determined cognitive status according to the National Institute on Aging and Alzheimer's Association Workgroup guidelines.",
+          "interventionNames": [
+            "Other: none, observational study"
+          ]
+        },
+        {
+          "label": "Cognitively impaired adults",
+          "description": "Eligible participants completed a 4-hour screening visit, and a consensus team determined cognitive status according to the National Institute on Aging and Alzheimer's Association Workgroup guidelines.",
+          "interventionNames": [
+            "Other: none, observational study"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "none, observational study",
+          "description": "none, observational study",
+          "armGroupLabels": [
+            "Cognitively healthy adults",
+            "Cognitively impaired adults"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "White matter hyperintensities Volume",
+          "description": "White matter lesion volume measured by FLAIR imaging modality",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Grey Matter Volume",
+          "description": "Grey matter volume measured by T1 imaging modality",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Cerebral Blood Flow",
+          "description": "Resting cerebral blood flow to brain regions measured by T3 perfusion",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Lacunar infarcts",
+          "description": "Number of lacunar infarcts measured by MRI",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Small vessel microbleeds",
+          "description": "Presence and number of microbleeds measured by MRI",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Left ventricular ejection fraction",
+          "description": "Left ventricular ejection fraction measured by echocardiogram",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Cardiac output",
+          "description": "Amount of blood the heart pumps from each ventricle per minute, litres per minute (L/min). Measured by echocardiogram",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Cardiac stroke volume",
+          "description": "Stroke volume measured by echocardiogram",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Pulse Wave velocity",
+          "description": "pulse wave velocity measured by cardiac MRI",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Cardiac Strain",
+          "description": "Global longitudinal strain and global circumferential strain measured by cardiac MRI",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Biological marker for Alzheimer's disease",
+          "description": "Tau, amyloid, neurodegenerative levels measured in cerebrospinal fluid samples",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "Blood based biological marker for Alzheimer's disease",
+          "description": "Tau, amyloid, neurodegenerative levels measured in blood samples",
+          "timeFrame": "baseline to year five"
+        },
+        {
+          "measure": "APOE Genotype",
+          "description": "APOE e4 allele status",
+          "timeFrame": "baseline to year five"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants recruited will include 1,000 adults age 50 and older.\n* After the eligibility visit, a small portion of participants (\\~150) enrolling must meet diagnostic criteria for mild cognitive impairment according to a clinician diagnosis and/or medical records (i.e., participants must have mild memory or cognitive problems, but they must be free of any functional problems and not have Alzheimer's disease or another form of dementia). The remaining \\~850 participants will be cognitively unimpaired adults age 50 and older.\n* Because the neuropsychological tests used to measure cognitive performance are validated on English-speaking populations, we require that English be the primary language of all participants.\n\nExclusion Criteria:\n\n* No available reliable study partner\n* History of major psychiatric illness (e.g., schizophrenia, bipolar), neurological illness (e.g., stroke, epilepsy, multiple sclerosis, Parkinson's disease, dementia), or head injury with significant loss of consciousness. These exclusion criteria have been applied because they affect brain structure and function.\n* Diagnosis of congestive heart failure\n* Diagnosis of atrial fibrillation or other heart arrhythmia\n* Diagnosis of Chronic obstructive pulmonary disease\n* Diagnosis of cancer (current)\n* History of serious alcohol or drug abuse (past or current)\n* Participants unable to undergo MRI will be excluded. Reasons may include: a. Subjects who have any type of bioimplant activated by mechanical, electronic, or magnetic means (e.g., cochlear implants, pacemakers, neurostimulators, biostimulators, electronic infusion pumps, etc.). b. Subjects who have any type of ferromagnetic bioimplant that could potentially be displaced. c. Subjects who have cerebral aneurysm clips. d. Subjects who may have shrapnel imbedded in their bodies (e.g., from war wounds), metal workers and machinists (e.g., potential for metallic fragments in or near the eyes). e. Subjects who are pregnant. Given that the minimum age of recruitment for the current study is 50 years of age, it is unlikely that prospective participants will be excluded because of pregnancy. f. Subjects who have excessive amounts of metal dental work based on records released by their dentist.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Community-dwelling older adults.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Mallory Rockwell",
+          "role": "CONTACT",
+          "phone": "6153228676",
+          "email": "mallory.rockwell@vumc.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Angela Jefferson, PhD",
+          "affiliation": "Vanderbilt University Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Vanderbilt University Medical Center",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Paige Crepezzi",
+              "role": "CONTACT",
+              "phone": "615-322-8676"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019370",
+          "term": "Observation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008722",
+          "term": "Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

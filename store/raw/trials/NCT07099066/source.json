@@ -1,0 +1,236 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07099066",
+      "orgStudyIdInfo": {
+        "id": "2025-A00776-43"
+      },
+      "organization": {
+        "fullName": "Human Cell Design",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Generation of Cell Banks and Biomarker Isolation From Patients With Amyotrophic Lateral Sclerosis (ALS) (HCD-SLA)",
+      "officialTitle": "Generation of Skin Fibroblast Banks, Urine-derived Cells and Biomarker Isolation From Patients With Amyotrophic Lateral Sclerosis (Als)",
+      "acronym": "HCD-SLA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-07-18",
+      "studyFirstSubmitQcDate": "2025-07-25",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Human Cell Design",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this research is to establish different cell banks from patients with amyotrophic lateral sclerosis (ALS).",
+      "detailedDescription": "The objective of this research is to:\n\n* Create banks of skin fibroblasts from skin biopsy samples\n* Create banks of urine-derived cells (UDCs) from urine samples\n* Build a collection of blood samples to enable isolation of biomarkers."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "keywords": [
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Blood samples."
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ALS patients",
+          "interventionNames": [
+            "Other: sampling blood"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "sampling blood",
+          "description": "3 types of sampling : urine, skin and blood.",
+          "armGroupLabels": [
+            "ALS patients"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cell banking",
+          "description": "Number of cell batches cryopreserved that meet predefined quality criteria (cell viability ≥ 80%, absence of mycoplasma). Data will be summarized as percentage of compliant batches over total batches produced.",
+          "timeFrame": "8 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects over 18 years old;\n* Subjects who have given their consent and signed an informed, free and express consent form;\n* Subjects with diagnosed ALS;\n* Subjects affiliated to or benefiting from a social security scheme.\n\nExclusion Criteria:\n\n* Subjects with contraindications to the collection of biological samples (blood, skin, urine).\n* Subjects undergoing treatment likely to affect hemostasis (anticoagulants, platelet anti-aggregants, etc.) in the month prior to inclusion and during the study;\n* Subjects with hereditary or acquired haemostasis disorders;\n* Subjects who have undergone physical treatment (radiotherapy, etc.) on the area to be biopsied in the last 6 months;\n* Lidocaine-intolerant subjects;\n* Subjects who have reached the age of majority and are subject to a protective measure or are unable to express their consent.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "ALS patients who are part of a cohort from the ALS Center of Toulouse University Hospital and are treated at that hospital.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017218",
+          "term": "Cordocentesis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001800",
+          "term": "Blood Specimen Collection"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D019152",
+          "term": "Paracentesis"
+        },
+        {
+          "id": "D011677",
+          "term": "Punctures"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT05116943",
+  "title": "Biospecimen Biorepository for the Study of ALS, ALS-FTD and Similar Neurodegenerative Disorders",
+  "brief_title": "Biospecimen Biorepository for the Study of ALS, ALS-FTD and Similar Neurodegenerative Disorders",
+  "status": "RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 100,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+  ],
+  "keywords": [],
+  "sponsor": "Mayo Clinic",
+  "sponsor_class": "OTHER",
+  "collaborators": [
+    "National Institute of Neurological Disorders and Stroke (NINDS)"
+  ],
+  "lead_pi": {
+    "name": "Bjorn Oskarsson, MD",
+    "affiliation": "Mayo Clinic"
+  },
+  "start_date": "2013-08-19",
+  "completion_date": "2030-01",
+  "primary_completion_date": "2030-01",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "NO",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Mayo Clinic in Florida",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 1,
+  "eligibility_criteria": "Inclusion Criteria - Patient with ALS, ALS-FTD or Similar Neurodegenerative Disease:\n\n* Clinical diagnosis of possible, laboratory-supported probable, probable or definite ALS according to modified eL Escorial criteria, suspected ALS according to original el Escorial criteria, or diagnosis of a similar neurodegenerative disorder.\n* Willing to provide consent, or assent, if physically unable to consent owing to disease-related muscle weakness.\n\nInclusion Criteria - Spouse/Domestic Partner of Patients with ALS/ALS-FTD and Similar Neurodegenerative Disorder or Subject with Family History of ALS, ALS-FTD or Similar Neurodegenerative Disease:\n\n* No personal history of ALS, ALS-FTD or other motor neuron disease.\n* Subjects with family history of ALS, ALS-FTD the affected family member needs to be a first, second, or third degree blood relative.\n* Willing to provide consent.\n\nExclusion Criteria - Subject with ALS/ALS-FTD or Similar Neurodegenerative Disease:\n\n* History of medical disorder that leaves in question whether neurological signs and symptoms potentially related to a neurodegenerative disease may be caused by another unrelated disorder.\n* Limited mental capacity rendering the subject unable to comply with lumbar puncture or standard phlebotomy procedures.\n* For lumbar puncture, an increased risk of bleeding complications or allergy to local anesthetic administered or skin antiseptic used for lumbar puncture.\n\nExclusion Criteria - Spouse/Domestic Partner of Patients with ALS/ALS-FTD and Similar Neurodegenerative Disorder or Subject with Family History of ALS, ALS-FTD or Similar Neurodegenerative Disease:\n\n* Limited mental capacity rendering the subject unable to comply with lumbar puncture or standard phlebotomy procedures.\n* For lumbar puncture, an increased risk of bleeding complications or allergy to local anesthetic administered or skin antiseptic used for lumbar puncture.",
+  "eligibility_min_age": "18 Years",
+  "eligibility_max_age": "",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": true,
+  "primary_outcomes": [
+    {
+      "measure": "Blood serum collection",
+      "description": "Total number of blood serum samples collected",
+      "timeFrame": "10 years"
+    },
+    {
+      "measure": "Blood plasma collection",
+      "description": "Total number of blood plasma samples collected",
+      "timeFrame": "10 years"
+    },
+    {
+      "measure": "Cerebrospinal fluid collection",
+      "description": "Total number of cerebrospinal fluid samples collected",
+      "timeFrame": "10 years"
+    }
+  ],
+  "secondary_outcomes": [],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "The purpose of this study is to collect CSF and blood samples that can be used in future research studies to identify potential biomarkers in blood and cerebrospinal fluid (CSF) collected in Amyotrophic Lateral Sclerosis (ALS) patients.",
+  "detailed_description": "Biomarkers are non-genetic elements in your blood and CSF that may help diagnose and monitor ALS more easily. There are no readily available sources of longitudinal CSF, plasma or serum samples from people with ALS, ALS-FTD or similar neurodegenerative disorders or their family members for use in the identification of potential ALS biomarkers. Future research will examine potential biomarkers in blood and CSF collected over time to see if they change over time and can be used to diagnose and monitor people with ALS.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:56.706961+00:00"
+}

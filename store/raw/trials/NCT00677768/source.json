@@ -1,0 +1,629 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00677768",
+      "orgStudyIdInfo": {
+        "id": "BIO_ALS-01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "5RC1NS068179-02",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/5RC1NS068179-02"
+        }
+      ],
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Validation of Biomarkers in Amyotrophic Lateral Sclerosis (ALS)",
+      "officialTitle": "A Multicenter Study for the Validation of ALS Biomarkers",
+      "acronym": "BIO_ALS-01"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-05-09",
+      "studyFirstSubmitQcDate": "2008-05-13",
+      "studyFirstPostDateStruct": {
+        "date": "2008-05-14",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-06-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-06-03",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "James D. Berry MD",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Massachusetts General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "ALS Association",
+          "class": "OTHER"
+        },
+        {
+          "name": "ALS Therapy Alliance",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institutes of Health (NIH)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Institute of Neurological Disorders and Stroke (NINDS)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to collect 650 blood and 300 cerebrospinal fluid (CSF) samples from people with amyotrophic lateral sclerosis (ALS), pure lower or upper motor neuron diseases, as well as other neurodegenerative diseases and from people with no neurological disorder. Through comparison of these samples, the researchers hope to learn more about the underlying cause of ALS, as well as find unique biological markers, which could be used to diagnose ALS and monitor disease progression.\n\nAdditionally, up to 600 blood samples will be collected for a sub-study for DNA analysis. Studying components of the blood, such as DNA, may help us understand what happens when genes function abnormally and how it might be related to disease.",
+      "detailedDescription": "Researchers tested what changes happen in volunteers with ALS that can be seen in the blood and what changes are unique to ALS and are different from those found in healthy volunteers and volunteers with neurological diseases other than ALS. These changes are called biomarkers. Biomarkers for ALS have been found in blood collected in earlier phases of this study. Biomarkers are non-genetic elements in your blood that may help to make diagnosing ALS easier. In the next phase, comparison of these changes in the blood of volunteers with ALS and without ALS will be used to confirm these biomarkers and to develop a tool to diagnose and monitor progression of ALS."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis",
+        "Lou Gehrig's Disease",
+        "Primary Lateral Sclerosis",
+        "Nervous System Diseases",
+        "Hereditary Spastic Paraparesis"
+      ],
+      "keywords": [
+        "Biomarkers",
+        "Plasma",
+        "Cerebrospinal Fluid",
+        "DNA",
+        "Serum"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "650 blood samples (plasma and serum)will be collected from four groups: ALS volunteers diagnosed with ALS, volunteers with pure lower or pure upper motor neuron diseases, volunteers with other neurological diseases and healthy control volunteers.\n\n300 cerebrospinal fluid (CSF) samples will be collected from all four groups: ALS volunteers diagnosed with ALS, volunteers with pure lower or pure upper motor neuron diseases, volunteers with other neurological diseases and healthy control volunteers.\n\nUp to 600 DNA samples will also be collected from all 4 groups: ALS volunteers diagnosed with ALS, volunteers with pure lower or pure upper motor neuron diseases, volunteers with other neurological diseases and healthy control volunteers."
+      },
+      "enrollmentInfo": {
+        "count": 475,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Early ALS",
+          "interventionNames": [
+            "Other: No intervention"
+          ]
+        },
+        {
+          "label": "Suspected ALS",
+          "interventionNames": [
+            "Other: No intervention"
+          ]
+        },
+        {
+          "label": "Disease Mimics of ALS",
+          "interventionNames": [
+            "Other: No intervention"
+          ]
+        },
+        {
+          "label": "Healthy Controls",
+          "interventionNames": [
+            "Other: No intervention"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "No intervention",
+          "description": "Sample collection",
+          "armGroupLabels": [
+            "Disease Mimics of ALS",
+            "Early ALS",
+            "Healthy Controls",
+            "Suspected ALS"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "ALS Functional Rating Scale (ALSFRS-R)",
+          "description": "The ALSFRS-R is a quickly administered (5 min) ordinal rating scale used to determine a subject's assessment of their capability and independence in 12 functional activities. There are 12 questions, graded by the subject 0-4 (4 is normal). Score of 0 (worst) to 48 (best). Reflects speech and swallowing, fine motor skills, large motor skills, and breathing.",
+          "timeFrame": "Every 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "1. ALS Volunteers\n\n   Inclusion Criteria:\n   * Diagnosis of possible (excluding volunteers with UMN signs ONLY), probable, probable-laboratory supported, or definite ALS, either sporadic or familial according to revised El Escorial criteria\n   * Disease duration of less than or equal to two years from symptom onset\n   * Age 30-80 years at the time of disease onset\n   * Ability to provide informed consent\n   * Ability to comply with study procedures\n   * Medically safe to have lumbar puncture (lumbar puncture volunteers only)\n\n   Exclusion Criteria:\n   * Clinical evidence of chronic liver or renal failure\n   * Presence of a bleeding disorder, problems with CSF pressure, allergy to local anesthetics, or a topical or other skin infection at the LP site (lumbar puncture volunteers only)\n   * Use of any anti-platelet or anticoagulant drugs, such as plavix, aggrenox, ticlid, warfarin or coumadin (lumbar puncture volunteers only)\n2. Suspected ALS (PMND) Volunteers\n\n   Inclusion Criteria:\n   * Diagnosis of suspected ALS defined as presence of UMN or LMN signs alone and the diagnosis of Clinically Probably Laboratory-Supported ALS CANNOT be proven by evidence in clinical grounds in conjunction with electrodiagnostic, neurophysiologic, neuroimaging or clinically laboratory studies\n   * Disease duration of less than or equal to four years from symptom onset\n   * Age 30-80 years at time of disease onset\n   * Ability to provide informed consent\n   * Ability to comply with study procedures\n   * Medically safe to have lumbar puncture (lumbar puncture volunteers only)\n\n   Exclusion Criteria:\n   * Clinical evidence of chronic liver or renal failure\n   * Genetically confirmed diagnosis of hereditary spastic paraparesis or spinal motor atrophy (SMA) disease\n   * Presence of a bleeding disorder, problems with CSF pressure, allergy to local anesthetics, or a topical or other skin infection at the LP site (lumbar puncture volunteers only)\n   * Use of any anti-platelet or anticoagulant drugs, such as plavix, aggrenox, ticlid, warfarin or coumadin (lumbar puncture volunteers only)\n3. Neurological Disease Mimic Volunteers\n\n   Inclusion Criteria:\n\n   Diagnosis of one of the following:\n\n   Pure Lower Motor Neuron Disease (LMND) mimics:\n   * Multi-focal motor neuropathy\n   * Autoimmune motor neuropathy\n   * Cervical or lumbosacral radiculopathies\n\n   Peripheral mononeuropathies:\n   * Ulnar neuropathy\n   * Carpal tunnel syndrome/median neuropathy\n   * Peroneal neuropathy\n   * Sciatic neuropathy\n   * Spinal muscular atrophy\n   * Spinobulbar muscular atrophy (Kennedy's disease)\n   * Charcot Marie-Tooth Disease (CMT)\n\n   Pure Upper Motor Neuron Disease (UMND) mimics:\n   * Cervical myelopathy\n   * Multiple sclerosis\n   * Hereditary spastic paraparesis\n   * Age 30-80 years\n   * Ability to provide informed consent\n   * Ability to comply with study procedures\n   * Medically safe to have lumbar puncture (lumbar puncture volunteers only)\n\n   Exclusion Criteria:\n   * Diagnosis of suspected, possible, probable or definite ALS either sporadic or familial\n   * Presence of positive family history of ALS\n   * Clinical evidence of chronic renal or liver failure\n   * Presence of a bleeding disorder, problems with CSF pressure, allergy to local anesthetics, or a topical or other skin infection at the LP site (lumbar puncture volunteers only)\n   * Use of any anti-platelet or anticoagulant drugs, such as plavix, aggrenox, ticlid, warfarin or coumadin (lumbar puncture volunteers only)\n4. Healthy Control Volunteers Inclusion Criteria\n\n   * Absence of a known neurological disorder.\n   * Age 30 - 80 years.\n   * Ability to provide informed consent.\n   * Ability to comply with study procedures.\n   * Medically safe to have lumbar puncture.\n\nExclusion Criteria:\n\n* History of ALS, myopathy, neuropathy, ALS mimic disorder or other neurodegenerative disease.\n* Presence of positive family history of ALS.\n* Clinical evidence of chronic liver or renal failure.\n* Presence of bleeding disorder, problems with CSF pressure, allergy to local anesthetics, or a topical or other skin infection at the LP site (LP research volunteers only).\n* Research participant must not be taking anti-platelet or anticoagulant drugs, such as plavix, aggrenox, ticlid, warfarin or coumadin (LP research volunteers only).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Volunteers will be invited to participate in this study by their neurologists either in clinic or at a regular scheduled appointment visit.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "James D. Berry, MD, MPH",
+          "affiliation": "Massachusetts General Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Phoenix Neurological Associates, Ltd.",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85018",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "University of California Irvine",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "Mayo Clinic Neurology",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "University of Miami",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Emory University",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "University of Chicago",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Johns Hopkins University",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02129",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Lahey Clinic",
+          "city": "Burlington",
+          "state": "Massachusetts",
+          "zip": "01805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.50482,
+            "lon": -71.19561
+          }
+        },
+        {
+          "facility": "Saint Mary's Healthcare",
+          "city": "Grand Rapids",
+          "state": "Michigan",
+          "zip": "49503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          }
+        },
+        {
+          "facility": "Hennepin County Medical Center",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Saint Louis University",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Washington University",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Dartmouth Hitchcock Medical Center",
+          "city": "Lebanon",
+          "state": "New Hampshire",
+          "zip": "03756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.64229,
+            "lon": -72.25176
+          }
+        },
+        {
+          "facility": "Robert Wood Johnson/UMDNJ",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "Upstate Clinical Research, LLC",
+          "city": "Albany",
+          "state": "New York",
+          "zip": "12205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.65258,
+            "lon": -73.75623
+          }
+        },
+        {
+          "facility": "Beth Israel Medical Center, PACC",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10003",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "SUNY Upstate Medical University",
+          "city": "Syracuse",
+          "state": "New York",
+          "zip": "13210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.04812,
+            "lon": -76.14742
+          }
+        },
+        {
+          "facility": "Carolinas Health Care",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Duke University Medical Center",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Wake Forest University",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "OSU Medical Center",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Providence ALS Clinic",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Oregon Health & Science University",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97233",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Pennsylvania State University",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Drexel University College of Medicine",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "University of Pittsburgh",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Methodist Neurological Institute",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Utah",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84132",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Montreal Neurological Institute",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3A 2B4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "ALS Association Website",
+          "url": "http://www.alsa.org"
+        },
+        {
+          "label": "NEALS ALS Consortium",
+          "url": "http://www.alsconsortium.org/"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D015419",
+          "term": "Spastic Paraplegia, Hereditary"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D015417",
+          "term": "Hereditary Sensory and Motor Neuropathy"
+        },
+        {
+          "id": "D009421",
+          "term": "Nervous System Malformations"
+        },
+        {
+          "id": "D020271",
+          "term": "Heredodegenerative Disorders, Nervous System"
+        },
+        {
+          "id": "D011115",
+          "term": "Polyneuropathies"
+        },
+        {
+          "id": "D010523",
+          "term": "Peripheral Nervous System Diseases"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

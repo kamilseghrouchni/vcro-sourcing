@@ -1,0 +1,271 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07369076",
+      "orgStudyIdInfo": {
+        "id": "NB-4746-201"
+      },
+      "organization": {
+        "fullName": "Nura Bio",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Clinical Trial to Evaluate NB-4746 in Participants With Amyotrophic Lateral Sclerosis.",
+      "officialTitle": "A Phase 1b/2 Study to Evaluate NB-4746 in Participants With Amyotrophic Lateral Sclerosis."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-21",
+      "studyFirstSubmitQcDate": "2026-01-23",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Nura Bio",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this trial is to learn about the effects of NB-4746 compared with placebo in people with amyotrophic lateral sclerosis.\n\nThe questions this trial aims to answer in comparing NB-4746 to placebo are:\n\n* What adverse events associated with taking NB-4746 are reported during this trial? (An adverse event is any sign or symptom that participants have during a trial. Adverse events may or may not be caused by treatments in the trial.)\n* How does NB-4746 move into, through, and out of the body of the participants?\n* What is the change in the level of neurofilament light (NfL) in the participants' blood? (NfL is a marker used to measure the extent of damage to the nerve cells.)\n\nThis trial has 2 parts. The trial doctors will start Part A before starting Part B of the trial. Participants have an option to enter the open label extension after completing Part A or Part B.\n\nPart A: Participants will be randomly placed into 1 of the 3 groups. There are equal chances to be assigned to either group. Group 1: Participants will receive NB-4746 capsules at a low dose to take by mouth twice daily for 1 month. Group 2: Participants will receive NB-4746 capsules at a high dose to take by mouth twice daily for 1 month. Group 3: Participants will receive placebo capsules to take twice daily for approximately 1 month.\n\nPart B: Participants will be randomly placed into 1 of the 2 groups. There are equal chances to be assigned to either group. Group 1: Participants will receive NB-4746 capsules at a dose determined by Part A to take by mouth twice daily for 12 weeks. Group 2: Participants will receive placebo capsules to take twice daily for approximately 12 weeks.\n\nNone of the participants, trial doctors, or trial staff will know which treatment the participants will receive during Part A or B. Some trials are done this way because knowing what treatment the participants receive can affect the results of the trial. Doing a trial this way helps to make sure that the results are looked at with fairness across all treatments.\n\nOpen-Label Extension: Upon the completion of Part A or Part B, the doctor will verify the participant's willingness to continue receiving study treatment. This open label extension continues until each participant completes up to 1 year of treatment. The trial doctors will check participants' ALS and general health throughout the trial."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "keywords": [
+        "Amyotrophic Lateral Sclerosis",
+        "ALS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Phase 1b - NB-4746, High dose",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive two NB-4746 capsules (high dose), BID",
+          "interventionNames": [
+            "Drug: NB-4746 High dose"
+          ]
+        },
+        {
+          "label": "Phase 1b - NB-4746, Low dose",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive two NB-4746 capsules (low dose), BID",
+          "interventionNames": [
+            "Drug: NB-4746 Low dose"
+          ]
+        },
+        {
+          "label": "Ph 1b - Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive two capsules of placebo per dose, BID.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Ph 2 - Active",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive two capsules of NB-4746 (dose selected after review of Ph 1b data), BID",
+          "interventionNames": [
+            "Drug: NB-4746 (Dose TBD)"
+          ]
+        },
+        {
+          "label": "Ph 2 - Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive two capsules of placebo, BID",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "NB-4746 High dose",
+          "description": "NB-4746 will be administered twice daily in 2 capsules (high dose)",
+          "armGroupLabels": [
+            "Phase 1b - NB-4746, High dose"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "NB-4746 Low dose",
+          "description": "NB-4746 will be administered twice daily in 2 capsules (low dose)",
+          "armGroupLabels": [
+            "Phase 1b - NB-4746, Low dose"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Two capsules of placebo will be administered twice daily.",
+          "armGroupLabels": [
+            "Ph 1b - Placebo",
+            "Ph 2 - Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "NB-4746 (Dose TBD)",
+          "description": "Two capsules of NB-4746 will be administered twice daily (dose will be defined after Ph 1b data is reviewed).",
+          "armGroupLabels": [
+            "Ph 2 - Active"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ph 1b - Number of TEAEs and SAEs",
+          "description": "Number of treatment emergent adverse events (TEAEs) and number of serious adverse events (SAEs).\n\nThis will be assessed in the Ph 1b part of the study.",
+          "timeFrame": "From enrollment to 28 days"
+        },
+        {
+          "measure": "Evaluate safety and tolerability of NB-4746 in adult participants with ALS.",
+          "description": "Incidence of treatment emergent adverse events (TEAEs) and abnormalities in vital signs, clinical laboratory assessments, and electrocardiograms (ECGs).\n\nThis will be assessed in the Ph 2 part of the study",
+          "timeFrame": "From enrollment to Week 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ALS Criteria for Phase 1b:\n\n  1\\. Participants in Phase 1b must have:\n  1. Diagnosis of ALS per Gold Coast Criteria; and\n  2. Symptom onset ≤48 months prior to randomization on Day 1. Date of first ALS symptom (any ALS symptom) onset is defined as the onset of weakness in the limbs, bulbar region, or trunk. Weakness in the bulbar region includes dysarthria and dysphagia.\n* ALS Criteria for Phase 2:\n\n  2\\. Participants in Phase 2 must have:\n  1. Diagnosis of ALS per Gold Coast Criteria; and\n  2. Symptom onset ≤24 months prior to randomization on Day 1. Date of first ALS symptom (any ALS symptom) onset is defined as the onset of weakness in the limbs, bulbar region, or trunk. Weakness in the bulbar region includes dysarthria and dysphagia.\n* Additional Inclusion Criteria (All Participants):\n* Male or female participants aged ≥18 years and ≤80 years at the time of signing informed consent.\n* Score of at least 2 on the swallowing function of the ALSFRS-R.\n* Slow vital capacity (SVC) ≥60% of predicted at Screening.\n* If taking riluzole, participant must be on a stable dose for ≥60 days prior to Day 1.\n* If taking edaravone, participant must have completed at least 1 cycle of edaravone prior to Day 1.\n* Screening laboratory test values within normal ranges. If taking riluzole, participant must be on a stable dose for ≥60 days prior to Screening lab blood sample. If taking edaravone, participant must have completed at least 1 cycle of edaravone prior to the Screening lab sample.\n* Willing to adhere to contraceptive requirements during the study period as described in Appendix 1.\n* Capable of giving signed informed consent, as described in Section 13.2.2, which includes compliance with the requirements and restrictions listed in the ICF and in this protocol.\n\nExclusion Criteria:\n\n\\- Presence of tracheostomy or permanent assisted ventilation; defined as \\> 22 hours daily of mechanical ventilation for more than 1 week (7 days).\n\nwill not be excluded from the study.\n\n* History or presence of clinically significant uncontrolled medical conditions (other than ALS) that include cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrinological, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; constituting a risk when taking the study drugs; or interfering with the interpretation of data as determined by the Investigator.\n* Lifetime history of cancer except for basal cell or squamous epithelial carcinomas of the skin that have been resected with no evidence of metastatic disease for 3 years. Fully resected basal cell carcinoma and squamous cell carcinoma with no evidence of recurrence for 1 year are permitted.\n* Female participants who have a positive serum pregnancy test at Screening, positive urine pregnancy test on Day 1, or who are breastfeeding on Day 1.\n* Has a spinal deformity or other condition that may prevent the performance of a lumbar puncture.\n* International Normalized Ratio (INR) \\>1.4, platelet count \\<50,000/μL, or use of warfarin, heparin, or direct oral anticoagulants.\n* History of Class III/IV heart failure (per New York Heart Association \\[NYHA\\]).\n* Inability to swallow or tolerate oral medications at Screening.\n* Current participation in any other investigational drug study or receipt of an investigational drug within 30 days or 5 half-lives (whichever is longer) before Screening.\n* Known sensitivity to the NB-4746 study drug or any of the formulation components.\n* Has received NB-4746 at any time prior to initial Screening.\n* Any other reason that, in the opinion of the Investigator, would confound the conduct of this study or the interpretation of the results or that could compromise the participant's safety.\n* Currently taking or planning to receive tofersen for the treatment of ALS.\n\nIf a participant does not transition to the OLE in ≤30 days following completion of the main study, the participant will need to be rescreened for laboratory criteria and contraception/pregnancy criteria.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lahar Mehta, MD",
+          "role": "CONTACT",
+          "phone": "801-918-7637",
+          "email": "lmehta@nurabio.com"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

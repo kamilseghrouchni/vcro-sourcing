@@ -1,0 +1,179 @@
+{
+  "nct_id": "NCT06534658",
+  "title": "Study on Multimodal Imaging and Molecular Imaging Techniques in Degenerative Dementia",
+  "brief_title": "Study on Multimodal Imaging and Molecular Imaging Techniques in Degenerative Dementia",
+  "status": "RECRUITING",
+  "phase": "N/A",
+  "study_type": "OBSERVATIONAL",
+  "enrollment": 1000,
+  "enrollment_type": "ESTIMATED",
+  "conditions": [
+    "Alzheimer Disease",
+    "Image"
+  ],
+  "keywords": [
+    "Alzheimer Disease",
+    "molecular imaging"
+  ],
+  "sponsor": "Ruijin Hospital",
+  "sponsor_class": "OTHER",
+  "collaborators": [],
+  "lead_pi": {
+    "name": "Gang Wang, PhD. MD.",
+    "affiliation": "RenJi Hospital"
+  },
+  "start_date": "2020-07-30",
+  "completion_date": "2029-08-30",
+  "primary_completion_date": "2029-07-30",
+  "biospecimen_retention": "",
+  "biospecimen_description": "",
+  "ipd_sharing": "",
+  "ipd_sharing_description": "",
+  "ipd_sharing_url": "",
+  "ipd_sharing_info_types": [],
+  "facilities": [
+    {
+      "name": "Chinese People's Liberation Army General Hospital",
+      "city": "Beijing",
+      "state": "Beijing Municipality",
+      "country": "China",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "First Affiliated Hospital of Zhejiang University School of Medicine",
+      "city": "Hanzhong",
+      "state": "Hangzhou",
+      "country": "China",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Cangzhou Hospital of Integrated Traditional Chinese and Western Medicine",
+      "city": "Cangzhou",
+      "state": "Hebei",
+      "country": "China",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "The Second Hospital of Hebei Medical University",
+      "city": "Shijiazhuang",
+      "state": "Hebei",
+      "country": "China",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Qilu Hospital of Shandong University, Qingdao Branch",
+      "city": "Qingdao",
+      "state": "Shandong",
+      "country": "China",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Ruijin Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+      "city": "Shanghai",
+      "state": "Shanghai Municipality",
+      "country": "China",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "Xinhua Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+      "city": "Shanghai",
+      "state": "Shanghai Municipality",
+      "country": "China",
+      "status": "RECRUITING"
+    },
+    {
+      "name": "The First Affiliated Hospital of China Medical University",
+      "city": "Shenyang",
+      "state": "Shenyang",
+      "country": "China",
+      "status": "RECRUITING"
+    }
+  ],
+  "facilities_count": 8,
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged ≥50 and ≤85 years old, male or female;\n* Meet the diagnostic criteria for dementia or MCI;\n* Neuropsychological score: MMSE 15-28 points, CDR ≤ 1 point; ④ Patients and their families are informed and sign the informed consent form\n\nExclusion Criteria:\n\n* The presence of other neurological diseases that may cause brain dysfunction (such as depression, brain tumors, Parkinson's disease, metabolic encephalopathy, encephalitis, multiple sclerosis, epilepsy, brain trauma, normal intracranial pressure hydrocephalus, etc.);\n* The presence of other systemic diseases that may cause cognitive impairment (such as liver dysfunction, renal dysfunction, thyroid dysfunction, severe anemia, folic acid or vitamin B12 deficiency, syphilis, HIV infection, alcohol and drug abuse, etc.);\n* Suffering from a disease that makes it impossible to cooperate with cognitive examinations;\n* The presence of contraindications to MRI;\n* The presence of mental and neurological retardation;\n* Refusing to draw blood;\n* Refusing to sign the informed consent form.",
+  "eligibility_min_age": "50 Years",
+  "eligibility_max_age": "85 Years",
+  "eligibility_sex": "ALL",
+  "eligibility_healthy_volunteers": false,
+  "primary_outcomes": [
+    {
+      "measure": "The change of incidence of cognitive impairment",
+      "description": "Number of participants who covert to AD or mild cognitive impairment (MCI) will be recorded to calculate the incidence.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "The change of Mini-Mental State Examination (MMSE)",
+      "description": "MMSE is a brief screening instrument used to assess cognitive function (orientation, memory, attention, ability to name objects, follow verbal/written commands, write a sentence, and copy figures) in elderly participants. Total score ranges from 0 to 30; lower score indicates greater disease severity.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of Montreal cognitive assessment-Basic (MoCA)",
+      "description": "MoCA is a brief screening instrument used to assess cognitive function (orientation, memory, attention, ability to name objects, follow verbal/written commands, write a sentence, and copy figures) in elderly participants. Total score ranges from 0 to 30; lower score indicates greater disease severity.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of Auditory verbal learning test (AVLT)",
+      "description": "AVLT is a screening instrument used to assess the function of memory. The score in long-term memory (N5) ranges from 0 to 12, with lower scores indicating greater disease severity.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of structural MRI",
+      "description": "Structural MRI data will be acquired and analyzed through high-resolution T1-weighted MRI and diffusion tensor imaging (DTI).",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of functional MRI",
+      "description": "Functional MRI data will be acquired and analyzed through blood oxygenation level dependent (BOLD) imaging.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of magnetic susceptibility",
+      "description": "Magnetic susceptibility data will be acquired and analyzed through quantitative susceptibility mapping (QSM)",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of perfusion MR imaging",
+      "description": "Perfusion imaging data will be acquired and analyzed through arterial spin labeling (ASL).",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "Positron emission tomography (PET)-MRI",
+      "description": "Including AV45-PET, FDG-PET, Tau-PET, GLP-1R PET, Cholinergic receptor probe (ASEM) PET will be used to detect the amyloid, Tau burden and AD related GLP-1R as well as Cholinergic receptor change",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of blood biomarker",
+      "description": "Blood serum p-tau 181, p-tau 217, Aβ40, pEAβ3-42 and Aβ42 , GFAP, NFL at baseline will be tested. The higher blood p-tau is a strong predictor for AD.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of speech information",
+      "description": "Voice data collection, use a voice recorder to collect the patient's description of \"stealing biscuit map\" language, and save it in SWV format. And use self-developed ASR speech analysis software (China software copyright number: 2016RS164680) for speech analysis.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of Activities of daily living (ADL)",
+      "description": "ADL is a scale used in healthcare to refer to people's daily self-care activities. Eight factors are rated to produce an overall score on a point scale of 0 to 100. The lower the score the more independence in living.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of Geriatric Depression Scale (GDS)",
+      "description": "GDS is a neuropsychological scale used to assess the level of depression. The total score ranges from 0 to 30, with higher scores indicating greater disease severity.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    },
+    {
+      "measure": "The change of electroencephalogram (EEG)",
+      "description": "Electroencephalogram (EEG) is used to measure electrical activity in the brain using small, metal discs (electrodes) attached to the scalp. Recorded frequencies include alpha, beta, delta and theta band power. The EEG signatures of people with cognitive impairment will be further analyzed, and its longitudinal changes will be observed.",
+      "timeFrame": "baseline, 1 year, 2 year, 3 year, 4 year"
+    }
+  ],
+  "has_results": false,
+  "fda_regulated_drug": false,
+  "fda_regulated_device": false,
+  "brief_summary": "This project is a multicenter observational study that establishes a longitudinal cohort of patients with Alzheimer's disease and other dementias based on neuroimaging, molecular imaging, biological and digital markers to explore new solutions such as dementia disease mechanism, diagnosis, condition evaluation, and prognosis assessment.",
+  "detailed_description": "This project will build a longitudinal database based on multimodal MRI imaging information of dementia subjects, various body fluid or digital markers, and a cohort. The convolutional neural network algorithm will be used to explore the imaging characteristics of healthy controls, AD, FTD, and DLB, develop an early prediction model for degenerative dementia, and achieve early differential diagnosis of different dementia subtypes. This study further performed GE180, ASEM, and exendin-4 radionuclide imaging on some subjects who completed conventional PET (AV45, Tauvir, and FDG) imaging to explore the diagnostic efficacy of these three probes as new diagnostic probes for early AD. In addition, through longitudinal follow-up of Aβ-positive MCI patients, multimodal MRI and PET image fusion technology were used to explore the changes in fused images during their conversion to AD in order to obtain early and accurate diagnostic markers.",
+  "interventions": [],
+  "converted_at": "2026-04-06T22:33:58.424957+00:00"
+}

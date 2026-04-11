@@ -1,0 +1,236 @@
+{
+  "pmid": "32711556",
+  "pmc": "PMC7382148",
+  "doi": "10.1186/s13024-020-00384-6",
+  "title": "Integrated analysis of ultra-deep proteomes in cortex, cerebrospinal fluid and serum reveals a mitochondrial signature in Alzheimer’s disease",
+  "journal": "Molecular Neurodegeneration",
+  "year": 2020,
+  "authors": [
+    {
+      "name": "Wang Hong",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XDepartments of Structural Biology and Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA",
+        "grid.240871.80000 0001 0224 711XCenter for Proteomics and Metabolomics, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    },
+    {
+      "name": "Dey Kaushik Kumar",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XDepartments of Structural Biology and Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    },
+    {
+      "name": "Chen Ping-Chung",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XDepartments of Structural Biology and Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    },
+    {
+      "name": "Li Yuxin",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XCenter for Proteomics and Metabolomics, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    },
+    {
+      "name": "Niu Mingming",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XDepartments of Structural Biology and Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    },
+    {
+      "name": "Cho Ji-Hoon",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XCenter for Proteomics and Metabolomics, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    },
+    {
+      "name": "Wang Xusheng",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XCenter for Proteomics and Metabolomics, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA",
+        "grid.266862.e0000 0004 1936 8163Present address: Department of Biology, University of North Dakota, Grand Forks, ND 58202 USA"
+      ]
+    },
+    {
+      "name": "Bai Bing",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XDepartments of Structural Biology and Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA",
+        "grid.41156.370000 0001 2314 964XPresent address: Department of Laboratory Medicine, Nanjing Drum Tower Hospital, Nanjing University Medical School, Nanjing, 210008 Jiangsu China"
+      ]
+    },
+    {
+      "name": "Jiao Yun",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XDepartments of Structural Biology and Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    },
+    {
+      "name": "Chepyala Surendhar Reddy",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XDepartments of Structural Biology and Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    },
+    {
+      "name": "Haroutunian Vahram",
+      "affiliations": [
+        "grid.59734.3c0000 0001 0670 2351Departments of Psychiatry and Neuroscience, The Alzheimer’s Disease Research Center, Icahn School of Medicine at Mount Sinai, New York, NY 10029 USA",
+        "grid.274295.f0000 0004 0420 1184Mental Illness Research, Education and Clinical Center (MIRECC), James J. Peters VA Medical Center, Bronx, NY 10468 USA"
+      ]
+    },
+    {
+      "name": "Zhang Bin",
+      "affiliations": [
+        "grid.59734.3c0000 0001 0670 2351Department of Genetics and Genomic Sciences and Department of Pharmacological Sciences, Mount Sinai Center for Transformative Disease Modeling, Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, NY 10029 USA"
+      ]
+    },
+    {
+      "name": "Beach Thomas G.",
+      "affiliations": [
+        "grid.414208.b0000 0004 0619 8759Banner Sun Health Research Institute, Sun City, AZ 85351 USA"
+      ]
+    },
+    {
+      "name": "Peng Junmin",
+      "affiliations": [
+        "grid.240871.80000 0001 0224 711XDepartments of Structural Biology and Developmental Neurobiology, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA",
+        "grid.240871.80000 0001 0224 711XCenter for Proteomics and Metabolomics, St. Jude Children’s Research Hospital, Memphis, TN 38105 USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "Biomarker",
+    "Cerebrospinal fluid",
+    "Brain tissue",
+    "Cortex",
+    "Blood",
+    "Plasma",
+    "Serum",
+    "Mass spectrometry",
+    "Proteomics",
+    "Proteome",
+    "Tandem mass tag",
+    "Systems biology"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100000002National Institutes of HealthR01AG047928R01AG053987P30AG19610RF1AG057440U01AG046170P30CA021765R01GM114260R01AG064909HaroutunianVahramZhangBinBeachThomas G.PengJunmin",
+    "http://dx.doi.org/10.13039/100000065National Institute of Neurological Disorders and StrokeU24NS072026BeachThomas G."
+  ],
+  "data_availability_text": "Availability of data and materialsThe proteomics data used in this study are available via the AD Knowledge Portal (https://adknowledgeportal.synapse.org). The Banner Brain and Body Donation Program cortex, CSF and serum TMT proteomics data are available through 10.7303/syn21638690. The Mount Sinai Brain Bank cortex TMT proteomics data are accessible through 10.7303/syn21347564, and additional information can be found at 10.7303/syn7392158. The mouse CSF TMT proteomics data are accessible through Proteome Xchange Consortium (http://www.proteomexchange.org) via the PRIDE partner repository with the dataset identifiers PXD018658.",
+  "license": "OpenAccess",
+  "received": "2020-03-03",
+  "accepted": "2020-05-18",
+  "reference_pmids": [
+    "27570871",
+    "7566337",
+    "12130773",
+    "27025652",
+    "21514250",
+    "32123385",
+    "32123386",
+    "32333900",
+    "24833294",
+    "30297701",
+    "21514248",
+    "28733960",
+    "23438204",
+    "27629641",
+    "27251275",
+    "30146332",
+    "31926610",
+    "23207911",
+    "30104418",
+    "25337643",
+    "31738517",
+    "21963607",
+    "28194965",
+    "31019427",
+    "31420543",
+    "12488461",
+    "16258194",
+    "28951502",
+    "12687610",
+    "18632595",
+    "20677825",
+    "33087358",
+    "30578620",
+    "25619230",
+    "30204156",
+    "19066529",
+    "28109439",
+    "19566079",
+    "25859956",
+    "25455107",
+    "30397325",
+    "25202125",
+    "27225868",
+    "31668641",
+    "12643542",
+    "16009968",
+    "31566909",
+    "23622250",
+    "25605792",
+    "16680138",
+    "22237022",
+    "16199517",
+    "28065596",
+    "25613900",
+    "29451788",
+    "30775436",
+    "31010420",
+    "25352553",
+    "30340518",
+    "15855271",
+    "27379525",
+    "27103259",
+    "27241045",
+    "24023061",
+    "27646601",
+    "30021611",
+    "31507410",
+    "31610847",
+    "31467276",
+    "29211722",
+    "29432159",
+    "20937894",
+    "17911214",
+    "31827267",
+    "24884669",
+    "27466127",
+    "28663512"
+  ],
+  "tables_count": 1,
+  "figures_count": 8,
+  "sections_present": [
+    "abstract",
+    "background",
+    "materials and methods",
+    "human brain cortex, cerebrospinal fluid, and serum",
+    "mouse cerebrospinal fluid",
+    "protein extraction and quantification",
+    "protein digestion and tandem-mass-tag (tmt) labeling",
+    "extensive two-dimensional lc/lc-ms/ms analysis",
+    "protein identification and quantification by the jump software suite",
+    "differential expression analyses of proteome datasets",
+    "principal component analysis",
+    "integrated ranking of proteins in individual datasets though order statistics",
+    "tomahaq targeted ms validation assay",
+    "elisa validation assay",
+    "results",
+    "comprehensive integration of ultra-deep ad proteomes in cortex, csf and serum",
+    "ultra-deep csf proteome profiling identifies evident mitochondrial protein reduction in alzheimer’s disease",
+    "integration of csf and cortex proteomes discovers consistent csf biomarkers in alzheimer’s disease across independent studies",
+    "integration of human and mouse csf proteomes identifies consistent mitochondrial protein decrease in alzheimer’s disease",
+    "integration of csf, serum, and cortex proteomes indicates consistent mitochondrial signatures in alzheimer’s disease",
+    "integrating the rankings of ten individual datasets through order statistics prioritizes top ad protein signatures",
+    "discussion",
+    "conclusions",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11608,
+  "converted_at": "2026-04-06T22:40:00.546994+00:00"
+}

@@ -1,0 +1,175 @@
+{
+  "pmid": "36232571",
+  "pmc": "PMC9569627",
+  "doi": "10.3390/ijms231911269",
+  "title": "Precision Medicine Approaches with Metabolomics and Artificial Intelligence",
+  "journal": "International Journal of Molecular Sciences",
+  "year": 2022,
+  "authors": [
+    {
+      "name": "Barberis Elettra",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Khoso Shahzaib",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sica Antonio",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Falasca Marco",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gennari Alessandra",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dondero Francesco",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Afantitis Antreas",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Manfredi Marcello",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "metabolomics",
+    "artificial intelligence",
+    "machine learning",
+    "precision medicine",
+    "biomarkers"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Department of Excellence–DIMET, Università del Piemonte Orientale, MIUR ITALYAIRC 5 × 1000 UniCanVax 22757",
+    "Regione Piemonte FSC Azione 173 INFRA-P2 COVID377-1378-48",
+    "European Regional Development Fund and the Republic of Cyprus through the Research and Innovation Foundation691095"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2022-05-18",
+  "accepted": "2022-09-20",
+  "reference_pmids": [
+    "25419469",
+    "20717155",
+    "32076369",
+    "31398064",
+    "27957383",
+    "34951658",
+    "33281885",
+    "11934738",
+    "32765529",
+    "32909363",
+    "20400961",
+    "26819042",
+    "25584708",
+    "35645144",
+    "11240971",
+    "33207699",
+    "34226622",
+    "18480203",
+    "29494586",
+    "27658530",
+    "32879386",
+    "24333717",
+    "30830398",
+    "34981111",
+    "30887013",
+    "29696139",
+    "32039191",
+    "33217646",
+    "34161092",
+    "33760368",
+    "34876179",
+    "26573008",
+    "18650208",
+    "23573122",
+    "32606026",
+    "34359365",
+    "32727141",
+    "31803396",
+    "31728648",
+    "28722418",
+    "34115749",
+    "30998683",
+    "27931880",
+    "2185863",
+    "19594911",
+    "27423423",
+    "29265114",
+    "31737644",
+    "32928939",
+    "27036109",
+    "32775485",
+    "34265725",
+    "35559965",
+    "31001455",
+    "34419924",
+    "27334281",
+    "16408941",
+    "35087163",
+    "31697686",
+    "33659909",
+    "30421237",
+    "31165141",
+    "32940335",
+    "31963766",
+    "34713318",
+    "29576760",
+    "30442406",
+    "33077825",
+    "31702773",
+    "33937325",
+    "34940621"
+  ],
+  "tables_count": 3,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "1. introduction",
+    "1.1. machine learning and metabolomics",
+    "1.2. biomarkers",
+    "1.3. metabolomics",
+    "2. dimensionality and features selection",
+    "2.1. filter methods",
+    "2.2. wrapper and embedded methods",
+    "3. machine learning applications for biomarker discovery",
+    "4. application of machine learning for the diagnosis of diseases",
+    "4.1. random forest",
+    "4.2. support vector machine",
+    "4.3. artificial neural networks",
+    "4.4. other supervised learning algorithms",
+    "5. factors influencing biomarker selection through machine learning",
+    "6. machine learning tools for metabolomic analysis",
+    "7. limitations",
+    "8. challenges in the implementation of metabolomics–ai systems",
+    "9. conclusions",
+    "funding",
+    "references"
+  ],
+  "word_count": 9419,
+  "converted_at": "2026-04-06T22:40:17.086181+00:00"
+}

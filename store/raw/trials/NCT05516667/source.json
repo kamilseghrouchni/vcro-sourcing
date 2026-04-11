@@ -1,0 +1,279 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05516667",
+      "orgStudyIdInfo": {
+        "id": "RC31/21/0575"
+      },
+      "organization": {
+        "fullName": "University Hospital, Toulouse",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cohort of Patients with Alzheimer's Disease and Their Families.",
+      "officialTitle": "Pilot Phase of a Prospective Cohort of Patients with Alzheimer's Disease and Their Families",
+      "acronym": "ALFA3pilot"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-04-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-08-23",
+      "studyFirstSubmitQcDate": "2022-08-23",
+      "studyFirstPostDateStruct": {
+        "date": "2022-08-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Toulouse",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "France Alzheimer",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is the pilot phase of a longitudinal observational cohort study. The study includes family clusters comprised of a patient with Alzheimer's disease, an informal caregiver and at least one first-degree relative of the patient. The family clusters will be followed-up in expert memory centers and online in order to study risk and prognostic factors (including blood-based biomarkers) in the first-degree relatives and patients, respectively, as well as caregiver health, difficulties and needs. This pilot study is performed to assess the feasibility of conducting a larger-scale study.",
+      "detailedDescription": "Alzheimer's disease (AD) is a progressive neurodegenerative disease and the primary cause of dementia. It brings about a huge burden for patients, families and society as a whole. There is currently no curative treatment available, but the existence of a long preclinical period, during which biomarker changes are observed, and the identification of modifiable risk factors suggest that AD may be preventable. Data is currently lacking, however, on the trajectories and predictive value of blood-based biomarkers (which are more acceptable and less costly to measure than traditional imaging and Cerebrospinal fluid biomarkers biomarkers). Furthermore, although there has been much research into modifiable AD risk factors, they have often not been studied simultaneously in the same cohort, and there has been relatively little research into newly identified risk factors, such as hearing impairment. First-degree relatives of AD patients would seem an ideal population to study such factors, since they are at increased risk of dementia and cognitive decline, and may be more motivated to participate in dementia research studies than other individuals. Finally, although caregiver burden and quality of life have been previously studied, further data is required on their longitudinal trajectories, particularly taking into account the disease course of the patients they care for. Caregivers' needs and coping and caregiving strategies also need to be better understood. In the pilot phase of the ALFA3 study, 150 familial clusters (each comprised of a patient with Alzheimer's disease, a family caregiver and at least one first-degree relative of the patient) will be recruited and followed-up for 2 years in expert memory centers and via online questionnaires. This pilot phase will be used to study the feasibility of conducting a larger-scale study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease"
+      ],
+      "keywords": [
+        "dementia",
+        "caregivers",
+        "risk factors",
+        "prognosis",
+        "first-degree relatives"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Blood samples."
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recruitment rate",
+          "description": "rate of actual inclusion on anticipated inclusion 9 months and 18-months after the first inclusion. Expressed in percentage",
+          "timeFrame": "18-months after the first inclusion"
+        },
+        {
+          "measure": "Retention rate",
+          "description": "rate of remaining participants on actual inclusions 24 months after the first subject was included. Expressed in percentage",
+          "timeFrame": "24 months after the first inclusion"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cognitive function",
+          "description": "Evolution of the Mini Mental State Examination score : from Baseline to the end of follow-up.\n\nThe scores can vary from 0 to 30; 0 being the lowest cognitive function and 30 representing \"non pathological\" functioning.",
+          "timeFrame": "60 months after Baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "o Inclusion criteria:\n\nAD patients:\n\n* Probable Alzheimer's disease (clinical and biological NINCDS-ADRDA 2011 criteria)\n* Mild-moderate AD (MMSE ≥15)\n* Sufficiently fluent in French in order to answer study questionnaires\n* Agrees to undergo medical examinations at baseline, 12 and 24 months, as outlined in the protocol\n* Affiliated to French social security\n* Written informed consent\n\nCaregivers:\n\n* Caregiver (defined as assisting the patient in activities of daily living for at least 6 hours per week during the last 6 months) to an AD patient having agreed to participate in the study\n* Age ≥18 years.\n* Sufficiently fluent in French in order to answer study questionnaires\n* Agrees to answer regular questionnaires about their own or the AD patient's health (during visits at study centres or via a secure internet website/postal questionnaires)\n* Affiliated to French social security\n* Written informed consent\n\nFirst-degree relatives:\n\n* First degree relative of an AD patient having agreed to participate in the study\n* Age ≥18 years.\n* Sufficiently fluent in French in order to answer study questionnaires\n* Agrees to undergo medical examinations at baseline, 12 and 24 months, as outlined in the protocol\n* Agrees to answer regular questionnaires about their own health (via a secure internet website or via postal questionnaires)\n* Affiliated to French social security\n* Written informed consent\n\nIn order to be included in the study, a familial cluster must be comprised of 2 to 5 people, as follows:\n\n* Familial cluster of 2 people: 1 AD patient and 1 first-degree relative who also meets the caregiver inclusion criteria, OR\n* Familial cluster of 3 to 5 people: 1 AD patient, 1 caregiver (does not need to be a relative of the patient), 1 to 3 first-degree relatives of the patient\n\n  * Exclusion criteria:\n\nAD patients:\n\n* Other brain disorders\n* Autosomal dominant form of AD\n* Under legal protection measure (guardianship, curators, safeguard of justice…)\n* Institutionalized\n* Life expectancy \\<2 years\n\nCaregivers:\n\n* Under legal protection measure (guardianship, curators, safeguard of justice…)\n* Diagnosed with a major neurocognitive disorder\n\nFirst-degree relatives:\n\n* Related to a patient with an autosomal dominant form of dementia\n* Carrier of an autosomal dominant dementia mutation\n* Under legal protection measure (guardianship, curators, safeguard of justice…)\n* Diagnosed with a major neurocognitive disorder",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "3 types of participants : patients with AD, caregivers assisting such patients on daily activities, and close relatives as defined above",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sandrine Andrieu, MD PhD",
+          "role": "CONTACT",
+          "phone": "05 61 14 59 63",
+          "email": "sandrine.andrieu@univ-tlse3.fr"
+        },
+        {
+          "name": "Nicola Coley, PhD",
+          "role": "CONTACT",
+          "email": "coley.n@chu-toulouse.fr"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Sandrine Andrieu, MD",
+          "affiliation": "University Hospital, Toulouse",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hôpitaux Universitaires de Marseille Timone",
+          "status": "RECRUITING",
+          "city": "France",
+          "state": "Marseille",
+          "zip": "13005",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "CECCALDI Mathieu",
+              "role": "CONTACT",
+              "phone": "0491385928",
+              "email": "mathieu.ceccaldi@ap-hp.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.60366,
+            "lon": -0.84802
+          }
+        },
+        {
+          "facility": "CMRR Centre de Montpellier",
+          "status": "RECRUITING",
+          "city": "Montpellier",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Karim BENNYS",
+              "role": "CONTACT",
+              "phone": "0467337232",
+              "email": "k-benny@chu-montpellier.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "CMRR Centre de Rouen",
+          "status": "RECRUITING",
+          "city": "Rouen",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "DAVID WALLON",
+              "role": "CONTACT",
+              "phone": "0608972959",
+              "email": "david.wallon@chu-rouen.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "CMRR - CRC Centre de Toulouse",
+          "status": "RECRUITING",
+          "city": "Toulouse",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre-Jean OUSSET",
+              "role": "CONTACT",
+              "phone": "0561777070",
+              "email": "ousset.pj@chu-toulouse.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

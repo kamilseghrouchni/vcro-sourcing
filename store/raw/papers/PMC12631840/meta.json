@@ -1,0 +1,280 @@
+{
+  "pmid": "40862296",
+  "pmc": "PMC12631840",
+  "doi": "10.1002/advs.202505922",
+  "title": "Variations in Innate Immune Cell Subtypes Correlate with Epigenetic Clocks, Inflammaging and Health Outcomes",
+  "journal": "Advanced Science",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Guo Xiaolong",
+      "affiliations": [
+        "Shanghai Institute of Nutrition and Health University of Chinese Academy of Sciences Chinese Academy of Sciences 320 Yue Yang Road Shanghai 200031 China"
+      ]
+    },
+    {
+      "name": "Robertson Josephine A.",
+      "affiliations": [
+        "Centre for Genomic and Experimental Medicine Institute of Genetics and Cancer University of Edinburgh Edinburgh EH4 2XU UK"
+      ]
+    },
+    {
+      "name": "Aparicio Andrea",
+      "affiliations": [
+        "Channing Division of Network Medicine Department of Medicine Brigham and Women's Hospital and Harvard Medical School Boston MA 02115 USA"
+      ]
+    },
+    {
+      "name": "Seale Kirsten",
+      "affiliations": [
+        "TruDiagnostics 881 Corporate Dr Lexington KY 40503 USA"
+      ]
+    },
+    {
+      "name": "Chen Qingwen",
+      "affiliations": [
+        "Channing Division of Network Medicine Department of Medicine Brigham and Women's Hospital and Harvard Medical School Boston MA 02115 USA"
+      ]
+    },
+    {
+      "name": "Richmond Anne",
+      "affiliations": [
+        "Centre for Genomic and Experimental Medicine Institute of Genetics and Cancer University of Edinburgh Edinburgh EH4 2XU UK"
+      ]
+    },
+    {
+      "name": "Du Zhaozhen",
+      "affiliations": [
+        "Shanghai Institute of Nutrition and Health University of Chinese Academy of Sciences Chinese Academy of Sciences 320 Yue Yang Road Shanghai 200031 China"
+      ]
+    },
+    {
+      "name": "Sulaiman Mahnoor",
+      "affiliations": [
+        "Department of Biomedical Data Sciences Leiden University Medical Center Einthovenweg 20 Leiden 2333 ZC The Netherlands",
+        "Department of Child and Adolescent Psychiatry/Psychology Sophia's Children Centre Erasmus MC Rotterdam 3015 CN The Netherlands"
+      ]
+    },
+    {
+      "name": "Zheng Shijie C",
+      "affiliations": [
+        "Pfizer Research & Development, Pfizer Inc. Groton Connecticut CT06340 USA"
+      ]
+    },
+    {
+      "name": "Ballestar Esteban",
+      "affiliations": [
+        "Epigenetics and Immune Disease Group Josep Carreras Leukaemia Research Institute (IJC) Badalona Barcelona 08916 Spain",
+        "Epigenetics in Inflammatory and Metabolic Diseases Laboratory Health Science Center (HSC) East China Normal University (ECNU) Shanghai 200241 China"
+      ]
+    },
+    {
+      "name": "Cecil Charlotte AM",
+      "affiliations": [
+        "Department of Child and Adolescent Psychiatry/Psychology Sophia's Children Centre Erasmus MC Rotterdam 3015 CN The Netherlands"
+      ]
+    },
+    {
+      "name": "Heijmans Bastiaan T",
+      "affiliations": [
+        "Department of Biomedical Data Sciences Leiden University Medical Center Einthovenweg 20 Leiden 2333 ZC The Netherlands"
+      ]
+    },
+    {
+      "name": "Horvath Steve",
+      "affiliations": [
+        "Altos Labs Cambridge CB21 6GP UK"
+      ]
+    },
+    {
+      "name": "Dwaraka Varun B.",
+      "affiliations": [
+        "TruDiagnostics 881 Corporate Dr Lexington KY 40503 USA"
+      ]
+    },
+    {
+      "name": "Lasky‐Su Jessica",
+      "affiliations": [
+        "TruDiagnostics 881 Corporate Dr Lexington KY 40503 USA"
+      ]
+    },
+    {
+      "name": "Smith Ryan",
+      "affiliations": [
+        "Channing Division of Network Medicine Department of Medicine Brigham and Women's Hospital and Harvard Medical School Boston MA 02115 USA"
+      ]
+    },
+    {
+      "name": "Marioni Riccardo E.",
+      "affiliations": [
+        "Centre for Genomic and Experimental Medicine Institute of Genetics and Cancer University of Edinburgh Edinburgh EH4 2XU UK"
+      ]
+    },
+    {
+      "name": "Teschendorff Andrew E",
+      "affiliations": [
+        "Shanghai Institute of Nutrition and Health University of Chinese Academy of Sciences Chinese Academy of Sciences 320 Yue Yang Road Shanghai 200031 China"
+      ]
+    }
+  ],
+  "keywords": [
+    "aging Biomarkers",
+    "DNA methylation",
+    "epigenetic clocks",
+    "health outcomes",
+    "innate immune system",
+    "inflammaging"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Wellcome Trust10.13039/100010269 104036/Z/14/Z221890/Z/20/Z319878/Z/24/Z",
+    "Government Health Directorates CZD/16/6",
+    "Scottish Funding Council10.13039/501100000360 HR03006",
+    "Medical Research Council UK",
+    "Wellcome (Wellcome Trust Strategic Award STratifying Resilience and Depression Longitudinally 104036/Z/14/Z",
+    "Royal College of Physicians of Edinburgh10.13039/100012923",
+    "R.E.M. is supported by Alzheimer's Society project AS‐PG‐19b‐010",
+    "European Research Council10.13039/501100000781 101039672",
+    "National Natural Science Foundation of China10.13039/501100001809 W24310243217065232370699"
+  ],
+  "data_availability_text": "Data Availability StatementThe following DNAm datasets analyzed here are publicly available from the NCBI GEO website https://www.ncbi.nlm.nih.gov/geo/ under the accession numbers GSE40279 (HNM), GSE106648 (LiuMS), GSE169156 (Song), GSE210255 (HPT‐EPIC), GSE210254 (HPT‐450k), GSE179325 (Barturen), GSE147740 (Airway), GSE117860 (VACS), GSE87648 (Ventham), GSE84727 (Hannon2), GSE80417 (Hannon1), GSE72680 (Zannas), GSE61151 (Flanagan/FBS), GSE87571 (Johansson), GSE42861 (LiuRA), GSE249641 (Ferrete‐Bonastre), GSE56046 (Reynolds), GSE82084 (deGoede), GSE224807 (Bell), GSE40799 (CD34+), GSE72867 (CD34+), GSE59796 (DCs), GSE63409 (HPCs) and GSE149572 (Cord blood). The Illumina EPIC DNAm data for the TZH cohort can be viewed at NODE under accession number OEP000260, or directly at (https://www.biosino.org/node/project/detail/OEP000260), and accessed by submitting a request for data‐access. The scRNA‐Seq data from Yazar et al is publicly available from https://cellxgene.cziscience.com/collections/dde06e0f‐ab3b‐46be‐96a2‐a8082383c4a1. Instructions for accessing Generation Scotland data can be found here: https://www.ed.ac.uk/generation‐scotland/for‐researchers/access; the ‘GS Access Request Form’ can be downloaded from this site. Completed request forms must be sent to access@generationscotland.org to be approved by the Generation Scotland Access Committee. The DNA methylation data of MGBB samples are not publicly available due to participant privacy and institutional policies. Researchers interested in accessing the data may contact varun.dwaraka@trudiagnostic.com. Data will be made available upon reasonable request and completion of a data usage agreement (DUA) approved by TruDiagnostic Inc.",
+  "license": "",
+  "received": "2025-04-02",
+  "accepted": "",
+  "reference_pmids": [
+    "29643443",
+    "31767039",
+    "39806006",
+    "25633388",
+    "36516495",
+    "32641083",
+    "30572949",
+    "23177740",
+    "29676998",
+    "30669119",
+    "35029144",
+    "24138928",
+    "38146185",
+    "39028368",
+    "39760516",
+    "35031073",
+    "37525279",
+    "36599349",
+    "25417146",
+    "38413168",
+    "35324478",
+    "36443794",
+    "40426256",
+    "35504910",
+    "33595649",
+    "23689826",
+    "31026415",
+    "29693419",
+    "25404168",
+    "34391943",
+    "22708967",
+    "33823916",
+    "35389779",
+    "40112801",
+    "37117750",
+    "26975982",
+    "38908846",
+    "2215562",
+    "25534623",
+    "22561835",
+    "32226949",
+    "25482020",
+    "31806905",
+    "23543263",
+    "37508482",
+    "39243176",
+    "26630695",
+    "39075614",
+    "30122459",
+    "39924931",
+    "37161091",
+    "30744673",
+    "26752769",
+    "25042786",
+    "38011566",
+    "29921915",
+    "37169753",
+    "35933486",
+    "32363781",
+    "30545403",
+    "27886173",
+    "33646943",
+    "27572077",
+    "31113877",
+    "25371448",
+    "23826282",
+    "32963246",
+    "23334450",
+    "33053156",
+    "28428831",
+    "37597113",
+    "31563865",
+    "37231261",
+    "34557778",
+    "39313745",
+    "40633125",
+    "28193155",
+    "34849976",
+    "17238663",
+    "24284763",
+    "27408621",
+    "25161698",
+    "26444494",
+    "24478339",
+    "25599564",
+    "26384415",
+    "34872606",
+    "20371621"
+  ],
+  "tables_count": 0,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "a common axis of dnam variation distinguishes cell‐types by maturity and age",
+    "shifts within innate immune cell‐types associate with chronological age and sex",
+    "shifts within innate immune cell‐types associate with epigenetic clock acceleration",
+    "differential young versus adult monocyte fraction associates with inflammaging",
+    "monocyte subtyping into young and old phenotypes is distinct from classical subtyping",
+    "age‐related monocyte heterogeneity correlates with inflammaging in scrna‐seq and metabolomic data",
+    "shifts within the innate immune system associate with health outcomes",
+    "a non‐negligible nrbc fraction increases with age and correlates with all‐cause mortality",
+    "nrbc fraction associates with measures of dysfunctional erythropoiesis",
+    "epigenetic clock associations with all‐cause mortality are independent of 19 ic fractions",
+    "discussion",
+    "experimental section",
+    "human adult whole blood dna methylation datasets of 15 cohorts",
+    "human umbilical cord blood and nrbc dna methylation datasets",
+    "estimation of cell‑type fractions",
+    "dnam‐based crp‐score (inflscore)",
+    "dnam‐based il‐6 score",
+    "dna methylation clocks",
+    "meta‐analyses",
+    "monocyte dnam datasets and construction of classical versus nonclassical dnam reference",
+    "scrna‐sequencing datasets used for monocyte analysis",
+    "analysis of generation scotland cohort data",
+    "analysis of mass general biobank data (mgbb)",
+    "in‐silico spike‐in experiment for nrbc",
+    "human dna methylation datasets of hpcs and dendritic cells",
+    "processing of mass general biobank (mgbb) samples",
+    "correlation analysis of immune‐cell fractions to clinical biomarkers in mgbb",
+    "correlation analysis of ic‐fractions to metabolites and proteomics in mgbb",
+    "general statistical analysis",
+    "ethics approval and consent to participate",
+    "author's contribution",
+    "conflict of interest",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 17982,
+  "converted_at": "2026-04-06T22:38:01.107762+00:00"
+}

@@ -1,0 +1,288 @@
+{
+  "pmid": "35809564",
+  "pmc": "PMC9339523",
+  "doi": "10.1016/j.devcel.2022.06.010",
+  "title": "Genetic Variation Associated with Condensate Dysregulation in Disease",
+  "journal": "Developmental cell",
+  "year": 2022,
+  "authors": [
+    {
+      "name": "Banani Salman F.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Afeyan Lena K.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hawken Susana W.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Henninger Jonathan E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dall’Agnese Alessandra",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Clark Victoria E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Platt Jesse M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Oksuz Ozgur",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hannett Nancy M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Sagi Ido",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lee Tong Ihn",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Young Richard A.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data and code availabilityDatasets used in this study are available from the sources cited in the Key Resources Table. Processed data used in the study is available in the Supplemental Tables and on the Young laboratory’s website.Code generated during this study is available via https://github.com/bananisf/2022_Banani_Afeyan_Hawken_Condensate_Dysregulation.Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "34163069",
+    "28808090",
+    "31430179",
+    "33510441",
+    "19345193",
+    "25428349",
+    "33149109",
+    "27374333",
+    "28225081",
+    "32386547",
+    "31995753",
+    "29106588",
+    "31675499",
+    "32822572",
+    "33156333",
+    "30449618",
+    "33417833",
+    "30244836",
+    "28844694",
+    "22749400",
+    "26455390",
+    "31792379",
+    "33579564",
+    "30395331",
+    "30951647",
+    "22588877",
+    "28890946",
+    "34903620",
+    "29930094",
+    "32004090",
+    "30126895",
+    "27545621",
+    "28572459",
+    "33237286",
+    "29526694",
+    "30982635",
+    "29976794",
+    "34480923",
+    "33169020",
+    "27212236",
+    "29036655",
+    "34381968",
+    "31296649",
+    "31543265",
+    "28138153",
+    "28709000",
+    "31391587",
+    "33333019",
+    "29339797",
+    "29625048",
+    "28076807",
+    "25514926",
+    "32822580",
+    "30846600",
+    "29439243",
+    "26777405",
+    "26388440",
+    "32499559",
+    "31615886",
+    "12045153",
+    "31267591",
+    "23455423",
+    "31937751",
+    "32554597",
+    "30476213",
+    "31680160",
+    "33625877",
+    "29425488",
+    "24825614",
+    "29165669",
+    "28636604",
+    "32927263",
+    "33104802",
+    "30943110",
+    "32698189",
+    "27993330",
+    "22398450",
+    "31906602",
+    "26412307",
+    "27618451",
+    "29849146",
+    "31777944",
+    "32203417",
+    "17473849",
+    "33169001",
+    "28817800",
+    "32029630",
+    "34453890",
+    "31612960",
+    "33535034",
+    "29976799",
+    "31171703",
+    "33125078",
+    "26836305",
+    "29483575",
+    "26406374",
+    "33087501",
+    "30890779",
+    "25747659",
+    "31560342",
+    "26317470",
+    "12702867",
+    "29754822",
+    "32165560",
+    "29973724",
+    "23953108",
+    "32514159",
+    "32405004",
+    "25741868",
+    "16717195",
+    "29930091",
+    "22743772",
+    "25562883",
+    "33188278",
+    "31675500",
+    "16829979",
+    "30333186",
+    "29576456",
+    "28935776",
+    "32328638",
+    "31606941",
+    "23871686",
+    "32596782",
+    "33318659",
+    "28636597",
+    "27056844",
+    "29592813",
+    "19767417",
+    "28495876",
+    "33357399",
+    "27180681",
+    "19274049",
+    "29424691",
+    "32554584",
+    "31853060",
+    "15035987",
+    "29961577",
+    "28575670",
+    "31691826",
+    "29677513",
+    "31584089",
+    "34020549",
+    "21423274",
+    "31563432",
+    "27565345",
+    "32579423",
+    "33002410"
+  ],
+  "tables_count": 1,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "generating a resource for the study of condensate dysregulation in disease",
+    "the spectrum of diseases predicted to involve dysregulated condensates",
+    "pathogenic mutations affecting condensate-promoting features alter condensate properties in cells",
+    "discussion",
+    "limitations of the study",
+    "star methods",
+    "resource availability",
+    "lead contact",
+    "materials availability",
+    "data and code availability",
+    "experimental model and subject details",
+    "cell lines",
+    "cell culture conditions",
+    "human tissue samples",
+    "human tissue sample storage conditions",
+    "method details",
+    "definition of condensate-forming proteins",
+    "mapping of protein features",
+    "domains.",
+    "structural elements.",
+    "interaction motifs.",
+    "protein processing.",
+    "post-translational modifications.",
+    "nuclear localization and nuclear export signals.",
+    "other functional regions.",
+    "intrinsically disordered regions.",
+    "low complexity sequences.",
+    "annotation of mendelian and cancer mutations",
+    "disease terminology and stratification of diseases by organ system",
+    "gene ontology analysis",
+    "selection of candidates and mutations for experimental validation",
+    "mesc cell line generation",
+    "imaging and image analysis in mescs",
+    "stress condition experiments",
+    "immunofluorescence with human tissue samples",
+    "human cell line experiments",
+    "quantification and statistical analysis",
+    "supplementary material",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 13721,
+  "converted_at": "2026-04-06T22:40:14.483960+00:00"
+}

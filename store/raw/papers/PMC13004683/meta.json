@@ -1,0 +1,366 @@
+{
+  "pmid": "41714746",
+  "pmc": "PMC13004683",
+  "doi": "10.1038/s41591-026-04206-y",
+  "title": "Predicting onset of symptomatic Alzheimerʼs disease with plasma p-tau217 clocks",
+  "journal": "Nature Medicine",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Petersen Kellen K.",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0004 1936 9350Department of Neurology, Washington University in St. Louis, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Milà-Alomà Marta",
+      "affiliations": [
+        "https://ror.org/05p48p517grid.280122.b0000 0004 0498 860XNorthern California Institute for Research and Education, San Francisco, CA USA",
+        "https://ror.org/043mz5j54grid.266102.10000 0001 2297 6811Department of Radiology and Biomedical Imaging, University of California, San Francisco, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Li Yan",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0004 1936 9350Department of Neurology, Washington University in St. Louis, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Du Lianlian",
+      "affiliations": [
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Institute, University of Wisconsin-Madison School of Medicine and Public Health, Madison, WI USA",
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Department of Medicine, University of Wisconsin-Madison School of Medicine and Public Health, Madison, WI USA",
+        "https://ror.org/01j7c0b24grid.240684.c0000 0001 0705 3621Rush Alzheimer’s Disease Center, Chicago, IL USA",
+        "https://ror.org/01j7c0b24grid.240684.c0000 0001 0705 3621Department of Neurological Sciences, Rush University Medical Center, Chicago, IL USA"
+      ]
+    },
+    {
+      "name": "Xiong Chengjie",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Knight Alzheimer Disease Research Center, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Division of Biostatistics, Washington University School of Medicine, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Tosun Duygu",
+      "affiliations": [
+        "https://ror.org/05p48p517grid.280122.b0000 0004 0498 860XNorthern California Institute for Research and Education, San Francisco, CA USA",
+        "https://ror.org/043mz5j54grid.266102.10000 0001 2297 6811Department of Radiology and Biomedical Imaging, University of California, San Francisco, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Saef Benjamin",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0004 1936 9350Department of Neurology, Washington University in St. Louis, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Saad Ziad S.",
+      "affiliations": [
+        "https://ror.org/04z0qye94grid.481670.cPrecision Measures, Johnson & Johnson, San Diego, CA USA"
+      ]
+    },
+    {
+      "name": "Du-Cuny Lei",
+      "affiliations": [
+        "https://ror.org/03538jp08grid.467162.00000 0004 4662 2788AbbVie Deutschland GmbH & Co. KG, Ludwigshafen am Rhein, Germany"
+      ]
+    },
+    {
+      "name": "Coomaraswamy Janaky",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Mordashova Yulia",
+      "affiliations": [
+        "https://ror.org/03538jp08grid.467162.00000 0004 4662 2788AbbVie Deutschland GmbH & Co. KG, Ludwigshafen am Rhein, Germany"
+      ]
+    },
+    {
+      "name": "Rubel Carrie E.",
+      "affiliations": [
+        "https://ror.org/02jqkb192grid.417832.b0000 0004 0384 8146Biogen, Cambridge, MA USA"
+      ]
+    },
+    {
+      "name": "Meyers Emily A.",
+      "affiliations": [
+        "https://ror.org/0375f4d26grid.422384.b0000 0004 0614 7003Alzheimer’s Association, Chicago, IL USA"
+      ]
+    },
+    {
+      "name": "Shaw Leslie M.",
+      "affiliations": [
+        "https://ror.org/00b30xv10grid.25879.310000 0004 1936 8972Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA USA"
+      ]
+    },
+    {
+      "name": "Dage Jeffrey L.",
+      "affiliations": [
+        "https://ror.org/05gxnyn08grid.257413.60000 0001 2287 3919Department of Neurology, Indiana University School of Medicine, Indianapolis, IN USA",
+        "https://ror.org/05gxnyn08grid.257413.60000 0001 2287 3919Stark Neurosciences Research Institute, Indiana University School of Medicine, Indianapolis, IN USA"
+      ]
+    },
+    {
+      "name": "Ashton Nicholas J.",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Institute of Neuroscience and Physiology, Department of Psychiatry and Neurochemistry, The Sahlgrenska Academy at University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/023jwkg52Banner Alzheimer’s Institute, Phoenix, AZ USA",
+        "https://ror.org/04gjkkf30grid.414208.b0000 0004 0619 8759Banner Sun Health Research Institute, Sun City, AZ USA"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Institute of Neuroscience and Physiology, Department of Psychiatry and Neurochemistry, The Sahlgrenska Academy at University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden",
+        "https://ror.org/02wedp412grid.511435.7UK Dementia Research Institute Fluid Biomarkers Laboratory, UK DRI at UCL, London, UK",
+        "https://ror.org/0370htr03grid.72163.310000 0004 0632 8656Department of Neurodegenerative Disease, UCL Queen Square Institute of Neurology, London, UK",
+        "https://ror.org/00q4vv597grid.24515.370000 0004 1937 1450Hong Kong Center for Neurodegenerative Diseases, Hong Kong, China",
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, University of Wisconsin School of Medicine and Public Health, University of Wisconsin-Madison, Madison, WI USA"
+      ]
+    },
+    {
+      "name": "Ferber Kyle",
+      "affiliations": [
+        "https://ror.org/02jqkb192grid.417832.b0000 0004 0384 8146Biogen, Cambridge, MA USA"
+      ]
+    },
+    {
+      "name": "Triana-Baltzer Gallen",
+      "affiliations": [
+        "https://ror.org/04z0qye94grid.481670.cPrecision Measures, Johnson & Johnson, San Diego, CA USA"
+      ]
+    },
+    {
+      "name": "Baratta Michael",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rosenbaugh Erin G.",
+      "affiliations": [
+        "https://ror.org/00k86s890grid.428807.10000 0000 9836 9834Foundation for the National Institutes of Health, North Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Cruchaga Carlos",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Knight Alzheimer Disease Research Center, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Department of Psychiatry, Washington University School of Medicine, St. Louis, MO USA",
+        "https://ror.org/00cvxb145grid.34477.330000 0001 2298 6657NeuroGenomics and Informatics Center, Washington University, St. Louis, MO USA",
+        ""
+      ]
+    },
+    {
+      "name": "McDade Eric",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0004 1936 9350Department of Neurology, Washington University in St. Louis, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Knight Alzheimer Disease Research Center, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Holtzman David M.",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0004 1936 9350Department of Neurology, Washington University in St. Louis, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Knight Alzheimer Disease Research Center, St. Louis, MO USA",
+        ""
+      ]
+    },
+    {
+      "name": "Morris John C.",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0004 1936 9350Department of Neurology, Washington University in St. Louis, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Knight Alzheimer Disease Research Center, St. Louis, MO USA"
+      ]
+    },
+    {
+      "name": "Sabandal J. Martin",
+      "affiliations": [
+        "https://ror.org/00k86s890grid.428807.10000 0000 9836 9834Foundation for the National Institutes of Health, North Bethesda, MD USA"
+      ]
+    },
+    {
+      "name": "Bateman Randall J.",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0004 1936 9350Department of Neurology, Washington University in St. Louis, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Knight Alzheimer Disease Research Center, St. Louis, MO USA",
+        ""
+      ]
+    },
+    {
+      "name": "Bannon Anthony W.",
+      "affiliations": [
+        "https://ror.org/02g5p4n58grid.431072.30000 0004 0572 4227AbbVie, North Chicago, IL USA"
+      ]
+    },
+    {
+      "name": "Potter William Z.",
+      "affiliations": []
+    },
+    {
+      "name": "Schindler Suzanne E.",
+      "affiliations": [
+        "https://ror.org/01yc7t268grid.4367.60000 0004 1936 9350Department of Neurology, Washington University in St. Louis, St. Louis, MO USA",
+        "https://ror.org/01yc7t268grid.4367.60000 0001 2355 7002Knight Alzheimer Disease Research Center, St. Louis, MO USA",
+        ""
+      ]
+    },
+    {
+      "name": "Alzheimer’s Disease Neuroimaging Initiative (ADNI)ShawLeslie M.15",
+      "affiliations": []
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/100000049U.S. Department of Health & Human Services | NIH | National Institute on Aging (U.S. National Institute on Aging)R01AG070941R01AG070941R01AG070941R01AG067505RF1R01AG053550R01AG070941P30AG066444P01AG003991P01AG026276PetersenKellen K.LiYanXiongChengjieSaefBenjaminHoltzmanDavid M.MorrisJohn C.SchindlerSuzanne E.",
+    "https://doi.org/10.13039/100000957Alzheimer's Association",
+    "https://doi.org/10.13039/100005205Janssen Research and Development (Janssen R&D)",
+    "https://doi.org/10.13039/100006483AbbVie (AbbVie Inc.)",
+    "https://doi.org/10.13039/100011957Takeda Pharmaceutical Company Limited | Takeda Oncology",
+    "https://doi.org/10.13039/100006484AbbVie Inc. | AbbVie Deutschland (Abbvie Deutschland)",
+    "Biogen",
+    "https://doi.org/10.13039/100008373Takeda Pharmaceutical Company (Takeda Pharmaceutical Company Limited)"
+  ],
+  "data_availability_text": "Data availabilityThe data that support the findings of this study are not publicly available due to privacy restrictions and participant consent agreements that require controlled access to protect research participant confidentiality. Data from the Knight ADRC can be requested by qualified investigators (https://knightadrc.wustl.edu/professionals-clinicians/request-center-resources/). Data from the ADNI can be requested via the LONI website (https://adni.loni.usc.edu/).",
+  "license": "",
+  "received": "2025-07-06",
+  "accepted": "2025-12-31",
+  "reference_pmids": [
+    "38934362",
+    "38934362",
+    "23446680",
+    "23446680",
+    "22784036",
+    "22784036",
+    "30753379",
+    "30753379",
+    "36357681",
+    "36357681",
+    "36449413",
+    "36449413",
+    "37459141",
+    "37459141",
+    "22133718",
+    "22133718",
+    "28703214",
+    "28703214",
+    "34504028",
+    "34504028",
+    "21280088",
+    "21280088",
+    "40859634",
+    "40859634",
+    "40539416",
+    "40539416",
+    "28444781",
+    "28444781",
+    "32211502",
+    "32211502",
+    "38400792",
+    "38400792",
+    "35856240",
+    "35856240",
+    "35971310",
+    "35971310",
+    "39776249",
+    "39776249",
+    "37295421",
+    "37295421",
+    "36874595",
+    "36874595",
+    "38940656",
+    "38940656",
+    "39394841",
+    "39394841",
+    "38382645",
+    "39468767",
+    "39468767",
+    "39068545",
+    "39068545",
+    "38491912",
+    "36087307",
+    "39575854",
+    "39575854",
+    "34031605",
+    "34031605",
+    "40155777",
+    "40155777",
+    "37932961",
+    "21514250",
+    "21514250",
+    "21514249",
+    "21514249",
+    "39483064",
+    "39483064",
+    "24928124",
+    "24928124",
+    "27583651",
+    "27583651",
+    "40164726",
+    "40164726",
+    "40337464",
+    "40337464",
+    "35213383",
+    "35213383",
+    "30316776",
+    "30316776",
+    "35908251",
+    "35908251",
+    "40729527",
+    "40729527",
+    "40388185",
+    "40388185",
+    "39800462",
+    "39800462",
+    "22748936",
+    "22748936",
+    "39614747",
+    "39614747",
+    "8232972",
+    "8232972"
+  ],
+  "tables_count": 3,
+  "figures_count": 13,
+  "sections_present": [
+    "abstract",
+    "main",
+    "results",
+    "development and validation of plasma %p-tau217 clock models",
+    "modeling the probability of developing symptomatic ad",
+    "predicting the age of ad symptom onset",
+    "examining predicted ad symptom onset across longitudinal cognitive assessments",
+    "alignment of biological ad stages and plasma %p-tau217-derived measures",
+    "development of additional plasma clocks",
+    "discussion",
+    "methods",
+    "study participants",
+    "plasma biomarkers",
+    "clinical and cognitive assessments",
+    "amyloid and tau pet imaging",
+    "cohorts",
+    "statistical analysis",
+    "development and validation of plasma %p-tau217 clock models",
+    "modeling the probability of developing symptomatic ad",
+    "estimating the age of ad symptom onset",
+    "examining predicted ad symptom onset across longitudinal cognitive assessments",
+    "alignment of biological ad stages and plasma %p-tau217-derived measures",
+    "development of additional plasma clocks",
+    "software used",
+    "reporting summary",
+    "online content",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 13560,
+  "converted_at": "2026-04-06T22:39:35.098134+00:00"
+}

@@ -1,0 +1,296 @@
+{
+  "pmid": "40350531",
+  "pmc": "PMC12067741",
+  "doi": "10.1186/s40035-025-00483-8",
+  "title": "Inhibition of SOD1 trimerization is a novel drug target for ALS disease",
+  "journal": "Translational Neurodegeneration",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Woo Tae-Gyun",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Han Jin",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Yuju",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Hwang Young jun",
+      "affiliations": [
+        "https://ror.org/01an57a31grid.262229.f0000 0001 0719 8572Department of Molecular Biology, College of Natural Science, Pusan National University, Busan, 46241 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Lee Mua",
+      "affiliations": [
+        "https://ror.org/01an57a31grid.262229.f0000 0001 0719 8572Department of Molecular Biology, College of Natural Science, Pusan National University, Busan, 46241 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kang So-mi",
+      "affiliations": [
+        "https://ror.org/01an57a31grid.262229.f0000 0001 0719 8572Department of Molecular Biology, College of Natural Science, Pusan National University, Busan, 46241 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Park Soyoung",
+      "affiliations": [
+        "https://ror.org/01an57a31grid.262229.f0000 0001 0719 8572Department of Molecular Biology, College of Natural Science, Pusan National University, Busan, 46241 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Ji Yeongseon",
+      "affiliations": [
+        "https://ror.org/01an57a31grid.262229.f0000 0001 0719 8572Department of Molecular Biology, College of Natural Science, Pusan National University, Busan, 46241 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Chung Yeon-Ho",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Baek Songyoung",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Shin Eunbyeol",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Minju-Kim",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Jang Hyewon",
+      "affiliations": [
+        "https://ror.org/04h9pn542grid.31501.360000 0004 0470 5905Department of Agricultural Biotechnology, Seoul National University, Seoul, 08826 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Shin Yun-Jeong",
+      "affiliations": [
+        "https://ror.org/04h9pn542grid.31501.360000 0004 0470 5905Department of Agricultural Biotechnology, Seoul National University, Seoul, 08826 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kwon Yonghoon",
+      "affiliations": [
+        "https://ror.org/04h9pn542grid.31501.360000 0004 0470 5905Department of Agricultural Biotechnology, Seoul National University, Seoul, 08826 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Bae-Hoon",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea",
+        "https://ror.org/01an57a31grid.262229.f0000 0001 0719 8572Department of Molecular Biology, College of Natural Science, Pusan National University, Busan, 46241 Republic of Korea"
+      ]
+    },
+    {
+      "name": "Park Bum-Joon",
+      "affiliations": [
+        "https://ror.org/02sr2ee220000 0005 1358 9245Institute of Rare Genetic Disease, PRG S&Tech Co., LTD, Busan, 46274 Republic of Korea",
+        "https://ror.org/01an57a31grid.262229.f0000 0001 0719 8572Department of Molecular Biology, College of Natural Science, Pusan National University, Busan, 46241 Republic of Korea"
+      ]
+    }
+  ],
+  "keywords": [
+    "Amyotrophic lateral sclerosis disease",
+    "SOD1 aggregation",
+    "SOD1 trimer",
+    "Neurodegeneration",
+    "Non-clinical study"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/501100014188Ministry of Science and ICT, South KoreaRS-2024-00399681RS-2024-00339289ParkBum-Joon",
+    "http://dx.doi.org/10.13039/501100004080Korea Drug Development FundRS-2023-00258714KimBae-Hoon"
+  ],
+  "data_availability_text": "Availability of data and materialsAll data generated in this study are included in this published article. Mouse behavior datasets are shown in Supplementary video files. Raw datasets during the current study are available from the corresponding author upon request.",
+  "license": "",
+  "received": "2024-11-11",
+  "accepted": "2025-03-28",
+  "reference_pmids": [
+    "26515618",
+    "26515618",
+    "31361627",
+    "31361627",
+    "34247168",
+    "34247168",
+    "28700839",
+    "28700839",
+    "36543887",
+    "36543887",
+    "34372914",
+    "34372914",
+    "28382000",
+    "28382000",
+    "21402743",
+    "21402743",
+    "31727149",
+    "31727149",
+    "23762454",
+    "23762454",
+    "11090865",
+    "11090865",
+    "28522181",
+    "28522181",
+    "30010620",
+    "30010620",
+    "36129998",
+    "36129998",
+    "22069317",
+    "22069317",
+    "12627974",
+    "12627974",
+    "39031772",
+    "39031772",
+    "36705279",
+    "36705279",
+    "28170377",
+    "28170377",
+    "33986301",
+    "33986301",
+    "28332488",
+    "28332488",
+    "11433374",
+    "11433374",
+    "27830784",
+    "27830784",
+    "39009686",
+    "39009686",
+    "28247063",
+    "28247063",
+    "39502740",
+    "39502740",
+    "39050823",
+    "39050823",
+    "24379756",
+    "24379756",
+    "20953194",
+    "20953194",
+    "30992335",
+    "30992335",
+    "17469116",
+    "17469116",
+    "34912047",
+    "34912047",
+    "22493728",
+    "22493728",
+    "36803602",
+    "36803602",
+    "29713012",
+    "29713012",
+    "11357156",
+    "11357156",
+    "33328890",
+    "33328890",
+    "33177049",
+    "33177049",
+    "29666246",
+    "29666246",
+    "26719414",
+    "26719414",
+    "33465527",
+    "33465527",
+    "35505609",
+    "35505609",
+    "38446760",
+    "38446760",
+    "37782142",
+    "37782142",
+    "30518612",
+    "30518612",
+    "25889964",
+    "25889964",
+    "1970230",
+    "1970230",
+    "17328689",
+    "17328689",
+    "18425089",
+    "18425089",
+    "25186238",
+    "25186238",
+    "29192260",
+    "29192260",
+    "37752364",
+    "37752364",
+    "30388515",
+    "30388515",
+    "25847539",
+    "25847539",
+    "35994036",
+    "35994036",
+    "21257637",
+    "21257637",
+    "37813308",
+    "37813308",
+    "34115105",
+    "34115105",
+    "30643298",
+    "30643298",
+    "30643292",
+    "30643292",
+    "32790644",
+    "32790644",
+    "36927019",
+    "36927019",
+    "37433765",
+    "37433765",
+    "28737506",
+    "28737506"
+  ],
+  "tables_count": 0,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "transgenic mice",
+    "drug treatment in vivo and histological analysis",
+    "motor performance assessment",
+    "cell culture and reagents",
+    "recombinant proteins",
+    "western blot analysis",
+    "dot blot analysis",
+    "lc–ms/ms analysis",
+    "immunofluorescence staining",
+    "transfection of vectors",
+    "microarray analysis",
+    "measurement of cell viability",
+    "chemical synthesis",
+    "statistical analysis",
+    "results",
+    "optimization of the sod1 aggregation inhibitor prg-a-04",
+    "prg-a-04 targets trimeric sod1 to inhibit sod1 aggregation",
+    "sod1 propagation through trimeric sod1 formation in neurons",
+    "in vivo effect of prg-a-04 on",
+    "in vitro adme (absorption, distribution, metabolism, excretion) analysis shows druggable property of prg-a-04",
+    "discussion",
+    "conclusions",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 13211,
+  "converted_at": "2026-04-06T22:36:55.991449+00:00"
+}

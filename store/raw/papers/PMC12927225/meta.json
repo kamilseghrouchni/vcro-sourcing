@@ -1,0 +1,195 @@
+{
+  "pmid": "41692724",
+  "pmc": "PMC12927225",
+  "doi": "10.1186/s12014-026-09589-1",
+  "title": "Shake and bake: a robust and cost-effective proteomic sample preparation workflow for plasma and cerebrospinal fluid",
+  "journal": "Clinical Proteomics",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Rönnholm John",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience & Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden"
+      ]
+    },
+    {
+      "name": "Weiner Sophia",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience & Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden"
+      ]
+    },
+    {
+      "name": "Fuchs Johannes",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Proteomics Core Facility, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden"
+      ]
+    },
+    {
+      "name": "Thorsell Annika",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Proteomics Core Facility, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden"
+      ]
+    },
+    {
+      "name": "Sihlbom Carina",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Proteomics Core Facility, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden"
+      ]
+    },
+    {
+      "name": "Dugom Laura",
+      "affiliations": [
+        "https://ror.org/03fsqvg680000 0004 7777 5787Target ALS Foundation, NY New York, USA"
+      ]
+    },
+    {
+      "name": "Easton Amy",
+      "affiliations": [
+        "https://ror.org/03fsqvg680000 0004 7777 5787Target ALS Foundation, NY New York, USA"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience & Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden",
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Department of Pathology and Laboratory Medicine, University of Wisconsin School of Medicine and Public Health, Madison, WI USA",
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, School of Medicine and Public Health, University of Wisconsin, University of Wisconsin-Madison, Madison, WI USA",
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Department of Neurodegenerative Disease, Institute of Neurology, University College London, London, UK",
+        "https://ror.org/02jx3x895grid.83440.3b0000000121901201Dementia Research Institute, University College London, London, UK",
+        "https://ror.org/00q4vv597grid.24515.370000 0004 1937 1450Hong Kong Center for Neurodegenerative Diseases, Hong Kong, China",
+        "https://ror.org/05j873a45grid.464869.10000 0000 9288 3664Centre for Brain Research, Indian Institute of Science, Bangalore, India"
+      ]
+    },
+    {
+      "name": "Gobom Johan",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience & Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden"
+      ]
+    }
+  ],
+  "keywords": [
+    "Plasma proteomics",
+    "CSF proteomics",
+    "Protein depletion",
+    "Sample preparation",
+    "DIA",
+    "TMT",
+    "Quantification",
+    "Neurodegenerative diseases"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "University of Gothenburg"
+  ],
+  "data_availability_text": "Data availabilityMS data from the clinical study of ALS can be obtained through the Target ALS foundation (full data set available via Target ALS: [https://www.targetals.org/](https:/www.targetals.org)).DIA data, spectral library and Spectronaut analysis files have been deposited to the MassIVE repository with the dataset identifier MSV000099682.",
+  "license": "",
+  "received": "2025-11-09",
+  "accepted": "2026-02-04",
+  "reference_pmids": [
+    "36642485",
+    "36642485",
+    "40665050",
+    "40665050",
+    "37045847",
+    "37045847",
+    "40205199",
+    "40205199",
+    "32485097",
+    "32485097",
+    "39159935",
+    "39159935",
+    "38195725",
+    "38195725",
+    "34791804",
+    "34791804",
+    "15274023",
+    "15274023",
+    "34687543",
+    "34687543",
+    "32176508",
+    "32176508",
+    "16332733",
+    "16332733",
+    "32699280",
+    "32699280",
+    "40829696",
+    "40829696",
+    "16645983",
+    "16645983",
+    "40976565",
+    "40976565",
+    "38382157",
+    "38382157",
+    "16602700",
+    "16602700",
+    "35944843",
+    "35944843",
+    "36384809",
+    "36384809",
+    "33087358",
+    "33087358",
+    "39107835",
+    "39107835",
+    "40329321",
+    "40329321",
+    "34548498",
+    "34548498",
+    "38325331",
+    "38325331",
+    "30171200",
+    "30171200",
+    "39825149",
+    "39825149",
+    "25613900",
+    "25613900",
+    "40366296",
+    "40366296",
+    "38235188",
+    "38235188",
+    "23792921",
+    "23792921"
+  ],
+  "tables_count": 0,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods",
+    "aim and study design",
+    "materials",
+    "total protein quantification",
+    "depletion of plasma and csf samples",
+    "reduction, alkylation, and proteolytic digestion",
+    "detergent removal and desalting for data-independent analysis",
+    "tmtpro labeling and desalting",
+    "offline high-ph reverse phase liquid chromatography sample fractionation",
+    "timstof dia lc–ms",
+    "orbitrap lc–ms",
+    "tmt data analysis",
+    "dia data analysis",
+    "generation of the spectral library",
+    "statistics",
+    "results",
+    "depletion of high-abundance proteins",
+    "determining the optimal resin-to-plasma-ratio",
+    "effect of mixing speed and resin dilution on depletion efficiency",
+    "effect of depletion on plasma proteome analysis",
+    "effect of depletion on csf proteome analysis",
+    "protein digestion",
+    "protease selection and addition",
+    "effect of deoxycholate",
+    "overlap of the csf and plasma proteomes",
+    "evaluation of technical reproducibility in a clinical study",
+    "discussion",
+    "conclusions",
+    "supplementary information",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 9930,
+  "converted_at": "2026-04-06T22:39:14.867397+00:00"
+}

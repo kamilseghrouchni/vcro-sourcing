@@ -1,0 +1,750 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="acn351890" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ann Clin Transl Neurol</journal-id><journal-id journal-id-type="iso-abbrev">Ann Clin Transl Neurol</journal-id><journal-id journal-id-type="pmc-domain-id">2565</journal-id><journal-id journal-id-type="pmc-domain">ancltransneuro</journal-id><journal-id journal-id-type="publisher-id">ACN3</journal-id><journal-title-group><journal-title>Annals of Clinical and Translational Neurology</journal-title></journal-title-group><issn pub-type="epub">2328-9503</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10647001</article-id><article-id pub-id-type="pmcid-ver">PMC10647001.1</article-id><article-id pub-id-type="pmcaid">10647001</article-id><article-id pub-id-type="pmcaiid">10647001</article-id><article-id pub-id-type="pmid">37646115</article-id><article-id pub-id-type="doi">10.1002/acn3.51890</article-id><article-id pub-id-type="publisher-id">ACN351890</article-id><article-id pub-id-type="other">ACN3-2023-07-0543</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Proteomics and mathematical modeling of longitudinal <styled-content style="fixed-case" toggle="no">CSF</styled-content> differentiates fast versus slow <styled-content style="fixed-case" toggle="no">ALS</styled-content> progression</article-title><alt-title alt-title-type="right-running-head">Longitudinal Biomarkers of <styled-content style="fixed-case" toggle="no">ALS</styled-content> Disease Progression</alt-title><alt-title alt-title-type="left-running-head">L. Vu <italic toggle="no">et al.</italic>
+</alt-title></title-group><contrib-group><contrib id="acn351890-cr-0001" contrib-type="author"><name name-style="western"><surname>Vu</surname><given-names initials="L">Lucas</given-names></name><xref rid="acn351890-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acn351890-cr-0002" contrib-type="author"><name name-style="western"><surname>Garcia‐Mansfield</surname><given-names initials="K">Krystine</given-names></name><xref rid="acn351890-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="acn351890-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="acn351890-cr-0003" contrib-type="author"><name name-style="western"><surname>Pompeiano</surname><given-names initials="A">Antonio</given-names></name><xref rid="acn351890-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="acn351890-cr-0004" contrib-type="author"><name name-style="western"><surname>An</surname><given-names initials="J">Jiyan</given-names></name><xref rid="acn351890-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acn351890-cr-0005" contrib-type="author"><name name-style="western"><surname>David‐Dirgo</surname><given-names initials="V">Victoria</given-names></name><xref rid="acn351890-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="acn351890-cr-0006" contrib-type="author"><name name-style="western"><surname>Sharma</surname><given-names initials="R">Ritin</given-names></name><xref rid="acn351890-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="acn351890-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="acn351890-cr-0007" contrib-type="author"><name name-style="western"><surname>Venugopal</surname><given-names initials="V">Vinisha</given-names></name><xref rid="acn351890-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acn351890-cr-0008" contrib-type="author"><name name-style="western"><surname>Halait</surname><given-names initials="H">Harkeerat</given-names></name><xref rid="acn351890-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acn351890-cr-0009" contrib-type="author"><name name-style="western"><surname>Marcucci</surname><given-names initials="G">Guido</given-names></name><xref rid="acn351890-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="acn351890-cr-0010" contrib-type="author"><name name-style="western"><surname>Kuo</surname><given-names initials="YH">Ya‐Huei</given-names></name><xref rid="acn351890-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="acn351890-cr-0011" contrib-type="author"><name name-style="western"><surname>Uechi</surname><given-names initials="L">Lisa</given-names></name><xref rid="acn351890-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="acn351890-cr-0012" contrib-type="author"><name name-style="western"><surname>Rockne</surname><given-names initials="RC">Russell C.</given-names></name><xref rid="acn351890-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="acn351890-cr-0013" contrib-type="author"><name name-style="western"><surname>Pirrotte</surname><given-names initials="P">Patrick</given-names></name><xref rid="acn351890-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="acn351890-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="acn351890-note-0001" ref-type="author-notes">
+<sup>
+<sup>#</sup>
+</sup>
+</xref></contrib><contrib id="acn351890-cr-0014" contrib-type="author" corresp="yes"><name name-style="western"><surname>Bowser</surname><given-names initials="R">Robert</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5404-7259</contrib-id><xref rid="acn351890-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="acn351890-note-0001" ref-type="author-notes">
+<sup>
+<sup>#</sup>
+</sup>
+</xref><address><email>robert.bowser@dignityhealth.org</email></address></contrib></contrib-group><aff id="acn351890-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Translational Neuroscience</named-content>
+<institution>Barrow Neurological Institute</institution>
+<city>Phoenix</city>
+<named-content content-type="country-part">Arizona</named-content>
+<postal-code>85013</postal-code>
+<country country="US">USA</country>
+</aff><aff id="acn351890-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Cancer &amp; Cell Biology Division</named-content>
+<institution>Translational Genomics Research Institute</institution>
+<city>Phoenix</city>
+<named-content content-type="country-part">Arizona</named-content>
+<postal-code>85004</postal-code>
+<country country="US">USA</country>
+</aff><aff id="acn351890-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Integrated Mass Spectrometry, City of Hope Comprehensive Cancer Center</institution>
+<city>Duarte</city>
+<named-content content-type="country-part">California</named-content>
+<postal-code>19050</postal-code>
+<country country="US">USA</country>
+</aff><aff id="acn351890-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">International Clinical Research Center</named-content>
+<institution>St. Anne's University Hospital</institution>
+<city>Brno</city>
+<country country="CZ">Czech Republic</country>
+</aff><aff id="acn351890-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Hematologic Malignances Translational Science, Gehr Family Center for Leukemia Research</named-content>
+<institution>Beckman Research Institute, City of Hope Medical Center</institution>
+<city>Duarte</city>
+<named-content content-type="country-part">California</named-content>
+<postal-code>91010</postal-code>
+<country country="US">USA</country>
+</aff><aff id="acn351890-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Computational and Quantitative Medicine</named-content>
+<institution>Beckman Research Institute, City of Hope Medical Center</institution>
+<city>Duarte</city>
+<named-content content-type="country-part">California</named-content>
+<postal-code>91010</postal-code>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Robert Bowser, Department of Translational Neuroscience, Barrow Neurological Institute &amp; St. Joseph's Hospital and Medical Center, 350 West Thomas Road, 8th Floor, HLT, Phoenix, AZ 85013, USA. Tel: +1 602‐406‐8989; Fax: +1 602-406-6459; E‐mail: <email>robert.bowser@dignityhealth.org</email>
+<break/>
+</corresp><fn id="acn351890-note-0001"><label>
+<sup>#</sup>
+</label><p>Co‐senior authors.</p></fn></author-notes><pub-date pub-type="epub"><day>30</day><month>8</month><year>2023</year></pub-date><pub-date pub-type="collection"><month>11</month><year>2023</year></pub-date><volume>10</volume><issue seq="70">11</issue><issue-id pub-id-type="pmc-issue-id">449172</issue-id><issue-id pub-id-type="doi">10.1002/acn3.v10.11</issue-id><fpage>2025</fpage><lpage>2042</lpage><history><date date-type="received"><day>20</day><month>7</month><year>2023</year></date><date date-type="accepted"><day>12</day><month>8</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>30</day><month>08</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>30</day><month>08</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-08-28 23:25:44.280"><day>28</day><month>08</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2023 The Authors. <italic toggle="yes">Annals of Clinical and Translational Neurology</italic> published by Wiley Periodicals LLC on behalf of American Neurological Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ACN3-10-2025.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ACN3-10-2025.pdf"/><abstract><title>Abstract</title><sec id="acn351890-sec-0001"><title>Objective</title><p>Amyotrophic lateral sclerosis (ALS) is a heterogeneous disease with a complex etiology that lacks biomarkers predicting disease progression. The objective of this study was to use longitudinal cerebrospinal fluid (CSF) samples to identify biomarkers that distinguish fast progression (FP) from slow progression (SP) and assess their temporal response.</p></sec><sec id="acn351890-sec-0002"><title>Methods</title><p>We utilized mass spectrometry (MS)‐based proteomics to identify candidate biomarkers using longitudinal CSF from a discovery cohort of SP and FP ALS patients. Immunoassays were used to quantify and validate levels of the top biomarkers. A state‐transition mathematical model was created using the longitudinal MS data that also predicted FP versus SP.</p></sec><sec id="acn351890-sec-0003"><title>Results</title><p>We identified a total of 1148 proteins in the CSF of all ALS patients. Pathway analysis determined enrichment of pathways related to complement and coagulation cascades in FPs and synaptogenesis and glucose metabolism in SPs. Longitudinal analysis revealed a panel of 59 candidate markers that could segregate FP and SP ALS. Based on multivariate analysis, we identified three biomarkers (F12, RBP4, and SERPINA4) as top candidates that segregate ALS based on rate of disease progression. These proteins were validated in the discovery and a separate validation cohort. Our state‐transition model determined that the overall variance of the proteome over time was predictive of the disease progression rate.</p></sec><sec id="acn351890-sec-0004"><title>Interpretation</title><p>We identified pathways and protein biomarkers that distinguish rate of ALS disease progression. A mathematical model of the CSF proteome determined that the change in entropy of the proteome over time was predictive of FP versus SP.</p></sec></abstract><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Barrow Neurological Foundation
+</institution><institution-id institution-id-type="doi">10.13039/100009797</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>National Cancer Institute
+</institution><institution-id institution-id-type="doi">10.13039/100000054</institution-id></institution-wrap></funding-source><award-id>CA033572</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>National Institute of Neurological Disorders and Stroke
+</institution><institution-id institution-id-type="doi">10.13039/100000065</institution-id></institution-wrap></funding-source><award-id>NS061867</award-id></award-group><funding-statement>This work was funded by <funding-source><institution-wrap><institution>Barrow Neurological Foundation
+</institution><institution-id institution-id-type="doi">10.13039/100009797</institution-id></institution-wrap></funding-source>; <funding-source><institution-wrap><institution>National Cancer Institute
+</institution><institution-id institution-id-type="doi">10.13039/100000054</institution-id></institution-wrap></funding-source> grant <award-id>CA033572</award-id>; <funding-source><institution-wrap><institution>National Institute of Neurological Disorders and Stroke
+</institution><institution-id institution-id-type="doi">10.13039/100000065</institution-id></institution-wrap></funding-source> grant <award-id>NS061867</award-id>.</funding-statement></funding-group><counts><fig-count count="8"/><table-count count="3"/><page-count count="2042"/><word-count count="9563"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>November 2023</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.3.4 mode:remove_FC converted:15.11.2023</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="acn351890-body-0001"><sec id="acn351890-sec-0005"><title>Introduction</title><p>Amyotrophic lateral sclerosis (ALS) is a progressive and eventually fatal neurodegenerative disease.<xref rid="acn351890-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> Clinical manifestation of the disease is variable and can mimic other neurodegenerative diseases in early disease course. In addition to clinical heterogeneity, ALS is also associated with numerous pathogenic mechanisms resulting in a heterogeneous patient population.<xref rid="acn351890-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> Biomarkers that highlight specific disease mechanisms may aid drug development or stratify and/or enrich for a more homogenous subset of patients for clinical trials.</p><p>Currently, neurofilament light chain (NfL)<xref rid="acn351890-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="acn351890-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> and phosphorylated neurofilament heavy chain (pNFH)<xref rid="acn351890-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> are the most promising biomarkers for ALS and have been used as exploratory outcome measures in ALS clinical trials,<xref rid="acn351890-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="acn351890-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> with treatment response reductions of NfL supportive for the recent FDA approval of QALSODY for ALS patients with SOD1 mutations.<xref rid="acn351890-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> Neurofilaments have been studied extensively in cerebrospinal fluid (CSF) and blood and have demonstrated potential diagnostic and prognostic utility.<xref rid="acn351890-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> Levels of neurofilament proteins in CSF have also been shown to differentiate ALS patients with fast disease progression (FP) from those with slow disease progression (SP), with SP typically exhibiting lower levels of neurofilament in biofluids than FPs.<xref rid="acn351890-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="acn351890-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="acn351890-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> While recent studies have explored longitudinal changes of individual biomarker proteins in blood or CSF of ALS patients, the use of unbiased methodologies to further discover longitudinal biomarkers for ALS is lacking. Such information may help identify pathologic mechanisms more specific to clinical subtypes of ALS or exhibit alterations throughout the disease course.</p><p>In this study, we performed shotgun proteomics on longitudinal CSF samples collected from a discovery cohort of eleven ALS patients consisting of six FPs and five SPs. We identified a combination of three biomarkers, retinoid binding protein 4 (RBP4), kallistatin (SERPINA4), and coagulation factor XII (F12), as the top candidates that segregate FPs from SPs. These results were validated in a separate patient cohort. Using computational workflows and mathematical models we discovered that the variance of the proteome over time within the individual differentiated FP from SP. Our results identified proteins, pathways, and a novel mathematical model that distinguish FP from SP forms of ALS, highlighting the potential to stratify the ALS population based on CSF proteomics that may be beneficial for downstream drug development.</p></sec><sec sec-type="methods" id="acn351890-sec-0006"><title>Methods</title><sec id="acn351890-sec-0007"><title>
+<styled-content style="fixed-case" toggle="no">CSF</styled-content> sample collection</title><p>CSF was collected over three or more clinic visits from 22 ALS patients and obtained from the Northeast ALS Consortium (NEALS) Biofluid Repository (Table <xref rid="acn351890-tbl-0001" ref-type="table">1</xref>) and separated into discovery and validation cohorts. All ALS subjects were defined by El Escorial criteria by experienced neurologists and provided IRB approved informed consent at the time of enrollment. CSF was collected using methods previously described.<xref rid="acn351890-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> Patients were segregated into FP and SP based on the change over time in their ALS Functional Rating Scale revised (ALSFRS‐R) scores which we defined as their progression rate. FP was defined as those that exhibited a disease progression rate ≥1 unit/month and SP had a disease progression rate &lt;0.5 units/month.</p><table-wrap position="float" id="acn351890-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Patient demographics.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Code</th><th align="left" valign="bottom" rowspan="1" colspan="1">Number of visits</th><th align="left" valign="bottom" rowspan="1" colspan="1">Time elapsed between baseline and last visit (months)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Sex</th><th align="left" valign="bottom" rowspan="1" colspan="1">Age at symptom onset</th><th align="left" valign="bottom" rowspan="1" colspan="1">Age at first visit</th><th align="left" valign="bottom" rowspan="1" colspan="1">Change in ALSFRS‐r/month</th><th align="left" valign="bottom" rowspan="1" colspan="1">Rate of progression</th><th align="left" valign="bottom" rowspan="1" colspan="1">Onset site</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Discovery</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S1</td><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="left" valign="top" rowspan="1" colspan="1">28</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">43</td><td align="left" valign="top" rowspan="1" colspan="1">46</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.32</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S2</td><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="left" valign="top" rowspan="1" colspan="1">24</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">53</td><td align="left" valign="top" rowspan="1" colspan="1">57</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.29</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S3</td><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="left" valign="top" rowspan="1" colspan="1">20</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">31</td><td align="left" valign="top" rowspan="1" colspan="1">65</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.21</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Bulbar</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S4</td><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="left" valign="top" rowspan="1" colspan="1">18</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">56</td><td align="left" valign="top" rowspan="1" colspan="1">57</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.00</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S5</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">6</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">34</td><td align="left" valign="top" rowspan="1" colspan="1">36</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.28</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F1</td><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="left" valign="top" rowspan="1" colspan="1">13</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">56</td><td align="left" valign="top" rowspan="1" colspan="1">57</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.69</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Bulbar</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F2</td><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="left" valign="top" rowspan="1" colspan="1">12</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">65</td><td align="left" valign="top" rowspan="1" colspan="1">67</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.66</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F3</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">8</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">54</td><td align="left" valign="top" rowspan="1" colspan="1">55</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.50</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F4</td><td align="left" valign="top" rowspan="1" colspan="1">5</td><td align="left" valign="top" rowspan="1" colspan="1">35</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">59</td><td align="left" valign="top" rowspan="1" colspan="1">59</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.00</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F5</td><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="left" valign="top" rowspan="1" colspan="1">21</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">52</td><td align="left" valign="top" rowspan="1" colspan="1">53</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.33</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F6</td><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="left" valign="top" rowspan="1" colspan="1">20</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">40</td><td align="left" valign="top" rowspan="1" colspan="1">41</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.67</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Validation</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S6</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">12</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">58</td><td align="left" valign="top" rowspan="1" colspan="1">65</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.03</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S7</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">8</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">38</td><td align="left" valign="top" rowspan="1" colspan="1">41</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.07</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S8</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">11</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">66</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.48</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Bulbar</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S9</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">8</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">27</td><td align="left" valign="top" rowspan="1" colspan="1">43</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.03</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S10</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">9</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">46</td><td align="left" valign="top" rowspan="1" colspan="1">54</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.17</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">S11</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">9</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">66</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.12</td><td align="left" valign="top" rowspan="1" colspan="1">Slow</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F7</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">8</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">N/A</td><td align="left" valign="top" rowspan="1" colspan="1">51</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.50</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F8</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">7</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">52</td><td align="left" valign="top" rowspan="1" colspan="1">53</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.37</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F9</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">6</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">54</td><td align="left" valign="top" rowspan="1" colspan="1">55</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.67</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F10</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">8</td><td align="left" valign="top" rowspan="1" colspan="1">F</td><td align="left" valign="top" rowspan="1" colspan="1">58</td><td align="left" valign="top" rowspan="1" colspan="1">59</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.34</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F11</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">8</td><td align="left" valign="top" rowspan="1" colspan="1">M</td><td align="left" valign="top" rowspan="1" colspan="1">75</td><td align="left" valign="top" rowspan="1" colspan="1">77</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.05</td><td align="left" valign="top" rowspan="1" colspan="1">Fast</td><td align="left" valign="top" rowspan="1" colspan="1">Limb</td></tr></tbody></table><table-wrap-foot id="acn351890-ntgp-0002"><fn id="acn351890-note-0002"><p>Patient demographics from both discovery and validation cohorts used in this study. Each patient was characterized as having fast progressing (FP) or slow progressing (SP) ALS based on the rate of change in ALSFRS‐r over time. FP was defined as those that exhibited a rate of change ≥1 unit/month. SP was defined as those that exhibited a rate of change &lt;0.5 unit/month. No significant differences in age at onset (<italic toggle="yes">p</italic> = 0.14), onset site (<italic toggle="yes">p</italic> = 0.99) or sex (<italic toggle="yes">p</italic> = 0.57) were observed in the discovery cohort. No significant differences in age at onset (<italic toggle="yes">p</italic> = 0.61), onset site (p = 0.99), or sex (<italic toggle="yes">p</italic> = 0.99) were observed in the validation cohort. F = female; M = male; N/A – not available.</p></fn></table-wrap-foot></table-wrap></sec><sec id="acn351890-sec-0008"><title>
+<styled-content style="fixed-case" toggle="no">CSF</styled-content> sample preparation</title><p>One milliliter of each CSF sample was thawed on ice and concentrated using Amicon Ultra (3 kDa molecular weight cutoff) centrifugal filter spin columns (Millipore Sigma, Burlington, MA). Columns were conditioned with HPLC grade water and CSF samples were added and spun at 10,000 × g for 45 min. The columns were subsequently inverted and spun at 1000 × g for 2 min and remaining volume (50 μL) collected in low binding tubes. Protein Separation Buffer A (Millipore Sigma, Burlington, MA) was added up to a volume of 200 μL. Concentrated CSF samples were subsequently added to spin cartridges for depletion of six abundant proteins (Agilent, Santa Clara, CA, Cat #5188‐5230). Prior to addition of the CSF samples, each depletion column was conditioned with Buffer A. CSF samples were then loaded and spun at 100 × g for 2 min. Buffer A was added and spun at 100 × g for 3 min. The eluates were collected and subjected to buffer exchange using the Amicon Ultra (3 kDa molecular weight cut‐off) centrifugal filter spin columns. These columns were conditioned with 50 mM ammonium bicarbonate (Ambic) and spun at 10,000 × <italic toggle="yes">g</italic> for 10 min. The eluate from the depletion steps were added to the columns and spun at 10,000 × g for 45 min. 50 mM Ambic was added and spun at 10,000 × <italic toggle="yes">g</italic> for 45 min. The columns were inverted, spun at 1000 × g for 2 min, and the remaining volume (50 μL) collected in low bind tubes. Rapigest (Waters, Milford, MA) was added to the CSF samples for a final concentration of 0.1% (v/v) to aid with denaturation. Proteins were reduced by incubating with 10 mM dithiothreitol (DTT) for 1 h at 60°C and alkylated with 40 mM iodoacetamide for 30 min at room temperature. Digestion was performed using Trypsin Gold (Promega, Madison, WI) at 1:20 ratio and incubated overnight at 37°C. After digestion, trypsin was inactivated by adding trifluoroacetic acid (TFA) to a final concentration of 0.5% (v/v). Peptides were desalted using a Sep‐PAK C18 96 well plate (Waters) and resuspended in 0.1% formic acid solution.</p></sec><sec id="acn351890-sec-0009"><title>Mass spectrometry</title><p>Mass spectrometry data were acquired on a Thermo Orbitrap Fusion Lumos mass spectrometer interfaced with a Waters nanoAcquity UPLC system. Peptides were first loaded on a trap column (Waters Symmetry C18, 100 Å, 5 μm, 180 μm × 20 mm) at a flowrate of 7.5 μL/min for 10 min using 99.5% A (Water, 0.1% formic acid) and 0.5% B (Acetonitrile, 0.1% formic acid). Post‐loading, the trap column was brought in‐line with the analytical column (Waters Peptide BEH C18, 130 Å, 1.7 μm, 100 μm × 100 mm) and peptides were eluted over 95 min at a flowrate of 500 nL/min using the following gradient: 3–7% B in 1 min, 7–25% B in 72 min, 25–45% B in 10 min, 45–90% B in 0.5 min, isocratic at 90% B for 1 min followed by return to initial conditions in 0.5 min and column re‐equilibration for 10 min. The mass spectrometer was operated in data dependent mode with the following parameters: Spray voltage of 1800 V, ion transfer tube temperature of 275°C, full scan in Orbitrap over the scan range (m/z) of 400–1500 and a resolution of 120,000. Following parent scan, top most abundant m/z peaks were fragmented via HCD (CE 30%) and detection in ion trap. Only precursors with charge state 2–7 selected for MS/MS, and a dynamic exclusion duration of 60 seconds was employed to prevent resampling of the same precursors. The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository<xref rid="acn351890-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> with the dataset identifier PXD035026.</p></sec><sec id="acn351890-sec-0010"><title>Protein identification and quantification</title><p>Raw spectra were searched in MaxQuant v1.5.2.8 against a <italic toggle="yes">Homo sapiens</italic> database (Swissprot/UniProtKB, 2017) using the Label Free Quantitation (LFQ) method with trypsin digestion. Peptides were allowed a maximum of two missed cleavages. N‐term acetylation and methionine oxidation were set as variable modifications, and cysteine carbamidomethyl as a fixed modification. Precursor ion tolerance of 4.5 ppm and ion fragment tolerance of 20 ppm were used for peptide confidence.</p></sec><sec id="acn351890-sec-0011"><title>Statistical analysis</title><p>Data were background corrected and normalized by variance stabilizing transformation (vsn function in limma R package). Batch effects were adjusted (removeBatchEffect function in limma R package) and differential protein abundance analysis was performed with the <italic toggle="yes">DEP</italic> R package.<xref rid="acn351890-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> Normalized LFQ intensities were used to calculate differential protein abundance between FPs and SPs at the first time point and last time point collected for patients in each group. Proteins that exhibited a fold‐change &gt;1.5 and an adjusted <italic toggle="yes">p‐</italic>value ≤0.0125, as assessed using Mann–Whitney test with a Benjamini‐Hochberg <italic toggle="yes">post hoc</italic> correction, were considered as significantly differentially abundant. Principal components analysis (PCA) was performed using mixOmics.<xref rid="acn351890-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> Enriched pathways differentiating FP and SP were determined using Ingenuity Pathway Analysis (IPA) (QIAGEN Inc., <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.qiagenbioinformatics.com/products/ingenuity-pathway-analysis" ext-link-type="uri">https://www.qiagenbioinformatics.com/products/ingenuity‐pathway‐analysis</ext-link>). For each cross‐sectional analysis, protein fold‐changes and adjusted <italic toggle="yes">p</italic>‐values were input into IPA and mapped against the Human Ingenuity Knowledgebase with default parameters. StringDB analysis was applied to the significant proteins to reveal known protein interaction networks between the candidate markers.<xref rid="acn351890-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> Interactions were filtered for a String confidence score ≥0.7 and no additional interactors were allowed. To determine markers that best segregate FPs versus SPs, significant proteins identified in the cross‐sectional analyses were analyzed using the Multivariate Methods with Unbiased Variable package (<italic toggle="yes">MUVR</italic> v0.0.972, R v3.6.1)<xref rid="acn351890-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> and Random Forest modeling. The <italic toggle="yes">plotMV</italic> and <italic toggle="yes">plotVIP</italic> functions of MUVR were utilized with default parameters to graphically represent the precision and strength of the model. Logistic regression was used to determine the sensitivity, specificity, and area‐under‐curve (AUC) of single markers and combined panels of biomarkers, after bootstrapping 1000 samples with 95% confidence intervals for each specified cut‐off value of the criterion. A generalized linear ROC model was generated using the pROC R package.<xref rid="acn351890-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>
+</p><p>Longitudinal analysis of the top candidates from MUVR was performed using random slope, random intercept linear mixed modeling with age at first draw as a covariate. This analysis was performed in R using the package <italic toggle="yes">Lme4</italic> to estimate slopes for each biomarker combined with the package <italic toggle="yes">lmerTest</italic> to assess significance between FPs and SPs (<italic toggle="yes">p</italic>‐value &lt;0.05). To further assess differences between FP and SP, significantly differential baseline abundances of each biomarker were also compared using a Mann Whitney test (<italic toggle="yes">p</italic>‐value &lt;0.05 considered significant), using GraphPad Prism v.9.0. Differences in categorical variables (sex and onset site) between FP and SP were assessed with Fisher's exact test (<italic toggle="yes">p</italic>‐value &lt;0.05). Statically significant differences in average age at first draw and age of onset between FP and SP were assessed by a Mann–Whitney test (<italic toggle="yes">p</italic>‐value &lt;0.05).</p><p>To create a state‐transition mathematical model of ALS that distinguishes FP from SP, we first performed a PCA of the longitudinal mass spectrometry data from each participant. The first principal component (PC1) separated FP from SP and revealed the dynamics of proteome change over time during ALS progression. Mutual information was used to identify the top 20 proteins most strongly associated with slow or fast progression, with protein abundance as a continuous variable and slow or fast progression as a discrete variable.<xref rid="acn351890-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> The top 20 proteins ranked by mutual information score from this analysis are shown in Table <xref rid="acn351890-tbl-0003" ref-type="table">3</xref>. We next used PC1 plotted over time to construct a model of the proteome variance for each ALS patient and used an Ornstein–Uhlenbeck stochastic differential equation to model ALS progression as reflected in PC1 as described below.</p></sec><sec id="acn351890-sec-0012"><title>Immunoassays</title><p>Validation was performed on top biomarker candidates using both the discovery cohort and a separate validation cohort (Table <xref rid="acn351890-tbl-0001" ref-type="table">1</xref>). Measurements of human retinol binding protein 4 (RBP4) and kallistatin (SERPINA4) were performed using DuoSet ELISA kits (R&amp;D systems; Minneapolis,per MN) following the manufacturer's protocol. Measurements of coagulation factor XII (F12) were performed using human F12 ELISA kit (Abcam; Cambridge, MA) also following the manufacturer's instructions. CSF samples were diluted prior to ELISA measurements at 1:100, 1:1000, and 1:10 for SERPINA4, RBP4, and F12, respectively. Assay precision was assessed by average intra and inter coefficient of variations (CVs). Intra‐CVs were less than 7%, 8%, and 8% for SERPINA4, RBP4, and F12, respectively. Inter‐assay CVs were less than 10%, 10%, and 7% for SERPINA4, RBP4, and F12, respectively. All samples and standards were run in duplicate on each plate. Measurements for CHIT1 and NfL were as previously described.<xref rid="acn351890-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>
+</p></sec></sec><sec sec-type="results" id="acn351890-sec-0013"><title>Results</title><sec id="acn351890-sec-0014"><title>Patient cohorts</title><p>Eleven ALS patients were used in the discovery cohort (Table <xref rid="acn351890-tbl-0001" ref-type="table">1</xref>). Six patients were classified FPs as demonstrated by the change in ALSFRS‐r/month ≥1 while five were SPs as demonstrated by the change in ALSFRS‐r ≤ 0.5/month. No significant differences in age at onset (<italic toggle="yes">p</italic> = 0.14), onset site (<italic toggle="yes">p</italic> = 0.99), or sex (<italic toggle="yes">p</italic> = 0.57) were observed in this cohort between FPs and SPs. In addition to the discovery cohort, we also obtained a separate validation cohort of eleven ALS patients with five FPs and six SPs (Table <xref rid="acn351890-tbl-0001" ref-type="table">1</xref>). No significant differences in age at onset (<italic toggle="yes">p</italic> = 0.61), onset site (<italic toggle="yes">p</italic> = 0.99), or sex (<italic toggle="yes">p</italic> = 0.99) were observed in this second cohort.</p></sec><sec id="acn351890-sec-0015"><title>Proteomic analyses</title><p>From the discovery cohort, a total of 1148 proteins were identified across all longitudinal samples from FPs and SPs. To identify candidate biomarkers that were significantly different between FPs and SPs, four cross‐sectional analyses were utilized (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1</xref>). We first compared FPs versus SPs at the first time point (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1A</xref>) and FPs versus SPs at the last time point (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1B</xref>). Second, to verify that the candidate biomarkers could segregate FPs from SPs throughout disease progression, we compared FPs at the first time point versus SPs at the last time point (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1C</xref>) and FPs at the last time point versus SPs at the first time point (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1D</xref>). Significantly enriched pathways in each of the four comparisons were compared to deduce the top pathways that were consistently altered between FPs and SPs (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1E</xref>). Pathways related to inflammatory responses such as <italic toggle="yes">acute phase response signaling</italic>, <italic toggle="yes">coagulation systems</italic>, and <italic toggle="yes">complement systems</italic> were significantly upregulated in the FPs while pathways related to <italic toggle="yes">synaptogenesis</italic> and <italic toggle="yes">glycolysis/gluconeogenesis</italic> were downregulated in FPs suggesting the presence of distinct molecular signatures that contribute to the progression of the disease. Across the four comparisons above, 88, 143, 81, and 160 proteins were considered significantly differentially abundant, respectively. Within this protein list were CHIT1 and NFL, two protein biomarkers previously shown to distinguish between fast and slow disease progression.<xref rid="acn351890-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="acn351890-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> We note 59 candidates significant across all four group analyses (including CHIT1 but not NEFL) and these were further interrogated (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1F</xref> and Table <xref rid="acn351890-supitem-0002" ref-type="supplementary-material">S1</xref>). Within these 59 candidates are 6 members of the serpin family of serine protease inhibitors, 6 members of the apolipoprotein gene family, and 8 members of the complement family. While most of these genes are expressed in the periphery and abundant in the blood, many of them are also expressed in the nervous system.</p><fig position="float" fig-type="Figure" id="acn351890-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Cross‐sectional pairwise comparisons of the CSF proteome of fast progression (FPs) versus slow progression (SPs). FPs and SPs were compared at (A) the last time point and (B) the first time point. To identify candidate biomarkers that segregate FPs from SPs throughout disease progression, comparisons were made between (C) FPs at the first time point versus SPs at the last time point and conversely (D) FPs at the last time point versus SPs at the first time point. Proteins with a –log<sub>10</sub>
+<italic toggle="yes">p</italic> &gt; 1.9 and log<sub>2</sub> fold change (FC) &gt; 0.58 were considered significant. Differentially abundant proteins are highlighted in orange (increased) and blue (decreased) signifying those that are significant in FPs and SPs, respectively. (E) Bar chart showing top 10 pathways identified by Ingenuity Pathway Analysis on the proteomics data. Orange bars denote upregulated pathways in FPs while blue bars denote downregulated pathways in FPs (i.e., upregulated in SPs). Bars represent the <italic toggle="yes">z</italic>‐score and black line denotes <italic toggle="yes">p</italic>‐values of significant pathways. (F) Venn diagram of all significant proteins from the cross‐sectional comparisons made in A–D.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ACN3-10-2025-g001.jpg"/></fig><p>These 59 candidate biomarkers showed differences in expression between all FP and SP samples across all time points (Fig. <xref rid="acn351890-fig-0002" ref-type="fig">2A</xref>). Partial least squares discriminant analysis showed distinct separation of FP and SP (Fig. <xref rid="acn351890-fig-0002" ref-type="fig">2B</xref>). Protein–protein interaction analysis using StringDB revealed that 47 out of 59 candidate proteins have annotated associations with each other (Fig. <xref rid="acn351890-supitem-0001" ref-type="supplementary-material">S1</xref>). Interestingly, all these proteins with annotated interactions were upregulated in FPs, while the four proteins (GFRA2, CAMK2A, ERAP1, FAM19A2) upregulated in SPs lacked annotated interactions (Fig. <xref rid="acn351890-supitem-0001" ref-type="supplementary-material">S1</xref>).</p><fig position="float" fig-type="Figure" id="acn351890-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>A panel of 59 proteins that segregate FPs and SPs. (A) Supervised clustering of the 59 candidate biomarkers in FPs (red bar) and SPs (green bar). Dendrograms were created using correlation‐based distances and the Ward method of agglomeration was used in the analysis. (B) Principal component analysis based on the panel of 59 proteins reveals a clear segregation between FPs (green circles) and SPs (red triangles).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ACN3-10-2025-g007.jpg"/></fig></sec><sec id="acn351890-sec-0016"><title>Multivariate analysis</title><p>Multivariate method for Unbiased Variable Selection in R (MUVR)<xref rid="acn351890-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> was employed to identify optimal candidates that segregate FPs versus SPs. This iterative approach tests combinations of biomarkers and measures their misclassification rates, which is subsequently used to determine the optimal combination to distinguish FPs and SPs. Based on the Random Forest modeling algorithm, it was determined that a three‐biomarker model consisting of Coagulation Factor XII (F12), kallistatin (SERPINA4), and retinol binding protein‐4 (RBP4) best distinguished the two groups. To confirm these results, this model was applied to our discovery cohort to test its accuracy. Three markers accurately classify 43 out of 44 ALS patient samples into FPs and SPs (Fig. <xref rid="acn351890-fig-0003" ref-type="fig">3A</xref>). In each lane, the spread in the prediction probabilities demonstrate the precision of the model, with 35 out of 44 samples being correctly classified with a prediction probability &gt;0.9. Only F4 V2 was misclassified as a SP, with a prediction probability of approximately 0.83.</p><fig position="float" fig-type="Figure" id="acn351890-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Multivariate analysis was performed using Multivariate Method for Unbiased Variable Selection in R (MUVR) to determine proteins that best distinguish FPs and SPs. (A) Swim lane plot, where each lane shows individual time points and overall predictions for each patient type using the three variables model with FP in red and SP in green. Predictions from individual repetitions are represented by the smaller dots in a lane and the larger dots represent the average class prediction probability across all repetitions. Misclassified samples are highlighted with a black circle (F4 V2). (B) Receiver operator characteristic (ROC) curves using label‐free quantitation (LFQ) intensities from the MS measurements to assess area under the curve (AUC) of SERPINA4 (green), RBP4 (red), F12 (blue), and the combination of all three biomarkers (purple) comparing FP and SP ALS.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ACN3-10-2025-g006.jpg"/></fig><p>The specificity and sensitivity of each individual biomarker was determined, with AUCs of 0.570, 0.789, and 0.662 for SERPINA4, RBP4, and F12, respectively (Fig. <xref rid="acn351890-fig-0003" ref-type="fig">3B</xref>). The combination of all three biomarkers resulted in an improvement over each marker alone (AUC = 0.882). Collectively, these results suggest that the combination of F12, SERPINA4, and RBP4 most clearly distinguish FPs and SPs, as opposed to a single biomarker. Parameters of the logistic regression analysis are provided in Table <xref rid="acn351890-tbl-0002" ref-type="table">2</xref>.</p><table-wrap position="float" id="acn351890-tbl-0002" content-type="Table" orientation="portrait"><label>Table 2</label><caption><p>Logistic regression analysis for each individual biomarker and the 3‐biomarker panel.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="left" valign="bottom" rowspan="1" colspan="1">AUC (95% CI)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Criterion</th><th align="left" valign="bottom" rowspan="1" colspan="1">Specificity</th><th align="left" valign="bottom" rowspan="1" colspan="1">Sensitivity</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Figure <xref rid="acn351890-fig-0004" ref-type="fig">4B</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">SERPINA4</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.570 (0.377–0.763)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.148</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.917</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.368</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">RBP4</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.789 (0.656–0.923)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.577</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.542</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.947</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F12</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.662 (0.485–0.840)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.240</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.958</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.421</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Panel</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.882 (0.783–0.980)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.323</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.842</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.750</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Figure <xref rid="acn351890-fig-0006" ref-type="fig">6A</xref>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">SERPINA4</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.665 (0.493–0.837)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.181</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.818</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.526</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">RBP4</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.782 (0.631–0.934)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.529</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.591</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.00</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F12</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.684 (0.518–0.850)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.229</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.773</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.579</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Panel</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.801 (0.654–0.949)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.376</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.682</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.00</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Figure <xref rid="acn351890-fig-0006" ref-type="fig">6B</xref>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">SERPINA4</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.904 (0.802–1.00)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.186</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.00</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.722</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">RBP4</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.633 (0.440–0.827)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.576</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.667</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.556</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">F12</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.715 (0.537–0.892)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.230</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.933</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.444</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Panel</td><td align="char" char="(" valign="top" rowspan="1" colspan="1">0.907 (0.808–1.00)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.789</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.00</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.722</td></tr></tbody></table><table-wrap-foot id="acn351890-ntgp-0003"><fn id="acn351890-note-0003"><p>Logistic regression analysis for the LC/MS–MS discovery cohort (Fig. <xref rid="acn351890-fig-0004" ref-type="fig">4B</xref>), immunoassay results of the discovery cohort (Fig. <xref rid="acn351890-fig-0007" ref-type="fig">7A</xref>), and immunoassay results of the validation cohort (Fig. <xref rid="acn351890-fig-0007" ref-type="fig">7B</xref>). The area under the curve (AUC) for individual biomarkers and the cumulative 3‐biomarker panel is shown for each experimental condition.</p></fn></table-wrap-foot></table-wrap></sec><sec id="acn351890-sec-0017"><title>Validation of <styled-content style="fixed-case" toggle="no">RBP4</styled-content>, <styled-content style="fixed-case" toggle="no">SERPINA4,</styled-content> and <styled-content style="fixed-case" toggle="no">F12</styled-content>
+</title><p>We validated our multivariate analysis using enzyme‐linked immunoassays (ELISA) specific to each protein using CSF from both the discovery and a separate validation cohort (Figs. <xref rid="acn351890-fig-0004" ref-type="fig">4</xref> and <xref rid="acn351890-fig-0005" ref-type="fig">5</xref>). In the discovery cohort, baseline levels of all three candidates were significantly higher in FPs (Fig. <xref rid="acn351890-fig-0004" ref-type="fig">4A–C</xref>, left). Linear mixed effects modeling analysis revealed that SERPINA4, RBP4, and F12 abundances remain largely unchanged over time in both FP and SP samples (Fig. <xref rid="acn351890-fig-0004" ref-type="fig">4A–C</xref>, right). Collectively, these results suggest that, over time, SERPINA4, RBP4, and F12 remain constant but levels are significantly higher in FPs as compared SPs. Within a separate validation cohort, only SERPINA4 exhibited significant differences between FPs and SPs (Fig. <xref rid="acn351890-fig-0005" ref-type="fig">5</xref>). To further validate that these biomarkers can distinguish FPs from SPs, ROC analysis was first performed on the discovery cohort, with AUCs of 0.665, 0.782, and 0.684 for SERPINA4, RBP4, and F12, respectively (Fig. <xref rid="acn351890-fig-0006" ref-type="fig">6A</xref>). Additionally, the combination of all three biomarkers outperformed (AUC = 0.801) the individual biomarkers. The combination of SERPINA4, F12, and RBP4 was also able to distinguish FPs and SPs (AUC = 0.907) in the validation cohort and outperformed RBP4 (AUC = 0.633) and F12 (AUC = 0.715) alone (Fig. <xref rid="acn351890-fig-0006" ref-type="fig">6B</xref>). However, the combination was comparable to SERPINA4 alone (AUC = 0.904) in this separate validation cohort. Parameters of the logistic regression analysis are provided in Table <xref rid="acn351890-tbl-0002" ref-type="table">2</xref>. Taken together, these results, which were obtained from two separate cohorts and two methodologies, suggest this biomarker panel distinguishes FPs and SPs.</p><fig position="float" fig-type="Figure" id="acn351890-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Baseline and longitudinal protein levels of (A) SERPINA4, (B) RBP4 and (C) F12 from ALS patients in the discovery cohort. Solid black bars in the left panels represent the average and each dot represents an individual patient. Each dotted line in the right panels represent an individual patient. The solid lines in the right panels represent the overall linear fit of the longitudinal measurements of each candidate biomarker in FPs (red) and SPs (blue). A Mann–Whitney test was used to assess differences in baseline measurements. **<italic toggle="yes">p</italic> &lt; 0.01; *<italic toggle="yes">p</italic> &lt; 0.05. <italic toggle="yes">p</italic>‐values from linear mixed effects modeling indicate the significance level in which the slopes differs from 0 as assessed by r with <italic toggle="yes">p</italic> &lt; 0.05 being considered significant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ACN3-10-2025-g003.jpg"/></fig><fig position="float" fig-type="Figure" id="acn351890-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Baseline and longitudinal measures of (A) SERPINA4, (B) RBP4, and (C) F12 from ALS patients in the validation cohort. Solid black bars in the left panels represent the average and each dot represents an individual patient. Each dotted line in the right panels represent an individual patient. The solid lines in the right panels represent the overall linear fit of the longitudinal measurements of each candidate biomarker in FPs (red) and SPs (blue). A Mann–Whitney test was used to assess differences in baseline measurements. *<italic toggle="yes">p</italic> &lt; 0.05. <italic toggle="yes">p</italic>‐values from linear mixed effects modeling indicate the significance level in which the slopes differs from 0 as assessed by <italic toggle="yes">r</italic> with <italic toggle="yes">p</italic> &lt; 0.05 being considered significant. NS = not significant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ACN3-10-2025-g005.jpg"/></fig><fig position="float" fig-type="Figure" id="acn351890-fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>Receiver operator characteristic (ROC) curves using targeted measurements of candidate markers of progression by ELISA in the (A) discovery and (B) validation cohorts. Respective area under the curve (AUC) for SERPINA4 (green), RBP4 (red), F12 (blue), and combination (purple) are provided.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ACN3-10-2025-g008.jpg"/></fig><p>While NfL, neurofilament medium chain (NfM), and chitinase‐1 (CHIT1) exhibited alterations between fast and slow progressors in the discovery cohort by mass spectrometry (Table <xref rid="acn351890-supitem-0002" ref-type="supplementary-material">S1</xref>), NfL and NfM did not exhibit significant changes across all four group comparisons and therefore were not included in the Random Forest multivariate analysis. We independently determined the AUC using NfL and CHIT1 immunoassay data generated from the validation cohort (Fig. <xref rid="acn351890-fig-0007" ref-type="fig">7A</xref>). CHIT1 alone distinguishes FP from SP (AUC = 0.904) with NfL measures only providing a small increment (combined AUC = 0.922). Levels of both CHIT1 and NfL protein also exhibited significant baseline differences between SP and FP and remain separated over time in longitudinal samples (Fig. <xref rid="acn351890-fig-0007" ref-type="fig">7B,C</xref>).</p><fig position="float" fig-type="Figure" id="acn351890-fig-0007" orientation="portrait"><label>Figure 7</label><caption><p>(A) Receiver operator characteristic (ROC) curves using measurements of CHIT1 (orange), NfL (light blue), and combined (purple) in the validation cohort. Baseline and longitudinal measures for (B) CHIT1 and (C) NfL in the validation cohort. For baseline measures, solid black bars in represent the average and each dot represents an individual patient. *<italic toggle="yes">p</italic> &lt; 0.02. For longitudinal measures the solid lines represent the overall linear fit of the measurements of each protein and the dotted lines represent individual participants.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ACN3-10-2025-g004.jpg"/></fig></sec><sec id="acn351890-sec-0018"><title>Mathematical modeling of <styled-content style="fixed-case" toggle="no">ALS</styled-content> disease progression</title><p>We next used the longitudinal mass spectrometry data to construct a mathematical model and study the proteome variance as a dynamic biomarker of ALS progression. The model was generated using an Ornstein–Uhlenbeck stochastic differential equation which predicts the steady and irreversible progression of the proteome from a reference state to a subsequent state of ALS.<xref rid="acn351890-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> A similar state‐transition model was recently used to predict the development of acute myeloid leukemia using longitudinal transcriptomics data.<xref rid="acn351890-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> Our state‐transition model describes the rate of change of the proteome over time (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="inline" overflow="scroll"><mml:mrow><mml:mi>d</mml:mi><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math>) as the combination of drift of the proteome away from a reference ALS state (state 1) to a subsequent ALS state (2) (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="inline" overflow="scroll"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow></mml:math>) and stochastic fluctuations, which represent proteome entropy over time relative to normal, modeled as a Brownian process (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mi>B</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math>) with variance <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="inline" overflow="scroll"><mml:mrow><mml:msqrt><mml:mrow><mml:mn>2</mml:mn><mml:msup><mml:mi>β</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:math> and correlation <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="inline" overflow="scroll"><mml:mrow><mml:mfenced close="⟩" open="⟨" separators=","><mml:msub><mml:mi>B</mml:mi><mml:msub><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:msub><mml:msub><mml:mi>B</mml:mi><mml:msub><mml:mi>t</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:msub></mml:mfenced><mml:mo>=</mml:mo><mml:msub><mml:mi>δ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math> where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math> is the Dirac Delta function<xref rid="acn351890-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> as follows:<disp-formula id="acn351890-disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-7" display="block" overflow="scroll"><mml:mrow><mml:mover><mml:mover accent="false"><mml:mrow><mml:mi>d</mml:mi><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo>⏞</mml:mo></mml:mover><mml:mtable><mml:mtr><mml:mtd><mml:mtext>Rate of change</mml:mtext><mml:mspace width="0.25em"/></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>of proteome</mml:mtext></mml:mtd></mml:mtr></mml:mtable></mml:mover><mml:mo linebreak="goodbreak">=</mml:mo><mml:mover><mml:mover accent="false"><mml:mrow><mml:mi>θ</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>μ</mml:mi><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mo>⏞</mml:mo></mml:mover><mml:mtable><mml:mtr><mml:mtd><mml:mtext>Progression</mml:mtext></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>of</mml:mtext><mml:mspace width="0.25em"/><mml:mi>ALS</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mover><mml:mo linebreak="goodbreak">+</mml:mo><mml:mover><mml:mover accent="false"><mml:mrow><mml:msqrt><mml:mrow><mml:mn>2</mml:mn><mml:msup><mml:mi>β</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:msqrt><mml:mi>d</mml:mi><mml:msub><mml:mi>B</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo>⏞</mml:mo></mml:mover><mml:mtable><mml:mtr><mml:mtd><mml:mtext>Stochastic fluctuations</mml:mtext></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mfenced close=")" open="("><mml:mtext>proteome entropy</mml:mtext></mml:mfenced></mml:mtd></mml:mtr></mml:mtable></mml:mover></mml:mrow></mml:math>
+</disp-formula>
+</p><p>We applied the mathematical model to mass spectrometry datasets from the FP and SP ALS patient data using the PC1 over time as a representation of the proteome state (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-8" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math>), as PC1 captured the most variation between the fast and slow progressing samples (Fig. <xref rid="acn351890-fig-0008" ref-type="fig">8A</xref>). Mutual information was used to identify the top 20 proteins most strongly associated with either SP or FP, with SERPINA4 the top protein (Table <xref rid="acn351890-tbl-0003" ref-type="table">3</xref>). All of these proteins except for A2M and KLK6 are also contained in the top 59 protein list in Table <xref rid="acn351890-supitem-0002" ref-type="supplementary-material">S1</xref>. The rate of ALS progression is represented as the overall configuration of CSF protein abundances over time and is given by the constant <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-9" display="inline" overflow="scroll"><mml:mrow><mml:mi>θ</mml:mi></mml:mrow></mml:math>, which is proportional to the rate of symptomatic onset. The loss of regulation of the proteome network, through disruption of feedback loops in protein–protein interactions, degenerative processes, etc., is modeled as an increase in overall entropy, or an increase in the number of possible protein abundance configurations (mass peak intensities), or eigenstates, given by the variance of the Brownian process, <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-10" display="inline" overflow="scroll"><mml:mrow><mml:msup><mml:mi>β</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math>. Therefore, to model different rates of ALS progression seen in FP and SP patients, we consider the changes in both the rate constant (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-11" display="inline" overflow="scroll"><mml:mrow><mml:mi>θ</mml:mi></mml:mrow></mml:math>) which determines the timescale of transition from one state of ALS to another, and the rate of stochastic fluctuation of the proteome over time (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-12" display="inline" overflow="scroll"><mml:mrow><mml:msup><mml:mi>β</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math>), such that <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-13" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mi>θ</mml:mi><mml:mi>S</mml:mi></mml:msub><mml:mo>&lt;</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>F</mml:mi></mml:msub></mml:mrow></mml:math>, and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-14" display="inline" overflow="scroll"><mml:mrow><mml:msubsup><mml:mi>β</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mo>&lt;</mml:mo><mml:msubsup><mml:mi>β</mml:mi><mml:mi>F</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:math> (Fig. <xref rid="acn351890-fig-0008" ref-type="fig">8A</xref>, left panel). Note the model represents individual patients as distinct colored lines in Figure <xref rid="acn351890-fig-0008" ref-type="fig">8A</xref>, with the longitudinal CSF proteome from time 0 (first CSF draw) until 30 months. The overall proteome variance is much greater in FP versus SP patients (Fig. <xref rid="acn351890-fig-0008" ref-type="fig">8A</xref>, left panel). The middle panel represents simulations down sampled to be comparable to the data. The right panel is the plot of PC1 values for each FP (blue) and SP (red) over time. While most of the SP patients exhibit a more consistent and stable change over time, one patient displayed more variability and is denoted with an arrow in the lower right panel, with an elevated change in proteome between 10 and 20 months when compared to the state of ALS (μ). This individual may be converting from SP to FP, though additional clinical information to confirm this hypothesis is not available. By initiating the model at a pre‐symptomatic state, we can mathematically turn back the clock to study and predict if or when the proteome may become increasingly unstable prior to symptom onset, when initial CSF samples were collected. These simulations suggest that FP ALS patients may exhibit significant proteome variance very early in the disease process (Fig. <xref rid="acn351890-fig-0008" ref-type="fig">8B</xref>). Future studies using longitudinal CSF samples from patients collected before the time of symptom onset will help confirm these results.</p><fig position="float" fig-type="Figure" id="acn351890-fig-0008" orientation="portrait"><label>Figure 8</label><caption><p>(A) Mathematical model simulations of ALS progression as an Ornstein–Uhlenbeck stochastic process of the state of the proteome (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-15" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math>) in CSF over time (months) for each participant. Each line is a realization of the model based on the mass spectrometry results for each study participant, with the same initial time value (first CSF collection = 0 months). A clinical diagnosis of ALS occurs at a critical threshold corresponding to a state of ALS (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-16" display="inline" overflow="scroll"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow></mml:math>), which occurs stochastically for each patient (left column). Simulations are down sampled to be comparable to the data (middle column). Patients with fast or slow progression of ALS are modeled as having different rates of ALS (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-17" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mi>θ</mml:mi><mml:mi>S</mml:mi></mml:msub><mml:mo>&lt;</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>F</mml:mi></mml:msub></mml:mrow></mml:math>) and intrinsic rate of entropy <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-18" display="inline" overflow="scroll"><mml:mrow><mml:msubsup><mml:mi>β</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mo>&lt;</mml:mo><mml:msubsup><mml:mi>β</mml:mi><mml:mi>F</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:math>. The first principal component (PC1) plotted over time (right panel) reveals distinct trajectories of fast and slow progressing patients, with proteome changes of slow progressors more consistent over time than fast progressors. One slow progressing patient showed proteome variation more like those of the fast progressors (black arrow). (B) Mathematical model simulations initiated at a presymptomatic state are used to turn back to clock to predict the proteome state prior to the initial sample collection (time = 0 months). The model predicts continued large CSF proteome variance (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-19" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math>) for fast progression when compared to slow progression that would approach time of symptom onset. A clinical diagnosis of ALS would occur once the individual reached a critical threshold corresponding to a clinical state of ALS (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-20" display="inline" overflow="scroll"><mml:mrow><mml:mi>μ</mml:mi></mml:mrow></mml:math>), which would occur sometime near time <italic toggle="yes">t</italic> = 0 months in this representation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="ACN3-10-2025-g002.jpg"/></fig><table-wrap position="float" id="acn351890-tbl-0003" content-type="Table" orientation="portrait"><label>Table 3</label><caption><p>Top 20 ranked proteins used in the mathematical model for ALS disease progression.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Protein</th><th align="left" valign="bottom" rowspan="1" colspan="1">Mutual information score</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">SERPINA4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.677</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CNTNAP2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.675</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SERPINF2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.656</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">HPX</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.641</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">FETUB</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.634</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">APOA4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.604</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">HABP2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.602</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CP</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.601</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">KNG1</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.591</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">SERPINC1</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.580</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">A2M</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.575</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EFNA3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.571</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TCN2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.565</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">F12</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.563</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">C2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.561</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CPN2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.560</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">KLK6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.560</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">AMBP</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.552</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CDH13</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.552</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TGFBI</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.547</td></tr></tbody></table><table-wrap-foot id="acn351890-ntgp-0004"><fn id="acn351890-note-0004"><p>List of top 20 ranked proteins used in the mathematical model providing mutual information for the mathematical model that distinguishes FP from SP ALS patients.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec sec-type="discussion" id="acn351890-sec-0019"><title>Discussion</title><p>In this study, we evaluated the CSF proteome in longitudinal samples from FP and SP ALS patients to define proteomic alterations that differentiate FP from SP patients. Overall, a total of 1148 proteins were identified by mass spectrometry across all CSF samples. To interrogate this unbiased longitudinal dataset, we employed multiple cross‐sectional analyses of the CSF proteome at the first and last time points individually and across these two time points (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1</xref>). Combining results from these analyses, we identified 59 biomarkers that can temporally segregate FP and SP ALS (Fig. <xref rid="acn351890-fig-0002" ref-type="fig">2</xref> and Table <xref rid="acn351890-supitem-0002" ref-type="supplementary-material">S1</xref>). A multivariate analysis identified a combination of three biomarkers that distinguish FP from SP patients, which were validated in a separate patient cohort (Figs. <xref rid="acn351890-fig-0003" ref-type="fig">3</xref>, <xref rid="acn351890-fig-0004" ref-type="fig">4</xref>, <xref rid="acn351890-fig-0005" ref-type="fig">5</xref>, <xref rid="acn351890-fig-0006" ref-type="fig">6</xref>). We also generated a mathematical model that separated FP from SP ALS patients based on the overall proteome variance over time (Fig. <xref rid="acn351890-fig-0008" ref-type="fig">8</xref>). High proteome variability corresponds to a fast rate of disease progression, providing an unbiased mass spectrometry approach to predict rate of disease progression.</p><p>Pathway analysis determined that proteins related to inflammatory processes such as <italic toggle="yes">acute phase response signaling</italic>, <italic toggle="yes">coagulation systems</italic>, and <italic toggle="yes">complement systems</italic> were upregulated in FPs while pathways related to <italic toggle="yes">synaptogenesis signaling</italic> and <italic toggle="yes">glucose</italic> metabolism were upregulated in SPs (Fig. <xref rid="acn351890-fig-0001" ref-type="fig">1E</xref>). A recent study compared the plasma proteome between fast and slow progressors,<xref rid="acn351890-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> with metabolism and glycolysis specifically upregulated in SPs and immune response pathways increased in FPs, similar to our results in the CSF. There was an overlap of specific proteins (APOD, ITIH3, TGFB1, BASP1, CPN1, HBA1, CF1, FCN3, and CPB2) that were significantly altered in FPs versus SPs in both the CSF and plasma proteome. These results highlight common pathways in both the CNS and periphery that differ between FP and SP, though further studies are needed to determine the origin of proteins and relationships to blood–brain barrier (BBB) leakage or change in CSF flow rate.<xref rid="acn351890-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> In a prior study, complement proteins, immunoglobulins, and extracellular matrix proteins exhibited increased abundance over time in ALS CSF whereas proteins related to axonal guidance, synapse assembly, neuropeptide signaling, and RNA processing were reduced over time.<xref rid="acn351890-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> However, this study did not consider rate of disease progression as a variable in their analysis. Our findings provide novel insight by addressing this gap and suggests that distinct molecular mechanisms may drive ALS disease progression in both subgroups. Based on our observation that FPs exhibit increased abundance of many proteins of blood origin including complement and coagulation proteins in CSF, we hypothesize that there may be an increased level of BBB, blood–spinal cord barrier (BSCB), or blood–CSF barrier (BCSFB) disruption in FP ALS. These disruptions have been implicated in ALS pathogenesis based on studies performed in SOD1 mouse models<xref rid="acn351890-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="acn351890-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>, <xref rid="acn351890-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, <xref rid="acn351890-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> and in ALS postmortem tissues.<xref rid="acn351890-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="acn351890-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>, <xref rid="acn351890-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> Recent studies by our group have also demonstrated disruptions in tight junction proteins, compromised vascular integrity, and increased immune cell infiltration into the choroid plexus of ALS cases.<xref rid="acn351890-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> Collectively, these studies highlight BBB, BSCB, and BSCFB dysfunction in ALS pathogenesis and our findings suggest barrier dysfunctions may correlate with disease progression rate. Our unbiased mass spectrometry data also confirmed prior studies indicating chitotriosidase‐1 (CHIT1) and neurofilament proteins (NEFL and NEFM) distinguish fast and slow progressors, which was further validated in a separate patient cohort (Fig. <xref rid="acn351890-fig-0007" ref-type="fig">7</xref>).</p><p>Additionally, our data demonstrate an enrichment in pathways associated with synaptogenesis and glucose metabolism in SPs. Dysregulation in metabolic pathways have been widely implicated in ALS pathogenesis.<xref rid="acn351890-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> Increased activity of proteins involved in glycolysis (i.e., hexokinase and phosphofructokinase) and the Krebs cycle (i.e., citrate synthase and malate dehydrogenase) has been observed in synaptosomes isolated from the spinal cord and motor cortex of SOD1<sup>G93A</sup> mice<xref rid="acn351890-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> relative to wild type. Previous metabolomics studies have also demonstrated increased abundances of glycolytic metabolites and intermediates in ALS CSF<xref rid="acn351890-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> and plasma<xref rid="acn351890-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> relative to controls. While the functional consequences of these observations require further exploration, a recent study demonstrated that a high glucose diet elicited a neuroprotective effect by improving motor deficits and survival in Drosophila models that over‐expressed TDP‐43.<xref rid="acn351890-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> Therefore, we propose that alterations in glucose metabolism are occurring in SP ALS patients in an attempt to elicit a neuroprotective response. Further studies are required to explore this possibility and confirm our results.</p><p>Our multivariate analysis and Random Forest modeling using the top 59 candidates predicted the combination of three biomarkers (SERPINA4, RBP4, and F12) best distinguish FP and SP ALS across time (Fig. <xref rid="acn351890-fig-0003" ref-type="fig">3</xref>). Immunoassays for each protein confirmed the mass spectrometry data in the discovery cohort (Fig. <xref rid="acn351890-fig-0004" ref-type="fig">4</xref>) but only SERPINA4 protein was further validated in a separate cohort (Fig. <xref rid="acn351890-fig-0005" ref-type="fig">5</xref>). SERPINA4 (Kallistatin) has been identified in a prior proteomic screen of ALS CSF where reduced abundance was observed compared to controls.<xref rid="acn351890-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> Another study demonstrated altered protein levels in the prefrontal cortex of Alzheimer's disease compared to controls.<xref rid="acn351890-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> While these studies highlight differential expression/abundance of SERPINA4, its mechanistic role in ALS and other neurodegenerative diseases is unknown though it does play a role in the inhibition of oxidative stress and inflammation.<xref rid="acn351890-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>, <xref rid="acn351890-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> Therefore, we propose that increased levels of SERPINA4 in CSF of FP ALS patients could indicate a compensatory response to reduce inflammation in the central nervous system. Further studies are needed to address this hypothesis.</p><p>We developed a mathematical model that distinguishes FP from SP ALS patients based on the overall CSF proteome variance detected by mass spectrometry. The model identifies significant differences in even the initial CSF sample that can distinguish FP from SP. This novel finding suggests that patients with a rapid disease progression exhibit significant alterations in cellular pathways and secreted proteins, metabolism, and/or involvement of multiple cell types in the disease process that result in considerable protein/peptide variance in the CSF. The overall protein variance is much lower in slow‐progressing ALS patients, consistent with a slow course of disease. The model predicts that overall proteome variance would distinguish fast and slow progressors very early in disease course. While recent ALS clinical trials have focused on one or a small number of biomarkers to examine treatment effect in more rapidly progressing ALS patients,<xref rid="acn351890-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="acn351890-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="acn351890-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>, <xref rid="acn351890-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref> it may be more beneficial to examine treatment effect on the overall proteome variance as a more unbiased biomarker to demonstrate impact of treatment on overall biologic pathways and cell types linked to disease.</p><p>Limitations of our study include the low number of FP and SP patient derived longitudinal samples analyzed by mass spectrometry, and the absence of healthy controls to determine if any proteomic fluctuations over time also occur in an age‐matched control population. An additional limitation to our study is that the time from the first to last sample collection was shorter in the validation cohort when compared to the discovery cohort. Future studies will further explore our biomarker candidates using longitudinal samples from larger numbers of fast and slow progressors to confirm our current findings and extend these findings to asymptomatic mutation carriers.</p><p>Taken together, we identified a set of 59 protein biomarkers that best distinguish FP and SP ALS and determined that distinct molecular pathways drive disease progression. Of these 59 proteins, a panel of three biomarkers best distinguished FP from SP ALS. Our novel mathematical model demonstrated that the overall proteome variance differentiates FP from SP ALS patients. These results identify specific protein biomarkers and a model for longitudinal proteome variance that predicts the rate of ALS disease progression as well as pathways that represent potential therapeutic targets and biomarkers for specific clinical subtypes of ALS.</p></sec><sec id="acn351890-sec-0021"><title>Author Contributions</title><p>L.V., P.P., and R.B. contributed to the conception and design of the study. L.V., J.A., V.D.D, and R.S. contributed to the acquisition of the data and L.V., K.G.M, A.P., R.S., V.V., R.R, P.P., L.U., and R.B. contributed to the analysis of data, with R.R. and L.U. performing the mathematical modeling of the data. L.V., K.G.M, A.P., R.R., P.P., and R.B. contributed to the drafting of the manuscript and figures.</p></sec><sec sec-type="COI-statement" id="acn351890-sec-0022"><title>Conflict of Interest</title><p>R.B. is a founder of <italic toggle="yes">n</italic>Vector, Inc., a company developing biomarkers and therapeutics for neurologic disorders. No conflicts of interest were reported by the other authors.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="acn351890-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Figure S1
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-10-2025-s002.tif" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="acn351890-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Table S1
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-10-2025-s001.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="acn351890-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Figure S1 Caption
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACN3-10-2025-s003.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="acn351890-sec-0020"><title>Acknowledgments</title><p>We gratefully acknowledge the NEALS Biorepository for providing the CSF used in this study and the patients that volunteered to provide the CSF samples. R.B. received funding support from the Barrow Neurological Foundation, NIH/NINDS grant NS061867, and the Fein Family Foundation. V.V. received funding support from the ALS Association. We thank Ray and Amy Thurston for their generous contribution to fund this research. Research reported in this publication included work performed in the Integrated Mass Spectrometry and Biostatistics and Mathematical Oncology Shared Resources supported by the National Cancer Institute of the National Institutes of Health under grant number P30CA033572 to R.R.</p></ack><ref-list content-type="cited-references" id="acn351890-bibl-0001"><title>References</title><ref id="acn351890-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="acn351890-cit-0001">
+<string-name name-style="western">
+<surname>Kiernan</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vucic</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheah</surname>
+<given-names>BC</given-names>
+</string-name>, et al. <article-title>Amyotrophic lateral sclerosis</article-title>. <source>Lancet</source>. <year>2011</year>;<volume>377</volume>(<issue>9769</issue>):<fpage>942</fpage>‐<lpage>955</lpage>.<pub-id pub-id-type="pmid">21296405</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(10)61156-7</pub-id></mixed-citation></ref><ref id="acn351890-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="acn351890-cit-0002">
+<string-name name-style="western">
+<surname>Taylor</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>
+<given-names>RH</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name name-style="western">
+<surname>Cleveland</surname>
+<given-names>DW</given-names>
+</string-name>. <article-title>Decoding ALS: from genes to mechanism</article-title>. <source>Nature</source>. <year>2016</year>;<volume>539</volume>(<issue>7628</issue>):<fpage>197</fpage>‐<lpage>206</lpage>.<pub-id pub-id-type="pmid">27830784</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature20413</pub-id><pub-id pub-id-type="pmcid">PMC5585017</pub-id></mixed-citation></ref><ref id="acn351890-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="acn351890-cit-0003">
+<string-name name-style="western">
+<surname>Verde</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Steinacker</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weishaupt</surname>
+<given-names>JH</given-names>
+</string-name>, et al. <article-title>Neurofilament light chain in serum for the diagnosis of amyotrophic lateral sclerosis</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2019</year>;<volume>90</volume>(<issue>2</issue>):<fpage>157</fpage>‐<lpage>164</lpage>.<pub-id pub-id-type="pmid">30309882</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/jnnp-2018-318704</pub-id></mixed-citation></ref><ref id="acn351890-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="acn351890-cit-0004">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>CSF neurofilament light chain elevation predicts ALS severity and progression</article-title>. <source>Front Neurology</source>. <year>2020</year>;<volume>11</volume>:<elocation-id>919</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2020.00919</pub-id>
+<pub-id pub-id-type="pmcid">PMC7484044</pub-id><pub-id pub-id-type="pmid">32982935</pub-id></mixed-citation></ref><ref id="acn351890-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="acn351890-cit-0005">
+<string-name name-style="western">
+<surname>Ganesalingam</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>An</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowser</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andersen</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>CE</given-names>
+</string-name>. <article-title>pNfH is a promising biomarker for ALS</article-title>. <source>Amyotrophic Lateral Sclerosis &amp; Frontotemporal Degeneration</source>. <year>2013</year>;<volume>14</volume>(<issue>2</issue>):<fpage>146</fpage>‐<lpage>149</lpage>.<pub-id pub-id-type="pmid">23134506</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/21678421.2012.729596</pub-id></mixed-citation></ref><ref id="acn351890-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="acn351890-cit-0006">
+<string-name name-style="western">
+<surname>Cudkowicz</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lindborg</surname>
+<given-names>SR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goyal</surname>
+<given-names>NA</given-names>
+</string-name>, et al. <article-title>A randomized placebo‐controlled phase 3 study of mesenchymal stem cells induced to secrete high levels of neurotrophic factors in amyotrophic lateral sclerosis</article-title>. <source>Muscle Nerve</source>. <year>2022</year>;<volume>65</volume>(<issue>3</issue>):<fpage>291</fpage>‐<lpage>302</lpage>.<pub-id pub-id-type="pmid">34890069</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/mus.27472</pub-id><pub-id pub-id-type="pmcid">PMC9305113</pub-id></mixed-citation></ref><ref id="acn351890-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="acn351890-cit-0007">
+<string-name name-style="western">
+<surname>Miller</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cudkowicz</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>PJ</given-names>
+</string-name>, et al. <article-title>Phase 1–2 trial of antisense oligonucleotide Tofersen for SOD1 ALS</article-title>. <source>N Engl J Med</source>. <year>2020</year>;<volume>383</volume>(<issue>2</issue>):<fpage>109</fpage>‐<lpage>119</lpage>.<pub-id pub-id-type="pmid">32640130</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2003715</pub-id></mixed-citation></ref><ref id="acn351890-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="acn351890-cit-0008">
+<string-name name-style="western">
+<surname>Miller</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cudkowicz</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Genge</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Trial of antisense oligonucleotide Tofersen for SOD1 ALS</article-title>. <source>N Engl J Med</source>. <year>2022</year>;<volume>387</volume>:<fpage>1099</fpage>‐<lpage>1110</lpage>.<pub-id pub-id-type="pmid">36129998</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2204705</pub-id></mixed-citation></ref><ref id="acn351890-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="acn351890-cit-0009">
+<string-name name-style="western">
+<surname>Poesen</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Damme</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Diagnostic and prognostic performance of neurofilaments in ALS</article-title>. <source>Front Neurol</source>. <year>2019</year>;<volume>9</volume>:<elocation-id>1167</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2018.01167</pub-id>
+<pub-id pub-id-type="pmid">30713520</pub-id><pub-id pub-id-type="pmcid">PMC6345692</pub-id></mixed-citation></ref><ref id="acn351890-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="acn351890-cit-0010">
+<string-name name-style="western">
+<surname>Huang</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hsiao‐Nakamoto</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Longitudinal biomarkers in amyotrophic lateral sclerosis</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2020</year>;<volume>7</volume>(<issue>7</issue>):<fpage>1103</fpage>‐<lpage>1116</lpage>.<pub-id pub-id-type="pmid">32515902</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.51078</pub-id><pub-id pub-id-type="pmcid">PMC7359115</pub-id></mixed-citation></ref><ref id="acn351890-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="acn351890-cit-0011">
+<string-name name-style="western">
+<surname>Gagliardi</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meneri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saccomanno</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bresolin</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Comi</surname>
+<given-names>GP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corti</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Diagnostic and prognostic role of blood and cerebrospinal fluid and blood neurofilaments in amyotrophic lateral sclerosis: a review of the literature</article-title>. <source>Int J Mol Sci</source>. <year>2019</year>;<volume>20</volume>(<issue>17</issue>):<elocation-id>4152</elocation-id>. doi:<pub-id pub-id-type="doi">10.3390/ijms20174152</pub-id>
+<pub-id pub-id-type="pmid">31450699</pub-id><pub-id pub-id-type="pmcid">PMC6747516</pub-id></mixed-citation></ref><ref id="acn351890-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="acn351890-cit-0012">
+<string-name name-style="western">
+<surname>Lu</surname>
+<given-names>CH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>MacDonald‐Wallis</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gray</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Neurofilament light chain: a prognostic biomarker in amyotrophic lateral sclerosis</article-title>. <source>Neurology</source>. <year>2015</year>;<volume>84</volume>(<issue>22</issue>):<fpage>2247</fpage>‐<lpage>2257</lpage>.<pub-id pub-id-type="pmid">25934855</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000001642</pub-id><pub-id pub-id-type="pmcid">PMC4456658</pub-id></mixed-citation></ref><ref id="acn351890-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="acn351890-cit-0013">
+<string-name name-style="western">
+<surname>Milligan</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atassi</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Babu</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Tocilizumab is safe and tolerable and reduces C‐reactive protein concentrations in the plasma and cerebrospinal fluid of ALS patients</article-title>. <source>Muscle Nerve</source>. <year>2021</year>;<volume>64</volume>(<issue>3</issue>):<fpage>309</fpage>‐<lpage>320</lpage>.<pub-id pub-id-type="pmid">34075589</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/mus.27339</pub-id><pub-id pub-id-type="pmcid">PMC9132344</pub-id></mixed-citation></ref><ref id="acn351890-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="acn351890-cit-0014">
+<string-name name-style="western">
+<surname>Perez‐Riverol</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Csordas</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bai</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>The PRIDE database and related tools and resources in 2019: improving support for quantification data</article-title>. <source>Nucleic Acids Res</source>. <year>2019</year>;<volume>47</volume>(<issue>D1</issue>):<fpage>D442</fpage>‐<lpage>D450</lpage>.<pub-id pub-id-type="pmid">30395289</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gky1106</pub-id><pub-id pub-id-type="pmcid">PMC6323896</pub-id></mixed-citation></ref><ref id="acn351890-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="acn351890-cit-0015">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smits</surname>
+<given-names>AH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Tilburg</surname>
+<given-names>GB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ovaa</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huber</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vermeulen</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Proteome‐wide identification of ubiquitin interactions using UbIA‐MS</article-title>. <source>Nat Protoc</source>. <year>2018</year>;<volume>13</volume>(<issue>3</issue>):<fpage>530</fpage>‐<lpage>550</lpage>.<pub-id pub-id-type="pmid">29446774</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nprot.2017.147</pub-id></mixed-citation></ref><ref id="acn351890-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="acn351890-cit-0016">
+<string-name name-style="western">
+<surname>Rohart</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gautier</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Singh</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Le Cao</surname>
+<given-names>KA</given-names>
+</string-name>. <article-title>mixOmics: An R package for 'omics feature selection and multiple data integration</article-title>. <source>PLoS Comput Biol</source>. <year>2017</year>;<volume>13</volume>(<issue>11</issue>):<elocation-id>e1005752</elocation-id>.<pub-id pub-id-type="pmid">29099853</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pcbi.1005752</pub-id><pub-id pub-id-type="pmcid">PMC5687754</pub-id></mixed-citation></ref><ref id="acn351890-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="acn351890-cit-0017">
+<string-name name-style="western">
+<surname>Szklarczyk</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gable</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lyon</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>STRING v11: protein‐protein association networks with increased coverage, supporting functional discovery in genome‐wide experimental datasets</article-title>. <source>Nucleic Acids Res</source>. <year>2019</year>;<volume>47</volume>(<issue>D1</issue>):<fpage>D607</fpage>‐<lpage>D613</lpage>.<pub-id pub-id-type="pmid">30476243</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gky1131</pub-id><pub-id pub-id-type="pmcid">PMC6323986</pub-id></mixed-citation></ref><ref id="acn351890-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="acn351890-cit-0018">
+<string-name name-style="western">
+<surname>Shi</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Westerhuis</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Landberg</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brunius</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Variable selection and validation in multivariate modelling</article-title>. <source>Bioinformatics</source>. <year>2019</year>;<volume>35</volume>(<issue>6</issue>):<fpage>972</fpage>‐<lpage>980</lpage>.<pub-id pub-id-type="pmid">30165467</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/bty710</pub-id><pub-id pub-id-type="pmcid">PMC6419897</pub-id></mixed-citation></ref><ref id="acn351890-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="acn351890-cit-0019">
+<string-name name-style="western">
+<surname>Robin</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Turck</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hainard</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>pROC: an open‐source package for R and S+ to analyze and compare ROC curves</article-title>. <source>BMC Bioinformatics</source>. <year>2011</year>;<volume>12</volume>:<fpage>77</fpage>.<pub-id pub-id-type="pmid">21414208</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-12-77</pub-id><pub-id pub-id-type="pmcid">PMC3068975</pub-id></mixed-citation></ref><ref id="acn351890-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="acn351890-cit-0020">
+<string-name name-style="western">
+<surname>Gao</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kannan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oh</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Viswanath</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Estimating mutual information for discrete‐continuous mixtures</article-title>. <source>Adv Neural Inf Process Syst</source>. <year>2017</year>;<volume>December</volume>;<fpage>5987</fpage>‐<lpage>5998</lpage>.</mixed-citation></ref><ref id="acn351890-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="acn351890-cit-0021">
+<string-name name-style="western">
+<surname>Vu</surname>
+<given-names>LT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>An</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kovalik</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gendron</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petrucelli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowser</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Cross‐sectional and longitudinal measures of chitinase proteins in amyotrophic lateral sclerosis and expression of CHI3L1 in activated astrocytes</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2020</year>;<volume>91</volume>:<fpage>350</fpage>‐<lpage>358</lpage>.<pub-id pub-id-type="pmid">31937582</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/jnnp-2019-321916</pub-id><pub-id pub-id-type="pmcid">PMC7147184</pub-id></mixed-citation></ref><ref id="acn351890-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="acn351890-cit-0022">
+<string-name name-style="western">
+<surname>Uhlenbeck</surname>
+<given-names>GE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ornstein</surname>
+<given-names>LS</given-names>
+</string-name>. <article-title>On the theory of the Brownian motion</article-title>. <source>Phys Rev</source>. <year>1930</year>;<volume>36</volume>(<issue>5</issue>):<fpage>823</fpage>‐<lpage>841</lpage>.</mixed-citation></ref><ref id="acn351890-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="acn351890-cit-0023">
+<string-name name-style="western">
+<surname>Rockne</surname>
+<given-names>RC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Branciamore</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qi</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>State‐transition analysis of time‐sequential gene expression identifies critical points that predict development of acute myeloid leukemia</article-title>. <source>Cancer Res</source>. <year>2020</year>;<volume>80</volume>(<issue>15</issue>):<fpage>3157</fpage>‐<lpage>3169</lpage>.<pub-id pub-id-type="pmid">32414754</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-20-0354</pub-id><pub-id pub-id-type="pmcid">PMC7416495</pub-id></mixed-citation></ref><ref id="acn351890-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="acn351890-cit-0024">
+<string-name name-style="western">
+<surname>Zubiri</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lombardi</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bremang</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Tissue‐enhanced plasma proteomic analysis for disease stratification in amyotrophic lateral sclerosis</article-title>. <source>Mol Neurodegener</source>. <year>2018</year>;<volume>13</volume>(<issue>1</issue>):<fpage>60</fpage>.<pub-id pub-id-type="pmid">30404656</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13024-018-0292-2</pub-id><pub-id pub-id-type="pmcid">PMC6223075</pub-id></mixed-citation></ref><ref id="acn351890-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="acn351890-cit-0025">
+<string-name name-style="western">
+<surname>Reiber</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Proteins in cerebrospinal fluid and blood: barriers, CSF flow rate and source‐related dynamics</article-title>. <source>Restor Neurol Neurosci</source>. <year>2003</year>;<volume>21</volume>(<issue>3–4</issue>):<fpage>79</fpage>‐<lpage>96</lpage>.<pub-id pub-id-type="pmid">14530572</pub-id></mixed-citation></ref><ref id="acn351890-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="acn351890-cit-0026">
+<string-name name-style="western">
+<surname>Thompson</surname>
+<given-names>AG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gray</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Charles</surname>
+<given-names>PD</given-names>
+</string-name>, et al. <article-title>Network analysis of the CSF proteome characterizes convergent pathways of cellular dysfunction in ALS</article-title>. <source>Front Neurosci</source>. <year>2021</year>;<volume>15</volume>:<elocation-id>642324</elocation-id>.<pub-id pub-id-type="pmid">33815045</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fnins.2021.642324</pub-id><pub-id pub-id-type="pmcid">PMC8010303</pub-id></mixed-citation></ref><ref id="acn351890-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="acn351890-cit-0027">
+<string-name name-style="western">
+<surname>Miyazaki</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ohta</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagai</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Disruption of neurovascular unit prior to motor neuron degeneration in amyotrophic lateral sclerosis</article-title>. <source>J Neurosci Res</source>. <year>2011</year>;<volume>89</volume>(<issue>5</issue>):<fpage>718</fpage>‐<lpage>728</lpage>.<pub-id pub-id-type="pmid">21337372</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jnr.22594</pub-id></mixed-citation></ref><ref id="acn351890-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="acn351890-cit-0028">
+<string-name name-style="western">
+<surname>Sweeney</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Montagne</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nelson</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zlokovic</surname>
+<given-names>BV</given-names>
+</string-name>. <article-title>Blood‐brain barrier: from physiology to disease and Back</article-title>. <source>Physiol Rev</source>. <year>2019</year>;<volume>99</volume>(<issue>1</issue>):<fpage>21</fpage>‐<lpage>78</lpage>.<pub-id pub-id-type="pmid">30280653</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1152/physrev.00050.2017</pub-id><pub-id pub-id-type="pmcid">PMC6335099</pub-id></mixed-citation></ref><ref id="acn351890-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="acn351890-cit-0029">
+<string-name name-style="western">
+<surname>Winkler</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sengillo</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sagare</surname>
+<given-names>AP</given-names>
+</string-name>, et al. <article-title>Blood‐spinal cord barrier disruption contributes to early motor‐neuron degeneration in ALS‐model mice</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2014</year>;<volume>111</volume>(<issue>11</issue>):<fpage>E1035</fpage>‐<lpage>E1042</lpage>.<pub-id pub-id-type="pmid">24591593</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1401595111</pub-id><pub-id pub-id-type="pmcid">PMC3964055</pub-id></mixed-citation></ref><ref id="acn351890-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="acn351890-cit-0030">
+<string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deane</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ali</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>ALS‐causing SOD1 mutants generate vascular changes prior to motor neuron degeneration</article-title>. <source>Nat Neurosci</source>. <year>2008</year>;<volume>11</volume>(<issue>4</issue>):<fpage>420</fpage>‐<lpage>422</lpage>.<pub-id pub-id-type="pmid">18344992</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nn2073</pub-id><pub-id pub-id-type="pmcid">PMC2895310</pub-id></mixed-citation></ref><ref id="acn351890-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="acn351890-cit-0031">
+<string-name name-style="western">
+<surname>Garbuzova‐Davis</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hernandez‐Ontiveros</surname>
+<given-names>DG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodrigues</surname>
+<given-names>MC</given-names>
+</string-name>, et al. <article-title>Impaired blood‐brain/spinal cord barrier in ALS patients</article-title>. <source>Brain Res</source>. <year>2012</year>;<volume>1469</volume>:<fpage>114</fpage>‐<lpage>128</lpage>.<pub-id pub-id-type="pmid">22750125</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.brainres.2012.05.056</pub-id></mixed-citation></ref><ref id="acn351890-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="acn351890-cit-0032">
+<string-name name-style="western">
+<surname>Henkel</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beers</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowser</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Appel</surname>
+<given-names>SH</given-names>
+</string-name>. <article-title>Decreased mRNA expression of tight junction proteins in lumbar spinal cords of patients with ALS</article-title>. <source>Neurology</source>. <year>2009</year>;<volume>72</volume>(<issue>18</issue>):<fpage>1614</fpage>‐<lpage>1616</lpage>.<pub-id pub-id-type="pmid">19414730</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0b013e3181a41228</pub-id></mixed-citation></ref><ref id="acn351890-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="acn351890-cit-0033">
+<string-name name-style="western">
+<surname>Winkler</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sengillo</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sullivan</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Henkel</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Appel</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zlokovic</surname>
+<given-names>BV</given-names>
+</string-name>. <article-title>Blood‐spinal cord barrier breakdown and pericyte reductions in amyotrophic lateral sclerosis</article-title>. <source>Acta Neuropathol</source>. <year>2013</year>;<volume>125</volume>(<issue>1</issue>):<fpage>111</fpage>‐<lpage>120</lpage>.<pub-id pub-id-type="pmid">22941226</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00401-012-1039-8</pub-id><pub-id pub-id-type="pmcid">PMC3535352</pub-id></mixed-citation></ref><ref id="acn351890-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="acn351890-cit-0034">
+<string-name name-style="western">
+<surname>Saul</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hutchins</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reiman</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Global alterations to the choroid plexus blood‐CSF barrier in amyotrophic lateral sclerosis</article-title>. <source>Acta Neuropathol Commun</source>. <year>2020</year>;<volume>8</volume>(<issue>1</issue>):<fpage>92</fpage>.<pub-id pub-id-type="pmid">32586411</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s40478-020-00968-9</pub-id><pub-id pub-id-type="pmcid">PMC7318439</pub-id></mixed-citation></ref><ref id="acn351890-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="acn351890-cit-0035">
+<string-name name-style="western">
+<surname>Joardar</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manzo</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zarnescu</surname>
+<given-names>DC</given-names>
+</string-name>. <article-title>Metabolic dysregulation in amyotrophic lateral sclerosis: challenges and opportunities</article-title>. <source>Curr Genet Med Rep</source>. <year>2017</year>;<volume>5</volume>(<issue>2</issue>):<fpage>108</fpage>‐<lpage>114</lpage>.<pub-id pub-id-type="pmid">29057168</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s40142-017-0123-8</pub-id><pub-id pub-id-type="pmcid">PMC5647833</pub-id></mixed-citation></ref><ref id="acn351890-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="acn351890-cit-0036">
+<string-name name-style="western">
+<surname>Ravera</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Torazza</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonifacino</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Altered glucose catabolism in the presynaptic and perisynaptic compartments of SOD1<sup>G93A</sup> mouse spinal cord and motor cortex indicates that mitochondria are the site of bioenergetic imbalance in ALS</article-title>. <source>J Neurochem</source>. <year>2019</year>;<volume>151</volume>(<issue>3</issue>):<fpage>336</fpage>‐<lpage>350</lpage>.<pub-id pub-id-type="pmid">31282572</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jnc.14819</pub-id></mixed-citation></ref><ref id="acn351890-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="acn351890-cit-0037">
+<string-name name-style="western">
+<surname>Gray</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Larkin</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claridge</surname>
+<given-names>TD</given-names>
+</string-name>, et al. <article-title>The longitudinal cerebrospinal fluid metabolomic profile of amyotrophic lateral sclerosis</article-title>. <source>Amyotroph Lateral Scler Frontotemporal Degener</source>. <year>2015</year>;<volume>16</volume>(<issue>7–8</issue>):<fpage>456</fpage>‐<lpage>463</lpage>.<pub-id pub-id-type="pmid">26121274</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/21678421.2015.1053490</pub-id><pub-id pub-id-type="pmcid">PMC4720042</pub-id></mixed-citation></ref><ref id="acn351890-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="acn351890-cit-0038">
+<string-name name-style="western">
+<surname>Lawton</surname>
+<given-names>KA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cudkowicz</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>
+<given-names>MV</given-names>
+</string-name>, et al. <article-title>Biochemical alterations associated with ALS</article-title>. <source>Amyotroph Lateral Scler</source>. <year>2012</year>;<volume>13</volume>(<issue>1</issue>):<fpage>110</fpage>‐<lpage>118</lpage>.<pub-id pub-id-type="pmid">22117131</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/17482968.2011.619197</pub-id></mixed-citation></ref><ref id="acn351890-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="acn351890-cit-0039">
+<string-name name-style="western">
+<surname>Manzo</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lorenzini</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barrameda</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Glycolysis upregulation is neuroprotective as a compensatory mechanism in ALS</article-title>. <source>Elife</source>. <year>2019</year>;<volume>8</volume>:<elocation-id>e45114</elocation-id>.<pub-id pub-id-type="pmid">31180318</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.45114</pub-id><pub-id pub-id-type="pmcid">PMC6557627</pub-id></mixed-citation></ref><ref id="acn351890-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="acn351890-cit-0040">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>XH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>JJ</given-names>
+</string-name>, et al. <article-title>Proteomic analysis of cerebrospinal fluid in amyotrophic lateral sclerosis</article-title>. <source>Exp Ther Med</source>. <year>2016</year>;<volume>11</volume>(<issue>6</issue>):<fpage>2095</fpage>‐<lpage>2106</lpage>.<pub-id pub-id-type="pmid">27284291</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/etm.2016.3210</pub-id><pub-id pub-id-type="pmcid">PMC4887813</pub-id></mixed-citation></ref><ref id="acn351890-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="acn351890-cit-0041">
+<string-name name-style="western">
+<surname>Garranzo‐Asensio</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>San Segundo‐Acosta</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martínez‐Useros</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Identification of prefrontal cortex protein alterations in Alzheimer's disease</article-title>. <source>Oncotarget</source>. <year>2018</year>;<volume>9</volume>(<issue>13</issue>):<fpage>10847</fpage>‐<lpage>10867</lpage>.<pub-id pub-id-type="pmid">29541381</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.24303</pub-id><pub-id pub-id-type="pmcid">PMC5834268</pub-id></mixed-citation></ref><ref id="acn351890-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="acn351890-cit-0042">
+<string-name name-style="western">
+<surname>Chao</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chao</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Role of kallistatin treatment in aging and cancer by modulating miR‐34a and miR‐21 expression</article-title>. <source>Oxid Med Cell Longev</source>. <year>2017</year>;<volume>2017</volume>:<elocation-id>5025610</elocation-id>. doi:<pub-id pub-id-type="doi">10.1155/2017/5025610</pub-id>
+<pub-id pub-id-type="pmid">28744338</pub-id><pub-id pub-id-type="pmcid">PMC5506461</pub-id></mixed-citation></ref><ref id="acn351890-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="acn351890-cit-0043">
+<string-name name-style="western">
+<surname>Chao</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chao</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Protective role of endogenous kallistatin in vascular injury and senescence by inhibiting oxidative stress and inflammation</article-title>. <source>Oxid Med Cell Longev</source>. <year>2018</year>;<volume>2018</volume>:<elocation-id>4138560</elocation-id>. doi:<pub-id pub-id-type="doi">10.1155/2018/4138560</pub-id>
+<pub-id pub-id-type="pmid">30622668</pub-id><pub-id pub-id-type="pmcid">PMC6304815</pub-id></mixed-citation></ref><ref id="acn351890-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="acn351890-cit-0044">
+<string-name name-style="western">
+<surname>Paganoni</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macklin</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hendrix</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Trial of sodium phenylbutyrate‐taurursodiol for amyotrophic lateral sclerosis</article-title>. <source>N Engl J Med</source>. <year>2020</year>;<volume>383</volume>:<fpage>919</fpage>‐<lpage>930</lpage>.<pub-id pub-id-type="pmid">32877582</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1916945</pub-id><pub-id pub-id-type="pmcid">PMC9134321</pub-id></mixed-citation></ref><ref id="acn351890-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="acn351890-cit-0045">
+<string-name name-style="western">
+<surname>Salomon‐Zimri</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pushett</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Russek‐Blum</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Combination of ciprofloxacin/celecoxib as a novel therapeutic strategy for ALS</article-title>. <source>Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration</source>. <year>2023</year>;<volume>24</volume>(<issue>3–4</issue>):<fpage>263</fpage>‐<lpage>271</lpage>.<pub-id pub-id-type="pmid">36106817</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/21678421.2022.2119868</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

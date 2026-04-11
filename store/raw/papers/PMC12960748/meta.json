@@ -1,0 +1,179 @@
+{
+  "pmid": "41800109",
+  "pmc": "PMC12960748",
+  "doi": "10.1155/mi/7919308",
+  "title": "The Mediating Factor of Immune Cell in the Causal Relationship Between Cardiovascular Disease‐Related Plasma Proteins and Parkinson’s Disease: A Network Mendelian Randomization Analysis",
+  "journal": "Mediators of Inflammation",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Yao Ruotong",
+      "affiliations": [
+        "Department of Neurology, Taizhou Hospital of Zhejiang Province, Wenzhou Medical University, 150 Ximen Road Linhai City, Taizhou, Zhejiang, China, wmu.edu.cn",
+        "The First School of Medicine, School of Information and Engineering, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Chen Siyao",
+      "affiliations": [
+        "Department of Neurology, Taizhou Hospital of Zhejiang Province, Wenzhou Medical University, 150 Ximen Road Linhai City, Taizhou, Zhejiang, China, wmu.edu.cn",
+        "The First School of Medicine, School of Information and Engineering, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Lu Yangguang",
+      "affiliations": [
+        "Department of Neurology, Taizhou Hospital of Zhejiang Province, Wenzhou Medical University, 150 Ximen Road Linhai City, Taizhou, Zhejiang, China, wmu.edu.cn",
+        "The First School of Medicine, School of Information and Engineering, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Li Yiquan",
+      "affiliations": [
+        "Department of Neurology, Taizhou Hospital of Zhejiang Province, Wenzhou Medical University, 150 Ximen Road Linhai City, Taizhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Yu Bohuai",
+      "affiliations": [
+        "The First School of Medicine, School of Information and Engineering, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Liu Yingying",
+      "affiliations": [
+        "The First School of Medicine, School of Information and Engineering, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Zhang Tingxuan",
+      "affiliations": [
+        "Renji College, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Zhu Yusheng",
+      "affiliations": [
+        "The Second School of Medicine, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Chen Feng",
+      "affiliations": [
+        "The Second School of Medicine, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Lin Yuhan",
+      "affiliations": [
+        "The First School of Medicine, School of Information and Engineering, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Wang Yukai",
+      "affiliations": [
+        "The Second School of Medicine, Wenzhou Medical University, Wenzhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    },
+    {
+      "name": "Li Cai",
+      "affiliations": [
+        "Department of Neurology, Taizhou Hospital of Zhejiang Province, Wenzhou Medical University, 150 Ximen Road Linhai City, Taizhou, Zhejiang, China, wmu.edu.cn"
+      ]
+    }
+  ],
+  "keywords": [
+    "cardiovascular disease",
+    "immune phenotype",
+    "Mendelian randomization",
+    "Parkinson’s disease"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National College Students Innovation and Entrepreneurship Training Program10.13039/501100013254 202510343038",
+    "Wenzhou Medical University10.13039/100007835 wyx2023101112"
+  ],
+  "data_availability_text": "Data Availability StatementPublicly available datasets were analyzed in this study. The raw data for this study can be obtained from FinnGen R10 (https://r10.finngen.fi/), OpenGWAS (https://gwas.mrcieu.ac.uk/), and David databases (https://david.ncifcrf.gov/).",
+  "license": "",
+  "received": "2025-02-19",
+  "accepted": "2026-02-16",
+  "reference_pmids": [
+    "34122308",
+    "30287051",
+    "27733283",
+    "30001757",
+    "37993489",
+    "28369058",
+    "38976826",
+    "39950421",
+    "41221125",
+    "41151745",
+    "26711571",
+    "35246670",
+    "37786903",
+    "34897403",
+    "37180791",
+    "34043424",
+    "30002074",
+    "34698778",
+    "32929287",
+    "21959933",
+    "16129703",
+    "32576618",
+    "10640741",
+    "34526992",
+    "31570110",
+    "17923548",
+    "29651949",
+    "33510076",
+    "28470720",
+    "35795234",
+    "35361905",
+    "27553758",
+    "36116464",
+    "34053165",
+    "34120916",
+    "27192564",
+    "20098715",
+    "35253782",
+    "33117403",
+    "9695183",
+    "36993946",
+    "21541339",
+    "26359318",
+    "34955458",
+    "24133494",
+    "32533765"
+  ],
+  "tables_count": 2,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "1. introduction",
+    "2. materials and methods",
+    "2.1. study design",
+    "2.2. gwas data sources",
+    "2.3. instrumental variable selection",
+    "2.4. statistical analysis",
+    "3. results",
+    "3.1. the bidirectional causal effect of cvd‐related plasma proteins and pd",
+    "3.2. network effects between cvd‐related plasma proteins and pd",
+    "3.3. the mediating effect of immunophenotype on the relationship between cvd‐related plasma proteins and pd pathogenesis",
+    "4. discussion",
+    "5. conclusion",
+    "author contributions",
+    "funding",
+    "disclosure",
+    "ethics statement",
+    "consent",
+    "conflicts of interest",
+    "supporting information",
+    "supporting information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7660,
+  "converted_at": "2026-04-06T22:39:22.867983+00:00"
+}

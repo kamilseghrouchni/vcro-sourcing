@@ -1,0 +1,329 @@
+{
+  "pmid": "41622252",
+  "pmc": "PMC12963535",
+  "doi": "10.1038/s41467-026-68732-6",
+  "title": "Biomarker-integrated prognostic stagings for Alzheimer’s Disease",
+  "journal": "Nature Communications",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Shin Daeun",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Lee Sungjoo",
+      "affiliations": [
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Biomedical Statistics Center, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea"
+      ]
+    },
+    {
+      "name": "Kim Jun Pyo",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Jang Hyemin",
+      "affiliations": [
+        "https://ror.org/02c2f8975grid.267370.70000 0004 0533 4667Department of Neurology, Asan Medical Center, Ulsan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Yun Jihwan",
+      "affiliations": [
+        "https://ror.org/01zqcg218grid.289247.20000 0001 2171 7818Department of Neurology, Kyung Hee University Hospital, Kyung Hee University College of Medicine, Seoul, South Korea"
+      ]
+    },
+    {
+      "name": "Chun Min Young",
+      "affiliations": [
+        "https://ror.org/01wjejq96grid.15444.300000 0004 0470 5454Department of Neurology, Yonsei University College of Medicine, Seoul, Republic of Korea",
+        "https://ror.org/04sze3c15grid.413046.40000 0004 0439 4086Department of Neurology, Yongin Severance Hospital, Yonsei University Health System, Yongin-si, Gyeonggi-do Republic of Korea"
+      ]
+    },
+    {
+      "name": "Ahn Jehyun",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Seongmi",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Kyoungmin",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Yoon Soyeon",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Hee Jin",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea",
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Alzheimer’s Disease Convergence Research Center, Samsung Medical Center, Seoul, Republic of Korea",
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Health Sciences and Technology, SAIHST, Sungkyunkwan University, Seoul, Republic of Korea",
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Neuroscience Center, Samsung Medical Center, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kang Heekyoung",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Yim Sohyun",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Park Hee Kyung",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Seonghyeon",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Na Duk L.",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Göteborg, Sweden",
+        "https://ror.org/048b34d51grid.436283.80000 0004 0612 2631Department of Neurodegenerative Disease, UCL Institute of Neurology, Queen Square, London, UK",
+        "https://ror.org/02wedp412grid.511435.70000 0005 0281 4208UK Dementia Research Institute at UCL, London, UK",
+        "https://ror.org/00q4vv597grid.24515.370000 0004 1937 1450Hong Kong Center for Neurodegenerative Diseases, Hong Kong, PR China",
+        "https://ror.org/01y2jtd41grid.14003.360000 0001 2167 3675Wisconsin Alzheimer’s Disease Research Center, University of Wisconsin School of Medicine and Public Health, University of Wisconsin-Madison, Madison, WI USA"
+      ]
+    },
+    {
+      "name": "Blennow Kaj",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Göteborg, Sweden",
+        "https://ror.org/02en5vm52grid.462844.80000 0001 2308 1657Paris Brain Institute, ICM, Pitié-Salpêtrière Hospital, Sorbonne University, Paris, France",
+        "https://ror.org/04c4dkn09grid.59053.3a0000000121679639Neurodegenerative Disorder Research Center, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, PR China",
+        "https://ror.org/04c4dkn09grid.59053.3a0000000121679639Department of Neurology, Institute on Aging and Brain Disorders, First Affiliated Hospital of USTC, Hefei, PR China"
+      ]
+    },
+    {
+      "name": "Gonzalez-Ortiz Fernando",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/04vgqjj36grid.1649.a0000 0000 9445 082XClinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Göteborg, Sweden"
+      ]
+    },
+    {
+      "name": "Ashton Nicholas J.",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal, Sweden",
+        "https://ror.org/023jwkg52Banner Alzheimer’s Institute and University of Arizona, Phoenix, AZ USA",
+        "https://ror.org/04gjkkf30grid.414208.b0000 0004 0619 8759Banner Sun Health Research Institute, Sun City, AZ USA",
+        "https://ror.org/04zn72g03grid.412835.90000 0004 0627 2891Centre for Age-Related Medicine, Stavanger University Hospital, Stavanger, Norway"
+      ]
+    },
+    {
+      "name": "Weiner Michael W.",
+      "affiliations": [
+        "https://ror.org/043mz5j54grid.266102.10000 0001 2297 6811Department of Radiology and Biomedical Imaging, University of California, San Francisco, CA USA"
+      ]
+    },
+    {
+      "name": "Seo Sang Won",
+      "affiliations": [
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea",
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Alzheimer’s Disease Convergence Research Center, Samsung Medical Center, Seoul, Republic of Korea",
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Health Sciences and Technology, SAIHST, Sungkyunkwan University, Seoul, Republic of Korea",
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Neuroscience Center, Samsung Medical Center, Seoul, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Kim Kyunga",
+      "affiliations": [
+        "https://ror.org/05a15z872grid.414964.a0000 0001 0640 5613Biomedical Statistics Center, Research Institute for Future Medicine, Samsung Medical Center, Seoul, South Korea",
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Data Convergence and Future Medicine, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea",
+        "https://ror.org/04q78tk20grid.264381.a0000 0001 2181 989XDepartment of Digital Health, SAIHST, Sungkyunkwan University, Seoul, Republic of Korea"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer's disease",
+    "Prognostic markers"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Korea Dementia Association (2024-A001); Korea Ministry of Health & Welfare and Ministry of Science and ICT (RS-2020-KH106434); Korea National Institute of Health (2024-ER1003-01); Samsung Medical Center (#SMX1250081); Korea Ministry of Science and ICT (RS-2021-II212068, RS-2019-NR040057)"
+  ],
+  "data_availability_text": "Data availabilityThe data supporting the findings of this study include plasma biomarker data, brain MRI, and PET imaging data from the K-ROAD cohort, as well as imaging and clinical data from the ADNI cohort. These datasets contain sensitive human participant information, which carry a potential risk of participant re-identification. Due to ethical restrictions imposed by the institutional review boards and the informed consent provided by study participants, the K-ROAD data cannot be made publicly available without restriction. De-identified K-ROAD data are available from the corresponding authors upon reasonable request and subject to approval by the relevant institutional review boards and data use agreements. Requests for data access will be reviewed and responded to within 2–4 weeks of receipt. Inquiries regarding K-ROAD data access should be directed to the corresponding authors (S.W. Seo; sangwonseo@empas.com). ADNI data are publicly available through the ADNI data sharing platform (https://adni.loni.usc.edu) upon registration and approval, in accordance with ADNI data use policies. Source data underlying the figures and tables presented in this study are provided with this paper. Source data are provided with this paper.",
+  "license": "",
+  "received": "2025-09-06",
+  "accepted": "2026-01-14",
+  "reference_pmids": [
+    "26969397",
+    "26969397",
+    "37930705",
+    "37930705",
+    "25681452",
+    "25681452",
+    "38710950",
+    "38710950",
+    "15324362",
+    "15324362",
+    "22946521",
+    "22946521",
+    "36993907",
+    "36993907",
+    "30670089",
+    "30670089",
+    "29993022",
+    "29993022",
+    "36941651",
+    "36941651",
+    "39193492",
+    "39193492",
+    "35341619",
+    "35341619",
+    "31375134",
+    "31375134",
+    "38934362",
+    "38934362",
+    "34838239",
+    "34838239",
+    "35796265",
+    "35796265",
+    "37202517",
+    "37202517",
+    "39907189",
+    "39907189",
+    "34117234",
+    "34117234",
+    "37117993",
+    "37117993",
+    "39068545",
+    "39068545",
+    "39394841",
+    "39394841",
+    "35971310",
+    "35971310",
+    "29653606",
+    "29653606",
+    "28793924",
+    "28793924",
+    "22235093",
+    "22235093",
+    "34259835",
+    "34259835",
+    "37248300",
+    "37248300",
+    "10227624",
+    "10227624",
+    "16682538",
+    "16682538",
+    "25988463",
+    "25988463",
+    "19321233",
+    "19321233",
+    "37690109",
+    "37690109",
+    "35393555",
+    "35393555",
+    "39044488",
+    "39044488",
+    "40155777",
+    "40155777",
+    "36912178",
+    "36912178",
+    "40768095",
+    "40413031",
+    "40413031",
+    "40343697",
+    "40343697",
+    "39275969",
+    "39275969",
+    "36449413",
+    "36449413",
+    "39096926",
+    "39096926",
+    "40294367",
+    "40294367",
+    "39512701",
+    "39512701",
+    "20592901",
+    "20592901",
+    "39113752",
+    "39113752",
+    "21514249",
+    "21514249",
+    "21514250",
+    "21514250",
+    "23684964",
+    "23684964",
+    "31834446",
+    "31834446",
+    "8232972",
+    "8232972",
+    "17135809",
+    "17135809",
+    "18695059",
+    "18695059",
+    "8889347",
+    "8889347",
+    "8629613",
+    "8629613"
+  ],
+  "tables_count": 2,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "demographics of study participants",
+    "phase 1. identifying prognostic risk subgroups through survival prediction modeling",
+    "phase 2. developing a unified prognostic staging across the alzheimer’s disease continuum",
+    "external validation of the unified staging system using the adni cohort",
+    "discussion",
+    "methods",
+    "participants selection",
+    "plasma biomarker measurements",
+    "brain mri and hippocampal volume measurements",
+    "aβ pet acquisition and quantification",
+    "physical comorbidities",
+    "longitudinal cognitive assessments",
+    "development process of a unified prognostic staging system",
+    "phase 1. identifying prognostic risk subgroups through survival prediction modeling",
+    "phase 2. developing a unified prognostic staging across the alzheimer’s disease continuum",
+    "external validation with the adni dataset",
+    "statistical methods",
+    "statistics and reproducibility",
+    "reporting summary",
+    "supplementary information",
+    "source data",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11809,
+  "converted_at": "2026-04-06T22:39:25.611908+00:00"
+}

@@ -1,0 +1,245 @@
+{
+  "pmid": "41761301",
+  "pmc": "PMC12955328",
+  "doi": "10.1186/s12967-026-07939-z",
+  "title": "Baseline plasma p-tau217/Aβ42 as a sensitive marker for the severity of Alzheimer’s disease continuum",
+  "journal": "Journal of Translational Medicine",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Liu Wen-Zheng",
+      "affiliations": [
+        "https://ror.org/026e9yy16grid.412521.10000 0004 1769 1119Department of Neurology, The Affiliated Hospital of Qingdao University, Qingdao, 266000 China",
+        "https://ror.org/03vpa9q11grid.478119.20000 0004 1757 8159Department of Neurology, Weihai Municipal Hospital, Shandong University, Weihai, China"
+      ]
+    },
+    {
+      "name": "Xue Mei",
+      "affiliations": [
+        "https://ror.org/05vawe413grid.440323.20000 0004 1757 3171Department of Neurology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, 26400 China"
+      ]
+    },
+    {
+      "name": "Sheng Ze-Hu",
+      "affiliations": [
+        "https://ror.org/033vnzz93grid.452206.70000 0004 1758 417XDepartment of Geriatrics, The First Affiliated Hospital of Chongqing Medical University, Chongqing Medical University, Chongqing, 400016 China"
+      ]
+    },
+    {
+      "name": "Wei Yu-Qian",
+      "affiliations": [
+        "https://ror.org/021cj6z65grid.410645.20000 0001 0455 0905Qingdao University, Qingdao, 266000 China"
+      ]
+    },
+    {
+      "name": "Ma Ya-Hui",
+      "affiliations": [
+        "https://ror.org/026e9yy16grid.412521.10000 0004 1769 1119Department of Neurology, The Affiliated Hospital of Qingdao University, Qingdao, 266000 China"
+      ]
+    },
+    {
+      "name": "Li Jie-Qiong",
+      "affiliations": [
+        "https://ror.org/026e9yy16grid.412521.10000 0004 1769 1119Department of Neurology, The Affiliated Hospital of Qingdao University, Qingdao, 266000 China"
+      ]
+    },
+    {
+      "name": "Song Jing-Hui",
+      "affiliations": [
+        "https://ror.org/026e9yy16grid.412521.10000 0004 1769 1119Department of Neurology, The Affiliated Hospital of Qingdao University, Qingdao, 266000 China"
+      ]
+    },
+    {
+      "name": "Chi Song",
+      "affiliations": [
+        "https://ror.org/026e9yy16grid.412521.10000 0004 1769 1119Department of Neurology, The Affiliated Hospital of Qingdao University, Qingdao, 266000 China"
+      ]
+    },
+    {
+      "name": "Ou Ya-Nan",
+      "affiliations": [
+        "https://ror.org/026e9yy16grid.412521.10000 0004 1769 1119Department of Neurology, The Affiliated Hospital of Qingdao University, Qingdao, 266000 China"
+      ]
+    }
+  ],
+  "keywords": [
+    "Plasma p-tau217/Aβ42",
+    "Alzheimer’s disease",
+    "Cognitive assessment",
+    "Brain structure",
+    "Predictive performance",
+    "Biomarker"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/501100010029Taishan Scholar Foundation of Shandong Provincetsqn202312391tsqn202408400MaYa-Hui",
+    "http://dx.doi.org/10.13039/501100001809National Natural Science Foundation of China82501704"
+  ],
+  "data_availability_text": "Data availabilityThe dataset supporting the conclusions of this article is available in the ADNI site, http://adni.loni.usc.edu/.",
+  "license": "",
+  "received": "2025-11-12",
+  "accepted": "2026-02-21",
+  "reference_pmids": [
+    "34083813",
+    "34083813",
+    "36918389",
+    "34585212",
+    "34585212",
+    "36449413",
+    "36449413",
+    "37459141",
+    "37459141",
+    "38778353",
+    "38778353",
+    "37875471",
+    "37875471",
+    "33792168",
+    "33792168",
+    "30938796",
+    "30938796",
+    "19622817",
+    "19622817",
+    "35953717",
+    "35953717",
+    "32722745",
+    "32722745",
+    "39641408",
+    "39641408",
+    "39694821",
+    "39694821",
+    "40156286",
+    "40156286",
+    "37534889",
+    "37534889",
+    "36745413",
+    "36745413",
+    "40725025",
+    "40491259",
+    "40491259",
+    "36456833",
+    "36456833",
+    "29214153",
+    "29214153",
+    "33479777",
+    "33479777",
+    "39887504",
+    "39887504",
+    "20042704",
+    "20042704",
+    "38926773",
+    "38926773",
+    "39614747",
+    "39614747",
+    "19296504",
+    "19296504",
+    "29499171",
+    "29499171",
+    "37523162",
+    "37523162",
+    "19641319",
+    "19641319",
+    "1202204",
+    "1202204",
+    "22644789",
+    "22644789",
+    "22782295",
+    "22782295",
+    "18302232",
+    "18302232",
+    "16530430",
+    "16530430",
+    "6610841",
+    "6610841",
+    "15324362",
+    "15324362",
+    "21123754",
+    "21123754",
+    "21266891",
+    "21266891",
+    "34710256",
+    "34710256",
+    "40373247",
+    "40373247",
+    "38252443",
+    "38252443",
+    "41335440",
+    "41335440",
+    "40155777",
+    "40155777",
+    "39068669",
+    "39068669",
+    "41478832",
+    "39030981",
+    "39030981",
+    "37653257",
+    "40513421",
+    "40513421",
+    "34418401",
+    "34418401",
+    "38489180",
+    "38489180",
+    "39264441",
+    "39264441",
+    "34309632",
+    "34309632",
+    "34928318",
+    "34928318",
+    "32916219",
+    "32916219",
+    "35986874",
+    "35986874",
+    "36271573",
+    "36271573",
+    "31514063",
+    "31514063",
+    "36633254",
+    "36633254",
+    "39396574",
+    "39396574",
+    "39823562",
+    "39823562",
+    "40343697",
+    "40343697",
+    "35618838",
+    "35618838",
+    "40613474",
+    "40613474",
+    "40413031",
+    "40413031",
+    "38971815",
+    "38971815"
+  ],
+  "tables_count": 2,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "background",
+    "methods and materials",
+    "participants",
+    "measurements of plasma p-tau217/aβ42",
+    "measurements of ad csf biomarkers",
+    "cognitive measurements",
+    "mri measurements",
+    "diagnosis of ad dementia",
+    "covariate measurements",
+    "statistical analysis",
+    "results",
+    "basic participant characteristics",
+    "plasma p-tau217/aβ42 across the ad continuum",
+    "diagnostic performance of plasma p-tau217/aβ42 and in combination with clinical measures and mmse for ad",
+    "the association between plasma p-tau217/aβ42 and cognition and brain structure",
+    "incremental value of the plasma p-tau217/aβ42 levels for prediction of cognitive decline and brain atrophy in non-demented individuals",
+    "brain structure partially accounted for the association between plasma p-tau217/aβ42 and cognition",
+    "risk stratification of baseline plasma p-tau217/aβ42 for ad risk and clinical phenotypes prediction in the non-demented individuals",
+    "sensitivity analysis",
+    "discussion",
+    "conclusions",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14487,
+  "converted_at": "2026-04-06T22:39:20.909385+00:00"
+}

@@ -1,0 +1,193 @@
+{
+  "pmid": "40155688",
+  "pmc": "PMC11953404",
+  "doi": "10.1038/s41598-025-95151-2",
+  "title": "Genetic effects of circulating hormone and proteome on amyotrophic lateral sclerosis identified by Mendelian randomization",
+  "journal": "Scientific Reports",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Fan Xinyue",
+      "affiliations": [
+        "https://ror.org/014v1mr15grid.410595.c0000 0001 2230 9154Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, China"
+      ]
+    },
+    {
+      "name": "Zeng Yinting",
+      "affiliations": [
+        "https://ror.org/014v1mr15grid.410595.c0000 0001 2230 9154Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, China"
+      ]
+    },
+    {
+      "name": "Zhang Feifei",
+      "affiliations": [
+        "https://ror.org/014v1mr15grid.410595.c0000 0001 2230 9154Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, China"
+      ]
+    },
+    {
+      "name": "Xu Yang",
+      "affiliations": [
+        "https://ror.org/014v1mr15grid.410595.c0000 0001 2230 9154Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, China"
+      ]
+    },
+    {
+      "name": "Duan Qixuan",
+      "affiliations": [
+        "https://ror.org/014v1mr15grid.410595.c0000 0001 2230 9154Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, China"
+      ]
+    },
+    {
+      "name": "Long Shuting",
+      "affiliations": [
+        "https://ror.org/014v1mr15grid.410595.c0000 0001 2230 9154Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, China"
+      ]
+    },
+    {
+      "name": "Lin Yumeng",
+      "affiliations": [
+        "https://ror.org/014v1mr15grid.410595.c0000 0001 2230 9154Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, China"
+      ]
+    },
+    {
+      "name": "Wang Kai",
+      "affiliations": [
+        "https://ror.org/00a2xv884grid.13402.340000 0004 1759 700XEye Center of Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, China"
+      ]
+    },
+    {
+      "name": "Jiang Li",
+      "affiliations": [
+        "https://ror.org/014v1mr15grid.410595.c0000 0001 2230 9154Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, China"
+      ]
+    }
+  ],
+  "keywords": [
+    "Amyotrophic lateral sclerosis",
+    "Hormone",
+    "Free testosterone",
+    "Proteome",
+    "Cytokine",
+    "Inflammation",
+    "Mendelian randomization",
+    "Neuroscience",
+    "Diseases",
+    "Endocrinology",
+    "Health care",
+    "Neurology"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/501100001809National Natural Science Foundation of China8220124282470903WangKaiJiangLi",
+    "Natural Science Foundation of Zhejiang ProvinceLY24C110001JiangLi"
+  ],
+  "data_availability_text": "Data availabilityData generated or analysed during this study are included in this published article and its supplementary information files.",
+  "license": "",
+  "received": "2024-11-28",
+  "accepted": "2025-03-19",
+  "reference_pmids": [
+    "30663610",
+    "30663610",
+    "33411236",
+    "33411236",
+    "11867076",
+    "11867076",
+    "27957680",
+    "27957680",
+    "12907804",
+    "12907804",
+    "30414993",
+    "30414993",
+    "33094209",
+    "30465257",
+    "30465257",
+    "35690735",
+    "35690735",
+    "29571878",
+    "29571878",
+    "29941659",
+    "29941659",
+    "33462484",
+    "33462484",
+    "32042192",
+    "32042192",
+    "35192695",
+    "29566793",
+    "29566793",
+    "27455348",
+    "27455348",
+    "33067605",
+    "33067605",
+    "29771313",
+    "29771313",
+    "26050253",
+    "26050253",
+    "27061298",
+    "27061298",
+    "29846171",
+    "29686387",
+    "29686387",
+    "11160962",
+    "11160962",
+    "39334843",
+    "24806746",
+    "24806746",
+    "38682222",
+    "38682222",
+    "28673039",
+    "28673039",
+    "37253999",
+    "37253999",
+    "38007406",
+    "38007406",
+    "35927217",
+    "35927217",
+    "30658430",
+    "28256950",
+    "28256950",
+    "39225098",
+    "39393048",
+    "35532889",
+    "35532889",
+    "37024676",
+    "37024676",
+    "32441415",
+    "32441415",
+    "35259821",
+    "35259821",
+    "17716658",
+    "17716658",
+    "27112486",
+    "27112486",
+    "36701233",
+    "36701233",
+    "16973300",
+    "16973300",
+    "38272407",
+    "38272407",
+    "33068904",
+    "33068904"
+  ],
+  "tables_count": 0,
+  "figures_count": 3,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "growth and sex hormones instrument selection",
+    "the data source for als",
+    "circulating proteins study population",
+    "statistical analyses",
+    "results",
+    "causal estimates of the genetically predicted circulating hormone in als",
+    "identification of causal risk proteins for als",
+    "discussion",
+    "conclusion",
+    "electronic supplementary material",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 5910,
+  "converted_at": "2026-04-06T22:36:49.157464+00:00"
+}

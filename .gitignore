@@ -1,5 +1,14 @@
-# Runtime store (cached papers, run artifacts, embeddings)
-store/runs/
+# Raw ingested documents (~99 MB; regeneratable from PMC + NCT IDs via
+# scripts/pmc_convert.py and scripts/ct_convert.py — see README)
+store/raw/
+
+# Per-run extract fragments (regeneratable from raw/ via compile/extract)
+store/runs/*/extract-fragments/
+
+# Dev-only intermediate artifacts under store/queries/
+store/queries/_dev_*
+
+# Legacy v1 paths (kept here in case the v1 worktree is ever co-located)
 store/sources/
 store/cohorts/
 store/index/
@@ -20,12 +29,12 @@ venv/
 # macOS
 .DS_Store
 
-# Claude Code local settings (permissions, memory)
+# Claude Code local settings (permissions, memory, scratch plans)
 .claude/settings.local.json
 .claude/projects/
 .claude/plans/
 
-# Node (for future Next.js production app)
+# Node (for the future webapp at .claude/skills/nextjs-vercel-ai-webapp)
 node_modules/
 .next/
 .vercel/

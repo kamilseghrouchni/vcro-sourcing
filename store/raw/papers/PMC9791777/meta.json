@@ -1,0 +1,165 @@
+{
+  "pmid": "36572909",
+  "pmc": "PMC9791777",
+  "doi": "10.1186/s13195-022-01119-z",
+  "title": "ApoJ/Clusterin concentrations are determinants of cerebrospinal fluid cholesterol efflux capacity and reduced levels are associated with Alzheimer’s disease",
+  "journal": "Alzheimer's Research & Therapy",
+  "year": 2022,
+  "authors": [
+    {
+      "name": "Ko Yi-An",
+      "affiliations": [
+        "grid.25879.310000 0004 1936 8972Division of Translational Medicine and Human Research, Perelman School of Medicine, University of Pennsylvania, 11-125 Smilow Center for Translational Research, 3400 Civic Center Blvd, Philadelphia, PA 19104-5158 USA"
+      ]
+    },
+    {
+      "name": "Billheimer Jeffrey T.",
+      "affiliations": [
+        "grid.25879.310000 0004 1936 8972Division of Translational Medicine and Human Research, Perelman School of Medicine, University of Pennsylvania, 11-125 Smilow Center for Translational Research, 3400 Civic Center Blvd, Philadelphia, PA 19104-5158 USA"
+      ]
+    },
+    {
+      "name": "Lyssenko Nicholas N.",
+      "affiliations": [
+        "grid.264727.20000 0001 2248 3398Alzheimer’s Center at Temple, Department of Neural Sciences, Lewis Katz School of Medicine at Temple University, Philadelphia, PA 19140 USA"
+      ]
+    },
+    {
+      "name": "Kueider-Paisley Alexandra",
+      "affiliations": [
+        "grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC 27708 USA"
+      ]
+    },
+    {
+      "name": "Wolk David A.",
+      "affiliations": [
+        "grid.25879.310000 0004 1936 8972Department of Neurology, University of Pennsylvania, Philadelphia, PA 19104 USA"
+      ]
+    },
+    {
+      "name": "Arnold Steven E.",
+      "affiliations": [
+        "grid.38142.3c000000041936754XDepartment of Neurology, Massachusetts General Hospital, Harvard Medical School, Boston, MA 02115 USA"
+      ]
+    },
+    {
+      "name": "Leung Yuk Yee",
+      "affiliations": [
+        "grid.25879.310000 0004 1936 8972Penn Neurodegeneration Genomics Center, Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104 USA"
+      ]
+    },
+    {
+      "name": "Shaw Leslie M.",
+      "affiliations": [
+        "grid.25879.310000 0004 1936 8972Department of Pathology and Laboratory Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104 USA"
+      ]
+    },
+    {
+      "name": "Trojanowski John Q.",
+      "affiliations": [
+        "grid.25879.310000 0004 1936 8972Division of Translational Medicine and Human Research, Perelman School of Medicine, University of Pennsylvania, 11-125 Smilow Center for Translational Research, 3400 Civic Center Blvd, Philadelphia, PA 19104-5158 USA"
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima F.",
+      "affiliations": [
+        "grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC 27708 USA",
+        "grid.26009.3d0000 0004 1936 7961Duke Institute for Brain Sciences, Duke University, Durham, NC 27708 USA",
+        "grid.26009.3d0000 0004 1936 7961Department of Medicine, Duke University, Durham, NC 27708 USA"
+      ]
+    },
+    {
+      "name": "Kling Mitchel A.",
+      "affiliations": [
+        "grid.262671.60000 0000 8828 4546Department of Geriatrics and Gerontology, New Jersey Institute for Successful Aging, Rowan University School of Osteopathic Medicine, 42 E. Laurel Rd., Suite 1800, Stratford, NJ 08084 USA",
+        "grid.25879.310000 0004 1936 8972Department of Psychiatry, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania USA"
+      ]
+    },
+    {
+      "name": "Rader Daniel J.",
+      "affiliations": [
+        "grid.25879.310000 0004 1936 8972Division of Translational Medicine and Human Research, Perelman School of Medicine, University of Pennsylvania, 11-125 Smilow Center for Translational Research, 3400 Civic Center Blvd, Philadelphia, PA 19104-5158 USA"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100000968American Heart Association14SDG20230024",
+    "http://dx.doi.org/10.13039/100000002National Institutes of Health5P30AG010124-275P30AG010124-27",
+    "http://dx.doi.org/10.13039/100000049National Institute on AgingRF1 AG0151550RF1 AG0151550"
+  ],
+  "data_availability_text": "Availability of data and materialsAll data are available through the SAGE Synapse database as part of the M2OVE-AD program.",
+  "license": "",
+  "received": "2022-03-25",
+  "accepted": "2022-11-06",
+  "reference_pmids": [
+    "14715130",
+    "17418089",
+    "26090071",
+    "21448224",
+    "30617256",
+    "23119149",
+    "9717719",
+    "22130662",
+    "21332922",
+    "11441143",
+    "21226578",
+    "22508840",
+    "26025389",
+    "25404125",
+    "30104762",
+    "28167703",
+    "32065798",
+    "6610841",
+    "21514250",
+    "10190820",
+    "17804958",
+    "17132964",
+    "19474567",
+    "22503777",
+    "21311900",
+    "22571982",
+    "30867253",
+    "26873692",
+    "31167810",
+    "2376594",
+    "12458888",
+    "30555032",
+    "28697566",
+    "16551433",
+    "24768341",
+    "9003413",
+    "10794845",
+    "22323901",
+    "26545630",
+    "17077814",
+    "12145324",
+    "34880498",
+    "32021212",
+    "32054532",
+    "24633805"
+  ],
+  "tables_count": 3,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "study design",
+    "biochemistry",
+    "cholesterol efflux capacity (cec) assays",
+    "statistical analysis",
+    "results",
+    "study demographics",
+    "csf cec, but not plasma cec, is lower in mci compared with controls",
+    "csf ad biomarkers",
+    "discussion",
+    "supplementary information",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7387,
+  "converted_at": "2026-04-06T22:40:20.539244+00:00"
+}

@@ -4,105 +4,166 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What is vCRO
 
-A cohort intelligence system for life sciences. It answers questions about
-biological samples, cohorts, analytical platforms, data access, and pricing.
-Every claim must be backed by source quotes with IDs (PMID, PMC, DOI, or NCT).
+A cohort intelligence system for life sciences. It compiles a transparent provenance graph of who has what biological samples, where, at what quality, under what consent, at what cost, and how to access them. Every claim is backed by a verbatim source quote with an ID (PMC, PMID, NCT, DOI, or URL).
 
-## Running Scripts
+vCRO v2 follows Karpathy's four-phase knowledge base cycle:
 
-All scripts are pure Python stdlib. No pip install needed.
-
-```bash
-# Search
-python3 scripts/pubmed_api.py --queries "AD metabolomics" --retmax 20 --cache_dir store
-python3 scripts/europepmc_api.py --queries "FFPE metabolomics" --cache_dir store
-python3 scripts/clinicaltrials_api.py --condition "Alzheimer" --terms "plasma" --top_n 20 --cache_dir store
-
-# Map and fetch papers
-python3 scripts/pmid_to_pmc.py --pmids_file /tmp/pmids.txt
-python3 scripts/pmc_fetch.py --pmc_ids PMC12269576 --cache_dir store
-
-# Query artifacts
-python3 scripts/store_query.py file.json --search "statin" --select id,cohorts_named
-python3 scripts/store_search.py "medication confounding" --section cohort --top 5
-
-# Run state: progress ledger and crash recovery (not a scheduler)
-python3 scripts/run_state.py store/runs/my_run init store/runs/my_run/request.json
-python3 scripts/run_state.py store/runs/my_run complete search --artifact pubmed_results.json
-python3 scripts/run_state.py store/runs/my_run skip notion_create "webapp mode"
-python3 scripts/run_state.py store/runs/my_run status
-python3 scripts/run_state.py store/runs/my_run next   # crash recovery: first incomplete phase
-
-# Notion delivery
-python3 scripts/md_to_notion.py recommendation.md --page-id <id> --post
+```
+Ingest → Compile → Query → Lint
+   ↑                          |
+   └──────────────────────────┘
 ```
 
-## Pipeline Architecture
+The blueprint is `.claude/vcro-v2-blueprint.md` (20 parts). It is the source of truth.
 
-A 9-step pipeline driven by skill files in `skills/`. Each skill is a
-`SKILL.md` instruction doc that tells Claude what to do at that phase.
+## Architecture (high level)
 
-1. **Understand** (`vcro-understand`) — parse user query into `store/runs/{date}_{slug}/request.json`
-2. **Search** (`vcro-cohort-map` Phase A) — PubMed + Europe PMC + ClinicalTrials.gov with adaptive expansion
-3. **Validate** (`vcro-validate`) — classify results as RELEVANT / TANGENTIAL / NOT_RELEVANT
-4. **Map and fetch** — convert PMIDs to PMC IDs, download paper sections
-5. **Extract** (`vcro-cohort-map` Phase B) — extract intelligence dimensions from paper sections in batches of 8-10
-6. **Signal** (`vcro-signal`) — synthesize evidence across papers
-7. **Contacts / Provider / Access** (`vcro-contacts`, `vcro-source`, `vcro-access`) — PI names, platform comparisons, access routes
-8. **Rank** (`vcro-rank`) — order top 5 cohorts by fit to request (not raw N)
-9. **Deliver** (`vcro-deliver`) — markdown recommendation, post to Notion
+- **Ingest** turns raw documents (PMC XML, ClinicalTrials.gov JSON, biobank uploads) into faithful immutable markdown under `store/raw/`. No classification, no filtering.
+- **Compile** reads `store/raw/` and builds a structured entity graph at `store/wiki/`. One markdown article per entity (cohort, institution, investigator, platform, protocol, bundle). Cross-linked. Incremental.
+- **Query** reads the wiki, scores candidates on three transparent axes (Scale, Cost, Quality), and produces a recommendation. Wiki-first; ingest only when the wiki has gaps.
+- **Lint** scans the wiki for gaps, contradictions, staleness, and latent links. Findings feed back into compile.
 
-Not every query needs all 9 steps. A feasibility question may only need
-steps 1-6. A pricing question may only need `vcro-pricing`.
+The orchestrator agent `vcro-os` decides which capabilities to invoke for each request. Agents at `.claude/agents/`. Skills (instruction docs the agents read) at `.claude/skills/`. Rules (policy contracts) at `.claude/rules/`.
 
-## Key Architecture Decisions
-
-- **Skills are instruction docs, not code.** They live in `skills/*/SKILL.md` and tell Claude what to do.
-- **Scripts are pure tools.** They make API calls, parse XML, write JSON. No judgment, no orchestration.
-- **The store is a filesystem cache.** Papers, runs, and artifacts live on disk. No database.
-- **Intelligence dimensions** (`references/intelligence-dimensions.md`) define the vocabulary for extraction. Pick 5-8 per paper based on scope_notes.
-- **Two modes:** CLI (Claude Code reads CLAUDE.md directly) and production (Next.js + Vercel AI SDK with `streamText` and `useChat`).
-- **Opus orchestrates, never processes.** The main Opus session spawns subagents for ALL heavy phases. It reads 3–5 sentence digests from subagents — never raw JSON files or script output. See `vcro-os` for the full model allocation table.
-
-## Store Structure
+## Store layout
 
 ```
 store/
-├── sources/pmc/PMC.../           # Per-paper sections (meta.json, cohort.txt, biospecimens.txt, etc.)
-├── sources/clinicaltrials/NCT.../
-├── cohorts/
-├── runs/{date}_{slug}/           # Per-run artifacts (request.json, run_state.json, extracted_cohorts.json, etc.)
-└── index/
+├── raw/
+│   ├── papers/PMC.../{source.xml, paper.md, meta.json}
+│   ├── trials/NCT.../{source.json, trial.md, meta.json}
+│   └── uploads/{institution_slug}/...
+├── wiki/
+│   ├── cohorts/<slug>.md
+│   ├── institutions/<slug>.md
+│   ├── investigators/<slug>.md
+│   ├── platforms/<slug>.md
+│   ├── protocols/<slug>.md
+│   ├── bundles/bundle-<slug>.md
+│   └── index/{master, by-indication, by-sample-type, by-institution,
+│              by-access-route, provenance-coverage, links}.md
+├── catalog/<institution_slug>/{listing, compliance, pricing, follow-up}.md
+├── queries/<date>_<slug>/{request.json, candidates.json, scored_candidates.json,
+│                         recommendation.md, listings.jsonl, delta.jsonl}
+├── runs/<date>_<slug>/{papers.txt, run.jsonl, entity_curve.jsonl, ...}
+└── lint/<date>_{scan.json, gaps.md, consistency.md, staleness.md, connections.md, report.md}
 ```
 
-Initialize with: `mkdir -p store/sources/pmc store/sources/clinicaltrials store/cohorts store/runs store/index`
+`raw/` is immutable. `wiki/` is LLM-produced markdown with YAML frontmatter. The frontmatter is the contract for the web app — see `.claude/rules/entity-schema.md` and `.claude/rules/wiki-conventions.md`.
 
-## Critical Rules
+## Running scripts
 
-1. Every claim needs a source quote with ID (PMID, PMC, DOI, or NCT)
-2. Every fact needs an implication ("which means for your project..."). If you cannot say it, skip it
-3. Negative results matter as much as positive
-4. Rank by fit to the request, not by raw sample size
-5. Batch extraction into groups of 8-10 papers
-6. Use `store_query.py` to search artifacts without loading entire files
-7. Log every phase to `run_state.py` for crash recovery (it's a ledger, not a scheduler)
-8. Do NOT include ISOSpec in provider comparisons
-9. Ask the user before including tangential results. Never auto-resolve
-10. If resuming a crashed run, check `run_state.py status` and resume from the first incomplete phase
+All **core** scripts are pure Python stdlib — no pip install needed. The optional **graph layer** (`scripts/wiki_graph.py`) uses four pinned extras (`networkx`, `python-louvain`, `pyvis`, `PyYAML`) listed in `requirements-graph.txt`. It's opt-in and isolated; if you don't run it, nothing else in vCRO needs the deps.
 
-## Notion Delivery
+Install extras with uv (preferred):
 
-`md_to_notion.py` supports: headings, bullets, numbered lists, checkboxes,
-callouts (`> `), code blocks, dividers (`---`), tables, toggles
-(`:::toggle Title`), bookmarks (`[bookmark](url)`), table of contents
-(`!toc`), inline bold, italic, code, and links.
+```bash
+uv venv .venv-graph --python 3.12
+uv pip install --python .venv-graph/bin/python -r requirements-graph.txt
+# Then invoke as: .venv-graph/bin/python scripts/wiki_graph.py rebuild
+```
 
-## Environment Variables
+Or with plain pip: `pip install -r requirements-graph.txt`. The script prints a friendly install hint if any dep is missing.
 
-- `.notion-token` — Notion integration token (optional, skip Notion if not set)
+```bash
+# Ingest
+python3 scripts/pmc_convert.py --pmids_file pmids.txt --out store/raw/papers
+python3 scripts/ct_convert.py  --nct_file ncts.txt   --out store/raw/trials
+python3 scripts/verify_pmc_convert.py --root store/raw/papers --sample 10
+
+# Compile (the LLM phases run via Sonnet subagents per .claude/skills/compile/)
+python3 scripts/wiki_index.py --wiki store/wiki
+
+# Lint
+python3 scripts/lint_scan.py --wiki store/wiki --raw store/raw \
+  --out store/lint/$(date +%Y-%m-%d)_scan.json
+
+# Telemetry
+python3 scripts/run_log.py append store/runs/<run-id>/run.jsonl \
+  --pmc <PMC> --phase extract --model sonnet \
+  --input-tokens <n> --output-tokens <n> --wall <s>
+python3 scripts/extrapolate.py store/runs/<run-id>/run.jsonl --target 330
+
+# Search (legacy v1 helpers, still used for ingest expansion)
+python3 scripts/pubmed_api.py --queries "AD metabolomics" --retmax 20
+python3 scripts/europepmc_api.py --queries "FFPE metabolomics"
+python3 scripts/clinicaltrials_api.py --condition "Alzheimer" --terms "plasma"
+python3 scripts/pmid_to_pmc.py --pmids_file /tmp/pmids.txt
+
+# Notion delivery
+python3 scripts/md_to_notion.py recommendation.md --page-id <id> --post
+
+# Graph view (opt-in extras — see requirements-graph.txt)
+.venv-graph/bin/python scripts/wiki_graph.py rebuild       # full rebuild → store/wiki/graph/
+.venv-graph/bin/python scripts/wiki_graph.py status        # last-run meta
+.venv-graph/bin/python scripts/wiki_graph.py surprises     # top cross-community bridges
+.venv-graph/bin/python scripts/wiki_graph.py lint-export   # graph-connections.json for lint/connections
+```
+
+The graph layer is **read-only** over `store/wiki/`. It never mutates entity articles, never adds frontmatter, never calls an LLM. Outputs land in `store/wiki/graph/` (a new namespace, distinct from the auto-generated `store/wiki/index/`): `graph.html` (self-contained interactive viewer), `graph.json`, `communities.md`, `god-nodes.md`, `surprises.md`, `graph-meta.json`. Surprise entries render the existing `card.primary_signal` and `card.risk` of both endpoints verbatim — no generated prose.
+
+## Skills and agents
+
+```
+.claude/
+├── agents/
+│   ├── vcro-os.md          # main orchestrator (Opus)
+│   ├── vcro-bounty.md      # procurement orchestrator (Opus)
+│   └── vcro-onboard.md     # supply-side orchestrator (Opus)
+├── skills/
+│   ├── compile/{extract, resolve, merge}/SKILL.md
+│   ├── query/{understand, discover, score, deliver}/SKILL.md
+│   ├── query/bounty/format/SKILL.md
+│   ├── catalog/{catalog, compliance, price}/SKILL.md
+│   └── lint/{gaps, consistency, staleness, connections}/SKILL.md
+├── rules/
+│   ├── entity-schema.md           # frontmatter contract enforced by hook
+│   ├── example-rotation.md        # locked A/B/C domain rotation
+│   ├── evidence-standard.md       # quote + ID + implication, always
+│   ├── scoring-axes.md            # Scale / Cost / Quality, no composite
+│   ├── model-allocation.md        # Opus orchestrates, Sonnet processes
+│   ├── transparency-principles.md # provenance over bypass, both sides
+│   └── wiki-conventions.md        # entity article shape, slug rules
+└── hooks/
+    ├── pre-write-entity.sh        # PreToolUse hook gating store/wiki/ writes
+    └── pre-write-entity.py        # validates frontmatter against entity-schema.md
+```
+
+## Critical rules (quick reference)
+
+1. **Every fact carries a verbatim source quote, a source ID, and an implication.** See `.claude/rules/evidence-standard.md`.
+2. **Three independent axes, never composite.** See `.claude/rules/scoring-axes.md`.
+3. **Opus orchestrates, never processes.** See `.claude/rules/model-allocation.md`.
+4. **Provenance over bypass.** See `.claude/rules/transparency-principles.md`.
+5. **The entity-schema hook gates every write to store/wiki/.** Bad frontmatter = blocked write.
+6. **Idempotency.** Re-running the same compile against the same plan must produce a byte-identical wiki.
+7. **Domain framing rotates per `.claude/rules/example-rotation.md`** (A neuro fluid biomarker, B oncology tissue genomics, C microbiome stool sequencing). No skill defaults to plasma metabolomics framing.
+8. **ISOSpec is not in default provider comparisons.** See transparency-principles.md.
+9. **Negative results count.** Drop dimension-11 fragments are first-class.
+10. **Lint findings feed back to compile.** They are not user-facing reports; they are the orchestrator queue.
+11. **Never fill from training data.** Assay requirements, cost ranges, pre-analytical thresholds must cite a source. `[open_question]` over a plausible guess. See `_commandments.md` #11.
+
+## Two modes
+
+- **CLI / TUI**: The `vcro` TUI is a thin rendering shell (banner, spinners, tool indicators) over Claude Code. It injects the vcro-os system prompt on turn 0 so Claude Code runs as the orchestrator agent. All routing, agent dispatch, and skill execution happens inside Claude Code natively — the TUI never duplicates that logic.
+- **Production webapp**: Next.js + Vercel AI SDK with `streamText` and `useChat`. The webapp reads `store/queries/<id>/listings.jsonl` and `delta.jsonl` for the user-facing card view; it never parses entity prose.
+
+## Environment variables
+
+- `.notion-token` — Notion integration token (optional)
 - `.openai-key` — OpenAI API key for semantic search embeddings (optional, falls back to TF-IDF)
-- `ANTHROPIC_API_KEY` — for production Next.js route (`@ai-sdk/anthropic`)
+- `ANTHROPIC_API_KEY` — for the production Next.js route
 
-## Version Controlling with Git.
+## Version control
 
-Never author commits as Claude. Always under kamil seghrouchni, kamil.seg@gmail.com
+Author all commits as `kamil seghrouchni <kamil.seg@gmail.com>`. Never as Claude.
+
+## v1 → v2 migration
+
+v1 files that are retired:
+- `pmc_fetch.py` (keyword classifier) — replaced by `pmc_convert.py`
+- `store_query.py` — replaced by reading `store/wiki/` directly
+- `skills/vcro-*` (the old 9-step linear pipeline) — replaced by capabilities at `.claude/skills/`
+- `store/sources/` and `store/runs/` (v1 layout) — replaced by `store/raw/` and `store/queries/` + `store/runs/`
+
+The v1 CLAUDE.md is archived at `.claude/_archive_v1_CLAUDE.md` for reference.

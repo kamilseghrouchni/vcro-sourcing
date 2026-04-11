@@ -1,0 +1,287 @@
+{
+  "pmid": "40362907",
+  "pmc": "PMC12073124",
+  "doi": "10.3390/nu17091597",
+  "title": "Specific Bacterial Taxa and Their Metabolite, DHPS, May Be Linked to Gut Dyshomeostasis in Patients with Alzheimer’s Disease, Parkinson’s Disease, and Amyotrophic Lateral Sclerosis",
+  "journal": "Nutrients",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Christopher Courtney Jayde",
+      "affiliations": [
+        "cleathe3@vols.utk.edu (C.J.C.); babiodun@vols.utk.edu (B.A.A.); zvickery@vols.utk.edu (Z.V.); brittniwoodall@gmail.com (B.M.W.); campagna@utk.edu (S.R.C.)"
+      ]
+    },
+    {
+      "name": "Morgan Katherine Hope",
+      "affiliations": [
+        "kmorgan3@utk.edu"
+      ]
+    },
+    {
+      "name": "Tolleson Christopher Mahone",
+      "affiliations": [
+        "rtrudell@utmck.edu (R.T.)"
+      ]
+    },
+    {
+      "name": "Trudell Randall",
+      "affiliations": [
+        "rtrudell@utmck.edu (R.T.)"
+      ]
+    },
+    {
+      "name": "Fernandez-Romero Roberto",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Rice Lexis",
+      "affiliations": [
+        "lrice13@vols.utk.edu"
+      ]
+    },
+    {
+      "name": "Abiodun Blessing A.",
+      "affiliations": [
+        "cleathe3@vols.utk.edu (C.J.C.); babiodun@vols.utk.edu (B.A.A.); zvickery@vols.utk.edu (Z.V.); brittniwoodall@gmail.com (B.M.W.); campagna@utk.edu (S.R.C.)"
+      ]
+    },
+    {
+      "name": "Vickery Zane",
+      "affiliations": [
+        "cleathe3@vols.utk.edu (C.J.C.); babiodun@vols.utk.edu (B.A.A.); zvickery@vols.utk.edu (Z.V.); brittniwoodall@gmail.com (B.M.W.); campagna@utk.edu (S.R.C.)"
+      ]
+    },
+    {
+      "name": "Jones Katarina A.",
+      "affiliations": [
+        "kjone166@vols.utk.edu"
+      ]
+    },
+    {
+      "name": "Woodall Brittni Morgan",
+      "affiliations": [
+        "cleathe3@vols.utk.edu (C.J.C.); babiodun@vols.utk.edu (B.A.A.); zvickery@vols.utk.edu (Z.V.); brittniwoodall@gmail.com (B.M.W.); campagna@utk.edu (S.R.C.)"
+      ]
+    },
+    {
+      "name": "Nagy Christopher",
+      "affiliations": [
+        "cnagy@email.unc.edu"
+      ]
+    },
+    {
+      "name": "Mieczkowski Piotr Andrzej",
+      "affiliations": [
+        "piotr_mieczkowski@med.unc.edu"
+      ]
+    },
+    {
+      "name": "Bowen Gregory",
+      "affiliations": [
+        "greg_bowen@med.unc.edu"
+      ]
+    },
+    {
+      "name": "Campagna Shawn R.",
+      "affiliations": [
+        "cleathe3@vols.utk.edu (C.J.C.); babiodun@vols.utk.edu (B.A.A.); zvickery@vols.utk.edu (Z.V.); brittniwoodall@gmail.com (B.M.W.); campagna@utk.edu (S.R.C.)",
+        "kjone166@vols.utk.edu"
+      ]
+    },
+    {
+      "name": "Ellis Joseph Christopher",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "neurodegenerative disease",
+    "amyotrophic lateral sclerosis",
+    "Parkinson’s disease",
+    "Alzheimer’s disease",
+    "metabolomics",
+    "bacterial-derived",
+    "2,3-dihydroxypropane-1-sulfonate (DHPS)",
+    "microbiome"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Laboratory Directed Research and Development Program of Oak Ridge National Laboratory",
+    "the University of Tennessee’s College of Nursing and the Department of Chemistry",
+    "the University of Tennessee Office of Research, Innovation, and Economic Development’s Human Health and Wellbeing Project",
+    "ALS Research at the University of Tennessee Medical Center",
+    "Cole Center for Parkinson’s Disease and Movement Disorders"
+  ],
+  "data_availability_text": "Data Availability StatementThe data presented in this study are available at Qiita at https://qiita.ucsd.edu/, study number 15752. Metabolomics data files are accessible at MetaboLights (accession No. MTBLS10511).",
+  "license": "",
+  "received": "2025-04-16",
+  "accepted": "2025-05-05",
+  "reference_pmids": [
+    "28931491",
+    "30879893",
+    "32665974",
+    "36748473",
+    "38689398",
+    "36588088",
+    "31722195",
+    "35045378",
+    "32517799",
+    "32934117",
+    "33499229",
+    "34530073",
+    "36614151",
+    "33466861",
+    "36814376",
+    "32747678",
+    "29065369",
+    "35829770",
+    "23116228",
+    "36455790",
+    "33374235",
+    "33362788",
+    "35464431",
+    "34929227",
+    "39933444",
+    "1673054",
+    "2001787",
+    "19679070",
+    "10858586",
+    "14676043",
+    "36417828",
+    "36232865",
+    "35303679",
+    "31471351",
+    "39403057",
+    "33614635",
+    "33871591",
+    "31063846",
+    "29051531",
+    "29758946",
+    "31434623",
+    "33523001",
+    "34384375",
+    "35821195",
+    "26474316",
+    "25904081",
+    "20082977",
+    "29360467",
+    "33274480",
+    "34996879",
+    "32472555",
+    "35129196",
+    "37601447",
+    "23226130",
+    "33790426",
+    "34745023",
+    "28978633",
+    "15863703",
+    "32781284",
+    "26674552",
+    "31213529",
+    "26216954",
+    "34012926",
+    "33140901",
+    "37895161",
+    "38347214",
+    "21514247",
+    "7807156",
+    "15372591",
+    "30376508",
+    "17630720",
+    "35276896",
+    "35409014",
+    "20349993",
+    "29417056",
+    "20716697",
+    "22389014",
+    "21049934",
+    "35715522",
+    "34019663",
+    "31756036",
+    "23995388",
+    "31341288",
+    "33431651",
+    "33318181",
+    "29130504",
+    "32635400",
+    "18625417",
+    "19937972",
+    "24300239",
+    "25548163",
+    "32571930",
+    "38397838",
+    "16982799",
+    "29491392",
+    "26899735",
+    "16860735",
+    "30065028",
+    "27213689",
+    "32943527",
+    "35165451",
+    "31972239",
+    "32919372",
+    "33436075",
+    "35798742",
+    "35326429",
+    "38649365",
+    "24137540",
+    "33153477",
+    "24709563",
+    "32317956",
+    "35454968",
+    "33657381",
+    "28843021",
+    "39195530",
+    "33537654",
+    "36924684",
+    "25627240"
+  ],
+  "tables_count": 2,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "1. introduction",
+    "1.1. microbial and metabolic dysbiosis associated with ndds",
+    "1.1.1. alzheimer’s disease",
+    "1.1.2. amyotrophic lateral sclerosis",
+    "1.1.3. parkinson’s disease",
+    "1.2. gut imbalances, inflammation, oxidative stress, and mitochondrial dysfunction",
+    "2. materials and methods",
+    "2.1. ethics statement",
+    "2.2. study population",
+    "2.3. subjects were in early diagnostic stages",
+    "2.4. sample collection, preservation, dna extraction",
+    "2.5. metabolomics",
+    "2.5.1. metabolite extractions",
+    "2.5.2. uhplc-hrms",
+    "2.5.3. metabolomics data processing",
+    "2.5.4. statistical analysis",
+    "2.6. 16s rrna sequencing",
+    "16s data processing and analysis",
+    "3. results",
+    "3.1. global metabolomics",
+    "3.1.1. alzheimer’s disease",
+    "3.1.2. amyotrophic lateral sclerosis",
+    "3.1.3. parkinson’s disease",
+    "3.2. neurodegenerative disease metabolic markers",
+    "3.3. sequencing (16s rrna)",
+    "4. discussion",
+    "4.1. metabolome alterations in ndds",
+    "4.2. cryptic sulfur metabolism in ndds",
+    "4.3. dhps microbial metabolism in ndds",
+    "4.4. melainabacteria could be associated with dhps-mediated cryptic sulfur metabolism in ndds",
+    "4.5. potential physiological role of dhps",
+    "4.6. limitations",
+    "5. conclusions",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 11446,
+  "converted_at": "2026-04-06T22:36:57.147655+00:00"
+}

@@ -1,0 +1,232 @@
+{
+  "pmid": "41268542",
+  "pmc": "PMC12626996",
+  "doi": "10.3389/fimmu.2025.1662197",
+  "title": "Tofacitinib extends survival in a mouse model of ALS through NK cell-independent mechanisms",
+  "journal": "Frontiers in Immunology",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Baird Lillia A.",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States",
+        "2 Graduate Program in Immunology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Teener Samuel J.",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Webber-Davis Ian F.",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Carter Andrew D.",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Huang Fang",
+      "affiliations": [
+        "3 School of Medicine & Health Sciences, University of North Dakota, Grant Forks, ND, United States"
+      ]
+    },
+    {
+      "name": "Jang Dae-Gyu",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Famie Joshua P.",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Piecuch Caroline E.",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Guo Kai",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Feldman Eva L.",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    },
+    {
+      "name": "Murdock Benjamin J.",
+      "affiliations": [
+        "1 Department of Neurology, University of Michigan, Ann Arbor, MI, United States"
+      ]
+    }
+  ],
+  "keywords": [
+    "ALS",
+    "immune system",
+    "motor neuron disease",
+    "natural killer cells",
+    "neurodegeneration"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "U.S. Department of Defense 10.13039/100000005AL200064",
+    "ALS Association 10.13039/10000097120-IIA-431",
+    "National Institutes of Health 10.13039/100000002R01NS120926, R01NS127188, F31NS139629"
+  ],
+  "data_availability_text": "Data availability statementThe original bulk RNA-Seq data presented in this study can be found at ArrayExpress (https://www.ebi.ac.uk/biostudies/arrayexpress), accession number E-MTAB-16025. Differentially expressed gene (DEG) data and gene set enrichment analysis (GSEA) data are available in Supplementary Materials . All other original data will be made available by the authors upon request.",
+  "license": "",
+  "received": "2025-07-09",
+  "accepted": "2025-10-17",
+  "reference_pmids": [
+    "36116464",
+    "35334233",
+    "33134918",
+    "32373052",
+    "35334234",
+    "38626361",
+    "33974561",
+    "27308304",
+    "28973548",
+    "33531377",
+    "28742871",
+    "23143995",
+    "28289705",
+    "33543134",
+    "35287794",
+    "36347843",
+    "31604369",
+    "32286313",
+    "31597644",
+    "18997009",
+    "21829620",
+    "17043238",
+    "19672969",
+    "21596768",
+    "16337133",
+    "18809917",
+    "22863620",
+    "16802291",
+    "17980667",
+    "16401852",
+    "19922128",
+    "34153344",
+    "18425107",
+    "35197969",
+    "31375130",
+    "8209258",
+    "29518577",
+    "30427585",
+    "19136895",
+    "24695404",
+    "25751142",
+    "24227677",
+    "33015620",
+    "25516281",
+    "24464803",
+    "34454676",
+    "34824210",
+    "25726748",
+    "36583542",
+    "21506999",
+    "39849490",
+    "29507931",
+    "32246039",
+    "34624526",
+    "24416411",
+    "31664224",
+    "18094329",
+    "33127856",
+    "34516458",
+    "26164790",
+    "28070525",
+    "22252297",
+    "33296970",
+    "40133148",
+    "28751001",
+    "37685986",
+    "39538350",
+    "39872731",
+    "31053871",
+    "18792852",
+    "37500993",
+    "39976286",
+    "17543992",
+    "17469116",
+    "28236105",
+    "33930196",
+    "30806710",
+    "33292029",
+    "34630419",
+    "32367507",
+    "29399045"
+  ],
+  "tables_count": 0,
+  "figures_count": 5,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "reagents",
+    "mouse model",
+    "power calculations and randomization",
+    "tofacitinib treatment",
+    "survival",
+    "physical phenotyping",
+    "weight",
+    "grip strength",
+    "rotarod",
+    "sample collection",
+    "blood",
+    "spinal cord",
+    "muscle",
+    "immunohistochemistry",
+    "spinal cord",
+    "neuromuscular junctions",
+    "flow cytometry",
+    "blood",
+    "spinal cord",
+    "staining and analysis",
+    "rna-seq",
+    "rna isolation and sequencing",
+    "rna-seq data processing",
+    "differential gene expression identification",
+    "functional enrichment analysis",
+    "collection of rna from fixed spinal cord tissue",
+    "cell culture",
+    "quantitative real-time pcr",
+    "western blots",
+    "statistics",
+    "basic statistics",
+    "controlling for cohort effects",
+    "survival",
+    "physical phenotyping",
+    "covariates",
+    "results",
+    "low-dose tofacitinib extends survival in als mice",
+    "tofacitinib delays weight loss but does not improve end-stage motor neuron or nmj counts",
+    "tofacitinib affects peripheral and infiltrating immune populations without any change in neuroinflammation",
+    "tofacitinib alters regulation of immune and metabolic pathways in the spinal cord",
+    "discussion",
+    "conclusion",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10393,
+  "converted_at": "2026-04-06T22:38:00.481888+00:00"
+}

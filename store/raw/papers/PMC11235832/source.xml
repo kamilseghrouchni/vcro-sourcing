@@ -1,0 +1,1238 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="ene16264" xml:lang="en" article-type="other" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Eur J Neurol</journal-id><journal-id journal-id-type="iso-abbrev">Eur J Neurol</journal-id><journal-id journal-id-type="pmc-domain-id">4612</journal-id><journal-id journal-id-type="pmc-domain">ejneurol</journal-id><journal-id journal-id-type="publisher-id">ENE</journal-id><journal-title-group><journal-title>European Journal of Neurology</journal-title></journal-title-group><issn pub-type="ppub">1351-5101</issn><issn pub-type="epub">1468-1331</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11235832</article-id><article-id pub-id-type="pmcid-ver">PMC11235832.1</article-id><article-id pub-id-type="pmcaid">11235832</article-id><article-id pub-id-type="pmcaiid">11235832</article-id><article-id pub-id-type="pmid">38470068</article-id><article-id pub-id-type="doi">10.1111/ene.16264</article-id><article-id pub-id-type="publisher-id">ENE16264</article-id><article-id pub-id-type="other">EJoN-23-2472.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Guidelines</subject></subj-group><subj-group subj-group-type="heading"><subject>ALS and frontotemporal dementia</subject></subj-group></article-categories><title-group><article-title>European Academy of Neurology (<styled-content style="fixed-case" toggle="no">EAN)</styled-content> guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (<styled-content style="fixed-case" toggle="no">ERN</styled-content>
+<styled-content style="fixed-case" toggle="no">EURO‐NMD)</styled-content>
+</article-title><alt-title alt-title-type="right-running-head">
+<styled-content style="fixed-case" toggle="no">ALS</styled-content> guideline</alt-title><alt-title alt-title-type="left-running-head">Van Damme et al.</alt-title></title-group><contrib-group><contrib id="ene16264-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Van Damme</surname><given-names initials="P">Philip</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4010-2357</contrib-id><xref rid="ene16264-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>philip.vandamme@uzleuven.be</email></address></contrib><contrib id="ene16264-cr-0002" contrib-type="author"><name name-style="western"><surname>Al‐Chalabi</surname><given-names initials="A">Ammar</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4924-7712</contrib-id><xref rid="ene16264-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ene16264-cr-0003" contrib-type="author"><name name-style="western"><surname>Andersen</surname><given-names initials="PM">Peter M.</given-names></name><xref rid="ene16264-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ene16264-cr-0004" contrib-type="author"><name name-style="western"><surname>Chiò</surname><given-names initials="A">Adriano</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9579-5341</contrib-id><xref rid="ene16264-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="ene16264-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ene16264-cr-0005" contrib-type="author"><name name-style="western"><surname>Couratier</surname><given-names initials="P">Philippe</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9562-856X</contrib-id><xref rid="ene16264-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="ene16264-cr-0006" contrib-type="author"><name name-style="western"><surname>De Carvalho</surname><given-names initials="M">Mamede</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7556-0158</contrib-id><xref rid="ene16264-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="ene16264-cr-0007" contrib-type="author"><name name-style="western"><surname>Hardiman</surname><given-names initials="O">Orla</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2610-1291</contrib-id><xref rid="ene16264-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="ene16264-cr-0008" contrib-type="author"><name name-style="western"><surname>Kuźma‐Kozakiewicz</surname><given-names initials="M">Magdalena</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9676-1263</contrib-id><xref rid="ene16264-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="ene16264-cr-0009" contrib-type="author"><name name-style="western"><surname>Ludolph</surname><given-names initials="A">Albert</given-names></name><xref rid="ene16264-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib><contrib id="ene16264-cr-0010" contrib-type="author"><name name-style="western"><surname>McDermott</surname><given-names initials="CJ">Christopher J.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1269-9053</contrib-id><xref rid="ene16264-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref></contrib><contrib id="ene16264-cr-0011" contrib-type="author"><name name-style="western"><surname>Mora</surname><given-names initials="JS">Jesus S.</given-names></name><xref rid="ene16264-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref></contrib><contrib id="ene16264-cr-0012" contrib-type="author"><name name-style="western"><surname>Petri</surname><given-names initials="S">Susanne</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9783-8584</contrib-id><xref rid="ene16264-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref></contrib><contrib id="ene16264-cr-0013" contrib-type="author"><name name-style="western"><surname>Probyn</surname><given-names initials="K">Katrin</given-names></name><xref rid="ene16264-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref></contrib><contrib id="ene16264-cr-0014" contrib-type="author"><name name-style="western"><surname>Reviers</surname><given-names initials="E">Evy</given-names></name><xref rid="ene16264-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref></contrib><contrib id="ene16264-cr-0015" contrib-type="author"><name name-style="western"><surname>Salachas</surname><given-names initials="F">François</given-names></name><xref rid="ene16264-aff-0016" ref-type="aff">
+<sup>16</sup>
+</xref></contrib><contrib id="ene16264-cr-0016" contrib-type="author"><name name-style="western"><surname>Silani</surname><given-names initials="V">Vincenzo</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7698-3854</contrib-id><xref rid="ene16264-aff-0017" ref-type="aff">
+<sup>17</sup>
+</xref><xref rid="ene16264-aff-0018" ref-type="aff">
+<sup>18</sup>
+</xref></contrib><contrib id="ene16264-cr-0017" contrib-type="author"><name name-style="western"><surname>Tysnes</surname><given-names initials="OB">Ole‐Bjørn</given-names></name><xref rid="ene16264-aff-0019" ref-type="aff">
+<sup>19</sup>
+</xref></contrib><contrib id="ene16264-cr-0018" contrib-type="author"><name name-style="western"><surname>van den Berg</surname><given-names initials="LH">Leonard H.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6559-3965</contrib-id><xref rid="ene16264-aff-0020" ref-type="aff">
+<sup>20</sup>
+</xref></contrib><contrib id="ene16264-cr-0019" contrib-type="author"><name name-style="western"><surname>Villanueva</surname><given-names initials="G">Gemma</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1306-1721</contrib-id><xref rid="ene16264-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref></contrib><contrib id="ene16264-cr-0020" contrib-type="author"><name name-style="western"><surname>Weber</surname><given-names initials="M">Markus</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5538-9274</contrib-id><xref rid="ene16264-aff-0021" ref-type="aff">
+<sup>21</sup>
+</xref></contrib></contrib-group><aff id="ene16264-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology, University Hospitals Leuven, Department of Neuroscience KU Leuven</named-content>
+<institution>Center for Brain &amp; Disease Research VIB</institution>
+<city>Leuven</city>
+<country country="BE">Belgium</country>
+</aff><aff id="ene16264-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Basic and Clinical Neuroscience</named-content>
+<institution>Maurice Wohl Clinical Neuroscience Institute, Institute of Psychiatry, Psychology and Neuroscience, King's College London</institution>
+<city>London</city>
+<country country="GB">UK</country>
+</aff><aff id="ene16264-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Clinical Science, Neurosciences</named-content>
+<institution>Umeå University</institution>
+<city>Umeå</city>
+<country country="SE">Sweden</country>
+</aff><aff id="ene16264-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Rita Levi Montalcini Department of Neuroscience</named-content>
+<institution>University of Turin</institution>
+<city>Turin</city>
+<country country="IT">Italy</country>
+</aff><aff id="ene16264-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>Azienda Ospedaliero Universitaria Città della Salute e della Scienza di Torino</institution>
+<city>Turin</city>
+<country country="IT">Italy</country>
+</aff><aff id="ene16264-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<institution>Centre SLA, CHU Limoges</institution>
+<city>Limoges</city>
+<country country="FR">France</country>
+</aff><aff id="ene16264-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Faculdade de Medicina</named-content>
+<institution>Instituto de Medicina Molecular, Universidade de Lisboa, Centro Académico de Medicina de Lisboa</institution>
+<city>Lisbon</city>
+<country country="PT">Portugal</country>
+</aff><aff id="ene16264-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Academic Unit of Neurology</named-content>
+<institution>Trinity Biomedical Sciences Institute, Trinity College Dublin</institution>
+<city>Dublin</city>
+<country country="IE">Ireland</country>
+</aff><aff id="ene16264-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Medical University of Warsaw</institution>
+<city>Warsaw</city>
+<country country="PL">Poland</country>
+</aff><aff id="ene16264-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<institution>Department of Neurology, Ulm University, German Center for Neurodegenerative Diseases (DZNE)</institution>
+<city>Ulm</city>
+<country country="DE">Germany</country>
+</aff><aff id="ene16264-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<institution>Sheffield Institute for Translational Neuroscience, University of Sheffield</institution>
+<city>Sheffield</city>
+<country country="GB">UK</country>
+</aff><aff id="ene16264-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">ALS Unit, Department of Neurology</named-content>
+<institution>Hospital Universitario San Rafael</institution>
+<city>Madrid</city>
+<country country="ES">Spain</country>
+</aff><aff id="ene16264-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<institution>Department of Neurology, Hannover Medical School</institution>
+<city>Hannover</city>
+<country country="DE">Germany</country>
+</aff><aff id="ene16264-aff-0014">
+<label>
+<sup>14</sup>
+</label>
+<institution>Cochrane Response</institution>
+<city>London</city>
+<country country="GB">UK</country>
+</aff><aff id="ene16264-aff-0015">
+<label>
+<sup>15</sup>
+</label>
+<institution>EUpALS (European Organization for Professionals and Patients with ALS) and ALS Liga België</institution>
+<city>Leuven</city>
+<country country="BE">Belgium</country>
+</aff><aff id="ene16264-aff-0016">
+<label>
+<sup>16</sup>
+</label>
+<institution>Neurology Department, Paris ALS Center, Groupe Hospitalier Pitié‐Salpêtrière, AP‐HP</institution>
+<city>Paris</city>
+<country country="FR">France</country>
+</aff><aff id="ene16264-aff-0017">
+<label>
+<sup>17</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neuroscience and Laboratory of Neuroscience</named-content>
+<institution>IRCCS Istituto Auxologico Italiano</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff><aff id="ene16264-aff-0018">
+<label>
+<sup>18</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pathophysiology and Transplantation, Dino Ferrari Center</named-content>
+<institution>Università degli Studi di Milano</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff><aff id="ene16264-aff-0019">
+<label>
+<sup>19</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Haukeland University Hospital</institution>
+<city>Bergen</city>
+<country country="NO">Norway</country>
+</aff><aff id="ene16264-aff-0020">
+<label>
+<sup>20</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology, UMC Utrecht Brain Center</named-content>
+<institution>University Medical Center Utrecht</institution>
+<city>Utrecht</city>
+<country country="NL">The Netherlands</country>
+</aff><aff id="ene16264-aff-0021">
+<label>
+<sup>21</sup>
+</label>
+<institution>Neuromuscular Diseases Unit/ALS Clinic</institution>
+<city>St. Gallen</city>
+<country country="CH">Switzerland</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Philip Van Damme, Department of Neurology, University Hospitals Leuven, Herestraat 49, 3000 Leuven, Belgium.<break/>
+Email: <email>philip.vandamme@uzleuven.be</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>12</day><month>3</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2024</year></pub-date><volume>31</volume><issue seq="60">6</issue><issue-id pub-id-type="pmc-issue-id">466511</issue-id><issue-id pub-id-type="doi">10.1111/ene.v31.6</issue-id><elocation-id>e16264</elocation-id><history><date date-type="rev-recd"><day>06</day><month>2</month><year>2024</year></date><date date-type="received"><day>07</day><month>12</month><year>2023</year></date><date date-type="accepted"><day>15</day><month>2</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>12</day><month>03</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>26</day><month>07</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-07-19 14:25:23.840"><day>19</day><month>07</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Authors. <italic toggle="yes">European Journal of Neurology</italic> published by John Wiley &amp; Sons Ltd on behalf of European Academy of Neurology.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ENE-31-e16264.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ENE-31-e16264.pdf"/><abstract><title>Abstract</title><sec id="ene16264-sec-0001"><title>Background</title><p>This update of the guideline on the management of amyotrophic lateral sclerosis (ALS) was commissioned by the European Academy of Neurology (EAN) and prepared in collaboration with the European Reference Network for Neuromuscular Diseases (ERN EURO‐NMD) and the support of the European Network for the Cure ALS (ENCALS) and the European Organization for Professionals and Patients with ALS (EUpALS).</p></sec><sec id="ene16264-sec-0002"><title>Methods</title><p>Grading of Recommendations Assessment, Development, and Evaluation (GRADE) methodology was used to assess the effectiveness of interventions for ALS. Two systematic reviewers from Cochrane Response supported the guideline panel. The working group identified a total of 26 research questions, performed systematic reviews, assessed the quality of the available evidence, and made specific recommendations. Expert consensus statements were provided where insufficient evidence was available.</p></sec><sec id="ene16264-sec-0003"><title>Results</title><p>A guideline mapping effort revealed only one other ALS guideline that used GRADE methodology (a National Institute for Health and Care Excellence [NICE] guideline). The available evidence was scarce for many research questions. Of the 26 research questions evaluated, the NICE recommendations could be adapted for 8 questions. Other recommendations required updates of existing systematic reviews or de novo reviews. Recommendations were made on currently available disease‐modifying treatments, multidisciplinary care, nutritional and respiratory support, communication aids, psychological support, treatments for common ALS symptoms (e.g., muscle cramps, spasticity, pseudobulbar affect, thick mucus, sialorrhea, pain), and end‐of‐life management.</p></sec><sec id="ene16264-sec-0004"><title>Conclusions</title><p>This update of the guideline using GRADE methodology provides a framework for the management of ALS. The treatment landscape is changing rapidly, and further updates will be prepared when additional evidence becomes available.</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ene16264-kwd-0001">disease‐modifying treatment</kwd><kwd id="ene16264-kwd-0002">gastrostomy</kwd><kwd id="ene16264-kwd-0003">guideline</kwd><kwd id="ene16264-kwd-0004">multidisciplinary care</kwd><kwd id="ene16264-kwd-0005">non‐invasive ventilation</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>ERN Euro‐NMD</funding-source></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>European Academy of Neurology
+</institution><institution-id institution-id-type="doi">10.13039/501100011963</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0003"><funding-source>ALS Liga Belgium</funding-source></award-group><award-group id="funding-0004"><funding-source>EUpALS</funding-source></award-group><award-group id="funding-0005"><funding-source>ENCALS</funding-source></award-group></funding-group><counts><fig-count count="1"/><table-count count="1"/><page-count count="16"/><word-count count="9047"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.5 mode:remove_FC converted:08.07.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ENE16264-cit-2001">
+<string-name name-style="western">
+<surname>Van Damme</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Chalabi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andersen</surname>
+<given-names>PM</given-names>
+</string-name>, et al. <article-title>European Academy of Neurology (<styled-content style="fixed-case" toggle="no">EAN)</styled-content> guideline on the management of amyotrophic lateral sclerosis in collaboration with European Reference Network for Neuromuscular Diseases (<styled-content style="fixed-case" toggle="no">ERN</styled-content>
+<styled-content style="fixed-case" toggle="no">EURO‐NMD)</styled-content>
+</article-title>. <source>Eur J Neurol</source>. <year>2024</year>;<volume>31</volume>:<elocation-id>e16264</elocation-id>. doi:<pub-id pub-id-type="doi">10.1111/ene.16264</pub-id>
+<pub-id pub-id-type="pmid">38470068</pub-id>
+<pub-id pub-id-type="pmcid">PMC11235832</pub-id></mixed-citation>
+</p></notes></front><body id="ene16264-body-0001"><sec id="ene16264-sec-0005"><title>INTRODUCTION</title><p>The first European guideline on the diagnosis and management of amyotrophic lateral sclerosis (ALS) was published by a task force of the European Federation of Neurological Societies (EFNS) in 2005 and later updated in 2011.<xref rid="ene16264-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="ene16264-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> A renewed guideline on the management of ALS was commissioned by the European Academy of Neurology (EAN) in 2016. A guideline panel consisting of ALS experts from 14 European countries was assembled and later joined by two reviewers from Cochrane Response and patient representation from the European Organization for Professionals and Patients with ALS (EUpALS). The guideline was prepared in collaboration with the European Network for the Cure of ALS (ENCALS), the European Reference Network for Neuromuscular Diseases (EURO‐NMD), and EUpALS.</p><p>In ALS, the progressive loss of motor neurons in the motor cortex, brainstem, and spinal cord gives rise to progressive muscle weakness, stiffness and wasting, leading to a decline in motor function with a high impact on quality of life.<xref rid="ene16264-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="ene16264-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="ene16264-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> The median survival of people with ALS is limited to 3 years after disease onset, mostly due to respiratory failure. In up to 50% of people with ALS, extra‐motor involvement, primarily involving the frontal and anterior temporal lobes, can cause behavioural and cognitive problems in addition to the motor deficits.<xref rid="ene16264-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> About 10% of patients will qualify for a diagnosis of frontotemporal dementia (FTD) at the time of diagnosis.<xref rid="ene16264-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> Although the presence of FTD has a major impact on the management of ALS, there is limited evidence on the consequences for the care of ALS patients. The panel therefore refers to separate publications for the diagnosis and management of cognitive and behavioural impairment in people with ALS.<xref rid="ene16264-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="ene16264-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+</p><p>The cause of disease remains unknown in the majority of people with ALS. In about 20% of patients an underlying gene mutation can be identified. With the advent of molecular therapies for specific genetic subtypes of ALS there is a growing consensus to offer rapid gene testing to all people with ALS. Gene testing is not addressed in this guideline. For guidance on gene testing for ALS the panel refers readers to other publications.<xref rid="ene16264-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="ene16264-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>
+</p><p>This guideline attempts to provide guidance on the clinical use of disease‐modifying therapies, which is a rapidly changing field with several new emerging drugs. In addition, recommendations are made on the delivery of multidisciplinary care, on the management of muscle weakness, muscle cramps, spasticity, sialorrhea, weak cough, thick mucus, respiratory insufficiency, malnutrition, emotional lability, anxiety, depression, insomnia, fatigue, deep venous thrombosis prevention, musculoskeletal pain, constipation, hoarse voice and stridor, and communication problems. Psychological support and decisions about end‐of‐life care were also addressed. In many of these areas there are no randomised controlled trials (RCTs) of sufficient quality available to guide the management. When applying the recommendations, large regional differences in the organisation of the care for people with ALS should be taken into consideration.<xref rid="ene16264-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> This guideline is aimed at all health care professionals dealing with people with ALS.</p></sec><sec sec-type="methods" id="ene16264-sec-0006"><title>METHODS</title><p>Grading of Recommendations Assessment, Development, and Evaluation (GRADE) methodology was used for the development of this guideline, as requested for EAN guidelines.<xref rid="ene16264-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> The basis of the guideline was a series of 26 review questions agreed upon by the guideline working group. Review questions were developed using a PICO (Patient, Intervention, Comparison, and Outcome) framework. The questions were based on the identified key clinical areas. All individual research questions and evidence reports are listed in Online Supplement <xref rid="ene16264-supitem-0002" ref-type="supplementary-material">S1</xref> and <xref rid="ene16264-supitem-0002" ref-type="supplementary-material">S2</xref>.</p><p>We followed the GRADE‐ADOLOPMENT approach<xref rid="ene16264-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> (namely one that combines adoption, adaptation, and, as needed, de novo development of recommendations) for developing this guideline.</p><p>First, a guideline mapping effort was carried out, looking for other guidelines that used GRADE methodology and examined similar research questions. Only one guideline was identified produced by the National Institute for Health and Care Excellence (NICE) and published in 2019.<xref rid="ene16264-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>
+</p><p>We either adapted recommendations from the existing UK NICE guideline<xref rid="ene16264-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> to suit the European context of this guideline or developed recommendations de novo based on (a) existing Cochrane reviews (b) updated Cochrane reviews, or (c) de novo systematic reviews.</p><p>We conducted systematic reviews and review updates using standard Cochrane methodology. For searching, screening and selection of studies, data extraction and management, assessment of risk of bias, and data analysis we followed the guidance in the Cochrane Handbook.<xref rid="ene16264-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> We followed the guidance of the GRADE Handbook<xref rid="ene16264-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> to assess the certainty of the evidence. The search was initially done in July 2018 and updated in January 2023. The search strategy can be found in Appendix <xref rid="ene16264-supitem-0002" ref-type="supplementary-material">S3</xref>.</p><p>The evidence to decision (EtD) framework<xref rid="ene16264-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> was used by the guideline development group to formulate de novo recommendations. The EtD included the summary of evidence about the benefits and harms of each intervention option(s), but also additional considerations of the guideline development group (the importance of the problem [e.g., baseline risk], patients' values and preferences, resource use and costs, feasibility and acceptability). All available evidence was presented at a consensus meeting. All recommendations were made based on consensus. Guideline development group members involved in primary studies could participate in the discussions, but not in the decision about the respective recommendations.</p></sec><sec sec-type="results" id="ene16264-sec-0007"><title>RESULTS</title><p>The guideline mapping effort identified the NICE ALS guideline, which also used GRADE methodology and contained overlapping research questions.<xref rid="ene16264-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> The guideline from the American Academy of Neurology (AAN) did contain overlapping research questions, but did not use GRADE methodology.<xref rid="ene16264-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="ene16264-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> Several research questions were not yet covered in the NICE ALS guideline and the AAN ALS guideline as they deal with new treatment options in the field.</p><p>The research questions were divided into 9 sections, with 26 individual review questions (including three questions with subquestions) (Table <xref rid="ene16264-tbl-0001" ref-type="table">1</xref>).</p><table-wrap position="float" id="ene16264-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Research questions and summary of results of the GRADE‐ADOLOPMENT process and decision for recommendations.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Chapter</th><th align="left" valign="bottom" rowspan="1" colspan="1">Guideline review question</th><th align="left" valign="bottom" rowspan="1" colspan="1">Topic</th><th align="left" valign="bottom" rowspan="1" colspan="1">Included in NICE guideline</th><th align="left" valign="bottom" rowspan="1" colspan="1">Systematic reviews (SRs)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Randomised controlled trials (RCTs)</th><th align="left" valign="bottom" rowspan="1" colspan="1">ADOLOPMENT decision</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="5" valign="top" colspan="1">1. Disease‐modifying therapies</td><td align="left" rowspan="5" valign="top" colspan="1">What is the effectiveness of disease‐modifying pharmacotherapies in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Riluzole</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">1 Cochrane SR (Miller 2012<xref rid="ene16264-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">4 RCTs included in Cochrane SR (Bensimon 1994<xref rid="ene16264-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, Bensimon 2002<xref rid="ene16264-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, Lacomblez 1996<xref rid="ene16264-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, Yanagisawa 1996<xref rid="ene16264-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Use Cochrane review</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Edaravone</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">3 RCTs (Abe 2014<xref rid="ene16264-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, Abe 2017a<xref rid="ene16264-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>, Abe 2017b<xref rid="ene16264-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">New review</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Cell‐based therapies</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">1 Cochrane SR (Abdul Wahid 2019<xref rid="ene16264-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>2 RCTs included in Abdul Wahid 2019 <xref rid="ene16264-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> (Gothelf 2017/Berry 2019<xref rid="ene16264-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, Oh 2018<xref rid="ene16264-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>)</p>
+<p>4 new RCTs (Amirzagar 2015<xref rid="ene16264-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, Cudkowicz 2022<xref rid="ene16264-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>, Duning 2011<xref rid="ene16264-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref>, Nefussy 2010<xref rid="ene16264-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Update Cochrane review</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">AMX0035</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">1 RCT (Paganoni 2020 [CENTAUR]<xref rid="ene16264-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">New review</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Tofersen</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">1 RCT (Miller 2022 [VALOR]<xref rid="ene16264-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">New review</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2. Service delivery</td><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of coordinated ALS clinic‐based multidisciplinary care (MDT) versus standard care by local neurologist in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">MDTs</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">Adapt NICE recommendations</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">3. Management of communication</td><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for communication problems in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Communication</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">Adapt NICE recommendations</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">4. Management of nutrition</td><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for malnutrition in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Management of malnutrition</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Partially – timing of gastrostomy</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>4 RCTs (Dorst 2022 [TOLCAL‐ALS Study]<xref rid="ene16264-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>, Ludolph 2020 [LIPCAL‐ALS]<xref rid="ene16264-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>, Wang 2022<xref rid="ene16264-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref>, Wills 2014<xref rid="ene16264-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Dietary interventions: new review</p>
+<p>Swallowing therapy, enteral feeding, parenteral feeding: empty reviews [consensus‐based recommendations]</p>
+</td></tr><tr><td align="left" rowspan="3" valign="top" colspan="1">5. Management of respiratory symptoms</td><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for weak cough in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Weak cough</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">Adapt NICE recommendations</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for thick mucus in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Thick mucus</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">Adapt NICE recommendations</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for respiratory insufficiency in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Respiratory insufficiency</td><td align="left" valign="top" rowspan="1" colspan="1">Partially – pharmacological treatments only</td><td align="left" valign="top" rowspan="1" colspan="1">2 Cochrane SRs (Maguire, unpublished, Raduvic 2017<xref rid="ene16264-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>3 RCTs included in Maguire (ND) (Gonzalez‐Bermejo 2016 [RespiStimALS]<xref rid="ene16264-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>, McDermott 2016 [DIPALS]<xref rid="ene16264-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, Katz 2017 [NEALS])</p>
+<p>2 RCTs included in Raduvonic 2017 (Bourke 2006<xref rid="ene16264-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>, Jacobs 2016<xref rid="ene16264-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref>)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Use Cochrane review for NIV and diaphragmatic pacing</p>
+<p>Consensus‐based recommendations for IV (empty review)</p>
+<p>Adapt NICE recommendations for pharmacological interventions</p>
+</td></tr><tr><td align="left" rowspan="10" valign="top" colspan="1">6. Management of other symptoms</td><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for muscle weakness in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Muscle weakness</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">Adapt NICE recommendations</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of pharmacological interventions muscle cramps in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Muscle cramps</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">1 Cochrane review (Balendra, unpublished)</td><td align="left" valign="top" rowspan="1" colspan="1">4 RCTs included in Balendra (ND) (Oskarsson 2018<xref rid="ene16264-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, Weber 2010<xref rid="ene16264-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>, Weiss 2016<xref rid="ene16264-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref>, Weiss 2021<xref rid="ene16264-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Use Cochrane SR (unpublished update)</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of pharmacological and physical therapy interventions for spasticity in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Spasticity</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">1 Cochrane review (Asworth 2012<xref rid="ene16264-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1 RCT included in Asworth 2013 (Drory 2001<xref rid="ene16264-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref>)</p>
+<p>1 new RCT (Riva 2019<xref rid="ene16264-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref>)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Update Cochrane SR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of pharmacological and non‐pharmacological interventions for musculoskeletal pain in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Musculoskeletal pain</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">1 RCT (Riva 2019<xref rid="ene16264-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">New review</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for sialorrhea in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Sialorrhea</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">1 Cochrane SR (James 2022<xref rid="ene16264-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">Use Cochrane SR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of pharmacological interventions for emotional lability in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Emotional lability</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">3 RCTs (Brooks 2004<xref rid="ene16264-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref>, Pioro 2010<xref rid="ene16264-bib-0057" ref-type="bibr">
+<sup>57</sup>
+</xref>, Smith 2017<xref rid="ene16264-bib-0058" ref-type="bibr">
+<sup>58</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">New review</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of pharmacological and non‐pharmacological interventions for fatigue in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Fatigue</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">1 RCT (van Groenestijn 2019<xref rid="ene16264-bib-0059" ref-type="bibr">
+<sup>59</sup>
+</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">New review</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for constipation in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Constipation</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Empty review</p>
+<p>[consensus‐based recommendations]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of interventions for hoarse voice and laryngospasm in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Hoarse voice and laryngospasm</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Empty review</p>
+<p>[consensus‐based recommendations]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of pharmacological and non‐pharmacological interventions for insomnia in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Insomnia</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Empty review</p>
+<p>[consensus‐based recommendations]</p>
+</td></tr><tr><td align="left" rowspan="2" valign="top" colspan="1">7. Psychological and emotional support</td><td align="left" rowspan="2" valign="top" colspan="1">What is the effectiveness of pharmacological and non‐pharmacological interventions in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Anxiety</td><td align="left" valign="top" rowspan="1" colspan="1">Partially (psychological support, not specific about anxiety)</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Empty review</p>
+<p>[consensus‐based recommendations]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Depression</td><td align="left" valign="top" rowspan="1" colspan="1">Partially (psychological support, not specific about depression)</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Empty review</p>
+<p>[consensus‐based recommendations]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">8. Prevention of deep vein thrombosis</td><td align="left" valign="top" rowspan="1" colspan="1">What is the effectiveness of pharmacological and non‐pharmacological intervention for primary prevention of DVT in in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Deep vein thrombosis (DVT)</td><td align="left" valign="top" rowspan="1" colspan="1">No</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Empty review</p>
+<p>[consensus‐based recommendations]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">9. End of life</td><td align="left" valign="top" rowspan="1" colspan="1">What is the best method for planning of end of life in people with ALS and related syndromes?</td><td align="left" valign="top" rowspan="1" colspan="1">Provision of end‐of‐life care</td><td align="left" valign="top" rowspan="1" colspan="1">Yes</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">—</td><td align="left" valign="top" rowspan="1" colspan="1">Adapt NICE recommendations</td></tr></tbody></table></table-wrap><p>For 8 research (or sub‐) questions, we adapted evidence from existing NICE recommendations. For 8 questions we used evidence from existing systematic reviews or we updated existing systematic reviews, and for 16 we conducted a review de novo. Of these, 7 of the conducted reviews were empty, and the recommendations are based on expert opinion.</p><p>An extensive overview of the research questions, overview of the evidence, the EtD, and justifications for the recommendations can be found in Online Supplement <xref rid="ene16264-supitem-0002" ref-type="supplementary-material">S1</xref>. An overview of the evidence, the risk of bias assessment, the data analysis, and the GRADE summary of findings is available in Online Supplement <xref rid="ene16264-supitem-0002" ref-type="supplementary-material">S2</xref>.</p><p>Abbreviations: ADOLOPMENT, approach that combines adoption, adaptation, and de novo development of recommendations; ALS, amyotrophic lateral sclerosis; DVT, deep vein thrombosis; GRADE, Grading of Recommendations Assessment, Development, and Evaluation; IV, invasive ventilation; NIV, non‐invasive ventilation; MDT, multidisciplinary team; MND, motor neuron disease; NICE, a National Institute for Health and Care Excellence; RCT, randomised controlled trial; SR systematic review.</p><sec id="ene16264-sec-0008"><title>General remarks</title><p>
+<list list-type="bullet" id="ene16264-list-0001"><list-item id="ene16264-li-0001"><p>As this is a European guideline, the availability of different pharmacological agents might vary across different European countries.</p></list-item><list-item id="ene16264-li-0002"><p>Legal framework might vary across different European countries.</p></list-item><list-item id="ene16264-li-0003"><p>Concomitant FTD can affect decision taking in ALS. Before a decision is made on a treatment for a person with ALS who has FTD, the neurologist from the multidisciplinary team (MDT) should assess the person's ability to make decisions and to give consent, the severity of FTD and cognitive problems, and whether the person is likely to accept and cope with treatment (NICE guideline MDT care).</p></list-item><list-item id="ene16264-li-0004"><p>Provision of remote care/video consultation for people who cannot get to a centre (remote intervention) is generally a possibility.</p></list-item><list-item id="ene16264-li-0005"><p>Throughout this guideline we changed MND (used in the NICE guideline) to ALS, as the panel considered ALS the most widely used term across Europe.</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0009"><title>Interpretation and wording of recommendations</title><p>The strength of a recommendation reflects the extent to which the guideline panel is confident that desirable effects of an intervention outweigh undesirable effects, or vice versa, across the range of patients for whom the recommendation is intended. For recommendations with multiple subitems the strength of the recommendation is indicated at the end.<boxed-text position="anchor" content-type="graphic" id="ene16264-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ENE-31-e16264-g001.jpg"/></boxed-text>
+</p><p>In this guideline, the guideline panel has agreed to use the following wording of recommendations to facilitate understanding and interpretation.
+<list list-type="bullet" id="ene16264-list-0002"><list-item id="ene16264-li-0006"><p>For <italic toggle="yes">strong recommendations</italic> we use terms such as “Do …”, “Don't …”, or “Offer …”.</p></list-item><list-item id="ene16264-li-0007"><p>For <italic toggle="yes">weak recommendations</italic> we use less definitive wording such as “Consider …”.</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0010"><title>Recommendations</title><sec id="ene16264-sec-0011"><title>Chapter 1. Disease‐modifying therapies</title><sec id="ene16264-sec-0012"><title>1a. Riluzole</title><p>
+<list list-type="bullet" id="ene16264-list-0003"><list-item id="ene16264-li-0008"><p>Offer lifelong riluzole to all people with ALS at diagnosis. [++]</p></list-item><list-item id="ene16264-li-0009"><p>If adverse events are noted, consider reducing the dose and re‐evaluate. [+]</p></list-item><list-item id="ene16264-li-0010"><p>If adverse events still persist, consider stopping riluzole. [+]</p></list-item></list>
+</p><p>Remarks:</p><p>Recommended dosage is 50 mg twice daily.</p><p>Note that preference for oral, liquid, or other formulation may vary between patients. The different formulations of riluzole may not be available in all countries.</p></sec><sec id="ene16264-sec-0013"><title>1b. Edaravone</title><p>
+<list list-type="bullet" id="ene16264-list-0004"><list-item id="ene16264-li-0011"><p>Based on the available evidence, the panel currently does not recommend the use of intravenous or oral edaravone outside the context of a clinical trial. [– –]</p></list-item></list>
+</p><p>Remarks:</p><p>Interim recommendation. The evidence will be reviewed, and the recommendation updated, once the results from the ongoing phase III trial of oral edaravone in Europe are available.</p></sec><sec id="ene16264-sec-0014"><title>1c. Cell‐based therapies</title><p>
+<list list-type="bullet" id="ene16264-list-0005"><list-item id="ene16264-li-0012"><p>The panel cannot recommend the use of cell‐based treatments outside the context of clinical trials until positive phase III trial data are available. [– –]</p></list-item></list>
+</p><p>Remarks:</p><p>Interim recommendation. The evidence will be reviewed, and the recommendation updated, when phase III trial data are available.</p></sec><sec id="ene16264-sec-0015"><title>1d. AMX0035</title><p>
+<list list-type="bullet" id="ene16264-list-0006"><list-item id="ene16264-li-0013"><p>Based on the available evidence, the panel does not currently recommend the use of AMX0035 outside the context of a clinical trial until phase III trial data are available. [–]</p></list-item></list>
+</p><p>Remarks:</p><p>Interim recommendation. The evidence will be reviewed, and the recommendation updated, once the results from the ongoing phase III trial are available.</p></sec><sec id="ene16264-sec-0016"><title>1e. Tofersen</title><p>
+<list list-type="bullet" id="ene16264-list-0007"><list-item id="ene16264-li-0014"><p>In patients with progressive ALS caused by pathogenic mutations in <italic toggle="yes">superoxide dismutase 1</italic> (<italic toggle="yes">SOD1</italic>), offer tofersen as first‐line treatment. [++]</p></list-item><list-item id="ene16264-li-0015"><p>Discuss with the patient that this treatment may be associated with serious adverse events. [++]</p></list-item></list>
+</p><p>Remarks:</p><p>Tofersen may not be available in all countries.</p><p>In patients with slow progression, it is important to discuss the balance of potential benefits and harms.</p><p>Discuss the treatment burden with the patient, as it is administered intrathecally.</p></sec></sec><sec id="ene16264-sec-0017"><title>Chapter 2. Service delivery—multidisciplinary (<styled-content style="fixed-case" toggle="no">MDT</styled-content>) care*</title><p>*Adapted from NICE guideline.
+<list list-type="bullet" id="ene16264-list-0008"><list-item id="ene16264-li-0016"><p>Provide coordinated care for people with ALS using a clinic‐based, specialist ALS MDT approach. The clinic may be community‐ or hospital‐based. [++]</p></list-item><list-item id="ene16264-li-0017"><p>The MDT should:
+<list list-type="bullet" id="ene16264-list-0009"><list-item id="ene16264-li-0018"><p>Include healthcare professionals and social care practitioners with expertise in ALS, and staff who see people in their homes</p></list-item><list-item id="ene16264-li-0019"><p>Ensure effective communication and coordination between all healthcare professionals and social care practitioners involved in the person's care and their family members and/or carers (as appropriate)</p></list-item><list-item id="ene16264-li-0020"><p>Carry out regular, coordinated assessments by the MDT (usually every 3–6 months depending on disease progression) to assess people's symptoms and needs</p></list-item><list-item id="ene16264-li-0021"><p>Provide coordinated care for people who cannot attend the clinic, according to the person's needs, offering remote and/or home‐based visits</p></list-item><list-item id="ene16264-li-0022"><p>Ensure appointments are planned in advance. [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0023"><p>The MDT should assess, manage, and review the following areas, including the person's response to treatment:
+<list list-type="bullet" id="ene16264-list-0010"><list-item id="ene16264-li-0024"><p>Weight, diet, nutritional and fluid intake, feeding, and swallowing</p></list-item><list-item id="ene16264-li-0025"><p>Muscle problems, such as weakness, atrophy, stiffness, and cramps</p></list-item><list-item id="ene16264-li-0026"><p>Functional assessments (using the Amyotrophic Lateral Sclerosis Functional Rating Scale‐Revised [ALSFRS‐R] score)</p></list-item><list-item id="ene16264-li-0027"><p>Physical function, including mobility, use of aids, and activities of daily living</p></list-item><list-item id="ene16264-li-0028"><p>Saliva problems, such as drooling of saliva (sialorrhea) and thick, tenacious saliva</p></list-item><list-item id="ene16264-li-0029"><p>Speech and communication</p></list-item><list-item id="ene16264-li-0030"><p>Cough effectiveness</p></list-item><list-item id="ene16264-li-0031"><p>Respiratory function, respiratory symptoms, and non‐invasive ventilation (NIV)</p></list-item><list-item id="ene16264-li-0032"><p>Pain and other symptoms, such as constipation</p></list-item><list-item id="ene16264-li-0033"><p>Cognition and behaviour</p></list-item><list-item id="ene16264-li-0034"><p>Social care needs for the person and their family members and/or carers (as appropriate)</p></list-item><list-item id="ene16264-li-0035"><p>End‐of‐life care needs</p></list-item><list-item id="ene16264-li-0036"><p>Information and support needs for the person and their family members and/or carers (as appropriate). [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0037"><p>The MDT should use the ALSFRS‐R to longitudinally assess the functioning of the patient. [++]</p></list-item><list-item id="ene16264-li-0038"><p>The MDT should consist of healthcare professionals and other professionals with expertise in ALS, and should include the following:
+<list list-type="bullet" id="ene16264-list-0011"><list-item id="ene16264-li-0039"><p>Neurologist</p></list-item><list-item id="ene16264-li-0040"><p>Specialist nurse</p></list-item><list-item id="ene16264-li-0041"><p>Pneumonologist</p></list-item><list-item id="ene16264-li-0042"><p>Rehabilitation specialist</p></list-item><list-item id="ene16264-li-0043"><p>Dietitian</p></list-item><list-item id="ene16264-li-0044"><p>Physiotherapist</p></list-item><list-item id="ene16264-li-0045"><p>Clinical psychologist and/or neuropsychologist</p></list-item><list-item id="ene16264-li-0046"><p>Social care worker</p></list-item><list-item id="ene16264-li-0047"><p>Occupational therapist</p></list-item><list-item id="ene16264-li-0048"><p>Speech therapist (cross‐refer to communication question)</p></list-item><list-item id="ene16264-li-0049"><p>A healthcare professional with expertise in palliative care (ALS palliative care expertise may be provided by the neurologist or nurse in the MDT, or by a specialist palliative care professional). [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0050"><p>The MDT should have access to the following services:
+<list list-type="bullet" id="ene16264-list-0012"><list-item id="ene16264-li-0051"><p>Specialist palliative care</p></list-item><list-item id="ene16264-li-0052"><p>Gastroenterologist or interventional radiologist</p></list-item><list-item id="ene16264-li-0053"><p>Rehabilitation services</p></list-item><list-item id="ene16264-li-0054"><p>Assistive mobility technology devices</p></list-item><list-item id="ene16264-li-0055"><p>Alternative and augmentative communication (AAC) devices</p></list-item><list-item id="ene16264-li-0056"><p>Community neurological care teams or home care teams, when neurological teams are not available. [++]</p></list-item></list>
+</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0018"><title>Chapter 3. Management of communication*</title><p>*Adapted from NICE guideline.
+<list list-type="bullet" id="ene16264-list-0013"><list-item id="ene16264-li-0057"><p>When assessing speech and communication needs during MDT assessments and other appointments, discuss face‐to‐face and remote communication, for example, using telephone, e‐mail, the internet, and social media. Ensure that the assessment and review are carried out by a speech and language therapist without delay. [++]</p></list-item><list-item id="ene16264-li-0058"><p>Provide AAC equipment that meets the needs of the person without delay to maximise participation in activities of daily living and maintain quality of life. The use of both low‐level technologies, for example, alphabet, word, or picture boards and high‐level technologies, for example, personal computer or tablet‐based voice output communication aids, may be helpful. Review the person's communication needs during MDT assessments. [++]</p></list-item><list-item id="ene16264-li-0059"><p>Liaise with, or refer the person with ALS to, a specialised AAC hub if complex high technology AAC equipment (for example, message and voice banking, eye gaze access) is needed or is likely to be needed. [++]</p></list-item><list-item id="ene16264-li-0060"><p>Involve other healthcare professionals, such as occupational therapists, to ensure that AAC equipment is integrated with other assistive technologies, such as environmental control systems and personal computers or tablets. [++]</p></list-item><list-item id="ene16264-li-0061"><p>Ensure regular, ongoing monitoring of the person's communication needs and abilities as ALS progresses and review their ability to use AAC equipment. Reassess and liaise with a specialised AAC hub if needed. [++]</p></list-item><list-item id="ene16264-li-0062"><p>Provide ongoing support and training for the person with ALS and their family members and/or carers (as appropriate) in using AAC equipment and other communication strategies. [++]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0019"><title>Chapter 4. Management of nutrition</title><sec id="ene16264-sec-0020"><title>General</title><p>
+<list list-type="bullet" id="ene16264-list-0014"><list-item id="ene16264-li-0063"><p>Identify causes for weight loss and reduced food and fluid intake (e.g., swallowing problems, respiratory insufficiency, depression, loss of appetite, muscle atrophy, upper limb weakness). [++]</p></list-item><list-item id="ene16264-li-0064"><p>In case of weight loss or swallowing difficulties, consult the dietitian, speech therapist, and/or occupational therapist for advice on:
+<list list-type="bullet" id="ene16264-list-0015"><list-item id="ene16264-li-0065"><p>Food composition, consistency, and meal frequency</p></list-item><list-item id="ene16264-li-0066"><p>Food supplements</p></list-item><list-item id="ene16264-li-0067"><p>Fluid intake and consistency</p></list-item><list-item id="ene16264-li-0068"><p>Risk of choking</p></list-item><list-item id="ene16264-li-0069"><p>Use of utensils</p></list-item><list-item id="ene16264-li-0070"><p>Positioning and seating. [++]</p></list-item></list>
+</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0021"><title>Enteral feeding*</title><p>*Adapted from NICE guideline.
+<list list-type="bullet" id="ene16264-list-0016"><list-item id="ene16264-li-0071"><p>Discuss gastrostomy at an early stage, and at regular intervals as ALS progresses, taking into account the person's preferences and issues, such as ability to swallow, weight loss, respiratory function, effort of feeding and drinking, and risk of choking. Be aware that some people will not want to have a gastrostomy. [++]</p></list-item><list-item id="ene16264-li-0072"><p>Explain the benefits of early placement of a gastrostomy, and the possible risks of a late gastrostomy (e.g., low critical body mass, respiratory complications, risk of dehydration, different methods of insertion, and a higher risk of mortality and procedural complications):
+<list list-type="bullet" id="ene16264-list-0017"><list-item id="ene16264-li-0073"><p>In case of respiratory insufficiency, first introduce NIV [added by EAN]</p></list-item><list-item id="ene16264-li-0074"><p>If there is respiratory insufficiency, perform the gastrostomy with the patient established on NIV. [added by EAN] [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0075"><p>If a person is referred for a gastrostomy it should take place without delay. [++]
+<list list-type="bullet" id="ene16264-list-0018"><list-item id="ene16264-li-0076"><p>Consider nasogastric tube feeding if needed, while awaiting gastrostomy placement. [added by EAN] [+]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0077"><p>Discuss gastrostomy with the person's family members and/or carers (as appropriate, and with the person's consent if they have the ability to give it). [++]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0022"><title>Parenteral feeding</title><p>
+<list list-type="bullet" id="ene16264-list-0019"><list-item id="ene16264-li-0078"><p>In cases where gastrostomy is not feasible, consider parenteral feeding. [new recommendation added by EAN] [+]</p></list-item></list>
+</p></sec></sec><sec id="ene16264-sec-0023"><title>Chapter 5. Management of respiratory symptoms</title><sec id="ene16264-sec-0024"><title>5a. Weak cough*</title><p>*Adapted from NICE guideline.
+<list list-type="bullet" id="ene16264-list-0020"><list-item id="ene16264-li-0079"><p>Offer cough augmentation techniques, such as manual assisted cough, to people with ALS who cannot cough effectively. [++]</p></list-item><list-item id="ene16264-li-0080"><p>Consider unassisted breath stacking and/or manual assisted cough as the first‐line treatment for people with ALS who have an ineffective cough. [+]</p></list-item><list-item id="ene16264-li-0081"><p>For patients with bulbar dysfunction, or whose cough is ineffective with unassisted breath stacking, consider assisted breath stacking (e.g., using a lung volume recruitment bag). [+]</p></list-item><list-item id="ene16264-li-0082"><p>Consider a mechanical cough assist device if assisted breath stacking is not effective or deemed necessary by the specialist. [+]</p></list-item><list-item id="ene16264-li-0083"><p>Consider the use of a suction device in addition to the mechanical cough assist device. [new recommendation added by EAN] [+]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0025"><title>5b. Thick mucus*</title><p>*Adapted from NICE guideline.
+<list list-type="bullet" id="ene16264-list-0021"><list-item id="ene16264-li-0084"><p>Review all concomitant medications, especially any treatments for sialorrhea. [++] (see sialorrhea management)</p></list-item><list-item id="ene16264-li-0085"><p>Provide advice on swallowing, diet, posture, positioning, oral care, suctioning, and hydration. [++]</p></list-item><list-item id="ene16264-li-0086"><p>Consider treatment with humidification, nebulisers (e.g., saline solution), beta‐blockers (e.g., propranolol, metoprolol), mucolytics (e.g., acetylcysteine, guaifenesin). [+]</p></list-item><list-item id="ene16264-li-0087"><p>Consider the above interventions either as single therapy or in combination. [added by EAN] [+]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0026"><title>5c. Respiratory insufficiency</title><p>Non‐invasive ventilation (NIV)
+<list list-type="bullet" id="ene16264-list-0022"><list-item id="ene16264-li-0088"><p>NIV should be offered to all patients with ALS with either symptoms, signs, or laboratory investigations supportive of respiratory insufficiency. [++]</p></list-item></list>
+</p><p>Remarks:</p><p>Every effort must be made to allow the use of NIV, independently of bulbar function.</p><p>Invasive ventilation (IV)
+<list list-type="bullet" id="ene16264-list-0023"><list-item id="ene16264-li-0089"><p>Find the right moment to discuss invasive ventilation with the person and their family and carers:
+<list list-type="bullet" id="ene16264-list-0024"><list-item id="ene16264-li-0090"><p>This should be part of advance care planning</p></list-item><list-item id="ene16264-li-0091"><p>Aim to avoid emergency invasive ventilation (e.g., unplanned hospital admission)</p></list-item><list-item id="ene16264-li-0092"><p>Be sensitive about timing, considering the patient's clinical status and the patient's and carer's emotional ability to cope with this conversation. [++]</p></list-item></list>
+</p></list-item></list>
+</p><p>Diaphragmatic pacing
+<list list-type="bullet" id="ene16264-list-0025"><list-item id="ene16264-li-0093"><p>Do not use diaphragmatic pacing for the treatment of ALS. [– –]</p></list-item></list>
+</p><p>Pharmacological interventions*</p><p>*Adapted from NICE guideline.
+<list list-type="bullet" id="ene16264-list-0026"><list-item id="ene16264-li-0094"><p>In patients who do not tolerate or do not accept NIV or IV, in whom NIV is not successful, or not working any more or in end‐stage disease:
+<list list-type="bullet" id="ene16264-list-0027"><list-item id="ene16264-li-0095"><p>Consider opioids as an option to relieve symptoms of breathlessness</p></list-item><list-item id="ene16264-li-0096"><p>Consider benzodiazepines to manage breathlessness that is exacerbated by anxiety. [+]</p></list-item></list>
+</p></list-item></list>
+</p></sec></sec><sec id="ene16264-sec-0027"><title>Chapter 6. Management of other symptoms</title><sec id="ene16264-sec-0028"><title>6a. Muscle weakness*</title><p>*Adapted from NICE guideline.</p><p>General
+<list list-type="bullet" id="ene16264-list-0028"><list-item id="ene16264-li-0097"><p>Discuss the available treatment options for muscle problems. Take into account the person's needs and preferences, and whether they have any difficulties taking medicine (e.g., if they have problems swallowing). [++]</p></list-item><list-item id="ene16264-li-0098"><p>Review the treatments for muscle problems during MDT assessments, ask about how the person is finding the treatment, whether it is working, and whether they have any adverse side effects. [++]</p></list-item></list>
+</p><p>Non‐pharmacological interventions: exercise programmes
+<list list-type="bullet" id="ene16264-list-0029"><list-item id="ene16264-li-0099"><p>Consider an exercise programme for people with ALS to:
+<list list-type="bullet" id="ene16264-list-0030"><list-item id="ene16264-li-0100"><p>Maintain joint range of movement</p></list-item><list-item id="ene16264-li-0101"><p>Prevent contractures</p></list-item><list-item id="ene16264-li-0102"><p>Reduce stiffness and discomfort</p></list-item><list-item id="ene16264-li-0103"><p>Optimise function and quality of life. [+]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0104"><p>Choose a programme that is appropriate to the person's level of function and tailored to their needs, abilities, and preferences. Take into account factors such as postural needs and fatigue. The programme might be a resistance programme, an active‐assisted programme, or a passive programme. [++]</p></list-item><list-item id="ene16264-li-0105"><p>Check that family members and/or carers (as appropriate) are willing and able to help with exercise programmes. [++]</p></list-item><list-item id="ene16264-li-0106"><p>Give advice to the person and their family members and/or carers (as appropriate) about safe manual handling. [++]</p></list-item><list-item id="ene16264-li-0107"><p>If a person needs orthoses to help with muscle problems, they should be referred to orthotics services without delay, and the orthoses should be provided without delay. [++]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0029"><title>6b. Muscle cramps</title><p>
+<list list-type="bullet" id="ene16264-list-0031"><list-item id="ene16264-li-0108"><p>Consider sodium blockers (ranolazine, quinine sulfate, mexiletine, carbamazepine), gabapentine, pregabalin, and baclofen for the management of cramps as symptomatic treatment. [+]</p></list-item><list-item id="ene16264-li-0109"><p>Start quinine sulfate at low doses (100 to 200 mg per day) and monitor for cardiac adverse events before and after prescription. [++]</p></list-item></list>
+</p><p>Remarks:
+<list list-type="bullet" id="ene16264-list-0032"><list-item id="ene16264-li-0110"><p>When choosing a treatment, take into account other comorbidities (e.g., if people also experience spasticity consider trying baclofen as first‐line treatment).</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0030"><title>6c. Spasticity</title><p>Non‐pharmacological interventions
+<list list-type="bullet" id="ene16264-list-0033"><list-item id="ene16264-li-0111"><p>Consider non‐pharmacological approaches, such as physical therapy, to treat spasticity. [+]</p></list-item></list>
+</p><p>Pharmacological interventions
+<list list-type="bullet" id="ene16264-list-0034"><list-item id="ene16264-li-0112"><p>Consider cannabinoids, baclofen, tizanidine, or gabapentin to treat muscle stiffness, spasticity, or increased tone. [+]</p></list-item><list-item id="ene16264-li-0113"><p>In patients with focal spasticity, consider botulinum toxin if these treatments are not effective, not tolerated, or contraindicated. [+]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0031"><title>6d. Pain</title><p>
+<list list-type="bullet" id="ene16264-list-0035"><list-item id="ene16264-li-0114"><p>Actively assess for pain. [++]</p></list-item><list-item id="ene16264-li-0115"><p>Identify and treat the cause or combination of causes (e.g., cramps, spasticity, malpositioning, frozen shoulder, stiff joints, joint immobility, pressure on the joint, sores on the skin, discomfort due to restless legs syndrome). [++]</p></list-item><list-item id="ene16264-li-0116"><p>Advise the patient and their caregivers on preventive strategies:
+<list list-type="bullet" id="ene16264-list-0036"><list-item id="ene16264-li-0117"><p>Positioning, mobilisation, physical therapy (e.g., to prevent frozen shoulder)</p></list-item><list-item id="ene16264-li-0118"><p>Physical agents (such as splinting). [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0119"><p>For the management of joint pain, consider targeted steroid injections. [+]</p></list-item><list-item id="ene16264-li-0120"><p>For the management of pain of neuropathic nature, follow existing recommendations (e.g., NICE). [++]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0032"><title>6e. Sialorrhea</title><p>
+<list list-type="bullet" id="ene16264-list-0037"><list-item id="ene16264-li-0121"><p>When choosing a treatment, take into account additional symptoms or comorbidities (dysphagia, dysarthria, depression) and adverse events. [++]</p></list-item><list-item id="ene16264-li-0122"><p>Discuss with patients that some drinks (e.g., sugary and acidic drinks, milk, or juice) may stimulate salivation. [++]</p></list-item><list-item id="ene16264-li-0123"><p>Be aware that there is no evidence on whether suction devices are beneficial or not. [++]</p></list-item><list-item id="ene16264-li-0124"><p>Consider anticholinergics (e.g., amitriptyline, atropine, glycopyrrolate, oxybutynin, scopolamine) as first‐line treatment. [+]</p></list-item><list-item id="ene16264-li-0125"><p>Consider dextromethorphan/quinidine (DMQ), particularly in people with emotional lability/pseudobulbar affect. [+]</p></list-item><list-item id="ene16264-li-0126"><p>Consider botulinum toxin in people with severe sialorrhea, in whom pharmacotherapy is failing or not tolerated;
+<list list-type="bullet" id="ene16264-list-0038"><list-item id="ene16264-li-0127"><p>This treatment must be administered by a specialist centre/professional. [+]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0128"><p>In people in whom the above treatments have failed, consider radiotherapy. [+]</p></list-item><list-item id="ene16264-li-0129"><p>Surgery is not suggested for the management of sialorrhea. [−]</p></list-item></list>
+</p><p>Remarks:</p><p>Discuss preferred mode of delivery when different formulations are available (oral, patch, or subcutaneous injections).</p><p>Be aware that the use of suction devices may increase the saliva production [added by EAN].</p></sec><sec id="ene16264-sec-0033"><title>6f. Emotional lability</title><p>
+<list list-type="bullet" id="ene16264-list-0039"><list-item id="ene16264-li-0130"><p>Consider selective serotonin reuptake inhibitor (SSRI) antidepressants, tricyclic antidepressants, or DMQ for treating emotional lability in people with ALS. [+]</p></list-item><list-item id="ene16264-li-0131"><p>Consider co‐morbidities when choosing treatment (e.g. tricyclic antidepressants in people with sleep problems and sialorrhea). [+]</p></list-item><list-item id="ene16264-li-0132"><p>Make sure that emotional lability is differentiated from depression and FTD symptoms. [+]</p></list-item></list>
+</p><p>Remark:</p><p>DMQ may also improve bulbar function in some patients.</p></sec><sec id="ene16264-sec-0034"><title>6g. Fatigue</title><p>
+<list list-type="bullet" id="ene16264-list-0040"><list-item id="ene16264-li-0133"><p>Identify and treat underlying causes of fatigue (including, but not restricted to: respiratory impairment, depression, anxiety, insomnia, sialorrhea, malnutrition, dehydration, pain and spasticity, other comorbidities) (e.g., infection, constipation, liver impairment, anaemia, leukopenia, drug side effects). [++]</p></list-item><list-item id="ene16264-li-0134"><p>Consider pausing medications if fatigue is considered to be a side effect of a drug therapy (e.g., treatment with riluzole). [+]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0035"><title>6h. Constipation</title><p>
+<list list-type="bullet" id="ene16264-list-0041"><list-item id="ene16264-li-0135"><p>Actively assess if there is constipation. [++]</p></list-item><list-item id="ene16264-li-0136"><p>Explore if constipation is previous to the diagnosis of ALS. [++]</p></list-item><list-item id="ene16264-li-0137"><p>Identify the cause, for example: use of opioids or anticholinergic drugs, abdominal discomfort due to NIV (aerocolia), immobility, dehydration, low fibre intake, loss of abdominal muscle strength. [++]</p></list-item><list-item id="ene16264-li-0138"><p>Advise on fibre and fluid intake. [++]</p></list-item><list-item id="ene16264-li-0139"><p>If this is insufficient, consider laxatives. [+]</p></list-item><list-item id="ene16264-li-0140"><p>Make sure that care conditions allow regular toilet visits. [++]</p></list-item><list-item id="ene16264-li-0141"><p>Emphasise the importance of regular mobilisation/physical therapy. [++]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0036"><title>6i. Hoarse voice and laryngospasm</title><p>Hoarse voice
+<list list-type="bullet" id="ene16264-list-0042"><list-item id="ene16264-li-0142"><p>Consider speech therapy in people with ALS who experience hoarse voice. [+]</p></list-item></list>
+</p><p>Laryngospasms
+<list list-type="bullet" id="ene16264-list-0043"><list-item id="ene16264-li-0143"><p>Identify the possible causes of laryngospasm, for example:
+<list list-type="bullet" id="ene16264-list-0044"><list-item id="ene16264-li-0144"><p>Liquid or saliva in contact with the larynx</p></list-item><list-item id="ene16264-li-0145"><p>Acid reflux</p></list-item><list-item id="ene16264-li-0146"><p>Smoke</p></list-item><list-item id="ene16264-li-0147"><p>Strong smells</p></list-item><list-item id="ene16264-li-0148"><p>Emotion</p></list-item><list-item id="ene16264-li-0149"><p>Alcohol</p></list-item><list-item id="ene16264-li-0150"><p>Cold bursts of air</p></list-item><list-item id="ene16264-li-0151"><p>Spicy foods. [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0152"><p>Advise people to avoid those triggers if possible. [++]</p></list-item><list-item id="ene16264-li-0153"><p>For people with laryngospasm, provide information about the clinical presentation and self‐limiting character of the symptom to the patient and their family or carers.</p></list-item><list-item id="ene16264-li-0154"><p>Advise patient on the following multistep manoeuvre:
+<list list-type="bullet" id="ene16264-list-0045"><list-item id="ene16264-li-0155"><p>A rapid change to the upright position of the upper body</p></list-item><list-item id="ene16264-li-0156"><p>Breathing through the nose</p></list-item><list-item id="ene16264-li-0157"><p>Swallowing repetitively</p></list-item><list-item id="ene16264-li-0158"><p>Breathing with slow exhalation through lips. [+]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0159"><p>For a crisis, consider the use of benzodiazepines (e.g., sublingual). [+]</p></list-item><list-item id="ene16264-li-0160"><p>If frequent enough and non‐pharmacologic measures are ineffective, consider regular use of benzodiazepines. [+]</p></list-item><list-item id="ene16264-li-0161"><p>In the case of gastroesophageal reflux disease (GERD), treat with antacid therapy. [++]</p></list-item><list-item id="ene16264-li-0162"><p>Consider prokinetic drugs before meals and at bedtime. [+]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0037"><title>6j. Insomnia</title><p>
+<list list-type="bullet" id="ene16264-list-0046"><list-item id="ene16264-li-0163"><p>In people with ALS who experience sleep difficulties, identify and treat the underlying cause. For example:
+<list list-type="bullet" id="ene16264-list-0047"><list-item id="ene16264-li-0164"><p>Anxiety</p></list-item><list-item id="ene16264-li-0165"><p>Respiratory insufficiency</p></list-item><list-item id="ene16264-li-0166"><p>Pain</p></list-item><list-item id="ene16264-li-0167"><p>Muscle cramps</p></list-item><list-item id="ene16264-li-0168"><p>Emotional distress, depression</p></list-item><list-item id="ene16264-li-0169"><p>Sleep apnoea</p></list-item><list-item id="ene16264-li-0170"><p>Inability to move/deficient spontaneous mobility at sleep</p></list-item><list-item id="ene16264-li-0171"><p>Restless legs syndrome</p></list-item><list-item id="ene16264-li-0172"><p>Nocturia</p></list-item><list-item id="ene16264-li-0173"><p>Stiffness. [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0174"><p>If insomnia persists, consider offering non‐pharmacological interventions such as relaxation techniques. [+]</p></list-item><list-item id="ene16264-li-0175"><p>If non‐pharmacological interventions are not effective, consider:
+<list list-type="bullet" id="ene16264-list-0048"><list-item id="ene16264-li-0176"><p>Low‐dose tricyclic antidepressants (TCAs)</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0177"><p>Hypnotics. [+]</p></list-item><list-item id="ene16264-li-0178"><p>If insomnia is associated with anxiety or depression, consider using serotonin and norepinephrine reuptake inhibitors (SNRIs) (e.g., mirtazapine) or quetiapine. [+]</p></list-item><list-item id="ene16264-li-0179"><p>In people in whom insomnia persists, consider consulting a sleep clinic. [+]</p></list-item></list>
+</p></sec></sec><sec id="ene16264-sec-0038"><title>Chapter 7. Psychological and emotional support*</title><sec id="ene16264-sec-0039"><title>General</title><p>*Adapted from NICE guideline.
+<list list-type="bullet" id="ene16264-list-0049"><list-item id="ene16264-li-0180"><p>During MDT assessments and other appointments, discuss the psychological and emotional impact of ALS with the person and ask whether they have any psychological or support care needs. Topics to discuss may include the following:
+<list list-type="bullet" id="ene16264-list-0050"><list-item id="ene16264-li-0181"><p>Their understanding of ALS and how it affects daily living</p></list-item><list-item id="ene16264-li-0182"><p>Accepting and coping with the diagnosis and prognosis, including concerns and fears about dying</p></list-item><list-item id="ene16264-li-0183"><p>Their ability to continue with current work and usual activities</p></list-item><list-item id="ene16264-li-0184"><p>Adjusting to changes in their life and their perception of self</p></list-item><list-item id="ene16264-li-0185"><p>Changes in relationships, familial roles, and family dynamics</p></list-item><list-item id="ene16264-li-0186"><p>Sexuality and intimacy</p></list-item><list-item id="ene16264-li-0187"><p>Impact on other family members and/or carers</p></list-item><list-item id="ene16264-li-0188"><p>Carers' ability and willingness to provide personal care and operate equipment. [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0189"><p>Offer the person and their family/carers information about sources of emotional and psychological support, including support groups and online forums, and respite care. If needed, refer to counselling or psychology services for a specialist assessment and support. [++]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0040"><title>7a. Anxiety</title><p>
+<list list-type="bullet" id="ene16264-list-0051"><list-item id="ene16264-li-0190"><p>In people with ALS who are experiencing anxiety, identify and treat the underlying cause:
+<list list-type="bullet" id="ene16264-list-0052"><list-item id="ene16264-li-0191"><p>Accepting and coping with the diagnosis</p></list-item><list-item id="ene16264-li-0192"><p>Breathing difficulties</p></list-item><list-item id="ene16264-li-0193"><p>Fear of death</p></list-item><list-item id="ene16264-li-0194"><p>Pain</p></list-item><list-item id="ene16264-li-0195"><p>Loss of functionality</p></list-item><list-item id="ene16264-li-0196"><p>Having problems with communication. [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0197"><p>Consider offering psychological support. [+]</p></list-item><list-item id="ene16264-li-0198"><p>In addition to psychological therapy, consider using pharmacological interventions such as:
+<list list-type="bullet" id="ene16264-list-0053"><list-item id="ene16264-li-0199"><p>Short‐acting anxiolytics</p></list-item><list-item id="ene16264-li-0200"><p>SSRIs. [+]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0201"><p>If anxiolytics or SSRIs fail or are contraindicated, consider SNRIs. [+]</p></list-item><list-item id="ene16264-li-0202"><p>In people with advanced/late‐stage ALS or when psychotherapy is not possible or accepted, use pharmacotherapy as first‐line treatment. [++]</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0041"><title>7b. Depression and emotional distress</title><p>
+<list list-type="bullet" id="ene16264-list-0054"><list-item id="ene16264-li-0203"><p>Explore whether the patient has any signs of depression and emotional distress. [++]</p></list-item><list-item id="ene16264-li-0204"><p>Consider offering psychotherapy and/or pharmacotherapy. [+]</p></list-item><list-item id="ene16264-li-0205"><p>Consider the specific characteristics of the patient, such as other ALS symptoms (e.g., constipation, sialorrhea, emotional lability, insomnia) and other comorbidities when choosing pharmacotherapy. [+]</p></list-item></list>
+</p></sec></sec><sec id="ene16264-sec-0042"><title>Chapter 8. Prevention of deep vein thrombosis</title><p>
+<list list-type="bullet" id="ene16264-list-0055"><list-item id="ene16264-li-0206"><p>Discuss with the patient that there may be an increased risk of deep vein thrombosis (DVT) due to reduced mobility. [++]</p></list-item><list-item id="ene16264-li-0207"><p>Discuss with the patient that there is insufficient evidence on the use of anticoagulants for primary prevention of DVT. [++]</p></list-item><list-item id="ene16264-li-0208"><p>Advise people with ALS on non‐pharmacological approaches that may help:
+<list list-type="bullet" id="ene16264-list-0056"><list-item id="ene16264-li-0209"><p>Passive physiotherapy</p></list-item><list-item id="ene16264-li-0210"><p>Limb elevation</p></list-item><list-item id="ene16264-li-0211"><p>Compression stockings</p></list-item><list-item id="ene16264-li-0212"><p>Lymphatic drainage massage. [++]</p></list-item></list>
+</p></list-item></list>
+</p></sec><sec id="ene16264-sec-0043"><title>Chapter 9. End of life*</title><p>*Adapted from NICE guideline.
+<list list-type="bullet" id="ene16264-list-0057"><list-item id="ene16264-li-0213"><p>Offer the person with ALS the opportunity to discuss their preferences and concerns about care at the end of life at trigger points such as: at diagnosis, if there is a significant change in respiratory function, or if interventions such as gastrostomy or NIV are needed. Be sensitive about the timing of discussions and take into account the person's current communication ability, cognitive status and mental capacity, and coping ability:
+<list list-type="bullet" id="ene16264-list-0058"><list-item id="ene16264-li-0214"><p>Be prepared to discuss end‐of‐life issues whenever people wish to do so</p></list-item><list-item id="ene16264-li-0215"><p>Provide support and advice on advance care planning for end of life. Topics to discuss may include:
+<list list-type="simple" id="ene16264-list-0059"><list-item id="ene16264-li-0216"><p>What could happen at the end of life, for example, how death may occur</p></list-item><list-item id="ene16264-li-0217"><p>Providing anticipatory medicines in the home</p></list-item><list-item id="ene16264-li-0218"><p>Advance care planning, including Advance Decisions to Refuse Treatment, Do Not Attempt Resuscitation orders, and Lasting Power of Attorney (a legal authorisation for a designated person to make decisions about another person's property, finances, or medical care)</p></list-item><list-item id="ene16264-li-0219"><p>How to ensure advance care plans will be available when needed, for example, including the information on the person's Summary Care Record</p></list-item><list-item id="ene16264-li-0220"><p>When to involve specialist palliative care</p></list-item><list-item id="ene16264-li-0221"><p>Areas that people might wish to plan for, such as: (i) What they want to happen (e.g., their preferred place of death)?; (ii) What they do not want to happen (e.g., being admitted to hospital)?; (iii) Who will represent their decisions, if necessary?; and (iv) What should happen if they develop an intercurrent illness?</p></list-item><list-item id="ene16264-li-0222"><p>Invasive ventilation [new recommendation added by EAN]</p></list-item><list-item id="ene16264-li-0223"><p>Palliative sedation, and withdrawal of treatment</p></list-item><list-item id="ene16264-li-0224"><p>Be prepared to discuss euthanasia and assisted suicide. [new recommendation added by EAN]. [++]</p></list-item></list>
+</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0225"><p>Think about discussing advance care planning with people at an earlier opportunity if you expect their communication ability, cognitive status, or mental capacity to get worse. [++]</p></list-item><list-item id="ene16264-li-0226"><p>Offer people the opportunity to talk about, and review any existing Avance Decisions to Refuse Treatment, Do Not Attempt Resuscitation orders, and Lasting Power of Attorney when interventions such as gastrostomy and NIV are planned. [++]</p></list-item><list-item id="ene16264-li-0227"><p>Provide additional support as the end of life approaches, for example, additional psychological, social, or nursing care to enable informal carers and family to reduce their carer responsibilities and spend time with the person with ALS. [++]</p></list-item><list-item id="ene16264-li-0228"><p>Towards the end of life, ensure there is prompt access to the following, if not already provided:
+<list list-type="bullet" id="ene16264-list-0060"><list-item id="ene16264-li-0229"><p>A method of communication that meets the person's needs, such as an AAC system</p></list-item><list-item id="ene16264-li-0230"><p>Specialist palliative care</p></list-item><list-item id="ene16264-li-0231"><p>Equipment, if needed, such as syringe drivers, suction machines, riser–recliner chair, hospital bed, commode, and hoist</p></list-item><list-item id="ene16264-li-0232"><p>Anticipatory medicines, including opioids and benzodiazepines to treat breathlessness, anxiety and antimuscarinic medicines to treat problematic saliva and respiratory secretions. [++]</p></list-item></list>
+</p></list-item><list-item id="ene16264-li-0233"><p>Offer bereavement support to family members and/or carers (as appropriate). [++]</p></list-item><list-item id="ene16264-li-0234"><p>Take into account the spiritual support needs of the patient and their family and/or carers (as appropriate). [new recommendation added by EAN]. [++]</p></list-item></list>
+</p><p>Remarks:</p><p>Discuss Advance Decisions to Refuse Treatment, Do Not Attempt Resuscitation orders, and Lasting Power of Attorney according to the local law. [added by EAN].</p><p>Discuss euthanasia and assisted suicide in countries where it is legal. [added by EAN].</p></sec></sec></sec><sec sec-type="conclusions" id="ene16264-sec-0044"><title>CONCLUSIONS</title><p>This guideline on the management of ALS is an update of the EFNS guideline published in 2012. It contains updated recommendations on the management of ALS and includes recommendations on new emerging therapies for ALS. The landscape of ALS therapies is rapidly changing and further updates will be prepared when new evidence becomes available.</p></sec><sec id="ene16264-sec-0050"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Philip Van Damme:</bold> Conceptualization; funding acquisition; writing – original draft; investigation; supervision; validation; data curation; project administration. <bold>Ammar Al‐Chalabi:</bold> Conceptualization; writing – review and editing; validation; investigation. <bold>Peter M. Andersen:</bold> Conceptualization; validation; writing – review and editing; investigation. <bold>Adriano Chiò:</bold> Conceptualization; validation; writing – review and editing; investigation. <bold>Philippe Couratier:</bold> Conceptualization; validation; writing – review and editing; investigation. <bold>Mamede De Carvalho:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Orla Hardiman:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Magdalena Kuzma‐Kozakiewicz:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Albert Ludolph:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Christopher J. McDermott:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Jesus S. Mora:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Susanne Petri:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Katrin Probyn:</bold> Writing – original draft; methodology; validation; software; formal analysis; data curation; conceptualization; investigation; project administration; visualization. <bold>Evy Reviers:</bold> Validation; writing – review and editing; funding acquisition. <bold>François Salachas:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Vincenzo Silani:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Ole‐Bjorn Tysnes:</bold> Conceptualization; investigation; validation; writing – review and editing. <bold>Leonard H. van den Berg:</bold> Conceptualization; investigation; validation; writing – review and editing; funding acquisition. <bold>Gemma Villanueva:</bold> Conceptualization; investigation; writing – original draft; methodology; validation; visualization; software; formal analysis; data curation; supervision; project administration. <bold>Markus Weber:</bold> Conceptualization; investigation; validation; writing – review and editing.</p></sec><sec id="ene16264-sec-0046"><title>FUNDING INFORMATION</title><p>The production of this guideline was supported by EAN, ENCALS, ERN EURO‐NMD, EUpALS, and ALS Liga België.</p></sec><sec sec-type="COI-statement" id="ene16264-sec-0047"><title>CONFLICT OF INTEREST STATEMENT</title><p>P.V.D. has served in advisory boards for Biogen, CSL Behring, Alexion Pharmaceuticals, Ferrer, QurAlis, Cytokinetics, Argenx, UCB, Muna Therapeutics, Alector, Augustine Therapeutics, VectorY, Zambon, and Amylyx (paid to institution). P.V.D. has received speaker fees from Biogen and Amylyx (paid to institution). P.V.D. has participated as investigator to clinical trials on amyotrophic lateral sclerosis (ALS) sponsored by Biogen, Cytokinetics, Ferrer, Amylyx, Wave Life Sciences, Corcept Therapeutics, Transposon Therapeutics, Sanofi, AB Science, IONIS Pharmaceuticals, Apellis Pharmaceuticals, Alexion Pharmaceuticals, Orphazyme, Orion Pharma, and AL‐S Pharma. P.V.D. is supported by the E. von Behring Chair for Neuromuscular and Neurodegenerative Disorders (from CSL Behring, paid to institution).</p><p>A.A.C. reports consultancies or advisory boards for Amylyx, Apellis, Biogen, Brainstorm, Cytokinetics, GenieUs, GSK, Lilly, Mitsubishi Tanabe Pharma, Novartis, OrionPharma, Quralis, Sano, and Sanofi; the following patent: ‘Use of CSF‐neurofilament determinations and CSF‐neurofilament thresholds of prognostic and stratification value with regards to response to therapy in neuromuscular and neurodegenerative diseases’; and is a member of the Cochrane Collaboration for a systematic review of ‘Disease‐modifying pharmacological treatments for amyotrophic lateral sclerosis/motor neuron disease’, some of which has contributed to this article.</p><p>P.M.A. has served on advisory boards for Arrowhead, Avrion, Biogen Idec, Orphazyme, Hoffman La Roche, Regeneron, uniQure, and VectorY. P.M.A. participates/has participated as an investigator in clinical drug trials on ALS sponsored by AB Science, AL‐S Pharma and Lilly, Amylyx, Alexion Pharmaceuticals, Biogen Idec, IONIS Pharmaceuticals, Orion Pharma, PTC, Rhône‐Poulenc, and Sanofi.</p><p>A.C. has served on scientific advisory boards for Mitsubishi Tanabe, Biogen, Roche, Denali Pharma, Ferrer, Cytokinetics, Lilly, VectorX, Zambon, and Amylyx Pharmaceuticals, and has received a research grant from Biogen. A.C. serves on data safety monitoring boards (DSMB) for AL‐S Pharma and AB Science. A.C. has participated as investigator to clinical trials on ALS sponsored by Biogen, Cytokinetics, Ferrer, Amylyx, Corcept Therapeutics, Sanofi, AB Science, IONIS Pharmaceuticals, Apellis Pharmaceuticals, Alexion Pharmaceuticals, Orion Pharma, and NeuroSense.</p><p>PC has served in scientific advisory boards for Mitsubishi Tanabe, Biogen, Cytokinetics, Zambon and Amylyx Pharmaceuticals. PC serves on DSMB for AB Science. PC has participated as investigator to clinical trials on ALS sponsored by Biogen, Cytokinetics, Ferrer, Amylyx, AB Science, IONIS Pharmaceuticals, Apellis Pharmaceuticals, Alexion Pharmaceuticals, and Orion Pharma.</p><p>M.D.C. has served on advisory boards for Cytokinetics. MdC has participated as investigator to clinical trials on ALS sponsored by Cytokinetics, Ferrer, Amylyx, and AB Science. M.D.C. has received research grants from Cytokinetics and Biogen.</p><p>O.H. has served on advisory boards for Biogen, Orion Pharma, Novartis, Amylyx, Cytokinetics, Accelsior, Sanfofi, Neuroscense, and Sanofi. She has received speaker fees from Biogen, Novartis, Lundbeck, Cytokinetics, and Apellis. She is an investigator on clinical trials sponsored by Biogen, Cytokinetics, Ferrer, Amylyx, Corcept Therapeutics, IONIS Pharmaceuticals, Apellis Pharmaceuticals, Alexion Pharmaceuticals, and Orion Pharma. She is lead investigator on an academic/industry partnership PRECISION ALS. She is Editor‐in‐Chief of the journal <italic toggle="yes">Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration</italic>.</p><p>M.K.‐K. has served on advisory board for Ferrer and Amylyx. She has received speaker fees from Biogen and Ferrer. She is an investigator on clinical trials sponsored by Amylyx, Apellis, Alexion, Corcept, Cytokinetics, Ferrer International, IONIS, and PTC therapeuticals.</p><p>A.L. is a member of advisory boards of Roche Pharma AG, Biogen, Alector, and Amylyx. He has received compensation for talks from Biologix, the German Society of Neurology, Biogen, Springer Medicine, Amylyx, and the company Streamed Up! GmbH. AL is involved in trials which are sponsored by Amylyx, Ferrer International, Novartis Research and Development, Mitsubishi Tanabe, Apellis Pharmaceuticals, Alexion, Orion Pharma, the European Union, BMBF, Biogen, and Orphazyme.</p><p>C.J.M. has served on advisory boards for Biogen, Amylyx, Ferrer, Orion Pharma, Orphazyme, and Novartis. C.J.M. has participated as an investigator on clinical trials on ALS sponsored by Biogen, Cytokinetics, Ferrer, Amylyx, Orphazyme, and Orion Pharma.</p><p>J.S.M. has served on advisory boards for AB Science, Biogen Idec, Cytokinetics, Ferrer, and Trophos/Roche. J.S.M. has participated as an investigator on clinical trials on ALS sponsored by AB Science, Alexion Pharmaceuticals, Amylyx, Biogen Idec, Cytokinetics, ONO, Orion Pharma, Rhône‐Poulenc‐Rorer, Sanofi, and Trophos/Roche.</p><p>S.P. has received speaker fees from Amylyx, Biogen, ITF‐Pharma, Roche, and Zambon, and served on advisory boards for Amylyx, Biogen, Roche, Zambon, and ITF Pharma. S.P. has participated as an investigator on clinical trials on ALS sponsored by Alexion Pharmaceuticals, AL‐S Pharma, Amylyx, Apellis Pharmaceuticals, Biogen, Cytokinetics, Corcept Therapeutics, Ferrer, Sanofi, Orion Pharma, and Orphazyme. S.P. has received research support from NDR.</p><p>K.P. is employed by Cochrane Response, an evidence services unit operated by the Cochrane Collaboration. Cochrane Response was commissioned by EAN to perform a suite of systematic reviews that contributed to this publication.</p><p>E.R. is chairwomen of EUpALS, the European Organization for Professionals and Patients with ALS. EUpALS interacts with companies active in the clinical development of potential new ALS therapies. At the time of writing of the article, the EUpALS Industry Partners were (in alphabetical order): Amylyx, Apellis, Biogen, Brainstorm, Corcept Therapeutics, Cytokinetics, Ferrer, Italfarmaco, Julius Clinical, Novartis, Regeneron, Sanofi, Tranquis Therapeutics, UCB, Wave Life Sciences, Worldwide Clinical Trials, and Zambon Biotech. F.S. has served on advisory boards for Biogen.</p><p>F.S. has participated as an investigator on clinical trials on ALS sponsored by Biogen, Cytokinetics, Ferrer, Amylyx, Alexion Pharmaceuticals, and Corcept therapeutics.</p><p>V.S. received compensation for consulting services and/or speaking activities from AveXis, Cytokinetics, Italfarmaco, Liquidweb S.r.l., Novartis Pharma AG, Amylyx Pharmaceuticals, and Zambon Biotech SA, and receives or has received research support from the Italian Ministry of Health, AriSLA, and E‐Rare Joint Transnational Call. V.S. has participated as an investigator on clinical trials on ALS sponsored by Cytokinetics, Ferrer International SA, Mitsubishi Tanabe, Amylyx, AB Science, Sanofi, PTC Therapeutics, and PPD. He is a member of the Editorial Boards of <italic toggle="yes">Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration, European Neurology, American Journal of Neurodegenerative Diseases, Frontiers in Neurology,</italic> and <italic toggle="yes">Exploration of Neuroprotective Therapy</italic>. V.S. was appointed Chair and Co‐Chair of the ERN EURO‐NMD expert working group on motor neuron diseases.</p><p>O.‐B.T. has given invited lectures on ALS at the invitation of Novartis Pharma A.G.</p><p>L.H.v.d.B. has served on advisory boards for Biogen, Amylyx, Ferrer, Corcept, QurAlis, Cytokinetics, Argenx, VectorY, and Zambon. L.H.v.d.B. has participated as principal investigator on clinical trials on ALS sponsored by Biogen, Cytokinetics, Ferrer, Amylyx, Wave Life Sciences, Corcept Therapeutics, Sanofi, AB Science, IONIS Pharmaceuticals, Apellis Pharmaceuticals, Alexion Pharmaceuticals, Orphazyme, and Orion Pharma.</p><p>G.V. is employed by Cochrane Response, an evidence services unit operated by the Cochrane Collaboration. Cochrane Response was commissioned by EAN to perform a suite of systematic reviews that contributed to this publication.</p><p>M.W. has served on advisory boards for Biogen Idec, Mitsubishi Tanabe, Merz Switzerland, Amylyx, Neuraxpharm, Biologix, and Allmiral. M.W. participates/has participated as an investigator on clinical drug trials on ALS sponsored by Alexion Pharmaceuticals, Biogen Idec, IONIS Pharmaceuticals, and Mitsubishi Tanabe.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ene16264-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Data S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ENE-31-e16264-s002.docx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="ene16264-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Appendix S1.
+</p><p>
+Appendix S2.
+</p><p>
+Appendix S3.
+</p><p>
+Appendix S4.
+</p><p>
+Appendix S5.
+</p><p>
+Appendix S6.
+</p><p>
+Appendix S7.
+</p><p>
+Appendix S8.
+</p><p>
+Appendix S9.
+</p><p>
+Appendix S10.
+</p><p>
+Appendix S11.
+</p><p>
+Appendix S12.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ENE-31-e16264-s001.docx" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="ene16264-sec-0045"><title>ACKNOWLEDGEMENTS</title><p>We are grateful to Ruth Brassington, Managing Editor of the Cochrane Neuromuscular review group, for her support developing the research questions and providing results from the ongoing relevant Cochrane reviews to facilitate the guideline process. We also thank Elise Cogo for help with the literature search strategies and Hanna Bergman, Brian Buckley, Nicholas Henschke, Jennifer Petkovic, Meghan Sebastianski, and Yanina Sguassero from Cochrane Response for their contributions to screening and data extraction. C.J.M. is supported by NIHR BRC Sheffield and an NIHR Research Professorship award. A.A.C. is supported by NIHR Maudsley BRC and is an NIHR Senior Investigator. P.V.D. is a senior clinical investigator of FWO‐Vlaanderen.</p></ack><sec sec-type="data-availability" id="ene16264-sec-0049"><title>DATA AVAILABILITY STATEMENT</title><p>The data that supports the findings of this study are available in the supplementary material of this article.</p></sec><ref-list content-type="cited-references" id="ene16264-bibl-0001"><title>REFERENCES</title><ref id="ene16264-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ene16264-cit-0001">
+<string-name name-style="western">
+<surname>Andersen</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borasio</surname>
+<given-names>GD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dengler</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>EFNS task force on management of amyotrophic lateral sclerosis: guidelines for diagnosing and clinical care of patients and relatives</article-title>. <source>Eur J Neurol</source>. <year>2005</year>;<volume>12</volume>(<issue>12</issue>):<fpage>921</fpage>‐<lpage>938</lpage>.<pub-id pub-id-type="pmid">16324086</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1468-1331.2005.01351.x</pub-id></mixed-citation></ref><ref id="ene16264-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ene16264-cit-0002">
+<collab collab-type="authors">Diagnosis ETFo</collab>
+, <collab collab-type="authors">Management of Amyotrophic Lateral S</collab>
+, <string-name name-style="western">
+<surname>Andersen</surname>
+<given-names>PM</given-names>
+</string-name>, et al. <article-title>EFNS guidelines on the clinical management of amyotrophic lateral sclerosis (MALS)—revised report of an EFNS task force</article-title>. <source>Eur J Neurol</source>. <year>2012</year>;<volume>19</volume>(<issue>3</issue>):<fpage>360</fpage>‐<lpage>375</lpage>.<pub-id pub-id-type="pmid">21914052</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1468-1331.2011.03501.x</pub-id></mixed-citation></ref><ref id="ene16264-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ene16264-cit-0003">
+<string-name name-style="western">
+<surname>Hardiman</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Chalabi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chio</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Amyotrophic lateral sclerosis</article-title>. <source>Nat Rev Dis Primers</source>. <year>2017</year>;<volume>3</volume>:<elocation-id>17085</elocation-id>.<pub-id pub-id-type="pmid">29052611</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrdp.2017.85</pub-id></mixed-citation></ref><ref id="ene16264-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ene16264-cit-0004">
+<string-name name-style="western">
+<surname>van Es</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hardiman</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chio</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Amyotrophic lateral sclerosis</article-title>. <source>Lancet</source>. <year>2017</year>;<volume>390</volume>(<issue>10107</issue>):<fpage>2084</fpage>‐<lpage>2098</lpage>.<pub-id pub-id-type="pmid">28552366</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(17)31287-4</pub-id></mixed-citation></ref><ref id="ene16264-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ene16264-cit-0005">
+<string-name name-style="western">
+<surname>Masrori</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Damme</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Amyotrophic lateral sclerosis: a clinical review</article-title>. <source>Eur J Neurol</source>. <year>2020</year>;<volume>27</volume>(<issue>10</issue>):<fpage>1918</fpage>‐<lpage>1929</lpage>.<pub-id pub-id-type="pmid">32526057</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/ene.14393</pub-id><pub-id pub-id-type="pmcid">PMC7540334</pub-id></mixed-citation></ref><ref id="ene16264-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ene16264-cit-0006">
+<string-name name-style="western">
+<surname>Phukan</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pender</surname>
+<given-names>NP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hardiman</surname>
+<given-names>O</given-names>
+</string-name>. <article-title>Cognitive impairment in amyotrophic lateral sclerosis</article-title>. <source>Lancet Neurol</source>. <year>2007</year>;<volume>6</volume>(<issue>11</issue>):<fpage>994</fpage>‐<lpage>1003</lpage>.<pub-id pub-id-type="pmid">17945153</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(07)70265-X</pub-id></mixed-citation></ref><ref id="ene16264-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="ene16264-cit-0007">
+<string-name name-style="western">
+<surname>Rascovsky</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knopman</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia</article-title>. <source>Brain</source>. <year>2011</year>;<volume>134</volume>(<issue>Pt 9</issue>):<fpage>2456</fpage>‐<lpage>2477</lpage>.<pub-id pub-id-type="pmid">21810890</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awr179</pub-id><pub-id pub-id-type="pmcid">PMC3170532</pub-id></mixed-citation></ref><ref id="ene16264-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="ene16264-cit-0008">
+<string-name name-style="western">
+<surname>Strong</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abrahams</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goldstein</surname>
+<given-names>LH</given-names>
+</string-name>, et al. <article-title>Amyotrophic lateral sclerosis—frontotemporal spectrum disorder (ALS‐FTSD): revised diagnostic criteria</article-title>. <source>Amyotroph Lateral Scler Frontotemporal Degener</source>. <year>2017</year>;<volume>18</volume>(<issue>3–4</issue>):<fpage>153</fpage>‐<lpage>174</lpage>.<pub-id pub-id-type="pmid">28054827</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/21678421.2016.1267768</pub-id><pub-id pub-id-type="pmcid">PMC7409990</pub-id></mixed-citation></ref><ref id="ene16264-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="ene16264-cit-0009">
+<string-name name-style="western">
+<surname>Pender</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pinto‐Grau</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hardiman</surname>
+<given-names>O</given-names>
+</string-name>. <article-title>Cognitive and behavioural impairment in amyotrophic lateral sclerosis</article-title>. <source>Curr Opin Neurol</source>. <year>2020</year>;<volume>33</volume>(<issue>5</issue>):<fpage>649</fpage>‐<lpage>654</lpage>.<pub-id pub-id-type="pmid">32833751</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/WCO.0000000000000862</pub-id></mixed-citation></ref><ref id="ene16264-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="ene16264-cit-0010">
+<string-name name-style="western">
+<surname>Roggenbuck</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eubank</surname>
+<given-names>BHF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wright</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harms</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kolb</surname>
+<given-names>SJ</given-names>
+</string-name>, <collab collab-type="authors">the ALS Genetic Testing and Counseling Guidelines Expert Panel</collab>
+. <article-title>Evidence‐based consensus guidelines for ALS genetic testing and counseling</article-title>. <source>Ann Clin Transl Neurol</source>. <year>2023</year>;<volume>10</volume>(<issue>11</issue>):<fpage>2074</fpage>‐<lpage>2091</lpage>.<pub-id pub-id-type="pmid">37691292</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/acn3.51895</pub-id><pub-id pub-id-type="pmcid">PMC10646996</pub-id></mixed-citation></ref><ref id="ene16264-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="ene16264-cit-0011">
+<string-name name-style="western">
+<surname>Salmon</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kiernan</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>SH</given-names>
+</string-name>, et al. <article-title>The importance of offering early genetic testing in everyone with amyotrophic lateral sclerosis</article-title>. <source>Brain</source>. <year>2022</year>;<volume>145</volume>(<issue>4</issue>):<fpage>1207</fpage>‐<lpage>1210</lpage>.<pub-id pub-id-type="pmid">35020823</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/brain/awab472</pub-id><pub-id pub-id-type="pmcid">PMC9129091</pub-id></mixed-citation></ref><ref id="ene16264-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="ene16264-cit-0012">
+<string-name name-style="western">
+<surname>Janssens</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruytings</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Chalabi</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>A mapping review of international guidance on the management and care of amyotrophic lateral sclerosis (ALS)</article-title>. <source>Amyotroph Lateral Scler Frontotemporal Degener</source>. <year>2016</year>;<volume>17</volume>(<issue>5–6</issue>):<fpage>325</fpage>‐<lpage>336</lpage>.<pub-id pub-id-type="pmid">27078045</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/21678421.2016.1167911</pub-id></mixed-citation></ref><ref id="ene16264-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="ene16264-cit-0013">
+<string-name name-style="western">
+<surname>Leone</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Keindl</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schapira</surname>
+<given-names>AH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deuschl</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Federico</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Practical recommendations for the process of proposing, planning and writing a neurological management guideline by EAN task forces</article-title>. <source>Eur J Neurol</source>. <year>2015</year>;<volume>22</volume>(<issue>12</issue>):<fpage>1505</fpage>‐<lpage>1510</lpage>.<pub-id pub-id-type="pmid">26268048</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/ene.12818</pub-id></mixed-citation></ref><ref id="ene16264-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="ene16264-cit-0014">
+<string-name name-style="western">
+<surname>Schunemann</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wiercioch</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brozek</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>GRADE evidence to decision (EtD) frameworks for adoption, adaptation, and de novo development of trustworthy recommendations: GRADE‐ADOLOPMENT</article-title>. <source>J Clin Epidemiol</source>. <year>2017</year>;<volume>81</volume>:<fpage>101</fpage>‐<lpage>110</lpage>.<pub-id pub-id-type="pmid">27713072</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jclinepi.2016.09.009</pub-id></mixed-citation></ref><ref id="ene16264-bib-0015"><label>15</label><mixed-citation publication-type="book" id="ene16264-cit-0015">
+<collab collab-type="authors">National Institute for Health and Care Excellence. NICE Guideline</collab>
+. <source>Motor neurone disease: assessment and management</source>. <publisher-name>Motor Neurone Disease: Assessment and Management</publisher-name>; <year>2019</year>.<pub-id pub-id-type="pmid">32134605</pub-id></mixed-citation></ref><ref id="ene16264-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="ene16264-cit-0016">
+<string-name name-style="western">
+<surname>Cumpston</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Page</surname>
+<given-names>MJ</given-names>
+</string-name>, et al. <article-title>Updated guidance for trusted systematic reviews: a new edition of the Cochrane Handbook for Systematic Reviews of Interventions</article-title>. <source>Cochrane Database Syst Rev</source>. <year>2019</year>;<volume>10</volume>:<elocation-id>ED000142</elocation-id>.<pub-id pub-id-type="pmid">31643080</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/14651858.ED000142</pub-id><pub-id pub-id-type="pmcid">PMC10284251</pub-id></mixed-citation></ref><ref id="ene16264-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="ene16264-cit-0017">
+<string-name name-style="western">
+<surname>Guyatt</surname>
+<given-names>GH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oxman</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schunemann</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tugwell</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knottnerus</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>GRADE guidelines: a new series of articles in the <italic toggle="yes">Journal of Clinical Epidemiology</italic>
+</article-title>. <source>J Clin Epidemiol</source>. <year>2011</year>;<volume>64</volume>(<issue>4</issue>):<fpage>380</fpage>‐<lpage>382</lpage>.<pub-id pub-id-type="pmid">21185693</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jclinepi.2010.09.011</pub-id></mixed-citation></ref><ref id="ene16264-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="ene16264-cit-0018">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alexander</surname>
+<given-names>PE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reljic</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Evidence to decision framework provides a structured “roadmap” for making GRADE guidelines recommendations</article-title>. <source>J Clin Epidemiol</source>. <year>2018</year>;<volume>104</volume>:<fpage>103</fpage>‐<lpage>112</lpage>.<pub-id pub-id-type="pmid">30253221</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jclinepi.2018.09.007</pub-id><pub-id pub-id-type="pmcid">PMC7275375</pub-id></mixed-citation></ref><ref id="ene16264-bib-0019"><label>19</label><mixed-citation publication-type="book" id="ene16264-cit-0019">
+<collab collab-type="authors">National Institute for Health and Care Excellence (NICE)</collab>
+. <source>Motor neurone disease: assessment and management (NG42 NG)</source>. <publisher-name>National Clinical Guideline Centre</publisher-name>; <year>2016</year>.</mixed-citation></ref><ref id="ene16264-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="ene16264-cit-0020">
+<string-name name-style="western">
+<surname>Miller</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jackson</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kasarskis</surname>
+<given-names>EJ</given-names>
+</string-name>, et al. <article-title>Practice parameter update: the care of the patient with amyotrophic lateral sclerosis: multidisciplinary care, symptom management, and cognitive/behavioral impairment (an evidence‐based review): report of the Quality Standards Subcommittee of the American Academy of Neurology</article-title>. <source>Neurology</source>. <year>2009</year>;<volume>73</volume>(<issue>15</issue>):<fpage>1227</fpage>‐<lpage>1233</lpage>.<pub-id pub-id-type="pmid">19822873</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0b013e3181bc01a4</pub-id><pub-id pub-id-type="pmcid">PMC2764728</pub-id></mixed-citation></ref><ref id="ene16264-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="ene16264-cit-0021">
+<string-name name-style="western">
+<surname>Miller</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jackson</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kasarskis</surname>
+<given-names>EJ</given-names>
+</string-name>, et al. <article-title>Practice parameter update: the care of the patient with amyotrophic lateral sclerosis: drug, nutritional, and respiratory therapies (an evidence‐based review): report of the Quality Standards Subcommittee of the American Academy of Neurology</article-title>. <source>Neurology</source>. <year>2009</year>;<volume>73</volume>(<issue>15</issue>):<fpage>1218</fpage>‐<lpage>1226</lpage>.<pub-id pub-id-type="pmid">19822872</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0b013e3181bc0141</pub-id><pub-id pub-id-type="pmcid">PMC2764727</pub-id></mixed-citation></ref><ref id="ene16264-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="ene16264-cit-0022">
+<string-name name-style="western">
+<surname>Miller</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mitchell</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moore</surname>
+<given-names>DH</given-names>
+</string-name>. <article-title>Riluzole for amyotrophic lateral sclerosis (ALS)/motor neuron disease (MND)</article-title>. <source>Cochrane Database Syst Rev</source>. <year>2012</year>;<volume>2012</volume>(<issue>3</issue>):<elocation-id>CD001447</elocation-id>.<pub-id pub-id-type="pmid">22419278</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/14651858.CD001447.pub3</pub-id><pub-id pub-id-type="pmcid">PMC7055506</pub-id></mixed-citation></ref><ref id="ene16264-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="ene16264-cit-0023">
+<string-name name-style="western">
+<surname>Bensimon</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lacomblez</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meininger</surname>
+<given-names>V</given-names>
+</string-name>. <article-title>A controlled trial of riluzole in amyotrophic lateral sclerosis. ALS/Riluzole Study Group</article-title>. <source>N Engl J Med</source>. <year>1994</year>;<volume>330</volume>(<issue>9</issue>):<fpage>585</fpage>‐<lpage>591</lpage>.<pub-id pub-id-type="pmid">8302340</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJM199403033300901</pub-id></mixed-citation></ref><ref id="ene16264-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="ene16264-cit-0024">
+<string-name name-style="western">
+<surname>Bensimon</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lacomblez</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Delumeau</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bejuit</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Truffinet</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meininger</surname>
+<given-names>V</given-names>
+</string-name>. <article-title>A study of riluzole in the treatment of advanced stage or elderly patients with amyotrophic lateral sclerosis</article-title>. <source>J Neurol</source>. <year>2002</year>;<volume>249</volume>(<issue>5</issue>):<fpage>609</fpage>‐<lpage>615</lpage>.<pub-id pub-id-type="pmid">12021952</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s004150200071</pub-id></mixed-citation></ref><ref id="ene16264-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="ene16264-cit-0025">
+<string-name name-style="western">
+<surname>Lacomblez</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensimon</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leigh</surname>
+<given-names>PN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guillet</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meininger</surname>
+<given-names>V</given-names>
+</string-name>. <article-title>Dose‐ranging study of riluzole in amyotrophic lateral sclerosis. Amyotrophic Lateral Sclerosis/Riluzole Study Group II</article-title>. <source>Lancet</source>. <year>1996</year>;<volume>347</volume>(<issue>9013</issue>):<fpage>1425</fpage>‐<lpage>1431</lpage>.<pub-id pub-id-type="pmid">8676624</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0140-6736(96)91680-3</pub-id></mixed-citation></ref><ref id="ene16264-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="ene16264-cit-0026">
+<string-name name-style="western">
+<surname>Yanagisawa</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shindo</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Neuroprotective therapy for amyotrophic lateral sclerosis (ALS)</article-title>. <source>Rinsho Shinkeigaku</source>. <year>1996</year>;<volume>36</volume>(<issue>12</issue>):<fpage>1329</fpage>‐<lpage>1330</lpage>.<pub-id pub-id-type="pmid">9128396</pub-id>
+</mixed-citation></ref><ref id="ene16264-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="ene16264-cit-0027">
+<string-name name-style="western">
+<surname>Abe</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Itoyama</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sobue</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Confirmatory double‐blind, parallel‐group, placebo‐controlled study of efficacy and safety of edaravone (MCI‐186) in amyotrophic lateral sclerosis patients</article-title>. <source>Amyotroph Lateral Scler Frontotemporal Degener</source>. <year>2014</year>;<volume>15</volume>(<issue>7–8</issue>):<fpage>610</fpage>‐<lpage>617</lpage>.<pub-id pub-id-type="pmid">25286015</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/21678421.2014.959024</pub-id><pub-id pub-id-type="pmcid">PMC4266079</pub-id></mixed-citation></ref><ref id="ene16264-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="ene16264-cit-0028">
+<collab collab-type="authors">Writing Group Edaravone (MCI‐186) ALS 19 Study Group. ALSSG</collab>
+. <article-title>Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis: a randomised, double‐blind, placebo‐controlled trial</article-title>. <source>Lancet Neurol</source>. <year>2017</year>;<volume>16</volume>(<issue>7</issue>):<fpage>505</fpage>‐<lpage>512</lpage>.<pub-id pub-id-type="pmid">28522181</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(17)30115-1</pub-id></mixed-citation></ref><ref id="ene16264-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="ene16264-cit-0029">
+<collab collab-type="authors">Writing Group on Behalf of the Edaravone ALS 18 Study Group</collab>
+. <article-title>Exploratory double‐blind, parallel‐group, placebo‐controlled study of edaravone (MCI‐186) in amyotrophic lateral sclerosis (Japan ALS severity classification: Grade 3, requiring assistance for eating, excretion or ambulation)</article-title>. <source>Amyotroph Lateral Scler Frontotemporal Degener</source>. <year>2017</year>;<volume>18</volume>(<issue>sup1</issue>):<fpage>40</fpage>‐<lpage>48</lpage>.<pub-id pub-id-type="pmid">28872915</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/21678421.2017.1361441</pub-id></mixed-citation></ref><ref id="ene16264-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="ene16264-cit-0030">
+<string-name name-style="western">
+<surname>Abdul Wahid</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Law</surname>
+<given-names>ZK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ismail</surname>
+<given-names>NA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lai</surname>
+<given-names>NM</given-names>
+</string-name>. <article-title>Cell‐based therapies for amyotrophic lateral sclerosis/motor neuron disease</article-title>. <source>Cochrane Database Syst Rev</source>. <year>2019</year>;<volume>12</volume>(<issue>12</issue>):<elocation-id>CD011742</elocation-id>.<pub-id pub-id-type="pmid">31853962</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/14651858.CD011742.pub3</pub-id><pub-id pub-id-type="pmcid">PMC6920743</pub-id></mixed-citation></ref><ref id="ene16264-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="ene16264-cit-0031">
+<string-name name-style="western">
+<surname>Berry</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cudkowicz</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Windebank</surname>
+<given-names>AJ</given-names>
+</string-name>, et al. <article-title>NurOwn, phase 2, randomized, clinical trial in patients with ALS: safety, clinical, and biomarker results</article-title>. <source>Neurology</source>. <year>2019</year>;<volume>93</volume>(<issue>24</issue>):<fpage>e2294</fpage>‐<lpage>e2305</lpage>.<pub-id pub-id-type="pmid">31740545</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000008620</pub-id><pub-id pub-id-type="pmcid">PMC6937497</pub-id></mixed-citation></ref><ref id="ene16264-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="ene16264-cit-0032">
+<string-name name-style="western">
+<surname>Oh</surname>
+<given-names>KW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Noh</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kwon</surname>
+<given-names>MS</given-names>
+</string-name>, et al. <article-title>Repeated intrathecal mesenchymal stem cells for amyotrophic lateral sclerosis</article-title>. <source>Ann Neurol</source>. <year>2018</year>;<volume>84</volume>(<issue>3</issue>):<fpage>361</fpage>‐<lpage>373</lpage>.<pub-id pub-id-type="pmid">30048006</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.25302</pub-id><pub-id pub-id-type="pmcid">PMC6175096</pub-id></mixed-citation></ref><ref id="ene16264-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="ene16264-cit-0033">
+<string-name name-style="western">
+<surname>Amirzagar</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nafissi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tafakhori</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Granulocyte colony‐stimulating factor for amyotrophic lateral sclerosis: a randomized, double‐blind, placebo‐controlled study of Iranian patients</article-title>. <source>J Clin Neurol</source>. <year>2015</year>;<volume>11</volume>(<issue>2</issue>):<fpage>164</fpage>‐<lpage>171</lpage>.<pub-id pub-id-type="pmid">25851895</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3988/jcn.2015.11.2.164</pub-id><pub-id pub-id-type="pmcid">PMC4387482</pub-id></mixed-citation></ref><ref id="ene16264-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="ene16264-cit-0034">
+<string-name name-style="western">
+<surname>Cudkowicz</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lindborg</surname>
+<given-names>SR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goyal</surname>
+<given-names>NA</given-names>
+</string-name>, et al. <article-title>A randomized placebo‐controlled phase 3 study of mesenchymal stem cells induced to secrete high levels of neurotrophic factors in amyotrophic lateral sclerosis</article-title>. <source>Muscle Nerve</source>. <year>2022</year>;<volume>65</volume>(<issue>3</issue>):<fpage>291</fpage>‐<lpage>302</lpage>.<pub-id pub-id-type="pmid">34890069</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/mus.27472</pub-id><pub-id pub-id-type="pmcid">PMC9305113</pub-id></mixed-citation></ref><ref id="ene16264-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="ene16264-cit-0035">
+<string-name name-style="western">
+<surname>Duning</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schiffbauer</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Warnecke</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>G‐CSF prevents the progression of structural disintegration of white matter tracts in amyotrophic lateral sclerosis: a pilot trial</article-title>. <source>PLoS ONE</source>. <year>2011</year>;<volume>6</volume>(<issue>3</issue>):<elocation-id>e17770</elocation-id>.<pub-id pub-id-type="pmid">21423758</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0017770</pub-id><pub-id pub-id-type="pmcid">PMC3056779</pub-id></mixed-citation></ref><ref id="ene16264-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="ene16264-cit-0036">
+<string-name name-style="western">
+<surname>Nefussy</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Artamonov</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deutsch</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Naparstek</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagler</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Drory</surname>
+<given-names>VE</given-names>
+</string-name>. <article-title>Recombinant human granulocyte‐colony stimulating factor administration for treating amyotrophic lateral sclerosis: a pilot study</article-title>. <source>Amyotroph Lateral Scler</source>. <year>2010</year>;<volume>11</volume>(<issue>1–2</issue>):<fpage>187</fpage>‐<lpage>193</lpage>.<pub-id pub-id-type="pmid">19449238</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/17482960902933809</pub-id></mixed-citation></ref><ref id="ene16264-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="ene16264-cit-0037">
+<string-name name-style="western">
+<surname>Paganoni</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macklin</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hendrix</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Trial of sodium phenylbutyrate‐taurursodiol for amyotrophic lateral sclerosis</article-title>. <source>N Engl J Med</source>. <year>2020</year>;<volume>383</volume>(<issue>10</issue>):<fpage>919</fpage>‐<lpage>930</lpage>.<pub-id pub-id-type="pmid">32877582</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1916945</pub-id><pub-id pub-id-type="pmcid">PMC9134321</pub-id></mixed-citation></ref><ref id="ene16264-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="ene16264-cit-0038">
+<string-name name-style="western">
+<surname>Miller</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cudkowicz</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Genge</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Trial of antisense oligonucleotide tofersen for SOD1 ALS</article-title>. <source>N Engl J Med</source>. <year>2022</year>;<volume>387</volume>(<issue>12</issue>):<fpage>1099</fpage>‐<lpage>1110</lpage>.<pub-id pub-id-type="pmid">36129998</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2204705</pub-id></mixed-citation></ref><ref id="ene16264-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="ene16264-cit-0039">
+<string-name name-style="western">
+<surname>Dorst</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doenz</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kandler</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Fat‐rich versus carbohydrate‐rich nutrition in ALS: a randomised controlled study</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2022</year>;<volume>93</volume>(<issue>3</issue>):<fpage>298</fpage>‐<lpage>302</lpage>.<pub-id pub-id-type="pmid">35022317</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/jnnp-2021-328331</pub-id></mixed-citation></ref><ref id="ene16264-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="ene16264-cit-0040">
+<string-name name-style="western">
+<surname>Ludolph</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dorst</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dreyhaupt</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Effect of high‐caloric nutrition on survival in amyotrophic lateral sclerosis</article-title>. <source>Ann Neurol</source>. <year>2020</year>;<volume>87</volume>(<issue>2</issue>):<fpage>206</fpage>‐<lpage>216</lpage>.<pub-id pub-id-type="pmid">31849093</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.25661</pub-id></mixed-citation></ref><ref id="ene16264-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="ene16264-cit-0041">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yuan</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cao</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Effect of complete high‐caloric nutrition on the nutritional status and survival rate of amyotrophic lateral sclerosis patients after gastrostomy</article-title>. <source>Am J Transl Res</source>. <year>2022</year>;<volume>14</volume>(<issue>11</issue>):<fpage>7842</fpage>‐<lpage>7851</lpage>.<pub-id pub-id-type="pmid">36505314</pub-id>
+<pub-id pub-id-type="pmcid">PMC9730112</pub-id></mixed-citation></ref><ref id="ene16264-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="ene16264-cit-0042">
+<string-name name-style="western">
+<surname>Wills</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hubbard</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macklin</surname>
+<given-names>EA</given-names>
+</string-name>, et al. <article-title>Hypercaloric enteral nutrition in patients with amyotrophic lateral sclerosis: a randomised, double‐blind, placebo‐controlled phase 2 trial</article-title>. <source>Lancet</source>. <year>2014</year>;<volume>383</volume>(<issue>9934</issue>):<fpage>2065</fpage>‐<lpage>2072</lpage>.<pub-id pub-id-type="pmid">24582471</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(14)60222-1</pub-id><pub-id pub-id-type="pmcid">PMC4176708</pub-id></mixed-citation></ref><ref id="ene16264-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="ene16264-cit-0043">
+<string-name name-style="western">
+<surname>Radunovic</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Annane</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rafiq</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brassington</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mustfa</surname>
+<given-names>N</given-names>
+</string-name>. <article-title>Mechanical ventilation for amyotrophic lateral sclerosis/motor neuron disease</article-title>. <source>Cochrane Database Syst Rev</source>. <year>2017</year>;<volume>10</volume>(<issue>10</issue>):<elocation-id>CD004427</elocation-id>.<pub-id pub-id-type="pmid">28982219</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/14651858.CD004427.pub4</pub-id><pub-id pub-id-type="pmcid">PMC6485636</pub-id></mixed-citation></ref><ref id="ene16264-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="ene16264-cit-0044">
+<string-name name-style="western">
+<surname>Gonzalez‐Bermejo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morélot‐Panzini</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tanguy</surname>
+<given-names>ML</given-names>
+</string-name>, et al. <article-title>Early diaphragm pacing in patients with amyotrophic lateral sclerosis (RespiStimALS): a randomised controlled triple‐blind trial</article-title>. <source>Lancet Neurol</source>. <year>2016</year>;<volume>15</volume>(<issue>12</issue>):<fpage>1217</fpage>‐<lpage>1227</lpage>.<pub-id pub-id-type="pmid">27751553</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(16)30233-2</pub-id></mixed-citation></ref><ref id="ene16264-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="ene16264-cit-0045">
+<string-name name-style="western">
+<surname>McDermott</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bradburn</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maguire</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>DiPALS: Diaphragm Pacing in patients with Amyotrophic Lateral Sclerosis—a randomised controlled trial</article-title>. <source>Health Technol Assess</source>. <year>2016</year>;<volume>20</volume>(<issue>45</issue>):<fpage>1</fpage>‐<lpage>186</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3310/hta20450</pub-id><pub-id pub-id-type="pmcid">PMC4939419</pub-id><pub-id pub-id-type="pmid">27353839</pub-id></mixed-citation></ref><ref id="ene16264-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="ene16264-cit-0046">
+<string-name name-style="western">
+<surname>Bourke</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tomlinson</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Williams</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bullock</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gibson</surname>
+<given-names>GJ</given-names>
+</string-name>. <article-title>Effects of non‐invasive ventilation on survival and quality of life in patients with amyotrophic lateral sclerosis: a randomised controlled trial</article-title>. <source>Lancet Neurol</source>. <year>2006</year>;<volume>5</volume>(<issue>2</issue>):<fpage>140</fpage>‐<lpage>147</lpage>.<pub-id pub-id-type="pmid">16426990</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(05)70326-4</pub-id></mixed-citation></ref><ref id="ene16264-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="ene16264-cit-0047">
+<string-name name-style="western">
+<surname>Jacobs</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>
+<given-names>DL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baek</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Migda</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Funckes</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gruis</surname>
+<given-names>KL</given-names>
+</string-name>. <article-title>Trial of early noninvasive ventilation for ALS: a pilot placebo‐controlled study</article-title>. <source>Neurology</source>. <year>2016</year>;<volume>87</volume>(<issue>18</issue>):<fpage>1878</fpage>‐<lpage>1883</lpage>.<pub-id pub-id-type="pmid">27581221</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000003158</pub-id><pub-id pub-id-type="pmcid">PMC5100714</pub-id></mixed-citation></ref><ref id="ene16264-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="ene16264-cit-0048">
+<string-name name-style="western">
+<surname>Oskarsson</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moore</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mozaffar</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Mexiletine for muscle cramps in amyotrophic lateral sclerosis: a randomized, double‐blind crossover trial</article-title>. <source>Muscle Nerve</source>. <year>2018</year>;<volume>58</volume>(<issue>1</issue>):<fpage>42</fpage>‐<lpage>48</lpage>. doi:<pub-id pub-id-type="doi">10.1002/mus.26117</pub-id>
+<pub-id pub-id-type="pmcid">PMC6126993</pub-id><pub-id pub-id-type="pmid">29510461</pub-id></mixed-citation></ref><ref id="ene16264-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="ene16264-cit-0049">
+<string-name name-style="western">
+<surname>Weber</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goldman</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Truniger</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Tetrahydrocannabinol (THC) for cramps in amyotrophic lateral sclerosis: a randomised, double‐blind crossover trial</article-title>. <source>J Neurol Neurosurg Psychiatry</source>. <year>2010</year>;<volume>81</volume>(<issue>10</issue>):<fpage>1135</fpage>‐<lpage>1140</lpage>.<pub-id pub-id-type="pmid">20498181</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/jnnp.2009.200642</pub-id></mixed-citation></ref><ref id="ene16264-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="ene16264-cit-0050">
+<string-name name-style="western">
+<surname>Weiss</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macklin</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Simmons</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>A randomized trial of mexiletine in ALS: safety and effects on muscle cramps and progression</article-title>. <source>Neurology</source>. <year>2016</year>;<volume>86</volume>(<issue>16</issue>):<fpage>1474</fpage>‐<lpage>1481</lpage>.<pub-id pub-id-type="pmid">26911633</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/WNL.0000000000002507</pub-id><pub-id pub-id-type="pmcid">PMC4836879</pub-id></mixed-citation></ref><ref id="ene16264-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="ene16264-cit-0051">
+<string-name name-style="western">
+<surname>Weiss</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macklin</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McIlduff</surname>
+<given-names>CE</given-names>
+</string-name>, et al. <article-title>Effects of mexiletine on hyperexcitability in sporadic amyotrophic lateral sclerosis: preliminary findings from a small phase II randomized controlled trial</article-title>. <source>Muscle Nerve</source>. <year>2021</year>;<volume>63</volume>(<issue>3</issue>):<fpage>371</fpage>‐<lpage>383</lpage>.<pub-id pub-id-type="pmid">33340120</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/mus.27146</pub-id><pub-id pub-id-type="pmcid">PMC8513796</pub-id></mixed-citation></ref><ref id="ene16264-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="ene16264-cit-0052">
+<string-name name-style="western">
+<surname>Ashworth</surname>
+<given-names>NL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Satkunam</surname>
+<given-names>LE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deforge</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Treatment for spasticity in amyotrophic lateral sclerosis/motor neuron disease</article-title>. <source>Cochrane Database Syst Rev</source>. <year>2012</year>;<volume>15</volume>(<issue>2</issue>):<elocation-id>CD004156</elocation-id>.</mixed-citation></ref><ref id="ene16264-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="ene16264-cit-0053">
+<string-name name-style="western">
+<surname>Drory</surname>
+<given-names>VE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goltsman</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reznik</surname>
+<given-names>JG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mosek</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Korczyn</surname>
+<given-names>AD</given-names>
+</string-name>. <article-title>The value of muscle exercise in patients with amyotrophic lateral sclerosis</article-title>. <source>J Neurol Sci</source>. <year>2001</year>;<volume>191</volume>(<issue>1–2</issue>):<fpage>133</fpage>‐<lpage>137</lpage>.<pub-id pub-id-type="pmid">11677004</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0022-510x(01)00610-4</pub-id></mixed-citation></ref><ref id="ene16264-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="ene16264-cit-0054">
+<string-name name-style="western">
+<surname>Riva</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mora</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sorarù</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Safety and efficacy of nabiximols on spasticity symptoms in patients with motor neuron disease (CANALS): a multicentre, double‐blind, randomised, placebo‐controlled, phase 2 trial</article-title>. <source>Lancet Neurol</source>. <year>2019</year>;<volume>18</volume>(<issue>2</issue>):<fpage>155</fpage>‐<lpage>164</lpage>.<pub-id pub-id-type="pmid">30554828</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1474-4422(18)30406-X</pub-id></mixed-citation></ref><ref id="ene16264-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="ene16264-cit-0055">
+<string-name name-style="western">
+<surname>James</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ellis</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brassington</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sathasivam</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Young</surname>
+<given-names>CA</given-names>
+</string-name>. <article-title>Treatment for sialorrhea (excessive saliva) in people with motor neuron disease/amyotrophic lateral sclerosis</article-title>. <source>Cochrane Database Syst Rev</source>. <year>2022</year>;<volume>5</volume>(<issue>5</issue>):<elocation-id>CD006981</elocation-id>.<pub-id pub-id-type="pmid">35593746</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/14651858.CD006981.pub3</pub-id><pub-id pub-id-type="pmcid">PMC9121913</pub-id></mixed-citation></ref><ref id="ene16264-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="ene16264-cit-0056">
+<string-name name-style="western">
+<surname>Brooks</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thisted</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Appel</surname>
+<given-names>SH</given-names>
+</string-name>, et al. <article-title>Treatment of pseudobulbar affect in ALS with dextromethorphan/quinidine: a randomized trial</article-title>. <source>Neurology</source>. <year>2004</year>;<volume>63</volume>(<issue>8</issue>):<fpage>1364</fpage>‐<lpage>1370</lpage>.<pub-id pub-id-type="pmid">15505150</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1212/01.wnl.0000142042.50528.2f</pub-id></mixed-citation></ref><ref id="ene16264-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="ene16264-cit-0057">
+<string-name name-style="western">
+<surname>Pioro</surname>
+<given-names>EP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brooks</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cummings</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Dextromethorphan plus ultra low‐dose quinidine reduces pseudobulbar affect</article-title>. <source>Ann Neurol</source>. <year>2010</year>;<volume>68</volume>(<issue>5</issue>):<fpage>693</fpage>‐<lpage>702</lpage>.<pub-id pub-id-type="pmid">20839238</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ana.22093</pub-id></mixed-citation></ref><ref id="ene16264-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="ene16264-cit-0058">
+<string-name name-style="western">
+<surname>Smith</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pioro</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Myers</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Enhanced bulbar function in amyotrophic lateral sclerosis: the Nuedexta treatment trial</article-title>. <source>Neurotherapeutics</source>. <year>2017</year>;<volume>14</volume>:<fpage>762</fpage>‐<lpage>772</lpage>.<pub-id pub-id-type="pmid">28070747</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s13311-016-0508-5</pub-id><pub-id pub-id-type="pmcid">PMC5509619</pub-id></mixed-citation></ref><ref id="ene16264-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="ene16264-cit-0059">
+<string-name name-style="western">
+<surname>van Groenestijn</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schroder</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Eijk</surname>
+<given-names>RPA</given-names>
+</string-name>, et al. <article-title>Aerobic exercise therapy in ambulatory patients with ALS: a randomized controlled trial</article-title>. <source>Neurorehabil Neural Repair</source>. <year>2019</year>;<volume>33</volume>(<issue>2</issue>):<fpage>153</fpage>‐<lpage>164</lpage>.<pub-id pub-id-type="pmid">30744529</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1545968319826051</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

@@ -1,0 +1,234 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04935372",
+      "orgStudyIdInfo": {
+        "id": "β-AARC_BBRC2021"
+      },
+      "organization": {
+        "fullName": "Barcelonabeta Brain Research Center, Pasqual Maragall Foundation",
+        "class": "OTHER"
+      },
+      "briefTitle": "β-AARC: Cohort Study for the Identification of Blood-based Biomarkers in a Population With Subjective Cognitive Decline",
+      "officialTitle": "β-AARC: Cohort Study for the Identification of Blood-based Biomarkers in a Population With Subjective Cognitive Decline",
+      "acronym": "β-AARC"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-05-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-06-08",
+      "studyFirstSubmitQcDate": "2021-06-21",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Barcelonabeta Brain Research Center, Pasqual Maragall Foundation",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The overall (cross-sectional) objective of this study is to detect and describe the profile of AD-related blood biomarkers in a population with SCD (including individuals with MCI) with the ultimate goal of investigating their capacity to predict underlying AD pathology. Longitudinally, the β-AARC\\_BBRC2021 study fundamentally aims at assessing the ability of AD-related blood-based biomarkers to predict disease progression in the Alzheimer's continuum.\n\nTo achieve these cross-sectional and longitudinal objectives, an exhaustive set of clinical, risk factors, cognitive, mental health and neuroimaging data will be collected, as well as blood and CSF samples, from which AD-related fluid biomarkers will be determined.\n\nAs a secondary objective, we will investigate the efficacy and accuracy of the Altoida NMI as a novel digital biomarker for identifying patients with SCD or MCI that have underlying AD pathology (cross-sectionally) and to test the capacity of the Altoida NMI to track disease progression in these popoulations (longitudinally)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Preclinical Alzheimer",
+        "Mild Cognitive Impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Subjective cognitive decline",
+          "description": "Male and female, aged 55 to 80 years with subjective cognitive decline, either cognitively unimpaired or with mild cognitive impairment",
+          "interventionNames": [
+            "Other: Observational"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Observational",
+          "description": "Cross sectional analyses The two main variables for the analysis will be: Values of biomarker concentrations in blood and their correlations with CSF biomarkers and the development of prodromal AD for the cognitively unimpaired SCD population. Other variables of interest for the study are, among others, risk factors, cognitive status, measurements of brain structure and function, mental health, chronic diseases, environmental exposures, age and sex.\n\nLongitudinal analyses Longitudinal analyses will estimate the association between the intensity of the subjective complaint and the rate of progression between the diagnostic categories; The association of biomarkers, risk factors and other clinical variables with the rate of progression between the diagnostic categories; The association of cognitive and neuroimaging variables with the rate of progression between the diagnostic categories; The evolution of the complaint itself and its relation to the other variables described.",
+          "armGroupLabels": [
+            "Subjective cognitive decline"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "CSF Aβ42/Aβ40 ratio",
+          "description": "The capacity of plasma biomarkers to predict (alone or in combination of covariates) Alzheimer's pathology",
+          "timeFrame": "Through study completion, an average of 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cost effectiveness",
+          "description": "The ratio between the cost and predictive capacity of these variables will be considered to derive a triaging algorithm for primary care",
+          "timeFrame": "Through study completion, an average of 1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Cognitively unimpaired persons with SCD as well as individuals with MCI.\n2. To sign the study informed consent form, approved by the corresponding authorities.\n3. Participation (in-person at the institution or telephonically) of a relative to inform on the participant subjective memory decline and on the clinical interview\\*.\n4. Men and women between 55 and 80 years old\n5. Memory Alteration Test (M@T) ≤45\n6. Good knowledge of the either Spanish or Catalan language and being literate.\n\nExclusion Criteria:\n\n1. Presence of clinically relevant psychiatric disorder according to the Diagnostic and Statistical Manual of Mental Disorders, 5th Edition (DSM-V) criteria: major depressive disorder, generalized anxiety disorder, schizophrenia and bipolar disorder, or any other condition that might impact cognition or performance on cognitive assessments as judged by the investigator\n2. Parkinson's disease, epilepsy in treatment and with frequent seizures (\\> 1 / month) in the last year, multiple sclerosis or other neurodegenerative disease.\n3. Contraindication to perform an MR scan: claustrophobia, pacemaker, metallic implants, etc.\n4. Contraindication to lumbar puncture\n5. Acquired brain injury: history of cranioencephalic trauma with gross parenchymal or extra axial lesion, hemorrhagic ischemic stroke, brain tumors and other aetiologies that can cause acquired brain damage (chemotherapy or brain radiotherapy).\n6. Investigator's criteria: Subjects that show any condition that, in the opinion of the investigator, could interfere in the proper execution of the study procedures and / or in their future permanence in the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "55 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Two-hundred participants, aged 55 to 80 years with subjective cognitive decline, will be primarily selected from the population seeking medical advice on their cognitive performance to Primary care units. In addition, other conventional recruitment strategies may be used (e.g. participants of ongoing or ended BBRC-sponsored studies,novel recruitment calls…).",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "BarcelonaBeta Brain Research Center",
+          "city": "Barcelona",
+          "state": "Barcelona",
+          "zip": "08005",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D057832",
+          "term": "Watchful Waiting"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017063",
+          "term": "Outcome Assessment, Health Care"
+        },
+        {
+          "id": "D010043",
+          "term": "Outcome and Process Assessment, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

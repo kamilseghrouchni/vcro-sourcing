@@ -1,0 +1,358 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05776641",
+      "orgStudyIdInfo": {
+        "id": "2021P002885"
+      },
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Gamma Light and Sound Stimulation to Prevent Dementia in Cognitively Normal People At Risk for Alzheimer's Disease",
+      "officialTitle": "Prevention of Alzheimer's Disease Using Gamma Entrainment"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-01-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-11-29",
+      "studyFirstSubmitQcDate": "2023-03-08",
+      "studyFirstPostDateStruct": {
+        "date": "2023-03-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Diane Chan",
+        "investigatorTitle": "Neurologist",
+        "investigatorAffiliation": "Massachusetts General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Alzheimer's disease (AD) is characterized by significant memory loss, toxic protein deposits (amyloid and tau) in the brain, and changes in the gamma frequency band on EEG. Gamma waves are important for memory, and in patients with AD, there are fewer gamma waves in the brain. The Tsai lab found that boosting gamma waves in AD mouse models using light and sound stimulation at 40Hz not only reduced amyloid and tau in the brain, but also improved memory. A light and sound device was developed for humans that stimulates the brain at 40Hz that can be used safely at home. The goal of this study is to see if using this device can prevent dementia in people who are at risk for developing Alzheimer's disease.",
+      "detailedDescription": "The investigators are recruiting participants aged 55+ with normal memory who have or had a close family member with Alzheimer's disease. 200 participants will undergo a blood test and a subset will undergo an amyloid PET scan and only 50 participants who have cerebral amyloid deposits will continue in the study. Neither the participant nor the investigators will know whether the participant is receiving sham or active stimulation. Participants will use the device for 12 months at home, for 60 minutes each day when they are awake. Participants will come to the Massachusetts General Hospital in Boston for 4-6 visits: before starting the stimulation, at 6 months, and after 12 months of usage. The participants will undergo PET scans, MRI, EEG, blood tests and memory tests and questionnaires at each visit to monitor progress. In addition, people may elect to allow for us to study their cerebral spinal fluid. Participants will also wear a \"fitbit\" like watch to monitor sleep and activity throughout the study. The goal of this study is to evaluate whether stimulation with our device at 40Hz will reduce AD pathology in the brain."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alzheimer Disease",
+        "Family Members"
+      ],
+      "keywords": [
+        "Cognitively normal",
+        "Alzheimer's disease",
+        "Gamma",
+        "Amyloid"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active GENUS light and sound",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The device is a light and sound device that delivers light stimulation using light-emitting diodes (LED) and sound stimulation through a speaker, with a centrally-mounted tablet that plays videos for entertainment. The device will be positioned on an easel such that the tablet is eye level with the participant while they are sitting 5 feet away. The active device delivers light and sound at 40Hz rate.",
+          "interventionNames": [
+            "Device: GENUS"
+          ]
+        },
+        {
+          "label": "Sham GENUS light and sound",
+          "type": "SHAM_COMPARATOR",
+          "description": "The device is the same as the active device but it delivers light and sound at different frequencies.",
+          "interventionNames": [
+            "Device: GENUS"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "GENUS",
+          "description": "Participants will use the GENUS light and sound device at home for 60 minutes daily for 12 months",
+          "armGroupLabels": [
+            "Active GENUS light and sound",
+            "Sham GENUS light and sound"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in brain amyloid deposition over the study period, as measured by PiB PET.",
+          "description": "The investigators will evaluate changes from baseline in amyloid deposition by using Pittsburgh compound B (PiB) PET, which is a standard for AD trial biomarkers, to assess progression towards AD with active or sham treatment.",
+          "timeFrame": "Baseline to 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in brain tau deposition",
+          "description": "The investigators will evaluate changes from baseline in tau deposition by using MK-6240 PET",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Changes in brain structure using structural MRI",
+          "description": "The investigators will evaluate changes in brain structure using structural MRI. Preliminary data show prevention of brain atrophy after 3 months of GENUS as measured by ventricular dilation and hippocampal volume. Using structural MRI, the investigators will evaluate brain volume, cortical thickness and ventricular volume.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Changes in brain electrical activity",
+          "description": "The investigators will evaluate brain electrical activity using longitudinal EEG (ie, gamma band power)",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Changes in brain connectivity by functional MRI",
+          "description": "The investigators will evaluate connectivity using resting state functional MRI to assess changes in brain networks (ie, default mode network).",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Changes to rest-activity parameters using actigraphy.",
+          "description": "Actigraphy will be used to evaluate rest-activity parameters (ie, interdaily stability",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Changes in blood biomarkers of AD",
+          "description": "Changes in Alzheimer's blood-based biomarkers (e.g. plasma Aβ42/Aβ40 ratio, Aβ42, Aβ40, p-tau, and neurofilament light) assessed by longitudinal blood sample collection",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Compliance of usage as measured by timestamp tracking and eye-tracking technology",
+          "description": "The device contains both a time-counter to track 'on time' and a camera that records images for eye-tracking, to quantitatively determine compliance with looking directly at the device. This method also quantifies whether the subjects are awake for the duration of treatment. Previous work with healthy older adults and a small cohort of mild AD patients have had 90% compliance.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Change from baseline in CSF levels of amyloid and tau.",
+          "description": "Lumbar puncture and CSF collection will be optional for participants, but will be informative as to the investigator's hypothesized mechanisms of clearance.",
+          "timeFrame": "Baseline to 12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Changes in CSF flow, as measured by BOLD fMRI",
+          "description": "The investigators will evaluate changes from baseline in CSF flow by using BOLD fMRI. CSF flow has been linked to amyloid clearance from the brain, and brain waste clearance mechanisms such as blood vessel dilation and increased glymphatic drainage are activated after 40-Hz light and sound stimulation in our preliminary mouse studies",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Change from baseline in integrity of white matter tracks and myelination as measured by diffusion MR imaging.",
+          "description": "It is hypothesized that neuromodulation causes changes in synaptic plasticity. The investigators will evaluate plasticity and structural measures of connectivity using diffusion imaging techniques.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Changes in performance on memory tasks, particularly those that are reliant on visual or auditory pathways, using a neuropsychological test battery.",
+          "description": "The investigators will evaluate changes from baseline in performance on memory tasks using a comprehensive neuropsychological battery designed to evaluate pre-clinical AD populations. Preliminary data showed that 3 months of treatment in mild AD patients led to improved performance on an associative memory task.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Change from baseline in gamma oscillations as measured by EEG",
+          "description": "Magnetoencephalogram studies done in AD patients show decreases in endogenous gamma synchronization. We will measure induced gamma entrainment using the GENUS device with EEG.",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Change from baseline in sleep",
+          "description": "The investigators will evaluate sleep quality using the Pittsburgh Sleep Quality Index",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Change from baseline in activity levels",
+          "description": "The investigators will evaluate activity levels using actigraphy",
+          "timeFrame": "Baseline to 12 months"
+        },
+        {
+          "measure": "Incidence of adverse events",
+          "description": "Adverse Events as a result of GENUS stimulation will be reported.",
+          "timeFrame": "Baseline to 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Between 55 - 90 years of age, inclusive.\n2. Immediate family history of Alzheimer's disease.\n3. Mini-Mental State Exam (MMSE) score of 27 or greater at baseline or expected score range for cognitively normal adjusted for education level.\n4. Clinical Dementia Rating Global Score of 0 at baseline.\n5. Delayed Recall score on the Logical Memory IIa subtest of 8 to 15 at baseline or expected score range for cognitively normal adjusted for education level.\n6. Low serum amyloid levels at baseline.\n7. Elevated fibrillar amyloid using 11C PiB PET at baseline between 20 - 70 CL.\n8. Willing and able to undergo MRI brain and PET brain scans.\n9. Adequate visual and auditory acuity to allow for neuropsychological testing.\n10. Able to comply with neuropsychological testing and other study procedures in opinion of site PI.\n11. Willing and able to complete baseline assessments, and willing to participate in 13-month study protocol.\n12. Willing to provide blood samples at specified timepoints. Willing to consider contributing CSF samples at specified timepoints, if asked.\n\nExclusion Criteria:\n\n1. MRI contraindications, such as presence of pacemakers, aneurysm clips, artificial heart valves, ear implants, metal fragments, or foreign objects in the eyes, skin, or body.\n2. High myopia \\< -7 diopters, or untreated cataracts that affect vision.\n3. Any significant systemic illness or unstable medical condition which could lead to difficulty complying with the study protocol.\n4. For subjects agreeing to undergo lumbar punctures, history of bleeding disorders or laboratory results indicating low platelet levels are exclusionary for the procedure.\n5. Concomitant medications:\n\n   1. Treatment with NMDA antagonists.\n   2. For subjects undergoing lumbar puncture, current use of warfarin or similar anti-coagulants is exclusionary for the procedure.\n6. Clinical conditions:\n\n   1. History of seizure or medical diagnosis of epilepsy.\n   2. Female subjects who are pregnant or currently breastfeeding.\n   3. History of severe allergic or anaphylactic reactions.\n   4. Longstanding premorbid history (i.e., longer than 10 years) of alcohol or substance abuse with continuous abuse up to and including the time that the symptoms leading to clinical presentation developed.\n   5. Neurodegenerative disorder associated with cognitive impairment.\n   6. Renal disease.\n7. MR imaging findings such as stroke, tumor, leukoencephalopathy that could preclude meaningful analyses of clinical and imaging data in the opinion of the site PI, such as:\n\n   1. Severe leukoencephalopathy seen on MRI.\n   2. Relevant structural abnormality (i.e., normal pressure or obstructive hydrocephalus, hypoxic ischemic lesions, hemorrhages, tumors, malformations).\n   3. Cerebral amyloid angiopathy, evidenced by T2\\* or other susceptibility weighted-MRI.\n8. Laboratory findings, if known (study does not perform testing) suggestive of systemic illness such as renal disease.\n9. Site investigator's discretion, if s/he feels the subject cannot complete sufficient key study procedures. Exceptions to these guidelines may be considered on a case-by-case basis at the discretion of the Project Director.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "55 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "MJ Quay, MA",
+          "role": "CONTACT",
+          "phone": "617-807-0856",
+          "email": "mquay@mgb.org"
+        },
+        {
+          "name": "Gabrielle de Weck, BS",
+          "role": "CONTACT",
+          "phone": "617-258-7723",
+          "email": "gdeweck@mit.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Diane Chan, MD PhD",
+          "affiliation": "Massachusetts General Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "MJ Quay, MA",
+              "role": "CONTACT",
+              "phone": "617-807-0856",
+              "email": "gamma.wave@mit.edu"
+            },
+            {
+              "name": "Andrew Becker, BS",
+              "role": "CONTACT",
+              "phone": "617-258-7723",
+              "email": "gamma.wave@mit.edu"
+            },
+            {
+              "name": "Diane Chan, MD PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Massachusetts Institute of Technology",
+          "status": "RECRUITING",
+          "city": "Cambridge",
+          "state": "Massachusetts",
+          "zip": "02139",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.3751,
+            "lon": -71.10561
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000544",
+          "term": "Alzheimer Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003704",
+          "term": "Dementia"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D024801",
+          "term": "Tauopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

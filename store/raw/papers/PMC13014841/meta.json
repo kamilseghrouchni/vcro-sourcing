@@ -1,0 +1,317 @@
+{
+  "pmid": "41634873",
+  "pmc": "PMC13014841",
+  "doi": "10.1186/s40478-026-02238-6",
+  "title": "Chaperone mediated autophagy is deficient in spinal motoneurons of ALS patients with TDP-43 proteinopathy",
+  "journal": "Acta Neuropathologica Communications",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Garrigos Daniel",
+      "affiliations": [
+        "https://ror.org/000nhpy59grid.466805.90000 0004 1759 6875Instituto de Neurociencias (UMH-CSIC), San Juan de Alicante, Alicante, Spain"
+      ]
+    },
+    {
+      "name": "Martinez-Morga Marta",
+      "affiliations": [
+        "https://ror.org/000nhpy59grid.466805.90000 0004 1759 6875Instituto de Neurociencias (UMH-CSIC), San Juan de Alicante, Alicante, Spain"
+      ]
+    },
+    {
+      "name": "Pombero Ana",
+      "affiliations": [
+        "https://ror.org/000nhpy59grid.466805.90000 0004 1759 6875Instituto de Neurociencias (UMH-CSIC), San Juan de Alicante, Alicante, Spain"
+      ]
+    },
+    {
+      "name": "García-Lopez Raquel",
+      "affiliations": [
+        "https://ror.org/000nhpy59grid.466805.90000 0004 1759 6875Instituto de Neurociencias (UMH-CSIC), San Juan de Alicante, Alicante, Spain"
+      ]
+    },
+    {
+      "name": "Pastor Diego",
+      "affiliations": [
+        "https://ror.org/01azzms13grid.26811.3c0000 0001 0586 4893Sports Research Centre, Department of Sport Sciences, Miguel Hernández University, Elche, Spain"
+      ]
+    },
+    {
+      "name": "Riquelme Dolores",
+      "affiliations": [
+        "https://ror.org/03p3aeb86grid.10586.3a0000 0001 2287 8496Instituto Murciano de Investigación Biosanitaria Pascual Parrilla (IMIB), Murcia University, Murcia, Spain"
+      ]
+    },
+    {
+      "name": "Blanquer Miguel",
+      "affiliations": [
+        "https://ror.org/03p3aeb86grid.10586.3a0000 0001 2287 8496Instituto Murciano de Investigación Biosanitaria Pascual Parrilla (IMIB), Murcia University, Murcia, Spain"
+      ]
+    },
+    {
+      "name": "Iniesta Francisca",
+      "affiliations": [
+        "https://ror.org/05b1rsv17grid.411967.c0000 0001 2288 3068Universidad Católica de Murcia (UCAM), Murcia, Spain"
+      ]
+    },
+    {
+      "name": "Valdor Rut",
+      "affiliations": [
+        "https://ror.org/03p3aeb86grid.10586.3a0000 0001 2287 8496Instituto Murciano de Investigación Biosanitaria Pascual Parrilla (IMIB), Murcia University, Murcia, Spain"
+      ]
+    },
+    {
+      "name": "Geijo-Barrientos Emilio",
+      "affiliations": [
+        "https://ror.org/000nhpy59grid.466805.90000 0004 1759 6875Instituto de Neurociencias (UMH-CSIC), San Juan de Alicante, Alicante, Spain"
+      ]
+    },
+    {
+      "name": "Hargus Gunnar",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Moraleda José María",
+      "affiliations": [
+        "https://ror.org/03p3aeb86grid.10586.3a0000 0001 2287 8496Instituto Murciano de Investigación Biosanitaria Pascual Parrilla (IMIB), Murcia University, Murcia, Spain"
+      ]
+    },
+    {
+      "name": "Martínez Salvador",
+      "affiliations": [
+        "https://ror.org/000nhpy59grid.466805.90000 0004 1759 6875Instituto de Neurociencias (UMH-CSIC), San Juan de Alicante, Alicante, Spain",
+        "grid.513062.30000 0004 8516 8274Instituto de Investigación Sanitaria y Biomédica de Alicante (ISABIAL) and CIBER de Salud Mental ISCIII (CIBERSAM), Alicante, Spain"
+      ]
+    }
+  ],
+  "keywords": [
+    "Motor neurodegeneration",
+    "sALS",
+    "Differential vulnerability to neurodegeneration",
+    "Chaperone mediated autophagy",
+    "Human motoneurons"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Spanish State Research Agency, through the “Severo Ochoa” Programme for Centres of Excellence in R&DGrant Numbers SEV-2017-0723Grant Numbers SEV-2017-0723Grant Numbers SEV-2017-0723Grant Numbers SEV-2017-0723Grant Numbers SEV-2017-0723Grant Numbers SEV-2017-0723Grant Numbers SEV-2017-0723GarrigosDanielMartinez-MorgaMartaPomberoAnaGarcía-LopezRaquelPastorDiegoGeijo-BarrientosEmilioMartínezSalvador",
+    "Spanish Ministerio de Ciencia e InnovaciónSAF2017-83702-R and PID2020-11817RB-I00SAF2017-83702-R and PID2020-11817RB-I00SAF2017-83702-R and PID2020-11817RB-I00SAF2017-83702-R and PID2020-11817RB-I00SAF2017-83702-R and PID2020-11817RB-I00SAF2017-83702-R and PID2020-11817RB-I00SAF2017-83702-R and PID2020-11817RB-I00SAF2017-83702-R and PID2020-11817RB-I00GarrigosDanielMartinez-MorgaMartaPomberoAnaGarcía-LopezRaquelPastorDiegoRiquelmeDoloresGeijo-BarrientosEmilioMartínezSalvador",
+    "Generalitat Valenciana (program Prometeo II)Grant Number 2018/041Grant Number 2018/041Grant Number 2018/041Grant Number 2018/041Grant Number 2018/041Grant Number 2018/041Grant Number 2018/041GarrigosDanielMartinez-MorgaMartaPomberoAnaGarcía-LopezRaquelPastorDiegoGeijo-BarrientosEmilioMartínezSalvador",
+    "Instituto de Salud Carlos III (ISCIII) through the RICORS Project TERAVRD21/0017/0017; RD21/0017/0001RD21/0017/0017; RD21/0017/0001RD21/0017/0017; RD21/0017/0001RD21/0017/0017; RD21/0017/0001RD21/0017/0017; RD21/0017/0001RiquelmeDoloresBlanquerMiguelIniestaFranciscaMoraledaJosé MaríaMartínezSalvador",
+    "https://doi.org/10.13039/501100004837Ministerio de Ciencia e InnovaciónRamon y Cajal (RYC) 2019-027520-IValdorRut"
+  ],
+  "data_availability_text": "Data availabilityNo datasets were generated or analysed during the current study.",
+  "license": "",
+  "received": "2025-08-24",
+  "accepted": "2026-01-19",
+  "reference_pmids": [
+    "32044127",
+    "32044127",
+    "32573277",
+    "32573277",
+    "31663379",
+    "31663379",
+    "36546382",
+    "36546382",
+    "18957508",
+    "18957508",
+    "34368479",
+    "34368479",
+    "24974230",
+    "24974230",
+    "35343629",
+    "35343629",
+    "28832529",
+    "28832529",
+    "20600320",
+    "20600320",
+    "22415951",
+    "22415951",
+    "34663413",
+    "34663413",
+    "33891876",
+    "33891876",
+    "23143228",
+    "23143228",
+    "28700839",
+    "28700839",
+    "29024336",
+    "29024336",
+    "22427648",
+    "22427648",
+    "35708843",
+    "35708843",
+    "8662539",
+    "8662539",
+    "15333840",
+    "15333840",
+    "21968532",
+    "21968532",
+    "33177049",
+    "33177049",
+    "34130600",
+    "34130600",
+    "20517935",
+    "20517935",
+    "2204156",
+    "2204156",
+    "17404494",
+    "25589223",
+    "25589223",
+    "35134347",
+    "35134347",
+    "23262972",
+    "23262972",
+    "33301444",
+    "33301444",
+    "20363292",
+    "20363292",
+    "29638184",
+    "29638184",
+    "38183652",
+    "38183652",
+    "18381974",
+    "18381974",
+    "31965560",
+    "31965560",
+    "24860144",
+    "24860144",
+    "38965379",
+    "38965379",
+    "11060023",
+    "11060023",
+    "24796693",
+    "24796693",
+    "24462097",
+    "24462097",
+    "29626215",
+    "29626215",
+    "26437864",
+    "26437864",
+    "35101542",
+    "35101542",
+    "22941224",
+    "22941224",
+    "41087566",
+    "39910244",
+    "39910244",
+    "31150375",
+    "31150375",
+    "34459017",
+    "34459017",
+    "35294549",
+    "35294549",
+    "7488019",
+    "7488019",
+    "37534581",
+    "37534581",
+    "33389491",
+    "33389491",
+    "31361627",
+    "31361627",
+    "36075972",
+    "36075972",
+    "32556567",
+    "32556567",
+    "894318",
+    "894318",
+    "10331434",
+    "10331434",
+    "32526057",
+    "32526057",
+    "36129998",
+    "36129998",
+    "37793650",
+    "37793650",
+    "28334913",
+    "28334913",
+    "29990478",
+    "29990478",
+    "28409282",
+    "28409282",
+    "32132902",
+    "32132902",
+    "37999738",
+    "37999738",
+    "32877582",
+    "32877582",
+    "29950142",
+    "29950142",
+    "36298819",
+    "36298819",
+    "37399380",
+    "37399380",
+    "28382000",
+    "28382000",
+    "37469132",
+    "37469132",
+    "28878620",
+    "28878620",
+    "26853842",
+    "26853842",
+    "23431162",
+    "23431162",
+    "25637286",
+    "25637286",
+    "28680390",
+    "21598036",
+    "21598036",
+    "37975798",
+    "37975798",
+    "21487309",
+    "21487309",
+    "24907664",
+    "24907664",
+    "36009818",
+    "36009818",
+    "36336077",
+    "36336077",
+    "20012068",
+    "20012068",
+    "32799899",
+    "32799899",
+    "38397859",
+    "38397859",
+    "37828019",
+    "37828019",
+    "23108236",
+    "23108236",
+    "28522181",
+    "28522181",
+    "31797084",
+    "31797084",
+    "28846632",
+    "28846632",
+    "34737089",
+    "34737089",
+    "35982159",
+    "35982159"
+  ],
+  "tables_count": 0,
+  "figures_count": 8,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "m&m",
+    "human tissue processing",
+    "tissue preparation and immunohistochemical staining",
+    "microscopy and statistical analysis",
+    "results",
+    "macroautophagy is preserved in sals patients’ motor neurons",
+    "glial cells increase the expression of lamp2a in sals spinal cords",
+    "discussion",
+    "cma is selectively upregulated in spinal cord mns",
+    "cma is downregulated in sporadic als spinal mns",
+    "cma in onuf’s nucleus mns and selective vulnerability in sals",
+    "tdp-43 and autophagy in sals",
+    "conclusion",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 16017,
+  "converted_at": "2026-04-06T22:39:39.274608+00:00"
+}

@@ -1,0 +1,380 @@
+{
+  "pmid": "38962750",
+  "pmc": "PMC11216994",
+  "doi": "10.1038/s44324-024-00016-3",
+  "title": "Serum and CSF metabolomics analysis shows Mediterranean Ketogenic Diet mitigates risk factors of Alzheimer’s disease",
+  "journal": "npj Metabolic Health and Disease",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Schweickart Annalise",
+      "affiliations": [
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Tri-Institutional Program in Computational Biology & Medicine, Weill Cornell Medicine, New York, NY USA",
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Department of Physiology and Biophysics, Weill Cornell Medicine, Institute for Computational Biomedicine, Englander Institute for Precision Medicine, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Batra Richa",
+      "affiliations": [
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Department of Physiology and Biophysics, Weill Cornell Medicine, Institute for Computational Biomedicine, Englander Institute for Precision Medicine, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Neth Bryan J.",
+      "affiliations": [
+        "https://ror.org/02qp3tb03grid.66875.3a0000 0004 0459 167XDepartment of Neurology, Mayo Clinic, Rochester, MN USA"
+      ]
+    },
+    {
+      "name": "Martino Cameron",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Shenhav Liat",
+      "affiliations": [
+        "https://ror.org/0190ak572grid.137628.90000 0004 1936 8753Department of Microbiology, New York University Grossman School of Medicine, New York, NY USA"
+      ]
+    },
+    {
+      "name": "Zhang Anru R.",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Biostatistics and Bioinformatics, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Shi Pixu",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Biostatistics and Bioinformatics, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Karu Naama",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Huynh Kevin",
+      "affiliations": [
+        "https://ror.org/03rke0285grid.1051.50000 0000 9760 5620Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne, VIC Australia",
+        "https://ror.org/01rxfrp27grid.1018.80000 0001 2342 0938Baker Department of Cardiovascular Research Translation and Implementation, La Trobe University, Bundoora, VIC Australia"
+      ]
+    },
+    {
+      "name": "Meikle Peter J.",
+      "affiliations": [
+        "https://ror.org/03rke0285grid.1051.50000 0000 9760 5620Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne, VIC Australia",
+        "https://ror.org/01rxfrp27grid.1018.80000 0001 2342 0938Baker Department of Cardiovascular Research Translation and Implementation, La Trobe University, Bundoora, VIC Australia"
+      ]
+    },
+    {
+      "name": "Schimmel Leyla",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Dilmore Amanda Hazel",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Department of Pediatrics, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Blennow Kaj",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, University of Gothenburg, Gothenburg, Sweden"
+      ]
+    },
+    {
+      "name": "Zetterberg Henrik",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, University of Gothenburg, Gothenburg, Sweden"
+      ]
+    },
+    {
+      "name": "Blach Colette",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Duke Molecular Physiology Institute, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Dorrestein Pieter C.",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Knight Rob",
+      "affiliations": [
+        "https://ror.org/0168r3w48grid.266100.30000 0001 2107 4242Departments of Pediatrics, Computer Science and Engineering, Bioengineering, University of California San Diego, La Jolla, CA USA"
+      ]
+    },
+    {
+      "name": "Alzheimer’s Gut Microbiome Project ConsortiumMeiklePeter J.89SchimmelLeyla10BlachColette12DorresteinPieter C.13KnightRob14Kaddurah-DaoukRimarima.kaddurahdaouk@duke.edu101617KrumsiekJanjak2043@med.cornell.edu2",
+      "affiliations": []
+    },
+    {
+      "name": "Craft Suzanne",
+      "affiliations": [
+        "https://ror.org/0207ad724grid.241167.70000 0001 2185 3318Department of Gerontology and Geriatric Medicine, Wake Forest University School of Medicine, Winston Salem, NC USA"
+      ]
+    },
+    {
+      "name": "Kaddurah-Daouk Rima",
+      "affiliations": [
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Psychiatry and Behavioral Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Duke Institute of Brain Sciences, Duke University, Durham, NC USA",
+        "https://ror.org/00py81415grid.26009.3d0000 0004 1936 7961Department of Medicine, Duke University, Durham, NC USA"
+      ]
+    },
+    {
+      "name": "Krumsiek Jan",
+      "affiliations": [
+        "https://ror.org/02r109517grid.471410.70000 0001 2179 7643Department of Physiology and Biophysics, Weill Cornell Medicine, Institute for Computational Biomedicine, Englander Institute for Precision Medicine, New York, NY USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Metabolomics",
+    "Diseases"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100000049National Institute on AgingU19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744U19AG063744",
+    "http://dx.doi.org/10.13039/100000957Alzheimer”s AssociationAARFD-22-974775AARFD-22-974775",
+    "http://dx.doi.org/10.13039/100017794Alzheimer”s Disease Research Center, Wake Forest School of MedicineP30AG049638",
+    "http://dx.doi.org/10.13039/100006108National Center for Advancing Translational SciencesUL1TR001420",
+    "http://dx.doi.org/10.13039/100000009Foundation for the National Institutes of HealthDAOU16AMPA"
+  ],
+  "data_availability_text": "Data availabilitySamples were provided by Wake Forest Alzheimer”s Disease Research Center. Clinical data can be requested from the National Alzheimer”s Coordinating Center (https://naccdata.org/).",
+  "license": "",
+  "received": "2024-01-16",
+  "accepted": "2024-05-16",
+  "reference_pmids": [
+    "30297701",
+    "30297701",
+    "35289055",
+    "35229269",
+    "35229269",
+    "34324167",
+    "34324167",
+    "35493943",
+    "35493943",
+    "21371747",
+    "21371747",
+    "31556570",
+    "31556570",
+    "27274215",
+    "27274215",
+    "16945211",
+    "16945211",
+    "27058526",
+    "27058526",
+    "17339582",
+    "17339582",
+    "31072403",
+    "31072403",
+    "35071677",
+    "35071677",
+    "22509165",
+    "22509165",
+    "25460731",
+    "25460731",
+    "35425930",
+    "35425930",
+    "32179679",
+    "32179679",
+    "16652223",
+    "16652223",
+    "29955649",
+    "29955649",
+    "31757576",
+    "31757576",
+    "37017243",
+    "21130529",
+    "21130529",
+    "33648550",
+    "33648550",
+    "37270344",
+    "37270344",
+    "39779882",
+    "20078222",
+    "20078222",
+    "14769489",
+    "14769489",
+    "25512792",
+    "25512792",
+    "24983072",
+    "33050579",
+    "33050579",
+    "22426117",
+    "22426117",
+    "19049574",
+    "19049574",
+    "28341160",
+    "28341160",
+    "35449203",
+    "35449203",
+    "27409811",
+    "27409811",
+    "35156387",
+    "35156387",
+    "32363327",
+    "32363327",
+    "33443875",
+    "33443875",
+    "17132839",
+    "17132839",
+    "19738171",
+    "19738171",
+    "29710809",
+    "29710809",
+    "26011473",
+    "26011473",
+    "31071007",
+    "31071007",
+    "30659169",
+    "30659169",
+    "35829654",
+    "35829654",
+    "16365091",
+    "16365091",
+    "26476454",
+    "26476454",
+    "31084571",
+    "31084571",
+    "9693263",
+    "9693263",
+    "31779690",
+    "31779690",
+    "23827464",
+    "23827464",
+    "22967182",
+    "22967182",
+    "37693649",
+    "37693649",
+    "29368213",
+    "29368213",
+    "19291479",
+    "19291479",
+    "27826689",
+    "27826689",
+    "24140022",
+    "24140022",
+    "35122783",
+    "35122783",
+    "32290868",
+    "32290868",
+    "18514163",
+    "18514163",
+    "28341160",
+    "28341160",
+    "16108925",
+    "16108925",
+    "26764391",
+    "26764391",
+    "21348917",
+    "21348917",
+    "30737462",
+    "30737462",
+    "34869825",
+    "34869825",
+    "35504234",
+    "35504234",
+    "30890171",
+    "30890171",
+    "22917473",
+    "22917473",
+    "25960448",
+    "25960448",
+    "19049584",
+    "19049584",
+    "11056107",
+    "11056107",
+    "20683186",
+    "20683186",
+    "6496779",
+    "6496779",
+    "25691689",
+    "25691689",
+    "19684899",
+    "19684899",
+    "31544212",
+    "31544212",
+    "34694386",
+    "34694386",
+    "10893433",
+    "10893433",
+    "6434570",
+    "6434570",
+    "28625159",
+    "28625159",
+    "33906915",
+    "33906915",
+    "30275573",
+    "30275573",
+    "29750242",
+    "29750242",
+    "30423086",
+    "30423086",
+    "31792218",
+    "31792218",
+    "22388286",
+    "22388286",
+    "32365167",
+    "32365167",
+    "35369727",
+    "35369727",
+    "31222023",
+    "31222023",
+    "32868914",
+    "32868914",
+    "39055126",
+    "39696594",
+    "24225315",
+    "24225315"
+  ],
+  "tables_count": 1,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "mmkd alters serum levels of amino acids, inflammatory markers, and lipoproteins",
+    "ketone bodies",
+    "amino acids",
+    "glyca",
+    "lipoprotein size and lipid composition",
+    "washout period",
+    "mmkd changes levels of amino acids in csf",
+    "amino acids",
+    "bcaa degradation",
+    "mmkd-induced metabolic changes show cross-compartmental relationships",
+    "discussion",
+    "methods",
+    "study participants",
+    "diet intervention procedure",
+    "neuropsychological evaluation",
+    "blood/csf collection and processing",
+    "nightingale nmr quantification",
+    "statistical analysis",
+    "preprocessing serum",
+    "preprocessing csf",
+    "differential abundance analysis",
+    "analysis of diet order",
+    "biomarker annotations",
+    "metagenomic sample processing",
+    "metagenomic data processing",
+    "relative abundance of features analysis",
+    "multi-omics analysis",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 12157,
+  "converted_at": "2026-04-06T22:36:22.961150+00:00"
+}

@@ -1,0 +1,357 @@
+{
+  "pmid": "40830802",
+  "pmc": "PMC12366133",
+  "doi": "10.1186/s42466-025-00417-9",
+  "title": "Identification of a presymptomatic and early disease signature for amyotrophic lateral sclerosis (ALS): protocol of the premodiALS study",
+  "journal": "Neurological Research and Practice",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Tzeplaeff Laura",
+      "affiliations": [
+        "https://ror.org/04jc43x05grid.15474.330000 0004 0477 2438Department of Neurology, Rechts Der Isar Hospital of the Technical University Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Galhoz Ana",
+      "affiliations": [
+        "",
+        "https://ror.org/05591te55grid.5252.00000 0004 1936 973XDepartment of Biology, Ludwig-Maximilians University Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Meijs Clara",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Caldi Gomes Lucas",
+      "affiliations": [
+        "https://ror.org/04jc43x05grid.15474.330000 0004 0477 2438Department of Neurology, Rechts Der Isar Hospital of the Technical University Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Kovac Andrej",
+      "affiliations": [
+        "https://ror.org/03h7qq074grid.419303.c0000 0001 2180 9405Institute of Neuroimmunology, Slovak Academy of Sciences, Bratislava, Slovakia"
+      ]
+    },
+    {
+      "name": "Menzel Amrei",
+      "affiliations": [
+        "https://ror.org/02kkvpp62grid.6936.a0000000123222966Bitcare GmbH, Technical University of Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Değirmenci Hatice",
+      "affiliations": [
+        "https://ror.org/01phydj90grid.411268.80000 0004 0642 4824Department of Neurology, Akdeniz University Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Alaamel Abir",
+      "affiliations": [
+        "https://ror.org/01phydj90grid.411268.80000 0004 0642 4824Department of Neurology, Akdeniz University Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Kaya Hüseyin Can",
+      "affiliations": [
+        "https://ror.org/01phydj90grid.411268.80000 0004 0642 4824Department of Neurology, Akdeniz University Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Çelik Ali Günalp",
+      "affiliations": [
+        "https://ror.org/01phydj90grid.411268.80000 0004 0642 4824Department of Neurology, Akdeniz University Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Dinçer Sine",
+      "affiliations": [
+        "https://ror.org/01phydj90grid.411268.80000 0004 0642 4824Department of Neurology, Akdeniz University Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Korucuk Meltem",
+      "affiliations": [
+        "https://ror.org/01ppcnz44grid.413819.60000 0004 0471 9397Neuromuscular Center, Antalya Education and Research Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Karaüzüm Sibel Berker",
+      "affiliations": [
+        "https://ror.org/01phydj90grid.411268.80000 0004 0642 4824Department of Neurology, Akdeniz University Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Bayraktar Elif",
+      "affiliations": [
+        "https://ror.org/00jzwgz36grid.15876.3d0000 0001 0688 7552School of Medicine, Neurodegeneration Research Laboratory NDAL, Koç University, Research Center for Translational Medicine KUTTAM, Istanbul, Turkey"
+      ]
+    },
+    {
+      "name": "Çiftçi Vildan",
+      "affiliations": [
+        "https://ror.org/00jzwgz36grid.15876.3d0000 0001 0688 7552School of Medicine, Neurodegeneration Research Laboratory NDAL, Koç University, Research Center for Translational Medicine KUTTAM, Istanbul, Turkey"
+      ]
+    },
+    {
+      "name": "Bilge Uğur",
+      "affiliations": [
+        "https://ror.org/01phydj90grid.411268.80000 0004 0642 4824Department of Neurology, Akdeniz University Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Koç Filiz",
+      "affiliations": [
+        "https://ror.org/05wxkj555grid.98622.370000 0001 2271 3229Neurology Department, Çukurova University, Adana, Turkey"
+      ]
+    },
+    {
+      "name": "Demleitner Antonia F.",
+      "affiliations": [
+        "https://ror.org/04jc43x05grid.15474.330000 0004 0477 2438Department of Neurology, Rechts Der Isar Hospital of the Technical University Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Buchberger Anne",
+      "affiliations": [
+        "https://ror.org/04jc43x05grid.15474.330000 0004 0477 2438Department of Neurology, Rechts Der Isar Hospital of the Technical University Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "von Heynitz Ricarda",
+      "affiliations": [
+        "https://ror.org/04jc43x05grid.15474.330000 0004 0477 2438Department of Neurology, Rechts Der Isar Hospital of the Technical University Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Gmeiner Vincent",
+      "affiliations": [
+        "https://ror.org/04jc43x05grid.15474.330000 0004 0477 2438Department of Neurology, Rechts Der Isar Hospital of the Technical University Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Knellwolf Christina",
+      "affiliations": [
+        "https://ror.org/00gpmb873grid.413349.80000 0001 2294 4705Neuromuscular Diseases Center/ALS Clinic of the Kantonsspital St, Gallen, St. Gallen, Switzerland"
+      ]
+    },
+    {
+      "name": "Mouzouri Mohammed",
+      "affiliations": [
+        "https://ror.org/0146pps37grid.411777.30000 0004 1765 1563Centre de Reference SLA Et Autres Maladies du Neurone Moteur, Department of Neurology, CHRU Bretonneau, Tours, France"
+      ]
+    },
+    {
+      "name": "Wuu Joanne",
+      "affiliations": [
+        "https://ror.org/02dgjyy92grid.26790.3a0000 0004 1936 8606Department of Neurology and ALS Center, University of Miami Miller School of Medicine, Miami, FL USA"
+      ]
+    },
+    {
+      "name": "Başak A. Nazli",
+      "affiliations": [
+        "https://ror.org/00jzwgz36grid.15876.3d0000 0001 0688 7552School of Medicine, Neurodegeneration Research Laboratory NDAL, Koç University, Research Center for Translational Medicine KUTTAM, Istanbul, Turkey"
+      ]
+    },
+    {
+      "name": "Andersen Peter Munch",
+      "affiliations": [
+        "https://ror.org/05kb8h459grid.12650.300000 0001 1034 3451Department of Clinical Science, Neurosciences, Umeå University, Umeå, Sweden"
+      ]
+    },
+    {
+      "name": "Kohlmayer Florian",
+      "affiliations": [
+        "https://ror.org/02kkvpp62grid.6936.a0000000123222966Bitcare GmbH, Technical University of Munich, Munich, Germany"
+      ]
+    },
+    {
+      "name": "Ashton Nicholas J.",
+      "affiliations": [
+        "https://ror.org/01tm6cn81grid.8761.80000 0000 9919 9582Department of Psychiatry and Neurochemistry, Sahlgrenska Academy at Gothenburg University, Gothenburg, Sweden",
+        "https://ror.org/023jwkg52Banner Alzheimer’s Institute and University of Arizona, Phoenix, AZ USA",
+        "https://ror.org/04gjkkf30grid.414208.b0000 0004 0619 8759Banner Sun Health Research Institute, Sun City, Arizona, USA"
+      ]
+    },
+    {
+      "name": "Kuban Wojciech",
+      "affiliations": [
+        "https://ror.org/0288swk05grid.418903.70000 0001 2227 8271Department of Pharmacokinetics and Drug Metabolism, Maj Institute of Pharmacology of the Polish Academy of Sciences, Kraków, Poland"
+      ]
+    },
+    {
+      "name": "Lenz Christof",
+      "affiliations": [
+        "grid.516369.eMax Planck Institute for Biophysical Chemistry, Bioanalytical Mass Spectrometry, Göttingen, Germany",
+        "https://ror.org/021ft0n22grid.411984.10000 0001 0482 5331Department of Clinical Chemistry, University Medical Center Göttingen, Göttingen, Germany"
+      ]
+    },
+    {
+      "name": "Rogers Mary-Louise",
+      "affiliations": [
+        "https://ror.org/01kpzv902grid.1014.40000 0004 0367 2697Flinders Health and Medical Research Institute, College of Medicine and Public Health of the Flinders University, Adelaide, South Australia Australia"
+      ]
+    },
+    {
+      "name": "Zilka Norbert",
+      "affiliations": [
+        "https://ror.org/03h7qq074grid.419303.c0000 0001 2180 9405Institute of Neuroimmunology, Slovak Academy of Sciences, Bratislava, Slovakia"
+      ]
+    },
+    {
+      "name": "Corcia Philippe",
+      "affiliations": [
+        "https://ror.org/0146pps37grid.411777.30000 0004 1765 1563Centre de Reference SLA Et Autres Maladies du Neurone Moteur, Department of Neurology, CHRU Bretonneau, Tours, France"
+      ]
+    },
+    {
+      "name": "Lerner Yossef",
+      "affiliations": [
+        "https://ror.org/01cqmqj90grid.17788.310000 0001 2221 2926Department of Neurology, Hadassah University Hospital-Ein Kerem, Jerusalem, Israel"
+      ]
+    },
+    {
+      "name": "Weber Markus",
+      "affiliations": [
+        "https://ror.org/00gpmb873grid.413349.80000 0001 2294 4705Neuromuscular Diseases Center/ALS Clinic of the Kantonsspital St, Gallen, St. Gallen, Switzerland"
+      ]
+    },
+    {
+      "name": "Turcanova Koprusakova Monika",
+      "affiliations": [
+        "https://ror.org/05xpx5s03grid.449102.aDepartment of Neurology, University Hospital Martin, Martin, Slovakia",
+        "https://ror.org/0587ef340grid.7634.60000000109409708Jessenius Medical Faculty, Comenius University, Martin, Slovakia"
+      ]
+    },
+    {
+      "name": "Uysal Hilmi",
+      "affiliations": [
+        "https://ror.org/01phydj90grid.411268.80000 0004 0642 4824Department of Neurology, Akdeniz University Hospital, Antalya, Turkey"
+      ]
+    },
+    {
+      "name": "Benatar Michael",
+      "affiliations": [
+        "https://ror.org/02dgjyy92grid.26790.3a0000 0004 1936 8606Department of Neurology and ALS Center, University of Miami Miller School of Medicine, Miami, FL USA"
+      ]
+    },
+    {
+      "name": "Menden Michael P.",
+      "affiliations": [
+        "",
+        "https://ror.org/01ej9dk98grid.1008.90000 0001 2179 088XDepartment of Biochemistry and Pharmacology, Bio21 Molecular Science and Biotechnology Institute, The University of Melbourne, Parkville, VIC Australia"
+      ]
+    },
+    {
+      "name": "Lingor Paul",
+      "affiliations": [
+        "https://ror.org/04jc43x05grid.15474.330000 0004 0477 2438Department of Neurology, Rechts Der Isar Hospital of the Technical University Munich, Munich, Germany",
+        "https://ror.org/043j0f473grid.424247.30000 0004 0438 0426German Center for Neurodegenerative Diseases (DZNE), Site Munich, Munich, Germany",
+        "https://ror.org/025z3z560grid.452617.3Munich Cluster for Systems Neurology (SyNergy), Munich, Germany"
+      ]
+    }
+  ],
+  "keywords": [
+    "Motoneuron disease",
+    "Pre-symptomatic",
+    "Multi-omic",
+    "Biomarkers",
+    "Early diagnosis",
+    "Observational study"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/100013278EU Joint Programme – Neurodegenerative Disease Research",
+    "http://dx.doi.org/10.13039/501100002347Bundesministerium für Bildung und Forschung01ED2204A01ED2204A01ED2204BTzeplaeffLauraMendenMichael P.LingorPaul",
+    "http://dx.doi.org/10.13039/100015817Karlsruhe School of Elementary Particle and Astroparticle Physics: Science and Technology, Karlsruhe Institute of Technology01ED2204BGalhozAna",
+    "Germany’s Excellence Strategy within the framework of the Munich Cluster for Systems NeurologyEXC 2145SyNergy – ID 390857198LingorPaul",
+    "European Union’s Horizon 2020 Research and Innovation Programme No. 950293 - COMBAT-RESMendenMichael P.",
+    "Scientific and Technological Research Council of Turkey (TÜBİTAK)112N004UysalHilmi",
+    "Swiss National Science Foundation (SNSF)32ND30_206536WeberMarkus",
+    "http://dx.doi.org/10.13039/501100001665Agence Nationale de la RechercheANR-21-JPW2-0007-03CorciaPhilippe",
+    "Polish National Science Center (NCN) 2021/03/Y/NZ7/00111KubanWojciech",
+    "Ministry of Health of Israel3-18370LernerYossef",
+    "http://dx.doi.org/10.13039/501100003194Agentúra Ministerstva Školstva, Vedy, Výskumu a Športu SR",
+    "Swedish Research Council (SRC",
+    "http://dx.doi.org/10.13039/100014012FightMND05-CIG-Rogers 2022RogersMary-Louise",
+    "U.S. National Institutes of HealthR01NS105479R01NS105479WuuJoanneBenatarMichael",
+    "Suna and Inan Kıraç Foundation",
+    "Klinikum rechts der Isar der Technischen Universität München (8934)"
+  ],
+  "data_availability_text": "Availability of data and materialsNot applicable. However, to disseminate the design and results of the study, a website has been created, which is updated by regular news sections [22]. Scientific results will be disseminated in peer-reviewed, international journals, and at national and international conferences respecting the privacy of the participants.",
+  "license": "",
+  "received": "2025-05-14",
+  "accepted": "2025-07-30",
+  "reference_pmids": [
+    "37794794",
+    "37794794",
+    "37316950",
+    "37316950",
+    "34744694",
+    "34744694",
+    "36129998",
+    "36129998",
+    "37946793",
+    "37946793",
+    "36899872",
+    "32444780",
+    "32444780",
+    "31432691",
+    "31432691",
+    "38013452",
+    "38013452",
+    "29197216",
+    "29197216",
+    "12122184",
+    "12122184",
+    "33431491",
+    "33431491",
+    "39879320",
+    "39879320",
+    "36917918",
+    "36917918",
+    "37968725",
+    "37968725",
+    "22784036",
+    "22784036",
+    "38890280",
+    "38890280",
+    "40289140",
+    "40289140",
+    "38849340",
+    "30014505",
+    "30014505",
+    "33068316",
+    "33068316"
+  ],
+  "tables_count": 3,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "aim of the trial",
+    "study description and study design",
+    "participant description and eligibility criteria",
+    "visit plan and assessments",
+    "biomaterial collection protocol",
+    "recruitment",
+    "outcome measures",
+    "clinical data collection",
+    "molecular analyses",
+    "statistical analyses",
+    "contact",
+    "perspective",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 7211,
+  "converted_at": "2026-04-06T22:37:20.768696+00:00"
+}

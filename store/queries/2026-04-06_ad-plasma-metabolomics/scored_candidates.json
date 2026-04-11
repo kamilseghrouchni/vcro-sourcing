@@ -1,0 +1,239 @@
+{
+  "request_id": "ad-plasma-metabolomics-validation-200n",
+  "scored_at": "2026-04-06T00:00:00Z",
+  "candidates": [
+    {
+      "entity_id": "adni-go2-plasma-lipidomics",
+      "scale": {
+        "usable_n": 1517,
+        "usable_n_evidence": "cohort article real_numbers section: 'we retained a total of 4730 samples from 1519 participants. Of these, 1393 participants had plasma lipidome profiling since baseline… Most participants had visits at baseline (n = 1393), 12 months (n = 1188) and 24 months (n = 1089)' (PMC12269576)",
+        "usable_n_for_request": 1188,
+        "usable_n_for_request_reason": "1188 participants have both a baseline AND at least one follow-up timepoint (12-month visit n=1188 documented), satisfying the request's longitudinal_required=true constraint. For a biomarker validation design targeting the AD+MCI disease subset specifically, the operative sub-group is the AD discriminator set (580 subjects: 243 stable AD + 337 stable CN) or the MCI-to-AD converter arm (329 converters). The 200-subject minimum is comfortably exceeded under all sub-groupings.",
+        "n_confidence": "high",
+        "multi_site_potential": "ADNI is a 60+ US site consortium, effectively a single dataset under LONI governance; ASPREE (same Baker Institute platform, Agilent 6495C vs 6490) is the natural multi-site aggregate partner — both cohorts share 724/781 lipid species with documented NIST SRM 1950 cross-cohort harmonisation (PMC12269576), making pooled analysis feasible.",
+        "axis_summary": "Scale is a strong point: headline 1517, longitudinal-eligible 1188, minimum disease-subset 329 converters. All exceed the 200-person floor. The risk is not total N but analytical sub-group shrinkage in conversion prediction models."
+      },
+      "cost": {
+        "legs": {
+          "source": {
+            "estimate": "$0 raw data access (LONI DUA)",
+            "currency": "USD",
+            "evidence": "pricing-data.md ADNI row: 'Data access: free via LONI portal (https://ida.loni.usc.edu). Requirements: DUA signature. Commercial use: allowed (public-private partnership).' usc-loni-data-coordinating-center article: 'All ADNI data… distributed through this portal under a formal data use agreement.'",
+            "note": "pricing-data.md explicitly states commercial use is allowed. ADMC lipidomics data layer may require a SEPARATE agreement with Duke University / Baker Institute beyond the standard LONI DUA — this second agreement has no published cost and is flagged as a gap."
+          },
+          "screening_qa": {
+            "estimate": "quote required",
+            "currency": null,
+            "evidence": "No QA re-processing cost appears in the wiki or in pricing-data.md for ADNI-specific plasma metabolomics QA. The cohort article (PMC12269576) documents original QC procedures (pooled plasma every 20 samples, blanks every 40 samples, NIST SRM 1950 every 40 samples) but buyer-side re-QA for commercial-grade validation is buyer-scope and not priced.",
+            "note": "If buyer accepts the published QC-passed dataset (most likely for a validation study using existing data), QA leg may be $0. If buyer commissions a re-QA audit, a typical plasma metabolomics QA run at an academic core is $5–15/sample (analogous to Baylor/Duke pricing tiers in pricing-data.md); at n=1188 that is $5,940–$17,820 for the longitudinal-eligible set."
+          },
+          "assay": {
+            "estimate": "already performed (Baker Institute Agilent 6490 dMRM, 781 lipid species, 4730 plasma samples)",
+            "currency": null,
+            "evidence": "cohort article summary: '4730 plasma samples from 1517 participants profiled with Baker Heart and Diabetes Institute's targeted LC-MS/MS QqQ lipidomics platform (Agilent 6490, dMRM, 781 lipid species)' (PMC12269576); baker-institute-lipidomics-lc-ms-qqq platform article confirms assay already completed for both ADNI and ASPREE.",
+            "note": "If buyer needs a fresh assay on new ADNI biospecimens (physical aliquots via RARC/NIA), analogous targeted lipidomics runs at Duke core (high-res lipid profiling ESI+ and ESI-) are $517/sample non-Duke non-academic (pricing-data.md). At n=200 minimum that is ~$103,400 for a fresh targeted run — use existing data unless there is a protocol-specific reason for re-assay."
+          }
+        },
+        "total_known_low": 0,
+        "total_known_high": null,
+        "currency": "USD",
+        "within_budget": "unknown (request did not state budget)",
+        "unknowns": [
+          "ADMC separate data agreement cost (if required): no published figure; could range from $0 (waived for commercial partners) to $5K–$50K legal/DUA overhead (pricing-data.md gaps section)",
+          "Screening QA cost if buyer commissions re-QA audit",
+          "Physical biospecimen aliquot cost if buyer needs new wet samples (RARC/NIA route, no published per-sample ADNI figure in wiki)"
+        ],
+        "timeline": "2–4 months for standard LONI DUA data access; additional 4–12 weeks if ADMC commercial DUA negotiation is required; physical sample requests via RARC/NIA add further queue time (estimate +3–6 months based on NIA Aging Research Biobank operational norms)",
+        "axis_summary": "Source leg is $0 for data reuse under LONI DUA (commercial use allowed per pricing-data.md). Assay is sunk cost for existing dataset. Two unknowns remain: whether the ADMC lipidomics sublayer requires a separate commercial agreement, and the cost of any buyer-side QA re-processing. Composite cost is open until ADMC commercial terms are confirmed."
+      },
+      "quality": {
+        "provenance_depth": 0.48,
+        "depth_decomposition": {
+          "covered_dimensions": [
+            "real_numbers",
+            "longitudinal_structure",
+            "demographic_composition",
+            "medication_and_lifestyle_confounders",
+            "co_modalities",
+            "effect_sizes_and_model_performance",
+            "replication_and_validation",
+            "access_and_consent_scope",
+            "sample_usability",
+            "negative_results"
+          ],
+          "missing_dimensions": [
+            "collection_protocol_detail (freeze-thaw cycles, time-to-freeze not stated)",
+            "institutional_capacity",
+            "sample_depletion_risk",
+            "cost_structure_detail",
+            "regulatory_compliance_history",
+            "participant_retention_protocol",
+            "imaging_protocol_detail",
+            "biospecimen_processing_sops",
+            "data_harmonisation_protocol_detail",
+            "ancestry_genomics_detail"
+          ]
+        },
+        "pre_analytical": {
+          "fasting": "documented — ~95% fasting rate across diagnostic groups (94.8%–96.4%); cohort article demographic_composition section (PMC12269576)",
+          "tube_type": "plasma confirmed (EDTA implied by ADNI standard protocol); extraction description in PMC12269576 mislabels samples as 'serum' — likely copy-paste error from prior methods paper (Alshehry et al., ref 46 in source). Cohort article open_questions flags this explicitly.",
+          "freeze_thaw": "not documented in PMC12269576 or wiki; ADNI biospecimen protocol paper (Huynh et al. 2018, ref 20 in source) not yet ingested — flagged as a gap in cohort article open_questions",
+          "storage": "not documented at this depth in the wiki; NCRAD handles ADNI biospecimen storage but storage-specific pre-analytical parameters are not captured",
+          "evidence": "cohort article sample_usability section: 'Quality control procedures included pooled plasma samples every 20 samples, blanks every 40 samples, and National Institute of Standards and Technology (NIST) Standard Reference Material (SRM) 1950 plasma every 40 samples' (PMC12269576)",
+          "verdict": "partial — fasting (load-bearing for lipidomics) is documented at 95%, and QC procedures are strong (NIST SRM 1950). Tube type is confirmed as plasma but EDTA is implied not stated. Freeze-thaw cycle count and storage duration are missing — these are the two largest pre-analytical unknowns for metabolomics reproducibility."
+        },
+        "confounders": {
+          "statin_confounded": {
+            "hard_negative_addressed": true,
+            "finding": "423 lipid species significantly associated with statin usage mapped and documented. Statin use was controlled as a covariate in modelling. Evidence: cohort article medication_and_lifestyle_confounders: 'we identified 423 lipid species significantly associated with statin usage (Supplementary Table S6) and 398 lipid species associated with omega-3 usage (Supplementary Table S7), both after multiple testing correction' (PMC12269576).",
+            "verdict": "good — statin confounding is the request's primary hard_negative and it is explicitly addressed. Statin-associated species are mapped (n=423), documented in supplementary tables, and controlled as a covariate. A buyer can use this mapping to identify statin-sensitive species in their own target cohort."
+          },
+          "commercial_use_allowed_false": {
+            "hard_negative_addressed": "partial",
+            "finding": "LONI DUA raw data access explicitly permits commercial use per pricing-data.md ('Commercial use: allowed (public-private partnership)'). However, the ADMC lipidomics data sublayer may require a separate agreement with Duke University / Baker Institute — that agreement's commercial terms are not stated in the wiki. usc-loni-data-coordinating-center article flags: 'Commercial use clause of the ADNI LONI DUA is not stated in either source paper; commercial buyers must verify before committing.' alzheimers-disease-metabolomics-consortium article flags: 'Commercial use terms under the ADMC data layer are not explicitly stated; a separate ADMC agreement may be required.'",
+            "verdict": "partial — base LONI DUA permits commercial use per pricing-data.md, which is positive. The ADMC lipidomics sublayer is the unresolved risk. This hard_negative is partially addressed (not blocked) but requires pre-commitment verification."
+          },
+          "demographics": "APOE e4 enriched by design (ADNI recruitment criterion); ~91% non-Hispanic White implied by ADNI population. Mean age >74. Cohort article demographic_composition: APOE e4 frequencies elevated in disease arm vs controls. Models may not generalise to diverse or younger-onset AD populations.",
+          "verdict": "good on statin (the request's primary hard_negative). Commercial use is partially cleared — base DUA allows it but ADMC sublayer is unverified. Demographic homogeneity is a separate concern not flagged as a hard_negative."
+        },
+        "platform_validation": {
+          "platform": "Baker Institute LC-MS/MS QqQ (Agilent 6490 dMRM, 781 lipid species, 49 lipid classes)",
+          "cohorts_using_this_platform": "2 entities in wiki (adni-go2-plasma-lipidomics and aspree-dementia-casecohort-lipidomics) both reference baker-institute-lipidomics-lc-ms-qqq as assay_platform. Platform article referenced_by confirms both.",
+          "cross_cohort_validation": "ADNI → ASPREE replication documented: C-index 0.75 (95% CI 0.73–0.78) in ASPREE (n=3495); HR=1.21 (p=9.85×10⁻⁴) for incident dementia (PMC12269576). NIST SRM 1950 harmonisation method documented in provenance_chain of ASPREE article.",
+          "verdict": "good — platform is established for AD plasma lipidomics. Two independent cohorts (ADNI and ASPREE) have published results on this exact platform. Cross-cohort replication is documented. Single primary publication in wiki (PMC12269576) covers both cohorts; multi-study validation beyond these two is not yet captured."
+        },
+        "axis_summary": "Quality is medium overall. The request's two hard_negatives are handled: statin confounding is explicitly addressed (423 species mapped, covariate-controlled), and commercial use is partially cleared (LONI DUA permits it; ADMC sublayer requires verification). Pre-analytical detail is the load-bearing weakness — freeze-thaw cycles and storage duration are undocumented. Provenance depth 0.48 (10 of approximately 21 dimensions covered)."
+      },
+      "axis_confidences": {
+        "scale": "high",
+        "cost": "low",
+        "quality": "medium"
+      },
+      "card_for_delivery": {
+        "primary_signal": "1188 longitudinal-eligible plasma lipidomics participants (baseline + ≥1 follow-up) from ADNI-1/GO/2; disease sub-groups: 580 stable AD vs CN, 329 MCI-to-AD converters. Statin confounders explicitly mapped (423 species). Baker Institute Agilent 6490 dMRM platform, 781 species, NIST SRM 1950 QC.",
+        "action": "Apply for LONI DUA access at ida.loni.usc.edu (commercial use permitted per published terms). Separately contact ADMC/Duke University team to confirm whether the lipidomics data sublayer requires an additional commercial agreement before committing project timeline.",
+        "risk": "ADMC lipidomics sublayer commercial terms unverified — this is the single pre-commitment blocker. Freeze-thaw cycle count undocumented. The deDE lipid class (strongest AD signal) is excluded from usable modelling due to anticholinesterase confounding."
+      }
+    },
+    {
+      "entity_id": "aspree-dementia-casecohort-lipidomics",
+      "scale": {
+        "usable_n": 3495,
+        "usable_n_evidence": "cohort article real_numbers section: 'the case-cohort subset (n = 3495) contained incident dementia (n = 402) with an average follow-up of 6.5 years' (PMC12269576). Headline sub-cohort is 3495; full ASPREE trial is 19,114.",
+        "usable_n_for_request": 402,
+        "usable_n_for_request_reason": "The request requires Alzheimer's disease/dementia cases for biomarker validation. Within the 3495-person sub-cohort, only 402 are incident dementia cases with 6.5-year prospective follow-up. The 3093 cognitively normal comparators are available as controls. For a validation design testing a lipidomic model against true AD/dementia outcomes, the operative case N is 402. This exceeds the 200-person minimum but only by a factor of 2, leaving limited headroom for sub-group analyses (e.g., by APOE genotype or sex). Note: European-descent-only restriction further reduces generalisability.",
+        "n_confidence": "medium",
+        "multi_site_potential": "ASPREE is a single national trial (Australia, 64 general practices, 2 sites: Monash/Alfred). Cross-cohort aggregation with ADNI is the most natural pairing — both use the Baker Institute platform (Agilent 6490/6495C, 724 of 781 species overlapping) with documented NIST SRM 1950 harmonisation (PMC12269576). However, ASPREE is a population-based RCT while ADNI is clinic-recruited, so pooling requires careful weighting.",
+        "axis_summary": "Scale is adequate but tight for the request. Headline sub-cohort is 3495 but the request-relevant case N is 402 incident dementia cases. Longitudinal follow-up (6.5 years) is a strength. Sub-group analyses are constrained at n=402."
+      },
+      "cost": {
+        "legs": {
+          "source": {
+            "estimate": "quote required (PI-request-only access; no formal portal, no published pricing)",
+            "currency": null,
+            "evidence": "cohort article access_and_consent_scope: 'ASPREE data are available from the corresponding authors upon reasonable request.' (PMC12269576). alfred-hospital-monash-university article: 'contact Paul Lacaze (Monash) for ASPREE data access inquiries.' baker-heart-diabetes-institute article: 'for ASPREE, Baker is both the assay generation site and holds the data with access dependent on PI (Peter Meikle) approval.' No pricing figure exists in pricing-data.md for PI-request-only academic cohort access.",
+            "note": "Academic access may be free or involve an MTA/DUA with nominal admin cost. Commercial use terms are unspecified — a commercial DUA could incur $5K–$50K in legal overhead (pricing-data.md gaps section: 'Legal/DUA overhead: highly variable $5K-50K per agreement, institution-dependent')."
+          },
+          "screening_qa": {
+            "estimate": "quote required",
+            "currency": null,
+            "evidence": "No screening QA cost data in wiki for ASPREE. The cohort article provenance_chain section documents NIST SRM 1950 correction factors were applied to harmonise ASPREE with ADNI (PMC12269576), but buyer-side re-QA cost is not captured.",
+            "note": "If buyer plans a joint ADNI+ASPREE analysis, cross-cohort QA harmonisation has been demonstrated (documented correction factors). If buyer needs independent re-QA for their own regulatory submission, costs would be analogous to ADNI QA estimate: $5–15/sample at academic core, or quote required for commercial QA lab."
+          },
+          "assay": {
+            "estimate": "already performed (Baker Institute Agilent 6495C dMRM, 781 lipid species, n=3495 plasma samples)",
+            "currency": null,
+            "evidence": "cohort article summary: 'Lipidomics was generated at Baker Heart and Diabetes Institute using the Agilent 6495C platform under identical chromatographic conditions as the ADNI Baker Institute platform, with 724 of 749 lipid species overlapping' (PMC12269576); baker-institute-lipidomics-lc-ms-qqq platform article references aspree-dementia-casecohort-lipidomics as assay_platform.",
+            "note": "Existing data reuse incurs no new assay cost. Fresh assay on ASPREE biospecimens (if any aliquots remain — status unknown) would be quote required from Baker Institute; no Baker Institute commercial assay pricing is in pricing-data.md."
+          }
+        },
+        "total_known_low": null,
+        "total_known_high": null,
+        "currency": null,
+        "within_budget": "unknown (request did not state budget; source leg is quote required)",
+        "unknowns": [
+          "Source access cost: PI-request-only with no published pricing; academic access likely free but commercial DUA cost unknown",
+          "Commercial use terms: completely unspecified — ethics approval #523/21 (Alfred Hospital) does not address commercial use",
+          "Screening QA cost if buyer requires re-QA beyond original NIST SRM 1950 QC",
+          "Sample depletion status: aliquot inventory unknown, per cohort article open_questions"
+        ],
+        "timeline": "3–12 months (PI-request-only, no predictable timeline per cohort article access_and_consent_scope). Commercial negotiation would add further uncertainty. Physical sample availability is unknown — sample depletion risk is explicitly flagged.",
+        "axis_summary": "All three cost legs are either 'already performed' (assay) or 'quote required' (source, QA). The source cost is entirely unpredictable — PI-gated with no portal and no published pricing. Commercial use has no documented pathway, making the cost composite fully open."
+      },
+      "quality": {
+        "provenance_depth": 0.14,
+        "depth_decomposition": {
+          "covered_dimensions": [
+            "real_numbers",
+            "access_and_consent_scope",
+            "provenance_chain"
+          ],
+          "missing_dimensions": [
+            "sample_usability (fasting rate, tube type, extraction protocol)",
+            "longitudinal_structure (detailed timepoint breakdown)",
+            "demographic_composition (age, sex, comorbidities beyond European descent and APOE enrichment)",
+            "medication_and_lifestyle_confounders (statin prevalence, omega-3 use — CRITICAL GAP)",
+            "co_modalities",
+            "effect_sizes_and_model_performance (only cross-cohort replication results, not primary ASPREE analysis)",
+            "negative_results",
+            "collection_protocol_detail",
+            "sample_depletion_risk",
+            "institutional_capacity",
+            "replication_and_validation",
+            "cost_structure_detail",
+            "regulatory_compliance_history",
+            "participant_retention_protocol",
+            "biospecimen_processing_sops",
+            "ancestry_genomics_detail",
+            "data_harmonisation_protocol_detail",
+            "imaging_protocol_detail"
+          ]
+        },
+        "pre_analytical": {
+          "fasting": "not documented in wiki for ASPREE — cohort article does not contain a fasting rate for ASPREE participants (only ADNI fasting rate ~95% is reported in PMC12269576)",
+          "tube_type": "plasma confirmed (ASPREE used same Baker Institute protocol as ADNI, Agilent 6495C dMRM); tube type implied plasma/EDTA but not explicitly stated in wiki",
+          "freeze_thaw": "not documented — cohort article open_questions explicitly flags this as a gap: 'Freeze-thaw cycle count and time-from-venipuncture-to-freeze are not stated'",
+          "storage": "not documented in wiki",
+          "evidence": "cohort article provenance_chain: 'The ASPREE study (n = 3495) used as the validation study was run under identical chromatographic conditions, but using an Agilent 6495C. Both studies were conducted in batches of 486 samples… NIST SRM 1950 reference concentration…' (PMC12269576)",
+          "verdict": "weak — only instrument model and QC method (NIST SRM 1950) are documented. Fasting status, freeze-thaw cycles, storage duration, and tube type are all missing from the wiki. For a metabolomics validation study, this is insufficient pre-analytical documentation."
+        },
+        "confounders": {
+          "statin_confounded": {
+            "hard_negative_addressed": false,
+            "finding": "Statin use in ASPREE is NOT documented in the wiki entity. The cohort article has no medication_and_lifestyle_confounders dimension (covered_dimensions in frontmatter: only real_numbers, access_and_consent_scope, provenance_chain). ASPREE is an elderly Australian population (≥70 years) in which statin prevalence is likely high (population rates in this demographic typically 40–60%), but this is not evidenced in the wiki and cannot be used as a score input per skill rules.",
+            "verdict": "missing — statin confounding is the request's primary hard_negative, and ASPREE has no documentation of statin prevalence, statin-associated lipid species, or statin covariate adjustment in the wiki. This is a material gap for this request."
+          },
+          "commercial_use_allowed_false": {
+            "hard_negative_addressed": false,
+            "finding": "Commercial use terms for ASPREE are completely unspecified. cohort article access_and_consent_scope: 'ASPREE data are available from the corresponding authors upon reasonable request.' Ethics approval #523/21 (Alfred Hospital Ethics Committee) is for academic research and does not address commercial use. alfred-hospital-monash-university article: 'Institution conflates two separate organisations; ethics approval for ASPREE lipidomics sub-studies (#523/21) issued by Alfred Hospital Ethics Committee.' No commercial use pathway is documented in any linked institution article.",
+            "verdict": "missing — the request's hard_negative 'commercial_use_allowed_false' is directly applicable here. There is no documented commercial use pathway for ASPREE lipidomics data. This is a pre-commitment blocker."
+          },
+          "demographics": "European-descent-only restriction documented (cohort article real_numbers: 'refined the sub-cohort to include participants aged 70 years or older of European descent'). APOE e4/e4 homozygotes and e2/e2 homozygotes enriched in case-cohort per open_questions. Full demographic composition not covered in wiki.",
+          "verdict": "weak — both hard_negatives (statin confounded, commercial_use_allowed_false) are unaddressed in the wiki. Statin documentation is absent; commercial use pathway does not exist. This entity fails both hard_negative checks for this request."
+        },
+        "platform_validation": {
+          "platform": "Baker Institute LC-MS/MS QqQ (Agilent 6495C dMRM, 781 lipid species, same platform family as ADNI)",
+          "cohorts_using_this_platform": "2 entities in wiki — same as ADNI. Platform article referenced_by: both adni-go2-plasma-lipidomics and aspree-dementia-casecohort-lipidomics.",
+          "cross_cohort_validation": "ASPREE is itself the validation cohort for ADNI-derived models. The lipidome risk score trained in ADNI achieved C-index 0.75 in ASPREE (PMC12269576). ASPREE's role is as the validation dataset, not the training dataset.",
+          "verdict": "good for the platform itself (documented cross-cohort replication with ADNI). However, ASPREE as an independent starting point for new model development has only one published analysis (as validation target), not as an independent discovery cohort."
+        },
+        "axis_summary": "Quality is low. Provenance depth is 0.14 — only 3 of approximately 21 dimensions are covered. Both of the request's hard_negatives fail: statin confounding is undocumented, and commercial use has no pathway. Pre-analytical detail is weak (fasting unknown, freeze-thaw unknown). This entity cannot be responsibly scored above low quality confidence with current wiki coverage."
+      },
+      "axis_confidences": {
+        "scale": "medium",
+        "cost": "low",
+        "quality": "low"
+      },
+      "card_for_delivery": {
+        "primary_signal": "402 incident dementia cases with 6.5-year prospective follow-up in a population-based Australian RCT (ASPREE); plasma lipidomics on Baker Institute Agilent 6495C (781 species, same platform as ADNI, NIST-harmonised). Request-relevant case N = 402 — exceeds 200-person floor but leaves limited sub-group headroom.",
+        "action": "Contact Paul Lacaze (Monash University, lacaze@monash.edu) and Peter Meikle (Baker Institute) to confirm: (1) whether commercial use is permitted under ASPREE ethics #523/21, and (2) whether lipidomics data and/or biospecimens are available. Do not commit project timeline until commercial use is confirmed.",
+        "risk": "Both hard_negatives for this request are unresolved: statin confounding is entirely undocumented in the wiki, and no commercial use pathway exists. PI-gated access with 3–12 month unpredictable timeline. Sample depletion status unknown."
+      }
+    }
+  ],
+  "axis_legend": {
+    "scale": "Usable N for THIS request, with confidence. Not headline N.",
+    "cost": "Three legs (source + screening_qa + assay), explicit unknowns, no composite total when unknowns exist.",
+    "quality": "Pre-analytical, confounders, platform validation, and provenance depth. The buyer's hard_negatives (statin_confounded, commercial_use_allowed_false) drive which sub-dimensions are surfaced."
+  }
+}

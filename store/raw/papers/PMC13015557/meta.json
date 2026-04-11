@@ -1,0 +1,111 @@
+{
+  "pmid": "41890126",
+  "pmc": "PMC13015557",
+  "doi": "10.64898/2026.03.13.711539",
+  "title": "Metabolic signatures of ferritin and TDP-43 co-pathology provide a mechanistic basis for stratified therapeutic approaches in ALS",
+  "journal": "bioRxiv",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Spence Holly",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Read Fiona L.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Waldron Fergal M.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gregory Jenna M.",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "TDP-43",
+    "ALS",
+    "Ferritin",
+    "MRI",
+    "Precision Medicine",
+    "Biomarker",
+    "Pathology"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Target ALS Early-Stage Clinician Scientist awardFS-2023-ESC-S2",
+    "NHS GrampianGCA25107",
+    "NIHR01NS127186"
+  ],
+  "data_availability_text": "Data sharingAll data are available in the manuscript, tables and supplementary data.",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "37450566",
+    "36609402",
+    "38129934",
+    "28332094",
+    "38133681",
+    "38443601",
+    "38278991",
+    "22529995",
+    "38647181",
+    "35088843",
+    "41034394",
+    "39976286",
+    "36144241",
+    "29099853",
+    "39794401",
+    "23201070",
+    "34675267",
+    "34837015",
+    "41233462",
+    "25664595",
+    "38891099",
+    "40067829",
+    "37815224",
+    "39346793",
+    "40715064",
+    "40087749"
+  ],
+  "tables_count": 1,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "study cohort and design",
+    "immunostaining",
+    "stratification",
+    "metabolomics",
+    "ultrahigh performance liquid chromatography-tandem mass spectroscopy (uplc-ms/ms):",
+    "statistical analysis",
+    "results",
+    "stratification by ferritin and tdp-43 pathological burden defines distinct cohort subgroups.",
+    "pls-da model classifies absence or presence of tdp-43 and ferritin pathology with strong model performance.",
+    "concurrent tdp-43 and ferritin pathology produce a distinct profile of disrupted lipid, membrane, and energy metabolism.",
+    "single positive states engage divergent compensatory metabolic pathways, which are lost when ferritin and tdp-43 co-occur.",
+    "discussion",
+    "dual ferritin and tdp-43 pathology defines a distinct metabolically decompensated state.",
+    "single pathology states reveal distinct mechanistic pathways.",
+    "ferritin accumulation provides a metabolic–imaging bridge for precision medicine in als.",
+    "conclusion",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 6217,
+  "converted_at": "2026-04-06T22:39:39.794027+00:00"
+}

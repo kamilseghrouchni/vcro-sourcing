@@ -1,0 +1,179 @@
+{
+  "pmid": "41323796",
+  "pmc": "PMC12663631",
+  "doi": "10.1016/j.omtn.2025.102757",
+  "title": "SCAD: A modular platform for efficient delivery of duplex RNA to the CNS and beyond",
+  "journal": "Molecular Therapy. Nucleic Acids",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Kang Moorim",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Lin Wei-Hsiang",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Li Yichen",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Xu Feifei",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zhou Xiaojie",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Si Chunyan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Dai Jianxiu",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "He Jichao",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Schacht Ian",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Gan Zubao",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Huang Vera",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Li Long-Cheng",
+      "affiliations": [
+        ""
+      ]
+    }
+  ],
+  "keywords": [
+    "MT: Oligonucleotides: Therapies and Applications",
+    "oligonucleotide therapeutics",
+    "delivery",
+    "SCAD",
+    "siRNA",
+    "CNS",
+    "SOD1-ALS"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data and code availabilityThe authors confirm that the data supporting the findings of this study are available within the article and its supplementary materials.",
+  "license": "",
+  "received": "2025-04-20",
+  "accepted": "2025-10-28",
+  "reference_pmids": [
+    "36250252",
+    "34492233",
+    "38570694",
+    "36380168",
+    "32782413",
+    "35654979",
+    "37298407",
+    "21985606",
+    "40598893",
+    "40349108",
+    "39141703",
+    "23636093",
+    "37316681",
+    "33762737",
+    "34412058",
+    "36365206",
+    "25353652",
+    "28244996",
+    "30010620",
+    "32356888",
+    "38648015",
+    "34268578",
+    "38435120",
+    "31375812",
+    "38726879",
+    "30179315",
+    "9441713",
+    "38089931",
+    "33927394",
+    "39257530",
+    "22036560",
+    "17015226",
+    "18246065",
+    "17435754",
+    "33111119",
+    "27390765",
+    "18989417",
+    "24423138"
+  ],
+  "tables_count": 0,
+  "figures_count": 8,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "structure and synthesis of the scad architecture",
+    "optimization of the scad architecture and",
+    "scad library development and structure-activity relationship optimization",
+    "scad enabled broad cns tissue distribution and profound and durable sirna activity in the cns",
+    "cell-type specificity of scad-sirna in the cns",
+    "scad delivered duplex rna to additional extrahepatic tissues (lung, joint, and eye) via local administration",
+    "lung delivery by intratracheal instillation",
+    "joint delivery by intraarticular injection",
+    "eye delivery by intravitreal injection",
+    "safety and toxicological evaluation of scad",
+    "discussion",
+    "materials and methods",
+    "oligonucleotide synthesis",
+    "emsas",
+    "pmh isolation and oligonucleotide treatment",
+    "animal procurement",
+    "gene expression analysis via rt-qpcr",
+    "quantification of sirna in animal tissues",
+    "i.c.v. administration",
+    "it administration",
+    "intratracheal administration",
+    "intravitreal administration",
+    "intra-articular administration",
+    "clinical observation and endpoint criteria",
+    "fluorescence imaging of sirna distribution in mouse brain",
+    "statistical analysis",
+    "data and code availability",
+    "acknowledgments",
+    "author contributions",
+    "declaration of interests",
+    "declaration of generative ai and ai-assisted technologies in the writing process",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10322,
+  "converted_at": "2026-04-06T22:38:09.044168+00:00"
+}

@@ -1,0 +1,58 @@
+name: release
+
+# Triggered on v* tag push. Runs the full phase-check harness, builds
+# a tarball of the skills + scripts + rules + hooks + CLI + changelog,
+# and attaches it to the GitHub release. No pip, no wheels — vCRO's
+# runtime is stdlib Python only.
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  test-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run full phase-check harness
+        run: bash .claude/tests/run_all_checks.sh
+
+      - name: Verify skills lockfile is green
+        run: python3 scripts/skills_lock.py --check
+
+      - name: Build release tarball
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          STAGE="vcro-${TAG}"
+          mkdir -p "dist/${STAGE}"
+          cp -R bin scripts .claude CLAUDE.md README.md LICENSE CHANGELOG.md vcro-skills-lock.json "dist/${STAGE}/"
+          tar -czf "dist/vcro-${TAG}.tar.gz" -C dist "${STAGE}"
+          shasum -a 256 "dist/vcro-${TAG}.tar.gz" > "dist/vcro-${TAG}.tar.gz.sha256"
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/vcro-*.tar.gz
+            dist/vcro-*.tar.gz.sha256
+            vcro-skills-lock.json
+          body: |
+            vCRO release `${{ github.ref_name }}`.
+
+            Install with:
+            ```
+            curl -fsSL https://raw.githubusercontent.com/${{ github.repository }}/main/scripts/install.sh | bash -s -- --version ${{ github.ref_name }}
+            ```
+
+            See CHANGELOG.md for what changed.

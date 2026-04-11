@@ -1,0 +1,398 @@
+{
+  "pmid": "41094045",
+  "pmc": "PMC12603167",
+  "doi": "10.1038/s44321-025-00323-2",
+  "title": "Isoginkgetin antagonizes ALS pathologies in its animal and patient iPSC models via PINK1-Parkin-dependent mitophagy",
+  "journal": "EMBO Molecular Medicine",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Li Ang",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Huang Sen",
+      "affiliations": [
+        "https://ror.org/0064kty71grid.12981.330000 0001 2360 039XDepartment of Neurology, The First Affiliated Hospital, Sun Yat-sen University; Guangdong Provincial Key Laboratory of Diagnosis and Treatment of Major Neurological Diseases; National Key Clinical Department and Key Discipline of Neurology, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Cao Shu-qin",
+      "affiliations": [
+        "https://ror.org/0331wat71grid.411279.80000 0000 9637 455XDepartment of Clinical Molecular Biology, University of Oslo and Akershus University Hospital, Lørenskog, 1478 Norway"
+      ]
+    },
+    {
+      "name": "Lin Jinyi",
+      "affiliations": [
+        "https://ror.org/0064kty71grid.12981.330000 0001 2360 039XDepartment of Physiology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Zhao Linping",
+      "affiliations": [
+        "https://ror.org/00zat6v61grid.410737.60000 0000 8653 1072The Fifth Affiliated Hospital of Guangzhou Medical University, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Yu Feng",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Huang Miaodan",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Yang Lele",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Xin Jiaqi",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Wen Jing",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Yan Lingli",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Zhang Ke",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Jiang Maoyuan",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Le Weidong",
+      "affiliations": [
+        "https://ror.org/055w74b96grid.452435.10000 0004 1798 9070Liaoning Provincial Key Laboratory for Research on the Pathogenic Mechanisms of Neurological Diseases, The First Affiliated Hospital of Dalian Medical University, Dalian, China"
+      ]
+    },
+    {
+      "name": "Li Peng",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Liu Yong U",
+      "affiliations": [
+        "https://ror.org/0530pts50grid.79703.3a0000 0004 1764 3838Laboratory for Neuroimmunology in Health and Diseases, Centre for Medical Research on Innovation and Translation, Institute of Clinical Medicine, the Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Qin Dajiang",
+      "affiliations": [
+        "https://ror.org/00zat6v61grid.410737.60000 0000 8653 1072The Fifth Affiliated Hospital of Guangzhou Medical University, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Lu Jiahong",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    },
+    {
+      "name": "Lu Guang",
+      "affiliations": [
+        "https://ror.org/0064kty71grid.12981.330000 0001 2360 039XDepartment of Physiology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Shen Hanming",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068Faculty of Health Sciences, University of Macau, Macau, China"
+      ]
+    },
+    {
+      "name": "Yao Xiaoli",
+      "affiliations": [
+        "https://ror.org/0064kty71grid.12981.330000 0001 2360 039XDepartment of Neurology, The First Affiliated Hospital, Sun Yat-sen University; Guangdong Provincial Key Laboratory of Diagnosis and Treatment of Major Neurological Diseases; National Key Clinical Department and Key Discipline of Neurology, Guangzhou, China"
+      ]
+    },
+    {
+      "name": "Fang Evandro F",
+      "affiliations": [
+        "https://ror.org/0331wat71grid.411279.80000 0000 9637 455XDepartment of Clinical Molecular Biology, University of Oslo and Akershus University Hospital, Lørenskog, 1478 Norway",
+        ""
+      ]
+    },
+    {
+      "name": "Su Huanxing",
+      "affiliations": [
+        "https://ror.org/01r4q9n85grid.437123.00000 0004 1794 8068State Key Laboratory of Mechanism and Quality of Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China"
+      ]
+    }
+  ],
+  "keywords": [
+    "Amyotrophic Lateral Sclerosis",
+    "Drug Screening",
+    "Isoginkgetin",
+    "PINK1-Parkin",
+    "Mitophagy",
+    "Neuroscience",
+    "Pharmacology & Drug Discovery"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "http://dx.doi.org/10.13039/501100015260Macau University of Science and Technology (MUST)0093/2024/AFJ",
+    "http://dx.doi.org/10.13039/501100001809MOST | National Natural Science Foundation of China (NSFC)#81971327#82271448MYRGGRG2023-00152-ICMS-UMDF",
+    "http://dx.doi.org/10.13039/100007625Cure Alzheimer's Fund (CAF)#282952; #284930",
+    "research council of Norway#262175,#334361",
+    "HELSE SOR-OST2020001,#2021021,#2023093",
+    "Molecule AG/VITADAO#282942",
+    "http://dx.doi.org/10.13039/501100004785NordForsk#119986",
+    "http://dx.doi.org/10.13039/501100002712Høgskolen i Oslo og Akershus (HiOA)269901,#261973,#262960",
+    "civitan norges forskningsfond for Alzheimer skydom#281931",
+    "http://dx.doi.org/10.13039/501100007452Ministerstvo Práce a Sociálních Věcí České Republiky (Ministry of Labour and Social Affairs of the Czech Republic)TO01000215",
+    "horizon-TMA-MSCA-DN#101073251",
+    "http://dx.doi.org/10.13039/100000861Burroughs Wellcome Fund (BWF)#104617",
+    "Science and Technology Development Fund, MARSKL-QRCM(UM)-2023-2025001/2023/ALCSuHuanxing"
+  ],
+  "data_availability_text": "Data availabilityThis study includes no data deposited in external repositories.The source data of this paper are collected in the following database record: biostudies:S-SCDT-10_1038-S44321-025-00323-2.",
+  "license": "",
+  "received": "2025-05-01",
+  "accepted": "2025-10-01",
+  "reference_pmids": [
+    "21354109",
+    "21354109",
+    "35145250",
+    "35145250",
+    "38891774",
+    "38891774",
+    "39645221",
+    "39645221",
+    "8302340",
+    "8302340",
+    "35739408",
+    "35739408",
+    "37151801",
+    "37151801",
+    "30158533",
+    "30158533",
+    "35965317",
+    "35965317",
+    "21138942",
+    "21138942",
+    "29732581",
+    "29732581",
+    "25806427",
+    "25806427",
+    "29981842",
+    "29981842",
+    "30742114",
+    "30742114",
+    "32971255",
+    "32971255",
+    "36116464",
+    "36116464",
+    "27892983",
+    "27892983",
+    "34585475",
+    "34585475",
+    "28103219",
+    "28103219",
+    "28003278",
+    "28003278",
+    "38759931",
+    "38759931",
+    "29947276",
+    "29947276",
+    "31501588",
+    "31501588",
+    "30207670",
+    "30207670",
+    "36754049",
+    "36754049",
+    "24751536",
+    "24751536",
+    "24462097",
+    "24462097",
+    "32437660",
+    "32437660",
+    "24128678",
+    "24128678",
+    "22078486",
+    "22078486",
+    "29881994",
+    "29881994",
+    "38086894",
+    "38086894",
+    "36318147",
+    "36318147",
+    "22280891",
+    "22280891",
+    "24126158",
+    "24126158",
+    "32027482",
+    "32027482",
+    "22267086",
+    "22267086",
+    "38132101",
+    "38132101",
+    "24154542",
+    "24154542",
+    "31900402",
+    "31900402",
+    "32065260",
+    "32065260",
+    "33174130",
+    "33174130",
+    "22910362",
+    "22910362",
+    "27151080",
+    "27151080",
+    "33438778",
+    "33438778",
+    "30126943",
+    "30126943",
+    "38036770",
+    "38036770",
+    "29462587",
+    "29462587",
+    "29985328",
+    "29985328",
+    "38848361",
+    "38848361",
+    "38565869",
+    "38565869",
+    "28890682",
+    "28890682",
+    "26388731",
+    "26388731",
+    "30135585",
+    "30135585",
+    "16199517",
+    "16199517",
+    "35065289",
+    "35065289",
+    "26549682",
+    "26549682",
+    "30237395",
+    "30237395",
+    "31606272",
+    "31606272",
+    "23843527",
+    "23843527",
+    "24568860",
+    "24568860",
+    "31595201",
+    "31595201",
+    "23417734",
+    "23417734",
+    "22363618",
+    "22363618",
+    "37043475",
+    "37043475",
+    "33152451",
+    "33152451",
+    "36803602",
+    "36803602",
+    "17406264",
+    "17406264",
+    "25294927",
+    "25294927",
+    "36162256",
+    "36162256",
+    "34992270",
+    "34992270",
+    "24121706",
+    "24121706",
+    "38519771",
+    "38519771",
+    "39054908",
+    "39054908",
+    "39051473",
+    "39051473",
+    "17121913",
+    "17121913",
+    "21179058",
+    "21179058",
+    "33031745",
+    "33031745",
+    "37663303",
+    "37663303",
+    "39292338",
+    "39292338",
+    "31353500",
+    "31353500",
+    "33398173",
+    "33398173"
+  ],
+  "tables_count": 1,
+  "figures_count": 14,
+  "sections_present": [
+    "abstract",
+    "problem",
+    "results",
+    "impact",
+    "introduction",
+    "results",
+    "screen for mitophagy inducers",
+    "iso promotes pink1–parkin-dependent mitophagy of cccp-damaged mitochondria",
+    "iso stabilizes the pink1/tom complex",
+    "defective pink1–parkin-dependent mitophagy in als mns",
+    "iso improves mitochondrial function and antagonizes als-like cellular pathology in als patient ipsc-derived mns",
+    "iso ameliorates als-related phenotypes in als",
+    "intranasal delivery of iso nanoparticles to als sod1 g93a transgenic mice antagonizes neurodegeneration and als-like phenotypes",
+    "discussion",
+    "methods",
+    "postmortem als patient samples",
+    "animals and ethics statement",
+    "differential analysis",
+    "cell lines and",
+    "ipsc-derived motor neurons",
+    "mitochondrial function and neurite swelling in ipsc-derived motor neurons",
+    "immunofluorescence",
+    "immunoblotting",
+    "high-content drug screening",
+    "transmission electron microscope for mitochondria",
+    "real-time quantitative pcr (qpcr) analysis of mitochondrial dna content and pink1 mrna level",
+    "seahorse oxygen consumption rate (ocr) detection",
+    "cck8 assays",
+    "flow cytometry",
+    "galactose/glucose assay",
+    "live-cell imaging",
+    "drug administration",
+    "evaluation of als-related phenotypes in",
+    "rna interference by feeding",
+    "preparation and functionalization of self-assembled iso nanoparticles",
+    "quantification of iso using uplc-ms/ms",
+    "animal grouping and pathological evaluation",
+    "evaluation of als-related phenotypes in mice",
+    "lactate dehydrogenase (ldh) cytotoxicity assay",
+    "induced motor neuron survival assay",
+    "neuronal mitophagy events detection",
+    "graphics",
+    "statistical analysis",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 20819,
+  "converted_at": "2026-04-06T22:37:55.943476+00:00"
+}

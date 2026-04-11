@@ -1,0 +1,250 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00136500",
+      "orgStudyIdInfo": {
+        "id": "20101021"
+      },
+      "organization": {
+        "fullName": "University of Miami",
+        "class": "OTHER"
+      },
+      "briefTitle": "Clinical Research in ALS Study",
+      "officialTitle": "Clinical Research in Amyotrophic Lateral Sclerosis",
+      "acronym": "CRiALS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2005-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2037-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2037-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2005-08-25",
+      "studyFirstSubmitQcDate": "2005-08-26",
+      "studyFirstPostDateStruct": {
+        "date": "2005-08-29",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2026-03-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Michael Benatar",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Miami"
+      },
+      "leadSponsor": {
+        "name": "University of Miami",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "ALS Association",
+          "class": "OTHER"
+        },
+        {
+          "name": "ALS Recovery Fund",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "CRiALS is an umbrella protocol through which people are recruited to participate in a range of research studies being conducted by the ALS Research Collaboration (ARC).",
+      "detailedDescription": "Research goals include elucidation of the complex relationship between ALS and related neurodegenerative disorders, development of both wet and dry biomarkers of disease, and delineation of the full course of the natural history of disease from the early pre-symptomatic stages through established and even late-stage disease. These goals are accomplished through the recruitment and evaluation of patients with ALS and related diseases, family members (including people at genetic risk for ALS, but who are not yet affected), and healthy controls."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis"
+      ],
+      "keywords": [
+        "genetics",
+        "biomarkers",
+        "pre-symptomatic",
+        "natural history"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "OTHER",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "DNA, blood, urine, CSF, skin biopsies"
+      },
+      "enrollmentInfo": {
+        "count": 10000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Individuals affected with ALS",
+          "description": "This population be sporadic or familial ALS."
+        },
+        {
+          "label": "Unaffected individuals from families in which the genetic cause of ALS is known",
+          "description": "This population includes pre-symptomatic individuals at genetic risk for ALS or a related neurodegenerative disorder (i.e., FTD)."
+        },
+        {
+          "label": "Individuals affected with an ALS-related neurodegenerative disease",
+          "description": "This would include FTD, MSP, IBMPFD, etc."
+        },
+        {
+          "label": "Healthy controls"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recruitment",
+          "description": "Since this is an umbrella/gateway protocol through which individuals are recruited to participate in a range of studies, outcome is assessed in terms of recruitment.",
+          "timeFrame": "Annually"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. At least 18 years of age.\n2. Member of at least one of the following categories:\n\n   1. Individuals affected with ALS or a related neurodegenerative disease (sporadic or familial)\n   2. Unaffected individuals from fALS pedigrees, including pre-symptomatic individuals at genetic risk for ALS or individuals from pedigrees of ALS related diseases.\n   3. Healthy controls\n3. Able and willing to comply with relevant procedures.\n\nExclusion Criteria:\n\n1\\. Subject has a condition or is in a situation which, in the PI's opinion, could confound the study finding or may interfere significantly with the individual's participation and compliance with the study protocol -- including but not limited to neurological, psychological and/or medical conditions (e.g., multiple sclerosis, neuropathy, myelopathy).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The CRiALS research program aims to recruit three types of participants:\n\n* Individuals affected with ALS or a related neurodegenerative disease\n* Unaffected individuals from pedigrees in which the genetic cause of ALS is known\n* Healthy controls",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anne-Laure Grignon, MD",
+          "role": "CONTACT",
+          "phone": "888-413-9315",
+          "email": "fals@med.miami.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Michael Benatar, MD, PhD.",
+          "affiliation": "University of Miami",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Miami",
+          "status": "RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anne-Laure Grignon, MD",
+              "role": "CONTACT",
+              "phone": "888-413-9315",
+              "email": "fals@med.miami.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "ALS Research Collaboration",
+          "url": "http://als-research.org/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

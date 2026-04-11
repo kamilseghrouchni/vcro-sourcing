@@ -1,0 +1,340 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02686268",
+      "orgStudyIdInfo": {
+        "id": "14LGCA123"
+      },
+      "organization": {
+        "fullName": "Washington University School of Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Understanding Clinical Phenotype and Collecting Biomarker Samples in C9ORF72 ALS",
+      "officialTitle": "Understanding Clinical Phenotype and Collecting Biomarker Samples in C9ORF72 ALS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-10-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-02-11",
+      "studyFirstSubmitQcDate": "2016-02-18",
+      "studyFirstPostDateStruct": {
+        "date": "2016-02-19",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-07-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-07-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Timothy M. Miller, MD, PhD",
+        "investigatorTitle": "David Clayson Professor of Neurology",
+        "investigatorAffiliation": "Washington University School of Medicine"
+      },
+      "leadSponsor": {
+        "name": "Washington University School of Medicine",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Cedars-Sinai Medical Center",
+          "class": "OTHER"
+        },
+        {
+          "name": "UMC Utrecht",
+          "class": "OTHER"
+        },
+        {
+          "name": "Johns Hopkins University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Massachusetts General Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Massachusetts, Amherst",
+          "class": "OTHER"
+        },
+        {
+          "name": "Biogen",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "ALS Association",
+          "class": "OTHER"
+        },
+        {
+          "name": "Columbia University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This research study is being performed to better understand a specific form of Amyotrophic Lateral Sclerosis (ALS) caused by a mutation (or abnormality) of the C9ORF72 gene. This mutation is the most common genetic cause of ALS, and is present in 40% of ALS patients with a family history of ALS and 5-10% of ALS patients without a family history of ALS.",
+      "detailedDescription": "Individuals diagnosed with ALS, who are confirmed to carry the Chromosome 9 Open Reading Frame 72 (C9ORF72) gene mutation by CLIA-certified lab results, are eligible for enrollment. Researchers want to understand the natural history of C9ORF72 related ALS in terms of measures of rate of progression as well as understanding how the size of the hexanucleotide repeat expansion influences disease parameters. The investigators hope that the intense study of patients with the C9ORF72 mutation will ultimately help us develop treatments for this common form of ALS.\n\nObjectives:\n\n* Enroll a total of 120 C9ORF72 ALS participants with known mutation at the time of enrollment.\n* Determine the C9ORF72 hexanucleotide repeat expansion size in all subjects\n* Define ALS disease course\n* Determine to what degree the disease course correlates with expansion size\n* Collect biomarker samples (blood, DNA and CSF)\n\nEligibility:\n\n\\- Adults over age 18 with known C9ORF72 ALS status\n\nDesign:\n\nParticipants will have up to 9 in-person visits (this includes two Optional visits for lumbar puncture procedures) and 5 telephone interviews over 3 years. Each in-person visit may be tied to a regular clinic visit if subject is local (except for the optional lumbar puncture visits) or if the subject is from out of town one initial visit can be set up with all other visits performed via a telephone call and medical records review.\n\nAt each in town visit, subjects will undergo a blood draw (optional lumbar puncture) and two questionnaires (ALS Functional Rating Scale - revised ALSFRS-R) which measures motor function and the ALS-Cognitive Behavioral Screen (ALS-CBS) which will detect signs of Frontal Temporal Dementia and a breathing test to determine Slow Vital Capacity (SVC) measurements.\n\nFor out of town subjects - blood draws can be scheduled locally and sent to the study site for analysis. The ALSFRS-R can be performed over the phone along with other study related questions.\n\nThe C9ORF72 mutation is called a \"dominant\" mutation, which means that their children have a 50% chance of inheriting the gene. Most people who inherit the C9ORF72 mutation will develop either ALS or the related disease called fronto-temporal dementia. However, it may be possible for someone to test positive for the C9ORF72 gene mutation and never develop symptoms. Furthermore, in addition to C9ORF72, there are many other gene mutations that can cause ALS. This study will not test these other genes, and therefore a negative test result for the C9ORF72 mutation will not exclude the possibility that you have a heritable form of ALS.\n\nIn order to understand the natural history of C9ORF72 related ALS in terms of measures of rate of progression, the investigators need to understand how the size of the hexanucleotide repeat expansion influences disease parameters. A C9ORF72-focused clinical trial defining an accurate historical control population, will be critical since there may not be enough subjects for a placebo controlled trial. To be ready for upcoming therapeutic trials, the investigators need to start the detailed characterization of the C9ORF72 patients immediately."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "C9ORF72 Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "keywords": [
+        "Amyotrophic Lateral Sclerosis",
+        "ALS",
+        "C9ORF72 gene mutation",
+        "Chromosome 9 open reading frame 72 protein",
+        "Natural history",
+        "Biomarkers",
+        "Amyotrophic Lateral Sclerosis, Familial",
+        "Amyotrophic Lateral Sclerosis, Sporadic",
+        "Frontotemporal Dementia-Amyotrophic Lateral Sclerosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_ONLY",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Whole blood (DNA, Southern Blots), Serum, PBMCs (for reprogramming into iPSCs), and Cerebral Spinal Fluid (CSF)"
+      },
+      "enrollmentInfo": {
+        "count": 128,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Individuals diagnosed with known positive C9ORF72 ALS",
+          "description": "Individuals diagnosed with known positive C9ORF72 ALS"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Collection of clinical data and biomarker samples",
+          "description": "The primary outcome measures will be the collection of clinical data (ALSFRS, ALS-CBS and SVC) to determine rates of disease progression and collection of biomarkers samples (blood, CSF) to be correlated with the clinical measures.",
+          "timeFrame": "December 2017"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Correlation of repeat expansion size with clinical outcome measures and determination of C9ORF72 patients eligibility for clinical trials",
+          "description": "The secondary outcome measures include determination of the C9ORF72 hexanucleotide repeat expansion size and correlating this with the outcome measures of disease progression collected (ALSFRS-R/month, decrease in SVC/month and ALS Cognitive Screen) and determination of C9ORF72 ALS patients that may be available for a clinical trial.",
+          "timeFrame": "December 2017"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion:\n\n1. Males or females of any race aged 18 or older\n2. Known positive C9ORF72 ALS status via CLIA-certified lab results.\n3. Capable of providing informed consent and following study procedures. In the event that an individual lacks the ability to provide informed consent, informed consent may be sought from the individual's legal, surrogate representative.\n4. Geographically accessible to the site.\n\nExclusion:\n\n1. Geographically inaccessible to the site\n2. C9ORF72 ALS negative via CLIA-certified lab results",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Known positive C9ORF72 ALS status upon enrollment",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Timothy M Miller, MD, PhD",
+          "affiliation": "Washington University School of Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cedars Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Johns Hopkins",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "University of Massachusetts",
+          "city": "Amherst",
+          "state": "Massachusetts",
+          "zip": "01003",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.36723,
+            "lon": -72.51852
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Washington University in St. Louis",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Columbia University Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Sentara Health Care / Sentara Neurology Specialists",
+          "city": "Virginia Beach",
+          "state": "Virginia",
+          "zip": "23454",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.85293,
+            "lon": -75.97799
+          }
+        },
+        {
+          "facility": "UMC Utrecht",
+          "city": "Utrecht",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31578300",
+          "type": "BACKGROUND",
+          "citation": "Cammack AJ, Atassi N, Hyman T, van den Berg LH, Harms M, Baloh RH, Brown RH, van Es MA, Veldink JH, de Vries BS, Rothstein JD, Drain C, Jockel-Balsarotti J, Malcolm A, Boodram S, Salter A, Wightman N, Yu H, Sherman AV, Esparza TJ, McKenna-Yasek D, Owegi MA, Douthwright C; Alzheimer's Disease Neuroimaging Initiative; McCampbell A, Ferguson T, Cruchaga C, Cudkowicz M, Miller TM. Prospective natural history study of C9orf72 ALS clinical characteristics and biomarkers. Neurology. 2019 Oct 22;93(17):e1605-e1617. doi: 10.1212/WNL.0000000000008359. Epub 2019 Oct 2."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "The study design has a robust plan to share de-identified data (but personally identifiable data will not be shared). When study information is shared, it will be \"de-identified\", meaning that the study will remove all personal identifiers so that all collected data and samples are stored under a unique subject ID study code (\"coded\"). In other words, the study has been designed to keep personal details separate from all samples and study information.\n\nThe results of this trial will be published in peer-reviewed journals. No personal identifiers will be included."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        },
+        {
+          "id": "C531617",
+          "term": "Amyotrophic lateral sclerosis 1"
+        },
+        {
+          "id": "C566288",
+          "term": "Frontotemporal Dementia With Motor Neuron Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,207 @@
+{
+  "pmid": "41731425",
+  "pmc": "PMC13032452",
+  "doi": "10.1186/s12883-026-04758-z",
+  "title": "Plasma miRNAs associated with cognitive impairment and brain hypometabolism in individuals with mild cognitive impairment",
+  "journal": "BMC Neurology",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Faeed Maryam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Hosseini Helia",
+      "affiliations": [
+        "https://ror.org/01c4pz451grid.411705.60000 0001 0166 0922School of Medicine, Tehran University of Medical Sciences, Tehran, Iran"
+      ]
+    },
+    {
+      "name": "Abdollahi Azin",
+      "affiliations": [
+        "https://ror.org/01c4pz451grid.411705.60000 0001 0166 0922Faculty of Pharmacy, Tehran University of Medical Sciences, Tehran, Iran"
+      ]
+    },
+    {
+      "name": "Aziz Mahsa",
+      "affiliations": [
+        "https://ror.org/015j7c446grid.468905.60000 0004 1761 4850Clinical Research Development Center, Najafabad Branch, Islamic Azad University, Najafabad, Iran"
+      ]
+    },
+    {
+      "name": "Darabi Hadis",
+      "affiliations": [
+        "https://ror.org/034m2b326grid.411600.2School of Medicine, Shahid Beheshti University of Medical Science, Tehran, Iran"
+      ]
+    },
+    {
+      "name": "Sohrabi-Ashlaghi Ahmadreza",
+      "affiliations": [
+        "https://ror.org/01kzn7k21grid.411463.50000 0001 0706 2472Department of Physiology, Faculty of Medicine, Tehran Medical Sciences, Islamic Azad University, Tehran, Iran"
+      ]
+    },
+    {
+      "name": "Farhadi Shaghayegh",
+      "affiliations": [
+        "https://ror.org/048vche49grid.472332.30000 0004 0494 2337Department of Clinical Psychology, Faculty of Medical Sciences, Sanandaj Branch, Islamic Azad University, Sanandaj, Iran"
+      ]
+    },
+    {
+      "name": "Nobari Minou Najar",
+      "affiliations": [
+        "https://ror.org/046rm7j60grid.19006.3e0000 0000 9632 6718UCLA School of Dentistry, Los Angeles, CA USA"
+      ]
+    },
+    {
+      "name": "Badakhshan Hamidreza",
+      "affiliations": [
+        "https://ror.org/034m2b326grid.411600.2School of Medicine, Shahid Beheshti University of Medical Sciences, Tehran, Iran"
+      ]
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "MicroRNAs",
+    "FDG-PET",
+    "Biomarkers",
+    "Brain hypometabolism"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data availabilityData for FDG-PET were extracted from “ADNI-BAI-PET-NMRC-FDG.csv”; data for miRNAs were extracted from “UPENN-CSF-Plasma-miRNA-Data-[ADNI2].csv”; and data for cognitive assessments were extracted from ADAS-ADNIGO23.csv, MOCA.csv and CDR.csv. The analyzed datasets during the current study are available upon request with no restriction.",
+  "license": "",
+  "received": "2025-02-03",
+  "accepted": "2026-02-18",
+  "reference_pmids": [
+    "33302541",
+    "33302541",
+    "35286590",
+    "35286590",
+    "31698826",
+    "31698826",
+    "34712197",
+    "34712197",
+    "24027266",
+    "24027266",
+    "24360540",
+    "24360540",
+    "30998423",
+    "30998423",
+    "20172487",
+    "20172487",
+    "19426523",
+    "19426523",
+    "31447320",
+    "31447320",
+    "33535543",
+    "33535543",
+    "28119001",
+    "28119001",
+    "34712129",
+    "34712129",
+    "35095478",
+    "35095478",
+    "30881384",
+    "30881384",
+    "35666404",
+    "35666404",
+    "26981236",
+    "26981236",
+    "40766177",
+    "40766177",
+    "39291752",
+    "39291737",
+    "35409145",
+    "35409145",
+    "32848697",
+    "32848697",
+    "34101304",
+    "34101304",
+    "25539279",
+    "25539279",
+    "36573329",
+    "36573329",
+    "20451870",
+    "33504764",
+    "33504764",
+    "39136045",
+    "20042704",
+    "20042704",
+    "21276856",
+    "21276856",
+    "20202480",
+    "20202480",
+    "6496779",
+    "6496779",
+    "9447441",
+    "9447441",
+    "35177290",
+    "37476007",
+    "37476007",
+    "33192270",
+    "33192270",
+    "26527155",
+    "26527155",
+    "24126940",
+    "24126940",
+    "39291752",
+    "25001178",
+    "25001178",
+    "33042470",
+    "33042470",
+    "31168302",
+    "31168302",
+    "33584247",
+    "33584247",
+    "23927939",
+    "23927939",
+    "32599451",
+    "32599451",
+    "35116432",
+    "35116432",
+    "35788280",
+    "35788280",
+    "23962497",
+    "23962497",
+    "33812385",
+    "33812385",
+    "32251872",
+    "32251872",
+    "31876684",
+    "31876684",
+    "36016853",
+    "36016853",
+    "35090576",
+    "35090576",
+    "35908251",
+    "35908251"
+  ],
+  "tables_count": 3,
+  "figures_count": 4,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "materials and methods",
+    "participants",
+    "fdg-pet image processing",
+    "mirna biomarkers",
+    "cognitive assessments",
+    "statistical analysis",
+    "results",
+    "participant demographic and clinical characteristics",
+    "micrornas and hypometabolism",
+    "micrornas and cognitive impairment",
+    "correlation of hypometabolism and cognition",
+    "discussion",
+    "conclusion",
+    "limitations",
+    "supplementary information",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 8412,
+  "converted_at": "2026-04-06T22:39:42.826020+00:00"
+}

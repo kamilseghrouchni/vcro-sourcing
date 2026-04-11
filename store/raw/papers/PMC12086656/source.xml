@@ -1,0 +1,1216 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="alz70182" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement</journal-id><journal-id journal-id-type="pmc-domain-id">4549</journal-id><journal-id journal-id-type="pmc-domain">alzdem</journal-id><journal-id journal-id-type="publisher-id">ALZ</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia</journal-title></journal-title-group><issn pub-type="ppub">1552-5260</issn><issn pub-type="epub">1552-5279</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12086656</article-id><article-id pub-id-type="pmcid-ver">PMC12086656.1</article-id><article-id pub-id-type="pmcaid">12086656</article-id><article-id pub-id-type="pmcaiid">12086656</article-id><article-id pub-id-type="pmid">40386988</article-id><article-id pub-id-type="doi">10.1002/alz.70182</article-id><article-id pub-id-type="publisher-id">ALZ70182</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Uncovering stage‐specific neural and molecular progression in Alzheimer's disease: Implications for early screening</article-title><alt-title alt-title-type="left-running-head">LIN <sc>et al</sc>.</alt-title></title-group><contrib-group><contrib id="alz70182-cr-0001" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="Y">Yun</given-names></name><xref rid="alz70182-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70182-cr-0002" contrib-type="author"><name name-style="western"><surname>Shi</surname><given-names initials="X">Xue</given-names></name><xref rid="alz70182-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70182-cr-0003" contrib-type="author"><name name-style="western"><surname>Mu</surname><given-names initials="J">Jia</given-names></name><xref rid="alz70182-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70182-cr-0004" contrib-type="author"><name name-style="western"><surname>Ren</surname><given-names initials="H">Huixia</given-names></name><xref rid="alz70182-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="alz70182-cr-0005" contrib-type="author"><name name-style="western"><surname>Jiang</surname><given-names initials="X">Xiaosen</given-names></name><xref rid="alz70182-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz70182-cr-0006" contrib-type="author"><name name-style="western"><surname>Zhu</surname><given-names initials="L">Lin</given-names></name><xref rid="alz70182-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="alz70182-cr-0007" contrib-type="author"><name name-style="western"><surname>Cai</surname><given-names initials="X">Xingya</given-names></name><xref rid="alz70182-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70182-cr-0008" contrib-type="author"><name name-style="western"><surname>Lian</surname><given-names initials="C">Chongyuan</given-names></name><xref rid="alz70182-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="alz70182-cr-0009" contrib-type="author"><name name-style="western"><surname>Pei</surname><given-names initials="Z">Zian</given-names></name><xref rid="alz70182-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="alz70182-cr-0010" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="Y">Yongfang</given-names></name><xref rid="alz70182-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="alz70182-cr-0011" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="C">Cong</given-names></name><xref rid="alz70182-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz70182-cr-0012" contrib-type="author"><name name-style="western"><surname>Hou</surname><given-names initials="G">Guixue</given-names></name><xref rid="alz70182-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz70182-cr-0013" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="L">Liang</given-names></name><xref rid="alz70182-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz70182-cr-0014" contrib-type="author"><name name-style="western"><surname>Nie</surname><given-names initials="C">Chao</given-names></name><xref rid="alz70182-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz70182-cr-0015" contrib-type="author"><name name-style="western"><surname>Song</surname><given-names initials="C">Cai</given-names></name><xref rid="alz70182-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="alz70182-cr-0016" contrib-type="author"><name name-style="western"><surname>Gao</surname><given-names initials="S">Shuyang</given-names></name><xref rid="alz70182-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz70182-cr-0017" contrib-type="author"><name name-style="western"><surname>Zhao</surname><given-names initials="L">Lijian</given-names></name><xref rid="alz70182-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz70182-cr-0018" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="J">Jian</given-names></name><xref rid="alz70182-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="alz70182-cr-0019" contrib-type="author" corresp="yes"><name name-style="western"><surname>Jiang</surname><given-names initials="X">Xin</given-names></name><xref rid="alz70182-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>jiangxinsz@163.com</email></address></contrib><contrib id="alz70182-cr-0020" contrib-type="author" corresp="yes"><name name-style="western"><surname>Wang</surname><given-names initials="J">Jing</given-names></name><xref rid="alz70182-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>wangjing10@genomics.cn</email></address></contrib><contrib id="alz70182-cr-0021" contrib-type="author" corresp="yes"><name name-style="western"><surname>Guo</surname><given-names initials="Y">Yi</given-names></name><xref rid="alz70182-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="alz70182-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="alz70182-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref><address><email>xuanyi_guo@163.com</email></address></contrib></contrib-group><aff id="alz70182-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Intelligent Medical Research (IIMR)</named-content>
+<institution>BGI Genomics</institution>
+<city>Shenzhen</city>
+<named-content content-type="country-part">Guangdong</named-content>
+<country country="CN">China</country>
+</aff><aff id="alz70182-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Shenzhen People's Hospital, The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology</institution>
+<city>Shenzhen</city>
+<named-content content-type="country-part">Guangdong</named-content>
+<country country="CN">China</country>
+</aff><aff id="alz70182-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Geriatrics</named-content>
+<institution>Shenzhen People's Hospital, The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology</institution>
+<city>Shenzhen</city>
+<named-content content-type="country-part">Guangdong</named-content>
+<country country="CN">China</country>
+</aff><aff id="alz70182-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>BGI Research</institution>
+<city>Shenzhen</city>
+<named-content content-type="country-part">Guangdong</named-content>
+<country country="CN">China</country>
+</aff><aff id="alz70182-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>Shenzhen Bay Laboratory, Gaoke Innovation Center</institution>
+<city>Shenzhen</city>
+<named-content content-type="country-part">Guangdong</named-content>
+<country country="CN">China</country>
+</aff><aff id="alz70182-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Electronic and Electrical Engineering</named-content>
+<institution>Southern University of Science and Technology</institution>
+<city>Shenzhen</city>
+<named-content content-type="country-part">Guangdong</named-content>
+<country country="CN">China</country>
+</aff><aff id="alz70182-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<institution>BGI Genomics</institution>
+<city>Shenzhen</city>
+<named-content content-type="country-part">Guangdong</named-content>
+<country country="CN">China</country>
+</aff><aff id="alz70182-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Diagnosis and Treatment Center for Functional Neurological Disorders</named-content>
+<institution>Tianjin Huanhu Hospital</institution>
+<city>Tianjin</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Yi Guo, Department of Neurology, Shenzhen People's Hospital, The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology, No. 1017 Dongmen North Road, Luohu District, Shenzhen, Guangdong, 518020, China.<break/> Email: <email>xuanyi_guo@163.com</email>
+<break/>Jing Wang, Institute of Intelligent Medical Research (IIMR), BGI Genomics, No. 9 Yunhua Road, Yantian District, Shenzhen, Guangdong, 518000, China.<break/> Email: <email>wangjing10@genomics.cn</email>
+<break/>Xin Jiang, Department of Geriatrics, Shenzhen People's Hospital, The Second Clinical Medical College, Jinan University, The First Affiliated Hospital, Southern University of Science and Technology, No. 1017 Dongmen North Road, Luohu District, Shenzhen, Guangdong, 518020, China.<break/> Email: <email>jiangxinsz@163.com</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>19</day><month>5</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>5</month><year>2025</year></pub-date><volume>21</volume><issue seq="140">5</issue><issue-id pub-id-type="pmc-issue-id">487648</issue-id><issue-id pub-id-type="doi">10.1002/alz.v21.5</issue-id><elocation-id>e70182</elocation-id><history><date date-type="rev-recd"><day>16</day><month>3</month><year>2025</year></date><date date-type="received"><day>06</day><month>1</month><year>2025</year></date><date date-type="accepted"><day>18</day><month>3</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>19</day><month>05</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>19</day><month>05</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-05-20 16:25:22.483"><day>20</day><month>05</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia</italic> published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ALZ-21-e70182.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ALZ-21-e70182.pdf"/><abstract><title>Abstract</title><sec id="alz70182-sec-0010"><title>INTRODUCTION</title><p>Understanding molecular, neuroanatomical, and neurophysiological changes in cognitive decline is crucial for comprehending Alzheimer's disease (AD) progression and facilitating objective staging and early screening.</p></sec><sec id="alz70182-sec-0020"><title>METHODS</title><p>We enrolled 277 participants and employed a multimodal approach, integrating genomics, metagenomics, metabolomics, magnetic resonance imaging (MRI), and electroencephalogram (EEG) to investigate the AD continuum, from subjective cognitive decline (SCD) through mild cognitive impairment (MCI) to advanced AD.</p></sec><sec id="alz70182-sec-0030"><title>RESULTS</title><p>Key markers and mechanisms were identified for each stage: initial neurophysiological deficits in SCD with compensatory metabolomic responses, gut‐brain axis dysregulation in MCI, and extensive metabolic disruption and multisystem breakdown in AD. Using random forest models, we identified specific feature combinations that achieved predictive areas under the curve (AUCs) of 0.78 for SCD, 0.84 for MCI, and 0.98 for AD, highlighting EEG as a particularly effective early screening tool.</p></sec><sec id="alz70182-sec-0040"><title>DISCUSSION</title><p>This study elucidates AD's pathophysiological progression and highlights the potential of machine learning‐assisted multimodal strategies for early detection and staging.</p></sec><sec id="alz70182-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="alz70182-list-0001"><list-item><p>Early electroencephalogram (EEG) changes and compensatory metabolomic responses define subjective cognitive decline (SCD) stage.</p></list-item><list-item><p>In mild cognitive impairment (MCI), gut–brain axis dysfunction alters microbial diversity and functional pathways.</p></list-item><list-item><p>In Alzheimer's disease (AD), systemic breakdown disruption enables near‐perfect machine learning (ML) detection.</p></list-item><list-item><p>Random forest models yield predictive areas under the curve (AUCs) of 0.78 (SCD), 0.84 (MCI), 0.98 (AD).</p></list-item><list-item><p>EEG is a convenient, cost‐efficient marker for early screening.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="alz70182-kwd-0001">Alzheimer's disease (AD)</kwd><kwd id="alz70182-kwd-0002">EEG</kwd><kwd id="alz70182-kwd-0003">gut microbiota</kwd><kwd id="alz70182-kwd-0004">machine learning</kwd><kwd id="alz70182-kwd-0005">metabolomics</kwd><kwd id="alz70182-kwd-0006">mild cognitive impairment (MCI)</kwd><kwd id="alz70182-kwd-0007">MRI</kwd><kwd id="alz70182-kwd-0008">multi‐omics</kwd><kwd id="alz70182-kwd-0009">neuroimaging</kwd><kwd id="alz70182-kwd-0010">subjective cognitive decline (SCD)</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>the Ministry of Science and Technology of China</funding-source><award-id>2022ZD0211600</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>National Key R&amp;D Program of China
+</institution><institution-id institution-id-type="doi">10.13039/501100012166</institution-id></institution-wrap></funding-source><award-id>2023YFC3603300</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>Natural Science Foundation of China
+</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>82371471</award-id></award-group><award-group id="funding-0004"><funding-source>Research Program of Central Health Commission</funding-source><award-id>2024YB59</award-id></award-group><award-group id="funding-0005"><funding-source>Special Foundation for Shenzhen Basic Research Program</funding-source><award-id>JCYJ20240813103817024</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="1"/><page-count count="19"/><word-count count="10447"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.6 mode:remove_FC converted:19.05.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="alz70182-cite-0001">
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mu</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Uncovering stage‐specific neural and molecular progression in Alzheimer's disease: Implications for early screening</article-title>. <source>Alzheimer's Dement</source>. <year>2025</year>;<volume>21</volume>:<elocation-id>e70182</elocation-id>. <pub-id pub-id-type="doi">10.1002/alz.70182</pub-id>
+</mixed-citation>
+</p><fn-group><fn id="alz70182-note-0001" fn-type="equal"><p>Yun Lin and Xue Shi contributed equally to this work.</p></fn></fn-group></notes></front><body><sec id="alz70182-sec-0060"><label>1</label><title>BACKGROUND</title><p>Alzheimer's disease (AD) is one of the major challenges faced by the aging society, leading to a progressive decline in cognitive function that can result in a reduction or even loss of the ability to live independently, work, and participate in society. Mild cognitive impairment (MCI) represents an intermediate stage between the cognitive decline associated with normal aging and the more severe deterioration seen in dementia, with a considerable number of cases eventually progressing to AD.<xref rid="alz70182-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> Subjective cognitive decline (SCD), introduced in 2014, refers to self‐reported cognitive complaints that are not detectable through standard cognitive tests.<xref rid="alz70182-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> SCD has garnered attention due to its potential to signal the very earliest stages of cognitive decline, often preceding MCI.<xref rid="alz70182-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> However, the underlying mechanisms driving the progression from SCD to MCI and eventually AD remain poorly understood, complicating early detection and intervention.<xref rid="alz70182-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>
+</p><p>Extensive research utilizing molecular and neuroimaging techniques has aimed to delineate this progression, enhancing early detection and risk assessment. Genome‐wide association studies (GWAS) have identified numerous key genetic contributors associated with AD, the most notable being the apolipoprotein E (APOE) ε4 allele,<xref rid="alz70182-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> along with other risk loci associated with immune response, lipid metabolism, and amyloid‐β (Aβ) plaque formation.<xref rid="alz70182-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> The gut microbiota has garnered increasing attention for its role in AD progression through metabolic, endocrine, neural, and immune pathways.<xref rid="alz70182-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="alz70182-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> Additionally, metabolomics is crucial in linking genetic‐ and microbiota‐related metabolomic pathways, with key metabolites including amino acids, lipids, and energy‐related compounds.<xref rid="alz70182-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="alz70182-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> These molecular and metabolic insights are complemented by neurophysiological and neuroanatomical markers that offer a broader view of disease progression. From a neurophysiological perspective, EEG‐detected neurophysiological changes in AD patients exhibit distinct oscillatory patterns, with increased power in lower frequencies (delta and theta), reduced power in the beta band, and a slower peak alpha frequency.<xref rid="alz70182-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="alz70182-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> In parallel, magnetic resonance imaging (MRI) reveals the extent, distribution, and rate of cerebral atrophy, correlating with cognitive deficits as AD advances.<xref rid="alz70182-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Despite substantial research efforts, most studies are limited to just one or two modalities, typically focusing on either biofluid testing or imaging alone, which fails to capture the complexity of AD pathogenesis, a systemic condition that demands a more comprehensive approach. Furthermore, systematic studies covering the entire spectrum of cognitive decline, from SCD to MCI and AD dementia, are limited.<xref rid="alz70182-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="alz70182-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="alz70182-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="alz70182-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="alz70182-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="alz70182-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="alz70182-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> Overcoming these gaps requires an integrated investigation of cognitive decline progression across multiple modalities. The unique insights from each modality, when combined, furnish a holistic perspective of the disease.</p><p>Given this context, we hypothesized that an integrated multi‐omics and neuroimaging approach, combined with machine learning, could not only deepen our understanding of the progression of AD but also detect early or prodromal indicators of these disorders. Specifically, we aim to: (1) Identify complex alterations across various biological systems to enhance our understanding of the mechanisms driving AD progression; (2) Discover accessible early‐stage biomarkers critical for AD, enabling timely screening and personalized management of cognitive decline. To accomplish these goals, we collected genomic, metabolomic, metagenomic, MRI, and EEG data from healthy controls (HC), as well as individuals with SCD, MCI, and AD (Figure <xref rid="alz70182-fig-0001" ref-type="fig">1A</xref>). Distinct features from each modality were used to develop random forest models for disease staging, employing both standalone and integrated modalities to identify key biomarkers for early screening and improve personalized clinical diagnosis and treatment.</p><fig position="float" fig-type="FIGURE" id="alz70182-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Study overview, sociodemographic features, and genetic assessment. (A) The study enrolled 277 participants across four groups: HC (<italic toggle="yes">n</italic> = 168), SCD (<italic toggle="yes">n</italic> = 30), MCI (<italic toggle="yes">n</italic> = 51), and AD (<italic toggle="yes">n</italic> = 28). A comprehensive set of multidimensional data was collected, encompassing genomics, metagenomics, metabolomics, MRI, and EEG. Single‐omics analyses were conducted to gain insights into each modality, followed by a multi‐modal integration to explore the interconnections across these different data types. After performing a balanced train‐test data split, random forest modeling, along with hyperparameter selection and optimization, was applied to facilitate disease staging. Building upon the results of these analyses, the study explored the progression and underlying mechanisms of AD across different stages. The primary objectives were to refine disease staging, uncover the mechanisms driving disease progression, identify potential biomarkers, and develop early screening methods, ultimately advancing our understanding of neurocognitive decline, with a particular focus on AD. (B) Data collection status across dimensions, with missing samples colored silver and the count of missing samples labeled next to each corresponding bar. (C) Stacked bar plot showing sex composition. (D) Violin plots display the age distribution. Data within the violin plots include median values (center line), 25th and 75th percentiles (box limits), and the range up to the most extreme data points for each group. <italic toggle="yes">p</italic>‐values were calculated using pairwise two‐sided <italic toggle="yes">t</italic>‐tests, where a single asterisk * indicates <italic toggle="yes">p</italic> &lt; 0.05, double asterisks **indicates <italic toggle="yes">p</italic> &lt; 0.01, and triple asterisks ***indicates <italic toggle="yes">p</italic> &lt; 0.001. (E) Stacked bar plot showing the distribution of education levels. (F) Density plots of PRS. (G) Stacked bar plot showing the distribution of APOE genotypes. AD, Alzheimer's disease; APOE, apolipoprotein E; EEG, electroencephalogram; HC, healthy controls; MCI, mild cognitive impairment; MRI, magnetic resonance imaging; PRS, polygenic risk scores; SCD, subjective cognitive decline.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ALZ-21-e70182-g001.jpg"/></fig></sec><sec id="alz70182-sec-0070"><label>2</label><title>METHODS</title><sec id="alz70182-sec-0080"><label>2.1</label><title>Subject recruitment and ethics statement</title><p>Participants were recruited from two sites: Shenzhen People's Hospital and Shenzhen BGI Life Sciences Research Institute. Participants were required to meet the following prerequisites: aged between 20 and 70 years, right‐handed, and able to provide informed consent. The study excluded individuals with: (1) Psychiatric disorders, such as depression, anxiety, schizophrenia, and sleep disorders, as well as those with other neurological diseases, including cerebral infarction, Parkinson's disease, epilepsy, and brain tumors; (2) Pathological factors that could lead to cognitive decline, such as severe anemia, severe liver or kidney dysfunction, hypothyroidism, poisoning, or alcohol dependence; (3) Severe cardiovascular, cerebrovascular, or hematological diseases, or other severe complications; (4) Abnormal cranial MRI scans, indicating a Fazekas score of ≥2 for white matter lesions, space‐occupying lesions, or other abnormal signals; (5) Rapid cognitive decline within months, suggesting central nervous system infections, inflammation, or metabolic disorders. Participants in the HC, SCD, and MCI groups who were taking antidepressants, sleeping pills, antiepileptic drugs, or similar medications within the previous 4 weeks were also excluded. All participants in these groups completed the Montreal Cognitive Assessment (MoCA) and an evaluation of activities of daily living (ADLs). Participants included in the AD and MCI groups had to meet the 2011 National Institute on Aging‐Alzheimer's Association (NIA‐AA) diagnostic criteria for AD or MCI due to AD, respectively. Participants in the AD group were diagnosed based on cerebrospinal fluid (CSF) testing for Aβ and tau proteins before inclusion. MCI patients were confirmed to have objective memory impairment, as reflected by a MoCA score of 26 or below (adjusted for education), while maintaining daily functional independence, evidenced by an ADLs score of 23 or lower. For the SCD group, the diagnostic criteria from the Subjective Cognitive Decline Initiative (SCD‐I) Working Group were used. Inclusion criteria required subjective memory complaints with onset within the past 5 years, a perception that their memory was worse than that of others in their age group, no objective cognitive impairment with a MoCA score of 26 or higher (adjusted for education), and intact daily functioning with an ADLs score below 16.</p><p>All participants or their legal guardians provided written informed consent for both study participation and sample collection. This study was approved by the ethics community of both Shenzhen People's Hospital and Shenzhen BGI Life Sciences Research Institute (ChiCTR2300074261).</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="alz70182-sec-0090"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="alz70182-list-0002"><list-item><p>
+<bold>Systematic review</bold>: We conducted a comprehensive literature search to evaluate the current understanding of multimodal biomarkers and the underlying mechanisms driving Alzheimer's disease (AD) progression. Most studies focus on one or two modalities, such as biofluid assays or imaging, thereby neglecting the systemic complexity of AD pathogenesis. Additionally, research spanning the entire AD spectrum is limited.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Our study identifies stage‐specific molecular, neurophysiological, and neurostructural changes from subjective cognitive decline (SCD) to AD, enhancing our understanding of AD's complex mechanisms. Electroencephalogram (EEG) alterations serve as early biomarkers for SCD, while MRI, metagenomics, and metabolomics features also provide diagnostic markers and therapeutic targets in later stages.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Future research should validate these potential biomarkers in larger, diverse populations and explore therapeutic interventions targeting neural and molecular disruptions. Additionally, longitudinal studies are needed to elucidate causal relationships and monitor disease progression, facilitating the development of targeted treatments to delay or prevent AD onset.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="alz70182-sec-0100"><label>2.2</label><title>CSF collection and analysis</title><p>For CSF collection, the puncture site is located at the intersection of the iliac crest line and the posterior midline. After disinfection and local anesthesia, the needle is inserted vertically, and 5 mL of CSF is collected. The CSF was subjected to three enzyme‐linked immunosorbent assay (ELISA) assays: INNOTEST hTAU Ag, INNOTEST PHOSPHO‐TAU(181P), and INNOTEST β‐AMYLOID(1‐42), for the quantification of t‐tau, p‐tau181, and β‐amyloid(1‐42), respectively, according to the manufacturer's instructions.</p></sec><sec id="alz70182-sec-0110"><label>2.3</label><title>Blood sample collection</title><p>A total of 8 mL of whole blood was drawn from participants and collected in ethylenediaminetetraacetic acid (EDTA) anticoagulant tubes, followed by centrifugation at 1500 rcf for 10 min. Samples showing hemolysis were discarded. After centrifugation, the plasma layer was carefully extracted with a pipette, transferred to light‐protected EP tubes, and stored for metabolite analysis. The remaining blood cell pellet was preserved for whole‐genome sequencing (WGS).</p></sec><sec id="alz70182-sec-0120"><label>2.4</label><title>WGS and data processing</title><p>Blood cell sediments<xref rid="alz70182-fig-0001" ref-type="fig"> </xref> were extracted using the MGIEasy Magnetic Beads Genomic DNA Extraction Kit following the manufacturer's instructions. The extracted DNA was then used for library preparation with the MGIEasy Universal DNA Library Prep Set, adhering to the provided protocol. The prepared libraries were subsequently subjected to 30x WGS on the BGISEQ‐500 platform. WGS data were aligned, and variant calling was performed using the Picard/BWA<xref rid="alz70182-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>/GATK<xref rid="alz70182-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> pipeline. Variants retained for further analysis met the following quality criteria: mapping quality score &gt; 40, sequencing depth &gt; 4, variant quality score &gt; 2.0, Phred‐scaled <italic toggle="yes">p</italic>‐value for Fisher's exact test for strand bias &lt; 60.0, haplotype score &lt; 13.0, and, for single nucleotide polymorphisms (SNPs), a distance &gt; 8.0 between the alternate allele and the read end. Variants violating Hardy–Weinberg equilibrium (<italic toggle="yes">p</italic>‐value &lt; 1×10<sup>−5</sup>), markers with more than 1% missing genotype data, and those with a minor allele frequency below 1% were excluded. Additionally, individuals with heterozygosity levels exceeding the standard deviation were removed from the analysis. Polygenic risk score (PRS) analysis was conducted using the PGS004863 model from the PGS Catalog,<xref rid="alz70182-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> which includes 74 variant sites and respective weights. This model was developed using data from diverse populations, including European and South Asian cohorts, and was validated in a significant East Asian cohort, making it applicable to our study population.<xref rid="alz70182-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> The PRS for each sample was calculated and utilized as a genetic feature in subsequent analyses, alongside the APOE genotype.</p></sec><sec id="alz70182-sec-0130"><label>2.5</label><title>Metagenomics sequencing and data analysis</title><p>Fresh stool samples were collected from recruited volunteers and then processed following the MetaHIT protocol<xref rid="alz70182-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> to extract DNA, the extracted DNA was then subject to single‐end metagenomic sequencing on the BGISEQ‐500 platform. Reads of low quality were discarded, and host DNA was removed using the human genome reference (hg38) with SOAP2<xref rid="alz70182-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> (version 2.22; identity ≥ 0.9), after which taxonomic analysis was carried out using MetaPhlan2,<xref rid="alz70182-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> and the functional composition of the human intestinal flora was determined using HUMAnN2.<xref rid="alz70182-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> The relative abundance of species and pathways identified were utilized in the following analysis.</p><p>The Shannon Diversity Index, Simpson Diversity Index, and Chao1 Richness Estimator were calculated, and pairwise non‐parametric Wilcoxon rank‐sum tests were performed to assess significant differences in these diversity indices across the four groups. Additionally, an analysis of variance (ANOVA) was conducted on species abundance and microbial pathways, with age and education included as covariates to identify significant species and pathways in the first step. Subsequently, Wilcoxon rank‐sum tests were used to filter significant species and pathways across comparisons between the four groups.</p></sec><sec id="alz70182-sec-0140"><label>2.6</label><title>Quantitative measurement of blood metabolites and data analysis</title><p>Metabolite quantification was performed using the HM Meta Assay and HM Lipids Assay (BGI, Shenzhen, China); refer to Table <xref rid="alz70182-supinfo-0001" ref-type="">S1</xref> for the full list of metabolites in the two assay kits. The HM Meta Assay covered hydrophilic compounds across multiple chemical classes including bile acids, amino acids, fatty acids, carboxylic acids, hydroxyl acids, phenolic acids, and indoles. Serial dilutions of metabolite standards were used to generate calibration curves, while internal standards were diluted with methanol in advance. Aliquots (20 µL) of plasma samples or standards were mixed with 120 µL of internal standard solution in 96‐well plates. Plates were stored at −20°C for 20 min followed by centrifugation at 4000 ×<italic toggle="yes">g</italic> and 4°C for 30 min. Supernatants (30 µL) were transferred to new 96‐well plates for derivatization with 10 µL of freshly prepared reagents (200 mM 3‐Nitrophenylhydrazine in 75% aqueous methanol and 96 mM 1‐ethyl‐3‐(3‐dimethylaminopropyl) carbodiimide ‐6% pyridine in methanol) at 30°C for 60 min. The resulting samples were diluted with 400 µL ice‐cold 50% methanol before 135 µL of supernatant was transferred to new 96‐well plates for LC‐MS/MS analysis on a Waters ACQUITY UPLC coupled to a SCIEX QTRAP 6500 PLUS mass spectrometer, equipped with an electrospray ionization (ESI) source and a Waters ACQUITY BEH C18 column (1.7 µm, 100 × 2.1 mm). The instrument was controlled by Analyst software and operated in both positive and negative ion modes. HMQUANT software was used for absolute metabolite quantification. The HM Lipids Assay encompassed a broad range of lipid subclasses and quantified lipid molecules, including 18 lipid classes: sphingomyelin (SM), ceramide (CER), cholesterol ester (CE), monoacylglycerol (MAG), diacylglycerol (DAG), triacylglycerol (TAG), lysophosphatidic acid (LPA), phosphatidic acid (PA), lysophosphatidylcholine (LPC), phosphatidylcholine (PC), lysophosphatidylethanolamine (LPE), phosphatidylethanolamine (PE), lysophosphatidylinositol (LPI), phosphatidylinositol (PI), lysophosphatidylglycerol (LPG), phosphatidylglycerol (PG), lysophosphatidylserine (LPS), and phosphatidylserine (PS). Serial dilutions of metabolite standards were used to generate calibration curves, while SPLASH LIPIDOMIX Quantitative Mass Spec Internal Standard was diluted with precooled isopropanol in advance. In 96‐well plates, aliquots (120 µL) of either standards or plasma samples were mixed with an internal standard solution (20 µL each). The plates were then stored at −20°C for 20 min before being centrifuged at 4000 × <italic toggle="yes">g</italic> and 4°C for 30 min. Supernatants containing lipids were transferred to new plates for LC‐MS/MS analysis on the same system mentioned above in negative mode, while a portion of the supernatants was diluted into methanol for analysis in positive mode. HMQUANT software (BGI, Shenzhen, China) incorporating isotope correction via the LICAR package was used for absolute lipid quantification.</p><p>In addition, a list of blood metabolites described in detail by Zhuye et al.,<xref rid="alz70182-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> including amino acids, hormones, vitamins, microelements, and heavy metals were quantified. Briefly, we quantitively determined hormones and fat‐soluble vitamins each in a 250 µL plasma sample via UPLC‐MS with an atmospheric pressure chemical ionization (APCI) source; water‐soluble vitamins and TMAO in a 200 µL plasma sample via using the same LC‐MS/MS system, while equipped with an ESI source. The microelements and heavy metals were quantified using 200 µL whole blood on an Agilent 7700 x ICP‐MS equipped with an octupole reaction system (ORS).</p><p>Mass spectrometry quantified 1257 plasma metabolites, including bile acids, amino acids, hormones, vitamins, microelements, fatty acids, and lipids, in each subject (Table <xref rid="alz70182-supinfo-0001" ref-type="">S2</xref>). After filtering through ANOVA for age‐ and education‐independent features, significantly differentially enriched metabolites in SCD, MCI, and AD groups, compared to HC, were revealed using pairwise Wilcoxon rank‐sum tests (Table <xref rid="alz70182-supinfo-0001" ref-type="">S3</xref>), and their fold changes were visualized in volcano plots. We conducted partial least squares discriminant analysis (PLS‐DA) to differentiate between all groups and performed pairwise PLS‐DA to distinguish HC from each of the other three groups. Metabolomic data were analyzed using the MetaboAnalyst 6.0 platform,<xref rid="alz70182-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> specifically utilizing the over representation analysis (ORA) method.</p></sec><sec id="alz70182-sec-0150"><label>2.7</label><title>MRI acquisition and processing</title><p>MRI was conducted using a Siemens MAGNETOM Prisma 3.0T scanner with a 3D T1‐weighted gradient echo sequence (MP‐RAGE). The scan parameters were as follows: repetition time (TR) = 2530 ms, echo time (TE) = 2.98 ms, inversion time (TI) = 1100 ms, flip angle (FA) = 7°, field of view (FOV) = 256 x 256 mm, matrix size = 256 × 256, slice thickness = 1 mm, and voxel size = 1 x 1 x 1 mm. The MP‐RAGE sequence took approximately 6 min, capturing a total of 192 sagittal slices. Brain volume analysis was conducted using the Dr. Brain platform (YiWei Medical Technology Co. Ltd., Shenzhen, China), based on VBM. Initially, T1‐weighted images were visually inspected to ensure adequate image quality. Bias correction and noise reduction were applied, followed by spatial normalization of each participant's high‐resolution 3D T1‐weighted scan into a standardized stereotaxic space for voxel‐to‐voxel alignment. This non‐linear registration process resulted in deformed images. Gray matter, white matter, and CSF segmentation were carried out based on the Neuromorphometrics atlas (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://Neuromorphometrics.com/" ext-link-type="uri">http://Neuromorphometrics.com/</ext-link>). The segmented gray and white matter images were then spatially smoothed using an isotropic Gaussian kernel before proceeding to statistical analysis.</p><p>An initial ANOVA was conducted on brain region volumes, accounting for age and education as covariates, to identify significantly different regions. Subsequently, Wilcoxon rank‐sum tests were applied to examine volume differences across the four groups. Additionally, PLS‐DA was used to distinguish among all groups, followed by pairwise PLS‐DA to differentiate HC from each of the other three groups.</p></sec><sec id="alz70182-sec-0160"><label>2.8</label><title>EEG signal acquisition, processing, and analysis</title><p>All participants were asked to abstain from caffeine and energy‐related drinks up to 24 h prior to the EEG collection. EEG data were acquired using a 64‐channel BrainAmp DC amplifier system (Brain Products, GmbH, Munich, Germany) with the scalp electrodes placed according to the international 10–20 system, while the participants were in the resting state with eyes closed. During acquisition, the sampling rate was set at 5000 Hz with impedances kept below 5 KΩ for all channels and data were referenced online to the FCz channel with a ground at AFz.</p><p>The recorded EEG data were cleaned offline in MATLAB (MathWorks, Natick, USA) using the EEGLAB toolbox.<xref rid="alz70182-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> The preprocessing steps are briefly described as follows: (1) the raw data were down‐sampled to 250 Hz; (2) the bad segments contaminated by artifacts were excluded manually via visual inspection; (3) bandpass filter of 0.5–100 Hz and notch filter of 50 Hz were applied to the signals; (4) bad channels were discarded and then interpolated with neighboring channels using spherical spline interpolation; (5) remaining artifacts such as eye movement, persistent muscle artifact, heart noise, and channel noise were removed using independent component analysis; (6) the EEG data were re‐referenced to the common average.</p><p>For frequency analysis, the power spectral density (PSD) was estimated using Welch's technique with 50% overlapping Hamming windows of 10‐s epochs. Spectral densities were derived from seven canonical frequency bands: delta (1–4 Hz), theta (4–8 Hz), alpha (8–13 Hz), beta1 (13–20 Hz), beta2 (20–30 Hz), gamma1 (30–40 Hz), and gamma2 (40–45 Hz).</p><p>EEG functional connectivity (FC) was evaluated employing the debiased weighted phase lag index (dwPLI), which represented the non‐zero phase lag statistical interdependencies between each pair of channels.<xref rid="alz70182-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> The dwPLI was calculated using the Fieldtrip toolbox of MATLAB according to the Desikan–Killiany altas.<xref rid="alz70182-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="alz70182-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> The frequency bands incorporated in the calculation of the dwPLI are the same as the spectral analysis.</p><p>An initial ANOVA was performed on relative power density and dwPLI, with age and education included as covariates, to identify significant alterations in power density and FC across brain regions. Following this, Wilcoxon rank‐sum tests were used to assess differences in PSD and FC among the four groups.</p></sec><sec id="alz70182-sec-0170"><label>2.9</label><title>Machine learning model prediction and feature selection</title><p>Multi‐omics data, including genetic features, gut microbial relative abundance, gut microbial functional pathways, metabolomic data, MRI‐based brain region volumes, EEG relative PSD, and EEG FC, were used to train machine learning models for classifying individuals into SCD versus HC, MCI versus HC, and AD versus HC groups. The dataset was initially split into an 80% training set and a 20% test set using stratified sampling to ensure balanced class labels across splits.</p><p>Significant unidimensional features were initially selected by performing one‐way ANOVA on the training data, controlling for age and education to identify group differences. These features were then used for model training. During training, the data were residualized via linear regression to remove the effects of age and education, ensuring these covariates did not influence classification. The data were subsequently scaled and oversampled using SMOTE to balance class distributions in each pairwise comparison. A RandomForestClassifier was trained with hyperparameter tuning via GridSearchCV, and model performance was evaluated using classification reports, specificity, and receiver operating characteristics‐area under the curve (ROC‐AUC) scores. Finally, multidimensional features were integrated and trained using the same approach for comprehensive classification. To enhance model performance, recursive feature elimination (RFE) or feature importance‐based selection was employed to reduce redundant or irrelevant features.</p></sec></sec><sec id="alz70182-sec-0180"><label>3</label><title>RESULTS</title><sec id="alz70182-sec-0190"><label>3.1</label><title>Key sociodemographic differences between participant groups</title><p>The study recruited 277 participants from four groups: HC (<italic toggle="yes">n</italic> = 168), SCD (<italic toggle="yes">n</italic> = 30), MCI (<italic toggle="yes">n</italic> = 51), and AD (<italic toggle="yes">n</italic> = 28) and comprehensively collected multidimensional data from each one of the participants, including genomics, metagenomics, metabolomics, MRI, and EEG. The presence and absence of samples for multiple data types across four participant groups were summarized in Figure <xref rid="alz70182-fig-0001" ref-type="fig">1B</xref>. The overall gender ratio was approximately 0.57, with a predominance of females present across all groups (Figure <xref rid="alz70182-fig-0001" ref-type="fig">1C</xref>). Significant differences in age and education level were observed among the four groups, according to Student's <italic toggle="yes">t</italic>‐test and chi‐squared test, respectively. Specifically, median age progressively increased from HC to SCD, then continued to increase through MCI toward AD, while education levels exhibited a decreasing trend across these groups. Thus, these factors were included as covariates in subsequent analyses (Figure <xref rid="alz70182-fig-0001" ref-type="fig">1D,E</xref>).</p></sec><sec id="alz70182-sec-0200"><label>3.2</label><title>PRSs and APOE ε4 allele frequencies across groups</title><p>To assess genetic risk, we generated a density plot (Figure <xref rid="alz70182-fig-0001" ref-type="fig">1F</xref>) to compare the distribution of PRS across groups. The AD group exhibited a slight rightward shift with right skewness, indicating higher PRS and suggesting a genetic predisposition to AD. In contrast, the PRS for HC, SCD, and MCI participants were comparable, implying no significant genetic risk differences between these groups.</p><p>In accordance with established findings that the APOE ε4 allele is associated with increased AD risk and the ε2 allele with reduced risk,<xref rid="alz70182-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> our study observed that the frequency of the ε2 allele decreased in both MCI and AD groups, while the frequency of the ε4 allele was significantly higher in the AD group (Figure <xref rid="alz70182-fig-0001" ref-type="fig">1G</xref>).</p></sec><sec id="alz70182-sec-0210"><label>3.3</label><title>Gut microbiota alterations and impaired microbial functional pathways</title><sec id="alz70182-sec-0220"><label>3.3.1</label><title>Decreased alpha diversity and increased beta diversity</title><p>Alpha diversity of gut microbiota, a potential predictor for AD, was assessed using Chao1, Shannon, and Simpson indices (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2A</xref>). Pairwise two‐sided Wilcoxon rank‐sum tests were used to assess the significance between HC and each of the other groups. The Chao1 index, reflecting species richness (including rare species), showed significantly lower richness in the AD group compared to HC. The Shannon and Simpson indices, which measure species richness and evenness, were also significantly reduced in the MCI group compared to HC. No significant differences were observed in the SCD group. Beta diversity assessed using Bray–Curtis dissimilarities, showed significant and increasing dissimilarities between HC and the SCD, MCI, and AD groups according to pairwise two‐sided Wilcoxon rank‐sum tests. (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2B</xref>). The Venn diagram was used to illustrate the unique and shared species of gut microbiota. A total of 236 species were common across all groups, while 83, 14, 37, and 26 species were uniquely associated with the HC, SCD, MCI, and AD groups, respectively (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2C</xref>).</p><fig position="float" fig-type="FIGURE" id="alz70182-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Differential gut microbiota composition across groups. (A) Box plots displaying three alpha diversity indices—Chao1, Shannon, and Simpson. Pairwise two‐sided Wilcoxon rank‐sum tests were used to assess the significance between HC and each of the other groups. Asterisks (*) indicate significant differences at <italic toggle="yes">p</italic> &lt; 0.05. (B) Box plots showing within‐group Bray–Curtis dissimilarities. Significance between HC and each of the other groups was assessed using pairwise two‐sided Wilcoxon rank‐sum tests. Significance levels are indicated by asterisks: * denotes <italic toggle="yes">p</italic> &lt; 0.05, ** denotes <italic toggle="yes">p</italic> &lt; 0.01, and *** denotes <italic toggle="yes">p</italic> &lt; 0.001. (C)Venn diagram illustrated the overlap of gut microbiota species across the four groups. (D) Stacked bar plots representing species‐level composition across groups. (E) Raincloud plots show the abundance of six bacterial species across groups. Group averages are shown with a trendline, calculated by linear regression. Statistical significance between the HC group and each other group was assessed using pairwise two‐sided Wilcoxon rank‐sum tests, with asterisks indicating significance: * denotes <italic toggle="yes">p</italic> &lt; 0.05, ** denotes <italic toggle="yes">p</italic> &lt; 0.01, and *** denotes <italic toggle="yes">p</italic> &lt; 0.001. (F) Raincloud plots display the abundance of 12 significant metabolic pathways across groups. Statistical significance between the HC group and each other group was assessed using pairwise two‐sided Wilcoxon rank‐sum tests, with asterisks indicating significance: * denotes <italic toggle="yes">p</italic> &lt; 0.05, ** denotes <italic toggle="yes">p</italic> &lt; 0.01, and *** denotes <italic toggle="yes">p</italic> &lt; 0.001. AD, Alzheimer's; HC, healthy controls; MCI, mild cognitive impairment; MRI, magnetic resonance imaging; CD, subjective cognitive decline.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ALZ-21-e70182-g006.jpg"/></fig></sec><sec id="alz70182-sec-0230"><label>3.3.2</label><title>Reduced abundance of key microbial species</title><p>Microbial relative abundance was evaluated across various taxonomic levels, including phylum, class, order, family, genus, and species. While no significant differences were found at the phylum, class, order, or family levels, significant alterations were observed at the genus and species levels using pairwise two‐sided Wilcoxon rank‐sum tests (Table <xref rid="alz70182-supinfo-0001" ref-type="">S4</xref>). The most abundant genera and species across groups are shown in Figure <xref rid="alz70182-fig-0002" ref-type="fig">2D</xref> and Figure <xref rid="alz70182-supinfo-0001" ref-type="">S1</xref>. The relative abundance of six microbial species was significantly altered in AD compared to HC, with all showing a reduction trend as cognitive decline advanced (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2E</xref>). The decreased abundance of SCFA‐producing bacteria, such as <italic toggle="yes">Faecalibacterium prausnitzii</italic>, <italic toggle="yes">Anaerostipes hadrus</italic>, and <italic toggle="yes">Butyrivibrio</italic>, is notable due to their anti‐inflammatory and neuroprotective effects. Their depletion could exacerbate neuroinflammation, advancing AD progression.<xref rid="alz70182-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="alz70182-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, <xref rid="alz70182-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>, <xref rid="alz70182-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> For the first time, we observed a reduction in <italic toggle="yes">Alistipes putredinis, Burkholderiales 1_1_4</italic>7, and <italic toggle="yes">Bacteroides clarus</italic> in AD or prodromal stages, suggesting potential systemic links between AD and other non‐neurological conditions. <italic toggle="yes">Alistipes putredinis</italic> has been previously associated with liver cirrhosis,<xref rid="alz70182-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>, <xref rid="alz70182-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+<italic toggle="yes">Burkholderiales 1_1_47</italic> with celiac and Wilson's diseases,<xref rid="alz70182-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>, <xref rid="alz70182-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> and <italic toggle="yes">Bacteroides clarus</italic> with end‐stage renal disease.<xref rid="alz70182-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>
+</p></sec><sec id="alz70182-sec-0240"><label>3.3.3</label><title>Impaired microbial metabolic pathways in MCI and AD groups</title><p>In the metagenomic pathway analysis, 12 pathways with significantly altered relative abundances in both MCI and AD compared to HC according to pairwise two‐sided Wilcoxon rank‐sum tests (Table <xref rid="alz70182-supinfo-0001" ref-type="">S5</xref>), were shown as raincloud plots, revealing overlapping and distinct processes, all with a downward trend (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2F</xref>). Notably, impairments in amino acid biosynthesis and degradation, particularly in several L‐Isoleucine (Ile) biosynthesis pathways, indicate disruptions in amino acid metabolism, which is crucial for maintaining neuronal structure and function. Additionally, two purine nucleotide biosynthesis pathways (inosine‐5′‐phosphate biosynthesis III and histidine, purine, and pyrimidine biosynthesis) were reduced, suggesting that disturbances in nucleotide metabolism and energy production are highly relevant to the disease continuum.<xref rid="alz70182-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> Furthermore, reductions in the Pyruvate Fermentation to Isobutanol pathway, the Calvin–Benson–Bassham cycle, and 4‐amino‐2‐methyl‐5‐ptrehosphomethylpyrimidine biosynthesis further emphasize impaired carbon metabolism, vitamin B1 biosynthesis and energy production in the brain.<xref rid="alz70182-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>, <xref rid="alz70182-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref>, <xref rid="alz70182-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref> Finally, the decay of polyamine putrescine biosynthesis pathway explained the previous finding that putrescine levels are decreased (28%) in temporal cortex of the AD patients.<xref rid="alz70182-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="alz70182-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>
+</p></sec></sec><sec id="alz70182-sec-0250"><label>3.4</label><title>Metabolomic disruption across the AD spectrum</title><p>Metabolomic profiling revealed significant disruptions across the AD spectrum according to pairwise Wilcoxon rank‐sum tests, with 48 metabolites downregulated and 136 upregulated in the AD group, compared to 8 downregulated and 7 upregulated in the MCI group, and 3 downregulated and 13 upregulated in the SCD group (Figure <xref rid="alz70182-fig-0003" ref-type="fig">3A</xref>). Among the most significantly upregulated metabolites in AD were L‐alpha‐aminobutyric acid (AABA), acetylglycine, dimethylglycine (DMG), inosine, tauro‐omega‐muricholic acid, menadione, and D‐aspartic acid (Figure <xref rid="alz70182-fig-0003" ref-type="fig">3A</xref>, Figure <xref rid="alz70182-supinfo-0001" ref-type="">S2</xref>). D‐aspartic acid levels in blood align with prior findings of elevated D‐aspartate in AD brain white matter, where levels were more than double those in healthy brains.<xref rid="alz70182-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> For the first time, AABA and acetylglycine were identified as potentially associated with metabolic dysfunction in AD, both linked to amino acid metabolism and previously implicated as biomarkers for conditions such as liver injury, sepsis, or metabolic disorders.<xref rid="alz70182-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, <xref rid="alz70182-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>, <xref rid="alz70182-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref> Notably, DMG and inosine, known for their neuroprotective effects,<xref rid="alz70182-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref>, <xref rid="alz70182-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>, <xref rid="alz70182-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref> were significantly elevated in AD patients, suggesting a compensatory response to neurodegenerative processes. Furthermore, tauro‐omega muricholic acid, involved in bile acid metabolism, and menadione, a key compound in vitamin K metabolism, showed significant increases.</p><fig position="float" fig-type="FIGURE" id="alz70182-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Differential metabolites across groups. (A) Volcano plot showing differential metabolite abundance between HC and each other group, with log₂ (Fold Change) on the <italic toggle="yes">x</italic>‐axis and ‐log₁₀ (<italic toggle="yes">p</italic>‐value) on the <italic toggle="yes">y</italic>‐axis. Dashed lines indicate thresholds for significance (<italic toggle="yes">p</italic> &lt; 0.05) and fold change (± 1). (B) PLS‐DA plot of metabolite abundance, illustrating group separation in the first two PLS components, which explain <italic toggle="yes">x</italic>% and <italic toggle="yes">y</italic>% of the variance. Ellipses (95% CI) enclose each group. CI, confidence interval; HC, healthy controls; PLS‐DA, partial least squares discriminant analysis.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ALZ-21-e70182-g007.jpg"/></fig><p>In contrast, taurocyamine was the most significantly downregulated metabolite in AD (Figure <xref rid="alz70182-fig-0003" ref-type="fig">3A</xref>, Figure <xref rid="alz70182-supinfo-0001" ref-type="">S2</xref>), a compound that provided neuroprotection by regulating intracellular pH and neurotransmitter systems.<xref rid="alz70182-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref> Sex steroid hormones were a big group decreased across the AD spectrum. Consistently, we observed reductions in progesterone, 17a‐hydroxyprogesterone, and androstenedione, in both MCI and AD subjects, as well as a decrease in dehydroepiandrosterone (DHEA) in both SCD and AD subjects.</p><p>ORA of the significantly altered metabolites identified disruptions in key pathways, including aspartate metabolism, glycine and serine metabolism, the urea cycle, and alanine metabolism, among others (Figure <xref rid="alz70182-supinfo-0001" ref-type="">S3</xref>).</p><p>PLS‐DA revealed the progressive nature of metabolic alterations, with the AD group showing a distinct separation from the other groups, while the MCI and SCD groups displayed intermediate profiles with less pronounced separation from HC (Figure <xref rid="alz70182-fig-0003" ref-type="fig">3B</xref>).</p></sec><sec id="alz70182-sec-0260"><label>3.5</label><title>Progressive brain structure atrophy</title><p>Voxel‐based morphometry (VBM) analysis revealed significant volume differences in targeted brain regions between the SCD, MCI, and AD groups compared to HC according to pairwise Wilcoxon rank‐sum tests (Table <xref rid="alz70182-supinfo-0001" ref-type="">S6–S7</xref>). These changes were visualized using volcano plots (Figure <xref rid="alz70182-fig-0004" ref-type="fig">4A</xref>) and highlighted on axial, coronal, and sagittal MRI views (Figure <xref rid="alz70182-fig-0004" ref-type="fig">4B</xref>). In SCD subjects, subtle changes were primarily observed in CSF‐filled spaces, including the left and right lateral ventricles, right temporal CSF, and right insula CSF, as well as in frontal lobe regions (right anterior cingulate gyrus and anterior orbital gyrus) associated with memory and emotional regulation. In the MCI group, a broader range of regions were affected, spanning nearly all major brain lobes (frontal, temporal, parietal, occipital), along with subcortical areas like the hippocampus and putamen, and the insular cortex, reflecting more extensive structural changes than SCD. Finally, the AD group revealed distinct brain alterations absent in the MCI and SCD groups, with extra ventricular enlargement and cerebellar involvement.</p><fig position="float" fig-type="FIGURE" id="alz70182-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Differential brain regions across groups. (A) Volcano plot of brain region volumes, with log₂ (fold change) on the <italic toggle="yes">x</italic>‐axis and ‐log₁₀ (<italic toggle="yes">p</italic>‐value) on the <italic toggle="yes">y</italic>‐axis. Dashed lines denote significance (<italic toggle="yes">p</italic> &lt; 0.05) and fold change thresholds (± 0.5). (B) Significantly changed brain regions highlighted on axial, coronal, and sagittal MRI views. (C) PLS‐DA plot of brain region volumes, showing group separation in the first two PLS components, explaining <italic toggle="yes">x</italic>% and <italic toggle="yes">y</italic>% of the variance, with 95% CI ellipses for each group. CI, confidence interval; MRI, magnetic resonance imaging; PLS‐DA, partial least squares discriminant analysis.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ALZ-21-e70182-g005.jpg"/></fig><p>PLS‐DA analysis of the altered brain regions further emphasized the progressive nature of brain atrophy, with a clear separation between the AD and HC groups, while the MCI and SCD groups showed more overlap with the HC group (Figure <xref rid="alz70182-fig-0004" ref-type="fig">4C</xref>).</p></sec><sec id="alz70182-sec-0270"><label>3.6</label><title>Distinct alterations in EEG PSD emerging from the SCD stage</title><p>Comparative analysis of EEG relative PSD across the delta, theta, alpha, beta1, beta2, gamma1, and gamma2 frequency bands revealed distinct patterns among the SCD, MCI, AD, and HC groups. Significant alterations in relative PSD were identified using pairwise Wilcoxon rank‐sum tests for each frequency band with topographical mapping illustrating the mean differences across groups (Figure <xref rid="alz70182-fig-0005" ref-type="fig">5</xref>). In SCD subjects, early changes were observed primarily in the beta2 and gamma1 bands. Beta2 activity showed a reduction in the posterior frontal lobe, while an increase was observed in the anterior frontal lobe. For the gamma1 band, reductions were localized to three distinct regions: the left frontal lobe, right frontal lobe, and right temporal lobe. Notably, in MCI subjects, no significant changes in PSD were observed across the examined frequency bands. In contrast, AD subjects exhibited widespread and distinct PSD changes across multiple frequency bands. The delta band showed a global increase, with the exception of the frontal cortex, central lobe, and a small region in the right temporal lobe. Similarly, the theta band displayed significant global enhancement, particularly in the parietal regions, while maintaining the same areas of exception as the delta band. Alpha activity was significantly reduced across the brain, with the most pronounced reductions in the parietal regions, although alpha activity persisted in the frontal pole. The beta1 band showed a localized reduction in the left temporal lobe.</p><fig position="float" fig-type="FIGURE" id="alz70182-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>EEG relative PSD topographic maps across comparisons. Topographic maps display significant mean differences (<italic toggle="yes">p</italic> &lt; 0.05) in EEG relative power across frequency bands (delta, theta, alpha, beta1, beta2, gamma1, gamma2) for three comparisons: SCD versus HC, MCI versus HC, and AD versus HC. These significant differences are derived from the Wilcoxon rank‐sum test. Rows represent comparisons, and columns represent frequency bands. The color scales are centered at zero and individually adjusted for each frequency band to reflect the range of power changes. AD, Alzheimer's disease; EEG, electroencephalogram; HC, healthy controls; MCI, mild cognitive impairment; PSD, power spectral density; SCD, subjective cognitive decline.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ALZ-21-e70182-g004.jpg"/></fig></sec><sec id="alz70182-sec-0280"><label>3.7</label><title>Progressive disruptions in EEG functional connectivity</title><p>EEG functional connectivity (FC), assessed using the dwPLI, revealed distinct patterns of connectivity changes across the SCD, MCI, and AD groups compared to HC. Mean differences in connectivity across seven frequency bands were visualized as heatmaps (Figure <xref rid="alz70182-fig-0006" ref-type="fig">6A</xref>), with the most significant connections identified using pairwise Wilcoxon rank‐sum tests and displayed in connectome plots (Figure <xref rid="alz70182-fig-0006" ref-type="fig">6B</xref>). These findings highlight a progression of connectivity alterations from the early stages of SCD to advanced neurodegeneration in AD.</p><fig position="float" fig-type="FIGURE" id="alz70182-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Differential FC across comparisons. (A) Heatmaps showing mean differences in FC across frequency bands (delta, theta, alpha, beta1, beta2, gamma1, gamma2) for three group comparisons: AD versus HC, MCI versus HC, and SCD versus HC. The color scale is centered at zero, with red indicating positive differences and blue indicating negative ones. Significant connections (<italic toggle="yes">p</italic> &lt; 0.05) from the Wilcoxon rank‐sum test are marked by scatter dots—red for positive and white for negative differences. Connectivity matrices are organized by brain regions (frontal lobe, parietal lobe, temporal lobe, occipital lobe, and subcortical structures), separated by dashed lines to enhance the interpretation of connectivity patterns across distinct areas. (B) Connectome plots showing significant FC networks across EEG frequency bands (e.g., theta, alpha, delta) for comparisons: SCD versus HC, MCI versus HC, and AD versus HC. Each plot highlights connections with significant differences (<italic toggle="yes">p</italic> &lt; 0.05) based on the Wilcoxon rank‐sum test, with connectivity change magnitude indicated by edge color. Positive differences above a threshold are shown in red, and negative differences below a threshold are in blue. The color scale is centered at zero and consistent across all bands and comparisons.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ALZ-21-e70182-g002.jpg"/></fig><p>In the SCD group, the theta band showed the most significant connectivity changes, characterized by widespread enhancement. The alpha band exhibited a non‐significant global increase in connectivity, while the gamma band displayed a global reduction. Connectivity changes in other frequency bands were largely scattered and less pronounced.</p><p>The MCI group exhibited the fewest changes in FC among the three cognitive decline groups compared to HC. The widespread theta band connectivity enhancement observed in SCD disappeared in MCI, replaced by significant reductions in FC within the frontal lobe. The most notable changes occurred in the gamma1 band, with significant enhancement concentrated within the temporal lobe and between the temporal lobe and subcortical structures.</p><p>In the AD group, FC changes were extensive and widespread. Theta connectivity showed a resurgence of enhancement, primarily concentrated within and between the parietal and occipital regions. Significant reductions in FC were observed across the alpha, beta1, beta2, and gamma1 bands, with the beta1 band displaying the most significantly altered connections. Reductions in the alpha and beta1 bands were global, while beta2 reductions were concentrated in the temporal and occipital lobes. The gamma1 band exhibited its most pronounced reductions in the occipital lobe.</p></sec><sec id="alz70182-sec-0290"><label>3.8</label><title>Integrating multimodal features for predictive modeling</title><p>Random forest models were employed to classify the three cognitive decline groups and HC using seven distinct feature groups, either individually or in combination: genetics, metagenomic species abundance, metagenomic pathways, metabolomics, brain region volumes, EEG relative PSD, and EEG FC (Table <xref rid="alz70182-tbl-0001" ref-type="table">1</xref>).</p><table-wrap position="float" id="alz70182-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Performance metrics of single and combined modalities (in bold) for AD versus HC, MCI versus HC, and SCD versus HC classification</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr><th colspan="6" style="border-bottom:solid 1px #000000" align="left" rowspan="1">SCD versus HC</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Precision</th><th align="left" rowspan="1" colspan="1">Recall</th><th align="left" rowspan="1" colspan="1">F1‐score</th><th align="left" rowspan="1" colspan="1">Specificity</th><th align="left" rowspan="1" colspan="1">AUC</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genetics</td><td align="left" rowspan="1" colspan="1">0.66</td><td align="left" rowspan="1" colspan="1">0.56</td><td align="left" rowspan="1" colspan="1">0.61</td><td align="left" rowspan="1" colspan="1">0.67</td><td align="left" rowspan="1" colspan="1">0.18</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomics</td><td align="left" rowspan="1" colspan="1">0.73</td><td align="left" rowspan="1" colspan="1">0.83</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.97</td><td align="left" rowspan="1" colspan="1">0.38</td></tr><tr><td align="left" rowspan="1" colspan="1">Metagenomic abudance</td><td align="left" rowspan="1" colspan="1">0.88</td><td align="left" rowspan="1" colspan="1">0.33</td><td align="left" rowspan="1" colspan="1">0.34</td><td align="left" rowspan="1" colspan="1">0.21</td><td align="left" rowspan="1" colspan="1">0.49</td></tr><tr><td align="left" rowspan="1" colspan="1">Metagenomic pathways</td><td align="left" rowspan="1" colspan="1">0.7</td><td align="left" rowspan="1" colspan="1">0.72</td><td align="left" rowspan="1" colspan="1">0.71</td><td align="left" rowspan="1" colspan="1">0.85</td><td align="left" rowspan="1" colspan="1">0.53</td></tr><tr><td align="left" rowspan="1" colspan="1">Brain region volume</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.79</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.6</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG relative PSD</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.8</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.69</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG FC</td><td align="left" rowspan="1" colspan="1">0.81</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.94</td><td align="left" rowspan="1" colspan="1">0.68</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG combined</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.78</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG + MRI</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.74</td></tr><tr><td align="left" rowspan="1" colspan="1">Meta combined</td><td align="left" rowspan="1" colspan="1">0.7</td><td align="left" rowspan="1" colspan="1">0.72</td><td align="left" rowspan="1" colspan="1">0.71</td><td align="left" rowspan="1" colspan="1">0.85</td><td align="left" rowspan="1" colspan="1">0.53</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG + MRI + Meta</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.78</td></tr><tr><td align="left" rowspan="1" colspan="1">All</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.78</td></tr></tbody></table><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr><th colspan="6" style="border-bottom:solid 1px #000000" align="left" rowspan="1">MCI versus HC</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Precision</th><th align="left" rowspan="1" colspan="1">Recall</th><th align="left" rowspan="1" colspan="1">F1‐score</th><th align="left" rowspan="1" colspan="1">Specificity</th><th align="left" rowspan="1" colspan="1">AUC</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genetics</td><td align="left" rowspan="1" colspan="1">0.65</td><td align="left" rowspan="1" colspan="1">0.56</td><td align="left" rowspan="1" colspan="1">0.59</td><td align="left" rowspan="1" colspan="1">0.61</td><td align="left" rowspan="1" colspan="1">0.39</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomics</td><td align="left" rowspan="1" colspan="1">0.74</td><td align="left" rowspan="1" colspan="1">0.77</td><td align="left" rowspan="1" colspan="1">0.75</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">0.74</td></tr><tr><td align="left" rowspan="1" colspan="1">Metagenomic abudance</td><td align="left" rowspan="1" colspan="1">0.58</td><td align="left" rowspan="1" colspan="1">0.7</td><td align="left" rowspan="1" colspan="1">0.64</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.69</td></tr><tr><td align="left" rowspan="1" colspan="1">Metagenomic pathways</td><td align="left" rowspan="1" colspan="1">0.6</td><td align="left" rowspan="1" colspan="1">0.77</td><td align="left" rowspan="1" colspan="1">0.67</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.49</td></tr><tr><td align="left" rowspan="1" colspan="1">Brain region volume</td><td align="left" rowspan="1" colspan="1">0.72</td><td align="left" rowspan="1" colspan="1">0.77</td><td align="left" rowspan="1" colspan="1">0.71</td><td align="left" rowspan="1" colspan="1">0.97</td><td align="left" rowspan="1" colspan="1">0.82</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG relative PSD</td><td align="left" rowspan="1" colspan="1">0.77</td><td align="left" rowspan="1" colspan="1">0.79</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.76</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG FC</td><td align="left" rowspan="1" colspan="1">0.67</td><td align="left" rowspan="1" colspan="1">0.79</td><td align="left" rowspan="1" colspan="1">0.73</td><td align="left" rowspan="1" colspan="1">0.97</td><td align="left" rowspan="1" colspan="1">0.49</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG combined</td><td align="left" rowspan="1" colspan="1">0.87</td><td align="left" rowspan="1" colspan="1">0.85</td><td align="left" rowspan="1" colspan="1">0.8</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.59</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG + MRI</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.97</td><td align="left" rowspan="1" colspan="1">0.81</td></tr><tr><td align="left" rowspan="1" colspan="1">Meta combined</td><td align="left" rowspan="1" colspan="1">0.68</td><td align="left" rowspan="1" colspan="1">0.75</td><td align="left" rowspan="1" colspan="1">0.69</td><td align="left" rowspan="1" colspan="1">0.94</td><td align="left" rowspan="1" colspan="1">0.69</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG + MRI + Meta</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.97</td><td align="left" rowspan="1" colspan="1">0.84</td></tr><tr><td align="left" rowspan="1" colspan="1">All</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.97</td><td align="left" rowspan="1" colspan="1">0.84</td></tr></tbody></table><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr><th colspan="6" style="border-bottom:solid 1px #000000" align="left" rowspan="1">AD versus HC</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Precision</th><th align="left" rowspan="1" colspan="1">Recall</th><th align="left" rowspan="1" colspan="1">F1‐score</th><th align="left" rowspan="1" colspan="1">Specificity</th><th align="left" rowspan="1" colspan="1">AUC</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genetics</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.67</td><td align="left" rowspan="1" colspan="1">0.71</td><td align="left" rowspan="1" colspan="1">0.7</td><td align="left" rowspan="1" colspan="1">0.6</td></tr><tr><td align="left" rowspan="1" colspan="1">Metabolomics</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.92</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.97</td><td align="left" rowspan="1" colspan="1">0.96</td></tr><tr><td align="left" rowspan="1" colspan="1">Metagenomic abundance</td><td align="left" rowspan="1" colspan="1">0.89</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.94</td></tr><tr><td align="left" rowspan="1" colspan="1">Metagenomic pathways</td><td align="left" rowspan="1" colspan="1">0.92</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.93</td></tr><tr><td align="left" rowspan="1" colspan="1">Brain region volume</td><td align="left" rowspan="1" colspan="1">0.92</td><td align="left" rowspan="1" colspan="1">0.93</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.88</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG relative PSD</td><td align="left" rowspan="1" colspan="1">0.75</td><td align="left" rowspan="1" colspan="1">0.76</td><td align="left" rowspan="1" colspan="1">0.75</td><td align="left" rowspan="1" colspan="1">0.88</td><td align="left" rowspan="1" colspan="1">0.68</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG FC</td><td align="left" rowspan="1" colspan="1">0.86</td><td align="left" rowspan="1" colspan="1">0.87</td><td align="left" rowspan="1" colspan="1">0.86</td><td align="left" rowspan="1" colspan="1">0.94</td><td align="left" rowspan="1" colspan="1">0.77</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG combined</td><td align="left" rowspan="1" colspan="1">0.82</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.83</td><td align="left" rowspan="1" colspan="1">0.94</td><td align="left" rowspan="1" colspan="1">0.84</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG + MRI</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.89</td><td align="left" rowspan="1" colspan="1">0.87</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.83</td></tr><tr><td align="left" rowspan="1" colspan="1">Meta combined</td><td align="left" rowspan="1" colspan="1">0.93</td><td align="left" rowspan="1" colspan="1">0.93</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.97</td></tr><tr><td align="left" rowspan="1" colspan="1">EEG + MRI + Meta</td><td align="left" rowspan="1" colspan="1">0.93</td><td align="left" rowspan="1" colspan="1">0.92</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.98</td></tr><tr><td align="left" rowspan="1" colspan="1">All</td><td align="left" rowspan="1" colspan="1">0.93</td><td align="left" rowspan="1" colspan="1">0.92</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.98</td></tr></tbody></table><table-wrap-foot><fn id="alz70182-tbl1-note-0001"><p>Abbreviations: AD, Alzheimer's disease; AUC, area under the curve; EEG, electroencephalogram; FC, functional connectivity; HC, healthy controls; MCI, mild cognitive impairment; MRI, magnetic resonance imaging; PSD, power spectral density; SCD, subjective cognitive decline.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>For distinguishing SCD from HC, molecular features, including genetics, metabolomics, metagenomic abundance, and metagenomic pathways, demonstrated poor predictive power, with AUCs ranging from 0.18 to 0.53. Neuroimaging features showed more promise, with brain region volume, EEG relative PSD, and EEG FC achieving moderate performances (AUCs = 0.60, 0.69, and 0.68, respectively). The best predictive model combined EEG relative PSD and FC, reaching an AUC of 0.78. However, adding any other modalities did not further improve the model's performance.</p><p>For MCI versus HC, while genetic features still performed poorly (AUC = 0.39), metagenomic abundance (AUC = 0.69) and metabolomics (AUC = 0.74) demonstrated moderate predictive potential. EEG features maintained predictive power like that observed in SCD, with EEG relative PSD alone achieving an AUC of 0.76, although adding FC did not improve performance. MRI brain region volumes outperformed all individual modalities (AUC = 0.82) and combining EEG and metagenomic features further increased the AUC to 0.84, though additional features did not yield further gains.</p><p>For distinguishing AD from HC, individual modalities demonstrated moderate to strong performance, with AUCs ranging from 0.60 to 0.94. Genetic features had the lowest predictive power (AUC = 0.60), while metabolomics, metagenomic abundance, metagenomic pathways, and MRI performed strongly, with AUCs of 0.96, 0.94, 0.93, and 0.88, respectively. In comparison, the predictive power of EEG features was lower but consistent with their performance in SCD and MCI, with EEG PSD achieving an AUC of 0.68 and FC 0.77. Combining the two EEG features improved the AUC to 0.84. The highest predictive power was achieved by combining metagenomic features (abundance and pathways) with EEG and MRI, yielding an AUC of 0.98.</p></sec></sec><sec id="alz70182-sec-0300"><label>4</label><title>DISCUSSION</title><p>In this study, we systematically investigated molecular, neurophysiological, and neurostructural changes throughout the progression of AD (Figure <xref rid="alz70182-fig-0007" ref-type="fig">7</xref>). Our findings demonstrate stage‐specific alterations across multiple modalities, offering valuable insights into the mechanisms underlying each stage of disease progression.</p><fig position="float" fig-type="FIGURE" id="alz70182-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>Biological changes during early stages of cognitive decline and progression to AD. AD, Alzheimer's disease; HC, healthy controls; MCI, mild cognitive impairment; SCD, subjective cognitive decline.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ALZ-21-e70182-g003.jpg"/></fig><p>In the SCD stage, neural electrical activity, as reflected by EEG signals, undergoes the most notable alterations. Localized changes in beta2 frequency PSD within the frontal lobe, along with reductions in gamma1 frequency in the frontal lobes and temporal lobe (Figure <xref rid="alz70182-fig-0005" ref-type="fig">5</xref>), suggest early dysfunctions in key cognitive regions. These regions are involved in decision‐making, attention, working memory, and cognitive processing and may be among the first to show functional impairments in SCD individuals. This aligns with their self‐reported cognitive difficulties. FC patterns further support these findings. The theta band, which is critical for cognitive processes such as learning and control, shows enhanced connectivity. In contrast, the gamma band, essential for large‐scale network activity and higher‐order functions like working memory and attention, exhibits reduced connectivity. Prior research has shown a negative correlation between theta connectivity and cognitive scores in AD,<xref rid="alz70182-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref> while reduced gamma connectivity has been linked to cognitive decline in MCI and AD.<xref rid="alz70182-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref> In our study, we confirm this pattern in the SCD stage, which could further suggest that the onset of cognitive complaints in SCD may coincide with the disruption of neural communication and synaptic efficiency. The observed enhancement in theta connectivity could reflect the brain's compensatory attempt to preserve baseline cognitive function by strengthening communication between regions. However, this compensatory hyperconnectivity may come at the cost of network efficiency, as it relies on low‐frequency synchrony<xref rid="alz70182-tbl-0001" ref-type="table"> </xref> rather than the more efficient, higher‐frequency gamma activity. Compensatory efforts extend beyond neural activity to include metabolomic changes. Specifically, there is a decrease in adenosine monophosphate (AMP) and an increase in cyclic AMP (cAMP), suggesting possible inhibition of phosphodiesterase (PDE), the enzyme that hydrolyzes cAMP to AMP.<xref rid="alz70182-bib-0057" ref-type="bibr">
+<sup>57</sup>
+</xref> This inhibition could potentially enhance cognitive functions.<xref rid="alz70182-bib-0058" ref-type="bibr">
+<sup>58</sup>
+</xref> Consistently, neuroprotective metabolites such as nicotinic acid,<xref rid="alz70182-bib-0059" ref-type="bibr">
+<sup>59</sup>
+</xref> retinol,<xref rid="alz70182-bib-0060" ref-type="bibr">
+<sup>60</sup>
+</xref> betaine,<xref rid="alz70182-bib-0061" ref-type="bibr">
+<sup>61</sup>
+</xref> and piperine<xref rid="alz70182-bib-0062" ref-type="bibr">
+<sup>62</sup>
+</xref> have been observed to increase. These metabolic compensatory mechanisms may stabilize neural activity despite ongoing neurodegeneration. Consequently, EEG alterations in MCI were less pronounced, with significant PSD changes seen in the SCD stage no longer present, and notable FC disruptions reduced—a compensatory phenomenon previously reported.<xref rid="alz70182-bib-0063" ref-type="bibr">
+<sup>63</sup>
+</xref>, <xref rid="alz70182-fig-0007" ref-type="fig"> </xref>
+</p><p>However, molecular and neuroanatomical changes, particularly in metagenomics and structural MRI, became more prominent in MCI, suggesting dysfunctions along the gut–brain axis. Metagenomic alterations are characterized by shifts in microbial diversity, reduced abundance of key microbial species, and impaired functional pathways, while structural changes visible on MRI highlight widespread brain atrophy. The reduction in alpha diversity and increase in beta diversity of the microbiota (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2A,B</xref>) suggest a loss of core beneficial species and an overgrowth of opportunistic or pathogenic ones. This imbalance weakens microbiome resilience and likely disrupts essential microbial functions that support neuronal health, as evidenced by the decline of key functional species, such as short‐chain fatty acid (SCFA) ‐producing bacteria (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2D</xref>). Changes in microbial composition are accompanied by disturbances in corresponding functional pathways (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2E</xref>). These disruptions affect amino acid metabolism, nucleotide biosynthesis, vitamin biosynthesis, and energy production. Such alterations may weaken neural support from the gut–brain axis, exacerbating neuronal stress and synaptic dysfunction. MRI‐detected brain atrophy corresponds to these disruptions and affects major regions, including all lobes and subcortical areas such as the hippocampus, putamen, and insular cortex (Figure <xref rid="alz70182-fig-0004" ref-type="fig">4A,B</xref>). This suggests that cognitive decline in MCI extends beyond memory‐related regions. It involves a broader network of brain areas responsible for memory, attention, language, and executive processing.</p><p>In AD, a widespread and systemic breakdown occurs across all modalities, compounded by an elevated genetic risk that is less apparent in the SCD and MCI stages. Neurophysiologically, the manifestation of alteration of certain EEG activities in SCD, although diminished in the MCI group, re‐appears as a systematic global disruption in AD (Figure <xref rid="alz70182-fig-0005" ref-type="fig">5</xref>). The most substantial changes include an increase in relative PSD within low‐frequency bands (delta and theta) and a decrease in high‐frequency bands (alpha and beta1). Additionally, FC in the theta band is significantly enhanced, whereas high‐frequency bands (alpha, beta1, beta2, gamma1) exhibit reduced connectivity. These findings align with previous observations, suggesting a slowing of neural oscillations as the brain shifts from efficient high‐frequency communication to slower, less efficient synchronization, characteristic of advanced cognitive decline.<xref rid="alz70182-bib-0064" ref-type="bibr">
+<sup>64</sup>
+</xref> These widespread changes indicate a breakdown in the brain's capacity for complex information integration and rapid neural processing. This disruption severely impacts cognitive control, sensory processing, and information integration. Structural MRI findings (Figure <xref rid="alz70182-fig-0004" ref-type="fig">4B</xref>) align with these observations, revealing advanced neurodegeneration. Key changes include ventricular enlargement and cerebellar involvement, which are associated with severe deficits in memory, executive functions, language, and visuospatial skills.<xref rid="alz70182-bib-0065" ref-type="bibr">
+<sup>65</sup>
+</xref>, <xref rid="alz70182-bib-0066" ref-type="bibr">
+<sup>66</sup>
+</xref>
+</p><p>The neural changes in AD are paralleled by systemic dysfunctions, as evidenced by pronounced disruptions in metagenomics. Notably, blood–brain barrier (BBB) protective and anti‐inflammatory SCFA‐producing bacteria<xref rid="alz70182-bib-0067" ref-type="bibr">
+<sup>67</sup>
+</xref> decreased while pro‐inflammatory species increased (Figure <xref rid="alz70182-fig-0002" ref-type="fig">2D</xref>), suggesting an underlying systemic inflammatory response. As the BBB's permeability increases, neuroinflammatory agents and microbial metabolites may infiltrate the brain, further disrupting neural communication and accelerating neurodegeneration. This is further supported by a significant rise in altered blood metabolites in AD patients compared to those in the SCD and MCI groups (Figure <xref rid="alz70182-fig-0003" ref-type="fig">3A</xref>). The altered metabolites span a wide range, including amino acids, nucleotides, steroid hormones, fatty acids, phospholipids, organic acids, and vitamins, each involved in essential biological processes such as amino acid and nucleotide metabolism, vitamin biosynthesis, energy production, neurotransmission, and inflammatory responses, closely mirroring the metagenomic functional pathway alterations observed in MCI and AD. This supports the reasonable inference that dysfunctions in these metagenomic pathways, initially manifesting in the MCI stage, accumulate progressively, culminating in pronounced microbial functional shifts and notably, in distinct and significant corresponding metabolomic alterations in the AD stage.</p><sec id="alz70182-sec-0310"><label>4.1</label><title>Clinical implications and potential interventions</title><p>Our findings highlight EEG's potential as an early biomarker for SCD, capable of detecting subtle neurophysiological changes with an AUC of 0.78 and specificity of 0.91, outperforming other individual or combined modalities for SCD prediction. While previous studies have demonstrated that EEG beta2 PSD can serve as a surrogate marker for memory impairment as early as the MCI stage,<xref rid="alz70182-bib-0068" ref-type="bibr">
+<sup>68</sup>
+</xref> our study extends this insight to the earlier SCD stage. Furthermore, our identification of significant gamma frequency changes in SCD subjects is unprecedented,<xref rid="alz70182-bib-0069" ref-type="bibr">
+<sup>69</sup>
+</xref> representing a novel contribution to the understanding of this early stage. These early alterations signal the onset of neural dysfunction, positioning EEG as a promising non‐invasive tool for early screening, and more importantly, highlighting a critical window for intervention. As such, techniques like repetitive transcranial magnetic stimulation (rTMS) and transcranial direct current stimulation (tDCS), known to modulate neural activity and enhance neuroplasticity,<xref rid="alz70182-bib-0070" ref-type="bibr">
+<sup>70</sup>
+</xref> may effectively mitigate early disruptions identified by EEG, stabilizing or even reversing neurophysiological changes and potentially delaying cognitive decline. Furthermore, the observed metabolomic compensatory mechanisms suggest targeting phosphodiesterase inhibition with commercially available inhibitors or enhancing neuroprotective metabolites through dietary supplements such as vitamin A (retinol), vitamin B₃ (nicotinic acid), betaine, and piperine.</p><p>Neuroanatomical changes in SCD are subtle yet present promising potential as biomarkers. While previous studies identified lateral ventricle enlargement starting at the MCI stage as a marker of AD progression,<xref rid="alz70182-bib-0066" ref-type="bibr">
+<sup>66</sup>
+</xref> our study extends this finding to SCD, demonstrating consistent lateral ventricular enlargement across the AD continuum (Figure <xref rid="alz70182-fig-0004" ref-type="fig">4A</xref>). Additionally, we observed increased CSF in the insula and temporal lobe, areas previously overlooked in AD research. Furthermore, consistent with prior research linking reduced cortical thickness in the anterior cingulate cortex to progression from amnestic MCI to AD,<xref rid="alz70182-bib-0071" ref-type="bibr">
+<sup>71</sup>
+</xref> we identified structural atrophy in the anterior cingulate gyrus in individuals with SCD. We also found atrophy in the anterior orbital gyrus, a region not previously associated with AD.</p><p>In the MCI stage, a multimodal approach integrating EEG, MRI, and metagenomics showed strong predictive power (AUC of 0.84, specificity of 0.97) for distinguishing MCI from HC, capturing both compensatory neural activity and emerging gut–brain axis dysfunctions. Targeting the gut–brain axis with prebiotics, probiotics, or fecal microbiota transplantation (FMT) may offer therapeutic benefits. For example, the decline in SCFA‐producing bacteria can be mitigated by increasing dietary fiber intake, presenting a promising strategy.</p><p>By the AD stage, individual metabolomic, metagenomic, EEG, and MRI features each provide high precision and specificity, enabling AD detection with significant accuracy. Each modality holds the potential to be developed into a simple, convenient, and cost‐effective screening method. For instance, combining specific metabolites (AABA, acetylglycine, tauro‐omega‐muricholic acid, and menadione) provides nearly perfect predictive performance, suggesting a promising path for AD screening based on these metabolic markers. This systemic disruption highlights a transition from regional to widespread neurodegeneration, thus indicating that a more comprehensive therapeutic approach is required.</p></sec><sec id="alz70182-sec-0320"><label>4.2</label><title>Conclusion and future directions</title><p>Overall, our findings reinforce the understanding that AD represents a stage of multisystem dysfunction. It is initiated by early neural disruptions and accompanied by compensatory metabolomic responses. This progression is followed by dysfunction in the gut–brain axis, compounded by impairment of the BBB, and culminates in widespread metabolic abnormalities and systemic breakdown (Figure <xref rid="alz70182-fig-0007" ref-type="fig">7</xref>). EEG proves to be a promising early‐stage screening tool for SCD, while metagenomics and MRI improve classification in MCI. In AD, multiple approaches achieve near‐perfect differentiation. Although the imbalance in participant numbers across different groups may limit the interpretation of our findings, future studies should validate these results in larger cohorts, ideally with more balanced group sizes and multi‐center collaborations. Additionally, further exploration of these biomarkers for monitoring disease progression is warranted.</p></sec></sec><sec sec-type="COI-statement" id="alz70182-sec-0340"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest. Author disclosures are available in the <xref rid="alz70182-supinfo-0001" ref-type="">Supporting Information</xref>.</p></sec><sec id="alz70182-sec-0350"><title>CONSENT STATEMENT</title><p>All human subjects involved in this study provided informed consent prior to their participation.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="alz70182-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="alz70182-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e70182-s003.xlsx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz70182-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e70182-s002.pptx" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="alz70182-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ALZ-21-e70182-s001.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="alz70182-sec-0330"><title>ACKNOWLEDGMENTS</title><p>The authors thank the Shenzhen Key Laboratory of Neurogenomics for assistance with sequencing and analysis. This study was supported by the Ministry of Science and Technology of China (Grant No. 2022ZD0211600), the National Key R&amp;D Program of China (Grant No. 2023YFC3603300), the Natural Science Foundation of China (Grant No. 82371471), the Research Program of Central Health Commission (Grant No. 2024YB59), and the Special Foundation for Shenzhen Basic Research Program (Grant No. JCYJ20240813103817024).</p></ack><ref-list id="alz70182-bibl-0001"><title>REFERENCES</title><ref id="alz70182-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="alz70182-cite-0002">
+<string-name name-style="western">
+<surname>Gauthier</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reisberg</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zaudig</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Mild cognitive impairment</article-title>. <source>Lancet</source>. <year>2006</year>;<volume>367</volume>(<issue>9518</issue>):<fpage>1262</fpage>‐<lpage>1270</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(06)68542-5</pub-id>
+<pub-id pub-id-type="pmid">16631882</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="alz70182-cite-0003">
+<string-name name-style="western">
+<surname>Jessen</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amariglio</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Boxtel</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>A conceptual framework for research on subjective cognitive decline in preclinical Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2014</year>;<volume>10</volume>(<issue>6</issue>):<fpage>844</fpage>‐<lpage>852</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jalz.2014.01.001</pub-id>
+<pub-id pub-id-type="pmid">24798886</pub-id>
+<pub-id pub-id-type="pmcid">PMC4317324</pub-id></mixed-citation></ref><ref id="alz70182-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="alz70182-cite-0004">
+<string-name name-style="western">
+<surname>Jessen</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amariglio</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buckley</surname>
+<given-names>RF</given-names>
+</string-name>, et al. <article-title>The characterisation of subjective cognitive decline</article-title>. <source>Lancet Neurol</source>. <year>2020</year>;<volume>19</volume>(<issue>3</issue>):<fpage>271</fpage>‐<lpage>278</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(19)30368-0</pub-id>
+<pub-id pub-id-type="pmid">31958406</pub-id>
+<pub-id pub-id-type="pmcid">PMC7062546</pub-id></mixed-citation></ref><ref id="alz70182-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="alz70182-cite-0005">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xia</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Recent advances in Alzheimer's disease: mechanisms, clinical trials and new drug development strategies</article-title>. <source>Signal Transduct Target Ther</source>. <year>2024</year>;<volume>9</volume>(<issue>1</issue>):<fpage>211</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41392-024-01911-3</pub-id>
+<pub-id pub-id-type="pmid">39174535</pub-id>
+<pub-id pub-id-type="pmcid">PMC11344989</pub-id></mixed-citation></ref><ref id="alz70182-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="alz70182-cite-0006">
+<string-name name-style="western">
+<surname>Angelopoulou</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paudel</surname>
+<given-names>YN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Papageorgiou</surname>
+<given-names>SG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piperi</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>APOE genotype and Alzheimer's disease: the influence of lifestyle and environmental factors</article-title>. <source>ACS Chem Neurosci</source>. <year>2021</year>;<volume>12</volume>(<issue>15</issue>):<fpage>2749</fpage>‐<lpage>2764</lpage>. doi:<pub-id pub-id-type="doi">10.1021/acschemneuro.1c00295</pub-id>
+<pub-id pub-id-type="pmid">34275270</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="alz70182-cite-0007">
+<string-name name-style="western">
+<surname>Seo</surname>
+<given-names>DO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holtzman</surname>
+<given-names>DM</given-names>
+</string-name>. <article-title>Current understanding of the Alzheimer's disease‐associated microbiome and therapeutic strategies</article-title>. <source>Exp Mol Med</source>. <year>2024</year>;<volume>56</volume>(<issue>1</issue>):<fpage>86</fpage>‐<lpage>94</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s12276-023-01146-2</pub-id>
+<pub-id pub-id-type="pmid">38172602</pub-id>
+<pub-id pub-id-type="pmcid">PMC10834451</pub-id></mixed-citation></ref><ref id="alz70182-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="alz70182-cite-0008">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Identification of blood metabolites associated with risk of Alzheimer's disease by integrating genomics and metabolomics data</article-title>. <source>Mol Psychiatr</source>. <year>2024</year>;<volume>29</volume>(<issue>4</issue>):<fpage>1153</fpage>‐<lpage>1162</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41380-023-02400-9</pub-id>
+<pub-id pub-id-type="pmcid">PMC11176029</pub-id><pub-id pub-id-type="pmid">38216726</pub-id></mixed-citation></ref><ref id="alz70182-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="alz70182-cite-0009">
+<string-name name-style="western">
+<surname>Teruya</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>YJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kondoh</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fukuji</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yanagida</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Whole‐blood metabolomics of dementia patients reveal classes of disease‐linked metabolites</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2021</year>;<volume>118</volume>(<issue>37</issue>):<elocation-id>e2022857118</elocation-id>. doi:<pub-id pub-id-type="doi">10.1073/pnas.2022857118</pub-id>
+<pub-id pub-id-type="pmid">34493657</pub-id>
+<pub-id pub-id-type="pmcid">PMC8449400</pub-id></mixed-citation></ref><ref id="alz70182-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="alz70182-cite-0010">
+<string-name name-style="western">
+<surname>Rossini</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Iorio</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vecchio</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>Early diagnosis of Alzheimer's disease: the role of biomarkers including advanced EEG signal analysis. Report from the IFCN‐sponsored panel of experts</article-title>. <source>Clin Neurophysiol</source>. <year>2020</year>;<volume>131</volume>(<issue>6</issue>):<fpage>1287</fpage>‐<lpage>1310</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.clinph.2020.03.003</pub-id>
+<pub-id pub-id-type="pmid">32302946</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="alz70182-cite-0011">
+<string-name name-style="western">
+<surname>Babiloni</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arakaki</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Azami</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Measures of resting state EEG rhythms for clinical trials in Alzheimer's disease: recommendations of an expert panel</article-title>. <source>Alzheimers Dement</source>. <year>2021</year>;<volume>17</volume>(<issue>9</issue>):<fpage>1528</fpage>‐<lpage>1553</lpage>.<pub-id pub-id-type="pmid">33860614</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/alz.12311</pub-id><pub-id pub-id-type="pmcid">PMC8647863</pub-id></mixed-citation></ref><ref id="alz70182-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="alz70182-cite-0012">
+<string-name name-style="western">
+<surname>Fox</surname>
+<given-names>NC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schott</surname>
+<given-names>JM</given-names>
+</string-name>. <article-title>Imaging cerebral atrophy: normal ageing to Alzheimer's disease</article-title>. <source>Lancet</source>. <year>2004</year>;<volume>363</volume>(<issue>9406</issue>):<fpage>392</fpage>‐<lpage>394</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s0140-6736(04)15441-x</pub-id>
+<pub-id pub-id-type="pmid">15074306</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="alz70182-cite-0013">
+<string-name name-style="western">
+<surname>Nativio</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lan</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donahue</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>An integrated multi‐omics approach identifies epigenetic alterations associated with Alzheimer's disease</article-title>. <source>Nat Genet</source>. <year>2020</year>;<volume>52</volume>(<issue>10</issue>):<fpage>1024</fpage>‐<lpage>1035</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-020-0696-0</pub-id>
+<pub-id pub-id-type="pmid">32989324</pub-id>
+<pub-id pub-id-type="pmcid">PMC8098004</pub-id></mixed-citation></ref><ref id="alz70182-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="alz70182-cite-0014">
+<string-name name-style="western">
+<surname>Francois</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karpe</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>JW</given-names>
+</string-name>, et al. <article-title>Multi‐omics, an integrated approach to identify novel blood biomarkers of Alzheimer's disease</article-title>. <source>Metabolites</source>. <year>2022</year>;<volume>12</volume>(<issue>10</issue>):<fpage>949</fpage>. doi:<pub-id pub-id-type="doi">10.3390/metabo12100949</pub-id>
+<pub-id pub-id-type="pmid">36295851</pub-id>
+<pub-id pub-id-type="pmcid">PMC9610280</pub-id></mixed-citation></ref><ref id="alz70182-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="alz70182-cite-0015">
+<string-name name-style="western">
+<surname>Vacher</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Canovas</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Laws</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doecke</surname>
+<given-names>JD</given-names>
+</string-name>. <article-title>A comprehensive multi‐omics analysis reveals unique signatures to predict Alzheimer's disease</article-title>. <source>Front Bioinform</source>. <year>2024</year>;<volume>4</volume>:<elocation-id>1390607</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fbinf.2024.1390607</pub-id>
+<pub-id pub-id-type="pmid">38962175</pub-id>
+<pub-id pub-id-type="pmcid">PMC11219798</pub-id></mixed-citation></ref><ref id="alz70182-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="alz70182-cite-0016">
+<string-name name-style="western">
+<surname>Oka</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matsuzawa</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tsuneyoshi</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Multiomics analysis to explore blood metabolite biomarkers in an Alzheimer's Disease Neuroimaging Initiative cohort</article-title>. <source>Sci Rep</source>. <year>2024</year>;<volume>14</volume>(<issue>1</issue>):<fpage>6797</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-024-56837-1</pub-id>
+<pub-id pub-id-type="pmid">38565541</pub-id>
+<pub-id pub-id-type="pmcid">PMC10987653</pub-id></mixed-citation></ref><ref id="alz70182-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="alz70182-cite-0017">
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>LY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vaghari</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burkhart</surname>
+<given-names>MC</given-names>
+</string-name>, et al. <article-title>Robust and interpretable AI‐guided marker for early dementia prediction in real‐world clinical settings</article-title>. <source>eClinicalMedicine</source>. <year>2024</year>;<volume>74</volume>:<elocation-id>102725</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.eclinm.2024.102725</pub-id>
+<pub-id pub-id-type="pmid">39764178</pub-id>
+<pub-id pub-id-type="pmcid">PMC11701481</pub-id></mixed-citation></ref><ref id="alz70182-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="alz70182-cite-0018">
+<string-name name-style="western">
+<surname>Avelar‐Pereira</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Belloy</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Hara</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hosseini</surname>
+<given-names>SMH</given-names>
+</string-name>; <collab collab-type="authors">Alzheimer's Disease Neuroimaging Initiative</collab>
+<article-title>. Decoding the heterogeneity of Alzheimer's disease diagnosis and progression using multilayer networks</article-title>. <source>Mol Psychiatry</source>. <year>2023</year>;<volume>28</volume>(<issue>6</issue>):<fpage>2423</fpage>‐<lpage>2432</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41380-022-01886-z</pub-id>
+<pub-id pub-id-type="pmid">36539525</pub-id>
+<pub-id pub-id-type="pmcid">PMC10279806</pub-id></mixed-citation></ref><ref id="alz70182-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="alz70182-cite-0019">
+<string-name name-style="western">
+<surname>Deng</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kavcic</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giordani</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Novel methodology for detection and prediction of mild cognitive impairment using resting‐state EEG</article-title>. <source>Alzheimers Dement</source>. <year>2024</year>;<volume>20</volume>(<issue>1</issue>):<fpage>145</fpage>‐<lpage>158</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alz.13411</pub-id>
+<pub-id pub-id-type="pmid">37496373</pub-id>
+<pub-id pub-id-type="pmcid">PMC10811294</pub-id></mixed-citation></ref><ref id="alz70182-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="alz70182-cite-0020">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Durbin</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Fast and accurate short read alignment with Burrows‐Wheeler transform</article-title>. <source>Bioinformatics</source>. <year>2009</year>;<volume>25</volume>(<issue>14</issue>):<fpage>1754</fpage>‐<lpage>1760</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bioinformatics/btp324</pub-id>
+<pub-id pub-id-type="pmid">19451168</pub-id>
+<pub-id pub-id-type="pmcid">PMC2705234</pub-id></mixed-citation></ref><ref id="alz70182-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="alz70182-cite-0021">
+<string-name name-style="western">
+<surname>McKenna</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hanna</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Banks</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>The genome analysis toolkit: a MapReduce framework for analyzing next‐generation DNA sequencing data</article-title>. <source>Genome Res</source>. <year>2010</year>;<volume>20</volume>(<issue>9</issue>):<fpage>1297</fpage>‐<lpage>1303</lpage>. doi:<pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id>
+<pub-id pub-id-type="pmid">20644199</pub-id>
+<pub-id pub-id-type="pmcid">PMC2928508</pub-id></mixed-citation></ref><ref id="alz70182-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="alz70182-cite-0022">
+<string-name name-style="western">
+<surname>Lambert</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gil</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jupp</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>The polygenic score catalog as an open database for reproducibility and systematic evaluation</article-title>. <source>Nat Genet</source>. <year>2021</year>;<volume>53</volume>(<issue>4</issue>):<fpage>420</fpage>‐<lpage>425</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-021-00783-5</pub-id>
+<pub-id pub-id-type="pmid">33692568</pub-id>
+<pub-id pub-id-type="pmcid">PMC11165303</pub-id></mixed-citation></ref><ref id="alz70182-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="alz70182-cite-0023">
+<string-name name-style="western">
+<surname>Sleiman</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qu</surname>
+<given-names>HQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Connolly</surname>
+<given-names>JJ</given-names>
+</string-name>, et al. <article-title>Trans‐ethnic genomic informed risk assessment for Alzheimer's disease: an International Hundred K+ Cohorts Consortium Study</article-title>. <source>Alzheimers Dement</source>. <year>2023</year>;<volume>19</volume>(<issue>12</issue>):<fpage>5765</fpage>‐<lpage>5772</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alz.13378</pub-id>
+<pub-id pub-id-type="pmid">37450379</pub-id>
+<pub-id pub-id-type="pmcid">PMC10854406</pub-id></mixed-citation></ref><ref id="alz70182-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="alz70182-cite-0024">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Luo</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Assessment of fecal DNA extraction protocols for metagenomic studies</article-title>. <source>GigaScience</source>. <year>2020</year>;<volume>9</volume>(<issue>7</issue>):<elocation-id>giaa071</elocation-id>. doi:<pub-id pub-id-type="doi">10.1093/gigascience/giaa071</pub-id>
+<pub-id pub-id-type="pmid">32657325</pub-id>
+<pub-id pub-id-type="pmcid">PMC7355182</pub-id></mixed-citation></ref><ref id="alz70182-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="alz70182-cite-0025">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>SOAP2: an improved ultrafast tool for short read alignment</article-title>. <source>Bioinformatics</source>. <year>2009</year>;<volume>25</volume>(<issue>15</issue>):<fpage>1966</fpage>‐<lpage>1967</lpage>.<pub-id pub-id-type="pmid">19497933</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp336</pub-id></mixed-citation></ref><ref id="alz70182-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="alz70182-cite-0026">
+<string-name name-style="western">
+<surname>Truong</surname>
+<given-names>DT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Franzosa</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tickle</surname>
+<given-names>TL</given-names>
+</string-name>, et al. <article-title>MetaPhlAn2 for enhanced metagenomic taxonomic profiling</article-title>. <source>Nat Methods</source>. <year>2015</year>;<volume>12</volume>(<issue>10</issue>):<fpage>902</fpage>‐<lpage>903</lpage>.<pub-id pub-id-type="pmid">26418763</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.3589</pub-id></mixed-citation></ref><ref id="alz70182-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="alz70182-cite-0027">
+<string-name name-style="western">
+<surname>Franzosa</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McIver</surname>
+<given-names>LJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rahnavard</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Species‐level functional profiling of metagenomes and metatranscriptomes</article-title>. <source>Nat Methods</source>. <year>2018</year>;<volume>15</volume>(<issue>11</issue>):<fpage>962</fpage>‐<lpage>968</lpage>.<pub-id pub-id-type="pmid">30377376</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41592-018-0176-y</pub-id><pub-id pub-id-type="pmcid">PMC6235447</pub-id></mixed-citation></ref><ref id="alz70182-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="alz70182-cite-0028">
+<string-name name-style="western">
+<surname>Zhuye</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Suisha</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qiuxia</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>A multi‐omic cohort as a reference point for promoting a healthy human gut microbiome</article-title>. <source>bioRxiv</source>. <year>2019</year>:<elocation-id>585893</elocation-id>. doi:<pub-id pub-id-type="doi">10.1101/585893</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="alz70182-cite-0029">
+<string-name name-style="western">
+<surname>Pang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation</article-title>. <source>Nucleic Acids Research</source>. <year>2024</year>;<volume>52</volume>(<issue>W1</issue>):<fpage>W398</fpage>‐<lpage>W406</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkae253</pub-id>
+<pub-id pub-id-type="pmid">38587201</pub-id>
+<pub-id pub-id-type="pmcid">PMC11223798</pub-id></mixed-citation></ref><ref id="alz70182-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="alz70182-cite-0030">
+<string-name name-style="western">
+<surname>Delorme</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Makeig</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>EEGLAB: an open source toolbox for analysis of single‐trial EEG dynamics including independent component analysis</article-title>. <source>J Neurosci Methods</source>. <year>2004</year>;<volume>134</volume>(<issue>1</issue>):<fpage>9</fpage>‐<lpage>21</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jneumeth.2003.10.009</pub-id>
+<pub-id pub-id-type="pmid">15102499</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="alz70182-cite-0031">
+<string-name name-style="western">
+<surname>Vinck</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oostenveld</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Wingerden</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Battaglia</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pennartz</surname>
+<given-names>CM</given-names>
+</string-name>. <article-title>An improved index of phase‐synchronization for electrophysiological data in the presence of volume‐conduction, noise and sample‐size bias</article-title>. <source>Neuroimage</source>. <year>2011</year>;<volume>55</volume>(<issue>4</issue>):<fpage>1548</fpage>‐<lpage>1565</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.01.055</pub-id>
+<pub-id pub-id-type="pmid">21276857</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="alz70182-cite-0032">
+<string-name name-style="western">
+<surname>Oostenveld</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fries</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maris</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schoffelen</surname>
+<given-names>JM</given-names>
+</string-name>. <article-title>FieldTrip: open source software for advanced analysis of MEG, EEG, and invasive electrophysiological data</article-title>. <source>Comput Intell Neurosci</source>. <year>2011</year>;<volume>2011</volume>:<elocation-id>156869</elocation-id>. doi:<pub-id pub-id-type="doi">10.1155/2011/156869</pub-id>
+<pub-id pub-id-type="pmid">21253357</pub-id>
+<pub-id pub-id-type="pmcid">PMC3021840</pub-id></mixed-citation></ref><ref id="alz70182-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="alz70182-cite-0033">
+<string-name name-style="western">
+<surname>Desikan</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ségonne</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fischl</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest</article-title>. <source>Neuroimage</source>. <year>2006</year>;<volume>31</volume>(<issue>3</issue>):<fpage>968</fpage>‐<lpage>980</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2006.01.021</pub-id>
+<pub-id pub-id-type="pmid">16530430</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="alz70182-cite-0034">
+<string-name name-style="western">
+<surname>Leylabadlo</surname>
+<given-names>HE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ghotaslou</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feizabadi</surname>
+<given-names>MM</given-names>
+</string-name>, et al. <article-title>The critical role of Faecalibacterium prausnitzii in human health: an overview</article-title>. <source>Microb Pathog</source>. <year>2020</year>;<volume>149</volume>:<elocation-id>104344</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.micpath.2020.104344</pub-id>
+<pub-id pub-id-type="pmid">32534182</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="alz70182-cite-0035">
+<string-name name-style="western">
+<surname>Ferreiro</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choi</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ryou</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Gut microbiome composition may be an indicator of preclinical Alzheimer's disease</article-title>. <source>Sci Transl Med</source>. <year>2023</year>;<volume>15</volume>(<issue>700</issue>):<elocation-id>eabo2984</elocation-id>. doi:<pub-id pub-id-type="doi">10.1126/scitranslmed.abo2984</pub-id>
+<pub-id pub-id-type="pmid">37315112</pub-id>
+<pub-id pub-id-type="pmcid">PMC10680783</pub-id></mixed-citation></ref><ref id="alz70182-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="alz70182-cite-0036">
+<string-name name-style="western">
+<surname>Lopez‐Siles</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duncan</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garcia‐Gil</surname>
+<given-names>LJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martinez‐Medina</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Faecalibacterium prausnitzii : from microbiology to diagnostics and prognostics</article-title>. <source>ISME J</source>. <year>2017</year>;<volume>11</volume>(<issue>4</issue>):<fpage>841</fpage>‐<lpage>852</lpage>.<pub-id pub-id-type="pmid">28045459</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ismej.2016.176</pub-id><pub-id pub-id-type="pmcid">PMC5364359</pub-id></mixed-citation></ref><ref id="alz70182-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="alz70182-cite-0037">
+<string-name name-style="western">
+<surname>Shao</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ling</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Disorganized gut microbiome contributed to liver cirrhosis progression: a meta‐omics‐based study</article-title>. <source>Front Microbiol</source>. <year>2018</year>;<volume>9</volume>:<fpage>3166</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fmicb.2018.03166</pub-id>
+<pub-id pub-id-type="pmid">30631318</pub-id>
+<pub-id pub-id-type="pmcid">PMC6315199</pub-id></mixed-citation></ref><ref id="alz70182-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="alz70182-cite-0038">
+<string-name name-style="western">
+<surname>Yan</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Man</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Gut liver brain axis in diseases: the implications for therapeutic interventions</article-title>. <source>Signal Transduct Target Ther</source>. <year>2023</year>;<volume>8</volume>(<issue>1</issue>):<fpage>443</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41392-023-01673-4</pub-id>
+<pub-id pub-id-type="pmid">38057297</pub-id>
+<pub-id pub-id-type="pmcid">PMC10700720</pub-id></mixed-citation></ref><ref id="alz70182-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="alz70182-cite-0039">
+<string-name name-style="western">
+<surname>El Mouzan</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Assiri</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al Sarkhy</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Gut microbiota predicts the diagnosis of celiac disease in Saudi children</article-title>. <source>World J Gastroenterol</source>. <year>2023</year>;<volume>29</volume>(<issue>13</issue>):<fpage>1994</fpage>‐<lpage>2000</lpage>. doi:<pub-id pub-id-type="doi">10.3748/wjg.v29.i13.1994</pub-id>
+<pub-id pub-id-type="pmid">37155522</pub-id>
+<pub-id pub-id-type="pmcid">PMC10122788</pub-id></mixed-citation></ref><ref id="alz70182-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="alz70182-cite-0040">
+<string-name name-style="western">
+<surname>Cai</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dai</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xie</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Multi‐omics study unravels gut microbiota and metabolites alteration in patients with Wilson's disease</article-title>. <source>Sci Rep</source>. <year>2024</year>;<volume>14</volume>(<issue>1</issue>):<elocation-id>21025</elocation-id>. doi:<pub-id pub-id-type="doi">10.1038/s41598-024-71740-5</pub-id>
+<pub-id pub-id-type="pmid">39251728</pub-id>
+<pub-id pub-id-type="pmcid">PMC11384772</pub-id></mixed-citation></ref><ref id="alz70182-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="alz70182-cite-0041">
+<string-name name-style="western">
+<surname>Asgharian</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gholizadeh</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Samadi Kafil</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Correlation of inflammatory biomarkers with the diversity of Bacteroidaceae, Bifidobacteriaceae, Prevotellaceae and Lactobacillaceae families in the intestinal microbiota of patients with end stage renal disease</article-title>. <source>Adv Med Sci</source>. <year>2022</year>;<volume>67</volume>(<issue>2</issue>):<fpage>304</fpage>‐<lpage>310</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.advms.2022.07.004</pub-id>
+<pub-id pub-id-type="pmid">35994929</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="alz70182-cite-0042">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leng</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Exploration of the link between gut microbiota and purinergic signalling</article-title>. <source>Purinergic Signal</source>. <year>2023</year>;<volume>19</volume>(<issue>1</issue>):<fpage>315</fpage>‐<lpage>327</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11302-022-09891-1</pub-id>
+<pub-id pub-id-type="pmid">36121551</pub-id>
+<pub-id pub-id-type="pmcid">PMC9984663</pub-id></mixed-citation></ref><ref id="alz70182-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="alz70182-cite-0043">
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duchoud</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chuang</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liao</surname>
+<given-names>JC</given-names>
+</string-name>. <article-title>Augmenting the Calvin–Benson–Bassham cycle by a synthetic malyl‐CoA‐glycerate carbon fixation pathway</article-title>. <source>Nat Commun</source>. <year>2018</year>;<volume>9</volume>(<issue>1</issue>):<fpage>2008</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-018-04417-z</pub-id>
+<pub-id pub-id-type="pmid">29789614</pub-id>
+<pub-id pub-id-type="pmcid">PMC5964204</pub-id></mixed-citation></ref><ref id="alz70182-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="alz70182-cite-0044">
+<string-name name-style="western">
+<surname>Parnetti</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gaiti</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Polidori</surname>
+<given-names>MC</given-names>
+</string-name>, et al. <article-title>Increased cerebrospinal fluid pyruvate levels in Alzheimer's disease</article-title>. <source>Neurosci Lett</source>. <year>1995</year>;<volume>199</volume>(<issue>3</issue>):<fpage>231</fpage>‐<lpage>233</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0304-3940(95)12058-c</pub-id>
+<pub-id pub-id-type="pmid">8577405</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="alz70182-cite-0045">
+<string-name name-style="western">
+<surname>Dhir</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tarasenko</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Napoli</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giulivi</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Neurological, psychiatric, and biochemical aspects of thiamine deficiency in children and adults</article-title>. <source>Front Psychiatr</source>. <year>2019</year>;<volume>10</volume>:<fpage>207</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpsyt.2019.00207</pub-id>
+<pub-id pub-id-type="pmcid">PMC6459027</pub-id><pub-id pub-id-type="pmid">31019473</pub-id></mixed-citation></ref><ref id="alz70182-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="alz70182-cite-0046">
+<string-name name-style="western">
+<surname>Morrison</surname>
+<given-names>LD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kish</surname>
+<given-names>SJ</given-names>
+</string-name>. <article-title>Brain polyamine levels are altered in Alzheimer's disease</article-title>. <source>Neurosci Lett</source>. <year>1995</year>;<volume>197</volume>(<issue>1</issue>):<fpage>5</fpage>‐<lpage>8</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0304-3940(95)11881-v</pub-id>
+<pub-id pub-id-type="pmid">8545054</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="alz70182-cite-0047">
+<string-name name-style="western">
+<surname>Makletsova</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rikhireva</surname>
+<given-names>GT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirichenko</surname>
+<given-names>EY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trinitatsky</surname>
+<given-names>IY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vakulenko</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ermakov</surname>
+<given-names>AM</given-names>
+</string-name>. <article-title>The role of polyamines in the mechanisms of cognitive impairment</article-title>. <source>J Neurochem</source>. <year>2022</year>;<volume>16</volume>(<issue>3</issue>):<fpage>283</fpage>‐<lpage>294</lpage>. doi:<pub-id pub-id-type="doi">10.1134/s1819712422030059</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="alz70182-cite-0048">
+<string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>YJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>CH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lane</surname>
+<given-names>HY</given-names>
+</string-name>. <article-title>d‐amino acids and pLG72 in Alzheimer's disease and schizophrenia</article-title>. <source>Int J Mol Sci</source>. <year>2021</year>;<volume>22</volume>(<issue>20</issue>):<elocation-id>10917</elocation-id>. doi:<pub-id pub-id-type="doi">10.3390/ijms222010917</pub-id>
+<pub-id pub-id-type="pmid">34681579</pub-id>
+<pub-id pub-id-type="pmcid">PMC8535920</pub-id></mixed-citation></ref><ref id="alz70182-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="alz70182-cite-0049">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bian</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mo</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Quantification of aminobutyric acids and their clinical applications as biomarkers for osteoporosis</article-title>. <source>Commun Biol</source>. <year>2020</year>;<volume>3</volume>(<issue>1</issue>):<fpage>39</fpage>.<pub-id pub-id-type="pmid">31969651</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42003-020-0766-y</pub-id><pub-id pub-id-type="pmcid">PMC6976694</pub-id></mixed-citation></ref><ref id="alz70182-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="alz70182-cite-0050">
+<string-name name-style="western">
+<surname>Effros</surname>
+<given-names>RM</given-names>
+</string-name>. <article-title>Alpha aminobutyric acid, an alternative measure of hepatic injury in sepsis?</article-title>. <source>Transl Res</source>. <year>2011</year>;<volume>158</volume>(<issue>6</issue>):<fpage>326</fpage>‐<lpage>327</lpage>.<pub-id pub-id-type="pmid">22061039</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.trsl.2011.07.003</pub-id></mixed-citation></ref><ref id="alz70182-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="alz70182-cite-0051">
+<string-name name-style="western">
+<surname>Yudkoff</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blazer‐Yost</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cohn</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Segal</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>On the clinical significance of the plasma α‐amino‐n‐butyric acid: leucine ratio2</article-title>. <source>Am J Clin Nutr</source>. <year>1979</year>;<volume>32</volume>(<issue>2</issue>):<fpage>282</fpage>‐<lpage>285</lpage>.<pub-id pub-id-type="pmid">420125</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ajcn/32.2.282</pub-id></mixed-citation></ref><ref id="alz70182-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="alz70182-cite-0052">
+<string-name name-style="western">
+<surname>Dhanjal</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bhardwaj</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chopra</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Millennium nutrient N,N‐Dimethylglycine (DMG) and its effectiveness in autism spectrum disorders</article-title>. <source>Curr Med Chem</source>. <year>2022</year>;<volume>29</volume>(<issue>15</issue>):<fpage>2632</fpage>‐<lpage>2651</lpage>. doi:<pub-id pub-id-type="doi">10.2174/0929867328666211125091811</pub-id>
+<pub-id pub-id-type="pmid">34823458</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="alz70182-cite-0053">
+<string-name name-style="western">
+<surname>Kendall</surname>
+<given-names>RV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lawson</surname>
+<given-names>JW</given-names>
+</string-name>. <article-title>Recent findings on N, N‐Dimethylglycine (DMG): a nutrient for the new millennium</article-title>. <source>Townsend letter for Doctors and Patients</source>. <year>2000</year>:<fpage>75</fpage>‐<lpage>85</lpage>.</mixed-citation></ref><ref id="alz70182-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="alz70182-cite-0054">
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>IS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jo</surname>
+<given-names>EK</given-names>
+</string-name>. <article-title>Inosine: a bioactive metabolite with multimodal actions in human diseases</article-title>. <source>Front Pharmacol</source>. <year>2022</year>;<volume>13</volume>:<elocation-id>1043970</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fphar.2022.1043970</pub-id>
+<pub-id pub-id-type="pmid">36467085</pub-id>
+<pub-id pub-id-type="pmcid">PMC9708727</pub-id></mixed-citation></ref><ref id="alz70182-bib-0054"><label>54</label><mixed-citation publication-type="book" id="alz70182-cite-0055">
+<string-name name-style="western">
+<surname>Mori</surname>
+<given-names>A</given-names>
+</string-name>. <source>Guanidines 2: Further Explorations of the Biological and Clinical Significance of Guanidino Compounds</source>. <publisher-name>Springer Science &amp; Business Media</publisher-name>; <year>2012</year>.</mixed-citation></ref><ref id="alz70182-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="alz70182-cite-0056">
+<string-name name-style="western">
+<surname>Yan</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ying</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Functional connectivity alterations based on the weighted phase lag index: an exploratory electroencephalography study on Alzheimer's disease</article-title>. <source>Curr Alzheimer Res</source>. <year>2021</year>;<volume>18</volume>(<issue>6</issue>):<fpage>513</fpage>‐<lpage>522</lpage>. doi:<pub-id pub-id-type="doi">10.2174/1567205018666211001110824</pub-id>
+<pub-id pub-id-type="pmid">34598666</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="alz70182-cite-0057">
+<string-name name-style="western">
+<surname>Cuesta</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ochoa‐Urrea</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Funke</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Gamma band functional connectivity reduction in patients with amnestic mild cognitive impairment and epileptiform activity</article-title>. <source>Brain Commun</source>. <year>2022</year>;<volume>4</volume>(<issue>2</issue>):<elocation-id>fcac012</elocation-id>. doi:<pub-id pub-id-type="doi">10.1093/braincomms/fcac012</pub-id>
+<pub-id pub-id-type="pmid">35282163</pub-id>
+<pub-id pub-id-type="pmcid">PMC8914494</pub-id></mixed-citation></ref><ref id="alz70182-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="alz70182-cite-0058">
+<string-name name-style="western">
+<surname>Yan</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>LN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cui</surname>
+<given-names>YL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>X</given-names>
+</string-name>. <article-title>The cyclic AMP signaling pathway: exploring targets for successful drug discovery (Review)</article-title>. <source>Mol Med Rep</source>. <year>2016</year>;<volume>13</volume>(<issue>5</issue>):<fpage>3715</fpage>‐<lpage>3723</lpage>. doi:<pub-id pub-id-type="doi">10.3892/mmr.2016.5005</pub-id>
+<pub-id pub-id-type="pmid">27035868</pub-id>
+<pub-id pub-id-type="pmcid">PMC4838136</pub-id></mixed-citation></ref><ref id="alz70182-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="alz70182-cite-0059">
+<string-name name-style="western">
+<surname>García‐Osta</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cuadrado‐Tejedor</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>García‐Barroso</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oyarzábal</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Franco</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Phosphodiesterases as therapeutic targets for Alzheimer's disease</article-title>. <source>ACS Chem Neurosci</source>. <year>2012</year>;<volume>3</volume>(<issue>11</issue>):<fpage>832</fpage>‐<lpage>844</lpage>. doi:<pub-id pub-id-type="doi">10.1021/cn3000907</pub-id>
+<pub-id pub-id-type="pmid">23173065</pub-id>
+<pub-id pub-id-type="pmcid">PMC3503343</pub-id></mixed-citation></ref><ref id="alz70182-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="alz70182-cite-0060">
+<string-name name-style="western">
+<surname>Moutinho</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tsai</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Puntambekar</surname>
+<given-names>SS</given-names>
+</string-name>, et al. <article-title>Therapeutic potential of niacin in Alzheimer's disease</article-title>. <source>Alzheimers Dement</source>. <year>2020</year>;<volume>16</volume>(<issue>S9</issue>):<elocation-id>e040679</elocation-id>. doi:<pub-id pub-id-type="doi">10.1002/alz.040679</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="alz70182-cite-0061">
+<string-name name-style="western">
+<surname>Das</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dasgupta</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ray</surname>
+<given-names>SK</given-names>
+</string-name>. <article-title>Potential therapeutic roles of retinoids for prevention of neuroinflammation and neurodegeneration in Alzheimer's disease</article-title>. <source>Neural Regen Res</source>. <year>2019</year>;<volume>14</volume>(<issue>11</issue>):<fpage>1880</fpage>‐<lpage>1892</lpage>. doi:<pub-id pub-id-type="doi">10.4103/1673-5374.259604</pub-id>
+<pub-id pub-id-type="pmid">31290437</pub-id>
+<pub-id pub-id-type="pmcid">PMC6676868</pub-id></mixed-citation></ref><ref id="alz70182-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="alz70182-cite-0062">
+<string-name name-style="western">
+<surname>Ibi</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hirashima</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kojima</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Preventive effects of continuous betaine intake on cognitive impairment and aberrant gene expression in hippocampus of 3xTg mouse model of Alzheimer's disease</article-title>. <source>J Alzheimers Dis</source>. <year>2021</year>;<volume>79</volume>(<issue>2</issue>):<fpage>639</fpage>‐<lpage>652</lpage>. doi:<pub-id pub-id-type="doi">10.3233/jad-200972</pub-id>
+<pub-id pub-id-type="pmid">33337369</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="alz70182-cite-0063">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cai</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Piperine attenuates cognitive impairment in an experimental mouse model of sporadic Alzheimer's disease</article-title>. <source>J Nutr Biochem</source>. <year>2019</year>;<volume>70</volume>:<fpage>147</fpage>‐<lpage>155</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jnutbio.2019.05.009</pub-id>
+<pub-id pub-id-type="pmid">31207354</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="alz70182-cite-0064">
+<string-name name-style="western">
+<surname>Gaubert</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raimondo</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Houot</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>EEG evidence of compensatory mechanisms in preclinical Alzheimer's disease</article-title>. <source>Brain</source>. <year>2019</year>;<volume>142</volume>(<issue>7</issue>):<fpage>2096</fpage>‐<lpage>2112</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/awz150</pub-id>
+<pub-id pub-id-type="pmid">31211359</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="alz70182-cite-0065">
+<string-name name-style="western">
+<surname>Kopcanova</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tait</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donoghue</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Resting‐state EEG signatures of Alzheimer's disease are driven by periodic but not aperiodic changes</article-title>. <source>Neurobiol Dis</source>. <year>2024</year>;<volume>190</volume>:<elocation-id>106380</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.nbd.2023.106380</pub-id>
+<pub-id pub-id-type="pmid">38114048</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="alz70182-cite-0066">
+<string-name name-style="western">
+<surname>Jacobi</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Faber</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Timmann</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klockgether</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Update cerebellum and cognition</article-title>. <source>J Neurol</source>. <year>2021</year>;<volume>268</volume>(<issue>10</issue>):<fpage>3921</fpage>‐<lpage>3925</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00415-021-10486-w</pub-id>
+<pub-id pub-id-type="pmid">33656586</pub-id>
+<pub-id pub-id-type="pmcid">PMC8463403</pub-id></mixed-citation></ref><ref id="alz70182-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="alz70182-cite-0067">
+<string-name name-style="western">
+<surname>Nestor</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rupsingh</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borrie</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Ventricular enlargement as a possible measure of Alzheimer's disease progression validated using the Alzheimer's disease neuroimaging initiative database</article-title>. <source>Brain</source>. <year>2008</year>;<volume>131</volume>(<issue>9</issue>):<fpage>2443</fpage>‐<lpage>2454</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/awn146</pub-id>
+<pub-id pub-id-type="pmid">18669512</pub-id>
+<pub-id pub-id-type="pmcid">PMC2724905</pub-id></mixed-citation></ref><ref id="alz70182-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="alz70182-cite-0068">
+<string-name name-style="western">
+<surname>Loh</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mak</surname>
+<given-names>WQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tan</surname>
+<given-names>LKS</given-names>
+</string-name>, et al. <article-title>Microbiota‐gut‐brain axis and its therapeutic applications in neurodegenerative diseases</article-title>. <source>Signal Transduct Target Ther</source>. <year>2024</year>;<volume>9</volume>(<issue>1</issue>):<fpage>37</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41392-024-01743-1</pub-id>
+<pub-id pub-id-type="pmid">38360862</pub-id>
+<pub-id pub-id-type="pmcid">PMC10869798</pub-id></mixed-citation></ref><ref id="alz70182-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="alz70182-cite-0069">
+<string-name name-style="western">
+<surname>Kaiser</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doppelmayr</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iglseder</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>EEG beta 2 power as surrogate marker for memory impairment: a pilot study</article-title>. <source>Int Psychogeriatr</source>. <year>2017</year>;<volume>29</volume>(<issue>9</issue>):<fpage>1515</fpage>‐<lpage>1523</lpage>. doi:<pub-id pub-id-type="doi">10.1017/S1041610217000758</pub-id>
+<pub-id pub-id-type="pmid">28528599</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="alz70182-cite-0070">
+<string-name name-style="western">
+<surname>Perez</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duque</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hidalgo</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salvador</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>EEG frequency bands in subjective cognitive decline: a systematic review of resting state studies</article-title>. <source>Biol Psychol</source>. <year>2024</year>;<volume>191</volume>:<elocation-id>108823</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.biopsycho.2024.108823</pub-id>
+<pub-id pub-id-type="pmid">38815895</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="alz70182-cite-0071">
+<string-name name-style="western">
+<surname>Bhattacharya</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mrudula</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sreepada</surname>
+<given-names>SS</given-names>
+</string-name>, et al. <article-title>An overview of noninvasive brain stimulation: basic principles and clinical applications</article-title>. <source>Can J Neurol Sci</source>. <year>2022</year>;<volume>49</volume>(<issue>4</issue>):<fpage>479</fpage>‐<lpage>492</lpage>. doi:<pub-id pub-id-type="doi">10.1017/cjn.2021.158</pub-id>
+<pub-id pub-id-type="pmid">34238393</pub-id>
+</mixed-citation></ref><ref id="alz70182-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="alz70182-cite-0072">
+<string-name name-style="western">
+<surname>Jeong</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Park</surname>
+<given-names>JM</given-names>
+</string-name>, et al. <article-title>Reduced thickness of the anterior cingulate cortex as a predictor of amnestic‐mild cognitive impairment conversion to Alzheimer's disease with psychosis</article-title>. <source>J Alzheimers Dis</source>. <year>2021</year>;<volume>84</volume>(<issue>4</issue>):<fpage>1709</fpage>‐<lpage>1717</lpage>. doi:<pub-id pub-id-type="doi">10.3233/jad-215005</pub-id>
+<pub-id pub-id-type="pmid">34719496</pub-id>
+</mixed-citation></ref></ref-list></back></article></pmc-articleset>

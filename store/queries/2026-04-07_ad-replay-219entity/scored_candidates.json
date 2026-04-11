@@ -1,0 +1,430 @@
+{
+  "request_id": "ad-plasma-metabolomics-validation-200n",
+  "scored_at": "2026-04-07T00:00:00Z",
+  "candidates": [
+    {
+      "entity_id": "adni-go2-plasma-lipidomics",
+      "scale": {
+        "usable_n": 1517,
+        "usable_n_evidence": "adni-go2-plasma-lipidomics / Real numbers section: 'we retained a total of 4730 samples from 1519 participants… 1393 participants had plasma lipidome profiling since baseline' [PMC12269576]",
+        "usable_n_for_request": 580,
+        "usable_n_for_request_reason": "The 1517 headline N contains all diagnostic groups across all timepoints. For biomarker validation (the requested use case), the actionable discriminator set is stable AD (n=243) vs stable CN (n=337) = 580 subjects at baseline. MCI-to-AD conversion sub-group = 329 converters; if the buyer's validation target is conversion prediction, 329 is the operative N. Both figures substantially exceed the 200-participant minimum.",
+        "n_confidence": "high",
+        "multi_site_potential": "ADNI runs at 60+ US sites with centralised protocol and reference labs; same Baker Institute platform used for ASPREE (Australia, n=3495 with NIST SRM 1950 cross-cohort harmonisation documented in PMC12269576) — combining ADNI + ASPREE plasma lipidomics yields ~5225 total samples with 402 confirmed dementia cases, feasible on same analytic pipeline.",
+        "axis_summary": "580 usable subjects for AD-vs-CN discrimination (329 for conversion prediction); 10-year longitudinal span with effective density at 0–24 months; multi-site aggregation with ASPREE is the strongest expansion path."
+      },
+      "cost": {
+        "legs": {
+          "source": {
+            "estimate": "free (data access only)",
+            "currency": "USD",
+            "evidence": "pricing-data.md: 'ADNI Data access: free via LONI portal (https://ida.loni.usc.edu); Requirements: DUA signature; Commercial use: allowed (public-private partnership)' — note: commercial use listed as allowed at ADNI level but ADMC lipidomics layer commercial terms unverified",
+            "note": "DUA signature required; ADMC lipidomics layer may need a separate agreement with Duke University beyond the standard LONI DUA — this could add legal overhead of $5K–$50K (pricing-data.md: 'Legal/DUA overhead: highly variable $5K-50K per agreement, institution-dependent')."
+          },
+          "screening_qa": {
+            "estimate": "$0 (data already QC'd and deposited)",
+            "currency": "USD",
+            "evidence": "adni-go2-plasma-lipidomics / Sample usability: NIST SRM 1950 QC applied, pooled plasma QC every 20 samples, 95% fasting rate [PMC12269576]. Data layer already deposited — no wet-lab re-QC required for the published lipidomics dataset.",
+            "note": "If buyer runs a new assay on ADNI physical plasma aliquots, screening/QA costs would apply per NIA Aging Research Biobank schedule ($7.91–$9.80/vial shipped per pricing-data.md), but for data access this leg is $0."
+          },
+          "assay": {
+            "estimate": "already performed (lipidomics data in repository)",
+            "currency": "USD",
+            "evidence": "adni-go2-plasma-lipidomics: lipidomics data available at LONI and AD Knowledge Portal [PMC12269576]. Baker Institute LC-MS/MS QqQ targeted lipidomics already run and deposited.",
+            "note": "If buyer needs a different metabolomics panel (e.g. Biocrates MXP500 targeted metabolomics to complement lipidomics), cost would be $100–$145/sample (pricing-data.md: 'Biocrates MxP Quant 500: $100.50/sample at 78-sample kit' — note Biocrates acquired by Bruker June 2025, pricing may have changed). At 580 usable samples: $58K–$84K for new assay."
+          }
+        },
+        "total_known_low": 0,
+        "total_known_high": 50000,
+        "currency": "USD",
+        "within_budget": "unknown",
+        "unknowns": [
+          "ADMC lipidomics layer commercial-use DUA overhead (potentially $5K–$50K)",
+          "Whether buyer needs new wet-lab assay or can use existing deposited lipidomics data",
+          "Physical plasma aliquot availability and NIA/ADNI biospecimen request fees if re-assay required"
+        ],
+        "timeline": "2–4 months for LONI DUA; additional 1–3 months for ADMC/Duke commercial-use clarification; physical sample requests may extend to 6–12 months",
+        "axis_summary": "Data access is free; DUA process 2–4 months; key cost unknowns are commercial-use DUA legal overhead and whether buyer needs new wet-lab assay beyond deposited lipidomics data."
+      },
+      "quality": {
+        "provenance_depth": 0.48,
+        "depth_decomposition": {
+          "covered_dimensions": [
+            "Real numbers vs headline numbers",
+            "Longitudinal structure",
+            "Demographic composition",
+            "Confounders and exposures",
+            "Co-modalities and multi-omics value",
+            "Effect sizes and model performance",
+            "Replication and validation",
+            "Access and consent scope",
+            "Sample usability",
+            "Negative results"
+          ],
+          "missing_dimensions": [
+            "Collection protocol detail",
+            "Biospecimen retention and types",
+            "Sample depletion risk",
+            "Published analysis code",
+            "Multi-site recruitment",
+            "Clinical endpoints and scales",
+            "Sponsor and funding",
+            "Study timeline and status",
+            "Provenance chain",
+            "Institutional capacity",
+            "Eligibility criteria"
+          ]
+        },
+        "pre_analytical": {
+          "fasting": "documented: ~95% fasting rate (94.8–96.4% across diagnostic groups) [PMC12269576]; non-fasting excluded; strong pre-analytical consistency",
+          "tube_type": "EDTA plasma confirmed; 10 µL aliquots; extraction via single-phase butanol:methanol 1:1 [PMC12269576]; note: methods section uses 'serum' language but plasma collection confirmed elsewhere — potential transcription error flagged in wiki open questions",
+          "freeze_thaw": "cycle count not stated in PMC12269576; ADNI biospecimen protocol paper (Huynh et al. 2018) should be consulted for freeze-thaw documentation — this is a gap",
+          "storage_temperature": "not explicitly stated in PMC12269576; standard ADNI −80°C assumed but not confirmed for this specific sub-study",
+          "verdict": "partial — fasting (the dominant pre-analytical variable for lipidomics) IS documented at high compliance; tube type confirmed as EDTA plasma; freeze-thaw cycles and storage temperature are gaps that require protocol paper review"
+        },
+        "confounders": {
+          "medication_statins": "documented and formally controlled: 423 lipid species significantly associated with statin use identified and reported (Supplementary Table S6) [PMC12269576]; statin-sensitive species were identifiable and could be excluded or adjusted — this directly addresses the buyer's hard negative",
+          "medication_omega3": "documented: 398 lipid species associated with omega-3 use (Supplementary Table S7) [PMC12269576]",
+          "medication_anticholinesterase": "documented and acted on: deDE lipid class excluded from modelling due to anticholinesterase confounding [PMC12269576]",
+          "demographics": "age, sex, APOE genotype all captured; predominantly non-Hispanic White, mean age >74; APOE ε4 enriched by design",
+          "verdict": "good — the buyer's explicit hard negative (statin confounding) is fully addressed with formal quantification; 423 statin-sensitive species documented, adjustment methodology available"
+        },
+        "platform_validation": {
+          "platform": "baker-institute-lipidomics-lc-ms-qqq",
+          "cross_cohort_replication": "lipidomics risk score externally validated in ASPREE (different country, same Baker Institute platform, C-index 0.75, HR=1.21 for incident dementia) [PMC12269576]",
+          "cross_platform_replication": "68.25% of mappable lipids replicated in independent ADNI serum MXP500 dataset (internal cross-platform) [PMC12706616 cited in adni-go2-serum-metabolomics-mxp500]",
+          "verdict": "good — same-platform external validation in ASPREE is documented; cross-platform replication in ADNI serum MXP500 is documented"
+        },
+        "axis_summary": "Pre-analytical quality partial (fasting excellent, freeze-thaw gap); confounder quality good (statin formally documented — buyer's hard negative addressed); platform validation good (ASPREE external replication); provenance depth 0.48."
+      },
+      "axis_confidences": {
+        "scale": "high",
+        "cost": "medium",
+        "quality": "medium"
+      },
+      "card_for_delivery": {
+        "primary_signal": "580 usable AD-vs-CN subjects (329 conversion arm) from 1517 ADNI-1/GO/2 plasma lipidomics participants; statin confounding formally quantified (423 species mapped); ASPREE-validated signal (C-index 0.75).",
+        "action": "Request access at ida.loni.usc.edu and simultaneously contact ADMC/Duke (Kaddurah-Daouk lab) to confirm commercial-use terms for the lipidomics data layer — resolve this before any project commitment.",
+        "risk": "ADMC lipidomics data layer commercial-use terms are unverified; deDE lipid class (strongest AD signal) unusable without anticholinesterase control in target cohort."
+      }
+    },
+    {
+      "entity_id": "adni-go2-serum-metabolomics-mxp500",
+      "scale": {
+        "usable_n": 1430,
+        "usable_n_evidence": "adni-go2-serum-metabolomics-mxp500 / Overview: '1,430 participants; 4,063 samples. Diagnostic breakdown: CN n=383, stable MCI n=423, MCI converters (CN→MCI) n=66, AD converters (CN/MCI→AD) n=294, AD n=264' [PMC12706616]",
+        "usable_n_for_request": 647,
+        "usable_n_for_request_reason": "For biomarker validation: AD converters (n=294) + stable AD (n=264) = 558 AD-group subjects; CN (n=383) controls. AD vs CN discriminator set = 264 + 383 = 647. For conversion prediction: AD converter arm n=294 — the primary actionable group per the entity. MCI-converter arm (n=66) is underpowered for subgroup analyses.",
+        "n_confidence": "high",
+        "multi_site_potential": "Same ADNI multi-site infrastructure (60+ US sites); Biocrates MXP500 platform used at Duke ADMC — also used at NIEHS NIA platform and multiple academic cores, enabling potential aggregation with other Biocrates MXP500 datasets. Internal cross-platform replication with adni-go2-plasma-lipidomics (68.25% overlap) is documented.",
+        "axis_summary": "647 usable subjects for AD-vs-CN discrimination (294 for conversion prediction); 7-year longitudinal span; Biocrates MXP500 multi-site aggregation possible; serum matrix is the operative constraint."
+      },
+      "cost": {
+        "legs": {
+          "source": {
+            "estimate": "free (data access only)",
+            "currency": "USD",
+            "evidence": "adni-go2-serum-metabolomics-mxp500 / Access: 'AD Knowledge Portal for metabolomics data; LONI for clinical/demographic data'; ADNI data access is free per pricing-data.md. Note: dual DUA process — AD Knowledge Portal (AMP-AD) + LONI.",
+            "note": "Two separate DUA agreements required; AMP-AD Knowledge Portal commercial-use terms need verification — adds potential legal overhead. Total legal overhead: $5K–$100K depending on institutions (2× agreements)."
+          },
+          "screening_qa": {
+            "estimate": "$0 (data already QC'd and deposited)",
+            "currency": "USD",
+            "evidence": "adni-go2-serum-metabolomics-mxp500 / Overview: 'Non-fasting samples removed (n=284 samples, 15 subjects); Met-So QC applied' [PMC12706616]. Data is deposited at AD Knowledge Portal (doi: 10.7303/9618123).",
+            "note": "Met-So QC is non-standard and specific to Biocrates LC-MS/MS; buyer should verify that QC thresholds align with their downstream analysis pipeline."
+          },
+          "assay": {
+            "estimate": "already performed (metabolomics data in repository)",
+            "currency": "USD",
+            "evidence": "adni-go2-serum-metabolomics-mxp500: 4063 samples already profiled and deposited [PMC12706616].",
+            "note": "If buyer needs new Biocrates MXP500 assay on additional samples: $100.50/sample at 78-sample kit scale (pricing-data.md: 'Biocrates MxP Quant 500 78-sample kit: $7,841 ($100.50/sample)' — note Biocrates acquired by Bruker June 2025, verify current pricing). At 647 usable samples: ~$65K for fresh assay."
+          }
+        },
+        "total_known_low": 0,
+        "total_known_high": 100000,
+        "currency": "USD",
+        "within_budget": "unknown",
+        "unknowns": [
+          "AMP-AD Knowledge Portal commercial-use DUA overhead",
+          "LONI DUA commercial-use terms verification overhead",
+          "Whether buyer requires serum aliquots for new wet-lab assay or can use deposited data",
+          "Current Bruker/Biocrates MXP500 kit pricing post-June 2025 acquisition"
+        ],
+        "timeline": "3–6 months for dual DUA process (LONI + AMP-AD); additional 1–3 months for commercial-use clarification; data access parallel to legal review",
+        "axis_summary": "Data access free but dual DUA; key cost unknowns are commercial-use legal overhead across two governance frameworks and whether new wet-lab assay is required."
+      },
+      "quality": {
+        "provenance_depth": 0.62,
+        "depth_decomposition": {
+          "covered_dimensions": [
+            "Real numbers vs headline numbers",
+            "Longitudinal structure",
+            "Sample usability",
+            "Confounders and exposures",
+            "Demographic composition",
+            "Co-modalities and multi-omics value",
+            "Effect sizes and model performance",
+            "Replication and validation",
+            "Access and consent scope",
+            "Negative results",
+            "Sponsor and funding",
+            "Clinical endpoints and scales",
+            "Eligibility criteria"
+          ],
+          "missing_dimensions": [
+            "Collection protocol detail",
+            "Biospecimen retention and types",
+            "Sample depletion risk",
+            "Published analysis code",
+            "Multi-site recruitment",
+            "Provenance chain",
+            "Study timeline and status",
+            "Institutional capacity"
+          ]
+        },
+        "pre_analytical": {
+          "fasting": "documented: non-fasting samples explicitly removed (n=284 samples, 15 subjects) before analysis [PMC12706616]; effectively 100% fasting in the analysed set",
+          "tube_type": "fasting SERUM — NOT plasma; serum separator tubes assumed (standard ADNI SOP); matrix difference from buyer's plasma requirement is the operative pre-analytical concern",
+          "freeze_thaw": "not explicitly stated for MXP500 run; standard ADNI SOP applies; 10 µL aliquots used",
+          "met_so_qc": "Met-So (methionine sulfoxide) QC applied as degradation marker; specific threshold documented in entity [PMC12706616]",
+          "verdict": "partial — fasting compliance excellent (100% in analysed set); Met-So QC is a strength; matrix is serum not plasma — the dominant pre-analytical concern for this buyer's request; freeze-thaw cycles not documented"
+        },
+        "confounders": {
+          "medication_statins": "formally modelled: Boruta feature selection identified 41 baseline and 21 longitudinal medication-metabolite associations across all drugs [PMC12706616]; statin-specific associations included in this analysis",
+          "dietary_microbiome": "NOT captured: dietary intake and gut microbiome data absent — unresolved confound for bile acid and tryptophan pathway findings [PMC12706616 entity flag]",
+          "demographics": "age, sex, APOE genotype all captured; CN n=383, MCI n=423+66, AD converters n=294, AD n=264; predominantly Caucasian older adults",
+          "verdict": "good — the buyer's explicit hard negative (statin confounding) is formally modelled via Boruta feature selection; dietary/microbiome confounders are documented gaps for specific pathway analyses"
+        },
+        "platform_validation": {
+          "platform": "biocrates-mxp-quant-500",
+          "cross_platform_replication": "68.25% of mappable lipids replicated in independent ADNI plasma lipidomics dataset (Baker Institute); persistent-class replication rate 85.51% [PMC12706616 / adni-go2-serum-metabolomics-mxp500]",
+          "external_replication": "No external cohort validation published for MXP500 findings — all replication is internal within ADNI datasets",
+          "verdict": "partial — strong internal cross-platform replication (68.25% with Baker lipidomics); no external cohort validation is a gap for a buyer planning to use these findings as a validated biomarker benchmark"
+        },
+        "axis_summary": "Highest provenance depth in the AD metabolomics wiki (0.62); fasting compliance excellent; statin confounding formally addressed; serum matrix is the operative risk for this plasma-focused request; no external cohort validation."
+      },
+      "axis_confidences": {
+        "scale": "high",
+        "cost": "medium",
+        "quality": "high"
+      },
+      "card_for_delivery": {
+        "primary_signal": "647 usable AD-vs-CN subjects (294 AD converter arm) from 1430 ADNI-1/GO/2 SERUM metabolomics participants; Biocrates MXP500, 506 post-QC metabolites, 26 biochemical classes; statin confounding formally modelled (Boruta); broadest metabolic coverage in the AD wiki.",
+        "action": "Confirm with buyer whether SERUM is acceptable as matrix; if yes, access at AD Knowledge Portal (doi:10.7303/9618123) and LONI simultaneously; verify AMP-AD commercial-use terms in parallel.",
+        "risk": "Serum not plasma — for lipidomics applications this alters ~15–30% of quantified species; no external cohort validation published (all replication is internal ADNI cross-platform)."
+      }
+    },
+    {
+      "entity_id": "aspree-dementia-casecohort-lipidomics",
+      "scale": {
+        "usable_n": 3495,
+        "usable_n_evidence": "aspree-dementia-casecohort-lipidomics / Real numbers: 'the case-cohort subset (n = 3495) contained incident dementia (n = 402) with an average follow-up of 6.5 years' [PMC12269576]",
+        "usable_n_for_request": 402,
+        "usable_n_for_request_reason": "For biomarker validation, the operative N is the 402 incident dementia cases (the endpoint events). The 3093 non-demented controls are available for discrimination modelling. However, incident dementia endpoint is broader than confirmed AD — buyer should estimate ~60–70% AD fraction in elderly Australian population trial = ~240–280 confirmed AD events, still above the 200-participant minimum.",
+        "n_confidence": "medium",
+        "multi_site_potential": "ASPREE was multi-site across Australia (community-based trial); Baker Institute platform is identical to ADNI plasma lipidomics — cross-cohort harmonisation via NIST SRM 1950 already documented and applied in PMC12269576. ADNI + ASPREE joint analysis is the strongest multi-site plasma lipidomics option in the wiki.",
+        "axis_summary": "402 incident dementia cases (est. 240–280 confirmed AD) with 6.5-year prospective follow-up; population-based setting (unlike clinic-recruited ADNI) — high generalisability value; cross-cohort harmonisation with ADNI documented."
+      },
+      "cost": {
+        "legs": {
+          "source": {
+            "estimate": "quote required",
+            "currency": "AUD/USD",
+            "evidence": "aspree-dementia-casecohort-lipidomics / Access: 'ASPREE data are available from the corresponding authors upon reasonable request' [PMC12269576]. No pricing portal — PI-negotiated.",
+            "note": "PI-request-only (Paul Lacaze, Monash University); no published fee schedule; commercial use terms unspecified — assume academic-only until confirmed."
+          },
+          "screening_qa": {
+            "estimate": "quote required",
+            "currency": "USD",
+            "evidence": "aspree-dementia-casecohort-lipidomics / Open questions: 'ASPREE sample depletion status is unknown — the case-cohort sub-selection used aliquots from a prior enrichment step'. No QC re-run data published.",
+            "note": "Physical aliquot availability and freeze-thaw history are undocumented; buyer should budget for re-QC if requesting physical samples."
+          },
+          "assay": {
+            "estimate": "already performed (lipidomics data available upon request)",
+            "currency": "USD",
+            "evidence": "aspree-dementia-casecohort-lipidomics: 781-species lipidomics already run at Baker Institute (same platform as ADNI, Agilent 6495C) [PMC12269576]. Data available from corresponding author.",
+            "note": "If buyer needs the data, assay cost is $0 (already run); if buyer needs physical aliquots for new assay, cost is unknown and subject to PI negotiation."
+          }
+        },
+        "total_known_low": null,
+        "total_known_high": null,
+        "currency": "USD",
+        "within_budget": "unknown",
+        "unknowns": [
+          "PI-negotiated data access fee (no published schedule)",
+          "Commercial-use terms — may require separate ethics amendment",
+          "Physical aliquot availability and any associated biobank fees",
+          "Legal overhead for commercial DUA with Monash/Alfred Hospital"
+        ],
+        "timeline": "3–12 months (PI-request dependent); no predictable timeline without direct contact",
+        "axis_summary": "All three cost legs are quote-required or unknown; no published pricing; PI-request-only access makes timeline and cost unpredictable — buyer should treat this as a secondary option after confirming ADNI access."
+      },
+      "quality": {
+        "provenance_depth": 0.14,
+        "depth_decomposition": {
+          "covered_dimensions": [
+            "Real numbers vs headline numbers",
+            "Access and consent scope",
+            "Provenance chain"
+          ],
+          "missing_dimensions": [
+            "Sample usability",
+            "Longitudinal structure",
+            "Confounders and exposures",
+            "Demographic composition",
+            "Co-modalities and multi-omics value",
+            "Effect sizes and model performance",
+            "Replication and validation",
+            "Collection protocol detail",
+            "Biospecimen retention and types",
+            "Sample depletion risk",
+            "Published analysis code",
+            "Multi-site recruitment",
+            "Clinical endpoints and scales",
+            "Sponsor and funding",
+            "Study timeline and status",
+            "Institutional capacity",
+            "Eligibility criteria",
+            "Negative results"
+          ]
+        },
+        "pre_analytical": {
+          "fasting": "not documented in wiki — provenance_depth 0.14 means sample usability dimension not covered; wiki captures ADNI's ~95% fasting but ASPREE fasting status not stated for lipidomics sub-cohort",
+          "tube_type": "EDTA plasma inferred from Baker Institute platform (same as ADNI); Agilent 6495C confirmed [PMC12269576]",
+          "freeze_thaw": "not documented; case-cohort sub-selection used enriched aliquots — freeze-thaw history unknown",
+          "verdict": "weak — plasma matrix confirmed from platform context; fasting status, freeze-thaw cycles, and collection protocol are all undocumented in wiki; entity depth 0.14 means most pre-analytical facts are gaps"
+        },
+        "confounders": {
+          "medication_statins": "NOT documented — explicit gap for this request. Statin prevalence in elderly Australian community-dwelling adults is typically 30–50%; however, wiki entity does not document statin use rates or adjustment for the lipidomics sub-cohort. This is a direct hard-negative violation.",
+          "demographics": "European descent only (stated in PMC12269576); aged ≥70; APOE enrichment for homozygous extremes in case-cohort",
+          "verdict": "weak — the buyer's explicit hard negative (statin confounding) is NOT documented; this is the single biggest quality disqualifier for this cohort given the request"
+        },
+        "platform_validation": {
+          "platform": "baker-institute-lipidomics-lc-ms-qqq",
+          "cross_cohort_replication": "ASPREE serves as the external validation for ADNI lipidomics (not the discovery cohort); C-index 0.75 is the validation metric [PMC12269576]",
+          "verdict": "good from a platform perspective — same Baker Institute platform as ADNI with NIST cross-cohort harmonisation; but the platform validation is of ADNI's model in ASPREE, not the other way round"
+        },
+        "axis_summary": "Provenance depth 0.14 — thin wiki coverage; statin confounding undocumented (hard-negative violation for this request); plasma matrix confirmed; platform validation is the strongest dimension (Baker Institute cross-cohort harmonised)."
+      },
+      "axis_confidences": {
+        "scale": "medium",
+        "cost": "low",
+        "quality": "low"
+      },
+      "card_for_delivery": {
+        "primary_signal": "402 incident dementia cases (est. ~240–280 confirmed AD) in 3495 plasma lipidomics participants; population-based Australian RCT; same Baker Institute platform as ADNI with NIST cross-cohort harmonisation — the only published external validation cohort for ADNI lipidomics.",
+        "action": "Contact Paul Lacaze (Monash University) and explicitly ask: (1) commercial-use terms, (2) statin use documentation and adjustment capability, (3) residual aliquot inventory status.",
+        "risk": "Statin use undocumented in wiki — direct violation of buyer's hard negative; PI-request-only access with no predictable timeline or pricing."
+      }
+    },
+    {
+      "entity_id": "lleida-ad-mci-plasma-csf-gcfid",
+      "scale": {
+        "usable_n": 289,
+        "usable_n_evidence": "lleida-ad-mci-plasma-csf-gcfid / Real numbers: '289 total (103 AD / 89 MCI / 94 CTL); paired CSF+plasma n=117; MCI followed ~58 months (48 converters / 44 non-converters)' [PMC11095469]",
+        "usable_n_for_request": 289,
+        "usable_n_for_request_reason": "Full cohort 289 participants, all with plasma GC-FID. For AD-vs-control discrimination: 103 AD + 94 CTL = 197 — borderline at threshold. For MCI conversion: 48 converters vs 44 non-converters = 92 — insufficient for subgroup validation. Total N = 289 is only 44% above the 200 minimum and any dropout reduces below threshold.",
+        "n_confidence": "medium",
+        "multi_site_potential": "Single Spanish academic center (Hospital Universitari Santa Maria de Lleida); no known platform-sharing with other cohorts in wiki; limited multi-site potential.",
+        "axis_summary": "289 total participants (103 AD / 94 CTL for discrimination, 92 for conversion); borderline N; single-site; no multi-site aggregation path identified in wiki."
+      },
+      "cost": {
+        "legs": {
+          "source": {
+            "estimate": "quote required",
+            "currency": "EUR",
+            "evidence": "lleida-ad-mci-plasma-csf-gcfid / Access: 'Apply to IRBLleida Biobank (B.0000682); contact Farida Dakterzada for PI approval' [PMC11095469]. No published fee schedule.",
+            "note": "Academic biobank in Spain; no commercial DUA framework documented; commercial access may require ethics amendment."
+          },
+          "screening_qa": {
+            "estimate": "quote required",
+            "currency": "EUR",
+            "evidence": "Residual EDTA plasma aliquot volumes not documented in wiki; GC-FID analysis is for fatty acid mol% only — if buyer needs LC-MS metabolomics, full re-run required on existing or new aliquots.",
+            "note": "GC-FID provides total FA mol% only — NOT equivalent to LC-MS metabolomics panel; buyer would need a new assay run for metabolomics, not just QA of existing data."
+          },
+          "assay": {
+            "estimate": "$177–$285/sample (non-Duke non-member rate for equivalent platform) OR quote required from Lleida lab",
+            "currency": "USD",
+            "evidence": "pricing-data.md: 'Duke University: Fast HR metabolite profiling (one mode): $177 (Duke), $285 (non-Duke)'. GC-FID fatty acid panel is simpler than full metabolomics; actual Lleida lab pricing unknown. If buyer needs full LC-MS metabolomics re-run on 289 samples: $285 × 289 = ~$82K at non-academic rates.",
+            "note": "GC-FID data already exists; new LC-MS metabolomics would require re-running aliquots (availability unknown) at full assay cost."
+          }
+        },
+        "total_known_low": null,
+        "total_known_high": null,
+        "currency": "EUR/USD",
+        "within_budget": "unknown",
+        "unknowns": [
+          "IRBLleida Biobank commercial-use terms and fee schedule",
+          "Residual EDTA plasma aliquot availability per participant",
+          "Cost of new LC-MS metabolomics run if buyer requires more than GC-FID fatty acids",
+          "Ethics amendment cost for commercial use"
+        ],
+        "timeline": "Unknown — PI-request dependent; assume 3–9 months minimum for academic biobank in Spain",
+        "axis_summary": "All three cost legs quote-required or unknown; if buyer requires metabolomics beyond GC-FID fatty acids, a new assay run adds ~$82K on top of unknown access fees."
+      },
+      "quality": {
+        "provenance_depth": 0.52,
+        "depth_decomposition": {
+          "covered_dimensions": [
+            "Real numbers vs headline numbers",
+            "Sample usability",
+            "Longitudinal structure",
+            "Collection protocol detail",
+            "Confounders and exposures",
+            "Demographic composition",
+            "Co-modalities and multi-omics value",
+            "Effect sizes and model performance",
+            "Access and consent scope",
+            "Eligibility criteria",
+            "Biospecimen retention and types"
+          ],
+          "missing_dimensions": [
+            "Negative results",
+            "Published analysis code",
+            "Multi-site recruitment",
+            "Clinical endpoints and scales",
+            "Sponsor and funding",
+            "Study timeline and status",
+            "Provenance chain",
+            "Institutional capacity",
+            "Sample depletion risk",
+            "Replication and validation"
+          ]
+        },
+        "pre_analytical": {
+          "fasting": "not stated explicitly; clinical plasma draw at Hospital Universitari Santa Maria — likely non-fasting per routine clinical practice; not documented in PMC11095469",
+          "tube_type": "EDTA plasma confirmed; IRBLleida Biobank B.0000682; −80°C storage confirmed [PMC11095469]",
+          "freeze_thaw": "not documented",
+          "verdict": "partial — EDTA plasma and −80°C storage confirmed; fasting status and freeze-thaw cycles not documented; GC-FID requires simple protein precipitation — less pre-analytically sensitive than LC-MS metabolomics"
+        },
+        "confounders": {
+          "medication_statins": "NOT documented — explicitly flagged as 'major confounder gap for fatty acid signals' in wiki [PMC11095469]. This is a direct hard-negative violation for this buyer's request.",
+          "demographics": "Spanish population (Lleida); ages 55–85 estimated; APOE genotyping available; sex distribution not specified in wiki excerpt",
+          "comorbidities": "eligibility criteria partially documented; inclusion/exclusion not fully captured",
+          "verdict": "weak — statin use not documented; direct violation of buyer's primary hard negative; GC-FID fatty acid signals are among the most statin-sensitive metabolites (statins affect membrane FA composition)"
+        },
+        "platform_validation": {
+          "platform": "agilent-gc-fid-7890a-fatty-acid",
+          "cross_cohort_replication": "no external replication documented in wiki for Lleida GC-FID findings; single centre, single source [PMC11095469]",
+          "verdict": "weak — single-site, single-source; no external replication; GC-FID fatty acid profiling is a well-validated technique but not used in other AD cohorts in the wiki"
+        },
+        "axis_summary": "Provenance depth 0.52 but statin confounding explicitly undocumented (fatal for this request); GC-FID modality provides only total FA mol% — not a metabolomics panel; single site, no replication."
+      },
+      "axis_confidences": {
+        "scale": "medium",
+        "cost": "low",
+        "quality": "medium"
+      },
+      "card_for_delivery": {
+        "primary_signal": "289 AD/MCI/CTL participants (Lleida, Spain) with paired EDTA plasma (GC-FID FA profiling) + CSF ATN biomarkers + APOE; MCI sub-cohort: 48 converters over 58 months; IRBLleida Biobank B.0000682.",
+        "action": "Contact Farida Dakterzada (IRBLleida); explicitly ask about statin use documentation and commercial-use terms before any further evaluation — these are pre-conditions for suitability given buyer's hard negatives.",
+        "risk": "Statin use undocumented — hard-negative unaddressed; GC-FID modality is total FA mol% only, not a metabolomics panel; N=289 is borderline and any attrition drops below the 200-participant minimum."
+      }
+    }
+  ],
+  "axis_legend": {
+    "scale": "Usable N for THIS request (biomarker validation, AD plasma metabolomics ≥200 longitudinal), not headline N.",
+    "cost": "Three legs (source + screening_qa + assay), explicit unknowns, no composite total when unknowns exist.",
+    "quality": "Pre-analytical (fasting, tube type, freeze-thaw), confounders (statin — buyer's hard negative, APOE, demographics), platform validation, provenance depth. Statin documentation is the operative quality screen for this request."
+  }
+}

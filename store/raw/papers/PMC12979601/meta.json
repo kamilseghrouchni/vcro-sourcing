@@ -1,0 +1,256 @@
+{
+  "pmid": "41698978",
+  "pmc": "PMC12979601",
+  "doi": "10.1038/s41598-026-39274-0",
+  "title": "Synaptic and cytoskeletal CSF signatures of motor neuron disease: the role of cyclase-associated protein 2",
+  "journal": "Scientific Reports",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Pilotto Andrea",
+      "affiliations": [
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurology Unit, Department of Clinical and Experimental Sciences, University of Brescia, P. le Spedali Civili 1, 25123 Brescia, Italy",
+        "https://ror.org/015rhss58grid.412725.7Department of Continuity of Care and Frailty, Neurology Unit, ASST Spedali Civili of Brescia, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurobiorepository and Laboratory of Advanced Biological Markers, University of Brescia and ASST Spedali Civili Hospital, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Laboratory of Digital Neurology and Biosensors, University of Brescia, Brescia, Italy",
+        "https://ror.org/056d84691grid.4714.60000 0004 1937 0626Center for Alzheimer Research, Division of Clinical Geriatrics, Department of Neurobiology, Care Sciences and Society (NVS), Karolinska Institutet, Stokholm, Sweden"
+      ]
+    },
+    {
+      "name": "Pelucchi Silvia",
+      "affiliations": [
+        "https://ror.org/00wjc7c48grid.4708.b0000 0004 1757 2822Department of Pharmacological and Biomolecular Sciences, “Rodolfo Paoletti”, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Trasciatti Chiara",
+      "affiliations": [
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurology Unit, Department of Clinical and Experimental Sciences, University of Brescia, P. le Spedali Civili 1, 25123 Brescia, Italy",
+        "https://ror.org/015rhss58grid.412725.7Department of Continuity of Care and Frailty, Neurology Unit, ASST Spedali Civili of Brescia, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurobiorepository and Laboratory of Advanced Biological Markers, University of Brescia and ASST Spedali Civili Hospital, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Laboratory of Digital Neurology and Biosensors, University of Brescia, Brescia, Italy"
+      ]
+    },
+    {
+      "name": "Ferullo Lucia",
+      "affiliations": [
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurology Unit, Department of Clinical and Experimental Sciences, University of Brescia, P. le Spedali Civili 1, 25123 Brescia, Italy",
+        "https://ror.org/015rhss58grid.412725.7Department of Continuity of Care and Frailty, Neurology Unit, ASST Spedali Civili of Brescia, Brescia, Italy"
+      ]
+    },
+    {
+      "name": "Poli Loris",
+      "affiliations": [
+        "https://ror.org/015rhss58grid.412725.7Department of Continuity of Care and Frailty, Neurology Unit, ASST Spedali Civili of Brescia, Brescia, Italy"
+      ]
+    },
+    {
+      "name": "Tolassi Chiara",
+      "affiliations": [
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurology Unit, Department of Clinical and Experimental Sciences, University of Brescia, P. le Spedali Civili 1, 25123 Brescia, Italy",
+        "https://ror.org/015rhss58grid.412725.7Department of Continuity of Care and Frailty, Neurology Unit, ASST Spedali Civili of Brescia, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurobiorepository and Laboratory of Advanced Biological Markers, University of Brescia and ASST Spedali Civili Hospital, Brescia, Italy"
+      ]
+    },
+    {
+      "name": "Catanese Alberto",
+      "affiliations": [
+        "https://ror.org/032000t02grid.6582.90000 0004 1936 9748Institute of Anatomy and Cell Biology, University of Ulm, 89081 Ulm, Germany",
+        "https://ror.org/04xfq0f34grid.1957.a0000 0001 0728 696XInstitute of Anatomy and Cell Biology, Department of Neuroanatomy, University of Aachen, Aachen, Germany"
+      ]
+    },
+    {
+      "name": "Girotto Irene",
+      "affiliations": [
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurology Unit, Department of Clinical and Experimental Sciences, University of Brescia, P. le Spedali Civili 1, 25123 Brescia, Italy",
+        "https://ror.org/015rhss58grid.412725.7Department of Continuity of Care and Frailty, Neurology Unit, ASST Spedali Civili of Brescia, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurobiorepository and Laboratory of Advanced Biological Markers, University of Brescia and ASST Spedali Civili Hospital, Brescia, Italy"
+      ]
+    },
+    {
+      "name": "Labella Beatrice",
+      "affiliations": [
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurology Unit, Department of Clinical and Experimental Sciences, University of Brescia, P. le Spedali Civili 1, 25123 Brescia, Italy"
+      ]
+    },
+    {
+      "name": "Gorla Federica",
+      "affiliations": [
+        "https://ror.org/00wjc7c48grid.4708.b0000 0004 1757 2822Department of Pharmacological and Biomolecular Sciences, “Rodolfo Paoletti”, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "D’Andrea Laura",
+      "affiliations": [
+        "https://ror.org/00wjc7c48grid.4708.b0000 0004 1757 2822Department of Pharmacological and Biomolecular Sciences, “Rodolfo Paoletti”, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Stringhi Ramona",
+      "affiliations": [
+        "https://ror.org/00wjc7c48grid.4708.b0000 0004 1757 2822Department of Pharmacological and Biomolecular Sciences, “Rodolfo Paoletti”, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Di Luca Monica",
+      "affiliations": [
+        "https://ror.org/00wjc7c48grid.4708.b0000 0004 1757 2822Department of Pharmacological and Biomolecular Sciences, “Rodolfo Paoletti”, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Marcello Elena",
+      "affiliations": [
+        "https://ror.org/00wjc7c48grid.4708.b0000 0004 1757 2822Department of Pharmacological and Biomolecular Sciences, “Rodolfo Paoletti”, University of Milan, Milan, Italy"
+      ]
+    },
+    {
+      "name": "Padovani Alessandro",
+      "affiliations": [
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurology Unit, Department of Clinical and Experimental Sciences, University of Brescia, P. le Spedali Civili 1, 25123 Brescia, Italy",
+        "https://ror.org/015rhss58grid.412725.7Department of Continuity of Care and Frailty, Neurology Unit, ASST Spedali Civili of Brescia, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Neurobiorepository and Laboratory of Advanced Biological Markers, University of Brescia and ASST Spedali Civili Hospital, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Laboratory of Digital Neurology and Biosensors, University of Brescia, Brescia, Italy",
+        "https://ror.org/02q2d2610grid.7637.50000 0004 1757 1846Brain Health Center, University of Brescia, Brescia, Italy"
+      ]
+    }
+  ],
+  "keywords": [
+    "Motor neuron disease (MND)",
+    "Synaptic biomarkers",
+    "Neurofilament light chain (NfL)",
+    "Cerebrospinal fluid (CSF)",
+    "Neurology",
+    "Neuroscience"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "https://doi.org/10.13039/501100021856Ministero dell’Università e della Ricerca2017MYJ5THPilottoAndrea",
+    "https://doi.org/10.13039/501100010767Innovative Medicines InitiativeID853981PilottoAndrea",
+    "https://doi.org/10.13039/501100003196Ministero della SalutePNRR-MAD-2022-12376110PilottoAndrea",
+    "Airalzh FoundationAGYR2021 Life-BioPilottoAndrea",
+    "LIMPE-DISMOV Foundation Segala Grant 2021",
+    "DIGI-BRAIN the H2020 IMI IDEA-FASTID853981PilottoAndrea",
+    "https://doi.org/10.13039/501100003407Ministero dell’Istruzione, dell’Università e della RicercaRF-2018-12366209PRIN 20202THZAWPRIN202039WMFPPRIN COCOON (2017MYJ5TH)PilottoAndreaDi LucaMonicaMarcelloElenaPadovaniAlessandro",
+    "https://doi.org/10.13039/100000864Michael J. Fox Foundation for Parkinson’s Research022343PilottoAndrea",
+    "National Recovery and Resilience Plan",
+    "MNESYSPE0000006PE0000006PilottoAndreaPadovaniAlessandro",
+    "Piano di Sostegno alla Ricerca, Università degli Studi di MilanoPSR2023_SPELUPelucchiSilvia",
+    "https://doi.org/10.13039/100012357LifeArc",
+    "Karin Christiane Conradi Stiftungsfonds",
+    "https://doi.org/10.13039/501100010275Deutsche Gesellschaft für Muskelkranke",
+    "Frick-Foundation for ALS research",
+    "https://doi.org/10.13039/501100001659Deutsche ForschungsgemeinschaftCA 2915/4-1CataneseAlberto",
+    "Fondo Italiano per la ScienzaFIS00000560Di LucaMonica",
+    "https://doi.org/10.13039/100006781Giovanni Armenise-Harvard Foundation",
+    "https://doi.org/10.13039/501100018841Associazione Italiana Ricerca Alzheimer",
+    "H2020 IMI IDEA-FASTID853981PadovaniAlessandro",
+    "https://doi.org/10.13039/100031478NextGenerationEUNRRP M6C2PadovaniAlessandro"
+  ],
+  "data_availability_text": "Data availabilityThe data are available from the corresponding author upon reasonable request.",
+  "license": "",
+  "received": "2025-10-23",
+  "accepted": "2026-02-04",
+  "reference_pmids": [
+    "32913390",
+    "32913390",
+    "39434139",
+    "39434139",
+    "16481598",
+    "16481598",
+    "31244613",
+    "31244613",
+    "34021139",
+    "34021139",
+    "14736504",
+    "14736504",
+    "28264096",
+    "28264096",
+    "38674431",
+    "38674431",
+    "26373605",
+    "26373605",
+    "34417339",
+    "34417339",
+    "40781905",
+    "40781905",
+    "34204261",
+    "34204261",
+    "35150966",
+    "35150966",
+    "30962377",
+    "30962377",
+    "33094279",
+    "33094279",
+    "33565111",
+    "33565111",
+    "36116464",
+    "36116464",
+    "10540002",
+    "10540002",
+    "32100123",
+    "32100123",
+    "35084105",
+    "35084105",
+    "29076399",
+    "29076399",
+    "35404280",
+    "35404280",
+    "39819731",
+    "39819731",
+    "23172249",
+    "23172249",
+    "17805484",
+    "17805484",
+    "28855684",
+    "28855684",
+    "37491361",
+    "37491361",
+    "37488208",
+    "37488208",
+    "27897242",
+    "27897242",
+    "35163460",
+    "35163460",
+    "20653686",
+    "20653686",
+    "26873625",
+    "26873625",
+    "22444279",
+    "22444279",
+    "34556565",
+    "34556565",
+    "29870780",
+    "29870780",
+    "32065260",
+    "32065260",
+    "38355792",
+    "38355792",
+    "40401628",
+    "40401628",
+    "37537790",
+    "37537790"
+  ],
+  "tables_count": 1,
+  "figures_count": 2,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "methods",
+    "study population",
+    "clinical assessment",
+    "csf collection and analysis",
+    "csf neuronal, glial and synaptic markers",
+    "statistical analyses",
+    "results",
+    "participants characteristics and csf markers at baseline",
+    "predictive progression value of nfl, cap2",
+    "discussion",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 6422,
+  "converted_at": "2026-04-06T22:39:29.425591+00:00"
+}

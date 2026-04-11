@@ -1,0 +1,116 @@
+{
+  "pmid": "41269015",
+  "pmc": "PMC12961633",
+  "doi": "10.1021/acs.analchem.5c03704",
+  "title": "Improving the Detection of Analyte Degeneracies in Untargeted Liquid Chromatography-Tandem Mass Spectrometry Data",
+  "journal": "Analytical chemistry",
+  "year": 2025,
+  "authors": [
+    {
+      "name": "Cain Caitlin N.",
+      "affiliations": [
+        "Department of Chemistry, University of Michigan, Ann Arbor, Michigan 48109, United States"
+      ]
+    },
+    {
+      "name": "Ma Cheng-Hua",
+      "affiliations": [
+        "Department of Chemistry, University of Michigan, Ann Arbor, Michigan 48109, United States"
+      ]
+    },
+    {
+      "name": "Popov Pavlo",
+      "affiliations": [
+        "Department of Psychology, University of Michigan, Ann Arbor, Michigan 48109, United States"
+      ]
+    },
+    {
+      "name": "Kennedy Robert T.",
+      "affiliations": [
+        "Department of Chemistry, University of Michigan, Ann Arbor, Michigan 48109, United States; Department of Pharmacology, University of Michigan, Ann Arbor, Michigan 48109, United States"
+      ]
+    }
+  ],
+  "keywords": [],
+  "mesh_terms": [],
+  "funding_sources": [],
+  "data_availability_text": "Data Availability StatementThe data and code underlying this study are openly available at 10.5281/zenodo.17204345.",
+  "license": "",
+  "received": "",
+  "accepted": "",
+  "reference_pmids": [
+    "34654818",
+    "35640460",
+    "30046159",
+    "33112692",
+    "34879285",
+    "28914531",
+    "38918534",
+    "16448051",
+    "22965049",
+    "36563309",
+    "19928838",
+    "23817071",
+    "28436590",
+    "26392543",
+    "30886413",
+    "32401506",
+    "34794310",
+    "39360623",
+    "26430243",
+    "30608141",
+    "40021935",
+    "19562197",
+    "25160088",
+    "33551064",
+    "22111785",
+    "32275430",
+    "27513885",
+    "29705063",
+    "24927477",
+    "28225594",
+    "32589017",
+    "40183948",
+    "29801610",
+    "37587312",
+    "40024058",
+    "20143830",
+    "21995858",
+    "28844133",
+    "34635234",
+    "35347985",
+    "38908137",
+    "32823106",
+    "28173924",
+    "23051804",
+    "19040729",
+    "25785933",
+    "24222034",
+    "34857935",
+    "38976774",
+    "28755756",
+    "27602357",
+    "31265251",
+    "32407623"
+  ],
+  "tables_count": 3,
+  "figures_count": 7,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "method fundamentals",
+    "experimental section",
+    "data generation.",
+    "data analysis.",
+    "results and discussion",
+    "demonstration on spiked dialysate data set.",
+    "application to unknown feature identification in brain metabolomics.",
+    "conclusion",
+    "supplementary material",
+    "acknowledgements",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 6644,
+  "converted_at": "2026-04-06T22:39:23.438472+00:00"
+}

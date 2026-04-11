@@ -1,0 +1,4 @@
+{"ts": 1775565351.494292, "batch": "baseline", "counts": {"cohorts": 4, "institutions": 9, "investigators": 15, "platforms": 3, "protocols": 0, "bundles": 0}, "total": 31, "note": "31 entities from dev seed before wedge starts"}
+{"ts": 1775570784.7944791, "batch": "after-batch1+2-merge", "counts": {"cohorts": 27, "institutions": 29, "investigators": 37, "platforms": 12, "protocols": 0, "bundles": 0}, "total": 105, "note": "post-merge of 20 fragment files"}
+{"ts": 1775572290.519896, "batch": "after-batch1+2-rerun", "counts": {"cohorts": 27, "institutions": 29, "investigators": 37, "platforms": 12, "protocols": 0, "bundles": 0}, "total": 105, "note": "self-heal of amyloid-biomarker-study-consortium back-ref"}
+{"ts": 1775577500.732503, "batch": "after-cycle2-merge", "counts": {"cohorts": 61, "institutions": 66, "investigators": 69, "platforms": 23, "protocols": 0, "bundles": 0}, "total": 219, "note": "post-cycle2 wedge full 50 papers compiled"}

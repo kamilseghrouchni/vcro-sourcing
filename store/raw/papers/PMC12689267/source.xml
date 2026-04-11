@@ -1,0 +1,1105 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="dad270228" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement (Amst)</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement (Amst)</journal-id><journal-id journal-id-type="pmc-domain-id">3002</journal-id><journal-id journal-id-type="pmc-domain">dadm</journal-id><journal-id journal-id-type="publisher-id">DAD2</journal-id><journal-title-group><journal-title>Alzheimer's &amp; Dementia : Diagnosis, Assessment &amp; Disease Monitoring</journal-title></journal-title-group><issn pub-type="epub">2352-8729</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12689267</article-id><article-id pub-id-type="pmcid-ver">PMC12689267.1</article-id><article-id pub-id-type="pmcaid">12689267</article-id><article-id pub-id-type="pmcaiid">12689267</article-id><article-id pub-id-type="pmid">41383880</article-id><article-id pub-id-type="doi">10.1002/dad2.70228</article-id><article-id pub-id-type="publisher-id">DAD270228</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Machine learning models of Alzheimer's disease spectrum using blood tests</article-title><alt-title alt-title-type="left-running-head">FALASCA <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="dad270228-cr-0001" contrib-type="author"><name name-style="western"><surname>Falasca</surname><given-names initials="NW">Nicola Walter</given-names></name><xref rid="dad270228-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="dad270228-cr-0002" contrib-type="author"><name name-style="western"><surname>Ferretti</surname><given-names initials="A">Antonio</given-names></name><xref rid="dad270228-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad270228-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="dad270228-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="dad270228-cr-0003" contrib-type="author"><name name-style="western"><surname>Granzotto</surname><given-names initials="A">Alberto</given-names></name><xref rid="dad270228-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad270228-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="dad270228-cr-0004" contrib-type="author"><name name-style="western"><surname>Sensi</surname><given-names initials="SL">Stefano L.</given-names></name><xref rid="dad270228-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad270228-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="dad270228-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="dad270228-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="dad270228-cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Franciotti</surname><given-names initials="R">Raffaella</given-names></name><xref rid="dad270228-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad270228-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="dad270228-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>raffaella.franciotti@unich.it</email></address></contrib><contrib id="dad270228-cr-0006" contrib-type="author"><collab collab-type="authors">for the Alzheimer's Disease Neuroimaging Initiative (ADNI)</collab></contrib></contrib-group><aff id="dad270228-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Neuroscience, Imaging, and Clinical Sciences</named-content>
+<institution>G. d'Annunzio University of Chieti‐Pescara</institution>
+<city>Chieti</city>
+<country country="IT">Italy</country>
+</aff><aff id="dad270228-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">UdA‐TechLab</named-content>
+<named-content content-type="organisation-division">Research Center</named-content>
+<institution>University "G. d'Annunzio" of Chieti‐Pescara</institution>
+<city>Chieti</city>
+<country country="IT">Italy</country>
+</aff><aff id="dad270228-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Institute for Advanced Biomedical Technologies</named-content>
+<institution>G. d'Annunzio University of Chieti‐Pescara</institution>
+<city>Chieti</city>
+<country country="IT">Italy</country>
+</aff><aff id="dad270228-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Center for Advanced Studies and Technology – CAST</named-content>
+<institution>G. d'Annunzio University of Chieti‐Pescara</institution>
+<city>Chieti</city>
+<country country="IT">Italy</country>
+</aff><aff id="dad270228-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Neurology</named-content>
+<institution>SS Annunziata University Hospital, Chieti, University of Chieti‐Pescara</institution>
+<city>Chieti</city>
+<country country="IT">Italy</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Raffaella Franciotti, Department of Neuroscience, Imaging and Clinical Science, G. d'Annunzio University of Chieti‐Pescara, via dei Vestini, 66100 Chieti, Italy.<break/> Email: <email>raffaella.franciotti@unich.it</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>12</month><year>2025</year></pub-date><pub-date pub-type="collection"><season>Oct-Dec</season><year>2025</year></pub-date><volume>17</volume><issue seq="410">4</issue><issue-id pub-id-type="pmc-issue-id">497563</issue-id><issue-id pub-id-type="doi">10.1002/dad2.v17.4</issue-id><elocation-id>e70228</elocation-id><history><date date-type="rev-recd"><day>06</day><month>11</month><year>2025</year></date><date date-type="received"><day>11</day><month>6</month><year>2025</year></date><date date-type="accepted"><day>06</day><month>11</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>09</day><month>12</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>11</day><month>12</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-12-12 09:25:13.433"><day>12</day><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring</italic> published by Wiley Periodicals, LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="DAD2-17-e70228.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:DAD2-17-e70228.pdf"/><abstract><title>Abstract</title><sec id="dad270228-sec-0010"><title>INTRODUCTION</title><p>The diagnosis of Alzheimer's disease (AD) traditionally relies on cerebrospinal fluid and plasma levels of amyloid beta and phosphorylated tau. Although informative, these biomarkers represent a narrow, hypothesis‐driven approach to intercept the disease.</p></sec><sec id="dad270228-sec-0020"><title>METHODS</title><p>Data‐driven analysis was applied on demographic data, apolipoprotein E (<italic toggle="yes">APOE</italic>) ε4 allele, and 82 biomarkers obtained from blood tests of healthy controls (HC), mild cognitive impairment that remained stable within 36 months following blood collection (sMCI), and patients with AD.</p></sec><sec id="dad270228-sec-0030"><title>RESULTS</title><p>Statistical analyses revealed differences among groups in many cholesterol‐related analytes. <italic toggle="yes">APOE</italic> ε4 and analytes such as amino acids, lipoproteins, and fatty acids emerged as the most influential features in machine learning (ML) classification algorithms. Glycolysis‐related metabolites and amino and fatty acids were predictive for distinguishing sMCI and AD from HC.</p></sec><sec id="dad270228-sec-0040"><title>DISCUSSION</title><p>These findings support the hypothesis that systemic alterations also occur during the preclinical stages of dementia, which can be detected by ML models on blood biomarkers.</p></sec><sec id="dad270228-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="dad270228-list-0001"><list-item><p>Machine learning on blood tests detects preclinical cognitive decline.</p></list-item><list-item><p>Glycolysis metabolites are predictive for distinguishing stable MCI and AD from HC.</p></list-item><list-item><p>Amino acids, lipoproteins, and fatty acids are the most predictive features.</p></list-item><list-item><p>Inflammatory and metabolic biomarkers represent a biosignature of cognitive health.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="dad270228-kwd-0001">apolipoprotein E (<italic toggle="yes">APOE</italic>) ε4 allele</kwd><kwd id="dad270228-kwd-0002">cholesterol‐related analytes</kwd><kwd id="dad270228-kwd-0003">circulating peripheral biomarkers</kwd><kwd id="dad270228-kwd-0004">fatty acids</kwd><kwd id="dad270228-kwd-0005">glycolysis‐related metabolites</kwd><kwd id="dad270228-kwd-0006">mild cognitive impairment (MCI)</kwd><kwd id="dad270228-kwd-0007">supervised support vector machine (SVM) algorithm</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>European Union – NextGenerationEU, Mission 4, Component1, under the Italian Ministry and Research (MUR) National Innovation Ecosystem</institution></institution-wrap>
+</funding-source><award-id>ECS00000041 ‐ Vitality ‐ CUP D73C22000840006</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="3"/><page-count count="14"/><word-count count="7650"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October-December 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:10.12.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="dad270228-cite-0001">
+<string-name name-style="western">
+<surname>Falasca</surname>
+<given-names>NW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferretti</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Granzotto</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sensi</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Franciotti</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Machine learning models of Alzheimer's disease spectrum using blood tests</article-title>. <source>Alzheimer's Dement</source>. <year>2025</year>;<volume>17</volume>:<elocation-id>e70228</elocation-id>. <pub-id pub-id-type="doi">10.1002/dad2.70228</pub-id>
+</mixed-citation>
+</p><fn-group><fn id="dad270228-note-0001"><p>For the Alzheimer's Disease Neuroimaging Initiative (ADNI), see Acknowledgment Section.</p></fn></fn-group></notes></front><body><sec id="dad270228-sec-0060"><label>1</label><title>BACKGROUND</title><p>Imaging and molecular biomarkers, obtained from cerebrospinal fluid (CSF) or blood samples, are entering clinical practice to support physicians in the diagnosis of Alzheimer's disease (AD).<xref rid="dad270228-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="dad270228-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> Assays aimed at evaluating amyloid beta (Aβ) and phosphorylated tau (p‐tau) levels with positron emission tomography (PET)–based tracers or from biological fluids are valuable for the early diagnosis of AD, for monitoring, and for distinguishing the condition from other forms of dementia.<xref rid="dad270228-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> In addition, there is great interest in the prognostic utility of such tools, with p‐tau–based models holding great promise as predictors of the future development of AD dementia in individuals with early signs of cognitive decline.<xref rid="dad270228-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> However, the use of imaging or peripheral biomarkers remains challenging and often limited to highly specialized clinical facilities. Compared to amyloid PET and CSF testing, blood biomarkers have significant practical advantages that may democratize the use of testing. These include the acceptability of blood draws by patients, accessibility of equipment and staff, and lower costs.<xref rid="dad270228-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>
+</p><p>On the AD continuum, mild cognitive impairment (MCI) is identified as a transition stage between healthy aging and dementia.<xref rid="dad270228-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Considered as the gateway to AD dementia, the MCI phase has drawn substantial attention for studies aimed at identifying prognostic biomarkers, with critical implications for diagnosis and patient management. Among the increasing number of genetic risk factors for AD, the apolipoprotein E (<italic toggle="yes">APOE</italic>) gene, which is associated with various cellular functions related to immune responses, endocytosis, and cholesterol metabolism,<xref rid="dad270228-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> remains the strongest and most prevalent and recently has been identified as an across‐disease trigger of neurodegeneration.<xref rid="dad270228-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> Heterozygosity and homozygosity for the ε4 allele of the <italic toggle="yes">APOE</italic> gene increase AD risk by 3‐ and 12‐fold, respectively.<xref rid="dad270228-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>
+<italic toggle="yes">APOE</italic> ε2 confers protection, whereas <italic toggle="yes">APOE</italic> ε3 is considered neutral.<xref rid="dad270228-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+</p><p>Emerging evidence suggests that AD's etiology transcends the traditional linear model of Aβ dysmetabolism, leading to p‐tau accumulation and neuronal death.<xref rid="dad270228-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="dad270228-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> More likely, multiple central and peripheral biological pathways—including cerebrovascular pathology, inflammation, vascular and endothelial injury, glucose metabolism, insulin signaling, and lipid processing— synergistically contribute to the AD‐related cognitive decline.<xref rid="dad270228-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="dad270228-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="dad270228-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="dad270228-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> However, the intricate, nonlinear interactions among these pathways pose challenges in fully understanding the molecular changes and their roles in disease progression.<xref rid="dad270228-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>
+</p><p>In this context, computer‐based statistical methods known as machine learning (ML) algorithms offer significant advantages for analyzing large datasets of biomarkers, looking for recurring patterns. The ability of these algorithms to handle high‐dimensional data and effectively classify complex, nonlinear relationships make these tools particularly well‐suited for predicting outcomes in large cohorts. However, current ML applications in publicly available datasets, like the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort, face critical gaps. First, most studies prioritize novel, specialized biomarkers (e.g., p‐tau217, neurofilament light chain [NfL], and glial fibrillary acidic protein [GFAP]) over routinely available clinical blood analytes despite their clinical practicality. Second, there is limited exploration of how AD‐risk genotypes, like <italic toggle="yes">APOE</italic> status, modulate routine biomarker patterns across disease stages. Third, existing models often lack reproducibility due to proper biobanking, appropriate blood handling, and preprocessing.<xref rid="dad270228-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="dad270228-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>
+</p><p>This observational cross‐sectional study aims at identifying possible differences in blood analyte values among healthy controls (HC), MCI individuals which remained stable within 36 months after blood collection (sMCI), and AD patients, as well the best combination of routinely performed and research‐grade circulating biomarkers helpful for classifying each group by employing supervised ML algorithms. The study, leveraging on the wealth of standardized information obtained from the ADNI dataset (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adni.loni.usc.edu" ext-link-type="uri">https://adni.loni.usc.edu</ext-link>) aims to identify clinically accessible and cost‐effective blood analytes that can aid in predicting the course of AD.</p></sec><sec id="dad270228-sec-0070"><label>2</label><title>METHODS</title><sec id="dad270228-sec-0080"><label>2.1</label><title>Participants</title><p>Demographic information (age, sex, education, ethnicity, and race), <italic toggle="yes">APOE</italic> ε4 genotype, Aβ, p‐tau, and 82 analytes from blood tests were obtained from the ADNI database for HC, sMCI, and AD patients. All the data used in this study are available from the ADNI database. HC, sMCI, and AD subjects were then selected for the study. HC and sMCI patients were included only if they remained stable within 36 months following blood collection. AD patients were included if they had not changed their diagnosis in the follow‐up visits.</p><boxed-text position="float" content-type="box" orientation="portrait"><sec id="dad270228-sec-0090"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="dad270228-list-0002"><list-item><p>
+<bold>Systematic review</bold>: The diagnosis of mild cognitive impairment (MCI) and dementia due to Alzheimer's disease (AD) relies on a hypothesis‐driven approach quantifying tau and amyloid in cerebrospinal fluid, plasma, and imaging scans. However, the use of these biomarkers remains challenging and often limited to highly specialized clinical facilities.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: The current data‐driven study indicated that machine learning algorithms applied to blood test analytes can effectively distinguish individuals with MCI and AD from healthy controls. The findings showed that immune, inflammatory, and metabolic biomarkers collectively represent a biological signature of cognitive health. This approach can potentially streamline the diagnostic process and make early detection more feasible in diverse clinical settings.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Future research should integrate non‐invasive circulating biomarkers with amyloid beta deposition, tau accumulation, and neurofilament light chain levels to enhance our understanding of the relationship between peripheral alterations and AD pathology, potentially leading to more accurate and early diagnoses.</p></list-item></list>
+</p></sec></boxed-text><p>The ADNI dataset was launched in 2003 as a public–private partnership led by Principal Investigator Michael W. Weiner, MD. The clinical coordination center of ADNI established a network of clinical sites. It developed the clinical protocol and informed consent, which is distributed to the sites for local institutional review board ethical approval. One such institution is the Office for the Protection of Research Subjects at the University of Southern California. Participants provided written informed consent for the study. More details can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://adni.loni.usc.edu" ext-link-type="uri">adni.loni.usc.edu</ext-link>. The primary goal of the ADNI has been to test whether serial magnetic resonance imaging (MRI), PET, other biological markers, and clinical and neuropsychological assessment can be combined to measure the progression of MCI and early AD.</p></sec><sec id="dad270228-sec-0100"><label>2.2</label><title>Peripheral biomarkers</title><p>Peripheral biomarkers included 82 analytes belonging to 12 major metabolic groups: amino acids, apolipoproteins, cholesterol, fatty acids, fluid balance, glycolysis metabolites, ketone bodies, lipoprotein, other lipids, phospholipids, total lipids, and triglycerides. All variables are listed in Table <xref rid="dad270228-tbl-0001" ref-type="table">1</xref>. In a subset of the study cohort, Aβ42 and p‐tau181 values from CSF were also included.</p><table-wrap position="float" id="dad270228-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>List of all analytes included in the prediction models.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Metabolite group</th><th align="left" rowspan="1" colspan="1">Analyte</th><th align="left" rowspan="1" colspan="1">Assay availability</th><th align="left" rowspan="1" colspan="1">Origin</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Amino acids</td><td align="left" rowspan="1" colspan="1">ALA, Alanine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">GLN, Glutamine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">GLY, Glycine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">HIS, Histidine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">ILE, Isoleucine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LEU, Leucine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL BCAA, Total concentration of branched‐chain amino acids (leucine + isoleucine + valine) [mmol/l]</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VAL, Valine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">PHE, Phenylalanine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TYR, Tyrosine (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Apolipoproteins</td><td align="left" rowspan="1" colspan="1">APOA1, Apolipoprotein A1 (g/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">APOB, Apolipoprotein B (g/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">APOB_BY_APOA1, Ratio of apolipoprotein B to apolipoprotein A1</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Cholesterol</td><td align="left" rowspan="1" colspan="1">LDL C, low‐density lipoprotein (LDL) cholesterol (mmol/L)</td><td align="left" rowspan="1" colspan="1">Routine clinical test</td><td align="left" rowspan="1" colspan="1">Standard clinical chemistry</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LDL CE, Cholesteryl esters LDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LDL FC, Free cholesterol in LDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">NON HDL C, Total cholesterol minus HDL‐C (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">REMNANT C, Remnant cholesterol (non‐HDL, non‐LDL ‐cholesterol) (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL C, Total cholesterol (mmol/L)</td><td align="left" rowspan="1" colspan="1">Routine clinical test</td><td align="left" rowspan="1" colspan="1">Standard clinical chemistry</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL CE, Total esterified cholesterol (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL FC, Total free cholesterol (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VLDL C, Very Low‐Density Lipoprotein (VLDL) cholesterol (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VLDL CE, Cholesteryl esters in VLDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VLDL FC, Free cholesterol in VLDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">HDL CE, Cholesteryl esters in high‐density lipoprotein (HDL) (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">HDL FC, Free cholesterol in HDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">CLINICAL LDL C, Clinical LDL cholesterol (mmol/L)</td><td align="left" rowspan="1" colspan="1">Routine clinical test</td><td align="left" rowspan="1" colspan="1">Standard clinical chemistry</td></tr><tr><td align="left" rowspan="1" colspan="1">Fatty acids</td><td align="left" rowspan="1" colspan="1">LA, Linoleic acid (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LA PCT, Ratio of linoleic acid to total fatty acids (%)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">MUFA, Monounsaturated fatty acids (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">MUFA PCT, Ratio of monounsaturated fatty acids to total fatty acids (%)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">OMEGA 3 (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">OMEGA 3 PCT, Ratio of omega‐3 fatty acids to total fatty acids (%)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">OMEGA 6 (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">OMEGA 6 BY OMEGA 3, Ratio of omega‐6 fatty acids to omega‐3 fatty acids</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">OMEGA 6 PCT, Ratio of omega‐6 fatty acids to total fatty acids (%)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">PUFA, Polyunsaturated fatty acids (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">PUFA BY MUFA, Ratio of polyunsaturated fatty acids to monounsaturated fatty acids</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">PUFA PCT, Ratio of polyunsaturated fatty acids to total fatty acids (%)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">SFA, Saturated fatty acids (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">SFA PCT, Ratio of saturated fatty acids to total fatty acids (%)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">DHA, Docosahexaenoic acid (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">DHA PCT, Ratio of docosahexaenoic acid to total fatty acids (%)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL FA, Total fatty acids (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">UNSATURATION, Degree of unsaturation</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Fluid Balance</td><td align="left" rowspan="1" colspan="1">ALBUMIN, (g/L)</td><td align="left" rowspan="1" colspan="1">Routine clinical test</td><td align="left" rowspan="1" colspan="1">Standard clinical chemistry</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">CREATININE, (µmol/L)</td><td align="left" rowspan="1" colspan="1">Routine clinical test</td><td align="left" rowspan="1" colspan="1">Standard clinical chemistry</td></tr><tr><td align="left" rowspan="1" colspan="1">Glycolysis‐related metabolites</td><td align="left" rowspan="1" colspan="1">CITRATE, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">GLUCOSE, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Routine clinical test</td><td align="left" rowspan="1" colspan="1">Standard clinical chemistry</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">GLYCEROL, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LACTATE, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">PYRUVATE, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">GLYCA, Glycoprotein acetyls (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Ketone bodies</td><td align="left" rowspan="1" colspan="1">ACETATE, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">ACETOACETATE, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">ACETONE, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">BOHBUTYRATE, 3‐Hydroxybutyrate (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Lipoprotein</td><td align="left" rowspan="1" colspan="1">HDL‐P, Concentration of HDL particles (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">HDL‐C, Cholesterol in very large HDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Routine clinical test</td><td align="left" rowspan="1" colspan="1">Standard clinical chemistry</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">HDL SIZE, Average diameter for HDL particles (nm)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LDL‐P, Concentration of LDL particles (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LDL SIZE, Average diameter for LDL particles (nm)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VLDL‐P, Concentration of VLDL particles (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VLDL SIZE, Average diameter for VLDL particles (nm)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL P, Total concentration of lipoprotein particles (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Other lipids</td><td align="left" rowspan="1" colspan="1">CHOLINES, Total cholines (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">PHOSPHATIDYLC, Phosphatidylcholines (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">PHOSPHOGLYC, Phosphoglycerides (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">SPHINGOMYELINS, (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TG BY PG, Ratio of triglycerides to phosphoglycerides</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Phospholipids</td><td align="left" rowspan="1" colspan="1">HDL‐PL, Phospholipids in HDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VLDL‐PL, Phospholipids in VLDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL PL, Total phospholipids in lipoprotein particles (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LDL‐PL, Phospholipids in LDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Total lipids</td><td align="left" rowspan="1" colspan="1">HDL L, Total lipids in HDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LDL L, Total lipids in LDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL L, Total lipids in lipoprotein particles (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VLDL L, Total lipids in VLDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1">Triglycerides</td><td align="left" rowspan="1" colspan="1">HDL TG, Triglycerides in HDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">LDL TG, Triglycerides in LDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">TOTAL TG, Total triglycerides (mmol/L)</td><td align="left" rowspan="1" colspan="1">Routine clinical test</td><td align="left" rowspan="1" colspan="1">Standard clinical chemistry</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">VLDL TG, Triglycerides in VLDL (mmol/L)</td><td align="left" rowspan="1" colspan="1">Research‐grade metabolomics</td><td align="left" rowspan="1" colspan="1">LC‐MS</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="dad270228-sec-0110"><label>2.3</label><title>Statistical analysis</title><p>Data are reported as mean ± standard deviation (SD) or percentage for continuous and dichotomous variables. Age, education, Aβ42, and p‐tau181 were compared among the three groups (HC, sMCI, and AD) using univariate analysis of variance (ANOVA). Receiver‐operating characteristic (ROC) analyses were performed on Aβ and p‐tau values to estimate the diagnostic accuracy of these biomarkers in the selected sample.</p><p>Multivariate analysis of covariance (MANCOVA) was performed to compare analytes among groups. Thus, analytes were used as multiple dependent variables; group (HC, sMCI, and AD) as an independent variable; and age, sex, education, ethnicity, and race as covariates. The assumption of homogeneity of variance across the groups was verified by Levene's test. The Bonferroni test was applied for the post hoc comparisons. Nonparametric statistics were applied for the comparison of dichotomous variables (sex, <italic toggle="yes">APOE</italic> ε4 status, ethnicity, and race) among the three groups. The Kruskal–Wallis test was applied for the post hoc analyses.</p><p>The significant analytes obtained from MANOVA and with the largest effect size among analytes in the same metabolite group were correlated with <italic toggle="yes">APOE</italic> ε4 status (absence or presence of at least one ε4 allele), correcting for age, sex, education, ethnicity, and race. These analytes were also correlated with education, correcting for age, sex, ethnicity, and race. For all statistical comparisons, the level of significance was set at 0.05.</p></sec><sec id="dad270228-sec-0120"><label>2.4</label><title>ML algorithms</title><p>Optimized support vector machine (SVM) algorithm, implemented in Matlab 2023, was applied to the dataset, including all 82 analytes, age, sex, education, and <italic toggle="yes">APOE</italic> ε4 status. An ML model was estimated for each of the following binary classifications: sMCI versus HC, AD versus HC, and AD versus sMCI. As the first step, the algorithm splits the entire dataset into train, validation, and test datasets randomly. Data were used for the training (70% of the subjects) and for the validation phase (15% of subjects). SVM algorithms were used to train and validate the models. Specifically, optimized SVM was used to find the best hyperparameter values that improve the performance of the model. We used a linear Kernel function and 30 iterations in the Bayesian optimization process. This Bayesian approach is an advanced hyperparameter tuning technique which allows for evaluating the object function, reducing the search process within the parameter space.<xref rid="dad270228-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> This step is critical because ML models need to set hyperparameters to best tune the algorithm for data testing. After building the model, the testing phase was applied to the remaining 15% of the dataset.</p><p>To evaluate the performance of each ML algorithm, accuracy (ACC), positive predictive value (PPV), negative predictive value (NPV), sensitivity, specificity, and area under the ROC curve (AUC) were calculated for each model in the test datasets.</p></sec><sec id="dad270228-sec-0130"><label>2.5</label><title>Predictive features</title><p>The classification algorithm that obtained the best accuracy after the tuning procedure was selected for further analysis using fewer variables. The ReliefF test was used as a feature‐ranking algorithm to calculate a feature score for each variable. ReliefF is an evaluation filter algorithm capable of detecting feature dependencies using the concept of nearest neighbors, and selects top‐scoring features (feature selection procedure). The output score ranges from −1 to 1, with more positive scores indicating more predictive features. We used a forward selection process that retains an additional variable as a predictive feature only if it improves the model's performance, increasing AUC by at least 1%, compared to that of the previous model obtained so far.</p><p>The SHAP (SHapley Additive exPlanations) algorithm<xref rid="dad270228-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> was applied to provide a consistent and objective explanation of how each feature impacts the model's prediction. SHAP assigns an importance value to each feature, indicating how much each feature predicts the target. The magnitude of the SHAP value is a measure of how strong the effect is. Features with positive SHAP values improve the prediction, whereas those with negative values worsen the prediction.</p></sec></sec><sec id="dad270228-sec-0140"><label>3</label><title>RESULTS</title><sec id="dad270228-sec-0150"><label>3.1</label><title>Statistical results</title><p>Age, sex, and <italic toggle="yes">APOE</italic> ε4 status were statistically different among groups. sMCI subjects were younger when compared to AD patients (<italic toggle="yes">p</italic> = 0.02), female prevalence was higher in HC than in sMCI (<italic toggle="yes">p</italic> = 0.001) and AD (<italic toggle="yes">p</italic> = 0.01), and <italic toggle="yes">APOE</italic> ε4 prevalence was lower in HC than in sMCI and AD, and higher in AD than in sMCI (all <italic toggle="yes">p</italic> values = 0.001). Statistical analyses on analytes using age, sex, education, ethnicity, and race as covariates showed significant differences among cohorts on seven metabolite groups (i.e., amino acids, cholesterol, fatty acids, glycolysis‐related metabolites, other lipids, phospholipids, and total lipids). Post hoc analyses showed that all analytes were significantly different between the AD, HC, and sMCI groups. Total concentration of branched‐chain amino acids (BCAAs, leucine + isoleucine + valine), total esterified cholesterol, omega 6, glycoprotein acetyls (glyca), sphingomyelin, total phospholipids in lipoprotein particles, and total lipids in lipoprotein particles were the analytes with the best effect size for each metabolite group. The boxplot distribution of these analytes is shown in Figure <xref rid="dad270228-fig-0001" ref-type="fig">1</xref>. No significant difference was found between sMCI and HC. Participants’ characteristics and statistical results are shown in Table <xref rid="dad270228-tbl-0002" ref-type="table">2</xref>. No significant partial correlation was found between the analytes and <italic toggle="yes">APOE</italic> ε4. Instead, significant partial correlation was found between total esterified cholesterol and <italic toggle="yes">APOE</italic> ε4 when correcting for sex (<italic toggle="yes">ρ</italic> = 0.076, <italic toggle="yes">p</italic> = 0.038). Significant partial correlations were also found between education and BCAA (<italic toggle="yes">ρ</italic> = –0.073, <italic toggle="yes">p</italic> = 0.045) in cholesterol group, omega 6 (<italic toggle="yes">ρ</italic> = –0.159, <italic toggle="yes">p</italic> = 0.013·10<sup>−3</sup>) in fatty acids group, glyca (<italic toggle="yes">ρ</italic> = –0.151, <italic toggle="yes">p</italic> = 0.034·10<sup>−3</sup>) in glycolysis‐related metabolites, and total lipids in lipoprotein particles (<italic toggle="yes">ρ</italic> = −0.110, <italic toggle="yes">p</italic> = 0.003).</p><fig position="float" fig-type="FIGURE" id="dad270228-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>The boxplot distribution of the significant analytes showing the best effect size for each metabolite group. AD, Alzheimer's disease; glyca, glycoprotein acetyls; HC, healthy control; P‐TAU, phosphorylated tau; sMCI, stable mild cognitive impairment; TOTAL BCAA, total concentration of branched‐chain amino acids (leucine + isoleucine + valine); TOTAL CE, total esterified cholesterol; TOTAL L, total lipids in lipoprotein particles; TOTAL PL, total phospholipids in lipoprotein particles.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="DAD2-17-e70228-g002.jpg"/></fig><table-wrap position="float" id="dad270228-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Participants’ characteristics (mean ± SD) and statistical results on demographic variables and analytes corrected for age, sex, education, ethnicity, and race.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="left" colspan="3" style="border-bottom:solid 1px #000000" rowspan="1">Post hoc</th></tr><tr style="border-bottom:solid 1px #000000" valign="bottom"><th align="left" valign="bottom" rowspan="1" colspan="1">Characteristic</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<p>HC</p>
+<p>(<italic toggle="yes">n</italic> = 250)</p>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<p>sMCI</p>
+<p>(<italic toggle="yes">n</italic> = 250)</p>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<p>AD</p>
+<p>(<italic toggle="yes">n</italic> = 250)</p>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">Main effect</th><th align="left" valign="bottom" rowspan="1" colspan="1">HC vs sMCI</th><th align="left" valign="bottom" rowspan="1" colspan="1">HC vs AD</th><th align="left" valign="bottom" rowspan="1" colspan="1">sMCI vs AD</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Demographic</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Age<xref rid="dad270228-tbl2-note-0004" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">73.4 ± 5.7</td><td align="left" rowspan="1" colspan="1">72.9 ± 7.3</td><td align="left" rowspan="1" colspan="1">74.5 ± 7.2</td><td align="left" rowspan="1" colspan="1">0.02</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">0.2</td><td align="left" rowspan="1" colspan="1">
+<bold>0.01</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Sex, male %<xref rid="dad270228-tbl2-note-0005" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">46.4</td><td align="left" rowspan="1" colspan="1">63.2</td><td align="left" rowspan="1" colspan="1">59.2</td><td align="left" rowspan="1" colspan="1">0.01·10<sup>−1</sup>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.01·10<sup>−1</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.01</bold>
+</td><td align="left" rowspan="1" colspan="1">1.0</td></tr><tr><td align="left" rowspan="1" colspan="1">Education, y<xref rid="dad270228-tbl2-note-0004" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">16.4 ± 2.7</td><td align="left" rowspan="1" colspan="1">16.0 ± 2.7</td><td align="left" rowspan="1" colspan="1">15.9 ± 2.7</td><td align="left" rowspan="1" colspan="1">0.04</td><td align="left" rowspan="1" colspan="1">0.16</td><td align="left" rowspan="1" colspan="1">0.05</td><td align="left" rowspan="1" colspan="1">1.0</td></tr><tr><td align="left" rowspan="1" colspan="1">Ethnicity<xref rid="dad270228-tbl2-note-0005" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">0.25</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Hispanic</td><td align="left" rowspan="1" colspan="1">11 (4%)</td><td align="left" rowspan="1" colspan="1">7 (3%)</td><td align="left" rowspan="1" colspan="1">7 (3%)</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Non‐Hispanic</td><td align="left" rowspan="1" colspan="1">237 (95%)</td><td align="left" rowspan="1" colspan="1">243 (97%)</td><td align="left" rowspan="1" colspan="1">243 (97%)</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Unknown</td><td align="left" rowspan="1" colspan="1">2 (1%)</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Race<xref rid="dad270228-tbl2-note-0005" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">0.30</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Black</td><td align="left" rowspan="1" colspan="1">12 (5%)</td><td align="left" rowspan="1" colspan="1">5 (2%)</td><td align="left" rowspan="1" colspan="1">5 (2%)</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">American Indian</td><td align="left" rowspan="1" colspan="1">1 (0%)</td><td align="left" rowspan="1" colspan="1">1 (0%)</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Asian</td><td align="left" rowspan="1" colspan="1">3 (1%)</td><td align="left" rowspan="1" colspan="1">5 (2%)</td><td align="left" rowspan="1" colspan="1">4 (2%)</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">White</td><td align="left" rowspan="1" colspan="1">232 (93%)</td><td align="left" rowspan="1" colspan="1">237 (95%)</td><td align="left" rowspan="1" colspan="1">240 (96%)</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">More than one</td><td align="left" rowspan="1" colspan="1">2 (1%)</td><td align="left" rowspan="1" colspan="1">2 (1%)</td><td align="left" rowspan="1" colspan="1">1 (0%)</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Genetic</bold>
+<xref rid="dad270228-tbl2-note-0005" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">APOE</italic> ε4 (%)</td><td align="left" rowspan="1" colspan="1">23.2</td><td align="left" rowspan="1" colspan="1">44.0</td><td align="left" rowspan="1" colspan="1">63.2</td><td align="left" rowspan="1" colspan="1">0.01·10<sup>−1</sup>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.01·10<sup>−1</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.01·10<sup>−1</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.01·10<sup>−1</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Metabolite group</bold>
+<xref rid="dad270228-tbl2-note-0006" ref-type="table-fn">
+<sup>c</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Analyte</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Amino acids</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">LEU</td><td align="left" rowspan="1" colspan="1">0.12 ± 0.04</td><td align="left" rowspan="1" colspan="1">0.12 ± 0.03</td><td align="left" rowspan="1" colspan="1">0.11 ± 0.02</td><td align="left" rowspan="1" colspan="1">7.87·10<sup>−12</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>7.06·10<sup>−4</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>7.79·10<sup>−3</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">
+<bold>TOTAL BCAA</bold>
+</td><td align="left" rowspan="1" colspan="1">0.41 ± 0.08</td><td align="left" rowspan="1" colspan="1">0.41 ± 0.08</td><td align="left" rowspan="1" colspan="1">0.39 ± 0.07</td><td align="left" rowspan="1" colspan="1">3.06·10<sup>−13</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>1.02·10<sup>−3</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>6.05·10<sup>−3</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">VAL</td><td align="left" rowspan="1" colspan="1">0.23 ± 0.04</td><td align="left" rowspan="1" colspan="1">0.24 ± 0.04</td><td align="left" rowspan="1" colspan="1">0.22 ± 0.04</td><td align="left" rowspan="1" colspan="1">7.11·10<sup>−11</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>6.85·10<sup>−4</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3.71·10<sup>−3</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Cholesterol</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Clinical LDL C</td><td align="left" rowspan="1" colspan="1">2.78 <bold>± </bold>0.66</td><td align="left" rowspan="1" colspan="1">2.73 ± 0.73</td><td align="left" rowspan="1" colspan="1">2.91 ± 0.79</td><td align="left" rowspan="1" colspan="1">1.16·10<sup>−15</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>1.97·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.13·10<sup>−2</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">LDL C</td><td align="left" rowspan="1" colspan="1">1.94 ± 0.41</td><td align="left" rowspan="1" colspan="1">1.91 ± 0.45</td><td align="left" rowspan="1" colspan="1">2.02 ± 0.50</td><td align="left" rowspan="1" colspan="1">1.04·10<sup>−15</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>1.77·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.31·10<sup>−2</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">LDL CE</td><td align="left" rowspan="1" colspan="1">1.42 ± 0.30</td><td align="left" rowspan="1" colspan="1">1.40 ± 0.33</td><td align="left" rowspan="1" colspan="1">1.48 ± 0.37</td><td align="left" rowspan="1" colspan="1">1.60·10<sup>−15</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>2.13·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.49·10<sup>−2</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">LDL FC</td><td align="left" rowspan="1" colspan="1">0.52 ± 0.11</td><td align="left" rowspan="1" colspan="1">0.51 ± 0.13</td><td align="left" rowspan="1" colspan="1">0.54 ± 0.13</td><td align="left" rowspan="1" colspan="1">3.10·10<sup>−15</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>1.46·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.28·10<sup>−2</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">NON HDL C</td><td align="left" rowspan="1" colspan="1">3.41 ± 0.73</td><td align="left" rowspan="1" colspan="1">3.33 ± 0.82</td><td align="left" rowspan="1" colspan="1">3.54 ± 0.91</td><td align="left" rowspan="1" colspan="1">4.37·10<sup>−17</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>3.72·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>7.40·10<sup>−3</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">TOTAL C</td><td align="left" rowspan="1" colspan="1">4.96 ± 0.88</td><td align="left" rowspan="1" colspan="1">4.81 ± 0.98</td><td align="left" rowspan="1" colspan="1">5.10 ± 1.01</td><td align="left" rowspan="1" colspan="1">4.42·10<sup>−29</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>1.27·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>9.36·10<sup>−4</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">
+<bold>TOTAL CE</bold>
+</td><td align="left" rowspan="1" colspan="1">3.66 ± 0.65</td><td align="left" rowspan="1" colspan="1">3.54 ± 0.72</td><td align="left" rowspan="1" colspan="1">3.75 ± 0.73</td><td align="left" rowspan="1" colspan="1">4.38·10<sup>−30</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>1.11·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.05·10<sup>−3</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">TOTAL FC</td><td align="left" rowspan="1" colspan="1">1.31 ± 0.24</td><td align="left" rowspan="1" colspan="1">1.27 ± 0.27</td><td align="left" rowspan="1" colspan="1">1.35 ± 0.29</td><td align="left" rowspan="1" colspan="1">4.78·10<sup>−25</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>2.33·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.05·10<sup>−3</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Fatty acids</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">LA</td><td align="left" rowspan="1" colspan="1">3.99 ± 0.73</td><td align="left" rowspan="1" colspan="1">3.86 ± 0.77</td><td align="left" rowspan="1" colspan="1">4.13 ± 0.82</td><td align="left" rowspan="1" colspan="1">2.14·10<sup>−21</sup>
+</td><td align="left" rowspan="1" colspan="1">5.96·10<sup>−1</sup>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3.05·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3.16·10<sup>−4</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">OMEGA 6</td><td align="left" rowspan="1" colspan="1">4.94 ± 0.73</td><td align="left" rowspan="1" colspan="1">4.82 ± 0.75</td><td align="left" rowspan="1" colspan="1">5.06 ± 0.79</td><td align="left" rowspan="1" colspan="1">2.21·10<sup>−29</sup>
+</td><td align="left" rowspan="1" colspan="1">9.32·10<sup>−1</sup>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>2.48·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>7.10·10<sup>−4</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Glycolysis</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Glyca</td><td align="left" rowspan="1" colspan="1">0.88 ± 0.13</td><td align="left" rowspan="1" colspan="1">0.87 ± 0.12</td><td align="left" rowspan="1" colspan="1">0.91 ± 0.13</td><td align="left" rowspan="1" colspan="1">1.22·10<sup>−13</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>6.02·10<sup>−3</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.59·10<sup>−2</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Other lipids</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">Sphingomyelin</td><td align="left" rowspan="1" colspan="1">0.49 ± 0.08</td><td align="left" rowspan="1" colspan="1">0.48 ± 0.08</td><td align="left" rowspan="1" colspan="1">0.50 ± 0.08</td><td align="left" rowspan="1" colspan="1">5.79·10<sup>−34</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>9.34·10<sup>−4</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5.56·10<sup>−4</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Phospholipids</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">LDL PL</td><td align="left" rowspan="1" colspan="1">0.67 ± 0.13</td><td align="left" rowspan="1" colspan="1">0.66 ± 0.14</td><td align="left" rowspan="1" colspan="1">0.70 ± 0.16</td><td align="left" rowspan="1" colspan="1">4.59·10<sup>−15</sup>
+</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">
+<bold>1.79·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.41·10<sup>−2</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">
+<bold>TOTAL PL</bold>
+</td><td align="left" rowspan="1" colspan="1">3.07 ± 0.47</td><td align="left" rowspan="1" colspan="1">2.95 ± 0.50</td><td align="left" rowspan="1" colspan="1">3.10 ± 0.51</td><td align="left" rowspan="1" colspan="1">1.98·10<sup>−40</sup>
+</td><td align="left" rowspan="1" colspan="1">6.30·10<sup>−1</sup>
+</td><td align="left" rowspan="1" colspan="1">8.21×10<sup>−2</sup>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.50×10<sup>−3</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Total lipids</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">LDL L</td><td align="left" rowspan="1" colspan="1">2.76 ± 0.55</td><td align="left" rowspan="1" colspan="1">2.73 ± 0.61</td><td align="left" rowspan="1" colspan="1">2.87 ± 0.68</td><td align="left" rowspan="1" colspan="1">8.48·10<sup>−30</sup>
+</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">
+<bold>1.87·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.25·10<sup>−2</sup>
+</bold>
+</td></tr><tr><td style="padding-left:10%" align="left" rowspan="1" colspan="1">
+<bold>TOTAL L</bold>
+</td><td align="left" rowspan="1" colspan="1">9.23 ± 1.52</td><td align="left" rowspan="1" colspan="1">8.92 ± 1.65</td><td align="left" rowspan="1" colspan="1">9.43 ± 1.74</td><td align="left" rowspan="1" colspan="1">4.75×10<sup>−6</sup>
+</td><td align="left" rowspan="1" colspan="1">6.50·10<sup>−1</sup>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>4.68·10<sup>−2</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>7.17·10<sup>−4</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">HC (n = 122)</td><td align="left" rowspan="1" colspan="1">sMCI (198)</td><td align="left" rowspan="1" colspan="1">AD (n = 139)</td><td align="left" rowspan="1" colspan="1">Main Effect</td><td align="left" rowspan="1" colspan="1">HC vs. sMCI</td><td align="left" rowspan="1" colspan="1">HC vs. AD</td><td align="left" rowspan="1" colspan="1">sMCI vs. AD</td></tr><tr><td align="left" rowspan="1" colspan="1">Aβ42<xref rid="dad270228-tbl2-note-0004" ref-type="table-fn">
+<sup>a</sup>
+</xref> (ng/L)</td><td align="left" rowspan="1" colspan="1">1267.9 ± 37.6</td><td align="left" rowspan="1" colspan="1">1119.8 ± 32.6</td><td align="left" rowspan="1" colspan="1">701.1 ± 25.1</td><td align="left" rowspan="1" colspan="1">5.71×10<sup>−28</sup>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.05×10<sup>−1</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>7.29×10<sup>−26</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>9.91×10<sup>−19</sup>
+</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">p‐tau181<xref rid="dad270228-tbl2-note-0004" ref-type="table-fn">
+<sup>a</sup>
+</xref> (ng/L)</td><td align="left" rowspan="1" colspan="1">21.3 ± 0.9</td><td align="left" rowspan="1" colspan="1">24.5 ± 0.8</td><td align="left" rowspan="1" colspan="1">35.0 ± 1.3</td><td align="left" rowspan="1" colspan="1">1.94×10<sup>−18</sup>
+</td><td align="left" rowspan="1" colspan="1">0.08</td><td align="left" rowspan="1" colspan="1">
+<bold>8.87×10<sup>−17</sup>
+</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>6.95×10<sup>−13</sup>
+</bold>
+</td></tr></tbody></table><table-wrap-foot><fn id="dad270228-tbl2-note-0001"><p>
+<italic toggle="yes">Notes</italic>: For glyca in the glycolysis pη<sup>2 </sup>= 0.10, and for sphingomyelin in the other lipids metabolite group pη<sup>2 </sup>= 0.21.</p></fn><fn id="dad270228-tbl2-note-0002"><p>For each metabolite group analytes with the greatest pη<sup>2</sup> values are shown in bold. Significant <italic toggle="yes">p</italic>‐values in the post hoc comparisons are shown in bold.</p></fn><fn id="dad270228-tbl2-note-0003"><p>Abbreviations: Aβ42, amyloid‐β42; AD, Alzheimer's disease; APOE ε4, Apolipoprotein E ε4 genotype; AUC, area under the curve; Clinical LDL C, clinical low‐density lipoprotein cholesterol; HC, healthy control; LA, linoleic acid; LDL C, low‐density lipoprotein cholesterol; LDL CE, cholesteryl esters low‐density lipoprotein; LDL FC, free cholesterol in low‐density lipoprotein; LDL L, total lipids in low‐density lipoprotein; LDL PL, phospholipids in low‐density lipoprotein; LEU, leucine; ML, machine learning; NON HDL C, total cholesterol minus high‐density lipoprotein cholesterol; OMEGA 6, Omega‐6 fatty acids; sMCI, stable mild cognitive impairment; TOTAL BCAA, total concentration of branched‐chain amino acids; TOTAL C, total cholesterol; TOTAL CE, total esterified cholesterol; TOTAL FC, total free cholesterol; TOTAL L, total lipids in lipoprotein particles; TOTAL PL, total phospholipids in lipoprotein particles; VAL, valine.</p></fn><fn id="dad270228-tbl2-note-0004"><label>
+<sup>a</sup>
+</label><p>One‐way analysis of variance and Bonferroni post hoc comparisons.</p></fn><fn id="dad270228-tbl2-note-0005"><label>
+<sup>b</sup>
+</label><p>Nonparametric statistics to independent samples with Kruskal–Wallis post hoc comparisons.</p></fn><fn id="dad270228-tbl2-note-0006"><label>
+<sup>c</sup>
+</label><p>Multivariate analysis of covariance using age, sex, education, ethnicity, and race as covariates. Partial eta squared (pη<sup>2</sup>) value was greatest for: TOTAL BCAA (<italic toggle="yes">pη</italic>
+<sup>2 </sup>= 0.09) in the amino acids, TOTAL CE (<italic toggle="yes">pη</italic>
+<sup>2 </sup>= 0.19) in the cholesterol, OMEGA 6 (<italic toggle="yes">pη</italic>
+<sup>2 </sup>= 0.18) in the fatty acids, TOTAL PL (<italic toggle="yes">pη</italic>
+<sup>2 </sup>= 0.24) in the phospholipids, and TOTAL L (<italic toggle="yes">pη</italic>
+<sup>2 </sup>= 0.19) in the total lipids metabolite group.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="dad270228-sec-0160"><label>3.2</label><title>Machine learning results</title><p>For all three binary classifications performed in the testing dataset, the ML models reached a specificity higher than 60% and a sensitivity higher than 50%. The AUC was different among the three models, reaching 0.89 and 0.68 for the classification of AD from HC and sMCI, respectively, and 0.60 for the classification of sMCI from HC. The AUC values of ML models (0.89, 0.60) were greater or similar to the ones obtained from Aβ (0.86, 0.59) and p‐tau (0.79, 0.59) values for AD and sMCI classifications from HC. The diagnostic performance of the ML model (0.68) was lower than that of Aβ (0.77) and p‐tau (0.72) for the classification of AD from sMCI.</p><p>The ReliefF test used to predict the target with fewer variables showed that 18, 24, and 22 variables were the most important features for distinguishing sMCI from HC, AD from HC, and AD from sMCI, respectively. Table <xref rid="dad270228-tbl-0003" ref-type="table">3</xref> shows all the performance indices in the testing dataset for all the binary classifications when all variables were used and when only the most discriminative features were used in the models.</p><table-wrap position="float" id="dad270228-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>ML performance indices for the test phases using all features (82 analytes, age, sex, education, and <italic toggle="yes">APOE</italic> ε4), and the most important predictors for each model. ROC analyses on Aβ42 and p‐tau181.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr><th align="left" rowspan="1" colspan="1"/><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">sMCI (<italic toggle="yes">n</italic> = 250) vs HC (<italic toggle="yes">n</italic> = 250)</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">AD (<italic toggle="yes">n</italic> = 250) vs HC (<italic toggle="yes">n</italic> = 250)</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">AD (<italic toggle="yes">n</italic> = 250) vs sMCI (<italic toggle="yes">n</italic> = 250)</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Performance indices</th><th align="left" rowspan="1" colspan="1">All features</th><th align="left" rowspan="1" colspan="1">18 Predictors</th><th align="left" rowspan="1" colspan="1">All features</th><th align="left" rowspan="1" colspan="1">24 Predictors</th><th align="left" rowspan="1" colspan="1">All features</th><th align="left" rowspan="1" colspan="1">22 Predictors</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">ACCURACY</td><td align="left" rowspan="1" colspan="1">0.60</td><td align="left" rowspan="1" colspan="1">0.58</td><td align="left" rowspan="1" colspan="1">0.85</td><td align="left" rowspan="1" colspan="1">0.80</td><td align="left" rowspan="1" colspan="1">0.69</td><td align="left" rowspan="1" colspan="1">0.61</td></tr><tr><td align="left" rowspan="1" colspan="1">PPV</td><td align="left" rowspan="1" colspan="1">0.62</td><td align="left" rowspan="1" colspan="1">0.59</td><td align="left" rowspan="1" colspan="1">0.83</td><td align="left" rowspan="1" colspan="1">0.83</td><td align="left" rowspan="1" colspan="1">0.74</td><td align="left" rowspan="1" colspan="1">0.61</td></tr><tr><td align="left" rowspan="1" colspan="1">NPV</td><td align="left" rowspan="1" colspan="1">0.59</td><td align="left" rowspan="1" colspan="1">0.57</td><td align="left" rowspan="1" colspan="1">0.88</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.66</td><td align="left" rowspan="1" colspan="1">0.62</td></tr><tr><td align="left" rowspan="1" colspan="1">SENSITIVITY</td><td align="left" rowspan="1" colspan="1">0.52</td><td align="left" rowspan="1" colspan="1">0.52</td><td align="left" rowspan="1" colspan="1">0.89</td><td align="left" rowspan="1" colspan="1">0.76</td><td align="left" rowspan="1" colspan="1">0.61</td><td align="left" rowspan="1" colspan="1">0.59</td></tr><tr><td align="left" rowspan="1" colspan="1">SPECIFICITY</td><td align="left" rowspan="1" colspan="1">0.68</td><td align="left" rowspan="1" colspan="1">0.64</td><td align="left" rowspan="1" colspan="1">0.81</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.63</td></tr><tr><td align="left" rowspan="1" colspan="1">AUC</td><td align="left" rowspan="1" colspan="1">0.60</td><td align="left" rowspan="1" colspan="1">0.58</td><td align="left" rowspan="1" colspan="1">0.89</td><td align="left" rowspan="1" colspan="1">0.86</td><td align="left" rowspan="1" colspan="1">0.68</td><td align="left" rowspan="1" colspan="1">0.65</td></tr></tbody></table><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr><th align="left" rowspan="1" colspan="1"/><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">sMCI (<italic toggle="yes">n</italic> = 198) vs HC (<italic toggle="yes">n</italic> = 122)</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">AD (<italic toggle="yes">n</italic> = 139) vs HC (<italic toggle="yes">n</italic> = 122)</th><th colspan="2" style="border-bottom:solid 1px #000000" align="left" rowspan="1">AD (<italic toggle="yes">n</italic> = 139) vs sMCI (<italic toggle="yes">n</italic> = 198)</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Aβ42</th><th align="left" rowspan="1" colspan="1">p‐tau181</th><th align="left" rowspan="1" colspan="1">Aβ42</th><th align="left" rowspan="1" colspan="1">p‐tau181</th><th align="left" rowspan="1" colspan="1">Aβ42</th><th align="left" rowspan="1" colspan="1">p‐tau181</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Youden's Index</td><td align="left" rowspan="1" colspan="1">0.202</td><td align="left" rowspan="1" colspan="1">0.178</td><td align="left" rowspan="1" colspan="1">0.619</td><td align="left" rowspan="1" colspan="1">0.498</td><td align="left" rowspan="1" colspan="1">0.456</td><td align="left" rowspan="1" colspan="1">0.371</td></tr><tr><td align="left" rowspan="1" colspan="1">CUT POINT</td><td align="left" rowspan="1" colspan="1">847</td><td align="left" rowspan="1" colspan="1">17.4</td><td align="left" rowspan="1" colspan="1">820</td><td align="left" rowspan="1" colspan="1">23.1</td><td align="left" rowspan="1" colspan="1">997</td><td align="left" rowspan="1" colspan="1">23.7</td></tr><tr><td align="left" rowspan="1" colspan="1">SENSITIVITY</td><td align="left" rowspan="1" colspan="1">0.37</td><td align="left" rowspan="1" colspan="1">0.73</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.78</td><td align="left" rowspan="1" colspan="1">0.91</td><td align="left" rowspan="1" colspan="1">0.77</td></tr><tr><td align="left" rowspan="1" colspan="1">SPECIFICITY</td><td align="left" rowspan="1" colspan="1">0.83</td><td align="left" rowspan="1" colspan="1">0.45</td><td align="left" rowspan="1" colspan="1">0.84</td><td align="left" rowspan="1" colspan="1">0.72</td><td align="left" rowspan="1" colspan="1">0.55</td><td align="left" rowspan="1" colspan="1">0.60</td></tr><tr><td align="left" rowspan="1" colspan="1">AUC</td><td align="left" rowspan="1" colspan="1">0.59</td><td align="left" rowspan="1" colspan="1">0.59</td><td align="left" rowspan="1" colspan="1">0.86</td><td align="left" rowspan="1" colspan="1">0.79</td><td align="left" rowspan="1" colspan="1">0.77</td><td align="left" rowspan="1" colspan="1">0.72</td></tr></tbody></table><table-wrap-foot><fn id="dad270228-tbl3-note-0001"><p>Abbreviations: Aβ42, amyloid‐β42; AD, Alzheimer's disease; APOE ε4, Apolipoprotein E ε4 genotype; AUC, area under the curve; HC, healthy control; ML, machine learning; NPV, negative predictive value; PPV, positive predictive value; p‐tau181, phosphorylated tau181; ROC, receiver operating characteristic; sMCI, stable mild cognitive impairment.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="dad270228-sec-0170"><label>3.3</label><title>Diagnostic features</title><p>Across the three binary classifications, <italic toggle="yes">APOE</italic> ε4, education, leucine, the total concentration of BCAAs, valine, the average diameter of low‐density lipoprotein (LDL) particles, and the ratio of omega‐6 to omega‐3 fatty acids, included in the amino acids, lipoprotein, and fatty acids categories, were the most predictive features. Sex, docosahexaenoic acid (fatty acids category), and glycerol (glycolysis‐related metabolite) were common predictors for the classification of sMCI and AD patients from HC. Alanine (amino acids category), sphingomyelins (other lipids), and glucose (glycolysis‐related metabolite) were the most important analytes for the classification of sMCI from HC and AD. Age, glyca (glycolysis‐related metabolite), histidine, phenylalanine (amino acids), and creatinine (fluid balance) were the most important variables for the classification of AD from HC and sMCI. Within the cholesterol category, only free cholesterol and cholesteryl esters in high‐density lipoprotein (HDL) effectively distinguished AD from HC and sMCI, respectively. In total, 39 of the 86 variables were selected as predictors across the models.</p><p>Figure <xref rid="dad270228-fig-0002" ref-type="fig">2</xref> shows the Shapley values for the most important predictors for each binary classification model.</p><fig position="float" fig-type="FIGURE" id="dad270228-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Shapley values distribution in the test dataset (<italic toggle="yes">n</italic> = 75) for the top predictors in the classification of sMCI from HC, of AD from HC, and AD from sMCI. Low and high values are shown in blue and red, respectively. AD, Alzheimer's disease; HC, healthy control; sMCI, stable mild cognitive impairment.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="DAD2-17-e70228-g001.jpg"/></fig></sec></sec><sec id="dad270228-sec-0180"><label>4</label><title>DISCUSSION</title><p>In this study, the statistical comparisons on the 82 analyzed circulating biomarkers revealed significant differences between AD and HC for 19 analytes belonging to seven metabolite categories. Among all significant analytes, the total phospholipids in lipoprotein particles showed the greatest statistical effect size (<italic toggle="yes">pη</italic>
+<sup>2 </sup>= 0.24). However, in the MANCOVA, for each of the seven significant metabolite groups, at least one analyte showed a medium or large effect size, suggesting that the combination of these analytes is clinically meaningful despite each analyte showing overlapping values among groups (Figure <xref rid="dad270228-fig-0001" ref-type="fig">1</xref>).</p><p>Leveraging a large sample size (750 subjects) and a high‐dimensional dataset (82 analytes, age, sex, education, and <italic toggle="yes">APOE</italic> ε4), we applied ML approaches to explore potential classification patterns. With the development of ML algorithms, there is growing interest in non‐invasive biomarkers obtained from serological tests, which could provide a potential approach for identifying systemic manifestations of cognitive deterioration and AD pathology.<xref rid="dad270228-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="dad270228-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> Among the 82 possible blood‐based biomarkers used for creating the classification models, only a few analytes, mainly from amino acids, fatty acids, glycolysis‐related metabolites, lipoproteins, and other lipid categories, emerged as the most discriminative features for the ML‐based classification. Specifically, glycerol and docosahexaenoic acid in the fatty acids group ranked among the top predictors for classifying sMCI and AD versus HC. However, the model showed lower performance in classifying sMCI versus HC than in classifying AD versus HC. This result was in line with the poor ability to classify sMCI from HC by means of Aβ and p‐tau, and with the lack of significant differences between analyte values of sMCI and HC. The presence of <italic toggle="yes">APOE</italic> ε4 was the top predictor for all classification models, due to the significant higher prevalence in AD (63%) versus sMCI (44%) and HC (23%). A similar effect was observed for sex, which ranked among the most important predictors for distinguishing sMCI and AD from HC. Male sex was more prevalent in classifications toward sMCI (63%) and AD (59%) compared with HC (46%) (Figure <xref rid="dad270228-fig-0002" ref-type="fig">2</xref>).</p><p>Previous studies reported associations between the apoE ε4 variant and plasma levels of fatty acids,<xref rid="dad270228-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> blood triglyceride,<xref rid="dad270228-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> and cholesterol concentrations<xref rid="dad270228-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> due to the interaction of fatty acids, lipid metabolism, and <italic toggle="yes">APOE</italic>.<xref rid="dad270228-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> Other studies showed that elderly individuals with elevated plasma cholesterol have an increased susceptibility to dementia and AD<xref rid="dad270228-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> compared with normocholesterolemic subjects, an effect likely mediated by defective cholesterol catabolism in <italic toggle="yes">APOE</italic> ε4 carriers.<xref rid="dad270228-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="dad270228-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> Although brain cholesterol is exclusively synthesized in situ, peripheral cholesterol alterations may act as a proxy of central disturbances, especially in <italic toggle="yes">APOE</italic> ε4 carriers. Our study showed altered cholesterol analytes in patients with AD (Table <xref rid="dad270228-tbl-0002" ref-type="table">2</xref>), confirming the possible association with <italic toggle="yes">APOE</italic> ε4 status and cholesterol alterations.<xref rid="dad270228-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> Lipids and triglycerides, which were involved in ML models, are closely associated with cognitive deficits in AD.<xref rid="dad270228-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> Besides their role as energy substrates, triglycerides can participate in neuroinflammatory processes mediated by astrocyte and microglia activation.<xref rid="dad270228-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> The idea that some of the reported alterations have a neuroinflammatory drive is further supported by changes in glycoprotein acetyl levels, an inflammatory marker. Indeed, glyca was the most important peripheral biomarker for distinguishing AD from HC and sMCI individuals (Figure <xref rid="dad270228-fig-0002" ref-type="fig">2</xref>). Altered levels of glycoprotein acetyls have been associated with poorer cognitive performances,<xref rid="dad270228-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> and they have recently emerged as novel biomarkers of inflammation‐related cardiovascular dysfunction,<xref rid="dad270228-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> pointing to a possible mechanistic link between chronic systemic inflammation and cerebrovascular contributions to neurodegeneration (Figure <xref rid="dad270228-fig-0003" ref-type="fig">3</xref>).</p><fig position="float" fig-type="FIGURE" id="dad270228-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Biological pathways and peripheral biomarkers associated with cognitive decline across the AD continuum. The pictogram summarizes the systemic interactions between lipid metabolism, glycolysis/energy metabolism, and inflammation/immune signaling, highlighting key blood‐based biomarkers identified in the study. Lipid metabolism is strongly modulated by <italic toggle="yes">APOE</italic> ε4 status and includes alterations in cholesterol, triglycerides, fatty acids, and sphingomyelins, which may be converted into neurotoxic ceramides. Glycolysis‐related markers suggest metabolic dysregulation with relevance to mitochondrial dysfunction and the “type 3 diabetes” hypothesis of AD. Inflammation is indexed by glycoprotein acetyls, a systemic marker associated with cognitive impairment and cardiovascular dysfunction. Together these biomarkers represent systemic signatures predictive of the transition from healthy control (HC) to mild cognitive impairment (MCI) and Alzheimer's disease (AD), as identified by machine learning models. APOE, apolipoprotein E; HDL, high‐density lipoprotein; LDL, low‐density lipoprotein; sMCI, stable mild cognitive impairment.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="DAD2-17-e70228-g003.jpg"/></fig><p>Glycolysis‐related metabolites were critical features for distinguishing sMCI from HC (i.e., lactate, glycerol, and glucose) and AD (glyca and glucose) (Figure <xref rid="dad270228-fig-0003" ref-type="fig">3</xref>). Metabolites related to glycolysis are associated with type 2 diabetes, and their dysregulation has been strongly linked to memory deficits, cognitive decline, and many of the characteristic symptoms that have been displayed in AD.<xref rid="dad270228-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> Previous studies have suggested that AD may represent a brain‐specific form of diabetes, often referred as a “type 3” form of diabetes.<xref rid="dad270228-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, <xref rid="dad270228-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> Although impaired insulin signaling in AD is distinct from that in diabetes mellitus, the peripheral glycolysis‐related alterations identified in our analysis may represent an early warning sign of broader systemic endocrine changes that reflect underlying neuroendocrine disturbances. Whether this role of glucose translates into pathological cognitive decline or increases dementia risk in old age remains unclear.<xref rid="dad270228-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> Taken together, these findings suggest that type 2 diabetes acts as a cofactor in the pathogenesis and progression of AD, and, at the same time, might be reflective of a much broader endocrine alteration that also affects the brain.<xref rid="dad270228-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> Overall, our findings reinforce the hypothesis that metabolic dysregulation contributes to both the onset and progression of AD, possibly serving as a systemic marker of neurodegenerative processes.<xref rid="dad270228-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> Previous studies showed that, in preclinical mouse models of AD, the astrocyte‐neuron lactate shuttle is required for long‐term memory formation,<xref rid="dad270228-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> a process found to be impaired in AD settings.<xref rid="dad270228-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> Neuroprotective properties are also associated with fatty acids in cognitive aging studies.<xref rid="dad270228-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>
+</p><p>It is important to notice that in our study design, we included only sMCI patients who did not convert to dementia within 36 months after blood collection. The sMCI group also had a lower prevalence of <italic toggle="yes">APOE</italic> ε4 carriers (44%) compared to the AD group (63%). This may suggest that the sMCI cohort represents individuals at a preclinical disease stage or with alternative pathological pathways distinct from AD dementia.</p><p>Our ML classification models also showed that leucine, valine, the BCAA, the average diameter for LDL particles, and the ratio of omega‐6 to omega‐3 fatty acids included in amino acids and lipoprotein and fatty acids categories were the most predictive features for all three classification models (Figure <xref rid="dad270228-fig-0002" ref-type="fig">2</xref>). Alanine from the amino acids category and sphingomyelins were common predictors for distinguishing sMCI from HC and AD. The link between BCAAs and the risk of AD is complex and poorly understood, with conflicting findings suggesting that these metabolites may not be a direct causal factor.<xref rid="dad270228-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>, <xref rid="dad270228-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> Conversely, elevated levels of sphingomyelin were consistently found in the brain and in the CSF of AD patients compared to non‐demented controls.<xref rid="dad270228-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>, <xref rid="dad270228-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref>, <xref rid="dad270228-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>, <xref rid="dad270228-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref> A potential mechanistic link involves the conversion of sphingomyelin into ceramides, bioactive lipids (not present in our dataset) known to contribute to neuronal aging, cell death, and the progression of AD.<xref rid="dad270228-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>, <xref rid="dad270228-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> Overall, these findings are consistent with previous studies suggesting that amino acids, lipids, immune, inflammatory, and metabolic biomarkers—along with their complex, non‐linear interactions—collectively represent a biological signature of cognitive health.<xref rid="dad270228-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, <xref rid="dad270228-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>
+</p><p>In conclusion, the findings obtained from traditional statistical analysis and ML indicate that the subset of analytes highlighted by both approaches can effectively separate individuals with MCI or AD from HC. Although not all analytes are part of routine clinical chemistry panels, our findings support the utility of accessible metabolomic profiling, which is becoming increasingly feasible in specialized clinical and translational research settings. Our ML models help to identify a subset of blood‐based biomarkers for the classification of sMCI from HC and AD and for AD from HC and sMCI (Figure <xref rid="dad270228-fig-0003" ref-type="fig">3</xref>).</p><p>However, several challenges remain in widespread ML applications, including data heterogeneity, model interpretability, and limited generalizability.</p><p>In our study, the sample size of each group was balanced in the training, validation, and test phases. Indeed, the imbalance of groups can lead to a falsely perceived positive effect of a model's accuracy, because the input data has bias toward one class, which results in the trained model mimicking that bias. In addition, potential overfitting of the ML algorithms was reduced using unseen data as a test dataset and performing the hyperparameter optimization.</p><p>In our study model, explainability was enhanced using the SHAP technique. However, collaborative efforts between technologists and clinicians are essential to unlock the full potential of ML in Alzheimer's research and care. In addition, a crucial step toward the clinical implementation of accurate prediction models is external validation, which is necessary to determine a prediction model's reproducibility and generalizability to different cohorts of patients across various regions, countries, or care settings.</p><p>The utilization of blood‐based biomarkers offers a less‐invasive, more accessible, and cost‐effective alternative to traditional diagnostic methods such as CSF analysis, and MRI and PET scans.</p><p>Future research should integrate data on Aβ deposition, tau accumulation, and NfL levels with blood‐based biomarkers and should stratify or adjust for key confounders such as body mass index, comorbidities (e.g., diabetes, cardiovascular disease), and medications. Such comprehensive analyses could enhance our understanding of the relationship between peripheral biomarker alterations and AD pathology, potentially leading to more accurate and early diagnoses (<xref rid="dad270228-supinfo-0001" ref-type="">Supporting Information</xref>).</p></sec><sec sec-type="COI-statement" id="dad270228-sec-0200"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors have no conflicts of interest to disclose. Any author disclosures are available in the <xref rid="dad270228-supinfo-0001" ref-type="">supporting information</xref>.</p></sec><sec id="dad270228-sec-0230"><title>CONSENT STATEMENT</title><p>The Alzheimer's Disease Neuroimaging Initiative (ADNI) project received approval from the institutional review boards of all participating institutions, and all participants provided informed written consent.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="dad270228-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="dad270228-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="DAD2-17-e70228-s001.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="dad270228-sec-0190"><title>ACKNOWLEDGMENTS</title><p>Data collection and sharing were supported by the Alzheimer's Disease Neuroimaging Initiative (ADNI) (National Institutes of Health Grant U01 AG024904) and DOD ADNI (Department of Defense award number W81XWH‐12‐2‐0012). ADNI is supported by the National Institute on Aging, the National Institute of Biomedical Imaging and Bioengineering, and through generous contributions from the following entities: AbbVie, Alzheimer's Association; Alzheimer's Drug Discovery Foundation; Araclon Biotech; BioClinica, Inc.; Biogen; Bristol‐Myers Squibb Company; CereSpir, Inc.; Cogstate; Eisai Inc.; Elan Pharmaceuticals, Inc.; Eli Lilly and Company; EuroImmun; F. Hoffmann‐La Roche Ltd and its affiliated company Genentech, Inc.; Fujirebio; GE. Healthcare; IXICO Ltd.; Janssen Alzheimer Immunotherapy Research &amp; Development, LLC.; Johnson &amp; Johnson Pharmaceutical Research &amp; Development LLC.; Lumosity; the Lundbeck; Merck &amp; Co., Inc.; Meso Scale Diagnostics, LLC.; NeuroRx Research; Neurotrack Technologies; Novartis Pharmaceuticals Corporation; Pfizer Inc.; Piramal Imaging; Servier; Takeda Pharmaceutical Company; and Transition Therapeutics. The Canadian Institutes of Health Research is providing funds to support ADNI clinical sites in Canada. Private sector contributions are facilitated by the Foundation for the National Institutes of Health (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.fnih.org" ext-link-type="uri">www.fnih.org</ext-link>). The grantee organization is the Northern California Institute for Research and Education and the study is coordinated by the Alzheimer's Therapeutic Research Institute at the University of Southern California. ADNI data are disseminated by the Laboratory for Neuro Imaging at the University of Southern California. Nicola Walter Falasca, Antonio Ferretti, Stefano L. Sensi, and Raffaella Franciotti acknowledge financial support from Strengthening of research structures and creation of R&amp;D “Innovation Ecosystems, National Recovery and Resilience Plan (NRRP)”, Mission 4, Component 2 Investment 1.5, funded from the European Union—NextGenerationEU—VITALITY, ECS00000041 (grant no D73C22000840006). “Innovation Ecosystems, National Recovery and Resilience Plan (NRRP)”, Mission 4, Component 2 Investment 1.5, funded from the European Union—NextGenerationEU—VITALITY, ECS00000041 (grant no D73C22000840006). Data used to prepare this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://adni.loni.usc.edu" ext-link-type="uri">http://adni.loni.usc.edu</ext-link>). As such, the investigators within the ADNI contributed to the design and implementation of the ADNI and/or provided data but did not participate in the analysis or writing of this report. A complete listing of ADNI investigators can be found at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf" ext-link-type="uri">https://adni.loni.usc.edu/wp‐content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf</ext-link>.</p><p>Open access publishing facilitated by Universita degli Studi Gabriele d'Annunzio Chieti Pescara, as part of the Wiley ‐ CRUI‐CARE agreement.</p></ack><sec sec-type="data-availability" id="dad270228-sec-0220"><title>DATA AVAILABILITY STATEMENT</title><p>The original data used in this manuscript are available for download in the ADNI database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://adni.loni.usc.edu" ext-link-type="uri" specific-use="software is-supplemented-by">https://adni.loni.usc.edu</ext-link>).</p></sec><ref-list id="dad270228-bibl-0001"><title>REFERENCES</title><ref id="dad270228-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="dad270228-cite-0002">
+<string-name name-style="western">
+<surname>Uysal</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ozturk</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Hippocampal atrophy based Alzheimer's disease diagnosis via machine learning methods</article-title>. <source>J Neurosci Methods</source>. <year>2020</year>;<volume>337</volume>:<elocation-id>108669</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.jneumeth.2020.108669</pub-id>
+<pub-id pub-id-type="pmid">32126274</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="dad270228-cite-0003">
+<string-name name-style="western">
+<surname>van Oostveen</surname>
+<given-names>WM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Lange</surname>
+<given-names>ECM</given-names>
+</string-name>. <article-title>Imaging techniques in Alzheimer's disease: a review of applications in early diagnosis and longitudinal monitoring</article-title>. <source>Int J Mol Sci</source>. <year>2021</year>;<volume>22</volume>:<fpage>2110</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms22042110</pub-id>
+<pub-id pub-id-type="pmid">33672696</pub-id>
+<pub-id pub-id-type="pmcid">PMC7924338</pub-id></mixed-citation></ref><ref id="dad270228-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="dad270228-cite-0004">
+<string-name name-style="western">
+<surname>Hansso</surname>
+<given-names>ON</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blennow</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dage</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Blood biomarkers for Alzheimer's disease in clinical practice and trials</article-title>. <source>Nat Aging</source>. <year>2023</year>;<volume>3</volume>:<fpage>506</fpage>‐<lpage>519</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s43587-023-00403-3</pub-id>
+<pub-id pub-id-type="pmid">37202517</pub-id>
+<pub-id pub-id-type="pmcid">PMC10979350</pub-id></mixed-citation></ref><ref id="dad270228-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="dad270228-cite-0005">
+<string-name name-style="western">
+<surname>Schindler</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atri</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>The role of cerebrospinal fluid and other biomarker modalities in the Alzheimer's disease diagnostic revolution</article-title>. <source>Nat Aging</source>. <year>2023</year>;<volume>3</volume>:<fpage>460</fpage>‐<lpage>462</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s43587-023-00400-6</pub-id>
+<pub-id pub-id-type="pmid">37202514</pub-id>
+<pub-id pub-id-type="pmcid">PMC10720501</pub-id></mixed-citation></ref><ref id="dad270228-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="dad270228-cite-0006">
+<string-name name-style="western">
+<surname>Sharma</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Callahan</surname>
+<given-names>BL</given-names>
+</string-name>. <article-title>Cerebrovascular and neurodegenerative pathologies in long‐term stable mild cognitive impairment</article-title>. <source>J Alzheimers Dis</source>. <year>2021</year>;<volume>79</volume>:<fpage>1269</fpage>‐<lpage>1283</lpage>. doi:<pub-id pub-id-type="doi">10.3233/JAD-200829</pub-id>
+<pub-id pub-id-type="pmid">33427736</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="dad270228-cite-0007">
+<string-name name-style="western">
+<surname>Karch</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goate</surname>
+<given-names>AM</given-names>
+</string-name>. <article-title>Alzheimer's disease risk genes and mechanisms of disease pathogenesis</article-title>. <source>Biol Psychiatry</source>. <year>2015</year>;<volume>77</volume>:<fpage>43</fpage>‐<lpage>51</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.biopsych.2014.05.006</pub-id>
+<pub-id pub-id-type="pmid">24951455</pub-id>
+<pub-id pub-id-type="pmcid">PMC4234692</pub-id></mixed-citation></ref><ref id="dad270228-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="dad270228-cite-0008">
+<string-name name-style="western">
+<surname>Shvetcov</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>ECB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Winchester</surname>
+<given-names>LM</given-names>
+</string-name>, et al. <article-title>APOE ε4 carriers share immune‐related proteomic changes across neurodegenerative diseases</article-title>. <source>Nat Med</source>. <year>2025</year>;<volume>31</volume>:<fpage>2590</fpage>‐<lpage>2601</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41591-025-03835-z</pub-id>
+<pub-id pub-id-type="pmid">40665049</pub-id>
+<pub-id pub-id-type="pmcid">PMC12353839</pub-id></mixed-citation></ref><ref id="dad270228-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="dad270228-cite-0009">
+<string-name name-style="western">
+<surname>Raulin</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doss</surname>
+<given-names>SV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trottier</surname>
+<given-names>ZA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ikezu</surname>
+<given-names>TC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bu</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>CC</given-names>
+</string-name>. <article-title>ApoE in Alzheimer's disease: pathophysiology and therapeutic strategies</article-title>. <source>Molecular Neurodegeneration</source>. <year>2022</year>;<volume>17</volume>:<fpage>72</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13024-022-00574-4</pub-id>
+<pub-id pub-id-type="pmid">36348357</pub-id>
+<pub-id pub-id-type="pmcid">PMC9644639</pub-id></mixed-citation></ref><ref id="dad270228-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="dad270228-cite-0010">
+<string-name name-style="western">
+<surname>Serrano‐Pozo</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Das</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hyman</surname>
+<given-names>BT</given-names>
+</string-name>. <article-title>APOE and Alzheimer's disease: advances in genetics, pathophysiology, and therapeutic approaches</article-title>. <source>Lancet Neurol</source>. <year>2021</year>;<volume>20</volume>:<fpage>68</fpage>‐<lpage>80</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(20)30412-9</pub-id>
+<pub-id pub-id-type="pmid">33340485</pub-id>
+<pub-id pub-id-type="pmcid">PMC8096522</pub-id></mixed-citation></ref><ref id="dad270228-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="dad270228-cite-0011">
+<string-name name-style="western">
+<surname>Frisoni</surname>
+<given-names>GB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Altomare</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thal</surname>
+<given-names>DR</given-names>
+</string-name>, et al. <article-title>The probabilistic model of Alzheimer disease: the amyloid hypothesis revised</article-title>. <source>Nat Rev Neurosci</source>. <year>2022</year>;<volume>23</volume>:<fpage>53</fpage>‐<lpage>66</lpage>.<pub-id pub-id-type="pmid">34815562</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41583-021-00533-w</pub-id><pub-id pub-id-type="pmcid">PMC8840505</pub-id></mixed-citation></ref><ref id="dad270228-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="dad270228-cite-0012">
+<string-name name-style="western">
+<surname>Granzotto</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sensi</surname>
+<given-names>SL</given-names>
+</string-name>. <article-title>Once upon a time, the amyloid cascade hypothesis</article-title>. <source>Ageing Research Reviews</source>. <year>2024</year>;<volume>93</volume>:<elocation-id>102161</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.arr.2023.102161</pub-id>
+<pub-id pub-id-type="pmid">38065226</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="dad270228-cite-0013">
+<string-name name-style="western">
+<surname>Peng</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Long</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Central and peripheral metabolic defects contribute to the pathogenesis of Alzheimer's disease: targeting mitochondria for diagnosis and prevention</article-title>. <source>Antioxid Redox Signal</source>. <year>2020</year>;<volume>32</volume>:<fpage>1188</fpage>‐<lpage>1236</lpage>. doi:<pub-id pub-id-type="doi">10.1089/ars.2019.7763</pub-id>
+<pub-id pub-id-type="pmid">32050773</pub-id>
+<pub-id pub-id-type="pmcid">PMC7196371</pub-id></mixed-citation></ref><ref id="dad270228-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="dad270228-cite-0014">
+<string-name name-style="western">
+<surname>Sundelöf</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnlöv</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ingelsson</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Serum cystatin C and the risk of Alzheimer disease in elderly men</article-title>. <source>Neurology</source>. <year>2008</year>;<volume>71</volume>:<fpage>1072</fpage>‐<lpage>1079</lpage>. doi:<pub-id pub-id-type="doi">10.1212/01.wnl.0000326894.40353.93</pub-id>
+<pub-id pub-id-type="pmid">18824671</pub-id>
+<pub-id pub-id-type="pmcid">PMC2676985</pub-id></mixed-citation></ref><ref id="dad270228-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="dad270228-cite-0015">
+<string-name name-style="western">
+<surname>Reitz</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tang</surname>
+<given-names>MX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schupf</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manly</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayeux</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Luchsinger</surname>
+<given-names>JA</given-names>
+</string-name>. <article-title>Association of higher levels of high‐density lipoprotein cholesterol in elderly individuals and lower risk of late‐onset Alzheimer disease</article-title>. <source>Arch Neurol</source>. <year>2010</year>;<volume>67</volume>:<fpage>1491</fpage>‐<lpage>1497</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archneurol.2010.297</pub-id>
+<pub-id pub-id-type="pmid">21149810</pub-id>
+<pub-id pub-id-type="pmcid">PMC3065942</pub-id></mixed-citation></ref><ref id="dad270228-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="dad270228-cite-0016">
+<string-name name-style="western">
+<surname>Nguyen</surname>
+<given-names>TT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ta</surname>
+<given-names>QTH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nguyen</surname>
+<given-names>TKO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nguyen</surname>
+<given-names>TTD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giau</surname>
+<given-names>VV</given-names>
+</string-name>. <article-title>Type 3 diabetes and its role implications in Alzheimer's disease</article-title>. <source>Int J Mol Sci</source>. <year>2020</year>;<volume>21</volume>:<fpage>3165</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms21093165</pub-id>
+<pub-id pub-id-type="pmid">32365816</pub-id>
+<pub-id pub-id-type="pmcid">PMC7246646</pub-id></mixed-citation></ref><ref id="dad270228-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="dad270228-cite-0017">
+<string-name name-style="western">
+<surname>Kunkle</surname>
+<given-names>BW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grenier‐Boley</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sims</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Genetic meta‐analysis of diagnosed Alzheimer's disease identifies new risk loci and implicates A, tau, immunity and lipid processing</article-title>. <source>Nat Genet</source>. <year>2019</year>;<volume>51</volume>:<fpage>414</fpage>‐<lpage>430</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-019-0358-2</pub-id>
+<pub-id pub-id-type="pmid">30820047</pub-id>
+<pub-id pub-id-type="pmcid">PMC6463297</pub-id></mixed-citation></ref><ref id="dad270228-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="dad270228-cite-0018">
+<string-name name-style="western">
+<surname>Aghdam</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bozdag</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saeed</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>Machine‐learning models for Alzheimer's disease diagnosis using neuroimaging data: survey, reproducibility, and generalizability evaluation</article-title>. <source>Brain Inf</source>. <year>2025</year>;<volume>12</volume>:<fpage>8</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s40708-025-00252-3</pub-id>
+<pub-id pub-id-type="pmcid">PMC11928716</pub-id><pub-id pub-id-type="pmid">40117001</pub-id></mixed-citation></ref><ref id="dad270228-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="dad270228-cite-0019">
+<string-name name-style="western">
+<surname>Zeng</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sehrawat</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Alzheimer blood biomarkers: practical guidelines for study design, sample collection, processing, biobanking, measurement and result reporting</article-title>. <source>Mol Neurodegeneration</source>. <year>2024</year>;<volume>19</volume>:<fpage>40</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13024-024-00711-1</pub-id>
+<pub-id pub-id-type="pmcid">PMC11095038</pub-id><pub-id pub-id-type="pmid">38750570</pub-id></mixed-citation></ref><ref id="dad270228-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="dad270228-cite-0020">
+<string-name name-style="western">
+<surname>Elshewey</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shams</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>El‐Rashidy</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elhady</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shohieb</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tarek</surname>
+<given-names>Z</given-names>
+</string-name>. <article-title>Bayesian Optimization with Support Vector Machine Model for Parkinson Disease Classification</article-title>. <source>Sensors</source>. <year>2023</year>;<volume>23</volume>:<fpage>2085</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s23042085</pub-id>
+<pub-id pub-id-type="pmid">36850682</pub-id>
+<pub-id pub-id-type="pmcid">PMC9961102</pub-id></mixed-citation></ref><ref id="dad270228-bib-0020"><label>20</label><mixed-citation publication-type="miscellaneous" id="dad270228-cite-0021">
+<string-name name-style="western">
+<surname>Lundberg</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>SI</given-names>
+</string-name>. <article-title>A unified approach to interpreting model predictions</article-title>. <article-title>
+Adv Neural Inf Process Syst
+</article-title>. <year>2017</year>:<fpage>30</fpage>. doi:<pub-id pub-id-type="doi">10.48550/arXiv.1705.07874</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="dad270228-cite-0022">
+<string-name name-style="western">
+<surname>Blanco</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salcidua</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Orellana</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Systematic review: fluid biomarkers and machine learning methods to improve the diagnosis from mild cognitive impairment to Alzheimer's disease</article-title>. <source>Alz Res Therapy</source>. <year>2023</year>;<volume>15</volume>:<fpage>176</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13195-023-01304-8</pub-id>
+<pub-id pub-id-type="pmcid">PMC10576366</pub-id><pub-id pub-id-type="pmid">37838690</pub-id></mixed-citation></ref><ref id="dad270228-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="dad270228-cite-0023">
+<string-name name-style="western">
+<surname>Fallaize</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carvalho‐Wells</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tierney</surname>
+<given-names>AC</given-names>
+</string-name>, et al. <article-title>APOE genotype influences insulin resistance, apolipoprotein CII and CIII according to plasma fatty acid profile in the metabolic syndrome</article-title>. <source>Sci Rep</source>. <year>2017</year>;<volume>7</volume>:<fpage>6274</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-017-05802-2</pub-id>
+<pub-id pub-id-type="pmid">28740125</pub-id>
+<pub-id pub-id-type="pmcid">PMC5524844</pub-id></mixed-citation></ref><ref id="dad270228-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="dad270228-cite-0024">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hsu</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teng</surname>
+<given-names>MS</given-names>
+</string-name>, et al. <article-title>Interactive effects of C‐reactive protein levels on the association between <italic toggle="yes">APOE</italic> variants and triglyceride levels in a Taiwanese population</article-title>. <source>Lipids Health Dis</source>. <year>2016</year>;<volume>15</volume>:<fpage>94</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12944-016-0262-z</pub-id>
+<pub-id pub-id-type="pmid">27177774</pub-id>
+<pub-id pub-id-type="pmcid">PMC4866423</pub-id></mixed-citation></ref><ref id="dad270228-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="dad270228-cite-0025">
+<string-name name-style="western">
+<surname>Dunk</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Driscoll</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Alzheimer's disease neuroimaging initiative. total cholesterol and APOE‐Related risk for Alzheimer's disease in the Alzheimer's Disease Neuroimaging Initiative</article-title>. <source>J Alzheimers Dis</source>. <year>2022</year>;<volume>85</volume>:<fpage>1519</fpage>‐<lpage>1528</lpage>. doi:<pub-id pub-id-type="doi">10.3233/JAD-215091</pub-id>
+<pub-id pub-id-type="pmid">34958023</pub-id>
+<pub-id pub-id-type="pmcid">PMC10442640</pub-id></mixed-citation></ref><ref id="dad270228-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="dad270228-cite-0026">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>LG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>March</surname>
+<given-names>ZM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stephenson</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Narayan</surname>
+<given-names>PS</given-names>
+</string-name>. <article-title>Apolipoprotein E in lipid metabolism and neurodegenerative disease</article-title>. <source>Trends Endocrinol Metab</source>. <year>2023</year>;<volume>34</volume>:<fpage>430</fpage>‐<lpage>445</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.tem.2023.05.002</pub-id>
+<pub-id pub-id-type="pmid">37357100</pub-id>
+<pub-id pub-id-type="pmcid">PMC10365028</pub-id></mixed-citation></ref><ref id="dad270228-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="dad270228-cite-0027">
+<string-name name-style="western">
+<surname>Poirier</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Apolipoprotein E and cholesterol metabolism in the pathogenesis and treatment of Alzheimer's disease</article-title>. <source>Trends Mol Med</source>. <year>2003</year>;<volume>9</volume>:<fpage>94</fpage>‐<lpage>101</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s1471-4914(03)00007-8</pub-id>
+<pub-id pub-id-type="pmid">12657430</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="dad270228-cite-0028">
+<string-name name-style="western">
+<surname>Jarvik</surname>
+<given-names>GP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wijsman</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kukull</surname>
+<given-names>WA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schellenberg</surname>
+<given-names>GD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Larson</surname>
+<given-names>EB</given-names>
+</string-name>. <article-title>Interactions of apolipoprotein E genotype, total cholesterol level, age, and sex in prediction of Alzheimer's disease: a case‐control study</article-title>. <source>Neurology</source>. <year>1995</year>;<volume>45</volume>:<fpage>1092</fpage>‐<lpage>1096</lpage>. doi:<pub-id pub-id-type="doi">10.1212/wnl.45.6.1092</pub-id>
+<pub-id pub-id-type="pmid">7783869</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="dad270228-cite-0029">
+<string-name name-style="western">
+<surname>Roher</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuo</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kokjohn</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Emmerling</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gracon</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Amyloid and lipids in the pathology of Alzheimer disease</article-title>. <source>Amyloid</source>. <year>1999</year>;<volume>6</volume>:<fpage>136</fpage>‐<lpage>145</lpage>. doi:<pub-id pub-id-type="doi">10.3109/13506129909007315</pub-id>
+<pub-id pub-id-type="pmid">10439121</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="dad270228-cite-0030">
+<string-name name-style="western">
+<surname>Bernath</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bhattacharyya</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Serum triglycerides in Alzheimer disease: relation to neuroimaging and CSF biomarkers</article-title>. <source>Neurology</source>. <year>2020</year>;<volume>94</volume>:<fpage>e2088</fpage>‐<lpage>e2098</lpage>. doi:<pub-id pub-id-type="doi">10.1212/WNL.0000000000009436</pub-id>
+<pub-id pub-id-type="pmid">32358220</pub-id>
+<pub-id pub-id-type="pmcid">PMC7526673</pub-id></mixed-citation></ref><ref id="dad270228-bib-0030"><label>30</label><mixed-citation publication-type="miscellaneous" id="dad270228-cite-0031">
+<string-name name-style="western">
+<surname>Stephenson</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>KR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Triglyceride metabolism controls inflammation and APOE4‐associated disease states in microglia. <italic toggle="yes">bioRxiv</italic>
+</article-title>
+<year>2024</year>:2024.04.11.589145. doi:<pub-id pub-id-type="doi">10.1101/2024.04.11.589145</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="dad270228-cite-0032">
+<string-name name-style="western">
+<surname>Liang</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newman</surname>
+<given-names>JW</given-names>
+</string-name>, et al. <article-title>Peripheral inflammation is associated with brain atrophy and cognitive decline linked to mild cognitive impairment and Alzheimer's disease</article-title>. <source>Sci Rep</source>. <year>2024</year>;<volume>14</volume>:<elocation-id>17423</elocation-id>. doi:<pub-id pub-id-type="doi">10.1038/s41598-024-67177-5</pub-id>
+<pub-id pub-id-type="pmid">39075118</pub-id>
+<pub-id pub-id-type="pmcid">PMC11286782</pub-id></mixed-citation></ref><ref id="dad270228-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="dad270228-cite-0033">
+<string-name name-style="western">
+<surname>Chiesa</surname>
+<given-names>ST</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Charakida</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Georgiopoulos</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Glycoprotein acetyls: a novel inflammatory biomarker of early cardiovascular risk in the young</article-title>. <source>J Am Heart Assoc</source>. <year>2022</year>;<volume>11</volume>:<elocation-id>e024380</elocation-id>. doi:<pub-id pub-id-type="doi">10.1161/JAHA.121.024380</pub-id>
+<pub-id pub-id-type="pmid">35156387</pub-id>
+<pub-id pub-id-type="pmcid">PMC9245818</pub-id></mixed-citation></ref><ref id="dad270228-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="dad270228-cite-0034">
+<string-name name-style="western">
+<surname>de la Monte</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wands</surname>
+<given-names>JR</given-names>
+</string-name>. <article-title>Alzheimer's disease is Type 3 diabetes‐evidence reviewed</article-title>. <source>J Diabetes Sci Technol</source>. <year>2008</year>;<volume>2</volume>:<fpage>1101</fpage>‐<lpage>1113</lpage>. doi:<pub-id pub-id-type="doi">10.1177/193229680800200619</pub-id>
+<pub-id pub-id-type="pmid">19885299</pub-id>
+<pub-id pub-id-type="pmcid">PMC2769828</pub-id></mixed-citation></ref><ref id="dad270228-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="dad270228-cite-0035">
+<string-name name-style="western">
+<surname>Steen</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Terry</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rivera</surname>
+<given-names>EJ</given-names>
+</string-name>, et al. <article-title>Impaired insulin and insulin‐like growth factor expression and signaling mechanisms in Alzheimer's disease–is this type 3 diabetes?</article-title>. <source>J Alzheimers Dis</source>. <year>2005</year>;<volume>7</volume>:<fpage>63</fpage>‐<lpage>80</lpage>. doi:<pub-id pub-id-type="doi">10.3233/jad-2005-7107</pub-id>
+<pub-id pub-id-type="pmid">15750215</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="dad270228-cite-0036">
+<string-name name-style="western">
+<surname>Kirvalidze</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodkinson</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Storman</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>The role of glucose in cognition, risk of dementia, and related biomarkers in individuals without type 2 diabetes mellitus or the metabolic syndrome: a systematic review of observational studies</article-title>. <source>Neurosci Biobehav Rev</source>. <year>2022</year>;<volume>135</volume>:<elocation-id>104551</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.neubiorev.2022.104551</pub-id>
+<pub-id pub-id-type="pmid">35104494</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="dad270228-cite-0037">
+<string-name name-style="western">
+<surname>Morris</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Honea</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vidoni</surname>
+<given-names>ED</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swerdlow</surname>
+<given-names>RH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burns</surname>
+<given-names>JM</given-names>
+</string-name>. <article-title>Is Alzheimer's disease a systemic disease?</article-title>. <source>Review Biochim Biophys Acta</source>. <year>2014</year>;<volume>1842</volume>:<fpage>1340</fpage>‐<lpage>1349</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbadis.2014.04.012</pub-id>
+<pub-id pub-id-type="pmid">24747741</pub-id>
+<pub-id pub-id-type="pmcid">PMC4126236</pub-id></mixed-citation></ref><ref id="dad270228-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="dad270228-cite-0038">
+<string-name name-style="western">
+<surname>Suzuki</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stern</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bozdagi</surname>
+<given-names>O</given-names>
+</string-name>, et al. <article-title>Astrocyte‐neuron lactate transport is required for long‐term memory formation</article-title>. <source>Cell</source>. <year>2011</year>;<volume>144</volume>:<fpage>810</fpage>‐<lpage>823</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cell.2011.02.018</pub-id>
+<pub-id pub-id-type="pmid">21376239</pub-id>
+<pub-id pub-id-type="pmcid">PMC3073831</pub-id></mixed-citation></ref><ref id="dad270228-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="dad270228-cite-0039">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dang</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yao</surname>
+<given-names>Z</given-names>
+</string-name>. <article-title>Lactate deficit in an Alzheimer disease mouse model: the relationship with neuronal damage</article-title>. <source>J Neuropathol Exp Neurol</source>. <year>2018</year>;<volume>77</volume>:<fpage>1163</fpage>‐<lpage>1176</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jnen/nly102</pub-id>
+<pub-id pub-id-type="pmid">30383244</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="dad270228-cite-0040">
+<string-name name-style="western">
+<surname>Denis</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Potier</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heberden</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vancassel</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Omega‐3 polyunsaturated fatty acids and brain aging</article-title>. <source>Curr Opin Clin Nutr Metab Care</source>. <year>2015</year>;<volume>18</volume>:<fpage>139</fpage>‐<lpage>146</lpage>. doi:<pub-id pub-id-type="doi">10.1097/MCO.0000000000000141</pub-id>
+<pub-id pub-id-type="pmid">25501348</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="dad270228-cite-0041">
+<string-name name-style="western">
+<surname>Qian</surname>
+<given-names>XH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>XL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zang</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>Investigating the causal association between branched‐chain amino acids and Alzheimer's disease: a bidirectional Mendelian randomized study</article-title>. <source>Front Nutr</source>. <year>2023</year>;<volume>31</volume>:<elocation-id>1103303</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fnut.2023.1103303</pub-id>
+<pub-id pub-id-type="pmcid">PMC10102518</pub-id><pub-id pub-id-type="pmid">37063328</pub-id></mixed-citation></ref><ref id="dad270228-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="dad270228-cite-0042">
+<string-name name-style="western">
+<surname>Fu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ren</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Han</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Branched‐chain amino acids and the risks of dementia, Alzheimer's disease, and Parkinson's disease</article-title>. <source>Front Aging Neurosci</source>. <year>2024</year>;<volume>16</volume>:<elocation-id>1369493</elocation-id>. doi:<pub-id pub-id-type="doi">10.3389/fnagi.2024.1369493</pub-id>
+<pub-id pub-id-type="pmid">38659706</pub-id>
+<pub-id pub-id-type="pmcid">PMC11040674</pub-id></mixed-citation></ref><ref id="dad270228-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="dad270228-cite-0043">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gong</surname>
+<given-names>CX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schuchman</surname>
+<given-names>EH</given-names>
+</string-name>. <article-title>Deregulation of sphingolipid metabolism in Alzheimer's disease</article-title>. <source>Neurobiol Aging</source>. <year>2010</year>;<volume>31</volume>:<elocation-id>398408</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2008.05.010</pub-id>
+<pub-id pub-id-type="pmcid">PMC2829762</pub-id><pub-id pub-id-type="pmid">18547682</pub-id></mixed-citation></ref><ref id="dad270228-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="dad270228-cite-0044">
+<string-name name-style="western">
+<surname>Mielke</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haughey</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bandaru</surname>
+<given-names>VV</given-names>
+</string-name>, et al. <article-title>Plasma sphingomyelins are associated with cognitive progression in Alzheimer's disease</article-title>. <source>J Alzheimers Dis</source>. <year>2011</year>;<volume>27</volume>:<fpage>259</fpage>‐<lpage>269</lpage>. doi:<pub-id pub-id-type="doi">10.3233/JAD-2011-110405</pub-id>
+<pub-id pub-id-type="pmid">21841258</pub-id>
+<pub-id pub-id-type="pmcid">PMC3218198</pub-id></mixed-citation></ref><ref id="dad270228-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="dad270228-cite-0045">
+<string-name name-style="western">
+<surname>Kosicek</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andreasenc</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peter‐Katalinic</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hecimovic</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Elevated cerebrospinal fluid sphingomyelin levels in prodromal Alzheimer's disease</article-title>. <source>Neurosci Lett</source>. <year>2012</year>;<volume>516</volume>:<fpage>302</fpage>‐<lpage>305</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neulet.2012.04.019</pub-id>
+<pub-id pub-id-type="pmid">22521584</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="dad270228-cite-0046">
+<string-name name-style="western">
+<surname>Baloni</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buitrago</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Multi‐Omic analyses characterize the ceramide/sphingomyelin pathway as a therapeutic target in Alzheimer's disease</article-title>. <source>Commun Biol</source>. <year>2022</year>;<volume>5</volume>:<fpage>1074</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s42003-022-04011-6</pub-id>
+<pub-id pub-id-type="pmid">36209301</pub-id>
+<pub-id pub-id-type="pmcid">PMC9547905</pub-id></mixed-citation></ref><ref id="dad270228-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="dad270228-cite-0047">
+<string-name name-style="western">
+<surname>Filippov</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Song</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Increased ceramide in brains with Alzheimer's and other neurodegenerative diseases</article-title>. <source>J Alzheimers Dis</source>. <year>2012</year>;<volume>29</volume>:<fpage>537</fpage>‐<lpage>547</lpage>. doi:<pub-id pub-id-type="doi">10.3233/JAD-2011-111202</pub-id>
+<pub-id pub-id-type="pmid">22258513</pub-id>
+<pub-id pub-id-type="pmcid">PMC3643694</pub-id></mixed-citation></ref><ref id="dad270228-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="dad270228-cite-0048">
+<string-name name-style="western">
+<surname>Granzotto</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bomba</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Castelli</surname>
+<given-names>V</given-names>
+</string-name>, et al. <article-title>Inhibition of de novo ceramide biosynthesis affects aging phenotype in an in vitro model of neuronal senescence</article-title>. <source>Aging</source>. <year>2019</year>;<volume>11</volume>:<fpage>6336</fpage>‐<lpage>6357</lpage>. doi:<pub-id pub-id-type="doi">10.18632/aging.102191</pub-id>
+<pub-id pub-id-type="pmid">31467258</pub-id>
+<pub-id pub-id-type="pmcid">PMC6738398</pub-id></mixed-citation></ref><ref id="dad270228-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="dad270228-cite-0049">
+<string-name name-style="western">
+<surname>Fiocco</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Krieger</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>D'Amico</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>A systematic review of existing peripheral biomarkers of cognitive aging: is there enough evidence for biomarker proxies in behavioral modification interventions?: an initiative in association with the nutrition, exercise and lifestyle team of the Canadian Consortium on neurodegeneration in aging</article-title>. <source>Ageing Res Rev</source>. <year>2019</year>;<volume>52</volume>:<fpage>72</fpage>‐<lpage>119</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.arr.2019.04.008</pub-id>
+<pub-id pub-id-type="pmid">31059801</pub-id>
+</mixed-citation></ref><ref id="dad270228-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="dad270228-cite-0050">
+<string-name name-style="western">
+<surname>Trushina</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dutta</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Persson</surname>
+<given-names>XMT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mielke</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>RC</given-names>
+</string-name>. <article-title>Identification of altered metabolic pathways in plasma and CSF in mild cognitive impairment and Alzheimer's disease using metabolomics</article-title>. <source>Plos One</source>. <year>2013</year>;<volume>8</volume>:<elocation-id>e63644</elocation-id>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0063644</pub-id>
+<pub-id pub-id-type="pmid">23700429</pub-id>
+<pub-id pub-id-type="pmcid">PMC3658985</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

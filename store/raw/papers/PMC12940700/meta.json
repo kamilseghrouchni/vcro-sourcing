@@ -1,0 +1,403 @@
+{
+  "pmid": "41752089",
+  "pmc": "PMC12940700",
+  "doi": "10.3390/ijms27041953",
+  "title": "Antisense Dipeptide Repeat Proteins Drive Widescale Purine Metabolism Aberration in C9orf72 Amyotrophic Lateral Sclerosis via ADA",
+  "journal": "International Journal of Molecular Sciences",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Hall Benjamin",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Castelli Lydia",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Higginbottom Adrian",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "He Jingxuan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Zou Ling-Nan",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Walker Heather",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Yagüe-Capilla Miriam",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Wong Kari E.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Burrows David J.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "George Jonathan",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Hamer Keaton",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Tanner Jenny M.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Kyrgiou-Balli Ergita",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Ross Rees",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Garland Herbie",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Tonkiss Erin",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "George Rachel",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Webster Christopher P.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Smith Emma F.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Timmons Hannah O.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Allsop Jess",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Stefanidis Nikolas",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Ward Billie D.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Lin Ya-Hui",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Highley J. Robin",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Azzouz Mimoun",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "West Ryan J. H.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Rudd Sean G.",
+      "affiliations": [
+        ""
+      ]
+    },
+    {
+      "name": "Vos Kurt J. De",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Shaw Pamela J.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Hautbergue Guillaume M.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    },
+    {
+      "name": "Allen Scott P.",
+      "affiliations": [
+        "benjamin.hall@sheffield.ac.uk (B.H.);"
+      ]
+    }
+  ],
+  "keywords": [
+    "ADA",
+    "ALS",
+    "astrocyte",
+    "C9orf72",
+    "DPR",
+    "metabolomics",
+    "MND",
+    "purine metabolism",
+    "purinosome"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Academy of Medical Sciences Springboard AwardSBF005\\1064",
+    "University of Sheffield, Faculty of Health Studentships, an MND Association (MNDA) PhD awardAllen/Jun23/964-793",
+    "MNDA project grant awardAllen 887-791",
+    "MNDA PhD AwardWest/Oct22/909-792",
+    "NIHR Sheffield Biomedical Research CentreBRC-203321",
+    "NIHR Senior Investigator awardNF-SI-0617-10077",
+    "NDA ‘A Multicentre Biomarker Resource Strategy’ in ALSAMBRoSIA PJS 972-797",
+    "Swedish Childhood Cancer FundTJ2022-0063",
+    "Swedish Cancer Society19-0056-JIA23-2782-Pj",
+    "Alzheimer’s Society260 (AS-PG-15-023)",
+    "Medical Research Council (MRC)MR/S025979/1MR/M013251/1MR/Z504701/1",
+    "MNDADEVOS/APR18/862-79",
+    "Alzheimer’s Research UKARUK-PG2018B-005",
+    "MRCMR/W00416X/1",
+    "U.S. National Institutes of HealthR01GM024129"
+  ],
+  "data_availability_text": "Data Availability StatementiAstrocyte and HEK293T untargeted metabolic profiling LC/MS data is freely available on the University of Sheffield data repository, with a DOI of https://doi.org/10.15131/shef.data.30739946, accessed on 19 January 2025. All other data that support the findings of this study are available from the corresponding author, upon reasonable request.",
+  "license": "",
+  "received": "2026-01-25",
+  "accepted": "2026-02-13",
+  "reference_pmids": [
+    "28700839",
+    "27510634",
+    "39749668",
+    "28919117",
+    "21944778",
+    "21944779",
+    "22406228",
+    "31866818",
+    "36308529",
+    "23117491",
+    "31738367",
+    "22499346",
+    "31156370",
+    "27488601",
+    "24139042",
+    "22154785",
+    "29400714",
+    "27559131",
+    "27103069",
+    "27193190",
+    "27334615",
+    "33545050",
+    "23415312",
+    "24129584",
+    "23393093",
+    "24248382",
+    "24866055",
+    "25943887",
+    "24290757",
+    "24154603",
+    "28508101",
+    "32226938",
+    "24170096",
+    "30368547",
+    "40207633",
+    "28677678",
+    "28243191",
+    "27768896",
+    "26308899",
+    "25103406",
+    "25398948",
+    "25120191",
+    "32175624",
+    "35164882",
+    "25977373",
+    "28306503",
+    "27768897",
+    "26406374",
+    "30981631",
+    "29942091",
+    "31086314",
+    "26931465",
+    "25081482",
+    "27720481",
+    "28069952",
+    "25575510",
+    "25521377",
+    "24379375",
+    "31787569",
+    "30150298",
+    "30711519",
+    "31841614",
+    "36857431",
+    "27623008",
+    "24170860",
+    "27732842",
+    "35568435",
+    "9539131",
+    "30698736",
+    "6947260",
+    "17126452",
+    "13084611",
+    "313056",
+    "9681443",
+    "34881804",
+    "6681617",
+    "11575617",
+    "14342339",
+    "6327016",
+    "9211923",
+    "18388293",
+    "25605736",
+    "26912862",
+    "32894207",
+    "33139955",
+    "39638345",
+    "24959672",
+    "22728481",
+    "19552925",
+    "26424237",
+    "28857199",
+    "29348425",
+    "6156414",
+    "17185467",
+    "17765813",
+    "11445793",
+    "28074903",
+    "28748310",
+    "18645040",
+    "33357437",
+    "30765536",
+    "11378300",
+    "41643021",
+    "31647549",
+    "35876881",
+    "17668007",
+    "30125270",
+    "35331738",
+    "24157548",
+    "11846609",
+    "34744635",
+    "35813024",
+    "37845749",
+    "37110122",
+    "22533540",
+    "38587201",
+    "23861661",
+    "31953472",
+    "35224491",
+    "32445384",
+    "37251807"
+  ],
+  "tables_count": 0,
+  "figures_count": 8,
+  "sections_present": [
+    "abstract",
+    "1. introduction",
+    "2. results",
+    "2.1. ada loss leads to purine metabolism alterations in c9orf72 iastrocytes",
+    "2.2. ada mediated purine metabolism alterations are evident in csf and post-mortem tissue from c9orf72 cases",
+    "2.3. the c9-hre reduces purinosome formation in iastrocytes",
+    "2.4. gain-of-function c9orf72 mechanisms are responsible for loss of ada in vitro and in vivo",
+    "2.5. poly-pr interacts with dnpb enzymes",
+    "2.6. inhibiting dpr production rescues ada levels",
+    "3. discussion",
+    "4. materials and methods",
+    "4.1. human biosamples",
+    "4.2. ethical approval",
+    "4.3. tissue culture",
+    "4.4. plasmids",
+    "4.4.1. tbn-dnpb enzyme and tbc-pr36 plasmids",
+    "4.4.2. cloning of ada into a lentiviral vector",
+    "4.4.3. crispr/cas9",
+    "4.5. lentivirus",
+    "4.6. sense and antisense n2a line generation",
+    "4.7. drosophila husbandry",
+    "4.8. western blotting",
+    "4.9. ada activity/inosine output assay",
+    "4.10. urate assay",
+    "4.11. rt-qpcr",
+    "4.11.1. iastrocytes",
+    "4.11.2.",
+    "4.12. metabolic flux assay",
+    "4.13. immunofluorescence",
+    "4.14. iastrocyte untargeted metabolite profiling",
+    "4.15. dntp measurement by coupled click chemistry and dna polymerase-based assay",
+    "4.16. plasma and csf metabolomics",
+    "4.17. post-mortem tissue collection and processing",
+    "4.18. split-turboid",
+    "4.19. statistical methodology",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 16124,
+  "converted_at": "2026-04-06T22:39:18.926303+00:00"
+}

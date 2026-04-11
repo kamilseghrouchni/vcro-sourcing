@@ -1,0 +1,153 @@
+{
+  "pmid": "41884666",
+  "pmc": "PMC13008742",
+  "doi": "10.3389/fnagi.2026.1730550",
+  "title": "Machine learning analysis of population-wide plasma proteins identifies hormonal biomarkers of Parkinson’s disease",
+  "journal": "Frontiers in Aging Neuroscience",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Chaudhry Fayzan",
+      "affiliations": [
+        "Tri-Institutional PhD Program in Computational Biology, New York, NY, United States",
+        "Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Kim Tae Wan",
+      "affiliations": [
+        "Division of Hematology, Department of Interdisciplinary Engineering, Daegu Gyeongbuk Institute of Science and Technology, Daegu, Republic of Korea"
+      ]
+    },
+    {
+      "name": "Elemento Olivier",
+      "affiliations": [
+        "Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, United States",
+        "Caryl and Israel Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, NY, United States"
+      ]
+    },
+    {
+      "name": "Betel Doron",
+      "affiliations": [
+        "Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, United States",
+        "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY, United States"
+      ]
+    }
+  ],
+  "keywords": [
+    "biomarkers",
+    "deep learning",
+    "neurodegenerative disease",
+    "Parkinson’s disease",
+    "proteomics"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "The author(s) declared that financial support was received for this work and/or its publication. DB and FC were supported by R01 NS118067 from NIA. FC was supported by NIH grant T32 GM132038. TK was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea Government (MSIT) (no. RS-2024-00351442). Data used in the preparation of this article were obtained on 31 January 2023 from the Tier 1 Parkinson’s Progression Markers Initiative (PPMI) database (www.ppmi-info.org/access-data- specimens/download-data), RRID: SCR_006431. For up-to-date information on the study, visit www.ppmi-info.org. PPMI—a public-private partnership—is funded by the Michael J. Fox Foundation for Parkinson’s Research and funding partners, including the Aligning Science Across Parkinson’s (ASAP) initiative. Other partners include a consortium of industry players, non-profit organizations, and private individuals. This research has been conducted using the UK Biobank Resource under Application Number 47137."
+  ],
+  "data_availability_text": "Data availability statementThe UK Biobank and PPMI genomic and phenotypic data is restricted and requires prior approval for access and therefore cannot be provided in this publication. Requests to access these datasets should be directed to https://www.ukbiobank.ac.uk/; https://www.ppmi-info.org/.",
+  "license": "",
+  "received": "2025-10-22",
+  "accepted": "2026-02-10",
+  "reference_pmids": [
+    "30109466",
+    "22021158",
+    "30941085",
+    "11739329",
+    "36971787",
+    "11685243",
+    "838847",
+    "25722852",
+    "26487835",
+    "36036436",
+    "30236122",
+    "31412182",
+    "24216088",
+    "25773351",
+    "25550326",
+    "33897588",
+    "35094046",
+    "21403862",
+    "23203871",
+    "21709421",
+    "20123725",
+    "38890280",
+    "18759359",
+    "24250796",
+    "36423813",
+    "35513515",
+    "38155330",
+    "35204829",
+    "33692568",
+    "2181497",
+    "37752351",
+    "23731754",
+    "33916045",
+    "35184752",
+    "35365675",
+    "21930184",
+    "32723552",
+    "15109580",
+    "30267440",
+    "7704619",
+    "12815652",
+    "28189464",
+    "31701892",
+    "30071902",
+    "35922870",
+    "37667404",
+    "37258413",
+    "22166436",
+    "25437550",
+    "17853482",
+    "910845",
+    "28112214",
+    "35180132",
+    "38467937",
+    "35820861",
+    "34353354",
+    "15177058",
+    "10720049",
+    "25769314",
+    "38982243",
+    "25826379",
+    "31303260",
+    "10121088",
+    "36694577",
+    "32665974",
+    "36017745",
+    "38331209",
+    "39470400"
+  ],
+  "tables_count": 2,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "study design overview",
+    "dataset populations",
+    "multimodal proteomic and genetic models",
+    "genetic-only model",
+    "feature evaluation",
+    "feature correlation with pd severity score",
+    "feature signatures associated with increased pd",
+    "feature correlations",
+    "discussion",
+    "materials and methods",
+    "study population",
+    "variant preprocessing and alignment",
+    "study design",
+    "feature selection and predicting updrs scores",
+    "feature correlation analysis",
+    "model interpretation",
+    "kegg analysis",
+    "limitations",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 10544,
+  "converted_at": "2026-04-06T22:39:37.577689+00:00"
+}

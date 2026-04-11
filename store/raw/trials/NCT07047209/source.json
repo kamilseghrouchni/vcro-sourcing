@@ -1,0 +1,325 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07047209",
+      "orgStudyIdInfo": {
+        "id": "2025P001103"
+      },
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Trial of Oral Digoxin in Individuals With Amyotrophic Lateral Sclerosis (ALS)",
+      "officialTitle": "A Phase 2a Biomarker-Driven Trial of Oral Digoxin in Individuals With Amyotrophic Lateral Sclerosis (ALS) - The Acacia Trial, an ALS MyMatch Trial",
+      "acronym": "ACACIA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-05-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-04",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-06-18",
+      "studyFirstSubmitQcDate": "2025-06-27",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Suma Babu",
+        "investigatorTitle": "Study Principal Investigator",
+        "investigatorAffiliation": "Massachusetts General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Massachusetts General Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical trial is being conducted to learn about safety and tolerability of digoxin in ALS individuals. Additionally, this trial aims to better understand if digoxin has an effect on slowing neurodegeneration in ALS.",
+      "detailedDescription": "This is a single-arm, Phase 2a, open label, 24-week treatment trial evaluating standard clinical dosages of commercially available, FDA approved oral digoxin in up to 40 eligible ALS participants with early disease (\\<24 months from symptom onset). The trial will include two cohorts of eligible participants; Cohort 1 of approximately 30 sporadic/non-C9 ALS and Cohort 2 of approximately 10 C9orf72(+) ALS individuals."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ALS (Amyotrophic Lateral Sclerosis)"
+      ],
+      "keywords": [
+        "ALS",
+        "Amyotrophic Lateral Sclerosis",
+        "Early ALS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment Group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Digoxin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Digoxin",
+          "description": "Digoxin tablets will be administered orally in a once daily dosage. Each tablet is scored and is of 125 mcg strength. Participants will take 1 tablet, two tablets or half a tablet depending on the dosing tier they are in during study participation.",
+          "armGroupLabels": [
+            "Treatment Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of Treatment-Emergent Adverse Events [Safety]",
+          "description": "Safety: Defined as the occurrence of serious and non-serious treatment-emergent adverse events (TEAEs) and clinically significant treatment-emergent abnormalities in clinical and laboratory values including digoxin trough levels, in ALS individuals treated with study treatment.",
+          "timeFrame": "From drug initiation through study completion, an average of 28 weeks"
+        },
+        {
+          "measure": "Incidence of Completing Study Treatment [Tolerability]",
+          "description": "Tolerability: Defined as percentage of ALS participants who complete the 24 weeks of study treatment, without study drug-attributed intolerable AEs that lead to early permanent drug discontinuation.",
+          "timeFrame": "From drug initiation through study completion, an average of 28 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Biological Efficacy",
+          "description": "Biological Efficacy: Changes from baseline at week 24 in blood neurofilament light (NfL) levels following oral digoxin treatment.",
+          "timeFrame": "From enrollment to the end of study treatment at the Week 24 Visit"
+        },
+        {
+          "measure": "CNS Penetrance",
+          "description": "CNS Penetrance: Defined as CSF digoxin level measurement over 24 weeks of treatment.",
+          "timeFrame": "From enrollment to end of study treatment at the Week 24 Visit"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "ALS Functional Rating Scale Revised (ALSFRS-R) total and sub-domain scores.",
+          "description": "Changes from baseline at Week 12 and Week 24 in ALS Functional Rating Scale Revised (ALSFRS-R) total and sub-domain scores. The 12 domains included in the ALSFRS-R are rated on a 5-point scale, 0 to 4, with a maximum score of 48 indicating the highest level of functioning.",
+          "timeFrame": "From enrollment to the end of study treatment at the Week 24 Visit"
+        },
+        {
+          "measure": "Slow vital capacity (SVC)",
+          "description": "Changes from baseline at Week 12 and Week 24 in SVC.",
+          "timeFrame": "From enrollment to the end of study treatment at the Week 24 Visit"
+        },
+        {
+          "measure": "Quality of Life measure: ALSAQ-40 total score",
+          "description": "Changes from baseline at Week 12 and Week 24 in ALSAQ-40 scores.",
+          "timeFrame": "From enrollment to the end of study treatment at the Week 24 Visit"
+        },
+        {
+          "measure": "Permanent assisted ventilation-free survival",
+          "description": "Changes from baseline at Week 12 and Week 24 in Permanent assisted ventilation-free survival.",
+          "timeFrame": "Permanent assisted ventilation is defined as use of non-invasive or invasive ventilation for >22 hours in a 24-hour period, for 7 consecutive days."
+        },
+        {
+          "measure": "Threshold Nerve Conduction Studies",
+          "description": "Participants at the MGH site will participate in threshold tracking nerve excitability. Evaluate changes from baseline at Week 12 and Week 24 in the electrophysiological endpoints.",
+          "timeFrame": "From enrollment to the end of study treatment at the Week 24 Visit."
+        },
+        {
+          "measure": "CSF analyses of Poly(GP)",
+          "description": "Fold change from baseline at Week 12 and Week 24 in CSF analyses of biomarkers including poly(GP).",
+          "timeFrame": "From enrollment to the end of study treatment at the Week 24 Visit."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ability to provide written informed consent.\n2. Adults \\>18 years of age with a diagnosis of symptomatic ALS as determined by an ALS neurologist, and meets either the revised El Escorial Criteria (clinically possible, probable, probable lab-supported, or definite) or the Gold Coast Criteria.\n3. Available or pending CLIA certified ALS genetic panel report.\n4. Less than or equal to 24-months since onset of weakness attributed to ALS.\n5. Vital capacity (VC) of \\> 65% predicted value for gender, height and age at screening.\n6. Clinically unremarkable Complete Blood Counts, including but not limited to Hemoglobin ≥ 9 g/dL, Platelets ≥ 150 x 109 cells/L.\n7. No clinically significant abnormalities in the Comprehensive Metabolic Panel per site/sub-investigator's judgment, including but not limited to:\n\n   1. Serum alanine aminotransferase or aspartate aminotransferase \\< 3× upper limit of normal, or serum total bilirubin \\<1.5× upper limit of normal\n   2. Estimated GFR (eGFR) of \\> 30 mL/min/1.73m2\n   3. Other clinically significant electrolyte and metabolic abnormalities\n8. Ability and willingness to complete all study procedures per the Site Investigator's clinical assessment.\n9. Negative pregnancy test within 7 days prior to first dose for women of child-bearing potential (WOCB), defined as a sexually mature woman who has not undergone a hysterectomy or who has not been naturally postmenopausal for at least 24 consecutive months (i.e., who has had menses any time in the preceding 24 consecutive months).\n10. Individuals enrolling in the C9orf72 cohort of the trial must have CLIA certified ALS gene panel demonstrating \\>31 repeats of C9orf72 hexanucleotide repeat expansion, deemed pathologic.\n\nExclusion Criteria:\n\n* 1\\. Clinically significant unstable medical or surgical condition that would pose a risk to the participant's trial procedural participation or interfere with data collection, according to the Site Investigator's judgment (e.g., active infection requiring antibiotics).\n\n  2\\. Presence of cognitive or mental health disorders impairing ability to provide informed consent for the study per Site investigator assessment.\n\n  3\\. Active cancer or history of cancer, unless it was successfully treated for durable remission or cure more than 3 years ago. (Note that basal cell carcinoma, squamous cell carcinoma in situ, cervical carcinoma in situ, prostatic carcinoma in situ, or other malignancies that have been curatively excised at any time previously and with no evidence of disease recurrence for at least 3 years are not exclusionary.) 4. Prior solid organ transplantation. 5. Concomitant use of investigational treatments for ALS within 5 half-lives or 30 days, whichever longer.\n\n  6\\. Screening 12-lead ECG showing QT interval corrected for rate (QTcF) \\> 470 msec for women and \\> 450 msec for men, absence of second degree or higher AV block or other clinically significant cardiac arrythmias.\n\n  7\\. If female, breastfeeding, pregnant, or of child-bearing potential and unwilling to use effective contraception for duration of the trial and after discontinuing treatment.\n\n  8\\. Serious cardiac condition within the last 6 months, such as uncontrolled arrhythmia, myocardial infarction, unstable angina, or heart disease defined by the New York Heart Association (NYHA) Class III or Class IV or hereditary long QT syndrome.\n\n  9\\. Exclusion criteria for Lumbar Punctures: active bleeding tendencies OR inability to withhold antiplatelets or anticoagulants safely as per institutional guidelines around LPs OR anatomical spine considerations making it unsafe or challenging for serial LPs OR allergy to local anesthesia used for procedure.\n\n  10\\. Clinically active cardiac disorders including sinus bradycardia (HR \\<40 bpm) or sinus tachycardia (HR\\>140 bpm), cardiac arrythmias \\[first-degree, second-degree (Wenckebach), or third-degree heart block; atrial tachycardia with block; AV dissociation; accelerated junctional (nodal) rhythm; unifocal or multiform ventricular premature contractions (especially bigeminy or trigeminy); ventricular tachycardia; and ventricular arrythmias\\]; Persistent or chronic atrial fibrillation that is not controlled using standard medications 11. Concomitant treatment with amiodarone at any dose or quinidine at a dose greater than 20 mg/day",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Nova Southeastern University",
+          "city": "Davie",
+          "state": "Florida",
+          "zip": "33314",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.06287,
+            "lon": -80.2331
+          }
+        },
+        {
+          "facility": "Northwestern Universsity",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "MGH",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004077",
+          "term": "Digoxin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004071",
+          "term": "Digitalis Glycosides"
+        },
+        {
+          "id": "D002298",
+          "term": "Cardenolides"
+        },
+        {
+          "id": "D002301",
+          "term": "Cardiac Glycosides"
+        },
+        {
+          "id": "D002297",
+          "term": "Cardanolides"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

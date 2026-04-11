@@ -1,0 +1,219 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05116943",
+      "orgStudyIdInfo": {
+        "id": "13-004314"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "5P01NS084974-07",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/5P01NS084974-07"
+        }
+      ],
+      "organization": {
+        "fullName": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "briefTitle": "Biospecimen Biorepository for the Study of ALS, ALS-FTD and Similar Neurodegenerative Disorders",
+      "officialTitle": "Biospecimen Biorepository for the Study of ALS, ALS-FTD and Similar Neurodegenerative Disorders"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-08-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-11-02",
+      "studyFirstSubmitQcDate": "2021-11-02",
+      "studyFirstPostDateStruct": {
+        "date": "2021-11-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Bjorn E. Oskarsson",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Mayo Clinic"
+      },
+      "leadSponsor": {
+        "name": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute of Neurological Disorders and Stroke (NINDS)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to collect CSF and blood samples that can be used in future research studies to identify potential biomarkers in blood and cerebrospinal fluid (CSF) collected in Amyotrophic Lateral Sclerosis (ALS) patients.",
+      "detailedDescription": "Biomarkers are non-genetic elements in your blood and CSF that may help diagnose and monitor ALS more easily. There are no readily available sources of longitudinal CSF, plasma or serum samples from people with ALS, ALS-FTD or similar neurodegenerative disorders or their family members for use in the identification of potential ALS biomarkers. Future research will examine potential biomarkers in blood and CSF collected over time to see if they change over time and can be used to diagnose and monitor people with ALS."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amyotrophic Lateral Sclerosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "10 Years",
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Blood serum collection",
+          "description": "Total number of blood serum samples collected",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "Blood plasma collection",
+          "description": "Total number of blood plasma samples collected",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "Cerebrospinal fluid collection",
+          "description": "Total number of cerebrospinal fluid samples collected",
+          "timeFrame": "10 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria - Patient with ALS, ALS-FTD or Similar Neurodegenerative Disease:\n\n* Clinical diagnosis of possible, laboratory-supported probable, probable or definite ALS according to modified eL Escorial criteria, suspected ALS according to original el Escorial criteria, or diagnosis of a similar neurodegenerative disorder.\n* Willing to provide consent, or assent, if physically unable to consent owing to disease-related muscle weakness.\n\nInclusion Criteria - Spouse/Domestic Partner of Patients with ALS/ALS-FTD and Similar Neurodegenerative Disorder or Subject with Family History of ALS, ALS-FTD or Similar Neurodegenerative Disease:\n\n* No personal history of ALS, ALS-FTD or other motor neuron disease.\n* Subjects with family history of ALS, ALS-FTD the affected family member needs to be a first, second, or third degree blood relative.\n* Willing to provide consent.\n\nExclusion Criteria - Subject with ALS/ALS-FTD or Similar Neurodegenerative Disease:\n\n* History of medical disorder that leaves in question whether neurological signs and symptoms potentially related to a neurodegenerative disease may be caused by another unrelated disorder.\n* Limited mental capacity rendering the subject unable to comply with lumbar puncture or standard phlebotomy procedures.\n* For lumbar puncture, an increased risk of bleeding complications or allergy to local anesthetic administered or skin antiseptic used for lumbar puncture.\n\nExclusion Criteria - Spouse/Domestic Partner of Patients with ALS/ALS-FTD and Similar Neurodegenerative Disorder or Subject with Family History of ALS, ALS-FTD or Similar Neurodegenerative Disease:\n\n* Limited mental capacity rendering the subject unable to comply with lumbar puncture or standard phlebotomy procedures.\n* For lumbar puncture, an increased risk of bleeding complications or allergy to local anesthetic administered or skin antiseptic used for lumbar puncture.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Subjects with ALS and similar neurodegenerative disorders and their family members will be identified from patients seen in the Department of Neurology at Mayo Clinic Florida on the basis of a diagnosis of ALS or a similar neurodegenerative disorder.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bjorn Oskarsson, MD",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mayo Clinic in Florida",
+          "status": "RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alex Burch, BA",
+              "role": "CONTACT",
+              "phone": "(904)9532000",
+              "email": "burch.alex@mayo.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-04-06"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000690",
+          "term": "Amyotrophic Lateral Sclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D057177",
+          "term": "TDP-43 Proteinopathies"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D057165",
+          "term": "Proteostasis Deficiencies"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,195 @@
+{
+  "pmid": "33149115",
+  "pmc": "PMC7642387",
+  "doi": "10.1038/s41467-020-19396-3",
+  "title": "Sigma-1 receptor chaperones rescue nucleocytoplasmic transport deficit seen in cellular and Drosophila ALS/FTD models",
+  "journal": "Nature Communications",
+  "year": 2020,
+  "authors": [
+    {
+      "name": "Lee Pin-Tse",
+      "affiliations": [
+        "grid.420090.f0000 0004 0533 7147Cellular Pathobiology Section, Integrative Neuroscience Research Branch, Intramural Research Program, National Institute on Drug Abuse, NIH, 333 Cassell Drive, Baltimore, MD 21224 USA",
+        "grid.412896.00000 0000 9337 0481The Ph.D Program for Neural Regenerative Medicine, Taipei Medical University, 250 Wuxing Street, Taipei, 11031 Taiwan",
+        ""
+      ]
+    },
+    {
+      "name": "Liévens Jean-Charles",
+      "affiliations": [
+        "grid.121334.60000 0001 2097 0141MMDN, University of Montpellier, EPHE, INSERM, Montpellier, France"
+      ]
+    },
+    {
+      "name": "Wang Shao-Ming",
+      "affiliations": [
+        "grid.420090.f0000 0004 0533 7147Cellular Pathobiology Section, Integrative Neuroscience Research Branch, Intramural Research Program, National Institute on Drug Abuse, NIH, 333 Cassell Drive, Baltimore, MD 21224 USA"
+      ]
+    },
+    {
+      "name": "Chuang Jian-Ying",
+      "affiliations": [
+        "grid.412896.00000 0000 9337 0481The Ph.D Program for Neural Regenerative Medicine, Taipei Medical University, 250 Wuxing Street, Taipei, 11031 Taiwan"
+      ]
+    },
+    {
+      "name": "Khalil Bilal",
+      "affiliations": [
+        "grid.417467.70000 0004 0443 9942Department of Neuroscience, Mayo Clinic, Jacksonville, FL 32224 USA"
+      ]
+    },
+    {
+      "name": "Wu Hsiang-en",
+      "affiliations": [
+        "grid.420090.f0000 0004 0533 7147Cellular Pathobiology Section, Integrative Neuroscience Research Branch, Intramural Research Program, National Institute on Drug Abuse, NIH, 333 Cassell Drive, Baltimore, MD 21224 USA"
+      ]
+    },
+    {
+      "name": "Chang Wen-Chang",
+      "affiliations": [
+        "grid.412896.00000 0000 9337 0481The Ph.D Program for Neural Regenerative Medicine, Taipei Medical University, 250 Wuxing Street, Taipei, 11031 Taiwan"
+      ]
+    },
+    {
+      "name": "Maurice Tangui",
+      "affiliations": [
+        "grid.121334.60000 0001 2097 0141MMDN, University of Montpellier, EPHE, INSERM, Montpellier, France"
+      ]
+    },
+    {
+      "name": "Su Tsung-Ping",
+      "affiliations": [
+        "grid.420090.f0000 0004 0533 7147Cellular Pathobiology Section, Integrative Neuroscience Research Branch, Intramural Research Program, National Institute on Drug Abuse, NIH, 333 Cassell Drive, Baltimore, MD 21224 USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Mechanisms of disease",
+    "Neuroscience"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "Intramural Research Program, NIDA, NIH; and MOST grants (108-2321-B-038-008 and 109-2636-B-038-002) of Taiwan.",
+    "Supports from University of Montpellier and INSERM of France",
+    "Intramural Research Program, NIDA, NIH.",
+    "Intramural Research Program, NIDA/NIH."
+  ],
+  "data_availability_text": "Data availabilityThe data that support this study are available from the corresponding authors upon reasonable request.",
+  "license": "OpenAccess",
+  "received": "2019-07-18",
+  "accepted": "2020-10-13",
+  "reference_pmids": [
+    "21944779",
+    "21944778",
+    "27112499",
+    "23264878",
+    "25788698",
+    "29703376",
+    "29400714",
+    "29942091",
+    "29398115",
+    "29628143",
+    "24598541",
+    "26308891",
+    "30742233",
+    "27273515",
+    "27081075",
+    "6290634",
+    "2832949",
+    "2577720",
+    "2174717",
+    "9460750",
+    "17315983",
+    "19213917",
+    "28495886",
+    "29263318",
+    "27042935",
+    "17981125",
+    "18539593",
+    "31108174",
+    "27298364",
+    "30824685",
+    "30756361",
+    "27818324",
+    "30743048",
+    "30594810",
+    "26869505",
+    "27339730",
+    "26033680",
+    "28881650",
+    "26554014",
+    "21031579",
+    "21842496",
+    "25678561",
+    "31696229",
+    "22265729",
+    "23458708",
+    "10800932",
+    "10795883",
+    "24204710",
+    "18056441",
+    "22288412",
+    "29729808",
+    "23553836",
+    "25103406",
+    "26308899",
+    "26869068",
+    "10669511",
+    "12486202",
+    "29371653",
+    "23332758",
+    "12438547",
+    "25032855",
+    "30006137",
+    "30216117",
+    "15514115",
+    "19503077",
+    "21784248",
+    "30120349",
+    "28942918",
+    "24313828",
+    "25449906",
+    "25081482",
+    "30919029",
+    "12730356",
+    "15466698"
+  ],
+  "tables_count": 0,
+  "figures_count": 8,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "the sig-1r exists at the nuclear pore",
+    "sig-1r stabilizes the nuclear pore proteins",
+    "purified sig-1r binds the (g4c2)-rna repeats",
+    "sig-1r effects on (g4c2)-rna repeats-induced ran gradient across nuclear membrane in hela cells",
+    "discussion",
+    "methods",
+    "sig-1r knockout cells: selection on hela cells",
+    "nsc-34 cell culture",
+    "immunostaining",
+    "plasmid constructs and gene silencing",
+    "immunoprecipitation",
+    "western blot: hela cell, ng-108 cells",
+    "nuclear/cytoplasmic fractionation of hela cells",
+    "biotin pull-down assay",
+    "rna fluorescence in situ hybridization",
+    "protein degradation assay",
+    "rna isolation, reverse transcription, and quantitative real-time pcr",
+    "real-time quantitative pcr:",
+    "western blot:",
+    "external eye morphology:",
+    "negative geotaxis test:",
+    "electrophysiological recordings after electroconvulsive stimulation:",
+    "statistics and reproducibility",
+    "reporting summary",
+    "supplementary information",
+    "acknowledgements",
+    "funding",
+    "data_availability",
+    "references"
+  ],
+  "word_count": 14735,
+  "converted_at": "2026-04-06T22:40:02.428075+00:00"
+}

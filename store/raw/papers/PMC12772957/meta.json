@@ -1,0 +1,135 @@
+{
+  "pmid": "41234208",
+  "pmc": "PMC12772957",
+  "doi": "10.1242/jcs.264105",
+  "title": "UBQLN2 is necessary for UBE3A-mediated proteasomal degradation of the domesticated retroelement PEG10",
+  "journal": "Journal of Cell Science",
+  "year": 2024,
+  "authors": [
+    {
+      "name": "Roberts Julia E.",
+      "affiliations": [
+        "Department of Biochemistry, University of Colorado Boulder, Boulder, CO 80309, USA"
+      ]
+    },
+    {
+      "name": "Huynh Phuoc T.",
+      "affiliations": [
+        "Department of Biochemistry, University of Colorado Boulder, Boulder, CO 80309, USA",
+        "Department of Molecular, Cellular, and Developmental Biology, University of Colorado Boulder, Boulder, CO 80309, USA"
+      ]
+    },
+    {
+      "name": "Carale Luis O.",
+      "affiliations": [
+        "Department of Biochemistry, University of Colorado Boulder, Boulder, CO 80309, USA"
+      ]
+    },
+    {
+      "name": "Whiteley Alexandra M.",
+      "affiliations": [
+        "Department of Biochemistry, University of Colorado Boulder, Boulder, CO 80309, USA"
+      ]
+    }
+  ],
+  "keywords": [
+    "Ubiquilin",
+    "UBQLN2",
+    "Proteasome",
+    "UBE3A",
+    "E6AP",
+    "PEG10"
+  ],
+  "mesh_terms": [],
+  "funding_sources": [
+    "National Institute of Neurological Disorders and Strokehttp://dx.doi.org/10.13039/100000065 R01NS131660",
+    "National Institute of General Medical Scienceshttp://dx.doi.org/10.13039/100000057 T32 GM142607",
+    "University of Coloradohttp://dx.doi.org/10.13039/100010174"
+  ],
+  "data_availability_text": "",
+  "license": "",
+  "received": "2025-04-23",
+  "accepted": "2025-11-08",
+  "reference_pmids": [
+    "30951545",
+    "36082367",
+    "36951542",
+    "16093683",
+    "36827983",
+    "27396824",
+    "17942406",
+    "21857683",
+    "40671377",
+    "12198498",
+    "19489727",
+    "16813565",
+    "33620121",
+    "11805328",
+    "32681165",
+    "20211139",
+    "26222436",
+    "9759494",
+    "6305978",
+    "27477512",
+    "25514926",
+    "37257946",
+    "27345149",
+    "16405905",
+    "8988171",
+    "10983987",
+    "15147878",
+    "28075048",
+    "22237024",
+    "22628307",
+    "34273246",
+    "20084274",
+    "37201526",
+    "15767280",
+    "24674348",
+    "29426014",
+    "35247097",
+    "40680123",
+    "16688178",
+    "16595883",
+    "34467244",
+    "20529957",
+    "27113755",
+    "33277362",
+    "32513711",
+    "9143503",
+    "23459205",
+    "18241885",
+    "32965492"
+  ],
+  "tables_count": 0,
+  "figures_count": 6,
+  "sections_present": [
+    "abstract",
+    "introduction",
+    "results",
+    "peg10 gag-pol degradation is dependent on the ubiquitin–proteasome system and autophagy",
+    "proteasomal regulation of peg10 gag-pol is ubiquilin dependent",
+    "lysine residues of the pol region of peg10 are essential for ubqln2-dependent regulation",
+    "binding of ubqln2 and peg10 is multi-domain and dependent on gag",
+    "ube3a, an e3 ligase and binding partner of ubqln2, alters gag-pol ubiquitylation and abundance",
+    "discussion",
+    "materials and methods",
+    "cloning",
+    "cell culture and cell lines",
+    "transfection",
+    "western blotting",
+    "flow cytometry – client accumulation assay",
+    "gating strategy",
+    "metabolic labeling",
+    "ip and co-ip",
+    "dsp crosslinking for co-ips",
+    "crispr/cas9 gene editing",
+    "statistical analysis",
+    "supplementary material",
+    "acknowledgements",
+    "funding",
+    "references"
+  ],
+  "word_count": 11016,
+  "converted_at": "2026-04-06T22:38:31.960534+00:00"
+}
