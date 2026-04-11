@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>vCRO — The open source cohort sourcing agent</title>
+  <meta name="description" content="Open-source CLI that builds a provenance graph of who has what biological samples, where. Every claim cited. Runs on Claude Code.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Lustria&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg:          #F2EFE9;
+      --bg-card:     #E8E5DE;
+      --bg-feed:     #DFDBD4;
+      --text:        #1A1814;
+      --text-2:      #6B6560;
+      --text-3:      #A09890;
+      --brand:       #00a5b4;
+      --brand-hover: #00b4c3;
+      --bg-term:     #1E1C18;
+      --text-term:   #E8E5DE;
+      --display:     'Lustria', Georgia, serif;
+      --body:        'IBM Plex Sans', system-ui, sans-serif;
+      --mono:        'Geist Mono', 'JetBrains Mono', ui-monospace, monospace;
+      --max-w:       960px;
+      --gap:         20px;
+      --pad:         32px;
+      --r:           16px;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--body); font-size: 16px; line-height: 1.6; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { color: var(--brand-hover); }
+    .w { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+
+    /* Highlight variants */
+    .hl { background: linear-gradient(to top, rgba(0,165,180,0.25) 40%, transparent 40%); padding: 0 4px; }
+    section h2 .hl { background: linear-gradient(to top, rgba(0,165,180,0.3) 35%, transparent 35%); }
+    .hl-fill { background: rgba(0,165,180,0.15); padding: 2px 8px; border-radius: 6px; }
+    .hl-text { color: var(--brand); }
+
+    /* Hero note */
+    .hero-note { font-size: 14px; color: var(--text-2); margin-bottom: 24px; }
+    .hero-note a { color: var(--brand); font-weight: 600; }
+
+    /* Stack grid */
+    .stack-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gap); max-width: 640px; margin: 0 auto; }
+    .stack-card { background: var(--bg-card); border-radius: var(--r); padding: 20px; display: flex; gap: 14px; align-items: flex-start; text-decoration: none; color: inherit; transition: background 150ms; }
+    .stack-card:hover { background: var(--bg-feed); }
+    .stack-icon { font-size: 20px; color: var(--brand); flex-shrink: 0; line-height: 1; margin-top: 2px; }
+    .stack-card strong { display: block; font-size: 14px; font-family: var(--mono); margin-bottom: 2px; }
+    .stack-card p { color: var(--text-2); font-size: 13px; line-height: 1.4; margin: 0; }
+    .repo-card { border: 1px solid var(--brand); border-opacity: 0.3; }
+    .repo-card { border: 1px solid rgba(0,165,180,0.3); }
+
+    /* Nav */
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; max-width: var(--max-w); margin: 0 auto; }
+    .logo { font-family: var(--mono); font-size: 18px; font-weight: 600; color: var(--text); text-decoration: none; }
+    .nav-r { display: flex; gap: 24px; }
+    .nav-r a { color: var(--text-2); font-size: 15px; }
+    .nav-r a:hover { color: var(--text); }
+
+    /* Hero */
+    .hero { text-align: center; padding: 100px 0 60px; }
+    .hero h1 { font-family: var(--display); font-size: 48px; font-weight: 400; line-height: 1.2; margin-bottom: 16px; }
+    .hero .sub { font-size: 17px; color: var(--text-2); max-width: 520px; margin: 0 auto 40px; line-height: 1.7; }
+
+    /* Install */
+    .install { max-width: 480px; margin: 0 auto 32px; text-align: left; }
+    .install-tabs { display: flex; border-radius: 8px 8px 0 0; overflow: hidden; }
+    .install-tabs button { background: var(--bg-card); border: none; padding: 8px 20px; font-family: var(--mono); font-size: 14px; cursor: pointer; color: var(--text-2); transition: background 150ms; }
+    .install-tabs button.active { background: var(--bg-feed); color: var(--text); }
+    .install-code { background: var(--bg-feed); border-radius: 0 0 8px 8px; padding: 16px 20px; font-family: var(--mono); font-size: 14px; color: var(--text); position: relative; display: none; }
+    .install-code.active { display: block; }
+    .copy-btn { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text-3); cursor: pointer; font-size: 14px; font-family: var(--mono); }
+    .copy-btn:hover { color: var(--text-2); }
+
+    .ctas { display: flex; gap: 12px; justify-content: center; }
+    .btn-p { display: inline-block; background: var(--brand); color: white; border: none; border-radius: 999px; padding: 12px 28px; font-family: var(--body); font-size: 15px; font-weight: 600; cursor: pointer; transition: background 200ms; text-decoration: none; }
+    .btn-p:hover { background: var(--brand-hover); color: white; }
+    .btn-o { display: inline-block; background: transparent; color: var(--text); border: 1.5px solid var(--text-3); border-radius: 999px; padding: 12px 28px; font-family: var(--body); font-size: 15px; font-weight: 600; cursor: pointer; transition: border-color 200ms; text-decoration: none; }
+    .btn-o:hover { border-color: var(--text-2); }
+
+    /* Sections */
+    section { padding: 100px 0; }
+    section h2 { font-family: var(--body); font-size: 28px; font-weight: 600; margin-bottom: 8px; }
+    section .sub2 { color: var(--text-2); font-size: 17px; margin-bottom: 40px; line-height: 1.6; }
+
+    /* Terminal */
+    .term { max-width: 680px; margin: 0 auto; border-radius: 12px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.15); }
+    .term-bar { background: #2a2824; padding: 12px 16px; display: flex; align-items: center; gap: 8px; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot.r { background: #c86450; } .dot.y { background: #b48c32; } .dot.g { background: #64a064; }
+    .term-bar span { margin-left: 12px; font-family: var(--mono); font-size: 12px; color: #6B6560; }
+    .term-body { background: var(--bg-term); padding: 24px; font-family: var(--mono); font-size: 13px; line-height: 1.7; color: var(--text-term); white-space: pre-wrap; word-break: break-word; }
+    .td { color: #6B6560; }
+    .tc { color: #E8E5DE; font-weight: 600; }
+    .tb { color: #00a5b4; }
+    .tq { color: #A09890; font-style: italic; }
+
+    /* Problem grid */
+    .pain-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; max-width: 800px; margin: 0 auto; }
+    .pain { text-align: center; padding: 20px 12px; }
+    .pain-num { font-family: var(--display); font-size: 36px; color: var(--text); line-height: 1; margin-bottom: 8px; }
+    .pain-label { font-size: 13px; color: var(--text-2); line-height: 1.4; }
+    @media (max-width: 768px) { .pain-grid { grid-template-columns: repeat(2, 1fr); } }
+
+    /* Feature cards with icon */
+    .feat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gap); }
+    .feat { background: var(--bg-card); border-radius: var(--r); padding: 24px; }
+    .feat .feat-ico { font-size: 22px; margin-bottom: 8px; display: block; }
+    .feat strong { display: block; margin-bottom: 6px; font-size: 15px; }
+    .feat p { color: var(--text-2); font-size: 14px; line-height: 1.5; }
+
+    /* Content panels — card background for text sections */
+    .panel { background: var(--bg-card); border-radius: var(--r); padding: var(--pad); max-width: 640px; }
+    .panel dt { font-weight: 600; font-size: 15px; margin-bottom: 4px; margin-top: 24px; color: var(--text); }
+    .panel dt:first-child { margin-top: 0; }
+    .panel dd { color: var(--text-2); font-size: 15px; line-height: 1.5; margin-left: 0; margin-bottom: 0; }
+    .panel.commands dt { font-family: var(--mono); color: var(--brand); font-size: 14px; }
+
+    /* Why CLI */
+    .why-list { max-width: 600px; }
+    .why-list dt { font-weight: 600; font-size: 16px; margin-bottom: 4px; margin-top: 20px; }
+    .why-list dt:first-child { margin-top: 0; }
+    .why-list dd { color: var(--text-2); font-size: 15px; line-height: 1.5; margin-left: 0; }
+
+    /* Skills */
+    .skill-tabs { display: flex; gap: 0; margin-bottom: 24px; border-radius: 8px; overflow: hidden; flex-wrap: wrap; }
+    .skill-tabs button { background: var(--bg-card); border: none; padding: 8px 16px; font-family: var(--mono); font-size: 13px; cursor: pointer; color: var(--text-2); transition: background 150ms; }
+    .skill-tabs button.active { background: var(--bg-feed); color: var(--text); }
+    .skill-tabs button:hover { color: var(--text); }
+    .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
+    .sk { background: var(--bg-card); border-radius: var(--r); padding: 20px; }
+    .sk .tag { display: inline-block; font-family: var(--mono); font-size: 11px; padding: 2px 8px; border-radius: 999px; margin-bottom: 8px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; }
+    .sk .name { font-family: var(--mono); font-size: 14px; font-weight: 600; display: block; margin-bottom: 4px; }
+    .sk p { color: var(--text-2); font-size: 13px; line-height: 1.4; }
+    .sk.hidden { display: none; }
+    .t-compile  { background: rgba(0,165,180,0.12); color: #00a5b4; }
+    .t-query    { background: rgba(180,140,50,0.12); color: #9a7a2e; }
+    .t-lint     { background: rgba(200,100,80,0.12); color: #c86450; }
+    .t-catalog  { background: rgba(100,160,100,0.12); color: #4d8a4d; }
+    .t-infra    { background: rgba(120,130,160,0.12); color: #6872a0; }
+
+    /* Graph */
+    .graph-wrap { border-radius: var(--r); overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.1); background: #222; }
+    .graph-frame { width: 100%; height: 480px; border: none; display: block; }
+    .graph-stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin-top: 32px; }
+    .gs { font-size: 15px; color: var(--text-2); }
+    .gs span { font-weight: 700; font-family: var(--mono); }
+    .tb-col { color: #00a5b4; } .ty-col { color: #b48c32; } .tg-col { color: #64a064; } .tr-col { color: #c86450; }
+    .graph-foot { text-align: center; color: var(--text-2); font-size: 15px; margin-top: 24px; }
+
+    /* Footer */
+    footer { text-align: center; padding: 100px 0 60px; }
+    footer .promise { font-size: 17px; color: var(--text-2); margin-bottom: 32px; line-height: 1.6; }
+    footer small { display: block; margin-top: 32px; color: var(--text-3); font-size: 14px; }
+
+    /* Reveal */
+    .rv { opacity: 0; transform: translateY(16px); transition: opacity 0.4s ease, transform 0.4s ease; }
+    .rv.vis { opacity: 1; transform: translateY(0); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .feat-grid, .skills-grid, .stack-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 32px; }
+      section h2 { font-size: 22px; }
+      .term-body { font-size: 11px; padding: 16px; }
+      section { padding: 80px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="logo" href="/">vCRO</a>
+    <div class="nav-r">
+      <a href="wiki.html">About</a>
+      <a href="docs/">Docs</a>
+      <a href="#skills">Skills</a>
+      <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="w">
+      <h1>Biospecimen sourcing<br>made <span class="hl-fill">agentic</span></h1>
+      <p class="sub">
+        Cut the middle man. Navigates papers, compiles studies, samples,
+        institutions &mdash; assesses fit-for-purpose, maps stakeholders,
+        and gets better with every query.
+      </p>
+
+      <p class="hero-note">Open source. Runs on <a href="https://claude.ai/code">Claude Code</a>. Your subscription, your machine, your data.</p>
+
+      <div class="install">
+        <div class="install-tabs">
+          <button class="active" onclick="switchTab('cli')">CLI</button>
+          <button onclick="switchTab('web')">Web</button>
+        </div>
+        <div id="tab-cli" class="install-code active">
+          <span>curl -fsSL https://vcro.bio/install | bash</span>
+          <button class="copy-btn" onclick="copyInstall(this)">&#x2398;</button>
+        </div>
+        <div id="tab-web" class="install-code">
+          <span>Coming soon</span>
+        </div>
+      </div>
+
+      <div class="ctas">
+        <a class="btn-p" href="https://github.com/kamilseghrouchni/vcro-sourcing#getting-started">Get Started</a>
+        <a class="btn-o" href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Problem -->
+  <section id="problem" style="padding-top: 60px; padding-bottom: 60px;">
+    <div class="w">
+      <h2 style="text-align:center">Sourcing samples is <span class="hl">broken</span></h2>
+      <p class="sub2" style="text-align:center">
+        You can't see where samples come from, whether they'll work for your assay,
+        or how much they should cost. The information exists &mdash; it's just buried.
+      </p>
+
+      <div class="pain-grid rv">
+        <div class="pain">
+          <div class="pain-num">5x</div>
+          <div class="pain-label">price variance for the same sample type. No benchmarks.</div>
+        </div>
+        <div class="pain">
+          <div class="pain-num">80%</div>
+          <div class="pain-label">of biotech SMEs find hospital sample access "unexpectedly difficult."</div>
+        </div>
+        <div class="pain">
+          <div class="pain-num">91%</div>
+          <div class="pain-label">White in the largest AD cohort. Diverse samples exist &mdash; they're just harder to find.</div>
+        </div>
+        <div class="pain">
+          <div class="pain-num">?</div>
+          <div class="pain-label">provenance hidden by brokers. One patient's tissue, five vendors' inventory.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Type vcro → this is what you see -->
+  <section id="terminal" style="padding-top: 40px; padding-bottom: 40px;">
+    <div class="w">
+      <h2 style="text-align:center">Type <span class="hl-fill">vcro</span></h2>
+      <p class="sub2" style="text-align:center">This is what opens. Your wiki, your workflows, one prompt away.</p>
+
+      <div class="term rv">
+        <div class="term-bar">
+          <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+          <span>vcro</span>
+        </div>
+        <div class="term-body"><span class="td">         ╦  ╦╔═╗╦═╗╔═╗
+┌────────╚╗╔╝║  ╠╦╝║ ║────────┐
+│ cohort  ╚╝ ╚═╝╩╚═╚═╝        │
+│ intelligence agent    v0.1.0  │
+└──────────────────────────────┘</span>
+
+  <span class="td">Wiki                           │ Workflows</span>
+  <span class="td">────────────────────           │</span> <span class="tb">query &lt;q&gt;</span>         <span class="td">find cohorts, cited answers</span>
+  <span class="td">entities</span>         <span class="tc">328</span>           <span class="td">│</span> <span class="tb">compile &lt;PMC&gt;</span>     <span class="td">read papers, grow the wiki</span>
+                                 <span class="td">│</span> <span class="tb">bounty &lt;goal&gt;</span>     <span class="td">source samples under budget</span>
+  <span class="td">Session</span>                        <span class="td">│</span> <span class="tb">onboard &lt;inst&gt;</span>    <span class="td">list your catalog</span>
+  <span class="td">model</span>            <span class="td">opus-4-6</span>     <span class="td">│</span> <span class="tb">lint</span>              <span class="td">check whats stale or missing</span>
+
+  <span class="td">──────────────────────────────────────────────────────────</span>
+
+  <span class="tb">&#10095;</span> <span class="tc">I need AD plasma metabolomics cohorts, longitudinal,
+    n&gt;200. Minimise statin effects. Commercial-use rights.</span>
+
+  <span class="td">&#10209; searching wiki index</span>
+  <span class="td">&#10209; reading cohorts/adni-go2-plasma-lipidomics.md</span>
+  <span class="td">&#10209; reading cohorts/adni-go2-serum-metabolomics-mxp500.md</span>
+  <span class="td">&#10209; scoring 4 candidates on Scale · Cost · Quality</span>
+
+  <span class="tc">1. ADNI Plasma Lipidomics (Baker Institute LC-MS/MS)</span>
+  Scale:   <span class="tb">580</span> usable AD-vs-CN subjects, 4730 samples
+  Cost:    free data access via LONI, DUA 2–4 months
+  Quality: <span class="tb">~95% fasting</span>, statin effects formally quantified
+
+  <span class="tq">"423 lipid species significantly associated with statin
+   use identified — statin-sensitive species can be excluded
+   or adjusted."</span>
+  <span class="td">— PMC12269576, Supplementary Table S6</span>
+
+  <span class="tc">2. ADNI Serum MXP500 (Biocrates, n=1,430)</span>
+  Scale:   <span class="tb">647</span> usable, 506 metabolites, 26 biochemical classes
+  Cost:    free via AD Knowledge Portal + LONI (dual DUA)
+  Quality: provenance depth <span class="tb">0.62</span> — highest in AD metabolomics wiki
+  Note:    <span class="tb">serum not plasma</span> — buyer must confirm matrix is acceptable
+
+  <span class="td">claude-opus-4-6  │  $0.28  │  turn 1  │  52s</span>
+
+  <span class="tb">&#10095;</span> <span class="td">█</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works — with icons in entity-type colors -->
+  <section id="how">
+    <div class="w">
+      <h2><span class="hl-text">You</span> ask. The graph <span class="hl">grows</span>.</h2>
+      <p class="sub2">
+        Not a search engine. A knowledge graph that compounds with every question.
+      </p>
+
+      <div class="feat-grid">
+        <div class="feat rv">
+          <span class="feat-ico" style="color:#00a5b4">&#9673;</span>
+          <strong>Reads papers, not abstracts</strong>
+          <p>8,000 words per paper. 21 intelligence dimensions extracted &mdash; sample counts, protocols, consent, PI contacts, platform specs. With verbatim quotes.</p>
+        </div>
+        <div class="feat rv">
+          <span class="feat-ico" style="color:#F28E2B">&#9678;</span>
+          <strong>Cross-links everything</strong>
+          <p>Every cohort linked to its institution, investigators, platforms, protocols. Ask about a PI &mdash; see every cohort they touch. Ask about a platform &mdash; see who validated it.</p>
+        </div>
+        <div class="feat rv">
+          <span class="feat-ico" style="color:#59A14F">&#9670;</span>
+          <strong>Scores on three axes</strong>
+          <p>Scale, Cost, Quality &mdash; independently. No composite rank. You decide the weighting. Every score traces to a source quote.</p>
+        </div>
+        <div class="feat rv">
+          <span class="feat-ico" style="color:#E15759">&#9656;</span>
+          <strong>Self-improving</strong>
+          <p>Lint scans the wiki for stale facts, missing links, duplicate entities. Findings feed back into compile. The graph heals itself.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The graph -->
+  <section id="graph">
+    <div class="w">
+      <h2>Your <span class="hl-fill">wiki</span></h2>
+      <p class="sub2">
+        Every entity is a markdown file. Click a node &mdash; see its type, connections, source.
+      </p>
+
+      <div class="graph-wrap rv">
+        <iframe src="query-graph.html" class="graph-frame" loading="lazy" title="vCRO query subgraph"></iframe>
+      </div>
+
+      <div class="graph-stats rv">
+        <div class="gs"><span class="tb-col">&#9673; cohorts</span></div>
+        <div class="gs"><span class="ty-col">&#9678; institutions</span></div>
+        <div class="gs"><span class="tg-col">&#9670; investigators</span></div>
+        <div class="gs"><span class="tr-col">&#9656; platforms</span></div>
+      </div>
+
+      <p class="graph-foot rv" style="color:var(--text-3); font-size:13px;">
+        Example: the AD plasma metabolomics query connected 4 cohorts to 8 institutions,
+        9 investigators, and 3 platforms. Your wiki starts empty and grows from here.
+      </p>
+    </div>
+  </section>
+
+  <!-- Workflows -->
+  <section id="workflows">
+    <div class="w">
+      <h2>Five <span class="hl">workflows</span></h2>
+      <p class="sub2">Natural language or structured commands. Every answer backed by evidence.</p>
+
+      <div class="panel commands rv">
+        <dl>
+          <dt>vcro query "AD plasma metabolomics cohorts, longitudinal, n&gt;200"</dt>
+          <dd>Search the wiki. Score matches. If the wiki is thin, ingest new papers automatically. Get a cited recommendation.</dd>
+
+          <dt>vcro compile PMC10103184 PMC6922070</dt>
+          <dd>Your wiki is only as good as what it has read. Compile turns papers into structured entities &mdash; cohorts, institutions, investigators, platforms &mdash; all cross-linked.</dd>
+
+          <dt>vcro bounty "50 AD plasma samples, commercial use, under 80k EUR"</dt>
+          <dd>Need physical samples? Bounty finds sources, composes a three-leg bundle (specimens + QC + assay), and flags every cost component that still needs a quote.</dd>
+
+          <dt>vcro lint</dt>
+          <dd>The wiki audits itself. What facts went stale? Which entities are duplicates? Where are links missing? Findings feed back into compile &mdash; the graph heals.</dd>
+
+          <dt>vcro onboard "Sahlgrenska Biobank"</dt>
+          <dd>Supply side. Generates a catalog listing from an institution's published papers. Surfaces gaps for the biobank to fill. Same evidence standard, both sides.</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="w">
+      <h2>Skills, not features</h2>
+      <p class="sub2">
+        20 documented instruction sets under <code style="font-family:var(--mono);color:var(--brand)">.claude/skills/</code>.
+        Each one is a markdown file. Read it, fork it, swap it out.
+      </p>
+
+      <div style="text-align:center; margin-bottom: 24px;">
+        <a class="btn-o" href="https://github.com/kamilseghrouchni/vcro-sourcing/tree/vcro/v2/.claude/skills" style="font-size:14px; padding:10px 24px;">
+          &#8595; Download skills package
+        </a>
+      </div>
+
+      <div class="skill-tabs">
+        <button class="active" onclick="filterSkills('all',this)">All</button>
+        <button onclick="filterSkills('compile',this)">Compile</button>
+        <button onclick="filterSkills('query',this)">Query</button>
+        <button onclick="filterSkills('lint',this)">Lint</button>
+        <button onclick="filterSkills('catalog',this)">Catalog</button>
+        <button onclick="filterSkills('infra',this)">Infra</button>
+      </div>
+
+      <div class="skills-grid">
+        <div class="sk rv" data-p="compile"><span class="tag t-compile">compile</span><span class="name">extract</span><p>One paper &rarr; structured intelligence fragments. 5&ndash;8 dimensions.</p></div>
+        <div class="sk rv" data-p="compile"><span class="tag t-compile">compile</span><span class="name">resolve</span><p>Fragments vs. wiki. New entity, merge, or ambiguous.</p></div>
+        <div class="sk rv" data-p="compile"><span class="tag t-compile">compile</span><span class="name">merge</span><p>Plan in, wiki articles out. Idempotent. Hook-gated.</p></div>
+
+        <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">understand</span><p>Natural language &rarr; structured request.json.</p></div>
+        <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">search</span><p>PubMed, EuropePMC, ctgov. Coverage scoring per round.</p></div>
+        <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">discover</span><p>Wiki-first candidate search. Reports gaps.</p></div>
+        <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">score</span><p>Scale, Cost, Quality. Per-axis confidence. No composite.</p></div>
+        <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">deliver</span><p>Scored candidates &rarr; recommendation.md + listings.jsonl.</p></div>
+        <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">bounty/format</span><p>Bundle composition: source + screening + assay.</p></div>
+
+        <div class="sk rv" data-p="lint"><span class="tag t-lint">lint</span><span class="name">gaps</span><p>Real gaps vs. structural. Worth recompiling or not.</p></div>
+        <div class="sk rv" data-p="lint"><span class="tag t-lint">lint</span><span class="name">consistency</span><p>Duplicate cohorts, distinct waves, or genuinely separate.</p></div>
+        <div class="sk rv" data-p="lint"><span class="tag t-lint">lint</span><span class="name">staleness</span><p>Needs re-verification vs. static facts that aged.</p></div>
+        <div class="sk rv" data-p="lint"><span class="tag t-lint">lint</span><span class="name">connections</span><p>Latent links to apply. Papers worth ingesting.</p></div>
+
+        <div class="sk rv" data-p="catalog"><span class="tag t-catalog">catalog</span><span class="name">catalog</span><p>Institution listing draft from wiki entities.</p></div>
+        <div class="sk rv" data-p="catalog"><span class="tag t-catalog">catalog</span><span class="name">compliance</span><p>Consent, commercial-use, export, IRB scope.</p></div>
+        <div class="sk rv" data-p="catalog"><span class="tag t-catalog">catalog</span><span class="name">price</span><p>Cost-recovery pricing from verified analogues.</p></div>
+
+        <div class="sk rv" data-p="infra"><span class="tag t-infra">infra</span><span class="name">agent-endpoint</span><p>Query API for external agents. Dynamic per run.</p></div>
+        <div class="sk rv" data-p="infra"><span class="tag t-infra">infra</span><span class="name">jobs</span><p>Batch runs, compile wedges, lint sweeps.</p></div>
+        <div class="sk rv" data-p="infra"><span class="tag t-infra">infra</span><span class="name">contributing</span><p>How to add a skill without breaking the lockfile.</p></div>
+        <div class="sk rv" data-p="infra"><span class="tag t-infra">infra</span><span class="name">webapp</span><p>Next.js + Vercel AI SDK + Claude bootstrap.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Built with -->
+  <section id="stack" style="padding-bottom: 40px;">
+    <div class="w">
+      <h2><span class="hl-text">Open source.</span> Free.</h2>
+      <p class="sub2">
+        vCRO is MIT-licensed. You need a Claude subscription for the LLM calls &mdash; that's it.
+        The wiki, the graph, the skills all live on your machine.
+      </p>
+
+      <div class="stack-grid rv">
+        <a href="https://github.com/kamilseghrouchni/vcro-sourcing" class="stack-card repo-card">
+          <span class="stack-icon">&#9671;</span>
+          <div>
+            <strong>kamilseghrouchni/vcro-sourcing</strong>
+            <p>20 skills &middot; 4 agents &middot; 9 rules &middot; MIT</p>
+          </div>
+        </a>
+        <div class="stack-card">
+          <span class="stack-icon">&#9678;</span>
+          <div>
+            <strong>Claude Code</strong>
+            <p>Runtime. Your subscription powers the agents.</p>
+          </div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-icon">&#9041;</span>
+          <div>
+            <strong>vis-network</strong>
+            <p>Interactive graph visualization.</p>
+          </div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-icon">&#9881;</span>
+          <div>
+            <strong>Python stdlib</strong>
+            <p>Zero dependencies for core scripts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="w">
+      <p class="promise">
+        Every claim cited. Every score transparent.<br>
+        Every question makes the next answer better.
+      </p>
+      <div class="ctas">
+        <a class="btn-p" href="https://github.com/kamilseghrouchni/vcro-sourcing#getting-started">Get Started</a>
+        <a class="btn-o" href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
+      </div>
+      <small>&copy; 2026 vCRO &middot; MIT License</small>
+    </div>
+  </footer>
+
+  <script>
+    function switchTab(t){document.querySelectorAll('.install-tabs button').forEach(b=>b.classList.remove('active'));document.querySelectorAll('.install-code').forEach(c=>c.classList.remove('active'));event.target.classList.add('active');document.getElementById('tab-'+t).classList.add('active')}
+    function copyInstall(b){var c=b.parentElement.querySelector('span').textContent;navigator.clipboard.writeText(c).then(function(){b.textContent='\u2713';setTimeout(function(){b.textContent='\u2398'},1500)})}
+    function filterSkills(p,b){document.querySelectorAll('.skill-tabs button').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.sk').forEach(s=>{s.classList.toggle('hidden',p!=='all'&&s.dataset.p!==p)})}
+    ;(function(){var els=document.querySelectorAll('.rv');if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('vis'));return}var o=new IntersectionObserver(function(ee){ee.forEach(function(e){if(e.isIntersecting){var s=e.target.parentElement.querySelectorAll('.rv');var i=Array.prototype.indexOf.call(s,e.target);e.target.style.transitionDelay=i*60+'ms';e.target.classList.add('vis');o.unobserve(e.target)}})},{threshold:0.08});els.forEach(e=>o.observe(e))})()
+  </script>
+</body>
+</html>

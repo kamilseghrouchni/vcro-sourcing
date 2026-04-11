@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>vcro-onboard - vCRO Docs</title>
+  <meta name="description" content="Supply-side orchestrator. Onboards institutions into the wiki.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Lustria&family=Geist+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg:#F2EFE9;--bg-card:#E8E5DE;--bg-feed:#DFDBD4;--bg-sidebar:#E8E5DE;--text:#1A1814;--text-2:#6B6560;--text-3:#A09890;--brand:#00a5b4;--brand-hover:#00b4c3;--brand-dim:rgba(0,165,180,0.10);--bg-term:#1E1C18;--text-term:#E8E5DE;--display:'Lustria',Georgia,serif;--body:'IBM Plex Sans',system-ui,sans-serif;--mono:'Geist Mono','JetBrains Mono',ui-monospace,monospace;--sidebar-w:260px;--content-max:720px;--gap:20px;--pad:32px;--r:12px;
+    }
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:var(--body);font-size:16px;line-height:1.7;color:var(--text);background:var(--bg);-webkit-font-smoothing:antialiased}a{color:var(--brand);text-decoration:none}a:hover{color:var(--brand-hover)}
+    .topbar{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--bg-feed);height:56px;display:flex;align-items:center;padding:0 24px}.topbar-inner{display:flex;align-items:center;justify-content:space-between;width:100%}.logo{font-family:var(--mono);font-size:17px;font-weight:600;color:var(--text);text-decoration:none}.logo span{color:var(--text-3);font-weight:400;margin-left:6px;font-size:14px}.topbar-links{display:flex;gap:20px;align-items:center}.topbar-links a{color:var(--text-2);font-size:14px}.topbar-links a:hover{color:var(--text)}.topbar-links a.active{color:var(--brand)}.hamburger{display:none;background:none;border:none;font-size:22px;color:var(--text);cursor:pointer;padding:4px}
+    .layout{display:flex;margin-top:56px;min-height:calc(100vh - 56px)}
+    .sidebar{position:fixed;top:56px;left:0;bottom:0;width:var(--sidebar-w);background:var(--bg-sidebar);overflow-y:auto;padding:24px 0;border-right:1px solid var(--bg-feed)}.sidebar::-webkit-scrollbar{width:4px}.sidebar::-webkit-scrollbar-thumb{background:var(--bg-feed);border-radius:2px}
+    .nav-section{margin-bottom:24px}.nav-section-title{font-family:var(--mono);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.8px;color:var(--text-3);padding:0 24px;margin-bottom:6px}.nav-section a{display:block;padding:5px 24px;font-size:14px;color:var(--text-2);text-decoration:none;transition:color 120ms,background 120ms;border-left:2px solid transparent}.nav-section a:hover{color:var(--text);background:var(--bg-feed)}.nav-section a.active{color:var(--brand);border-left-color:var(--brand);background:var(--brand-dim);font-weight:600}
+    .content{margin-left:var(--sidebar-w);flex:1;padding:48px 48px 80px;max-width:calc(var(--content-max) + 96px)}
+    .content h1{font-family:var(--display);font-size:36px;font-weight:400;line-height:1.25;margin-bottom:12px}.content h2{font-family:var(--body);font-size:22px;font-weight:700;margin-top:48px;margin-bottom:12px;color:var(--text)}.content h3{font-family:var(--body);font-size:17px;font-weight:700;margin-top:32px;margin-bottom:8px}.content p{margin-bottom:16px;color:var(--text)}.content .lead{font-size:17px;color:var(--text-2);line-height:1.7;margin-bottom:32px}
+    .content ul,.content ol{margin-bottom:16px;padding-left:24px}.content li{margin-bottom:6px}.content li::marker{color:var(--text-3)}
+    .content code{font-family:var(--mono);font-size:14px;background:var(--bg-feed);padding:2px 6px;border-radius:4px}.content pre{background:var(--bg-term);color:var(--text-term);padding:20px 24px;border-radius:var(--r);font-family:var(--mono);font-size:13px;line-height:1.6;overflow-x:auto;margin-bottom:24px}.content pre code{background:none;padding:0;color:inherit}
+    .content blockquote{border-left:3px solid var(--brand);padding:12px 20px;background:var(--brand-dim);border-radius:0 var(--r) var(--r) 0;margin-bottom:16px;font-size:15px;color:var(--text-2)}.content blockquote p{margin-bottom:0;color:var(--text-2)}
+    .content hr{border:none;border-top:1px solid var(--bg-feed);margin:40px 0}
+    .card{background:var(--bg-card);border-radius:var(--r);padding:24px;margin-bottom:var(--gap)}.card h3{margin-top:0}.card p:last-child{margin-bottom:0}
+    .doc-footer{border-top:1px solid var(--bg-feed);margin-top:64px;padding-top:24px;display:flex;justify-content:space-between;font-size:14px;color:var(--text-3)}.doc-footer a{color:var(--text-2)}
+    @media(max-width:860px){.sidebar{position:fixed;left:-280px;width:280px;z-index:200;transition:left 200ms ease;top:56px;box-shadow:none}.sidebar.open{left:0;box-shadow:4px 0 20px rgba(0,0,0,0.08)}.content{margin-left:0;padding:32px 20px 60px}.hamburger{display:block}}
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
+        <a class="logo" href="../../">vCRO <span>docs</span></a>
+      </div>
+      <div class="topbar-links">
+        <a href="../" class="active">Docs</a>
+        <a href="../../">Home</a>
+        <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <nav class="sidebar" id="sidebar">
+      <div class="nav-section">
+        <div class="nav-section-title">Getting Started</div>
+        <a href="../getting-started/installation.html">Installation</a>
+        <a href="../getting-started/quickstart.html">Quick Start</a>
+        <a href="../getting-started/setup.html">Setup</a>
+        <a href="../getting-started/configuration.html">Configuration</a>
+      </div>
+      <div class="nav-section">
+        <div class="nav-section-title">The Wiki</div>
+        <a href="../wiki/how-it-works.html">How it works</a>
+        <a href="../wiki/entity-types.html">Entity types</a>
+        <a href="../wiki/evidence-standard.html">Evidence standard</a>
+        <a href="../wiki/scoring.html">Scoring</a>
+        <a href="../wiki/provenance.html">Provenance</a>
+      </div>
+      <div class="nav-section">
+        <div class="nav-section-title">Workflows</div>
+        <a href="../workflows/query.html">Query</a>
+        <a href="../workflows/bounty.html">Bounty</a>
+        <a href="../workflows/onboard.html">Onboard</a>
+        <a href="../workflows/lint.html">Lint</a>
+        <a href="../workflows/compile.html">Compile</a>
+      </div>
+      <div class="nav-section">
+        <div class="nav-section-title">Agents</div>
+        <a href="vcro-os.html">vcro-os</a>
+        <a href="vcro-bounty.html">vcro-bounty</a>
+        <a href="vcro-onboard.html" class="active">vcro-onboard</a>
+      </div>
+      <div class="nav-section">
+        <div class="nav-section-title">Skills &amp; Rules</div>
+        <a href="../skills/compile.html">Compile skills</a>
+        <a href="../skills/query.html">Query skills</a>
+        <a href="../skills/catalog.html">Catalog skills</a>
+        <a href="../skills/lint.html">Lint skills</a>
+        <a href="../skills/rules.html">Rules reference</a>
+      </div>
+      <div class="nav-section">
+        <div class="nav-section-title">Reference</div>
+        <a href="../reference/cli.html">CLI Commands</a>
+        <a href="../reference/slash-commands.html">Slash Commands</a>
+        <a href="../reference/entity-schema.html">Entity Schema</a>
+        <a href="../reference/wiki-conventions.html">Wiki Conventions</a>
+      </div>
+    </nav>
+
+    <main class="content" id="content">
+
+      <h1>vcro-onboard</h1>
+      <p class="lead">
+        Supply-side orchestrator. Onboards institutions into the wiki.
+      </p>
+
+      <h2>Role</h2>
+
+      <p>
+        vcro-onboard takes an institution (name, URL, or list of PMC IDs) and produces three deliverables for the institution to review. It runs on Opus.
+      </p>
+
+      <h2>Deliverables</h2>
+
+      <div class="card">
+        <h3>Catalog listing</h3>
+        <p>A draft at <code>store/catalog/{slug}/listing.md</code>. Describes what the institution has, drawn from existing wiki entities. Not a final listing -- a draft for institutional review.</p>
+      </div>
+
+      <div class="card">
+        <h3>Compliance assessment</h3>
+        <p>A draft at <code>store/catalog/{slug}/compliance.md</code>. Covers consent scope, commercial-use terms, IRB status, DUA requirements. Gaps flagged explicitly.</p>
+      </div>
+
+      <div class="card">
+        <h3>Pricing draft</h3>
+        <p>A draft at <code>store/catalog/{slug}/pricing.md</code>. References <code>references/pricing-data.md</code> for analogues. No invented prices.</p>
+      </div>
+
+      <h2>Workflow steps</h2>
+
+      <ol>
+        <li><strong>Resolve slug.</strong> Check <code>store/wiki/index/master.md</code> and <code>by-institution.md</code>. Use existing slug or propose one.</li>
+        <li><strong>Check coverage.</strong> Count wiki entities linked to this institution.
+          <ul>
+            <li>Well-covered (3+ cohorts or 5+ entities) -- proceed to drafts.</li>
+            <li>Sparse (1-2 entities) -- produce thin drafts, offer to compile more papers first.</li>
+            <li>Empty (0 entities) -- recommend a starter ingest before cataloging. Stop.</li>
+          </ul>
+        </li>
+        <li><strong>Spawn catalog skills.</strong> Three Sonnet subagents in sequence: catalog, compliance, price. Each writes one file.</li>
+        <li><strong>Surface gaps.</strong> Aggregate missing items into <code>store/catalog/{slug}/follow-up.md</code>.</li>
+        <li><strong>Report.</strong> Slug, coverage state, three file paths, gap count.</li>
+      </ol>
+
+      <h2>What it does not do</h2>
+
+      <ul>
+        <li>Contact the institution. The handoff is the operator's job.</li>
+        <li>Write to <code>store/wiki/</code>. Only catalog skills write to <code>store/catalog/</code>.</li>
+        <li>Auto-trigger compile without user confirmation.</li>
+      </ul>
+
+      <p>
+        Source: <code>.claude/agents/vcro-onboard.md</code>
+      </p>
+
+      <div class="doc-footer">
+        <span>&copy; 2026 vCRO</span>
+        <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open')}
+    document.getElementById('content').addEventListener('click',function(){document.getElementById('sidebar').classList.remove('open')})
+  </script>
+</body>
+</html>

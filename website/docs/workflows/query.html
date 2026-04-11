@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Query workflow - vCRO Docs</title>
+  <meta name="description" content="Find cohorts matching a scientific or sourcing question.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Lustria&family=Geist+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg:          #F2EFE9;
+      --bg-card:     #E8E5DE;
+      --bg-feed:     #DFDBD4;
+      --bg-sidebar:  #E8E5DE;
+      --text:        #1A1814;
+      --text-2:      #6B6560;
+      --text-3:      #A09890;
+      --brand:       #00a5b4;
+      --brand-hover: #00b4c3;
+      --brand-dim:   rgba(0,165,180,0.10);
+      --bg-term:     #1E1C18;
+      --text-term:   #E8E5DE;
+      --display:     'Lustria', Georgia, serif;
+      --body:        'IBM Plex Sans', system-ui, sans-serif;
+      --mono:        'Geist Mono', 'JetBrains Mono', ui-monospace, monospace;
+
+      --sidebar-w:   260px;
+      --content-max: 720px;
+      --gap:         20px;
+      --pad:         32px;
+      --r:           12px;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--body); font-size: 16px; line-height: 1.7; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { color: var(--brand-hover); }
+
+    /* ── Top bar ── */
+    .topbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: var(--bg); border-bottom: 1px solid var(--bg-feed);
+      height: 56px; display: flex; align-items: center; padding: 0 24px;
+    }
+    .topbar-inner {
+      display: flex; align-items: center; justify-content: space-between; width: 100%;
+    }
+    .logo { font-family: var(--mono); font-size: 17px; font-weight: 600; color: var(--text); text-decoration: none; }
+    .logo span { color: var(--text-3); font-weight: 400; margin-left: 6px; font-size: 14px; }
+    .topbar-links { display: flex; gap: 20px; align-items: center; }
+    .topbar-links a { color: var(--text-2); font-size: 14px; }
+    .topbar-links a:hover { color: var(--text); }
+    .topbar-links a.active { color: var(--brand); }
+    .hamburger { display: none; background: none; border: none; font-size: 22px; color: var(--text); cursor: pointer; padding: 4px; }
+
+    /* ── Layout ── */
+    .layout { display: flex; margin-top: 56px; min-height: calc(100vh - 56px); }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      position: fixed; top: 56px; left: 0; bottom: 0;
+      width: var(--sidebar-w); background: var(--bg-sidebar);
+      overflow-y: auto; padding: 24px 0;
+      border-right: 1px solid var(--bg-feed);
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-thumb { background: var(--bg-feed); border-radius: 2px; }
+
+    .nav-section { margin-bottom: 24px; }
+    .nav-section-title {
+      font-family: var(--mono); font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.8px;
+      color: var(--text-3); padding: 0 24px; margin-bottom: 6px;
+    }
+    .nav-section a {
+      display: block; padding: 5px 24px 5px 24px;
+      font-size: 14px; color: var(--text-2); text-decoration: none;
+      transition: color 120ms, background 120ms;
+      border-left: 2px solid transparent;
+    }
+    .nav-section a:hover { color: var(--text); background: var(--bg-feed); }
+    .nav-section a.active {
+      color: var(--brand); border-left-color: var(--brand);
+      background: var(--brand-dim); font-weight: 600;
+    }
+
+    /* ── Content ── */
+    .content {
+      margin-left: var(--sidebar-w); flex: 1;
+      padding: 48px 48px 80px; max-width: calc(var(--content-max) + 96px);
+    }
+
+    /* ── Prose ── */
+    .content h1 {
+      font-family: var(--display); font-size: 36px; font-weight: 400;
+      line-height: 1.25; margin-bottom: 12px;
+    }
+    .content h2 {
+      font-family: var(--body); font-size: 22px; font-weight: 700;
+      margin-top: 48px; margin-bottom: 12px; color: var(--text);
+    }
+    .content h3 {
+      font-family: var(--body); font-size: 17px; font-weight: 700;
+      margin-top: 32px; margin-bottom: 8px;
+    }
+    .content p { margin-bottom: 16px; color: var(--text); }
+    .content .lead { font-size: 17px; color: var(--text-2); line-height: 1.7; margin-bottom: 32px; }
+
+    .content ul, .content ol { margin-bottom: 16px; padding-left: 24px; }
+    .content li { margin-bottom: 6px; }
+    .content li::marker { color: var(--text-3); }
+
+    .content code {
+      font-family: var(--mono); font-size: 14px;
+      background: var(--bg-feed); padding: 2px 6px; border-radius: 4px;
+    }
+    .content pre {
+      background: var(--bg-term); color: var(--text-term);
+      padding: 20px 24px; border-radius: var(--r);
+      font-family: var(--mono); font-size: 13px; line-height: 1.6;
+      overflow-x: auto; margin-bottom: 24px;
+    }
+    .content pre code { background: none; padding: 0; color: inherit; }
+
+    .content blockquote {
+      border-left: 3px solid var(--brand); padding: 12px 20px;
+      background: var(--brand-dim); border-radius: 0 var(--r) var(--r) 0;
+      margin-bottom: 16px; font-size: 15px; color: var(--text-2);
+    }
+    .content blockquote p { margin-bottom: 0; color: var(--text-2); }
+
+    .content hr { border: none; border-top: 1px solid var(--bg-feed); margin: 40px 0; }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--bg-card); border-radius: var(--r); padding: 24px;
+      margin-bottom: var(--gap);
+    }
+    .card h3 { margin-top: 0; }
+    .card p:last-child { margin-bottom: 0; }
+
+    .card-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: var(--gap); margin-bottom: 24px;
+    }
+
+    /* ── Diagram / cycle ── */
+    .cycle {
+      display: flex; align-items: center; justify-content: center;
+      gap: 0; margin: 32px 0; flex-wrap: wrap;
+    }
+    .cycle-node {
+      background: var(--bg-card); border-radius: var(--r); padding: 16px 24px;
+      text-align: center; min-width: 120px;
+    }
+    .cycle-node strong { display: block; font-size: 15px; margin-bottom: 2px; }
+    .cycle-node span { font-size: 13px; color: var(--text-2); }
+    .cycle-arrow { font-size: 20px; color: var(--text-3); padding: 0 8px; }
+
+    /* ── Entity preview ── */
+    .entity-preview {
+      background: var(--bg-term); border-radius: var(--r);
+      padding: 24px; font-family: var(--mono); font-size: 13px;
+      line-height: 1.6; color: var(--text-term); overflow-x: auto;
+      margin-bottom: 24px;
+    }
+    .entity-preview .ey { color: #b48c32; }
+    .entity-preview .ev { color: #E8E5DE; }
+    .entity-preview .ek { color: #00a5b4; }
+    .entity-preview .ec { color: #6B6560; }
+
+    /* ── Axis cards ── */
+    .axis-card {
+      background: var(--bg-card); border-radius: var(--r); padding: 24px;
+      margin-bottom: var(--gap); border-left: 3px solid var(--brand);
+    }
+    .axis-card h3 { margin-top: 0; color: var(--brand); }
+
+    /* ── Footer ── */
+    .doc-footer {
+      border-top: 1px solid var(--bg-feed); margin-top: 64px;
+      padding-top: 24px; display: flex; justify-content: space-between;
+      font-size: 14px; color: var(--text-3);
+    }
+    .doc-footer a { color: var(--text-2); }
+
+    /* ── Responsive ── */
+    @media (max-width: 860px) {
+      .sidebar {
+        position: fixed; left: -280px; width: 280px; z-index: 200;
+        transition: left 200ms ease; top: 56px;
+        box-shadow: none;
+      }
+      .sidebar.open { left: 0; box-shadow: 4px 0 20px rgba(0,0,0,0.08); }
+      .content { margin-left: 0; padding: 32px 20px 60px; }
+      .card-grid { grid-template-columns: 1fr; }
+      .hamburger { display: block; }
+      .cycle { flex-direction: column; }
+      .cycle-arrow { transform: rotate(90deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
+        <a class="logo" href="../../">vCRO <span>docs</span></a>
+      </div>
+      <div class="topbar-links">
+        <a href="../" class="active">Docs</a>
+        <a href="../../">Home</a>
+        <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+
+      <div class="nav-section">
+        <div class="nav-section-title">Getting Started</div>
+        <a href="../getting-started/installation.html">Installation</a>
+        <a href="../getting-started/quickstart.html">Quick Start</a>
+        <a href="../getting-started/setup.html">Setup</a>
+        <a href="../getting-started/configuration.html">Configuration</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">The Wiki</div>
+        <a href="../wiki/how-it-works.html">How it works</a>
+        <a href="../wiki/entity-types.html">Entity types</a>
+        <a href="../wiki/evidence-standard.html">Evidence standard</a>
+        <a href="../wiki/scoring.html">Scoring</a>
+        <a href="../wiki/provenance.html">Provenance</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">Workflows</div>
+        <a href="query.html" class="active">Query</a>
+        <a href="bounty.html">Bounty</a>
+        <a href="onboard.html">Onboard</a>
+        <a href="lint.html">Lint</a>
+        <a href="compile.html">Compile</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">Agents</div>
+        <a href="../agents/vcro-os.html">vcro-os</a>
+        <a href="../agents/vcro-bounty.html">vcro-bounty</a>
+        <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">Skills &amp; Rules</div>
+        <a href="../skills/compile.html">Compile skills</a>
+        <a href="../skills/query.html">Query skills</a>
+        <a href="../skills/catalog.html">Catalog skills</a>
+        <a href="../skills/lint.html">Lint skills</a>
+        <a href="../skills/rules.html">Rules reference</a>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">Reference</div>
+        <a href="../reference/cli.html">CLI Commands</a>
+        <a href="../reference/slash-commands.html">Slash Commands</a>
+        <a href="../reference/entity-schema.html">Entity Schema</a>
+        <a href="../reference/wiki-conventions.html">Wiki Conventions</a>
+      </div>
+
+    </nav>
+
+    <!-- Content -->
+    <main class="content" id="content">
+
+      <h1>Query</h1>
+      <p class="lead">
+        Find cohorts matching a scientific or sourcing question.
+      </p>
+
+      <h2>Usage</h2>
+
+      <h3>CLI</h3>
+      <pre><code>vcro query "AD plasma metabolomics, longitudinal, n>=200"</code></pre>
+
+      <h3>Slash command</h3>
+      <pre><code>/query AD plasma metabolomics, longitudinal, n>=200</code></pre>
+
+      <h2>How it works</h2>
+
+      <p>
+        Four phases, in sequence. Each phase reads the output of the previous one.
+      </p>
+
+      <div class="cycle">
+        <div class="cycle-node">
+          <strong>Understand</strong>
+          <span>Parse request</span>
+        </div>
+        <div class="cycle-arrow">&#8594;</div>
+        <div class="cycle-node">
+          <strong>Discover</strong>
+          <span>Scan wiki</span>
+        </div>
+        <div class="cycle-arrow">&#8594;</div>
+        <div class="cycle-node">
+          <strong>Score</strong>
+          <span>Three axes</span>
+        </div>
+        <div class="cycle-arrow">&#8594;</div>
+        <div class="cycle-node">
+          <strong>Deliver</strong>
+          <span>Write report</span>
+        </div>
+      </div>
+
+      <p>
+        <strong>Understand</strong> parses the natural-language request into a structured <code>request.json</code>: indication, modality, sample type, minimum N, budget, hard negatives, and intent (access vs. commission).
+      </p>
+      <p>
+        <strong>Discover</strong> scans <code>store/wiki/index/</code> for matching cohort entities. It checks indication, modality, and sample type against the index files. If the wiki has matches, it returns them. If the wiki is thin, it triggers ingest automatically.
+      </p>
+      <p>
+        <strong>Score</strong> evaluates each candidate on three independent axes: Scale, Cost, Quality. No composite score. The buyer chooses their own weighting.
+      </p>
+      <p>
+        <strong>Deliver</strong> assembles the recommendation from scored candidates. Writes <code>recommendation.md</code> and <code>listings.jsonl</code> for the web app.
+      </p>
+
+      <h3>Wiki-first</h3>
+      <p>
+        The query workflow reads the wiki before searching papers. Three branches:
+      </p>
+      <ul>
+        <li><strong>Wiki has matches</strong> -- run discover, score, deliver. Done.</li>
+        <li><strong>Wiki is partial</strong> -- run discover, then search PubMed/EuropePMC, ingest the shortlist, compile into the wiki, re-run discover/score/deliver.</li>
+        <li><strong>Wiki is empty</strong> -- same path as partial, but search queries start broader.</li>
+      </ul>
+      <p>
+        The user does not choose the branch. The orchestrator picks the right one and logs the decision.
+      </p>
+
+      <h3>Intent gate</h3>
+      <p>
+        If <code>understand</code> classifies the intent as <code>commission</code> (the buyer wants specimens, not existing data), the workflow switches to <a href="bounty.html">Bounty</a> automatically. The verb does not matter -- "find me 50 AD CSF samples" is a commission request regardless of the word "find."
+      </p>
+
+      <h2>What gets written to disk</h2>
+
+      <pre><code>store/queries/2026-04-08_ad-plasma-metab/
+  request.json              # Structured brief from understand
+  search_history.jsonl      # Every external search query + hit count
+  candidates.json           # Entities that passed discover
+  scored_candidates.json    # Three-axis scores per candidate
+  recommendation.md         # The deliverable
+  listings.jsonl            # Card projections for the web app
+  ingest_shortlist.md       # PMC/NCT list if ingest was triggered</code></pre>
+
+      <p>
+        Every query is reproducible from its artifacts. The search history captures the exact queries run, so you can audit why a candidate was or was not found.
+      </p>
+
+      <h2>Example</h2>
+
+      <pre><code>$ vcro query "NSCLC FFPE RNA-seq cohorts, no neoadjuvant, n>=300, commercial use"
+
+Query workflow. Wiki had 3 matches, 1 with commercial-use unknown.
+Recommendation at store/queries/2026-04-08_nsclc-ffpe-rnaseq/recommendation.md.
+All 3 candidates scored. TCGA-LUAD leads on Scale (n=522) but
+block age >5yr is a pre-analytical risk. Commercial-use clause
+on the Broad cohort is unverified -- flagged in Quality axis.</code></pre>
+
+      <div class="doc-footer">
+        <span></span>
+        <a href="bounty.html">Next: Bounty &#8594;</a>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open')}
+    document.getElementById('content').addEventListener('click',function(){document.getElementById('sidebar').classList.remove('open')})
+  </script>
+</body>
+</html>
