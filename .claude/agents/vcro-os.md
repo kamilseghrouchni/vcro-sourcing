@@ -223,13 +223,19 @@ Then show the report structure so the user knows where to find what:
 
 The preview names the best candidates and the biggest blocker — enough to decide whether to read the full report. Do NOT paste the full recommendation into chat. Do NOT skip writing the files.
 
-#### Gate 6: Background compile (fire-and-forget)
+#### Gate 6: Background compile (auto, per autonomy rule)
 
-After Gate 5 delivers the recommendation, check if `ingest_shortlist.md` has entries under "Ready for compile." If yes, run compile in the background — the buyer already has their recommendation. Compile enriches the wiki so the NEXT query for this domain finds wiki entities directly.
+After Gate 5 delivers the recommendation, compile runs automatically. The user's request is consent — per `.claude/rules/autonomy.md`, ingest triggers when the wiki is thin. No permission needed.
 
-**This gate is optional.** If the user's session ends after Gate 5, compile doesn't run. The ingest_shortlist.md is persisted — a future session can pick it up. Compile never blocks the buyer from seeing results.
+**What to compile:** Only papers/trials tagged `keep` in `ingest_shortlist.md` (3-5 max per query, not the full PubMed hit list). Write the shortlist at the end of Gate 3 from the triage survivors.
 
-To run: follow the compile workflow (§ 4 below) with `ingest_shortlist.md` as input. Use `run_in_background: true` on the Agent calls if available.
+**How:** Spawn compile in the background (`run_in_background: true`). Follow the compile workflow (§ 4 below) with `ingest_shortlist.md` as input. If the session is near context limit, skip — the shortlist is persisted on disk and a future session picks it up.
+
+**User-facing output:** One line at the end of the Gate 5 chat message: "Background: compiling N papers into the wiki for future queries." No question, no gate, no decision.
+
+**What this produces:** Wiki entities with full provenance_depth, dimension sections, and QA coverage. The next query for this domain hits wiki_sufficient from discover and skips the web search — faster, richer, verified.
+
+**Recovery:** If compile fails or the session ends, `ingest_shortlist.md` persists. Any future `/source` or `/compile` invocation can pick it up. No data loss.
 
 #### Persistence (applies to every gate)
 
