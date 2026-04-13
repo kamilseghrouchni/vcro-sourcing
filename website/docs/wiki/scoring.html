@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Three axes, no black box - vCRO Docs</title>
+  <title>Three axes, no black box - viCRO Docs</title>
   <meta name="description" content="Scale, Cost, Quality -- three independent scoring axes with no composite rank.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -180,7 +180,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -225,6 +225,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
 
       <div class="nav-section">
@@ -259,7 +260,7 @@
         Brokers return a single ranked list. The ranking embeds the broker's weighting -- usually price. The buyer cannot inspect it. Cannot override it. Cannot see why candidate #3 ranked below candidate #2.
       </p>
       <p>
-        vCRO returns three transparent axes. The buyer can filter on scale alone (need n&ge;500 regardless of cost). Filter on cost alone (under $50K regardless of scale). Filter on quality alone (provenance depth &gt;0.6 regardless of size or price). Or weight any combination.
+        viCRO returns three transparent axes. The buyer can filter on scale alone (need n&ge;500 regardless of cost). Filter on cost alone (under $50K regardless of scale). Filter on quality alone (provenance depth &gt;0.6 regardless of size or price). Or weight any combination.
       </p>
 
       <h2>The axes</h2>
@@ -280,15 +281,10 @@
       <div class="axis-card">
         <h3>Cost</h3>
         <p>
-          Three legs, always:
+          Cost decomposes into the links of the procurement chain. Each link that carries a cost gets its own entry. Link types: <code>specimen_source</code>, <code>specimen_fitness</code>, <code>provider</code>, <code>logistics</code>, <code>assay_execution</code>, <code>prior_art</code>, <code>data_delivery</code>. Only include links relevant to the query.
         </p>
-        <ul>
-          <li><strong>Source</strong> -- cost to acquire the raw data or biospecimens.</li>
-          <li><strong>Screening / QA</strong> -- cost to verify the samples are fit for the buyer's assay (re-QC, depletion check).</li>
-          <li><strong>Assay</strong> -- cost to run the analytical workflow if not already performed.</li>
-        </ul>
         <p>
-          Each leg has an estimate, currency, evidence source, and note. If one leg is "quote required," the total stays open. No invented composites. The buyer sees the two knowns and the gap.
+          Each link has an estimate, currency, evidence tier (<code>PUBLISHED</code>, <code>DERIVED</code>, or <code>open_question</code>), and a note. If any link is <code>open_question</code>, the total stays open. No invented composites. The buyer sees the known links and the gaps.
         </p>
       </div>
 
@@ -316,7 +312,7 @@
 
       <ul>
         <li><strong>Scale</strong>: high if <code>usable_n_for_request</code> is quoted directly from the source. Medium if inferred from the cohort body. Low if estimated from analogues.</li>
-        <li><strong>Cost</strong>: high if all 3 legs have figures. Medium if 2 of 3. Low if 1 or fewer.</li>
+        <li><strong>Cost</strong>: high if all chain links with costs have PUBLISHED or DERIVED figures. Medium if most do. Low if majority are open_question.</li>
         <li><strong>Quality</strong>: high if provenance depth &ge; 0.6 and pre-analytical facts are documented. Medium if depth &ge; 0.4. Low otherwise.</li>
       </ul>
 

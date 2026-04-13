@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>vCRO — The open source cohort sourcing agent</title>
+  <title>viCRO — The open source virtual CRO</title>
   <meta name="description" content="Open-source CLI that builds a provenance graph of who has what biological samples, where. Every claim cited. Runs on Claude Code.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -178,7 +178,7 @@
 <body>
 
   <nav>
-    <a class="logo" href="/">vCRO</a>
+    <a class="logo" href="/">viCRO</a>
     <div class="nav-r">
       <a href="wiki.html">About</a>
       <a href="docs/">Docs</a>
@@ -231,20 +231,20 @@
 
       <div class="pain-grid rv">
         <div class="pain">
-          <div class="pain-num">5x</div>
-          <div class="pain-label">price variance for the same sample type. No benchmarks.</div>
+          <div class="pain-num">20-60x</div>
+          <div class="pain-label">markup from hospital vial to buyer. No published rate cards.</div>
         </div>
         <div class="pain">
           <div class="pain-num">80%</div>
-          <div class="pain-label">of biotech SMEs find hospital sample access "unexpectedly difficult."</div>
+          <div class="pain-label">of researchers limited their work because they couldn't get specimens.</div>
         </div>
         <div class="pain">
           <div class="pain-num">91%</div>
-          <div class="pain-label">White in the largest AD cohort. Diverse samples exist &mdash; they're just harder to find.</div>
+          <div class="pain-label">of biobanks have no public access policy. Can't find what won't publish.</div>
         </div>
         <div class="pain">
-          <div class="pain-num">?</div>
-          <div class="pain-label">provenance hidden by brokers. One patient's tissue, five vendors' inventory.</div>
+          <div class="pain-num">&lt;10%</div>
+          <div class="pain-label">utilization at over half of biobanks. Samples exist &mdash; they're just stuck.</div>
         </div>
       </div>
     </div>
@@ -269,7 +269,7 @@
 
   <span class="td">Wiki                           │ Workflows</span>
   <span class="td">────────────────────           │</span> <span class="tb">query &lt;q&gt;</span>         <span class="td">find cohorts, cited answers</span>
-  <span class="td">entities</span>         <span class="tc">328</span>           <span class="td">│</span> <span class="tb">compile &lt;PMC&gt;</span>     <span class="td">read papers, grow the wiki</span>
+  <span class="td">entities</span>         <span class="tc">338</span>           <span class="td">│</span> <span class="tb">compile &lt;PMC&gt;</span>     <span class="td">read papers, grow the wiki</span>
                                  <span class="td">│</span> <span class="tb">bounty &lt;goal&gt;</span>     <span class="td">source samples under budget</span>
   <span class="td">Session</span>                        <span class="td">│</span> <span class="tb">onboard &lt;inst&gt;</span>    <span class="td">list your catalog</span>
   <span class="td">model</span>            <span class="td">opus-4-6</span>     <span class="td">│</span> <span class="tb">lint</span>              <span class="td">check whats stale or missing</span>
@@ -349,7 +349,7 @@
       </p>
 
       <div class="graph-wrap rv">
-        <iframe src="query-graph.html" class="graph-frame" loading="lazy" title="vCRO query subgraph"></iframe>
+        <iframe src="query-graph.html" class="graph-frame" loading="lazy" title="viCRO query subgraph"></iframe>
       </div>
 
       <div class="graph-stats rv">
@@ -381,7 +381,7 @@
           <dd>Your wiki is only as good as what it has read. Compile turns papers into structured entities &mdash; cohorts, institutions, investigators, platforms &mdash; all cross-linked.</dd>
 
           <dt>vcro bounty "50 AD plasma samples, commercial use, under 80k EUR"</dt>
-          <dd>Need physical samples? Bounty finds sources, composes a three-leg bundle (specimens + QC + assay), and flags every cost component that still needs a quote.</dd>
+          <dd>Need physical samples? Bounty maps a procurement chain (specimen source → provider → assay → delivery), prices each link from verified sources, and flags every component that still needs a quote.</dd>
 
           <dt>vcro lint</dt>
           <dd>The wiki audits itself. What facts went stale? Which entities are duplicates? Where are links missing? Findings feed back into compile &mdash; the graph heals.</dd>
@@ -398,7 +398,7 @@
     <div class="w">
       <h2>Skills, not features</h2>
       <p class="sub2">
-        20 documented instruction sets under <code style="font-family:var(--mono);color:var(--brand)">.claude/skills/</code>.
+        21 documented instruction sets under <code style="font-family:var(--mono);color:var(--brand)">.claude/skills/</code>.
         Each one is a markdown file. Read it, fork it, swap it out.
       </p>
 
@@ -427,7 +427,7 @@
         <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">discover</span><p>Wiki-first candidate search. Reports gaps.</p></div>
         <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">score</span><p>Scale, Cost, Quality. Per-axis confidence. No composite.</p></div>
         <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">deliver</span><p>Scored candidates &rarr; recommendation.md + listings.jsonl.</p></div>
-        <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">bounty/format</span><p>Bundle composition: source + screening + assay.</p></div>
+        <div class="sk rv" data-p="query"><span class="tag t-query">query</span><span class="name">bounty/format</span><p>Procurement chain &rarr; wiki bundle entity. Per-link evidence.</p></div>
 
         <div class="sk rv" data-p="lint"><span class="tag t-lint">lint</span><span class="name">gaps</span><p>Real gaps vs. structural. Worth recompiling or not.</p></div>
         <div class="sk rv" data-p="lint"><span class="tag t-lint">lint</span><span class="name">consistency</span><p>Duplicate cohorts, distinct waves, or genuinely separate.</p></div>
@@ -451,7 +451,7 @@
     <div class="w">
       <h2><span class="hl-text">Open source.</span> Free.</h2>
       <p class="sub2">
-        vCRO is MIT-licensed. You need a Claude subscription for the LLM calls &mdash; that's it.
+        viCRO is MIT-licensed. You need a Claude subscription for the LLM calls &mdash; that's it.
         The wiki, the graph, the skills all live on your machine.
       </p>
 
@@ -460,7 +460,7 @@
           <span class="stack-icon">&#9671;</span>
           <div>
             <strong>kamilseghrouchni/vcro-sourcing</strong>
-            <p>20 skills &middot; 4 agents &middot; 9 rules &middot; MIT</p>
+            <p>21 skills &middot; 4 agents &middot; 9 rules &middot; MIT</p>
           </div>
         </a>
         <div class="stack-card">
@@ -499,7 +499,7 @@
         <a class="btn-p" href="https://github.com/kamilseghrouchni/vcro-sourcing#getting-started">Get Started</a>
         <a class="btn-o" href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
       </div>
-      <small>&copy; 2026 vCRO &middot; MIT License</small>
+      <small>&copy; 2026 viCRO &middot; MIT License</small>
     </div>
   </footer>
 

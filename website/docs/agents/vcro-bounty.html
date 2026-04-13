@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>vcro-bounty - vCRO Docs</title>
-  <meta name="description" content="Procurement orchestrator. Budget plus outcome produces bundle options.">
+  <title>vcro-bounty - viCRO Docs</title>
+  <meta name="description" content="Procurement orchestrator. Maps procurement chains with per-link evidence states.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -77,6 +77,7 @@
         <a href="vcro-os.html">vcro-os</a>
         <a href="vcro-bounty.html" class="active">vcro-bounty</a>
         <a href="vcro-onboard.html">vcro-onboard</a>
+        <a href="vcro-compile.html">vcro-compile</a>
       </div>
       <div class="nav-section">
         <div class="nav-section-title">Skills &amp; Rules</div>
@@ -99,13 +100,13 @@
 
       <h1>vcro-bounty</h1>
       <p class="lead">
-        Procurement orchestrator. Budget plus outcome produces bundle options.
+        Procurement orchestrator. Maps procurement chains with per-link evidence states.
       </p>
 
       <h2>Role</h2>
 
       <p>
-        vcro-bounty takes a request with a budget and an outcome target. It identifies candidate sources from the wiki, composes 1-3 bundle options, and hands each to the format skill for writing as a wiki entity.
+        vcro-bounty takes a desired outcome and identifies candidate sources from the wiki via discover + score. It maps a procurement chain for each candidate and hands each chain to the format skill for writing as a wiki bundle entity. Budget and target N are optional — the cost picture is an output, not an input.
       </p>
 
       <p>
@@ -115,23 +116,12 @@
       <h2>What is a bundle</h2>
 
       <p>
-        A bundle is a three-leg procurement package. Every bundle has exactly three legs, even when one is trivial.
+        A bundle is a procurement chain: an ordered list of 2-7 typed links from specimen source to data delivery. Each link carries an evidence tier (<code>PUBLISHED</code>, <code>DERIVED</code>, or <code>open_question</code>). Only include links that apply — no forced empty slots.
       </p>
 
-      <div class="card">
-        <h3>Source</h3>
-        <p>Where the samples or data come from. References a cohort or institution entity in the wiki. Cost: data access fee or specimen acquisition fee.</p>
-      </div>
-
-      <div class="card">
-        <h3>Screening / QA</h3>
-        <p>Verification that the samples are fit for the buyer's assay. Re-QC, depletion check, tumor purity assessment. Can be "no re-QA needed" if published QA is sufficient.</p>
-      </div>
-
-      <div class="card">
-        <h3>Assay</h3>
-        <p>The analytical work. Can be "already performed" if the buyer wants existing data. Otherwise, a provider quote for the intended assay.</p>
-      </div>
+      <p>
+        Link types: <code>specimen_source</code>, <code>specimen_fitness</code>, <code>provider</code>, <code>logistics</code>, <code>assay_execution</code>, <code>prior_art</code>, <code>data_delivery</code>.
+      </p>
 
       <h2>Composition strategies</h2>
 
@@ -144,21 +134,21 @@
       <h2>Workflow steps</h2>
 
       <ol>
-        <li>Confirm that <code>request.json</code> has a budget and target N.</li>
-        <li>Spawn <code>query/discover</code> and <code>query/score</code> to identify candidates.</li>
-        <li>Pick a composition strategy per candidate set.</li>
-        <li>Build 1-3 bundle structures with per-leg cost, timeline, and unknowns.</li>
-        <li>Spawn <code>query/bounty/format</code> for each bundle to write a wiki entity.</li>
-        <li>Report: bundle IDs, paths, total known ranges, within-budget flags, one recommendation.</li>
+        <li>Parse the request. Budget and target N are optional — if missing, proceed with <code>within_budget: unknown</code>.</li>
+        <li>Spawn <code>query/discover</code> and <code>query/score</code> to identify and score candidates.</li>
+        <li>For each top candidate, map a procurement chain: which links apply, what evidence exists for each.</li>
+        <li>Price each chain link from verified sources (rate cards, biobank fees, <code>references/pricing-data.md</code>).</li>
+        <li>Spawn <code>query/bounty/format</code> for each chain to write a wiki bundle entity.</li>
+        <li>Report: bundle IDs, paths, total known ranges, within-budget flags, per-link evidence summary.</li>
       </ol>
 
       <h2>Decision rules</h2>
 
       <ul>
-        <li>Every leg references an existing wiki entity. No invented slugs.</li>
+        <li>Every link with an <code>entity:</code> must reference an existing wiki entity. No invented slugs.</li>
+        <li>At least one link must have <code>evidence != open_question</code>. A fully-open chain is a wish list, not a bundle.</li>
         <li>Over-budget bundles are still emitted with <code>within_budget: false</code>.</li>
-        <li>No fake cost totals. If a leg is "quote required", the composite stays open.</li>
-        <li>Maximum 3 bundles per request.</li>
+        <li>No fake cost totals. If a link is <code>open_question</code>, the composite stays open.</li>
       </ul>
 
       <p>
@@ -166,7 +156,7 @@
       </p>
 
       <div class="doc-footer">
-        <span>&copy; 2026 vCRO</span>
+        <span>&copy; 2026 viCRO</span>
         <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
       </div>
 
