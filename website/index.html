@@ -261,46 +261,37 @@
           <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
           <span>vcro</span>
         </div>
-        <div class="term-body"><span class="td">         ╦  ╦╔═╗╦═╗╔═╗
-┌────────╚╗╔╝║  ╠╦╝║ ║────────┐
-│ cohort  ╚╝ ╚═╝╩╚═╚═╝        │
-│ intelligence agent    v0.1.0  │
-└──────────────────────────────┘</span>
+        <div class="term-body"><span class="td">∴ <span class="tb">viCRO 2.3</span>  ·  338 wiki entities
+· type naturally or use /source, /compile, /bounty, /onboard, /lint</span>
 
-  <span class="td">Wiki                           │ Workflows</span>
-  <span class="td">────────────────────           │</span> <span class="tb">query &lt;q&gt;</span>         <span class="td">find cohorts, cited answers</span>
-  <span class="td">entities</span>         <span class="tc">338</span>           <span class="td">│</span> <span class="tb">compile &lt;PMC&gt;</span>     <span class="td">read papers, grow the wiki</span>
-                                 <span class="td">│</span> <span class="tb">bounty &lt;goal&gt;</span>     <span class="td">source samples under budget</span>
-  <span class="td">Session</span>                        <span class="td">│</span> <span class="tb">onboard &lt;inst&gt;</span>    <span class="td">list your catalog</span>
-  <span class="td">model</span>            <span class="td">opus-4-6</span>     <span class="td">│</span> <span class="tb">lint</span>              <span class="td">check whats stale or missing</span>
-
-  <span class="td">──────────────────────────────────────────────────────────</span>
-
-  <span class="tb">&#10095;</span> <span class="tc">I need AD plasma metabolomics cohorts, longitudinal,
-    n&gt;200. Minimise statin effects. Commercial-use rights.</span>
+  <span class="tb">&#10095;</span> <span class="tc">I need stool samples from IBD patients to run shotgun
+    metagenomics, treatment-naive, at least 100 subjects.</span>
 
   <span class="td">&#10209; searching wiki index</span>
-  <span class="td">&#10209; reading cohorts/adni-go2-plasma-lipidomics.md</span>
-  <span class="td">&#10209; reading cohorts/adni-go2-serum-metabolomics-mxp500.md</span>
-  <span class="td">&#10209; scoring 4 candidates on Scale · Cost · Quality</span>
+  <span class="td">&#10209; searching PubMed: IBD stool shotgun metagenomics</span>
+  <span class="td">&#10209; searching ClinicalTrials.gov: IBD stool microbiome</span>
+  <span class="td">&#10209; scoring 5 candidates on Scale · Cost · Quality</span>
 
-  <span class="tc">1. ADNI Plasma Lipidomics (Baker Institute LC-MS/MS)</span>
-  Scale:   <span class="tb">580</span> usable AD-vs-CN subjects, 4730 samples
-  Cost:    free data access via LONI, DUA 2–4 months
-  Quality: <span class="tb">~95% fasting</span>, statin effects formally quantified
+  <span class="tc">Can you get it?</span> Yes, partially — SPARC-IBD and IBD
+  BioResource both hold stool at scale, but treatment-naive
+  N is unconfirmed for every candidate. <span class="td">[inferred]</span>
 
-  <span class="tq">"423 lipid species significantly associated with statin
-   use identified — statin-sensitive species can be excluded
-   or adjusted."</span>
-  <span class="td">— PMC12269576, Supplementary Table S6</span>
+  <span class="tc">Best path:</span> SPARC-IBD (CCF) → Weill Cornell Microbiome
+  Core — ~7,000 subjects, $250/sample, ~$25K for n=100.
+  Treatment-naive subset inquiry is the next step.
 
-  <span class="tc">2. ADNI Serum MXP500 (Biocrates, n=1,430)</span>
-  Scale:   <span class="tb">647</span> usable, 506 metabolites, 26 biochemical classes
-  Cost:    free via AD Knowledge Portal + LONI (dual DUA)
-  Quality: provenance depth <span class="tb">0.62</span> — highest in AD metabolomics wiki
-  Note:    <span class="tb">serum not plasma</span> — buyer must confirm matrix is acceptable
+  <span class="tc">What blocks it:</span> No candidate has confirmed its
+  treatment-naive specimen count. <span class="td">[open_question]</span>
 
-  <span class="td">claude-opus-4-6  │  $0.28  │  turn 1  │  52s</span>
+  ┌─────────────────────────────────────────────────────┐
+  │ Path          │ N       │ Assay (n=100) │ Timeline  │
+  ├─────────────────────────────────────────────────────┤
+  │ SPARC → Cornell  <span class="tb">~7,000</span>    <span class="tb">$25,000</span>      10–18 wk │
+  │ SPARC → MDA      ~7,000    $32,500      10–18 wk │
+  │ BioResource      25,000    ~$25K+ship   14–22 wk │
+  └─────────────────────────────────────────────────────┘
+
+  <span class="td">47s  ·  a3f8b2c1</span>
 
   <span class="tb">&#10095;</span> <span class="td">█</span></div>
       </div>
@@ -374,7 +365,7 @@
 
       <div class="panel commands rv">
         <dl>
-          <dt>vcro query "AD plasma metabolomics cohorts, longitudinal, n&gt;200"</dt>
+          <dt>vcro source "AD plasma metabolomics cohorts, longitudinal, n&gt;200"</dt>
           <dd>Search the wiki. Score matches. If the wiki is thin, ingest new papers automatically. Get a cited recommendation.</dd>
 
           <dt>vcro compile PMC10103184 PMC6922070</dt>
