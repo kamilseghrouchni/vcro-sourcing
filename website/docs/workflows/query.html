@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Query workflow - viCRO Docs</title>
-  <meta name="description" content="Find cohorts matching a scientific or sourcing question.">
+  <title>Source workflow - viCRO Docs</title>
+  <meta name="description" content="Find cohorts, institutions, or sourcing paths matching a scientific question.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -246,7 +246,7 @@
 
       <div class="nav-section">
         <div class="nav-section-title">Workflows</div>
-        <a href="query.html" class="active">Query</a>
+        <a href="query.html" class="active">Source</a>
         <a href="bounty.html">Bounty</a>
         <a href="onboard.html">Onboard</a>
         <a href="lint.html">Lint</a>
@@ -283,15 +283,15 @@
     <!-- Content -->
     <main class="content" id="content">
 
-      <h1>Query</h1>
+      <h1>Source</h1>
       <p class="lead">
-        Find cohorts matching a scientific or sourcing question.
+        Find cohorts, institutions, or sourcing paths matching a scientific question.
       </p>
 
       <h2>Usage</h2>
 
       <h3>CLI</h3>
-      <pre><code>vcro query "AD plasma metabolomics, longitudinal, n>=200"</code></pre>
+      <pre><code>vcro source "AD plasma metabolomics, longitudinal, n>=200"</code></pre>
 
       <h3>Slash command</h3>
       <pre><code>/source AD plasma metabolomics, longitudinal, n&gt;=200</code></pre>
@@ -347,7 +347,7 @@
 
       <h3>Wiki-first, search-augmented</h3>
       <p>
-        The query workflow reads the wiki first, then augments with external search. Search results are immediately usable as <code>search_lead</code> candidates — they get scored alongside wiki candidates without waiting for compilation.
+        The source workflow reads the wiki first, then augments with external search. Search results are immediately usable as <code>search_lead</code> candidates — they get scored alongside wiki candidates without waiting for compilation.
       </p>
       <ul>
         <li><strong>Wiki has matches</strong> — score and deliver directly. Search runs in parallel to find additional candidates.</li>
@@ -379,9 +379,9 @@
 
       <h2>Example</h2>
 
-      <pre><code>$ vcro query "NSCLC FFPE RNA-seq cohorts, no neoadjuvant, n>=300, commercial use"
+      <pre><code>$ vcro source "NSCLC FFPE RNA-seq cohorts, no neoadjuvant, n>=300, commercial use"
 
-Query workflow. Wiki had 3 matches, 1 with commercial-use unknown.
+Source workflow. Wiki had 3 matches, 1 with commercial-use unknown.
 Recommendation at store/queries/2026-04-08_nsclc-ffpe-rnaseq/recommendation.md.
 All 3 candidates scored. TCGA-LUAD leads on Scale (n=522) but
 block age >5yr is a pre-analytical risk. Commercial-use clause
