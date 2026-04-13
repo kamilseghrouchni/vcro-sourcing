@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rules reference - vCRO Docs</title>
+  <title>Rules reference - viCRO Docs</title>
   <meta name="description" content="Nine rule files govern how every agent and skill behaves.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -77,6 +77,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
       <div class="nav-section">
         <div class="nav-section-title">Skills &amp; Rules</div>
@@ -109,7 +110,7 @@
 
       <div class="card">
         <h3>scoring-axes.md</h3>
-        <p>Three independent axes: Scale, Cost, Quality. No composite score. Per-axis confidence required. Cost has three legs (source, screening/QA, assay). Quality has four sub-axes (pre-analytical, confounders, platform validation, provenance depth).</p>
+        <p>Three independent axes: Scale, Cost, Quality. No composite score. Per-axis confidence required. Cost decomposes into procurement chain links (specimen_source, provider, assay_execution, etc.). Quality has four sub-axes (pre-analytical, confounders, platform validation, provenance depth).</p>
       </div>
 
       <div class="card">
@@ -144,20 +145,20 @@
 
       <div class="card">
         <h3>_commandments.md</h3>
-        <p>Ten-line banner injected into every Sonnet subagent dispatch. The short form of all rules. Pre-loaded at token 0 so rules survive context compaction. Saves ~3K tokens per spawn versus reading full rule files.</p>
+        <p>Eleven-line banner injected into every Sonnet subagent dispatch. The short form of all rules. Pre-loaded at token 0 so rules survive context compaction. Saves ~3K tokens per spawn versus reading full rule files.</p>
       </div>
 
       <h2>How rules are enforced</h2>
 
       <ul>
         <li><strong>Hooks</strong> enforce entity-schema.md at write time. Bad frontmatter blocks the write.</li>
-        <li><strong>The commandments banner</strong> injects the 10 core rules into every subagent context.</li>
+        <li><strong>The commandments banner</strong> injects the 11 core rules into every subagent context.</li>
         <li><strong>Lint</strong> catches drift after the fact: missing quotes, low provenance depth, broken links.</li>
         <li><strong>The lockfile</strong> detects accidental edits to rule files.</li>
       </ul>
 
       <div class="doc-footer">
-        <span>&copy; 2026 vCRO</span>
+        <span>&copy; 2026 viCRO</span>
         <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
       </div>
 

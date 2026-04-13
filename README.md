@@ -1,12 +1,12 @@
-# vCRO
+# viCRO
 
 **Biospecimen sourcing made agentic.**
 
 An open-source CLI that builds a provenance graph of who has what biological samples, where, at what quality, under what consent, at what cost. Every claim cited. Every score transparent. Every question makes the next answer better.
 
-Open source. Runs on [Claude Code](https://claude.ai/code). Your subscription, your machine, your data.
+Open source. Runs on [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Your subscription, your machine, your data.
 
-**[Website](https://kamilseghrouchni.github.io/vcro-sourcing/)** · **[Docs](https://kamilseghrouchni.github.io/vcro-sourcing/docs/)** · **[What is vCRO](https://kamilseghrouchni.github.io/vcro-sourcing/wiki.html)**
+**[Website](https://kamilseghrouchni.github.io/vcro-sourcing/)** · **[Docs](https://kamilseghrouchni.github.io/vcro-sourcing/docs/)** · **[What is viCRO](https://kamilseghrouchni.github.io/vcro-sourcing/wiki.html)**
 
 ---
 
@@ -46,34 +46,65 @@ Ingest → Compile → Query → Lint
 - **Query** — read the wiki, score candidates, deliver a recommendation
 - **Lint** — scan for gaps, staleness, broken links → feed back to compile
 
-Five workflows:
+## Prerequisites
 
-```
-vcro query  "AD plasma metabolomics cohorts, longitudinal, n>200"
-vcro compile PMC10103184 PMC6922070
-vcro bounty "50 AD plasma samples, commercial use, under 80k EUR"
-vcro lint
-vcro onboard "Sahlgrenska Biobank"
-```
+1. **Claude Code** — install via `npm install -g @anthropic-ai/claude-code` (requires Node.js 18+). See [Claude Code docs](https://docs.anthropic.com/en/docs/claude-code).
+2. **Python 3.10+** — all scripts are stdlib only. No pip install needed.
+3. **macOS or Linux** — POSIX shell. Windows via WSL.
 
 ## Quick start
 
-vCRO runs inside Claude Code. Python scripts are pure stdlib — no `pip install`.
+```bash
+# 1. Clone the repo
+git clone https://github.com/kamilseghrouchni/vcro-sourcing.git && cd vcro-sourcing
+
+# 2. Open Claude Code in the repo
+claude
+
+# 3. Ask a question — the orchestrator handles everything from here
+```
+
+The wiki ships with 335 entities (75 cohorts, 103 institutions, 101 investigators, 46 platforms, 10 bundles) so you can query immediately.
+
+### Example queries
+
+Inside Claude Code, use natural language or slash commands:
+
+```
+# Find cohorts (natural language)
+Find longitudinal plasma metabolomics cohorts in AD, n>=200, for biomarker validation.
+
+# Find cohorts (slash command)
+/source AD CSF DNA methylation cohorts with n>100 case-control
+
+# Procure samples
+/bounty 50 AD plasma samples, commercial use, under 80k EUR
+
+# Onboard a biobank
+/onboard Sahlgrenska Biobank
+
+# Scan wiki for gaps
+/lint
+
+# Compile new papers into the wiki
+/compile PMC10103184 PMC6922070
+```
+
+### Operator commands (CLI)
+
+For power users who want to run plumbing directly:
 
 ```bash
-# Clone
-git clone git@github.com:kamilseghrouchni/vcro-sourcing.git vcro && cd vcro
-
-# (Optional) Re-ingest the raw corpus
+# Ingest papers/trials into store/raw/
 python3 scripts/pmc_convert.py --pmids_file references/example-pmids.txt --out store/raw/papers
 python3 scripts/ct_convert.py  --nct_file references/example-ncts.txt   --out store/raw/trials
 
-# Open Claude Code — the orchestrator drives from here
-claude
-# Ask: "Find longitudinal plasma metabolomics cohorts in AD, n>=200, for biomarker validation."
-```
+# Rebuild wiki indices
+python3 scripts/wiki_index.py --wiki store/wiki
 
-The wiki ships with ~219 entities from a 50-paper wedge so you can query immediately.
+# Validate all entities against the schema
+python3 bin/vcro wiki verify
+```
 
 ## What's in the repo
 
@@ -83,14 +114,18 @@ The wiki ships with ~219 entities from a 50-paper wedge so you can query immedia
 ├── skills/         compile, query, catalog, lint, bounty (Sonnet workers)
 ├── rules/          entity-schema, evidence-standard, scoring-axes, model-allocation,
 │                   transparency-principles, wiki-conventions, example-rotation
+├── commands/       /source, /bounty, /onboard, /lint, /compile (slash commands)
 └── hooks/          pre-write-entity (validates frontmatter on every wiki write)
 
 store/
-├── wiki/           entity articles (compile output)
-├── queries/        query runs (request → recommendation)
+├── wiki/           335 entity articles (cohorts, institutions, investigators, platforms, bundles)
+├── raw/            immutable source documents (PMC XML → markdown, ClinicalTrials.gov JSON)
+├── queries/        query runs (request → recommendation, full audit trail)
 ├── runs/           compile telemetry
 └── catalog/        supply-side drafts
 
+scripts/            pure stdlib Python (ingest, index, lint, telemetry)
+bin/vcro            CLI entry point (stdlib Python, optional rich/prompt_toolkit for TUI)
 website/            landing page + docs (deployed to GitHub Pages)
 ```
 

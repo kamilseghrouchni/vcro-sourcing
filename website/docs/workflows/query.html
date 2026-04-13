@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Query workflow - vCRO Docs</title>
+  <title>Query workflow - viCRO Docs</title>
   <meta name="description" content="Find cohorts matching a scientific or sourcing question.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -212,7 +212,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -258,6 +258,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
 
       <div class="nav-section">
@@ -293,60 +294,67 @@
       <pre><code>vcro query "AD plasma metabolomics, longitudinal, n>=200"</code></pre>
 
       <h3>Slash command</h3>
-      <pre><code>/query AD plasma metabolomics, longitudinal, n>=200</code></pre>
+      <pre><code>/source AD plasma metabolomics, longitudinal, n&gt;=200</code></pre>
 
       <h2>How it works</h2>
 
       <p>
-        Four phases, in sequence. Each phase reads the output of the previous one.
+        Seven gates. The orchestrator parses the request inline, confirms with the user once, then runs research, scoring, and delivery autonomously.
       </p>
 
       <div class="cycle">
         <div class="cycle-node">
-          <strong>Understand</strong>
-          <span>Parse request</span>
+          <strong>Parse + Confirm</strong>
+          <span>Gate 0-1</span>
         </div>
         <div class="cycle-arrow">&#8594;</div>
         <div class="cycle-node">
-          <strong>Discover</strong>
-          <span>Scan wiki</span>
+          <strong>Research</strong>
+          <span>Gate 2-3</span>
         </div>
         <div class="cycle-arrow">&#8594;</div>
         <div class="cycle-node">
           <strong>Score</strong>
-          <span>Three axes</span>
+          <span>Gate 4</span>
         </div>
         <div class="cycle-arrow">&#8594;</div>
         <div class="cycle-node">
           <strong>Deliver</strong>
-          <span>Write report</span>
+          <span>Gate 5</span>
+        </div>
+        <div class="cycle-arrow">&#8594;</div>
+        <div class="cycle-node">
+          <strong>Compile</strong>
+          <span>Gate 6 (background)</span>
         </div>
       </div>
 
       <p>
-        <strong>Understand</strong> parses the natural-language request into a structured <code>request.json</code>: indication, modality, sample type, minimum N, budget, hard negatives, and intent (access vs. commission).
+        <strong>Parse + Confirm (Gates 0-1)</strong> — the orchestrator parses the request inline into <code>request.json</code> and presents a summary with sharpening questions. This is the only mandatory stop. Once confirmed, everything runs autonomously.
       </p>
       <p>
-        <strong>Discover</strong> scans <code>store/wiki/index/</code> for matching cohort entities. It checks indication, modality, and sample type against the index files. If the wiki has matches, it returns them. If the wiki is thin, it triggers ingest automatically.
+        <strong>Research (Gates 2-3)</strong> — parallel multi-source research: wiki scan, PubMed search, EuropePMC search, ClinicalTrials.gov, and institutional pages. Search results become <code>search_lead</code> candidates that can be scored immediately without compilation. Results merge into a single candidates list.
       </p>
       <p>
-        <strong>Score</strong> evaluates each candidate on three independent axes: Scale, Cost, Quality. No composite score. The buyer chooses their own weighting.
+        <strong>Score (Gate 4)</strong> evaluates each candidate on three independent axes: Scale, Cost, Quality. No composite score. The buyer chooses their own weighting.
       </p>
       <p>
-        <strong>Deliver</strong> assembles the recommendation from scored candidates. Writes <code>recommendation.md</code> and <code>listings.jsonl</code> for the web app.
+        <strong>Deliver (Gate 5)</strong> assembles the recommendation from scored candidates. Writes <code>recommendation.md</code> and <code>listings.jsonl</code> for the web app.
+      </p>
+      <p>
+        <strong>Compile (Gate 6)</strong> runs in the background after delivery. Papers found during research are compiled into the wiki for future queries. There is no "compile first, then score" path — search results are scored immediately.
       </p>
 
-      <h3>Wiki-first</h3>
+      <h3>Wiki-first, search-augmented</h3>
       <p>
-        The query workflow reads the wiki before searching papers. Three branches:
+        The query workflow reads the wiki first, then augments with external search. Search results are immediately usable as <code>search_lead</code> candidates — they get scored alongside wiki candidates without waiting for compilation.
       </p>
       <ul>
-        <li><strong>Wiki has matches</strong> -- run discover, score, deliver. Done.</li>
-        <li><strong>Wiki is partial</strong> -- run discover, then search PubMed/EuropePMC, ingest the shortlist, compile into the wiki, re-run discover/score/deliver.</li>
-        <li><strong>Wiki is empty</strong> -- same path as partial, but search queries start broader.</li>
+        <li><strong>Wiki has matches</strong> — score and deliver directly. Search runs in parallel to find additional candidates.</li>
+        <li><strong>Wiki is thin</strong> — search becomes the primary source. Results are scored as search_leads. Compile runs in background (Gate 6) to enrich the wiki for future queries.</li>
       </ul>
       <p>
-        The user does not choose the branch. The orchestrator picks the right one and logs the decision.
+        The orchestrator does not ask permission to search or ingest. The user's request is the consent. It logs every search query and decision to disk.
       </p>
 
       <h3>Intent gate</h3>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Entity types - vCRO Docs</title>
-  <meta name="description" content="The six entity types in the vCRO wiki graph.">
+  <title>Entity types - viCRO Docs</title>
+  <meta name="description" content="The six entity types in the viCRO wiki graph.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -192,7 +192,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -237,6 +237,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
 
       <div class="nav-section">
@@ -262,7 +263,7 @@
 
       <h1>Entity types</h1>
       <p class="lead">
-        The wiki is a typed graph. Six entity types, each a markdown file with YAML frontmatter.
+        The wiki is a typed graph. Seven entity types, each a markdown file with YAML frontmatter.
       </p>
 
       <div class="card-grid">
@@ -288,7 +289,7 @@
         </div>
         <div class="card">
           <h3><span class="tag t-bundle">bundle</span> Bundle</h3>
-          <p>A procurement package composed of source + screening/QA + assay legs. Created by the bounty workflow when a buyer needs a complete sourcing plan.</p>
+          <p>A procurement chain of 2-7 typed links (specimen source to data delivery), each with an evidence tier. Created by the bounty workflow when a buyer needs a complete sourcing plan.</p>
         </div>
       </div>
 

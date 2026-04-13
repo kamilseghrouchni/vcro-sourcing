@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Onboard workflow - vCRO Docs</title>
+  <title>Onboard workflow - viCRO Docs</title>
   <meta name="description" content="Supply-side onboarding for biobanks and institutions.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -189,7 +189,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -234,6 +234,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
 
       <div class="nav-section">
@@ -273,7 +274,7 @@
       <h2>How it works</h2>
 
       <p>
-        Onboard is the supply-side workflow. A biobank or hospital says "catalog us." The system reads what the wiki already knows about that institution, surfaces gaps, and generates drafts for the institution to review.
+        Onboard is the supply-side workflow. Search-first: the wiki is the output of onboard, not a gate. The system searches the institution's published footprint (PubMed, ClinicalTrials.gov), compiles evidence into the wiki, then generates catalog drafts.
       </p>
 
       <div class="cycle">
@@ -283,8 +284,13 @@
         </div>
         <div class="cycle-arrow">&#8594;</div>
         <div class="cycle-node">
-          <strong>Coverage</strong>
-          <span>Check wiki</span>
+          <strong>Search</strong>
+          <span>PubMed + CT.gov</span>
+        </div>
+        <div class="cycle-arrow">&#8594;</div>
+        <div class="cycle-node">
+          <strong>Compile</strong>
+          <span>Grow the wiki</span>
         </div>
         <div class="cycle-arrow">&#8594;</div>
         <div class="cycle-node">
@@ -302,18 +308,16 @@
         <strong>Resolve</strong> maps the institution name to its wiki slug and checks existing entity coverage.
       </p>
       <p>
-        <strong>Coverage check</strong> determines which branch to take:
-      </p>
-      <ul>
-        <li><strong>Well-covered</strong> (3+ cohorts in wiki) -- generate drafts directly from existing evidence.</li>
-        <li><strong>Sparse</strong> (1-2 cohorts) -- generate a thin draft, offer to compile more papers.</li>
-        <li><strong>Empty</strong> (0 cohorts) -- stop. Recommend a starter ingest before onboarding.</li>
-      </ul>
-      <p>
-        <strong>Draft</strong> runs three catalog skills: catalog (the listing itself), compliance (consent and access terms), and pricing (cost structure and analogues).
+        <strong>Search</strong> queries PubMed and ClinicalTrials.gov for the institution's published footprint. This runs regardless of wiki coverage — the wiki is a cache, not a gate.
       </p>
       <p>
-        <strong>Handoff</strong> aggregates all gaps into <code>follow-up.md</code>. The institution reviews the drafts and fills the gaps. The operator sends the package -- the system does not contact PIs directly.
+        <strong>Compile</strong> ingests discovered papers and builds wiki entities (cohorts, investigators, platforms) linked to the institution. The wiki grows before drafts are generated.
+      </p>
+      <p>
+        <strong>Draft</strong> runs three catalog skills: catalog (the listing itself), compliance (consent and access terms), and pricing (cost structure and analogues). Drafts draw on the freshly compiled evidence.
+      </p>
+      <p>
+        <strong>Handoff</strong> aggregates all gaps into <code>follow-up.md</code>. The institution reviews the drafts and fills the gaps. The operator sends the package — the system does not contact PIs directly.
       </p>
 
       <h3>Both sides, same wiki</h3>

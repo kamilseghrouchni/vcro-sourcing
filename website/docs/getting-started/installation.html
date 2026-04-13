@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Installation - vCRO Docs</title>
-  <meta name="description" content="Install vCRO with one command.">
+  <title>Installation - viCRO Docs</title>
+  <meta name="description" content="Install viCRO in two steps. Clone and run.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -169,7 +169,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -214,6 +214,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
 
       <div class="nav-section">
@@ -239,78 +240,87 @@
 
       <h1>Installation</h1>
       <p class="lead">
-        One command. No package manager. Stdlib Python only.
+        Clone the repo. Open Claude Code. Start asking questions.
       </p>
 
-      <h2>Quick install</h2>
-
-      <pre><code>curl -fsSL https://vcro.bio/install | bash</code></pre>
-
-      <p>
-        This downloads the installer, copies the CLI, skills, agents, rules, hooks, and a wiki skeleton into <code>./vcro</code>. No pip. No wheels. No dependency tree.
-      </p>
-
-      <h2>Requirements</h2>
+      <h2>Prerequisites</h2>
 
       <ul>
-        <li><strong>Claude Code</strong> -- the CLI must be on your PATH. Install with <code>curl -fsSL https://claude.ai/install.sh | bash</code></li>
-        <li><strong>Python 3.10+</strong> -- all scripts are stdlib only. No third-party packages at runtime.</li>
+        <li><strong>Claude Code</strong> -- the CLI that runs the orchestrator. Install with <code>npm install -g @anthropic-ai/claude-code</code> (requires Node.js 18+). See the <a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code docs</a>.</li>
+        <li><strong>Python 3.10+</strong> -- all scripts are stdlib only. No third-party packages needed at runtime.</li>
         <li><strong>macOS or Linux</strong> -- POSIX shell. Windows via WSL.</li>
       </ul>
 
-      <h2>Installer flags</h2>
+      <h2>Install</h2>
 
-      <pre><code>bash scripts/install.sh [--target DIR] [--from-local PATH | --version TAG]
-                        [--skills-only] [--force]</code></pre>
+      <pre><code>git clone https://github.com/kamilseghrouchni/vcro-sourcing.git && cd vcro-sourcing</code></pre>
 
-      <h3><code>--target DIR</code></h3>
-      <p>Install prefix. Default: <code>./vcro</code>.</p>
-
-      <h3><code>--skills-only</code></h3>
       <p>
-        Copy only the agent surface: <code>.claude/{skills,rules,agents,hooks}</code>, <code>bin/vcro</code>, and <code>scripts/</code>. Skips the <code>store/</code> skeleton. Use this when you already have a Claude Code project and want to add vCRO skills to it.
+        That's it. The repo contains everything: the CLI, agents, skills, rules, hooks, scripts, and a pre-built wiki with 335 entities. No pip install. No build step.
       </p>
-
-      <h3><code>--version TAG</code></h3>
-      <p>
-        Pin to a specific release tag. Default: <code>latest</code>. Downloads a tarball from GitHub releases.
-      </p>
-
-      <h3><code>--from-local PATH</code></h3>
-      <p>
-        Copy from a local repo checkout instead of downloading. Mutually exclusive with <code>--version</code>. Useful for development.
-      </p>
-
-      <h3><code>--force</code></h3>
-      <p>Overwrite an existing target directory.</p>
-
-      <h2>What gets installed</h2>
-
-      <pre><code>vcro/
-  bin/vcro                  # CLI entry point
-  scripts/                  # Pure Python plumbing (ingest, index, lint, telemetry)
-  .claude/
-    agents/                 # vcro-os, vcro-bounty, vcro-onboard
-    skills/                 # 17 phase-level skills
-    rules/                  # 9 rule files + commandments
-    hooks/                  # Entity schema validation, reindex, commit authorship
-    commands/               # Slash command definitions
-  store/                    # Wiki skeleton (skipped with --skills-only)
-    wiki/{cohorts,institutions,...,index/}
-    raw/{papers,trials}/
-    queries/
-    runs/
-    lint/
-  CLAUDE.md                 # Project instructions for Claude Code
-  vcro-skills-lock.json     # Integrity lockfile (if present)</code></pre>
 
       <h2>Verify</h2>
 
-      <pre><code>./vcro/bin/vcro version
-./vcro/bin/vcro help</code></pre>
+      <pre><code># Check version
+python3 bin/vcro version
+
+# Browse the wiki
+python3 bin/vcro wiki browse
+
+# Validate all entities against the schema
+python3 bin/vcro wiki verify</code></pre>
+
+      <h2>Start using it</h2>
+
+      <pre><code># Open Claude Code in the repo directory
+claude
+
+# Ask a question -- the orchestrator handles everything
+Find AD CSF DNA methylation cohorts with n>100 case-control
+
+# Or use a slash command
+/source IBD stool shotgun metagenomics cohorts, treatment-naive, n>=100</code></pre>
+
+      <p>
+        Claude Code reads <code>CLAUDE.md</code> and the agent definitions in <code>.claude/agents/</code> on startup. The orchestrator (vcro-os) routes your question to the right workflow, spawns Sonnet subagents for the heavy work, and delivers a scored recommendation.
+      </p>
+
+      <h2>What gets used</h2>
+
+      <pre><code>vcro-sourcing/
+  bin/vcro                  # CLI entry point (optional TUI with rich/prompt_toolkit)
+  scripts/                  # Pure Python plumbing (ingest, index, lint, telemetry)
+  .claude/
+    agents/                 # vcro-os, vcro-bounty, vcro-onboard (Opus orchestrators)
+    skills/                 # 17 phase-level skills (Sonnet workers)
+    rules/                  # 9 rule files + commandments
+    hooks/                  # Entity schema validation, reindex, commit authorship
+    commands/               # /source, /bounty, /onboard, /lint, /compile
+  store/
+    wiki/                   # 335 pre-built entity articles
+    raw/                    # Immutable source documents
+    queries/                # Query run artifacts (audit trail)
+    runs/                   # Compile telemetry
+  CLAUDE.md                 # Project instructions for Claude Code</code></pre>
+
+      <h2>Advanced: install.sh</h2>
+
+      <p>
+        For deploying viCRO into an existing Claude Code project without cloning the full repo, use the installer script:
+      </p>
+
+      <pre><code># From a local checkout
+bash scripts/install.sh --from-local /path/to/vcro-sourcing --target ./my-project
+
+# Skills only (no wiki skeleton)
+bash scripts/install.sh --from-local /path/to/vcro-sourcing --skills-only --target ./my-project</code></pre>
+
+      <p>
+        See <code>bash scripts/install.sh --help</code> for all flags.
+      </p>
 
       <div class="doc-footer">
-        <span>&copy; 2026 vCRO</span>
+        <span>&copy; 2026 viCRO</span>
         <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
       </div>
 

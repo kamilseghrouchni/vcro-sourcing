@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catalog skills - viCRO Docs</title>
-  <meta name="description" content="Catalog, compliance, price. Institutional listing drafts from the wiki.">
+  <title>vcro-compile - viCRO Docs</title>
+  <meta name="description" content="Compile orchestrator. Parallel extract, resolve, merge into the wiki.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,18 +74,18 @@
       </div>
       <div class="nav-section">
         <div class="nav-section-title">Agents</div>
-        <a href="../agents/vcro-os.html">vcro-os</a>
-        <a href="../agents/vcro-bounty.html">vcro-bounty</a>
-        <a href="../agents/vcro-onboard.html">vcro-onboard</a>
-        <a href="../agents/vcro-compile.html">vcro-compile</a>
+        <a href="vcro-os.html">vcro-os</a>
+        <a href="vcro-bounty.html">vcro-bounty</a>
+        <a href="vcro-onboard.html">vcro-onboard</a>
+        <a href="vcro-compile.html" class="active">vcro-compile</a>
       </div>
       <div class="nav-section">
         <div class="nav-section-title">Skills &amp; Rules</div>
-        <a href="compile.html">Compile skills</a>
-        <a href="query.html">Query skills</a>
-        <a href="catalog.html" class="active">Catalog skills</a>
-        <a href="lint.html">Lint skills</a>
-        <a href="rules.html">Rules reference</a>
+        <a href="../skills/compile.html">Compile skills</a>
+        <a href="../skills/query.html">Query skills</a>
+        <a href="../skills/catalog.html">Catalog skills</a>
+        <a href="../skills/lint.html">Lint skills</a>
+        <a href="../skills/rules.html">Rules reference</a>
       </div>
       <div class="nav-section">
         <div class="nav-section-title">Reference</div>
@@ -98,69 +98,92 @@
 
     <main class="content" id="content">
 
-      <h1>Catalog skills</h1>
+      <h1>vcro-compile</h1>
       <p class="lead">
-        Three skills produce institutional listing drafts for supply-side onboarding.
+        Compile orchestrator. Parallel extract, resolve, merge into the wiki.
       </p>
 
-      <h2>Catalog</h2>
+      <h2>Role</h2>
 
       <p>
-        Reads the wiki for everything linked to an institution. Assembles a listing draft at <code>store/catalog/{slug}/listing.md</code>. Lists cohorts, investigators, platforms, and specimen types associated with the institution.
+        vcro-compile takes a list of PMC IDs (or NCT IDs) and runs the full extract, resolve, merge pipeline. It spawns one Sonnet subagent per paper for extraction — never loops serially in one context.
       </p>
 
+      <p>
+        It runs on Opus. It orchestrates the fan-out but never reads papers itself (except for N=1 inline compiles). Sonnet workers do the extraction.
+      </p>
+
+      <h2>The load-bearing rule</h2>
+
+      <blockquote>
+        <p>One Sonnet subagent per paper. Never read multiple papers in one subagent context. Never run extract inside a loop in a single subagent.</p>
+      </blockquote>
+
+      <p>
+        The 50-paper wedge proved it: parallel Sonnet extract is 5-10x cheaper and 10x faster than serialized execution. 12 papers in 12 parallel subagents finishes in ~4 minutes; the same work in one serial loop takes 30+ minutes.
+      </p>
+
+      <h2>Scale-decision table</h2>
+
+      <p>
+        The right strategy depends on the number of papers. The orchestrator picks one row before starting.
+      </p>
+
+      <div class="card">
+        <h3>N = 1</h3>
+        <p>Inline in the orchestrator. No subagent. Read the paper, extract, resolve, merge. Subagent overhead is not worth it for one paper.</p>
+      </div>
+
+      <div class="card">
+        <h3>N = 2-10</h3>
+        <p>One wave of N parallel Sonnet extracts. Default sweet spot. ~3-5 minutes wall time.</p>
+      </div>
+
+      <div class="card">
+        <h3>N = 11-50</h3>
+        <p>Multiple waves of up to 10 parallel extracts. Read digests of wave K before launching K+1. ~5-15 minutes.</p>
+      </div>
+
+      <div class="card">
+        <h3>N = 50+</h3>
+        <p>Shard pattern: split into batches of 50, run each as a separate wave-set. Coordinate with operator before starting. Cost will exceed $25.</p>
+      </div>
+
+      <h2>Workflow steps</h2>
+
+      <ol>
+        <li><strong>Pre-flight</strong> — parse IDs, check which are already converted under <code>store/raw/</code>, check the extract cache for already-extracted papers.</li>
+        <li><strong>Extract</strong> — spawn one Sonnet subagent per paper. Each reads one <code>paper.md</code>, picks 5-8 dimensions, writes <code>fragments.json</code>. Parallel waves of up to 10.</li>
+        <li><strong>Resolve</strong> — one Sonnet subagent reads all fragments plus the wiki index. Decides NEW, MERGE_INTO, or AMBIGUOUS for each entity hint.</li>
+        <li><strong>Merge</strong> — one Sonnet subagent executes the resolution plan. Writes entity files. Hook-gated. Back-references applied.</li>
+        <li><strong>Post-flight</strong> — rebuild wiki index via <code>scripts/wiki_index.py</code>. Log telemetry to <code>run.jsonl</code>.</li>
+      </ol>
+
+      <h2>Nesting warning</h2>
+
+      <p>
+        vcro-compile must run at the top level, not as a child of another agent. Claude Code's subagent system is one level deep — a subagent cannot spawn its own subagents. If vcro-os needs to compile, it reads this agent's instructions and executes the steps itself.
+      </p>
+
+      <h2>What it reads</h2>
+
       <ul>
-        <li>Reads: institution entity, linked cohort entities, wiki index</li>
-        <li>Writes: <code>store/catalog/{slug}/listing.md</code></li>
-        <li>Model: Sonnet</li>
+        <li>3-5 sentence digests from extract subagents</li>
+        <li>Extract cache at <code>store/runs/_cache/</code></li>
+        <li>Wiki index for resolve decisions</li>
+      </ul>
+
+      <h2>What it does not do</h2>
+
+      <ul>
+        <li>Read raw paper.md files (except N=1 inline)</li>
+        <li>Run as a nested subagent</li>
+        <li>Loop multiple papers in a single Sonnet context</li>
+        <li>Spawn other Opus instances</li>
       </ul>
 
       <p>
-        The listing is a draft. Every output file is marked as such in its header. The institution reviews and corrects before publication.
-      </p>
-
-      <p>Source: <code>.claude/skills/catalog/catalog/SKILL.md</code></p>
-
-      <h2>Compliance</h2>
-
-      <p>
-        Assesses consent scope, commercial-use terms, IRB status, and data use agreement requirements. Reads the same wiki entities as the catalog skill. Flags unknowns explicitly.
-      </p>
-
-      <ul>
-        <li>Reads: institution entity, linked cohort entities (especially <code>access_and_consent_scope</code> dimension)</li>
-        <li>Writes: <code>store/catalog/{slug}/compliance.md</code></li>
-        <li>Model: Sonnet</li>
-      </ul>
-
-      <p>
-        When commercial-use status is unknown, the compliance draft flags it as a high-impact open question. It does not guess.
-      </p>
-
-      <p>Source: <code>.claude/skills/catalog/compliance/SKILL.md</code></p>
-
-      <h2>Price</h2>
-
-      <p>
-        Produces a pricing draft. References <code>references/pricing-data.md</code> for verified cost analogues. Covers specimen access fees, data access fees, and per-sample assay costs where known.
-      </p>
-
-      <ul>
-        <li>Reads: institution entity, linked cohort entities, <code>references/pricing-data.md</code></li>
-        <li>Writes: <code>store/catalog/{slug}/pricing.md</code></li>
-        <li>Model: Sonnet</li>
-      </ul>
-
-      <p>
-        No invented prices. If a cost component cannot be valued from existing evidence, it is listed in the "Pricing gaps" section. The institution fills the gaps during review.
-      </p>
-
-      <p>Source: <code>.claude/skills/catalog/price/SKILL.md</code></p>
-
-      <h2>Used by</h2>
-
-      <p>
-        All three catalog skills are spawned by the <a href="../agents/vcro-onboard.html">vcro-onboard</a> agent. They run in sequence: catalog, then compliance, then price. Each skill writes one file.
+        Source: <code>.claude/agents/vcro-compile.md</code>
       </p>
 
       <div class="doc-footer">

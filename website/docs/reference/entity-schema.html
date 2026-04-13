@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Entity Schema - vCRO Docs</title>
+  <title>Entity Schema - viCRO Docs</title>
   <meta name="description" content="The YAML frontmatter contract enforced by the pre-write hook.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -77,6 +77,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
       <div class="nav-section">
         <div class="nav-section-title">Skills &amp; Rules</div>
@@ -158,18 +159,44 @@ scoring:
     what_is_missing: [...]
     next_step: "..."</code></pre>
 
+      <h2>Institution services (optional)</h2>
+
+      <pre><code>services:
+  platforms: ["olink-target-96", "olink-explore-ht"]
+  rate_card_url: "https://..."
+  geography: "Indianapolis, IN, US"
+  access: "external academic, industry"
+  matrix_validated: ["plasma", "serum"]</code></pre>
+
+      <p>
+        Optional block for provider capabilities. Enriched by the bounty agent when a provider is discovered.
+      </p>
+
       <h2>Bundle fields</h2>
 
       <pre><code>opportunity_type: bounty_bundle
 status: draft | ready | confirmed | executed
-composition:
-  source:       {entity: &lt;slug&gt;, ...}
-  screening_qa: {entity: &lt;slug&gt;, ...}
-  assay:        {entity: &lt;slug&gt;, ...}
+chain:
+  - link: specimen_source       # closed enum (see below)
+    entity: &lt;slug&gt;             # required for specimen_source, assay_execution
+    evidence: PUBLISHED         # PUBLISHED | DERIVED | open_question
+    cost: "&lt;figure or [open_question]&gt;"
+    timeline: "&lt;duration&gt;"
+    note: "&lt;one sentence&gt;"
+  - link: assay_execution
+    entity: &lt;slug&gt;
+    evidence: DERIVED
+    cost: "$120-150/sample"
+    timeline: "4-6 weeks"
+    note: "Based on pricing-data.md"
 total_known:
   low: &lt;number|null&gt;
   high: &lt;number|null&gt;
   within_budget: true|false|unknown</code></pre>
+
+      <p>
+        Chain has 2-7 links. Link types: <code>specimen_source | specimen_fitness | provider | logistics | assay_execution | prior_art | data_delivery</code>. Evidence tiers: <code>PUBLISHED | DERIVED | open_question</code>. At least one link must have evidence != open_question.
+      </p>
 
       <h2>Closed enums</h2>
 
@@ -181,6 +208,9 @@ total_known:
         <li><code>evidence_type</code>: direct, inferred, self_reported, composed</li>
         <li><code>confidence</code>: low, medium, high</li>
         <li><code>status</code> (bundle): draft, ready, confirmed, executed</li>
+        <li><code>chain[].link</code> (bundle): specimen_source, specimen_fitness, provider, logistics, assay_execution, prior_art, data_delivery</li>
+        <li><code>chain[].evidence</code> (bundle): PUBLISHED, DERIVED, open_question</li>
+        <li><code>back_reference.relation</code>: parent_institution, sponsor, data_provider, collection_site, assay_platform, lead_pi, co_investigator, collection_protocol, related_trial, composed_into</li>
       </ul>
 
       <h2>Format rules</h2>
@@ -206,7 +236,7 @@ total_known:
       <p>Source: <code>.claude/rules/entity-schema.md</code></p>
 
       <div class="doc-footer">
-        <span>&copy; 2026 vCRO</span>
+        <span>&copy; 2026 viCRO</span>
         <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
       </div>
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bounty workflow - vCRO Docs</title>
-  <meta name="description" content="Bundle procurement options with three-leg cost decomposition.">
+  <title>Bounty workflow - viCRO Docs</title>
+  <meta name="description" content="Map procurement chains with per-link evidence and cost decomposition.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -189,7 +189,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -234,6 +234,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
 
       <div class="nav-section">
@@ -259,13 +260,13 @@
 
       <h1>Bounty</h1>
       <p class="lead">
-        Bundle procurement options from the wiki into three-leg cost compositions.
+        Map procurement chains from specimen source to data delivery, with per-link evidence states.
       </p>
 
       <h2>Usage</h2>
 
       <h3>CLI</h3>
-      <pre><code>vcro bounty "50 AD plasma samples, under 80k EUR" --budget 80000</code></pre>
+      <pre><code>vcro bounty "50 AD plasma samples, commercial use, under 80k EUR"</code></pre>
 
       <h3>Slash command</h3>
       <pre><code>/bounty 50 AD plasma samples, under 80k EUR</code></pre>
@@ -273,7 +274,7 @@
       <h2>How it works</h2>
 
       <p>
-        Bounty runs the query pipeline first (understand, discover, score), then composes bundles from the scored candidates. Each bundle has three cost legs.
+        Bounty identifies candidate sources from the wiki, maps a procurement chain for each, and prices every link from verified sources. Budget and target N are optional — the cost picture is an output, not an input.
       </p>
 
       <div class="cycle">
@@ -293,34 +294,44 @@
         </div>
         <div class="cycle-arrow">&#8594;</div>
         <div class="cycle-node">
-          <strong>Compose</strong>
-          <span>Build bundles</span>
+          <strong>Chain</strong>
+          <span>Map procurement</span>
         </div>
       </div>
 
-      <h3>The three cost legs</h3>
+      <h3>The procurement chain</h3>
 
       <p>
-        Every bundle decomposes cost into three legs. Always three, even when one is zero.
+        Every bundle is an ordered list of 2-7 typed links. Only include links relevant to the query — no forced empty entries. Each link carries an evidence tier: <code>PUBLISHED</code>, <code>DERIVED</code>, or <code>open_question</code>.
       </p>
 
       <div class="axis-card">
-        <h3>Source</h3>
-        <p>Cost to acquire the raw specimens or data. Biobank vial fees, shipping, data access charges. References an existing wiki entity.</p>
+        <h3>specimen_source</h3>
+        <p>Where the samples come from. References a cohort or institution entity. Cost: biobank vial fee, data access fee, or shipping.</p>
       </div>
 
       <div class="axis-card">
-        <h3>Screening / QA</h3>
-        <p>Cost to verify the samples are fit for the buyer's assay. Re-QC, depletion check, DNA integrity assessment. May be null with explicit comment if already verified.</p>
+        <h3>specimen_fitness</h3>
+        <p>Verification that the samples will produce signal for the buyer's assay. Re-QC, depletion check, DNA integrity assessment.</p>
       </div>
 
       <div class="axis-card">
-        <h3>Assay</h3>
+        <h3>provider</h3>
+        <p>The institution or CRO performing the assay. References a wiki institution entity with a <code>services:</code> block when available.</p>
+      </div>
+
+      <div class="axis-card">
+        <h3>assay_execution</h3>
         <p>Cost to run the analytical workflow. Provider quote for the intended platform. References a wiki platform entity.</p>
       </div>
 
+      <div class="axis-card">
+        <h3>logistics / prior_art / data_delivery</h3>
+        <p>Shipping, existing validation studies, and data transfer costs. Included only when they carry meaningful cost or timeline.</p>
+      </div>
+
       <p>
-        If any leg is "quote required," the total stays open. The buyer sees the two known legs plus the gap. No fake totals.
+        If any link is <code>open_question</code>, the total stays open. The buyer sees the known links plus the gaps. No fake totals.
       </p>
 
       <h3>Budget honesty</h3>
@@ -338,27 +349,37 @@
 
       <pre><code>opportunity_type: bounty_bundle
 status: draft
-composition:
-  source:       { entity: adni-blood-dnam-csf-biomarker, ... }
-  screening_qa: { entity: null, note: "already QC'd by ADNI" }
-  assay:        { entity: illumina-epic-methylation-beadchip, ... }
+chain:
+  - link: specimen_source
+    entity: adni-blood-dnam-csf-biomarker
+    evidence: PUBLISHED
+    cost: "$35/vial via ADNI biorepository"
+    timeline: "6-8 weeks"
+    note: "NIA RARC biorepository, DUA required"
+  - link: assay_execution
+    entity: illumina-epic-methylation-beadchip
+    evidence: DERIVED
+    cost: "$120-150/sample"
+    timeline: "4-6 weeks"
+    note: "Based on references/pricing-data.md"
 total_known:
   low: 42000
   high: 58000
   within_budget: true</code></pre>
 
       <p>
-        Every component <code>entity:</code> slug references an existing wiki entity. Bundles are never standalone. Max 3 bundles per request.
+        Every link with an <code>entity:</code> slug references an existing wiki entity. At least one link must have evidence != open_question.
       </p>
 
       <h2>Example</h2>
 
       <pre><code>$ vcro bounty "150 NSCLC FFPE blocks with RNA-seq, no neoadjuvant, EUR 80k"
 
-Bounty workflow. 2 bundles composed from 3 scored candidates.
+Bounty workflow. 2 bundles mapped from 3 scored candidates.
 Bundle 1: TCGA-LUAD source + Broad RNA-seq assay, EUR 52-68k,
-within budget. Bundle 2: institutional biobank source + commercial
-provider assay, screening/QA leg is quote-required, total open.
+within budget, 4 chain links (3 PUBLISHED, 1 DERIVED).
+Bundle 2: institutional biobank source + commercial provider,
+assay_execution link is open_question, total open.
 Bundles at store/wiki/bundles/bundle-nsclc-ffpe-rnaseq-2026-04-08.md.</code></pre>
 
       <div class="doc-footer">

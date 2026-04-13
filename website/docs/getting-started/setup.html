@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Setup - vCRO Docs</title>
-  <meta name="description" content="Populate the wiki, configure environment variables, understand the store layout.">
+  <title>Setup - viCRO Docs</title>
+  <meta name="description" content="Expand the wiki, configure environment variables, understand the store layout.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,7 @@
     <div class="topbar-inner">
       <div style="display:flex;align-items:center;gap:12px;">
         <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">&#9776;</button>
-        <a class="logo" href="../../">vCRO <span>docs</span></a>
+        <a class="logo" href="../../">viCRO <span>docs</span></a>
       </div>
       <div class="topbar-links">
         <a href="../" class="active">Docs</a>
@@ -77,6 +77,7 @@
         <a href="../agents/vcro-os.html">vcro-os</a>
         <a href="../agents/vcro-bounty.html">vcro-bounty</a>
         <a href="../agents/vcro-onboard.html">vcro-onboard</a>
+        <a href="../agents/vcro-compile.html">vcro-compile</a>
       </div>
       <div class="nav-section">
         <div class="nav-section-title">Skills &amp; Rules</div>
@@ -99,53 +100,65 @@
 
       <h1>Setup</h1>
       <p class="lead">
-        Populate the wiki from papers. Configure environment variables. Understand where files land.
+        Expand the wiki with new papers. Configure optional integrations. Understand where files land.
       </p>
 
-      <h2>Populating the wiki</h2>
+      <h2>The wiki ships pre-built</h2>
 
       <p>
-        A fresh install has an empty wiki. Three commands fill it.
+        The cloned repo includes a wiki with 335 entities compiled from a 50-paper wedge. You can start querying immediately -- no setup required. This section covers how to expand the wiki with additional papers or configure optional features.
       </p>
 
-      <h3>1. Ingest papers</h3>
+      <h2>Expanding the wiki</h2>
 
-      <pre><code>vcro ingest papers PMC10103184 PMC9876543 PMC8765432</code></pre>
+      <h3>Option A: Let the orchestrator do it</h3>
 
       <p>
-        Fetches PMC XML, converts to faithful markdown at <code>store/raw/papers/PMC.../paper.md</code>. No classification, no filtering. The raw store is immutable.
+        When you ask a question and the wiki is thin for that domain, the orchestrator automatically searches PubMed, ingests relevant papers, compiles new entities, and then answers your question. You don't need to do anything.
       </p>
 
-      <h3>2. Compile</h3>
-
-      <pre><code>vcro compile PMC10103184 PMC9876543 PMC8765432</code></pre>
+      <h3>Option B: Ingest specific papers</h3>
 
       <p>
-        Extracts intelligence dimensions from each paper (one Sonnet subagent per paper, in parallel). Resolves entities against the wiki. Merges new and updated entities into <code>store/wiki/</code>. Hook-gated -- bad frontmatter blocks the write.
+        If you know which papers you want, use the slash command inside Claude Code or the CLI directly:
       </p>
 
-      <h3>3. Rebuild the index</h3>
+      <pre><code># Inside Claude Code (slash command)
+/compile PMC10103184 PMC9876543 PMC8765432
 
-      <pre><code>vcro wiki rebuild</code></pre>
+# Or from the terminal (CLI)
+python3 scripts/pmc_convert.py --pmids_file my-papers.txt --out store/raw/papers</code></pre>
 
       <p>
-        Regenerates the 7 index files under <code>store/wiki/index/</code>. Idempotent -- same wiki state produces byte-identical indices. This runs automatically after compile, but you can trigger it manually.
+        The compile workflow extracts intelligence dimensions from each paper (one Sonnet subagent per paper, in parallel), resolves entities against the wiki, and merges new entities into <code>store/wiki/</code>. Every wiki write is hook-gated -- bad frontmatter blocks the write.
       </p>
 
-      <h2>Ingesting trials</h2>
-
-      <pre><code>vcro ingest trials NCT04468659 NCT05432012</code></pre>
+      <h3>Option C: Ingest from reference lists</h3>
 
       <p>
-        Same pattern as papers. Fetches ClinicalTrials.gov JSON, converts to markdown at <code>store/raw/trials/NCT.../trial.md</code>.
+        The repo includes curated reference lists:
+      </p>
+
+      <pre><code># 50 PMC papers (the original wedge)
+python3 scripts/pmc_convert.py --pmids_file references/example-pmids.txt --out store/raw/papers
+
+# 76 clinical trials
+python3 scripts/ct_convert.py --nct_file references/example-ncts.txt --out store/raw/trials</code></pre>
+
+      <h2>Rebuilding the index</h2>
+
+      <pre><code>python3 scripts/wiki_index.py --wiki store/wiki</code></pre>
+
+      <p>
+        Regenerates the 7 index files under <code>store/wiki/index/</code>. Idempotent -- same wiki state produces byte-identical indices. This runs automatically after compile, but you can trigger it manually after any wiki change.
       </p>
 
       <h2>Environment variables</h2>
 
-      <p>All optional. vCRO works without any of them.</p>
+      <p>All optional. viCRO works without any of them.</p>
 
       <ul>
-        <li><code>ANTHROPIC_API_KEY</code> -- required only for the production webapp route. The CLI uses Claude Code directly.</li>
+        <li><code>ANTHROPIC_API_KEY</code> -- required only for the production webapp route. The CLI uses your Claude Code subscription directly.</li>
         <li><code>.notion-token</code> -- file in the repo root. Enables <code>python3 scripts/md_to_notion.py</code> for Notion delivery.</li>
         <li><code>.openai-key</code> -- file in the repo root. Enables semantic search embeddings. Falls back to TF-IDF when absent.</li>
       </ul>
@@ -159,13 +172,13 @@
     uploads/            #   institution_slug/...
 
   wiki/                 # The living graph. Markdown + YAML frontmatter.
-    cohorts/            #   one file per cohort
-    institutions/       #   one file per institution
-    investigators/      #   one file per PI
-    platforms/          #   one file per assay platform
-    protocols/          #   one file per collection protocol
-    bundles/            #   one file per procurement bundle
-    index/              #   auto-generated by wiki_index.py
+    cohorts/            #   75 cohort entities
+    institutions/       #   103 institution entities
+    investigators/      #   101 investigator entities
+    platforms/          #   46 platform entities
+    bundles/            #   10 procurement bundles
+    protocols/          #   collection protocols
+    index/              #   7 auto-generated index files
 
   queries/              # One directory per query run.
     2026-04-09_slug/    #   request.json, candidates.json, recommendation.md, ...
@@ -180,17 +193,29 @@
 
       <h2>Verifying the setup</h2>
 
-      <pre><code># Check entity count
-vcro wiki browse
+      <pre><code># Check entity count and browse summaries
+python3 bin/vcro wiki browse
 
 # Validate all entities against the schema
-vcro wiki verify
+python3 bin/vcro wiki verify
 
 # Check version
-vcro version</code></pre>
+python3 bin/vcro version</code></pre>
+
+      <h2>Optional: TUI enhancements</h2>
+
+      <p>
+        The <code>bin/vcro</code> CLI works with stdlib Python only. For a richer terminal experience (colored output, spinners, markdown rendering), install the optional packages:
+      </p>
+
+      <pre><code>pip install rich prompt_toolkit</code></pre>
+
+      <p>
+        These are auto-detected at startup. The CLI gracefully falls back to plain output when they are absent.
+      </p>
 
       <div class="doc-footer">
-        <span>&copy; 2026 vCRO</span>
+        <span>&copy; 2026 viCRO</span>
         <a href="https://github.com/kamilseghrouchni/vcro-sourcing">GitHub</a>
       </div>
 
