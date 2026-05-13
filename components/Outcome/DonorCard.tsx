@@ -5,9 +5,21 @@ function shortDx(s: string | null): string {
   if (!s) return "";
   try {
     const parsed = JSON.parse(s);
-    if (Array.isArray(parsed)) return parsed.filter(Boolean).join("; ").slice(0, 180);
+    if (Array.isArray(parsed)) return parsed.filter(Boolean).join("; ");
   } catch {}
-  return s.replace(/\s+/g, " ").slice(0, 180);
+  return s.replace(/\s+/g, " ");
+}
+
+function leadingDx(raw: string): string {
+  // Drop generic prefix like "Neurological condition;" — keep the specific line.
+  const parts = raw.split(/[;|]/).map((s) => s.trim()).filter(Boolean);
+  if (parts.length <= 1) return raw.trim();
+  // Prefer the last part if the first looks like a category header
+  const first = parts[0].toLowerCase();
+  if (first.endsWith("condition") || first.endsWith("disease") || first.endsWith("disorder") || first.endsWith("category")) {
+    return parts[parts.length - 1];
+  }
+  return parts.join(" · ");
 }
 
 export type DonorGroup = {
@@ -34,7 +46,8 @@ export function groupRowsByDonor(rows: SpecimenRow[]): DonorGroup[] {
 export function DonorCard({ group, onOpen }: { group: DonorGroup; onOpen?: (row: SpecimenRow) => void }) {
   const rows = group.rows;
   const head = rows[0];
-  const dx = shortDx(head.donor_diagnoses) || shortDx(head.specimen_diagnoses) || shortDx(head.unstructured_pathology);
+  const rawDx = shortDx(head.donor_diagnoses) || shortDx(head.specimen_diagnoses) || shortDx(head.unstructured_pathology);
+  const dx = rawDx ? leadingDx(rawDx) : "";
 
   const typeCounts = new Map<string, number>();
   for (const r of rows) {
@@ -46,42 +59,29 @@ export function DonorCard({ group, onOpen }: { group: DonorGroup; onOpen?: (row:
     .map(([t, n]) => (n > 1 ? `${t} ×${n}` : t))
     .join(" · ");
 
-  const years = rows.map((r) => r.year).filter((y): y is number => y != null);
-  const yearLbl = years.length === 0
-    ? null
-    : Math.min(...years) === Math.max(...years)
-      ? String(years[0])
-      : `${Math.min(...years)}–${Math.max(...years)}`;
-
   const ages = rows.map((r) => r.age).filter((a): a is number => a != null);
   const ageLbl = ages.length === 0
     ? null
     : Math.min(...ages) === Math.max(...ages)
-      ? String(ages[0])
-      : `${Math.min(...ages)}–${Math.max(...ages)}`;
+      ? `${ages[0]}y`
+      : `${Math.min(...ages)}–${Math.max(...ages)}y`;
 
-  const presSet = new Set(rows.map((r) => r.preservation_category).filter(Boolean) as string[]);
-  const presLbl = presSet.size === 1 ? Array.from(presSet)[0] : presSet.size > 1 ? "mixed" : null;
+  const sex = head.sex ? (head.sex.toLowerCase().startsWith("f") ? "Female" : head.sex.toLowerCase().startsWith("m") ? "Male" : head.sex) : null;
+  const visitsLbl = rows.length > 1 ? `${rows.length} visits` : "1 visit";
 
   return (
-    <div className="specimen" onClick={() => onOpen?.(head)} role="button" tabIndex={0}>
-      <div className="head">
-        <span className="id">
-          {group.donorIdLabel ?? head.specimen_id.slice(0, 12) + "…"}
-          {rows.length > 1 && (
-            <span style={{ marginLeft: 8, color: "var(--text-2)" }}>· {rows.length} visits</span>
-          )}
-        </span>
-        <span className="mono-sm" style={{ color: "var(--text-3)" }}>{typesLine}</span>
+    <div className="dcard" onClick={() => onOpen?.(head)} role="button" tabIndex={0}>
+      <div className="dcard-top">
+        <div className="dcard-type">{typesLine}</div>
+        <div className="dcard-visits mono">{visitsLbl}</div>
       </div>
-      <div className="demo">
-        {head.sex && <span><span className="k">Sex</span>{head.sex[0]}</span>}
-        {ageLbl && <span><span className="k">Age</span>{ageLbl}</span>}
-        {head.country && <span><span className="k">Cty</span>{head.country}</span>}
-        {yearLbl && <span><span className="k">Yr</span>{yearLbl}</span>}
-        {presLbl && <span><span className="k">Pres</span>{presLbl}</span>}
-      </div>
-      {dx && <div className="dx">{dx}</div>}
+      {(sex || ageLbl) && (
+        <div className="dcard-demo">
+          {[sex, ageLbl].filter(Boolean).join(" · ")}
+        </div>
+      )}
+      {dx && <div className="dcard-dx">{dx}</div>}
+      <div className="dcard-foot mono">View detail →</div>
     </div>
   );
 }

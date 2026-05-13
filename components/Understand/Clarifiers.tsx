@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import type { Clarifier, ClarifierAnswer } from "@/app/api/parse/types";
 
 type Mode = "proposed" | "custom" | "skipped" | "answered";
@@ -14,9 +14,11 @@ type CardState = {
 export function Clarifiers({
   clarifiers,
   onAnswersChange,
+  action,
 }: {
   clarifiers: Clarifier[];
   onAnswersChange: (answers: ClarifierAnswer[]) => void;
+  action?: ReactNode;
 }) {
   const [states, setStates] = useState<Record<string, CardState>>(() => {
     const out: Record<string, CardState> = {};
@@ -48,12 +50,6 @@ export function Clarifiers({
     setStates((prev) => ({ ...prev, [id]: { ...prev[id], ...p } }));
   }
 
-  const counts = {
-    answered: Object.values(states).filter((s) => s.mode === "answered" || s.mode === "custom").length,
-    proposed: Object.values(states).filter((s) => s.mode === "proposed").length,
-    skipped: Object.values(states).filter((s) => s.mode === "skipped").length,
-  };
-
   if (clarifiers.length === 0) {
     return (
       <div className="clarifiers-empty">
@@ -67,10 +63,7 @@ export function Clarifiers({
     <div className="clarifiers">
       <div className="cl-hd">
         <span className="cl-eyebrow">A few quick questions</span>
-        <span className="mono-sm cl-meta">
-          {counts.answered} ANSWERED · {counts.proposed} PROPOSED
-          {counts.skipped > 0 ? ` · ${counts.skipped} SKIPPED` : ""} · OPTIONAL
-        </span>
+        <span className="cl-hd-right">{action}</span>
       </div>
 
       <div className="cl-list">
@@ -82,14 +75,6 @@ export function Clarifiers({
             onPatch={(p) => patch(c.id, p)}
           />
         ))}
-      </div>
-
-      <div className="cl-foot">
-        You can answer now or run with our best guesses — we'll flag anything we had to assume.
-        <span className="cl-foot-counts mono-sm">
-          {counts.answered} answered · {counts.proposed} default{counts.proposed === 1 ? "" : "s"}
-          {counts.skipped ? ` · ${counts.skipped} skipped` : ""}
-        </span>
       </div>
     </div>
   );

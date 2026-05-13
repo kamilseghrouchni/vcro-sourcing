@@ -1,22 +1,36 @@
 "use client";
 import type { InstituteEntry } from "@/lib/tools/query_specimens";
 
-const PILLAR_ORDER = ["specimens", "donors", "longitudinal", "matched_pairs"] as const;
+type Segment = { type: string; n: number; share: number };
 
-function pillarsForInstitute(i: InstituteEntry): { k: string; v: number }[] {
-  const matched = i.matched_pair_donor_count;
-  const long = i.longitudinal_donor_count;
-  // 0..1 normalized signals
-  const specimens01 = Math.min(1, Math.log10(i.specimen_count + 1) / 4); // log scale ~10K
-  const donors01 = Math.min(1, Math.log10(i.donor_count + 1) / 3.5);
-  const long01 = Math.min(1, Math.log10(long + 1) / 2.5);
-  const contact01 = i.contact_email ? 1 : 0;
-  return [
-    { k: "SP", v: specimens01 },
-    { k: "DR", v: donors01 },
-    { k: "LG", v: long01 },
-    { k: "CT", v: contact01 },
-  ];
+function compositionFor(inst: InstituteEntry): Segment[] {
+  const entries = Object.entries(inst.by_specimen_type ?? {})
+    .filter(([, n]) => n > 0)
+    .sort((a, b) => b[1] - a[1]);
+  const total = entries.reduce((s, [, n]) => s + n, 0);
+  if (total === 0) return [];
+  return entries.map(([type, n]) => ({
+    type,
+    n,
+    share: n / total,
+  }));
+}
+
+function compositionLabel(segs: Segment[]): string {
+  if (segs.length === 0) return "";
+  const top = segs[0];
+  if (top.share >= 0.85) return `almost all ${top.type.toLowerCase()}`;
+  if (top.share >= 0.6) {
+    const second = segs[1];
+    return second
+      ? `mostly ${top.type.toLowerCase()} · some ${second.type.toLowerCase()}`
+      : `mostly ${top.type.toLowerCase()}`;
+  }
+  const second = segs[1];
+  if (second && second.share >= 0.25) {
+    return `${top.type.toLowerCase()} and ${second.type.toLowerCase()}`;
+  }
+  return `${top.type.toLowerCase()}, mixed`;
 }
 
 export function RankedList({
@@ -29,38 +43,33 @@ export function RankedList({
   onSelect: (id: string | null) => void;
 }) {
   if (!institutes.length) {
-    return <div style={{ padding: "30px 20px", color: "var(--text-3)", fontFamily: "var(--mono)", fontSize: 11, textTransform: "uppercase", letterSpacing: ".1em" }}>No institutes yet — ask a question below.</div>;
+    return <div className="rail-empty">Nothing matched in the bank.</div>;
   }
 
   return (
     <div className="ranked">
       {institutes.map((i) => {
-        const ready = !!i.contact_email && i.specimen_count >= 50;
-        const pillars = pillarsForInstitute(i);
         const sampleN = i.sample_rows.length;
+        const comp = compositionFor(i);
+        const compLabel = compositionLabel(comp);
+        const fact =
+          i.specimen_count > sampleN
+            ? `${sampleN} of ${i.specimen_count.toLocaleString()} specimens`
+            : `${i.specimen_count.toLocaleString()} specimens`;
         return (
           <div
             key={i.organization_id}
-            className={`ranked-row ${selectedId === i.organization_id ? "sel" : ""}`}
+            className={`row-r ${selectedId === i.organization_id ? "sel" : ""}`}
             onClick={() => onSelect(i.organization_id)}
           >
-            <div className="ranked-top">
-              <div className="ranked-name">{i.name}</div>
-              <span className="mono-sm" style={{ color: "var(--text-3)" }}>{i.country ?? "—"}</span>
+            <div className="row-r-top">
+              <div className="row-r-name">{i.name}</div>
+              <div className="row-r-country mono-sm">{i.country ?? "—"}</div>
             </div>
-            <div className="ranked-meta">
-              {sampleN} matching{i.specimen_count > sampleN ? ` of ${i.specimen_count.toLocaleString()}` : ""} sp · {i.donor_count.toLocaleString()} donors
-              {i.longitudinal_donor_count > 0 ? ` · ${i.longitudinal_donor_count.toLocaleString()} long.` : ""}
-            </div>
-            <div className="ranked-bottom">
-              <div className="ranked-bars">
-                {pillars.map((p) => (
-                  <div key={p.k} className="ranked-bar" title={`${p.k}: ${(p.v * 100).toFixed(0)}%`}>
-                    <span style={{ width: `${Math.max(6, p.v * 100)}%` }} />
-                  </div>
-                ))}
-              </div>
-              {!i.contact_email && <span className="tag warn" style={{ fontSize: 8.5, padding: "1px 6px" }}>no contact</span>}
+            <div className="row-r-fact">
+              {fact}
+              {compLabel && <span className="row-r-mix"> · {compLabel}</span>}
+              {!i.contact_email && <span className="row-r-warn"> · no contact</span>}
             </div>
           </div>
         );

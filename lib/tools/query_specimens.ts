@@ -192,11 +192,12 @@ function rangeMatch(v: number | null, range: [number | null, number | null]): bo
 }
 
 function quoteFts(s: string): string {
-  // Handle multi-word phrases as quoted FTS phrases; single words bare.
+  // Always wrap in double quotes — FTS5 treats unquoted hyphens as column
+  // qualifiers (e.g. "node-positive" → "no such column: positive"). Quoting
+  // forces phrase semantics so anything goes through verbatim.
   const cleaned = s.replace(/[^a-z0-9 \-']/gi, " ").trim();
   if (!cleaned) return "";
-  if (/\s/.test(cleaned)) return `"${cleaned}"`;
-  return cleaned;
+  return `"${cleaned}"`;
 }
 
 function buildWhere(f: SpecimenFilters): { sql: string; params: any[]; ftsMatch: string | null } {

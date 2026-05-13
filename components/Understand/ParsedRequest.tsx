@@ -1,24 +1,56 @@
 "use client";
-import type { ParseResult, ParsedField } from "@/app/api/parse/types";
+import { useState, type ReactNode } from "react";
+import type { ParseResult, ParsedField, DetectedAssay } from "@/app/api/parse/types";
 
 export function ParsedRequest({
   parsed,
   rawQuery,
+  onAssaysChange,
+  action,
 }: {
   parsed: ParseResult;
   rawQuery: string;
+  onAssaysChange?: (assays: DetectedAssay[]) => void;
+  action?: ReactNode;
 }) {
   const fields = parsed.fields;
+  const editable = typeof onAssaysChange === "function";
+  const [adding, setAdding] = useState(false);
+  const [draftName, setDraftName] = useState("");
+  const [draftFamily, setDraftFamily] = useState("");
+
+  function removeAssay(name: string) {
+    if (!onAssaysChange) return;
+    onAssaysChange(parsed.assays.filter((a) => a.assay !== name));
+  }
+
+  function commitAdd() {
+    const name = draftName.trim();
+    if (!name || !onAssaysChange) {
+      cancelAdd();
+      return;
+    }
+    if (parsed.assays.some((a) => a.assay.toLowerCase() === name.toLowerCase())) {
+      cancelAdd();
+      return;
+    }
+    const family = draftFamily.trim() || "custom";
+    onAssaysChange([...parsed.assays, { assay: name, family, source: "stated", reason: "user added" }]);
+    cancelAdd();
+  }
+
+  function cancelAdd() {
+    setAdding(false);
+    setDraftName("");
+    setDraftFamily("");
+  }
+
   return (
     <div className="parsed-request">
       <div className="pr-hd">
         <span className="pr-eyebrow">Here's what we heard</span>
-        <span className="pr-meta mono-sm">
-          {fields.length} field{fields.length === 1 ? "" : "s"} · {parsed.facets.total_specimens.toLocaleString()} specimens to draw from
-        </span>
+        {action && <span className="pr-hd-right">{action}</span>}
       </div>
-
-      <div className="pr-prose serif">{parsed.parsed_text}</div>
 
       <div className="pr-fields">
         {fields.length === 0 && (
@@ -29,27 +61,78 @@ export function ParsedRequest({
         ))}
       </div>
 
-      {parsed.assays && parsed.assays.length > 0 && (
+      {(editable || (parsed.assays && parsed.assays.length > 0)) && (
         <div className="pr-assays">
           <div className="pr-assays-h">
             <span className="pr-assays-eyebrow mono-sm">Assays for this request</span>
-            <span className="pr-assays-meta mono-sm">
-              {parsed.assays.length} · {parsed.assays.every((a) => a.source === "stated") ? "all stated" : "some inferred"}
-            </span>
+            {parsed.assays.length === 0 && (
+              <span className="pr-assays-meta mono-sm">none — add one if needed</span>
+            )}
           </div>
-          <ul className="pr-assays-list">
-            {parsed.assays.map((a) => (
-              <li key={a.assay} className={`pr-assay src-${a.source}`}>
-                <span className="pr-assay-fam mono-sm">{a.family}</span>
-                <span className="pr-assay-name">{a.assay}</span>
-                <span className="pr-assay-tag mono-sm">
-                  <span className={`pr-pip pr-pip-${a.source}`} />
-                  {a.source === "stated" ? "STATED" : "INFERRED"}
-                </span>
-                {a.reason && <span className="pr-assay-reason">{a.reason}</span>}
-              </li>
-            ))}
-          </ul>
+          {parsed.assays.length > 0 && (
+            <ul className="pr-assays-list">
+              {parsed.assays.map((a) => (
+                <li key={a.assay} className={`pr-assay src-${a.source}`}>
+                  <span className="pr-assay-fam mono-sm">{a.family}</span>
+                  <span className="pr-assay-name">{a.assay}</span>
+                  <span className="pr-assay-tag mono-sm">
+                    <span className={`pr-pip pr-pip-${a.source}`} />
+                    {a.source === "stated" ? "STATED" : "INFERRED"}
+                  </span>
+                  {editable && (
+                    <button
+                      type="button"
+                      className="pr-assay-x"
+                      aria-label={`Remove ${a.assay}`}
+                      title="Remove"
+                      onClick={() => removeAssay(a.assay)}
+                    >
+                      ×
+                    </button>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+          {editable && (
+            <div className="pr-assays-add">
+              {adding ? (
+                <div className="pr-assay-add-row">
+                  <input
+                    autoFocus
+                    className="pr-assay-add-name"
+                    placeholder="Assay name (e.g. RNA-seq)"
+                    value={draftName}
+                    onChange={(e) => setDraftName(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") commitAdd();
+                      if (e.key === "Escape") cancelAdd();
+                    }}
+                  />
+                  <input
+                    className="pr-assay-add-fam"
+                    placeholder="Family (optional)"
+                    value={draftFamily}
+                    onChange={(e) => setDraftFamily(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") commitAdd();
+                      if (e.key === "Escape") cancelAdd();
+                    }}
+                  />
+                  <button type="button" className="btn-p brand pr-assay-add-go" onClick={commitAdd}>
+                    Add
+                  </button>
+                  <button type="button" className="btn-o pr-assay-add-cancel" onClick={cancelAdd}>
+                    Cancel
+                  </button>
+                </div>
+              ) : (
+                <button type="button" className="btn-o pr-assays-add-btn" onClick={() => setAdding(true)}>
+                  + Add assay
+                </button>
+              )}
+            </div>
+          )}
         </div>
       )}
 

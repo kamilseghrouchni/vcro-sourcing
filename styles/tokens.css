@@ -14,7 +14,11 @@
   --brand:     oklch(0.68 0.12 var(--TW-accent-hue));
   --brand-hi:  oklch(0.74 0.14 var(--TW-accent-hue));
   --brand-ink: oklch(0.42 0.11 var(--TW-accent-hue));
-  --brand-fill:oklch(0.92 0.05 var(--TW-accent-hue));
+  /* Highlight fill — soft sage, neutral-warm. Used on parsed prose, answered
+     clarifiers, ::selection, .pill.brand. Decoupled from the teal --TW-accent-hue
+     so the brand-ink (dark teal) reads as accent without painting whole panels blue. */
+  --brand-fill:    oklch(0.94 0.025 142);
+  --brand-fill-bd: oklch(0.86 0.035 142);
   --accent-2:  oklch(0.72 0.13 var(--TW-accent-2-hue));
 
   /* type */
@@ -40,6 +44,15 @@
 }
 html, body { margin:0; padding:0; background:#EDE9E1; color:var(--text); font-family:var(--body); -webkit-font-smoothing:antialiased; }
 * { box-sizing: border-box; }
+
+/* Kill browser-default blue: checkboxes/radios/sliders, text selection, link colour, focus rings. */
+:root { accent-color: var(--brand-ink); }
+input, textarea, select, button { accent-color: var(--brand-ink); }
+::selection { background: var(--brand-fill); color: var(--text); }
+a { color: var(--brand-ink); }
+a:hover { color: var(--text); }
+:focus-visible { outline: 2px solid var(--brand-ink); outline-offset: 2px; border-radius: 4px; }
+input:focus-visible, textarea:focus-visible, select:focus-visible { outline-offset: 0; }
 
 .serif { font-family: var(--display); }
 .mono  { font-family: var(--mono); letter-spacing: 0.12em; text-transform: uppercase; font-size: 11px; }
@@ -86,7 +99,9 @@ html, body { margin:0; padding:0; background:#EDE9E1; color:var(--text); font-fa
 /* buttons */
 .btn-p { display:inline-flex; align-items:center; gap:8px; background:var(--text); color:var(--bg); padding:11px 20px; border-radius:999px; font-family:var(--body); font-weight:500; font-size:13px; border:0; cursor:pointer; }
 .btn-p.brand { background:var(--brand-ink); color:#FBF9F4; box-shadow:0 8px 24px oklch(0.42 0.11 var(--TW-accent-hue) / 0.25); }
-.btn-o { display:inline-flex; align-items:center; gap:8px; background:transparent; border:1px solid var(--cream-line); color:var(--text); padding:10px 18px; border-radius:999px; font-family:var(--body); font-weight:500; font-size:13px; }
+.btn-p:disabled, .btn-p[disabled] { opacity:0.45; cursor:not-allowed; box-shadow:none; }
+.btn-o { display:inline-flex; align-items:center; gap:8px; background:transparent; border:1px solid var(--cream-line); color:var(--text); padding:10px 18px; border-radius:999px; font-family:var(--body); font-weight:500; font-size:13px; cursor:pointer; }
+.btn-o:disabled, .btn-o[disabled] { opacity:0.45; cursor:not-allowed; }
 .on-dark .btn-p:not(.brand), .btn-p.on-dark:not(.brand) { background:var(--ink-text); color:var(--ink); }
 .on-dark .btn-o, .btn-o.on-dark { border-color:var(--ink-3); color:var(--ink-text); }
 

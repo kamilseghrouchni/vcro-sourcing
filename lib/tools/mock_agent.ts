@@ -217,6 +217,9 @@ export function mockAgentResponse(messages: UIMessage[]): Response {
   const stream = createUIMessageStream({
     execute: async ({ writer }: { writer: UIMessageStreamWriter }) => {
       try {
+        writer.write({ type: "start", messageId: `m_${Math.random().toString(36).slice(2, 10)}` });
+        writer.write({ type: "start-step" });
+
         const followUp = inferFollowUp(userText);
         if (followUp && Object.keys(lastFilters).length > 0) {
           // Follow-up turn
@@ -230,6 +233,7 @@ export function mockAgentResponse(messages: UIMessage[]): Response {
             const out = queryspecimens(merged);
             await streamToolCall(writer, "query_specimens", followUp.delta, out);
           }
+          writer.write({ type: "finish-step" });
           writer.write({ type: "finish" });
           return;
         }
@@ -269,6 +273,7 @@ export function mockAgentResponse(messages: UIMessage[]): Response {
           await streamText(writer, "Click any institute to expand its dossier, or ask me to refine.");
         }
 
+        writer.write({ type: "finish-step" });
         writer.write({ type: "finish" });
       } catch (err: any) {
         writer.write({ type: "error", errorText: err?.message ?? String(err) });

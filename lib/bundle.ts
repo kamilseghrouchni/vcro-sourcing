@@ -6,6 +6,34 @@ export type ProviderType =
   | "specialty_cro"      // assay-specialized CRO (GENEWIZ, Diagenode, Metabolon)
   | "vendor";            // hardware/kit vendor (Illumina, 10x, Bruker)
 
+export type EnrichedSampleType = {
+  type: string;
+  n_papers: number;
+  evidence_pmids: string[];
+};
+
+export type EnrichedIndication = { area: string; n_papers: number };
+export type EnrichedPartner = { name: string; co_pubs: number };
+export type EnrichedPublication = {
+  pmid: string;
+  doi?: string | null;
+  pmc?: string | null;
+  year: number | null;
+  journal: string;
+  title: string;
+};
+
+export type ProviderEnrichment = {
+  publication_total: number;
+  publications_indexed: number;
+  address_hint?: string | null;        // single best HQ string
+  contact_emails: string[];
+  sample_types: EnrichedSampleType[];
+  indication_areas: EnrichedIndication[];
+  academic_partners: EnrichedPartner[];
+  top_publications: EnrichedPublication[];
+};
+
 export type Provider = {
   id: string;            // slug
   name: string;
@@ -22,13 +50,15 @@ export type Provider = {
   // ranking signals
   n_trials?: number;
   total_enrollment?: number;
+  // PubMed-derived enrichment (optional; present if data/providers_enriched/{slug}.json exists)
+  enrichment?: ProviderEnrichment;
 };
 
 export type AssayChoice = {
   assay: string;                   // specific_assay name
   family: string;                  // assay_family
   candidates: Provider[];          // ranked
-  selected?: Provider | null;
+  selected?: Provider[];           // 0..N picks per assay (no provider is allowed)
 };
 
 export type Bundle = {
@@ -39,7 +69,7 @@ export type Bundle = {
     totals: { specimens: number; donors: number; institutes: number };
   };
   assays: AssayChoice[];
-  selected_provider_ids: Record<string, string>;  // assay -> provider.id
+  selected_provider_ids: Record<string, string[]>;  // assay -> provider.ids (0..N)
 };
 
 export type BundleStep = "samples" | "providers" | "summary";

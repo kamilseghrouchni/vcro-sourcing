@@ -4,7 +4,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import type { Provider } from "@/lib/bundle";
+import type { Provider, ProviderEnrichment } from "@/lib/bundle";
 
 export type AssayRow = {
   assay_family: string;
@@ -207,4 +207,60 @@ export function findAssayInCatalog(query: string): AssayRow | null {
 
 export function listAllAssays(): AssayRow[] {
   return loadAssayCatalog();
+}
+
+// --- Provider enrichment (PubMed-derived facts) -----------------------------
+
+const ENRICH_DIR = path.join(DATA_DIR, "providers_enriched");
+let _enrichmentCache: Map<string, ProviderEnrichment> | null = null;
+
+type EnrichmentFileShape = {
+  id: string;
+  name: string;
+  publication_total: number;
+  publications_indexed: number;
+  address_hints: string[];
+  contact_emails: string[];
+  sample_types: ProviderEnrichment["sample_types"];
+  indication_areas: ProviderEnrichment["indication_areas"];
+  academic_partners: ProviderEnrichment["academic_partners"];
+  top_publications: ProviderEnrichment["top_publications"];
+};
+
+function loadEnrichmentIndex(): Map<string, ProviderEnrichment> {
+  if (_enrichmentCache) return _enrichmentCache;
+  const out = new Map<string, ProviderEnrichment>();
+  if (!fs.existsSync(ENRICH_DIR)) {
+    _enrichmentCache = out;
+    return out;
+  }
+  for (const f of fs.readdirSync(ENRICH_DIR)) {
+    if (!f.endsWith(".json") || f.startsWith("_")) continue;
+    try {
+      const raw = JSON.parse(fs.readFileSync(path.join(ENRICH_DIR, f), "utf-8")) as EnrichmentFileShape;
+      out.set(raw.id, {
+        publication_total: raw.publication_total,
+        publications_indexed: raw.publications_indexed,
+        address_hint: raw.address_hints?.[0] ?? null,
+        contact_emails: raw.contact_emails ?? [],
+        sample_types: raw.sample_types ?? [],
+        indication_areas: raw.indication_areas ?? [],
+        academic_partners: raw.academic_partners ?? [],
+        top_publications: raw.top_publications ?? [],
+      });
+    } catch {
+      // ignore malformed file
+    }
+  }
+  _enrichmentCache = out;
+  return out;
+}
+
+export function enrichmentFor(providerId: string): ProviderEnrichment | undefined {
+  return loadEnrichmentIndex().get(providerId);
+}
+
+export function attachEnrichment<T extends Provider>(p: T): T {
+  const e = enrichmentFor(p.id);
+  return e ? { ...p, enrichment: e } : p;
 }

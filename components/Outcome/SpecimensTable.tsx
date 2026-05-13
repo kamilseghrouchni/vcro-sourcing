@@ -1,34 +1,24 @@
 "use client";
-import { useMemo, useState } from "react";
-import type { QuerySpecimensResult, SpecimenRow } from "@/lib/tools/query_specimens";
+import { Fragment, useMemo, useState } from "react";
+import type { InstituteEntry, QuerySpecimensResult, SpecimenRow } from "@/lib/tools/query_specimens";
+import type { SpecimenFilters } from "@/lib/filters";
 
 type SortKey = "year" | "age" | "type" | "preservation" | "country";
+const COL_COUNT = 9;
 
 export function SpecimensTable({ data, onOpen }: { data: QuerySpecimensResult; onOpen?: (row: SpecimenRow) => void }) {
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState<SortKey>("year");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
+  const [openOrgs, setOpenOrgs] = useState<Set<string>>(() => new Set());
 
-  const orgNameById = useMemo(() => {
-    const m: Record<string, string> = {};
-    for (const i of data.institutes) m[i.organization_id] = i.name;
+  const orgById = useMemo(() => {
+    const m: Record<string, InstituteEntry> = {};
+    for (const i of data.institutes) m[i.organization_id] = i;
     return m;
   }, [data.institutes]);
 
-  const filtered = useMemo(() => {
-    const q = search.trim().toLowerCase();
-    let rows = data.table_rows;
-    if (q) {
-      rows = rows.filter((r) => {
-        const blob = [
-          r.specimen_type, r.raw_anatomy, r.source_site, r.country, r.preservation_category,
-          r.donor_diagnoses, r.specimen_diagnoses, r.unstructured_pathology,
-          r.tnm?.T, r.tnm?.N, r.tnm?.M, r.grade, r.stage,
-          r.organization_id ? orgNameById[r.organization_id] : "",
-        ].filter(Boolean).join(" ").toLowerCase();
-        return blob.includes(q);
-      });
-    }
+  const sortRows = (rows: SpecimenRow[]): SpecimenRow[] => {
     const cmp = (a: SpecimenRow, b: SpecimenRow): number => {
       let av: any, bv: any;
       switch (sort) {
@@ -43,7 +33,37 @@ export function SpecimensTable({ data, onOpen }: { data: QuerySpecimensResult; o
       return 0;
     };
     return [...rows].sort(cmp);
-  }, [data.table_rows, search, sort, dir, orgNameById]);
+  };
+
+  const groups = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    let rows = data.table_rows;
+    if (q) {
+      rows = rows.filter((r) => {
+        const orgName = r.organization_id ? orgById[r.organization_id]?.name ?? "" : "";
+        const blob = [
+          r.specimen_type, r.raw_anatomy, r.source_site, r.country, r.preservation_category,
+          r.donor_diagnoses, r.specimen_diagnoses, r.unstructured_pathology,
+          r.tnm?.T, r.tnm?.N, r.tnm?.M, r.grade, r.stage, orgName,
+        ].filter(Boolean).join(" ").toLowerCase();
+        return blob.includes(q);
+      });
+    }
+
+    const byOrg = new Map<string, SpecimenRow[]>();
+    for (const r of rows) {
+      const key = r.organization_id ?? "__none__";
+      const arr = byOrg.get(key);
+      if (arr) arr.push(r);
+      else byOrg.set(key, [r]);
+    }
+
+    return data.institutes
+      .map((inst) => ({ inst, rows: sortRows(byOrg.get(inst.organization_id) ?? []) }))
+      .filter((g) => g.rows.length > 0);
+  }, [data.table_rows, data.institutes, search, sort, dir, orgById]);
+
+  const totalShown = useMemo(() => groups.reduce((acc, g) => acc + g.rows.length, 0), [groups]);
 
   const Th = ({ k, children }: { k: SortKey; children: React.ReactNode }) => (
     <th
@@ -57,6 +77,17 @@ export function SpecimensTable({ data, onOpen }: { data: QuerySpecimensResult; o
     </th>
   );
 
+  const allOpen = openOrgs.size > 0 && openOrgs.size >= groups.length;
+  const toggleOrg = (id: string) =>
+    setOpenOrgs((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  const toggleAll = () =>
+    setOpenOrgs(allOpen ? new Set() : new Set(groups.map((g) => g.inst.organization_id)));
+
   return (
     <>
       <div className="table-controls">
@@ -68,8 +99,11 @@ export function SpecimensTable({ data, onOpen }: { data: QuerySpecimensResult; o
           onChange={(e) => setSearch(e.target.value)}
         />
         <span style={{ fontFamily: "var(--mono)", fontSize: 10, letterSpacing: ".1em", color: "var(--text-3)", textTransform: "uppercase" }}>
-          {filtered.length.toLocaleString()} of {data.table_rows.length.toLocaleString()} sampled · {data.totals.specimens.toLocaleString()} total matched
+          {totalShown.toLocaleString()} of {data.table_rows.length.toLocaleString()} sampled across {groups.length} institute{groups.length === 1 ? "" : "s"} · {data.totals.specimens.toLocaleString()} total matched
         </span>
+        <button className="show-more" style={{ width: "auto", padding: "6px 12px" }} onClick={toggleAll}>
+          {allOpen ? "Collapse all" : "Expand all"}
+        </button>
       </div>
       <div style={{ overflowX: "auto", border: "1px solid var(--bg-sunk)", borderRadius: 10, background: "#FBF9F4" }}>
         <table className="spec-table">
@@ -87,33 +121,85 @@ export function SpecimensTable({ data, onOpen }: { data: QuerySpecimensResult; o
             </tr>
           </thead>
           <tbody>
-            {filtered.map((r) => (
-              <tr key={r.specimen_id + (r.donor_id ?? "")} onClick={() => onOpen?.(r)} style={{ cursor: onOpen ? "pointer" : "default" }}>
-                <td className="sid">{r.external_specimen_id ?? r.specimen_id.slice(0, 10) + "…"}</td>
-                <td className="inst">{r.organization_id ? orgNameById[r.organization_id] ?? "—" : "—"}</td>
-                <td>{r.specimen_type ?? "—"}</td>
-                <td>
-                  <div>{shortAnat(r.raw_anatomy, r.source_site) || "—"}</div>
-                  {dxShort(r) && <div style={{ color: "var(--text-2)", fontSize: 11 }}>{dxShort(r)}</div>}
-                </td>
-                <td className="nowrap">
-                  {r.preservation_category ?? "—"}
-                  {r.storage_temp ? <span style={{ color: "var(--text-3)", marginLeft: 6 }}>{r.storage_temp}</span> : null}
-                </td>
-                <td className="nowrap">{r.age ?? "—"} · {r.sex?.[0] ?? "—"}</td>
-                <td>{r.country ?? "—"}</td>
-                <td>{r.year ?? "—"}</td>
-                <td className="nowrap">
-                  {r.tnm ? `T${r.tnm.T ?? "?"}N${r.tnm.N ?? "?"}M${r.tnm.M ?? "?"}` : "—"}
-                  {r.grade ? ` · G${r.grade}` : ""}
-                </td>
-              </tr>
-            ))}
+            {groups.map(({ inst, rows }) => {
+              const open = openOrgs.has(inst.organization_id);
+              const reasons = summarizeMatch(inst, data.filters_applied);
+              return (
+                <Fragment key={inst.organization_id}>
+                  <tr className="org-row" onClick={() => toggleOrg(inst.organization_id)}>
+                    <td colSpan={COL_COUNT}>
+                      <div className="org-row-inner">
+                        <span className="org-caret">{open ? "▾" : "▸"}</span>
+                        <span className="org-name">{inst.name}</span>
+                        <span className="org-meta">
+                          {inst.country ?? "—"} · {rows.length} matching specimen{rows.length === 1 ? "" : "s"} · {inst.donor_count.toLocaleString()} donors
+                          {inst.longitudinal_donor_count > 0 ? ` · ${inst.longitudinal_donor_count.toLocaleString()} long.` : ""}
+                        </span>
+                        {reasons.length > 0 && (
+                          <span className="org-reasons">
+                            {reasons.map((r) => (
+                              <span key={r} className="org-reason">{r}</span>
+                            ))}
+                          </span>
+                        )}
+                      </div>
+                    </td>
+                  </tr>
+                  {open && rows.map((r) => (
+                    <tr
+                      key={r.specimen_id + (r.donor_id ?? "")}
+                      className="org-child"
+                      onClick={() => onOpen?.(r)}
+                      style={{ cursor: onOpen ? "pointer" : "default" }}
+                    >
+                      <td className="sid">{r.external_specimen_id ?? r.specimen_id.slice(0, 10) + "…"}</td>
+                      <td className="inst" style={{ color: "var(--text-3)" }}>↳</td>
+                      <td>{r.specimen_type ?? "—"}</td>
+                      <td>
+                        <div>{shortAnat(r.raw_anatomy, r.source_site) || "—"}</div>
+                        {dxShort(r) && <div style={{ color: "var(--text-2)", fontSize: 11 }}>{dxShort(r)}</div>}
+                      </td>
+                      <td className="nowrap">
+                        {r.preservation_category ?? "—"}
+                        {r.storage_temp ? <span style={{ color: "var(--text-3)", marginLeft: 6 }}>{r.storage_temp}</span> : null}
+                      </td>
+                      <td className="nowrap">{r.age ?? "—"} · {r.sex?.[0] ?? "—"}</td>
+                      <td>{r.country ?? "—"}</td>
+                      <td>{r.year ?? "—"}</td>
+                      <td className="nowrap">
+                        {r.tnm ? `T${r.tnm.T ?? "?"}N${r.tnm.N ?? "?"}M${r.tnm.M ?? "?"}` : "—"}
+                        {r.grade ? ` · G${r.grade}` : ""}
+                      </td>
+                    </tr>
+                  ))}
+                </Fragment>
+              );
+            })}
           </tbody>
         </table>
       </div>
     </>
   );
+}
+
+function summarizeMatch(inst: InstituteEntry, f: SpecimenFilters): string[] {
+  const rows = inst.sample_rows;
+  const total = rows.length;
+  const out: string[] = [];
+  const flagAll = (key: keyof NonNullable<SpecimenRow["match_flags"]>): boolean =>
+    total > 0 && rows.every((r) => r.match_flags?.[key]);
+
+  if (f.indication?.length && flagAll("indication")) out.push(`✓ ${f.indication.join("/")}`);
+  if (f.specimen_types?.length && flagAll("specimen_type")) out.push(`✓ ${f.specimen_types.join("/")}`);
+  if (f.preservation && flagAll("preservation")) {
+    const pres = Array.isArray(f.preservation) ? f.preservation.join("/") : f.preservation;
+    out.push(`✓ ${pres}`);
+  }
+  if (f.anatomy?.length && flagAll("anatomy")) out.push(`✓ ${f.anatomy.join("/")}`);
+  if (f.longitudinal && inst.longitudinal_donor_count > 0) out.push(`✓ longitudinal`);
+  if (f.matched_pairs_required && inst.matched_pair_donor_count > 0) out.push(`✓ matched pairs`);
+  if (inst.contact_email) out.push(`✓ contact`);
+  return out;
 }
 
 function shortAnat(raw: string | null, fallback: string | null): string {

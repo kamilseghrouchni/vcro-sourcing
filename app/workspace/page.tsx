@@ -1,18 +1,20 @@
 "use client";
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport, type UIMessage } from "ai";
-import { useEffect, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useEffect, useMemo, useRef, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import type { QuerySpecimensResult, InstituteEntry } from "@/lib/tools/query_specimens";
 import type { FindPublicationsResult } from "@/lib/tools/find_publications";
 import { EventLog } from "@/components/ChatRail/EventLog";
-import { Composer } from "@/components/ChatRail/Composer";
 import { RankedList } from "@/components/Outcome/RankedList";
 import { InstituteDetail } from "@/components/Outcome/InstituteDetail";
 import { SecondaryStack } from "@/components/Outcome/SecondaryStack";
 import { SpecimensTable } from "@/components/Outcome/SpecimensTable";
 import { SpecimenDrawer } from "@/components/Outcome/SpecimenDrawer";
+import { ProspectiveList } from "@/components/Outcome/ProspectiveList";
+import { ProspectiveDetail } from "@/components/Outcome/ProspectiveDetail";
 import type { SpecimenRow } from "@/lib/tools/query_specimens";
+import type { ProspectiveCard } from "@/lib/prospective";
 import type { ParseResult, ClarifierAnswer } from "@/app/api/parse/types";
 import { ParsedRequest } from "@/components/Understand/ParsedRequest";
 import { Clarifiers } from "@/components/Understand/Clarifiers";
@@ -22,6 +24,14 @@ import { HandoffModal } from "@/components/Handoff/HandoffModal";
 type Step = "parse" | "clarify" | "running" | "results";
 
 export default function WorkspacePage() {
+  return (
+    <Suspense fallback={null}>
+      <WorkspacePageContent />
+    </Suspense>
+  );
+}
+
+function WorkspacePageContent() {
   const { messages, sendMessage, status, error } = useChat({
     transport: new DefaultChatTransport({ api: "/api/agent" }),
   });
@@ -35,37 +45,78 @@ export default function WorkspacePage() {
   const startedParse = useRef(false);
 
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedProspectiveId, setSelectedProspectiveId] = useState<string | null>(null);
   const [autoSelected, setAutoSelected] = useState<string | null>(null);
   const [view, setView] = useState<"institute" | "table">("institute");
   const [drawerRow, setDrawerRow] = useState<SpecimenRow | null>(null);
   const [handoffOpen, setHandoffOpen] = useState(false);
+  const [handoffSource, setHandoffSource] = useState<"banked" | "prospective" | null>(null);
+  const [restoredQuery, setRestoredQuery] = useState<QuerySpecimensResult | null>(null);
+  const [prospective, setProspective] = useState<ProspectiveCard[]>([]);
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const queryParam = searchParams.get("q");
+  const tParam = searchParams.get("t"); // nonce — changes per run so the effect re-fires
+  const lastRunKey = useRef<string | null>(null);
 
-  // Step 1: read the initial query and parse it
+  // Step 1: read the initial query and parse it. The query is passed via the
+  // ?q= URL param (with a ?t= nonce so re-clicking the same chip still re-parses).
+  // If there's no ?q=, try to restore the prior session from the stashed bundle
+  // ctx so back-from-bundle doesn't loop on an empty parse step.
   useEffect(() => {
-    if (startedParse.current) return;
-    const initial = sessionStorage.getItem("crovi_initial_query");
-    if (!initial) {
-      setStep("clarify"); // direct nav with no query — show empty clarify
+    // Legacy fallback: an older flow may have stashed the query in sessionStorage.
+    const stashedInitial = typeof window !== "undefined" ? sessionStorage.getItem("crovi_initial_query") : null;
+    const initial = queryParam ?? stashedInitial;
+    if (initial) {
+      const runKey = `${initial}::${tParam ?? ""}`;
+      if (lastRunKey.current === runKey) return;
+      lastRunKey.current = runKey;
+      if (stashedInitial) sessionStorage.removeItem("crovi_initial_query");
+      startedParse.current = true;
+      setRawQuery(initial);
+      setParsed(null);
+      setParseError(null);
+      setAnswers([]);
+      setRestoredQuery(null);
+      setRunComplete(false);
+      setStep("parse");
+      parseQuery(initial)
+        .then((p) => {
+          setParsed(p);
+          setStep("clarify");
+        })
+        .catch((e) => {
+          setParseError(e?.message ?? String(e));
+          setStep("clarify");
+        });
       return;
     }
-    sessionStorage.removeItem("crovi_initial_query");
-    startedParse.current = true;
-    setRawQuery(initial);
-    parseQuery(initial)
-      .then((p) => {
-        setParsed(p);
-        setStep("clarify");
-      })
-      .catch((e) => {
-        setParseError(e?.message ?? String(e));
-        setStep("clarify");
-      });
-  }, []);
+    // First mount with no q param — try restoring from bundle ctx.
+    if (startedParse.current) return;
+    const stashed = sessionStorage.getItem("crovi_bundle_ctx");
+    if (stashed) {
+      try {
+        const ctx = JSON.parse(stashed) as { rawQuery?: string; parsed?: ParseResult | null; result?: QuerySpecimensResult | null };
+        if (ctx.result) {
+          startedParse.current = true;
+          if (ctx.rawQuery) setRawQuery(ctx.rawQuery);
+          if (ctx.parsed) setParsed(ctx.parsed);
+          setRestoredQuery(ctx.result);
+          setRunComplete(true);
+          setStep("results");
+          return;
+        }
+      } catch {
+        // fall through to empty clarify
+      }
+    }
+    setStep("clarify");
+  }, [queryParam, tParam]);
 
   // Step 3 → 4: when first query_specimens output lands, hold the running view
   // briefly so the deliver beat is visible, then transition.
-  const { latestQuery, latestPubs, firstUserText } = useMemo(() => deriveState(messages), [messages]);
+  const { latestQuery: streamedQuery, latestPubs, firstUserText } = useMemo(() => deriveState(messages), [messages]);
+  const latestQuery: QuerySpecimensResult | null = streamedQuery ?? restoredQuery;
   const institutes: InstituteEntry[] = latestQuery?.institutes ?? [];
   const isStreaming = status === "streaming" || status === "submitted";
   const [runComplete, setRunComplete] = useState(false);
@@ -86,14 +137,36 @@ export default function WorkspacePage() {
     }
   }, [institutes, selectedId, autoSelected]);
 
+  // Fetch prospective partners once we hit the results step. Ranked against the
+  // user's query so the most relevant one floats up.
+  useEffect(() => {
+    if (step !== "results") return;
+    if (prospective.length > 0) return;
+    const q = rawQuery || firstUserText || "";
+    fetch(`/api/prospective?q=${encodeURIComponent(q)}`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.statusText)))
+      .then((data) => setProspective(data.cards ?? []))
+      .catch(() => setProspective([]));
+  }, [step, prospective.length, rawQuery, firstUserText]);
+
   const selected = institutes.find((i) => i.organization_id === selectedId) ?? null;
+  const selectedProspective = prospective.find((p) => p.id === selectedProspectiveId) ?? null;
+
+  function selectBanked(id: string | null) {
+    setSelectedId(id);
+    if (id) setSelectedProspectiveId(null);
+  }
+  function selectProspective(id: string | null) {
+    setSelectedProspectiveId(id);
+    if (id) setSelectedId(null);
+  }
 
   function launch() {
     if (!parsed) return;
     const finalText = composeFinalText(rawQuery, parsed, answers);
     setRunStartedAt(Date.now());
     setStep("running");
-    sendMessage({ text: finalText });
+    sendMessage({ text: finalText }, { body: { parsedFilters: parsed.filters } });
   }
 
   // Reflow when running but no parsed (e.g., direct nav typing in composer post-results)
@@ -140,12 +213,22 @@ export default function WorkspacePage() {
           {parsed && (
             <>
               <section className="clarify-left">
-                <ParsedRequest parsed={parsed} rawQuery={rawQuery} />
+                <ParsedRequest
+                  parsed={parsed}
+                  rawQuery={rawQuery}
+                  onAssaysChange={(assays) => setParsed({ ...parsed, assays })}
+                  action={
+                    <button className="btn-o" onClick={() => history.back()}>← Edit request</button>
+                  }
+                />
               </section>
               <section className="clarify-right">
                 <Clarifiers
                   clarifiers={parsed.clarifiers}
                   onAnswersChange={setAnswers}
+                  action={
+                    <button className="btn-p brand" onClick={launch}>Run search →</button>
+                  }
                 />
               </section>
             </>
@@ -156,22 +239,6 @@ export default function WorkspacePage() {
             </div>
           )}
         </main>
-
-        {parsed && (
-          <div className="clarify-foot">
-            <div className="cf-meta mono-sm">
-              {parsed.fields.length} field{parsed.fields.length === 1 ? "" : "s"} parsed ·{" "}
-              {parsed.fields.filter((f) => f.source === "inferred").length} inferred ·{" "}
-              {parsed.clarifiers.length} clarifier{parsed.clarifiers.length === 1 ? "" : "s"} — answer or run with our defaults
-            </div>
-            <div className="cf-actions">
-              <button className="btn-o" onClick={() => history.back()}>← Edit request</button>
-              <button className="btn-p brand cf-run" onClick={launch}>
-                Run search →
-              </button>
-            </div>
-          </div>
-        )}
       </div>
     );
   }
@@ -220,14 +287,21 @@ export default function WorkspacePage() {
               {isStreaming ? <span className="live-dot" /> : null}
               {isStreaming ? "Run in progress" : "Run complete"}
             </span>
-            <span className="thread-id">CROVI · THREAD-{(messages[0]?.id ?? "00000").slice(-5).toUpperCase()}</span>
           </div>
           {(firstUserText || rawQuery) && <h1 className="req-title serif">{rawQuery || firstUserText}</h1>}
           {latestQuery && (
             <div className="meta">
+              <span>
+                <strong>{latestQuery.totals.institutes}</strong> from the bank
+              </span>
+              {prospective.length > 0 && (
+                <span>
+                  <strong>{prospective.length}</strong> prospective partners
+                </span>
+              )}
+              <span className="meta-sep">·</span>
               <span>{latestQuery.totals.specimens.toLocaleString()} specimens</span>
               <span>{latestQuery.totals.donors.toLocaleString()} donors</span>
-              <span>{latestQuery.totals.institutes} institutes</span>
               {latestQuery.totals.longitudinal_donors > 0 && <span>{latestQuery.totals.longitudinal_donors.toLocaleString()} longitudinal</span>}
             </div>
           )}
@@ -264,7 +338,10 @@ export default function WorkspacePage() {
             <RailContent
               institutes={institutes}
               selectedId={selectedId}
-              onSelect={setSelectedId}
+              onSelect={selectBanked}
+              prospective={prospective}
+              selectedProspectiveId={selectedProspectiveId}
+              onSelectProspective={selectProspective}
               messages={messages}
               error={error}
               isStreaming={isStreaming}
@@ -278,13 +355,23 @@ export default function WorkspacePage() {
               <div className="sect-lbl">Matching specimens · table</div>
               <SpecimensTable data={latestQuery} onOpen={setDrawerRow} />
             </section>
+          ) : selectedProspective ? (
+            <ProspectiveDetail
+              card={selectedProspective}
+              onAddToHandoff={() => {
+                setHandoffSource("prospective");
+                setHandoffOpen(true);
+              }}
+            />
           ) : selected ? (
             <InstituteDetail
               inst={selected}
               query={latestQuery!}
               pubs={latestPubs ?? null}
-              onAuditDeeper={() => sendMessage({ text: `Open an audit-deeper request form for ${selected.name}.` })}
-              onCommissionWider={() => sendMessage({ text: `Open a wider-sourcing request form.` })}
+              onHandoff={() => {
+                setHandoffSource("banked");
+                setHandoffOpen(true);
+              }}
               onOpenSpecimen={setDrawerRow}
             />
           ) : (
@@ -292,11 +379,6 @@ export default function WorkspacePage() {
           )}
         </main>
       </div>
-
-      <Composer
-        disabled={isStreaming}
-        onSubmit={(text) => sendMessage({ text })}
-      />
 
       {drawerRow && (
         <SpecimenDrawer
@@ -308,10 +390,15 @@ export default function WorkspacePage() {
 
       <HandoffModal
         open={handoffOpen}
-        onClose={() => setHandoffOpen(false)}
+        onClose={() => {
+          setHandoffOpen(false);
+          setHandoffSource(null);
+        }}
         rawQuery={rawQuery || firstUserText}
         parsed={parsed}
         result={latestQuery}
+        prospective={handoffSource === "prospective" ? selectedProspective : null}
+        bankedInstitute={handoffSource === "banked" ? selected : null}
       />
     </div>
   );
@@ -328,7 +415,6 @@ async function parseQuery(query: string): Promise<ParseResult> {
 }
 
 function composeFinalText(rawQuery: string, parsed: ParseResult, answers: ClarifierAnswer[]): string {
-  if (!answers.length) return rawQuery;
   const addOns: string[] = [];
   for (const a of answers) {
     const c = parsed.clarifiers.find((x) => x.id === a.id);
@@ -351,6 +437,10 @@ function composeFinalText(rawQuery: string, parsed: ParseResult, answers: Clarif
       else if (v === "non-USA") addOns.push("Outside USA only.");
     }
   }
+  // Assays are intentionally NOT appended here — they're a downstream concern
+  // (bundle step picks providers per assay). Adding them to the search prompt
+  // re-feeds the LLM and shifts the institute filters, so the institute list
+  // would change every time the user added or removed an assay.
   if (!addOns.length) return rawQuery;
   return `${rawQuery}\n\n${addOns.join(" ")}`;
 }
@@ -359,6 +449,9 @@ function RailContent({
   institutes,
   selectedId,
   onSelect,
+  prospective,
+  selectedProspectiveId,
+  onSelectProspective,
   messages,
   error,
   isStreaming,
@@ -366,29 +459,58 @@ function RailContent({
   institutes: InstituteEntry[];
   selectedId: string | null;
   onSelect: (id: string | null) => void;
+  prospective: ProspectiveCard[];
+  selectedProspectiveId: string | null;
+  onSelectProspective: (id: string | null) => void;
   messages: UIMessage[];
   error?: Error | undefined;
   isStreaming: boolean;
 }) {
-  const [tab, setTab] = useState<"ranked" | "events">("ranked");
+  const [tab, setTab] = useState<"bank" | "prospective">("bank");
+  const [eventsOpen, setEventsOpen] = useState(false);
   useEffect(() => {
-    if (institutes.length > 0 && !isStreaming) setTab("ranked");
+    if (institutes.length > 0 && !isStreaming) setTab("bank");
   }, [isStreaming, institutes.length]);
+  useEffect(() => {
+    if (selectedProspectiveId) setTab("prospective");
+  }, [selectedProspectiveId]);
   return (
     <>
-      <div className="rail-tabs">
-        <button className={`rail-tab ${tab === "ranked" ? "on" : ""}`} onClick={() => setTab("ranked")}>
-          Ranked <span className="count">· {institutes.length}</span>
+      <div className="rail-switcher">
+        <button
+          className={`rs-btn ${tab === "bank" ? "on" : ""}`}
+          onClick={() => setTab("bank")}
+        >
+          <span className="rs-label">From the bank</span>
+          <span className="rs-count">{institutes.length}</span>
         </button>
-        <button className={`rail-tab ${tab === "events" ? "on" : ""}`} onClick={() => setTab("events")}>
-          Events <span className="count">· {messages.length}</span>
+        <button
+          className={`rs-btn ${tab === "prospective" ? "on" : ""}`}
+          onClick={() => setTab("prospective")}
+        >
+          <span className="rs-label">Prospective</span>
+          <span className="rs-count">{prospective.length}</span>
         </button>
       </div>
       <div className="rail-body">
-        {tab === "ranked" ? (
+        {tab === "bank" ? (
           <RankedList institutes={institutes} selectedId={selectedId} onSelect={onSelect} />
         ) : (
-          <EventLog messages={messages} error={error} streaming={isStreaming} />
+          <ProspectiveList
+            cards={prospective}
+            selectedId={selectedProspectiveId}
+            onSelect={onSelectProspective}
+          />
+        )}
+      </div>
+      <div className="rail-foot">
+        <button className="rail-foot-link" onClick={() => setEventsOpen((o) => !o)}>
+          {eventsOpen ? "Hide" : "Show"} activity log · {messages.length}
+        </button>
+        {eventsOpen && (
+          <div className="rail-events">
+            <EventLog messages={messages} error={error} streaming={isStreaming} />
+          </div>
         )}
       </div>
     </>

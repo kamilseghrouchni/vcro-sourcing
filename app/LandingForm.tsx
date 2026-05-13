@@ -9,9 +9,11 @@ export function LandingForm({ curated }: { curated: Curated[] }) {
   const [text, setText] = useState("");
 
   const go = (q: string) => {
-    if (!q.trim()) return;
-    sessionStorage.setItem("crovi_initial_query", q.trim());
-    router.push("/workspace");
+    const trimmed = q.trim();
+    if (!trimmed) return;
+    // Pass the query in the URL so the workspace re-parses on each new run,
+    // even if the route component is preserved in Next.js's router cache.
+    router.push(`/workspace?q=${encodeURIComponent(trimmed)}&t=${Date.now()}`);
   };
 
   return (
