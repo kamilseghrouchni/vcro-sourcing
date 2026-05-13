@@ -50,3 +50,10 @@ test-*.png
 
 # Local data path config (per-machine)
 .data-paths.local
+
+# Videos (kept local, never committed)
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
